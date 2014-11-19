@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Call Recorder</string>
+    <string name="terms_of_use">Terms of Use</string>
+    <string name="terms_of_use_message">By using the app, you agree to the CallRecorder\'s
+        <![CDATA[<a href="http://rec.sh/terms">Terms of Use</a>.]]></string>
+
+    <!-- Navigation drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Navigation drawer sections -->
+    <string name="section_all_recordings">All recordings</string>
+    <string name="section_starred">Starred</string>
+    <string name="section_incoming">Incoming</string>
+    <string name="section_outgoing">Outgoing</string>
+    <string name="section_by_contact">By contact</string>
+    <string name="section_by_format">By format</string>
+    <string name="section_by_label">By label</string>
+    <string name="section_help">Help</string>
+    <string name="section_tasks">Tasks</string>
+    <string name="section_tasks_hint">Time-consuming tasks with recordings such as converting, encrypting or uploading
+        to a cloud will be displayed here
+    </string>
+    <string name="empty_hint">Empty</string>
+
+    <!-- Action bar -->
+    <string name="action_search">Search</string>
+    <string name="action_sort">Sort</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_add_star">Add star</string>
+    <string name="action_remove_star">Remove star</string>
+    <string name="action_share">Share</string>
+    <string name="action_select_all">Select all</string>
+    <string name="sort_by_date">By date</string>
+    <string name="sort_by_contact">By contact</string>
+    <string name="sort_by_file_size">By file size</string>
+
+    <!-- List -->
+    <string name="list_header_today">Today</string>
+    <string name="list_header_yesterday">Yesterday</string>
+    <string name="queued">Queued</string>
+    <string name="no_connection">No connection</string>
+
+    <!-- List -> Context menu -->
+    <string name="menu_add_to_dropbox">Add to Dropbox</string>
+    <string name="menu_add_note">Add note</string>
+    <string name="menu_edit_note">Edit note</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_convert_to_mp3">Convert to MP3</string>
+    <string name="menu_convert_to_amr">Convert to AMR</string>
+    <string name="menu_get_info">Get info</string>
+    <string name="menu_cancel_task">Cancel task</string>
+    <string name="menu_encrypt">Encrypt</string>
+    <string name="menu_decrypt">Decrypt</string>
+
+    <!-- List -> Get info dialog -->
+    <string name="file_name">File name</string>
+    <string name="sample_rate">Sample rate</string>
+    <string name="sample_rate_hz">Hz</string>
+    <string name="recording_type">Recording type</string>
+    <string name="recording_type_mono">Mono</string>
+    <string name="recording_type_stereo">Stereo</string>
+    <string name="file_size">File size</string>
+    <string name="terabyte">TB</string>
+    <string name="gigabyte">GB</string>
+    <string name="megabyte">MB</string>
+    <string name="kilobyte">KB</string>
+    <string name="bytes">bytes</string>
+    <string name="note">Note</string>
+
+    <!-- List -> Get info dialog -> Edit -->
+    <string name="contact_name">Contact name</string>
+    <string name="phone_number">Phone number</string>
+
+    <!-- List -> Confirm delete dialog -->
+    <string name="confirm_delete_message">Are you sure you want to delete this recording?</string>
+    <string name="confirm_delete_several_title">Confirm deletion</string>
+    <string name="confirm_delete_several_message">You have selected %d recordings. Are you sure you want to delete
+        them?
+    </string>
+
+    <!-- List -> Share -->
+    <string name="share_via">Share via</string>
+    <string name="recorded_calls">Recorded calls</string>
+
+    <!--  Settings -> Headers -->
+    <string name="settings_recording">Recording</string>
+    <string name="settings_folders_and_files">Folders and Files</string>
+    <string name="settings_ui_and_appearance">Interface and Appearance</string>
+    <string name="settings_security">Security</string>
+    <string name="settings_cloud">Cloud</string>
+    <string name="settings_audio_player">Audio player</string>
+    <string name="settings_debug">Debug</string>
+    <string name="settings_about">About</string>
+
+    <!-- Settings -> License -->
+    <string name="license_status">License status</string>
+    <string name="license_check_pending">License Check Pending</string>
+    <string name="license_check_failed">Failed to Verify License</string>
+    <string name="license_check_failed_summary">Press here for details</string>
+    <string name="license_verified">License Verified</string>
+    <string name="license_verified_summary">Press to hide</string>
+    <string name="license_help">Help</string>
+    <string name="license_signature_verification_failed">Signature verification failed</string>
+    <string name="license_error_message">Error #%1$s: %2$s</string>
+    <string name="license_trial">Trial version, will expire on %s</string>
+    <string name="license_unknown_error">Unknown error</string>
+    <string name="license_not_market_managed">This version is not published on the Play Store yet</string>
+    <string name="license_incorrect_response">Incorrect license response from the Play Store</string>
+    <string name="license_error_contacting_server">Error contacting server</string>
+    <string name="license_server_error">Server error</string>
+    <string name="license_over_quota">Too many requests from this device</string>
+
+    <string name="buy_full_version">Buy full version</string>
+    <string name="buy_full_version_summary">Current version will expire on %s</string>
+
+    <!-- Settings -> Recording -->
+    <string name="recording_calls_switch">Recording calls</string>
+    <string name="category_main">Main</string>
+    <string name="device">Device</string>
+    <string name="select_your_device">Select your device</string>
+    <string name="device_change_settings_empty">The settings for this device are already set up</string>
+    <string name="device_root_is_required">Root is required</string>
+    <string name="device_root_is_required_summary">For better quality root is needed on this device</string>
+    <string name="device_other">Other</string>
+    <string name="recording_method">Recording method</string>
+    <string name="recording_method_api">Standard API</string>
+    <string name="recording_method_api_settings">Settings for Standard API recording method</string>
+    <string name="recording_method_caf">CAF</string>
+    <string name="recording_method_caf_settings">Settings for CAF recording method</string>
+    <string name="recording_method_alsa">ALSA</string>
+    <string name="recording_method_alsa_settings">Settings for MSM recording method</string>
+    <string name="recording_method_msm">MSM</string>
+    <string name="recording_method_msm_settings">Settings for MSM recording method</string>
+    <string name="category_actions">Actions</string>
+    <string name="action_for_incoming">Action for incoming calls</string>
+    <string name="action_for_outgoing">Action for outgoing calls</string>
+    <string name="action_record_all">Record all</string>
+    <string name="action_do_not_record">Do not record</string>
+    <string name="action_record_contacts">Record contacts</string>
+    <string name="action_record_non_contacts">Record non-contacts</string>
+    <string name="call_confirm">Call confirm</string>
+    <string name="call_confirm_summary">Show confirmation dialog before calling</string>
+    <string name="after_call_actions_dialog">After-call actions dialog</string>
+    <string name="after_call_actions_dialog_summary">Ask what to do after a call</string>
+    <string name="vibrate_on_call">Vibrate on call start/end</string>
+    <string name="exceptions">Exceptions</string>
+    <string name="exceptions_summary">Set specific actions for contacts, groups, or phone numbers</string>
+    <string name="start_recording_on_answer">Start recording on answer</string>
+    <string name="start_recording_on_answer_summary">Start recording once an outgoing call is answered. The app uses an
+        undocumented workaround to detect a moment when the other side answers, so this feature may fail on some
+        devices. Root is required since Android 4.1 Jelly Bean. Logger in the kernel must be enabled.
+    </string>
+    <string name="delay_before_start_recording">Delay before start recording</string>
+    <string name="delay_before_start_recording_summary">For outgoing: %1$s, for incoming: %2$s</string>
+    <string name="delay_format_sec">%s sec</string>
+    <string name="delay_for_outgoing">For outgoing</string>
+    <string name="delay_for_incoming">For incoming</string>
+    <string name="settings_for_device">Settings for %s</string>
+    <string name="settings_diff">%1$s → %2$s</string>
+    <string name="settings_diff_method_title">[%1$s] %2$s</string>
+    <string name="recording_format">Recording format</string>
+    <string name="recording_format_wav">WAV</string>
+    <string name="recording_format_amr">AMR</string>
+    <string name="recording_format_aac">AAC</string>
+    <string name="recording_format_mp3">MP3</string>
+    <string name="volume_control">Volume control</string>
+    <string name="volume_control_format_percents">%1$s%%</string>
+    <string name="volume_control_summary">Tx: %1$s, Rx: %2$s</string>
+    <string name="volume_control_overall">Overall volume</string>
+    <string name="volume_control_tx">Tx</string>
+    <string name="volume_control_rx">Rx</string>
+    <string name="sample_rate_8000">8000 Hz (Default)</string>
+    <string name="sample_rate_11025">11025 Hz</string>
+    <string name="sample_rate_16000">16000 Hz</string>
+    <string name="sample_rate_22050">22050 Hz</string>
+    <string name="sample_rate_44100">44100 Hz</string>
+    <string name="sample_rate_48000">48000 Hz</string>
+
+    <!-- Settings -> Recording -> Standard API -->
+    <string name="api_audio_source">Audio source</string>
+    <string name="api_source_uplink_downlink">Voice call uplink + downlink</string>
+    <string name="api_source_downlink">Voice call downlink</string>
+    <string name="api_source_uplink">Voice call uplink</string>
+    <string name="api_source_microphone">Microphone</string>
+    <string name="api_source_default">Default</string>
+    <string name="api_source_voice_communication">Voice communication</string>
+    <string name="category_wav_settings">WAV settings</string>
+    <string name="category_wav_and_mp3_settings">WAV &amp; MP3 settings</string>
+
+    <!-- Settings -> Recording -> CAF -->
+    <string name="recording_mode">Recording mode</string>
+
+    <!-- Settings -> Recording -> ALSA -->
+    <string name="alsa_is_not_installed">ALSA must be installed</string>
+    <string name="alsa_is_not_installed_summary">Tap here to install ALSA</string>
+
+    <!-- Settings -> Recording -> MSM -->
+    <string name="chipset_type">Chipset type</string>
+    <string name="chipset_type_msm72xx">Qualcomm MSM72XX</string>
+    <string name="chipset_type_msm8250">Qualcomm MSM8250</string>
+    <string name="chipset_type_msm8255">Qualcomm MSM8255</string>
+    <string name="chipset_type_msm8260">Qualcomm MSM8260</string>
+    <string name="dont_use_amr_driver">Don\'t use AMR driver</string>
+    <string name="dont_use_amr_driver_summary">Convert WAV to AMR in real time instead</string>
+
+    <!-- Settings -> Recording -> Exceptions -->
+    <string name="add_exception">Add exception</string>
+    <string name="exception_group">Group</string>
+    <string name="exception_select_group">Select group</string>
+    <string name="exception_contact">Contact</string>
+    <string name="exception_select_contact">Select contact</string>
+    <string name="exception_phone_number">Phone number</string>
+    <string name="exception_action">Action</string>
+    <string name="exception_select_action">Select action</string>
+    <string name="exception_action_always_record">Always record</string>
+    <string name="exception_action_never_record">Never record</string>
+    <string name="exception_groups_not_found">Groups not found</string>
+    <string name="exception_contacts_not_found">Contacts not found</string>
+    <string name="exceptions_not_added">Exceptions not added</string>
+    <string name="exception_by_contact">By contact</string>
+    <string name="exception_by_group">By group</string>
+    <string name="exception_by_phone_number">By phone number</string>
+    <string name="exception_delete_message">Are you sure you want to delete this exception?</string>
+
+    <!-- Settings -> Folders and Files -->
+    <string name="folder">Folder</string>
+    <string name="folder_chooser_up_to">↑ Up to %s</string>
+    <string name="automatic_cleanup">Automatic cleanup</string>
+    <string name="max_number_of_files">Max. number of files</string>
+    <string name="max_number_of_files_message">Enter a number (0 - no limit)</string>
+    <string name="max_total_size_of_files">Max. total size of files</string>
+    <string name="max_total_size_of_files_message">Enter a value in megabytes (0 - no limit)</string>
+    <string name="max_age_of_recordings">Max. age of recordings</string>
+    <string name="max_age_of_recordings_message">Enter a value in days (0 - no limit)</string>
+    <string name="current_setting">Current setting: %s</string>
+    <string name="settings_filename">Filename</string>
+    <string name="filename_pattern">Pattern</string>
+    <string name="time_pattern">Time pattern</string>
+
+    <!-- Description for filename pattern -->
+    <string name="pattern_contact_name">contact name</string>
+    <string name="pattern_phone_number">phone number</string>
+    <string name="pattern_call_time">call time</string>
+    <string name="pattern_call_timestamp">call timestamp (unix time)</string>
+    <string name="pattern_call_type">call type (outgoing or incoming)</string>
+    <string name="time_pattern_hours">hours</string>
+    <string name="time_pattern_minutes">minutes</string>
+    <string name="time_pattern_seconds">seconds</string>
+    <string name="time_pattern_days">days</string>
+    <string name="time_pattern_months">months</string>
+    <string name="time_pattern_years">years</string>
+    <string name="pattern_example">Example:</string>
+
+    <!--Settings -> Interface and Appearance-->
+    <string name="category_notification">Notification</string>
+    <string name="show_notification">Show notification</string>
+    <string name="show_notification_summary">Permanent notification in the status bar</string>
+    <string name="category_incall_control_button">In-call control button</string>
+    <string name="incall_control_for_outgoing">For outgoing calls</string>
+    <string name="incall_control_for_outgoing_summary">Show in-call control button on outgoing calls</string>
+    <string name="incall_control_for_incoming">For incoming calls</string>
+    <string name="incall_control_for_incoming_summary">Show in-call control button on incoming calls</string>
+    <string name="hide_button_while_recording">Hide button while recording</string>
+    <string name="hide_button_while_recording_summary">Hide in-call control button if call is being recorded</string>
+    <string name="show_button_while_ringing">Show button while ringing</string>
+    <string name="show_button_while_ringing_summary">Show in-call control button before incoming call answered</string>
+    <string name="vertical_position">Vertical position</string>
+    <string name="vertical_position_summary">%s dp, offset from the screen\'s center</string>
+    <string name="horizontal_position">Horizontal position</string>
+    <string name="horizontal_position_summary">%s dp, offset from the screen\'s center</string>
+    <string name="hide_button_before_answer">Hide button before answer</string>
+    <string name="hide_button_before_answer_summary">Don\'t show in-call control button until connection is established</string>
+
+    <!-- Settings -> Cloud -->
+    <string name="cloud_provider">Cloud provider</string>
+    <string name="cloud_provider_dropbox">Dropbox</string>
+    <string name="sign_in_dropbox">Sign in Dropbox</string>
+    <string name="sign_out_dropbox">Sign out of Dropbox</string>
+    <string name="cloud_provider_google_drive">Google Drive</string>
+    <string name="cloud_common_settings">Common</string>
+    <string name="cloud_wifi_only">Wi-Fi only</string>
+    <string name="cloud_auto_upload">Auto upload</string>
+    <string name="cloud_auto_upload_summary">Upload recording right after call</string>
+    <string name="cloud_upload_starred">Upload starred</string>
+    <string name="cloud_upload_starred_summary">Upload recording to cloud when you add star to it</string>
+
+    <!-- Notification -->
+    <string name="notify_uploading_dropbox">Uploading to Dropbox</string>
+    <string name="notify_tasks_remaining">%d recordings remaining</string>
+
+    <!-- Password dialog -->
+    <string name="wrong_password">Wrong password</string>
+    <string name="enter_password">Enter password</string>
+    <string name="password_has_been_changed">Password has been changed</string>
+
+    <!-- Settings -> Security -->
+    <string name="category_encryption">Encryption</string>
+    <string name="category_application">Application</string>
+    <string name="create_new_key">Create new key</string>
+    <string name="create_new_key_summary">This key will be used later to encrypt recordings or to enter the app</string>
+    <string name="delete_key">Delete key</string>
+    <string name="change_password">Change password</string>
+    <string name="delete_key_summary">Warning! You\'ll never be able to recover encrypted recordings if you\'ve
+        encrypted
+        them with this key, even if you create a new key with the same password
+    </string>
+    <string name="delete_key_message">After deletion you won\'t be able to recover encrypted recordings with this key.
+        Are you sure you want to proceed?
+    </string>
+    <string name="enter_old_password">Enter old password</string>
+    <string name="enter_new_password">Enter new password</string>
+    <string name="re_enter_new_password">Re-enter new password</string>
+    <string name="require_password">Require password</string>
+    <string name="require_password_summary">Require password to open the app</string>
+    <string name="require_password_summary_no_key">Require password to open the app. To enable this you should create a
+        key firstly
+    </string>
+    <string name="lock_after">Lock after</string>
+    <string name="lock_after_exit">Exit</string>
+    <string name="lock_after_1_minute">1 min</string>
+    <string name="lock_after_3_minutes">3 min</string>
+    <string name="lock_after_5_minutes">5 min</string>
+    <string name="lock_after_10_minutes">10 min</string>
+    <string name="app_admin">App Admin</string>
+    <string name="app_admin_summary">Necessary to prevent uninstalling Call Recorder</string>
+    <string name="app_admin_explanation">Call Recorder doesn\'t use any feature of device admin except protecting
+        uninstall
+    </string>
+    <string name="aes_128bit">128-bit AES (Faster)</string>
+    <string name="aes_192bit">192-bit AES (Balanced)</string>
+    <string name="aes_256bit">256-bit AES (Stronger)</string>
+
+    <!-- Settings -> Audio player -->
+    <string name="use_built_in_player">Use built-in player</string>
+    <string name="audio_output">Audio output</string>
+    <string name="audio_output_summary">%s (Long tap on play/pause button will switch it as well)</string>
+    <string name="main_speaker">Main speaker</string>
+    <string name="phone_speaker">Phone speaker</string>
+    <string name="use_proximity_sensor">Use proximity sensor</string>
+    <string name="use_proximity_sensor_summary">Disable screen by proximity sensor during playback</string>
+    <string name="switch_audio_output">Switch audio output</string>
+    <string name="switch_audio_output_summary">Automatically switch audio output when screen is disabled/enabled by
+        proximity sensor
+    </string>
+    <string name="android_wav_decoder">Android decoder for WAV</string>
+    <string name="android_wav_decoder_summary">Use built-in Android tools to play WAV</string>
+    <string name="android_amr_decoder">Android decoder for AMR</string>
+    <string name="android_amr_decoder_summary">Use built-in Android tools to play AMR</string>
+
+    <!--Settings -> Debug-->
+    <string name="root_access">Root access</string>
+    <string name="root_access_no">No</string>
+    <string name="root_access_yes">Yes</string>
+
+    <!-- General -->
+    <string name="contact_unknown">Unknown</string>
+    <string name="button_choose">Choose</string>
+    <string name="button_ok">OK</string>
+    <string name="button_call">Call</string>
+    <string name="button_edit">Edit</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_create">Create</string>
+    <string name="button_delete">Delete</string>
+    <string name="button_delete_wait">Delete (%d)</string>
+    <string name="decline">Decline</string>
+    <string name="accept">Accept</string>
+    <string name="call_incoming">Incoming</string>
+    <string name="call_outgoing">Outgoing</string>
+    <string name="please_wait">Please wait&#8230;</string>
+    <string name="start_recording">Start recording</string>
+    <string name="stop_recording">Stop recording</string>
+    <string name="action_mode_selected">%d selected</string>
+    <string name="switch_on">On</string>
+    <string name="switch_off">Off</string>
+
+    <!-- Call confirm dialog -->
+    <string name="call_confirm_record_this_call">Record this call</string>
+    <string name="open_contact">Open contact</string>
+
+    <!--Notification-->
+    <string name="waiting_for_answer">Waiting for answer</string>
+    <string name="recording_in_progress">Recording in progress</string>
+    <string name="no_recording_in_progress">No recording in progress</string>
+    <string name="an_error_has_occurred">An error has occurred, this call cannot be recorded</string>
+
+    <!--About-->
+    <string name="about_call_recorder">About Call Recorder</string>
+    <string name="version">Version</string>
+    <string name="copyright">Copyright</string>
+    <string name="copyright_summary">&#169; %s Alexander Skvortsov (skvalex)</string>
+    <string name="about_many_thanks">Many thanks</string>
+    <string name="about_many_thanks_summary">to Alexey Subbotin (avs234)</string>
+
+    <string name="licenses">Licenses</string>
+    <string name="about_open_core_amr_license">opencore-amr</string>
+    <string name="about_open_core_amr_license_summary">Uses opencore-amr under Apache License Version 2.0, click here to
+        visit
+        opencore-amr.sourceforge.net
+    </string>
+    <string name="about_alsa">ALSA</string>
+    <string name="about_alsa_summary">Uses ALSA under LGPL, click here to visit alsa-project.org</string>
+    <string name="about_lame">LAME</string>
+    <string name="about_lame_summary">Uses LAME under LGPL, click here to visit mp3dev.org</string>
+</resources>
