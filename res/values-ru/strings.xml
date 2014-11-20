@@ -389,4 +389,5 @@
     <string name="about_lame">LAME</string>
     <string name="about_lame_summary">Использует LAME в рамках LGPL, нажмите сюда, чтобы посетить mp3dev.org</string>
 <string name="about_call_recorder">О программе</string>
+    <string name="recording_in_progress">Идет запись</string>
     </resources>
