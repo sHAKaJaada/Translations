@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <!--Rules array-->
@@ -478,7 +478,7 @@
     <string name="license_trial">Пробная версия, закончится %s</string>
 
     <string name="copyright">Copyright</string>
-    <string name="copyright_summary">&#169; %s Александр Скворцов (skvalex)</string>
+    <string name="copyright_summary">© %s Александр Скворцов (skvalex)</string>
     <string name="about_many_thanks">Огромное спасибо</string>
     <string name="about_many_thanks_summary">Алексею Субботину (avs234)</string>
     <string name="sGermanTranslation">Перевод на немецкий</string>
@@ -560,4 +560,71 @@
     <string name="about_alsa_summary">Использует ALSA в рамках LGPL, нажмите сюда, чтобы посетить alsa-project.org</string>
     <string name="about_lame">LAME</string>
     <string name="about_lame_summary">Использует LAME в рамках LGPL, нажмите сюда, чтобы посетить mp3dev.org</string>
-</resources>
+<string name="terms_of_use">Условия использования</string>
+    <string name="terms_of_use_message">Используя приложение, вы соглашаетесь с &lt;a href=http://rec.sh/terms&gt;условиями использования&lt;/a&gt; CallRecorder'а.</string>
+
+    <string name="navigation_drawer_open">Открыть \tпанель навигации</string>
+    <string name="navigation_drawer_close">Закрыть \tпанель навигации</string>
+
+    <string name="section_all_recordings">Все записи</string>
+    <string name="section_by_contact">По контакту</string>
+    <string name="section_by_format">По формату</string>
+    <string name="section_by_label">По ярлыку</string>
+    <string name="action_sort">Сортировать</string>
+    <string name="action_refresh">Обновить</string>
+    <string name="action_delete">Удалить</string>
+    <string name="action_share">Поделиться</string>
+    <string name="sort_by_date">По дате</string>
+    <string name="sort_by_contact">По контакту</string>
+    <string name="sort_by_file_size">По размеру</string>
+
+    <string name="list_header_today">Сегодня</string>
+    <string name="list_header_yesterday">Вчера</string>
+    <string name="queued">В очереди</string>
+    <string name="no_connection">Нет соединения</string>
+
+    <string name="menu_add_note">Добавить заметку</string>
+    <string name="menu_edit_note">Изменить заметку</string>
+    <string name="menu_share">Поделиться</string>
+    <string name="menu_convert_to_mp3">Конверт. в MP3</string>
+    <string name="menu_convert_to_amr">Конверт. в AMR</string>
+    <string name="menu_cancel_task">Отменить задачу</string>
+    <string name="recording_type">Тип записи</string>
+    <string name="note">Заметка</string>
+
+    <string name="confirm_delete_several_title">Подтверждение удаления</string>
+    <string name="confirm_delete_several_message">Вы выбрали %d записей. Вы уверены, что хотите удалить их?</string>
+
+    <string name="share_via">Поделиться через</string>
+    <string name="settings_cloud">Облако</string>
+    <string name="license_check_pending">Ожидание проверки лицензии</string>
+    <string name="license_check_failed">Не удалось проверить лицензию</string>
+    <string name="license_verified">Лицензия проверена</string>
+    <string name="license_help">Помощь</string>
+    <string name="license_error_message">Ошибка #%1$s: %2$s</string>
+    <string name="license_unknown_error">Неизвестная ошибка</string>
+    <string name="license_not_market_managed">Эта версия пока ещё не опубликована на Play Store</string>
+    <string name="license_error_contacting_server">Ошибка соединения с сервером</string>
+    <string name="license_server_error">Ошибка сервера</string>
+    <string name="license_over_quota">Слишком много запросов с этого устройства</string>
+
+    <string name="device_change_settings_empty">Настройки для этого устройства уже установлены</string>
+    <string name="device_root_is_required">Требуется root</string>
+    <string name="device_root_is_required_summary">На этом устройстве необходим root для лучшего качества</string>
+    <string name="recording_method_msm">MSM</string>
+    <string name="start_recording_on_answer">Начинать запись при ответе</string>
+    <string name="delay_before_start_recording_summary">Для исходящих: %1$s, для исходящих: %2$s</string>
+    <string name="delay_format_sec">%s сек</string>
+    <string name="delay_for_outgoing">Для исходящих</string>
+    <string name="delay_for_incoming">Для входящих</string>
+    <string name="settings_for_device">Настройки для %s</string>
+    <string name="settings_diff">%1$s → %2$s</string>
+    <string name="recording_format">Формат записи</string>
+    <string name="volume_control_overall">Общая громкость</string>
+    <string name="category_wav_and_mp3_settings">WAV и MP3 настройки</string>
+
+    <string name="alsa_is_not_installed">ALSA должна быть установлена</string>
+    <string name="alsa_is_not_installed_summary">Нажмите здесь, чтобы установить ALSA</string>
+
+    <string name="add_exception">Добавить исключение</string>
+    </resources>
