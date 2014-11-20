@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><resources>
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">Условия использования</string>
     <string name="terms_of_use_message">Используя приложение, вы соглашаетесь с &lt;a href=http://rec.sh/terms&gt;условиями использования&lt;/a&gt; CallRecorder\'а.</string>
@@ -355,7 +356,7 @@
     <string name="accept">Принять</string>
     <string name="call_incoming">Входящий</string>
     <string name="call_outgoing">Исходящий</string>
-    <string name="please_wait">Пожалуйста, подождите...</string>
+    <string name="please_wait">Пожалуйста, подождите…</string>
     <string name="start_recording">Начать запись</string>
     <string name="stop_recording">Остановить запись</string>
     <string name="action_mode_selected">%d</string>
