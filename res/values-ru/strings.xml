@@ -1,327 +1,221 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
     <string name="app_name">CallRecorder</string>
-    <!--Rules array-->
-    <string name="sRuleDescription">Я прочитал(а) и понял(а) описание программы</string>
-    <string name="sRulePlayStore">Я понял(а), что разработчик не может отвечать на комментарии, оставленные на маркете
-    </string>
-    <string name="sRuleUseOfProgram">Я понял(а), что разработчик не несёт ответственности за использование мной данной
-        программы. Эту программу я использую только на свой страх и риск.
-    </string>
-    <string name="sRuleLaw">Я абсолютно уверен(а), что, используя данную программу, я не нарушаю закон страны, в которой
-        я нахожусь
-    </string>
-    <string name="sRuleNotWorking">Если запись на моём телефоне работать не будет, я прочитаю описание программы
-        повторно, и если я не найду в нём ответа, то напишу разработчику на skvalex@gmail.com
+    <string name="terms_of_use">Условия использования</string>
+    <string name="terms_of_use_message">Используя приложение, вы соглашаетесь с &lt;a href=http://rec.sh/terms&gt;условиями
+        использования&lt;/a&gt; CallRecorder'а.
     </string>
 
-    <!--Notification-->
-    <string name="sRecordingIsRunning">Сервис для записи разговоров работает</string>
-    <string name="sThisCallIsRecording">Этот разговор записывается</string>
-    <string name="an_error_has_occurred">Произошла ошибка, разговор не будет записан</string>
-    <string name="sEncodingError">Произошла ошибка во время кодирования записи...</string>
-    <string name="start_recording">Начать запись</string>
-    <string name="stop_recording">Остановить запись</string>
+    <!-- Navigation drawer -->
+    <string name="navigation_drawer_open">Открыть панель навигации</string>
+    <string name="navigation_drawer_close">Закрыть панель навигации</string>
 
-    <!--List with recordings-->
+    <!-- Navigation drawer sections -->
+    <string name="section_all_recordings">Все записи</string>
+
+    <string name="section_incoming">Входящие</string>
+    <string name="section_outgoing">Исходящие</string>
+    <string name="section_by_contact">По контакту</string>
+    <string name="section_by_format">По формату</string>
+    <string name="section_by_label">По ярлыку</string>
+    <string name="section_help">Помощь</string>
+    <string name="section_tasks">Задачи</string>
+
     <string name="empty_hint">Пусто</string>
-    <string name="contact_unknown">Неизвестный</string>
 
-    <!--Actions on recording-->
-    <string name="category_actions">Действия</string>
-    <string name="sFilterThisNumber">Фильтровать этот номер</string>
-    <string name="sAddToFavorites">В избранное</string>
-    <string name="sRemoveFromFavorites">Из избранного</string>
-    <string name="sAddToContacts">Добавить в контакты</string>
-    <string name="sOpenContact">Открыть контакт</string>
-    <string name="sCall">Позвонить</string>
-    <string name="sNote">Заметка</string>
-    <string name="sConvertToMp3">Конвертировать в mp3</string>
-    <string name="sConvertToAmr">Конвертировать в amr</string>
-    <string name="sRenameFile">Переименовать файл</string>
+    <!-- Action bar -->
+    <string name="action_search">Поиск</string>
+    <string name="action_sort">Сортировать</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_refresh">Обновить</string>
+    <string name="action_delete">Удалить</string>
+
+
+    <string name="action_share">Поделиться</string>
+    <string name="action_select_all">Выбрать всё</string>
+    <string name="sort_by_date">По дате</string>
+    <string name="sort_by_contact">По контакту</string>
+    <string name="sort_by_file_size">По размеру</string>
+
+    <!-- List -->
+    <string name="list_header_today">Сегодня</string>
+    <string name="list_header_yesterday">Вчера</string>
+    <string name="queued">В очереди</string>
+    <string name="no_connection">Нет соединения</string>
+
+    <!-- List -> Context menu -->
+    <string name="menu_add_to_dropbox">Добавить на Dropbox</string>
+    <string name="menu_add_note">Добавить заметку</string>
+    <string name="menu_edit_note">Изменить заметку</string>
+    <string name="menu_delete">Удалить</string>
+    <string name="menu_share">Поделиться</string>
+    <string name="menu_convert_to_mp3">Конверт. в MP3</string>
+    <string name="menu_convert_to_amr">Конверт. в AMR</string>
     <string name="menu_get_info">Информация</string>
+    <string name="menu_cancel_task">Отменить задачу</string>
     <string name="menu_encrypt">Зашифровать</string>
     <string name="menu_decrypt">Расшифровывать</string>
 
-    <!--Actions on selected recordings-->
-    <string name="action_select_all">Выбрать всё</string>
-    <string name="sSelectNone">Очистить выбор</string>
-
-    <!--General-->
-    <string name="sSend">Отправить</string>
-    <string name="sSendVia">Отправить через</string>
-    <string name="menu_delete">Удалить</string>
-    <string name="button_cancel">Отмена</string>
-    <string name="button_ok">ОК</string>
-    <string name="sSeconds">сек</string>
-    <string name="sDisabled">Отключено</string>
-    <string name="sYes">Да</string>
-    <string name="sNo">Нет</string>
+    <!-- List -> Get info dialog -->
+    <string name="file_name">Имя файла</string>
+    <string name="sample_rate">Частота дискретизации</string>
+    <string name="sample_rate_hz">Гц</string>
+    <string name="recording_type">Тип записи</string>
+    <string name="recording_type_mono">Моно</string>
+    <string name="recording_type_stereo">Стерео</string>
+    <string name="file_size">Размер файла</string>
     <string name="terabyte">ТБ</string>
     <string name="gigabyte">ГБ</string>
     <string name="megabyte">МБ</string>
     <string name="kilobyte">КБ</string>
     <string name="bytes">байт</string>
-    <string name="please_wait">Пожалуйста, подождите...</string>
-    <string name="switch_on">Вкл</string>
-    <string name="switch_off">Выкл</string>
+    <string name="note">Заметка</string>
 
-    <!--Tabs-->
-    <string name="section_incoming">Входящие</string>
-    <string name="section_outgoing">Исходящие</string>
-    <string name="sFavorites">Избранное</string>
-    <string name="sAll">Все</string>
-
-    <!--Send recordings-->
-    <string name="recorded_calls">Записанные звонки</string>
-    <string name="sIncoming">Входящий</string>
-    <string name="sOutgoing">Исходящий</string>
-
-    <!--Dialog after call-->
-    <string name="sDlgDeleteMsg">Удалить или оставить записанный разговор?</string>
-    <string name="sKeep">Оставить</string>
-    <string name="sDropboxAdded">Добавлено</string>
-
-    <!--Delete confirmation dialog-->
-    <string name="sDeleteFiles">Удаление файлов</string>
-    <string name="confirm_delete_message">Вы уверены, что хотите удалить эту запись?</string>
-    <string name="sDlgDeleteSelectionMsg">Вы выбрали %d файлов. Вы уверены, что хотите их удалить?</string>
-    <string name="sFilesDeletedToast">%d файлов удалено</string>
-
-    <!--Call confirm dialog-->
-    <string name="call_confirm_record_this_call">Записать этот разговор</string>
-
-    <!--Dialog about law-->
-    <string name="sWarning">Предупреждение</string>
-    <string name="sMsgAboutLaw">Запись разговоров в некоторых странах запрещена. Вы уверены, что живёте в стране в
-        которой запись не запрещена?
-    </string>
-
-    <!--Rules dialog-->
-    <string name="sRules">Правила</string>
-    <string name="sIAgree">Подтвердить</string>
-    <string name="sIDisagree">Опровергнуть</string>
-
-    <!--Main screen toasts-->
-    <string name="sAddToFavoritesSuccess">Эта запись успешно добавлена ​​в избранное</string>
-    <string name="sRemoveFromFavoritesSuccess">Эта запись успешно удалена из избранного</string>
-    <string name="sDeleteFavoriteRecordingMsg">Для удаления этой записи вы сначала должны удалить её из избранного
-    </string>
-
-    <!--Encryption-->
-    <string name="sFileSuccessfullyEncrypted">Файл успешно зашифрован</string>
-    <string name="sFileSuccessfullyDecrypted">Файл успешно расшифрован</string>
-    <string name="sEncrypting">Идёт шифрование</string>
-    <string name="sDecrypting">Идёт расшифровка</string>
-    <string name="sEncrypted">Зашифрованные</string>
-    <string name="wrong_password">Неправильный пароль</string>
-
-    <!--Main screen warnings-->
-    <string name="sAvailableFreeSpace">Мало памяти %s</string>
-    <string name="sReadWriteErr">Ошибка файловой системы.</string>
-    <string name="sAlsaIsNotInstalledMsg">Alsa не установлена. Нажмите сюда чтобы её установить.</string>
-    <string name="sPhoneMustBeRootedWarning">Ваш телефон должен иметь root-права! Чтобы скрыть это сообщение нажмите на
-        него и удерживайте.
-    </string>
-    <string name="sStandardAPITip">Если запись не работает - проверьте каждый источник записи в настройках для
-        стандартных API. Нажмите и удерживайте, чтобы скрыть это сообщение.
-    </string>
-
-    <!--Toasts-->
-    <string name="sLoggerMustBeEnabledToast">Logger в вашем ядре/прошивке должен быть включен!</string>
-    <string name="sFileWasDeletedToast">файл удалён</string>
-
-    <!--Action bar-->
-    <string name="action_search">Поиск</string>
-    <string name="sSizeRecords">записи: %1$s, размер: %2$s</string>
-    <string name="sFreeOf">свободно из</string>
-
-    <!--Tasks screen-->
-    <string name="section_tasks">Задачи</string>
-    <string name="sInProgress">Выполнено (%s)</string>
-    <string name="sInQueue">В очереди</string>
-
-    <!--Get Info dialog-->
-    <string name="file_name">Имя файла</string>
-    <string name="sample_rate_hz">Гц</string>
-    <string name="file_size">Размер файла</string>
-    <string name="button_edit">Изменить</string>
-
-    <!--Edit Info dialog-->
+    <!-- List -> Get info dialog -> Edit -->
     <string name="contact_name">Имя контакта</string>
     <string name="phone_number">Номер телефона</string>
 
-    <!--Description for file name pattern-->
-    <string name="pattern_contact_name">имя контакта</string>
-    <string name="pattern_phone_number">номер телефона</string>
-    <string name="pattern_call_time">время звонка</string>
-    <string name="sCallTimestamp">время звонка в timestamp</string>
-    <string name="pattern_call_type">тип звонка (исходящий или входящий)</string>
+    <!-- List -> Confirm delete dialog -->
+    <string name="confirm_delete_message">Вы уверены, что хотите удалить эту запись?</string>
+    <string name="confirm_delete_several_title">Подтверждение удаления</string>
+    <string name="confirm_delete_several_message">Вы выбрали %d записей. Вы уверены, что хотите удалить их?</string>
 
-    <!--Description for time pattern-->
-    <string name="time_pattern_hours">часы</string>
-    <string name="time_pattern_minutes">минуты</string>
-    <string name="time_pattern_seconds">секунды</string>
-    <string name="time_pattern_days">дни</string>
-    <string name="time_pattern_months">месяцы</string>
-    <string name="time_pattern_years">года</string>
-    <string name="pattern_example">Пример:</string>
+    <!-- List -> Share -->
+    <string name="share_via">Поделиться через</string>
+    <string name="recorded_calls">Записанные звонки</string>
 
-    <!--Trial expired dialog-->
-    <string name="sTrialPeriodExpired">Пробный период закончился</string>
-    <string name="sTrialPeriodExpiredMsg">Пожалуйста, удалите эту версию перед покупкой полной версии</string>
-    <string name="sBuy">Купить</string>
-
-    <!--New settings-->
-    <string name="action_settings">Настройки</string>
-    <string name="section_help">Помощь</string>
-
-    <!--Main settings-->
-    <string name="buy_full_version">Купить полную версию</string>
-    <string name="buy_full_version_summary">Текущая версия истекает %s</string>
-    <string name="sCallRecorderUpdater">Обновления программы</string>
+    <!--  Settings -> Headers -->
     <string name="settings_recording">Запись</string>
     <string name="settings_folders_and_files">Папки и Файлы</string>
     <string name="settings_ui_and_appearance">Интерфейс и внешний вид</string>
-    <string name="cloud_provider_dropbox">Dropbox</string>
     <string name="settings_security">Безопасность</string>
+    <string name="settings_cloud">Облако</string>
     <string name="settings_audio_player">Аудио плеер</string>
-    <string name="sExperimentalSettings">Экспериментальные</string>
     <string name="settings_debug">Отладка</string>
     <string name="settings_about">О программе</string>
 
-    <!--General-->
-    <string name="sGeneralSettingsCategory">Общие</string>
-    <string name="sOtherSettingsCategory">Другие</string>
-    <string name="sAdvancedSettingsCategory">Расширенные</string>
-    <string name="category_wav_settings">WAV Настройки</string>
-    <string name="category_main">Основные</string>
+    <!-- Settings -> License -->
+    <string name="license_status">Статус лицензии</string>
+    <string name="license_check_pending">Ожидание проверки лицензии</string>
+    <string name="license_check_failed">Не удалось проверить лицензию</string>
 
+    <string name="license_verified">Лицензия проверена</string>
 
-    <!--Buy full version-->
-    <string name="sOpenPlayStore">Открыть Play Store</string>
+    <string name="license_help">Помощь</string>
 
-    <!--CallRecorder Updater-->
-    <string name="sOpenCallRecorderUpdater">Открыть CallRecorder Updater</string>
+    <string name="license_error_message">Ошибка #%1$s: %2$s</string>
+    <string name="license_trial">Пробная версия, закончится %s</string>
+    <string name="license_unknown_error">Неизвестная ошибка</string>
+    <string name="license_not_market_managed">Эта версия пока ещё не опубликована на Play Store</string>
 
-    <!--Recording-->
+    <string name="license_error_contacting_server">Ошибка соединения с сервером</string>
+    <string name="license_server_error">Ошибка сервера</string>
+    <string name="license_over_quota">Слишком много запросов с этого устройства</string>
+
+    <string name="buy_full_version">Купить полную версию</string>
+    <string name="buy_full_version_summary">Текущая версия истекает %s</string>
+
+    <!-- Settings -> Recording -->
     <string name="recording_calls_switch">Записывать разговоры</string>
+    <string name="category_main">Основные</string>
     <string name="device">Устройство</string>
-    <string name="device_other">Другой</string>
     <string name="select_your_device">Выберите ваше устройство</string>
-    <string name="sAudioFormatSettingsCategory">Аудио формат</string>
-    <string name="sCallRecordingFormat">Формат записи разговоров</string>
-    <string name="sMethodSettingsCategory">Метод</string>
-    <string name="sKernelSettings">Ядро</string>
-    <string name="sKernelSettingsSummary">Настройки для записи через ядро</string>
+    <string name="device_change_settings_empty">Настройки для этого устройства уже установлены</string>
+    <string name="device_root_is_required">Требуется root</string>
+    <string name="device_root_is_required_summary">На этом устройстве необходим root для лучшего качества</string>
+    <string name="device_other">Другой</string>
+    <string name="recording_method">Метод записи</string>
     <string name="recording_method_api">Стандартные API</string>
     <string name="recording_method_api_settings">Настройки для записи через стандартные API</string>
-    <string name="recording_method_alsa">ALSA</string>
-    <string name="recording_method_alsa_settings">Настройки для записи через ALSA</string>
-    <string name="recording_method">Метод записи</string>
     <string name="recording_method_caf">CAF</string>
     <string name="recording_method_caf_settings">Настройки для записи через CAF</string>
-    <string name="volume_control">Управление громкостью</string>
-    <string name="recording_mode">Режим записи</string>
-    <string name="recording_type_mono">Моно</string>
-    <string name="recording_type_stereo">Стерео</string>
+    <string name="recording_method_alsa">ALSA</string>
+    <string name="recording_method_alsa_settings">Настройки для записи через ALSA</string>
+    <string name="recording_method_msm">MSM</string>
 
-    <!--Recording methods array-->
-    <string name="sRecordingMethodKernel">Ядро (требуется root)</string>
-    <string name="sRecordingMethodStandardAPI">Стандартные API</string>
-    <string name="sRecordingMethodALSA">ALSA (требуется root)</string>
-    <string name="sRecordingMethodCAF">CAF (требуется root)</string>
-
-    <!--Recording audio formats-->
-    <string name="recording_format_wav">WAV</string>
-    <string name="recording_format_amr">AMR</string>
-    <string name="recording_format_aac">AAC</string>
-    <string name="s3GPP">3GPP</string>
-    <string name="recording_format_mp3">MP3</string>
-
-    <!--Recording behavior-->
-    <string name="after_call_actions_dialog">Диалог действий после звонка</string>
-    <string name="after_call_actions_dialog_summary">Спрашивать что делать с записью после звонка</string>
-    <string name="call_confirm">Подтверждение вызова</string>
-    <string name="call_confirm_summary">Спрашивать подтверждения перед звонком</string>
-    <string name="sDefaultAction">Действие по умолчанию</string>
-    <string name="action_for_outgoing">Действие для исходящих вызовов</string>
+    <string name="category_actions">Действия</string>
     <string name="action_for_incoming">Действие для входящих вызовов</string>
-    <string name="delay_before_start_recording">Задержка перед началом записи</string>
-    <string name="sIncomingCalls">Входящие вызовы</string>
-    <string name="sOutgoingAndIncomingCalls">Исходящие и входящие вызовы</string>
-    <string name="sOutgoingCalls">Исходящие вызовы</string>
-    <string name="vibrate_on_call">Вибрация в начале/конце звонка</string>
-
-    <!--Actions-->
+    <string name="action_for_outgoing">Действие для исходящих вызовов</string>
     <string name="action_record_all">Записывать всё</string>
     <string name="action_do_not_record">Не записывать</string>
     <string name="action_record_contacts">Записывать контакты</string>
     <string name="action_record_non_contacts">Записывать не контакты</string>
-
-    <!--Recording -> Exceptions-->
+    <string name="call_confirm">Подтверждение вызова</string>
+    <string name="call_confirm_summary">Спрашивать подтверждения перед звонком</string>
+    <string name="after_call_actions_dialog">Диалог действий после звонка</string>
+    <string name="after_call_actions_dialog_summary">Спрашивать что делать с записью после звонка</string>
+    <string name="vibrate_on_call">Вибрация в начале/конце звонка</string>
     <string name="exceptions">Исключения</string>
-    <string name="sAddGroup">Добавить группу</string>
-    <string name="sAdd">Добавить</string>
-    <string name="exception_group">Группа</string>
-    <string name="exception_select_group">Выберите группу</string>
-    <string name="exception_select_action">Выберите действие</string>
-    <string name="sChangeAction">Изменить действие</string>
-    <string name="exception_action_always_record">Всегда записывать</string>
-    <string name="exception_action_never_record">Никогда не записывать</string>
-    <string name="sPressMenuToAddException">Чтобы добавить исключение, нажмите \'menu\'</string>
 
-    <!--Recording -> Kernel-->
-    <string name="chipset_type">Тип чипсета</string>
-    <string name="chipset_type_msm72xx">Qualcomm MSM72XX</string>
-    <string name="chipset_type_msm8250">Qualcomm MSM8250</string>
-    <string name="chipset_type_msm8255">Qualcomm MSM8255</string>
-    <string name="chipset_type_msm8260">Qualcomm MSM8260</string>
-    <string name="sSoundBoost">Подъем громкости</string>
-    <string name="sUplinkBoost">Выходной канал</string>
-    <string name="sDownlinkBoost">Входной канал</string>
-    <string name="dont_use_amr_driver">Не использовать драйвер AMR</string>
-    <string name="dont_use_amr_driver_summary">Конвертировать WAV в AMR на лету</string>
+    <string name="start_recording_on_answer">Начинать запись при ответе</string>
 
-    <!--Recording -> Standard API-->
-    <string name="api_audio_source">Источник записи</string>
-    <string name="sWhenBTConnected">Когда BT подключено...</string>
-    <string name="sBTEnabledMeansBTConnected">BT включено означает BT подключено</string>
-    <string name="sBTEnabledMeansBTConnectedSummary">После включения BT-адаптера использовать настройки, как если бы оно
-        было подключено
-    </string>
-    <string name="sAudioSourceWhenBTConnected">Источник записи когда BT подключено</string>
-    <string name="sample_rate">Частота дискретизации</string>
+    <string name="delay_before_start_recording">Задержка перед началом записи</string>
+    <string name="delay_before_start_recording_summary">Для исходящих: %1$s, для исходящих: %2$s</string>
+    <string name="delay_format_sec">%s сек</string>
+    <string name="delay_for_outgoing">Для исходящих</string>
+    <string name="delay_for_incoming">Для входящих</string>
+    <string name="settings_for_device">Настройки для %s</string>
+    <string name="settings_diff">%1$s → %2$s</string>
+
+    <string name="recording_format">Формат записи</string>
+    <string name="recording_format_wav">WAV</string>
+    <string name="recording_format_amr">AMR</string>
+    <string name="recording_format_aac">AAC</string>
+    <string name="recording_format_mp3">MP3</string>
+    <string name="volume_control">Управление громкостью</string>
+
+
+    <string name="volume_control_overall">Общая громкость</string>
+
+
     <string name="sample_rate_8000">8000 Гц (По умолчанию)</string>
     <string name="sample_rate_11025">11025 Гц</string>
     <string name="sample_rate_16000">16000 Гц</string>
     <string name="sample_rate_22050">22050 Гц</string>
     <string name="sample_rate_44100">44100 Гц</string>
     <string name="sample_rate_48000">48000 Гц</string>
-    <string name="sSampleRateWarning">Некоторые частоты могут не поддерживаться системой</string>
 
-    <!--Audio sources of Standard API array-->
+    <!-- Settings -> Recording -> Standard API -->
+    <string name="api_audio_source">Источник записи</string>
     <string name="api_source_uplink_downlink">Оба канала</string>
     <string name="api_source_downlink">Входной канал</string>
     <string name="api_source_uplink">Выходной канал</string>
     <string name="api_source_microphone">Микрофон</string>
     <string name="api_source_default">По умолчанию</string>
     <string name="api_source_voice_communication">Голосовая связь</string>
+    <string name="category_wav_settings">WAV Настройки</string>
+    <string name="category_wav_and_mp3_settings">WAV и MP3 настройки</string>
 
-    <!--Actions on BT connected array-->
-    <string name="sOnBTConnectedActionDoNothing">Ничего</string>
-    <string name="sOnBTConnectedActionSwitchAudioSource">Переключить источник записи</string>
-    <string name="sOnBTConnectedActionDisableRecording">Отключить запись</string>
+    <!-- Settings -> Recording -> CAF -->
+    <string name="recording_mode">Режим записи</string>
 
-    <!--Recording -> ALSA-->
-    <string name="sAlsa">Alsa</string>
-    <string name="sAlsaIsInstalled">Alsa установлена</string>
+    <!-- Settings -> Recording -> ALSA -->
+    <string name="alsa_is_not_installed">ALSA должна быть установлена</string>
+    <string name="alsa_is_not_installed_summary">Нажмите здесь, чтобы установить ALSA</string>
 
-    <!--Folders and Files-->
-    <string name="sRescan">Пересканировать</string>
-    <string name="sRescanSummary">Пересканировать папку для обновления списка записей</string>
-    <string name="sFolderSettingsCategory">Папка</string>
+    <!-- Settings -> Recording -> MSM -->
+    <string name="chipset_type">Тип чипсета</string>
+    <string name="chipset_type_msm72xx">Qualcomm MSM72XX</string>
+    <string name="chipset_type_msm8250">Qualcomm MSM8250</string>
+    <string name="chipset_type_msm8255">Qualcomm MSM8255</string>
+    <string name="chipset_type_msm8260">Qualcomm MSM8260</string>
+    <string name="dont_use_amr_driver">Не использовать драйвер AMR</string>
+    <string name="dont_use_amr_driver_summary">Конвертировать WAV в AMR на лету</string>
+
+    <!-- Settings -> Recording -> Exceptions -->
+    <string name="add_exception">Добавить исключение</string>
+    <string name="exception_group">Группа</string>
+    <string name="exception_select_group">Выберите группу</string>
+
+
+    <string name="exception_select_action">Выберите действие</string>
+    <string name="exception_action_always_record">Всегда записывать</string>
+    <string name="exception_action_never_record">Никогда не записывать</string>
+
+
+    <!-- Settings -> Folders and Files -->
     <string name="folder">Папка</string>
+
     <string name="automatic_cleanup">Автоудаление записей</string>
     <string name="max_number_of_files">Макс. число файлов</string>
     <string name="max_number_of_files_message">Введите число (0 - без ограничений)</string>
@@ -330,301 +224,156 @@
     <string name="max_age_of_recordings">Макс. время хранения записи</string>
     <string name="max_age_of_recordings_message">Введите число дней (0 - без ограничений)</string>
     <string name="current_setting">Текущая установка: %s</string>
-    <string name="sFileNameSettingsCategory">Имя файла</string>
+
     <string name="filename_pattern">Шаблон</string>
     <string name="time_pattern">Шаблон времени</string>
 
-    <!--Interface and Appearance-->
+    <!-- Description for filename pattern -->
+    <string name="pattern_contact_name">имя контакта</string>
+    <string name="pattern_phone_number">номер телефона</string>
+    <string name="pattern_call_time">время звонка</string>
+
+    <string name="pattern_call_type">тип звонка (исходящий или входящий)</string>
+    <string name="time_pattern_hours">часы</string>
+    <string name="time_pattern_minutes">минуты</string>
+    <string name="time_pattern_seconds">секунды</string>
+    <string name="time_pattern_days">дни</string>
+    <string name="time_pattern_months">месяцы</string>
+    <string name="time_pattern_years">года</string>
+    <string name="pattern_example">Пример:</string>
+
+    <!--Settings -> Interface and Appearance-->
     <string name="language">Язык</string>
     <string name="select_language">Выберите язык</string>
-    <string name="sActionBarSettingsCategory">Панель действий</string>
-    <string name="sAudioOutputActionBar">Вывод звука</string>
-    <string name="sAudioOutputActionBarSummary">Показывать настройку вывода звука в панели действий</string>
-    <string name="incall_control_for_outgoing">Для исходящих звонков</string>
-    <string name="sInCallControlForOutgoingSummary">Управление записью для исходящих</string>
-    <string name="incall_control_for_incoming">Для входящих звонков</string>
-    <string name="sInCallControlForIncomingSummary">Управление записью для входящих</string>
     <string name="category_notification">Уведомление</string>
-    <string name="sNotificationIcon">Иконка уведомления</string>
     <string name="show_notification">Показывать иконку в панели уведомлений</string>
-    <string name="sShowNotificationSummary">Увеличивается приоритет процесса</string>
-    <string name="sInCallControl">Управление записью во время звонка</string>
-    <string name="sHangUpAndCallBack">Повесить трубку и перезвонить</string>
-    <string name="sHangUpAndCallBackSummary">По долгому нажатию, завершить вызов и перезвонить автоматически</string>
+
+
+    <string name="incall_control_for_outgoing">Для исходящих звонков</string>
+
+    <string name="incall_control_for_incoming">Для входящих звонков</string>
+
+
     <string name="show_button_while_ringing">Показывать кнопку во время звонка</string>
     <string name="show_button_while_ringing_summary">Показывать кнопку управления записью до ответа на входящий вызов
     </string>
-    <string name="sExcludeFavoritesFromAll">Исключить избранное</string>
-    <string name="sExcludeFavoritesFromAllSummary">Скрыть избранное из списка со всеми записями</string>
     <string name="vertical_position">Расположение по вертикали</string>
+
     <string name="horizontal_position">Расположение по горизонтали</string>
-    <string name="sVerticalOffset">Отступ от верхнего или нижнего края</string>
-    <string name="sVerticalOffsetSummary">Отступ от края выбранного в настройке "Расположение по вертикали"</string>
-    <string name="sHorizontalOffset">Отступ от левого или правого края</string>
-    <string name="sHorizontalOffsetSummary">Отступ от края выбранного в настройке "Расположение по горизонтали"</string>
-    <string name="sLowSpaceWarning">Предупреждение о заканчивающейся памяти</string>
-    <string name="sLowSpaceWarningSummary">Установите порог минимального кол-ва памяти перед предупреждением в
-        мегабайтах
-    </string>
-    <string name="sMainScreen">Основной экран</string>
-    <string name="sHideInCallControlButton">Скрыть кнопку управления записью</string>
-    <string name="sHideInCallControlButtonSummary">Скрыть кнопку управления записью, если идёт запись</string>
-    <string name="sDontShowInCallButton">Не показывать кнопку до соединения</string>
+
+
     <string name="hide_button_before_answer_summary">Не показывать кнопку управления записью до соединения</string>
-    <string name="sLanguageDefault">По умолчанию</string>
 
-    <!--Vertical aligns array-->
-    <string name="sVerticalAlignTop">Сверху</string>
-    <string name="sVerticalAlignBottom">Снизу</string>
+    <!-- Settings -> Cloud -->
 
-    <!--Horizontal aligns array-->
-    <string name="sHorizontalAlignLeft">Слева</string>
-    <string name="sHorizontalAlignRight">Справа</string>
+    <string name="cloud_provider_dropbox">Dropbox</string>
 
-    <!--Notification icons array-->
-    <string name="sNotificationIconDefault">По умолчанию</string>
-    <string name="sNotificationIconGreenNew">Зелёная (новая)</string>
-    <string name="sNotificationIconGreenOld">Зелёная (старая)</string>
-    <string name="sNotificationIconGray">Серая</string>
-
-    <!--Dropbox-->
-    <string name="sDropboxLogin">Вход</string>
-    <string name="sDropboxLogout">Выход</string>
 
     <string name="cloud_wifi_only">Только Wi-Fi</string>
     <string name="cloud_auto_upload">Автозагрузка</string>
-    <string name="sCloudUploadFavorites">Загружать избранное</string>
-    <string name="sCloudUploadFavoritesSummary">Загружать записи на Dropbox при добавлении их в избранное</string>
     <string name="cloud_auto_upload_summary">Загружать запись сразу после разговора</string>
-    <string name="menu_add_to_dropbox">Добавить на Dropbox</string>
 
-    <!--Security-->
-    <string name="category_encryption">Шифрование</string>
-    <string name="sKeyNotFound">Ключ не найден</string>
-    <string name="sCreate">Создать</string>
-    <string name="create_new_key">Создать новый ключ</string>
+
+    <!-- Notification -->
+
+
+    <!-- Password dialog -->
+    <string name="wrong_password">Неправильный пароль</string>
     <string name="enter_password">Введите пароль</string>
-    <string name="sReEnterPassword">Повторно введите пароль</string>
-    <string name="aes_128bit">128-bit AES</string>
-    <string name="aes_192bit">192-bit AES</string>
-    <string name="aes_256bit">256-bit AES</string>
+    <string name="password_has_been_changed">Пароль был изменён</string>
+
+    <!-- Settings -> Security -->
+    <string name="category_encryption">Шифрование</string>
     <string name="category_application">Приложение</string>
-    <string name="app_admin">Права администратора</string>
-    <string name="sAppAdminSummary">Позволяет запретить удаление программы</string>
-    <string name="sAppAdminExplanation">Программе нужны права администратора только для того, чтобы предотвратить
-        удаление
-    </string>
+    <string name="create_new_key">Создать новый ключ</string>
+
+
     <string name="change_password">Изменить пароль</string>
+
+
     <string name="enter_old_password">Введите старый пароль</string>
     <string name="enter_new_password">Введите новый пароль</string>
     <string name="re_enter_new_password">Повторно введите новый пароль</string>
     <string name="require_password">Спрашивать пароль</string>
     <string name="require_password_summary">Спрашивать пароль при входе в программу</string>
+
     <string name="lock_after">Заблокировать после</string>
     <string name="lock_after_exit">Выхода</string>
     <string name="lock_after_1_minute">1 мин</string>
     <string name="lock_after_3_minutes">3 мин</string>
     <string name="lock_after_5_minutes">5 мин</string>
     <string name="lock_after_10_minutes">10 мин</string>
-    <string name="password_has_been_changed">Пароль был изменён</string>
+    <string name="app_admin">Права администратора</string>
 
-    <!--Audio player-->
-    <string name="sUseDefaultPlayer">Использовать встроенный плеер</string>
+
+    <string name="aes_128bit">128-bit AES</string>
+    <string name="aes_192bit">192-bit AES</string>
+    <string name="aes_256bit">256-bit AES</string>
+
+    <!-- Settings -> Audio player -->
+
     <string name="audio_output">Вывод звука</string>
+
+    <string name="main_speaker">Основной динамик</string>
+    <string name="phone_speaker">Телефонный динамик</string>
+    <string name="use_proximity_sensor">Использовать датчик приближения</string>
+
+    <string name="switch_audio_output">Переключение вывода звука</string>
+
     <string name="android_wav_decoder">Android декодер для WAV</string>
     <string name="android_wav_decoder_summary">Использовать встроенные инструменты для проигрывания WAV</string>
     <string name="android_amr_decoder">Android декодер для AMR</string>
     <string name="android_amr_decoder_summary">Использовать встроенные инструменты для проигрывания AMR</string>
-    <string name="switch_audio_output">Переключение вывода звука</string>
-    <string name="SwitchAudioOutputSummary">Автоматически переключать источник вывода звука, если дисплей
-        включен/отключен датчиком приближения
-    </string>
-    <string name="use_proximity_sensor">Использовать датчик приближения</string>
-    <string name="sUseProximitySensorSummary">Использовать датчик приближения для отключения дисплея во время
-        прослушивания записи через телефонный динамик (Необходимы ROOT-права)
-    </string>
 
-    <!--Audio output array-->
-    <string name="main_speaker">Основной динамик</string>
-    <string name="phone_speaker">Телефонный динамик</string>
-
-    <!--Experimental-->
-    <string name="sConvertAfterCall">Конвертировать после звонка</string>
-    <string name="sDontConvert">Не конвертировать</string>
-    <string name="sWavToMp3">WAV в MP3</string>
-    <string name="sWavToAmr">WAV в AMR</string>
-
-    <!--Debug-->
-    <string name="sDetailedLogs">Подробный лог</string>
+    <!--Settings -> Debug-->
     <string name="root_access">Root права</string>
     <string name="root_access_no">Отсутствуют</string>
     <string name="root_access_yes">Есть</string>
-    <string name="sLogsSettingsCategory">Логи</string>
-    <string name="sSendLogsToTheDeveloper">Отправить лог разработчику</string>
-    <string name="sUseGzipToCompressLogs">Использовать gzip для сжатия логов</string>
-    <string name="sRecordOnNotificationClick">Запись по нажатию на уведомление</string>
-    <string name="sRecordOnNotificationClickSummary">Не нажимайте на уведомление перед установкой соединения</string>
-    <string name="sHideNotificationDuringCall">Скрывать оповещение во время звонка</string>
-    <string name="sHideNotificationDuringCallSummary">Не отключайте, эта настройка только для отладки</string>
     <string name="dual_sim_phone">Двухсимочный телефон</string>
     <string name="dual_sim_phone_summary">Включите это, если программа не может определить звонки со второй сим карты
     </string>
 
-    <!--About-->
-    <string name="version">Версия</string>
-    <string name="sAboutCallRecorder">О CallRecorder</string>
-    <string name="license_status">Статус лицензии</string>
-    <string name="sLicenseStatusVerified">Лицензия проверена</string>
-    <string name="license_trial">Пробная версия, закончится %s</string>
+    <!-- General -->
+    <string name="contact_unknown">Неизвестный</string>
 
+    <string name="button_ok">ОК</string>
+
+    <string name="button_edit">Изменить</string>
+    <string name="button_cancel">Отмена</string>
+
+
+    <string name="please_wait">Пожалуйста, подождите...</string>
+    <string name="start_recording">Начать запись</string>
+    <string name="stop_recording">Остановить запись</string>
+
+    <string name="switch_on">Вкл</string>
+    <string name="switch_off">Выкл</string>
+
+    <!-- Call confirm dialog -->
+    <string name="call_confirm_record_this_call">Записать этот разговор</string>
+
+
+    <!--Notification-->
+
+
+    <string name="an_error_has_occurred">Произошла ошибка, разговор не будет записан</string>
+
+    <!--About-->
+
+    <string name="version">Версия</string>
     <string name="copyright">Copyright</string>
     <string name="copyright_summary">© %s Александр Скворцов (skvalex)</string>
     <string name="about_many_thanks">Огромное спасибо</string>
     <string name="about_many_thanks_summary">Алексею Субботину (avs234)</string>
-    <string name="sGermanTranslation">Перевод на немецкий</string>
-    <string name="sGermanTranslationSummary_ver1">от Marc Hillesheim и Thomas Käfer</string>
-    <string name="sPolishTranslation">Перевод на польский</string>
-    <string name="sPolishTranslationSummary">от Robert Gonta</string>
-    <string name="sFrenchTranslation">Перевод на французский</string>
-    <string name="sFrenchTranslationSummary">от Julien Boiteux</string>
-    <string name="sBrazilianPortugueseTranslation">Перевод на бразильский португальский</string>
-    <string name="sBrazilianPortugueseTranslationSummary">от Luiz Marcelo Serique</string>
-    <string name="sSpanishTranslation">Перевод на испанский</string>
-    <string name="sSpanishTranslationSummary_ver1">от Iñigo Garcia и Diego Vilas</string>
-    <string name="sSlovakTranslation">Перевод на словацкий</string>
-    <string name="sSlovakTranslationSummary">от Loránt Gerencsér</string>
-    <string name="sItalianTranslation">Перевод на итальянский</string>
-    <string name="sItalianTranslationSummary">от Luca Trevisan</string>
-    <string name="sPersianTranslation">Перевод на персидский</string>
-    <string name="sPersianTranslationSummary_v2">от Alireza Afkar</string>
-    <string name="sChineseTranslation">Перевод на китайский</string>
-    <string name="sChineseTranslationSummary">от qhq</string>
-    <string name="sCzechTranslation">Перевод на чешский</string>
-    <string name="sCzechTranslationSummary_ver2">от Ales Kerner и Lukas Waldauf</string>
-    <string name="sArabicTranslation">Перевод на арабский</string>
-    <string name="sArabicTranslationSummary">от Ausama S. Ibrahim</string>
-    <string name="sHebrewTranslation">Перевод на иврит</string>
-    <string name="sHebrewTranslationSummary">от NuFlood</string>
-    <string name="sHungarianTranslation">Перевод на венгерский</string>
-    <string name="sHungarianTranslationSummary_ver2">от Szalay Levente и Miklós Toldi</string>
-    <string name="sDutchTranslation">Перевод на голландский</string>
-    <string name="sDutchTranslationSummary">от Elroy Tirbeni</string>
-    <string name="sTurkishTranslation">Перевод на турецкий</string>
-    <string name="sTurkishTranslationSummary">от Omer Ilik</string>
-    <string name="sSerbianTranslation">Перевод на сербский</string>
-    <string name="sSerbianTranslationSummary">от sHAKaJaada</string>
-    <string name="sKoreanTranslation">Перевод на корейский</string>
-    <string name="sKoreanTranslationSummary_ver2">от SoHyunSeop и Joon Hee Jo</string>
-    <string name="sRomanianTranslation">Перевод на румынский</string>
-    <string name="sRomanianTranslationSummary">от Dan P. (sad)</string>
-    <string name="sUkrainianTranslation">Перевод на украинский</string>
-    <string name="sUkrainianTranslationSummary">от Gennadi Samoluk</string>
-    <string name="sTraditionalChineseTranslation">Перевод на традиционный китайский</string>
-    <string name="sTraditionalChineseTranslationSummary_v2">от GPF_kaibird и Chien Jung Liaw</string>
-    <string name="sJapaneseTranslation">Перевод на японский</string>
-    <string name="sJapaneseTranslationSummary">от Akira Tagoh</string>
-    <string name="sSwedishTranslation">Перевод на шведский</string>
-    <string name="sSwedishTranslationSummary">от Johannes Sjölund</string>
-    <string name="sBulgarianTranslation">Перевод на болгарский</string>
-    <string name="sBulgarianTranslationSummary">от PROXIMO</string>
-    <string name="sDanishTranslation">Перевод на датский</string>
-    <string name="sDanishTranslationSummary">от Lars Sarauw Hansen</string>
-    <string name="sLatvianTranslation">Перевод на латышский</string>
-    <string name="sLatvianTranslationSummary">от Arvīds Dreimanis</string>
-    <string name="sThaiTranslation">Перевод на тайский</string>
-    <string name="sThaiTranslationSummary">от Wuttisak Saichoncharn</string>
-    <string name="sArmenianTranslation">Перевод на армянский</string>
-    <string name="sArmenianTranslationSummary">от Konstantin Gevorgyan</string>
-    <string name="sGeorgianTranslation">Перевод на грузинский</string>
-    <string name="sGeorgianTranslationSummary">от Alexandre Razmadze</string>
-    <string name="sCatalanTranslation">Перевод на каталонский</string>
-    <string name="sCatalanTranslationSummary">от cybdani</string>
-    <string name="sHindiTranslation">Перевод на хинди</string>
-    <string name="sHindiTranslationSummary">от TheTAMAS Gautam</string>
-    <string name="sPunjabiTranslation">Перевод на панджаби</string>
-    <string name="sPunjabiTranslationSummary_ver2">от Raj Verma</string>
-    <string name="sFinnishTranslation">Перевод на финский</string>
-    <string name="sFinnishTranslationSummary">от Eero Linnainmaa</string>
 
-    <!--Licenses-->
     <string name="licenses">Лицензии</string>
-    <string name="sActionBarSherlockLicense">ActionBarSherlock</string>
-    <string name="sActionBarSherlockLicenseSummary">Использует ActionBarSherlock в рамках Apache License Version 2.0,
-        нажмите сюда, чтобы посетить actionbarsherlock.com
-    </string>
     <string name="about_open_core_amr_license">opencore-amr</string>
-    <string name="about_open_core_amr_license_summary">Использует opencore-amr в рамках Apache License Version 2.0, нажмите
-        сюда,чтобы посетить opencore-amr.sourceforge.net
+    <string name="about_open_core_amr_license_summary">Использует opencore-amr в рамках Apache License Version 2.0,
+        нажмите сюда,чтобы посетить opencore-amr.sourceforge.net
     </string>
     <string name="about_alsa">ALSA</string>
-    <string name="about_alsa_summary">Использует ALSA в рамках LGPL, нажмите сюда, чтобы посетить alsa-project.org</string>
+    <string name="about_alsa_summary">Использует ALSA в рамках LGPL, нажмите сюда, чтобы посетить alsa-project.org
+    </string>
     <string name="about_lame">LAME</string>
     <string name="about_lame_summary">Использует LAME в рамках LGPL, нажмите сюда, чтобы посетить mp3dev.org</string>
-<string name="terms_of_use">Условия использования</string>
-    <string name="terms_of_use_message">Используя приложение, вы соглашаетесь с &lt;a href=http://rec.sh/terms&gt;условиями использования&lt;/a&gt; CallRecorder'а.</string>
-
-    <string name="navigation_drawer_open">Открыть \tпанель навигации</string>
-    <string name="navigation_drawer_close">Закрыть \tпанель навигации</string>
-
-    <string name="section_all_recordings">Все записи</string>
-    <string name="section_by_contact">По контакту</string>
-    <string name="section_by_format">По формату</string>
-    <string name="section_by_label">По ярлыку</string>
-    <string name="action_sort">Сортировать</string>
-    <string name="action_refresh">Обновить</string>
-    <string name="action_delete">Удалить</string>
-    <string name="action_share">Поделиться</string>
-    <string name="sort_by_date">По дате</string>
-    <string name="sort_by_contact">По контакту</string>
-    <string name="sort_by_file_size">По размеру</string>
-
-    <string name="list_header_today">Сегодня</string>
-    <string name="list_header_yesterday">Вчера</string>
-    <string name="queued">В очереди</string>
-    <string name="no_connection">Нет соединения</string>
-
-    <string name="menu_add_note">Добавить заметку</string>
-    <string name="menu_edit_note">Изменить заметку</string>
-    <string name="menu_share">Поделиться</string>
-    <string name="menu_convert_to_mp3">Конверт. в MP3</string>
-    <string name="menu_convert_to_amr">Конверт. в AMR</string>
-    <string name="menu_cancel_task">Отменить задачу</string>
-    <string name="recording_type">Тип записи</string>
-    <string name="note">Заметка</string>
-
-    <string name="confirm_delete_several_title">Подтверждение удаления</string>
-    <string name="confirm_delete_several_message">Вы выбрали %d записей. Вы уверены, что хотите удалить их?</string>
-
-    <string name="share_via">Поделиться через</string>
-    <string name="settings_cloud">Облако</string>
-    <string name="license_check_pending">Ожидание проверки лицензии</string>
-    <string name="license_check_failed">Не удалось проверить лицензию</string>
-    <string name="license_verified">Лицензия проверена</string>
-    <string name="license_help">Помощь</string>
-    <string name="license_error_message">Ошибка #%1$s: %2$s</string>
-    <string name="license_unknown_error">Неизвестная ошибка</string>
-    <string name="license_not_market_managed">Эта версия пока ещё не опубликована на Play Store</string>
-    <string name="license_error_contacting_server">Ошибка соединения с сервером</string>
-    <string name="license_server_error">Ошибка сервера</string>
-    <string name="license_over_quota">Слишком много запросов с этого устройства</string>
-
-    <string name="device_change_settings_empty">Настройки для этого устройства уже установлены</string>
-    <string name="device_root_is_required">Требуется root</string>
-    <string name="device_root_is_required_summary">На этом устройстве необходим root для лучшего качества</string>
-    <string name="recording_method_msm">MSM</string>
-    <string name="start_recording_on_answer">Начинать запись при ответе</string>
-    <string name="delay_before_start_recording_summary">Для исходящих: %1$s, для исходящих: %2$s</string>
-    <string name="delay_format_sec">%s сек</string>
-    <string name="delay_for_outgoing">Для исходящих</string>
-    <string name="delay_for_incoming">Для входящих</string>
-    <string name="settings_for_device">Настройки для %s</string>
-    <string name="settings_diff">%1$s → %2$s</string>
-    <string name="recording_format">Формат записи</string>
-    <string name="volume_control_overall">Общая громкость</string>
-    <string name="category_wav_and_mp3_settings">WAV и MP3 настройки</string>
-
-    <string name="alsa_is_not_installed">ALSA должна быть установлена</string>
-    <string name="alsa_is_not_installed_summary">Нажмите здесь, чтобы установить ALSA</string>
-
-    <string name="add_exception">Добавить исключение</string>
-    </resources>
+</resources>
