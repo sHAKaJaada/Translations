@@ -388,4 +388,5 @@
     <string name="about_alsa_summary">Использует ALSA в рамках LGPL, нажмите сюда, чтобы посетить alsa-project.org</string>
     <string name="about_lame">LAME</string>
     <string name="about_lame_summary">Использует LAME в рамках LGPL, нажмите сюда, чтобы посетить mp3dev.org</string>
-</resources>
+<string name="about_call_recorder">О программе</string>
+    </resources>
