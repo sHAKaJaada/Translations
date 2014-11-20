@@ -1,10 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">Условия использования</string>
-    <string name="terms_of_use_message">Используя приложение, вы соглашаетесь с &lt;a href=http://rec.sh/terms&gt;условиями
-        использования&lt;/a&gt; CallRecorder'а.
-    </string>
+    <string name="terms_of_use_message">Используя приложение, вы соглашаетесь с &lt;a href=http://rec.sh/terms&gt;условиями использования&lt;/a&gt; CallRecorder'а.</string>
 
     <!-- Navigation drawer -->
     <string name="navigation_drawer_open">Открыть панель навигации</string>
@@ -376,4 +374,45 @@
     </string>
     <string name="about_lame">LAME</string>
     <string name="about_lame_summary">Использует LAME в рамках LGPL, нажмите сюда, чтобы посетить mp3dev.org</string>
-</resources>
+<string name="action_mode_selected">%d</string>
+    <string name="button_delete">Удалить</string>
+    <string name="button_delete_wait">Удалить (%d)</string>
+    <string name="decline">Отклонить</string>
+    <string name="accept">Принять</string>
+    <string name="call_incoming">Входящий</string>
+    <string name="call_outgoing">Исходящий</string>
+    <string name="section_starred">Помеченные</string>
+    <string name="action_add_star">Пометить</string>
+    <string name="action_remove_star">Удалить пометку</string>
+    <string name="license_verified_summary">Нажмите, чтобы скрыть</string>
+    <string name="license_check_failed_summary">Нажмите, чтобы посмотреть детали</string>
+    <string name="license_signature_verification_failed">Ошибка проверки подписи</string>
+    <string name="license_incorrect_response">Неверный ответ с лицензией от Play Store</string>
+    <string name="exceptions_summary">Установить определенные действия для контактов, групп и телефонов</string>
+    <string name="start_recording_on_answer_summary"/>
+    <string name="exception_contact">Контакт</string>
+    <string name="exception_select_contact">Выберите контакт</string>
+    <string name="exception_phone_number">Номер телефона</string>
+    <string name="exception_action">Действие</string>
+    <string name="exception_groups_not_found">Группы не найдены</string>
+    <string name="exception_contacts_not_found">Конктакты не найдены</string>
+    <string name="exceptions_not_added">Исключения не созданы</string>
+    <string name="exception_by_contact">По контакту</string>
+    <string name="exception_by_group">По группе</string>
+    <string name="exception_by_phone_number">По номеру телефона</string>
+    <string name="exception_delete_message">Вы уверены, что хотите удалить это исключение?</string>
+
+    <string name="folder_chooser_up_to"/>
+    <string name="sign_in_dropbox">Войти в Dropbox</string>
+    <string name="sign_out_dropbox">Выйти из Dropbox</string>
+    <string name="cloud_common_settings">Общее</string>
+    <string name="cloud_upload_starred">Загрузить помеченные</string>
+    <string name="cloud_upload_starred_summary">Загружать файл на облако после добавления пометки на запись</string>
+
+    <string name="notify_uploading_dropbox">Идет загрузка на Dropbox</string>
+    <string name="notify_tasks_remaining">% осталось</string>
+
+    <string name="create_new_key_summary">"Этот ключ будет использован позднее, для  шифрования записей или входа в приложение"</string>
+    <string name="delete_key">Удалить ключ</string>
+    <string name="delete_key_summary">"Осторожно! Вы не сможете восстановить зашифрованные этим ключем записи, даже если создадите новый ключ с тем же паролем "</string>
+    </resources>
