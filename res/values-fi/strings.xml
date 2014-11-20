@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CallRecorder</string>
+    <!--Rules array-->
+    <string name="sRuleDescription">Olen lukenut ja ymmärtänyt ohjelman kuvauksen</string>
+    <string name="sRulePlayStore">Ymmärrän, että kehittäjä ei voi vastata Play kauppaan lähetettyihin kommentteihin
+    </string>
+    <string name="sRuleUseOfProgram">Ymmärrän, että kehittäjä ei ole vastuussa ohjelman käytöstä. Käytän ohjelmaa omalla
+        vastuullani
+    </string>
+    <string name="sRuleLaw">Olen erittäin varma, että en riko maani lakeja käyttäessäni tätä ohjelmaa</string>
+    <string name="sRuleNotWorking">Jos äänitys ei toimi laitteessani, luen ohjelman kuvauksen tarkasti uudelleen, ja jos
+        en löydä vastausta lähetän sähköpostia kehittäjälle skvalex@gmail.com
+    </string>
+
+    <!--Notification-->
+    <string name="sRecordingIsRunning">Äänityspalvelu käynnissä</string>
+    <string name="sThisCallIsRecording">Tämä puhelu tallennetaan</string>
+    <string name="an_error_has_occurred">Virhe tapahtunut, puhelua ei voida tallentaa</string>
+    <string name="sEncodingError">Virhe tapahtunut koodauksessa...</string>
+    <string name="start_recording">Aloita tallennus</string>
+    <string name="stop_recording">Lopeta tallennus</string>
+
+    <!--List with recordings-->
+    <string name="empty_hint">Tyhjä</string>
+    <string name="contact_unknown">Tuntematon</string>
+
+    <!--Actions on recording-->
+    <string name="category_actions">Tapahtumat</string>
+    <string name="sFilterThisNumber">Suodata tämä numero</string>
+    <string name="sAddToFavorites">Lisää suosikkeihin</string>
+    <string name="sRemoveFromFavorites">Poista suosikeista</string>
+    <string name="sAddToContacts">Lisää yhteystietoihin</string>
+    <string name="sOpenContact">Avaa yhteystieto</string>
+    <string name="sCall">Soita</string>
+    <string name="sNote">Huomio</string>
+    <string name="sConvertToMp3">Muunna mp3 muotoon</string>
+    <string name="sConvertToAmr">Muunna amr muotoon</string>
+    <string name="sRenameFile">Uudelleen nimeä</string>
+    <string name="menu_get_info">Tietoja</string>
+    <string name="menu_encrypt">Salaa</string>
+    <string name="menu_decrypt">Pura salaus</string>
+
+    <!--Actions on selected recordings-->
+    <string name="action_select_all">Valitse kaikki</string>
+    <string name="sSelectNone">Poista valinnat</string>
+
+    <!--General-->
+    <string name="sSend">Lähetä</string>
+    <string name="sSendVia">Lähetä käyttäen</string>
+    <string name="menu_delete">Poista</string>
+    <string name="button_cancel">Peruuta</string>
+    <string name="button_ok">OK</string>
+    <string name="sSeconds">sekunti</string>
+    <string name="sDisabled">Ei käytössä</string>
+    <string name="sYes">Kyllä</string>
+    <string name="sNo">Ei</string>
+    <string name="terabyte">TB</string>
+    <string name="gigabyte">GB</string>
+    <string name="megabyte">MB</string>
+    <string name="kilobyte">kB</string>
+    <string name="bytes">tavua</string>
+    <string name="please_wait">Odota...</string>
+    <string name="switch_on">On</string>
+    <string name="switch_off">Off</string>
+
+    <!--Tabs-->
+    <string name="section_incoming">Saapuva</string>
+    <string name="section_outgoing">Lähtevä</string>
+    <string name="sFavorites">Suosikit</string>
+    <string name="sAll">Kaikki</string>
+
+    <!--Send recordings-->
+    <string name="recorded_calls">Nauhoitetut puhelut</string>
+    <string name="sIncoming">Saapuva</string>
+    <string name="sOutgoing">Lähtevä</string>
+
+    <!--Dialog after call-->
+    <string name="sDlgDeleteMsg">Säilytä tai poista nauhoitettu puhelu?</string>
+    <string name="sKeep">Säilytä</string>
+    <string name="sDropboxAdded">Lisätty</string>
+
+    <!--Delete confirmation dialog-->
+    <string name="sDeleteFiles">Poista tiedostot</string>
+    <string name="confirm_delete_message">Oletko varma, että haluat poistaa tämän nauhoituksen?</string>
+    <string name="sDlgDeleteSelectionMsg">Olet valinnut %d tiedostoa. Oletko varma, että haluat poistaa ne?</string>
+    <string name="sFilesDeletedToast">%d tiedostoa poistettu</string>
+
+    <!--Call confirm dialog-->
+    <string name="call_confirm_record_this_call">Tallenna tämä puhelu</string>
+
+    <!--Dialog about law-->
+    <string name="sWarning">Varoitus</string>
+    <string name="sMsgAboutLaw">Puheluiden tallennus joissakin maissa on kiellettyä. Oletko varma, että asut maassa
+        jossa se on sallittua?
+    </string>
+
+    <!--Rules dialog-->
+    <string name="sRules">Säännöt</string>
+    <string name="sIAgree">Hyväksyn</string>
+    <string name="sIDisagree">En hyväksy</string>
+
+    <!--Main screen toasts-->
+    <string name="sAddToFavoritesSuccess">Nauhoitus lisättiin onnistuneesti suosikkeihin</string>
+    <string name="sRemoveFromFavoritesSuccess">Nauhoitus poistettiin onnistuneesti suosikeista</string>
+    <string name="sDeleteFavoriteRecordingMsg">Poistaaksesi tämän nauhoituksen, sinun pitää poistaa se suosikeista
+    </string>
+
+    <!--Encryption-->
+    <string name="sFileSuccessfullyEncrypted">Tiedosto salattiin onnistuneesti</string>
+    <string name="sFileSuccessfullyDecrypted">Tiedosto purettiin onnistuneesti</string>
+    <string name="sEncrypting">Salataan</string>
+    <string name="sDecrypting">Puretaan</string>
+    <string name="sEncrypted">Salattu</string>
+    <string name="wrong_password">Väärä salasana</string>
+
+    <!--Main screen warnings-->
+    <string name="sAvailableFreeSpace">Tila vähissä: %s</string>
+    <string name="sReadWriteErr">Tiedostojärjestelmä täytyy ottaa käyttöön lue/kirjoita oikeuksin</string>
+    <string name="sAlsaIsNotInstalledMsg">Alsa ei ole asennettu. Napauta asentaaksesi.</string>
+    <string name="sPhoneMustBeRootedWarning">Puhelimesi täytyy olla rootattu. Napauta pitkään poistaaksesi tämän
+        viestin.
+    </string>
+    <string name="sStandardAPITip">Jos puhelun tallennus ei toimi, kokeile kaikkia äänilähteitä Standard API
+        asetuksissa. Pitkä napautus poistaaksesi tämän viestin.
+    </string>
+
+    <!--Toasts-->
+    <string name="sLoggerMustBeEnabledToast">Lokitiedot ROMissasi/kernelissäsi täytyy olla käytössä!</string>
+    <string name="sFileWasDeletedToast">tiedosto poistettiin</string>
+
+    <!--Action bar-->
+    <string name="action_search">Etsi</string>
+    <string name="sSizeRecords">nauhoituksia: %1$s, koko: %2$s</string>
+    <string name="sFreeOf">vapaana</string>
+
+    <!--Tasks screen-->
+    <string name="section_tasks">Tehtävät</string>
+    <string name="sInProgress">Käynnissä (%s)</string>
+    <string name="sInQueue">Jonossa</string>
+
+    <!--Get Info dialog-->
+    <string name="file_name">Tiedostonimi</string>
+    <string name="sample_rate_hz">Hz</string>
+    <string name="file_size">Tiedoston koko</string>
+    <string name="button_edit">Muokkaa</string>
+
+    <!--Edit Info dialog-->
+    <string name="contact_name">Yhteystiedon nimi</string>
+    <string name="phone_number">Puhelinnumero</string>
+
+    <!--Description for file name pattern-->
+    <string name="pattern_contact_name">yhteystiedon nimi</string>
+    <string name="pattern_phone_number">puhelinnumero</string>
+    <string name="pattern_call_time">aika</string>
+    <string name="sCallTimestamp">puhelun kellonaika</string>
+    <string name="pattern_call_type">tyyppi (lähtevä, saapuva)</string>
+
+    <!--Description for time pattern-->
+    <string name="time_pattern_hours">tunnit</string>
+    <string name="time_pattern_minutes">minuutit</string>
+    <string name="time_pattern_seconds">sekunnit</string>
+    <string name="time_pattern_days">päivät</string>
+    <string name="time_pattern_months">kuukaudet</string>
+    <string name="time_pattern_years">vuodet</string>
+    <string name="pattern_example">Esimerkki:</string>
+
+    <!--Trial expired dialog-->
+    <string name="sTrialPeriodExpired">Kokeilujakso päättynyt</string>
+    <string name="sTrialPeriodExpiredMsg">Ole hyvä ja poista tämä versio ensin ennen kuin asennat täysversion</string>
+    <string name="sBuy">Osta</string>
+
+    <!--New settings-->
+    <string name="action_settings">Asetukset</string>
+    <string name="section_help">Apua</string>
+
+    <!--Main settings-->
+    <string name="buy_full_version">Osta täysversio</string>
+    <string name="buy_full_version_summary">Tämänhetkinen versio umpeutuu %s</string>
+    <string name="sCallRecorderUpdater">CallRecorder Updater</string>
+    <string name="settings_recording">Tallennetaan</string>
+    <string name="settings_folders_and_files">Kansiot ja Tiedostot</string>
+    <string name="settings_ui_and_appearance">Käyttöliittymä ja Ulkonäkö</string>
+    <string name="cloud_provider_dropbox">Dropbox</string>
+    <string name="settings_security">Turvallisuus</string>
+    <string name="settings_audio_player">Soitin</string>
+    <string name="sExperimentalSettings">Kokeellinen</string>
+    <string name="settings_debug">Virheenkorjaus</string>
+    <string name="settings_about">Tietoja</string>
+
+    <!--General-->
+    <string name="sGeneralSettingsCategory">Yleistä</string>
+    <string name="sOtherSettingsCategory">Muuta</string>
+    <string name="sAdvancedSettingsCategory">Edistynyt</string>
+    <string name="category_wav_settings">WAV Asetukset</string>
+    <string name="category_main">Pää</string>
+
+
+    <!--Buy full version-->
+    <string name="sOpenPlayStore">Avaa Play Kauppa</string>
+
+    <!--CallRecorder Updater-->
+    <string name="sOpenCallRecorderUpdater">Avaa CallRecorder Updater</string>
+
+    <!--Recording-->
+    <string name="recording_calls_switch">Nauhoitetaan puheluita</string>
+    <string name="device">Laite</string>
+    <string name="device_other">Muu</string>
+    <string name="select_your_device">Valitse laitteesi</string>
+    <string name="sAudioFormatSettingsCategory">Äänen muoto</string>
+    <string name="sCallRecordingFormat">Tallennuksen muoto</string>
+    <string name="sMethodSettingsCategory">Tapa</string>
+    <string name="sKernelSettings">Kernel</string>
+    <string name="sKernelSettingsSummary">Asetukset kernel tallenukselle</string>
+    <string name="recording_method_api">Standard API</string>
+    <string name="recording_method_api_settings">Asetukset Standard API tallennukselle</string>
+    <string name="recording_method_alsa">ALSA</string>
+    <string name="recording_method_alsa_settings">Asetukset ALSA tallennukselle</string>
+    <string name="recording_method">Tallennus tapa</string>
+    <string name="recording_method_caf">CAF</string>
+    <string name="recording_method_caf_settings">Asetukset CAF tallennukselle</string>
+    <string name="volume_control">Äänenvoimakkuus</string>
+    <string name="recording_mode">Nauhoitustapa</string>
+    <string name="recording_type_mono">Mono</string>
+    <string name="recording_type_stereo">Stereo</string>
+
+    <!--Recording methods array-->
+    <string name="sRecordingMethodKernel">Kernel (root vaaditaan)</string>
+    <string name="sRecordingMethodStandardAPI">Standard API</string>
+    <string name="sRecordingMethodALSA">ALSA (root vaaditaan)</string>
+    <string name="sRecordingMethodCAF">CAF (root vaaditaan)</string>
+
+    <!--Recording audio formats-->
+    <string name="recording_format_wav">WAV</string>
+    <string name="recording_format_amr">AMR</string>
+    <string name="recording_format_aac">AAC</string>
+    <string name="s3GPP">3GPP</string>
+    <string name="recording_format_mp3">MP3</string>
+
+    <!--Recording behavior-->
+    <string name="after_call_actions_dialog">Puhelun jälkeinen kysymys?</string>
+    <string name="after_call_actions_dialog_summary">Kysy mitä tehdään puhelun jälkeen</string>
+    <string name="call_confirm">Puhelun varmistus</string>
+    <string name="call_confirm_summary">Näytä varmistus ennen soittoa</string>
+    <string name="sDefaultAction">Oletus toiminta</string>
+    <string name="action_for_outgoing">Toiminta lähteville puheluille</string>
+    <string name="action_for_incoming">Toiminta saapuville puheluille</string>
+    <string name="delay_before_start_recording">Viive nauhoituksen aloittamisessa</string>
+    <string name="sIncomingCalls">Saapuvat puhelut</string>
+    <string name="sOutgoingAndIncomingCalls">Lähtevät &amp; saapuvat puhelut</string>
+    <string name="sOutgoingCalls">Lähtevät puhelut</string>
+    <string name="vibrate_on_call">Tärinä puhelun alussa/lopussa</string>
+
+    <!--Actions-->
+    <string name="action_record_all">Tallenna kaikki</string>
+    <string name="action_do_not_record">Älä tallenna</string>
+    <string name="action_record_contacts">Tallenna yhteystiedot</string>
+    <string name="action_record_non_contacts">Tallenna ei-yhteystiedot</string>
+
+    <!--Recording -> Exceptions-->
+    <string name="exceptions">Poikkeukset</string>
+    <string name="sAddGroup">Lisää ryhmä</string>
+    <string name="sAdd">Lisää</string>
+    <string name="exception_group">Ryhmä</string>
+    <string name="exception_select_group">Valitse ryhmä</string>
+    <string name="exception_select_action">Valitse toiminto</string>
+    <string name="sChangeAction">Vaihda toiminto</string>
+    <string name="exception_action_always_record">Tallenna aina</string>
+    <string name="exception_action_never_record">Älä tallenna koskaan</string>
+    <string name="sPressMenuToAddException">Paina \'menu\' lisätäksesi poikkeuksen</string>
+
+    <!--Recording -> Kernel-->
+    <string name="chipset_type">Piirisarjan tyyppi</string>
+    <string name="chipset_type_msm72xx">Qualcomm MSM72XX</string>
+    <string name="chipset_type_msm8250">Qualcomm MSM8250</string>
+    <string name="chipset_type_msm8255">Qualcomm MSM8255</string>
+    <string name="chipset_type_msm8260">Qualcomm MSM8260</string>
+    <string name="sSoundBoost">Äänen tehostus</string>
+    <string name="sUplinkBoost">Uplink tehostus</string>
+    <string name="sDownlinkBoost">Downlink tehostus</string>
+    <string name="dont_use_amr_driver">Älä käytä AMR ajuria</string>
+    <string name="dont_use_amr_driver_summary">Muunna WAV AMR muotoon reaaliajassa</string>
+
+    <!--Recording -> Standard API-->
+    <string name="api_audio_source">Audio lähde</string>
+    <string name="sWhenBTConnected">Kun BT yhdistetään...</string>
+    <string name="sBTEnabledMeansBTConnected">BT käytössä tarkoittaa BT yhdistetty</string>
+    <string name="sBTEnabledMeansBTConnectedSummary">Kun BT-adapteri on käytössä, käytä samoja asetuksia kuin jos BT
+        olisi yhdistetty
+    </string>
+    <string name="sAudioSourceWhenBTConnected">Äänilähde kun BT yhdistetty</string>
+    <string name="sample_rate">Näytteenottotaajuus</string>
+    <string name="sample_rate_8000">8000 Hz (Oletus)</string>
+    <string name="sample_rate_11025">11025 Hz</string>
+    <string name="sample_rate_16000">16000 Hz</string>
+    <string name="sample_rate_22050">22050 Hz</string>
+    <string name="sample_rate_44100">44100 Hz</string>
+    <string name="sample_rate_48000">48000 Hz</string>
+    <string name="sSampleRateWarning">Jotkin näytteenottotaajuudet ei välttämättä ole tuettu järjestelmän puolesta
+    </string>
+
+    <!--Audio sources of Standard API array-->
+    <string name="api_source_uplink_downlink">Äänipuhelu lähtevä + saapuva</string>
+    <string name="api_source_downlink">Äänipuhelu saapuva</string>
+    <string name="api_source_uplink">Äänipuhelu lähtevä</string>
+    <string name="api_source_microphone">Mikrofoni</string>
+    <string name="api_source_default">Oletus</string>
+    <string name="api_source_voice_communication">Voice communication</string>
+
+    <!--Actions on BT connected array-->
+    <string name="sOnBTConnectedActionDoNothing">Älä tee mitään</string>
+    <string name="sOnBTConnectedActionSwitchAudioSource">Vaihda äänilähde</string>
+    <string name="sOnBTConnectedActionDisableRecording">Poista nauhoitus käytöstä</string>
+
+    <!--Recording -> ALSA-->
+    <string name="sAlsa">Alsa</string>
+    <string name="sAlsaIsInstalled">Alsa on asennettu</string>
+
+    <!--Folders and Files-->
+    <string name="sRescan">Uudelleen skannaa</string>
+    <string name="sRescanSummary">Uudelleen skannaa kansio</string>
+    <string name="sFolderSettingsCategory">Kansio</string>
+    <string name="folder">Kansio</string>
+    <string name="automatic_cleanup">Automaattinen siivous</string>
+    <string name="max_number_of_files">Tiedostojen enimmäismäärä</string>
+    <string name="max_number_of_files_message">Määrä (0 - ei rajaa)</string>
+    <string name="max_total_size_of_files">Tiedostojen enimmäiskoko</string>
+    <string name="max_total_size_of_files_message">Koko megatavuissa (0 - ei rajaa)</string>
+    <string name="max_age_of_recordings">Tiedostojen enimmäisikä</string>
+    <string name="max_age_of_recordings_message">Ikä päivissä (0 - ei rajaa)</string>
+    <string name="current_setting">Tämänhetkinen asetus: %s</string>
+    <string name="sFileNameSettingsCategory">Tiedostonimi</string>
+    <string name="filename_pattern">Muoto</string>
+    <string name="time_pattern">Aikamuoto</string>
+
+    <!--Interface and Appearance-->
+    <string name="language">Kieli</string>
+    <string name="select_language">Valitse kieli</string>
+    <string name="sActionBarSettingsCategory">Tapahtumapalkki</string>
+    <string name="sAudioOutputActionBar">Äänen ulostulo</string>
+    <string name="sAudioOutputActionBarSummary">Näytä äänen ulostulo tapahtumapalkissa</string>
+    <string name="incall_control_for_outgoing">Lähteville puheluille</string>
+    <string name="sInCallControlForOutgoingSummary">Puhelunaikainen ohjaus lähteville puheluille</string>
+    <string name="incall_control_for_incoming">Saapuville puheluille</string>
+    <string name="sInCallControlForIncomingSummary">Puhelunaikainen ohjaus saapuville puheluille</string>
+    <string name="category_notification">Ilmoitus</string>
+    <string name="sNotificationIcon">Ilmoitus kuvake</string>
+    <string name="show_notification">Näytä ilmoitus</string>
+    <string name="sShowNotificationSummary">Korotettu prosessin prioriteetti</string>
+    <string name="sInCallControl">Puhelunaikainen ohjaus</string>
+    <string name="sHangUpAndCallBack">Katkaise ja soita takaisin</string>
+    <string name="sHangUpAndCallBackSummary">Pitkä napautus, katkaise puhelu ja soita takaisin automaattisesti</string>
+    <string name="show_button_while_ringing">Näytä painike hälyttäessä</string>
+    <string name="show_button_while_ringing_summary">Näytä puhelunaikainen ohjauspainike ennen kuin saapuvaan puheluun
+        vastataan
+    </string>
+    <string name="sExcludeFavoritesFromAll">Älä näytä suosikkeja Kaikki näkymässä</string>
+    <string name="sExcludeFavoritesFromAllSummary">Älä näytä suosikki yhteystietoja kaikki tallennukset näkymässä
+    </string>
+    <string name="vertical_position">Pystysuora sijainti</string>
+    <string name="horizontal_position">Vaakasuora sijainti</string>
+    <string name="sVerticalOffset">Pystysuora etäisyys reunasta</string>
+    <string name="sVerticalOffsetSummary">Aseta etäisyys valitusta reunasta (ylhäältä tai alhaalta)</string>
+    <string name="sHorizontalOffset">Vaakasuora etäisyys reunasta</string>
+    <string name="sHorizontalOffsetSummary">Aseta etäisyys valitusta reunasta (vasen tai oikea)</string>
+    <string name="sLowSpaceWarning">Vähäinen tila varoitus</string>
+    <string name="sLowSpaceWarningSummary">Aseta vähäisen tilan varoitusraja megatavuina</string>
+    <string name="sMainScreen">Päänäyttö</string>
+    <string name="sHideInCallControlButton">Piilota puhelunaikainen ohjauspainike</string>
+    <string name="sHideInCallControlButtonSummary">Piilota puhelunaikainen ohjauspainike, jos puhelu tallennetaan
+    </string>
+    <string name="sDontShowInCallButton">Älä näytä painiketta ennen yhdistämistä</string>
+    <string name="hide_button_before_answer_summary">Älä näytä puhelunaikaista ohjauspainiketta ennen kuin yhteys on
+        saavutettu
+    </string>
+    <string name="sLanguageDefault">Oletus</string>
+
+    <!--Vertical aligns array-->
+    <string name="sVerticalAlignTop">Ylhäällä</string>
+    <string name="sVerticalAlignBottom">Alhaalla</string>
+
+    <!--Horizontal aligns array-->
+    <string name="sHorizontalAlignLeft">Vasemmalla</string>
+    <string name="sHorizontalAlignRight">Oikealla</string>
+
+    <!--Notification icons array-->
+    <string name="sNotificationIconDefault">Oletus</string>
+    <string name="sNotificationIconGreenNew">Vihreä (uusi)</string>
+    <string name="sNotificationIconGreenOld">Vihreä (vanha)</string>
+    <string name="sNotificationIconGray">Harmaa</string>
+
+    <!--Dropbox-->
+    <string name="sDropboxLogin">Kirjaudu sisään</string>
+    <string name="sDropboxLogout">Kirjaudu ulos</string>
+
+    <string name="cloud_wifi_only">Vain Wi-Fi</string>
+    <string name="cloud_auto_upload">Automaattinen lähetys</string>
+    <string name="sCloudUploadFavorites">Lähetä suosikit</string>
+    <string name="sCloudUploadFavoritesSummary">Lähetä suosikkien tallennukset Dropboxiin</string>
+    <string name="cloud_auto_upload_summary">Lähetä heti puhelun jälkeen</string>
+    <string name="menu_add_to_dropbox">Lisää Dropboxiin</string>
+
+    <!--Security-->
+    <string name="category_encryption">Salaus</string>
+    <string name="sKeyNotFound">Avainta ei löytynyt</string>
+    <string name="sCreate">Luo</string>
+    <string name="create_new_key">Luo uusi avain</string>
+    <string name="enter_password">Syötä salasana</string>
+    <string name="sReEnterPassword">Salasana uudelleen</string>
+    <string name="aes_128bit">128-bit AES (nopeampi)</string>
+    <string name="aes_192bit">192-bit AES (keskitaso)</string>
+    <string name="aes_256bit">256-bit AES (vahvempi)</string>
+    <string name="category_application">Sovellus</string>
+    <string name="app_admin">Ylläpito oikeudet</string>
+    <string name="sAppAdminSummary">Tarpeellinen estääksesi CallRecorder sovelluksen poisto</string>
+    <string name="sAppAdminExplanation">CallRecorder ei käytä muita ominaisuuksia kuin poistamisen esto</string>
+    <string name="change_password">Vaihda salasana</string>
+    <string name="enter_old_password">Syötä vanha salasana</string>
+    <string name="enter_new_password">Syötä uusi salasana</string>
+    <string name="re_enter_new_password">Uusi salasana uudelleen</string>
+    <string name="require_password">Vaadi salasana</string>
+    <string name="require_password_summary">Vaadi salasana sovelluksen käynnistyessä</string>
+    <string name="lock_after">Lukitse .. kuluttua</string>
+    <string name="lock_after_exit">Poistu</string>
+    <string name="lock_after_1_minute">1 minuutin</string>
+    <string name="lock_after_3_minutes">3 minuutin</string>
+    <string name="lock_after_5_minutes">5 minuutin</string>
+    <string name="lock_after_10_minutes">10 minuutin</string>
+    <string name="password_has_been_changed">Salasana on muutettu</string>
+
+    <!--Audio player-->
+    <string name="sUseDefaultPlayer">Käytä oletus soitinta</string>
+    <string name="audio_output">Äänen ulostulo</string>
+    <string name="android_wav_decoder">Android dekooderi WAV muodolle</string>
+    <string name="android_wav_decoder_summary">Käytä Androidin sisäänrakennettuja työkaluja toistaaksesi WAV tiedostot
+    </string>
+    <string name="android_amr_decoder">Android dekooderi AMR muodolle</string>
+    <string name="android_amr_decoder_summary">Käytä Androidin sisäänrakennettuja työkaluja toistaaksesi AMR tiedostot
+    </string>
+    <string name="switch_audio_output">Vaihda äänen ulostulo</string>
+    <string name="SwitchAudioOutputSummary">Vaihda äänen ulostulo automaattisesti kun näyttö päällä/pois päältä
+        läheisyystunnistimen avulla
+    </string>
+    <string name="use_proximity_sensor">Käytä läheisyystunnistinta</string>
+    <string name="sUseProximitySensorSummary">Sammuta näyttö läheisyystunnistimen avulla toistettaessa tallennusta (ROOT
+        vaaditaan)
+    </string>
+
+    <!--Audio output array-->
+    <string name="main_speaker">Pääkaiutin</string>
+    <string name="phone_speaker">Puhelukaiutin</string>
+
+    <!--Experimental-->
+    <string name="sConvertAfterCall">Muunna puhelun jälkeen</string>
+    <string name="sDontConvert">Älä muunna</string>
+    <string name="sWavToMp3">WAV -> MP3</string>
+    <string name="sWavToAmr">WAV -> AMR</string>
+
+    <!--Debug-->
+    <string name="sDetailedLogs">Yksityiskohtaiset logit</string>
+    <string name="root_access">Root oikeudet</string>
+    <string name="root_access_no">Ei</string>
+    <string name="root_access_yes">Kyllä</string>
+    <string name="sLogsSettingsCategory">Logit</string>
+    <string name="sSendLogsToTheDeveloper">Lähetä logit kehittäjälle</string>
+    <string name="sUseGzipToCompressLogs">Käytä gzip pakkausta</string>
+    <string name="sRecordOnNotificationClick">Tallenna ilmoitusta napauttaessa</string>
+    <string name="sRecordOnNotificationClickSummary">Älä napauta ilmoitusta ennen kuin yhteys on saavutettu</string>
+    <string name="sHideNotificationDuringCall">Piilota ilmoitus puhelun aikana</string>
+    <string name="sHideNotificationDuringCallSummary">Älä ota käyttöön, tarkoitettu vain virheen etsintään/korjaukseen
+    </string>
+    <string name="dual_sim_phone">TuplaSIM puhelin</string>
+    <string name="dual_sim_phone_summary">Ota käyttöön, jos sovellus ei huomaa puheluita toiselta SIM kortilta</string>
+
+    <!--About-->
+    <string name="version">Versio</string>
+    <string name="sAboutCallRecorder">Tietoja CallRecorderista</string>
+    <string name="license_status">Lisenssin tila</string>
+    <string name="sLicenseStatusVerified">Lisenssi vahvistettu</string>
+    <string name="license_trial">Kokeiluversio, vanhenee %s</string>
+
+    <string name="copyright">Copyright</string>
+    <string name="copyright_summary">&#169; %s Alexander Skvortsov (skvalex)</string>
+    <string name="about_many_thanks">Suuret kiitokset</string>
+    <string name="about_many_thanks_summary">Alexey Subbotin (avs234)</string>
+    <string name="sGermanTranslation">Saksan käännös</string>
+    <string name="sGermanTranslationSummary_ver1">Marc Hillesheim ja Thomas Käfer</string>
+    <string name="sPolishTranslation">Puolan käännös</string>
+    <string name="sPolishTranslationSummary">Robert Gonta</string>
+    <string name="sFrenchTranslation">Ranskan käännös</string>
+    <string name="sFrenchTranslationSummary">Julien Boiteux</string>
+    <string name="sBrazilianPortugueseTranslation">Brasilian Portugalin käännös</string>
+    <string name="sBrazilianPortugueseTranslationSummary">Luiz Marcelo Serique</string>
+    <string name="sSpanishTranslation">Espanjan käännös</string>
+    <string name="sSpanishTranslationSummary_ver1">Iñigo Garcia and Diego Vilas</string>
+    <string name="sSlovakTranslation">Slovakian käännös</string>
+    <string name="sSlovakTranslationSummary">Loránt Gerencsér</string>
+    <string name="sItalianTranslation">Italian käännös</string>
+    <string name="sItalianTranslationSummary">Luca Trevisan</string>
+    <string name="sPersianTranslation">Persian käännös</string>
+    <string name="sPersianTranslationSummary_v2">Alireza Afkar</string>
+    <string name="sChineseTranslation">Kiinan käännös</string>
+    <string name="sChineseTranslationSummary">qhq</string>
+    <string name="sCzechTranslation">Tshekin käännös</string>
+    <string name="sCzechTranslationSummary_ver2">Ales Kerner ja Lukas Waldauf</string>
+    <string name="sArabicTranslation">Arabian käännös</string>
+    <string name="sArabicTranslationSummary">Ausama S. Ibrahim</string>
+    <string name="sHebrewTranslation">Heprean käännös</string>
+    <string name="sHebrewTranslationSummary">NuFlood</string>
+    <string name="sHungarianTranslation">Unkarin käännös</string>
+    <string name="sHungarianTranslationSummary_ver2">Szalay Levente ja Miklós Toldi</string>
+    <string name="sDutchTranslation">Hollannin käännös</string>
+    <string name="sDutchTranslationSummary">Elroy Tirbeni</string>
+    <string name="sTurkishTranslation">Turkin käännös</string>
+    <string name="sTurkishTranslationSummary">Omer Ilik</string>
+    <string name="sSerbianTranslation">Serbian käännös</string>
+    <string name="sSerbianTranslationSummary">sHAKaJaada</string>
+    <string name="sKoreanTranslation">Korean käännös</string>
+    <string name="sKoreanTranslationSummary_ver2">SoHyunSeop ja Joon Hee Jo</string>
+    <string name="sRomanianTranslation">Romanian käännös</string>
+    <string name="sRomanianTranslationSummary">Dan P. (sad)</string>
+    <string name="sUkrainianTranslation">Ukrainan käännös</string>
+    <string name="sUkrainianTranslationSummary">Gennadi Samoluk</string>
+    <string name="sTraditionalChineseTranslation">Perinteisen kiinan käännös</string>
+    <string name="sTraditionalChineseTranslationSummary_v2">GPF_kaibird ja Chien Jung Liaw</string>
+    <string name="sJapaneseTranslation">Japanin käännös</string>
+    <string name="sJapaneseTranslationSummary">Akira Tagoh</string>
+    <string name="sSwedishTranslation">Ruotsin käännös</string>
+    <string name="sSwedishTranslationSummary">Johannes Sjölund</string>
+    <string name="sBulgarianTranslation">Bulgarian käännös</string>
+    <string name="sBulgarianTranslationSummary">PROXIMO</string>
+    <string name="sDanishTranslation">Tanskan käännös</string>
+    <string name="sDanishTranslationSummary">Lars Sarauw Hansen</string>
+    <string name="sLatvianTranslation">Latvian käännös</string>
+    <string name="sLatvianTranslationSummary">Arvīds Dreimanis</string>
+    <string name="sThaiTranslation">Thain käännös</string>
+    <string name="sThaiTranslationSummary">Wuttisak Saichoncharn</string>
+    <string name="sArmenianTranslation">Armenian käännös</string>
+    <string name="sArmenianTranslationSummary">Konstantin Gevorgyan</string>
+    <string name="sGeorgianTranslation">Georgian käännös</string>
+    <string name="sGeorgianTranslationSummary">Alexandre Razmadze</string>
+    <string name="sCatalanTranslation">Katalaanin käännös</string>
+    <string name="sCatalanTranslationSummary">cybdani</string>
+    <string name="sHindiTranslation">Hindin käännös</string>
+    <string name="sHindiTranslationSummary">TheTAMAS Gautam</string>
+    <string name="sPunjabiTranslation">Punjabin käännös</string>
+    <string name="sPunjabiTranslationSummary_ver2">Raj Verma</string>
+    <string name="sFinnishTranslation">Suomen käännös</string>
+    <string name="sFinnishTranslationSummary">Eero Linnainmaa</string>
+
+    <!--Licenses-->
+    <string name="licenses">Lisenssit</string>
+    <string name="sActionBarSherlockLicense">ActionBarSherlock</string>
+    <string name="sActionBarSherlockLicenseSummary">Käyttää ActionBarSherlock:ia Apache Lisenssin Version 2.0
+        alaisuudessa, napauta tästä vieraillaksesi actionbarsherlock.com osoitteessa
+    </string>
+    <string name="about_open_core_amr_license">opencore-amr</string>
+    <string name="about_open_core_amr_license_summary">Käyttää opencore-amr:ia Apache Lisenssin Version 2.0 alaisuudessa, napauta
+        tästä vieraillaksesi visitopencore-amr.sourceforge.net osoitteessa
+    </string>
+    <string name="about_alsa">ALSA</string>
+    <string name="about_alsa_summary">Käyttää ALSA:a LGPL:n alaisuudessa, napauta tästä vieraillaksesi alsa-project.org
+        osoitteessa
+    </string>
+    <string name="about_lame">LAME</string>
+    <string name="about_lame_summary">Käyttää LAME:a LGPL:n alaisuudessa, napauta tästä vieraillaksesi mp3dev.org
+        osoitteessa
+    </string>
+</resources>

@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CallRecorder</string>
+    <!--Rules array-->
+    <string name="sRuleDescription">アプリの説明を読み、理解しました</string>
+    <string name="sRulePlayStore">開発者がプレイストアでのコメントに返信できないことを理解しました</string>
+    <string name="sRuleUseOfProgram">開発者がプログラムの利用に責任がないことを理解しました。自己責任でこのプログラムを利用します</string>
+    <string name="sRuleLaw">これを利用することで自国の法律違反を犯さないことに絶対的な自信があります</string>
+    <string name="sRuleNotWorking">録音が自身の端末で動作しない場合、もう一度アプリの説明をよく読み、原因がわからない場合は開発者 skvalex@gmail.com へメールを送信します</string>
+
+    <!--Notification-->
+    <string name="sRecordingIsRunning">通話録音用のサービスが動作中です</string>
+    <string name="sThisCallIsRecording">この通話は録音されています</string>
+    <string name="an_error_has_occurred">エラーが発生しました。この通話は録音できません</string>
+    <string name="sEncodingError">符号化中にエラーが発生しました...</string>
+    <string name="start_recording">録音開始</string>
+    <string name="stop_recording">録音停止</string>
+
+    <!--List with recordings-->
+    <string name="empty_hint">なし</string>
+    <string name="contact_unknown">不明</string>
+
+    <!--Actions on recording-->
+    <string name="category_actions">アクション</string>
+    <string name="sFilterThisNumber">この番号でフィルタリング</string>
+    <string name="sAddToFavorites">お気に入りへ追加</string>
+    <string name="sRemoveFromFavorites">お気に入りから削除</string>
+    <string name="sAddToContacts">連絡先へ追加</string>
+    <string name="sOpenContact">連絡先を開く</string>
+    <string name="sCall">発信</string>
+    <string name="sNote">ノート</string>
+    <string name="sConvertToMp3">mp3形式へ変換</string>
+    <string name="sConvertToAmr">AMR形式へ変換</string>
+    <string name="sRenameFile">ファイル名を変更</string>
+    <string name="menu_get_info">情報を取得</string>
+    <string name="menu_encrypt">暗号化</string>
+    <string name="menu_decrypt">復号化</string>
+
+    <!--Actions on selected recordings-->
+    <string name="action_select_all">全て選択</string>
+    <string name="sSelectNone">選択解除</string>
+
+    <!--General-->
+    <string name="sSend">送信</string>
+    <string name="sSendVia">次の方法で送信</string>
+    <string name="menu_delete">削除</string>
+    <string name="button_cancel">キャンセル</string>
+    <string name="button_ok">OK</string>
+    <string name="sSeconds">秒</string>
+    <string name="sDisabled">無効</string>
+    <string name="sYes">はい</string>
+    <string name="sNo">いいえ</string>
+    <string name="terabyte">TB</string>
+    <string name="gigabyte">GB</string>
+    <string name="megabyte">MB</string>
+    <string name="kilobyte">KB</string>
+    <string name="bytes">バイト</string>
+    <string name="please_wait">お待ち下さい...</string>
+    <string name="switch_on">オン</string>
+    <string name="switch_off">オフ</string>
+
+    <!--Tabs-->
+    <string name="section_incoming">着信</string>
+    <string name="section_outgoing">発信</string>
+    <string name="sFavorites">お気に入り</string>
+    <string name="sAll">すべて</string>
+
+    <!--Send recordings-->
+    <string name="recorded_calls">録音された通話</string>
+    <string name="sIncoming">着信</string>
+    <string name="sOutgoing">発信</string>
+
+    <!--Dialog after call-->
+    <string name="sDlgDeleteMsg">通話の録音を保存しますか?</string>
+    <string name="sKeep">保存</string>
+    <string name="sDropboxAdded">追加しました</string>
+
+    <!--Delete confirmation dialog-->
+    <string name="sDeleteFiles">ファイルの削除</string>
+    <string name="confirm_delete_message">この録音を削除してもよろしいですか?</string>
+    <string name="sDlgDeleteSelectionMsg">%d 個のファイルを選択しました。削除してもよろしいですか?</string>
+    <string name="sFilesDeletedToast">%d 個のファイルを削除しました</string>
+
+    <!--Call confirm dialog-->
+    <string name="call_confirm_record_this_call">この通話を録音</string>
+
+    <!--Dialog about law-->
+    <string name="sWarning">警告</string>
+    <string name="sMsgAboutLaw">通話の録音は国によっては違法となります。あなたの住む国での通話の録音は合法ですか?</string>
+
+    <!--Rules dialog-->
+    <string name="sRules">ルール</string>
+    <string name="sIAgree">同意する</string>
+    <string name="sIDisagree">同意しない</string>
+
+    <!--Main screen toasts-->
+    <string name="sAddToFavoritesSuccess">この録音は正常にお気に入りへ追加されました</string>
+    <string name="sRemoveFromFavoritesSuccess">この録音は正常にお気に入りから削除されました</string>
+    <string name="sDeleteFavoriteRecordingMsg">この録音を削除するには、お気に入りから録音を削除しなければなりません</string>
+
+    <!--Encryption-->
+    <string name="sFileSuccessfullyEncrypted">ファイルは正常に暗号化されました</string>
+    <string name="sFileSuccessfullyDecrypted">ファイルは正常に復号化されました</string>
+    <string name="sEncrypting">暗号化中</string>
+    <string name="sDecrypting">復号化中</string>
+    <string name="sEncrypted">暗号化済み</string>
+    <string name="wrong_password">パスワードが違います</string>
+
+    <!--Main screen warnings-->
+    <string name="sAvailableFreeSpace">空き容量不足: %s</string>
+    <string name="sReadWriteErr">ファイルシステムは読み書き可能な状態でマウントされなければなりません</string>
+    <string name="sAlsaIsNotInstalledMsg">ALSAはインストールされていません。インストールするにはここをタップしてください</string>
+    <string name="sPhoneMustBeRootedWarning">この端末で動作させるためにはrootを取得しなくてはなりません。このメッセージを消去するには長押しして下さい。</string>
+    <string name="sStandardAPITip">通話が録音できない場合は標準API設定のすべての音源を試して下さい。このメッセージを消去するには長押しして下さい。</string>
+
+    <!--Toasts-->
+    <string name="sLoggerMustBeEnabledToast">あなたの ROM/kernel でロガーを有効にしなければなりません!</string>
+    <string name="sFileWasDeletedToast">ファイルは削除されました</string>
+
+    <!--Action bar-->
+    <string name="action_search">検索</string>
+    <string name="sSizeRecords">録音: %1$s 個, サイズ: %2$s</string>
+
+    <!--Tasks screen-->
+    <string name="section_tasks">タスク</string>
+    <string name="sInProgress">処理中(%s)</string>
+    <string name="sInQueue">処理待ち</string>
+
+    <!--Get Info dialog-->
+    <string name="file_name">ファイル名</string>
+    <string name="sample_rate_hz">Hz</string>
+    <string name="file_size">ファイルサイズ</string>
+    <string name="button_edit">編集</string>
+
+    <!--Edit Info dialog-->
+    <string name="contact_name">コンタクト名</string>
+    <string name="phone_number">電話番号</string>
+
+    <!--Description for file name pattern-->
+    <string name="pattern_contact_name">コンタクト名</string>
+    <string name="pattern_phone_number">電話番号</string>
+    <string name="pattern_call_time">通話日時</string>
+    <string name="sCallTimestamp">通話日時のタイムスタンプ</string>
+    <string name="pattern_call_type">通話種別(発信または着信)</string>
+
+    <!--Description for time pattern-->
+    <string name="time_pattern_hours">時</string>
+    <string name="time_pattern_minutes">分</string>
+    <string name="time_pattern_seconds">秒</string>
+    <string name="time_pattern_days">日</string>
+    <string name="time_pattern_months">月</string>
+    <string name="time_pattern_years">年</string>
+    <string name="pattern_example">例:</string>
+
+    <!--Trial expired dialog-->
+    <string name="sTrialPeriodExpired">試用期間は終了しました</string>
+    <string name="sTrialPeriodExpiredMsg">フルバージョンを購入する前にこのバージョンをアンインストールしてください</string>
+    <string name="sBuy">購入</string>
+
+    <!--New settings-->
+    <string name="action_settings">設定</string>
+    <string name="section_help">ヘルプ</string>
+
+    <!--Main settings-->
+    <string name="buy_full_version">フルバージョンを購入</string>
+    <string name="buy_full_version_summary">現在のバージョンは %s に期限切れとなります</string>
+    <string name="sCallRecorderUpdater">CallRecorderアップデータ</string>
+    <string name="settings_recording">録音</string>
+    <string name="settings_folders_and_files">フォルダーとファイル</string>
+    <string name="settings_ui_and_appearance">インターフェースと外観</string>
+    <string name="cloud_provider_dropbox">Dropbox</string>
+    <string name="settings_security">セキュリティー</string>
+    <string name="settings_audio_player">オーディオプレイヤー</string>
+    <string name="sExperimentalSettings">実験的機能</string>
+    <string name="settings_debug">デバッグ</string>
+    <string name="settings_about">情報</string>
+
+    <!--General-->
+    <string name="sGeneralSettingsCategory">一般</string>
+    <string name="sOtherSettingsCategory">その他</string>
+    <string name="sAdvancedSettingsCategory">高度な設定</string>
+    <string name="category_wav_settings">WAV の設定</string>
+    <string name="category_main">メイン</string>
+
+
+    <!--Buy full version-->
+    <string name="sOpenPlayStore">プレイストアを開く</string>
+
+    <!--CallRecorder Updater-->
+    <string name="sOpenCallRecorderUpdater">CallRecorderアップデータを開く</string>
+
+    <!--Recording-->
+    <string name="recording_calls_switch">通話を録音</string>
+    <string name="device">デバイス</string>
+    <string name="device_other">その他</string>
+    <string name="select_your_device">デバイスを選択</string>
+    <string name="sAudioFormatSettingsCategory">オーディオ形式</string>
+    <string name="sCallRecordingFormat">通話録音形式</string>
+    <string name="sMethodSettingsCategory">方法</string>
+    <string name="sKernelSettings">Kernel</string>
+    <string name="sKernelSettingsSummary">kernel録音の設定</string>
+    <string name="recording_method_api">標準API</string>
+    <string name="recording_method_api_settings">標準API録音の設定をします</string>
+    <string name="recording_method_alsa">ALSA</string>
+    <string name="recording_method_alsa_settings">ALSA録音の設定をします</string>
+    <string name="recording_method">録音方法</string>
+    <string name="recording_method_caf">CAF</string>
+    <string name="recording_method_caf_settings">CAF録音の設定をします</string>
+    <string name="volume_control">音量制御</string>
+    <string name="recording_mode">録音モード</string>
+    <string name="recording_type_mono">モノラル</string>
+    <string name="recording_type_stereo">ステレオ</string>
+
+    <!--Recording methods array-->
+    <string name="sRecordingMethodKernel">Kernel (要root)</string>
+    <string name="sRecordingMethodStandardAPI">標準API</string>
+    <string name="sRecordingMethodALSA">ALSA (要root)</string>
+    <string name="sRecordingMethodCAF">CAF (要root)</string>
+
+    <!--Recording audio formats-->
+    <string name="recording_format_wav">WAV形式</string>
+    <string name="recording_format_amr">AMR形式</string>
+    <string name="recording_format_aac">AAC形式</string>
+    <string name="s3GPP">3GPP形式</string>
+    <string name="recording_format_mp3">MP3形式</string>
+
+    <!--Recording behavior-->
+    <string name="after_call_actions_dialog">通話後のアクションダイアログ</string>
+    <string name="after_call_actions_dialog_summary">通話後にどうすべきか確認します</string>
+    <string name="call_confirm">発信の確認</string>
+    <string name="call_confirm_summary">通話前に確認のダイアログを表示します</string>
+    <string name="sDefaultAction">規定値のアクション</string>
+    <string name="action_for_outgoing">発信時のアクション</string>
+    <string name="action_for_incoming">着信時のアクション</string>
+    <string name="delay_before_start_recording">録音開始前の遅延時間</string>
+    <string name="sIncomingCalls">着信</string>
+    <string name="sOutgoingAndIncomingCalls">発着信</string>
+    <string name="sOutgoingCalls">発信</string>
+    <string name="vibrate_on_call">通話の開始/終了でバイブ</string>
+
+    <!--Actions-->
+    <string name="action_record_all">すべて録音</string>
+    <string name="action_do_not_record">録音しない</string>
+    <string name="action_record_contacts">連絡先にある番号を録音</string>
+    <string name="action_record_non_contacts">連絡先にない番号を録音</string>
+
+    <!--Recording -> Exceptions-->
+    <string name="exceptions">例外</string>
+    <string name="sAddGroup">グループを追加</string>
+    <string name="sAdd">追加</string>
+    <string name="exception_group">グループ</string>
+    <string name="exception_select_group">グループを選択</string>
+    <string name="exception_select_action">アクションを選択</string>
+    <string name="sChangeAction">アクションを変更</string>
+    <string name="exception_action_always_record">常に録音</string>
+    <string name="exception_action_never_record">録音しない</string>
+    <string name="sPressMenuToAddException">例外を追加するには \'メニュー\'ボタンを押して下さい</string>
+
+    <!--Recording -> Kernel-->
+    <string name="chipset_type">チップセットの種類</string>
+    <string name="chipset_type_msm72xx">Qualcomm MSM72XX</string>
+    <string name="chipset_type_msm8250">Qualcomm MSM8250</string>
+    <string name="chipset_type_msm8255">Qualcomm MSM8255</string>
+    <string name="chipset_type_msm8260">Qualcomm MSM8260</string>
+    <string name="dont_use_amr_driver">AMRドライバを使わない</string>
+    <string name="dont_use_amr_driver_summary">代わりにリアルタイムでWAVからAMRへ変換します</string>
+
+    <!--Recording -> Standard API-->
+    <string name="api_audio_source">音源</string>
+    <string name="sWhenBTConnected">BT接続時...</string>
+    <string name="sBTEnabledMeansBTConnected">BTの有効とBTの接続を同等に扱う</string>
+    <string name="sBTEnabledMeansBTConnectedSummary">BTアダプタを有効にした後BTが接続した時と同じ設定を使用します</string>
+    <string name="sAudioSourceWhenBTConnected">BT接続時の音源</string>
+    <string name="sample_rate">サンプルレート</string>
+    <string name="sample_rate_8000">8000 Hz (デフォルト)</string>
+    <string name="sample_rate_11025">11025 Hz</string>
+    <string name="sample_rate_16000">16000 Hz</string>
+    <string name="sample_rate_22050">22050 Hz</string>
+    <string name="sample_rate_44100">44100 Hz</string>
+    <string name="sample_rate_48000">48000 Hz</string>
+    <string name="sSampleRateWarning">あるサンプルレートはシステムで対応していない可能性があります</string>
+
+    <!--Audio sources of Standard API array-->
+    <string name="api_source_uplink_downlink">通話上下回線</string>
+    <string name="api_source_downlink">通話下り回線</string>
+    <string name="api_source_uplink">通話上り回線</string>
+    <string name="api_source_microphone">マイク</string>
+    <string name="api_source_default">規定値</string>
+
+    <!--Actions on BT connected array-->
+    <string name="sOnBTConnectedActionDoNothing">何もしない</string>
+    <string name="sOnBTConnectedActionSwitchAudioSource">音源を切り替える</string>
+    <string name="sOnBTConnectedActionDisableRecording">録音を無効にする</string>
+
+    <!--Recording -> ALSA-->
+    <string name="sAlsa">ALSA</string>
+    <string name="sAlsaIsInstalled">ALSAはインストールされています</string>
+
+    <!--Folders and Files-->
+    <string name="sRescan">再スキャン</string>
+    <string name="sRescanSummary">録音リストを更新するためにフォルダを再スキャンします</string>
+    <string name="sFolderSettingsCategory">フォルダー</string>
+    <string name="folder">フォルダー</string>
+    <string name="automatic_cleanup">自動クリーンアップ</string>
+    <string name="max_number_of_files">保存するファイルの最大数</string>
+    <string name="max_number_of_files_message">数字を入力して下さい (0 - 無制限)</string>
+    <string name="max_total_size_of_files">保存するファイルの総容量</string>
+    <string name="max_total_size_of_files_message">メガバイト単位で値を入力して下さい (0 - 無制限)</string>
+    <string name="max_age_of_recordings">録音を保持する最長日数</string>
+    <string name="max_age_of_recordings_message">日単位で値を入力して下さい (0 - 無制限)</string>
+    <string name="current_setting">現在の設定: %s</string>
+    <string name="sFileNameSettingsCategory">ファイル名</string>
+    <string name="filename_pattern">パターン</string>
+    <string name="time_pattern">タイムパターン</string>
+
+    <!--Interface and Appearance-->
+    <string name="language">言語</string>
+    <string name="select_language">言語の選択</string>
+    <string name="sActionBarSettingsCategory">アクションバー</string>
+    <string name="sAudioOutputActionBar">音声出力</string>
+    <string name="sAudioOutputActionBarSummary">アクションバーに音声出力の設定を表示します</string>
+    <string name="incall_control_for_outgoing">発信</string>
+    <string name="sInCallControlForOutgoingSummary">発信時の通話制御を行います</string>
+    <string name="incall_control_for_incoming">着信</string>
+    <string name="sInCallControlForIncomingSummary">着信時の通話制御を行います</string>
+    <string name="category_notification">通知</string>
+    <string name="sNotificationIcon">通知アイコン</string>
+    <string name="show_notification">通知領域に表示</string>
+    <string name="sShowNotificationSummary">プロセスの優先度を強化します</string>
+    <string name="sInCallControl">通話制御</string>
+    <string name="sHangUpAndCallBack">終話と折り返し</string>
+    <string name="sHangUpAndCallBackSummary">長押しで通話を切断し、自動的に折り返します</string>
+    <string name="show_button_while_ringing">呼び出しと同時にボタンを表示</string>
+    <string name="show_button_while_ringing_summary">着信応答前に通話制御ボタンを表示します</string>
+    <string name="sExcludeFavoritesFromAll">お気に入りを"すべて"の画面から除外</string>
+    <string name="sExcludeFavoritesFromAllSummary">お気に入りをすべての録音画面から除外します</string>
+    <string name="vertical_position">垂直位置</string>
+    <string name="horizontal_position">水平位置</string>
+    <string name="sVerticalOffset">端からのオフセット (縦)</string>
+    <string name="sVerticalOffsetSummary">縦位置の揃え方 (上あるいは下) で選択した端からのオフセットを設定します</string>
+    <string name="sHorizontalOffset">端からのオフセット (横)</string>
+    <string name="sHorizontalOffsetSummary">横位置の揃え方 (左あるいは右) で選択した端からのオフセットを設定します</string>
+    <string name="sLowSpaceWarning">空き容量の警告</string>
+    <string name="sLowSpaceWarningSummary">警告する前の最小容量のしきい値をメガバイト単位で設定します</string>
+    <string name="sMainScreen">メイン画面</string>
+    <string name="sHideInCallControlButton">通話制御ボタンを隠す</string>
+    <string name="sHideInCallControlButtonSummary">通話が録音中の場合、通話制御ボタンを隠します</string>
+    <string name="sDontShowInCallButton">接続前にボタンを表示しない</string>
+    <string name="hide_button_before_answer_summary">接続が確立されるまで通話制御ボタンを表示しません</string>
+    <string name="sLanguageDefault">規定値</string>
+
+    <!--Vertical aligns array-->
+    <string name="sVerticalAlignTop">上</string>
+    <string name="sVerticalAlignBottom">下</string>
+
+    <!--Horizontal aligns array-->
+    <string name="sHorizontalAlignLeft">左</string>
+    <string name="sHorizontalAlignRight">右</string>
+
+    <!--Notification icons array-->
+    <string name="sNotificationIconDefault">規定値</string>
+    <string name="sNotificationIconGreenNew">緑 (新)</string>
+    <string name="sNotificationIconGreenOld">緑 (旧)</string>
+    <string name="sNotificationIconGray">灰色</string>
+
+    <!--Dropbox-->
+    <string name="sDropboxLogin">ログイン</string>
+    <string name="sDropboxLogout">ログアウト</string>
+
+    <string name="cloud_wifi_only">Wi-Fiのみ</string>
+    <string name="cloud_auto_upload">自動アップロード</string>
+    <string name="sCloudUploadFavorites">お気に入りをアップロード</string>
+    <string name="sCloudUploadFavoritesSummary">お気に入りに録音を追加した時にDropboxへアップロードします</string>
+    <string name="cloud_auto_upload_summary">通話直後に録音をアップロードします</string>
+    <string name="menu_add_to_dropbox">Dropboxへ追加</string>
+
+    <!--Security-->
+    <string name="category_encryption">暗号化</string>
+    <string name="sKeyNotFound">キーがありません</string>
+    <string name="sCreate">作成</string>
+    <string name="create_new_key">新しいキーを作成する</string>
+    <string name="enter_password">パスワードを入力して下さい</string>
+    <string name="sReEnterPassword">再度パスワードを入力して下さい</string>
+    <string name="aes_128bit">128-bit AES (高速)</string>
+    <string name="aes_192bit">192-bit AES (平均)</string>
+    <string name="aes_256bit">256-bit AES (強固)</string>
+    <string name="category_application">アプリケーション</string>
+    <string name="app_admin">アプリ管理者</string>
+    <string name="sAppAdminSummary">CallRecorderのアンインストールを回避するために必要です</string>
+    <string name="sAppAdminExplanation">CallRecorderはアンインストールからの保護以外にデバイス管理者のいかなる機能も使いません</string>
+    <string name="change_password">パスワードの変更</string>
+    <string name="enter_old_password">旧パスワードを入力してください</string>
+    <string name="enter_new_password">新パスワードを入力してください</string>
+    <string name="re_enter_new_password">新パスワードを再入力してください</string>
+    <string name="require_password">パスワードを要求</string>
+    <string name="require_password_summary">アプリを開くためにパスワードを要求します</string>
+    <string name="lock_after">ロックの条件</string>
+    <string name="lock_after_exit">終了後</string>
+    <string name="lock_after_1_minute">1分後</string>
+    <string name="lock_after_3_minutes">3分後</string>
+    <string name="lock_after_5_minutes">5分後</string>
+    <string name="lock_after_10_minutes">10分後</string>
+    <string name="password_has_been_changed">パスワードが変更されました</string>
+
+    <!--Audio player-->
+    <string name="sUseDefaultPlayer">既定のプレイヤーを使う</string>
+    <string name="audio_output">音声出力</string>
+    <string name="android_wav_decoder">WAV形式用Androidデコーダー</string>
+    <string name="android_wav_decoder_summary">WAV形式を再生するために内蔵のAndroidツールを使用します</string>
+    <string name="android_amr_decoder">AMR形式用Androidデコーダー</string>
+    <string name="android_amr_decoder_summary">AMR形式の音声ファイルを再生するために内臓のAndroidツールを使用します</string>
+    <string name="switch_audio_output">オーディオ出力の切り換え</string>
+    <string name="SwitchAudioOutputSummary">近接センサーによる画面の有効/無効で自動的に音源を切り換えます</string>
+    <string name="use_proximity_sensor">近接センサーを使用する</string>
+    <string name="sUseProximitySensorSummary">録音を聴いている間画面を無効にするために近接センサーを使用します (要ROOT)</string>
+
+    <!--Audio output array-->
+    <string name="main_speaker">メインスピーカー</string>
+
+    <!--Experimental-->
+    <string name="sConvertAfterCall">通話後に変換</string>
+    <string name="sDontConvert">変換しない</string>
+    <string name="sWavToMp3">WAV形式からMP3形式へ</string>
+    <string name="sWavToAmr">WAV形式からAMR形式へ</string>
+
+    <!--Debug-->
+    <string name="sDetailedLogs">詳しいログを出力</string>
+    <string name="root_access">Rootアクセス</string>
+    <string name="root_access_no">不可</string>
+    <string name="root_access_yes">可</string>
+    <string name="sLogsSettingsCategory">ログ</string>
+    <string name="sSendLogsToTheDeveloper">開発者へログを送信</string>
+    <string name="sUseGzipToCompressLogs">ログの圧縮に gzip を使う</string>
+    <string name="sRecordOnNotificationClick">通知領域のクリックで録音</string>
+    <string name="sRecordOnNotificationClickSummary">接続が確立する前に通知領域をクリックしないで下さい</string>
+    <string name="sHideNotificationDuringCall">通話中は通知領域を隠す</string>
+    <string name="sHideNotificationDuringCallSummary">有効にしないで下さい。デバック用です</string>
+    <string name="dual_sim_phone">デュアルSIM携帯</string>
+    <string name="dual_sim_phone_summary">アプリが2番目のSIMカードから通話を決定できない場合はこれを有効にしてください</string>
+
+    <!--About-->
+    <string name="version">バージョン</string>
+    <string name="sAboutCallRecorder">CallRecorderについて</string>
+    <string name="license_status">ライセンスステータス</string>
+    <string name="sLicenseStatusVerified">検証済みライセンス</string>
+    <string name="license_trial">%sに期限切れとなるトライアル版</string>
+
+    <string name="copyright">Copyright</string>
+    <string name="copyright_summary">&#169; %s Alexander Skvortsov (skvalex)</string>
+    <string name="about_many_thanks">Many thanks</string>
+    <string name="about_many_thanks_summary">to Alexey Subbotin (avs234)</string>
+    <string name="sGermanTranslation">ドイツ語の翻訳</string>
+    <string name="sGermanTranslationSummary_ver1">Marc Hillesheim と Thomas Käfer</string>
+    <string name="sPolishTranslation">ポーランド語の翻訳</string>
+    <string name="sPolishTranslationSummary">Robert Gonta</string>
+    <string name="sFrenchTranslation">フランス語の翻訳</string>
+    <string name="sFrenchTranslationSummary">Julien Boiteux</string>
+    <string name="sBrazilianPortugueseTranslation">ポルトガル語(ブラジル)の翻訳</string>
+    <string name="sBrazilianPortugueseTranslationSummary">Luiz Marcelo Serique</string>
+    <string name="sSpanishTranslation">スペイン語の翻訳</string>
+    <string name="sSpanishTranslationSummary_ver1">Iñigo Garcia と Diego Vilas</string>
+    <string name="sSlovakTranslation">スロバキア語の翻訳</string>
+    <string name="sSlovakTranslationSummary">Loránt Gerencsér</string>
+    <string name="sItalianTranslation">イタリア語の翻訳</string>
+    <string name="sItalianTranslationSummary">Luca Trevisan</string>
+    <string name="sPersianTranslation">ペルシア語の翻訳</string>
+    <string name="sPersianTranslationSummary_v2">Alireza Afkar</string>
+    <string name="sChineseTranslation">中国語の翻訳</string>
+    <string name="sChineseTranslationSummary">qhq</string>
+    <string name="sCzechTranslation">チェコ語の翻訳</string>
+    <string name="sCzechTranslationSummary_ver2">Ales Kerner と Lukas Waldauf</string>
+    <string name="sArabicTranslation">アラビア語の翻訳</string>
+    <string name="sArabicTranslationSummary">Ausama S. Ibrahim</string>
+    <string name="sHebrewTranslation">ヘブライ語の翻訳</string>
+    <string name="sHebrewTranslationSummary">NuFlood</string>
+    <string name="sHungarianTranslation">ハンガリー語の翻訳</string>
+    <string name="sHungarianTranslationSummary_ver2">Szalay Levente と Miklós Toldi</string>
+    <string name="sDutchTranslation">オランダ語の翻訳</string>
+    <string name="sDutchTranslationSummary">Elroy Tirbeni</string>
+    <string name="sTurkishTranslation">トルコ語の翻訳</string>
+    <string name="sTurkishTranslationSummary">Omer Ilik</string>
+    <string name="sSerbianTranslation">セルビア語の翻訳</string>
+    <string name="sSerbianTranslationSummary">sHAKaJaada</string>
+    <string name="sKoreanTranslation">韓国語の翻訳</string>
+    <string name="sKoreanTranslationSummary_ver2">SoHyunSeop と Joon Hee Jo</string>
+    <string name="sRomanianTranslation">ルーマニア語の翻訳</string>
+    <string name="sRomanianTranslationSummary">Dan P. (sad)</string>
+    <string name="sUkrainianTranslation">ウクライナ語の翻訳</string>
+    <string name="sUkrainianTranslationSummary">Gennadi Samoluk</string>
+    <string name="sTraditionalChineseTranslation">中国語(繁体字)の翻訳</string>
+    <string name="sTraditionalChineseTranslationSummary_v2">GPF_kaibird と Chien Jung Liaw</string>
+    <string name="sJapaneseTranslation">日本語の翻訳</string>
+    <string name="sJapaneseTranslationSummary">Akira Tagoh</string>
+    <string name="sSwedishTranslation">スウェーデン語の翻訳</string>
+    <string name="sSwedishTranslationSummary">Johannes Sjölund</string>
+    <string name="sBulgarianTranslation">ブルガリア語の翻訳</string>
+    <string name="sBulgarianTranslationSummary">PROXIMO</string>
+    <string name="sDanishTranslation">デンマーク語の翻訳</string>
+    <string name="sDanishTranslationSummary">Lars Sarauw Hansen</string>
+    <string name="sLatvianTranslation">ラトビア語の翻訳</string>
+    <string name="sLatvianTranslationSummary">Arvīds Dreimanis</string>
+    <string name="sThaiTranslation">タイ語の翻訳</string>
+    <string name="sThaiTranslationSummary">Wuttisak Saichoncharn</string>
+    <string name="sArmenianTranslation">アルメニア語の翻訳</string>
+    <string name="sArmenianTranslationSummary">Konstantin Gevorgyan</string>
+    <string name="sGeorgianTranslation">グルジア語の翻訳</string>
+    <string name="sGeorgianTranslationSummary">Alexandre Razmadze</string>
+    <string name="sCatalanTranslation">カタロニア語</string>
+    <string name="sCatalanTranslationSummary">cybdani</string>
+    <string name="sHindiTranslation">ヒンディー語の翻訳</string>
+    <string name="sHindiTranslationSummary">TheTAMAS Gautam</string>
+    <string name="sPunjabiTranslation">パンジャブ語の翻訳</string>
+    <string name="sPunjabiTranslationSummary_ver2">Raj Verma</string>
+    <string name="sFinnishTranslation">フィンランド語の翻訳</string>
+    <string name="sFinnishTranslationSummary">Eero Linnainmaa</string>
+    <string name="sBelarusianTranslation">ベラルーシ語の翻訳</string>
+    <string name="sBelarusianTranslationSummary">Alexander Kuvshinov</string>
+    <string name="sVietnameseTranslation">ベトナム語の翻訳</string>
+    <string name="sVietnameseTranslationSummary">Truong Hoang Trung</string>
+
+    <!--Licenses-->
+    <string name="licenses">ライセンス</string>
+    <string name="sActionBarSherlockLicense">ActionBarSherlock</string>
+    <string name="sActionBarSherlockLicenseSummary">
+        Apacheライセンスバージョン2.0でActionBarSherlockを使用しています。actionbarsherlock.comへ訪問するにはここをクリックして下さい
+    </string>
+    <string name="about_open_core_amr_license">opencore-amr</string>
+    <string name="about_open_core_amr_license_summary">Apacheライセンスバージョン2.0の下で opencore-amr を使用しています。
+        opencore-amr.sourceforge.netへ訪問するにはここをクリックして下さい
+    </string>
+    <string name="about_alsa">ALSA</string>
+    <string name="about_alsa_summary">LGPLでALSAを使用しています。alsa-project.orgへ訪問するにはここをクリックして下さい</string>
+    <string name="about_lame">LAME</string>
+    <string name="about_lame_summary">LGPLの下でLAMEを使用しています。mp3dev.orgへ訪問するにはここをクリックして下さい</string>
+</resources>

@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CallRecorder</string>
+    <!--Rules array-->
+    <string name="sRuleDescription">Tôi đã đọc và hiểu mô tả của ứng dụng</string>
+    <string name="sRulePlayStore">Tôi hiểu rằng nhà phát triển ứng dụng không thể phúc đáp tất cả bình luận trên CH Ứng
+        dụng
+    </string>
+    <string name="sRuleUseOfProgram">Tôi hiểu rằng nhà phát triển ứng dụng không chịu trách nhiệm việc sử dụng chương
+        trình. Tôi tự chịu trách nhiệm việc sử dụng này
+    </string>
+    <string name="sRuleLaw">Tôi tuyệt đối tự tin tôi không vi phạm luật pháp tại nước tôi khi sử dụng chương trình này
+    </string>
+    <string name="sRuleNotWorking">Nếu ghi âm không làm việc trên thiết bị của tôi, tôi sẽ đọc mô tả ứng dụng một cách
+        cẩn thận một lần nữa, và nếu tôi không tìm thấy câu trả lời tôi sẽ gửi email cho nhà phát triển tại
+        skvalex@gmail.com
+    </string>
+
+    <!--Notification-->
+    <string name="sRecordingIsRunning">Dịch vụ ghi âm cuộc gọi đang chạy</string>
+    <string name="sThisCallIsRecording">Cuộc gọi này đang được ghi âm</string>
+    <string name="an_error_has_occurred">Có lỗi xảy ra, cuộc gọi này không thể được ghi âm</string>
+    <string name="sEncodingError">Lỗi xảy ra trong khi mã hóa âm thanh ...</string>
+    <string name="start_recording">Bắt đầu ghi âm</string>
+    <string name="stop_recording">Ngừng ghi âm</string>
+
+    <!--List with recordings-->
+    <string name="empty_hint">Trống</string>
+    <string name="contact_unknown">Không nhận biết</string>
+
+    <!--Actions on recording-->
+    <string name="category_actions">Các hành động</string>
+    <string name="sFilterThisNumber">Lọc số này</string>
+    <string name="sAddToFavorites">Thêm vào mục ưa thích</string>
+    <string name="sRemoveFromFavorites">Xóa khỏi mục ưa thích</string>
+    <string name="sAddToContacts">Thêm vào danh bạ</string>
+    <string name="sOpenContact">Mở danh bạ</string>
+    <string name="sCall">Gọi</string>
+    <string name="sNote">Ghi chú</string>
+    <string name="sConvertToMp3">Chuyển đổi sang mp3</string>
+    <string name="sConvertToAmr">Chuyển đổi sang amr</string>
+    <string name="sRenameFile">Đổi tên file</string>
+    <string name="menu_get_info">Lấy thông tin</string>
+    <string name="menu_encrypt">Mã hóa</string>
+    <string name="menu_decrypt">Giải mã</string>
+
+    <!--Actions on selected recordings-->
+    <string name="action_select_all">Chọn tất cả</string>
+    <string name="sSelectNone">Bỏ chọn tất cả</string>
+
+    <!--General-->
+    <string name="sSend">Gửi</string>
+    <string name="sSendVia">Gửi qua</string>
+    <string name="menu_delete">Xóa</string>
+    <string name="button_cancel">Hủy</string>
+    <string name="button_ok">Chấp nhận</string>
+    <string name="sSeconds">giây</string>
+    <string name="sDisabled">Tắt</string>
+    <string name="sYes">Đồng ý</string>
+    <string name="sNo">Không đồng ý</string>
+    <string name="terabyte">TB</string>
+    <string name="gigabyte">GB</string>
+    <string name="megabyte">MB</string>
+    <string name="kilobyte">KB</string>
+    <string name="bytes">bytes</string>
+    <string name="please_wait">Vui lòng chờ...</string>
+    <string name="switch_on">Mở</string>
+    <string name="switch_off">Tắt</string>
+
+    <!--Tabs-->
+    <string name="section_incoming">Đang gọi đến</string>
+    <string name="section_outgoing">Đang gọi đi</string>
+    <string name="sFavorites">Mục yêu thích</string>
+    <string name="sAll">Tất cả</string>
+
+    <!--Send recordings-->
+    <string name="recorded_calls">Các cuộc gọi ghi âm</string>
+    <string name="sIncoming">Đang gọi đến</string>
+    <string name="sOutgoing">Đang gọi đi</string>
+
+    <!--Dialog after call-->
+    <string name="sDlgDeleteMsg">Giữ hay xóa cuộc gọi ghi âm?</string>
+    <string name="sKeep">Giữ</string>
+    <string name="sDropboxAdded">Đã thêm</string>
+
+    <!--Delete confirmation dialog-->
+    <string name="sDeleteFiles">Xóa các tệp</string>
+    <string name="confirm_delete_message">Bạn có chắc muốn xóa cuộc ghi âm này?</string>
+    <string name="sDlgDeleteSelectionMsg">Bạn đã chọn %d tệp tin. Bạn có chắc muốn xóa chúng?</string>
+    <string name="sFilesDeletedToast">%d tệp tin đã xóa</string>
+
+    <!--Call confirm dialog-->
+    <string name="call_confirm_record_this_call">Ghi âm cuộc gọi này</string>
+
+    <!--Dialog about law-->
+    <string name="sWarning">Cảnh báo</string>
+    <string name="sMsgAboutLaw">Ghi âm cuộc gọi ở một số nước là bất hợp pháp. Bạn có chắc bạn sống trong một đất nước
+        mà việc ghi âm cuộc gọi là hợp pháp?
+    </string>
+
+    <!--Rules dialog-->
+    <string name="sRules">Điều lệ</string>
+    <string name="sIAgree">Tôi đồng ý</string>
+    <string name="sIDisagree">Tôi không đồng ý</string>
+
+    <!--Main screen toasts-->
+    <string name="sAddToFavoritesSuccess">Cuộc ghi âm này đã được thêm thành công vào mục yêu thích</string>
+    <string name="sRemoveFromFavoritesSuccess">Cuộc ghi âm này đã được gỡ bỏ thành công từ mục yêu thích</string>
+    <string name="sDeleteFavoriteRecordingMsg">Để xóa cuộc ghi âm này, bạn nên gỡ bỏ nó khỏi mục ưa thích</string>
+
+    <!--Encryption-->
+    <string name="sFileSuccessfullyEncrypted">Têp tin mã hóa thành công</string>
+    <string name="sFileSuccessfullyDecrypted">Têp tin giải mã thành công</string>
+    <string name="sEncrypting">Đang mã hóa</string>
+    <string name="sDecrypting">Đang giải mã</string>
+    <string name="sEncrypted">Đã mã hóa</string>
+    <string name="wrong_password">Sai mật mã</string>
+
+    <!--Main screen warnings-->
+    <string name="sAvailableFreeSpace">Dung lượng trống thấp %s</string>
+    <string name="sReadWriteErr">Hệ thống tập tin phải được gắn kết cho đọc / ghi.</string>
+    <string name="sAlsaIsNotInstalledMsg">Alsa chưa được cài đặt. Chọn ở đây để cài.</string>
+    <string name="sPhoneMustBeRootedWarning">Điện thoại của bạn phải được Root. Nhấn một lúc để bỏ tin nhắn này.
+    </string>
+    <string name="sStandardAPITip">Nếu ghi âm không làm việc, thử tất cả các nguồn thu trong phần tùy chọn tiêu chuẩn
+        API. Nhấn một lúc để bỏ tin nhắn này.
+    </string>
+
+    <!--Toasts-->
+    <string name="sLoggerMustBeEnabledToast">Phần ghi nhật ký trong ROM/kernel phải được bật!</string>
+    <string name="sFileWasDeletedToast">tệp tin đã xóa</string>
+
+    <!--Action bar-->
+    <string name="action_search">Tìm kiếm</string>
+    <string name="sSizeRecords">thời lượng: %1$s, cỡ: %2$s</string>
+    <string name="sFreeOf">còn trống</string>
+
+    <!--Tasks screen-->
+    <string name="section_tasks">Tác vụ</string>
+    <string name="sInProgress">Đang xử lý (%s)</string>
+    <string name="sInQueue">Đang đợi</string>
+
+    <!--Get Info dialog-->
+    <string name="file_name">Tên tệp tin</string>
+    <string name="sample_rate_hz">Hz</string>
+    <string name="file_size">Cỡ tệp tin</string>
+    <string name="button_edit">Chỉnh sửa</string>
+
+    <!--Edit Info dialog-->
+    <string name="contact_name">Tên liên hệ</string>
+    <string name="phone_number">Số điện thoại</string>
+
+    <!--Description for file name pattern-->
+    <string name="pattern_contact_name">tên liên hệ</string>
+    <string name="pattern_phone_number">số điện thoại</string>
+    <string name="pattern_call_time">thời gian gọi</string>
+    <string name="sCallTimestamp">mốc thời gian gọi</string>
+    <string name="pattern_call_type">Loại cuộc gọi (đến hay đi)</string>
+
+    <!--Description for time pattern-->
+    <string name="time_pattern_hours">giờ</string>
+    <string name="time_pattern_minutes">phút</string>
+    <string name="time_pattern_seconds">giây</string>
+    <string name="time_pattern_days">ngày</string>
+    <string name="time_pattern_months">tháng</string>
+    <string name="time_pattern_years">năm</string>
+    <string name="pattern_example">Ví dụ:</string>
+
+    <!--Trial expired dialog-->
+    <string name="sTrialPeriodExpired">Hết thời gian dùng thử</string>
+    <string name="sTrialPeriodExpiredMsg">Vui lòng gỡ phiên bản này trước khi mua bản đầy đủ</string>
+    <string name="sBuy">Mua</string>
+
+    <!--New settings-->
+    <string name="action_settings">Cài đặt</string>
+    <string name="section_help">Giúp đỡ</string>
+
+    <!--Main settings-->
+    <string name="buy_full_version">Mua bản đầy đủ</string>
+    <string name="buy_full_version_summary">Phiên bản hiện tại sẽ hết hạn vào %s</string>
+    <string name="sCallRecorderUpdater">Công cụ cập nhật CallRecorder</string>
+    <string name="settings_recording">Ghi âm</string>
+    <string name="settings_folders_and_files">Thư mục và tệp tin</string>
+    <string name="settings_ui_and_appearance">Giao diện và hiển thị</string>
+    <string name="cloud_provider_dropbox">Dropbox</string>
+    <string name="settings_security">Bảo mật</string>
+    <string name="settings_audio_player">Bộ phát âm thanh</string>
+    <string name="sExperimentalSettings">Thử nghiệm</string>
+    <string name="settings_debug">Gỡ lỗi</string>
+    <string name="settings_about">Giới thiệu</string>
+
+    <!--General-->
+    <string name="sGeneralSettingsCategory">Tổng quan</string>
+    <string name="sOtherSettingsCategory">Khác</string>
+    <string name="sAdvancedSettingsCategory">Nâng cao</string>
+    <string name="category_wav_settings">Cài đặt WAV</string>
+    <string name="category_main">Mục chính</string>
+
+
+    <!--Buy full version-->
+    <string name="sOpenPlayStore">Mở CH Ứng dụng</string>
+
+    <!--CallRecorder Updater-->
+    <string name="sOpenCallRecorderUpdater">Mở công cụ cập nhật CallRecorder</string>
+
+    <!--Recording-->
+    <string name="recording_calls_switch">Các cuộc gọi được ghi âm</string>
+    <string name="device">Thiết bị</string>
+    <string name="device_other">Khác</string>
+    <string name="select_your_device">Chọn thiết bị của bạn</string>
+    <string name="sAudioFormatSettingsCategory">Định dạng âm thanh</string>
+    <string name="sCallRecordingFormat">Định dạng ghi âm</string>
+    <string name="sMethodSettingsCategory">Phương pháp</string>
+    <string name="sKernelSettings">Kernel</string>
+    <string name="sKernelSettingsSummary">Cài đặt cho ghi âm kiểu kernel</string>
+    <string name="recording_method_api">Chuẩn API</string>
+    <string name="recording_method_api_settings">Cài đặt cho ghi âm chuẩn API</string>
+    <string name="recording_method_alsa">ALSA</string>
+    <string name="recording_method_alsa_settings">Cài đặt cho ghi âm kiểu ALSA</string>
+    <string name="recording_method">Phương pháp ghi âm</string>
+    <string name="recording_method_caf">CAF</string>
+    <string name="recording_method_caf_settings">Cài đặt cho ghi âm kiểu CAF</string>
+    <string name="volume_control">Điều khiển âm lượng</string>
+    <string name="recording_mode">Chế độ ghi âm</string>
+    <string name="recording_type_mono">Mono</string>
+    <string name="recording_type_stereo">Stereo</string>
+    <string name="volume_control_tx">Tx</string>
+    <string name="volume_control_rx">Rx</string>
+
+    <!--Recording methods array-->
+    <string name="sRecordingMethodKernel">Kernel (cần root)</string>
+    <string name="sRecordingMethodStandardAPI">Chuẩn API</string>
+    <string name="sRecordingMethodALSA">ALSA (cần root)</string>
+    <string name="sRecordingMethodCAF">CAF (cần root)</string>
+
+    <!--Recording audio formats-->
+    <string name="recording_format_wav">WAV</string>
+    <string name="recording_format_amr">AMR</string>
+    <string name="recording_format_aac">AAC</string>
+    <string name="s3GPP">3GPP</string>
+    <string name="recording_format_mp3">MP3</string>
+
+    <!--Recording behavior-->
+    <string name="after_call_actions_dialog">Hộp thoại hành động sau cuộc gọi</string>
+    <string name="after_call_actions_dialog_summary">Hỏi cần thực hiện gì sau cuộc gọi</string>
+    <string name="call_confirm">Xác nhận cuộc gọi</string>
+    <string name="call_confirm_summary">Hiển thị hộp thoại xác nhận trước khi gọi</string>
+    <string name="sDefaultAction">Hành động mặc định</string>
+    <string name="action_for_outgoing">Hành động cho cuộc gọi đi</string>
+    <string name="action_for_incoming">Hành động cho cuộc gọi đến</string>
+    <string name="delay_before_start_recording">Thời gian trì hoãn trước khi ghi âm</string>
+    <string name="sIncomingCalls">Các cuộc gọi đến</string>
+    <string name="sOutgoingAndIncomingCalls">Các cuộc gọi đi và đến</string>
+    <string name="sOutgoingCalls">Các cuộc gọi đi</string>
+    <string name="vibrate_on_call">Rung khi bắt đầu/kết thúc cuộc gọi</string>
+
+    <!--Actions-->
+    <string name="action_record_all">Ghi âm tất cả</string>
+    <string name="action_do_not_record">Không ghi âm</string>
+    <string name="action_record_contacts">Ghi âm người trong danh bạ</string>
+    <string name="action_record_non_contacts">Ghi âm người không trong danh bạ</string>
+
+    <!--Recording -> Exceptions-->
+    <string name="exceptions">Ngoại lệ</string>
+    <string name="sAddGroup">Thêm nhóm</string>
+    <string name="sAdd">Thêm</string>
+    <string name="exception_group">Nhóm</string>
+    <string name="exception_select_group">Chọn nhóm</string>
+    <string name="exception_select_action">Chọn hành động</string>
+    <string name="sChangeAction">Thay đổi hành động</string>
+    <string name="exception_action_always_record">Luôn luôn ghi âm</string>
+    <string name="exception_action_never_record">Không bao giờ ghi âm</string>
+    <string name="sPressMenuToAddException">Nhấn \'menu\' để thêm Ngoại lệ</string>
+
+    <!--Recording -> Kernel-->
+    <string name="chipset_type">Kiểu chipset</string>
+    <string name="chipset_type_msm72xx">Qualcomm MSM72XX</string>
+    <string name="chipset_type_msm8250">Qualcomm MSM8250</string>
+    <string name="chipset_type_msm8255">Qualcomm MSM8255</string>
+    <string name="chipset_type_msm8260">Qualcomm MSM8260</string>
+    <string name="sSoundBoost">Tăng âm lượng</string>
+    <string name="sUplinkBoost">Tăng Uplink</string>
+    <string name="sDownlinkBoost">Tăng Downlink</string>
+    <string name="dont_use_amr_driver">Không dùng trình điều khiển AMR</string>
+    <string name="dont_use_amr_driver_summary">Chuyển đổi WAV sang AMR theo thời gian thực</string>
+
+    <!--Recording -> Standard API-->
+    <string name="api_audio_source">Nguồn âm thanh</string>
+    <string name="sWhenBTConnected">Khi kết nối BT ...</string>
+    <string name="sBTEnabledMeansBTConnected">Mở BT nghĩa là kết nối BT</string>
+    <string name="sBTEnabledMeansBTConnectedSummary">Sau khi mở BT adapter, dùng cùng thiết lập như với BT đã kết nối
+    </string>
+    <string name="sAudioSourceWhenBTConnected">Nguồn âm thanh khi kết nối BT</string>
+    <string name="sample_rate">Tỷ lệ mẫu</string>
+    <string name="sample_rate_8000">8000 Hz (mặc định)</string>
+    <string name="sample_rate_11025">11025 Hz</string>
+    <string name="sample_rate_16000">16000 Hz</string>
+    <string name="sample_rate_22050">22050 Hz</string>
+    <string name="sample_rate_44100">44100 Hz</string>
+    <string name="sample_rate_48000">48000 Hz</string>
+    <string name="sSampleRateWarning">Vài tỷ lệ mẫu có thể không được hệ thống hỗ trợ</string>
+
+    <!--Audio sources of Standard API array-->
+    <string name="api_source_uplink_downlink">Đường âm thanh qua uplink + downlink</string>
+    <string name="api_source_downlink">Đường âm thanh qua downlink</string>
+    <string name="api_source_uplink">Đường âm thanh qua uplink</string>
+    <string name="api_source_microphone">Đường âm thanh qua Mi-crô</string>
+    <string name="api_source_default">Mặc định</string>
+    <string name="api_source_voice_communication">Đường âm thanh qua Voice-communication</string>
+
+    <!--Actions on BT connected array-->
+    <string name="sOnBTConnectedActionDoNothing">Không làm gì cả</string>
+    <string name="sOnBTConnectedActionSwitchAudioSource">Đổi nguồn âm thanh</string>
+    <string name="sOnBTConnectedActionDisableRecording">Không ghi âm</string>
+
+    <!--Recording -> ALSA-->
+    <string name="sAlsa">Alsa</string>
+    <string name="sAlsaIsInstalled">Đã cài đặt Alsa</string>
+
+    <!--Folders and Files-->
+    <string name="sRescan">Quét lại</string>
+    <string name="sRescanSummary">Quét lại thư mục để cập nhật danh sách ghi âm</string>
+    <string name="sFolderSettingsCategory">Thư mục</string>
+    <string name="folder">Thư mục</string>
+    <string name="automatic_cleanup">Tự động dọn dẹp</string>
+    <string name="max_number_of_files">Số tệp tin tối đa</string>
+    <string name="max_number_of_files_message">Nhập số (0 - không giới hạn)</string>
+    <string name="max_total_size_of_files">Tổng kích cỡ tệp tin tối đa</string>
+    <string name="max_total_size_of_files_message">Nhập số theo megabytes (0 - không giới hạn)</string>
+    <string name="max_age_of_recordings">Thời gian lưu trữ tối đa</string>
+    <string name="max_age_of_recordings_message">Nhập số ngày (0 - không giới hạn)</string>
+    <string name="current_setting">Cài đặt hiện tại: %s</string>
+    <string name="sFileNameSettingsCategory">Tên tệp tin</string>
+    <string name="filename_pattern">Kiểu định dạng</string>
+    <string name="time_pattern">Kiểu thời gian</string>
+
+    <!--Interface and Appearance-->
+    <string name="language">Ngôn ngữ</string>
+    <string name="select_language">Chọn ngôn ngữ</string>
+    <string name="sActionBarSettingsCategory">Thanh tình trạng hoạt động</string>
+    <string name="sAudioOutputActionBar">Âm thanh ra</string>
+    <string name="sAudioOutputActionBarSummary">Hiển thị cài đặt âm thanh ra trên thanh tình trạng</string>
+    <string name="incall_control_for_outgoing">Cho cuộc gọi đi</string>
+    <string name="sInCallControlForOutgoingSummary">Điều khiển trong khi gọi, cho cuộc gọi đi</string>
+    <string name="incall_control_for_incoming">Cho cuộc gọi đến</string>
+    <string name="sInCallControlForIncomingSummary">Điều khiển trong khi gọi, cho cuộc gọi đến</string>
+    <string name="category_notification">Thông báo</string>
+    <string name="sNotificationIcon">Biểu tượng thông báo</string>
+    <string name="show_notification">Hiển thị thông báo</string>
+    <string name="sShowNotificationSummary">Tăng mức ưu tiên xử lý</string>
+    <string name="sInCallControl">Điều khiển trong cuộc gọi</string>
+    <string name="sHangUpAndCallBack">Cúp máy và gọi lại</string>
+    <string name="sHangUpAndCallBackSummary">Khi giữ lâu, tự động cúp máy và gọi lại</string>
+    <string name="show_button_while_ringing">Hiển thị nút khi đang có chuông gọi đến</string>
+    <string name="show_button_while_ringing_summary">Hiển thị nút điều khiển trong cuộc gọi trước khi trả lời</string>
+    <string name="sExcludeFavoritesFromAll">Loại trừ mục yêu thích trong Tất Cả màn hình</string>
+    <string name="sExcludeFavoritesFromAllSummary">Không hiển thị mục yêu thích với tất cả ghi âm</string>
+    <string name="vertical_position">Vị trí đứng</string>
+    <string name="horizontal_position">Vị trí ngang</string>
+    <string name="sVerticalOffset">Bù khoảng cách từ cạnh đứng</string>
+    <string name="sVerticalOffsetSummary">Đặt mức bù khoảng cách từ cạnh chọn trong thiết lập vị trí đứng (trên hay
+        dưới)
+    </string>
+    <string name="sHorizontalOffset">Bù khoảng cách từ cạnh ngang</string>
+    <string name="sHorizontalOffsetSummary">Đặt mức bù khoảng cách từ cạnh chọn trong thiết lập vị trí ngang (trái hay
+        phải)
+    </string>
+    <string name="sLowSpaceWarning">Cảnh báo dung lượng trống còn thấp</string>
+    <string name="sLowSpaceWarningSummary">Đặt mức Cảnh báo dung lượng trống còn thấp theo MB</string>
+    <string name="sMainScreen">Màn hình chính</string>
+    <string name="sHideInCallControlButton">Dấu nút điều khiển trong cuộc gọi</string>
+    <string name="sHideInCallControlButtonSummary">Dấu nút điều khiển trong cuộc gọi nếu đang ghi âm</string>
+    <string name="sDontShowInCallButton">Không hiển thị nút trước khi kết nối</string>
+    <string name="hide_button_before_answer_summary">Không hiển thị nút điều khiển trong cuộc gọi, cho đến khi có kết nối
+    </string>
+    <string name="sLanguageDefault">Mặc định</string>
+
+    <!--Vertical aligns array-->
+    <string name="sVerticalAlignTop">Trên</string>
+    <string name="sVerticalAlignBottom">Dưới</string>
+
+    <!--Horizontal aligns array-->
+    <string name="sHorizontalAlignLeft">Trái</string>
+    <string name="sHorizontalAlignRight">Phải</string>
+
+    <!--Notification icons array-->
+    <string name="sNotificationIconDefault">Mặc định</string>
+    <string name="sNotificationIconGreenNew">Xanh lá (mới)</string>
+    <string name="sNotificationIconGreenOld">Xanh lá (cũ)</string>
+    <string name="sNotificationIconGray">Xám</string>
+
+    <!--Dropbox-->
+    <string name="sDropboxLogin">Đăng nhập</string>
+    <string name="sDropboxLogout">Đăng xuất</string>
+
+    <string name="cloud_wifi_only">Chỉ qua Wi-Fi</string>
+    <string name="cloud_auto_upload">Tự động tải lên</string>
+    <string name="sCloudUploadFavorites">Tải lên mục yêu thích</string>
+    <string name="sCloudUploadFavoritesSummary">Tải các ghi âm lên Dropbox khi bạn thêm họ vào mục yêu thích</string>
+    <string name="cloud_auto_upload_summary">Tải lên ngay sau cuộc gọi</string>
+    <string name="menu_add_to_dropbox">Thêm vào Dropbox</string>
+
+    <!--Security-->
+    <string name="category_encryption">Mã hóa</string>
+    <string name="sKeyNotFound">Không tìm thấy khóa</string>
+    <string name="sCreate">Tạo</string>
+    <string name="create_new_key">Tạo khóa mới</string>
+    <string name="enter_password">Nhập mật mã</string>
+    <string name="sReEnterPassword">Nhập lại mật mã</string>
+    <string name="aes_128bit">128-bit AES (Nhanh hơn)</string>
+    <string name="aes_192bit">192-bit AES (Cân bằng)</string>
+    <string name="aes_256bit">256-bit AES (Mạnh hơn)</string>
+    <string name="category_application">Ứng dụng</string>
+    <string name="app_admin">Quản trị ứng dụng</string>
+    <string name="sAppAdminSummary">Cần để tránh bị gỡ cài đặt CallRecorder</string>
+    <string name="sAppAdminExplanation">CallRecorder không sử dụng bất kỳ chức năng của quyền quản trị thiết bị nào
+        ngoại trừ việc ngăn gỡ cài đặt
+    </string>
+    <string name="change_password">Thay đổi mật mã</string>
+    <string name="enter_old_password">Nhập mật mã cũ</string>
+    <string name="enter_new_password">Nhập mật mã mới</string>
+    <string name="re_enter_new_password">Nhập lại mật mã mới</string>
+    <string name="require_password">Yêu cầu mật mã</string>
+    <string name="require_password_summary">Yêu cầu mật mã để chạy ứng dụng</string>
+    <string name="lock_after">Khóa sau</string>
+    <string name="lock_after_exit">khi thoát</string>
+    <string name="lock_after_1_minute">1 phút</string>
+    <string name="lock_after_3_minutes">3 phút</string>
+    <string name="lock_after_5_minutes">5 phút</string>
+    <string name="lock_after_10_minutes">10 phút</string>
+    <string name="password_has_been_changed">Mật mã đã được thay đổi</string>
+
+    <!--Audio player-->
+    <string name="sUseDefaultPlayer">Sử dụng chương trình phát mặc định</string>
+    <string name="audio_output">Âm thanh ra</string>
+    <string name="android_wav_decoder">Bộ giải mã của Android cho WAV</string>
+    <string name="android_wav_decoder_summary">Sử dụng các công cụ tích hợp của Android để phát WAV</string>
+    <string name="android_amr_decoder">Bộ giải mã của Android cho AMR</string>
+    <string name="android_amr_decoder_summary">Sử dụng các công cụ tích hợp của Android để phát AMR</string>
+    <string name="switch_audio_output">Chuyển âm thanh ra</string>
+    <string name="SwitchAudioOutputSummary">Tự động chuyển âm thanh ra nếu màn hình tắt/bật do cảm biến tiếp xúc gần
+    </string>
+    <string name="use_proximity_sensor">Sử dụng cảm biến tiếp xúc gần</string>
+    <string name="sUseProximitySensorSummary">Tắt màn hình qua cảm biến tiếp xúc gần trong khi phát (cần Root)</string>
+
+    <!--Audio output array-->
+    <string name="main_speaker">Loa chính</string>
+    <string name="phone_speaker">Loa điện thoại</string>
+
+    <!--Experimental-->
+    <string name="sConvertAfterCall">Chuyển đổi sau khi gọi</string>
+    <string name="sDontConvert">Không chuyển đổi</string>
+    <string name="sWavToMp3">WAV qua MP3</string>
+    <string name="sWavToAmr">WAV qua AMR</string>
+
+    <!--Debug-->
+    <string name="sDetailedLogs">Nhật ký chi tiết</string>
+    <string name="root_access">Truy cập Root</string>
+    <string name="root_access_no">Không</string>
+    <string name="root_access_yes">Có</string>
+    <string name="sLogsSettingsCategory">Nhật ký</string>
+    <string name="sSendLogsToTheDeveloper">Gửi nhật ký cho nhà phát triển</string>
+    <string name="sUseGzipToCompressLogs">Sử dụng gzip để nén nhật ký</string>
+    <string name="sRecordOnNotificationClick">Ghi âm khi nhấn vào thông báo</string>
+    <string name="sRecordOnNotificationClickSummary">Không nhấn thông báo trước khi có kết nối</string>
+    <string name="sHideNotificationDuringCall">Dấu thông báo trong khi gọi</string>
+    <string name="sHideNotificationDuringCallSummary">Không bật, chỉ dùng cho việc gỡ lỗi</string>
+    <string name="dual_sim_phone">Điện thoại 2 Sim</string>
+    <string name="dual_sim_phone_summary">Bật lên nếu ứng dụng không thể xác định cuộc gọi từ Sim thứ 2</string>
+
+    <!--About-->
+    <string name="version">Phiên bản</string>
+    <string name="sAboutCallRecorder">Giới thiệu về CallRecorder</string>
+    <string name="license_status">Tình trạng giấy phép</string>
+    <string name="sLicenseStatusVerified">Giấy phép đã được kiểm chứng</string>
+    <string name="license_trial">Phiên bản thử nghiệm, sẽ hết hạn vào %s</string>
+
+    <string name="copyright">Bản quyền</string>
+    <string name="copyright_summary">&#169; %s Alexander Skvortsov (skvalex)</string>
+    <string name="about_many_thanks">Cám ơn nhiều</string>
+    <string name="about_many_thanks_summary">đến Alexey Subbotin (avs234)</string>
+    <string name="sGermanTranslation">Bản dịch tiếng Đức</string>
+    <string name="sGermanTranslationSummary_ver1">bởi Marc Hillesheim và Thomas Käfer</string>
+    <string name="sPolishTranslation">Bản dịch tiếng Ba Lan</string>
+    <string name="sPolishTranslationSummary">bởi Robert Gonta</string>
+    <string name="sFrenchTranslation">Bản dịch tiếng Pháp</string>
+    <string name="sFrenchTranslationSummary">bởi Julien Boiteux</string>
+    <string name="sBrazilianPortugueseTranslation">Bản dịch tiếng Bồ Đào Nha, Bra-zin</string>
+    <string name="sBrazilianPortugueseTranslationSummary">bởi Luiz Marcelo Serique</string>
+    <string name="sSpanishTranslation">Bản dịch tiếng Tây Ban Nha</string>
+    <string name="sSpanishTranslationSummary_ver1">bởi Iñigo Garcia và Diego Vilas</string>
+    <string name="sSlovakTranslation">Bản dịch tiếng Tiệp - Slovak</string>
+    <string name="sSlovakTranslationSummary">bởi Loránt Gerencsér</string>
+    <string name="sItalianTranslation">Bản dịch tiếng Ý</string>
+    <string name="sItalianTranslationSummary">bởi Luca Trevisan</string>
+    <string name="sPersianTranslation">Bản dịch tiếng Ba Tư</string>
+    <string name="sPersianTranslationSummary_v2">bởi Alireza Afkar</string>
+    <string name="sChineseTranslation">Bản dịch tiếng Trung</string>
+    <string name="sChineseTranslationSummary">bởi qhq</string>
+    <string name="sCzechTranslation">Bản dịch tiếng Tiệp - Czech</string>
+    <string name="sCzechTranslationSummary_ver2">bởi Ales Kerner và Lukas Waldauf</string>
+    <string name="sArabicTranslation">Bản dịch tiếng Ả Rập</string>
+    <string name="sArabicTranslationSummary">bởi Ausama S. Ibrahim</string>
+    <string name="sHebrewTranslation">Bản dịch tiếng Do Thái</string>
+    <string name="sHebrewTranslationSummary">bởi NuFlood</string>
+    <string name="sHungarianTranslation">Bản dịch tiếng Hung-ga-ri</string>
+    <string name="sHungarianTranslationSummary_ver2">bởi Szalay Levente và Miklós Toldi</string>
+    <string name="sDutchTranslation">Bản dịch tiếng Hà Lan</string>
+    <string name="sDutchTranslationSummary">bởi Elroy Tirbeni</string>
+    <string name="sTurkishTranslation">Bản dịch tiếng Thổ Nhĩ Kỳ</string>
+    <string name="sTurkishTranslationSummary">bởi Omer Ilik</string>
+    <string name="sSerbianTranslation">Bản dịch tiếng Xéc-bi</string>
+    <string name="sSerbianTranslationSummary">bởi sHAKaJaada</string>
+    <string name="sKoreanTranslation">Bản dịch tiếng Hàn</string>
+    <string name="sKoreanTranslationSummary_ver2">bởi SoHyunSeop và Joon Hee Jo</string>
+    <string name="sRomanianTranslation">Bản dịch tiếng Ru-ma-ni</string>
+    <string name="sRomanianTranslationSummary">bởi Dan P. (sad)</string>
+    <string name="sUkrainianTranslation">Bản dịch tiếng U-crai-na</string>
+    <string name="sUkrainianTranslationSummary">bởi Gennadi Samoluk</string>
+    <string name="sTraditionalChineseTranslation">Bản dịch tiếng Trung - truyền thống</string>
+    <string name="sTraditionalChineseTranslationSummary_v2">bởi GPF_kaibird và Chien Jung Liaw</string>
+    <string name="sJapaneseTranslation">Bản dịch tiếng Nhật</string>
+    <string name="sJapaneseTranslationSummary">bởi Akira Tagoh</string>
+    <string name="sSwedishTranslation">Bản dịch tiếng Thụy Điển</string>
+    <string name="sSwedishTranslationSummary">bởi Johannes Sjölund</string>
+    <string name="sBulgarianTranslation">Bản dịch tiếng Bun-ga-ri</string>
+    <string name="sBulgarianTranslationSummary">bởi PROXIMO</string>
+    <string name="sDanishTranslation">Bản dịch tiếng Đan Mạch</string>
+    <string name="sDanishTranslationSummary">bởi Lars Sarauw Hansen</string>
+    <string name="sLatvianTranslation">Bản dịch tiếng Lat-via</string>
+    <string name="sLatvianTranslationSummary">bởi Arvīds Dreimanis</string>
+    <string name="sThaiTranslation">Bản dịch tiếng Thái</string>
+    <string name="sThaiTranslationSummary">bởi Wuttisak Saichoncharn</string>
+    <string name="sArmenianTranslation">Bản dịch tiếng Ác-mê-ni</string>
+    <string name="sArmenianTranslationSummary">bởi Konstantin Gevorgyan</string>
+    <string name="sGeorgianTranslation">Bản dịch tiếng Gru-zia</string>
+    <string name="sGeorgianTranslationSummary">bởi Alexandre Razmadze</string>
+    <string name="sCatalanTranslation">Bản dịch tiếng Catalan</string>
+    <string name="sCatalanTranslationSummary">bởi cybdani</string>
+    <string name="sHindiTranslation">Bản dịch tiếng Ấn Độ</string>
+    <string name="sHindiTranslationSummary">bởi TheTAMAS Gautam</string>
+    <string name="sPunjabiTranslation">Bản dịch tiếng Punjab</string>
+    <string name="sPunjabiTranslationSummary_ver2">bởi Raj Verma</string>
+    <string name="sFinnishTranslation">Bản dịch tiếng Phần Lan</string>
+    <string name="sFinnishTranslationSummary">bởi Eero Linnainmaa</string>
+    <string name="sBelarusianTranslation">Bản dịch tiếng Belarus</string>
+    <string name="sBelarusianTranslationSummary">bởi Alexander Kuvshinov</string>
+    <string name="sVietnameseTranslation">Bản dịch tiếng Việt</string>
+    <string name="sVietnameseTranslationSummary">bởi Trương Hoàng Trung</string>
+
+    <!--Licenses-->
+    <string name="licenses">Các giấy phép</string>
+    <string name="sActionBarSherlockLicense">ActionBarSherlock</string>
+    <string name="sActionBarSherlockLicenseSummary">Sử dụng ActionBarSherlock dưới giấy phép Apache phiên bản 2.0, chọn
+        vào đây để thăm actionbarsherlock.com
+    </string>
+    <string name="about_open_core_amr_license">opencore-amr</string>
+    <string name="about_open_core_amr_license_summary">Sử dụng opencore-amr dưới giấy phép Apache phiên bản 2.0, chọn vào đây để
+        thăm opencore-amr.sourceforge.net
+    </string>
+    <string name="about_alsa">ALSA</string>
+    <string name="about_alsa_summary">Sử dụng ALSA dưới giấy phép LGPL, chọn vào đây để thăm alsa-project.org</string>
+    <string name="about_lame">LAME</string>
+    <string name="about_lame_summary">Sử dụng LAME dưới giấy phép LGPL, chọn vào đây để thăm mp3dev.org</string>
+</resources>

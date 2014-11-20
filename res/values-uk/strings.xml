@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CallRecorder</string>
+    <!--Rules array-->
+    <string name="sRuleDescription">Я прочитав та зрозумів опис програми</string>
+    <string name="sRulePlayStore">Я усвідомлюю, що розробник не в стані відгукуватися на коментарів Play Маркеті
+    </string>
+    <string name="sRuleUseOfProgram">Я усвідомлюю, що розробник не несе відповідальності за користування програмою, і я
+        використовуватиму її на свій власний страх і ризик
+    </string>
+    <string name="sRuleLaw">Я повністю впевнений, що не порушую закон своєї країни, користуючись цією програмою</string>
+    <string name="sRuleNotWorking">Якщо записування не спрацьовує на моєму пристрої, я ще раз читатиму опис програми, і
+        якщо не знайду відповіді, то напишу розробнику на імейл skvalex@gmail.com
+    </string>
+
+    <!--Notification-->
+    <string name="sRecordingIsRunning">Сервіс записування телефонних розмов увімкнено.</string>
+    <string name="sThisCallIsRecording">Цю розмову записується.</string>
+    <string name="an_error_has_occurred">Виникла помилка. Цю розмову не можливо записувати.</string>
+    <string name="sEncodingError">Під час кодування відбувся збій...</string>
+    <string name="start_recording">Початок записування</string>
+    <string name="stop_recording">Припинення записування</string>
+
+    <!--List with recordings-->
+    <string name="empty_hint">Порожньо</string>
+    <string name="contact_unknown">Невідоме</string>
+
+    <!--Actions on recording-->
+    <string name="category_actions">Дії</string>
+    <string name="sFilterThisNumber">Фільтрувати це число</string>
+    <string name="sAddToFavorites">Додати до обраного</string>
+    <string name="sRemoveFromFavorites">Усунути з обраного</string>
+    <string name="sAddToContacts">Додати до контактів</string>
+    <string name="sOpenContact">Відкрити контакт</string>
+    <string name="sCall">Запис</string>
+    <string name="sNote">Увага</string>
+    <string name="sConvertToMp3">Конвертувати в MP3</string>
+    <string name="sConvertToAmr">Конвертувати в AMR</string>
+    <string name="sRenameFile">Перейменувати файл</string>
+    <string name="menu_get_info">Отримати інфо.</string>
+    <string name="menu_encrypt">Шифрувати</string>
+    <string name="menu_decrypt">Розшифрувати</string>
+
+    <!--Actions on selected recordings-->
+    <string name="action_select_all">Виділити все</string>
+    <string name="sSelectNone">Нічого не виділяти</string>
+
+    <!--General-->
+    <string name="sSend">Надіслати</string>
+    <string name="sSendVia">Надіслати через</string>
+    <string name="menu_delete">Стерти</string>
+    <string name="button_cancel">Скасувати</string>
+    <string name="button_ok">Гаразд</string>
+    <string name="sSeconds">сек.</string>
+    <string name="sDisabled">Унеможливити</string>
+    <string name="sYes">Так</string>
+    <string name="sNo">Ні</string>
+    <string name="terabyte">ТБ</string>
+    <string name="gigabyte">ҐБ</string>
+    <string name="megabyte">MB</string>
+    <string name="kilobyte">KB</string>
+    <string name="bytes">байт</string>
+    <string name="please_wait">Почекайте, будь ласка,...</string>
+    <string name="switch_on">УВІМК.</string>
+    <string name="switch_off">ВИМК.</string>
+
+    <!--Tabs-->
+    <string name="section_incoming">Вхідні</string>
+    <string name="section_outgoing">Вихідні</string>
+    <string name="sFavorites">Обрані</string>
+    <string name="sAll">Усі</string>
+
+    <!--Send recordings-->
+    <string name="recorded_calls">Записані розмови</string>
+    <string name="sIncoming">Вхідний</string>
+    <string name="sOutgoing">Вихідний</string>
+
+    <!--Dialog after call-->
+    <string name="sDlgDeleteMsg">Утримувати чи стерти записані розмови?</string>
+    <string name="sKeep">Утримувати</string>
+    <string name="sDropboxAdded">Додано</string>
+
+    <!--Delete confirmation dialog-->
+    <string name="sDeleteFiles">Стерти файли</string>
+    <string name="confirm_delete_message">Ви впевнені, що хочете стерти цей запис?</string>
+    <string name="sDlgDeleteSelectionMsg">Ви вибрали %d файла(ів). Впевнені, що хочете їх стерти?</string>
+    <string name="sFilesDeletedToast">%d файлів стерто</string>
+
+    <!--Call confirm dialog-->
+    <string name="call_confirm_record_this_call">Записати цю розмову</string>
+
+    <!--Dialog about law-->
+    <string name="sWarning">Застереження</string>
+    <string name="sMsgAboutLaw">В деяких країнах записування розмов нелеґальне. Ви впевнені, що в вашій країні це
+        леґально?
+    </string>
+
+    <!--Rules dialog-->
+    <string name="sRules">Правила</string>
+    <string name="sIAgree">Я погоджуюсь</string>
+    <string name="sIDisagree">Я не погоджуюсь</string>
+
+    <!--Main screen toasts-->
+    <string name="sAddToFavoritesSuccess">Цей запис успішно додано до обраних</string>
+    <string name="sRemoveFromFavoritesSuccess">Цей запис успішно усунений з обраних</string>
+    <string name="sDeleteFavoriteRecordingMsg">Аби стерти ці записи, слід спершу усунути їх з обраних</string>
+
+    <!--Encryption-->
+    <string name="sFileSuccessfullyEncrypted">Файл успішно зашифрований</string>
+    <string name="sFileSuccessfullyDecrypted">Файл успішно розшифрований</string>
+    <string name="sEncrypting">Шифрування</string>
+    <string name="sDecrypting">Розшифровування</string>
+    <string name="sEncrypted">Закодовано</string>
+    <string name="wrong_password">Хибний пароль</string>
+
+    <!--Main screen warnings-->
+    <string name="sAvailableFreeSpace">Бракує місця: %s</string>
+    <string name="sReadWriteErr">Файлова система повинна бути в режимі считувати/записувати.</string>
+    <string name="sAlsaIsNotInstalledMsg">Alsa не встановлено. Натисніть, аби встановити.</string>
+    <string name="sPhoneMustBeRootedWarning">Ваш телефон повинен мати доступ до кореня. Натисніть і потримайте, аби це
+        повідомлення зникло.
+    </string>
+    <string name="sStandardAPITip">Якщо програма не записує, то спробуйте кожне одне аудіо джерело в стандартних
+        налаштуваннях API. Натисніть і потримайте на цьому повідомлені, аби воно зникло.
+    </string>
+
+    <!--Toasts-->
+    <string name="sLoggerMustBeEnabledToast">Журнал записів у вашому ROM/ядрі повинен бути увімкнено!</string>
+    <string name="sFileWasDeletedToast">файл стертий</string>
+
+    <!--Action bar-->
+    <string name="action_search">Пошук</string>
+    <string name="sSizeRecords">записи: %1$s, розмір: %2$s</string>
+    <string name="sFreeOf">з</string>
+
+    <!--Tasks screen-->
+    <string name="section_tasks">Завдання</string>
+    <string name="sInProgress">В процесі (%s)</string>
+    <string name="sInQueue">В черзі</string>
+
+    <!--Get Info dialog-->
+    <string name="file_name">Назва файлу</string>
+    <string name="sample_rate_hz">Hz</string>
+    <string name="file_size">Розмір файлу</string>
+    <string name="button_edit">Редагувати</string>
+
+    <!--Edit Info dialog-->
+    <string name="contact_name">Ім\'я контакту</string>
+    <string name="phone_number">Номер телефону</string>
+
+    <!--Description for file name pattern-->
+    <string name="pattern_contact_name">контактне ім\'я</string>
+    <string name="pattern_phone_number">номер телефону</string>
+    <string name="pattern_call_time">тривалість розмови</string>
+    <string name="sCallTimestamp">час проведення розмови</string>
+    <string name="pattern_call_type">тип дзвінка (вихідний чи вхідний)</string>
+
+    <!--Description for time pattern-->
+    <string name="time_pattern_hours">години</string>
+    <string name="time_pattern_minutes">хвилини</string>
+    <string name="time_pattern_seconds">секунди</string>
+    <string name="time_pattern_days">дні</string>
+    <string name="time_pattern_months">місяці</string>
+    <string name="time_pattern_years">роки</string>
+    <string name="pattern_example">Приклад:</string>
+
+    <!--Trial expired dialog-->
+    <string name="sTrialPeriodExpired">Пробний період закінчився</string>
+    <string name="sTrialPeriodExpiredMsg">Будь ласка, деінсталюйте цю версію перед тим як купити повноцінну</string>
+    <string name="sBuy">Купити</string>
+
+    <!--New settings-->
+    <string name="action_settings">Налаштування</string>
+    <string name="section_help">Допомога</string>
+
+    <!--Main settings-->
+    <string name="buy_full_version">Купити повноцінну версію</string>
+    <string name="buy_full_version_summary">Поточна версія закінчить функціювання %s</string>
+    <string name="sCallRecorderUpdater">Оновлення CallRecorder</string>
+    <string name="settings_recording">Запис дзвінків</string>
+    <string name="settings_folders_and_files">Папки та файли</string>
+    <string name="settings_ui_and_appearance">Інтерфейс та вигляд</string>
+    <string name="cloud_provider_dropbox">Dropbox</string>
+    <string name="settings_security">Безпека</string>
+    <string name="settings_audio_player">Аудіоплеєр</string>
+    <string name="sExperimentalSettings">Експериментальні функції</string>
+    <string name="settings_debug">Відлагоджування</string>
+    <string name="settings_about">Про</string>
+
+    <!--General-->
+    <string name="sGeneralSettingsCategory">Загальні налаштування</string>
+    <string name="sOtherSettingsCategory">Інші налаштування</string>
+    <string name="sAdvancedSettingsCategory">Додатково</string>
+    <string name="category_wav_settings">Налаштування WAV</string>
+    <string name="category_main">Головне</string>
+
+
+    <!--Buy full version-->
+    <string name="sOpenPlayStore">Відкрити Play Маркет</string>
+
+    <!--CallRecorder Updater-->
+    <string name="sOpenCallRecorderUpdater">Відкрити оновлювач CallRecorder</string>
+
+    <!--Recording-->
+    <string name="recording_calls_switch">Запис дзвінків</string>
+    <string name="device">Пристрій</string>
+    <string name="device_other">Інше</string>
+    <string name="select_your_device">Виберіть свій пристрій</string>
+    <string name="sAudioFormatSettingsCategory">Формат аудіо</string>
+    <string name="sCallRecordingFormat">Формат запису</string>
+    <string name="sMethodSettingsCategory">Метод</string>
+    <string name="sKernelSettings">Ядро</string>
+    <string name="sKernelSettingsSummary">Налаштування для записування в ядрі</string>
+    <string name="recording_method_api">Стандартні API</string>
+    <string name="recording_method_api_settings">Налаштування стандартного API запису</string>
+    <string name="recording_method_alsa">ALSA</string>
+    <string name="recording_method_alsa_settings">Налаштування запису ALSA</string>
+    <string name="recording_method">Метод запису</string>
+    <string name="recording_method_caf">CAF</string>
+    <string name="recording_method_caf_settings">Налаштування записування у CAF</string>
+    <string name="volume_control">Регулювання звуку</string>
+    <string name="recording_mode">Режим запису</string>
+    <string name="recording_type_mono">Моно</string>
+    <string name="recording_type_stereo">Стерео</string>
+
+    <!--Recording methods array-->
+    <string name="sRecordingMethodKernel">Ядро (вимагає кореневого доступу)</string>
+    <string name="sRecordingMethodStandardAPI">Стандартні API</string>
+    <string name="sRecordingMethodALSA">ALSA (вимагає кореневого доступу)</string>
+    <string name="sRecordingMethodCAF">CAF (потребує доступ до кореня)</string>
+
+    <!--Recording audio formats-->
+    <string name="recording_format_wav">WAV</string>
+    <string name="recording_format_amr">AMR</string>
+    <string name="recording_format_aac">AAC</string>
+    <string name="s3GPP">3GPP</string>
+    <string name="recording_format_mp3">MP3</string>
+
+    <!--Recording behavior-->
+    <string name="after_call_actions_dialog">Діалог дії після виклику</string>
+    <string name="after_call_actions_dialog_summary">Запитування, що робити після завершення дзвінка</string>
+    <string name="call_confirm">Підтвердження запису</string>
+    <string name="call_confirm_summary">Показує діалог підтвердження запису перед дзвінком</string>
+    <string name="sDefaultAction">Основна дія</string>
+    <string name="action_for_outgoing">Дія для вихідних дзвінків</string>
+    <string name="action_for_incoming">Дія для вхідних дзвінків</string>
+    <string name="delay_before_start_recording">Затримка перед записом</string>
+    <string name="sIncomingCalls">Вхідні дзвінки</string>
+    <string name="sOutgoingAndIncomingCalls">Вихідні &amp; вхідні дзвінки</string>
+    <string name="sOutgoingCalls">Вихідні дзвінки</string>
+    <string name="vibrate_on_call">Вібрування на початок/кінець розмови</string>
+
+    <!--Actions-->
+    <string name="action_record_all">Записувати усе</string>
+    <string name="action_do_not_record">Нічого не записувати</string>
+    <string name="action_record_contacts">Записувати контакти</string>
+    <string name="action_record_non_contacts">Записувати все крім контактів</string>
+
+    <!--Recording -> Exceptions-->
+    <string name="exceptions">Винятки</string>
+    <string name="sAddGroup">Додати групу</string>
+    <string name="sAdd">Додати</string>
+    <string name="exception_group">Група</string>
+    <string name="exception_select_group">Вибрати групу</string>
+    <string name="exception_select_action">Вибрати дію</string>
+    <string name="sChangeAction">Змінити дію</string>
+    <string name="exception_action_always_record">Завжди записувати</string>
+    <string name="exception_action_never_record">Ніколи не записувати</string>
+    <string name="sPressMenuToAddException">Натисніть \'menu\' аби додати винятки</string>
+
+    <!--Recording -> Kernel-->
+    <string name="chipset_type">Тим чіпсету</string>
+    <string name="chipset_type_msm72xx">Qualcomm MSM72XX</string>
+    <string name="chipset_type_msm8250">Qualcomm MSM8250</string>
+    <string name="chipset_type_msm8255">Qualcomm MSM8255</string>
+    <string name="chipset_type_msm8260">Qualcomm MSM8260</string>
+    <string name="sSoundBoost">Підвищення звуку</string>
+    <string name="sUplinkBoost">Вісхідне підвищення</string>
+    <string name="sDownlinkBoost">Нисхідне підвищення</string>
+    <string name="dont_use_amr_driver">Не використовуйте драйвер AMR</string>
+    <string name="dont_use_amr_driver_summary">Натомість конвертувати WAV у AMR</string>
+
+    <!--Recording -> Standard API-->
+    <string name="api_audio_source">Джерело звуку</string>
+    <string name="sWhenBTConnected">Якщо під\'єднаний блутуз...</string>
+    <string name="sBTEnabledMeansBTConnected">Увімкнений блутуз означає, що він під\'єднаний</string>
+    <string name="sBTEnabledMeansBTConnectedSummary">Як тільки увімкнеться блутуз, задіються налаштування, що
+        функціонують коли він під\'єднаний
+    </string>
+    <string name="sAudioSourceWhenBTConnected">Аудіо джерело, коли під\'єднаний блутуз</string>
+    <string name="sample_rate">Частота вибірки</string>
+    <string name="sample_rate_8000">8000 Гц (Початково)</string>
+    <string name="sample_rate_11025">11025 Гц</string>
+    <string name="sample_rate_16000">11025 Гц</string>
+    <string name="sample_rate_22050">22050 Гц</string>
+    <string name="sample_rate_44100">44100 Гц</string>
+    <string name="sample_rate_48000">48000 Hz</string>
+    <string name="sSampleRateWarning">Деякі частоти запису можуть не підтримуватися системою</string>
+
+    <!--Audio sources of Standard API array-->
+    <string name="api_source_uplink_downlink">Голосовий виклик висхідний + нисхідний</string>
+    <string name="api_source_downlink">Голосовий виклик нисхідний</string>
+    <string name="api_source_uplink">Голосовий виклик висхідний</string>
+    <string name="api_source_microphone">Мікрофон</string>
+    <string name="api_source_default">Основне аудіо джерело</string>
+    <string name="api_source_voice_communication">Голосовий зв\'язок</string>
+
+    <!--Actions on BT connected array-->
+    <string name="sOnBTConnectedActionDoNothing">Без змін</string>
+    <string name="sOnBTConnectedActionSwitchAudioSource">Змінити аудіо джерело</string>
+    <string name="sOnBTConnectedActionDisableRecording">Вимкнути записування</string>
+
+    <!--Recording -> ALSA-->
+    <string name="sAlsa">Alsa</string>
+    <string name="sAlsaIsInstalled">Alsa інстальовано</string>
+
+    <!--Folders and Files-->
+    <string name="sRescan">Пересканувати</string>
+    <string name="sRescanSummary">Перескановування папок для оновлення списку звукозаписів</string>
+    <string name="sFolderSettingsCategory">Папка</string>
+    <string name="folder">Папка</string>
+    <string name="automatic_cleanup">Автоматична очистка</string>
+    <string name="max_number_of_files">Найбільше число файлів</string>
+    <string name="max_number_of_files_message">Введіть число (0 - без обмежень)</string>
+    <string name="max_total_size_of_files">Максимальний розмір файлів</string>
+    <string name="max_total_size_of_files_message">Введіть значення в мегабайтах (0 - без обмежень)</string>
+    <string name="max_age_of_recordings">Найбільший час тримання записів</string>
+    <string name="max_age_of_recordings_message">Введіть значення в днях (0 - без обмежень)</string>
+    <string name="current_setting">Поточне налаштування: %s</string>
+    <string name="sFileNameSettingsCategory">Назва файлу</string>
+    <string name="filename_pattern">Шаблон</string>
+    <string name="time_pattern">Шаблон часу</string>
+
+    <!--Interface and Appearance-->
+    <string name="language">Мова</string>
+    <string name="select_language">Виберіть мову</string>
+    <string name="sActionBarSettingsCategory">Панель дій</string>
+    <string name="sAudioOutputActionBar">Аудіо вихід</string>
+    <string name="sAudioOutputActionBarSummary">Показує налаштування аудіо виходу в панелі дій</string>
+    <string name="incall_control_for_outgoing">Для вихідний дзвінків</string>
+    <string name="sInCallControlForOutgoingSummary">Управління під час виклику для вихідних дзвінків</string>
+    <string name="incall_control_for_incoming">Для вхідних дзвінків</string>
+    <string name="sInCallControlForIncomingSummary">Управління під час виклику для вхідних дзвінків</string>
+    <string name="category_notification">Повідомлення</string>
+    <string name="sNotificationIcon">Піктограмка повідомлення</string>
+    <string name="show_notification">Показувати повідомлення</string>
+    <string name="sShowNotificationSummary">Приорітезує процес</string>
+    <string name="sInCallControl">Контроль під час розмови</string>
+    <string name="sHangUpAndCallBack">Скинути і передзвонити</string>
+    <string name="sHangUpAndCallBackSummary">Довгим натисненням дзвінок скинеться і передзвониться до того хто дзвонив
+    </string>
+    <string name="show_button_while_ringing">Показувати кнопку під час дзвінка</string>
+    <string name="show_button_while_ringing_summary">Показувати усі кнопки контролю перед підняттям вхідного дзвінка
+    </string>
+    <string name="sExcludeFavoritesFromAll">Не включати обрані до сторінки "Усі"</string>
+    <string name="sExcludeFavoritesFromAllSummary">Вилучає обране зі сторінки з усіма записами</string>
+    <string name="vertical_position">Вертикальна позиція</string>
+    <string name="horizontal_position">Горизонтальна позиція</string>
+    <string name="sVerticalOffset">Зсув від вертикального краю</string>
+    <string name="sVerticalOffsetSummary">Зсув від вибраного краю у вертикальному вирівнюванні (Верх чи низ)</string>
+    <string name="sHorizontalOffset">Зсув від горизонтального краю</string>
+    <string name="sHorizontalOffsetSummary">Зсув від вибраного краю у горизонтальному вирівнюванні (Ліворуч чи
+        праворуч)
+    </string>
+    <string name="sLowSpaceWarning">Увага, бракує місця</string>
+    <string name="sLowSpaceWarningSummary">Встановіть рівень мінімального місця в мегабайтах, після якого вмикатиметься
+        застереження
+    </string>
+    <string name="sMainScreen">Головна сторінка</string>
+    <string name="sHideInCallControlButton">Приховати кнопку "контроль під час дзвінка"</string>
+    <string name="sHideInCallControlButtonSummary">Приховує кнопку "контроль під час дзвінка" під час запису розмови
+    </string>
+    <string name="sDontShowInCallButton">Не показувати кнопки перед з\'єднанням</string>
+    <string name="hide_button_before_answer_summary">Не показуватиме кнопку контролю під час дзвінку перед з\'єднанням
+    </string>
+    <string name="sLanguageDefault">Системна</string>
+
+    <!--Vertical aligns array-->
+    <string name="sVerticalAlignTop">Верхнє</string>
+    <string name="sVerticalAlignBottom">Нижнє</string>
+
+    <!--Horizontal aligns array-->
+    <string name="sHorizontalAlignLeft">Ліворуч</string>
+    <string name="sHorizontalAlignRight">Праворуч</string>
+
+    <!--Notification icons array-->
+    <string name="sNotificationIconDefault">Системне</string>
+    <string name="sNotificationIconGreenNew">Зелене (нове)</string>
+    <string name="sNotificationIconGreenOld">Зелено (старе)</string>
+    <string name="sNotificationIconGray">Сіре</string>
+
+    <!--Dropbox-->
+    <string name="sDropboxLogin">Увійти</string>
+    <string name="sDropboxLogout">Вийти</string>
+
+    <string name="cloud_wifi_only">Лише Wi-Fi</string>
+    <string name="cloud_auto_upload">Авто завантаження</string>
+    <string name="sCloudUploadFavorites">Відвантажити обрані</string>
+    <string name="sCloudUploadFavoritesSummary">Відвантажує записи до Dropbox, якщо їх додати до обраних</string>
+    <string name="cloud_auto_upload_summary">Завантажити запис одразу після дзвінка</string>
+    <string name="menu_add_to_dropbox">Додати до Dropbox</string>
+
+    <!--Security-->
+    <string name="category_encryption">Шифрування</string>
+    <string name="sKeyNotFound">Ключ не знайдено</string>
+    <string name="sCreate">Створити</string>
+    <string name="create_new_key">Створити новий ключ</string>
+    <string name="enter_password">Введіть пароль</string>
+    <string name="sReEnterPassword">Введіть пароль ще раз</string>
+    <string name="aes_128bit">128-bit AES (Швидко)</string>
+    <string name="aes_192bit">192-bit AES (Врівноважено)</string>
+    <string name="aes_256bit">256-bit AES (Надійно)</string>
+    <string name="category_application">Програма</string>
+    <string name="app_admin">Адміністрування програми</string>
+    <string name="sAppAdminSummary">Запобігання деінсталяції CallRecorder</string>
+    <string name="sAppAdminExplanation">CallRecorder не використовує жодних функції адміністрування пристрою за винятком
+        захисту від деінсталювання
+    </string>
+    <string name="change_password">Змінити пароль</string>
+    <string name="enter_old_password">Введіть старий пароль</string>
+    <string name="enter_new_password">Введіть новий пароль</string>
+    <string name="re_enter_new_password">Ще раз новий пароль</string>
+    <string name="require_password">Вимагає пароль</string>
+    <string name="require_password_summary">Щоб відкрити введіть пароль</string>
+    <string name="lock_after">Заблокувати після</string>
+    <string name="lock_after_exit">Вихід</string>
+    <string name="lock_after_1_minute">1 хв.</string>
+    <string name="lock_after_3_minutes">3 хв.</string>
+    <string name="lock_after_5_minutes">5 хв.</string>
+    <string name="lock_after_10_minutes">10 хв.</string>
+    <string name="password_has_been_changed">Пароль було змінено</string>
+
+    <!--Audio player-->
+    <string name="sUseDefaultPlayer">Використовувати основний програвач</string>
+    <string name="audio_output">Звуковий вихід</string>
+    <string name="android_wav_decoder">Декодер WAV від системи Андроїда</string>
+    <string name="android_wav_decoder_summary">Використовує вбудовані інструменти Андроїда для програвання формату WAV
+    </string>
+    <string name="android_amr_decoder">Андроїдний декодер для AMR</string>
+    <string name="android_amr_decoder_summary">Використовувати Андроїдні можливості програвати AMR</string>
+    <string name="switch_audio_output">Перемкнути вихід аудіо</string>
+    <string name="SwitchAudioOutputSummary">Автоматично перемикається аудіо джерело в разі екран увімкнено/вимкнено
+        сенсором відстані
+    </string>
+    <string name="use_proximity_sensor">Увімкнути датчик наближення</string>
+    <string name="sUseProximitySensorSummary">Задіює датчик наближення, щоб вимкнути екран під час прослуховування
+        запису. (Вимагає доступ до кореня)
+    </string>
+
+    <!--Audio output array-->
+    <string name="main_speaker">Гучномовиць</string>
+    <string name="phone_speaker">Телефонний динамік</string>
+
+    <!--Experimental-->
+    <string name="sConvertAfterCall">Конвертувати після завершення розмови</string>
+    <string name="sDontConvert">Не конвертувати</string>
+    <string name="sWavToMp3">WAV у MP3</string>
+    <string name="sWavToAmr">WAV у AMR</string>
+
+    <!--Debug-->
+    <string name="sDetailedLogs">Детальний журнал</string>
+    <string name="root_access">Доступ до кореня</string>
+    <string name="root_access_no">так</string>
+    <string name="root_access_yes">ні</string>
+    <string name="sLogsSettingsCategory">Журнали</string>
+    <string name="sSendLogsToTheDeveloper">Надіслати звіти розрозбнику</string>
+    <string name="sUseGzipToCompressLogs">Використати gzip для стискування журнальних даних</string>
+    <string name="sRecordOnNotificationClick">Запис після дозволу</string>
+    <string name="sRecordOnNotificationClickSummary">Не натискуйте на дозвіл перед утворенням з\'єднання з абонентом
+    </string>
+    <string name="sHideNotificationDuringCall">Приховати кнопку дозволу під час розмови</string>
+    <string name="sHideNotificationDuringCallSummary">Не вмикайте її, це лише для функції відлагоджування</string>
+    <string name="dual_sim_phone">Телефон на дві сім-картки</string>
+    <string name="dual_sim_phone_summary">Увімкніть це якщо програма не реагує на дзвінок з другорядної сім-картки
+    </string>
+
+    <!--About-->
+    <string name="version">Версія</string>
+    <string name="sAboutCallRecorder">Про CallRecorder</string>
+    <string name="license_status">Статус ліцензії</string>
+    <string name="sLicenseStatusVerified">Ліцензію перевірено</string>
+    <string name="license_trial">Пробна версія закінчиться черз %s</string>
+
+    <string name="copyright">Копірайтс</string>
+    <string name="copyright_summary">&#169; %s Alexander Skvortsov (skvalex)</string>
+    <string name="about_many_thanks">Велике дякую</string>
+    <string name="about_many_thanks_summary">Олексію Суботіну(avs234)</string>
+    <string name="sGermanTranslation">переклад на німецьку</string>
+    <string name="sGermanTranslationSummary_ver1">завдяки Marc Hillesheim and Thomas Käfer</string>
+    <string name="sPolishTranslation">Переклад на польську</string>
+    <string name="sPolishTranslationSummary">by Robert Gonta</string>
+    <string name="sFrenchTranslation">Переклад французькою</string>
+    <string name="sFrenchTranslationSummary">завдяки Julien Boiteux</string>
+    <string name="sBrazilianPortugueseTranslation">Переклад на бразилійську португальську</string>
+    <string name="sBrazilianPortugueseTranslationSummary">завдяки Luiz Marcelo Serique</string>
+    <string name="sSpanishTranslation">Переклад на іспанську</string>
+    <string name="sSpanishTranslationSummary_ver1">завдяки Iñigo Garcia та Diego Vilas</string>
+    <string name="sSlovakTranslation">Переклад на словацьку</string>
+    <string name="sSlovakTranslationSummary">by Loránt Gerencsér</string>
+    <string name="sItalianTranslation">Переклад на італійську</string>
+    <string name="sItalianTranslationSummary">by Luca Trevisan</string>
+    <string name="sPersianTranslation">Переклад на фарсі</string>
+    <string name="sPersianTranslationSummary_v2">завдяки Alireza Afkar</string>
+    <string name="sChineseTranslation">Переклад на китайську</string>
+    <string name="sChineseTranslationSummary">by qhq</string>
+    <string name="sCzechTranslation">Переклад чеською</string>
+    <string name="sCzechTranslationSummary_ver2">завдяки Ales Kerner та Lukas Waldauf</string>
+    <string name="sArabicTranslation">Переклад арабською</string>
+    <string name="sArabicTranslationSummary">завдяки Ausama S. Ibrahim</string>
+    <string name="sHebrewTranslation">Переклад на іврит</string>
+    <string name="sHebrewTranslationSummary">by NuFlood</string>
+    <string name="sHungarianTranslation">Переклад на угорську</string>
+    <string name="sHungarianTranslationSummary_ver2">завдяки Szalay Levente та Miklós Toldi</string>
+    <string name="sDutchTranslation">Переклад на голандську</string>
+    <string name="sDutchTranslationSummary">завдяки Elroy Tirbeni</string>
+    <string name="sTurkishTranslation">Переклад на турецьку</string>
+    <string name="sTurkishTranslationSummary">завдяки Omer Ilik</string>
+    <string name="sSerbianTranslation">Переклад на сербську</string>
+    <string name="sSerbianTranslationSummary">завдяки sHAKaJaada</string>
+    <string name="sKoreanTranslation">Переклад на корейську</string>
+    <string name="sKoreanTranslationSummary_ver2">завдяки SoHyunSeop та Joon Hee Jo</string>
+    <string name="sRomanianTranslation">Переклад на румунську</string>
+    <string name="sRomanianTranslationSummary">завдяки Dan P. (sad)</string>
+    <string name="sUkrainianTranslation">Переклад на українську</string>
+    <string name="sUkrainianTranslationSummary">здійснив Геннадій Самолюк</string>
+    <string name="sTraditionalChineseTranslation">Переклад на традиційну китайську</string>
+    <string name="sTraditionalChineseTranslationSummary_v2">GPF_kaibird та Ghien Jung</string>
+    <string name="sJapaneseTranslation">Переклад на японську</string>
+    <string name="sJapaneseTranslationSummary">завдяки Akira Tagoh</string>
+    <string name="sSwedishTranslation">Переклад на шведську</string>
+    <string name="sSwedishTranslationSummary">завдяки Johannes Sjölund</string>
+    <string name="sBulgarianTranslation">Переклад на болгарську</string>
+    <string name="sBulgarianTranslationSummary">завдяки PROXIMO</string>
+    <string name="sDanishTranslation">Переклад на данську</string>
+    <string name="sDanishTranslationSummary">завдяки Lars Sarauw Hansen</string>
+    <string name="sLatvianTranslation">Переклад на латвійську</string>
+    <string name="sLatvianTranslationSummary">завдяки Arvīds Dreimanis</string>
+    <string name="sThaiTranslation">Переклад на тайську</string>
+    <string name="sThaiTranslationSummary">завдяки Wuttisak Saichoncharn</string>
+    <string name="sArmenianTranslation">Переклад на вірменську</string>
+    <string name="sArmenianTranslationSummary">завдяки Konstantin Gevorgyan</string>
+    <string name="sGeorgianTranslation">Переклад на грузинську</string>
+    <string name="sGeorgianTranslationSummary">завдяки Alexandre Razmadze</string>
+    <string name="sCatalanTranslation">Переклад на каталонську</string>
+    <string name="sCatalanTranslationSummary">завдяки cybdani</string>
+    <string name="sHindiTranslation">Переклад на гінді</string>
+    <string name="sHindiTranslationSummary">завдяки TheTAMAS Gautam</string>
+    <string name="sPunjabiTranslation">Переклад на пунджабі</string>
+    <string name="sPunjabiTranslationSummary_ver2">завдяки Raj Verma</string>
+    <string name="sFinnishTranslation">Переклад на фінську</string>
+    <string name="sFinnishTranslationSummary">завдяки Eero Linnainmaa</string>
+
+    <!--Licenses-->
+    <string name="licenses">Ліцензія</string>
+    <string name="sActionBarSherlockLicense">ActionBarSherlock</string>
+    <string name="sActionBarSherlockLicenseSummary">Використовує ActionBarSherlock за умов ліцензії Apache версії
+        2.0,натисніть тут, аби відвідати actionbarsherlock.com
+    </string>
+    <string name="about_open_core_amr_license">opencore-amr</string>
+    <string name="about_open_core_amr_license_summary">Використовує opencore-amr під ліцензією Apache версії 2.0. Натисніть сюди,
+        аби відвідати opencore-amr.sourceforge.net
+    </string>
+    <string name="about_alsa">ALSA</string>
+    <string name="about_alsa_summary">Використовує ALSA за умов LGPL, натисніть тут, аби відвідати alsa-project.org</string>
+    <string name="about_lame">LAME</string>
+    <string name="about_lame_summary">Використовується LAME за умов LGPL. Натисніть сюди аби відвідати mp3dev.org</string>
+</resources>

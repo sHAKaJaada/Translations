@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CallRecorder</string>
+    <!--Rules array-->
+    <string name="sRuleDescription">앱의 설명을 읽고 이해하였습니다.</string>
+    <string name="sRulePlayStore">개발자가 스토어에서 답변을 드리지 못한다는 것을 알고 있습니다.</string>
+    <string name="sRuleUseOfProgram">개발자가 앱의 사용에 대한 책임을 지지 않으며, 사용시 책임은 모두 본인에게 있습니다.</string>
+    <string name="sRuleLaw">앱을 사용하여 자신의 국가의 법을 어기지 않을것을 약속합니다.</string>
+    <string name="sRuleNotWorking">장치에서 동작하지 않는 경우 설명을 읽어 주십시오. 문제가 지속되면 개발자의 이메일 skvalex@gmail.com 으로 문의하여 주십시오
+    </string>
+
+    <!--Notification-->
+    <string name="sRecordingIsRunning">통화 녹음 서비스가 실행 중입니다.</string>
+    <string name="sThisCallIsRecording">본 통화는 녹음되고 있습니다.</string>
+    <string name="an_error_has_occurred">오류가 발생하였습니다, 이 통화는 녹음되지 않습니다.</string>
+    <string name="sEncodingError">인코드 중 오류가 발생하였습니다...</string>
+    <string name="start_recording">녹음 시작</string>
+    <string name="stop_recording">녹음 중지</string>
+
+    <!--List with recordings-->
+    <string name="empty_hint">비어 있음</string>
+    <string name="contact_unknown">알 수 없음</string>
+
+    <!--Actions on recording-->
+    <string name="category_actions">작업</string>
+    <string name="sFilterThisNumber">이 번호의 녹음 내역만 표시</string>
+    <string name="sAddToFavorites">즐겨찾기에 추가</string>
+    <string name="sRemoveFromFavorites">즐겨찾기에서 제거</string>
+    <string name="sAddToContacts">연락처에 추가</string>
+    <string name="sOpenContact">연락처 열기</string>
+    <string name="sCall">통화</string>
+    <string name="sNote">주의</string>
+    <string name="sConvertToMp3">MP3 로 변환</string>
+    <string name="sConvertToAmr">AMR 로 변환</string>
+    <string name="sRenameFile">파일 이름 변경</string>
+    <string name="menu_get_info">정보 얻기</string>
+    <string name="menu_encrypt">암호화</string>
+    <string name="menu_decrypt">복호화</string>
+
+    <!--Actions on selected recordings-->
+    <string name="action_select_all">모두 선택</string>
+    <string name="sSelectNone">선택 취소</string>
+
+    <!--General-->
+    <string name="sSend">전송</string>
+    <string name="sSendVia">다음을 사용하여 공유</string>
+    <string name="menu_delete">삭제</string>
+    <string name="button_cancel">취소</string>
+    <string name="button_ok">확인</string>
+    <string name="sSeconds">초</string>
+    <string name="sDisabled">비활성화</string>
+    <string name="sYes">승인</string>
+    <string name="sNo">거부</string>
+    <string name="terabyte">TB</string>
+    <string name="gigabyte">GB</string>
+    <string name="megabyte">MB</string>
+    <string name="kilobyte">KB</string>
+    <string name="bytes">Bytes</string>
+    <string name="please_wait">잠시 기다려 주십시오...</string>
+
+    <!--Tabs-->
+    <string name="section_incoming">수신</string>
+    <string name="section_outgoing">발신</string>
+    <string name="sFavorites">즐겨찾기</string>
+    <string name="sAll">모두</string>
+
+    <!--Send recordings-->
+    <string name="recorded_calls">녹음된 통화</string>
+    <string name="sIncoming">수신</string>
+    <string name="sOutgoing">발신</string>
+
+    <!--Dialog after call-->
+    <string name="sDlgDeleteMsg">녹음된 통화를 유지 또는 삭제하시겠습니까?</string>
+    <string name="sKeep">유지</string>
+    <string name="sDropboxAdded">추가되었습니다.</string>
+
+    <!--Delete confirmation dialog-->
+    <string name="sDeleteFiles">파일 삭제</string>
+    <string name="confirm_delete_message">정말로 이 녹음을 삭제하시겠습니까?</string>
+    <string name="sDlgDeleteSelectionMsg">%d개 파일을 선택 하였습니다. 정말로 모두 삭제하시겠습니까?</string>
+    <string name="sFilesDeletedToast">%d 파일 삭제됨</string>
+
+    <!--Call confirm dialog-->
+    <string name="call_confirm_record_this_call">본 통화 녹음</string>
+
+    <!--Dialog about law-->
+    <string name="sWarning">경고</string>
+    <string name="sMsgAboutLaw">일부 국가에서의 통화 녹음은 불법입니다. 통화 녹음이 합법적인 국가에서 사용 중입니까?</string>
+
+    <!--Rules dialog-->
+    <string name="sRules">규칙</string>
+    <string name="sIAgree">동의</string>
+    <string name="sIDisagree">동의 안함</string>
+
+    <!--Main screen toasts-->
+    <string name="sAddToFavoritesSuccess">녹음이 성공적으로 즐겨찾기에 추가되었습니다.</string>
+    <string name="sRemoveFromFavoritesSuccess">녹음이 성공적으로 즐겨찾기에서 제거되었습니다.</string>
+    <string name="sDeleteFavoriteRecordingMsg">이 녹음을 삭제하려면 즐겨찾기에서 녹음을 제거해야 합니다.</string>
+
+    <!--Encryption-->
+    <string name="sFileSuccessfullyEncrypted">파일을 성공적으로 암호화 하였습니다.</string>
+    <string name="sFileSuccessfullyDecrypted">파일을 성공적으로 복호화 하였습니다.</string>
+    <string name="sEncrypting">암호화</string>
+    <string name="sDecrypting">복호화</string>
+    <string name="sEncrypted">암호화됨</string>
+
+    <!--Main screen warnings-->
+    <string name="sAvailableFreeSpace">낮은 공간: %s</string>
+    <string name="sReadWriteErr">파일 시스템이 읽기/쓰기로 마운트되어야 합니다.</string>
+    <string name="sAlsaIsNotInstalledMsg">Alsa 가 설치되어 있지 않습니다. 여기를 탭하여 설치합니다.</string>
+    <string name="sPhoneMustBeRootedWarning">휴대전화가 루팅되어 있어야 합니다. 길게 터치하여 본 메시지를 닫습니다.</string>
+    <string name="sStandardAPITip">만약 표준 API 환경설정에서 모든 오디오 소스를 선택해도 동작하지 않는 경우, 길게 탭하여 본 메시지를 무시합니다.</string>
+
+    <!--Toasts-->
+    <string name="sLoggerMustBeEnabledToast">사용자의 롬 또는 커널에서 기록을 사용하도록 해야 합니다.</string>
+    <string name="sFileWasDeletedToast">파일이 삭제 되었습니다.</string>
+
+    <!--Action bar-->
+    <string name="action_search">검색</string>
+    <string name="sSizeRecords">녹음: %1$s, 크기: %2$s</string>
+    <string name="sFreeOf">FREE</string>
+
+    <!--Tasks screen-->
+    <string name="section_tasks">작업</string>
+    <string name="sInProgress">진행 중 (%s)</string>
+    <string name="sInQueue">대기 중</string>
+
+    <!--Get Info dialog-->
+    <string name="file_name">파일 이름</string>
+    <string name="sample_rate">샘플 속도</string>
+    <string name="sample_rate_hz">Hz</string>
+    <string name="file_size">파일 크기</string>
+    <string name="button_edit">편집</string>
+
+    <!--Edit Info dialog-->
+    <string name="contact_name">연락처 이름</string>
+    <string name="phone_number">전화 번호</string>
+
+    <!--Description for file name pattern-->
+    <string name="pattern_contact_name">연락처 이름</string>
+    <string name="pattern_phone_number">전화 번호</string>
+    <string name="pattern_call_time">통화 시간</string>
+    <string name="sCallTimestamp">통화 시간 기록</string>
+    <string name="pattern_call_type">통화 유형 (수신 또는 발신)</string>
+
+    <!--Description for time pattern-->
+    <string name="time_pattern_hours">시간</string>
+    <string name="time_pattern_minutes">분</string>
+    <string name="time_pattern_seconds">초</string>
+    <string name="time_pattern_days">일</string>
+    <string name="time_pattern_months">월</string>
+    <string name="time_pattern_years">년</string>
+    <string name="pattern_example">예:</string>
+
+    <!--Trial expired dialog-->
+    <string name="sTrialPeriodExpired">평가판 기간 만료됨</string>
+    <string name="sTrialPeriodExpiredMsg">정식 버전을 구매하기 전에, 이 시험판을 제거하십시오</string>
+    <string name="sBuy">구입</string>
+
+    <!--New settings-->
+    <string name="action_settings">설정</string>
+    <string name="section_help">도움말</string>
+
+    <!--Main settings-->
+    <string name="buy_full_version">정식 버전 구입</string>
+    <string name="buy_full_version_summary">현재 버전은 %s 에 만료됩니다.</string>
+    <string name="sCallRecorderUpdater">CallRecorder 업데이터</string>
+    <string name="settings_recording">녹음</string>
+    <string name="settings_folders_and_files">폴더 및 파일</string>
+    <string name="settings_ui_and_appearance">인터페이스 및 모양새</string>
+    <string name="cloud_provider_dropbox">Dropbox</string>
+    <string name="settings_security">보안</string>
+    <string name="settings_audio_player">오디오 재생기</string>
+    <string name="sExperimentalSettings">실험용 기능</string>
+    <string name="settings_debug">디버그</string>
+    <string name="settings_about">정보</string>
+
+    <!--General-->
+    <string name="sGeneralSettingsCategory">일반</string>
+    <string name="sOtherSettingsCategory">기타</string>
+    <string name="sAdvancedSettingsCategory">고급 설정</string>
+    <string name="category_wav_settings">WAV 설정</string>
+    <string name="category_main">기본 설정</string>
+
+
+    <!--Buy full version-->
+    <string name="sOpenPlayStore">Play 스토어 열기</string>
+
+    <!--CallRecorder Updater-->
+    <string name="sOpenCallRecorderUpdater">CallRecorder 업데이터 열기</string>
+
+    <!--Recording-->
+    <string name="recording_calls_switch">통화 녹음</string>
+    <string name="device">장치</string>
+    <string name="device_other">기타</string>
+    <string name="select_your_device">사용자의 장치를 선택합니다.</string>
+    <string name="sAudioFormatSettingsCategory">오디오 형식</string>
+    <string name="sCallRecordingFormat">통화 녹음 형식</string>
+    <string name="sMethodSettingsCategory">방식</string>
+    <string name="sKernelSettings">커널</string>
+    <string name="sKernelSettingsSummary">커널 녹음 설정</string>
+    <string name="recording_method_api">표준 API</string>
+    <string name="recording_method_api_settings">표준 API 녹음 설정</string>
+    <string name="recording_method_alsa">ALSA</string>
+    <string name="recording_method_alsa_settings">ALSA 녹음 설정</string>
+    <string name="recording_method">녹음 방식</string>
+    <string name="recording_method_caf">CAF</string>
+    <string name="recording_method_caf_settings">CAF 녹음 설정</string>
+    <string name="volume_control">볼륨 조정</string>
+
+    <!--Recording methods array-->
+    <string name="sRecordingMethodKernel">커널 (루트 필요)</string>
+    <string name="sRecordingMethodStandardAPI">표준 API</string>
+    <string name="sRecordingMethodALSA">ALSA (루트 필요)</string>
+    <string name="sRecordingMethodCAF">CAF (루트 필요)</string>
+
+    <!--Recording audio formats-->
+    <string name="recording_format_wav">WAV</string>
+    <string name="recording_format_amr">AMR</string>
+    <string name="recording_format_aac">AAC</string>
+    <string name="s3GPP">3GPP</string>
+    <string name="recording_format_mp3">MP3</string>
+
+    <!--Recording behavior-->
+    <string name="after_call_actions_dialog">통화 후 행동 대화 상자</string>
+    <string name="after_call_actions_dialog_summary">통화 후 행동 설정</string>
+    <string name="call_confirm">통화 확인</string>
+    <string name="call_confirm_summary">통화 전 확인 대화 상자 표시</string>
+    <string name="sDefaultAction">기본 작업</string>
+    <string name="action_for_outgoing">발신 통화 작업</string>
+    <string name="action_for_incoming">수신 통화 작업</string>
+    <string name="delay_before_start_recording">녹음 시작 전에 지연</string>
+    <string name="sIncomingCalls">수신 통화</string>
+    <string name="sOutgoingAndIncomingCalls">발신 &amp; 수신 통화</string>
+    <string name="sOutgoingCalls">발신 통화</string>
+    <string name="vibrate_on_call">통화 시작/종료시 진동</string>
+
+    <!--Actions-->
+    <string name="action_record_all">모든 통화 녹음</string>
+    <string name="action_do_not_record">녹음하지 않음</string>
+    <string name="action_record_contacts">연락처에 있는 사람만 녹음</string>
+    <string name="action_record_non_contacts">연락처에 없는 사람만 녹음</string>
+
+    <!--Recording -> Exceptions-->
+    <string name="exceptions">예외</string>
+    <string name="sAddGroup">그룹 추가</string>
+    <string name="sAdd">추가</string>
+    <string name="exception_group">그룹</string>
+    <string name="exception_select_group">그룹 선택</string>
+    <string name="exception_select_action">작업 선택</string>
+    <string name="sChangeAction">작업 변경</string>
+    <string name="exception_action_always_record">항상 녹음</string>
+    <string name="exception_action_never_record">녹음 안함</string>
+    <string name="sPressMenuToAddException">메뉴를 터치하여 예외를 추가</string>
+
+    <!--Recording -> Kernel-->
+    <string name="chipset_type">칩셋 종류</string>
+    <string name="sSoundBoost">소리 증폭</string>
+    <string name="sUplinkBoost">업링크 증폭</string>
+    <string name="sDownlinkBoost">다운링크 증폭</string>
+    <string name="dont_use_amr_driver">AMR 드라이버 사용하지 않음</string>
+    <string name="dont_use_amr_driver_summary">WAV를 AMR로 실시간 변환</string>
+
+    <!--Recording -> Standard API-->
+    <string name="api_audio_source">오디오 소스</string>
+    <string name="sWhenBTConnected">BT 연결시...</string>
+    <string name="sBTEnabledMeansBTConnected">BT 활성화를 BT 연결로 취급</string>
+    <string name="sBTEnabledMeansBTConnectedSummary">BT 장치 활성화 후 BT 연결시와 동일한 설정이 적용됩니다.</string>
+    <string name="sAudioSourceWhenBTConnected">BT 연결시 오디오 소스</string>
+    <string name="sample_rate">샘플 속도</string>
+    <string name="sample_rate_8000">8000 Hz (기본값)</string>
+
+    <!--Audio sources of Standard API array-->
+    <string name="api_source_uplink_downlink">음성 통화 업링크 + 다운링크</string>
+    <string name="api_source_downlink">음성 통화 다운링크</string>
+    <string name="api_source_uplink">음성 통화 업링크</string>
+    <string name="api_source_microphone">마이크</string>
+    <string name="api_source_default">기본값</string>
+    <string name="api_source_voice_communication">음성 통신</string>
+
+    <!--Actions on BT connected array-->
+    <string name="sOnBTConnectedActionDoNothing">작업 없음</string>
+    <string name="sOnBTConnectedActionSwitchAudioSource">오디오 소스 전환</string>
+    <string name="sOnBTConnectedActionDisableRecording">녹음 비활성화</string>
+
+    <!--Recording -> ALSA-->
+    <string name="sAlsa">Alsa</string>
+    <string name="sAlsaIsInstalled">Alsa 가 설치되어 있음</string>
+
+    <!--Folders and Files-->
+    <string name="sRescan">다시 스캔</string>
+    <string name="sRescanSummary">폴더를 다시 스캔하여 녹음 목록 갱신</string>
+    <string name="sFolderSettingsCategory">폴더</string>
+    <string name="folder">폴더</string>
+    <string name="automatic_cleanup">자동 정리</string>
+    <string name="max_number_of_files">파일의 최대 개수</string>
+    <string name="max_number_of_files_message">숫자 입력 (0 - 제한 없음)</string>
+    <string name="max_total_size_of_files">총 파일의 최대 크기</string>
+    <string name="max_total_size_of_files_message">MB 단위의 값 입력 (0 - 제한 없음)</string>
+    <string name="max_age_of_recordings">녹음의 최대 보관 기간</string>
+    <string name="max_age_of_recordings_message">일 단위의 값 입력 (0 - 제한 없음)</string>
+    <string name="current_setting">현재 설정: %s</string>
+    <string name="sFileNameSettingsCategory">파일 이름</string>
+    <string name="filename_pattern">패턴</string>
+    <string name="time_pattern">시간 패턴</string>
+
+    <!--Interface and Appearance-->
+    <string name="language">언어</string>
+    <string name="select_language">언어 선택</string>
+    <string name="sActionBarSettingsCategory">작업 막대</string>
+    <string name="sAudioOutputActionBar">오디오 출력</string>
+    <string name="sAudioOutputActionBarSummary">작업 막대에 오디오 출력 설정 표시</string>
+    <string name="incall_control_for_outgoing">발신 통화</string>
+    <string name="sInCallControlForOutgoingSummary">발신 통화시 제어 버튼 표시</string>
+    <string name="incall_control_for_incoming">수신 통화</string>
+    <string name="sInCallControlForIncomingSummary">수신 통화시 제어 버튼 표시</string>
+    <string name="category_notification">알림</string>
+    <string name="sNotificationIcon">알림 아이콘</string>
+    <string name="show_notification">알림 표시</string>
+    <string name="sShowNotificationSummary">프로세스 우선 순위를 향상합니다.</string>
+    <string name="sInCallControl">수신 통화 제어</string>
+    <string name="sHangUpAndCallBack">끊고 다시 걸기</string>
+    <string name="sHangUpAndCallBackSummary">길게 누르면 전화를 끊고 자동으로 다시 전화를 겁니다</string>
+    <string name="show_button_while_ringing">전화가 올 때 버튼 표시</string>
+    <string name="show_button_while_ringing_summary">전화벨이 울리면 전화를 받기 전에도 제어 버튼을 표시합니다</string>
+    <string name="sExcludeFavoritesFromAll">모든 화면에서 즐겨찾기 제외</string>
+    <string name="sExcludeFavoritesFromAllSummary">모든 화면의 녹음에서 즐겨찾기를 제외합니다.</string>
+    <string name="vertical_position">수직 위치</string>
+    <string name="horizontal_position">수평 위치</string>
+    <string name="sVerticalOffset">수직 모서리 오프셋</string>
+    <string name="sVerticalOffsetSummary">선택된 수직(상단, 하단) 모서리로부터의 간격을 설정합니다.</string>
+    <string name="sHorizontalOffset">수평 모서리 오프셋</string>
+    <string name="sHorizontalOffsetSummary">선택된 수평(왼쪽, 오른쪽) 모서리로부터의 간격을 설정합니다.</string>
+    <string name="sLowSpaceWarning">공간 부족 경고</string>
+    <string name="sLowSpaceWarningSummary">여유 공간의 최소 한계를 MB 단위로 설정하십시오.</string>
+    <string name="sMainScreen">메인 화면</string>
+    <string name="sHideInCallControlButton">통화 중 제어 버튼 숨기기</string>
+    <string name="sHideInCallControlButtonSummary">통화가 녹음 중인 경우 제어 버튼을 숨깁니다.</string>
+    <string name="sDontShowInCallButton">전화 연결 전까지 제어 버튼 표시 안 함</string>
+    <string name="hide_button_before_answer_summary">전화를 걸어 서로 연결되기 전까지 제어 버튼을 표시하지 않도록 합니다</string>
+    <string name="sLanguageDefault">기본값</string>
+
+    <!--Vertical aligns array-->
+    <string name="sVerticalAlignTop">상단</string>
+    <string name="sVerticalAlignBottom">하단</string>
+
+    <!--Horizontal aligns array-->
+    <string name="sHorizontalAlignLeft">왼쪽</string>
+    <string name="sHorizontalAlignRight">오른족</string>
+
+    <!--Notification icons array-->
+    <string name="sNotificationIconDefault">기본값</string>
+    <string name="sNotificationIconGreenNew">녹색 (신규)</string>
+    <string name="sNotificationIconGreenOld">녹색 (기존)</string>
+    <string name="sNotificationIconGray">회색</string>
+
+    <!--Dropbox-->
+    <string name="sDropboxLogin">로그인</string>
+    <string name="sDropboxLogout">로그아웃</string>
+
+    <string name="cloud_wifi_only">Wi-Fi에서만</string>
+    <string name="cloud_auto_upload">자동 업로드</string>
+    <string name="sCloudUploadFavorites">즐겨찾기 업로드</string>
+    <string name="sCloudUploadFavoritesSummary">녹음을 즐겨찾기에 추가하면 Dropbox에 업로드합니다.</string>
+    <string name="cloud_auto_upload_summary">통화 후 즉시 업로드</string>
+    <string name="menu_add_to_dropbox">Dropbox에 추가</string>
+
+    <!--Security-->
+    <string name="category_encryption">암호화</string>
+    <string name="sKeyNotFound">키 찾을 수 없음</string>
+    <string name="sCreate">만들기</string>
+    <string name="create_new_key">신규 키 만들기</string>
+    <string name="enter_password">암호 입력</string>
+    <string name="sReEnterPassword">암호 다시 입력</string>
+    <string name="aes_128bit">128-bit AES (고속)</string>
+    <string name="aes_192bit">192-bit AES (중간)</string>
+    <string name="aes_256bit">256-bit AES (느림)</string>
+    <string name="category_application">애플리케이션</string>
+    <string name="app_admin">앱 관리자</string>
+    <string name="sAppAdminSummary">CallRecorder 를 임의로 제거하는것을 방지하기 위해 필요합니다.</string>
+    <string name="sAppAdminExplanation">CallRecorder 는 임의 제거를 방지하는 기능 이외에는 어떠한 기능도 없습니다.</string>
+
+    <!--Audio player-->
+    <string name="sUseDefaultPlayer">기본 재생기 사용</string>
+    <string name="audio_output">오디오 출력</string>
+    <string name="android_wav_decoder">Android WAV 디코더</string>
+    <string name="android_wav_decoder_summary">WAV 재생시 Android 내장 디코더를 사용합니다.</string>
+    <string name="android_amr_decoder">AMR 안드로이드 디코더</string>
+    <string name="android_amr_decoder_summary">AMR 재생시 안드로이드 내장 도구 사용</string>
+    <string name="switch_audio_output">오디오 출력 전환</string>
+    <string name="SwitchAudioOutputSummary">화면의 근접 센서가 활성화 / 비활성화된 경우 자동으로 오디오 소스를 전환합니다.</string>
+    <string name="use_proximity_sensor">근접 센서 사용</string>
+    <string name="sUseProximitySensorSummary">녹음을 재생할 때 화면을 사용하지 않도록 근접 센서를 사용합니다. (루트 권한 필요)</string>
+
+    <!--Audio output array-->
+    <string name="main_speaker">메인 스피커</string>
+    <string name="phone_speaker">통화 스피커</string>
+
+    <!--Experimental-->
+    <string name="sConvertAfterCall">통화 후 변환</string>
+    <string name="sDontConvert">변환하지 않음</string>
+    <string name="sWavToMp3">WAV를 MP3로</string>
+    <string name="sWavToAmr">WAV를 AMR로</string>
+
+    <!--Debug-->
+    <string name="sDetailedLogs">자세한 기록</string>
+    <string name="root_access">루트 접근</string>
+    <string name="root_access_no">거부</string>
+    <string name="root_access_yes">승인</string>
+    <string name="sLogsSettingsCategory">기록</string>
+    <string name="sSendLogsToTheDeveloper">기록을 개발자에게 전송</string>
+    <string name="sUseGzipToCompressLogs">기록 압축시 GZip 사용</string>
+    <string name="sRecordOnNotificationClick">알림 클릭시 녹음</string>
+    <string name="sRecordOnNotificationClickSummary">통화 연결 전에 알림을 클릭하지 마세요.</string>
+    <string name="sHideNotificationDuringCall">통화 중 알림 숨기기</string>
+    <string name="sHideNotificationDuringCallSummary">디버그 전용 기능입니다. 활성화 하지 마세요.</string>
+    <string name="dual_sim_phone">듀얼 SIM 지원 단말</string>
+    <string name="dual_sim_phone_summary">2번째 SIM의 회선으로부터 온 전화를 판별하지 못하는 경우 선택하십시오.</string>
+
+    <!--About-->
+    <string name="version">버전</string>
+    <string name="sAboutCallRecorder">CallRecorder 정보</string>
+    <string name="license_status">라이센스 상태</string>
+    <string name="sLicenseStatusVerified">라이센스가 확인되었습니다.</string>
+    <string name="license_trial">시험판입니다. 만료 날짜: %s</string>
+
+    <string name="copyright">저작권</string>
+    <string name="copyright_summary">&#169; %s Alexander Skvortsov (skvalex)</string>
+    <string name="about_many_thanks">특별 감사</string>
+    <string name="about_many_thanks_summary">Alexey Subbotin (avs234)</string>
+    <string name="sGermanTranslation">독일어 번역</string>
+    <string name="sGermanTranslationSummary_ver1">Marc Hillesheim and Thomas Käfer</string>
+    <string name="sPolishTranslation">폴란드어 번역</string>
+    <string name="sPolishTranslationSummary">Robert Gonta</string>
+    <string name="sFrenchTranslation">프랑스어 번역</string>
+    <string name="sFrenchTranslationSummary">Julien Boiteux</string>
+    <string name="sBrazilianPortugueseTranslation">브라질 포루투갈어 번역</string>
+    <string name="sBrazilianPortugueseTranslationSummary">Luiz Marcelo Serique</string>
+    <string name="sSpanishTranslation">스페인어 번역</string>
+    <string name="sSpanishTranslationSummary_ver1">Iñigo Garcia and Diego Vilas</string>
+    <string name="sSlovakTranslation">슬로바키아어 번역</string>
+    <string name="sSlovakTranslationSummary">Loránt Gerencsér</string>
+    <string name="sItalianTranslation">이탈리아어 번역</string>
+    <string name="sItalianTranslationSummary">Luca Trevisan</string>
+    <string name="sPersianTranslation">페르시아어 번역</string>
+    <string name="sPersianTranslationSummary_v2">Alireza Afkar</string>
+    <string name="sChineseTranslation">중국어 번역</string>
+    <string name="sChineseTranslationSummary">qhq</string>
+    <string name="sCzechTranslation">체코어 번역</string>
+    <string name="sCzechTranslationSummary_ver2">Ales Kerner and Lukas Waldauf</string>
+    <string name="sArabicTranslation">아랍어 번역</string>
+    <string name="sArabicTranslationSummary">Ausama S. Ibrahim</string>
+    <string name="sHebrewTranslation">히브리어 번역</string>
+    <string name="sHebrewTranslationSummary">NuFlood</string>
+    <string name="sHungarianTranslation">헝가리어 번역</string>
+    <string name="sHungarianTranslationSummary_ver2">Szalay Levente and Miklós Toldi</string>
+    <string name="sDutchTranslation">네덜란드어 번역</string>
+    <string name="sDutchTranslationSummary">Elroy Tirbeni</string>
+    <string name="sTurkishTranslation">터키어 번역</string>
+    <string name="sTurkishTranslationSummary">Omer Ilik</string>
+    <string name="sSerbianTranslation">세르비아어 번역</string>
+    <string name="sSerbianTranslationSummary">sHAKaJaada</string>
+    <string name="sKoreanTranslation">한국어 번역</string>
+    <string name="sKoreanTranslationSummary_ver2">SoHyunSeop and Joon Hee Jo (Gomdolius)</string>
+    <string name="sRomanianTranslation">루마니아어 번역</string>
+    <string name="sRomanianTranslationSummary">Dan P. (sad)</string>
+    <string name="sUkrainianTranslation">우크라이나어 번역</string>
+    <string name="sUkrainianTranslationSummary">Gennadi Samoluk</string>
+    <string name="sTraditionalChineseTranslation">중국어 번체 번역</string>
+    <string name="sTraditionalChineseTranslationSummary_v2">GPF_kaibird Chien Jung Liaw</string>
+    <string name="sJapaneseTranslation">일본어 번역</string>
+    <string name="sJapaneseTranslationSummary">Akira Tagoh</string>
+    <string name="sSwedishTranslation">스웨덴어 번역</string>
+    <string name="sSwedishTranslationSummary">Johannes Sjölund</string>
+    <string name="sBulgarianTranslation">불가리아어 번역</string>
+    <string name="sBulgarianTranslationSummary">PROXIMO</string>
+    <string name="sDanishTranslation">덴마크어 번역</string>
+    <string name="sDanishTranslationSummary">Lars Sarauw Hansen</string>
+    <string name="sLatvianTranslation">라트비아어 번역</string>
+    <string name="sLatvianTranslationSummary">Arvīds Dreimanis</string>
+    <string name="sThaiTranslation">태국어 번역</string>
+    <string name="sThaiTranslationSummary">Wuttisak Saichoncharn</string>
+    <string name="sArmenianTranslation">아르메니아어 번역</string>
+    <string name="sArmenianTranslationSummary">Konstantin Gevorgyan</string>
+    <string name="sGeorgianTranslation">그루지야어 번역</string>
+    <string name="sGeorgianTranslationSummary">Alexandre Razmadze</string>
+    <string name="sCatalanTranslation">카탈로니아어 번역</string>
+    <string name="sCatalanTranslationSummary">cybdani</string>
+
+    <!--Licenses-->
+    <string name="licenses">라이센스</string>
+    <string name="sActionBarSherlockLicense">ActionBarSherlock</string>
+    <string name="sActionBarSherlockLicenseSummary">Apache 라이센스 버전 2.0 하에 ActionBarSherlock 을 사용합니다. 여기를 터치하여
+        actionbarsherlock.com 을 방문합니다.
+    </string>
+    <string name="about_open_core_amr_license">Opencore-AMR</string>
+    <string name="about_open_core_amr_license_summary">Apache 라이센스 버전 2.0 하에 Opencore-AMR 을 사용합니다. 여기를 터치하여
+        opencore-amr.sourceforge.net 을 방문합니다.
+    </string>
+    <string name="about_alsa">ALSA</string>
+    <string name="about_alsa_summary">LGPL 하에 ALSA 를 사용합니다. 여기를 터치하여 alsa-project.org 를 방문합니다.</string>
+    <string name="about_lame">LAME</string>
+    <string name="about_lame_summary">LAME 하에 LGPL 을 사용합니다, 여기를 터치하여 mp3dev.org 를 방문하세요.</string>
+</resources>

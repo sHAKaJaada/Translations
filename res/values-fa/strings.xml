@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ضبط مکالمات</string>
+    <!--Rules array-->
+    <string name="sRuleDescription">من توضیحات برنامه را خوانده و متوجه شده ام</string>
+    <string name="sRulePlayStore">من</string>
+    <string name="sRuleUseOfProgram">من متوجه ام که توسعه دهنده برنامه در قبال استفاده ی من از برنامه هیچ مسئولیتی
+        ندارد. من این برنامه را با مسئولیت خودم استفاده میکنم
+    </string>
+    <string name="sRuleLaw">من کاملا مطمئن هستم که با استفاده از این برنامه قوانین کشورم را نقض نمی کنم</string>
+    <string name="sRuleNotWorking">اگر ضبط مکالمات در دستگاه من کار نکرد توضیحات برنامه را دوباره با دقت می خوانم و اگر
+        پاسخ خود را پیدا نکردم به توسعه دهنده برنامه ایمیل میفرستم
+    </string>
+
+    <!--Notification-->
+    <string name="sRecordingIsRunning">سرویس ضبط مکالمات در حال اجراست</string>
+    <string name="sThisCallIsRecording">ضبط مکالمه شروع شد</string>
+    <string name="an_error_has_occurred">خطایی رخ داد، نا توان در ضبط مکالمه</string>
+    <string name="sEncodingError">خطایی در هنگام کد نگاری رخ داد...</string>
+    <string name="start_recording">شروع ضبط</string>
+    <string name="stop_recording">توقف ضبط</string>
+
+    <!--List with recordings-->
+    <string name="empty_hint">خالی</string>
+    <string name="contact_unknown">ناشناس</string>
+
+    <!--Actions on recording-->
+    <string name="category_actions">اقدام ها</string>
+    <string name="sFilterThisNumber">فیلتر کردن این شماره</string>
+    <string name="sAddToFavorites">افزودن به علاقه مندی ها</string>
+    <string name="sRemoveFromFavorites">حذف از علاقه مندی ها</string>
+    <string name="sAddToContacts">افزودن به مخاطبین</string>
+    <string name="sOpenContact">گشودن مخاطب</string>
+    <string name="sCall">مکالمه</string>
+    <string name="sNote">یادداشت</string>
+    <string name="sConvertToMp3">تبدیل به mp3</string>
+    <string name="sConvertToAmr">تبدیل به amr</string>
+    <string name="sRenameFile">تغییر نام فایل</string>
+    <string name="menu_get_info">دریافت اطلاعات</string>
+    <string name="menu_encrypt">رمز گذاری</string>
+    <string name="menu_decrypt">رمز گشایی</string>
+
+    <!--Actions on selected recordings-->
+    <string name="action_select_all">انتخاب همه</string>
+    <string name="sSelectNone">انتخاب هیچ یک</string>
+
+    <!--General-->
+    <string name="sSend">ارسال</string>
+    <string name="sSendVia">ارسال توسط</string>
+    <string name="menu_delete">حذف</string>
+    <string name="button_cancel">انصراف</string>
+    <string name="button_ok">تائید</string>
+    <string name="sSeconds">ثانیه</string>
+    <string name="sDisabled">غیر فعال</string>
+    <string name="sYes">بله</string>
+    <string name="sNo">خیر</string>
+    <string name="terabyte">ترا</string>
+    <string name="gigabyte">گیگ</string>
+    <string name="megabyte">مگ</string>
+    <string name="kilobyte">کیلو بایت</string>
+    <string name="bytes">بایت</string>
+    <string name="please_wait">لطفا صبر کنید...</string>
+    <string name="switch_on">روشن</string>
+    <string name="switch_off">خاموش</string>
+
+    <!--Tabs-->
+    <string name="section_incoming">ورودی</string>
+    <string name="section_outgoing">خروجی</string>
+    <string name="sFavorites">مورد علاقه ها</string>
+    <string name="sAll">همه</string>
+
+    <!--Send recordings-->
+    <string name="recorded_calls">مکالمات ضبط شده</string>
+    <string name="sIncoming">ورودی</string>
+    <string name="sOutgoing">خروجی</string>
+
+    <!--Dialog after call-->
+    <string name="sDlgDeleteMsg">مکالمه ضبط شده حذف یا ذخیره شود؟</string>
+    <string name="sKeep">ذخیره</string>
+    <string name="sDropboxAdded">افزوده شد</string>
+
+    <!--Delete confirmation dialog-->
+    <string name="sDeleteFiles">حذف فایل ها</string>
+    <string name="confirm_delete_message">آیا از حذف این ظبط مطمئن هستید ؟</string>
+    <string name="sDlgDeleteSelectionMsg">شما %d فایل را انتخاب کرده اید. از حذف آنها مطمئن هستید؟</string>
+    <string name="sFilesDeletedToast">%d فایل حذف شد</string>
+
+    <!--Call confirm dialog-->
+    <string name="call_confirm_record_this_call">ضبط مکالمه</string>
+
+    <!--Dialog about law-->
+    <string name="sWarning">اخطار</string>
+    <string name="sMsgAboutLaw">ضبط مکالمات در برخی کشورها غیر قانونی است. مطمئن هستید در کشوری که زندگی می کنید اینکار
+        قانونی است ؟
+    </string>
+
+    <!--Rules dialog-->
+    <string name="sRules">قوانین</string>
+    <string name="sIAgree">قبول دارم</string>
+    <string name="sIDisagree">قبول ندارم</string>
+
+    <!--Main screen toasts-->
+    <string name="sAddToFavoritesSuccess">مکالمه ضبط شده با موفقیت به لیست علاقه مندی ها افزوده شد</string>
+    <string name="sRemoveFromFavoritesSuccess">مکالمه ضبط شده با موفقیت از لیست علاقه مندی ها حذف شد</string>
+    <string name="sDeleteFavoriteRecordingMsg">برای حذف این فایل می بایست ابتدا آن را از علاقه مندی ها حذف نمود</string>
+
+    <!--Encryption-->
+    <string name="sFileSuccessfullyEncrypted">رمز گذاری با موفقیت انجام شد</string>
+    <string name="sFileSuccessfullyDecrypted">رمز گشایی با موفقیت انجام شد</string>
+    <string name="sEncrypting">رمز گذاری</string>
+    <string name="sDecrypting">رمز گشایی</string>
+    <string name="sEncrypted">رمزگذاری شد</string>
+    <string name="wrong_password">گذرواژه اشتباه</string>
+
+    <!--Main screen warnings-->
+    <string name="sAvailableFreeSpace">کمبود فضا: %s</string>
+    <string name="sReadWriteErr">سیستم فایل باید برای خواندن/نوشتن نصب شده باشد.</string>
+    <string name="sAlsaIsNotInstalledMsg">Alsa نصب نشده است. برای نصب اینجا ضربه بزنید.</string>
+    <string name="sPhoneMustBeRootedWarning">تلفن شما باید روت شده باشد. برای حذف این پیغام را چند ثانیه بفشارید.
+    </string>
+    <string name="sStandardAPITip">اگر ضبط مکالمات ناموفق بود تمام آیتم های API استاندارد آندروید در تنظیمات را
+        امتحانکنید. برای نادیده گرفتن این پیام لمس طولانی کنید.
+    </string>
+
+    <!--Toasts-->
+    <string name="sLoggerMustBeEnabledToast">ثبت کننده باید در رام/کرنل شما فعال شده باشد</string>
+    <string name="sFileWasDeletedToast">فایل حذف شد</string>
+
+    <!--Action bar-->
+    <string name="action_search">جستجو</string>
+    <string name="sSizeRecords">ضبط شده ها: %1$s, حجم: %2$s</string>
+    <string name="sFreeOf">خالی از</string>
+
+    <!--Tasks screen-->
+    <string name="section_tasks">وظایف</string>
+    <string name="sInProgress">در حال پردازش (%s)</string>
+    <string name="sInQueue">در صف</string>
+
+    <!--Get Info dialog-->
+    <string name="file_name">نام فایل</string>
+    <string name="sample_rate_hz">Hz</string>
+    <string name="file_size">حجم فایل</string>
+    <string name="button_edit">ویرایش</string>
+
+    <!--Edit Info dialog-->
+    <string name="contact_name">نام مخاطب</string>
+    <string name="phone_number">شماره تلفن</string>
+
+    <!--Description for file name pattern-->
+    <string name="pattern_contact_name">نام مخاطب</string>
+    <string name="pattern_phone_number">شماره تلفن</string>
+    <string name="pattern_call_time">زمان تماس</string>
+    <string name="sCallTimestamp">مدت زمان تماس</string>
+    <string name="pattern_call_type">نوع تماس (ورودی یا خروجی)</string>
+
+    <!--Description for time pattern-->
+    <string name="time_pattern_hours">ساعت</string>
+    <string name="time_pattern_minutes">دقیقه</string>
+    <string name="time_pattern_seconds">ثانیه</string>
+    <string name="time_pattern_days">روز</string>
+    <string name="time_pattern_months">ماه</string>
+    <string name="time_pattern_years">سال</string>
+    <string name="pattern_example">مثال</string>
+
+    <!--Trial expired dialog-->
+    <string name="sTrialPeriodExpired">دوره ی آزمایشی به پایان رسیده است</string>
+    <string name="sTrialPeriodExpiredMsg">لطفا قبل از خریداری نسخه کامل این نسخه را حذف کنید</string>
+    <string name="sBuy">خرید</string>
+
+    <!--New settings-->
+    <string name="action_settings">تنظیمات</string>
+    <string name="section_help">کمک</string>
+
+    <!--Main settings-->
+    <string name="buy_full_version">خرید نسخه ی کامل</string>
+    <string name="buy_full_version_summary">نسخه ی کنونی در تاریخ %s به پایان میرسد</string>
+    <string name="sCallRecorderUpdater">به روز رسانی CallRecorder</string>
+    <string name="settings_recording">ضبط</string>
+    <string name="settings_folders_and_files">پوشه ها و فایل ها</string>
+    <string name="settings_ui_and_appearance">ظاهر</string>
+    <string name="cloud_provider_dropbox">دراپ باکس</string>
+    <string name="settings_security">امنیت</string>
+    <string name="settings_audio_player">پخش صوت</string>
+    <string name="sExperimentalSettings">آزمایشی</string>
+    <string name="settings_debug">اشکال زدایی</string>
+    <string name="settings_about">درباره</string>
+
+    <!--General-->
+    <string name="sGeneralSettingsCategory">کلی</string>
+    <string name="sOtherSettingsCategory">دیگر</string>
+    <string name="sAdvancedSettingsCategory">پیشرفته</string>
+    <string name="category_wav_settings">تنظیمات WAV</string>
+    <string name="category_main">اصلی</string>
+
+
+    <!--Buy full version-->
+    <string name="sOpenPlayStore">گشودن گوگل پلی</string>
+
+    <!--CallRecorder Updater-->
+    <string name="sOpenCallRecorderUpdater">گشودن به روز رسانی</string>
+
+    <!--Recording-->
+    <string name="recording_calls_switch">ضبط مکالمات</string>
+    <string name="device">دستگاه</string>
+    <string name="device_other">دیگر</string>
+    <string name="select_your_device">دستگاه خود را انتخاب کنید</string>
+    <string name="sAudioFormatSettingsCategory">فرمت صدا</string>
+    <string name="sCallRecordingFormat">فرمت ضبط مکالمات</string>
+    <string name="sMethodSettingsCategory">شیوه</string>
+    <string name="sKernelSettings">کرنل</string>
+    <string name="sKernelSettingsSummary">تنظیمات ضبط توسط کرنل</string>
+    <string name="recording_method_api">API استاندارد</string>
+    <string name="recording_method_api_settings">تنظیمات ضبط توسط API استاندارد</string>
+    <string name="recording_method_alsa">ALSA</string>
+    <string name="recording_method_alsa_settings">تنظیمات ضبط توسط ALSA</string>
+    <string name="recording_method">شیوه ضبط</string>
+    <string name="recording_method_caf">CAF</string>
+    <string name="recording_method_caf_settings">تنظیمات CAF</string>
+    <string name="volume_control">کنترل صدا</string>
+    <string name="recording_mode">نوع ضبط</string>
+    <string name="recording_type_mono">مونو</string>
+    <string name="recording_type_stereo">استریو</string>
+
+    <!--Recording methods array-->
+    <string name="sRecordingMethodKernel">کرنل (نیاز به روت)</string>
+    <string name="sRecordingMethodStandardAPI">API استاندارد</string>
+    <string name="sRecordingMethodALSA">ALSA (نیاز به روت)</string>
+    <string name="sRecordingMethodCAF">CAF (فقط دستگاه های روت شده)</string>
+
+    <!--Recording audio formats-->
+    <string name="recording_format_wav">WAV</string>
+    <string name="recording_format_amr">AMR</string>
+    <string name="recording_format_aac">AAC</string>
+    <string name="s3GPP">3GPP</string>
+    <string name="recording_format_mp3">MP3</string>
+
+    <!--Recording behavior-->
+    <string name="after_call_actions_dialog">پیغام عمل بعد از ضبط</string>
+    <string name="after_call_actions_dialog_summary">پرسش انجام کار بعد از ضبط مکالمه</string>
+    <string name="call_confirm">تائید مکالمه</string>
+    <string name="call_confirm_summary">نمایش پیغام تایید قبل از تماس</string>
+    <string name="sDefaultAction">اقدام خودکار</string>
+    <string name="action_for_outgoing">اقدام برای مکالمات خروجی</string>
+    <string name="action_for_incoming">اقدام برای مکالمات ورودی</string>
+    <string name="delay_before_start_recording">تاخیر قبل از شروع ضبط</string>
+    <string name="sIncomingCalls">مکالمات ورودی</string>
+    <string name="sOutgoingAndIncomingCalls">مکالمات ورودی و خروجی</string>
+    <string name="sOutgoingCalls">مکالمات خروجی</string>
+    <string name="vibrate_on_call">لرزش هنگام شروع و پایان مکالمه</string>
+
+    <!--Actions-->
+    <string name="action_record_all">ضبط همه</string>
+    <string name="action_do_not_record">ضبط نکن</string>
+    <string name="action_record_contacts">ضبط مخاطبین</string>
+    <string name="action_record_non_contacts">ضبط غیر مخاطبین</string>
+
+    <!--Recording -> Exceptions-->
+    <string name="exceptions">استثناها</string>
+    <string name="sAddGroup">افزودن گروه</string>
+    <string name="sAdd">افزودن</string>
+    <string name="exception_group">گروه</string>
+    <string name="exception_select_group">انتخاب گروه</string>
+    <string name="exception_select_action">انتخاب اقدام</string>
+    <string name="sChangeAction">تغییر اقدام</string>
+    <string name="exception_action_always_record">همیشه ضبط</string>
+    <string name="exception_action_never_record">هرگز ضبط</string>
+    <string name="sPressMenuToAddException">برای افزودن استثنا کلید \'menu\' را بفشارید</string>
+
+    <!--Recording -> Kernel-->
+    <string name="chipset_type">نوع چیپست</string>
+    <string name="chipset_type_msm72xx">Qualcomm MSM72XX</string>
+    <string name="chipset_type_msm8250">Qualcomm MSM8250</string>
+    <string name="chipset_type_msm8255">Qualcomm MSM8255</string>
+    <string name="chipset_type_msm8260">Qualcomm MSM8260</string>
+    <string name="sSoundBoost">افزایش صدا</string>
+    <string name="sUplinkBoost">افزایش صدای خروجی</string>
+    <string name="sDownlinkBoost">افزایش صدای ورودی</string>
+    <string name="dont_use_amr_driver">از دریوار AMR استفاده نکنید</string>
+    <string name="dont_use_amr_driver_summary">بجای آن از تبدیل تمام وقت WAV به AMR استفاده کنید</string>
+
+    <!--Recording -> Standard API-->
+    <string name="api_audio_source">منبع صوتی</string>
+    <string name="sWhenBTConnected">زمانیکه بلوتوث وصل است...</string>
+    <string name="sBTEnabledMeansBTConnected">بلوتوث فعال است به معنی بلوتوث وصل است</string>
+    <string name="sBTEnabledMeansBTConnectedSummary">بعد از فعال شدن آداپتور بلوتوث از همان تنظیماتی استفاده کن که اگر
+        بلوتوث وصل بود
+    </string>
+    <string name="sAudioSourceWhenBTConnected">منبع صوتی زمانی که بلوتوث وصل است</string>
+    <string name="sample_rate">نرخ نمونه برداری</string>
+    <string name="sample_rate_8000">8000 Hz (پیشفرض)</string>
+    <string name="sample_rate_11025">11025 Hz</string>
+    <string name="sample_rate_16000">16000 Hz</string>
+    <string name="sample_rate_22050">22050 Hz</string>
+    <string name="sample_rate_44100">44100 Hz</string>
+    <string name="sample_rate_48000">48000 Hz</string>
+    <string name="sSampleRateWarning">ممکن است برخی نرخ ها توسط سیستم پشتیبانی نشوند</string>
+
+    <!--Audio sources of Standard API array-->
+    <string name="api_source_uplink_downlink">تماس صوتی بالاسو + پایین سو</string>
+    <string name="api_source_downlink">تماس صوتی پایین سو</string>
+    <string name="api_source_uplink">تماس صوتی بالاسو</string>
+    <string name="api_source_microphone">میکروفن</string>
+    <string name="api_source_default">پیشفرض</string>
+    <string name="api_source_voice_communication">ارتباط صوتی</string>
+
+    <!--Actions on BT connected array-->
+    <string name="sOnBTConnectedActionDoNothing">کاری نکن</string>
+    <string name="sOnBTConnectedActionSwitchAudioSource">تغییر منبع صدا</string>
+    <string name="sOnBTConnectedActionDisableRecording">ضبط را غیر فعال کن</string>
+
+    <!--Recording -> ALSA-->
+    <string name="sAlsa">Alsa</string>
+    <string name="sAlsaIsInstalled">نصب شده است</string>
+
+    <!--Folders and Files-->
+    <string name="sRescan">دوباره خوانی</string>
+    <string name="sRescanSummary">دوباره خوانی پوشه برای به روز رسانی لیست ضبط شده ها</string>
+    <string name="sFolderSettingsCategory">پوشه</string>
+    <string name="folder">پوشه</string>
+    <string name="automatic_cleanup">پاکسازی خودکار</string>
+    <string name="max_number_of_files">حداکثر تعداد فایل ها</string>
+    <string name="max_number_of_files_message">عددی را وارد کنید (0 تا بی نهایت)</string>
+    <string name="max_total_size_of_files">حداکثر حجم فایل ها</string>
+    <string name="max_total_size_of_files_message">مقداری را برحسب مگابایت وارد کنید (0 تا بی نهایت)</string>
+    <string name="max_age_of_recordings">حداکثر روز نگه داری مکالمات ضبط شده</string>
+    <string name="max_age_of_recordings_message">تعداد روز را وارد کنید (0 تا بی نهایت)</string>
+    <string name="current_setting">تنظیم کنونی: %s</string>
+    <string name="sFileNameSettingsCategory">نام فایل</string>
+    <string name="filename_pattern">الگو</string>
+    <string name="time_pattern">الگوی زمان</string>
+
+    <!--Interface and Appearance-->
+    <string name="language">زبان</string>
+    <string name="select_language">انتخاب زبان</string>
+    <string name="sActionBarSettingsCategory">نوار کار</string>
+    <string name="sAudioOutputActionBar">صدای خروجی</string>
+    <string name="sAudioOutputActionBarSummary">نمایش تنطمیات خروجی صدا در نوار کار</string>
+    <string name="incall_control_for_outgoing">برای تنظیمات خروجی</string>
+    <string name="sInCallControlForOutgoingSummary">کنترل حین تماس برای تماس های خروجی</string>
+    <string name="incall_control_for_incoming">برای تنظیمات ورودی</string>
+    <string name="sInCallControlForIncomingSummary">کنترل حین تماس برای تماس های ورودی</string>
+    <string name="category_notification">اعلان</string>
+    <string name="sNotificationIcon">آیکن اعلان</string>
+    <string name="show_notification">نمایش اعلان</string>
+    <string name="sShowNotificationSummary">افزایش اولویت برنامه</string>
+    <string name="sInCallControl">کنترل در مکالمه</string>
+    <string name="sHangUpAndCallBack">قطع و تماس مجدد</string>
+    <string name="sHangUpAndCallBackSummary">قطع و تماس مجدد بطور خودکار با لمس طولانی</string>
+    <string name="show_button_while_ringing">نمایش دکمه در هنگام زنگ خوردن</string>
+    <string name="show_button_while_ringing_summary">نمایش دکمه ی کنترل در تماس قبل از جواب دادن تماس ورودی</string>
+    <string name="sExcludeFavoritesFromAll">عدم نمایش مورد علاقه ها در صفحه ی "همه"</string>
+    <string name="sExcludeFavoritesFromAllSummary">مورد علاقه ها در صفحات دیگر نمایش داده نخواهند شد</string>
+    <string name="vertical_position">موقعیت عمودی</string>
+    <string name="horizontal_position">موقعیت افقی</string>
+    <string name="sVerticalOffset">فاصله از لبه عمودی</string>
+    <string name="sVerticalOffsetSummary">فاصله از لبه در انتخاب چیدمان عمودی (بالا یا پایین)</string>
+    <string name="sHorizontalOffset">فاصله از لبه افقی</string>
+    <string name="sHorizontalOffsetSummary">فاصله از لبه در انتخاب چیدمان افقی (چپ یا راست)</string>
+    <string name="sLowSpaceWarning">هشدار کمبود فضا</string>
+    <string name="sLowSpaceWarningSummary">تنظیم حداقل فضا قبل از هشدار کمبود فضا برحسب مگابایت</string>
+    <string name="sMainScreen">صفحه ی اصلی</string>
+    <string name="sHideInCallControlButton">پنهان کردن دکمه ی کنترل در حال مکالمه</string>
+    <string name="sHideInCallControlButtonSummary">پنهان کردن دکمه ی کنترل در حال مکالمه زمانی که مکالمه در حال ضبط
+        شدناست
+    </string>
+    <string name="sDontShowInCallButton">قبل از اتصال دکمه را نمایش نده</string>
+    <string name="hide_button_before_answer_summary">زمانیکه متصل شد دکمه کنترل حین مکالمه را نمایش نده</string>
+    <string name="sLanguageDefault">پیشفرض</string>
+
+    <!--Vertical aligns array-->
+    <string name="sVerticalAlignTop">بالا</string>
+    <string name="sVerticalAlignBottom">پایین</string>
+
+    <!--Horizontal aligns array-->
+    <string name="sHorizontalAlignLeft">چپ</string>
+    <string name="sHorizontalAlignRight">راست</string>
+
+    <!--Notification icons array-->
+    <string name="sNotificationIconDefault">پیشفرض</string>
+    <string name="sNotificationIconGreenNew">سبز (جدید)</string>
+    <string name="sNotificationIconGreenOld">سبز (قدیمی)</string>
+    <string name="sNotificationIconGray">خاکستری</string>
+
+    <!--Dropbox-->
+    <string name="sDropboxLogin">ورود</string>
+    <string name="sDropboxLogout">خروج</string>
+
+    <string name="cloud_wifi_only">فقط Wi-Fi</string>
+    <string name="cloud_auto_upload">آپلود خودکار</string>
+    <string name="sCloudUploadFavorites">آپلود مورد علاقه ها</string>
+    <string name="sCloudUploadFavoritesSummary">آپلود مکالمات ضبط شده در دراپ باکس زمانیکه شما آنها را به مورد علاقه ها
+        می افزایید
+    </string>
+    <string name="cloud_auto_upload_summary">آپلود مکالمه ی ضبط شده بلافاصله بعد از تماس</string>
+    <string name="menu_add_to_dropbox">افزودن به دراپ باکس</string>
+
+    <!--Security-->
+    <string name="category_encryption">رمز گذاری</string>
+    <string name="sKeyNotFound">رمز یافت نشد</string>
+    <string name="sCreate">ایجاد</string>
+    <string name="create_new_key">ایجاد رمز جدید</string>
+    <string name="enter_password">رمز را وارد کنید</string>
+    <string name="sReEnterPassword">رمز را مجددا وارد کنید</string>
+    <string name="aes_128bit">128-bit AES (سریع)</string>
+    <string name="aes_192bit">192-bit AES (متعادل)</string>
+    <string name="aes_256bit">256-bit AES (قوی)</string>
+    <string name="category_application">برنامه</string>
+    <string name="app_admin">مدیر دستگاه</string>
+    <string name="sAppAdminSummary">ضروری برای جلوگیری از حذف CallRecorder</string>
+    <string name="sAppAdminExplanation">CallRecorder از هیچکدام از ویژگی های مدیر دستگاه به جز محافظت از حذف استفاده
+        نمیکند
+    </string>
+    <string name="change_password">تغییر گذرواژه</string>
+    <string name="enter_old_password">گذرواژه قدیمی را واردکنید</string>
+    <string name="enter_new_password">گذرواژه جدید را واردکنید</string>
+    <string name="re_enter_new_password">دوباره گذرواژه جدید را واردکنید</string>
+    <string name="require_password">گذرواژه نیاز است</string>
+    <string name="require_password_summary">برای گشودن برنامه گذرواژه نیاز است</string>
+    <string name="lock_after">قفل پس از</string>
+    <string name="lock_after_exit">خروج</string>
+    <string name="lock_after_1_minute">یک دقیقه</string>
+    <string name="lock_after_3_minutes">سه دقیقه</string>
+    <string name="lock_after_5_minutes">پنج دقیقه</string>
+    <string name="lock_after_10_minutes">ده دقیقه</string>
+    <string name="password_has_been_changed">گذرواژه تغییر کرد</string>
+
+    <!--Audio player-->
+    <string name="sUseDefaultPlayer">استفاده از پخش کننده ی پیشفرض</string>
+    <string name="audio_output">خروجی صدا</string>
+    <string name="android_wav_decoder">کدک های اندروید برای WAV</string>
+    <string name="android_wav_decoder_summary">استفاده از پخش کننده ی اندروید برای پخش WAV</string>
+    <string name="android_amr_decoder">کدگشای آندروید برای AMR</string>
+    <string name="android_amr_decoder_summary">استفاده از ابزار های آندروید برای پخش AMR</string>
+    <string name="switch_audio_output">تغییر خروجی صدا</string>
+    <string name="SwitchAudioOutputSummary">تغییر خوکار منبع صدا با توجه به فعال یا غیرفعال بودن صفحه نمایش توسط حسگر
+        مجاورت
+    </string>
+    <string name="use_proximity_sensor">حسگر مجاورت</string>
+    <string name="sUseProximitySensorSummary">استفاده از حسگر مجاورت برای خاموش کردن صفحه هنگام گوش دادن به مکالمه ی
+        ضبطشده (نیاز به روت دارد)
+    </string>
+
+    <!--Audio output array-->
+    <string name="main_speaker">باند اصلی</string>
+    <string name="phone_speaker">باند گوشی</string>
+
+    <!--Experimental-->
+    <string name="sConvertAfterCall">تبدیل بعد از تماس</string>
+    <string name="sDontConvert">تبدیل نکن</string>
+    <string name="sWavToMp3">WAV به MP3</string>
+    <string name="sWavToAmr">WAV به AMR</string>
+
+    <!--Debug-->
+    <string name="sDetailedLogs">جزئیات ثبت شده</string>
+    <string name="root_access">دسترسی به فایل های سیستمی</string>
+    <string name="root_access_no">خیر</string>
+    <string name="root_access_yes">بلی</string>
+    <string name="sLogsSettingsCategory">وقایع</string>
+    <string name="sSendLogsToTheDeveloper">ارسال وقایع ثبت شده به نویسنده</string>
+    <string name="sUseGzipToCompressLogs">جلوگری از حالت Sleep در طول مکالمه</string>
+    <string name="sRecordOnNotificationClick">ضبط با کلیک روی اعلان</string>
+    <string name="sRecordOnNotificationClickSummary">قبل از برقراری ارتباط اعلان را کلیک نکنید</string>
+    <string name="sHideNotificationDuringCall">اعلان را در طول تماس مخفی کن</string>
+    <string name="sHideNotificationDuringCallSummary">این را فعال نکنید. این فقط برای ثبت وقایع است</string>
+    <string name="dual_sim_phone">تلفن دو سیم کارته</string>
+    <string name="dual_sim_phone_summary">درصورتی که برنامه موفق به تشخیص تماس ها از سیم کارت دوم نمی شود این گزینه را
+        فعال کنید
+    </string>
+
+    <!--About-->
+    <string name="version">نسخه</string>
+    <string name="sAboutCallRecorder">درباره CallRecorder</string>
+    <string name="license_status">وضعیت مجوز</string>
+    <string name="sLicenseStatusVerified">مجوز تایید شد</string>
+    <string name="license_trial">نسخه آزمایش در تاریخ %s منقضی خواهد شد</string>
+
+    <string name="copyright">حق چاپ</string>
+    <string name="copyright_summary">&#169; %s Alexander Skvortsov (skvalex)</string>
+    <string name="about_many_thanks">سپاس بی کران از</string>
+    <string name="about_many_thanks_summary">Alexey Subbotin (avs234)</string>
+    <string name="sGermanTranslation">ترجمه آلمانی</string>
+    <string name="sGermanTranslationSummary_ver1">Marc Hillesheim و Thomas Käfer</string>
+    <string name="sPolishTranslation">ترجمه لهستانی</string>
+    <string name="sPolishTranslationSummary">Robert Gonta</string>
+    <string name="sFrenchTranslation">ترجمه فرانسوی</string>
+    <string name="sFrenchTranslationSummary">Julien Boiteux</string>
+    <string name="sBrazilianPortugueseTranslation">ترجمه برزیلی پرتقالی</string>
+    <string name="sBrazilianPortugueseTranslationSummary">Luiz Marcelo Serique</string>
+    <string name="sSpanishTranslation">ترجمه اسپانیایی</string>
+    <string name="sSpanishTranslationSummary_ver1">Iñigo Garcia و Diego Vilas</string>
+    <string name="sSlovakTranslation">ترجمه اسلواکی</string>
+    <string name="sSlovakTranslationSummary">Loránt Gerencsér</string>
+    <string name="sItalianTranslation">ترجمه ایتالیایی</string>
+    <string name="sItalianTranslationSummary">Luca Trevisan</string>
+    <string name="sPersianTranslation">ترجمه پارسی</string>
+    <string name="sPersianTranslationSummary_v2">علیرضا افکار</string>
+    <string name="sChineseTranslation">ترجمه چینی</string>
+    <string name="sChineseTranslationSummary">qhq</string>
+    <string name="sCzechTranslation">ترجمه چکی</string>
+    <string name="sCzechTranslationSummary_ver2">Ales Kerner و Lukas Waldauf</string>
+    <string name="sArabicTranslation">ترجمه عربی</string>
+    <string name="sArabicTranslationSummary">Ausama S. Ibrahim</string>
+    <string name="sHebrewTranslation">ترجمه عبری</string>
+    <string name="sHebrewTranslationSummary">NuFlood</string>
+    <string name="sHungarianTranslation">ترجمه مجارستانی</string>
+    <string name="sHungarianTranslationSummary_ver2">Szalay Levente و Miklós Toldi</string>
+    <string name="sDutchTranslation">ترجمه هلندی</string>
+    <string name="sDutchTranslationSummary">Elroy Tirbeni</string>
+    <string name="sTurkishTranslation">ترجمه ترکی</string>
+    <string name="sTurkishTranslationSummary">Omer Ilik</string>
+    <string name="sSerbianTranslation">ترجمه صربستانی</string>
+    <string name="sSerbianTranslationSummary">sHAKaJaada</string>
+    <string name="sKoreanTranslation">ترجمه کره ای</string>
+    <string name="sKoreanTranslationSummary_ver2">SoHyunSeop و Joon Hee Jo</string>
+    <string name="sRomanianTranslation">ترجمه رومانیایی</string>
+    <string name="sRomanianTranslationSummary">Dan P. (sad)</string>
+    <string name="sUkrainianTranslation">ترجمه اکراینی</string>
+    <string name="sUkrainianTranslationSummary">Gennadi Samoluk</string>
+    <string name="sTraditionalChineseTranslation">ترجمه چینی سنتی</string>
+    <string name="sTraditionalChineseTranslationSummary_v2">GPF_kaibird و Chien Jung Liaw</string>
+    <string name="sJapaneseTranslation">ترجمه ژاپنی</string>
+    <string name="sJapaneseTranslationSummary">Akira Tagoh</string>
+    <string name="sSwedishTranslation">ترجمه سوئدی</string>
+    <string name="sSwedishTranslationSummary">Johannes Sj?lund</string>
+    <string name="sBulgarianTranslation">ترجمه بلغاری</string>
+    <string name="sBulgarianTranslationSummary">PROXIMO</string>
+    <string name="sDanishTranslation">ترجمه دانمارکی</string>
+    <string name="sDanishTranslationSummary">Lars Sarauw Hansen</string>
+    <string name="sLatvianTranslation">ترجمه لتونی</string>
+    <string name="sLatvianTranslationSummary">Arvīds Dreimanis</string>
+    <string name="sThaiTranslation">ترجمه تایلندی</string>
+    <string name="sThaiTranslationSummary">Wuttisak Saichoncharn</string>
+    <string name="sArmenianTranslation">ترجمه ارمنی</string>
+    <string name="sArmenianTranslationSummary">Konstantin Gevorgyan</string>
+    <string name="sGeorgianTranslation">ترجمه گرجستانی</string>
+    <string name="sGeorgianTranslationSummary">Alexandre Razmadze</string>
+    <string name="sCatalanTranslation">ترجمه کاتالان</string>
+    <string name="sCatalanTranslationSummary">cybdani</string>
+    <string name="sHindiTranslation">ترجمه هندی</string>
+    <string name="sHindiTranslationSummary">TheTAMAS Gautam</string>
+    <string name="sPunjabiTranslation">ترجمه پنجابی</string>
+    <string name="sPunjabiTranslationSummary_ver2">Raj Verma</string>
+    <string name="sFinnishTranslation">ترجمه فنلاندی</string>
+    <string name="sFinnishTranslationSummary">Eero Linnainmaa</string>
+
+    <!--Licenses-->
+    <string name="licenses">گواهینامه ها</string>
+    <string name="sActionBarSherlockLicense">ActionBarSherlock</string>
+    <string name="sActionBarSherlockLicenseSummary">استفاده شده ازActionBarSherlock تحت Apache License Version 2.0,
+        برایبازدید از actionbarsherlock.com اینجا ضربه بزنید
+    </string>
+    <string name="about_open_core_amr_license">opencore-amr</string>
+    <string name="about_open_core_amr_license_summary">استفاده شده از opencore-amr تحت Apache License Version 2.0, برای نمایش
+        کلیک کنید opencore-amr.sourceforge.net
+    </string>
+    <string name="about_alsa">ALSA</string>
+    <string name="about_alsa_summary">استفاده شده از ALSA تحت LGPL, برای بازدید از alsa-project.org اینجا ضربه بزنید</string>
+    <string name="about_lame">LAME</string>
+    <string name="about_lame_summary">استفده شده از LAME تحت LGPL, برای بازدید کلیک کنید mp3dev.org</string>
+</resources>

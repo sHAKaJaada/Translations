@@ -79,9 +79,7 @@
     <!-- List -> Confirm delete dialog -->
     <string name="confirm_delete_message">Are you sure you want to delete this recording?</string>
     <string name="confirm_delete_several_title">Confirm deletion</string>
-    <string name="confirm_delete_several_message">You have selected %d recordings. Are you sure you want to delete
-        them?
-    </string>
+    <string name="confirm_delete_several_message">You have selected %d recordings. Are you sure you want to delete them?</string>
 
     <!-- List -> Share -->
     <string name="share_via">Share via</string>
@@ -133,7 +131,7 @@
     <string name="recording_method_caf">CAF</string>
     <string name="recording_method_caf_settings">Settings for CAF recording method</string>
     <string name="recording_method_alsa">ALSA</string>
-    <string name="recording_method_alsa_settings">Settings for MSM recording method</string>
+    <string name="recording_method_alsa_settings">Settings for ALSA recording method</string>
     <string name="recording_method_msm">MSM</string>
     <string name="recording_method_msm_settings">Settings for MSM recording method</string>
     <string name="category_actions">Actions</string>
@@ -257,6 +255,8 @@
     <string name="pattern_example">Example:</string>
 
     <!--Settings -> Interface and Appearance-->
+    <string name="language">Language</string>
+    <string name="select_language">Select language</string>
     <string name="category_notification">Notification</string>
     <string name="show_notification">Show notification</string>
     <string name="show_notification_summary">Permanent notification in the status bar</string>
@@ -356,6 +356,8 @@
     <string name="root_access">Root access</string>
     <string name="root_access_no">No</string>
     <string name="root_access_yes">Yes</string>
+    <string name="dual_sim_phone">Dual Sim phone</string>
+    <string name="dual_sim_phone_summary">Enable this if the app cannot determine calls from the second sim card</string>
 
     <!-- General -->
     <string name="contact_unknown">Unknown</string>

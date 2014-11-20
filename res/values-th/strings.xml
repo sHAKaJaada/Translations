@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CallRecorder</string>
+    <!--Rules array-->
+    <string name="sRuleDescription">ฉันได้อ่านและเข้าใจเกี่ยวกับรายละเอียดแอพนี้แล้ว</string>
+    <string name="sRulePlayStore">ฉันเข้าใจแล้วว่าผู้พัฒนาไม่สามารถตอบคำถามในเพลย์สโตร์ได้</string>
+    <string name="sRuleUseOfProgram">
+        ฉันเข้าใจแล้วว่าผู้พัฒนาจะไม่ตอบคำถามเกี่ยวกับการใช้งาน.ฉันใช้โปรแกรมนี้บนความเสี่ยงด้วยตัวเอง
+    </string>
+    <string name="sRuleLaw">ฉันมั่นใจว่า ไม่ได้ทำผิดกฎหมายของประเทศโดยการใช้โปรแกรมนี้</string>
+    <string name="sRuleNotWorking">ถ้าการบันทึกเสียงการโทรไม่ทำงานบนอุปกรณ์ของฉัน ฉันจะอ่านรายละเอียดของแอพนี้อีกครั้ง,
+        และถ้าฉันไม่สามารถหาคำตอบได้ฉันจะส่งเมลหาผู้พัฒนาที่ skvalex@gmail.com
+    </string>
+
+    <!--Notification-->
+    <string name="sRecordingIsRunning">บริการบันทึกเสียงการโทรกำลังทำงาน</string>
+    <string name="sThisCallIsRecording">สายนี้ถูกบันทึกเสียงแล้ว</string>
+    <string name="an_error_has_occurred">มีข้อผิดพลาดเกิดขึ้น, สายนี้ไม่สามารถบันทึกเสียงได้</string>
+    <string name="sEncodingError">มีข้อผิดพลาดเกิดขึ้นระหว่างการเข้ารหัส...</string>
+    <string name="start_recording">เริ่มบันทึกเสียงการโทร</string>
+    <string name="stop_recording">หยุดบันทึกเสียงการโทร</string>
+
+    <!--List with recordings-->
+    <string name="empty_hint">ว่างเปล่า</string>
+    <string name="contact_unknown">ไม่ทราบ</string>
+
+    <!--Actions on recording-->
+    <string name="category_actions">กิจกรรม</string>
+    <string name="sFilterThisNumber">กรองเบอร์โทรนี้</string>
+    <string name="sAddToFavorites">เพิ่มไปยังรายการโปรด</string>
+    <string name="sRemoveFromFavorites">นำออกจากรายการโปรด</string>
+    <string name="sAddToContacts">เพิ่มไปยังรายชื่อติดต่อ</string>
+    <string name="sOpenContact">เปิดรายชื่อติดต่อ</string>
+    <string name="sCall">เรียกสาย</string>
+    <string name="sNote">บันทึก</string>
+    <string name="sConvertToMp3">แปลงเป็น mp3</string>
+    <string name="sConvertToAmr">แปลงเป็น amr</string>
+    <string name="sRenameFile">เปลี่ยนชื่อไฟล์</string>
+    <string name="menu_get_info">รับข้อมูลเพิ่มเติม</string>
+    <string name="menu_encrypt">เข้ารหัส</string>
+    <string name="menu_decrypt">ถอดรหัส</string>
+
+    <!--Actions on selected recordings-->
+    <string name="action_select_all">เลือกทั้งหมด</string>
+    <string name="sSelectNone">ไม่เลือกเลย</string>
+
+    <!--General-->
+    <string name="sSend">ส่ง</string>
+    <string name="sSendVia">ส่งผ่าน</string>
+    <string name="menu_delete">ลบ</string>
+    <string name="button_cancel">ยกเลิก</string>
+    <string name="button_ok">ตกลง</string>
+    <string name="sSeconds">วินาที</string>
+    <string name="sDisabled">ระงับการใช้งาน</string>
+    <string name="sYes">ใช่</string>
+    <string name="sNo">ไม่ใช่</string>
+    <string name="terabyte">TB</string>
+    <string name="gigabyte">GB</string>
+    <string name="megabyte">MB</string>
+    <string name="kilobyte">KB</string>
+    <string name="bytes">ไบต์</string>
+    <string name="please_wait">โปรดรอ...</string>
+    <string name="switch_on">เปิด</string>
+    <string name="switch_off">ปิด</string>
+
+    <!--Tabs-->
+    <string name="section_incoming">สายเรียกเข้า</string>
+    <string name="section_outgoing">สายโทรออก</string>
+    <string name="sFavorites">รายการโปรด</string>
+    <string name="sAll">ทั้งหมด</string>
+
+    <!--Send recordings-->
+    <string name="recorded_calls">สายที่ถูกบันทึก</string>
+    <string name="sIncoming">สายเรียกเข้า</string>
+    <string name="sOutgoing">สายโทรออก</string>
+
+    <!--Dialog after call-->
+    <string name="sDlgDeleteMsg">เก็บหรือลบบันทึกเสียงโทร?</string>
+    <string name="sKeep">เก็บ</string>
+    <string name="sDropboxAdded">เพิ่มแล้ว</string>
+
+    <!--Delete confirmation dialog-->
+    <string name="sDeleteFiles">ลบไฟล์</string>
+    <string name="confirm_delete_message">คุณแน่ใจหรือไม่ว่าจะลบการบันทึกเสียงโทรนี้?</string>
+    <string name="sDlgDeleteSelectionMsg">คุณได้เลือก %d ไฟล์. คุณแน่ใจหรือไม่ว่าจะลบพวกมัน?</string>
+    <string name="sFilesDeletedToast">%d ไฟล์ถูกลบแล้ว</string>
+
+    <!--Call confirm dialog-->
+    <string name="call_confirm_record_this_call">บันทึกเสียงสายนี้</string>
+
+    <!--Dialog about law-->
+    <string name="sWarning">คำเตือน</string>
+    <string name="sMsgAboutLaw">การบันทึกเสียงการโทรผิดกฎหมายในบางประเทศ.
+        คุณแน่ใจหรือไม่ว่าได้อาศัยอยู่ในประเทศที่การบันทึกเสียงการโทรถูกกฎหมาย?
+    </string>
+
+    <!--Rules dialog-->
+    <string name="sRules">กฎข้อบังคับ</string>
+    <string name="sIAgree">ฉันเห็นด้วย</string>
+    <string name="sIDisagree">ฉันไม่เห็นด้วย</string>
+
+    <!--Main screen toasts-->
+    <string name="sAddToFavoritesSuccess">การบันทึกเสียงนี้ถูกเพิ่มไปยังรายการโปรดแล้ว</string>
+    <string name="sRemoveFromFavoritesSuccess">การบันทึกเสียงนี้ถูกนำออกจากรายการโปรดแล้ว</string>
+    <string name="sDeleteFavoriteRecordingMsg">เพื่อที่จะลบไฟล์บันทึกเสียงนี้คุณต้องนำมันออกจากรายการโปรดก่อน</string>
+
+    <!--Encryption-->
+    <string name="sFileSuccessfullyEncrypted">ไฟล์ถูกเข้ารหัสเรียบร้อยแล้ว</string>
+    <string name="sFileSuccessfullyDecrypted">ไฟล์ถูกถอดรหัสเรียบร้อยแล้ว</string>
+    <string name="sEncrypting">กำลังเข้ารหัส</string>
+    <string name="sDecrypting">กำลังถอดรหัส</string>
+    <string name="sEncrypted">เข้ารหัสแล้ว</string>
+    <string name="wrong_password">รหัสผ่านไม่ถูกต้อง</string>
+
+    <!--Main screen warnings-->
+    <string name="sAvailableFreeSpace">พื้นที่เหลือน้อย: %s</string>
+    <string name="sReadWriteErr">ระบบไฟล์ต้องถูกเปิดให้อ่าน/เขียนได้</string>
+    <string name="sAlsaIsNotInstalledMsg">Alsa ไม่ได้ถูกติดตั้ง. แตะที่นี่เพื่อติดตั้ง</string>
+    <string name="sPhoneMustBeRootedWarning">โทรศัพท์ของคุณต้องถูกรูท. แตะค้างเพื่อยกเลิกข้อความนี้</string>
+    <string name="sStandardAPITip">ถ้าการบันทึกเสียงการโทรไม่ทำงานให้ลองทุกแหล่งกำเนิดเสียงในหัวข้อตั้งค่า API มาตรฐาน.
+        แตะค้างเพื่อยกเลิกข้อความนี้
+    </string>
+
+    <!--Toasts-->
+    <string name="sLoggerMustBeEnabledToast">การบันทึกกิจกรรมในรอม/เคอร์เนลต้องถูกเปิดใช้งาน!</string>
+    <string name="sFileWasDeletedToast">ไฟล์นี้ถูกลบแล้ว</string>
+
+    <!--Action bar-->
+    <string name="action_search">ค้นหา</string>
+    <string name="sSizeRecords">รายการ: %1$s, ขนาด: %2$s</string>
+    <string name="sFreeOf">เหลือว่าง</string>
+
+    <!--Tasks screen-->
+    <string name="section_tasks">งาน</string>
+    <string name="sInProgress">กำลังดำเนินการ (%s)</string>
+    <string name="sInQueue">อยู่ในคิว</string>
+
+    <!--Get Info dialog-->
+    <string name="file_name">ชื่อไฟล์</string>
+    <string name="sample_rate_hz">เฮิร์ตซ์</string>
+    <string name="file_size">ขนาดไฟล์</string>
+    <string name="button_edit">แก้ไข</string>
+
+    <!--Edit Info dialog-->
+    <string name="contact_name">ชื่อผู้ติดต่อ</string>
+    <string name="phone_number">หมายเลขโทรศัพท์</string>
+
+    <!--Description for file name pattern-->
+    <string name="pattern_contact_name">ชื่อผู้ติดต่อ</string>
+    <string name="pattern_phone_number">หมายเลขโทรศัพท์</string>
+    <string name="pattern_call_time">เวลาสนทนา</string>
+    <string name="sCallTimestamp">เวลาประทับการสนทนา</string>
+    <string name="pattern_call_type">ประเภทการโทร (โทรออก หรือ เรียกเข้า)</string>
+
+    <!--Description for time pattern-->
+    <string name="time_pattern_hours">ชั่วโมง</string>
+    <string name="time_pattern_minutes">นาที</string>
+    <string name="time_pattern_seconds">วินาที</string>
+    <string name="time_pattern_days">วัน</string>
+    <string name="time_pattern_months">เดือน</string>
+    <string name="time_pattern_years">ปี</string>
+    <string name="pattern_example">ตัวอย่าง:</string>
+
+    <!--Trial expired dialog-->
+    <string name="sTrialPeriodExpired">ช่วงเวลาทดลองใช้งานหมดอายุแล้ว</string>
+    <string name="sTrialPeriodExpiredMsg">โปรดถอนเวอร์ชั่นนี้ก่อนทำการซื้อเวอร์ชั่นเต็ม</string>
+    <string name="sBuy">ซื้อ</string>
+
+    <!--New settings-->
+    <string name="action_settings">ตั้งค่า</string>
+    <string name="section_help">ช่วยเหลือ</string>
+
+    <!--Main settings-->
+    <string name="buy_full_version">ซื้อรุ่นสมบูรณ์</string>
+    <string name="buy_full_version_summary">รุ่นปัจจุบันจะหมดอายุใน %s</string>
+    <string name="sCallRecorderUpdater">ปรับปรุง CallRecorder</string>
+    <string name="settings_recording">การบันทึกเสียง</string>
+    <string name="settings_folders_and_files">โฟลเดอร์และไฟล์</string>
+    <string name="settings_ui_and_appearance">หน้าตาและลักษณะ</string>
+    <string name="cloud_provider_dropbox">ดรอพบ็อกซ์</string>
+    <string name="settings_security">ความปลอดภัย</string>
+    <string name="settings_audio_player">ตัวเล่นเสียง</string>
+    <string name="sExperimentalSettings">ฟังก์ชั่นทดลอง</string>
+    <string name="settings_debug">การแก้ปัญหา</string>
+    <string name="settings_about">เกี่ยวกับ</string>
+
+    <!--General-->
+    <string name="sGeneralSettingsCategory">ทั่วไป</string>
+    <string name="sOtherSettingsCategory">อื่น ๆ</string>
+    <string name="sAdvancedSettingsCategory">ขั้นสูง</string>
+    <string name="category_wav_settings">ตั้งค่า WAV</string>
+    <string name="category_main">หลัก</string>
+
+
+    <!--Buy full version-->
+    <string name="sOpenPlayStore">เปิดเพลย์สโตร์</string>
+
+    <!--CallRecorder Updater-->
+    <string name="sOpenCallRecorderUpdater">เปิดตัวปรับปรุง CallRecorder</string>
+
+    <!--Recording-->
+    <string name="recording_calls_switch">การบันทึกเสียงการโทร</string>
+    <string name="device">อุปกรณ์</string>
+    <string name="device_other">อื่น ๆ</string>
+    <string name="select_your_device">เลือกอุปกรณ์ของคุณ</string>
+    <string name="sAudioFormatSettingsCategory">รูปแบบเสียง</string>
+    <string name="sCallRecordingFormat">รูปแบบการบันทึกเสียง</string>
+    <string name="sMethodSettingsCategory">กระบวนการทำงาน</string>
+    <string name="sKernelSettings">เคอร์เนล</string>
+    <string name="sKernelSettingsSummary">ตั้งค่าสำหรับการบันทึกเสียงผ่านเคอร์เนล</string>
+    <string name="recording_method_api">API มาตรฐาน</string>
+    <string name="recording_method_api_settings">ตั้งค่าสำหรับการบันทึกเสียงผ่าน API มาตรฐาน</string>
+    <string name="recording_method_alsa">ALSA</string>
+    <string name="recording_method_alsa_settings">ตั้งค่าสำหรับการบันทึกเสียงผ่าน ALSA</string>
+    <string name="recording_method">วิธีการบันทึกเสียง</string>
+    <string name="recording_method_caf">CAF</string>
+    <string name="recording_method_caf_settings">ตั้งค่าสำหรับการบันทึกเสียงแบบ CAF</string>
+    <string name="volume_control">ตัวควบคุมเสียง</string>
+    <string name="recording_mode">โหมดการบันทึก</string>
+    <string name="recording_type_mono">โมโน</string>
+    <string name="recording_type_stereo">สเตอริโอ</string>
+    <string name="volume_control_tx">ส่ง</string>
+    <string name="volume_control_rx">รับ</string>
+
+    <!--Recording methods array-->
+    <string name="sRecordingMethodKernel">เคอร์เนล (จำเป็นต้องรูท)</string>
+    <string name="sRecordingMethodStandardAPI">API มาตรฐาน</string>
+    <string name="sRecordingMethodALSA">ALSA (จำเป็นต้องรูท)</string>
+    <string name="sRecordingMethodCAF">CAF(จำเป็นต้องรูท)</string>
+
+    <!--Recording audio formats-->
+    <string name="recording_format_wav">WAV</string>
+    <string name="recording_format_amr">AMR</string>
+    <string name="recording_format_aac">AAC</string>
+    <string name="s3GPP">3GPP</string>
+    <string name="recording_format_mp3">MP3</string>
+
+    <!--Recording behavior-->
+    <string name="after_call_actions_dialog">หน้าจอการกระทำหลังการโทร</string>
+    <string name="after_call_actions_dialog_summary">ถามว่าต้องการทำอะไรหลังการโทร</string>
+    <string name="call_confirm">ยืนยันการโทร</string>
+    <string name="call_confirm_summary">แสดงหน้าจอยืนยันก่อนการโทร</string>
+    <string name="sDefaultAction">การกระทำเริ่มต้น</string>
+    <string name="action_for_outgoing">การกระทำสำหรับสายโทรออก</string>
+    <string name="action_for_incoming">การกระทำสำหรับสายเรียกเข้า</string>
+    <string name="delay_before_start_recording">หน่วงเวลาก่อนเริ่มบันทึกเสียง</string>
+    <string name="sIncomingCalls">สายเรียกเข้า</string>
+    <string name="sOutgoingAndIncomingCalls">สายโทรออก &amp; สายเรียกเข้า</string>
+    <string name="sOutgoingCalls">สายโทรออก</string>
+    <string name="vibrate_on_call">สั่นเมื่อการโทรเริ่มต้น/เสร็จสิ้น</string>
+
+    <!--Actions-->
+    <string name="action_record_all">บันทึกทั้งหมด</string>
+    <string name="action_do_not_record">ไม่บันทึก</string>
+    <string name="action_record_contacts">บันทึกที่มีรายชื่อ</string>
+    <string name="action_record_non_contacts">บันทึกที่ไม่มีรายชื่อ</string>
+
+    <!--Recording -> Exceptions-->
+    <string name="exceptions">ยกเว้น</string>
+    <string name="sAddGroup">เพิ่มกลุ่ม</string>
+    <string name="sAdd">เพิ่ม</string>
+    <string name="exception_group">กลุ่ม</string>
+    <string name="exception_select_group">เลือกกลุ่ม</string>
+    <string name="exception_select_action">เลือกการกระทำ</string>
+    <string name="sChangeAction">เปลี่ยนการกระทำ</string>
+    <string name="exception_action_always_record">บันทึกตลอดเวลา</string>
+    <string name="exception_action_never_record">ไม่บันทึกเลย</string>
+    <string name="sPressMenuToAddException">เลือก \'เมนู\' เพื่อเพิ่มการยกเว้น</string>
+
+    <!--Recording -> Kernel-->
+    <string name="chipset_type">ประเภทชิพเซ็ท</string>
+    <string name="chipset_type_msm72xx">Qualcomm MSM72XX</string>
+    <string name="chipset_type_msm8250">Qualcomm MSM8250</string>
+    <string name="chipset_type_msm8255">Qualcomm MSM8255</string>
+    <string name="chipset_type_msm8260">Qualcomm MSM8260</string>
+    <string name="sSoundBoost">ยกระดับเสียง</string>
+    <string name="sUplinkBoost">ยกระดับอัพลิ้งค์</string>
+    <string name="sDownlinkBoost">ยกระดับดาวน์ลิ้งค์</string>
+    <string name="dont_use_amr_driver">อย่าใช้ไดรเวอร์ AMR</string>
+    <string name="dont_use_amr_driver_summary">แปลง WAV เป็น AMR แบบเวลาจริง</string>
+
+    <!--Recording -> Standard API-->
+    <string name="api_audio_source">แหล่งกำเนิดเสียง</string>
+    <string name="sWhenBTConnected">เมื่อเชื่อมต่อบลูทูธ</string>
+    <string name="sBTEnabledMeansBTConnected">บลูทูธเปิดการใช้งานหมายถึงบลูทูธเชื่อมต่อแล้ว</string>
+    <string name="sBTEnabledMeansBTConnectedSummary">
+        หลังจากบลูทูธถูกเปิดใช้งานใช้การตั้งค่าเดียวกันกับบลูทูธถูกเชื่อมต่อ
+    </string>
+    <string name="sAudioSourceWhenBTConnected">แหล่งกำเนิดเสียงเมื่อบลูทูธเชื่อมต่อ</string>
+    <string name="sample_rate">อัตราสุ่ม</string>
+    <string name="sample_rate_8000">8000 Hz (เริ่มต้น)</string>
+    <string name="sample_rate_11025">11025 Hz</string>
+    <string name="sample_rate_16000">16000 Hz</string>
+    <string name="sample_rate_22050">22050 Hz</string>
+    <string name="sample_rate_44100">44100 Hz</string>
+    <string name="sample_rate_48000">48000 Hz</string>
+    <string name="sSampleRateWarning">บางอัตราสุ่มระบบอาจจะไม่สนับสนุน</string>
+
+    <!--Audio sources of Standard API array-->
+    <string name="api_source_uplink_downlink">เสียงโทรอัพลิ้งค์ + ดาวน์ลิ้งค์</string>
+    <string name="api_source_downlink">เสียงโทรดาวน์ลิ้งค์</string>
+    <string name="api_source_uplink">เสียงโทรอัพลิ้งค์</string>
+    <string name="api_source_microphone">ไมโครโฟน</string>
+    <string name="api_source_default">ค่าเริ่มต้น</string>
+    <string name="api_source_voice_communication">การสื่อสารด้วยเสียง</string>
+
+    <!--Actions on BT connected array-->
+    <string name="sOnBTConnectedActionDoNothing">ไม่ทำสิ่งใดเลย</string>
+    <string name="sOnBTConnectedActionSwitchAudioSource">เปลี่ยนแหล่งเสียง</string>
+    <string name="sOnBTConnectedActionDisableRecording">ระงับการบันทึกเสียงการโทร</string>
+
+    <!--Recording -> ALSA-->
+    <string name="sAlsa">Alsa</string>
+    <string name="sAlsaIsInstalled">Alsa ถูกติดตั้งแล้ว</string>
+
+    <!--Folders and Files-->
+    <string name="sRescan">สแกนอีกครั้ง</string>
+    <string name="sRescanSummary">สแกนโฟลเดอร์อีกครั้งเพื่อปรับปรุงรายการบันทึกเสียง</string>
+    <string name="sFolderSettingsCategory">โฟลเดอร์</string>
+    <string name="folder">โฟลเดอร์</string>
+    <string name="automatic_cleanup">ทำความสะอาดอัตโนมัติ</string>
+    <string name="max_number_of_files">จำนวนไฟล์สูงสุด</string>
+    <string name="max_number_of_files_message">ระบุตัวเลข (0 - ไม่จำกัด)</string>
+    <string name="max_total_size_of_files">ขนาดไฟล์ทั้งหมดสูงสุด</string>
+    <string name="max_total_size_of_files_message">ระบุค่าในหน่วยเมกะไบต์ (0 - ไม่จำกัด)</string>
+    <string name="max_age_of_recordings">อายุการบันทึกเสียงสูงสุด</string>
+    <string name="max_age_of_recordings_message">ระบุค่าในหน่วยวัน (0 - ไม่จำกัด)</string>
+    <string name="current_setting">การตั้งค่าปัจจุบัน: %s</string>
+    <string name="sFileNameSettingsCategory">ชื่อไฟล์</string>
+    <string name="filename_pattern">รูปแบบ</string>
+    <string name="time_pattern">รูปแบบเวลา</string>
+
+    <!--Interface and Appearance-->
+    <string name="language">ภาษา</string>
+    <string name="select_language">เลือกภาษา</string>
+    <string name="sActionBarSettingsCategory">แถบการกระทำ</string>
+    <string name="sAudioOutputActionBar">เสียงออก</string>
+    <string name="sAudioOutputActionBarSummary">แสดงการตั้งค่าเสียงออกในแถบการกระทำ</string>
+    <string name="incall_control_for_outgoing">สำหรับสายโทรออก</string>
+    <string name="sInCallControlForOutgoingSummary">ตัวควบคุมการบันทึกเสียงสำหรับสายโทรออก</string>
+    <string name="incall_control_for_incoming">สำหรับสายเรียกเข้า</string>
+    <string name="sInCallControlForIncomingSummary">ตัวควบคุมการบันทึกเสียงสำหรับสายเรียกเข้า</string>
+    <string name="category_notification">การแจ้งเตือน</string>
+    <string name="sNotificationIcon">ไอคอนการแจ้งเตือน</string>
+    <string name="show_notification">แสดงการแจ้งเตือน</string>
+    <string name="sShowNotificationSummary">ลำดับความสำคัญ</string>
+    <string name="sInCallControl">ตัวควบคุมการบันทึกเสียง</string>
+    <string name="sHangUpAndCallBack">วางสายแล้วติดต่อกลับ</string>
+    <string name="sHangUpAndCallBackSummary">ในการคลิกค้าง,จะเป็นการวางสายแล้วติดต่อกลับโดยอัตโนมัติ</string>
+    <string name="show_button_while_ringing">แสดงปุ่มในขณะมีเสียงเรียกเข้า</string>
+    <string name="show_button_while_ringing_summary">แสดงปุ่มควบคุมการบันทึกเสียงก่อนการรับสายเรียกเข้า</string>
+    <string name="sExcludeFavoritesFromAll">ไม่รวมรายการโปรดจากหน้าจอทั้งหมด</string>
+    <string name="sExcludeFavoritesFromAllSummary">ไม่แสดงรายการโปรดบนหน้าจอที่มีการบันทึกทั้งหมด</string>
+    <string name="vertical_position">ตำแหน่งแนวตั้ง</string>
+    <string name="horizontal_position">ตำแหน่งแนวนอน</string>
+    <string name="sVerticalOffset">ชดเชยจากขอบแนวตั้ง</string>
+    <string name="sVerticalOffsetSummary">ตั้งชดเชยจากขอบที่เลือกในการตั้งค่าแนวตั้ง (ด้านบนหรือด้านล่าง)</string>
+    <string name="sHorizontalOffset">ชดเชยจากขอบแนวนอน</string>
+    <string name="sHorizontalOffsetSummary">ตั้งชดเชยจากขอบที่เลือกในการตั้งค่าแนวนอน (ซ้ายหรือขวา)</string>
+    <string name="sLowSpaceWarning">เตือนพื้นที่เหลือน้อย</string>
+    <string name="sLowSpaceWarningSummary">ตั้งค่าขีดจำกัดพื้นที่เหลือน้อยในหน่วยเมกะไบต์</string>
+    <string name="sMainScreen">หน้าจอหลัก</string>
+    <string name="sHideInCallControlButton">ซ่อนปุ่มควบคุมในหน้าจอการโทร</string>
+    <string name="sHideInCallControlButtonSummary">ซ่อนปุ่มควบคุมในหน้าจอการโทรถ้ากำลังบันทึกเสียง</string>
+    <string name="sDontShowInCallButton">อย่าแสดงปุ่มก่อนเชื่อมต่อ</string>
+    <string name="hide_button_before_answer_summary">อย่าแสดงปุ่มควบคุมการบันทึกเสียงจนกว่าการเชื่อมต่อเริ่มต้น</string>
+    <string name="sLanguageDefault">ค่าเริ่มต้น</string>
+
+    <!--Vertical aligns array-->
+    <string name="sVerticalAlignTop">บน</string>
+    <string name="sVerticalAlignBottom">ล่าง</string>
+
+    <!--Horizontal aligns array-->
+    <string name="sHorizontalAlignLeft">ซ้าย</string>
+    <string name="sHorizontalAlignRight">ขวา</string>
+
+    <!--Notification icons array-->
+    <string name="sNotificationIconDefault">ค่าเริ่มต้น</string>
+    <string name="sNotificationIconGreenNew">เขียว (ใหม่)</string>
+    <string name="sNotificationIconGreenOld">เขียว (เก่า)</string>
+    <string name="sNotificationIconGray">เทา</string>
+
+    <!--Dropbox-->
+    <string name="sDropboxLogin">เข้าใช้งาน</string>
+    <string name="sDropboxLogout">เลิกใช้งาน</string>
+
+    <string name="cloud_wifi_only">ไวไฟเท่านั้น</string>
+    <string name="cloud_auto_upload">อัพโหลดอัตโนมัติ</string>
+    <string name="sCloudUploadFavorites">อัพโหลดรายการโปรด</string>
+    <string name="sCloudUploadFavoritesSummary">อัพโหลดรายการบันทึกเสียงไปยังดรอพบ็อกซ์เมื่อคุณเพิ่มมันไปยังรายการโปรด
+    </string>
+    <string name="cloud_auto_upload_summary">อัพโหลดไฟล์บันทึกเสียงหลังโทร</string>
+    <string name="menu_add_to_dropbox">เพิ่มไปยังดรอพบ็อกซ์</string>
+
+    <!--Security-->
+    <string name="category_encryption">เข้ารหัส</string>
+    <string name="sKeyNotFound">คีย์ไม่ถูกพบ</string>
+    <string name="sCreate">สร้าง</string>
+    <string name="create_new_key">สร้างคีย์ใหม่</string>
+    <string name="enter_password">ระบุรหัสผ่าน</string>
+    <string name="sReEnterPassword">ระบุรหัสผ่านอีกครั้ง</string>
+    <string name="aes_128bit">128-bit AES (เร็วกว่า)</string>
+    <string name="aes_192bit">192-bit AES (พอดี)</string>
+    <string name="aes_256bit">256-bit AES (แข็งแรงกว่า)</string>
+    <string name="category_application">แอพพลิเคชั่น</string>
+    <string name="app_admin">ผู้ดูแลแอพ</string>
+    <string name="sAppAdminSummary">จำเป็นที่จะต้องป้องกันไม่ให้ถอนการติดตั้ง CallRecorder</string>
+    <string name="sAppAdminExplanation">CallRecorder
+        ไม่ได้ใช้คุณลักษณะของผู้ดูแลระบบอุปกรณ์ใดเลยยกเว้นการปกป้องถอนการติดตั้ง
+    </string>
+    <string name="change_password">เปลี่ยนรหัสผ่าน</string>
+    <string name="enter_old_password">กรอกรหัสผ่านเก่า</string>
+    <string name="enter_new_password">กรอกรหัสผ่านใหม่</string>
+    <string name="re_enter_new_password">กรอกรหัสผ่านใหม่อีกครั้ง</string>
+    <string name="require_password">ต้องการรหัสผ่าน</string>
+    <string name="require_password_summary">ต้องการรหัสผ่านเพื่อเปิดแอพ</string>
+    <string name="lock_after">ล็อคหลังจาก</string>
+    <string name="lock_after_exit">ออก</string>
+    <string name="lock_after_1_minute">1นาที</string>
+    <string name="lock_after_3_minutes">3 นาที</string>
+    <string name="lock_after_5_minutes">5 นาที</string>
+    <string name="lock_after_10_minutes">10 นาที</string>
+    <string name="password_has_been_changed">รหัสผ่านถูกเปลี่ยนแล้ว</string>
+
+    <!--Audio player-->
+    <string name="sUseDefaultPlayer">ใช้ตัวเล่นเริ่มต้น</string>
+    <string name="audio_output">เสียงออก</string>
+    <string name="android_wav_decoder">ตัวถอดรหัสแอนดรอยด์สำหรับ WAV</string>
+    <string name="android_wav_decoder_summary">ใช้เครื่องมือในตัวแอนดรอยด์เพื่อที่จะเล่น WAV</string>
+    <string name="android_amr_decoder">ตัวถอดรหัสแอนดรอยด์สำหรับ AMR</string>
+    <string name="android_amr_decoder_summary">ใช้เครื่องมือในตัวแอนดรอยด์เพื่อที่จะเล่น AMR</string>
+    <string name="switch_audio_output">สลับเสียงออก</string>
+    <string name="SwitchAudioOutputSummary">
+        สลับเสียงออกโดยอัตโนมัติถ้าหน้าจอถูกปิดใช้งาน/เปิดใช้งานโดยเซ็นเซอร์ตรวจสอบความใกล้
+    </string>
+    <string name="use_proximity_sensor">ใช้เซ็นเซอร์ตรวจสอบความใกล้</string>
+    <string name="sUseProximitySensorSummary">ปิดการใช้งานหน้าจอโดยเซ็นเซอร์ตรวจสอบความใกล้ระหว่างการเล่นเสียง
+        (รูทมีความจำเป็น)
+    </string>
+
+    <!--Audio output array-->
+    <string name="main_speaker">ลำโพงหลัก</string>
+    <string name="phone_speaker">ลำโพงโทรศัพท์</string>
+
+    <!--Experimental-->
+    <string name="sConvertAfterCall">แปลงหลังการโทร</string>
+    <string name="sDontConvert">อย่าแปลง</string>
+    <string name="sWavToMp3">WAV เป็น MP3</string>
+    <string name="sWavToAmr">WAV เป็น AMR</string>
+
+    <!--Debug-->
+    <string name="sDetailedLogs">บันทึกรายละเอียด</string>
+    <string name="root_access">เข้าถึงสิทธิ์ผู้ดูแล</string>
+    <string name="root_access_no">ไม่</string>
+    <string name="root_access_yes">ใช่</string>
+    <string name="sLogsSettingsCategory">บันทึก</string>
+    <string name="sSendLogsToTheDeveloper">ส่งบันทึกไปยังนักพัฒนา</string>
+    <string name="sUseGzipToCompressLogs">ใช้ gzip เพื่อบีบอัดบันทึก</string>
+    <string name="sRecordOnNotificationClick">บันทึกเสียงเมื่อคลิกบนตัวแจ้งเตือน</string>
+    <string name="sRecordOnNotificationClickSummary">อย่าคลิกที่การแจ้งเตือนก่อนการเชื่อมต่อถูกเริ่มต้น</string>
+    <string name="sHideNotificationDuringCall">ซ่อนการแจ้งเตือนในระหว่างการโทร</string>
+    <string name="sHideNotificationDuringCallSummary">อย่าเปิดใช้มัน, สำหรับการแก้ปัญหาเท่านั้น</string>
+    <string name="dual_sim_phone">โทรศัพท์สองซิม</string>
+    <string name="dual_sim_phone_summary">เปิดสิ่งนี้ถ้าแอพไม่สามารถถูกเรียกจากซิมการ์ดที่สอง</string>
+
+    <!--About-->
+    <string name="version">รุ่น</string>
+    <string name="sAboutCallRecorder">เกี่ยวกับ CallRecorder</string>
+    <string name="license_status">สถานะใบอนุญาต</string>
+    <string name="sLicenseStatusVerified">ใบอนุญาตถูกยืนยันแล้ว</string>
+    <string name="license_trial">เวอร์ชั่นทดลองใช้,จะหมดอายุใน %s</string>
+
+    <string name="copyright">สงวนลิขสิทธิ์</string>
+    <string name="copyright_summary">&#169; %s Alexander Skvortsov (skvalex)</string>
+    <string name="about_many_thanks">ขอบคุณมากมาย</string>
+    <string name="about_many_thanks_summary">ไปยัง Alexey Subbotin (avs234)</string>
+    <string name="sGermanTranslation">แปลเป็นภาษาเยอรมัน</string>
+    <string name="sGermanTranslationSummary_ver1">โดย Marc Hillesheim and Thomas Käfer</string>
+    <string name="sPolishTranslation">แปลภาษาโปแลนด์</string>
+    <string name="sPolishTranslationSummary">โดย Robert Gonta</string>
+    <string name="sFrenchTranslation">แปลเป็นภาษาฝรั่งเศส</string>
+    <string name="sFrenchTranslationSummary">โดย Julien Boiteux</string>
+    <string name="sBrazilianPortugueseTranslation">แปลเป็นภาษาโปรตุเกสบราซิล</string>
+    <string name="sBrazilianPortugueseTranslationSummary">โดย Luiz Marcelo Serique</string>
+    <string name="sSpanishTranslation">แปลเป็นภาษาสเปน</string>
+    <string name="sSpanishTranslationSummary_ver1">โดย Iñigo Garcia และ Diego Vilas</string>
+    <string name="sSlovakTranslation">แปลเป็นภาษาสโลวัก</string>
+    <string name="sSlovakTranslationSummary">โดย Loránt Gerencsér</string>
+    <string name="sItalianTranslation">แปลเป็นภาษาอิตาลี</string>
+    <string name="sItalianTranslationSummary">โดย Luca Trevisan</string>
+    <string name="sPersianTranslation">แปลเป็นภาษาเปอร์เซีย</string>
+    <string name="sPersianTranslationSummary_v2">โดย Alireza Afkar</string>
+    <string name="sChineseTranslation">แปลเป็นภาษาจีน</string>
+    <string name="sChineseTranslationSummary">โดย qhq</string>
+    <string name="sCzechTranslation">แปลเป็นภาษาเช็ก</string>
+    <string name="sCzechTranslationSummary_ver2">โดย Ales Kerner และ Lukas Waldauf</string>
+    <string name="sArabicTranslation">แปลเป็นภาษาอาหรับ</string>
+    <string name="sArabicTranslationSummary">โดย Ausama S. Ibrahim</string>
+    <string name="sHebrewTranslation">แปลเป็นภาษาฮีบรู</string>
+    <string name="sHebrewTranslationSummary">โดย NuFlood</string>
+    <string name="sHungarianTranslation">แปลเป็นภาษาฮังการี</string>
+    <string name="sHungarianTranslationSummary_ver2">โดย Szalay Levente และ Miklós Toldi</string>
+    <string name="sDutchTranslation">แปลเป็นภาษาดัตช์</string>
+    <string name="sDutchTranslationSummary">โดย Elroy Tirbeni</string>
+    <string name="sTurkishTranslation">แปลเป็นภาษาตุรกี</string>
+    <string name="sTurkishTranslationSummary">โดย Omer Ilik</string>
+    <string name="sSerbianTranslation">แปลเป็นภาษาเซอร์เบีย</string>
+    <string name="sSerbianTranslationSummary">โดย sHAKaJaada</string>
+    <string name="sKoreanTranslation">แปลเป็นภาษาเกาหลี</string>
+    <string name="sKoreanTranslationSummary_ver2">โดย SoHyunSeop and Joon Hee Jo</string>
+    <string name="sRomanianTranslation">แปลเป็นภาษาโรมาเนีย</string>
+    <string name="sRomanianTranslationSummary">โดย Dan P. (sad)</string>
+    <string name="sUkrainianTranslation">แปลเป็นภาษายูเครน</string>
+    <string name="sUkrainianTranslationSummary">โดย Gennadi Samoluk</string>
+    <string name="sTraditionalChineseTranslation">แปลเป็นภาษาจีน</string>
+    <string name="sTraditionalChineseTranslationSummary_v2">โดย by GPF_kaibird และ Chien Jung Liaw</string>
+    <string name="sJapaneseTranslation">แปลเป็นภาษาญี่ปุ่น</string>
+    <string name="sJapaneseTranslationSummary">โดย Akira Tagoh</string>
+    <string name="sSwedishTranslation">แปลเป็นภาษาสวีเดน</string>
+    <string name="sSwedishTranslationSummary">โดย Johannes Sjölund</string>
+    <string name="sBulgarianTranslation">แปลเป็นภาษาบัลแกเรีย</string>
+    <string name="sBulgarianTranslationSummary">โดย PROXIMO</string>
+    <string name="sDanishTranslation">แปลเป็นภาษาเดนมาร์ก</string>
+    <string name="sDanishTranslationSummary">โดย Lars Sarauw Hansen</string>
+    <string name="sLatvianTranslation">แปลเป็นภาษาลัตเวีย</string>
+    <string name="sLatvianTranslationSummary">โดย Arvīds Dreimanis</string>
+    <string name="sThaiTranslation">แปลเป็นภาษาไทย</string>
+    <string name="sThaiTranslationSummary">โดย Wuttisak Saichoncharn</string>
+    <string name="sArmenianTranslation">แปลเป็นภาษาอาเมเนียน</string>
+    <string name="sArmenianTranslationSummary">โดย Konstantin Gevorgyan</string>
+    <string name="sGeorgianTranslation">แปลเป็นภาษาจอร์เจีย</string>
+    <string name="sGeorgianTranslationSummary">โดย Alexandre Razmadze</string>
+    <string name="sCatalanTranslation">แปลงเป็นภาษาคาตาลัน</string>
+    <string name="sCatalanTranslationSummary">โดย cybdani</string>
+    <string name="sHindiTranslation">แปลเป็นภาษาฮินดู</string>
+    <string name="sHindiTranslationSummary">โดย TheTAMAS Gautam</string>
+    <string name="sPunjabiTranslation">แปลเป็นภาษาปัญจาบี</string>
+    <string name="sPunjabiTranslationSummary_ver2">โดย Raj Verma</string>
+    <string name="sFinnishTranslation">sFinnishTranslation Finnish translation</string>
+    <string name="sFinnishTranslationSummary">โดย Eero Linnainmaa</string>
+    <string name="sBelarusianTranslation">แปลเป็นภาษาเบลารุส</string>
+    <string name="sBelarusianTranslationSummary">โดย Alexander Kuvshinov</string>
+    <string name="sVietnameseTranslation">แปลเป็นภาษาเวียดนาม</string>
+    <string name="sVietnameseTranslationSummary">โดย  Truong Hoang Trung</string>
+
+    <!--Licenses-->
+    <string name="licenses">สัญญาอนุญาต</string>
+    <string name="sActionBarSherlockLicense">ActionBarSherlock</string>
+    <string name="sActionBarSherlockLicenseSummary">ใช้ ActionBarSherlock ภายใต้สัญญาอนุญาต Apache เวอร์ชัน 2.0
+        คลิกที่นี่เพื่อเยี่ยมชม actionbarsherlock.com
+    </string>
+    <string name="about_open_core_amr_license">opencore-amr</string>
+    <string name="about_open_core_amr_license_summary">ใช้ opencore AMR-ภายใต้สัญญาอนุญาต Apache เวอร์ชัน 2.0
+        คลิกที่นี่เพื่อเยี่ยมชม opencore-amr.sourceforge.net
+    </string>
+    <string name="about_alsa">ALSA</string>
+    <string name="about_alsa_summary">ใช้ ALSA ภายใต้ LGPL คลิกที่นี่เพื่อเยี่ยมชม ALSA-project.org</string>
+    <string name="about_lame">LAME</string>
+    <string name="about_lame_summary">ใช้ LAME ภายใต้ LGPL คลิกที่นี่เพื่อเยี่ยมชม mp3dev.org</string>
+</resources>

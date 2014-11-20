@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CallRecorder</string>
+    <!--Rules array-->
+    <string name="sRuleDescription">Prečítal a pochopil som popis aplikácie</string>
+    <string name="sRulePlayStore">Chápem, že vývojár nemôže reagovať na pripomienky v Obchode Google Play</string>
+    <string name="sRuleUseOfProgram">Chápem, že vývojár nezodpovedá za použitie tejto aplikácie. Používam túto aplikáciu
+        na vlastné nebezpečenstvo
+    </string>
+    <string name="sRuleLaw">Som si absolútne istý, že neporušujem zákony mojej krajiny používaním tejto aplikácie
+    </string>
+    <string name="sRuleNotWorking">Ak nahrávanie nebude fungovať na mojom zariadení, prečítam si znovu pozorne popis
+        aplikácie, a keď nenájdem riešenie, napíšem vývojárovi na e-mail skvalex@gmail.com
+    </string>
+
+    <!--Notification-->
+    <string name="sRecordingIsRunning">Služba nahrávania hovorov je spustená</string>
+    <string name="sThisCallIsRecording">Tento hovor je nahrávaný</string>
+    <string name="an_error_has_occurred">Došlo k chybe, tento hovor nebude nahrávaný</string>
+    <string name="sEncodingError">Počas kódovania sa vyskytla chyba...</string>
+    <string name="start_recording">Začať nahrávanie</string>
+    <string name="stop_recording">Zastaviť nahrávanie</string>
+
+    <!--List with recordings-->
+    <string name="empty_hint">Žiadne nahrávky</string>
+    <string name="contact_unknown">Neznámy</string>
+
+    <!--Actions on recording-->
+    <string name="category_actions">Akcie</string>
+    <string name="sFilterThisNumber">Filtrovať toto číslo</string>
+    <string name="sAddToFavorites">Pridať k obľúbeným</string>
+    <string name="sRemoveFromFavorites">Odobrať z obľúbených</string>
+    <string name="sAddToContacts">Pridať do kontaktov</string>
+    <string name="sOpenContact">Otvoriť kontakt</string>
+    <string name="sCall">Hovor</string>
+    <string name="sNote">Poznámka</string>
+    <string name="sConvertToMp3">Konvertovať do MP3</string>
+    <string name="sConvertToAmr">Konvertovať do AMR</string>
+    <string name="sRenameFile">Premenovať súbor</string>
+    <string name="menu_get_info">Získať informácie</string>
+    <string name="menu_encrypt">Kódovať</string>
+    <string name="menu_decrypt">Odkódovať</string>
+
+    <!--Actions on selected recordings-->
+    <string name="action_select_all">Vybrať všetko</string>
+    <string name="sSelectNone">Nevybrať nič</string>
+
+    <!--General-->
+    <string name="sSend">Poslať</string>
+    <string name="sSendVia">Poslať cez</string>
+    <string name="menu_delete">Vymazať</string>
+    <string name="button_cancel">Zrušiť</string>
+    <string name="button_ok">OK</string>
+    <string name="sSeconds">sek</string>
+    <string name="sDisabled">Zakázať</string>
+    <string name="sYes">Áno</string>
+    <string name="sNo">Nie</string>
+    <string name="terabyte">TB</string>
+    <string name="gigabyte">GB</string>
+    <string name="megabyte">MB</string>
+    <string name="kilobyte">KB</string>
+    <string name="bytes">bytes</string>
+    <string name="please_wait">Čakajte prosím...</string>
+    <string name="switch_on">ZAP</string>
+    <string name="switch_off">VYP</string>
+
+    <!--Tabs-->
+    <string name="section_incoming">Prichádzajúce</string>
+    <string name="section_outgoing">Odchádzajúce</string>
+    <string name="sFavorites">Obľúbené</string>
+    <string name="sAll">Všetky</string>
+
+    <!--Send recordings-->
+    <string name="recorded_calls">Nahraté hovory</string>
+    <string name="sIncoming">Prichádzajúce</string>
+    <string name="sOutgoing">Odchádzajúce</string>
+
+    <!--Dialog after call-->
+    <string name="sDlgDeleteMsg">Ponechať alebo vymazať nahraté hovory?</string>
+    <string name="sKeep">Ponechať</string>
+    <string name="sDropboxAdded">Pridané</string>
+
+    <!--Delete confirmation dialog-->
+    <string name="sDeleteFiles">Vymazať súbory</string>
+    <string name="confirm_delete_message">Naozaj chcete vymazať túto nahrávku?</string>
+    <string name="sDlgDeleteSelectionMsg">Označili ste %d súborov. Naozaj ich chcete vymazať?</string>
+    <string name="sFilesDeletedToast">%d súborov bolo vymazaných</string>
+
+    <!--Call confirm dialog-->
+    <string name="call_confirm_record_this_call">Nahrať tento hovor</string>
+
+    <!--Dialog about law-->
+    <string name="sWarning">Upozornenie</string>
+    <string name="sMsgAboutLaw">Nahrávanie hovoru môže byť nelegálne. Je vo vašej krajine nahrávanie hovoru legálne?
+    </string>
+
+    <!--Rules dialog-->
+    <string name="sRules">Pravidlá</string>
+    <string name="sIAgree">Súhlasím</string>
+    <string name="sIDisagree">Nesúhlasím</string>
+
+    <!--Main screen toasts-->
+    <string name="sAddToFavoritesSuccess">Táto nahrávka bola úspešne pridaná k obľúbeným</string>
+    <string name="sRemoveFromFavoritesSuccess">Táto nahrávka bola úspešne odobratá z obľúbených</string>
+    <string name="sDeleteFavoriteRecordingMsg">Aby ste mohli vymazať túto nahrávku, musíte ju odobrať z obľúbených
+    </string>
+
+    <!--Encryption-->
+    <string name="sFileSuccessfullyEncrypted">Súbor úspešne zakódovaný</string>
+    <string name="sFileSuccessfullyDecrypted">Súbor úspešne odkódovaný</string>
+    <string name="sEncrypting">Kódovanie</string>
+    <string name="sDecrypting">Odkódovanie</string>
+    <string name="sEncrypted">Kódované</string>
+    <string name="wrong_password">Nesprávne heslo</string>
+
+    <!--Main screen warnings-->
+    <string name="sAvailableFreeSpace">Málo miesta: %s</string>
+    <string name="sReadWriteErr">Súborový systém musí byť pripojený na čítanie/zápis</string>
+    <string name="sAlsaIsNotInstalledMsg">ALSA nie je nainštalovaná. Kliknite sem pre inštaláciu.</string>
+    <string name="sPhoneMustBeRootedWarning">Váš telefón musí mať Root. Dlhým stlačením zrušíte túto správu.</string>
+    <string name="sStandardAPITip">Ak nefunguje nahrávanie hovorov, vyskúšajte všetky zdroje zvuku v Štandardných API
+        nastaveniach. Dlhým stlačením zrušíte túto správu.
+    </string>
+
+    <!--Toasts-->
+    <string name="sLoggerMustBeEnabledToast">Logger vo Vašej ROM/kerneli musí byť povolený!</string>
+    <string name="sFileWasDeletedToast">súbor bol zmazaný</string>
+
+    <!--Action bar-->
+    <string name="action_search">Hľadať</string>
+    <string name="sSizeRecords">nahrávky: %1$s, veľkosť: %2$s</string>
+    <string name="sFreeOf">bez</string>
+
+    <!--Tasks screen-->
+    <string name="section_tasks">Úlohy</string>
+    <string name="sInProgress">Prebieha (%s)</string>
+    <string name="sInQueue">V poradí</string>
+
+    <!--Get Info dialog-->
+    <string name="file_name">Názov súboru</string>
+    <string name="sample_rate_hz">Hz</string>
+    <string name="file_size">Veľkosť súboru</string>
+    <string name="button_edit">Upraviť</string>
+
+    <!--Edit Info dialog-->
+    <string name="contact_name">Meno kontaktu</string>
+    <string name="phone_number">Telefónne číslo</string>
+
+    <!--Description for file name pattern-->
+    <string name="pattern_contact_name">meno kontaktu</string>
+    <string name="pattern_phone_number">telefónne číslo</string>
+    <string name="pattern_call_time">čas hovoru</string>
+    <string name="sCallTimestamp">časový otlačok hovoru</string>
+    <string name="pattern_call_type">typ hovoru (prichádzajúci alebo odchádzajúci)</string>
+
+    <!--Description for time pattern-->
+    <string name="time_pattern_hours">hodiny</string>
+    <string name="time_pattern_minutes">minúty</string>
+    <string name="time_pattern_seconds">sekundy</string>
+    <string name="time_pattern_days">dni</string>
+    <string name="time_pattern_months">mesiace</string>
+    <string name="time_pattern_years">roky</string>
+    <string name="pattern_example">Príklad:</string>
+
+    <!--Trial expired dialog-->
+    <string name="sTrialPeriodExpired">Skúšobná doba vypršala</string>
+    <string name="sTrialPeriodExpiredMsg">Prosím, odinštalujte túto verziu skôr než si zakúpiť plnú verziu</string>
+    <string name="sBuy">Zakúpiť</string>
+
+    <!--New settings-->
+    <string name="action_settings">Nastavenia</string>
+    <string name="section_help">Nápoveda</string>
+
+    <!--Main settings-->
+    <string name="buy_full_version">Kúpiť plnú verziu</string>
+    <string name="buy_full_version_summary">Súčasná verzia vyprší %s</string>
+    <string name="sCallRecorderUpdater">Správca aktualizácie</string>
+    <string name="settings_recording">Nahrávanie</string>
+    <string name="settings_folders_and_files">Priečinky a súbory</string>
+    <string name="settings_ui_and_appearance">Rozhranie a vzhľad</string>
+    <string name="cloud_provider_dropbox">Dropbox</string>
+    <string name="settings_security">Bezpečnosť</string>
+    <string name="settings_audio_player">Audio prehrávač</string>
+    <string name="sExperimentalSettings">Experimentálne</string>
+    <string name="settings_debug">Odstraňovanie chýb</string>
+    <string name="settings_about">O aplikácii</string>
+
+    <!--General-->
+    <string name="sGeneralSettingsCategory">Všeobecné</string>
+    <string name="sOtherSettingsCategory">Ďalšie</string>
+    <string name="sAdvancedSettingsCategory">Pokročilé</string>
+    <string name="category_wav_settings">Nastavenia WAV</string>
+    <string name="category_main">Hlavné</string>
+
+
+    <!--Buy full version-->
+    <string name="sOpenPlayStore">Otvoriť Google Play</string>
+
+    <!--CallRecorder Updater-->
+    <string name="sOpenCallRecorderUpdater">Otvoriť Správcu aktualizácie</string>
+
+    <!--Recording-->
+    <string name="recording_calls_switch">Nahrávanie hovorov</string>
+    <string name="device">Zariadenie</string>
+    <string name="device_other">Iné</string>
+    <string name="select_your_device">Vybrať zariadenie</string>
+    <string name="sAudioFormatSettingsCategory">Formát zvuku</string>
+    <string name="sCallRecordingFormat">Formát nahrávania hovorov</string>
+    <string name="sMethodSettingsCategory">Spôsob</string>
+    <string name="sKernelSettings">Kernel</string>
+    <string name="sKernelSettingsSummary">Nastavenia pre kernel nahrávanie</string>
+    <string name="recording_method_api">Štandardné API</string>
+    <string name="recording_method_api_settings">Nastavenia pre štandardné API nahrávanie</string>
+    <string name="recording_method_alsa">ALSA</string>
+    <string name="recording_method_alsa_settings">Nastavenia pre ALSA nahrávanie</string>
+    <string name="recording_method">Metóda nahrávania</string>
+    <string name="recording_method_caf">CAF</string>
+    <string name="recording_method_caf_settings">Nastavenia pre CAF nahrávanie</string>
+    <string name="volume_control">Ovládanie hlasitosti</string>
+    <string name="recording_mode">Režim nahrávania</string>
+    <string name="recording_type_mono">Mono</string>
+    <string name="recording_type_stereo">Stereo</string>
+    <string name="volume_control_tx">Tx</string>
+    <string name="volume_control_rx">Rx</string>
+
+    <!--Recording methods array-->
+    <string name="sRecordingMethodKernel">Kernel (vyžaduje Root)</string>
+    <string name="sRecordingMethodStandardAPI">Štandardné API</string>
+    <string name="sRecordingMethodALSA">ALSA (vyžaduje Root)</string>
+    <string name="sRecordingMethodCAF">CAF (vyžaduje Root)</string>
+
+    <!--Recording audio formats-->
+    <string name="recording_format_wav">WAV</string>
+    <string name="recording_format_amr">AMR</string>
+    <string name="recording_format_aac">AAC</string>
+    <string name="s3GPP">3GPP</string>
+    <string name="recording_format_mp3">MP3</string>
+
+    <!--Recording behavior-->
+    <string name="after_call_actions_dialog">Akcie po skončení hovoru</string>
+    <string name="after_call_actions_dialog_summary">Opýtať sa, čo urobiť po skončení hovoru</string>
+    <string name="call_confirm">Potvrdiť hovor</string>
+    <string name="call_confirm_summary">Pred hovorom zobraziť potvrdzovacie okno</string>
+    <string name="sDefaultAction">Predvolená akcia</string>
+    <string name="action_for_outgoing">Akcia pre odchádzajúce hovory</string>
+    <string name="action_for_incoming">Akcia pre prichádzajúce hovory</string>
+    <string name="delay_before_start_recording">Odložiť začiatok nahrávania</string>
+    <string name="sIncomingCalls">Prichádzajúce hovory</string>
+    <string name="sOutgoingAndIncomingCalls">Odchádzajúce a prichádzajúce hovory</string>
+    <string name="sOutgoingCalls">Odchádzajúce hovory</string>
+    <string name="vibrate_on_call">Vibrovať na začiatku/konci hovoru</string>
+
+    <!--Actions-->
+    <string name="action_record_all">Nahrať všetky</string>
+    <string name="action_do_not_record">Nenahrávať</string>
+    <string name="action_record_contacts">Nahrávať hovory od kontaktov</string>
+    <string name="action_record_non_contacts">Nahrávať hovory z čísel neuložených v kontaktoch</string>
+
+    <!--Recording -> Exceptions-->
+    <string name="exceptions">Výnimky</string>
+    <string name="sAddGroup">Pridať skupinu</string>
+    <string name="sAdd">Pridať</string>
+    <string name="exception_group">Skupinu</string>
+    <string name="exception_select_group">Vybrať skupinu</string>
+    <string name="exception_select_action">Vybrať akciu</string>
+    <string name="sChangeAction">Zmeniť akciu</string>
+    <string name="exception_action_always_record">Nahrať vždy</string>
+    <string name="exception_action_never_record">Nenahrať nikdy</string>
+    <string name="sPressMenuToAddException">Stlačte Menu pre pridanie výnimky</string>
+
+    <!--Recording -> Kernel-->
+    <string name="chipset_type">Typ chipsetu</string>
+    <string name="chipset_type_msm72xx">Qualcomm MSM72XX</string>
+    <string name="chipset_type_msm8250">Qualcomm MSM8250</string>
+    <string name="chipset_type_msm8255">Qualcomm MSM8255</string>
+    <string name="chipset_type_msm8260">Qualcomm MSM8260</string>
+    <string name="sSoundBoost">Zvýšenie zvuku</string>
+    <string name="sUplinkBoost">Zvýšenie môjho</string>
+    <string name="sDownlinkBoost">Zvýšenie volaného</string>
+    <string name="dont_use_amr_driver">Nepoužiť AMR ovládač</string>
+    <string name="dont_use_amr_driver_summary">Konvertovať WAV do AMR v reálnom čase</string>
+
+    <!--Recording -> Standard API-->
+    <string name="api_audio_source">Zdroj zvuku</string>
+    <string name="sWhenBTConnected">Pri pripojenom BT...</string>
+    <string name="sBTEnabledMeansBTConnected">BT povolené znamená, že BT je pripojené</string>
+    <string name="sBTEnabledMeansBTConnectedSummary">Po povolení adaptéra BT použiť rovnaké nastavenia ako pri
+        pripojenom BT
+    </string>
+    <string name="sAudioSourceWhenBTConnected">Zdroj zvuku pri pripojenom BT</string>
+    <string name="sample_rate">Vzorkovacia frekvencia</string>
+    <string name="sample_rate_8000">8000 Hz (predvolené)</string>
+    <string name="sample_rate_11025">11025 Hz</string>
+    <string name="sample_rate_16000">16000 Hz</string>
+    <string name="sample_rate_22050">22050 Hz</string>
+    <string name="sample_rate_44100">44100 Hz</string>
+    <string name="sample_rate_48000">48000 Hz</string>
+    <string name="sSampleRateWarning">Niektoré vzorkovacie frekvencie nemusia byť podporované systémom</string>
+
+    <!--Audio sources of Standard API array-->
+    <string name="api_source_uplink_downlink">Hlasový hovor odchádzajúci + prichádzajúci</string>
+    <string name="api_source_downlink">Hlasový hovor prichádzajúci</string>
+    <string name="api_source_uplink">Hlasový hovor odchádzajúci</string>
+    <string name="api_source_microphone">Mikrofón</string>
+    <string name="api_source_default">Predvolený</string>
+    <string name="api_source_voice_communication">Hlasová komunikácia</string>
+
+    <!--Actions on BT connected array-->
+    <string name="sOnBTConnectedActionDoNothing">Nerobiť nič</string>
+    <string name="sOnBTConnectedActionSwitchAudioSource">Prepnúť zdroj zvuku</string>
+    <string name="sOnBTConnectedActionDisableRecording">Zakázať nahrávanie</string>
+
+    <!--Recording -> ALSA-->
+    <string name="sAlsa">ALSA</string>
+    <string name="sAlsaIsInstalled">ALSA je nainštalovaná</string>
+
+    <!--Folders and Files-->
+    <string name="sRescan">Znovu prehľadať</string>
+    <string name="sRescanSummary">Znovu prehľadať priečinok a aktualizovať zoznam nahrávok</string>
+    <string name="sFolderSettingsCategory">Priečinok</string>
+    <string name="folder">Priečinok</string>
+    <string name="automatic_cleanup">Automatické mazanie</string>
+    <string name="max_number_of_files">Max. počet súborov</string>
+    <string name="max_number_of_files_message">Zadať číslo (0 - bez limitu)</string>
+    <string name="max_total_size_of_files">Max. celková veľkosť súborov</string>
+    <string name="max_total_size_of_files_message">Zadať veľkosť v MB (0 - bez limitu)</string>
+    <string name="max_age_of_recordings">Max. čas uloženia nahrávok</string>
+    <string name="max_age_of_recordings_message">Zadať počet dní (0 - bez limitu)</string>
+    <string name="current_setting">Aktuálne nastavenia: %s</string>
+    <string name="sFileNameSettingsCategory">Názov súboru</string>
+    <string name="filename_pattern">Vzor</string>
+    <string name="time_pattern">Vzor času</string>
+
+    <!--Interface and Appearance-->
+    <string name="language">Jazyk</string>
+    <string name="select_language">Vybrať jazyk</string>
+    <string name="sActionBarSettingsCategory">Lišta akcií</string>
+    <string name="sAudioOutputActionBar">Výstup zvuku</string>
+    <string name="sAudioOutputActionBarSummary">Zobraziť nastavenia výstupu zvuku v lište akcií</string>
+    <string name="incall_control_for_outgoing">Pre odchádzajúce hovory</string>
+    <string name="sInCallControlForOutgoingSummary">Ovládanie počas hovoru pri odchádzajúcich hovoroch</string>
+    <string name="incall_control_for_incoming">Pre prichádzajúce hovory</string>
+    <string name="sInCallControlForIncomingSummary">Ovládanie počas hovoru pri prichádzajúcich hovoroch</string>
+    <string name="category_notification">Oznámenie</string>
+    <string name="sNotificationIcon">Ikona oznámenia</string>
+    <string name="show_notification">Zobraziť oznámenie</string>
+    <string name="sShowNotificationSummary">Rozšírená priorita procesu</string>
+    <string name="sInCallControl">Ovládanie počas hovoru</string>
+    <string name="sHangUpAndCallBack">Zavesiť a zavolať späť</string>
+    <string name="sHangUpAndCallBackSummary">Dlhým stlačením, ukončíte hovor a automaticky zavoláte späť</string>
+    <string name="show_button_while_ringing">Zobraziť tlačidlo počas zvonenia</string>
+    <string name="show_button_while_ringing_summary">Zobraziť tlačidlo ovládania počas hovoru pred prijatím prichádzajúceho
+        hovoru
+    </string>
+    <string name="sExcludeFavoritesFromAll">Vylúčiť obľúbené z Všetkých</string>
+    <string name="sExcludeFavoritesFromAllSummary">Vylúčiť obľúbené z obrazovky so všetkými nahrávkami</string>
+    <string name="vertical_position">Zvislé zarovnanie</string>
+    <string name="horizontal_position">Vodorovné zarovnie</string>
+    <string name="sVerticalOffset">Odsadenie od zvislého okraja</string>
+    <string name="sVerticalOffsetSummary">Odsadenie od vybraného okraja vo zvislom zarovnaní (Hore alebo Dole)</string>
+    <string name="sHorizontalOffset">Odsadenie od vodorovného okraja</string>
+    <string name="sHorizontalOffsetSummary">Odsadenie od vybraného okraja vo vodorovnom zarovnaní (Hore alebo Dole)
+    </string>
+    <string name="sLowSpaceWarning">Upozorniť na málo miesta</string>
+    <string name="sLowSpaceWarningSummary">Nastaviť limit minimálneho priestoru v MB pre upozornenie</string>
+    <string name="sMainScreen">Hlavná obrazovka</string>
+    <string name="sHideInCallControlButton">Skryť tlačidlo ovládania počas hovoru</string>
+    <string name="sHideInCallControlButtonSummary">Skryť tlačidlo ovládania počas hovoru, ak sa hovor nahráva</string>
+    <string name="sDontShowInCallButton">Nezobrazovať tlačidlo pred pripojením</string>
+    <string name="hide_button_before_answer_summary">Nezobrazovať počas hovoru tlačidlo ovládania, kým nie je nadviazané
+        spojenie
+    </string>
+    <string name="sLanguageDefault">Predvolený</string>
+
+    <!--Vertical aligns array-->
+    <string name="sVerticalAlignTop">Hore</string>
+    <string name="sVerticalAlignBottom">Dole</string>
+
+    <!--Horizontal aligns array-->
+    <string name="sHorizontalAlignLeft">Vľavo</string>
+    <string name="sHorizontalAlignRight">Vpravo</string>
+
+    <!--Notification icons array-->
+    <string name="sNotificationIconDefault">Predvolená</string>
+    <string name="sNotificationIconGreenNew">Zelená (nová)</string>
+    <string name="sNotificationIconGreenOld">Zelená (stará)</string>
+    <string name="sNotificationIconGray">Šedá</string>
+
+    <!--Dropbox-->
+    <string name="sDropboxLogin">Prihlásiť sa</string>
+    <string name="sDropboxLogout">Odhlásiť sa</string>
+
+    <string name="cloud_wifi_only">Iba cez Wi-Fi</string>
+    <string name="cloud_auto_upload">Automatické odovzdanie</string>
+    <string name="sCloudUploadFavorites">Odovzdať obľúbené</string>
+    <string name="sCloudUploadFavoritesSummary">Odovzdať nahrávku na Dropbox, keď ju pridáte do obľúbených</string>
+    <string name="cloud_auto_upload_summary">Odovzdať nahrávku hneď po hovore</string>
+    <string name="menu_add_to_dropbox">Pridať na Dropbox</string>
+
+    <!--Security-->
+    <string name="category_encryption">Kódovanie</string>
+    <string name="sKeyNotFound">Kľúč nenájdený</string>
+    <string name="sCreate">Vytvoriť</string>
+    <string name="create_new_key">Vytvoriť nový kľúč</string>
+    <string name="enter_password">Zadať heslo</string>
+    <string name="sReEnterPassword">Znova zadať heslo</string>
+    <string name="aes_128bit">128-bit AES (Rýchle)</string>
+    <string name="aes_192bit">192-bit AES (Vyvážené)</string>
+    <string name="aes_256bit">256-bit AES (Silné)</string>
+    <string name="category_application">Aplikácia</string>
+    <string name="app_admin">Správca aplikácie</string>
+    <string name="sAppAdminSummary">Potrebné aby sa zabránilo odinštalovaniu CallRecorderu</string>
+    <string name="sAppAdminExplanation">CallRecorder nepoužíva žiadnu funkciu správcu zariadenia okrem ochrany pred
+        odinštalovaním
+    </string>
+    <string name="change_password">Zmeniť heslo</string>
+    <string name="enter_old_password">Zadať staré heslo</string>
+    <string name="enter_new_password">Zadať nové heslo</string>
+    <string name="re_enter_new_password">Znova zadať nové heslo</string>
+    <string name="require_password">Vyžadovať heslo</string>
+    <string name="require_password_summary">Vyžadovať heslo pre otvorenie aplikácie</string>
+    <string name="lock_after">Potom zamknúť</string>
+    <string name="lock_after_exit">Ukončiť</string>
+    <string name="lock_after_1_minute">1 min</string>
+    <string name="lock_after_3_minutes">3 min</string>
+    <string name="lock_after_5_minutes">5 min</string>
+    <string name="lock_after_10_minutes">10 min</string>
+    <string name="password_has_been_changed">Heslo bolo zmenené</string>
+
+    <!--Audio player-->
+    <string name="sUseDefaultPlayer">Použiť predvolený prehrávač</string>
+    <string name="audio_output">Výstup zvuku</string>
+    <string name="android_wav_decoder">Android dekóder pre WAV</string>
+    <string name="android_wav_decoder_summary">Použiť vstavný Android prehrávač pre prehratie WAV</string>
+    <string name="android_amr_decoder">Android dekóder pre AMR</string>
+    <string name="android_amr_decoder_summary">Použiť vstavaný prehrávač pre prehranie AMR</string>
+    <string name="switch_audio_output">Prepnúť výstup zvuku</string>
+    <string name="SwitchAudioOutputSummary">Automaticky prepnúť výstup zvuku ak je obrazovka zakázaná/povolená pomocou
+        proximity senzoru
+    </string>
+    <string name="use_proximity_sensor">Použiť proximity senzor</string>
+    <string name="sUseProximitySensorSummary">Použiť proximity senzor na deaktivovanie obrazovky počas počúvanianahrávky
+        (vyžaduje Root)
+    </string>
+
+    <!--Audio output array-->
+    <string name="main_speaker">Reproduktor</string>
+    <string name="phone_speaker">Sluchátko</string>
+
+    <!--Experimental-->
+    <string name="sConvertAfterCall">Konvertovať po hovore</string>
+    <string name="sDontConvert">Nekonvertovať</string>
+    <string name="sWavToMp3">WAV do MP3</string>
+    <string name="sWavToAmr">WAV do AMR</string>
+
+    <!--Debug-->
+    <string name="sDetailedLogs">Podrobné záznamy</string>
+    <string name="root_access">Root prístup</string>
+    <string name="root_access_no">Nie</string>
+    <string name="root_access_yes">Áno</string>
+    <string name="sLogsSettingsCategory">Záznamy</string>
+    <string name="sSendLogsToTheDeveloper">Poslať záznamy vývojárovi</string>
+    <string name="sUseGzipToCompressLogs">Použiť gzip pre kompresiu záznamov</string>
+    <string name="sRecordOnNotificationClick">Nahrávať po kliknutí na oznámenie</string>
+    <string name="sRecordOnNotificationClickSummary">Neklikajte na oznámenie, kým nie je nadviazané spojenie</string>
+    <string name="sHideNotificationDuringCall">Skryť oznámenie počas hovoru</string>
+    <string name="sHideNotificationDuringCallSummary">Nezapínajte, slúži len pre účely odstraňovania chýb</string>
+    <string name="dual_sim_phone">Telefón na dve SIM karty</string>
+    <string name="dual_sim_phone_summary">Povoľte túto možnosť, ak aplikácia nemôže určiť volania z druhej SIM karty
+    </string>
+
+    <!--About-->
+    <string name="version">Verzia</string>
+    <string name="sAboutCallRecorder">O aplikácii CallRecorder</string>
+    <string name="license_status">Stav licencie</string>
+    <string name="sLicenseStatusVerified">Licencia overená</string>
+    <string name="license_trial">Skúšobná verzia vyprší %s</string>
+
+    <string name="copyright">Autorské práva</string>
+    <string name="copyright_summary">© %s Alexander Skvortsov (skvalex)</string>
+    <string name="about_many_thanks">Veľká vďaka</string>
+    <string name="about_many_thanks_summary">Alexey Subbotin (avs234)</string>
+    <string name="sGermanTranslation">Slovenský preklad</string>
+    <string name="sGermanTranslationSummary_ver1">Loránt Gerencsér (www.DroiD.sk)</string>
+    <string name="sPolishTranslation">Poľský preklad</string>
+    <string name="sPolishTranslationSummary">Robert Gonta</string>
+    <string name="sFrenchTranslation">Francúzsky preklad</string>
+    <string name="sFrenchTranslationSummary">Julien Boiteux</string>
+    <string name="sBrazilianPortugueseTranslation">Portugalsky preklad</string>
+    <string name="sBrazilianPortugueseTranslationSummary">Luiz Marcelo Serique</string>
+    <string name="sSpanishTranslation">Španielsky preklad</string>
+    <string name="sSpanishTranslationSummary_ver1">Iñigo Garcia a Diego Vilas</string>
+    <string name="sSlovakTranslation">Nemecký preklad</string>
+    <string name="sSlovakTranslationSummary">Marc Hillesheim a Thomas Käfer</string>
+    <string name="sItalianTranslation">Talianský preklad</string>
+    <string name="sItalianTranslationSummary_v2">Luca Trevisan a Francesco Cafagna</string>
+    <string name="sPersianTranslation">Perský preklad</string>
+    <string name="sPersianTranslationSummary_v2">Alireza Afkar</string>
+    <string name="sChineseTranslation">Čínsky preklad</string>
+    <string name="sChineseTranslationSummary_v2">qhq a Yu Fei</string>
+    <string name="sCzechTranslation">Český preklad</string>
+    <string name="sCzechTranslationSummary_ver2">Ales Kerner a Lukas Waldauf</string>
+    <string name="sArabicTranslation">Arabský preklad</string>
+    <string name="sArabicTranslationSummary">Ausama S. Ibrahim</string>
+    <string name="sHebrewTranslation">Hebrejský preklad</string>
+    <string name="sHebrewTranslationSummary">NuFlood</string>
+    <string name="sHungarianTranslation">Maďarský preklad</string>
+    <string name="sHungarianTranslationSummary_ver2">Szalay Levente a Miklós Toldi</string>
+    <string name="sDutchTranslation">Holandský preklad</string>
+    <string name="sDutchTranslationSummary">Elroy Tirbeni</string>
+    <string name="sTurkishTranslation">Turecký preklad</string>
+    <string name="sTurkishTranslationSummary">Omer Ilik</string>
+    <string name="sSerbianTranslation">Srbský preklad</string>
+    <string name="sSerbianTranslationSummary">sHAKaJaada</string>
+    <string name="sKoreanTranslation">Kórejský preklad</string>
+    <string name="sKoreanTranslationSummary_ver2">SoHyunSeop a Joon Hee Jo</string>
+    <string name="sRomanianTranslation">Rumunský preklad</string>
+    <string name="sRomanianTranslationSummary">Dan P. (sad)</string>
+    <string name="sUkrainianTranslation">Ukrajinský preklad</string>
+    <string name="sUkrainianTranslationSummary">Gennadi Samoluk</string>
+    <string name="sTraditionalChineseTranslation">Tradičný Čínsky preklad</string>
+    <string name="sTraditionalChineseTranslationSummary_v2">GPF kaibird a Chien Jung Liaw</string>
+    <string name="sJapaneseTranslation">Japonský preklad</string>
+    <string name="sJapaneseTranslationSummary">Akira Tagoh</string>
+    <string name="sSwedishTranslation">Švédsky preklad</string>
+    <string name="sSwedishTranslationSummary">Johannes Sjölund</string>
+    <string name="sBulgarianTranslation">Bulharský preklad</string>
+    <string name="sBulgarianTranslationSummary">Proximo</string>
+    <string name="sDanishTranslation">Dánsky preklad</string>
+    <string name="sDanishTranslationSummary">Lars Sarauw Hansen</string>
+    <string name="sLatvianTranslation">Lotyšský preklad</string>
+    <string name="sLatvianTranslationSummary">Arvīds Dreimanis</string>
+    <string name="sThaiTranslation">Thajský preklad</string>
+    <string name="sThaiTranslationSummary">Wuttisak Saichoncharn</string>
+    <string name="sArmenianTranslation">Arménsky preklad</string>
+    <string name="sArmenianTranslationSummary">Konstantin Gevorgyan</string>
+    <string name="sGeorgianTranslation">Gruzínsky preklad</string>
+    <string name="sGeorgianTranslationSummary">Alexandre Razmadze</string>
+    <string name="sCatalanTranslation">Katalánsky preklad</string>
+    <string name="sCatalanTranslationSummary">Cybdani</string>
+    <string name="sHindiTranslation">Hindsky preklad</string>
+    <string name="sHindiTranslationSummary">TheTAMAS Gautam</string>
+    <string name="sPunjabiTranslation">Pandžábsky preklad</string>
+    <string name="sPunjabiTranslationSummary_ver2">Raj Verma</string>
+    <string name="sFinnishTranslation">Fínsky preklad</string>
+    <string name="sFinnishTranslationSummary">Eero Linnainmaa</string>
+    <string name="sBelarusianTranslation">Bieloruský preklad</string>
+    <string name="sBelarusianTranslationSummary">Alexander Kuvshinov</string>
+    <string name="sVietnameseTranslation">Vietnamský preklad</string>
+    <string name="sVietnameseTranslationSummary">Truong Hoang Trung</string>
+
+    <!--Licenses-->
+    <string name="licenses">Licencie</string>
+    <string name="sActionBarSherlockLicense">ActionBarSherlock</string>
+    <string name="sActionBarSherlockLicenseSummary">Používa ActionBarSherlock pod licenciou Apache verzia 2.0. Kliknite
+        tu pre zobrazenie stránky actionbarsherlock.com
+    </string>
+    <string name="about_open_core_amr_license">OpenCORE-AMR</string>
+    <string name="about_open_core_amr_license_summary">Používa OpenCORE-AMR pod licenciou Apache v2.0. Kliknite tu pre zobrazenie
+        stránky opencore-amr.sourceforge.net
+    </string>
+    <string name="about_alsa">ALSA</string>
+    <string name="about_alsa_summary">Používa ALSA pod licenciou LGPL. Kliknite tu pre zobrazenie stránky alsa-project.org
+    </string>
+    <string name="about_lame">LAME</string>
+    <string name="about_lame_summary">Používa LAME pod Všeobecnou Verejnou Licenciou, Kliknite tu pre zobrazenie stránky
+        mp3dev.org
+    </string>
+</resources>
