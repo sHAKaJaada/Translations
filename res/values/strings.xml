@@ -266,6 +266,7 @@
     <string name="horizontal_position_summary">%s dp, offset from the screen\'s center</string>
     <string name="hide_button_before_answer">Hide button before answer</string>
     <string name="hide_button_before_answer_summary">Don\'t show in-call control button until connection is established</string>
+    <string name="long_press_action">Long press action</string>
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">Cloud provider</string>
