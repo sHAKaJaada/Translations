@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources>
+<?xml version="1.0" encoding="utf-8" standalone="no"?><resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">Условия использования</string>
-    <string name="terms_of_use_message">Используя приложение, вы соглашаетесь с &lt;a href=http://rec.sh/terms&gt;условиями использования&lt;/a&gt; CallRecorder'а.</string>
+    <string name="terms_of_use_message">Используя приложение, вы соглашаетесь с &lt;a href=http://rec.sh/terms&gt;условиями использования&lt;/a&gt; CallRecorder\'а.</string>
 
     <!-- Navigation drawer -->
     <string name="navigation_drawer_open">Открыть панель навигации</string>
@@ -10,7 +9,7 @@
 
     <!-- Navigation drawer sections -->
     <string name="section_all_recordings">Все записи</string>
-
+    <string name="section_starred">Помеченные</string>
     <string name="section_incoming">Входящие</string>
     <string name="section_outgoing">Исходящие</string>
     <string name="section_by_contact">По контакту</string>
@@ -18,7 +17,7 @@
     <string name="section_by_label">По ярлыку</string>
     <string name="section_help">Помощь</string>
     <string name="section_tasks">Задачи</string>
-
+    
     <string name="empty_hint">Пусто</string>
 
     <!-- Action bar -->
@@ -27,8 +26,8 @@
     <string name="action_settings">Настройки</string>
     <string name="action_refresh">Обновить</string>
     <string name="action_delete">Удалить</string>
-
-
+    <string name="action_add_star">Пометить</string>
+    <string name="action_remove_star">Удалить пометку</string>
     <string name="action_share">Поделиться</string>
     <string name="action_select_all">Выбрать всё</string>
     <string name="sort_by_date">По дате</string>
@@ -96,16 +95,16 @@
     <string name="license_status">Статус лицензии</string>
     <string name="license_check_pending">Ожидание проверки лицензии</string>
     <string name="license_check_failed">Не удалось проверить лицензию</string>
-
+    <string name="license_check_failed_summary">Нажмите, чтобы посмотреть детали</string>
     <string name="license_verified">Лицензия проверена</string>
-
+    <string name="license_verified_summary">Нажмите, чтобы скрыть</string>
     <string name="license_help">Помощь</string>
-
+    <string name="license_signature_verification_failed">Ошибка проверки подписи</string>
     <string name="license_error_message">Ошибка #%1$s: %2$s</string>
     <string name="license_trial">Пробная версия, закончится %s</string>
     <string name="license_unknown_error">Неизвестная ошибка</string>
     <string name="license_not_market_managed">Эта версия пока ещё не опубликована на Play Store</string>
-
+    <string name="license_incorrect_response">Неверный ответ с лицензией от Play Store</string>
     <string name="license_error_contacting_server">Ошибка соединения с сервером</string>
     <string name="license_server_error">Ошибка сервера</string>
     <string name="license_over_quota">Слишком много запросов с этого устройства</string>
@@ -130,7 +129,7 @@
     <string name="recording_method_alsa">ALSA</string>
     <string name="recording_method_alsa_settings">Настройки для записи через ALSA</string>
     <string name="recording_method_msm">MSM</string>
-
+    
     <string name="category_actions">Действия</string>
     <string name="action_for_incoming">Действие для входящих вызовов</string>
     <string name="action_for_outgoing">Действие для исходящих вызовов</string>
@@ -144,9 +143,9 @@
     <string name="after_call_actions_dialog_summary">Спрашивать что делать с записью после звонка</string>
     <string name="vibrate_on_call">Вибрация в начале/конце звонка</string>
     <string name="exceptions">Исключения</string>
-
+    <string name="exceptions_summary">Установить определенные действия для контактов, групп и телефонов</string>
     <string name="start_recording_on_answer">Начинать запись при ответе</string>
-
+    <string name="start_recording_on_answer_summary"/>
     <string name="delay_before_start_recording">Задержка перед началом записи</string>
     <string name="delay_before_start_recording_summary">Для исходящих: %1$s, для исходящих: %2$s</string>
     <string name="delay_format_sec">%s сек</string>
@@ -154,18 +153,18 @@
     <string name="delay_for_incoming">Для входящих</string>
     <string name="settings_for_device">Настройки для %s</string>
     <string name="settings_diff">%1$s → %2$s</string>
-
+    
     <string name="recording_format">Формат записи</string>
     <string name="recording_format_wav">WAV</string>
     <string name="recording_format_amr">AMR</string>
     <string name="recording_format_aac">AAC</string>
     <string name="recording_format_mp3">MP3</string>
     <string name="volume_control">Управление громкостью</string>
-
-
+    
+    
     <string name="volume_control_overall">Общая громкость</string>
-
-
+    
+    
     <string name="sample_rate_8000">8000 Гц (По умолчанию)</string>
     <string name="sample_rate_11025">11025 Гц</string>
     <string name="sample_rate_16000">16000 Гц</string>
@@ -204,16 +203,24 @@
     <string name="add_exception">Добавить исключение</string>
     <string name="exception_group">Группа</string>
     <string name="exception_select_group">Выберите группу</string>
-
-
+    <string name="exception_contact">Контакт</string>
+    <string name="exception_select_contact">Выберите контакт</string>
+    <string name="exception_phone_number">Номер телефона</string>
+    <string name="exception_action">Действие</string>
     <string name="exception_select_action">Выберите действие</string>
     <string name="exception_action_always_record">Всегда записывать</string>
     <string name="exception_action_never_record">Никогда не записывать</string>
-
+    <string name="exception_groups_not_found">Группы не найдены</string>
+    <string name="exception_contacts_not_found">Конктакты не найдены</string>
+    <string name="exceptions_not_added">Исключения не созданы</string>
+    <string name="exception_by_contact">По контакту</string>
+    <string name="exception_by_group">По группе</string>
+    <string name="exception_by_phone_number">По номеру телефона</string>
+    <string name="exception_delete_message">Вы уверены, что хотите удалить это исключение?</string>
 
     <!-- Settings -> Folders and Files -->
     <string name="folder">Папка</string>
-
+    <string name="folder_chooser_up_to"/>
     <string name="automatic_cleanup">Автоудаление записей</string>
     <string name="max_number_of_files">Макс. число файлов</string>
     <string name="max_number_of_files_message">Введите число (0 - без ограничений)</string>
@@ -222,7 +229,7 @@
     <string name="max_age_of_recordings">Макс. время хранения записи</string>
     <string name="max_age_of_recordings_message">Введите число дней (0 - без ограничений)</string>
     <string name="current_setting">Текущая установка: %s</string>
-
+    
     <string name="filename_pattern">Шаблон</string>
     <string name="time_pattern">Шаблон времени</string>
 
@@ -230,7 +237,7 @@
     <string name="pattern_contact_name">имя контакта</string>
     <string name="pattern_phone_number">номер телефона</string>
     <string name="pattern_call_time">время звонка</string>
-
+    
     <string name="pattern_call_type">тип звонка (исходящий или входящий)</string>
     <string name="time_pattern_hours">часы</string>
     <string name="time_pattern_minutes">минуты</string>
@@ -245,35 +252,39 @@
     <string name="select_language">Выберите язык</string>
     <string name="category_notification">Уведомление</string>
     <string name="show_notification">Показывать иконку в панели уведомлений</string>
-
-
+    
+    
     <string name="incall_control_for_outgoing">Для исходящих звонков</string>
-
+    
     <string name="incall_control_for_incoming">Для входящих звонков</string>
-
-
+    
+    
+    
     <string name="show_button_while_ringing">Показывать кнопку во время звонка</string>
-    <string name="show_button_while_ringing_summary">Показывать кнопку управления записью до ответа на входящий вызов
-    </string>
+    <string name="show_button_while_ringing_summary">Показывать кнопку управления записью до ответа на входящий вызов</string>
     <string name="vertical_position">Расположение по вертикали</string>
-
+    
     <string name="horizontal_position">Расположение по горизонтали</string>
-
-
+    
+    
     <string name="hide_button_before_answer_summary">Не показывать кнопку управления записью до соединения</string>
 
     <!-- Settings -> Cloud -->
-
+    
     <string name="cloud_provider_dropbox">Dropbox</string>
-
-
+    <string name="sign_in_dropbox">Войти в Dropbox</string>
+    <string name="sign_out_dropbox">Выйти из Dropbox</string>
+    
+    <string name="cloud_common_settings">Общее</string>
     <string name="cloud_wifi_only">Только Wi-Fi</string>
     <string name="cloud_auto_upload">Автозагрузка</string>
     <string name="cloud_auto_upload_summary">Загружать запись сразу после разговора</string>
-
+    <string name="cloud_upload_starred">Загрузить помеченные</string>
+    <string name="cloud_upload_starred_summary">Загружать файл на облако после добавления пометки на запись</string>
 
     <!-- Notification -->
-
+    <string name="notify_uploading_dropbox">Идет загрузка на Dropbox</string>
+    <string name="notify_tasks_remaining">% осталось</string>
 
     <!-- Password dialog -->
     <string name="wrong_password">Неправильный пароль</string>
@@ -284,17 +295,17 @@
     <string name="category_encryption">Шифрование</string>
     <string name="category_application">Приложение</string>
     <string name="create_new_key">Создать новый ключ</string>
-
-
+    <string name="create_new_key_summary">"Этот ключ будет использован позднее, для шифрования записей или входа в приложение"</string>
+    <string name="delete_key">Удалить ключ</string>
     <string name="change_password">Изменить пароль</string>
-
-
+    <string name="delete_key_summary">"Осторожно! Вы не сможете восстановить зашифрованные этим ключем записи, даже если создадите новый ключ с тем же паролем "</string>
+    
     <string name="enter_old_password">Введите старый пароль</string>
     <string name="enter_new_password">Введите новый пароль</string>
     <string name="re_enter_new_password">Повторно введите новый пароль</string>
     <string name="require_password">Спрашивать пароль</string>
     <string name="require_password_summary">Спрашивать пароль при входе в программу</string>
-
+    
     <string name="lock_after">Заблокировать после</string>
     <string name="lock_after_exit">Выхода</string>
     <string name="lock_after_1_minute">1 мин</string>
@@ -302,22 +313,22 @@
     <string name="lock_after_5_minutes">5 мин</string>
     <string name="lock_after_10_minutes">10 мин</string>
     <string name="app_admin">Права администратора</string>
-
-
+    
+    
     <string name="aes_128bit">128-bit AES</string>
     <string name="aes_192bit">192-bit AES</string>
     <string name="aes_256bit">256-bit AES</string>
 
     <!-- Settings -> Audio player -->
-
+    
     <string name="audio_output">Вывод звука</string>
-
+    
     <string name="main_speaker">Основной динамик</string>
     <string name="phone_speaker">Телефонный динамик</string>
     <string name="use_proximity_sensor">Использовать датчик приближения</string>
-
+    
     <string name="switch_audio_output">Переключение вывода звука</string>
-
+    
     <string name="android_wav_decoder">Android декодер для WAV</string>
     <string name="android_wav_decoder_summary">Использовать встроенные инструменты для проигрывания WAV</string>
     <string name="android_amr_decoder">Android декодер для AMR</string>
@@ -328,36 +339,41 @@
     <string name="root_access_no">Отсутствуют</string>
     <string name="root_access_yes">Есть</string>
     <string name="dual_sim_phone">Двухсимочный телефон</string>
-    <string name="dual_sim_phone_summary">Включите это, если программа не может определить звонки со второй сим карты
-    </string>
+    <string name="dual_sim_phone_summary">Включите это, если программа не может определить звонки со второй сим карты</string>
 
     <!-- General -->
     <string name="contact_unknown">Неизвестный</string>
-
+    
     <string name="button_ok">ОК</string>
-
+    
     <string name="button_edit">Изменить</string>
     <string name="button_cancel">Отмена</string>
-
-
+    
+    <string name="button_delete">Удалить</string>
+    <string name="button_delete_wait">Удалить (%d)</string>
+    <string name="decline">Отклонить</string>
+    <string name="accept">Принять</string>
+    <string name="call_incoming">Входящий</string>
+    <string name="call_outgoing">Исходящий</string>
     <string name="please_wait">Пожалуйста, подождите...</string>
     <string name="start_recording">Начать запись</string>
     <string name="stop_recording">Остановить запись</string>
-
+    <string name="action_mode_selected">%d</string>
     <string name="switch_on">Вкл</string>
     <string name="switch_off">Выкл</string>
 
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">Записать этот разговор</string>
-
+    
 
     <!--Notification-->
-
-
+    
+    
+    
     <string name="an_error_has_occurred">Произошла ошибка, разговор не будет записан</string>
 
     <!--About-->
-
+    
     <string name="version">Версия</string>
     <string name="copyright">Copyright</string>
     <string name="copyright_summary">© %s Александр Скворцов (skvalex)</string>
@@ -366,53 +382,9 @@
 
     <string name="licenses">Лицензии</string>
     <string name="about_open_core_amr_license">opencore-amr</string>
-    <string name="about_open_core_amr_license_summary">Использует opencore-amr в рамках Apache License Version 2.0,
-        нажмите сюда,чтобы посетить opencore-amr.sourceforge.net
-    </string>
+    <string name="about_open_core_amr_license_summary">Использует opencore-amr в рамках Apache License Version 2.0, нажмите сюда,чтобы посетить opencore-amr.sourceforge.net</string>
     <string name="about_alsa">ALSA</string>
-    <string name="about_alsa_summary">Использует ALSA в рамках LGPL, нажмите сюда, чтобы посетить alsa-project.org
-    </string>
+    <string name="about_alsa_summary">Использует ALSA в рамках LGPL, нажмите сюда, чтобы посетить alsa-project.org</string>
     <string name="about_lame">LAME</string>
     <string name="about_lame_summary">Использует LAME в рамках LGPL, нажмите сюда, чтобы посетить mp3dev.org</string>
-<string name="action_mode_selected">%d</string>
-    <string name="button_delete">Удалить</string>
-    <string name="button_delete_wait">Удалить (%d)</string>
-    <string name="decline">Отклонить</string>
-    <string name="accept">Принять</string>
-    <string name="call_incoming">Входящий</string>
-    <string name="call_outgoing">Исходящий</string>
-    <string name="section_starred">Помеченные</string>
-    <string name="action_add_star">Пометить</string>
-    <string name="action_remove_star">Удалить пометку</string>
-    <string name="license_verified_summary">Нажмите, чтобы скрыть</string>
-    <string name="license_check_failed_summary">Нажмите, чтобы посмотреть детали</string>
-    <string name="license_signature_verification_failed">Ошибка проверки подписи</string>
-    <string name="license_incorrect_response">Неверный ответ с лицензией от Play Store</string>
-    <string name="exceptions_summary">Установить определенные действия для контактов, групп и телефонов</string>
-    <string name="start_recording_on_answer_summary"/>
-    <string name="exception_contact">Контакт</string>
-    <string name="exception_select_contact">Выберите контакт</string>
-    <string name="exception_phone_number">Номер телефона</string>
-    <string name="exception_action">Действие</string>
-    <string name="exception_groups_not_found">Группы не найдены</string>
-    <string name="exception_contacts_not_found">Конктакты не найдены</string>
-    <string name="exceptions_not_added">Исключения не созданы</string>
-    <string name="exception_by_contact">По контакту</string>
-    <string name="exception_by_group">По группе</string>
-    <string name="exception_by_phone_number">По номеру телефона</string>
-    <string name="exception_delete_message">Вы уверены, что хотите удалить это исключение?</string>
-
-    <string name="folder_chooser_up_to"/>
-    <string name="sign_in_dropbox">Войти в Dropbox</string>
-    <string name="sign_out_dropbox">Выйти из Dropbox</string>
-    <string name="cloud_common_settings">Общее</string>
-    <string name="cloud_upload_starred">Загрузить помеченные</string>
-    <string name="cloud_upload_starred_summary">Загружать файл на облако после добавления пометки на запись</string>
-
-    <string name="notify_uploading_dropbox">Идет загрузка на Dropbox</string>
-    <string name="notify_tasks_remaining">% осталось</string>
-
-    <string name="create_new_key_summary">"Этот ключ будет использован позднее, для  шифрования записей или входа в приложение"</string>
-    <string name="delete_key">Удалить ключ</string>
-    <string name="delete_key_summary">"Осторожно! Вы не сможете восстановить зашифрованные этим ключем записи, даже если создадите новый ключ с тем же паролем "</string>
-    </resources>
+</resources>

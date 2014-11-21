@@ -1,319 +1,226 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+<?xml version="1.0" encoding="utf-8" standalone="no"?><resources>
     <string name="app_name">CallRecorder</string>
-    <!--Rules array-->
-    <string name="sRuleDescription">He llegit i entès la descripció de la app</string>
-    <string name="sRulePlayStore">Entenc que el programador no pot respondre als comentaris del Play Store</string>
-    <string name="sRuleUseOfProgram">Entenc que el programador no és el responsable de l\'ús que jo faci del programa.
-        Faré servir el programa sota la meva responsabilitat
-    </string>
-    <string name="sRuleLaw">Estic absolutament segur que no estic infringint la llei del meu país utilitzant aquest
-        programa
-    </string>
-    <string name="sRuleNotWorking">Si la gravació no funciona al meu dispositiu, tornaré a llegir la descripció de la
-        app detingudament i si no trobo una resposta enviaré un correu al programador a skvalex@gmail.com
-    </string>
+    
+    
 
-    <!--Notification-->
-    <string name="sRecordingIsRunning">El servei de gravació s\'està executant</string>
-    <string name="sThisCallIsRecording">Aquesta trucada s\'està gravant</string>
-    <string name="an_error_has_occurred">S\'ha produït un error, aquesta trucada no es pot gravar</string>
-    <string name="sEncodingError">S\'ha produït un error durant la codificació</string>
-    <string name="start_recording">Començar gravació</string>
-    <string name="stop_recording">Parar gravació</string>
+    <!-- Navigation drawer -->
+    
+    
 
-    <!--List with recordings-->
+    <!-- Navigation drawer sections -->
+    
+    
+    <string name="section_incoming">Entrant</string>
+    <string name="section_outgoing">Sortint</string>
+    
+    
+    
+    <string name="section_help">Ajuda</string>
+    <string name="section_tasks">Tasques</string>
+    
     <string name="empty_hint">Buit</string>
-    <string name="contact_unknown">Desconegut</string>
 
-    <!--Actions on recording-->
-    <string name="category_actions">Accions</string>
-    <string name="sFilterThisNumber">Filtrar aquest nombre</string>
-    <string name="sAddToFavorites">Afegir a favorits</string>
-    <string name="sRemoveFromFavorites">Esborrar de favorits</string>
-    <string name="sAddToContacts">Afegir a contactes</string>
-    <string name="sOpenContact">Obrir contacte</string>
-    <string name="sCall">Trucar</string>
-    <string name="sNote">Nota</string>
-    <string name="sConvertToMp3">Convertir a mp3</string>
-    <string name="sConvertToAmr">Convertir a amr</string>
-    <string name="sRenameFile">Renombrar fitxer</string>
+    <!-- Action bar -->
+    <string name="action_search">Cercar</string>
+    
+    <string name="action_settings">Configuració</string>
+    
+    
+    
+    
+    
+    <string name="action_select_all">Seleccionar-ho tot</string>
+    
+    
+    
+
+    <!-- List -->
+    
+    
+    
+    
+
+    <!-- List -> Context menu -->
+    <string name="menu_add_to_dropbox">Afegir al Dropbox</string>
+    
+    
+    <string name="menu_delete">Esborrar</string>
+    
+    
+    
     <string name="menu_get_info">Obtenir info</string>
+    
     <string name="menu_encrypt">Encriptar</string>
     <string name="menu_decrypt">Desencriptar</string>
 
-    <!--Actions on selected recordings-->
-    <string name="action_select_all">Seleccionar-ho tot</string>
-    <string name="sSelectNone">No seleccionar res</string>
-
-    <!--General-->
-    <string name="sSend">Enviar</string>
-    <string name="sSendVia">Enviar per</string>
-    <string name="menu_delete">Esborrar</string>
-    <string name="button_cancel">Cancel.lar</string>
-    <string name="button_ok">Acceptar</string>
-    <string name="sSeconds">seg</string>
-    <string name="sDisabled">Desactivat</string>
-    <string name="sYes">Si</string>
-    <string name="sNo">No</string>
+    <!-- List -> Get info dialog -->
+    <string name="file_name">Nom fitxer</string>
+    <string name="sample_rate">Freqüència de mostreig</string>
+    <string name="sample_rate_hz">Hz</string>
+    
+    
+    
+    <string name="file_size">Tamany fitxer</string>
     <string name="terabyte">TB</string>
     <string name="gigabyte">GB</string>
     <string name="megabyte">MB</string>
     <string name="kilobyte">KB</string>
     <string name="bytes">bytes</string>
-    <string name="please_wait">Si us plau, espera...</string>
-    <string name="switch_on">Encès</string>
-    <string name="switch_off">Apagat</string>
+    
 
-    <!--Tabs-->
-    <string name="section_incoming">Entrant</string>
-    <string name="section_outgoing">Sortint</string>
-    <string name="sFavorites">Favorits</string>
-    <string name="sAll">Tot</string>
-
-    <!--Send recordings-->
-    <string name="recorded_calls">Trucades gravades</string>
-    <string name="sIncoming">Entrant</string>
-    <string name="sOutgoing">Sortint</string>
-
-    <!--Dialog after call-->
-    <string name="sDlgDeleteMsg">Desar o esborrar la trucada gravada?</string>
-    <string name="sKeep">Desar</string>
-    <string name="sDropboxAdded">Afegit</string>
-
-    <!--Delete confirmation dialog-->
-    <string name="sDeleteFiles">Esborrar fitxers</string>
-    <string name="confirm_delete_message">Estas segur que vols esborrar aquesta gravació?</string>
-    <string name="sDlgDeleteSelectionMsg">Has seleccionat %d fitxers. Estàs segur que els vols esborrar?</string>
-    <string name="sFilesDeletedToast">%d fitxers esborrats</string>
-
-    <!--Call confirm dialog-->
-    <string name="call_confirm_record_this_call">Gravar aquesta trucada</string>
-
-    <!--Dialog about law-->
-    <string name="sWarning">Atenció</string>
-    <string name="sMsgAboutLaw">Gravar trucades en alguns països és ilegal. Estàs segur que vius en un país on la
-        gravació de trucades és legal?
-    </string>
-
-    <!--Rules dialog-->
-    <string name="sRules">Regles</string>
-    <string name="sIAgree">Estic d\'acord</string>
-    <string name="sIDisagree">No hi estic d\'acord</string>
-
-    <!--Main screen toasts-->
-    <string name="sAddToFavoritesSuccess">La gravació s\'ha afegit a favorits</string>
-    <string name="sRemoveFromFavoritesSuccess">La gravació s\'ha esborrat correctament dels favorits</string>
-    <string name="sDeleteFavoriteRecordingMsg">Per esborrar aquesta gravació ho has de fer des de favorits</string>
-
-    <!--Encryption-->
-    <string name="sFileSuccessfullyEncrypted">Fitxer correctament encriptat</string>
-    <string name="sFileSuccessfullyDecrypted">Fitxer correctament desencriptat</string>
-    <string name="sEncrypting">Encriptant</string>
-    <string name="sDecrypting">Desencriptant</string>
-    <string name="sEncrypted">Encriptat</string>
-
-    <!--Main screen warnings-->
-    <string name="sAvailableFreeSpace">Poc espai %s</string>
-    <string name="sReadWriteErr">El sistema de fitxers ha de ser muntat com a lectura/escriptura</string>
-    <string name="sAlsaIsNotInstalledMsg">Alsa no està instal.lat. Toca per a instal.lar.</string>
-    <string name="sPhoneMustBeRootedWarning">Has de ser root. Toc llarg per descartar aquest missatge.</string>
-    <string name="sStandardAPITip">Si la gravació de trucades no funciona, prova totes les opcions dins les preferencies
-        API estàndard. Toc llarg per a descartar aquest missatge.
-    </string>
-
-    <!--Toasts-->
-    <string name="sLoggerMustBeEnabledToast">El registre a la teva ROM/kernel ha d\'estar activat!</string>
-    <string name="sFileWasDeletedToast">s\'ha esborrat el fitxer</string>
-
-    <!--Action bar-->
-    <string name="action_search">Cercar</string>
-    <string name="sSizeRecords">gravacions: %1$s, tamany: %2$s</string>
-    <string name="sFreeOf">lliures de</string>
-
-    <!--Tasks screen-->
-    <string name="section_tasks">Tasques</string>
-    <string name="sInProgress">En progrés</string>
-    <string name="sInQueue">A la cua</string>
-
-    <!--Get Info dialog-->
-    <string name="file_name">Nom fitxer</string>
-    <string name="sample_rate">Freqüència de mostreig</string>
-    <string name="sample_rate_hz">Hz</string>
-    <string name="file_size">Tamany fitxer</string>
-    <string name="button_edit">Editar</string>
-
-    <!--Edit Info dialog-->
+    <!-- List -> Get info dialog -> Edit -->
     <string name="contact_name">Nom contacte</string>
     <string name="phone_number">Nombre telèfon</string>
 
-    <!--Description for file name pattern-->
-    <string name="pattern_contact_name">nom contacte</string>
-    <string name="pattern_phone_number">nombre telèfon</string>
-    <string name="pattern_call_time">temps de trucada</string>
-    <string name="sCallTimestamp">marca de temps</string>
-    <string name="pattern_call_type">tipus de trucada (entrant o sortint)</string>
+    <!-- List -> Confirm delete dialog -->
+    <string name="confirm_delete_message">Estas segur que vols esborrar aquesta gravació?</string>
+    
+    
 
-    <!--Description for time pattern-->
-    <string name="time_pattern_hours">hores</string>
-    <string name="time_pattern_minutes">minuts</string>
-    <string name="time_pattern_seconds">segons</string>
-    <string name="time_pattern_days">dies</string>
-    <string name="time_pattern_months">mesos</string>
-    <string name="time_pattern_years">anys</string>
-    <string name="pattern_example">Exemple:</string>
+    <!-- List -> Share -->
+    
+    <string name="recorded_calls">Trucades gravades</string>
 
-    <!--Trial expired dialog-->
-    <string name="sTrialPeriodExpired">El període de prova ha expirat</string>
-    <string name="sTrialPeriodExpiredMsg">Si us plau, desinstal.la aquesta versió abans de comprar la versió completa
-    </string>
-    <string name="sBuy">Comprar</string>
-
-    <!--New settings-->
-    <string name="action_settings">Configuració</string>
-    <string name="section_help">Ajuda</string>
-
-    <!--Main settings-->
-    <string name="buy_full_version">Comprar versió completa</string>
-    <string name="buy_full_version_summary">La versió actual expirarà el %s</string>
-    <string name="sCallRecorderUpdater">Actualitzador CallRecorder</string>
+    <!--  Settings -> Headers -->
     <string name="settings_recording">Gravació</string>
     <string name="settings_folders_and_files">Fitxers i Carpetes</string>
     <string name="settings_ui_and_appearance">Interfície i Aparença</string>
-    <string name="cloud_provider_dropbox">Dropbox</string>
     <string name="settings_security">Seguretat</string>
+    
     <string name="settings_audio_player">Reproductor de so</string>
-    <string name="sExperimentalSettings">Experimental</string>
     <string name="settings_debug">Depurar</string>
     <string name="settings_about">Sobre</string>
 
-    <!--General-->
-    <string name="sGeneralSettingsCategory">General</string>
-    <string name="sOtherSettingsCategory">Altre</string>
-    <string name="sAdvancedSettingsCategory">Avançat</string>
-    <string name="category_wav_settings">Configuració WAV</string>
-    <string name="category_main">Principal</string>
+    <!-- Settings -> License -->
+    <string name="license_status">Estat de la llicència</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="license_trial">La versió de prova expirarà el %s</string>
+    
+    
+    
+    
+    
+    
 
+    <string name="buy_full_version">Comprar versió completa</string>
+    <string name="buy_full_version_summary">La versió actual expirarà el %s</string>
 
-    <!--Buy full version-->
-    <string name="sOpenPlayStore">Obrir Play Store</string>
-
-    <!--CallRecorder Updater-->
-    <string name="sOpenCallRecorderUpdater">Obrir Actualitzador CallRecorder</string>
-
-    <!--Recording-->
+    <!-- Settings -> Recording -->
     <string name="recording_calls_switch">Gravant trucades</string>
+    <string name="category_main">Principal</string>
     <string name="device">Dispositiu</string>
-    <string name="device_other">Altre</string>
     <string name="select_your_device">Selecciona el teu dispositiu</string>
-    <string name="sAudioFormatSettingsCategory">Format d\'àudio</string>
-    <string name="sCallRecordingFormat">Format de gravació de trucades</string>
-    <string name="sMethodSettingsCategory">Mètode</string>
-    <string name="sKernelSettings">Kernel</string>
-    <string name="sKernelSettingsSummary">Configuració gravació kernel</string>
+    
+    
+    
+    <string name="device_other">Altre</string>
+    <string name="recording_method">Mètode de gravació</string>
     <string name="recording_method_api">API estàndard</string>
     <string name="recording_method_api_settings">Configuració per gravació API estàndard</string>
-    <string name="recording_method_alsa">ALSA</string>
-    <string name="recording_method_alsa_settings">Configuració per gravació ALSA</string>
-    <string name="recording_method">Mètode de gravació</string>
     <string name="recording_method_caf">CAF</string>
     <string name="recording_method_caf_settings">Configuració de gravació CAF</string>
-    <string name="volume_control">Control del volum</string>
-
-    <!--Recording methods array-->
-    <string name="sRecordingMethodKernel">Kernel (requereix root)</string>
-    <string name="sRecordingMethodStandardAPI">API estàndard</string>
-    <string name="sRecordingMethodALSA">ALSA (requereix root)</string>
-    <string name="sRecordingMethodCAF">CAF (requereix root)</string>
-
-    <!--Recording audio formats-->
-    <string name="recording_format_wav">WAV</string>
-    <string name="recording_format_amr">AMR</string>
-    <string name="recording_format_aac">AAC</string>
-    <string name="s3GPP">3GGP</string>
-    <string name="recording_format_mp3">MP3</string>
-
-    <!--Recording behavior-->
-    <string name="after_call_actions_dialog">Accions després de la trucada</string>
-    <string name="after_call_actions_dialog_summary">Preguntar que fer després d\'una trucada</string>
-    <string name="call_confirm">Confirmar trucada</string>
-    <string name="call_confirm_summary">Mostrar diàleg de confirmació abans de trucar</string>
-    <string name="sDefaultAction">Acció per defecte</string>
-    <string name="action_for_outgoing">Acció per trucades sortints</string>
+    <string name="recording_method_alsa">ALSA</string>
+    <string name="recording_method_alsa_settings">Configuració per gravació ALSA</string>
+    
+    
+    <string name="category_actions">Accions</string>
     <string name="action_for_incoming">Acció per trucades entrants</string>
-    <string name="delay_before_start_recording">Retard abans de començar a gravar</string>
-    <string name="sIncomingCalls">Trucades entrants</string>
-    <string name="sOutgoingAndIncomingCalls">Trucades sortints i entrants</string>
-    <string name="sOutgoingCalls">Trucades sortints</string>
-    <string name="vibrate_on_call">Vibrar al inici/fi d\'una trucada</string>
-
-    <!--Actions-->
+    <string name="action_for_outgoing">Acció per trucades sortints</string>
     <string name="action_record_all">Gravar tot</string>
     <string name="action_do_not_record">No gravar</string>
     <string name="action_record_contacts">Gravar contactes</string>
     <string name="action_record_non_contacts">Gravar no-contactes</string>
-
-    <!--Recording -> Exceptions-->
+    <string name="call_confirm">Confirmar trucada</string>
+    <string name="call_confirm_summary">Mostrar diàleg de confirmació abans de trucar</string>
+    <string name="after_call_actions_dialog">Accions després de la trucada</string>
+    <string name="after_call_actions_dialog_summary">Preguntar que fer després d\'una trucada</string>
+    <string name="vibrate_on_call">Vibrar al inici/fi d\'una trucada</string>
     <string name="exceptions">Excepcions</string>
-    <string name="sAddGroup">Afegir grup</string>
-    <string name="sAdd">Afegir</string>
-    <string name="exception_group">Grup</string>
-    <string name="exception_select_group">Seleccionar grup</string>
-    <string name="exception_select_action">Seleccionar acció</string>
-    <string name="sChangeAction">Canviar acció</string>
-    <string name="exception_action_always_record">Gravar sempre</string>
-    <string name="exception_action_never_record">No gravar mai</string>
-    <string name="sPressMenuToAddException">Presiona \'menu\' per afegir una excepció</string>
-
-    <!--Recording -> Kernel-->
-    <string name="chipset_type">Tipus de chipset</string>
-    <string name="chipset_type_msm72xx">Qualcomm MSM72XX</string>
-    <string name="chipset_type_msm8250">Qualcomm MSM8250</string>
-    <string name="chipset_type_msm8255">Qualcomm MSM8255</string>
-    <string name="chipset_type_msm8260">Qualcomm MSM8260</string>
-    <string name="sSoundBoost">Potenciar so</string>
-    <string name="sUplinkBoost">Potenciar Uplink</string>
-    <string name="sDownlinkBoost">Potenciar Downlink</string>
-    <string name="dont_use_amr_driver">No usar controlador AMR</string>
-    <string name="dont_use_amr_driver_summary">Convertir WAV a AMR en temps real</string>
-
-    <!--Recording -> Standard API-->
-    <string name="api_audio_source">Font d\'àudio</string>
-    <string name="sWhenBTConnected">Quan BT estigui connectat...</string>
-    <string name="sBTEnabledMeansBTConnected">BT activat significa BT connectat</string>
-    <string name="sBTEnabledMeansBTConnectedSummary">Després que l\'adaptador BT estigui activat, utilitza la mateixa
-        configuració que si BT wereconnected
-    </string>
-    <string name="sAudioSourceWhenBTConnected">Font d\'àudio quan estigui connectat BT</string>
-    <string name="sample_rate">Freqüència de mostreig</string>
+    
+    
+    
+    <string name="delay_before_start_recording">Retard abans de començar a gravar</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="recording_format_wav">WAV</string>
+    <string name="recording_format_amr">AMR</string>
+    <string name="recording_format_aac">AAC</string>
+    <string name="recording_format_mp3">MP3</string>
+    <string name="volume_control">Control del volum</string>
+    
+    
+    
+    
+    
     <string name="sample_rate_8000">8000 Hz ( per defecte)</string>
     <string name="sample_rate_11025">11025 Hz</string>
     <string name="sample_rate_16000">16000 Hz</string>
     <string name="sample_rate_22050">22050 Hz</string>
     <string name="sample_rate_44100">44100 Hz</string>
+    
 
-    <!--Audio sources of Standard API array-->
+    <!-- Settings -> Recording -> Standard API -->
+    <string name="api_audio_source">Font d\'àudio</string>
     <string name="api_source_uplink_downlink">Trucada de veu uplink + downlink</string>
     <string name="api_source_downlink">Trucada de veu downlink</string>
     <string name="api_source_uplink">Trucada de veu uplink</string>
     <string name="api_source_microphone">Micròfon</string>
     <string name="api_source_default">Defecte</string>
     <string name="api_source_voice_communication">Comunicació de veu</string>
+    <string name="category_wav_settings">Configuració WAV</string>
+    
 
-    <!--Actions on BT connected array-->
-    <string name="sOnBTConnectedActionDoNothing">No fer res</string>
-    <string name="sOnBTConnectedActionSwitchAudioSource">Canviar font d\'àudio</string>
-    <string name="sOnBTConnectedActionDisableRecording">Desactivar gravació</string>
+    <!-- Settings -> Recording -> CAF -->
+    
 
-    <!--Recording -> ALSA-->
-    <string name="sAlsa">Alsa</string>
-    <string name="sAlsaIsInstalled">Alsa està instal.lat</string>
+    <!-- Settings -> Recording -> ALSA -->
+    
+    
 
-    <!--Folders and Files-->
-    <string name="sRescan">Reescanear</string>
-    <string name="sRescanSummary">Reescanear carpeta per actualitzar la llista de gravacions</string>
-    <string name="sFolderSettingsCategory">Carpeta</string>
+    <!-- Settings -> Recording -> MSM -->
+    <string name="chipset_type">Tipus de chipset</string>
+    <string name="chipset_type_msm72xx">Qualcomm MSM72XX</string>
+    <string name="chipset_type_msm8250">Qualcomm MSM8250</string>
+    <string name="chipset_type_msm8255">Qualcomm MSM8255</string>
+    <string name="chipset_type_msm8260">Qualcomm MSM8260</string>
+    <string name="dont_use_amr_driver">No usar controlador AMR</string>
+    <string name="dont_use_amr_driver_summary">Convertir WAV a AMR en temps real</string>
+
+    <!-- Settings -> Recording -> Exceptions -->
+    
+    <string name="exception_group">Grup</string>
+    <string name="exception_select_group">Seleccionar grup</string>
+    
+    
+    
+    
+    <string name="exception_select_action">Seleccionar acció</string>
+    <string name="exception_action_always_record">Gravar sempre</string>
+    <string name="exception_action_never_record">No gravar mai</string>
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- Settings -> Folders and Files -->
     <string name="folder">Carpeta</string>
+    
     <string name="automatic_cleanup">Neteja automàtica</string>
     <string name="max_number_of_files">Nombre max. de fitxers</string>
     <string name="max_number_of_files_message">Entra un nombre (0 - sense límit)</string>
@@ -322,218 +229,160 @@
     <string name="max_age_of_recordings">Antiguitat max. de gravacions</string>
     <string name="max_age_of_recordings_message">Entra un valor en dies (0 - sense límit)</string>
     <string name="current_setting">Configuració actual: %s</string>
-    <string name="sFileNameSettingsCategory">Nom fitxer</string>
+    
     <string name="filename_pattern">Patró</string>
     <string name="time_pattern">Patró de temps</string>
 
-    <!--Interface and Appearance-->
+    <!-- Description for filename pattern -->
+    <string name="pattern_contact_name">nom contacte</string>
+    <string name="pattern_phone_number">nombre telèfon</string>
+    <string name="pattern_call_time">temps de trucada</string>
+    
+    <string name="pattern_call_type">tipus de trucada (entrant o sortint)</string>
+    <string name="time_pattern_hours">hores</string>
+    <string name="time_pattern_minutes">minuts</string>
+    <string name="time_pattern_seconds">segons</string>
+    <string name="time_pattern_days">dies</string>
+    <string name="time_pattern_months">mesos</string>
+    <string name="time_pattern_years">anys</string>
+    <string name="pattern_example">Exemple:</string>
+
+    <!--Settings -> Interface and Appearance-->
     <string name="language">Idioma</string>
     <string name="select_language">Selecciona idioma</string>
-    <string name="sActionBarSettingsCategory">Barra d\'accions</string>
-    <string name="sAudioOutputActionBar">Sortida d\'àudio</string>
-    <string name="sAudioOutputActionBarSummary">Mostra sortida d\'àudio a la Barra d\'accions</string>
-    <string name="incall_control_for_outgoing">Per trucades sortints</string>
-    <string name="sInCallControlForOutgoingSummary">En el control de trucades per a trucades sortints</string>
-    <string name="incall_control_for_incoming">Per trucades entrants</string>
-    <string name="sInCallControlForIncomingSummary">En el control de trucades per a trucades entrants</string>
     <string name="category_notification">Notificació</string>
-    <string name="sNotificationIcon">Icona de notificació</string>
     <string name="show_notification">Mostrar notificació</string>
-    <string name="sShowNotificationSummary">Prioritat del procés millorat</string>
-    <string name="sInCallControl">En el control de trucades</string>
-    <string name="sHangUpAndCallBack">Penjar i tornar trucada</string>
-    <string name="sHangUpAndCallBackSummary">Amb clic llarg, penja trucada i torna la trucada automàticament</string>
+    
+    
+    <string name="incall_control_for_outgoing">Per trucades sortints</string>
+    
+    <string name="incall_control_for_incoming">Per trucades entrants</string>
+    
+    
+    
     <string name="show_button_while_ringing">Mostrar botó mentres truca</string>
-    <string name="show_button_while_ringing_summary">Mostrar botó de control de trucades abans de contestar trucada
-        entrant
-    </string>
-    <string name="sExcludeFavoritesFromAll">Excloure els favorits de pantalla Tots</string>
-    <string name="sExcludeFavoritesFromAllSummary">No mostrar favorits en pantalla amb totes les gravacions</string>
+    <string name="show_button_while_ringing_summary">Mostrar botó de control de trucades abans de contestar trucada entrant</string>
     <string name="vertical_position">Posició vertical</string>
+    
     <string name="horizontal_position">Posició horitzontal</string>
-    <string name="sVerticalOffset">Posició des d\'angle vertical</string>
-    <string name="sVerticalOffsetSummary">Ajusta la posició des de l\'angle vertical (superior o inferior)</string>
-    <string name="sHorizontalOffset">Posició des de l\'angle horitzontal</string>
-    <string name="sHorizontalOffsetSummary">Ajusta la posició des de l\'angle horitzontal (esquerra o dreta)</string>
-    <string name="sLowSpaceWarning">Avís de poc espai</string>
-    <string name="sLowSpaceWarningSummary">Ajusta l\'avís de poc espai en megabytes</string>
-    <string name="sMainScreen">Pantalla principal</string>
-    <string name="sHideInCallControlButton">Amaga el botó en el control de trucades</string>
-    <string name="sHideInCallControlButtonSummary">Amaga el botó en el control de trucades si la trucada s\'està
-        gravant
-    </string>
-    <string name="sDontShowInCallButton">No mostris el botó abans de la connexió</string>
-    <string name="hide_button_before_answer_summary">No mostris el botó de control de trucada fins que la connexió estigui
-        establerta
-    </string>
-    <string name="sLanguageDefault">Defecte</string>
+    
+    
+    <string name="hide_button_before_answer_summary">No mostris el botó de control de trucada fins que la connexió estigui establerta</string>
 
-    <!--Vertical aligns array-->
-    <string name="sVerticalAlignTop">Superior</string>
-    <string name="sVerticalAlignBottom">Inferior</string>
-
-    <!--Horizontal aligns array-->
-    <string name="sHorizontalAlignLeft">Esquerra</string>
-    <string name="sHorizontalAlignRight">Dreta</string>
-
-    <!--Notification icons array-->
-    <string name="sNotificationIconDefault">Defecte</string>
-    <string name="sNotificationIconGreenNew">Verd (nou)</string>
-    <string name="sNotificationIconGreenOld">Verd (antic)</string>
-    <string name="sNotificationIconGray">Gris</string>
-
-    <!--Dropbox-->
-    <string name="sDropboxLogin">Iniciar sessió</string>
-    <string name="sDropboxLogout">Tancar sessió</string>
-
+    <!-- Settings -> Cloud -->
+    
+    <string name="cloud_provider_dropbox">Dropbox</string>
+    
+    
+    
+    
     <string name="cloud_wifi_only">Només Wi-Fi</string>
     <string name="cloud_auto_upload">Pujada automàtica</string>
-    <string name="sCloudUploadFavorites">Pujar favorits</string>
-    <string name="sCloudUploadFavoritesSummary">Pujar gravacions al dropbox quan les afegeixis a favorits</string>
     <string name="cloud_auto_upload_summary">Pujar gravació just després de la trucada</string>
-    <string name="menu_add_to_dropbox">Afegir al Dropbox</string>
+    
+    
 
-    <!--Security-->
-    <string name="category_encryption">Encriptació</string>
-    <string name="sKeyNotFound">Clau no trobada</string>
-    <string name="sCreate">Crear</string>
-    <string name="create_new_key">Crear nova clau</string>
+    <!-- Notification -->
+    
+    
+
+    <!-- Password dialog -->
+    
     <string name="enter_password">Escriu contrasenya</string>
-    <string name="sReEnterPassword">Torna a escriure contrasenya</string>
+    
+
+    <!-- Settings -> Security -->
+    <string name="category_encryption">Encriptació</string>
+    <string name="category_application">Aplicació</string>
+    <string name="create_new_key">Crear nova clau</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="app_admin">Administrador d\'aplicació</string>
+    
+    
     <string name="aes_128bit">128-bit AES (el més ràpid)</string>
     <string name="aes_192bit">192-bit AES (equilibrat seguretat i rapidesa)</string>
     <string name="aes_256bit">256-bit (el més segur)</string>
-    <string name="category_application">Aplicació</string>
-    <string name="app_admin">Administrador d\'aplicació</string>
-    <string name="sAppAdminSummary">Necessari per evitar desinstal.lar CallRecorder</string>
-    <string name="sAppAdminExplanation">CallRecorder no usa cap funció d\'administrador del dispositiu excepte per
-        protegir la desinstal.lació
-    </string>
 
-    <!--Audio player-->
-    <string name="sUseDefaultPlayer">Usar el reproductor per defecte</string>
+    <!-- Settings -> Audio player -->
+    
     <string name="audio_output">Sortida d\'àudio</string>
+    
+    <string name="main_speaker">Altaveu principal</string>
+    <string name="phone_speaker">Altaveu del telèfon</string>
+    <string name="use_proximity_sensor">Utilitzar sensor de proximitat</string>
+    
+    <string name="switch_audio_output">Canviar sortida d\'audio</string>
+    
     <string name="android_wav_decoder">Decodificador Android per WAV</string>
     <string name="android_wav_decoder_summary">Usar eines integrades Android per reproduir WAV</string>
     <string name="android_amr_decoder">Decodificador Android per AMR</string>
     <string name="android_amr_decoder_summary">Usar eines integrades Android per reproduir AMR</string>
-    <string name="switch_audio_output">Canviar sortida d\'audio</string>
-    <string name="SwitchAudioOutputSummary">Canviar automàticament la sortida d\'àudio si la pantalla està desactivada /
-        activada per proximitysensor
-    </string>
-    <string name="use_proximity_sensor">Utilitzar sensor de proximitat</string>
-    <string name="sUseProximitySensorSummary">Desactivar sensor de proximitat durant la reproducció (requereix ROOT)
-    </string>
 
-    <!--Audio output array-->
-    <string name="main_speaker">Altaveu principal</string>
-    <string name="phone_speaker">Altaveu del telèfon</string>
-
-    <!--Experimental-->
-    <string name="sConvertAfterCall">Convertir després de trucar</string>
-    <string name="sDontConvert">No convertir</string>
-    <string name="sWavToMp3">WAV a MP3</string>
-    <string name="sWavToAmr">WAV a AMR</string>
-
-    <!--Debug-->
-    <string name="sDetailedLogs">Registres detallats</string>
+    <!--Settings -> Debug-->
     <string name="root_access">Accés Root</string>
     <string name="root_access_no">No</string>
     <string name="root_access_yes">Si</string>
-    <string name="sLogsSettingsCategory">Registres</string>
-    <string name="sSendLogsToTheDeveloper">Enviar registres al programador</string>
-    <string name="sUseGzipToCompressLogs">Utilitzar gzip per a comprimir els registres</string>
-    <string name="sRecordOnNotificationClick">Gravar en fer clic a la notificació</string>
-    <string name="sRecordOnNotificationClickSummary">No facis clic a la notificació abans que la connexió estigui
-        establerta
-    </string>
-    <string name="sHideNotificationDuringCall">Amagar notificacions durant la trucada</string>
-    <string name="sHideNotificationDuringCallSummary">No ho activis, és només per depurar</string>
     <string name="dual_sim_phone">Telèfon Dual Sim</string>
-    <string name="dual_sim_phone_summary">Activa això si el telèfon no pot detectar les trucades des de la segona tarjeta
-        sim
-    </string>
+    <string name="dual_sim_phone_summary">Activa això si el telèfon no pot detectar les trucades des de la segona tarjeta sim</string>
+
+    <!-- General -->
+    <string name="contact_unknown">Desconegut</string>
+    
+    <string name="button_ok">Acceptar</string>
+    
+    <string name="button_edit">Editar</string>
+    <string name="button_cancel">Cancel.lar</string>
+    
+    
+    
+    
+    
+    
+    
+    <string name="please_wait">Si us plau, espera...</string>
+    <string name="start_recording">Començar gravació</string>
+    <string name="stop_recording">Parar gravació</string>
+    
+    <string name="switch_on">Encès</string>
+    <string name="switch_off">Apagat</string>
+
+    <!-- Call confirm dialog -->
+    <string name="call_confirm_record_this_call">Gravar aquesta trucada</string>
+    
+
+    <!--Notification-->
+    
+    
+    
+    <string name="an_error_has_occurred">S\'ha produït un error, aquesta trucada no es pot gravar</string>
 
     <!--About-->
+    
     <string name="version">Versió</string>
-    <string name="sAboutCallRecorder">Sobre CallRecorder</string>
-    <string name="license_status">Estat de la llicència</string>
-    <string name="sLicenseStatusVerified">Llicència verificada</string>
-    <string name="license_trial">La versió de prova expirarà el %s</string>
-
     <string name="copyright">Copyright</string>
-    <string name="copyright_summary">&#169; %s Alexander Skvortsov (skvalex)</string>
+    <string name="copyright_summary">© %s Alexander Skvortsov (skvalex)</string>
     <string name="about_many_thanks">Moltes gràcies</string>
     <string name="about_many_thanks_summary">a Alexey Subbotin (avs234)</string>
-    <string name="sGermanTranslation">Traducció al Alemany</string>
-    <string name="sGermanTranslationSummary">per Marc Hillesheim</string>
-    <string name="sPolishTranslation">Traducció al Polac</string>
-    <string name="sPolishTranslationSummary">per Robert Gonta</string>
-    <string name="sFrenchTranslation">Traducció al Francès</string>
-    <string name="sFrenchTranslationSummary">per Julien Boiteux</string>
-    <string name="sBrazilianPortugueseTranslation">Traducció al Brasiler i portugès</string>
-    <string name="sBrazilianPortugueseTranslationSummary">per Luiz Marcelo Serique</string>
-    <string name="sSpanishTranslation">Traducció al Espanyol</string>
-    <string name="sSpanishTranslationSummary_ver1">per Iñigo Garcia i Diego Vilas</string>
-    <string name="sSlovakTranslation">Traducció al Eslovac</string>
-    <string name="sSlovakTranslationSummary">per Loránt Gerencsér</string>
-    <string name="sItalianTranslation">Traducció al Italià</string>
-    <string name="sItalianTranslationSummary">per Luca Trevisan</string>
-    <string name="sPersianTranslation">Traducció al Persa</string>
-    <string name="sPersianTranslationSummary_v2">per Alireza Afkar</string>
-    <string name="sChineseTranslation">Traducció al Xinès</string>
-    <string name="sChineseTranslationSummary">per qhq</string>
-    <string name="sCzechTranslation">Traducció al Txec</string>
-    <string name="sCzechTranslationSummary_ver2">per Ales Kerner and Lukas Waldauf</string>
-    <string name="sArabicTranslation">Traducció al Arab</string>
-    <string name="sArabicTranslationSummary">per Ausama S. Ibrahim</string>
-    <string name="sHebrewTranslation">Traducció al Hebreu</string>
-    <string name="sHebrewTranslationSummary">per NuFlood</string>
-    <string name="sHungarianTranslation">Traducció al Hungarès</string>
-    <string name="sHungarianTranslationSummary_ver2">per Szalay Levente and Miklós Toldi</string>
-    <string name="sDutchTranslation">Traducció al Holandès</string>
-    <string name="sDutchTranslationSummary">per Elroy Tirbeni</string>
-    <string name="sTurkishTranslation">Traducció al Turc</string>
-    <string name="sTurkishTranslationSummary">per Omer Ilik</string>
-    <string name="sSerbianTranslation">Traducció al Serbi</string>
-    <string name="sSerbianTranslationSummary">per sHAKaJaada</string>
-    <string name="sKoreanTranslation">Traducció al Coreà</string>
-    <string name="sKoreanTranslationSummary_ver2">per SoHyunSeop and Joon Hee Jo</string>
-    <string name="sRomanianTranslation">Traducció al Romanès</string>
-    <string name="sRomanianTranslationSummary">per Dan P. (sad)</string>
-    <string name="sUkrainianTranslation">Traducció al Ucraïnès</string>
-    <string name="sUkrainianTranslationSummary">per Gennadi Samoluk</string>
-    <string name="sTraditionalChineseTranslation">Traducció al Xinès tradicional</string>
-    <string name="sTraditionalChineseTranslationSummary_v2">per GPF_kaibird and Chien Jung Liaw</string>
-    <string name="sJapaneseTranslation">Traducció al Japonès</string>
-    <string name="sJapaneseTranslationSummary">per Akira Tagoh</string>
-    <string name="sSwedishTranslation">Traducció al Suec</string>
-    <string name="sSwedishTranslationSummary">per Johannes Sjölund</string>
-    <string name="sBulgarianTranslation">Traducció al Búlgar</string>
-    <string name="sBulgarianTranslationSummary">per PROXIMO</string>
-    <string name="sDanishTranslation">Traducció al Danès</string>
-    <string name="sDanishTranslationSummary">per Lars Sarauw Hansen</string>
-    <string name="sLatvianTranslation">Traducció al Lituà</string>
-    <string name="sLatvianTranslationSummary">per Arvīds Dreimanis</string>
-    <string name="sThaiTranslation">Traducció al Tailandès</string>
-    <string name="sThaiTranslationSummary">per Wuttisak Saichoncharn</string>
-    <string name="sArmenianTranslation">Traducció al Armeni</string>
-    <string name="sArmenianTranslationSummary">per Konstantin Gevorgyan</string>
-    <string name="sGeorgianTranslation">Traducció al Georgià</string>
-    <string name="sGeorgianTranslationSummary">per Alexandre Razmadze</string>
-    <string name="sCatalanTranslation">Traducció al Català</string>
-    <string name="sCatalanTranslationSummary">per Cybdani</string>
 
-    <!--Licenses-->
     <string name="licenses">Llicències</string>
-    <string name="sActionBarSherlockLicense">ActionBarSherlock</string>
-    <string name="sActionBarSherlockLicenseSummary">Usa ActionBarSherlock sota la llicència Apache Version 2.0, fes clic
-        aquí per visitar actionbarsherlock.com
-    </string>
     <string name="about_open_core_amr_license">opencore-amr</string>
-    <string name="about_open_core_amr_license_summary">Usa opencore-amr sota la llicència Apache Version 2.0, fes clic aquí per
-        visitar opencore-amr.sourceforge.net
-    </string>
+    <string name="about_open_core_amr_license_summary">Usa opencore-amr sota la llicència Apache Version 2.0, fes clic aquí per visitar opencore-amr.sourceforge.net</string>
     <string name="about_alsa">ALSA</string>
     <string name="about_alsa_summary">Usa ALSA sota LGPL fes clic aquí per visitar alsa-project.org</string>
     <string name="about_lame">LAME</string>

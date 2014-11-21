@@ -1,328 +1,226 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+<?xml version="1.0" encoding="utf-8" standalone="no"?><resources>
     <string name="app_name">CallRecorder</string>
-    <!--Rules array-->
-    <string name="sRuleDescription">Прочитао/ла сам и разумео/ла правила за коришћење програма</string>
-    <string name="sRulePlayStore">Упознат/а сам да аутор програма не може одговарати на коментаре у GooglePlay
-        продавници
-    </string>
-    <string name="sRuleUseOfProgram">Упознат/а сам да аутор није одговоран за (зло)употребу овог програма. Користим
-        програм на сопствену одговорност
-    </string>
-    <string name="sRuleLaw">Уверен/а сам да не кршим законе сопствене државе користећи овај програм</string>
-    <string name="sRuleNotWorking">Уколико наиђем на проблеме у коришћењу програма обратићу се аутору на:
-        skvalex@gmail.com
-    </string>
+    
+    
 
-    <!--Notification-->
-    <string name="sRecordingIsRunning">Снимање позива је активно</string>
-    <string name="sThisCallIsRecording">Позив је снимљен</string>
-    <string name="an_error_has_occurred">Дошло је до грешке! Позив није снимљен.</string>
-    <string name="sEncodingError">Грешка приликом кодирања...</string>
-    <string name="start_recording">Покрени снимање</string>
-    <string name="stop_recording">Заустави снимање</string>
+    <!-- Navigation drawer -->
+    
+    
 
-    <!--List with recordings-->
+    <!-- Navigation drawer sections -->
+    
+    
+    <string name="section_incoming">Долазни</string>
+    <string name="section_outgoing">Одлазни</string>
+    
+    
+    
+    <string name="section_help">Помоћ</string>
+    <string name="section_tasks">Задаци</string>
+    
     <string name="empty_hint">Празно</string>
-    <string name="contact_unknown">Непознат број</string>
 
-    <!--Actions on recording-->
-    <string name="category_actions">Избор</string>
-    <string name="sFilterThisNumber">Филтрирати овај број</string>
-    <string name="sAddToFavorites">Додати у фаворите</string>
-    <string name="sRemoveFromFavorites">Уклонити из фаворита</string>
-    <string name="sAddToContacts">Додати у контакте</string>
-    <string name="sOpenContact">Приказ контакта</string>
-    <string name="sCall">Позив</string>
-    <string name="sNote">Инфо</string>
-    <string name="sConvertToMp3">Конвертуј у MP3</string>
-    <string name="sConvertToAmr">Конвертуј у AMR</string>
-    <string name="sRenameFile">Преименуј датотеку</string>
+    <!-- Action bar -->
+    <string name="action_search">Претрага</string>
+    
+    <string name="action_settings">Подешавања</string>
+    
+    
+    
+    
+    
+    <string name="action_select_all">Изабери све</string>
+    
+    
+    
+
+    <!-- List -->
+    
+    
+    
+    
+
+    <!-- List -> Context menu -->
+    <string name="menu_add_to_dropbox">Додај у Dropbox</string>
+    
+    
+    <string name="menu_delete">Избриши</string>
+    
+    
+    
     <string name="menu_get_info">Инфо</string>
+    
     <string name="menu_encrypt">Шифровање</string>
     <string name="menu_decrypt">Дешифровање</string>
 
-    <!--Actions on selected recordings-->
-    <string name="action_select_all">Изабери све</string>
-    <string name="sSelectNone">Поништи изабрано</string>
-
-    <!--General-->
-    <string name="sSend">Слање</string>
-    <string name="sSendVia">Послати преко</string>
-    <string name="menu_delete">Избриши</string>
-    <string name="button_cancel">Откажи</string>
-    <string name="button_ok">OK</string>
-    <string name="sSeconds">секунд</string>
-    <string name="sDisabled">Онемогућено</string>
-    <string name="sYes">Да</string>
-    <string name="sNo">Не</string>
+    <!-- List -> Get info dialog -->
+    <string name="file_name">Име датотеке</string>
+    <string name="sample_rate">Брзина одмеравања</string>
+    <string name="sample_rate_hz">Hz</string>
+    
+    <string name="recording_type_mono">Моно</string>
+    <string name="recording_type_stereo">Стерео</string>
+    <string name="file_size">величина датотеке</string>
     <string name="terabyte">TB</string>
     <string name="gigabyte">GB</string>
     <string name="megabyte">MiB</string>
     <string name="kilobyte">KiB</string>
     <string name="bytes">бајтова</string>
-    <string name="please_wait">Причекајте...</string>
-    <string name="switch_on">Укључено</string>
-    <string name="switch_off">Искључено</string>
+    
 
-    <!--Tabs-->
-    <string name="section_incoming">Долазни</string>
-    <string name="section_outgoing">Одлазни</string>
-    <string name="sFavorites">Фаворити</string>
-    <string name="sAll">Сви позиви</string>
-
-    <!--Send recordings-->
-    <string name="recorded_calls">Снимљени позиви</string>
-    <string name="sIncoming">Долазни</string>
-    <string name="sOutgoing">Одлазни</string>
-
-    <!--Dialog after call-->
-    <string name="sDlgDeleteMsg">Сачувати или избрисати снимак?</string>
-    <string name="sKeep">Сачувај</string>
-    <string name="sDropboxAdded">Додато</string>
-
-    <!--Delete confirmation dialog-->
-    <string name="sDeleteFiles">Избриши</string>
-    <string name="confirm_delete_message">Да ли сте сигурни да желите избрисати снимак?</string>
-    <string name="sDlgDeleteSelectionMsg">Изабрали сте %d снимак/а. Желите ли да их избришете?</string>
-    <string name="sFilesDeletedToast">%d избрисаних датотека</string>
-
-    <!--Call confirm dialog-->
-    <string name="call_confirm_record_this_call">Снимај овај позив</string>
-
-    <!--Dialog about law-->
-    <string name="sWarning">Упозорење</string>
-    <string name="sMsgAboutLaw">Снимање разговора је незаконито у неким државама! Да ли сте сигурни да је у Вашој земљи
-        снимање разговора дозвољено?
-    </string>
-
-    <!--Rules dialog-->
-    <string name="sRules">Правила</string>
-    <string name="sIAgree">Прихватам</string>
-    <string name="sIDisagree">Одбијам</string>
-
-    <!--Main screen toasts-->
-    <string name="sAddToFavoritesSuccess">Позив је додат у фаворите</string>
-    <string name="sRemoveFromFavoritesSuccess">Позив је уклоњен из фаворита</string>
-    <string name="sDeleteFavoriteRecordingMsg">Потребно је уклонити из фаворита да би могли избрисати снимак</string>
-
-    <!--Encryption-->
-    <string name="sFileSuccessfullyEncrypted">Успешно шифровано</string>
-    <string name="sFileSuccessfullyDecrypted">Успешно дешифровано</string>
-    <string name="sEncrypting">Шифровање</string>
-    <string name="sDecrypting">Дешифровање</string>
-    <string name="sEncrypted">Шифровани</string>
-    <string name="wrong_password">Погрешна лозинка</string>
-
-    <!--Main screen warnings-->
-    <string name="sAvailableFreeSpace">Мало меморијског простора: %s</string>
-    <string name="sReadWriteErr">Фајл систем мора бити R/W.</string>
-    <string name="sAlsaIsNotInstalledMsg">Alsa није инсталиран. Притисните за инсталацију.</string>
-    <string name="sPhoneMustBeRootedWarning">Телефон мора имати root приступ. Притисните овде да сакријете поруку.
-    </string>
-    <string name="sStandardAPITip">Уколико није могуће снимати позиве испробајте све опције у Андроид API стандардним
-        подешавањима. Задржите овде за уклањање поруке.
-    </string>
-
-    <!--Toasts-->
-    <string name="sLoggerMustBeEnabledToast">Морате омогућити евиденцију података</string>
-    <string name="sFileWasDeletedToast">Снимак је избрисан</string>
-
-    <!--Action bar-->
-    <string name="action_search">Претрага</string>
-    <string name="sSizeRecords">Снимака: %1$s, заузима: %2$s</string>
-    <string name="sFreeOf">на располагању од</string>
-
-    <!--Tasks screen-->
-    <string name="section_tasks">Задаци</string>
-    <string name="sInProgress">Обрада (%s)</string>
-    <string name="sInQueue">На чекању...</string>
-
-    <!--Get Info dialog-->
-    <string name="file_name">Име датотеке</string>
-    <string name="sample_rate_hz">Hz</string>
-    <string name="file_size">величина датотеке</string>
-    <string name="button_edit">Уреди</string>
-
-    <!--Edit Info dialog-->
+    <!-- List -> Get info dialog -> Edit -->
     <string name="contact_name">Име контакта</string>
     <string name="phone_number">Број телефона</string>
 
-    <!--Description for file name pattern-->
-    <string name="pattern_contact_name">име контакта</string>
-    <string name="pattern_phone_number">број телефона</string>
-    <string name="pattern_call_time">време позива</string>
-    <string name="sCallTimestamp">време позива</string>
-    <string name="pattern_call_type">врста позива (одлазни или долазни)</string>
+    <!-- List -> Confirm delete dialog -->
+    <string name="confirm_delete_message">Да ли сте сигурни да желите избрисати снимак?</string>
+    
+    
 
-    <!--Description for time pattern-->
-    <string name="time_pattern_hours">сати</string>
-    <string name="time_pattern_minutes">минути</string>
-    <string name="time_pattern_seconds">секунде</string>
-    <string name="time_pattern_days">дана</string>
-    <string name="time_pattern_months">месеци</string>
-    <string name="time_pattern_years">година</string>
-    <string name="pattern_example">Пример:</string>
+    <!-- List -> Share -->
+    
+    <string name="recorded_calls">Снимљени позиви</string>
 
-    <!--Trial expired dialog-->
-    <string name="sTrialPeriodExpired">Пробни период је истекао</string>
-    <string name="sTrialPeriodExpiredMsg">Молимо, деинсталирајте пробну верзију пре инсталирања пуне, регистроване
-        верзије програма
-    </string>
-    <string name="sBuy">Купите</string>
-
-    <!--New settings-->
-    <string name="action_settings">Подешавања</string>
-    <string name="section_help">Помоћ</string>
-
-    <!--Main settings-->
-    <string name="buy_full_version">Купите апликацију без ограничења</string>
-    <string name="buy_full_version_summary">Пробни период истиче %s</string>
-    <string name="sCallRecorderUpdater">CallRecorder статус</string>
+    <!--  Settings -> Headers -->
     <string name="settings_recording">Снимање</string>
     <string name="settings_folders_and_files">Фасцикла и датотеке</string>
     <string name="settings_ui_and_appearance">Изглед интерфејса</string>
-    <string name="cloud_provider_dropbox">Dropbox подешавања</string>
     <string name="settings_security">Сигурносна подешавања</string>
+    
     <string name="settings_audio_player">Аудио репродукција</string>
-    <string name="sExperimentalSettings">Експериментална подешавања</string>
     <string name="settings_debug">Отклањање грешака</string>
     <string name="settings_about">Инфо о програму</string>
 
-    <!--General-->
-    <string name="sGeneralSettingsCategory">Општа подешавања</string>
-    <string name="sOtherSettingsCategory">Остало</string>
-    <string name="sAdvancedSettingsCategory">Напредна подешавања</string>
-    <string name="category_wav_settings">WAV подешавања</string>
-    <string name="category_main">Главна подешавања</string>
+    <!-- Settings -> License -->
+    <string name="license_status">Статус лиценце</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="license_trial">Пробна верзија истиче дана</string>
+    
+    
+    
+    
+    
+    
 
+    <string name="buy_full_version">Купите апликацију без ограничења</string>
+    <string name="buy_full_version_summary">Пробни период истиче %s</string>
 
-    <!--Buy full version-->
-    <string name="sOpenPlayStore">Отвори GoolgePlay</string>
-
-    <!--CallRecorder Updater-->
-    <string name="sOpenCallRecorderUpdater">Провера надограњи</string>
-
-    <!--Recording-->
+    <!-- Settings -> Recording -->
     <string name="recording_calls_switch">Снимање позива</string>
+    <string name="category_main">Главна подешавања</string>
     <string name="device">Уређај</string>
-    <string name="device_other">Ниједан од наведених</string>
     <string name="select_your_device">Одабир уређаја</string>
-    <string name="sAudioFormatSettingsCategory">Аудио формат</string>
-    <string name="sCallRecordingFormat">Формат снимка</string>
-    <string name="sMethodSettingsCategory">Методе</string>
-    <string name="sKernelSettings">Подешавања језгра (Kernel)</string>
-    <string name="sKernelSettingsSummary">Подешавања за кернел снимање</string>
+    
+    
+    
+    <string name="device_other">Ниједан од наведених</string>
+    <string name="recording_method">Метод снимања</string>
     <string name="recording_method_api">API подешавања</string>
     <string name="recording_method_api_settings">Подешавања за стандардно API снимање</string>
-    <string name="recording_method_alsa">ALSA подешавања</string>
-    <string name="recording_method_alsa_settings">Подешавања за ALSA снимање</string>
-    <string name="recording_method">Метод снимања</string>
     <string name="recording_method_caf">CAF подешавања</string>
     <string name="recording_method_caf_settings">Подешавања CAF снимања</string>
-    <string name="volume_control">Јачина звука</string>
-    <string name="recording_mode">Начин снимања</string>
-    <string name="recording_type_mono">Моно</string>
-    <string name="recording_type_stereo">Стерео</string>
-    <string name="volume_control_tx">Tx</string>
-    <string name="volume_control_rx">Rx</string>
-
-    <!--Recording methods array-->
-    <string name="sRecordingMethodKernel">Кернел метод снимања (непоходан root-приступ)</string>
-    <string name="sRecordingMethodStandardAPI">Стандардна API подешавања</string>
-    <string name="sRecordingMethodALSA">ALSA (неопходан root-приступ)</string>
-    <string name="sRecordingMethodCAF">CAF (неопходан root)</string>
-
-    <!--Recording audio formats-->
-    <string name="recording_format_wav">WAV</string>
-    <string name="recording_format_amr">AMR</string>
-    <string name="recording_format_aac">AAC</string>
-    <string name="s3GPP">3GPP</string>
-    <string name="recording_format_mp3">MP3</string>
-
-    <!--Recording behavior-->
-    <string name="after_call_actions_dialog">Дијалог за опцију по позиву</string>
-    <string name="after_call_actions_dialog_summary">Упит за акцију после позива</string>
-    <string name="call_confirm">Потврди позив</string>
-    <string name="call_confirm_summary">Прикажи дијалог за потврду пре позивања</string>
-    <string name="sDefaultAction">Подразумевано</string>
-    <string name="action_for_outgoing">Избор за одлазне позиве</string>
+    <string name="recording_method_alsa">ALSA подешавања</string>
+    <string name="recording_method_alsa_settings">Подешавања за ALSA снимање</string>
+    
+    
+    <string name="category_actions">Избор</string>
     <string name="action_for_incoming">Избор за долазне позиве</string>
-    <string name="delay_before_start_recording">Кашњење почетка снимања</string>
-    <string name="sIncomingCalls">Долазни позиви</string>
-    <string name="sOutgoingAndIncomingCalls">Одлазни и долазни позиви</string>
-    <string name="sOutgoingCalls">Одлазни позиви</string>
-    <string name="vibrate_on_call">Вибрација на почетку и крају разговора</string>
-
-    <!--Actions-->
+    <string name="action_for_outgoing">Избор за одлазне позиве</string>
     <string name="action_record_all">Снимање свих разговора</string>
     <string name="action_do_not_record">Не снима разговоре</string>
     <string name="action_record_contacts">Снимање разговора меморисаних бројева</string>
     <string name="action_record_non_contacts">Снимање разговора непознатих бројева</string>
-
-    <!--Recording -> Exceptions-->
+    <string name="call_confirm">Потврди позив</string>
+    <string name="call_confirm_summary">Прикажи дијалог за потврду пре позивања</string>
+    <string name="after_call_actions_dialog">Дијалог за опцију по позиву</string>
+    <string name="after_call_actions_dialog_summary">Упит за акцију после позива</string>
+    <string name="vibrate_on_call">Вибрација на почетку и крају разговора</string>
     <string name="exceptions">Изузетци</string>
-    <string name="sAddGroup">Додај групу</string>
-    <string name="sAdd">Додај</string>
-    <string name="exception_group">Група</string>
-    <string name="exception_select_group">Изабери групу</string>
-    <string name="exception_select_action">Изабери радњу</string>
-    <string name="sChangeAction">Промена радње</string>
-    <string name="exception_action_always_record">Снимај увек</string>
-    <string name="exception_action_never_record">Не снимај никада</string>
-    <string name="sPressMenuToAddException">Притисни \'мени\' за изузимање</string>
-
-    <!--Recording -> Kernel-->
-    <string name="chipset_type">Врста чипа</string>
-    <string name="chipset_type_msm72xx">Qualcomm MSM72XX</string>
-    <string name="chipset_type_msm8250">Qualcomm MSM8250</string>
-    <string name="chipset_type_msm8255">Qualcomm MSM8255</string>
-    <string name="chipset_type_msm8260">Qualcomm MSM8260</string>
-    <string name="sSoundBoost">Појачало</string>
-    <string name="sUplinkBoost">Uplink boost</string>
-    <string name="sDownlinkBoost">Downlink boost</string>
-    <string name="dont_use_amr_driver">Не користити AMR драјвер</string>
-    <string name="dont_use_amr_driver_summary">Конвертовати одмах из WAV у AMR</string>
-
-    <!--Recording -> Standard API-->
-    <string name="api_audio_source">Аудио извор</string>
-    <string name="sWhenBTConnected">Када је Bluetooth повезан...</string>
-    <string name="sBTEnabledMeansBTConnected">BT означава да је Bluetooth повезан</string>
-    <string name="sBTEnabledMeansBTConnectedSummary">После повезивања BT-а, користити иста подешавања као и пре
-        повезивања
-    </string>
-    <string name="sAudioSourceWhenBTConnected">Аудио извор када је BT повезан</string>
-    <string name="sample_rate">Брзина одмеравања</string>
+    
+    
+    
+    <string name="delay_before_start_recording">Кашњење почетка снимања</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="recording_format_wav">WAV</string>
+    <string name="recording_format_amr">AMR</string>
+    <string name="recording_format_aac">AAC</string>
+    <string name="recording_format_mp3">MP3</string>
+    <string name="volume_control">Јачина звука</string>
+    
+    
+    
+    <string name="volume_control_tx">Tx</string>
+    <string name="volume_control_rx">Rx</string>
     <string name="sample_rate_8000">8000 Hz (Стандардна)</string>
     <string name="sample_rate_11025">11025 Hz</string>
     <string name="sample_rate_16000">16000 Hz</string>
     <string name="sample_rate_22050">22050 Hz</string>
     <string name="sample_rate_44100">44100 Hz</string>
     <string name="sample_rate_48000">48000 Hz</string>
-    <string name="sSampleRateWarning">Неки примери могу бити неподржани од система</string>
 
-    <!--Audio sources of Standard API array-->
+    <!-- Settings -> Recording -> Standard API -->
+    <string name="api_audio_source">Аудио извор</string>
     <string name="api_source_uplink_downlink">Гласовни позив - uplink + downlink</string>
     <string name="api_source_downlink">Гласовни позив - downlink</string>
     <string name="api_source_uplink">Гласовни позив - uplink</string>
     <string name="api_source_microphone">Микрофон</string>
     <string name="api_source_default">Стандардно</string>
     <string name="api_source_voice_communication">Гласовна комуникација</string>
+    <string name="category_wav_settings">WAV подешавања</string>
+    
 
-    <!--Actions on BT connected array-->
-    <string name="sOnBTConnectedActionDoNothing">Без промене подешавања</string>
-    <string name="sOnBTConnectedActionSwitchAudioSource">Промена аудио извора</string>
-    <string name="sOnBTConnectedActionDisableRecording">Онемогућити снимање</string>
+    <!-- Settings -> Recording -> CAF -->
+    <string name="recording_mode">Начин снимања</string>
 
-    <!--Recording -> ALSA-->
-    <string name="sAlsa">Alsa</string>
-    <string name="sAlsaIsInstalled">Alsa је инсталиран</string>
+    <!-- Settings -> Recording -> ALSA -->
+    
+    
 
-    <!--Folders and Files-->
-    <string name="sRescan">Претрага</string>
-    <string name="sRescanSummary">Претрага снимака у фасцикли</string>
-    <string name="sFolderSettingsCategory">Фасцикла</string>
+    <!-- Settings -> Recording -> MSM -->
+    <string name="chipset_type">Врста чипа</string>
+    <string name="chipset_type_msm72xx">Qualcomm MSM72XX</string>
+    <string name="chipset_type_msm8250">Qualcomm MSM8250</string>
+    <string name="chipset_type_msm8255">Qualcomm MSM8255</string>
+    <string name="chipset_type_msm8260">Qualcomm MSM8260</string>
+    <string name="dont_use_amr_driver">Не користити AMR драјвер</string>
+    <string name="dont_use_amr_driver_summary">Конвертовати одмах из WAV у AMR</string>
+
+    <!-- Settings -> Recording -> Exceptions -->
+    
+    <string name="exception_group">Група</string>
+    <string name="exception_select_group">Изабери групу</string>
+    
+    
+    
+    
+    <string name="exception_select_action">Изабери радњу</string>
+    <string name="exception_action_always_record">Снимај увек</string>
+    <string name="exception_action_never_record">Не снимај никада</string>
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- Settings -> Folders and Files -->
     <string name="folder">Фасцикла</string>
+    
     <string name="automatic_cleanup">Самостално одржавање</string>
     <string name="max_number_of_files">Највише снимака</string>
     <string name="max_number_of_files_message">Унети број (0 = неограничено)</string>
@@ -331,235 +229,160 @@
     <string name="max_age_of_recordings">Највиша старост снимка</string>
     <string name="max_age_of_recordings_message">Унети број дана (0 = неограничено)</string>
     <string name="current_setting">Тренутно: %s</string>
-    <string name="sFileNameSettingsCategory">Име датотеке</string>
+    
     <string name="filename_pattern">Образац</string>
     <string name="time_pattern">Временски образац</string>
 
-    <!--Interface and Appearance-->
+    <!-- Description for filename pattern -->
+    <string name="pattern_contact_name">име контакта</string>
+    <string name="pattern_phone_number">број телефона</string>
+    <string name="pattern_call_time">време позива</string>
+    
+    <string name="pattern_call_type">врста позива (одлазни или долазни)</string>
+    <string name="time_pattern_hours">сати</string>
+    <string name="time_pattern_minutes">минути</string>
+    <string name="time_pattern_seconds">секунде</string>
+    <string name="time_pattern_days">дана</string>
+    <string name="time_pattern_months">месеци</string>
+    <string name="time_pattern_years">година</string>
+    <string name="pattern_example">Пример:</string>
+
+    <!--Settings -> Interface and Appearance-->
     <string name="language">Језик</string>
     <string name="select_language">Одабир језика</string>
-    <string name="sActionBarSettingsCategory">Инфо трака</string>
-    <string name="sAudioOutputActionBar">Аудио излаз</string>
-    <string name="sAudioOutputActionBarSummary">Приказ аудио подешавања у инфо траци</string>
-    <string name="incall_control_for_outgoing">За одлазне позиве</string>
-    <string name="sInCallControlForOutgoingSummary">Контрола у току разговора за одлазне позиве</string>
-    <string name="incall_control_for_incoming">За долазне позиве</string>
-    <string name="sInCallControlForIncomingSummary">Контрола у току разговора за долазне позиве</string>
     <string name="category_notification">Обавештење</string>
-    <string name="sNotificationIcon">Икона на инфо траци</string>
     <string name="show_notification">Приказ иконе на инфо траци</string>
-    <string name="sShowNotificationSummary">Повећава приоритет процеса</string>
-    <string name="sInCallControl">Контрола у току позива</string>
-    <string name="sHangUpAndCallBack">Прекидање везе и повратни позив</string>
-    <string name="sHangUpAndCallBackSummary">При дужем притиску, одбацити позив и узвратити позив аутоматски</string>
+    
+    
+    <string name="incall_control_for_outgoing">За одлазне позиве</string>
+    
+    <string name="incall_control_for_incoming">За долазне позиве</string>
+    
+    
+    
     <string name="show_button_while_ringing">Приказати дугме приликом сигнала позива</string>
     <string name="show_button_while_ringing_summary">Приказати дугме за контролу позива пре одговора на позив</string>
-    <string name="sExcludeFavoritesFromAll">Изузимање фаворита из приказа "Сви позиви"</string>
-    <string name="sExcludeFavoritesFromAllSummary">Изузимање фаворита из приказа свих позива</string>
     <string name="vertical_position">Вертикална позиција</string>
+    
     <string name="horizontal_position">Хоризонтална позиција</string>
-    <string name="sVerticalOffset">Офсет вертикалне ивице</string>
-    <string name="sVerticalOffsetSummary">Офсет од изабране ивице у вертикалном равњању (горе или доле)</string>
-    <string name="sHorizontalOffset">Офсет хоризонталне ивице</string>
-    <string name="sHorizontalOffsetSummary">Офсет од изабране ивице у хоризонталном равњању (лево или десно)</string>
-    <string name="sLowSpaceWarning">Упозорење о количини меморијског простора</string>
-    <string name="sLowSpaceWarningSummary">Упозори када је количина слободне меморија мања од: (унети вредност у MiB)
-    </string>
-    <string name="sMainScreen">Главни приказ</string>
-    <string name="sHideInCallControlButton">Сакрити дугме за контролу снимања приликом позива</string>
-    <string name="sHideInCallControlButtonSummary">Сакрити дугме за контролу приликом позива уколико се разговор снима
-    </string>
-    <string name="sDontShowInCallButton">Не приказивати дугме пре успостављања везе</string>
-    <string name="hide_button_before_answer_summary">Не приказивати дугме за контролу у току позива до успостављања везе
-    </string>
-    <string name="sLanguageDefault">Језик система</string>
+    
+    
+    <string name="hide_button_before_answer_summary">Не приказивати дугме за контролу у току позива до успостављања везе</string>
 
-    <!--Vertical aligns array-->
-    <string name="sVerticalAlignTop">На врху</string>
-    <string name="sVerticalAlignBottom">На дну</string>
-
-    <!--Horizontal aligns array-->
-    <string name="sHorizontalAlignLeft">Лево</string>
-    <string name="sHorizontalAlignRight">Десно</string>
-
-    <!--Notification icons array-->
-    <string name="sNotificationIconDefault">Стандардно</string>
-    <string name="sNotificationIconGreenNew">Зелена икона</string>
-    <string name="sNotificationIconGreenOld">Зелена икона (стара верзија)</string>
-    <string name="sNotificationIconGray">Сива икона</string>
-
-    <!--Dropbox-->
-    <string name="sDropboxLogin">Пријава</string>
-    <string name="sDropboxLogout">Одјава</string>
-
+    <!-- Settings -> Cloud -->
+    
+    <string name="cloud_provider_dropbox">Dropbox подешавања</string>
+    
+    
+    
+    
     <string name="cloud_wifi_only">Само преко Wi-Fi</string>
     <string name="cloud_auto_upload">Самостално отпремање</string>
-    <string name="sCloudUploadFavorites">Отпремање фаворита</string>
-    <string name="sCloudUploadFavoritesSummary">Отпремити снимке у Dropbox када се додају у фаворите</string>
     <string name="cloud_auto_upload_summary">Отпремање после позива</string>
-    <string name="menu_add_to_dropbox">Додај у Dropbox</string>
+    
+    
 
-    <!--Security-->
-    <string name="category_encryption">Шифровање</string>
-    <string name="sKeyNotFound">Недостаје кључ</string>
-    <string name="sCreate">Направи</string>
-    <string name="create_new_key">Направи нови кључ</string>
+    <!-- Notification -->
+    
+    
+
+    <!-- Password dialog -->
+    <string name="wrong_password">Погрешна лозинка</string>
     <string name="enter_password">Унети шифру</string>
-    <string name="sReEnterPassword">Поновни унос шифре</string>
-    <string name="aes_128bit">128-bit AES (Брже)</string>
-    <string name="aes_192bit">192-bit AES (Умерено)</string>
-    <string name="aes_256bit">256-bit AES (Сигурније)</string>
+    <string name="password_has_been_changed">Лозинка је промењена</string>
+
+    <!-- Settings -> Security -->
+    <string name="category_encryption">Шифровање</string>
     <string name="category_application">Апликација</string>
-    <string name="app_admin">Администратор уређаја</string>
-    <string name="sAppAdminSummary">Потребно ради заштите од деинсталације апликације CallRecorder</string>
-    <string name="sAppAdminExplanation">CallRecorder не користи друге административне привилегије осим заштите од
-        деинсталације
-    </string>
+    <string name="create_new_key">Направи нови кључ</string>
+    
+    
     <string name="change_password">Промена лозинке</string>
+    
+    
     <string name="enter_old_password">Унети стару лозинку</string>
     <string name="enter_new_password">Унети нову лозинку</string>
     <string name="re_enter_new_password">Поново унети нову лозинку</string>
     <string name="require_password">Захтев за лозинком</string>
     <string name="require_password_summary">Лозинка за отварање апликације</string>
+    
     <string name="lock_after">Закључати после</string>
     <string name="lock_after_exit">Излаза</string>
     <string name="lock_after_1_minute">1 мин.</string>
     <string name="lock_after_3_minutes">3 мин.</string>
     <string name="lock_after_5_minutes">5 мин.</string>
     <string name="lock_after_10_minutes">10 мин.</string>
-    <string name="password_has_been_changed">Лозинка је промењена</string>
+    <string name="app_admin">Администратор уређаја</string>
+    
+    
+    <string name="aes_128bit">128-bit AES (Брже)</string>
+    <string name="aes_192bit">192-bit AES (Умерено)</string>
+    <string name="aes_256bit">256-bit AES (Сигурније)</string>
 
-    <!--Audio player-->
-    <string name="sUseDefaultPlayer">Користи подразумевани плејер</string>
+    <!-- Settings -> Audio player -->
+    
     <string name="audio_output">Аудио излаз</string>
+    
+    <string name="main_speaker">Звучник</string>
+    <string name="phone_speaker">Слушалица</string>
+    <string name="use_proximity_sensor">Користи сензор близине</string>
+    
+    <string name="switch_audio_output">Промена аудио излаза</string>
+    
     <string name="android_wav_decoder">Андроид декодер за WAV</string>
     <string name="android_wav_decoder_summary">Користи уграђене Андроид алате за репродукцијy WAV</string>
     <string name="android_amr_decoder">Андроид AMR декодер</string>
     <string name="android_amr_decoder_summary">Користи изворне Андроид алате за репродукцију AMR</string>
-    <string name="switch_audio_output">Промена аудио излаза</string>
-    <string name="SwitchAudioOutputSummary">Аутоматска промена аудио излаза уколико је екран укључен/искључен од стране
-        сензора близине
-    </string>
-    <string name="use_proximity_sensor">Користи сензор близине</string>
-    <string name="sUseProximitySensorSummary">Користи сензор за искључивање екрана приликом преслушавања снимака
-        (неопходан root приступ)
-    </string>
 
-    <!--Audio output array-->
-    <string name="main_speaker">Звучник</string>
-    <string name="phone_speaker">Слушалица</string>
-
-    <!--Experimental-->
-    <string name="sConvertAfterCall">Конвертуј по завршетку позива</string>
-    <string name="sDontConvert">Без конвертовања</string>
-    <string name="sWavToMp3">Из WAV у MP3</string>
-    <string name="sWavToAmr">Из WAV у AMR</string>
-
-    <!--Debug-->
-    <string name="sDetailedLogs">Детаљни опис</string>
+    <!--Settings -> Debug-->
     <string name="root_access">Root приступ</string>
     <string name="root_access_no">Нема root приступ</string>
     <string name="root_access_yes">Одобрен</string>
-    <string name="sLogsSettingsCategory">Дневници</string>
-    <string name="sSendLogsToTheDeveloper">Слање повратних информација</string>
-    <string name="sUseGzipToCompressLogs">Користи gzip за компресију повратних информација</string>
-    <string name="sRecordOnNotificationClick">Започињање снимања на притисак</string>
-    <string name="sRecordOnNotificationClickSummary">Не притискати обавештење пре успоставе везе</string>
-    <string name="sHideNotificationDuringCall">Сакрити обавештење у току позива</string>
-    <string name="sHideNotificationDuringCallSummary">Не мењати! Само за програмере!</string>
     <string name="dual_sim_phone">Dual Sim телефон</string>
     <string name="dual_sim_phone_summary">Омогућити уколико није могуће препознати позив са друге картице</string>
 
-    <!--About-->
-    <string name="version">Верзија</string>
-    <string name="sAboutCallRecorder">CallRecorder инфо</string>
-    <string name="license_status">Статус лиценце</string>
-    <string name="sLicenseStatusVerified">Лиценца је одобрена</string>
-    <string name="license_trial">Пробна верзија истиче дана</string>
+    <!-- General -->
+    <string name="contact_unknown">Непознат број</string>
+    
+    <string name="button_ok">OK</string>
+    
+    <string name="button_edit">Уреди</string>
+    <string name="button_cancel">Откажи</string>
+    
+    
+    
+    
+    
+    
+    
+    <string name="please_wait">Причекајте...</string>
+    <string name="start_recording">Покрени снимање</string>
+    <string name="stop_recording">Заустави снимање</string>
+    
+    <string name="switch_on">Укључено</string>
+    <string name="switch_off">Искључено</string>
 
+    <!-- Call confirm dialog -->
+    <string name="call_confirm_record_this_call">Снимај овај позив</string>
+    
+
+    <!--Notification-->
+    
+    
+    
+    <string name="an_error_has_occurred">Дошло је до грешке! Позив није снимљен.</string>
+
+    <!--About-->
+    
+    <string name="version">Верзија</string>
     <string name="copyright">Copyright</string>
     <string name="copyright_summary">© %s Alexander Skvortsov (skvalex)</string>
     <string name="about_many_thanks">Захваљујем се</string>
     <string name="about_many_thanks_summary">Alexey Subbotin (avs234)</string>
-    <string name="sGermanTranslation">Немачки превод</string>
-    <string name="sGermanTranslationSummary_ver1">Marc Hillesheim и Thomas Käfer</string>
-    <string name="sPolishTranslation">Пољски превод</string>
-    <string name="sPolishTranslationSummary">Robert Gonta</string>
-    <string name="sFrenchTranslation">Француски превод</string>
-    <string name="sFrenchTranslationSummary">Julien Boiteux</string>
-    <string name="sBrazilianPortugueseTranslation">Португалски (Бразил) превод</string>
-    <string name="sBrazilianPortugueseTranslationSummary">Luiz Marcelo Serique</string>
-    <string name="sSpanishTranslation">Шпански превод</string>
-    <string name="sSpanishTranslationSummary_ver1">Iñigo Garcia и Diego Vilas</string>
-    <string name="sSlovakTranslation">Словачки превод</string>
-    <string name="sSlovakTranslationSummary">Matrix44</string>
-    <string name="sItalianTranslation">Италијански превод</string>
-    <string name="sItalianTranslationSummary_v2">Luca Trevisan и Francesco Cafagna</string>
-    <string name="sPersianTranslation">Персијски превод</string>
-    <string name="sPersianTranslationSummary_v2">Alireza Afkar</string>
-    <string name="sChineseTranslation">Кинески превод</string>
-    <string name="sChineseTranslationSummary_v2">qhq и Yu Fei</string>
-    <string name="sCzechTranslation">Чешки превод</string>
-    <string name="sCzechTranslationSummary_ver2">Ales Kerner и Lukas Waldauf</string>
-    <string name="sArabicTranslation">Арапски превод</string>
-    <string name="sArabicTranslationSummary">Ausama S. Ibrahim</string>
-    <string name="sHebrewTranslation">Јеврејски превод</string>
-    <string name="sHebrewTranslationSummary">NuFlood</string>
-    <string name="sHungarianTranslation">Мађарски превод</string>
-    <string name="sHungarianTranslationSummary_ver2">Szalay Levente и Miklós Toldi</string>
-    <string name="sDutchTranslation">Холандски превод</string>
-    <string name="sDutchTranslationSummary">Elroy Tirbeni</string>
-    <string name="sTurkishTranslation">Турски превод</string>
-    <string name="sTurkishTranslationSummary">Omer Ilik</string>
-    <string name="sSerbianTranslation">Српски превод</string>
-    <string name="sSerbianTranslationSummary">sHAKaJaada&#8482;</string>
-    <string name="sKoreanTranslation">Корејски превод</string>
-    <string name="sKoreanTranslationSummary_ver2">SoHyunSeop и Joon Hee Jo</string>
-    <string name="sRomanianTranslation">Румунски превод</string>
-    <string name="sRomanianTranslationSummary">Dan P. (sad)</string>
-    <string name="sUkrainianTranslation">Украјински превод</string>
-    <string name="sUkrainianTranslationSummary">Gennadi Samoluk</string>
-    <string name="sTraditionalChineseTranslation">Традиционални кинески превод вер.2</string>
-    <string name="sTraditionalChineseTranslationSummary_v2">GPF_kaibird и Chien Jung Liaw</string>
-    <string name="sJapaneseTranslation">Јапаски превод</string>
-    <string name="sJapaneseTranslationSummary">Akira Tagoh</string>
-    <string name="sSwedishTranslation">Шведски превод</string>
-    <string name="sSwedishTranslationSummary">Johannes Sjölund</string>
-    <string name="sBulgarianTranslation">Бугарски превод</string>
-    <string name="sBulgarianTranslationSummary">PROXIMO</string>
-    <string name="sDanishTranslation">Дански превод</string>
-    <string name="sDanishTranslationSummary">Lars Sarauw Hansen</string>
-    <string name="sLatvianTranslation">Летонски превод</string>
-    <string name="sLatvianTranslationSummary">Arvīds Dreimanis</string>
-    <string name="sThaiTranslation">Тајландски превод</string>
-    <string name="sThaiTranslationSummary">Wuttisak Saichoncharn</string>
-    <string name="sArmenianTranslation">Јерменски превод</string>
-    <string name="sArmenianTranslationSummary">Konstantin Gevorgyan</string>
-    <string name="sGeorgianTranslation">Грузински превод</string>
-    <string name="sGeorgianTranslationSummary">Alexandre Razmadze</string>
-    <string name="sCatalanTranslation">Каталонски превод</string>
-    <string name="sCatalanTranslationSummary">cybdani</string>
-    <string name="sHindiTranslation">Хинди превод</string>
-    <string name="sHindiTranslationSummary">TheTAMAS Gautam</string>
-    <string name="sPunjabiTranslation">Панџаби превод</string>
-    <string name="sPunjabiTranslationSummary_ver2">Raj Verma</string>
-    <string name="sFinnishTranslation">Фински превод</string>
-    <string name="sFinnishTranslationSummary">Eero Linnainmaa</string>
-    <string name="sBelarusianTranslation">Белоруски превод</string>
-    <string name="sBelarusianTranslationSummary">Alexander Kuvshinov</string>
-    <string name="sVietnameseTranslation">Вијетнамски превод</string>
-    <string name="sVietnameseTranslationSummary">Truong Hoang Trung</string>
 
-    <!--Licenses-->
     <string name="licenses">Лиценце</string>
-    <string name="sActionBarSherlockLicense">ActionBarSherlock</string>
-    <string name="sActionBarSherlockLicenseSummary">Користи ActionBarSherlock под лиценцом Apache вер. 2.0.
-        Притиснитеовде за посету actionbarsherlock.com
-    </string>
     <string name="about_open_core_amr_license">opencore-amr</string>
-    <string name="about_open_core_amr_license_summary">Koristi opencore-amr од: Apache License Version 2.0, притисните за посету
-        opencore-amr.sourceforge.net
-    </string>
+    <string name="about_open_core_amr_license_summary">Koristi opencore-amr од: Apache License Version 2.0, притисните за посету opencore-amr.sourceforge.net</string>
     <string name="about_alsa">ALSA</string>
     <string name="about_alsa_summary">Користи ALSA под LGPL. Притисните овде за посету alsa-project.org</string>
     <string name="about_lame">LAME</string>

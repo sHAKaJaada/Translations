@@ -1,329 +1,226 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+<?xml version="1.0" encoding="utf-8" standalone="no"?><resources>
     <string name="app_name">CallRecorder</string>
-    <!--Rules array-->
-    <string name="sRuleDescription">Am citit și am înțeles descrierea aplicației</string>
-    <string name="sRulePlayStore">Am înțeles că programatorul nu poate răspunde comentariilor din Play Store</string>
-    <string name="sRuleUseOfProgram">Am înțeles ca programatorul nu este responsabil pentru utilizarea aplicației.
-        Utilizez acest program pe propriul meu risc
-    </string>
-    <string name="sRuleLaw">Sunt absolut convins că respect în totalitate politica de confidențialitate și nu încalc
-        nicio lege folosind acest program
-    </string>
-    <string name="sRuleNotWorking">Dacă înregistrarea apelurilor nu funcționează pe terminalul meu voi reciti descrierea
-        mai atent și dacă nu găsesc un răspuns voi trimite un email programatorului la adresa: skvalex@gmail.com
-    </string>
+    
+    
 
-    <!--Notification-->
-    <string name="sRecordingIsRunning">Serviciul de înregistrare apelui rulează</string>
-    <string name="sThisCallIsRecording">Acest apel este înregistrat</string>
-    <string name="an_error_has_occurred">A intervenit o eroare, acest apel nu poate fi înregistrat</string>
-    <string name="sEncodingError">Eroare în timpul codificării...</string>
-    <string name="start_recording">Start înregistrare</string>
-    <string name="stop_recording">Stop înregistrare</string>
+    <!-- Navigation drawer -->
+    
+    
 
-    <!--List with recordings-->
+    <!-- Navigation drawer sections -->
+    
+    
+    <string name="section_incoming">Primite</string>
+    <string name="section_outgoing">Efectuate</string>
+    
+    
+    
+    <string name="section_help">Ajutor</string>
+    <string name="section_tasks">Sarcini</string>
+    
     <string name="empty_hint">Gol</string>
-    <string name="contact_unknown">Necunoscut</string>
 
-    <!--Actions on recording-->
-    <string name="category_actions">Acțiuni</string>
-    <string name="sFilterThisNumber">Filtrează acest număr</string>
-    <string name="sAddToFavorites">Adăugare la favorite</string>
-    <string name="sRemoveFromFavorites">Eliminare din favorite</string>
-    <string name="sAddToContacts">Adaugă la contacte</string>
-    <string name="sOpenContact">Deschide contacte</string>
-    <string name="sCall">Apel</string>
-    <string name="sNote">Notă</string>
-    <string name="sConvertToMp3">Transformă în mp3</string>
-    <string name="sConvertToAmr">Transformă in amr</string>
-    <string name="sRenameFile">Redenumește fișier</string>
+    <!-- Action bar -->
+    <string name="action_search">Caută</string>
+    
+    <string name="action_settings">Setări</string>
+    
+    
+    
+    
+    
+    <string name="action_select_all">Selectare toate</string>
+    
+    
+    
+
+    <!-- List -->
+    
+    
+    
+    
+
+    <!-- List -> Context menu -->
+    <string name="menu_add_to_dropbox">Adaugă in Dropbox</string>
+    
+    
+    <string name="menu_delete">Șterge</string>
+    
+    
+    
     <string name="menu_get_info">Preia informații</string>
+    
     <string name="menu_encrypt">Criptare</string>
     <string name="menu_decrypt">Decriptare</string>
 
-    <!--Actions on selected recordings-->
-    <string name="action_select_all">Selectare toate</string>
-    <string name="sSelectNone">Deselectare toate</string>
-
-    <!--General-->
-    <string name="sSend">Trimite</string>
-    <string name="sSendVia">Trimite via</string>
-    <string name="menu_delete">Șterge</string>
-    <string name="button_cancel">Anulează</string>
-    <string name="button_ok">OK</string>
-    <string name="sSeconds">sec</string>
-    <string name="sDisabled">Dezactivat</string>
-    <string name="sYes">Da</string>
-    <string name="sNo">Nu</string>
+    <!-- List -> Get info dialog -->
+    <string name="file_name">Nume fișier</string>
+    <string name="sample_rate">Rată eșantion</string>
+    <string name="sample_rate_hz">Hz</string>
+    
+    <string name="recording_type_mono">Mono</string>
+    <string name="recording_type_stereo">Stereo</string>
+    <string name="file_size">Dimensiune fișier</string>
     <string name="terabyte">TB</string>
     <string name="gigabyte">GB</string>
     <string name="megabyte">MB</string>
     <string name="kilobyte">KB</string>
     <string name="bytes">bytes</string>
-    <string name="please_wait">Te rog așteaptă...</string>
-    <string name="switch_on">Pornit</string>
-    <string name="switch_off">Oprit</string>
+    
 
-    <!--Tabs-->
-    <string name="section_incoming">Primite</string>
-    <string name="section_outgoing">Efectuate</string>
-    <string name="sFavorites">Favorite</string>
-    <string name="sAll">Toate</string>
-
-    <!--Send recordings-->
-    <string name="recorded_calls">Apeluri înregistrate</string>
-    <string name="sIncoming">Primite</string>
-    <string name="sOutgoing">Efectuate</string>
-
-    <!--Dialog after call-->
-    <string name="sDlgDeleteMsg">Păstrează sau șterge apelurile înregistrate?</string>
-    <string name="sKeep">Păstrează</string>
-    <string name="sDropboxAdded">Adăugat</string>
-
-    <!--Delete confirmation dialog-->
-    <string name="sDeleteFiles">Șterge fișiere</string>
-    <string name="confirm_delete_message">Ești sigur că vrei să ștergi această înregistrare?</string>
-    <string name="sDlgDeleteSelectionMsg">Ai selectat %d fișiere. Ești sigur că vrei să le ștergi?</string>
-    <string name="sFilesDeletedToast">%d fișiere șterse</string>
-
-    <!--Call confirm dialog-->
-    <string name="call_confirm_record_this_call">Înregistrează acest apel</string>
-
-    <!--Dialog about law-->
-    <string name="sWarning">Avertizare</string>
-    <string name="sMsgAboutLaw">Înregistrarea apelurilor este ilegală în unele țări. Ești sigur că trăiești într-o țară
-        unde înregistrarea apelurilor este legală?
-    </string>
-
-    <!--Rules dialog-->
-    <string name="sRules">Reguli</string>
-    <string name="sIAgree">Accept</string>
-    <string name="sIDisagree">Nu accept</string>
-
-    <!--Main screen toasts-->
-    <string name="sAddToFavoritesSuccess">Această înregistrare a fost adăugata cu succes la favorite</string>
-    <string name="sRemoveFromFavoritesSuccess">Această înregistrare a fost eliminată cu succes de la favorite</string>
-    <string name="sDeleteFavoriteRecordingMsg">Pentru a șterge această înregistrare trebuie sa o elimini întâi de la
-        favorite
-    </string>
-
-    <!--Encryption-->
-    <string name="sFileSuccessfullyEncrypted">Fișierul a fost criptat cu succes</string>
-    <string name="sFileSuccessfullyDecrypted">Fișierul a fost decriptat cu succes</string>
-    <string name="sEncrypting">Criptare</string>
-    <string name="sDecrypting">Decriptare</string>
-    <string name="sEncrypted">Criptate</string>
-    <string name="wrong_password">Parolă greșită</string>
-
-    <!--Main screen warnings-->
-    <string name="sAvailableFreeSpace">Spațiu redus: %s</string>
-    <string name="sReadWriteErr">Fișierul sistem trebuie montat ca scriere/citire.</string>
-    <string name="sAlsaIsNotInstalledMsg">Alsa nu este instalat. Apasă aici pentru instalare.</string>
-    <string name="sPhoneMustBeRootedWarning">Terminalul trebuie să dețină permisiunea de ROOT. Apasă lung aici pentrua
-        ascunde acest mesaj.
-    </string>
-    <string name="sStandardAPITip">Dacă înregistrarea apelului nu funcționează, încearcă fiecare sursă audio în
-        Preferințele Standard Android API. Apasă lung aici pentru a ascunde acest mesaj.
-    </string>
-
-    <!--Toasts-->
-    <string name="sLoggerMustBeEnabledToast">Logger în ROM-ul dvs trebuie activat!</string>
-    <string name="sFileWasDeletedToast">fișierul a fost șters</string>
-
-    <!--Action bar-->
-    <string name="action_search">Caută</string>
-    <string name="sSizeRecords">înregistrări: %1$s, size: %2$s</string>
-    <string name="sFreeOf">liber</string>
-
-    <!--Tasks screen-->
-    <string name="section_tasks">Sarcini</string>
-    <string name="sInProgress">În progres (%s)</string>
-    <string name="sInQueue">La rând</string>
-
-    <!--Get Info dialog-->
-    <string name="file_name">Nume fișier</string>
-    <string name="sample_rate_hz">Hz</string>
-    <string name="file_size">Dimensiune fișier</string>
-    <string name="button_edit">Editare</string>
-
-    <!--Edit Info dialog-->
+    <!-- List -> Get info dialog -> Edit -->
     <string name="contact_name">Nume contact</string>
     <string name="phone_number">Număr telefon</string>
 
-    <!--Description for file name pattern-->
-    <string name="pattern_contact_name">nume contact</string>
-    <string name="pattern_phone_number">număr telefon</string>
-    <string name="pattern_call_time">timp apel</string>
-    <string name="sCallTimestamp">secvență timp apel</string>
-    <string name="pattern_call_type">tip de apel (ieșire sau intrare)</string>
+    <!-- List -> Confirm delete dialog -->
+    <string name="confirm_delete_message">Ești sigur că vrei să ștergi această înregistrare?</string>
+    
+    
 
-    <!--Description for time pattern-->
-    <string name="time_pattern_hours">ore</string>
-    <string name="time_pattern_minutes">minute</string>
-    <string name="time_pattern_seconds">secunde</string>
-    <string name="time_pattern_days">zile</string>
-    <string name="time_pattern_months">luni</string>
-    <string name="time_pattern_years">ani</string>
-    <string name="pattern_example">Exemplu</string>
+    <!-- List -> Share -->
+    
+    <string name="recorded_calls">Apeluri înregistrate</string>
 
-    <!--Trial expired dialog-->
-    <string name="sTrialPeriodExpired">Perioada de probă a expirat</string>
-    <string name="sTrialPeriodExpiredMsg">Vă rog, dezinstalați această versiune înainte de achiziționarea versiunii
-        complete
-    </string>
-    <string name="sBuy">Cumpără</string>
-
-    <!--New settings-->
-    <string name="action_settings">Setări</string>
-    <string name="section_help">Ajutor</string>
-
-    <!--Main settings-->
-    <string name="buy_full_version">Cumpără versiunea completă</string>
-    <string name="buy_full_version_summary">Versiunea curentă va expira pe %s</string>
-    <string name="sCallRecorderUpdater">Actualizare CallRecorder</string>
+    <!--  Settings -> Headers -->
     <string name="settings_recording">Înregistrare</string>
     <string name="settings_folders_and_files">Directoare și fișiere</string>
     <string name="settings_ui_and_appearance">Interfață și Aspect</string>
-    <string name="cloud_provider_dropbox">Dropbox</string>
     <string name="settings_security">Securitate</string>
+    
     <string name="settings_audio_player">Player audio</string>
-    <string name="sExperimentalSettings">Experimental</string>
     <string name="settings_debug">Debug</string>
     <string name="settings_about">Despre</string>
 
-    <!--General-->
-    <string name="sGeneralSettingsCategory">General</string>
-    <string name="sOtherSettingsCategory">Altele</string>
-    <string name="sAdvancedSettingsCategory">Avansat</string>
-    <string name="category_wav_settings">Setări WAV</string>
-    <string name="category_main">Principal</string>
+    <!-- Settings -> License -->
+    <string name="license_status">Status licență</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="license_trial">Versiunea trial va expira pe %s</string>
+    
+    
+    
+    
+    
+    
 
+    <string name="buy_full_version">Cumpără versiunea completă</string>
+    <string name="buy_full_version_summary">Versiunea curentă va expira pe %s</string>
 
-    <!--Buy full version-->
-    <string name="sOpenPlayStore">Deschide Play Store</string>
-
-    <!--CallRecorder Updater-->
-    <string name="sOpenCallRecorderUpdater">Deschide CallRecorder Updater</string>
-
-    <!--Recording-->
+    <!-- Settings -> Recording -->
     <string name="recording_calls_switch">Înregistrare apeluri</string>
+    <string name="category_main">Principal</string>
     <string name="device">Dispozitiv</string>
-    <string name="device_other">Altele</string>
     <string name="select_your_device">Selectați dispozitivul dumneavoastră</string>
-    <string name="sAudioFormatSettingsCategory">Format audio</string>
-    <string name="sCallRecordingFormat">Formatul fisierelor apelului înregistrat</string>
-    <string name="sMethodSettingsCategory">Metode</string>
-    <string name="sKernelSettings">Kernel</string>
-    <string name="sKernelSettingsSummary">Setări pentru kernel cu suport înregistrare</string>
+    
+    
+    
+    <string name="device_other">Altele</string>
+    <string name="recording_method">Metodă înregistrare</string>
     <string name="recording_method_api">Standard API</string>
     <string name="recording_method_api_settings">Setări pentru Standard API înregistrare</string>
-    <string name="recording_method_alsa">ALSA</string>
-    <string name="recording_method_alsa_settings">Setări pentru ALSA înregistrare</string>
-    <string name="recording_method">Metodă înregistrare</string>
     <string name="recording_method_caf">CAF</string>
     <string name="recording_method_caf_settings">Setări pentru înregistrarea CAF</string>
-    <string name="volume_control">Control volum</string>
-    <string name="recording_mode">Mod înregistrare</string>
-    <string name="recording_type_mono">Mono</string>
-    <string name="recording_type_stereo">Stereo</string>
-
-    <!--Recording methods array-->
-    <string name="sRecordingMethodKernel">Kernel (root necesar)</string>
-    <string name="sRecordingMethodStandardAPI">Standard API</string>
-    <string name="sRecordingMethodALSA">ALSA (root necesar)</string>
-    <string name="sRecordingMethodCAF">CAF (root necesar)</string>
-
-    <!--Recording audio formats-->
-    <string name="recording_format_wav">WAV</string>
-    <string name="recording_format_amr">AMR</string>
-    <string name="recording_format_aac">AAC</string>
-    <string name="s3GPP">3GPP</string>
-    <string name="recording_format_mp3">MP3</string>
-
-    <!--Recording behavior-->
-    <string name="after_call_actions_dialog">Acțiune dialog După-apel</string>
-    <string name="after_call_actions_dialog_summary">Întreabă ce să fac după un apel</string>
-    <string name="call_confirm">Confirmare apel</string>
-    <string name="call_confirm_summary">Arată dialog confirmare înainte de apel</string>
-    <string name="sDefaultAction">Acțiune implicită</string>
-    <string name="action_for_outgoing">Acțiune pentru apeluri efectuate</string>
+    <string name="recording_method_alsa">ALSA</string>
+    <string name="recording_method_alsa_settings">Setări pentru ALSA înregistrare</string>
+    
+    
+    <string name="category_actions">Acțiuni</string>
     <string name="action_for_incoming">Acțiune pentru apeluri primite</string>
-    <string name="delay_before_start_recording">Întârziere înainte de a înregistra</string>
-    <string name="sIncomingCalls">Apeluri primite</string>
-    <string name="sOutgoingAndIncomingCalls">Apeluri efectuate si primite</string>
-    <string name="sOutgoingCalls">Apeluri efectuate</string>
-    <string name="vibrate_on_call">Vibrează când apelul este început/finalizat</string>
-
-    <!--Actions-->
+    <string name="action_for_outgoing">Acțiune pentru apeluri efectuate</string>
     <string name="action_record_all">Înregistrez toate</string>
     <string name="action_do_not_record">Nu înregistez</string>
     <string name="action_record_contacts">Înregistrez contacte</string>
     <string name="action_record_non_contacts">Înregistrez non-contacte</string>
-
-    <!--Recording -> Exceptions-->
+    <string name="call_confirm">Confirmare apel</string>
+    <string name="call_confirm_summary">Arată dialog confirmare înainte de apel</string>
+    <string name="after_call_actions_dialog">Acțiune dialog După-apel</string>
+    <string name="after_call_actions_dialog_summary">Întreabă ce să fac după un apel</string>
+    <string name="vibrate_on_call">Vibrează când apelul este început/finalizat</string>
     <string name="exceptions">Excepții</string>
-    <string name="sAddGroup">Adăugare grup</string>
-    <string name="sAdd">Adăugare</string>
-    <string name="exception_group">Grup</string>
-    <string name="exception_select_group">Selectare grup</string>
-    <string name="exception_select_action">Selectare acțiune</string>
-    <string name="sChangeAction">Schimbare acțiune</string>
-    <string name="exception_action_always_record">Înregistrează întotdeauna</string>
-    <string name="exception_action_never_record">Nu înregistrează niciodată</string>
-    <string name="sPressMenuToAddException">Apasă \'menu\'w pentru a adăuga o excepție</string>
-
-    <!--Recording -> Kernel-->
-    <string name="chipset_type">Tip Chipset</string>
-    <string name="chipset_type_msm72xx">Qualcomm MSM72XX</string>
-    <string name="chipset_type_msm8250">Qualcomm MSM8250</string>
-    <string name="chipset_type_msm8255">Qualcomm MSM8255</string>
-    <string name="chipset_type_msm8260">Qualcomm MSM8260</string>
-    <string name="sSoundBoost">Sunet ridicat</string>
-    <string name="sUplinkBoost">Uplink ridicat</string>
-    <string name="sDownlinkBoost">Downlink ridicat</string>
-    <string name="dont_use_amr_driver">Nu folosește driver AMR</string>
-    <string name="dont_use_amr_driver_summary">Folosește în timp real din WAV în AMR, în loc</string>
-
-    <!--Recording -> Standard API-->
-    <string name="api_audio_source">Sursă audio</string>
-    <string name="sWhenBTConnected">Când BT conectat...</string>
-    <string name="sBTEnabledMeansBTConnected">BT activat înseamnă BT conectat</string>
-    <string name="sBTEnabledMeansBTConnectedSummary">După activare adaptor BT folosesc aceleași setări ca la BT
-        conectat
-    </string>
-    <string name="sAudioSourceWhenBTConnected">Sursă audio când BT conectat</string>
-    <string name="sample_rate">Rată eșantion</string>
+    
+    
+    
+    <string name="delay_before_start_recording">Întârziere înainte de a înregistra</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="recording_format_wav">WAV</string>
+    <string name="recording_format_amr">AMR</string>
+    <string name="recording_format_aac">AAC</string>
+    <string name="recording_format_mp3">MP3</string>
+    <string name="volume_control">Control volum</string>
+    
+    
+    
+    
+    
     <string name="sample_rate_8000">8000 Hz (Default)</string>
     <string name="sample_rate_11025">11025 Hz</string>
     <string name="sample_rate_16000">16000 Hz</string>
     <string name="sample_rate_22050">22050 Hz</string>
     <string name="sample_rate_44100">44100 Hz</string>
     <string name="sample_rate_48000">48000 Hz</string>
-    <string name="sSampleRateWarning">Unele rate ar putea să nu fie acceptate de sistem</string>
 
-    <!--Audio sources of Standard API array-->
+    <!-- Settings -> Recording -> Standard API -->
+    <string name="api_audio_source">Sursă audio</string>
     <string name="api_source_uplink_downlink">Apel vocal uplink + downlink</string>
     <string name="api_source_downlink">Apel vocal downlink</string>
     <string name="api_source_uplink">Apel vocal uplink</string>
     <string name="api_source_microphone">Microfon</string>
     <string name="api_source_default">Implicit</string>
     <string name="api_source_voice_communication">Comunicare voce</string>
+    <string name="category_wav_settings">Setări WAV</string>
+    
 
-    <!--Actions on BT connected array-->
-    <string name="sOnBTConnectedActionDoNothing">Nu fac nimic</string>
-    <string name="sOnBTConnectedActionSwitchAudioSource">Schimbă sursa audio</string>
-    <string name="sOnBTConnectedActionDisableRecording">Dezactivare înregistrare</string>
+    <!-- Settings -> Recording -> CAF -->
+    <string name="recording_mode">Mod înregistrare</string>
 
-    <!--Recording -> ALSA-->
-    <string name="sAlsa">Alsa</string>
-    <string name="sAlsaIsInstalled">Alsa este instalat</string>
+    <!-- Settings -> Recording -> ALSA -->
+    
+    
 
-    <!--Folders and Files-->
-    <string name="sRescan">Rescanare</string>
-    <string name="sRescanSummary">Rescanare director pentru împrospătare înregistrări</string>
-    <string name="sFolderSettingsCategory">Director</string>
+    <!-- Settings -> Recording -> MSM -->
+    <string name="chipset_type">Tip Chipset</string>
+    <string name="chipset_type_msm72xx">Qualcomm MSM72XX</string>
+    <string name="chipset_type_msm8250">Qualcomm MSM8250</string>
+    <string name="chipset_type_msm8255">Qualcomm MSM8255</string>
+    <string name="chipset_type_msm8260">Qualcomm MSM8260</string>
+    <string name="dont_use_amr_driver">Nu folosește driver AMR</string>
+    <string name="dont_use_amr_driver_summary">Folosește în timp real din WAV în AMR, în loc</string>
+
+    <!-- Settings -> Recording -> Exceptions -->
+    
+    <string name="exception_group">Grup</string>
+    <string name="exception_select_group">Selectare grup</string>
+    
+    
+    
+    
+    <string name="exception_select_action">Selectare acțiune</string>
+    <string name="exception_action_always_record">Înregistrează întotdeauna</string>
+    <string name="exception_action_never_record">Nu înregistrează niciodată</string>
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- Settings -> Folders and Files -->
     <string name="folder">Director</string>
+    
     <string name="automatic_cleanup">Golire automată</string>
     <string name="max_number_of_files">Numărul maxim de fișiere</string>
     <string name="max_number_of_files_message">Introdu un numar (0 - fară limită)</string>
@@ -332,239 +229,160 @@
     <string name="max_age_of_recordings">Perioada maximă a înregistrărilor</string>
     <string name="max_age_of_recordings_message">Introdu o valoare a zilelor (0 - fară limită)</string>
     <string name="current_setting">Setări curente: %s</string>
-    <string name="sFileNameSettingsCategory">Nume fișier</string>
+    
     <string name="filename_pattern">Model</string>
     <string name="time_pattern">Model timp</string>
 
-    <!--Interface and Appearance-->
+    <!-- Description for filename pattern -->
+    <string name="pattern_contact_name">nume contact</string>
+    <string name="pattern_phone_number">număr telefon</string>
+    <string name="pattern_call_time">timp apel</string>
+    
+    <string name="pattern_call_type">tip de apel (ieșire sau intrare)</string>
+    <string name="time_pattern_hours">ore</string>
+    <string name="time_pattern_minutes">minute</string>
+    <string name="time_pattern_seconds">secunde</string>
+    <string name="time_pattern_days">zile</string>
+    <string name="time_pattern_months">luni</string>
+    <string name="time_pattern_years">ani</string>
+    <string name="pattern_example">Exemplu</string>
+
+    <!--Settings -> Interface and Appearance-->
     <string name="language">Limbă</string>
     <string name="select_language">Selectare limbă</string>
-    <string name="sActionBarSettingsCategory">Bară acțiune</string>
-    <string name="sAudioOutputActionBar">Ieșire audio</string>
-    <string name="sAudioOutputActionBarSummary">Arată setări ieșire audio în bara acțiune</string>
-    <string name="incall_control_for_outgoing">Pentru apeluri efectuate</string>
-    <string name="sInCallControlForOutgoingSummary">Control în-apel pentru apeluri efectuate</string>
-    <string name="incall_control_for_incoming">Pentru apeluri primite</string>
-    <string name="sInCallControlForIncomingSummary">Control în-apel pentru apeluri primite</string>
     <string name="category_notification">Notificare</string>
-    <string name="sNotificationIcon">Icoană notificare</string>
     <string name="show_notification">Arată notificări</string>
-    <string name="sShowNotificationSummary">Procesul de prioritate îmbunătățit</string>
-    <string name="sInCallControl">Control in timpul convorbirii</string>
-    <string name="sHangUpAndCallBack">Închide și sună din nou</string>
-    <string name="sHangUpAndCallBackSummary">Pe click lung, închide și sună din nou automat</string>
+    
+    
+    <string name="incall_control_for_outgoing">Pentru apeluri efectuate</string>
+    
+    <string name="incall_control_for_incoming">Pentru apeluri primite</string>
+    
+    
+    
     <string name="show_button_while_ringing">Arată butonul în timp ce sună</string>
-    <string name="show_button_while_ringing_summary">Arată butonul control în timpul convorbirii înainte de a răspunde
-        apelului de intrare
-    </string>
-    <string name="sExcludeFavoritesFromAll">Exclude favorite din ecranul "All"</string>
-    <string name="sExcludeFavoritesFromAllSummary">Exclude favorite din ecranul cu toate înregistrările</string>
+    <string name="show_button_while_ringing_summary">Arată butonul control în timpul convorbirii înainte de a răspunde apelului de intrare</string>
     <string name="vertical_position">Poziție verticală</string>
+    
     <string name="horizontal_position">Poziție orizontală</string>
-    <string name="sVerticalOffset">Ecart de la marginea verticală</string>
-    <string name="sVerticalOffsetSummary">Un ecart de la marginea selectată în poziţia verticală aliniată (superior sau
-        inferior)
-    </string>
-    <string name="sHorizontalOffset">Ecart față de marginea orizontală</string>
-    <string name="sHorizontalOffsetSummary">Un ecart de la marginea selectată în alinierea orizontală (stânga sau
-        dreapta)
-    </string>
-    <string name="sLowSpaceWarning">Avertizare spațiu redus</string>
-    <string name="sLowSpaceWarningSummary">Stabilește un prag minim de spațiu înainte de avertizarea de spațiu redus, în
-        megabytes
-    </string>
-    <string name="sMainScreen">Ecranul principal</string>
-    <string name="sHideInCallControlButton">Ascunde butonul control în-apel</string>
-    <string name="sHideInCallControlButtonSummary">Ascunde butonul control în-apel dacă apelul este înregistrat</string>
-    <string name="sDontShowInCallButton">Nu arăta butonul înainte de conexiune</string>
+    
+    
     <string name="hide_button_before_answer_summary">Nu arăta butonul in-call pâna când este stabilită conexiunea</string>
-    <string name="sLanguageDefault">Implicit</string>
 
-    <!--Vertical aligns array-->
-    <string name="sVerticalAlignTop">Sus</string>
-    <string name="sVerticalAlignBottom">Jos</string>
-
-    <!--Horizontal aligns array-->
-    <string name="sHorizontalAlignLeft">Stânga</string>
-    <string name="sHorizontalAlignRight">Dreapta</string>
-
-    <!--Notification icons array-->
-    <string name="sNotificationIconDefault">Implicit</string>
-    <string name="sNotificationIconGreenNew">Verde (nou)</string>
-    <string name="sNotificationIconGreenOld">Verde (vechi)</string>
-    <string name="sNotificationIconGray">Gri</string>
-
-    <!--Dropbox-->
-    <string name="sDropboxLogin">Login</string>
-    <string name="sDropboxLogout">Logout</string>
-
+    <!-- Settings -> Cloud -->
+    
+    <string name="cloud_provider_dropbox">Dropbox</string>
+    
+    
+    
+    
     <string name="cloud_wifi_only">Doar Wi-Fi</string>
     <string name="cloud_auto_upload">Upload automat</string>
-    <string name="sCloudUploadFavorites">Upload favorite</string>
-    <string name="sCloudUploadFavoritesSummary">Upload înregistrari în Dropbox când le adaugi în favorite</string>
     <string name="cloud_auto_upload_summary">Upload înregistrare imediat după apel</string>
-    <string name="menu_add_to_dropbox">Adaugă in Dropbox</string>
+    
+    
 
-    <!--Security-->
-    <string name="category_encryption">Criptare</string>
-    <string name="sKeyNotFound">Cheia nu a fost gasită</string>
-    <string name="sCreate">Creare</string>
-    <string name="create_new_key">Creare cheie nouă</string>
+    <!-- Notification -->
+    
+    
+
+    <!-- Password dialog -->
+    <string name="wrong_password">Parolă greșită</string>
     <string name="enter_password">Introdu parola</string>
-    <string name="sReEnterPassword">Re-introdu parola</string>
-    <string name="aes_128bit">128-bit AES (Cel mai rapid)</string>
-    <string name="aes_192bit">192-bit AES (Balansat)</string>
-    <string name="aes_256bit">256-bit AES (Cel mai puternic)</string>
+    <string name="password_has_been_changed">Parola a fost schimbată</string>
+
+    <!-- Settings -> Security -->
+    <string name="category_encryption">Criptare</string>
     <string name="category_application">Aplicație</string>
-    <string name="app_admin">App Admin</string>
-    <string name="sAppAdminSummary">Necesar pentru a preveni dezinstalarea CallRecorder</string>
-    <string name="sAppAdminExplanation">CallRecorder nu folosește nicio trăsătură de administrator a dispozitivului cu
-        excepția protejării dezinstalării
-    </string>
+    <string name="create_new_key">Creare cheie nouă</string>
+    
+    
     <string name="change_password">Schimbă parola</string>
+    
+    
     <string name="enter_old_password">Introdu vechea parolă</string>
     <string name="enter_new_password">Introdu noua parolă</string>
     <string name="re_enter_new_password">Re-introdu noua parolă</string>
     <string name="require_password">Necesită parolă</string>
     <string name="require_password_summary">Necesită parolă pentru a deschide aplicația</string>
+    
     <string name="lock_after">Blochează după</string>
     <string name="lock_after_exit">Ieșire</string>
     <string name="lock_after_1_minute">1 min</string>
     <string name="lock_after_3_minutes">3 min</string>
     <string name="lock_after_5_minutes">5 min</string>
     <string name="lock_after_10_minutes">10 min</string>
-    <string name="password_has_been_changed">Parola a fost schimbată</string>
+    <string name="app_admin">App Admin</string>
+    
+    
+    <string name="aes_128bit">128-bit AES (Cel mai rapid)</string>
+    <string name="aes_192bit">192-bit AES (Balansat)</string>
+    <string name="aes_256bit">256-bit AES (Cel mai puternic)</string>
 
-    <!--Audio player-->
-    <string name="sUseDefaultPlayer">Folosește player implicit</string>
+    <!-- Settings -> Audio player -->
+    
     <string name="audio_output">Ieșire audio</string>
+    
+    <string name="main_speaker">Difuzor principal</string>
+    <string name="phone_speaker">Cască</string>
+    <string name="use_proximity_sensor">Utilizare senzor de proximitate</string>
+    
+    <string name="switch_audio_output">Schimbă ieșirea audio</string>
+    
     <string name="android_wav_decoder">Decodor Android pentru WAV</string>
     <string name="android_wav_decoder_summary">Folosește unealta internă Android pentru a reda WAV</string>
     <string name="android_amr_decoder">Decodor Android pentru AMR</string>
     <string name="android_amr_decoder_summary">Folosește unealta internă Android pentru redare AMR</string>
-    <string name="switch_audio_output">Schimbă ieșirea audio</string>
-    <string name="SwitchAudioOutputSummary">Schimbă sursa audio automat dacă ecranul este activat/dezactivat de catre
-        senzorul de proximitate
-    </string>
-    <string name="use_proximity_sensor">Utilizare senzor de proximitate</string>
-    <string name="sUseProximitySensorSummary">Utilizare senzor de proximitate pentru a dezactiva ecranul în timp ce
-        ascultaţi o înregistrare (ROOTeste necesar)
-    </string>
 
-    <!--Audio output array-->
-    <string name="main_speaker">Difuzor principal</string>
-    <string name="phone_speaker">Cască</string>
-
-    <!--Experimental-->
-    <string name="sConvertAfterCall">Convertește după apel</string>
-    <string name="sDontConvert">Nu convertește</string>
-    <string name="sWavToMp3">din WAV în MP3</string>
-    <string name="sWavToAmr">din WAV în AMR</string>
-
-    <!--Debug-->
-    <string name="sDetailedLogs">Log-uri detaliate</string>
+    <!--Settings -> Debug-->
     <string name="root_access">Acces root</string>
     <string name="root_access_no">Nu</string>
     <string name="root_access_yes">Da</string>
-    <string name="sLogsSettingsCategory">Log-uri</string>
-    <string name="sSendLogsToTheDeveloper">Trimite log-uri către programator</string>
-    <string name="sUseGzipToCompressLogs">Folosește gzip pentru a comprima log-urile</string>
-    <string name="sRecordOnNotificationClick">Înregistrează la click pe notificare</string>
-    <string name="sRecordOnNotificationClickSummary">Nu face click pe notificare înainte de stabilirea conexiunii
-    </string>
-    <string name="sHideNotificationDuringCall">Ascunde notificarea în timpul apelului</string>
-    <string name="sHideNotificationDuringCallSummary">Nu activa, este doar pentru service developer</string>
     <string name="dual_sim_phone">Telefon Dual Sim</string>
-    <string name="dual_sim_phone_summary">Activează aceasta dacă aplicația nu poate determina apelurile de pe al doilea
-        card sim
-    </string>
+    <string name="dual_sim_phone_summary">Activează aceasta dacă aplicația nu poate determina apelurile de pe al doilea card sim</string>
+
+    <!-- General -->
+    <string name="contact_unknown">Necunoscut</string>
+    
+    <string name="button_ok">OK</string>
+    
+    <string name="button_edit">Editare</string>
+    <string name="button_cancel">Anulează</string>
+    
+    
+    
+    
+    
+    
+    
+    <string name="please_wait">Te rog așteaptă...</string>
+    <string name="start_recording">Start înregistrare</string>
+    <string name="stop_recording">Stop înregistrare</string>
+    
+    <string name="switch_on">Pornit</string>
+    <string name="switch_off">Oprit</string>
+
+    <!-- Call confirm dialog -->
+    <string name="call_confirm_record_this_call">Înregistrează acest apel</string>
+    
+
+    <!--Notification-->
+    
+    
+    
+    <string name="an_error_has_occurred">A intervenit o eroare, acest apel nu poate fi înregistrat</string>
 
     <!--About-->
+    
     <string name="version">Versiune</string>
-    <string name="sAboutCallRecorder">Despre CallRecorder</string>
-    <string name="license_status">Status licență</string>
-    <string name="sLicenseStatusVerified">Licență verificată</string>
-    <string name="license_trial">Versiunea trial va expira pe %s</string>
-
     <string name="copyright">Copyright</string>
     <string name="copyright_summary">© %s Alexander Skvortsov (skvalex)</string>
     <string name="about_many_thanks">Multe mulțumiri</string>
     <string name="about_many_thanks_summary">către Alexey Subbotin (avs234)</string>
-    <string name="sGermanTranslation">Traducerea în Germană</string>
-    <string name="sGermanTranslationSummary_ver1">de Marc Hillesheim și Thomas Käfer</string>
-    <string name="sPolishTranslation">Traducerea în Poloneză</string>
-    <string name="sPolishTranslationSummary">de Robert Gonta</string>
-    <string name="sFrenchTranslation">Traducerea în Franceză</string>
-    <string name="sFrenchTranslationSummary">de Julien Boiteux</string>
-    <string name="sBrazilianPortugueseTranslation">Traducerea în Braziliană/Portugheză</string>
-    <string name="sBrazilianPortugueseTranslationSummary">de Luiz Marcelo Serique</string>
-    <string name="sSpanishTranslation">Traducerea în Spaniolă</string>
-    <string name="sSpanishTranslationSummary_ver1">de Iñigo Garcia and Diego Vilas</string>
-    <string name="sSlovakTranslation">Traducerea în Slovacă</string>
-    <string name="sSlovakTranslationSummary">de Loránt Gerencsér</string>
-    <string name="sItalianTranslation">Traducere în Italiană</string>
-    <string name="sItalianTranslationSummary">de Luca Trevisan</string>
-    <string name="sPersianTranslation">Traducerea in Persană</string>
-    <string name="sPersianTranslationSummary_v2">de Alireza Afkar</string>
-    <string name="sChineseTranslation">Traducerea in Chineză</string>
-    <string name="sChineseTranslationSummary">de qhq</string>
-    <string name="sCzechTranslation">Tradicerea in Cehă</string>
-    <string name="sCzechTranslationSummary_ver2">de Ales Kerner and Lukas Waldauf</string>
-    <string name="sArabicTranslation">Traducerea în Arabă</string>
-    <string name="sArabicTranslationSummary">de Ausama S. Ibrahim</string>
-    <string name="sHebrewTranslation">Traducerea în Ebraică</string>
-    <string name="sHebrewTranslationSummary">de NuFlood</string>
-    <string name="sHungarianTranslation">Traducerea Maghiară</string>
-    <string name="sHungarianTranslationSummary_ver2">de Szalay Levente and Miklós Toldi</string>
-    <string name="sDutchTranslation">Traducerea în Olandeză</string>
-    <string name="sDutchTranslationSummary">de Elroy Tirbeni</string>
-    <string name="sTurkishTranslation">Traducerea în Turcă</string>
-    <string name="sTurkishTranslationSummary">de Omer Ilik</string>
-    <string name="sSerbianTranslation">Traducerea în Sârbă</string>
-    <string name="sSerbianTranslationSummary">de sHAKaJaada</string>
-    <string name="sKoreanTranslation">Traducerea în Coreeană</string>
-    <string name="sKoreanTranslationSummary_ver2">de SoHyunSeop and Joon Hee Jo</string>
-    <string name="sRomanianTranslation">Traducerea în Română</string>
-    <string name="sRomanianTranslationSummary">de Dan P. (sad)</string>
-    <string name="sUkrainianTranslation">Traducere în Ucraineană</string>
-    <string name="sUkrainianTranslationSummary">de Gennadi Samoluk</string>
-    <string name="sTraditionalChineseTranslation">Traducerea în Chineză</string>
-    <string name="sTraditionalChineseTranslationSummary_v2">de GPF_kaibird și Chien Jung Liaw</string>
-    <string name="sJapaneseTranslation">Traducera în Japoneză</string>
-    <string name="sJapaneseTranslationSummary">de Akira Tagoh</string>
-    <string name="sSwedishTranslation">Traducerea în Suedeză</string>
-    <string name="sSwedishTranslationSummary">de Johannes Sjölund</string>
-    <string name="sBulgarianTranslation">Traducerea în Bulgară</string>
-    <string name="sBulgarianTranslationSummary">de PROXIMO</string>
-    <string name="sDanishTranslation">Traducerea în Daneză</string>
-    <string name="sDanishTranslationSummary">de Lars Sarauw Hansen</string>
-    <string name="sLatvianTranslation">Trfaducerea în Letonă</string>
-    <string name="sLatvianTranslationSummary">de Arvīds Dreimanis</string>
-    <string name="sThaiTranslation">Traducerea în Tailandeză</string>
-    <string name="sThaiTranslationSummary">de Wuttisak Saichoncharn</string>
-    <string name="sArmenianTranslation">Traducerea în Armeană</string>
-    <string name="sArmenianTranslationSummary">de Konstantin Gevorgyan</string>
-    <string name="sGeorgianTranslation">Traducerea în Georgiană</string>
-    <string name="sGeorgianTranslationSummary">de Alexandre Razmadze</string>
-    <string name="sCatalanTranslation">Traducerea în Catalană</string>
-    <string name="sCatalanTranslationSummary">de cybdani</string>
-    <string name="sHindiTranslation">Traducerea în Hindusă</string>
-    <string name="sHindiTranslationSummary">de TheTAMAS Gautam</string>
-    <string name="sPunjabiTranslation">Traducerea Punjabi</string>
-    <string name="sPunjabiTranslationSummary_ver2">de Raj Verma</string>
-    <string name="sFinnishTranslation">Traducerea în Finlandeză</string>
-    <string name="sFinnishTranslationSummary">de Eero Linnainmaa</string>
 
-    <!--Licenses-->
     <string name="licenses">Licențe</string>
-    <string name="sActionBarSherlockLicense">ActionBarSherlock</string>
-    <string name="sActionBarSherlockLicenseSummary">Utilizează ActionBarSherlock sub Licență Apache Versiune 2.0,apasă
-        aici pentru a vizita actionbarsherlock.com
-    </string>
     <string name="about_open_core_amr_license">opencore-amr</string>
-    <string name="about_open_core_amr_license_summary">Se utilizează opencore-amr sub Licență Apache Version 2.0, apasă aici
-        pentru a vizita opencore-amr.sourceforge.net
-    </string>
+    <string name="about_open_core_amr_license_summary">Se utilizează opencore-amr sub Licență Apache Version 2.0, apasă aici pentru a vizita opencore-amr.sourceforge.net</string>
     <string name="about_alsa">ALSA</string>
     <string name="about_alsa_summary">Utilizează ALSA sub LGPL, apasă aici pentru a vizita alsa-project.org</string>
     <string name="about_lame">LAME</string>

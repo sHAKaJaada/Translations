@@ -1,315 +1,226 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+<?xml version="1.0" encoding="utf-8" standalone="no"?><resources>
     <string name="app_name">مسجل المكالمة</string>
-    <!--Rules array-->
-    <string name="sRuleDescription">انا قرأت و فهمت شرح البرنامج</string>
-    <string name="sRulePlayStore">انا فهمت ان المبرمج لا يستطيع ان يجيب على رسائل سوق البرامج</string>
-    <string name="sRuleUseOfProgram">انا فهمت ان المبرمج غير مسئول عن عن طريقة استخدام البرنامج. انا استخدم البرنامج على
-        مسؤوليتي
-    </string>
-    <string name="sRuleLaw">انا متأكد تماما بأنني لا اخالف قانون دولتي بإستعمالي لهذا البرنامج</string>
-    <string name="sRuleNotWorking">اذا لم يعمل التسجيل في هذا الجهاز سأقرأ كيفية عمل البرنامج مرة اخرى و اذا لم
-        بعملسأراسل المبرمج
-    </string>
+    
+    
 
-    <!--Notification-->
-    <string name="sRecordingIsRunning">خدمة تسجيل المكالمات تعمل</string>
-    <string name="sThisCallIsRecording">يتم تسجيل المكالمة الحالية</string>
-    <string name="an_error_has_occurred">حدث خطأ, لا يمكن تسجيل المكالمة</string>
-    <string name="sEncodingError">حدث خطأ اثناء التشفير</string>
-    <string name="start_recording">بدء التسجيل</string>
-    <string name="stop_recording">ايقاف التسجيل</string>
+    <!-- Navigation drawer -->
+    
+    
 
-    <!--List with recordings-->
+    <!-- Navigation drawer sections -->
+    
+    
+    <string name="section_incoming">واردة</string>
+    <string name="section_outgoing">صادرة</string>
+    
+    
+    
+    <string name="section_help">مساعدة</string>
+    <string name="section_tasks">مهمات</string>
+    
     <string name="empty_hint">فارغ</string>
-    <string name="contact_unknown">غير معروف</string>
 
-    <!--Actions on recording-->
-    <string name="category_actions">اجراءات</string>
-    <string name="sFilterThisNumber">رشّح هذا الرقم</string>
-    <string name="sAddToFavorites">اضافة الى المفضلة</string>
-    <string name="sRemoveFromFavorites">حذف من المفضلة</string>
-    <string name="sAddToContacts">إضافة إلى جهات الاتصال</string>
-    <string name="sOpenContact">فتح جهة اتصال</string>
-    <string name="sCall">مكالمة</string>
-    <string name="sNote">ملاحظة</string>
-    <string name="sConvertToMp3">تحويل الى MP3</string>
-    <string name="sConvertToAmr">حول الى AMR</string>
-    <string name="sRenameFile">تغيير اسم الملف</string>
+    <!-- Action bar -->
+    <string name="action_search">يحث</string>
+    
+    <string name="action_settings">إعدادات</string>
+    
+    
+    
+    
+    
+    <string name="action_select_all">اختيار الكل</string>
+    
+    
+    
+
+    <!-- List -->
+    
+    
+    
+    
+
+    <!-- List -> Context menu -->
+    <string name="menu_add_to_dropbox">اظافة الى DropBox</string>
+    
+    
+    <string name="menu_delete">حذف</string>
+    
+    
+    
     <string name="menu_get_info">احصل على المعلومات</string>
+    
     <string name="menu_encrypt">شفرة</string>
     <string name="menu_decrypt">فك شفرة</string>
 
-    <!--Actions on selected recordings-->
-    <string name="action_select_all">اختيار الكل</string>
-    <string name="sSelectNone">الغاء الأختيارات</string>
-
-    <!--General-->
-    <string name="sSend">ارسل</string>
-    <string name="sSendVia">إرسال عبر</string>
-    <string name="menu_delete">حذف</string>
-    <string name="button_cancel">الغاء</string>
-    <string name="button_ok">تم</string>
-    <string name="sSeconds">ثانية</string>
-    <string name="sDisabled">معطل</string>
-    <string name="sYes">نعم</string>
-    <string name="sNo">كلا</string>
+    <!-- List -> Get info dialog -->
+    <string name="file_name">اسم الملف</string>
+    <string name="sample_rate">معدل الترميز</string>
+    <string name="sample_rate_hz">هيرتز</string>
+    
+    
+    
+    <string name="file_size">حجم الملف</string>
     <string name="terabyte">تيرا بايت</string>
     <string name="gigabyte">كيكا بايت</string>
     <string name="megabyte">ميغابايت</string>
     <string name="kilobyte">كيلوبايت</string>
     <string name="bytes">بايت</string>
-    <string name="please_wait">الرجاء انتظار &#8230;</string>
-    <string name="switch_on">تشغيل</string>
-    <string name="switch_off">اطفاء</string>
+    
 
-    <!--Tabs-->
-    <string name="section_incoming">واردة</string>
-    <string name="section_outgoing">صادرة</string>
-    <string name="sFavorites">المفضلة</string>
-    <string name="sAll">الكل</string>
-
-    <!--Send recordings-->
-    <string name="recorded_calls">المكالمات المسجلة</string>
-    <string name="sIncoming">وارد</string>
-    <string name="sOutgoing">صادر</string>
-
-    <!--Dialog after call-->
-    <string name="sDlgDeleteMsg">إبقاء أو حذف المكالمة المسجلة؟</string>
-    <string name="sKeep">ابقاء</string>
-    <string name="sDropboxAdded">أظيف</string>
-
-    <!--Delete confirmation dialog-->
-    <string name="sDeleteFiles">حذف الملفات</string>
-    <string name="confirm_delete_message">هل أنت متأكد من أنك تريد حذف هذا التسجيل؟</string>
-    <string name="sDlgDeleteSelectionMsg">قمت بتحديد %d ملفات. هل أنت متأكد أنك تريد حذفها؟</string>
-    <string name="sFilesDeletedToast">%d ملفات حذفت</string>
-
-    <!--Call confirm dialog-->
-    <string name="call_confirm_record_this_call">سجل هذه المكالمة</string>
-
-    <!--Dialog about law-->
-    <string name="sWarning">تحذير</string>
-    <string name="sMsgAboutLaw">تسجيل المكالمات في بعض البلدان غير قانوني. هل أنت متأكد أنك تعيش في بلد حيث
-        تسجيلالمكالمات هو قانوني؟
-    </string>
-
-    <!--Rules dialog-->
-    <string name="sRules">احكام</string>
-    <string name="sIAgree">اوافق</string>
-    <string name="sIDisagree">لا اوافق</string>
-
-    <!--Main screen toasts-->
-    <string name="sAddToFavoritesSuccess">تمت إضافة هذا التسجيل بنجاح الى المفضلة</string>
-    <string name="sRemoveFromFavoritesSuccess">تم إزالة هذا التسجيل من المفضلة بنجاح</string>
-    <string name="sDeleteFavoriteRecordingMsg">لحذف هذا التسجيل يجب إزالته من قائمة المفضلة</string>
-
-    <!--Encryption-->
-    <string name="sFileSuccessfullyEncrypted">تم تشفير الملف بنجاح</string>
-    <string name="sFileSuccessfullyDecrypted">تم فك تشفير الملف بنجاح</string>
-    <string name="sEncrypting">تشفير</string>
-    <string name="sDecrypting">فك شفرة</string>
-    <string name="sEncrypted">مشفر</string>
-
-    <!--Main screen warnings-->
-    <string name="sAvailableFreeSpace">مساحة منخفضة %s</string>
-    <string name="sReadWriteErr">يجب أن يتم تنظيم الملفات للقراءة / الكتابة.</string>
-    <string name="sAlsaIsNotInstalledMsg">Alsa غير مثبت. انقر هنا للتثبيت</string>
-    <string name="sPhoneMustBeRootedWarning">يجب أن تمكين ROOT الى هاتفك. انقر مطولا لإغلاق هذه الرسالة.</string>
-    <string name="sStandardAPITip">إذا كان تسجيل المكالمات لا يعمل فحاول كل مصدر للصوت في واجهة تفضيلات API
-        المعيارية.انقر مطولا لإغلاق هذه الرسالة.
-    </string>
-
-    <!--Toasts-->
-    <string name="sLoggerMustBeEnabledToast">السجلات في رومكيرنيل جهازك يجب ان تكون مفعلة</string>
-    <string name="sFileWasDeletedToast">الملف تم حذفه</string>
-
-    <!--Action bar-->
-    <string name="action_search">يحث</string>
-    <string name="sSizeRecords">تسجيلات: %1$s, حجم: %2$s</string>
-    <string name="sFreeOf">خالية من</string>
-
-    <!--Tasks screen-->
-    <string name="section_tasks">مهمات</string>
-    <string name="sInProgress">العملية جارية %s</string>
-    <string name="sInQueue">في قائمة الانتظار</string>
-
-    <!--Get Info dialog-->
-    <string name="file_name">اسم الملف</string>
-    <string name="sample_rate_hz">هيرتز</string>
-    <string name="file_size">حجم الملف</string>
-    <string name="button_edit">تنقيح</string>
-
-    <!--Edit Info dialog-->
+    <!-- List -> Get info dialog -> Edit -->
     <string name="contact_name">اسم الشخص</string>
     <string name="phone_number">رقم التليفون</string>
 
-    <!--Description for file name pattern-->
-    <string name="pattern_contact_name">اسم جهة الاتصال</string>
-    <string name="pattern_phone_number">رقم الهاتف</string>
-    <string name="pattern_call_time">وقت الاتصال</string>
-    <string name="sCallTimestamp">وقت المكالمات</string>
-    <string name="pattern_call_type">نوع المكالمة (خارجة داخلة )</string>
+    <!-- List -> Confirm delete dialog -->
+    <string name="confirm_delete_message">هل أنت متأكد من أنك تريد حذف هذا التسجيل؟</string>
+    
+    
 
-    <!--Description for time pattern-->
-    <string name="time_pattern_hours">ساعات</string>
-    <string name="time_pattern_minutes">دقائق</string>
-    <string name="time_pattern_seconds">ثواني</string>
-    <string name="time_pattern_days">ايام</string>
-    <string name="time_pattern_months">اشهر</string>
-    <string name="time_pattern_years">سنوات</string>
-    <string name="pattern_example">مثال:</string>
+    <!-- List -> Share -->
+    
+    <string name="recorded_calls">المكالمات المسجلة</string>
 
-    <!--Trial expired dialog-->
-    <string name="sTrialPeriodExpired">انتهت الفترة التجريبية</string>
-    <string name="sTrialPeriodExpiredMsg">الرجاء، ارفع تنصيب هذه النسخة قبل شراء النسخة الكاملة</string>
-    <string name="sBuy">شراء</string>
-
-    <!--New settings-->
-    <string name="action_settings">إعدادات</string>
-    <string name="section_help">مساعدة</string>
-
-    <!--Main settings-->
-    <string name="buy_full_version">شراء النسخة الكاملة</string>
-    <string name="buy_full_version_summary">يتوقف عمل النسخة الحالية في %s</string>
-    <string name="sCallRecorderUpdater">محدث برنامج مسجل المكالمات</string>
+    <!--  Settings -> Headers -->
     <string name="settings_recording">تسجيل</string>
     <string name="settings_folders_and_files">ملفات و مجلدات</string>
     <string name="settings_ui_and_appearance">واجهة و مظهر</string>
-    <string name="cloud_provider_dropbox">موقع DropBox</string>
     <string name="settings_security">حماية البرنامج</string>
+    
     <string name="settings_audio_player">مشغل الصوت</string>
-    <string name="sExperimentalSettings">تجريبي</string>
     <string name="settings_debug">تصحيح</string>
     <string name="settings_about">عن</string>
 
-    <!--General-->
-    <string name="sGeneralSettingsCategory">عام</string>
-    <string name="sOtherSettingsCategory">اخرى</string>
-    <string name="sAdvancedSettingsCategory">خيارات متقدمة</string>
-    <string name="category_wav_settings">خيارات الصوت WAV</string>
-    <string name="category_main">الخيارات الرئيسية</string>
+    <!-- Settings -> License -->
+    <string name="license_status">حالة الرخصة</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="license_trial">النسخة التجريبية، وسوف تنتهي في %s</string>
+    
+    
+    
+    
+    
+    
 
+    <string name="buy_full_version">شراء النسخة الكاملة</string>
+    <string name="buy_full_version_summary">يتوقف عمل النسخة الحالية في %s</string>
 
-    <!--Buy full version-->
-    <string name="sOpenPlayStore">افتح سوق البرامج</string>
-
-    <!--CallRecorder Updater-->
-    <string name="sOpenCallRecorderUpdater">فتح محدث "مسجل المكالمات"</string>
-
-    <!--Recording-->
+    <!-- Settings -> Recording -->
     <string name="recording_calls_switch">تسجيل المكالمات</string>
+    <string name="category_main">الخيارات الرئيسية</string>
     <string name="device">موديل الجهاز</string>
-    <string name="device_other">اخرى</string>
     <string name="select_your_device">اختار الجهاز</string>
-    <string name="sAudioFormatSettingsCategory">بنية الصوت</string>
-    <string name="sCallRecordingFormat">نوع ملف التسجيل</string>
-    <string name="sMethodSettingsCategory">الطريقة</string>
-    <string name="sKernelSettings">كيرنيل</string>
-    <string name="sKernelSettingsSummary">اعدادات لسجلات كيرنيل</string>
+    
+    
+    
+    <string name="device_other">اخرى</string>
+    <string name="recording_method">طريقة التسجيل</string>
     <string name="recording_method_api">واجهة قياسية</string>
     <string name="recording_method_api_settings">إعدادات تسجيل الواجهة القياسية</string>
-    <string name="recording_method_alsa">ALSA</string>
-    <string name="recording_method_alsa_settings">إعدادات تسجيل ALSA القياسية</string>
-    <string name="recording_method">طريقة التسجيل</string>
     <string name="recording_method_caf">خيارات CAF</string>
     <string name="recording_method_caf_settings">خيارات CAF للتسجيل</string>
-    <string name="volume_control">تحكم بعلو الصوت</string>
-
-    <!--Recording methods array-->
-    <string name="sRecordingMethodKernel">كيرنيل - ( الرووت مطلوب )</string>
-    <string name="sRecordingMethodStandardAPI">واجهة قياسية</string>
-    <string name="sRecordingMethodALSA">ALSA ( الرووت مطلوب )</string>
-    <string name="sRecordingMethodCAF">طريقة التسجيل، ( الرووت مطلوب )</string>
-
-    <!--Recording audio formats-->
-    <string name="recording_format_wav">WAV</string>
-    <string name="recording_format_amr">AMR</string>
-    <string name="recording_format_aac">AAC</string>
-    <string name="s3GPP">3GPP</string>
-    <string name="recording_format_mp3">MP3</string>
-
-    <!--Recording behavior-->
-    <string name="after_call_actions_dialog">إجراءات الحوار بعد المكالمة</string>
-    <string name="after_call_actions_dialog_summary">أسأل ما يجب القيام به بعد المكالمة</string>
-    <string name="call_confirm">تأكيد المكالمة</string>
-    <string name="call_confirm_summary">اظهر حوار التأكيد قبل المكالمة</string>
-    <string name="sDefaultAction">الأجراء الافتراضي</string>
-    <string name="action_for_outgoing">اجراء المكالمات الصادرة</string>
+    <string name="recording_method_alsa">ALSA</string>
+    <string name="recording_method_alsa_settings">إعدادات تسجيل ALSA القياسية</string>
+    
+    
+    <string name="category_actions">اجراءات</string>
     <string name="action_for_incoming">اجراء المكالمات الواردة</string>
-    <string name="delay_before_start_recording">تأخير قبل بدء التسجيل</string>
-    <string name="sIncomingCalls">مكالمات واردة</string>
-    <string name="sOutgoingAndIncomingCalls">مكالمات صادرة و واردة</string>
-    <string name="sOutgoingCalls">المكالمات الصادرة</string>
-    <string name="vibrate_on_call">اهتزاز عند بداية / نهاية المكالمة</string>
-
-    <!--Actions-->
+    <string name="action_for_outgoing">اجراء المكالمات الصادرة</string>
     <string name="action_record_all">تسجيل الكل</string>
     <string name="action_do_not_record">لا تسجل</string>
     <string name="action_record_contacts">سجل المعروفين</string>
     <string name="action_record_non_contacts">سجل غير المعروفين فقط</string>
-
-    <!--Recording -> Exceptions-->
+    <string name="call_confirm">تأكيد المكالمة</string>
+    <string name="call_confirm_summary">اظهر حوار التأكيد قبل المكالمة</string>
+    <string name="after_call_actions_dialog">إجراءات الحوار بعد المكالمة</string>
+    <string name="after_call_actions_dialog_summary">أسأل ما يجب القيام به بعد المكالمة</string>
+    <string name="vibrate_on_call">اهتزاز عند بداية / نهاية المكالمة</string>
     <string name="exceptions">الاستثناءات</string>
-    <string name="sAddGroup">إضافة مجموعة</string>
-    <string name="sAdd">إضافة</string>
-    <string name="exception_group">مجموعة</string>
-    <string name="exception_select_group">اختيار مجموعة</string>
-    <string name="exception_select_action">اختيار اجراء</string>
-    <string name="sChangeAction">تغيير الإجراء</string>
-    <string name="exception_action_always_record">التسجيل دائما</string>
-    <string name="exception_action_never_record">عدم التسجيل مطلقا</string>
-    <string name="sPressMenuToAddException">اضغط \'القائمة\' لإضافة استثناء</string>
-
-    <!--Recording -> Kernel-->
-    <string name="chipset_type">نوع المعالج</string>
-    <string name="chipset_type_msm72xx">كوالكوم MSM72XX</string>
-    <string name="chipset_type_msm8250">كوالكوم MSM8250</string>
-    <string name="chipset_type_msm8255">كوالكوم MSM8255</string>
-    <string name="chipset_type_msm8260">كوالكوم MSM8260</string>
-    <string name="sSoundBoost">تعزيز الصوت</string>
-    <string name="sUplinkBoost">تعزيز الأرسال</string>
-    <string name="sDownlinkBoost">تعزيز الأستلام</string>
-    <string name="dont_use_amr_driver">لا تستخدم AMR</string>
-    <string name="dont_use_amr_driver_summary">حول صيغة الملف من WAV الى AMR</string>
-
-    <!--Recording -> Standard API-->
-    <string name="api_audio_source">مصدر الصوت</string>
-    <string name="sWhenBTConnected">عندما يربط البلوتوث</string>
-    <string name="sBTEnabledMeansBTConnected">تقنية البلوتوث فعالة يعني بلوتوث متصل</string>
-    <string name="sBTEnabledMeansBTConnectedSummary">بعد تفعيل مهايئ البلوتوث, استخدم نفس الإعدادات و كأن البلوتوث
-        متصل
-    </string>
-    <string name="sAudioSourceWhenBTConnected">مصدر الصوت عند اتصال البلوتوث</string>
-    <string name="sample_rate">معدل الترميز</string>
+    
+    
+    
+    <string name="delay_before_start_recording">تأخير قبل بدء التسجيل</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="recording_format_wav">WAV</string>
+    <string name="recording_format_amr">AMR</string>
+    <string name="recording_format_aac">AAC</string>
+    <string name="recording_format_mp3">MP3</string>
+    <string name="volume_control">تحكم بعلو الصوت</string>
+    
+    
+    
+    
+    
     <string name="sample_rate_8000">8000 هيرتز (الأفتراضي)</string>
     <string name="sample_rate_11025">11025 هيرتز</string>
     <string name="sample_rate_16000">16000 هيرتز</string>
     <string name="sample_rate_22050">22050 هيرتز</string>
     <string name="sample_rate_44100">44100 هيرتز</string>
+    
 
-    <!--Audio sources of Standard API array-->
+    <!-- Settings -> Recording -> Standard API -->
+    <string name="api_audio_source">مصدر الصوت</string>
     <string name="api_source_uplink_downlink">مصدر المكالمة الصوتية - إرسال + استلام</string>
     <string name="api_source_downlink">مصدر المكالمة الصوتية - استلام</string>
     <string name="api_source_uplink">مصدر المكالمة الصوتية - إرسال</string>
     <string name="api_source_microphone">مايكرفون</string>
     <string name="api_source_default">الافتراضي</string>
     <string name="api_source_voice_communication">مصدر صوت الاتصالات</string>
+    <string name="category_wav_settings">خيارات الصوت WAV</string>
+    
 
-    <!--Actions on BT connected array-->
-    <string name="sOnBTConnectedActionDoNothing">لا تفعل شيئا</string>
-    <string name="sOnBTConnectedActionSwitchAudioSource">تبديل مصدر الصوت</string>
-    <string name="sOnBTConnectedActionDisableRecording">تعطيل التسجيل</string>
+    <!-- Settings -> Recording -> CAF -->
+    
 
-    <!--Recording -> ALSA-->
-    <string name="sAlsa">Alsa</string>
-    <string name="sAlsaIsInstalled">تم تثبيت Alsa</string>
+    <!-- Settings -> Recording -> ALSA -->
+    
+    
 
-    <!--Folders and Files-->
-    <string name="sRescan">إعادة تفحص</string>
-    <string name="sRescanSummary">إعادة تفحص المجلد لتحديث قائمة التسجيلات</string>
-    <string name="sFolderSettingsCategory">مجلد (فولدر)</string>
+    <!-- Settings -> Recording -> MSM -->
+    <string name="chipset_type">نوع المعالج</string>
+    <string name="chipset_type_msm72xx">كوالكوم MSM72XX</string>
+    <string name="chipset_type_msm8250">كوالكوم MSM8250</string>
+    <string name="chipset_type_msm8255">كوالكوم MSM8255</string>
+    <string name="chipset_type_msm8260">كوالكوم MSM8260</string>
+    <string name="dont_use_amr_driver">لا تستخدم AMR</string>
+    <string name="dont_use_amr_driver_summary">حول صيغة الملف من WAV الى AMR</string>
+
+    <!-- Settings -> Recording -> Exceptions -->
+    
+    <string name="exception_group">مجموعة</string>
+    <string name="exception_select_group">اختيار مجموعة</string>
+    
+    
+    
+    
+    <string name="exception_select_action">اختيار اجراء</string>
+    <string name="exception_action_always_record">التسجيل دائما</string>
+    <string name="exception_action_never_record">عدم التسجيل مطلقا</string>
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- Settings -> Folders and Files -->
     <string name="folder">مجلد (فولدر)</string>
+    
     <string name="automatic_cleanup">تنظيف تلقائي</string>
     <string name="max_number_of_files">اكبر عدد للملفات المخزنة</string>
     <string name="max_number_of_files_message">إدخال رقم (0 - بدون حدود)</string>
@@ -318,209 +229,160 @@
     <string name="max_age_of_recordings">الحد الأقصى لعمر التسجيلات</string>
     <string name="max_age_of_recordings_message">أدخل القيمة في الأيام (0 - بدون حدود)</string>
     <string name="current_setting">التفضيلات الحالية %s</string>
-    <string name="sFileNameSettingsCategory">اسم الملف</string>
+    
     <string name="filename_pattern">نمط</string>
     <string name="time_pattern">نمط الوقت:</string>
 
-    <!--Interface and Appearance-->
+    <!-- Description for filename pattern -->
+    <string name="pattern_contact_name">اسم جهة الاتصال</string>
+    <string name="pattern_phone_number">رقم الهاتف</string>
+    <string name="pattern_call_time">وقت الاتصال</string>
+    
+    <string name="pattern_call_type">نوع المكالمة (خارجة داخلة )</string>
+    <string name="time_pattern_hours">ساعات</string>
+    <string name="time_pattern_minutes">دقائق</string>
+    <string name="time_pattern_seconds">ثواني</string>
+    <string name="time_pattern_days">ايام</string>
+    <string name="time_pattern_months">اشهر</string>
+    <string name="time_pattern_years">سنوات</string>
+    <string name="pattern_example">مثال:</string>
+
+    <!--Settings -> Interface and Appearance-->
     <string name="language">لغة</string>
     <string name="select_language">اختيار اللغة</string>
-    <string name="sActionBarSettingsCategory">عمل شريط</string>
-    <string name="sAudioOutputActionBar">إخراج الصوت</string>
-    <string name="sAudioOutputActionBarSummary">عرض اعدادات خرج الصوت في شريط الإجراءات</string>
-    <string name="incall_control_for_outgoing">للمكالمات الصادرة</string>
-    <string name="sInCallControlForOutgoingSummary">التحكم في المكالمات الصادرة</string>
-    <string name="incall_control_for_incoming">للمكالمات الواردة</string>
-    <string name="sInCallControlForIncomingSummary">التحكم في المكالمات الواردة</string>
     <string name="category_notification">الإخطارات</string>
-    <string name="sNotificationIcon">ايقونة الإخطارات</string>
     <string name="show_notification">اظهار الإخطار</string>
-    <string name="sShowNotificationSummary">اولويات العمليات المعززة</string>
-    <string name="sInCallControl">تحكم اثناء المكالمة</string>
-    <string name="sHangUpAndCallBack">اقفل الخط و عاود الأتصال</string>
-    <string name="sHangUpAndCallBackSummary">عند الضغط مطوّلاً, اقفل الخط و عاود الأتصال تلقائياً</string>
+    
+    
+    <string name="incall_control_for_outgoing">للمكالمات الصادرة</string>
+    
+    <string name="incall_control_for_incoming">للمكالمات الواردة</string>
+    
+    
+    
     <string name="show_button_while_ringing">أظهر الزر عند ورود المكالمة</string>
     <string name="show_button_while_ringing_summary">أظهر زر التحكم قبل الإجابة على المكالمة الواردة</string>
-    <string name="sExcludeFavoritesFromAll">استبعاد المفضلة من شاشة "الكل"</string>
-    <string name="sExcludeFavoritesFromAllSummary">استبعاد المفضلة من الشاشة مع جميع التسجيلات</string>
     <string name="vertical_position">محاذاة عمودية</string>
+    
     <string name="horizontal_position">محاذاة افقية</string>
-    <string name="sVerticalOffset">الإزاحة من الحافة العمودية</string>
-    <string name="sVerticalOffsetSummary">الإزاحة من الحافة المحددة في المحاذاة العمودية (أعلى أو أسفل)</string>
-    <string name="sHorizontalOffset">الإزاحة من الحافة ألأفقية</string>
-    <string name="sHorizontalOffsetSummary">الإزاحة من الحافة المحددة في المحاذاة الأفقية (اليمين أو اليسار)</string>
-    <string name="sLowSpaceWarning">تحذير! مساحة منخفضة</string>
-    <string name="sLowSpaceWarningSummary">تعيين الحد الأدنى من مساحة التخزين قبل التحذير في ميغا بايت</string>
-    <string name="sMainScreen">الشاشة الرئيسية</string>
-    <string name="sHideInCallControlButton">إخفاء زر التحكم</string>
-    <string name="sHideInCallControlButtonSummary">إخفاء زر التحكم أثناء تسجيل المكالمة</string>
-    <string name="sDontShowInCallButton">لا تظهر الزر قبل الأتصال</string>
+    
+    
     <string name="hide_button_before_answer_summary">لا تظهر زر تحكم اثناء المكالمة الى حين ابتداء المكالمة</string>
-    <string name="sLanguageDefault">افتراضي</string>
 
-    <!--Vertical aligns array-->
-    <string name="sVerticalAlignTop">فوق</string>
-    <string name="sVerticalAlignBottom">اسفل</string>
-
-    <!--Horizontal aligns array-->
-    <string name="sHorizontalAlignLeft">يسار</string>
-    <string name="sHorizontalAlignRight">يمين</string>
-
-    <!--Notification icons array-->
-    <string name="sNotificationIconDefault">افتراضي</string>
-    <string name="sNotificationIconGreenNew">اخضر (جديد)</string>
-    <string name="sNotificationIconGreenOld">اخضر (قديم)</string>
-    <string name="sNotificationIconGray">رمادي</string>
-
-    <!--Dropbox-->
-    <string name="sDropboxLogin">تسجيل الدخول</string>
-    <string name="sDropboxLogout">تسجيل الخروج</string>
-
+    <!-- Settings -> Cloud -->
+    
+    <string name="cloud_provider_dropbox">موقع DropBox</string>
+    
+    
+    
+    
     <string name="cloud_wifi_only">واي فاي فقط</string>
     <string name="cloud_auto_upload">رفع تلقائي</string>
-    <string name="sCloudUploadFavorites">رفع المفضلة</string>
-    <string name="sCloudUploadFavoritesSummary">رفع التسجيلات الى DropBox عند اظافتها الى المفضلة</string>
     <string name="cloud_auto_upload_summary">رفع التسجيل بعد انتهاء المكالمة</string>
-    <string name="menu_add_to_dropbox">اظافة الى DropBox</string>
+    
+    
 
-    <!--Security-->
-    <string name="category_encryption">التشفير</string>
-    <string name="sKeyNotFound">لا وجود للمفتاح</string>
-    <string name="sCreate">خلق</string>
-    <string name="create_new_key">خلق مفتاح جديد</string>
+    <!-- Notification -->
+    
+    
+
+    <!-- Password dialog -->
+    
     <string name="enter_password">ادخل كلمة السر</string>
-    <string name="sReEnterPassword">ادخل كلمة السر مرة اخرى</string>
+    
+
+    <!-- Settings -> Security -->
+    <string name="category_encryption">التشفير</string>
+    <string name="category_application">تطبيق</string>
+    <string name="create_new_key">خلق مفتاح جديد</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="app_admin">مسؤول التطبيق</string>
+    
+    
     <string name="aes_128bit">128-AES بت (أسرع)</string>
     <string name="aes_192bit">192-AES بت (المتوازن)</string>
     <string name="aes_256bit">256-AES بت (أقوى)</string>
-    <string name="category_application">تطبيق</string>
-    <string name="app_admin">مسؤول التطبيق</string>
-    <string name="sAppAdminSummary">ضروري لمنع حذف برنامج تسجيل المكالمات</string>
-    <string name="sAppAdminExplanation">برنامج مسجل المكالمات لا يستخدم أي سمة من سمات الإشراف على الجهاز باستثناء
-        إلغاءحذف تثبيت البرنامج
-    </string>
 
-    <!--Audio player-->
-    <string name="sUseDefaultPlayer">استخدام المشغل الأفتراضي</string>
+    <!-- Settings -> Audio player -->
+    
     <string name="audio_output">خرج الصوت</string>
+    
+    <string name="main_speaker">السماعة الرئيسية</string>
+    <string name="phone_speaker">سماعة التليفون</string>
+    <string name="use_proximity_sensor">استخدام مستشعر القرب</string>
+    
+    <string name="switch_audio_output">اقلب مخرج الصوت</string>
+    
     <string name="android_wav_decoder">مشغل اندرويد لملف WAV</string>
     <string name="android_wav_decoder_summary">استخدم برامج اندرويد المدمجة لتشغيل ملفات WAV</string>
     <string name="android_amr_decoder">مشفّر AMR لأندرويد</string>
     <string name="android_amr_decoder_summary">استخدم برامج الجهاز المدمجة لعرض ملفات AMR</string>
-    <string name="switch_audio_output">اقلب مخرج الصوت</string>
-    <string name="SwitchAudioOutputSummary">تبديل إخراج الصوت تلقائيا إذا تم تعطيل/تمكين الشاشة بواسطة مستشعر القرب
-    </string>
-    <string name="use_proximity_sensor">استخدام مستشعر القرب</string>
-    <string name="sUseProximitySensorSummary">استخدام مستشعر القرب لتعطيل الشاشة أثناء الاستماع إلى التسجيل ( الرووت
-        مطلوب )
-    </string>
 
-    <!--Audio output array-->
-    <string name="main_speaker">السماعة الرئيسية</string>
-    <string name="phone_speaker">سماعة التليفون</string>
-
-    <!--Experimental-->
-    <string name="sConvertAfterCall">تحويل نوع الملف بعد المكالمة</string>
-    <string name="sDontConvert">عدم تحويل بعد المكالمة</string>
-    <string name="sWavToMp3">من WAV الى MP3</string>
-    <string name="sWavToAmr">من WAV الى AMR</string>
-
-    <!--Debug-->
-    <string name="sDetailedLogs">سجلات مفصّلة</string>
+    <!--Settings -> Debug-->
     <string name="root_access">الوصول الى ملفات الموبايل الأساسية</string>
     <string name="root_access_no">كلا</string>
     <string name="root_access_yes">نعم</string>
-    <string name="sLogsSettingsCategory">سجلات</string>
-    <string name="sSendLogsToTheDeveloper">إرسال السجلات إلى المطور</string>
-    <string name="sUseGzipToCompressLogs">استخدام GZIP لضغط السجلات</string>
-    <string name="sRecordOnNotificationClick">ابدأ التسجيل من شريط الإخطارات</string>
-    <string name="sRecordOnNotificationClickSummary">لا تقم بالنقر فوق الإخطار قبل تأسيس اتصال</string>
-    <string name="sHideNotificationDuringCall">إخفي الإخطار عند المكالمة</string>
-    <string name="sHideNotificationDuringCallSummary">لا تشغله، انها للتصحيح فقط (خيار المطوّر)</string>
     <string name="dual_sim_phone">موبايل بشريحتين</string>
-    <string name="dual_sim_phone_summary">فعّل هذا الإختيار إذا كان التطبيق لا يستطيع تحديد المكالمات من الشريحة الثانية
-    </string>
+    <string name="dual_sim_phone_summary">فعّل هذا الإختيار إذا كان التطبيق لا يستطيع تحديد المكالمات من الشريحة الثانية</string>
+
+    <!-- General -->
+    <string name="contact_unknown">غير معروف</string>
+    
+    <string name="button_ok">تم</string>
+    
+    <string name="button_edit">تنقيح</string>
+    <string name="button_cancel">الغاء</string>
+    
+    
+    
+    
+    
+    
+    
+    <string name="please_wait">الرجاء انتظار …</string>
+    <string name="start_recording">بدء التسجيل</string>
+    <string name="stop_recording">ايقاف التسجيل</string>
+    
+    <string name="switch_on">تشغيل</string>
+    <string name="switch_off">اطفاء</string>
+
+    <!-- Call confirm dialog -->
+    <string name="call_confirm_record_this_call">سجل هذه المكالمة</string>
+    
+
+    <!--Notification-->
+    
+    
+    
+    <string name="an_error_has_occurred">حدث خطأ, لا يمكن تسجيل المكالمة</string>
 
     <!--About-->
+    
     <string name="version">نسخة</string>
-    <string name="sAboutCallRecorder">عن برنامج التسجيل</string>
-    <string name="license_status">حالة الرخصة</string>
-    <string name="sLicenseStatusVerified">تم التحقق من الرخصة</string>
-    <string name="license_trial">النسخة التجريبية، وسوف تنتهي في %s</string>
-
     <string name="copyright">حق النشر</string>
-    <string name="copyright_summary">&#169; %s الكساندر سكفورتسوف (skvalex)</string>
+    <string name="copyright_summary">© %s الكساندر سكفورتسوف (skvalex)</string>
     <string name="about_many_thanks">شكرا جزيلا</string>
     <string name="about_many_thanks_summary">الى اليكسي سوبوتين (avs234)</string>
-    <string name="sGermanTranslation">ترجمة المانية</string>
-    <string name="sGermanTranslationSummary_ver1">لـ مارك هليشيم وتوماس كافير</string>
-    <string name="sPolishTranslation">الترجمة البولندية</string>
-    <string name="sPolishTranslationSummary">لـ روبرت كونتا</string>
-    <string name="sFrenchTranslation">الترجمة الفرنسية</string>
-    <string name="sFrenchTranslationSummary">لـ جوليان بوترو</string>
-    <string name="sBrazilianPortugueseTranslation">الترجمة البرتغالية البرازيلية</string>
-    <string name="sBrazilianPortugueseTranslationSummary">لـ لويز مارسيلو سيريك</string>
-    <string name="sSpanishTranslation">الترجمة الأسبانية</string>
-    <string name="sSpanishTranslationSummary_ver1">لـ انديگو گارسيا و دييگو ڤيلاس</string>
-    <string name="sSlovakTranslation">الترجمة السلوفاكية</string>
-    <string name="sSlovakTranslationSummary">لـ لوران جيرينسير</string>
-    <string name="sItalianTranslation">ترجمة ايطالية</string>
-    <string name="sItalianTranslationSummary">لـ لوكا تريفيسان</string>
-    <string name="sPersianTranslation">ترجمة فارسية</string>
-    <string name="sPersianTranslationSummary_v2">لـ اليريزا افكار</string>
-    <string name="sChineseTranslation">ترجمة صينية</string>
-    <string name="sChineseTranslationSummary">لـ qhq</string>
-    <string name="sCzechTranslation">الترجمة التشيكية</string>
-    <string name="sCzechTranslationSummary_ver2">لـ اليس كيرنر و لوكاس والداوف</string>
-    <string name="sArabicTranslation">الترجمة العربية</string>
-    <string name="sArabicTranslationSummary">لـ أسامة سيف ابراهيم</string>
-    <string name="sHebrewTranslation">الترجمة العبرية</string>
-    <string name="sHebrewTranslationSummary_ver1">لـ NuFlood و Snir M.</string>
-    <string name="sHungarianTranslation">الترجمة الهنغارية</string>
-    <string name="sHungarianTranslationSummary_ver2">لـ ستزالي ليڤينتي و ميكلوس تولدي</string>
-    <string name="sDutchTranslation">ترجمة هولندية</string>
-    <string name="sDutchTranslationSummary">لـ الروي تيربيني</string>
-    <string name="sTurkishTranslation">ترجمة تركية</string>
-    <string name="sTurkishTranslationSummary">لـ عمر إليك</string>
-    <string name="sSerbianTranslation">ترجمة صربية</string>
-    <string name="sSerbianTranslationSummary">لـ sHAKaJaada</string>
-    <string name="sKoreanTranslation">ترجمة كورية</string>
-    <string name="sKoreanTranslationSummary_ver2">لـ سوهينسيوب و جوون هي جو</string>
-    <string name="sRomanianTranslation">ترجمة رومانية</string>
-    <string name="sRomanianTranslationSummary">لـ دان ب. (ساد)</string>
-    <string name="sUkrainianTranslation">ترجمة اوكرانية</string>
-    <string name="sUkrainianTranslationSummary">لـ غينادي سامولوك</string>
-    <string name="sTraditionalChineseTranslation">الترجمة الصينية التقليدية</string>
-    <string name="sTraditionalChineseTranslationSummary_v2">لـ كايبرد و جين جونك لياو</string>
-    <string name="sJapaneseTranslation">ترجمة يابانية</string>
-    <string name="sJapaneseTranslationSummary">لـ اكيرا تاغو</string>
-    <string name="sSwedishTranslation">ترجمة سويدية</string>
-    <string name="sSwedishTranslationSummary">لـ يوهانس سيولوند</string>
-    <string name="sBulgarianTranslation">الترجمة البلغارية</string>
-    <string name="sBulgarianTranslationSummary">لـ بروكسيمو</string>
-    <string name="sDanishTranslation">الترجمة الدنماركية</string>
-    <string name="sDanishTranslationSummary">لـ لارس ساراو هانسين</string>
-    <string name="sLatvianTranslation">الترجمة اللاتيفية</string>
-    <string name="sLatvianTranslationSummary">لـ ارفدس دريمانس</string>
-    <string name="sThaiTranslation">الترجمة التايلندية</string>
-    <string name="sThaiTranslationSummary">لـ ووتيساك سايشونتشارن</string>
-    <string name="sArmenianTranslation">الترجمة الأرمنية</string>
-    <string name="sArmenianTranslationSummary">لـ كونستانن جيفورجيان</string>
-    <string name="sGeorgianTranslation">الترجمة الجورجية</string>
-    <string name="sGeorgianTranslationSummary">لـ الكساندر رازمادز</string>
-    <string name="sCatalanTranslation">الترجمة الـكـتـلونـيـة</string>
-    <string name="sCatalanTranslationSummary">لـ سايبداني</string>
 
-    <!--Licenses-->
     <string name="licenses">التراخيص</string>
-    <string name="sActionBarSherlockLicense">ترخيص ActionBarSherlock</string>
-    <string name="sActionBarSherlockLicenseSummary">يستخدم الإصدار ActionBarSherlock تحت رخصة Apache اصدار 2.0، اضغط
-        هنالزيارة actionbarsherlock.com
-    </string>
     <string name="about_open_core_amr_license">ترخيص OpenCore لـ AMR</string>
-    <string name="about_open_core_amr_license_summary">يستخدم OpenCore تحت إصدار اباتشي 2.0 ، اضغط هنا
-        لزيارةopencore-amr.sourceforge.net
-    </string>
+    <string name="about_open_core_amr_license_summary">يستخدم OpenCore تحت إصدار اباتشي 2.0 ، اضغط هنا لزيارةopencore-amr.sourceforge.net</string>
     <string name="about_alsa">ALSA</string>
     <string name="about_alsa_summary">استخدام ALSA تحت LGPL, اضغط هنا لزيارة موقع alsa-project.org</string>
     <string name="about_lame">LAME خاصية</string>

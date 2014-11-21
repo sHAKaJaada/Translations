@@ -1,325 +1,226 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+<?xml version="1.0" encoding="utf-8" standalone="no"?><resources>
     <string name="app_name">CallRecorder</string>
-    <!--Rules array-->
-    <string name="sRuleDescription">Jag har läst och förstått appens beskrivning</string>
-    <string name="sRulePlayStore">Jag förstår att utvecklaren inte kan besvara kommentarer i Play Store</string>
-    <string name="sRuleUseOfProgram">Jag förstår att utvecklaren inte ansvarar för min användning av programmet. Jag
-        använder programmet på egen risk
-    </string>
-    <string name="sRuleLaw">Jag är helt säker på att jag inte bryter mot lagen när jag använder programmet</string>
-    <string name="sRuleNotWorking">Om inspelning inte fungerar på min enhet läser jag beskrivningen noggrant igen, och
-        om jag inte hittar svaret meddelar jag utvecklaren på skvalex@gmail.com
-    </string>
+    
+    
 
-    <!--Notification-->
-    <string name="sRecordingIsRunning">Samtalsinspelning är aktiverat</string>
-    <string name="sThisCallIsRecording">Detta samtal spelas in</string>
-    <string name="an_error_has_occurred">Ett fel har uppstått, detta samtal kan ej spelas in</string>
-    <string name="sEncodingError">Fel uppstod under kodning...</string>
-    <string name="start_recording">Starta inspelning</string>
-    <string name="stop_recording">Stoppa inspelning</string>
+    <!-- Navigation drawer -->
+    
+    
 
-    <!--List with recordings-->
+    <!-- Navigation drawer sections -->
+    
+    
+    <string name="section_incoming">Inkommande</string>
+    <string name="section_outgoing">Utgående</string>
+    
+    
+    
+    <string name="section_help">Hjälp</string>
+    <string name="section_tasks">Ärenden</string>
+    
     <string name="empty_hint">Tomt</string>
-    <string name="contact_unknown">Okänt</string>
 
-    <!--Actions on recording-->
-    <string name="category_actions">Åtgärder</string>
-    <string name="sFilterThisNumber">Filtrera detta nummer</string>
-    <string name="sAddToFavorites">Lägg till i favoriter</string>
-    <string name="sRemoveFromFavorites">Ta bort från favoriter</string>
-    <string name="sAddToContacts">Lägg till i kontakter</string>
-    <string name="sOpenContact">Öppna kontakt</string>
-    <string name="sCall">Ring</string>
-    <string name="sNote">Anteckning</string>
-    <string name="sConvertToMp3">Konvertera till mp3</string>
-    <string name="sConvertToAmr">Konvertera till amr</string>
-    <string name="sRenameFile">Ändra namn</string>
+    <!-- Action bar -->
+    <string name="action_search">Sök</string>
+    
+    <string name="action_settings">Inställningar</string>
+    
+    
+    
+    
+    
+    <string name="action_select_all">Markera allt</string>
+    
+    
+    
+
+    <!-- List -->
+    
+    
+    
+    
+
+    <!-- List -> Context menu -->
+    <string name="menu_add_to_dropbox">Lägg till i Dropbox</string>
+    
+    
+    <string name="menu_delete">Radera</string>
+    
+    
+    
     <string name="menu_get_info">Hämta info</string>
+    
     <string name="menu_encrypt">Kryptera</string>
     <string name="menu_decrypt">Dekryptera</string>
 
-    <!--Actions on selected recordings-->
-    <string name="action_select_all">Markera allt</string>
-    <string name="sSelectNone">Avmarkera</string>
-
-    <!--General-->
-    <string name="sSend">Skicka</string>
-    <string name="sSendVia">Skicka via</string>
-    <string name="menu_delete">Radera</string>
-    <string name="button_cancel">Avbryt</string>
-    <string name="button_ok">OK</string>
-    <string name="sSeconds">s</string>
-    <string name="sDisabled">Inaktiverad</string>
-    <string name="sYes">Ja</string>
-    <string name="sNo">Nej</string>
+    <!-- List -> Get info dialog -->
+    <string name="file_name">Filnamn</string>
+    <string name="sample_rate">Samplingsfrekvens</string>
+    <string name="sample_rate_hz">Hz</string>
+    
+    <string name="recording_type_mono">Mono</string>
+    <string name="recording_type_stereo">Stereo</string>
+    <string name="file_size">Filstorlek</string>
     <string name="terabyte">TB</string>
     <string name="gigabyte">GB</string>
     <string name="megabyte">MB</string>
     <string name="kilobyte">KB</string>
     <string name="bytes">byte</string>
-    <string name="please_wait">Var god vänta...</string>
-    <string name="switch_on">På</string>
-    <string name="switch_off">Av</string>
+    
 
-    <!--Tabs-->
-    <string name="section_incoming">Inkommande</string>
-    <string name="section_outgoing">Utgående</string>
-    <string name="sFavorites">Favoriter</string>
-    <string name="sAll">Alla</string>
-
-    <!--Send recordings-->
-    <string name="recorded_calls">Inspelade samal</string>
-    <string name="sIncoming">Inkommande</string>
-    <string name="sOutgoing">Utgående</string>
-
-    <!--Dialog after call-->
-    <string name="sDlgDeleteMsg">Spara eller radera inspelat samtal?</string>
-    <string name="sKeep">Spara</string>
-    <string name="sDropboxAdded">Lades till</string>
-
-    <!--Delete confirmation dialog-->
-    <string name="sDeleteFiles">Radera filer</string>
-    <string name="confirm_delete_message">Är du säker på att du vill radera denna inspelning?</string>
-    <string name="sDlgDeleteSelectionMsg">Du har valt %d filer. Är du säker på att du vill radera dem?</string>
-    <string name="sFilesDeletedToast">%d filer raderade</string>
-
-    <!--Call confirm dialog-->
-    <string name="call_confirm_record_this_call">Spela in detta samtal</string>
-
-    <!--Dialog about law-->
-    <string name="sWarning">Varning</string>
-    <string name="sMsgAboutLaw">Samtalsinspelning är olagligt i vissa länder. Är du säker på att du bor i ett land
-        därdet är lagligt?
-    </string>
-
-    <!--Rules dialog-->
-    <string name="sRules">Regler</string>
-    <string name="sIAgree">Jag samtycker</string>
-    <string name="sIDisagree">Jag nekar</string>
-
-    <!--Main screen toasts-->
-    <string name="sAddToFavoritesSuccess">Inspelningen lades till i favoriter</string>
-    <string name="sRemoveFromFavoritesSuccess">Inspelningen togs bort från favoriter</string>
-    <string name="sDeleteFavoriteRecordingMsg">För att radera denna inspelning måste den tas bort från favoriter
-    </string>
-
-    <!--Encryption-->
-    <string name="sFileSuccessfullyEncrypted">Kryptering av filen lyckades</string>
-    <string name="sFileSuccessfullyDecrypted">Dekryptering av filen lyckades</string>
-    <string name="sEncrypting">Krypterar</string>
-    <string name="sDecrypting">Dekrypterar</string>
-    <string name="sEncrypted">Krypterade</string>
-    <string name="wrong_password">Felaktigt lösenord</string>
-
-    <!--Main screen warnings-->
-    <string name="sAvailableFreeSpace">Lågt utrymme: %s</string>
-    <string name="sReadWriteErr">Filsystemet måste monteras med läs/skriv-rättigheter.</string>
-    <string name="sAlsaIsNotInstalledMsg">Alsa är ej installerat. Tryck för att installera.</string>
-    <string name="sPhoneMustBeRootedWarning">Din telefon måste vara "rootad". Långtryck för att avfärda meddelandet.
-    </string>
-    <string name="sStandardAPITip">Om samtalsinspelning ej fungerar prova varje ljudkälla i \'Inställningar
-        Androidsstandard-API\'. Lång-tryck för att avfärda detta meddelande.
-    </string>
-
-    <!--Toasts-->
-    <string name="sLoggerMustBeEnabledToast">Logger måste vara aktiverat i ROM/kernel!</string>
-    <string name="sFileWasDeletedToast">filen raderades</string>
-
-    <!--Action bar-->
-    <string name="action_search">Sök</string>
-    <string name="sSizeRecords">antal: %1$s, storlek: %2$s</string>
-    <string name="sFreeOf">ledigt av</string>
-
-    <!--Tasks screen-->
-    <string name="section_tasks">Ärenden</string>
-    <string name="sInProgress">Behandling pågår (%s)</string>
-    <string name="sInQueue">I kö</string>
-
-    <!--Get Info dialog-->
-    <string name="file_name">Filnamn</string>
-    <string name="sample_rate_hz">Hz</string>
-    <string name="file_size">Filstorlek</string>
-    <string name="button_edit">Ändra</string>
-
-    <!--Edit Info dialog-->
+    <!-- List -> Get info dialog -> Edit -->
     <string name="contact_name">Kontaktnamn</string>
     <string name="phone_number">Telefonnummer</string>
 
-    <!--Description for file name pattern-->
-    <string name="pattern_contact_name">kontaktnamn</string>
-    <string name="pattern_phone_number">telefonnummer</string>
-    <string name="pattern_call_time">samtalstid</string>
-    <string name="sCallTimestamp">tidsstämpel</string>
-    <string name="pattern_call_type">samtalstyp (inkommande eller utgående)</string>
+    <!-- List -> Confirm delete dialog -->
+    <string name="confirm_delete_message">Är du säker på att du vill radera denna inspelning?</string>
+    
+    
 
-    <!--Description for time pattern-->
-    <string name="time_pattern_hours">timmar</string>
-    <string name="time_pattern_minutes">minuter</string>
-    <string name="time_pattern_seconds">sekunder</string>
-    <string name="time_pattern_days">dagar</string>
-    <string name="time_pattern_months">månader</string>
-    <string name="time_pattern_years">år</string>
-    <string name="pattern_example">Exempel:</string>
+    <!-- List -> Share -->
+    
+    <string name="recorded_calls">Inspelade samal</string>
 
-    <!--Trial expired dialog-->
-    <string name="sTrialPeriodExpired">Testperiod utgången</string>
-    <string name="sTrialPeriodExpiredMsg">Var god avinstallera denna version innan köp av fullversionen</string>
-    <string name="sBuy">Köp</string>
-
-    <!--New settings-->
-    <string name="action_settings">Inställningar</string>
-    <string name="section_help">Hjälp</string>
-
-    <!--Main settings-->
-    <string name="buy_full_version">Köp fullversion</string>
-    <string name="buy_full_version_summary">Nuvarande version utgår %s</string>
-    <string name="sCallRecorderUpdater">CallRecorder Uppdaterare</string>
+    <!--  Settings -> Headers -->
     <string name="settings_recording">Inspelning</string>
     <string name="settings_folders_and_files">Mappar och filer</string>
     <string name="settings_ui_and_appearance">Gränssnitt och utseende</string>
-    <string name="cloud_provider_dropbox">Dropbox</string>
     <string name="settings_security">Säkerhet</string>
+    
     <string name="settings_audio_player">Ljudspelare</string>
-    <string name="sExperimentalSettings">Experimentiellt</string>
     <string name="settings_debug">Debug</string>
     <string name="settings_about">Om</string>
 
-    <!--General-->
-    <string name="sGeneralSettingsCategory">Allmänt</string>
-    <string name="sOtherSettingsCategory">Annat</string>
-    <string name="sAdvancedSettingsCategory">Avancerat</string>
-    <string name="category_wav_settings">WAV-inställningar</string>
-    <string name="category_main">Standardinställningar</string>
+    <!-- Settings -> License -->
+    <string name="license_status">Licensstatus</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="license_trial">Testversion, utgår %s</string>
+    
+    
+    
+    
+    
+    
 
+    <string name="buy_full_version">Köp fullversion</string>
+    <string name="buy_full_version_summary">Nuvarande version utgår %s</string>
 
-    <!--Buy full version-->
-    <string name="sOpenPlayStore">Öppna Play Store</string>
-
-    <!--CallRecorder Updater-->
-    <string name="sOpenCallRecorderUpdater">Öppna CallRecorder Updater</string>
-
-    <!--Recording-->
+    <!-- Settings -> Recording -->
     <string name="recording_calls_switch">Samtalsinspelning</string>
+    <string name="category_main">Standardinställningar</string>
     <string name="device">Enhet</string>
-    <string name="device_other">Annan enhet</string>
     <string name="select_your_device">Välj din enhet</string>
-    <string name="sAudioFormatSettingsCategory">Ljudformat</string>
-    <string name="sCallRecordingFormat">Inspelningsformat</string>
-    <string name="sMethodSettingsCategory">Metod</string>
-    <string name="sKernelSettings">Kernel</string>
-    <string name="sKernelSettingsSummary">Inställningar för kernel-inspelning</string>
+    
+    
+    
+    <string name="device_other">Annan enhet</string>
+    <string name="recording_method">Inspelningsmetod</string>
     <string name="recording_method_api">Standard API</string>
     <string name="recording_method_api_settings">Inställningar för Standard-API-inspelning</string>
-    <string name="recording_method_alsa">ALSA</string>
-    <string name="recording_method_alsa_settings">Inställningar för ALSA-inspelning</string>
-    <string name="recording_method">Inspelningsmetod</string>
     <string name="recording_method_caf">CAF</string>
     <string name="recording_method_caf_settings">Inställningar för CAF-inspelning</string>
-    <string name="volume_control">Volymkontroll</string>
-    <string name="recording_mode">Inspelningsläge</string>
-    <string name="recording_type_mono">Mono</string>
-    <string name="recording_type_stereo">Stereo</string>
-    <string name="volume_control_tx">Tx</string>
-    <string name="volume_control_rx">Rx</string>
-
-    <!--Recording methods array-->
-    <string name="sRecordingMethodKernel">Kernel (root-behörighet krävs)</string>
-    <string name="sRecordingMethodStandardAPI">Standard API</string>
-    <string name="sRecordingMethodALSA">ALSA (root-behörighet krävs)</string>
-    <string name="sRecordingMethodCAF">CAF (root-behörighet krävs)</string>
-
-    <!--Recording audio formats-->
-    <string name="recording_format_wav">WAV</string>
-    <string name="recording_format_amr">AMR</string>
-    <string name="recording_format_aac">AAC</string>
-    <string name="s3GPP">3GPP</string>
-    <string name="recording_format_mp3">MP3</string>
-
-    <!--Recording behavior-->
-    <string name="after_call_actions_dialog">Dialogruta efter samtal</string>
-    <string name="after_call_actions_dialog_summary">Förfrågan om åtgärd efter samtal</string>
-    <string name="call_confirm">Bekräfta uppringning</string>
-    <string name="call_confirm_summary">Visa bekräftelse-dialog innan uppringning</string>
-    <string name="sDefaultAction">Standardåtgärd</string>
-    <string name="action_for_outgoing">Åtgärd för utgående samtal</string>
+    <string name="recording_method_alsa">ALSA</string>
+    <string name="recording_method_alsa_settings">Inställningar för ALSA-inspelning</string>
+    
+    
+    <string name="category_actions">Åtgärder</string>
     <string name="action_for_incoming">Åtgärd för inkommande samtal</string>
-    <string name="delay_before_start_recording">Fördröjning innan inspelning startas</string>
-    <string name="sIncomingCalls">Inkommande samtal</string>
-    <string name="sOutgoingAndIncomingCalls">Utgående &amp; inkommande samtal</string>
-    <string name="sOutgoingCalls">Utgående samtal</string>
-    <string name="vibrate_on_call">Vibrera vid start/avslut av samtal</string>
-
-    <!--Actions-->
+    <string name="action_for_outgoing">Åtgärd för utgående samtal</string>
     <string name="action_record_all">Spela in allt</string>
     <string name="action_do_not_record">Ingen inspelning</string>
     <string name="action_record_contacts">Spela in kontakter</string>
     <string name="action_record_non_contacts">Spela in icke-kontakter</string>
-
-    <!--Recording -> Exceptions-->
+    <string name="call_confirm">Bekräfta uppringning</string>
+    <string name="call_confirm_summary">Visa bekräftelse-dialog innan uppringning</string>
+    <string name="after_call_actions_dialog">Dialogruta efter samtal</string>
+    <string name="after_call_actions_dialog_summary">Förfrågan om åtgärd efter samtal</string>
+    <string name="vibrate_on_call">Vibrera vid start/avslut av samtal</string>
     <string name="exceptions">Undantag</string>
-    <string name="sAddGroup">Lägg till grupp</string>
-    <string name="sAdd">Lägg till</string>
-    <string name="exception_group">Grupp</string>
-    <string name="exception_select_group">Välj grupp</string>
-    <string name="exception_select_action">Välj åtgärd</string>
-    <string name="sChangeAction">Ändra åtgärd</string>
-    <string name="exception_action_always_record">Spela alltid in</string>
-    <string name="exception_action_never_record">Spela aldrig in</string>
-    <string name="sPressMenuToAddException">Tryck \'menu\' för att lägga till undantag</string>
-
-    <!--Recording -> Kernel-->
-    <string name="chipset_type">Chipsettyp</string>
-    <string name="chipset_type_msm72xx">Qualcomm MSM72XX</string>
-    <string name="chipset_type_msm8250">Qualcomm MSM8250</string>
-    <string name="chipset_type_msm8255">Qualcomm MSM8255</string>
-    <string name="chipset_type_msm8260">Qualcomm MSM8260</string>
-    <string name="sSoundBoost">Volymhöjning</string>
-    <string name="sUplinkBoost">Volymhöjning upplänk</string>
-    <string name="sDownlinkBoost">Volymhöjning nedlänk</string>
-    <string name="dont_use_amr_driver">Använd ej drivrutin för AMR</string>
-    <string name="dont_use_amr_driver_summary">Konvertera WAV till AMR i realtid istället</string>
-
-    <!--Recording -> Standard API-->
-    <string name="api_audio_source">Ljudkälla</string>
-    <string name="sWhenBTConnected">När BT är anslutet...</string>
-    <string name="sBTEnabledMeansBTConnected">BT aktiverat betyder BT anslutet</string>
-    <string name="sBTEnabledMeansBTConnectedSummary">Efter BT-adapter är aktiverat, använd samma inställningar som om BT
-        vore anslutet
-    </string>
-    <string name="sAudioSourceWhenBTConnected">Ljudkälla när BT är anslutet</string>
-    <string name="sample_rate">Samplingsfrekvens</string>
+    
+    
+    
+    <string name="delay_before_start_recording">Fördröjning innan inspelning startas</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="recording_format_wav">WAV</string>
+    <string name="recording_format_amr">AMR</string>
+    <string name="recording_format_aac">AAC</string>
+    <string name="recording_format_mp3">MP3</string>
+    <string name="volume_control">Volymkontroll</string>
+    
+    
+    
+    <string name="volume_control_tx">Tx</string>
+    <string name="volume_control_rx">Rx</string>
     <string name="sample_rate_8000">8000 Hz (Standard)</string>
     <string name="sample_rate_11025">11025 Hz</string>
     <string name="sample_rate_16000">16000 Hz</string>
     <string name="sample_rate_22050">22050 Hz</string>
     <string name="sample_rate_44100">44100 Hz</string>
     <string name="sample_rate_48000">48000 Hz</string>
-    <string name="sSampleRateWarning">Vissa samplingshastigheter kanske inte stöds av systemet</string>
 
-    <!--Audio sources of Standard API array-->
+    <!-- Settings -> Recording -> Standard API -->
+    <string name="api_audio_source">Ljudkälla</string>
     <string name="api_source_uplink_downlink">Röstsamtal uppströms + nedströms</string>
     <string name="api_source_downlink">Röstsamtal nedströms</string>
     <string name="api_source_uplink">Röstsamtal uppströms</string>
     <string name="api_source_microphone">Mikrofon</string>
     <string name="api_source_default">Standard</string>
     <string name="api_source_voice_communication">Röstkommunikation</string>
+    <string name="category_wav_settings">WAV-inställningar</string>
+    
 
-    <!--Actions on BT connected array-->
-    <string name="sOnBTConnectedActionDoNothing">Ingen åtgärd</string>
-    <string name="sOnBTConnectedActionSwitchAudioSource">Byt ljudkälla</string>
-    <string name="sOnBTConnectedActionDisableRecording">Inaktivera inspelning</string>
+    <!-- Settings -> Recording -> CAF -->
+    <string name="recording_mode">Inspelningsläge</string>
 
-    <!--Recording -> ALSA-->
-    <string name="sAlsa">Alsa</string>
-    <string name="sAlsaIsInstalled">Alsa är installerat</string>
+    <!-- Settings -> Recording -> ALSA -->
+    
+    
 
-    <!--Folders and Files-->
-    <string name="sRescan">Uppdatera arkiv</string>
-    <string name="sRescanSummary">Sök igenom mapp för uppdatering av inspelningslistan</string>
-    <string name="sFolderSettingsCategory">Mapp</string>
+    <!-- Settings -> Recording -> MSM -->
+    <string name="chipset_type">Chipsettyp</string>
+    <string name="chipset_type_msm72xx">Qualcomm MSM72XX</string>
+    <string name="chipset_type_msm8250">Qualcomm MSM8250</string>
+    <string name="chipset_type_msm8255">Qualcomm MSM8255</string>
+    <string name="chipset_type_msm8260">Qualcomm MSM8260</string>
+    <string name="dont_use_amr_driver">Använd ej drivrutin för AMR</string>
+    <string name="dont_use_amr_driver_summary">Konvertera WAV till AMR i realtid istället</string>
+
+    <!-- Settings -> Recording -> Exceptions -->
+    
+    <string name="exception_group">Grupp</string>
+    <string name="exception_select_group">Välj grupp</string>
+    
+    
+    
+    
+    <string name="exception_select_action">Välj åtgärd</string>
+    <string name="exception_action_always_record">Spela alltid in</string>
+    <string name="exception_action_never_record">Spela aldrig in</string>
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- Settings -> Folders and Files -->
     <string name="folder">Lagringsmapp</string>
+    
     <string name="automatic_cleanup">Automatisk rensning</string>
     <string name="max_number_of_files">Max. antal filer</string>
     <string name="max_number_of_files_message">Skriv ett nummer (0 - obegränsat)</string>
@@ -328,235 +229,160 @@
     <string name="max_age_of_recordings">Max. ålder på inspelningar</string>
     <string name="max_age_of_recordings_message">Skriv ett värde i dagar (0 - obegränsat)</string>
     <string name="current_setting">Nuvarande inställning: %s</string>
-    <string name="sFileNameSettingsCategory">Filnamn</string>
+    
     <string name="filename_pattern">Mönster</string>
     <string name="time_pattern">Mönster för tid</string>
 
-    <!--Interface and Appearance-->
+    <!-- Description for filename pattern -->
+    <string name="pattern_contact_name">kontaktnamn</string>
+    <string name="pattern_phone_number">telefonnummer</string>
+    <string name="pattern_call_time">samtalstid</string>
+    
+    <string name="pattern_call_type">samtalstyp (inkommande eller utgående)</string>
+    <string name="time_pattern_hours">timmar</string>
+    <string name="time_pattern_minutes">minuter</string>
+    <string name="time_pattern_seconds">sekunder</string>
+    <string name="time_pattern_days">dagar</string>
+    <string name="time_pattern_months">månader</string>
+    <string name="time_pattern_years">år</string>
+    <string name="pattern_example">Exempel:</string>
+
+    <!--Settings -> Interface and Appearance-->
     <string name="language">Språk</string>
     <string name="select_language">Välj språk</string>
-    <string name="sActionBarSettingsCategory">Verktygsfält</string>
-    <string name="sAudioOutputActionBar">Ljudutgång</string>
-    <string name="sAudioOutputActionBarSummary">Visa inställning för ljudutgång i verktygsfältet</string>
-    <string name="incall_control_for_outgoing">För utgående samtal</string>
-    <string name="sInCallControlForOutgoingSummary">Kontrollknapp för utgående samtal</string>
-    <string name="incall_control_for_incoming">För inkommande samtal</string>
-    <string name="sInCallControlForIncomingSummary">Kontrollknapp för inkommande samtal</string>
     <string name="category_notification">Notifiering</string>
-    <string name="sNotificationIcon">Notifieringsikon</string>
     <string name="show_notification">Visa notifiering</string>
-    <string name="sShowNotificationSummary">Förhöjd processprioritering</string>
-    <string name="sInCallControl">Kontroll under pågående samtal</string>
-    <string name="sHangUpAndCallBack">Lägg på luren och ring upp</string>
-    <string name="sHangUpAndCallBackSummary">Vid långklick, lägg på luren och ring upp automatiskt</string>
+    
+    
+    <string name="incall_control_for_outgoing">För utgående samtal</string>
+    
+    <string name="incall_control_for_incoming">För inkommande samtal</string>
+    
+    
+    
     <string name="show_button_while_ringing">Visa knapp när telefonen ringer</string>
     <string name="show_button_while_ringing_summary">Visa kontrollknapp innan inkommande samtal besvarats</string>
-    <string name="sExcludeFavoritesFromAll">Exkludera favoriter från "Alla"</string>
-    <string name="sExcludeFavoritesFromAllSummary">Exkludera favoriter från vyn som visar alla inspelningar</string>
     <string name="vertical_position">Vertikal position</string>
+    
     <string name="horizontal_position">Horisontell position</string>
-    <string name="sVerticalOffset">Avstånd från vertikal kant</string>
-    <string name="sVerticalOffsetSummary">Avstånd från vald kant i vertikal placering (topp eller botten)</string>
-    <string name="sHorizontalOffset">Avstånd från horisontell kant</string>
-    <string name="sHorizontalOffsetSummary">Avstånd från vald kant i horisontell placering (vänster eller höger)
-    </string>
-    <string name="sLowSpaceWarning">Varning för lågt utrymme</string>
-    <string name="sLowSpaceWarningSummary">Ställ in lägsta gränsvärde i megabyte innan varning utfärdas</string>
-    <string name="sMainScreen">Huvudvy</string>
-    <string name="sHideInCallControlButton">Göm kontrollknapp under inspelning</string>
-    <string name="sHideInCallControlButtonSummary">Göm kontrollknapp under inspelning om samtalet spelas in</string>
-    <string name="sDontShowInCallButton">Visa ej knapp före förbindelse</string>
-    <string name="hide_button_before_answer_summary">Visa ej knapp för kontroll under samtal innan förbindelse upprättats
-    </string>
-    <string name="sLanguageDefault">Standard</string>
+    
+    
+    <string name="hide_button_before_answer_summary">Visa ej knapp för kontroll under samtal innan förbindelse upprättats</string>
 
-    <!--Vertical aligns array-->
-    <string name="sVerticalAlignTop">Topp</string>
-    <string name="sVerticalAlignBottom">Botten</string>
-
-    <!--Horizontal aligns array-->
-    <string name="sHorizontalAlignLeft">Vänster</string>
-    <string name="sHorizontalAlignRight">Höger</string>
-
-    <!--Notification icons array-->
-    <string name="sNotificationIconDefault">Standard</string>
-    <string name="sNotificationIconGreenNew">Grön (ny)</string>
-    <string name="sNotificationIconGreenOld">Grön (gammal)</string>
-    <string name="sNotificationIconGray">Grå</string>
-
-    <!--Dropbox-->
-    <string name="sDropboxLogin">Logga in</string>
-    <string name="sDropboxLogout">Logga ut</string>
-
+    <!-- Settings -> Cloud -->
+    
+    <string name="cloud_provider_dropbox">Dropbox</string>
+    
+    
+    
+    
     <string name="cloud_wifi_only">Endast Wi-Fi</string>
     <string name="cloud_auto_upload">Automatisk uppladdning</string>
-    <string name="sCloudUploadFavorites">Ladda upp favoriter</string>
-    <string name="sCloudUploadFavoritesSummary">Ladda upp inspelning till Dropbox när du lägger till den till
-        favoriter
-    </string>
     <string name="cloud_auto_upload_summary">Ladda upp inspelning direkt efter samtal</string>
-    <string name="menu_add_to_dropbox">Lägg till i Dropbox</string>
+    
+    
 
-    <!--Security-->
-    <string name="category_encryption">Kryptering</string>
-    <string name="sKeyNotFound">Nyckel kunde inte hittas</string>
-    <string name="sCreate">Skapa</string>
-    <string name="create_new_key">Skapa ny nyckel</string>
+    <!-- Notification -->
+    
+    
+
+    <!-- Password dialog -->
+    <string name="wrong_password">Felaktigt lösenord</string>
     <string name="enter_password">Skriv in lösenord</string>
-    <string name="sReEnterPassword">Upprepa password</string>
-    <string name="aes_128bit">128-bit AES (Snabbare)</string>
-    <string name="aes_192bit">192-bit AES (Balanserad)</string>
-    <string name="aes_256bit">256-bit AES (Starkare)</string>
+    <string name="password_has_been_changed">Lösenordet har ändrats</string>
+
+    <!-- Settings -> Security -->
+    <string name="category_encryption">Kryptering</string>
     <string name="category_application">Applikation</string>
-    <string name="app_admin">App Admin</string>
-    <string name="sAppAdminSummary">Behövs för att förhindra avinstallation av CallRecorder</string>
-    <string name="sAppAdminExplanation">CallRecorder använder inga av enhetens administratörsfunktioner förutom att
-        skydda mot avinstallation
-    </string>
+    <string name="create_new_key">Skapa ny nyckel</string>
+    
+    
     <string name="change_password">Byt lösenord</string>
+    
+    
     <string name="enter_old_password">Skriv in gammalt lösenord</string>
     <string name="enter_new_password">Skriv in nytt lösenord</string>
     <string name="re_enter_new_password">Skriv in nytt lösenord igen</string>
     <string name="require_password">Kräv lösenord</string>
     <string name="require_password_summary">Kräv lösenord för att öppna appen</string>
+    
     <string name="lock_after">Lås efter</string>
     <string name="lock_after_exit">Stängning</string>
     <string name="lock_after_1_minute">1 min</string>
     <string name="lock_after_3_minutes">3 min</string>
     <string name="lock_after_5_minutes">5 min</string>
     <string name="lock_after_10_minutes">10 min</string>
-    <string name="password_has_been_changed">Lösenordet har ändrats</string>
+    <string name="app_admin">App Admin</string>
+    
+    
+    <string name="aes_128bit">128-bit AES (Snabbare)</string>
+    <string name="aes_192bit">192-bit AES (Balanserad)</string>
+    <string name="aes_256bit">256-bit AES (Starkare)</string>
 
-    <!--Audio player-->
-    <string name="sUseDefaultPlayer">Använd standardspelare</string>
+    <!-- Settings -> Audio player -->
+    
     <string name="audio_output">Ljudutgång</string>
+    
+    <string name="main_speaker">Huvudhögtalare</string>
+    <string name="phone_speaker">Telefonlur</string>
+    <string name="use_proximity_sensor">Använd närliggandesensor</string>
+    
+    <string name="switch_audio_output">Byt ljudutgång</string>
+    
     <string name="android_wav_decoder">Androids avkodare för WAV</string>
     <string name="android_wav_decoder_summary">Använd Androids inbyggda verktyg för uppspelning av WAV</string>
     <string name="android_amr_decoder">Androids avkodare för AMR</string>
     <string name="android_amr_decoder_summary">Använd Androids inbyggda verktyg för uppspelning av AMR</string>
-    <string name="switch_audio_output">Byt ljudutgång</string>
-    <string name="SwitchAudioOutputSummary">Byt ljudutgång automatiskt om skärmen är avstängd av närliggandesensor
-    </string>
-    <string name="use_proximity_sensor">Använd närliggandesensor</string>
-    <string name="sUseProximitySensorSummary">Använd närliggandesensor för att släcka skärmen under uppspelning (kräver
-        root-behörighet)
-    </string>
 
-    <!--Audio output array-->
-    <string name="main_speaker">Huvudhögtalare</string>
-    <string name="phone_speaker">Telefonlur</string>
-
-    <!--Experimental-->
-    <string name="sConvertAfterCall">Konvertera efter samtal</string>
-    <string name="sDontConvert">Konvertera ej</string>
-    <string name="sWavToMp3">WAV till MP3</string>
-    <string name="sWavToAmr">WAV till AMR</string>
-
-    <!--Debug-->
-    <string name="sDetailedLogs">Detaljerade loggar</string>
+    <!--Settings -> Debug-->
     <string name="root_access">Root-behörighet</string>
     <string name="root_access_no">Nej</string>
     <string name="root_access_yes">Ja</string>
-    <string name="sLogsSettingsCategory">Loggar</string>
-    <string name="sSendLogsToTheDeveloper">Skicka loggar till utvecklaren</string>
-    <string name="sUseGzipToCompressLogs">Komprimera loggar med gzip</string>
-    <string name="sRecordOnNotificationClick">Spela in vid klick på notifikation</string>
-    <string name="sRecordOnNotificationClickSummary">Klicka ej på notifikation före förbindelse är upprättad</string>
-    <string name="sHideNotificationDuringCall">Dölj notifikation under samtal</string>
-    <string name="sHideNotificationDuringCallSummary">Aktivera inte, används endast för debug</string>
     <string name="dual_sim_phone">Dubbla SIM-kort</string>
     <string name="dual_sim_phone_summary">Aktivera detta om appen ej kan mottaga samtal från andra SIM-kortet</string>
 
-    <!--About-->
-    <string name="version">Version</string>
-    <string name="sAboutCallRecorder">Om CallRecorder</string>
-    <string name="license_status">Licensstatus</string>
-    <string name="sLicenseStatusVerified">Licens verifierad</string>
-    <string name="license_trial">Testversion, utgår %s</string>
+    <!-- General -->
+    <string name="contact_unknown">Okänt</string>
+    
+    <string name="button_ok">OK</string>
+    
+    <string name="button_edit">Ändra</string>
+    <string name="button_cancel">Avbryt</string>
+    
+    
+    
+    
+    
+    
+    
+    <string name="please_wait">Var god vänta...</string>
+    <string name="start_recording">Starta inspelning</string>
+    <string name="stop_recording">Stoppa inspelning</string>
+    
+    <string name="switch_on">På</string>
+    <string name="switch_off">Av</string>
 
+    <!-- Call confirm dialog -->
+    <string name="call_confirm_record_this_call">Spela in detta samtal</string>
+    
+
+    <!--Notification-->
+    
+    
+    
+    <string name="an_error_has_occurred">Ett fel har uppstått, detta samtal kan ej spelas in</string>
+
+    <!--About-->
+    
+    <string name="version">Version</string>
     <string name="copyright">Copyright</string>
-    <string name="copyright_summary">&#169; %s Alexander Skvortsov (skvalex)</string>
+    <string name="copyright_summary">© %s Alexander Skvortsov (skvalex)</string>
     <string name="about_many_thanks">Stort tack</string>
     <string name="about_many_thanks_summary">till Alexey Subbotin (avs234)</string>
-    <string name="sGermanTranslation">Tysk översättning</string>
-    <string name="sGermanTranslationSummary_ver1">av Marc Hillesheim och Thomas Käfer</string>
-    <string name="sPolishTranslation">Polsk översättning</string>
-    <string name="sPolishTranslationSummary">av Robert Gonta</string>
-    <string name="sFrenchTranslation">Fransk översättning</string>
-    <string name="sFrenchTranslationSummary">av Julien Boiteux</string>
-    <string name="sBrazilianPortugueseTranslation">Brasiliansk portugisisk översättning</string>
-    <string name="sBrazilianPortugueseTranslationSummary">av Luiz Marcelo Serique</string>
-    <string name="sSpanishTranslation">Spansk översättning</string>
-    <string name="sSpanishTranslationSummary_ver1">av Iñigo Garcia and Diego Vilas</string>
-    <string name="sSlovakTranslation">Slovakisk översättning</string>
-    <string name="sSlovakTranslationSummary">av Loránt Gerencsér</string>
-    <string name="sItalianTranslation">Italiensk översättning</string>
-    <string name="sItalianTranslationSummary_v2">av Luca Trevisan och Francesco Cafagna</string>
-    <string name="sPersianTranslation">Persisk översättning</string>
-    <string name="sPersianTranslationSummary_v2">av Alireza Afkar</string>
-    <string name="sChineseTranslation">Kinesisk översättning</string>
-    <string name="sChineseTranslationSummary_v2">av qhq och Yu Fei</string>
-    <string name="sCzechTranslation">Tjeckisk översättning</string>
-    <string name="sCzechTranslationSummary_ver2">av Ales Kerner och Lukas Waldauf</string>
-    <string name="sArabicTranslation">Arabisk översättning</string>
-    <string name="sArabicTranslationSummary">av Ausama S. Ibrahim</string>
-    <string name="sHebrewTranslation">Hebreisk översättning</string>
-    <string name="sHebrewTranslationSummary">av NuFlood</string>
-    <string name="sHungarianTranslation">Ungersk översättning</string>
-    <string name="sHungarianTranslationSummary_ver2">av Szalay Levente and Miklós Toldi</string>
-    <string name="sDutchTranslation">Holländsk översättning</string>
-    <string name="sDutchTranslationSummary">av Elroy Tirbeni</string>
-    <string name="sTurkishTranslation">Turkisk översättning</string>
-    <string name="sTurkishTranslationSummary">av Omer Ilik</string>
-    <string name="sSerbianTranslation">Serbisk översättning</string>
-    <string name="sSerbianTranslationSummary">av sHAKaJaada</string>
-    <string name="sKoreanTranslation">Koreansk översättning</string>
-    <string name="sKoreanTranslationSummary_ver2">av SoHyunSeop och Joon Hee Jo</string>
-    <string name="sRomanianTranslation">Rumänsk översättning</string>
-    <string name="sRomanianTranslationSummary">av Dan P. (sad)</string>
-    <string name="sUkrainianTranslation">Ukrainisk översättning</string>
-    <string name="sUkrainianTranslationSummary">av Gennadi Samoluk</string>
-    <string name="sTraditionalChineseTranslation">Traditionell kinesisk översättning</string>
-    <string name="sTraditionalChineseTranslationSummary_v2">av GPF_kaibird och Chien Jung Liaw</string>
-    <string name="sJapaneseTranslation">Japansk översättning</string>
-    <string name="sJapaneseTranslationSummary">av Akira Tagoh</string>
-    <string name="sSwedishTranslation">Svensk översättning</string>
-    <string name="sSwedishTranslationSummary">av Johannes Sjölund</string>
-    <string name="sBulgarianTranslation">Bulgarisk översättning</string>
-    <string name="sBulgarianTranslationSummary">av PROXIMO</string>
-    <string name="sDanishTranslation">Dansk översättning</string>
-    <string name="sDanishTranslationSummary">av Lars Sarauw Hansen</string>
-    <string name="sLatvianTranslation">Lettisk översättning</string>
-    <string name="sLatvianTranslationSummary">av Arvīds Dreimanis</string>
-    <string name="sThaiTranslation">Thailändsk översättning</string>
-    <string name="sThaiTranslationSummary">av Wuttisak Saichoncharn</string>
-    <string name="sArmenianTranslation">Armenisk översättning</string>
-    <string name="sArmenianTranslationSummary">av Konstantin Gevorgyan</string>
-    <string name="sGeorgianTranslation">Georgisk översättning</string>
-    <string name="sGeorgianTranslationSummary">av Alexandre Razmadze</string>
-    <string name="sCatalanTranslation">Katalansk översättning</string>
-    <string name="sCatalanTranslationSummary">av cybdani</string>
-    <string name="sHindiTranslation">Hindisk översättning</string>
-    <string name="sHindiTranslationSummary">av TheTAMAS Gautam</string>
-    <string name="sPunjabiTranslation">Punjabisk översättning</string>
-    <string name="sPunjabiTranslationSummary_ver2">av Raj Verma</string>
-    <string name="sFinnishTranslation">Finsk översättning</string>
-    <string name="sFinnishTranslationSummary">av Eero Linnainmaa</string>
-    <string name="sBelarusianTranslation">Vitrysk översättning</string>
-    <string name="sBelarusianTranslationSummary">av Alexander Kuvshinov</string>
-    <string name="sVietnameseTranslation">Vietnamesisk översättning</string>
-    <string name="sVietnameseTranslationSummary">av Truong Hoang Trung</string>
 
-    <!--Licenses-->
     <string name="licenses">Licenser</string>
-    <string name="sActionBarSherlockLicense">ActionBarSherlock</string>
-    <string name="sActionBarSherlockLicenseSummary">Använder ActionBarSherlock under Apache License Version 2.0,
-        klickahär för att besöka actionbarsherlock.com
-    </string>
     <string name="about_open_core_amr_license">opencore-amr</string>
-    <string name="about_open_core_amr_license_summary">Använder opencore-amr under Apache License Version 2.0, klicka här för att
-        besöka opencore-amr.sourceforge.net
-    </string>
+    <string name="about_open_core_amr_license_summary">Använder opencore-amr under Apache License Version 2.0, klicka här för att besöka opencore-amr.sourceforge.net</string>
     <string name="about_alsa">ALSA</string>
     <string name="about_alsa_summary">Använder ALSA under LGPL, klicka här för att besöka alsa-project.org</string>
     <string name="about_lame">LAME</string>

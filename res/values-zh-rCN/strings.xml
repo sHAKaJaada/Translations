@@ -1,313 +1,226 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+<?xml version="1.0" encoding="utf-8" standalone="no"?><resources>
     <string name="app_name">通话录音</string>
-    <!--Rules array-->
-    <string name="sRuleDescription">我已经阅读并理解应用程序说明</string>
-    <string name="sRulePlayStore">我已知晓开发者无法在 Play 商店回应我的评论</string>
-    <string name="sRuleUseOfProgram">我已知晓开发者不为我在使用中出现的问题负责</string>
-    <string name="sRuleLaw">我保证在不违反本国法律的情况下使用本应用</string>
-    <string name="sRuleNotWorking">如果在我的设备上无法使用，我会再次阅读程序说明，如果依然无法找到答案，我会发邮件给 skvalex@gmail.com</string>
+    
+    
 
-    <!--Notification-->
-    <string name="sRecordingIsRunning">通话录音正在运行</string>
-    <string name="sThisCallIsRecording">本通话正在录制中</string>
-    <string name="an_error_has_occurred">发生未知错误，无法录制本通话</string>
-    <string name="sEncodingError">编译时发生错误...</string>
-    <string name="start_recording">开始录制</string>
-    <string name="stop_recording">停止录制</string>
+    <!-- Navigation drawer -->
+    
+    
 
-    <!--List with recordings-->
+    <!-- Navigation drawer sections -->
+    
+    
+    <string name="section_incoming">呼入</string>
+    <string name="section_outgoing">呼出</string>
+    
+    
+    
+    <string name="section_help">帮助</string>
+    <string name="section_tasks">任务</string>
+    
     <string name="empty_hint">空</string>
-    <string name="contact_unknown">未知</string>
 
-    <!--Actions on recording-->
-    <string name="category_actions">操作</string>
-    <string name="sFilterThisNumber">筛选此号码</string>
-    <string name="sAddToFavorites">添加到收藏</string>
-    <string name="sRemoveFromFavorites">从收藏中移除</string>
-    <string name="sAddToContacts">添加到联系人</string>
-    <string name="sOpenContact">查看联系人</string>
-    <string name="sCall">呼叫</string>
-    <string name="sNote">备注</string>
-    <string name="sConvertToMp3">转换为 MP3</string>
-    <string name="sConvertToAmr">转换为 AMR</string>
-    <string name="sRenameFile">重命名文件</string>
+    <!-- Action bar -->
+    <string name="action_search">搜索</string>
+    
+    <string name="action_settings">设置</string>
+    
+    
+    
+    
+    
+    <string name="action_select_all">全选</string>
+    
+    
+    
+
+    <!-- List -->
+    
+    
+    
+    
+
+    <!-- List -> Context menu -->
+    <string name="menu_add_to_dropbox">上传至 Dropbox</string>
+    
+    
+    <string name="menu_delete">删除</string>
+    
+    
+    
     <string name="menu_get_info">查看信息</string>
+    
     <string name="menu_encrypt">加密</string>
     <string name="menu_decrypt">解密</string>
 
-    <!--Actions on selected recordings-->
-    <string name="action_select_all">全选</string>
-    <string name="sSelectNone">取消全选</string>
-
-    <!--General-->
-    <string name="sSend">发送</string>
-    <string name="sSendVia">发送方式</string>
-    <string name="menu_delete">删除</string>
-    <string name="button_cancel">取消</string>
-    <string name="button_ok">确定</string>
-    <string name="sSeconds">秒</string>
-    <string name="sDisabled">已禁用</string>
-    <string name="sYes">是</string>
-    <string name="sNo">否</string>
+    <!-- List -> Get info dialog -->
+    <string name="file_name">文件名</string>
+    <string name="sample_rate">采样率</string>
+    <string name="sample_rate_hz">赫兹</string>
+    
+    <string name="recording_type_mono">单声道</string>
+    <string name="recording_type_stereo">立体声</string>
+    <string name="file_size">文件大小</string>
     <string name="terabyte">TB</string>
     <string name="gigabyte">GB</string>
     <string name="megabyte">MB</string>
     <string name="kilobyte">KB</string>
     <string name="bytes">字节</string>
-    <string name="please_wait">请稍候...</string>
-    <string name="switch_on">开</string>
-    <string name="switch_off">关</string>
+    
 
-    <!--Tabs-->
-    <string name="section_incoming">呼入</string>
-    <string name="section_outgoing">呼出</string>
-    <string name="sFavorites">收藏</string>
-    <string name="sAll">全部</string>
-
-    <!--Send recordings-->
-    <string name="recorded_calls">已记录通话</string>
-    <string name="sIncoming">呼入</string>
-    <string name="sOutgoing">呼出</string>
-
-    <!--Dialog after call-->
-    <string name="sDlgDeleteMsg">保留或者删除已录制的通话？</string>
-    <string name="sKeep">保留</string>
-    <string name="sDropboxAdded">已添加</string>
-
-    <!--Delete confirmation dialog-->
-    <string name="sDeleteFiles">删除文件</string>
-    <string name="confirm_delete_message">您确定要删除该记录吗？</string>
-    <string name="sDlgDeleteSelectionMsg">您已选择了 %d 个文件，确定要删除吗？</string>
-    <string name="sFilesDeletedToast">已删除 %d 个文件</string>
-
-    <!--Call confirm dialog-->
-    <string name="call_confirm_record_this_call">录制此通话</string>
-
-    <!--Dialog about law-->
-    <string name="sWarning">警告</string>
-    <string name="sMsgAboutLaw">在某些国家对通话进行录音是非法的。您确定所在的国家录音通话是合法的吗？</string>
-
-    <!--Rules dialog-->
-    <string name="sRules">规则</string>
-    <string name="sIAgree">我同意</string>
-    <string name="sIDisagree">我不同意</string>
-
-    <!--Main screen toasts-->
-    <string name="sAddToFavoritesSuccess">此录音成功添加到收藏</string>
-    <string name="sRemoveFromFavoritesSuccess">此录音成功从收藏中移除</string>
-    <string name="sDeleteFavoriteRecordingMsg">要删除此录音，您应先将其从收藏中移除</string>
-
-    <!--Encryption-->
-    <string name="sFileSuccessfullyEncrypted">加密文件成功</string>
-    <string name="sFileSuccessfullyDecrypted">解密文件成功</string>
-    <string name="sEncrypting">加密</string>
-    <string name="sDecrypting">解密</string>
-    <string name="sEncrypted">已加密</string>
-    <string name="wrong_password">密码错误</string>
-
-    <!--Main screen warnings-->
-    <string name="sAvailableFreeSpace">空间不足：%s</string>
-    <string name="sReadWriteErr">文件系统必须挂载为读写。</string>
-    <string name="sAlsaIsNotInstalledMsg">未安装 Alsa。点击这里安装。</string>
-    <string name="sPhoneMustBeRootedWarning">您的手机必须获得超级用户权限，长按以禁用本消息。</string>
-    <string name="sStandardAPITip">如果无法正常录音，请尝试标准 API 选项下的每个音频源。长按关闭此信息。</string>
-
-    <!--Toasts-->
-    <string name="sLoggerMustBeEnabledToast">必须在您的系统/内核中启用记录器 ！</string>
-    <string name="sFileWasDeletedToast">已删除该文件</string>
-
-    <!--Action bar-->
-    <string name="action_search">搜索</string>
-    <string name="sSizeRecords">录音：%1$s；大小：%2$s</string>
-    <string name="sFreeOf">剩余</string>
-
-    <!--Tasks screen-->
-    <string name="section_tasks">任务</string>
-    <string name="sInProgress">进行中——%s</string>
-    <string name="sInQueue">队列中</string>
-
-    <!--Get Info dialog-->
-    <string name="file_name">文件名</string>
-    <string name="sample_rate_hz">赫兹</string>
-    <string name="file_size">文件大小</string>
-    <string name="button_edit">编辑</string>
-
-    <!--Edit Info dialog-->
+    <!-- List -> Get info dialog -> Edit -->
     <string name="contact_name">联系人姓名</string>
     <string name="phone_number">电话号码</string>
 
-    <!--Description for file name pattern-->
-    <string name="pattern_contact_name">联系人姓名</string>
-    <string name="pattern_phone_number">电话号码</string>
-    <string name="pattern_call_time">通话时间</string>
-    <string name="sCallTimestamp">通话时间戳</string>
-    <string name="pattern_call_type">通话类型（呼入或呼出）</string>
+    <!-- List -> Confirm delete dialog -->
+    <string name="confirm_delete_message">您确定要删除该记录吗？</string>
+    
+    
 
-    <!--Description for time pattern-->
-    <string name="time_pattern_hours">时</string>
-    <string name="time_pattern_minutes">分</string>
-    <string name="time_pattern_seconds">秒</string>
-    <string name="time_pattern_days">日</string>
-    <string name="time_pattern_months">月</string>
-    <string name="time_pattern_years">年</string>
-    <string name="pattern_example">示例：</string>
+    <!-- List -> Share -->
+    
+    <string name="recorded_calls">已记录通话</string>
 
-    <!--Trial expired dialog-->
-    <string name="sTrialPeriodExpired">试用期已过期</string>
-    <string name="sTrialPeriodExpiredMsg">购买完整版前请卸载本试用版</string>
-    <string name="sBuy">购买</string>
-
-    <!--New settings-->
-    <string name="action_settings">设置</string>
-    <string name="section_help">帮助</string>
-
-    <!--Main settings-->
-    <string name="buy_full_version">购买完整版</string>
-    <string name="buy_full_version_summary">当前版本将在 %s 到期</string>
-    <string name="sCallRecorderUpdater">通话录音更新</string>
+    <!--  Settings -> Headers -->
     <string name="settings_recording">录制中</string>
     <string name="settings_folders_and_files">文件夹和文件</string>
     <string name="settings_ui_and_appearance">界面和外观</string>
-    <string name="cloud_provider_dropbox">Dropbox</string>
     <string name="settings_security">安全</string>
+    
     <string name="settings_audio_player">音频播放器</string>
-    <string name="sExperimentalSettings">实验性功能</string>
     <string name="settings_debug">调试</string>
     <string name="settings_about">关于</string>
 
-    <!--General-->
-    <string name="sGeneralSettingsCategory">常规</string>
-    <string name="sOtherSettingsCategory">其他</string>
-    <string name="sAdvancedSettingsCategory">高级</string>
-    <string name="category_wav_settings">WAV 设置</string>
-    <string name="category_main">主要</string>
+    <!-- Settings -> License -->
+    <string name="license_status">授权状态</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="license_trial">试用版将于 %s 到期</string>
+    
+    
+    
+    
+    
+    
 
+    <string name="buy_full_version">购买完整版</string>
+    <string name="buy_full_version_summary">当前版本将在 %s 到期</string>
 
-    <!--Buy full version-->
-    <string name="sOpenPlayStore">打开Play 商店</string>
-
-    <!--CallRecorder Updater-->
-    <string name="sOpenCallRecorderUpdater">打开通话录音更新程序</string>
-
-    <!--Recording-->
+    <!-- Settings -> Recording -->
     <string name="recording_calls_switch">录制通话</string>
+    <string name="category_main">主要</string>
     <string name="device">设备</string>
-    <string name="device_other">其他</string>
     <string name="select_your_device">选择您的设备</string>
-    <string name="sAudioFormatSettingsCategory">音频格式</string>
-    <string name="sCallRecordingFormat">通话录制格式</string>
-    <string name="sMethodSettingsCategory">方式</string>
-    <string name="sKernelSettings">内核</string>
-    <string name="sKernelSettingsSummary">内核录制设置</string>
+    
+    
+    
+    <string name="device_other">其他</string>
+    <string name="recording_method">记录方式</string>
     <string name="recording_method_api">标准 API</string>
     <string name="recording_method_api_settings">标准API录制设置</string>
-    <string name="recording_method_alsa">ALSA</string>
-    <string name="recording_method_alsa_settings">ALSA 录制设置</string>
-    <string name="recording_method">记录方式</string>
     <string name="recording_method_caf">CAF</string>
     <string name="recording_method_caf_settings">CAF 录音设置</string>
-    <string name="volume_control">音量控制</string>
-    <string name="recording_mode">录音模式</string>
-    <string name="recording_type_mono">单声道</string>
-    <string name="recording_type_stereo">立体声</string>
-    <string name="volume_control_tx">传出</string>
-    <string name="volume_control_rx">接受</string>
-
-    <!--Recording methods array-->
-    <string name="sRecordingMethodKernel">内核（必须获得超级用户权限）</string>
-    <string name="sRecordingMethodStandardAPI">标准 API</string>
-    <string name="sRecordingMethodALSA">ALSA（必须获得超级用户权限）</string>
-    <string name="sRecordingMethodCAF">CAF（必须获得超级用户权限）</string>
-
-    <!--Recording audio formats-->
-    <string name="recording_format_wav">WAV</string>
-    <string name="recording_format_amr">AMR</string>
-    <string name="recording_format_aac">AAC</string>
-    <string name="s3GPP">3GPP</string>
-    <string name="recording_format_mp3">MP3</string>
-
-    <!--Recording behavior-->
-    <string name="after_call_actions_dialog">通话后弹出对话框</string>
-    <string name="after_call_actions_dialog_summary">通话后询问操作</string>
-    <string name="call_confirm">通话确认</string>
-    <string name="call_confirm_summary">通话前显示确认对话框</string>
-    <string name="sDefaultAction">默认操作</string>
-    <string name="action_for_outgoing">呼出操作</string>
+    <string name="recording_method_alsa">ALSA</string>
+    <string name="recording_method_alsa_settings">ALSA 录制设置</string>
+    
+    
+    <string name="category_actions">操作</string>
     <string name="action_for_incoming">呼入操作</string>
-    <string name="delay_before_start_recording">开始录制时间延迟</string>
-    <string name="sIncomingCalls">呼入</string>
-    <string name="sOutgoingAndIncomingCalls">呼出和呼入</string>
-    <string name="sOutgoingCalls">呼出</string>
-    <string name="vibrate_on_call">接通/挂断电话时振动</string>
-
-    <!--Actions-->
+    <string name="action_for_outgoing">呼出操作</string>
     <string name="action_record_all">全部录制</string>
     <string name="action_do_not_record">不录制</string>
     <string name="action_record_contacts">仅录制联系人</string>
     <string name="action_record_non_contacts">仅录制非联系人</string>
-
-    <!--Recording -> Exceptions-->
+    <string name="call_confirm">通话确认</string>
+    <string name="call_confirm_summary">通话前显示确认对话框</string>
+    <string name="after_call_actions_dialog">通话后弹出对话框</string>
+    <string name="after_call_actions_dialog_summary">通话后询问操作</string>
+    <string name="vibrate_on_call">接通/挂断电话时振动</string>
     <string name="exceptions">例外</string>
-    <string name="sAddGroup">添加群组</string>
-    <string name="sAdd">添加</string>
-    <string name="exception_group">群组</string>
-    <string name="exception_select_group">选择群组</string>
-    <string name="exception_select_action">选择操作</string>
-    <string name="sChangeAction">更改操作</string>
-    <string name="exception_action_always_record">总是录制</string>
-    <string name="exception_action_never_record">从不录制</string>
-    <string name="sPressMenuToAddException">点击“菜单”添加例外</string>
-
-    <!--Recording -> Kernel-->
-    <string name="chipset_type">芯片类型</string>
-    <string name="chipset_type_msm72xx">高通 MSM72XX</string>
-    <string name="chipset_type_msm8250">高通 MSM8250</string>
-    <string name="chipset_type_msm8255">高通 MSM8255</string>
-    <string name="chipset_type_msm8260">高通 MSM8260</string>
-    <string name="sSoundBoost">声音增强</string>
-    <string name="sUplinkBoost">上行增强</string>
-    <string name="sDownlinkBoost">下行增强</string>
-    <string name="dont_use_amr_driver">不使用 AMR 驱动</string>
-    <string name="dont_use_amr_driver_summary">实时转换 WAV 至 AMR</string>
-
-    <!--Recording -> Standard API-->
-    <string name="api_audio_source">音频源</string>
-    <string name="sWhenBTConnected">当蓝牙连接…</string>
-    <string name="sBTEnabledMeansBTConnected">蓝牙启用意味着蓝牙已连接</string>
-    <string name="sBTEnabledMeansBTConnectedSummary">启用蓝牙适配器后，使用与蓝牙连接相同的设置</string>
-    <string name="sAudioSourceWhenBTConnected">蓝牙连接时的音频源</string>
-    <string name="sample_rate">采样率</string>
+    
+    
+    
+    <string name="delay_before_start_recording">开始录制时间延迟</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="recording_format_wav">WAV</string>
+    <string name="recording_format_amr">AMR</string>
+    <string name="recording_format_aac">AAC</string>
+    <string name="recording_format_mp3">MP3</string>
+    <string name="volume_control">音量控制</string>
+    
+    
+    
+    <string name="volume_control_tx">传出</string>
+    <string name="volume_control_rx">接受</string>
     <string name="sample_rate_8000">8000 Hz（默认）</string>
     <string name="sample_rate_11025">11025 Hz</string>
     <string name="sample_rate_16000">16000 Hz</string>
     <string name="sample_rate_22050">22050 Hz</string>
     <string name="sample_rate_44100">44100 Hz</string>
     <string name="sample_rate_48000">48000 Hz</string>
-    <string name="sSampleRateWarning">系统可能不支持所有的采样率</string>
 
-    <!--Audio sources of Standard API array-->
+    <!-- Settings -> Recording -> Standard API -->
+    <string name="api_audio_source">音频源</string>
     <string name="api_source_uplink_downlink">语音呼叫上行+下行</string>
     <string name="api_source_downlink">语音呼叫下行</string>
     <string name="api_source_uplink">语音呼叫上行</string>
     <string name="api_source_microphone">麦克风</string>
     <string name="api_source_default">默认</string>
     <string name="api_source_voice_communication">语音通信</string>
+    <string name="category_wav_settings">WAV 设置</string>
+    
 
-    <!--Actions on BT connected array-->
-    <string name="sOnBTConnectedActionDoNothing">什么也不做</string>
-    <string name="sOnBTConnectedActionSwitchAudioSource">切换音频源</string>
-    <string name="sOnBTConnectedActionDisableRecording">禁用录制</string>
+    <!-- Settings -> Recording -> CAF -->
+    <string name="recording_mode">录音模式</string>
 
-    <!--Recording -> ALSA-->
-    <string name="sAlsa">Alsa</string>
-    <string name="sAlsaIsInstalled">已安装 Alsa</string>
+    <!-- Settings -> Recording -> ALSA -->
+    
+    
 
-    <!--Folders and Files-->
-    <string name="sRescan">重新扫描</string>
-    <string name="sRescanSummary">重新扫描文件夹以更新录制列表</string>
-    <string name="sFolderSettingsCategory">文件夹</string>
+    <!-- Settings -> Recording -> MSM -->
+    <string name="chipset_type">芯片类型</string>
+    <string name="chipset_type_msm72xx">高通 MSM72XX</string>
+    <string name="chipset_type_msm8250">高通 MSM8250</string>
+    <string name="chipset_type_msm8255">高通 MSM8255</string>
+    <string name="chipset_type_msm8260">高通 MSM8260</string>
+    <string name="dont_use_amr_driver">不使用 AMR 驱动</string>
+    <string name="dont_use_amr_driver_summary">实时转换 WAV 至 AMR</string>
+
+    <!-- Settings -> Recording -> Exceptions -->
+    
+    <string name="exception_group">群组</string>
+    <string name="exception_select_group">选择群组</string>
+    
+    
+    
+    
+    <string name="exception_select_action">选择操作</string>
+    <string name="exception_action_always_record">总是录制</string>
+    <string name="exception_action_never_record">从不录制</string>
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- Settings -> Folders and Files -->
     <string name="folder">文件夹</string>
+    
     <string name="automatic_cleanup">自动清理</string>
     <string name="max_number_of_files">录音最大数量</string>
     <string name="max_number_of_files_message">输入数量（0 表示无限制）</string>
@@ -316,224 +229,160 @@
     <string name="max_age_of_recordings">录音最大期限</string>
     <string name="max_age_of_recordings_message">输入以天为单位值（0 表示无限制）</string>
     <string name="current_setting">当前设置：%s</string>
-    <string name="sFileNameSettingsCategory">文件名</string>
+    
     <string name="filename_pattern">格式</string>
     <string name="time_pattern">时间格式</string>
 
-    <!--Interface and Appearance-->
+    <!-- Description for filename pattern -->
+    <string name="pattern_contact_name">联系人姓名</string>
+    <string name="pattern_phone_number">电话号码</string>
+    <string name="pattern_call_time">通话时间</string>
+    
+    <string name="pattern_call_type">通话类型（呼入或呼出）</string>
+    <string name="time_pattern_hours">时</string>
+    <string name="time_pattern_minutes">分</string>
+    <string name="time_pattern_seconds">秒</string>
+    <string name="time_pattern_days">日</string>
+    <string name="time_pattern_months">月</string>
+    <string name="time_pattern_years">年</string>
+    <string name="pattern_example">示例：</string>
+
+    <!--Settings -> Interface and Appearance-->
     <string name="language">语言</string>
     <string name="select_language">选择语言</string>
-    <string name="sActionBarSettingsCategory">操作栏</string>
-    <string name="sAudioOutputActionBar">音频输出</string>
-    <string name="sAudioOutputActionBarSummary">在操作栏中显示音频输出设置</string>
-    <string name="incall_control_for_outgoing">对于呼出电话</string>
-    <string name="sInCallControlForOutgoingSummary">呼出电话控制</string>
-    <string name="incall_control_for_incoming">对于呼入电话</string>
-    <string name="sInCallControlForIncomingSummary">呼入电话控制</string>
     <string name="category_notification">通知栏</string>
-    <string name="sNotificationIcon">通知栏图标</string>
     <string name="show_notification">显示通知栏图标</string>
-    <string name="sShowNotificationSummary">增强进程优先级</string>
-    <string name="sInCallControl">录音控制</string>
-    <string name="sHangUpAndCallBack">挂断并回拨</string>
-    <string name="sHangUpAndCallBackSummary">长按，挂断电话后自动回拨</string>
+    
+    
+    <string name="incall_control_for_outgoing">对于呼出电话</string>
+    
+    <string name="incall_control_for_incoming">对于呼入电话</string>
+    
+    
+    
     <string name="show_button_while_ringing">响铃时显示按钮</string>
     <string name="show_button_while_ringing_summary">来电接通前显示来电控制按钮</string>
-    <string name="sExcludeFavoritesFromAll">从“全部”页中排除收藏</string>
-    <string name="sExcludeFavoritesFromAllSummary">从全部记录页中排除收藏</string>
     <string name="vertical_position">垂直位置</string>
+    
     <string name="horizontal_position">水平位置</string>
-    <string name="sVerticalOffset">垂直边缘偏移</string>
-    <string name="sVerticalOffsetSummary">偏移量，从所选边垂直对齐（顶部或底部）</string>
-    <string name="sHorizontalOffset">水平边缘偏移</string>
-    <string name="sHorizontalOffsetSummary">偏移量，从所选边水平对齐（左边或右边）</string>
-    <string name="sLowSpaceWarning">空间不足警告</string>
-    <string name="sLowSpaceWarningSummary">当剩余空间不足多少 MB 时警告</string>
-    <string name="sMainScreen">主屏幕</string>
-    <string name="sHideInCallControlButton">隐藏录音控制按钮</string>
-    <string name="sHideInCallControlButtonSummary">当录音开始时隐藏录音控制按钮</string>
-    <string name="sDontShowInCallButton">接通前不显示按钮</string>
+    
+    
     <string name="hide_button_before_answer_summary">直到电话接通前不显示呼入控制按钮</string>
-    <string name="sLanguageDefault">默认</string>
 
-    <!--Vertical aligns array-->
-    <string name="sVerticalAlignTop">顶部</string>
-    <string name="sVerticalAlignBottom">底部</string>
-
-    <!--Horizontal aligns array-->
-    <string name="sHorizontalAlignLeft">左侧</string>
-    <string name="sHorizontalAlignRight">右侧</string>
-
-    <!--Notification icons array-->
-    <string name="sNotificationIconDefault">默认</string>
-    <string name="sNotificationIconGreenNew">绿色（新）</string>
-    <string name="sNotificationIconGreenOld">绿色（旧）</string>
-    <string name="sNotificationIconGray">灰色</string>
-
-    <!--Dropbox-->
-    <string name="sDropboxLogin">登陆</string>
-    <string name="sDropboxLogout">登出</string>
-
+    <!-- Settings -> Cloud -->
+    
+    <string name="cloud_provider_dropbox">Dropbox</string>
+    
+    
+    
+    
     <string name="cloud_wifi_only">仅使用无线网络</string>
     <string name="cloud_auto_upload">自动上传</string>
-    <string name="sCloudUploadFavorites">上传收藏</string>
-    <string name="sCloudUploadFavoritesSummary">当添加录音至收藏时上传至 Dropbox</string>
     <string name="cloud_auto_upload_summary">通话结束后自动上传录音</string>
-    <string name="menu_add_to_dropbox">上传至 Dropbox</string>
+    
+    
 
-    <!--Security-->
-    <string name="category_encryption">加密</string>
-    <string name="sKeyNotFound">未发现密钥</string>
-    <string name="sCreate">创建</string>
-    <string name="create_new_key">创建新密钥</string>
+    <!-- Notification -->
+    
+    
+
+    <!-- Password dialog -->
+    <string name="wrong_password">密码错误</string>
     <string name="enter_password">请输入密码</string>
-    <string name="sReEnterPassword">再次输入密码</string>
-    <string name="aes_128bit">128-bit AES（较快）</string>
-    <string name="aes_192bit">192-bit AES（平衡）</string>
-    <string name="aes_256bit">256-bit AES（较强）</string>
+    <string name="password_has_been_changed">密码已修改</string>
+
+    <!-- Settings -> Security -->
+    <string name="category_encryption">加密</string>
     <string name="category_application">应用程序</string>
-    <string name="app_admin">设备管理器</string>
-    <string name="sAppAdminSummary">防止通话录音被卸载</string>
-    <string name="sAppAdminExplanation">通话录音除保护卸载外不使用任何的设备管理功能</string>
+    <string name="create_new_key">创建新密钥</string>
+    
+    
     <string name="change_password">修改密码</string>
+    
+    
     <string name="enter_old_password">输入旧密码</string>
     <string name="enter_new_password">输入新密码</string>
     <string name="re_enter_new_password">重输新密码</string>
     <string name="require_password">需要密码</string>
     <string name="require_password_summary">需要密码才能打开程序</string>
+    
     <string name="lock_after">自动锁定</string>
     <string name="lock_after_exit">退出</string>
     <string name="lock_after_1_minute">1 分钟</string>
     <string name="lock_after_3_minutes">3 分钟</string>
     <string name="lock_after_5_minutes">5 分钟</string>
     <string name="lock_after_10_minutes">10 分钟</string>
-    <string name="password_has_been_changed">密码已修改</string>
+    <string name="app_admin">设备管理器</string>
+    
+    
+    <string name="aes_128bit">128-bit AES（较快）</string>
+    <string name="aes_192bit">192-bit AES（平衡）</string>
+    <string name="aes_256bit">256-bit AES（较强）</string>
 
-    <!--Audio player-->
-    <string name="sUseDefaultPlayer">使用默认播放器</string>
+    <!-- Settings -> Audio player -->
+    
     <string name="audio_output">音频输出</string>
+    
+    <string name="main_speaker">扬声器</string>
+    <string name="phone_speaker">手机听筒</string>
+    <string name="use_proximity_sensor">使用距离感应器</string>
+    
+    <string name="switch_audio_output">切换音频输出</string>
+    
     <string name="android_wav_decoder">系统 WAV 解码器</string>
     <string name="android_wav_decoder_summary">使用内置工具播放 WAV</string>
     <string name="android_amr_decoder">系统 AMR 解码器</string>
     <string name="android_amr_decoder_summary">使用内置工具播放 AMR</string>
-    <string name="switch_audio_output">切换音频输出</string>
-    <string name="SwitchAudioOutputSummary">如果屏幕由距离感应器控制禁用或启用时自动切换音频源</string>
-    <string name="use_proximity_sensor">使用距离感应器</string>
-    <string name="sUseProximitySensorSummary">听录音时使用距离感应器以关闭屏幕（需要获得超级用户权限）</string>
 
-    <!--Audio output array-->
-    <string name="main_speaker">扬声器</string>
-    <string name="phone_speaker">手机听筒</string>
-
-    <!--Experimental-->
-    <string name="sConvertAfterCall">通话后转换</string>
-    <string name="sDontConvert">不要转换</string>
-    <string name="sWavToMp3">WAV 转 MP3</string>
-    <string name="sWavToAmr">WAV 转 AMR</string>
-
-    <!--Debug-->
-    <string name="sDetailedLogs">详情日志</string>
+    <!--Settings -> Debug-->
     <string name="root_access">超级用户访问权限</string>
     <string name="root_access_no">否</string>
     <string name="root_access_yes">是</string>
-    <string name="sLogsSettingsCategory">日志</string>
-    <string name="sSendLogsToTheDeveloper">发送日志给开发人员</string>
-    <string name="sUseGzipToCompressLogs">使用 gzip 压缩日志</string>
-    <string name="sRecordOnNotificationClick">单击通知栏录制</string>
-    <string name="sRecordOnNotificationClickSummary">接通前不要点击通知栏</string>
-    <string name="sHideNotificationDuringCall">通话中隐藏通知栏</string>
-    <string name="sHideNotificationDuringCallSummary">不要打开它，此项仅供调试</string>
     <string name="dual_sim_phone">双卡手机</string>
     <string name="dual_sim_phone_summary">如果应用无法判定来自第二张SIM卡的电话请启用本选项</string>
 
-    <!--About-->
-    <string name="version">版本</string>
-    <string name="sAboutCallRecorder">关于程序</string>
-    <string name="license_status">授权状态</string>
-    <string name="sLicenseStatusVerified">授权已验证</string>
-    <string name="license_trial">试用版将于 %s 到期</string>
+    <!-- General -->
+    <string name="contact_unknown">未知</string>
+    
+    <string name="button_ok">确定</string>
+    
+    <string name="button_edit">编辑</string>
+    <string name="button_cancel">取消</string>
+    
+    
+    
+    
+    
+    
+    
+    <string name="please_wait">请稍候...</string>
+    <string name="start_recording">开始录制</string>
+    <string name="stop_recording">停止录制</string>
+    
+    <string name="switch_on">开</string>
+    <string name="switch_off">关</string>
 
+    <!-- Call confirm dialog -->
+    <string name="call_confirm_record_this_call">录制此通话</string>
+    
+
+    <!--Notification-->
+    
+    
+    
+    <string name="an_error_has_occurred">发生未知错误，无法录制本通话</string>
+
+    <!--About-->
+    
+    <string name="version">版本</string>
     <string name="copyright">版权所有</string>
-    <string name="copyright_summary">&#169; %s Alexander Skvortsov (skvalex)</string>
+    <string name="copyright_summary">© %s Alexander Skvortsov (skvalex)</string>
     <string name="about_many_thanks">非常感谢</string>
     <string name="about_many_thanks_summary">Alexey Subbotin (avs234)</string>
-    <string name="sGermanTranslation">德语翻译</string>
-    <string name="sGermanTranslationSummary_ver1">Marc Hillesheim 和 Thomas Käfer</string>
-    <string name="sPolishTranslation">波兰语翻译</string>
-    <string name="sPolishTranslationSummary">Robert Gonta</string>
-    <string name="sFrenchTranslation">法语翻译</string>
-    <string name="sFrenchTranslationSummary">Julien Boiteux</string>
-    <string name="sBrazilianPortugueseTranslation">巴西葡萄牙语翻译</string>
-    <string name="sBrazilianPortugueseTranslationSummary">Luiz Marcelo Serique</string>
-    <string name="sSpanishTranslation">西班牙语翻译</string>
-    <string name="sSpanishTranslationSummary_ver1">Iñigo Garcia 和 Diego Vilas</string>
-    <string name="sSlovakTranslation">斯洛伐克翻译</string>
-    <string name="sSlovakTranslationSummary">Loránt Gerencsér</string>
-    <string name="sItalianTranslation">意大利语翻译</string>
-    <string name="sItalianTranslationSummary">Luca Trevisan</string>
-    <string name="sPersianTranslation">波斯语翻译</string>
-    <string name="sPersianTranslationSummary_v2">Alireza Afkar</string>
-    <string name="sChineseTranslation">简体中文翻译</string>
-    <string name="sChineseTranslationSummary">钱宏庆(qhq)</string>
-    <string name="sCzechTranslation">捷克语翻译</string>
-    <string name="sCzechTranslationSummary_ver2">Ales Kerner和Lukas Waldauf</string>
-    <string name="sArabicTranslation">阿拉伯语翻译</string>
-    <string name="sArabicTranslationSummary">Ausama S. Ibrahim</string>
-    <string name="sHebrewTranslation">希伯来语翻译</string>
-    <string name="sHebrewTranslationSummary">NuFlood</string>
-    <string name="sHungarianTranslation">匈牙利语翻译</string>
-    <string name="sHungarianTranslationSummary_ver2">Szalay Levente 和 Miklós Toldi</string>
-    <string name="sDutchTranslation">荷兰语翻译</string>
-    <string name="sDutchTranslationSummary">Elroy Tirbeni</string>
-    <string name="sTurkishTranslation">土耳其文翻译</string>
-    <string name="sTurkishTranslationSummary">Omer Ilik</string>
-    <string name="sSerbianTranslation">塞尔维亚翻译</string>
-    <string name="sSerbianTranslationSummary">sHAKaJaada</string>
-    <string name="sKoreanTranslation">韩语翻译</string>
-    <string name="sKoreanTranslationSummary_ver2">SoHyunSeop 和 Joon Hee Jo</string>
-    <string name="sRomanianTranslation">罗马尼亚翻译</string>
-    <string name="sRomanianTranslationSummary">Dan P. (sad)</string>
-    <string name="sUkrainianTranslation">乌克兰语翻译</string>
-    <string name="sUkrainianTranslationSummary">Gennadi Samoluk</string>
-    <string name="sTraditionalChineseTranslation">繁体中文翻译</string>
-    <string name="sTraditionalChineseTranslationSummary_v2">GPF_kaibird 和 Chien Jung Liaw</string>
-    <string name="sJapaneseTranslation">日语翻译</string>
-    <string name="sJapaneseTranslationSummary">Akira Tagoh</string>
-    <string name="sSwedishTranslation">瑞典语翻译</string>
-    <string name="sSwedishTranslationSummary">Johannes Sjölund</string>
-    <string name="sBulgarianTranslation">保加利亚语翻译</string>
-    <string name="sBulgarianTranslationSummary">PROXIMO</string>
-    <string name="sDanishTranslation">丹麦语翻译</string>
-    <string name="sDanishTranslationSummary">Lars Sarauw Hansen</string>
-    <string name="sLatvianTranslation">拉脱维亚语翻译</string>
-    <string name="sLatvianTranslationSummary">rvīds Dreimanis</string>
-    <string name="sThaiTranslation">泰语翻译</string>
-    <string name="sThaiTranslationSummary">Wuttisak Saichoncharn</string>
-    <string name="sArmenianTranslation">亚美尼亚翻译</string>
-    <string name="sArmenianTranslationSummary">Konstantin Gevorgyan</string>
-    <string name="sGeorgianTranslation">格鲁吉亚翻译</string>
-    <string name="sGeorgianTranslationSummary">Alexandre Razmadze</string>
-    <string name="sCatalanTranslation">加泰罗尼亚语翻译</string>
-    <string name="sCatalanTranslationSummary">cybdani</string>
-    <string name="sHindiTranslation">印地语翻译</string>
-    <string name="sHindiTranslationSummary">TheTAMAS Gautam</string>
-    <string name="sPunjabiTranslation">旁遮普语翻译</string>
-    <string name="sPunjabiTranslationSummary_ver2">Raj Verma</string>
-    <string name="sFinnishTranslation">芬兰语翻译</string>
-    <string name="sFinnishTranslationSummary">Eero Linnainmaa</string>
-    <string name="sBelarusianTranslation">白俄罗斯语翻译</string>
-    <string name="sBelarusianTranslationSummary">Alexander Kuvshinov</string>
-    <string name="sVietnameseTranslation">越南语翻译</string>
-    <string name="sVietnameseTranslationSummary">Truong Hoang Trung</string>
 
-    <!--Licenses-->
     <string name="licenses">授权</string>
-    <string name="sActionBarSherlockLicense">ActionBarSherlock</string>
-    <string name="sActionBarSherlockLicenseSummary">根据 Apache 2.0 许可协议使用 ActionBarSherlock，点击访问 actionbarsherlock.com
-    </string>
     <string name="about_open_core_amr_license">opencore-amr</string>
-    <string name="about_open_core_amr_license_summary">根据 Apache 2.0 许可协议使用 opencore-amr, 点击访问 opencore-amr.sourceforge.net
-    </string>
+    <string name="about_open_core_amr_license_summary">根据 Apache 2.0 许可协议使用 opencore-amr, 点击访问 opencore-amr.sourceforge.net</string>
     <string name="about_alsa">ALSA</string>
     <string name="about_alsa_summary">根据 LGPL 协议使用 ALSA，点击访问alsa-project.org</string>
     <string name="about_lame">LAME 压缩</string>

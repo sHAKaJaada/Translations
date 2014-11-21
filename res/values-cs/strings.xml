@@ -1,322 +1,226 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+<?xml version="1.0" encoding="utf-8" standalone="no"?><resources>
     <string name="app_name">CallRecorder</string>
-    <!--Rules array-->
-    <string name="sRuleDescription">Četl(a) jsem a rozumím popisu aplikace.</string>
-    <string name="sRulePlayStore">Chápu, že vývojář nemůže odpovídat na komentáře v obchodě Google Play.</string>
-    <string name="sRuleUseOfProgram">Chápu, že vývojář není zodpovědný za používání aplikace. Budu používat tento
-        program na vlastní riziko.
-    </string>
-    <string name="sRuleLaw">Jsem si naprosto jistý(á), že používáním aplikace neporušuji žádné zákony mé země.</string>
-    <string name="sRuleNotWorking">Pokud nahrávání nefunguje na mém zařízení, přečtu si znovu pozorně popis aplikace a
-        pokud nenajdu odpověď napíši email vývojáři na skvalex@gmail.com
-    </string>
+    
+    
 
-    <!--Notification-->
-    <string name="sRecordingIsRunning">Služba pro nahrávání hovorů je spuštěna</string>
-    <string name="sThisCallIsRecording">Hovor je nahráván</string>
-    <string name="an_error_has_occurred">Nastala chyba, tento hovor nemůže být nahrán</string>
-    <string name="sEncodingError">Při kódování se vyskytla chyba...</string>
-    <string name="start_recording">Začít nahrávání</string>
-    <string name="stop_recording">Zastavit nahrávání</string>
+    <!-- Navigation drawer -->
+    
+    
 
-    <!--List with recordings-->
+    <!-- Navigation drawer sections -->
+    
+    
+    <string name="section_incoming">Příchozí</string>
+    <string name="section_outgoing">Odchozí</string>
+    
+    
+    
+    <string name="section_help">Nápověda</string>
+    <string name="section_tasks">Úkoly</string>
+    
     <string name="empty_hint">Žádné nahrávky</string>
-    <string name="contact_unknown">Neznámý</string>
 
-    <!--Actions on recording-->
-    <string name="category_actions">Akce</string>
-    <string name="sFilterThisNumber">Filtrovat toto číslo</string>
-    <string name="sAddToFavorites">Přidat k oblíbeným</string>
-    <string name="sRemoveFromFavorites">Odebrat z oblíbených</string>
-    <string name="sAddToContacts">Přidat do kontaktů</string>
-    <string name="sOpenContact">Otevřít kontakt</string>
-    <string name="sCall">Volat</string>
-    <string name="sNote">Poznámka</string>
-    <string name="sConvertToMp3">Převést do mp3</string>
-    <string name="sConvertToAmr">Převést do amr</string>
-    <string name="sRenameFile">Přejmenovat soubor</string>
+    <!-- Action bar -->
+    <string name="action_search">Hledat</string>
+    
+    <string name="action_settings">Nastavení</string>
+    
+    
+    
+    
+    
+    <string name="action_select_all">Vybrat vše</string>
+    
+    
+    
+
+    <!-- List -->
+    
+    
+    
+    
+
+    <!-- List -> Context menu -->
+    <string name="menu_add_to_dropbox">Přidat do Dropboxu</string>
+    
+    
+    <string name="menu_delete">Vymazat</string>
+    
+    
+    
     <string name="menu_get_info">Zobrazit informace</string>
+    
     <string name="menu_encrypt">Kódovat</string>
     <string name="menu_decrypt">Dekódovat</string>
 
-    <!--Actions on selected recordings-->
-    <string name="action_select_all">Vybrat vše</string>
-    <string name="sSelectNone">Zrušit výběr</string>
-
-    <!--General-->
-    <string name="sSend">Odeslat</string>
-    <string name="sSendVia">Poslat přes</string>
-    <string name="menu_delete">Vymazat</string>
-    <string name="button_cancel">Storno</string>
-    <string name="button_ok">OK</string>
-    <string name="sSeconds">s</string>
-    <string name="sDisabled">Zakázáno</string>
-    <string name="sYes">Ano</string>
-    <string name="sNo">Ne</string>
+    <!-- List -> Get info dialog -->
+    <string name="file_name">Jméno souboru</string>
+    <string name="sample_rate">Vzorkovací frekvence</string>
+    <string name="sample_rate_hz">Hz</string>
+    
+    <string name="recording_type_mono">Mono</string>
+    <string name="recording_type_stereo">Stereo</string>
+    <string name="file_size">Velikost souboru</string>
     <string name="terabyte">TB</string>
     <string name="gigabyte">GB</string>
     <string name="megabyte">MB</string>
     <string name="kilobyte">KB</string>
     <string name="bytes">bajtů</string>
-    <string name="please_wait">Čekejte prosím...</string>
-    <string name="switch_on">Zap</string>
-    <string name="switch_off">Vyp</string>
+    
 
-    <!--Tabs-->
-    <string name="section_incoming">Příchozí</string>
-    <string name="section_outgoing">Odchozí</string>
-    <string name="sFavorites">Oblíbené</string>
-    <string name="sAll">Všechny</string>
-
-    <!--Send recordings-->
-    <string name="recorded_calls">Nahrané hovory</string>
-    <string name="sIncoming">Příchozí</string>
-    <string name="sOutgoing">Odchozí</string>
-
-    <!--Dialog after call-->
-    <string name="sDlgDeleteMsg">Ponechat nebo vymazat nahrané hovory?</string>
-    <string name="sKeep">Zachovat</string>
-    <string name="sDropboxAdded">Přidáno</string>
-
-    <!--Delete confirmation dialog-->
-    <string name="sDeleteFiles">Vymazat soubory</string>
-    <string name="confirm_delete_message">Opravdu chceš vymazat tuto nahrávku?</string>
-    <string name="sDlgDeleteSelectionMsg">Je označeno %d souborů. Opravdu je chcete smazat?</string>
-    <string name="sFilesDeletedToast">%d souborů smazáno</string>
-
-    <!--Call confirm dialog-->
-    <string name="call_confirm_record_this_call">Nahrát tento hovor</string>
-
-    <!--Dialog about law-->
-    <string name="sWarning">Varování</string>
-    <string name="sMsgAboutLaw">Nahrávání hovorů je v některých zemích nelegální. Jsi si jistý(á) legálností nahrávání
-        hovorů ve tvé zemi?
-    </string>
-
-    <!--Rules dialog-->
-    <string name="sRules">Pravida</string>
-    <string name="sIAgree">Souhlasím</string>
-    <string name="sIDisagree">Nesouhlasím</string>
-
-    <!--Main screen toasts-->
-    <string name="sAddToFavoritesSuccess">Nahrávka byla přidána k oblíbeným</string>
-    <string name="sRemoveFromFavoritesSuccess">Nahrávka byla odebrána z oblíbených</string>
-    <string name="sDeleteFavoriteRecordingMsg">Aby bylo možné nahrávku vymazat, odeber ji z oblíbených</string>
-
-    <!--Encryption-->
-    <string name="sFileSuccessfullyEncrypted">Soubor úspěšně zakódován</string>
-    <string name="sFileSuccessfullyDecrypted">Soubor úspěšně dekódován</string>
-    <string name="sEncrypting">Kódování</string>
-    <string name="sDecrypting">Dekódování</string>
-    <string name="sEncrypted">Zakódováno</string>
-    <string name="wrong_password">Špatné heslo</string>
-
-    <!--Main screen warnings-->
-    <string name="sAvailableFreeSpace">Málo místa: %s</string>
-    <string name="sReadWriteErr">Souborový systém musí být připojen pro čtení/zápis</string>
-    <string name="sAlsaIsNotInstalledMsg">ALSA není nainstalována. Klepni pro instalaci</string>
-    <string name="sPhoneMustBeRootedWarning">Tvůj telefon musí být ROOTnutý. Dlouhým stiskem zavřeš tuto zprávu.
-    </string>
-    <string name="sStandardAPITip">Pokud nefunguje nahrávání hovorů, vyzkoušejte všechny zdroje zvuku ve standardních
-        API nastaveních. Dlouhým stiskem zavřeš tuto zprávu.
-    </string>
-
-    <!--Toasts-->
-    <string name="sLoggerMustBeEnabledToast">Musí být povolen Logger ve tvé ROM/jádru!</string>
-    <string name="sFileWasDeletedToast">soubor byl smazán</string>
-
-    <!--Action bar-->
-    <string name="action_search">Hledat</string>
-    <string name="sSizeRecords">nahrávek: %1$s, velikost: %2$s</string>
-    <string name="sFreeOf">volných z</string>
-
-    <!--Tasks screen-->
-    <string name="section_tasks">Úkoly</string>
-    <string name="sInProgress">Probíhá (%s)</string>
-    <string name="sInQueue">Ve frontě</string>
-
-    <!--Get Info dialog-->
-    <string name="file_name">Jméno souboru</string>
-    <string name="sample_rate_hz">Hz</string>
-    <string name="file_size">Velikost souboru</string>
-    <string name="button_edit">Editovat</string>
-
-    <!--Edit Info dialog-->
+    <!-- List -> Get info dialog -> Edit -->
     <string name="contact_name">Jméno kontaktu</string>
     <string name="phone_number">Telefonní číslo</string>
 
-    <!--Description for file name pattern-->
-    <string name="pattern_contact_name">jméno kontaktu</string>
-    <string name="pattern_phone_number">telefonní číslo</string>
-    <string name="pattern_call_time">čas hovoru</string>
-    <string name="sCallTimestamp">časové razítko hovoru</string>
-    <string name="pattern_call_type">typ hovoru (příchozí nebo odchozí)</string>
+    <!-- List -> Confirm delete dialog -->
+    <string name="confirm_delete_message">Opravdu chceš vymazat tuto nahrávku?</string>
+    
+    
 
-    <!--Description for time pattern-->
-    <string name="time_pattern_hours">hodina</string>
-    <string name="time_pattern_minutes">minuta</string>
-    <string name="time_pattern_seconds">sekunda</string>
-    <string name="time_pattern_days">den</string>
-    <string name="time_pattern_months">měsíc</string>
-    <string name="time_pattern_years">rok</string>
-    <string name="pattern_example">Příklad:</string>
+    <!-- List -> Share -->
+    
+    <string name="recorded_calls">Nahrané hovory</string>
 
-    <!--Trial expired dialog-->
-    <string name="sTrialPeriodExpired">Zkušební období vypršelo</string>
-    <string name="sTrialPeriodExpiredMsg">Prosím odinstaluj tuto verzi, než-li si zakoupíš plnou verzi.</string>
-    <string name="sBuy">Koupit</string>
-
-    <!--New settings-->
-    <string name="action_settings">Nastavení</string>
-    <string name="section_help">Nápověda</string>
-
-    <!--Main settings-->
-    <string name="buy_full_version">Koupit plnou verzi</string>
-    <string name="buy_full_version_summary">Tato verze vyprší %s</string>
-    <string name="sCallRecorderUpdater">Aktualizace CallRecorderu</string>
+    <!--  Settings -> Headers -->
     <string name="settings_recording">Nahrávání</string>
     <string name="settings_folders_and_files">Soubory a složky</string>
     <string name="settings_ui_and_appearance">Rozhraní a vzhled</string>
-    <string name="cloud_provider_dropbox">Dropbox</string>
     <string name="settings_security">Bezpečnost</string>
+    
     <string name="settings_audio_player">Přehrávač zvuků</string>
-    <string name="sExperimentalSettings">Experimentální</string>
     <string name="settings_debug">Debug</string>
     <string name="settings_about">O programu</string>
 
-    <!--General-->
-    <string name="sGeneralSettingsCategory">Obecné</string>
-    <string name="sOtherSettingsCategory">Ostatní</string>
-    <string name="sAdvancedSettingsCategory">Pokročilé</string>
-    <string name="category_wav_settings">Nastavení WAV</string>
-    <string name="category_main">Hlavní</string>
+    <!-- Settings -> License -->
+    <string name="license_status">Stav licence</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="license_trial">Zkušební verze vyprší %s</string>
+    
+    
+    
+    
+    
+    
 
+    <string name="buy_full_version">Koupit plnou verzi</string>
+    <string name="buy_full_version_summary">Tato verze vyprší %s</string>
 
-    <!--Buy full version-->
-    <string name="sOpenPlayStore">Otevřít obchod Play</string>
-
-    <!--CallRecorder Updater-->
-    <string name="sOpenCallRecorderUpdater">Otevřít aktualizace CallRecorderu</string>
-
-    <!--Recording-->
+    <!-- Settings -> Recording -->
     <string name="recording_calls_switch">Nahrávání hovorů</string>
+    <string name="category_main">Hlavní</string>
     <string name="device">Zařízení</string>
-    <string name="device_other">Jiné</string>
     <string name="select_your_device">Vybrat zařízení</string>
-    <string name="sAudioFormatSettingsCategory">Formát zvuku</string>
-    <string name="sCallRecordingFormat">Formát nahrávání hovorů</string>
-    <string name="sMethodSettingsCategory">Metoda</string>
-    <string name="sKernelSettings">Jádro</string>
-    <string name="sKernelSettingsSummary">Nastavení nahrávání jádra</string>
+    
+    
+    
+    <string name="device_other">Jiné</string>
+    <string name="recording_method">Nahrávací metoda</string>
     <string name="recording_method_api">Standartní API</string>
     <string name="recording_method_api_settings">Nastavení nahrávání Standartního API</string>
-    <string name="recording_method_alsa">ALSA</string>
-    <string name="recording_method_alsa_settings">Nastavení nahrávání ALSA</string>
-    <string name="recording_method">Nahrávací metoda</string>
     <string name="recording_method_caf">CAF</string>
     <string name="recording_method_caf_settings">Nastavení nahrávání CAF</string>
-    <string name="volume_control">Ovládání hlasitosti</string>
-    <string name="recording_mode">Mód nahrávání</string>
-    <string name="recording_type_mono">Mono</string>
-    <string name="recording_type_stereo">Stereo</string>
-
-    <!--Recording methods array-->
-    <string name="sRecordingMethodKernel">Jádro (vyžaduje ROOT)</string>
-    <string name="sRecordingMethodStandardAPI">Standartní API</string>
-    <string name="sRecordingMethodALSA">ALSA (vyžaduje ROOT)</string>
-    <string name="sRecordingMethodCAF">CAF (vyžaduje ROOT)</string>
-
-    <!--Recording audio formats-->
-    <string name="recording_format_wav">WAV</string>
-    <string name="recording_format_amr">AMR</string>
-    <string name="recording_format_aac">AAC</string>
-    <string name="s3GPP">3GP</string>
-    <string name="recording_format_mp3">MP3</string>
-
-    <!--Recording behavior-->
-    <string name="after_call_actions_dialog">Dialog na konci hovoru</string>
-    <string name="after_call_actions_dialog_summary">Zeptat se, co dělat, po skončení hovoru</string>
-    <string name="call_confirm">Potvrdit hovor</string>
-    <string name="call_confirm_summary">Zobrazit dialog potvrzení před zavoláním</string>
-    <string name="sDefaultAction">Předvolená akce</string>
-    <string name="action_for_outgoing">Akce pro odchozí hovory</string>
+    <string name="recording_method_alsa">ALSA</string>
+    <string name="recording_method_alsa_settings">Nastavení nahrávání ALSA</string>
+    
+    
+    <string name="category_actions">Akce</string>
     <string name="action_for_incoming">Akce pro příchozí hovory</string>
-    <string name="delay_before_start_recording">Odložení začátku nahrávání</string>
-    <string name="sIncomingCalls">Příchozí hovory</string>
-    <string name="sOutgoingAndIncomingCalls">Odchozí a příchozí hovory</string>
-    <string name="sOutgoingCalls">Odchozí hovory</string>
-    <string name="vibrate_on_call">Vibrovat na zač./konci hovoru</string>
-
-    <!--Actions-->
+    <string name="action_for_outgoing">Akce pro odchozí hovory</string>
     <string name="action_record_all">Nahrát vše</string>
     <string name="action_do_not_record">Nenahrávat</string>
     <string name="action_record_contacts">Nahrávat jen kontaky</string>
     <string name="action_record_non_contacts">Nahrávat kromě kontaktů</string>
-
-    <!--Recording -> Exceptions-->
+    <string name="call_confirm">Potvrdit hovor</string>
+    <string name="call_confirm_summary">Zobrazit dialog potvrzení před zavoláním</string>
+    <string name="after_call_actions_dialog">Dialog na konci hovoru</string>
+    <string name="after_call_actions_dialog_summary">Zeptat se, co dělat, po skončení hovoru</string>
+    <string name="vibrate_on_call">Vibrovat na zač./konci hovoru</string>
     <string name="exceptions">Výjimky</string>
-    <string name="sAddGroup">Přidat skupinu</string>
-    <string name="sAdd">Přidat</string>
-    <string name="exception_group">Skupina</string>
-    <string name="exception_select_group">Vybrat skupinu</string>
-    <string name="exception_select_action">Vybrat akci</string>
-    <string name="sChangeAction">Změnit akci</string>
-    <string name="exception_action_always_record">Nahrát vždy</string>
-    <string name="exception_action_never_record">Nenahrát nikdy</string>
-    <string name="sPressMenuToAddException">Stiskni menu pro přidání výjimky</string>
-
-    <!--Recording -> Kernel-->
-    <string name="chipset_type">Typ čipu</string>
-    <string name="chipset_type_msm72xx">Qualcomm MSM72XX</string>
-    <string name="chipset_type_msm8250">Qualcomm MSM8250</string>
-    <string name="chipset_type_msm8255">Qualcomm MSM8255</string>
-    <string name="chipset_type_msm8260">Qualcomm MSM8260</string>
-    <string name="sSoundBoost">Zvýšení zvuku</string>
-    <string name="sUplinkBoost">Zvýšení mého</string>
-    <string name="sDownlinkBoost">Zvýšení volaného</string>
-    <string name="dont_use_amr_driver">Nepoužívat ovladač AMR</string>
-    <string name="dont_use_amr_driver_summary">Raději převést WAV do AMR v reálném čase</string>
-
-    <!--Recording -> Standard API-->
-    <string name="api_audio_source">Zdroj zvuku</string>
-    <string name="sWhenBTConnected">Když je připojen BT...</string>
-    <string name="sBTEnabledMeansBTConnected">BT povolen == BT připojen</string>
-    <string name="sBTEnabledMeansBTConnectedSummary">Pokud je BT-adaptér povolen, použije se stejné nastavení jako když
-        je BT připojen
-    </string>
-    <string name="sAudioSourceWhenBTConnected">Zdroj zvuku pokud je BT připojen</string>
-    <string name="sample_rate">Vzorkovací frekvence</string>
+    
+    
+    
+    <string name="delay_before_start_recording">Odložení začátku nahrávání</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="recording_format_wav">WAV</string>
+    <string name="recording_format_amr">AMR</string>
+    <string name="recording_format_aac">AAC</string>
+    <string name="recording_format_mp3">MP3</string>
+    <string name="volume_control">Ovládání hlasitosti</string>
+    
+    
+    
+    
+    
     <string name="sample_rate_8000">8000 Hz (výchozí)</string>
     <string name="sample_rate_11025">11025 Hz</string>
     <string name="sample_rate_16000">16000 Hz</string>
     <string name="sample_rate_22050">22050 Hz</string>
     <string name="sample_rate_44100">44100 Hz</string>
     <string name="sample_rate_48000">48000 Hz</string>
-    <string name="sSampleRateWarning">Některé vzorkovací frekvence nemusí být podporovány systémem.</string>
 
-    <!--Audio sources of Standard API array-->
+    <!-- Settings -> Recording -> Standard API -->
+    <string name="api_audio_source">Zdroj zvuku</string>
     <string name="api_source_uplink_downlink">Hlas hovoru odchozí + příchozí</string>
     <string name="api_source_downlink">Hlas hovoru příchozí</string>
     <string name="api_source_uplink">Hlas hovoru odchozí</string>
     <string name="api_source_microphone">Mikrofon</string>
     <string name="api_source_default">Výchozí</string>
     <string name="api_source_voice_communication">Hlasová komunikace</string>
+    <string name="category_wav_settings">Nastavení WAV</string>
+    
 
-    <!--Actions on BT connected array-->
-    <string name="sOnBTConnectedActionDoNothing">Nedělat nic</string>
-    <string name="sOnBTConnectedActionSwitchAudioSource">Přepnout zdroj zvuku</string>
-    <string name="sOnBTConnectedActionDisableRecording">Vypnout nahrávání</string>
+    <!-- Settings -> Recording -> CAF -->
+    <string name="recording_mode">Mód nahrávání</string>
 
-    <!--Recording -> ALSA-->
-    <string name="sAlsa">Alsa</string>
-    <string name="sAlsaIsInstalled">Alsa je nainstalován</string>
+    <!-- Settings -> Recording -> ALSA -->
+    
+    
 
-    <!--Folders and Files-->
-    <string name="sRescan">Prohledat</string>
-    <string name="sRescanSummary">Prohledat složku a aktualizovat seznam nahrávek</string>
-    <string name="sFolderSettingsCategory">Složka</string>
+    <!-- Settings -> Recording -> MSM -->
+    <string name="chipset_type">Typ čipu</string>
+    <string name="chipset_type_msm72xx">Qualcomm MSM72XX</string>
+    <string name="chipset_type_msm8250">Qualcomm MSM8250</string>
+    <string name="chipset_type_msm8255">Qualcomm MSM8255</string>
+    <string name="chipset_type_msm8260">Qualcomm MSM8260</string>
+    <string name="dont_use_amr_driver">Nepoužívat ovladač AMR</string>
+    <string name="dont_use_amr_driver_summary">Raději převést WAV do AMR v reálném čase</string>
+
+    <!-- Settings -> Recording -> Exceptions -->
+    
+    <string name="exception_group">Skupina</string>
+    <string name="exception_select_group">Vybrat skupinu</string>
+    
+    
+    
+    
+    <string name="exception_select_action">Vybrat akci</string>
+    <string name="exception_action_always_record">Nahrát vždy</string>
+    <string name="exception_action_never_record">Nenahrát nikdy</string>
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- Settings -> Folders and Files -->
     <string name="folder">Složka</string>
+    
     <string name="automatic_cleanup">Automatické mazání</string>
     <string name="max_number_of_files">Max. počet souborů</string>
     <string name="max_number_of_files_message">Zadej číslo (0 - bez limitu)</string>
@@ -325,230 +229,160 @@
     <string name="max_age_of_recordings">Max. doba uložení nahrávek</string>
     <string name="max_age_of_recordings_message">Zadej počet dnů (0 - bez limitu)</string>
     <string name="current_setting">Aktuální nastavení: %s</string>
-    <string name="sFileNameSettingsCategory">Pojmenování souborů</string>
+    
     <string name="filename_pattern">Šablona</string>
     <string name="time_pattern">Šablona času</string>
 
-    <!--Interface and Appearance-->
+    <!-- Description for filename pattern -->
+    <string name="pattern_contact_name">jméno kontaktu</string>
+    <string name="pattern_phone_number">telefonní číslo</string>
+    <string name="pattern_call_time">čas hovoru</string>
+    
+    <string name="pattern_call_type">typ hovoru (příchozí nebo odchozí)</string>
+    <string name="time_pattern_hours">hodina</string>
+    <string name="time_pattern_minutes">minuta</string>
+    <string name="time_pattern_seconds">sekunda</string>
+    <string name="time_pattern_days">den</string>
+    <string name="time_pattern_months">měsíc</string>
+    <string name="time_pattern_years">rok</string>
+    <string name="pattern_example">Příklad:</string>
+
+    <!--Settings -> Interface and Appearance-->
     <string name="language">Jazyk</string>
     <string name="select_language">Vybrat jazyk</string>
-    <string name="sActionBarSettingsCategory">Akční lišta</string>
-    <string name="sAudioOutputActionBar">Výstup zvuku</string>
-    <string name="sAudioOutputActionBarSummary">Zobrazit nastavení výstupu zvuku v akční liště</string>
-    <string name="incall_control_for_outgoing">Pro odchozí hovory</string>
-    <string name="sInCallControlForOutgoingSummary">Ovládání během odchozích hovorů</string>
-    <string name="incall_control_for_incoming">Pro příchozí hovory</string>
-    <string name="sInCallControlForIncomingSummary">Ovládání během příchozích hovorů</string>
     <string name="category_notification">Upozornění</string>
-    <string name="sNotificationIcon">Ikona upozornění</string>
     <string name="show_notification">Zobrazit oznámení</string>
-    <string name="sShowNotificationSummary">Rozšířená priorita procesu</string>
-    <string name="sInCallControl">Ovládání při hovoru</string>
-    <string name="sHangUpAndCallBack">Zavěsit a volat zpátky</string>
-    <string name="sHangUpAndCallBackSummary">Při dlouhém stisku zavěsit hovor a automaticky volat zpět</string>
+    
+    
+    <string name="incall_control_for_outgoing">Pro odchozí hovory</string>
+    
+    <string name="incall_control_for_incoming">Pro příchozí hovory</string>
+    
+    
+    
     <string name="show_button_while_ringing">Zobrazit tlačítko při vyzvánění</string>
     <string name="show_button_while_ringing_summary">Zobrazí tlačítko ovládání při vyzvánění dokud nepřijmeš hovor</string>
-    <string name="sExcludeFavoritesFromAll">Vyloučit oblíbené ze seznamu</string>
-    <string name="sExcludeFavoritesFromAllSummary">Nezobrazovat oblíbené nahrávky v seznamu se všemi nahrávkami</string>
     <string name="vertical_position">Vertikální pozice</string>
+    
     <string name="horizontal_position">Horizontální pozice</string>
-    <string name="sVerticalOffset">Odsazení od svislého okraje</string>
-    <string name="sVerticalOffsetSummary">Odsazení od vybraného okraje ve svislém zarovnání (nahoře nebo dole)</string>
-    <string name="sHorizontalOffset">Odsazení od vodorovného okraje</string>
-    <string name="sHorizontalOffsetSummary">Odsazení od vybraného okraje ve vodorovném zarovnání (vlevo nebo vpravo)
-    </string>
-    <string name="sLowSpaceWarning">Upozornění na málo místa</string>
-    <string name="sLowSpaceWarningSummary">Nastavit limit nedostatku místa v MB pro upozornění</string>
-    <string name="sMainScreen">Hlavní obrazovka</string>
-    <string name="sHideInCallControlButton">Schovat tlačítko ovládání</string>
-    <string name="sHideInCallControlButtonSummary">Tlačítko ovládání se schová během hovoru, pokud se hovor nahrává
-    </string>
-    <string name="sDontShowInCallButton">Nezobrazovat tlačítko před spojením</string>
+    
+    
     <string name="hide_button_before_answer_summary">Pokud není navázáno spojení nezobrazovat oládací tlačítko</string>
-    <string name="sLanguageDefault">Výchozí</string>
 
-    <!--Vertical aligns array-->
-    <string name="sVerticalAlignTop">Nahoru</string>
-    <string name="sVerticalAlignBottom">Dolu</string>
-
-    <!--Horizontal aligns array-->
-    <string name="sHorizontalAlignLeft">Doleva</string>
-    <string name="sHorizontalAlignRight">Doprava</string>
-
-    <!--Notification icons array-->
-    <string name="sNotificationIconDefault">Výchozí</string>
-    <string name="sNotificationIconGreenNew">Zelená (nová)</string>
-    <string name="sNotificationIconGreenOld">Zelená (stará)</string>
-    <string name="sNotificationIconGray">Šedá</string>
-
-    <!--Dropbox-->
-    <string name="sDropboxLogin">Přihlášení</string>
-    <string name="sDropboxLogout">Odhlášení</string>
-
+    <!-- Settings -> Cloud -->
+    
+    <string name="cloud_provider_dropbox">Dropbox</string>
+    
+    
+    
+    
     <string name="cloud_wifi_only">Pouze Wi-Fi</string>
     <string name="cloud_auto_upload">Automatický upload</string>
-    <string name="sCloudUploadFavorites">Upload oblíbené</string>
-    <string name="sCloudUploadFavoritesSummary">Upload záznamu na Dropbox pokud je přidán do oblíbených</string>
     <string name="cloud_auto_upload_summary">Uploadovat nahrávku ihned po hovoru</string>
-    <string name="menu_add_to_dropbox">Přidat do Dropboxu</string>
+    
+    
 
-    <!--Security-->
-    <string name="category_encryption">Kódování</string>
-    <string name="sKeyNotFound">Klíč nenalezen</string>
-    <string name="sCreate">Vytvořit</string>
-    <string name="create_new_key">Vytvořit nový klíč</string>
+    <!-- Notification -->
+    
+    
+
+    <!-- Password dialog -->
+    <string name="wrong_password">Špatné heslo</string>
     <string name="enter_password">Zadat heslo</string>
-    <string name="sReEnterPassword">Znovu zadat heslo</string>
-    <string name="aes_128bit">128-bit AES (Rychlé)</string>
-    <string name="aes_192bit">192-bit AES (Vyvážené)</string>
-    <string name="aes_256bit">256-bit AES (Silné)</string>
+    <string name="password_has_been_changed">Heslo bylo změněno</string>
+
+    <!-- Settings -> Security -->
+    <string name="category_encryption">Kódování</string>
     <string name="category_application">Aplikovat na</string>
-    <string name="app_admin">Správce aplikace</string>
-    <string name="sAppAdminSummary">Nutno zabránit odinstalaci CallRecorderu</string>
-    <string name="sAppAdminExplanation">CallRecorder nepoužívá žádnou funkci správce zařízení krom ochrany před
-        odinstalováním
-    </string>
+    <string name="create_new_key">Vytvořit nový klíč</string>
+    
+    
     <string name="change_password">Změna hesla</string>
+    
+    
     <string name="enter_old_password">Zadej staré heslo</string>
     <string name="enter_new_password">Zadej nové heslo</string>
     <string name="re_enter_new_password">Znovu zadej nové heslo</string>
     <string name="require_password">Vyžaduje heslo</string>
     <string name="require_password_summary">K otevření aplikace je požadováno heslo</string>
+    
     <string name="lock_after">Zamknout po</string>
     <string name="lock_after_exit">Exit</string>
     <string name="lock_after_1_minute">1 min.</string>
     <string name="lock_after_3_minutes">3 min.</string>
     <string name="lock_after_5_minutes">5 min.</string>
     <string name="lock_after_10_minutes">10 min.</string>
-    <string name="password_has_been_changed">Heslo bylo změněno</string>
+    <string name="app_admin">Správce aplikace</string>
+    
+    
+    <string name="aes_128bit">128-bit AES (Rychlé)</string>
+    <string name="aes_192bit">192-bit AES (Vyvážené)</string>
+    <string name="aes_256bit">256-bit AES (Silné)</string>
 
-    <!--Audio player-->
-    <string name="sUseDefaultPlayer">Použít předvolený přehrávač</string>
+    <!-- Settings -> Audio player -->
+    
     <string name="audio_output">Výstup zvuku</string>
+    
+    <string name="main_speaker">Hlavní reproduktor</string>
+    <string name="phone_speaker">Reproduktor telefonu</string>
+    <string name="use_proximity_sensor">Použít pohybový senzor</string>
+    
+    <string name="switch_audio_output">Přepnout výstup zvuku</string>
+    
     <string name="android_wav_decoder">Android dekodér pro WAV</string>
     <string name="android_wav_decoder_summary">Použít vestavěný android nástroj pro přehrání WAV</string>
     <string name="android_amr_decoder">Android dekodér pro AMR</string>
     <string name="android_amr_decoder_summary">Použít vestavěný android nástroj pro přehrání AMR</string>
-    <string name="switch_audio_output">Přepnout výstup zvuku</string>
-    <string name="SwitchAudioOutputSummary">Automaticky přepnout výstup zvuku pokud je obrazovka povolena/zakázána
-        senzorem pro přiblížení
-    </string>
-    <string name="use_proximity_sensor">Použít pohybový senzor</string>
-    <string name="sUseProximitySensorSummary">Použít pohybový senzor na deaktivování obrazovky při přehrávání nahrávky
-        (požadován ROOT)
-    </string>
 
-    <!--Audio output array-->
-    <string name="main_speaker">Hlavní reproduktor</string>
-    <string name="phone_speaker">Reproduktor telefonu</string>
-
-    <!--Experimental-->
-    <string name="sConvertAfterCall">Převést po skončení hovoru</string>
-    <string name="sDontConvert">Nepřevádět</string>
-    <string name="sWavToMp3">WAV do MP3</string>
-    <string name="sWavToAmr">VAV do AMR</string>
-
-    <!--Debug-->
-    <string name="sDetailedLogs">Podrobné logování</string>
+    <!--Settings -> Debug-->
     <string name="root_access">Root přístup</string>
     <string name="root_access_no">Ne</string>
     <string name="root_access_yes">Ano</string>
-    <string name="sLogsSettingsCategory">Logy</string>
-    <string name="sSendLogsToTheDeveloper">Odeslat logy vývojáři</string>
-    <string name="sUseGzipToCompressLogs">Použít gzip ke kompresi logů</string>
-    <string name="sRecordOnNotificationClick">Záznam po klepnutí na oznámení</string>
-    <string name="sRecordOnNotificationClickSummary">Neklepej na oznámení, dokud nedojde ke spojení</string>
-    <string name="sHideNotificationDuringCall">Skrýt oznámení během hovoru</string>
-    <string name="sHideNotificationDuringCallSummary">Nezapínej, toto je pouze pro vývojáře</string>
     <string name="dual_sim_phone">Telefon s duální SIM</string>
     <string name="dual_sim_phone_summary">Toto povol pokud aplikace není schopna rozlišit hovory z druhé simkarty</string>
 
-    <!--About-->
-    <string name="version">Verze</string>
-    <string name="sAboutCallRecorder">O aplikaci CallRecorder</string>
-    <string name="license_status">Stav licence</string>
-    <string name="sLicenseStatusVerified">Licence ověřena</string>
-    <string name="license_trial">Zkušební verze vyprší %s</string>
+    <!-- General -->
+    <string name="contact_unknown">Neznámý</string>
+    
+    <string name="button_ok">OK</string>
+    
+    <string name="button_edit">Editovat</string>
+    <string name="button_cancel">Storno</string>
+    
+    
+    
+    
+    
+    
+    
+    <string name="please_wait">Čekejte prosím...</string>
+    <string name="start_recording">Začít nahrávání</string>
+    <string name="stop_recording">Zastavit nahrávání</string>
+    
+    <string name="switch_on">Zap</string>
+    <string name="switch_off">Vyp</string>
 
+    <!-- Call confirm dialog -->
+    <string name="call_confirm_record_this_call">Nahrát tento hovor</string>
+    
+
+    <!--Notification-->
+    
+    
+    
+    <string name="an_error_has_occurred">Nastala chyba, tento hovor nemůže být nahrán</string>
+
+    <!--About-->
+    
+    <string name="version">Verze</string>
     <string name="copyright">Kopírovací práva</string>
     <string name="copyright_summary">© %s Alexander Skvortsov (skvalex)</string>
     <string name="about_many_thanks">Mnoho poděkování pro</string>
     <string name="about_many_thanks_summary">Alexey Subbotin (avs234)</string>
-    <string name="sGermanTranslation">Německý překlad</string>
-    <string name="sGermanTranslationSummary_ver1">Marc Hillesheim and Thomas Käfer</string>
-    <string name="sPolishTranslation">Polský překlad</string>
-    <string name="sPolishTranslationSummary">Robert Gonta</string>
-    <string name="sFrenchTranslation">Francouzký překlad</string>
-    <string name="sFrenchTranslationSummary">Julien Boiteux</string>
-    <string name="sBrazilianPortugueseTranslation">Brazilsko portugalský překlad</string>
-    <string name="sBrazilianPortugueseTranslationSummary">Luiz Marcelo Serique</string>
-    <string name="sSpanishTranslation">Španělský překlad</string>
-    <string name="sSpanishTranslationSummary_ver1">Iñigo Garcia a Diego Vilas</string>
-    <string name="sSlovakTranslation">Slovenský překlad</string>
-    <string name="sSlovakTranslationSummary">Loránt Gerencsér</string>
-    <string name="sItalianTranslation">Italský překlad</string>
-    <string name="sItalianTranslationSummary">Luca Trevisan</string>
-    <string name="sPersianTranslation">Perský překlad</string>
-    <string name="sPersianTranslationSummary_v2">Alireza Afkar</string>
-    <string name="sChineseTranslation">Čínský překlad</string>
-    <string name="sChineseTranslationSummary">qhq</string>
-    <string name="sCzechTranslation">Český překlad</string>
-    <string name="sCzechTranslationSummary_ver2">Aleš Kerner a Lukáš Waldauf</string>
-    <string name="sArabicTranslation">Arabský překlad</string>
-    <string name="sArabicTranslationSummary">Ausama S. Ibrahim</string>
-    <string name="sHebrewTranslation">Hebrejský překlad</string>
-    <string name="sHebrewTranslationSummary">NuFlood</string>
-    <string name="sHungarianTranslation">Maďarský překlad</string>
-    <string name="sHungarianTranslationSummary_ver2">Szalay Levente a Miklós Toldi</string>
-    <string name="sDutchTranslation">Holandský překlad</string>
-    <string name="sDutchTranslationSummary">Elroy Tirbeni</string>
-    <string name="sTurkishTranslation">Turecký překlad</string>
-    <string name="sTurkishTranslationSummary">Omer Ilik</string>
-    <string name="sSerbianTranslation">Srbský překlad</string>
-    <string name="sSerbianTranslationSummary">sHAKaJaada</string>
-    <string name="sKoreanTranslation">Korejský překlad</string>
-    <string name="sKoreanTranslationSummary_ver2">SoHyunSeop a Joon Hee Jo</string>
-    <string name="sRomanianTranslation">Rumunský překlad</string>
-    <string name="sRomanianTranslationSummary">Dan P. (sad)</string>
-    <string name="sUkrainianTranslation">Ukrajinský překlad</string>
-    <string name="sUkrainianTranslationSummary">Gennadi Samoluk</string>
-    <string name="sTraditionalChineseTranslation">Tradiční čínský překlad</string>
-    <string name="sTraditionalChineseTranslationSummary_v2">GPF_kaibird a Chien Jung Liaw</string>
-    <string name="sJapaneseTranslation">Japonský překlad</string>
-    <string name="sJapaneseTranslationSummary">Akira Tagoh</string>
-    <string name="sSwedishTranslation">Švédský překlad</string>
-    <string name="sSwedishTranslationSummary">Johannes Sjölund</string>
-    <string name="sBulgarianTranslation">Bulharský překlad</string>
-    <string name="sBulgarianTranslationSummary">PROXIMO</string>
-    <string name="sDanishTranslation">Dánský překlad</string>
-    <string name="sDanishTranslationSummary">Lars Sarauw Hansen</string>
-    <string name="sLatvianTranslation">Lotyšský překlad</string>
-    <string name="sLatvianTranslationSummary">Arvīds Dreimanis</string>
-    <string name="sThaiTranslation">Thajský překlad</string>
-    <string name="sThaiTranslationSummary">Wuttisak Saichoncharn</string>
-    <string name="sArmenianTranslation">Arménský překlad</string>
-    <string name="sArmenianTranslationSummary">Konstantin Gevorgyan</string>
-    <string name="sGeorgianTranslation">Gruzínský překlad</string>
-    <string name="sGeorgianTranslationSummary">Alexandre Razmadze</string>
-    <string name="sCatalanTranslation">Katalánský překlad</string>
-    <string name="sCatalanTranslationSummary">cybdani</string>
-    <string name="sHindiTranslation">Hindský překlad</string>
-    <string name="sHindiTranslationSummary">TheTAMAS Gautam</string>
-    <string name="sPunjabiTranslation">Punjabi překlad</string>
-    <string name="sPunjabiTranslationSummary_ver2">Raj Verma</string>
-    <string name="sFinnishTranslation">Finský překlad</string>
-    <string name="sFinnishTranslationSummary">Eero Linnainmaa</string>
 
-    <!--Licenses-->
     <string name="licenses">Licence</string>
-    <string name="sActionBarSherlockLicense">ActionBarSherlock</string>
-    <string name="sActionBarSherlockLicenseSummary">Použit ActionBarSherlock pod licencí Apache verze 2.0, klepni pro
-        zobrazení stránky actionbarsherlock.com
-    </string>
     <string name="about_open_core_amr_license">opencore-amr</string>
-    <string name="about_open_core_amr_license_summary">Použit opencore-amr pod Apache License Verze 2.0, klepni pro zobrazení
-        stránky opencore-amr.sourceforge.net
-    </string>
+    <string name="about_open_core_amr_license_summary">Použit opencore-amr pod Apache License Verze 2.0, klepni pro zobrazení stránky opencore-amr.sourceforge.net</string>
     <string name="about_alsa">ALSA</string>
     <string name="about_alsa_summary">Použit ALSA pod licencí LGPL, klepni pro zobrazení stránky alsa-project.org</string>
     <string name="about_lame">LAME</string>

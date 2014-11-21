@@ -1,319 +1,226 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+<?xml version="1.0" encoding="utf-8" standalone="no"?><resources>
     <string name="app_name">CallRecorder</string>
-    <!--Rules array-->
-    <string name="sRuleDescription">קראתי והבנתי את תיאור האפליקציה</string>
-    <string name="sRulePlayStore">אני מבין שהמפתח לא יכול לענות לתגובות בחנות האפליקציות של גוגל</string>
-    <string name="sRuleUseOfProgram">אני מבין שהמפתח לא אחראי לשימוש באפליקציה. השימוש בה על אחריותי בלבד</string>
-    <string name="sRuleLaw">אני בטוח לחלוטין שאינני עובר על חוקי המדינה שלי בשימוש באפליקציה</string>
-    <string name="sRuleNotWorking">אם ההקלטה לא עובדת במכשיר שלי אני אקרא את תיאור האפליקציה שוב ואם לא אמצא תשובה אז
-        אפנה למפתח במייל skvalex@gmail.com
-    </string>
+    
+    
 
-    <!--Notification-->
-    <string name="sRecordingIsRunning">השירות להקלטת שיחות בפעולה</string>
-    <string name="sThisCallIsRecording">שיחה זו מוקלטת</string>
-    <string name="an_error_has_occurred">קרתה תקלה. שיחה זו לא תוקלט</string>
-    <string name="sEncodingError">קרתה תקלה בעת הקידוד</string>
-    <string name="start_recording">התחל הקלטה</string>
-    <string name="stop_recording">הפסק הקלטה</string>
+    <!-- Navigation drawer -->
+    
+    
 
-    <!--List with recordings-->
+    <!-- Navigation drawer sections -->
+    
+    
+    <string name="section_incoming">נכנסות</string>
+    <string name="section_outgoing">יוצאות</string>
+    
+    
+    
+    <string name="section_help">עזרה</string>
+    <string name="section_tasks">משימות</string>
+    
     <string name="empty_hint">ריק</string>
-    <string name="contact_unknown">לא ידוע</string>
 
-    <!--Actions on recording-->
-    <string name="category_actions">פעולות</string>
-    <string name="sFilterThisNumber">סנן מספר זה</string>
-    <string name="sAddToFavorites">הוסף למועדפים</string>
-    <string name="sRemoveFromFavorites">הסר ממועדפים</string>
-    <string name="sAddToContacts">הוסף לאנשי הקשר</string>
-    <string name="sOpenContact">פתח איש קשר</string>
-    <string name="sCall">שיחה</string>
-    <string name="sNote">תזכורת</string>
-    <string name="sConvertToMp3">המר לקובץ mp3</string>
-    <string name="sConvertToAmr">המר לקובץ amr</string>
-    <string name="sRenameFile">שנה שם קובץ</string>
+    <!-- Action bar -->
+    <string name="action_search">חפש</string>
+    
+    <string name="action_settings">הגדרות</string>
+    
+    
+    
+    
+    
+    <string name="action_select_all">בחר הכל</string>
+    
+    
+    
+
+    <!-- List -->
+    
+    
+    
+    
+
+    <!-- List -> Context menu -->
+    <string name="menu_add_to_dropbox">הוסף ל-Dropbox</string>
+    
+    
+    <string name="menu_delete">מחיקה</string>
+    
+    
+    
     <string name="menu_get_info">השג מידע</string>
+    
     <string name="menu_encrypt">הצפן</string>
     <string name="menu_decrypt">פענח</string>
 
-    <!--Actions on selected recordings-->
-    <string name="action_select_all">בחר הכל</string>
-    <string name="sSelectNone">אל תבחר כלום</string>
-
-    <!--General-->
-    <string name="sSend">שלח</string>
-    <string name="sSendVia">שלח דרך</string>
-    <string name="menu_delete">מחיקה</string>
-    <string name="button_cancel">ביטול</string>
-    <string name="button_ok">אישור</string>
-    <string name="sSeconds">שניות</string>
-    <string name="sDisabled">מבוטל</string>
-    <string name="sYes">כן</string>
-    <string name="sNo">לא</string>
+    <!-- List -> Get info dialog -->
+    <string name="file_name">שם הקובץ</string>
+    <string name="sample_rate">רמת הדגימה</string>
+    <string name="sample_rate_hz">Hz</string>
+    
+    <string name="recording_type_mono">מונו</string>
+    <string name="recording_type_stereo">סטריאו</string>
+    <string name="file_size">גודל קובץ</string>
     <string name="terabyte">TB</string>
     <string name="gigabyte">GB</string>
     <string name="megabyte">MB</string>
     <string name="kilobyte">KB</string>
     <string name="bytes">bytes</string>
-    <string name="please_wait">אנא המתן...</string>
-    <string name="switch_on">פועל</string>
-    <string name="switch_off">כבוי</string>
+    
 
-    <!--Tabs-->
-    <string name="section_incoming">נכנסות</string>
-    <string name="section_outgoing">יוצאות</string>
-    <string name="sFavorites">מועדפים</string>
-    <string name="sAll">הכל</string>
-
-    <!--Send recordings-->
-    <string name="recorded_calls">שיחות מוקלטות</string>
-    <string name="sIncoming">נכנסות</string>
-    <string name="sOutgoing">יוצאות</string>
-
-    <!--Dialog after call-->
-    <string name="sDlgDeleteMsg">שמור או מחק שיחה מוקלטת?</string>
-    <string name="sKeep">שמור</string>
-    <string name="sDropboxAdded">נוסף</string>
-
-    <!--Delete confirmation dialog-->
-    <string name="sDeleteFiles">מחק קבצים</string>
-    <string name="confirm_delete_message">אתה בטוח שברצונך למחוק את ההקלטה?</string>
-    <string name="sDlgDeleteSelectionMsg">בחרת %d קבצים. אתה בטוח שאתה מעוניין למחוק אותם?</string>
-    <string name="sFilesDeletedToast">%d קבצים נמחקו</string>
-
-    <!--Call confirm dialog-->
-    <string name="call_confirm_record_this_call">הקלט שיחה זו</string>
-
-    <!--Dialog about law-->
-    <string name="sWarning">אזהרה</string>
-    <string name="sMsgAboutLaw">הקלטת שיחות במדינות מסויימות הינה בלתי חוקית. את בטוח שאתה גר במדינה בה זה חוקי?
-    </string>
-
-    <!--Rules dialog-->
-    <string name="sRules">חוקים</string>
-    <string name="sIAgree">אני מסכים</string>
-    <string name="sIDisagree">אני מסרב</string>
-
-    <!--Main screen toasts-->
-    <string name="sAddToFavoritesSuccess">הקלטה זו הוספה בהצלחה למועדפים</string>
-    <string name="sRemoveFromFavoritesSuccess">הקלטה זו הוסרה בהצלחה מהמועדפים</string>
-    <string name="sDeleteFavoriteRecordingMsg">על מנת למחוק הקלטה זו עליך להסירה מהמועדפים</string>
-
-    <!--Encryption-->
-    <string name="sFileSuccessfullyEncrypted">קובץ הוצפן בהצלחה</string>
-    <string name="sFileSuccessfullyDecrypted">פענוח הקובץ הצליח</string>
-    <string name="sEncrypting">מצפין</string>
-    <string name="sDecrypting">מפענח</string>
-    <string name="sEncrypted">מוצפן</string>
-    <string name="wrong_password">סיסמא שגויה</string>
-
-    <!--Main screen warnings-->
-    <string name="sAvailableFreeSpace">זיכרון מוגבל: %s</string>
-    <string name="sReadWriteErr">קובץ מערכת חייב להיטען כפתוח לקריאה וכתיבה</string>
-    <string name="sAlsaIsNotInstalledMsg">Alsa לא מותקן. לחץ כאן בכדי להתקין.</string>
-    <string name="sPhoneMustBeRootedWarning">הסלולרי שלך חייב להיות לאחר רוט. לחיצה ארוכה לסגירת ההודעה.</string>
-    <string name="sStandardAPITip">אם הקלטת שיחות לא עובדת אז נסה את כל מקורות הקול בתפריט הstandard API. לחיצה
-        ארוכהלסגירת הודעה זו.
-    </string>
-
-    <!--Toasts-->
-    <string name="sLoggerMustBeEnabledToast">לוגר ברום/קרנל שלך חייב להיות מופעל</string>
-    <string name="sFileWasDeletedToast">הקובץ נמחק</string>
-
-    <!--Action bar-->
-    <string name="action_search">חפש</string>
-    <string name="sSizeRecords">הקלטות: %1$s, גודל: %2$s</string>
-    <string name="sFreeOf">פנויים מתוך</string>
-
-    <!--Tasks screen-->
-    <string name="section_tasks">משימות</string>
-    <string name="sInProgress">בתהליכים (%s)</string>
-    <string name="sInQueue">בתור</string>
-
-    <!--Get Info dialog-->
-    <string name="file_name">שם הקובץ</string>
-    <string name="sample_rate_hz">Hz</string>
-    <string name="file_size">גודל קובץ</string>
-    <string name="button_edit">ערוך</string>
-
-    <!--Edit Info dialog-->
+    <!-- List -> Get info dialog -> Edit -->
     <string name="contact_name">שם איש קשר</string>
     <string name="phone_number">מספר טלפון</string>
 
-    <!--Description for file name pattern-->
-    <string name="pattern_contact_name">שם איש הקשר</string>
-    <string name="pattern_phone_number">מספר הטלפון</string>
-    <string name="pattern_call_time">שעת השיחה</string>
-    <string name="sCallTimestamp">חותמת שעת השיחה</string>
-    <string name="pattern_call_type">סוג השיחה (נכנסת או יוצאת)</string>
+    <!-- List -> Confirm delete dialog -->
+    <string name="confirm_delete_message">אתה בטוח שברצונך למחוק את ההקלטה?</string>
+    
+    
 
-    <!--Description for time pattern-->
-    <string name="time_pattern_hours">שעות</string>
-    <string name="time_pattern_minutes">דקות</string>
-    <string name="time_pattern_seconds">שניות</string>
-    <string name="time_pattern_days">ימים</string>
-    <string name="time_pattern_months">חודשים</string>
-    <string name="time_pattern_years">שנים</string>
-    <string name="pattern_example">דוגמא:</string>
+    <!-- List -> Share -->
+    
+    <string name="recorded_calls">שיחות מוקלטות</string>
 
-    <!--Trial expired dialog-->
-    <string name="sTrialPeriodExpired">תקופת הניסיון תפוג:</string>
-    <string name="sTrialPeriodExpiredMsg">בבקשה הסר גירסה זאת, לפני רכישת הגירסה המלאה</string>
-    <string name="sBuy">קנה</string>
-
-    <!--New settings-->
-    <string name="action_settings">הגדרות</string>
-    <string name="section_help">עזרה</string>
-
-    <!--Main settings-->
-    <string name="buy_full_version">קנה את הגירסה המלאה</string>
-    <string name="buy_full_version_summary">הגירסא הנוכחית תפוג ב%s</string>
-    <string name="sCallRecorderUpdater">CallRecorder מעדכן</string>
+    <!--  Settings -> Headers -->
     <string name="settings_recording">הקלטה</string>
     <string name="settings_folders_and_files">תיקיות וקבצים</string>
     <string name="settings_ui_and_appearance">ממשק ומראה</string>
-    <string name="cloud_provider_dropbox">דרופבוקס</string>
     <string name="settings_security">אבטחה</string>
+    
     <string name="settings_audio_player">נגן אודיו</string>
-    <string name="sExperimentalSettings">ניסיוני</string>
     <string name="settings_debug">תיקון שגיאות דיבאג</string>
     <string name="settings_about">אודות</string>
 
-    <!--General-->
-    <string name="sGeneralSettingsCategory">כללי</string>
-    <string name="sOtherSettingsCategory">אחר</string>
-    <string name="sAdvancedSettingsCategory">מתקדם</string>
-    <string name="category_wav_settings">הגדרות WAV</string>
-    <string name="category_main">ראשי</string>
+    <!-- Settings -> License -->
+    <string name="license_status">מצב רשיון</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="license_trial">גרסת נסיון, תפוג ב%s</string>
+    
+    
+    
+    
+    
+    
 
+    <string name="buy_full_version">קנה את הגירסה המלאה</string>
+    <string name="buy_full_version_summary">הגירסא הנוכחית תפוג ב%s</string>
 
-    <!--Buy full version-->
-    <string name="sOpenPlayStore">פתח חנות אפליקציות של גוגל</string>
-
-    <!--CallRecorder Updater-->
-    <string name="sOpenCallRecorderUpdater">פתח את מעדכן התוכנה</string>
-
-    <!--Recording-->
+    <!-- Settings -> Recording -->
     <string name="recording_calls_switch">מקליט שיחות</string>
+    <string name="category_main">ראשי</string>
     <string name="device">מכשיר</string>
-    <string name="device_other">אחר</string>
     <string name="select_your_device">בחר את מכשירך</string>
-    <string name="sAudioFormatSettingsCategory">פורמט האודיו</string>
-    <string name="sCallRecordingFormat">פורמט הקלטת שיחות</string>
-    <string name="sMethodSettingsCategory">שיטות</string>
-    <string name="sKernelSettings">קרנל</string>
-    <string name="sKernelSettingsSummary">הגדרות להקלטת קרנל</string>
+    
+    
+    
+    <string name="device_other">אחר</string>
+    <string name="recording_method">שיטת הקלטה</string>
     <string name="recording_method_api">API סטנדרטי</string>
     <string name="recording_method_api_settings">הגדרות להקלטת API סטנדרטי</string>
-    <string name="recording_method_alsa">ALSA</string>
-    <string name="recording_method_alsa_settings">הגדרות הקלטת ALSA</string>
-    <string name="recording_method">שיטת הקלטה</string>
     <string name="recording_method_caf">CAF</string>
     <string name="recording_method_caf_settings">הגדרות הקלטת CAF</string>
-    <string name="volume_control">עוצמת קול</string>
-    <string name="recording_mode">מצב הקלטה</string>
-    <string name="recording_type_mono">מונו</string>
-    <string name="recording_type_stereo">סטריאו</string>
-    <string name="volume_control_tx">sTx</string>
-    <string name="volume_control_rx">sRx</string>
-
-    <!--Recording methods array-->
-    <string name="sRecordingMethodKernel">(נדרש רוט) Kernel</string>
-    <string name="sRecordingMethodStandardAPI">API סטנדרטי</string>
-    <string name="sRecordingMethodALSA">(נדרש רוט) ALSA</string>
-    <string name="sRecordingMethodCAF">(נדרש רוט) CAF</string>
-
-    <!--Recording audio formats-->
-    <string name="recording_format_wav">WAV</string>
-    <string name="recording_format_amr">AMR</string>
-    <string name="recording_format_aac">AAC</string>
-    <string name="s3GPP">3GPP</string>
-    <string name="recording_format_mp3">MP3</string>
-
-    <!--Recording behavior-->
-    <string name="after_call_actions_dialog">חלון פעולה לאחר שיחה</string>
-    <string name="after_call_actions_dialog_summary">שאל מה לעשות לאחר השיחה</string>
-    <string name="call_confirm">שיחה מאושרת</string>
-    <string name="call_confirm_summary">הראה חלון אישור לפני התקשרות</string>
-    <string name="sDefaultAction">פעולת ברירת מחדל</string>
-    <string name="action_for_outgoing">פעולה לשיחות יוצאות</string>
+    <string name="recording_method_alsa">ALSA</string>
+    <string name="recording_method_alsa_settings">הגדרות הקלטת ALSA</string>
+    
+    
+    <string name="category_actions">פעולות</string>
     <string name="action_for_incoming">פעולה לשיחות נכנסות</string>
-    <string name="delay_before_start_recording">שהות לפני תחילת ההקלטה</string>
-    <string name="sIncomingCalls">שיחות נכנסות</string>
-    <string name="sOutgoingAndIncomingCalls">יוצאות &amp; שיחות נכנסות</string>
-    <string name="sOutgoingCalls">שיחות יוצאות</string>
-    <string name="vibrate_on_call">רטט בתחילת/סיום שיחה</string>
-
-    <!--Actions-->
+    <string name="action_for_outgoing">פעולה לשיחות יוצאות</string>
     <string name="action_record_all">הקלט הכל</string>
     <string name="action_do_not_record">אל תקליט</string>
     <string name="action_record_contacts">הקלט אנשי קשר</string>
     <string name="action_record_non_contacts">הקלט שיחות של אנשים שלא באנשי הקשר</string>
-
-    <!--Recording -> Exceptions-->
+    <string name="call_confirm">שיחה מאושרת</string>
+    <string name="call_confirm_summary">הראה חלון אישור לפני התקשרות</string>
+    <string name="after_call_actions_dialog">חלון פעולה לאחר שיחה</string>
+    <string name="after_call_actions_dialog_summary">שאל מה לעשות לאחר השיחה</string>
+    <string name="vibrate_on_call">רטט בתחילת/סיום שיחה</string>
     <string name="exceptions">יוצאי דופן</string>
-    <string name="sAddGroup">הוסף קבוצה</string>
-    <string name="sAdd">הוסף</string>
-    <string name="exception_group">קבוצה</string>
-    <string name="exception_select_group">בחר קבוצה</string>
-    <string name="exception_select_action">בחר פעולה</string>
-    <string name="sChangeAction">שנה פעולה</string>
-    <string name="exception_action_always_record">הקלט תמיד</string>
-    <string name="exception_action_never_record">אל תקליט לעולם</string>
-    <string name="sPressMenuToAddException">לחץ תפריט בכדי להוסיף חריג</string>
-
-    <!--Recording -> Kernel-->
-    <string name="chipset_type">סוג שבב</string>
-    <string name="chipset_type_msm72xx">Qualcomm MSM72XX</string>
-    <string name="chipset_type_msm8250">Qualcomm MSM8250</string>
-    <string name="chipset_type_msm8255">Qualcomm MSM8255</string>
-    <string name="chipset_type_msm8260">Qualcomm MSM8260</string>
-    <string name="sSoundBoost">הגברת קול</string>
-    <string name="sUplinkBoost">הגברת קישור העלאה</string>
-    <string name="sDownlinkBoost">הגברת קישור הורדה</string>
-    <string name="dont_use_amr_driver">אל תשתמש במנהל התקן של AMR</string>
-    <string name="dont_use_amr_driver_summary">במקום, המר WAV ל AMR בזמן אמת</string>
-
-    <!--Recording -> Standard API-->
-    <string name="api_audio_source">מקור האודיו</string>
-    <string name="sWhenBTConnected">כאשר בלוטות מחובר</string>
-    <string name="sBTEnabledMeansBTConnected">בלוטות מופעל משמעותו בלוטות מחובר</string>
-    <string name="sBTEnabledMeansBTConnectedSummary">לאחר שמתאם בלוטות מופעל השתמש באותן הגדרות כמו אם בלוטות מחובר
-    </string>
-    <string name="sAudioSourceWhenBTConnected">מקור אודיו כשבלוטות מחובר</string>
-    <string name="sample_rate">רמת הדגימה</string>
+    
+    
+    
+    <string name="delay_before_start_recording">שהות לפני תחילת ההקלטה</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="recording_format_wav">WAV</string>
+    <string name="recording_format_amr">AMR</string>
+    <string name="recording_format_aac">AAC</string>
+    <string name="recording_format_mp3">MP3</string>
+    <string name="volume_control">עוצמת קול</string>
+    
+    
+    
+    <string name="volume_control_tx">sTx</string>
+    <string name="volume_control_rx">sRx</string>
     <string name="sample_rate_8000">8000 Hz (ברירת מחדל)</string>
     <string name="sample_rate_11025">11025 Hz</string>
     <string name="sample_rate_16000">16000 Hz</string>
     <string name="sample_rate_22050">22050 Hz</string>
     <string name="sample_rate_44100">44100 Hz</string>
     <string name="sample_rate_48000">48000 Hz</string>
-    <string name="sSampleRateWarning">ייתכן וחלק מהsample rates לא ייתמכו על ידי המערכת</string>
 
-    <!--Audio sources of Standard API array-->
+    <!-- Settings -> Recording -> Standard API -->
+    <string name="api_audio_source">מקור האודיו</string>
     <string name="api_source_uplink_downlink">צד-קול נכנס + יוצא</string>
     <string name="api_source_downlink">צד-קול נכנס</string>
     <string name="api_source_uplink">צד-קול יוצא</string>
     <string name="api_source_microphone">מיקרופון</string>
     <string name="api_source_default">ברירת מחדל</string>
     <string name="api_source_voice_communication">תקשורת קול</string>
+    <string name="category_wav_settings">הגדרות WAV</string>
+    
 
-    <!--Actions on BT connected array-->
-    <string name="sOnBTConnectedActionDoNothing">אל תעשה דבר</string>
-    <string name="sOnBTConnectedActionSwitchAudioSource">החלף מקור אודיו</string>
-    <string name="sOnBTConnectedActionDisableRecording">כבה הקלטה</string>
+    <!-- Settings -> Recording -> CAF -->
+    <string name="recording_mode">מצב הקלטה</string>
 
-    <!--Recording -> ALSA-->
-    <string name="sAlsa">Alsa</string>
-    <string name="sAlsaIsInstalled">Alsa מותקן</string>
+    <!-- Settings -> Recording -> ALSA -->
+    
+    
 
-    <!--Folders and Files-->
-    <string name="sRescan">סרוק מחדש</string>
-    <string name="sRescanSummary">סרוק תיקייה מחדש כדי לעדכן רשימת הקלטות</string>
-    <string name="sFolderSettingsCategory">תיקייה</string>
+    <!-- Settings -> Recording -> MSM -->
+    <string name="chipset_type">סוג שבב</string>
+    <string name="chipset_type_msm72xx">Qualcomm MSM72XX</string>
+    <string name="chipset_type_msm8250">Qualcomm MSM8250</string>
+    <string name="chipset_type_msm8255">Qualcomm MSM8255</string>
+    <string name="chipset_type_msm8260">Qualcomm MSM8260</string>
+    <string name="dont_use_amr_driver">אל תשתמש במנהל התקן של AMR</string>
+    <string name="dont_use_amr_driver_summary">במקום, המר WAV ל AMR בזמן אמת</string>
+
+    <!-- Settings -> Recording -> Exceptions -->
+    
+    <string name="exception_group">קבוצה</string>
+    <string name="exception_select_group">בחר קבוצה</string>
+    
+    
+    
+    
+    <string name="exception_select_action">בחר פעולה</string>
+    <string name="exception_action_always_record">הקלט תמיד</string>
+    <string name="exception_action_never_record">אל תקליט לעולם</string>
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- Settings -> Folders and Files -->
     <string name="folder">תיקייה</string>
+    
     <string name="automatic_cleanup">ניקוי אוטומטי</string>
     <string name="max_number_of_files">מספר מקסימלי של קבצים</string>
     <string name="max_number_of_files_message">הכנס מספר (0 - ללא הגבלה)</string>
@@ -322,226 +229,160 @@
     <string name="max_age_of_recordings">גיל מקסימלי של הקלטות</string>
     <string name="max_age_of_recordings_message">הכנס ערך בימים (0 - ללא הגבלה)</string>
     <string name="current_setting">הגדרות נוכחיות:%s</string>
-    <string name="sFileNameSettingsCategory">שם קובץ</string>
+    
     <string name="filename_pattern">תבנית</string>
     <string name="time_pattern">צורת זמן</string>
 
-    <!--Interface and Appearance-->
+    <!-- Description for filename pattern -->
+    <string name="pattern_contact_name">שם איש הקשר</string>
+    <string name="pattern_phone_number">מספר הטלפון</string>
+    <string name="pattern_call_time">שעת השיחה</string>
+    
+    <string name="pattern_call_type">סוג השיחה (נכנסת או יוצאת)</string>
+    <string name="time_pattern_hours">שעות</string>
+    <string name="time_pattern_minutes">דקות</string>
+    <string name="time_pattern_seconds">שניות</string>
+    <string name="time_pattern_days">ימים</string>
+    <string name="time_pattern_months">חודשים</string>
+    <string name="time_pattern_years">שנים</string>
+    <string name="pattern_example">דוגמא:</string>
+
+    <!--Settings -> Interface and Appearance-->
     <string name="language">שפה</string>
     <string name="select_language">בחר שפה</string>
-    <string name="sActionBarSettingsCategory">שורת הפעולות</string>
-    <string name="sAudioOutputActionBar">פלט אודיו</string>
-    <string name="sAudioOutputActionBarSummary">הראה פלט קול בשורת הפעולות</string>
-    <string name="incall_control_for_outgoing">לשיחות יוצאות</string>
-    <string name="sInCallControlForOutgoingSummary">שליטה במהלך שיחה על שיחות יוצאות</string>
-    <string name="incall_control_for_incoming">לשיחות נכנסות</string>
-    <string name="sInCallControlForIncomingSummary">שליטה במהלך שיחה על שיחות נכנסות</string>
     <string name="category_notification">התראות</string>
-    <string name="sNotificationIcon">סמל התראות</string>
     <string name="show_notification">הצג התראה</string>
-    <string name="sShowNotificationSummary">עדיפות תהליך מוגבר</string>
-    <string name="sInCallControl">שליטה בזמן השיחה</string>
-    <string name="sHangUpAndCallBack">נתק וחייג בחזרה</string>
-    <string name="sHangUpAndCallBackSummary">בלחיצה ארוכה, נתק שיחה וחייג בחזרה אוטומטית</string>
+    
+    
+    <string name="incall_control_for_outgoing">לשיחות יוצאות</string>
+    
+    <string name="incall_control_for_incoming">לשיחות נכנסות</string>
+    
+    
+    
     <string name="show_button_while_ringing">הצג כפתור בזמן צלצול</string>
     <string name="show_button_while_ringing_summary">הצג כפתור שליטה במסך, לפני ששיחה נכנסת נענת</string>
-    <string name="sExcludeFavoritesFromAll">הסתר מועדפים ממסך "הכל"</string>
-    <string name="sExcludeFavoritesFromAllSummary">הסתר מועדפים מהמסך עם כל ההקלטות</string>
     <string name="vertical_position">מיקום אנכי</string>
+    
     <string name="horizontal_position">מיקום אופקי</string>
-    <string name="sVerticalOffset">קזז מהקצה האנכי</string>
-    <string name="sVerticalOffsetSummary">קיזוז מהקצה האנכי הנבחר (ראש או תחתית)</string>
-    <string name="sHorizontalOffset">קיזוז מהקצה האנכי</string>
-    <string name="sHorizontalOffsetSummary">קיזוז מהקצה האופקי הנבחר (שמאל או ימין)</string>
-    <string name="sLowSpaceWarning">התרעת זיכרון מוגבל</string>
-    <string name="sLowSpaceWarningSummary">קבע ערך סף במגהבייטים להתרעת זיכרון מוגבל</string>
-    <string name="sMainScreen">מסך ראשי</string>
-    <string name="sHideInCallControlButton">הסתר את הכפתור במהלך השיחה</string>
-    <string name="sHideInCallControlButtonSummary">הסתר את הכפתור במהלך השיחה אם מתבצעת הקלטה</string>
-    <string name="sDontShowInCallButton">אל תציג כפתור לפני יצירת הקשר</string>
+    
+    
     <string name="hide_button_before_answer_summary">אל תציג כפתור שליטה במהלך שיחה עד שנוצר הקשר</string>
-    <string name="sLanguageDefault">ברירת מחדל</string>
 
-    <!--Vertical aligns array-->
-    <string name="sVerticalAlignTop">למעלה</string>
-    <string name="sVerticalAlignBottom">למטה</string>
-
-    <!--Horizontal aligns array-->
-    <string name="sHorizontalAlignLeft">שמאל</string>
-    <string name="sHorizontalAlignRight">ימין</string>
-
-    <!--Notification icons array-->
-    <string name="sNotificationIconDefault">ברירת מחדל</string>
-    <string name="sNotificationIconGreenNew">ירוק (חדש)</string>
-    <string name="sNotificationIconGreenOld">ירוק (ישן)</string>
-    <string name="sNotificationIconGray">אפור</string>
-
-    <!--Dropbox-->
-    <string name="sDropboxLogin">התחברות</string>
-    <string name="sDropboxLogout">התנתקות</string>
-
+    <!-- Settings -> Cloud -->
+    
+    <string name="cloud_provider_dropbox">דרופבוקס</string>
+    
+    
+    
+    
     <string name="cloud_wifi_only">רשת אלחוטית בלבד</string>
     <string name="cloud_auto_upload">העלאה אוטומטית</string>
-    <string name="sCloudUploadFavorites">העלה מועדפים</string>
-    <string name="sCloudUploadFavoritesSummary">העלה הקלטה ל-Dropbox כשאתה מוסיף אותה למועדפים</string>
     <string name="cloud_auto_upload_summary">העלה הקלטה מיד אחרי השיחה</string>
-    <string name="menu_add_to_dropbox">הוסף ל-Dropbox</string>
+    
+    
 
-    <!--Security-->
-    <string name="category_encryption">הצפנה</string>
-    <string name="sKeyNotFound">סיסמה לא נמצאה</string>
-    <string name="sCreate">צור</string>
-    <string name="create_new_key">צור סיסמא חדשה</string>
+    <!-- Notification -->
+    
+    
+
+    <!-- Password dialog -->
+    <string name="wrong_password">סיסמא שגויה</string>
     <string name="enter_password">הכנס סיסמא</string>
-    <string name="sReEnterPassword">הכנס סיסמא מחדש</string>
-    <string name="aes_128bit">128-bit AES (מהיר יותר)</string>
-    <string name="aes_192bit">192-bit AES (מאוזן)</string>
-    <string name="aes_256bit">256-bit AES (חזק יותר)</string>
+    <string name="password_has_been_changed">סיסמא שונתה</string>
+
+    <!-- Settings -> Security -->
+    <string name="category_encryption">הצפנה</string>
     <string name="category_application">אפליקציות</string>
-    <string name="app_admin">מנהל אפליקציה</string>
-    <string name="sAppAdminSummary">הכרחי למניעת הסרת התקנת CallRecorder</string>
-    <string name="sAppAdminExplanation">CallRecorder לא משתמש באף מאפיין של מנהל המכשיר למעט הגנת ההתקנה</string>
+    <string name="create_new_key">צור סיסמא חדשה</string>
+    
+    
     <string name="change_password">שנה סיסמא</string>
+    
+    
     <string name="enter_old_password">הכנס סיסמא ישנה</string>
     <string name="enter_new_password">הכנס סיסמא חדשה</string>
     <string name="re_enter_new_password">הכנס סיסמא חדשה בשנית</string>
     <string name="require_password">דרושה סיסמא</string>
     <string name="require_password_summary">דרושה סיסמא בכדי לפתוח את האפליקציה</string>
+    
     <string name="lock_after">נעל לאחר מכן</string>
     <string name="lock_after_exit">צא</string>
     <string name="lock_after_1_minute">דקה אחת</string>
     <string name="lock_after_3_minutes">שלוש דקות</string>
     <string name="lock_after_5_minutes">חמש דקות</string>
     <string name="lock_after_10_minutes">עשר דקות</string>
-    <string name="password_has_been_changed">סיסמא שונתה</string>
+    <string name="app_admin">מנהל אפליקציה</string>
+    
+    
+    <string name="aes_128bit">128-bit AES (מהיר יותר)</string>
+    <string name="aes_192bit">192-bit AES (מאוזן)</string>
+    <string name="aes_256bit">256-bit AES (חזק יותר)</string>
 
-    <!--Audio player-->
-    <string name="sUseDefaultPlayer">השתמש בנגן ברירת המחדל</string>
+    <!-- Settings -> Audio player -->
+    
     <string name="audio_output">פלט קול</string>
+    
+    <string name="main_speaker">רמקול ראשי</string>
+    <string name="phone_speaker">רמקול המכשיר</string>
+    <string name="use_proximity_sensor">השתמש בחיישן קירבה</string>
+    
+    <string name="switch_audio_output">שנה פלט קול</string>
+    
     <string name="android_wav_decoder">מקודד אנדרואיד ל-WAV</string>
     <string name="android_wav_decoder_summary">השתמש בכלי האנדרואיד המקוריים לניגון WAV</string>
     <string name="android_amr_decoder">מפענח אנדרואיד של AMR</string>
     <string name="android_amr_decoder_summary">השתמש בכלי האנדרואיד להשמעת AMR</string>
-    <string name="switch_audio_output">שנה פלט קול</string>
-    <string name="SwitchAudioOutputSummary">החלף מקור קול אוטומטית לפי מצב המסך וחיישן הקירבה</string>
-    <string name="use_proximity_sensor">השתמש בחיישן קירבה</string>
-    <string name="sUseProximitySensorSummary">השתמש בחיישן קרבה לכיבוי המסך בעת האזנה להקלטות (דרוש רוט)</string>
 
-    <!--Audio output array-->
-    <string name="main_speaker">רמקול ראשי</string>
-    <string name="phone_speaker">רמקול המכשיר</string>
-
-    <!--Experimental-->
-    <string name="sConvertAfterCall">המר לאחר שיחה</string>
-    <string name="sDontConvert">אל תמיר</string>
-    <string name="sWavToMp3">WAV ל MP3</string>
-    <string name="sWavToAmr">WAV ל AMR</string>
-
-    <!--Debug-->
-    <string name="sDetailedLogs">יומן מפורט</string>
+    <!--Settings -> Debug-->
     <string name="root_access">גישה לרוט</string>
     <string name="root_access_no">לא</string>
     <string name="root_access_yes">כן</string>
-    <string name="sLogsSettingsCategory">יומנים</string>
-    <string name="sSendLogsToTheDeveloper">שלח יומנים למפתח</string>
-    <string name="sUseGzipToCompressLogs">השתמש בgzip לדחיסת היומן</string>
-    <string name="sRecordOnNotificationClick">הקלט בלחיצה על התראות</string>
-    <string name="sRecordOnNotificationClickSummary">אל תלחץ על התראות לפני שהשיחה החלה</string>
-    <string name="sHideNotificationDuringCall">הסתר התראות במהלך השיחה</string>
-    <string name="sHideNotificationDuringCallSummary">אל תפעיל את זה, זה לתיקון תקלות בלבד</string>
     <string name="dual_sim_phone">טלפון בעל זוג כרטיסי סים</string>
     <string name="dual_sim_phone_summary">הפעל אם האפליקציה לא יכולה לקבוע אם השיחות מכרטיס הסים השני</string>
 
-    <!--About-->
-    <string name="version">גירסה</string>
-    <string name="sAboutCallRecorder">אודות CallRecorder</string>
-    <string name="license_status">מצב רשיון</string>
-    <string name="sLicenseStatusVerified">רשיון מאומת</string>
-    <string name="license_trial">גרסת נסיון, תפוג ב%s</string>
+    <!-- General -->
+    <string name="contact_unknown">לא ידוע</string>
+    
+    <string name="button_ok">אישור</string>
+    
+    <string name="button_edit">ערוך</string>
+    <string name="button_cancel">ביטול</string>
+    
+    
+    
+    
+    
+    
+    
+    <string name="please_wait">אנא המתן...</string>
+    <string name="start_recording">התחל הקלטה</string>
+    <string name="stop_recording">הפסק הקלטה</string>
+    
+    <string name="switch_on">פועל</string>
+    <string name="switch_off">כבוי</string>
 
+    <!-- Call confirm dialog -->
+    <string name="call_confirm_record_this_call">הקלט שיחה זו</string>
+    
+
+    <!--Notification-->
+    
+    
+    
+    <string name="an_error_has_occurred">קרתה תקלה. שיחה זו לא תוקלט</string>
+
+    <!--About-->
+    
+    <string name="version">גירסה</string>
     <string name="copyright">זכויות יוצרים</string>
-    <string name="copyright_summary">&#169; %s Alexander Skvortsov (skvalex)</string>
+    <string name="copyright_summary">© %s Alexander Skvortsov (skvalex)</string>
     <string name="about_many_thanks">רב-תודות</string>
     <string name="about_many_thanks_summary">ל Alexey Subbotin (avs234)</string>
-    <string name="sGermanTranslation">תרגום לגרמנית</string>
-    <string name="sGermanTranslationSummary_ver1">ע"י Marc Hillesheim and Thomas Käfer</string>
-    <string name="sPolishTranslation">תרגום לפולנית</string>
-    <string name="sPolishTranslationSummary">ע"י Robert Gonta</string>
-    <string name="sFrenchTranslation">תרגום לצרפתית</string>
-    <string name="sFrenchTranslationSummary">ע"י Julien Boiteux</string>
-    <string name="sBrazilianPortugueseTranslation">תרגום לפורטוגזית ברזילאית</string>
-    <string name="sBrazilianPortugueseTranslationSummary">ע"י Luiz Marcelo Serique</string>
-    <string name="sSpanishTranslation">תרגום לספרדית</string>
-    <string name="sSpanishTranslationSummary_ver1">ע"י Iñigo Garcia and Diego Vilas</string>
-    <string name="sSlovakTranslation">תרגום לסלובקית</string>
-    <string name="sSlovakTranslationSummary">ע"י Loránt Gerencsér</string>
-    <string name="sItalianTranslation">תרגום לאיטלקית</string>
-    <string name="sItalianTranslationSummary">ע"י Luca Trevisan</string>
-    <string name="sPersianTranslation">תרגום לפרסית</string>
-    <string name="sPersianTranslationSummary_v2">ע"י Alireza Afkar</string>
-    <string name="sChineseTranslation">תרגום לסינית</string>
-    <string name="sChineseTranslationSummary">ע"י qhq</string>
-    <string name="sCzechTranslation">תרגום לצ\'כית</string>
-    <string name="sCzechTranslationSummary_ver2">ע"י Ales Kerner and Lukas Waldauf</string>
-    <string name="sArabicTranslation">תרגום לערבית</string>
-    <string name="sArabicTranslationSummary">ע"י Ausama S. Ibrahim</string>
-    <string name="sHebrewTranslation">תרגום לעברית</string>
-    <string name="sHebrewTranslationSummary">ע"י NuFlood</string>
-    <string name="sHungarianTranslation">תרגום להונגרית</string>
-    <string name="sHungarianTranslationSummary_ver2">ע"י Szalay Levente and Miklós Toldi</string>
-    <string name="sDutchTranslation">תרגום להולנדית</string>
-    <string name="sDutchTranslationSummary">ע"י Elroy Tirbeni</string>
-    <string name="sTurkishTranslation">תרגום לתורכית</string>
-    <string name="sTurkishTranslationSummary">ע"י Omer Ilik</string>
-    <string name="sSerbianTranslation">תרגום לסרבית</string>
-    <string name="sSerbianTranslationSummary">ע"י sHAKaJaada</string>
-    <string name="sKoreanTranslation">תרגום לקוראנית</string>
-    <string name="sKoreanTranslationSummary_ver2">ע"י SoHyunSeop and Joon Hee Jo</string>
-    <string name="sRomanianTranslation">תרגום לרומנית</string>
-    <string name="sRomanianTranslationSummary">ע"י Dan P. (sad)</string>
-    <string name="sUkrainianTranslation">תרגום לאוקראינית</string>
-    <string name="sUkrainianTranslationSummary">ע"י Gennadi Samoluk</string>
-    <string name="sTraditionalChineseTranslation">תרגום לסינית מסורתית</string>
-    <string name="sTraditionalChineseTranslationSummary_v2">ע"י GPF_kaibird and Chien Jung Liaw</string>
-    <string name="sJapaneseTranslation">תרגום ליפנית</string>
-    <string name="sJapaneseTranslationSummary">ע"י Akira Tagoh</string>
-    <string name="sSwedishTranslation">תרגום לשוודית</string>
-    <string name="sSwedishTranslationSummary">ע"י Johannes Sjölund</string>
-    <string name="sBulgarianTranslation">תרגום לבולגרית</string>
-    <string name="sBulgarianTranslationSummary">ע"י PROXIMO</string>
-    <string name="sDanishTranslation">תרגום לדנית</string>
-    <string name="sDanishTranslationSummary">ע"י Lars Sarauw Hansen</string>
-    <string name="sLatvianTranslation">תרגום ללטווית</string>
-    <string name="sLatvianTranslationSummary">ע"י Arvīds Dreimanis</string>
-    <string name="sThaiTranslation">תרגום לתאילנדית</string>
-    <string name="sThaiTranslationSummary">ע"י Wuttisak Saichoncharn</string>
-    <string name="sArmenianTranslation">תרגום לארמנית</string>
-    <string name="sArmenianTranslationSummary">ע"י Konstantin Gevorgyan</string>
-    <string name="sGeorgianTranslation">תרגום לגאורגית</string>
-    <string name="sGeorgianTranslationSummary">ע"י Alexandre Razmadze</string>
-    <string name="sCatalanTranslation">תרגום לקטלונית</string>
-    <string name="sCatalanTranslationSummary">ע"י cybdani</string>
-    <string name="sHindiTranslation">תרגום להינדי</string>
-    <string name="sHindiTranslationSummary">ע"י TheTAMAS Gautam</string>
-    <string name="sPunjabiTranslation">תרגום לפונג\'בי</string>
-    <string name="sPunjabiTranslationSummary_ver2">ע"י Raj Verma</string>
-    <string name="sFinnishTranslation">תרגום לפינית</string>
-    <string name="sFinnishTranslationSummary">ע"י Eero Linnainmaa</string>
-    <string name="sBelarusianTranslation">תרגום לבלרוסית</string>
-    <string name="sBelarusianTranslationSummary">ע"י Alexander Kuvshinov</string>
-    <string name="sVietnameseTranslation">תרגום לויאטנמית</string>
-    <string name="sVietnameseTranslationSummary">ע"י Truong Hoang Trung</string>
 
-    <!--Licenses-->
     <string name="licenses">רישיון</string>
-    <string name="sActionBarSherlockLicense">ActionBarSherlock</string>
-    <string name="sActionBarSherlockLicenseSummary">משתמש בActionBarSherlock תחת Apache License Version 2.0, לחץ כאן כדי
-        לבקר actionbarsherlock.com
-    </string>
     <string name="about_open_core_amr_license">opencore-amr</string>
-    <string name="about_open_core_amr_license_summary">משתמש בopencore-amr תחת Apache License Version 2.0, לחץ כאן כדי לבקר
-        opencore-amr.sourceforge.net
-    </string>
+    <string name="about_open_core_amr_license_summary">משתמש בopencore-amr תחת Apache License Version 2.0, לחץ כאן כדי לבקר opencore-amr.sourceforge.net</string>
     <string name="about_alsa">ALSA</string>
     <string name="about_alsa_summary">משתמש בALSA תחת LGPL, לחץ כאן כדי לבקר alsa-project.org</string>
     <string name="about_lame">LAME</string>

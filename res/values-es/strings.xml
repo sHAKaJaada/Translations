@@ -1,322 +1,226 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+<?xml version="1.0" encoding="utf-8" standalone="no"?><resources>
     <string name="app_name">CallRecorder</string>
-    <!--Rules array-->
-    <string name="sRuleDescription">He leido y comprendido la descripción de esta aplicación</string>
-    <string name="sRulePlayStore">Entiendo que el desarrollador no puede responder a los comentarios en el Play Store
-    </string>
-    <string name="sRuleUseOfProgram">Entiendo que el desarrollador no es responsable del uso del programa. Utilizo este
-        programa por mi cuenta y riesgo
-    </string>
-    <string name="sRuleLaw">Se con absoluta certeza que no estoy infringiendo la ley de mi pais al utilizar este
-        programa
-    </string>
-    <string name="sRuleNotWorking">Si la grabacion no funciona en mi aparato me leeré otra vez la descripción de la
-        aplicación cuidadosamente, y si no encuentro la solucion mandaré un email al desarrollador a skvalex@gmail.com
-    </string>
+    
+    
 
-    <!--Notification-->
-    <string name="sRecordingIsRunning">El servicio de grabación de llamadas se está ejecutando</string>
-    <string name="sThisCallIsRecording">Esta llamada se está grabando</string>
-    <string name="an_error_has_occurred">Se produjo un error, esta llamada no puede grabarse</string>
-    <string name="sEncodingError">Se ha producido un error al codificar...</string>
-    <string name="start_recording">Comenzar a grabar</string>
-    <string name="stop_recording">Detener grabación</string>
+    <!-- Navigation drawer -->
+    
+    
 
-    <!--List with recordings-->
+    <!-- Navigation drawer sections -->
+    
+    
+    <string name="section_incoming">Entrantes</string>
+    <string name="section_outgoing">Salientes</string>
+    
+    
+    
+    <string name="section_help">Ayuda</string>
+    <string name="section_tasks">Tareas</string>
+    
     <string name="empty_hint">Vacío</string>
-    <string name="contact_unknown">Desconocido</string>
 
-    <!--Actions on recording-->
-    <string name="category_actions">Acciones</string>
-    <string name="sFilterThisNumber">Filtrar este número</string>
-    <string name="sAddToFavorites">Añadir a favoritos</string>
-    <string name="sRemoveFromFavorites">Eliminar de favoritos</string>
-    <string name="sAddToContacts">Añadir a contactos</string>
-    <string name="sOpenContact">Abrir contacto</string>
-    <string name="sCall">Llamada</string>
-    <string name="sNote">Nota</string>
-    <string name="sConvertToMp3">Convertir a mp3</string>
-    <string name="sConvertToAmr">Convertir a amr</string>
-    <string name="sRenameFile">Renombrar fichero</string>
+    <!-- Action bar -->
+    <string name="action_search">Buscar</string>
+    
+    <string name="action_settings">Ajustes</string>
+    
+    
+    
+    
+    
+    <string name="action_select_all">Seleccionar todo</string>
+    
+    
+    
+
+    <!-- List -->
+    
+    
+    
+    
+
+    <!-- List -> Context menu -->
+    <string name="menu_add_to_dropbox">Agregar a Dropbox</string>
+    
+    
+    <string name="menu_delete">Borrar</string>
+    
+    
+    
     <string name="menu_get_info">Obetener información</string>
+    
     <string name="menu_encrypt">Encriptar</string>
     <string name="menu_decrypt">Desencriptar</string>
 
-    <!--Actions on selected recordings-->
-    <string name="action_select_all">Seleccionar todo</string>
-    <string name="sSelectNone">Deseleccionar todo</string>
-
-    <!--General-->
-    <string name="sSend">Enviar</string>
-    <string name="sSendVia">Enviar vía</string>
-    <string name="menu_delete">Borrar</string>
-    <string name="button_cancel">Cancelar</string>
-    <string name="button_ok">OK</string>
-    <string name="sSeconds">seg</string>
-    <string name="sDisabled">Deshabilitado</string>
-    <string name="sYes">Sí</string>
-    <string name="sNo">No</string>
+    <!-- List -> Get info dialog -->
+    <string name="file_name">Nombre del fichero</string>
+    <string name="sample_rate">Tamaño de muestreo</string>
+    <string name="sample_rate_hz">Hz</string>
+    
+    
+    
+    <string name="file_size">Tamaño del fichero</string>
     <string name="terabyte">TB</string>
     <string name="gigabyte">GB</string>
     <string name="megabyte">MB</string>
     <string name="kilobyte">KB</string>
     <string name="bytes">bytes</string>
-    <string name="please_wait">Espere por favor...</string>
-    <string name="switch_on">Encender</string>
-    <string name="switch_off">Apagar</string>
+    
 
-    <!--Tabs-->
-    <string name="section_incoming">Entrantes</string>
-    <string name="section_outgoing">Salientes</string>
-    <string name="sFavorites">Favoritas</string>
-    <string name="sAll">Todas</string>
-
-    <!--Send recordings-->
-    <string name="recorded_calls">Llamadas grabadas</string>
-    <string name="sIncoming">Entrante</string>
-    <string name="sOutgoing">Saliente</string>
-
-    <!--Dialog after call-->
-    <string name="sDlgDeleteMsg">¿Guardar o borrar la llamada grabada?</string>
-    <string name="sKeep">Guardar</string>
-    <string name="sDropboxAdded">Agregado</string>
-
-    <!--Delete confirmation dialog-->
-    <string name="sDeleteFiles">Borrar ficheros</string>
-    <string name="confirm_delete_message">Está seguro de querer borrar esta grabación?</string>
-    <string name="sDlgDeleteSelectionMsg">Ha seleccionado %d ficheros. ¿Está seguro de que quiere borrarlos?</string>
-    <string name="sFilesDeletedToast">%d de ficheros borrados</string>
-
-    <!--Call confirm dialog-->
-    <string name="call_confirm_record_this_call">Grabar esta llamada</string>
-
-    <!--Dialog about law-->
-    <string name="sWarning">Advertencia</string>
-    <string name="sMsgAboutLaw">La grabación de llamadas es ilegal en algunos países. ¿Está seguro que usted vive en un
-        país en el que la grabación de llamadas es legal?
-    </string>
-
-    <!--Rules dialog-->
-    <string name="sRules">Reglas</string>
-    <string name="sIAgree">Acepto</string>
-    <string name="sIDisagree">No acepto</string>
-
-    <!--Main screen toasts-->
-    <string name="sAddToFavoritesSuccess">Esta grabación se añadió satisfactoriamente a favoritos</string>
-    <string name="sRemoveFromFavoritesSuccess">Esta grabación se eliminó satisfactoriamente de favoritos</string>
-    <string name="sDeleteFavoriteRecordingMsg">Para borrar esta grabación debe eliminarla de favoritos</string>
-
-    <!--Encryption-->
-    <string name="sFileSuccessfullyEncrypted">Fichero encriptado satisfactoriamente</string>
-    <string name="sFileSuccessfullyDecrypted">Fichero desencriptado satisfactoriamente</string>
-    <string name="sEncrypting">Encriptación</string>
-    <string name="sDecrypting">Desencriptadión</string>
-    <string name="sEncrypted">Encriptado</string>
-
-    <!--Main screen warnings-->
-    <string name="sAvailableFreeSpace">Poco espacio: %s</string>
-    <string name="sReadWriteErr">El sistema de archivos debe estar montado como lectura/escritura.</string>
-    <string name="sAlsaIsNotInstalledMsg">Alsa no se encuentra instalado. Pulse aquí para instalarlo.</string>
-    <string name="sPhoneMustBeRootedWarning">Su teléfono debe estar rooteado. Presione unos segundos para quitar este
-        mensaje
-    </string>
-    <string name="sStandardAPITip">Si la grabación de llamadas no funciona, pruebe cada fuente de audio en las
-        "Preferencias Estándar API". Presione unos segundos para quitar este mensaje
-    </string>
-
-    <!--Toasts-->
-    <string name="sLoggerMustBeEnabledToast">El registro en su ROM/Kernel debe ser habilitado!</string>
-    <string name="sFileWasDeletedToast">Se ha borrado el fichero</string>
-
-    <!--Action bar-->
-    <string name="action_search">Buscar</string>
-    <string name="sSizeRecords">grabaciones: %1$s, tamaño: %2$s</string>
-    <string name="sFreeOf">libre de</string>
-
-    <!--Tasks screen-->
-    <string name="section_tasks">Tareas</string>
-    <string name="sInProgress">Procesando (%s)</string>
-    <string name="sInQueue">En cola</string>
-
-    <!--Get Info dialog-->
-    <string name="file_name">Nombre del fichero</string>
-    <string name="sample_rate">Tamaño de muestreo</string>
-    <string name="sample_rate_hz">Hz</string>
-    <string name="file_size">Tamaño del fichero</string>
-    <string name="button_edit">Editar</string>
-
-    <!--Edit Info dialog-->
+    <!-- List -> Get info dialog -> Edit -->
     <string name="contact_name">Nombre del contacto</string>
     <string name="phone_number">Teléfono del contacto</string>
 
-    <!--Description for file name pattern-->
-    <string name="pattern_contact_name">nombre de contacto</string>
-    <string name="pattern_phone_number">número de teléfono</string>
-    <string name="pattern_call_time">duración de la llamada</string>
-    <string name="sCallTimestamp">hora de la llamada</string>
-    <string name="pattern_call_type">tipo de llamada (saliente o entrante)</string>
+    <!-- List -> Confirm delete dialog -->
+    <string name="confirm_delete_message">Está seguro de querer borrar esta grabación?</string>
+    
+    
 
-    <!--Description for time pattern-->
-    <string name="time_pattern_hours">horas</string>
-    <string name="time_pattern_minutes">minutos</string>
-    <string name="time_pattern_seconds">segundos</string>
-    <string name="time_pattern_days">días</string>
-    <string name="time_pattern_months">meses</string>
-    <string name="time_pattern_years">años</string>
-    <string name="pattern_example">Ejemplo:</string>
+    <!-- List -> Share -->
+    
+    <string name="recorded_calls">Llamadas grabadas</string>
 
-    <!--Trial expired dialog-->
-    <string name="sTrialPeriodExpired">El periodo de prueba ha finalizado</string>
-    <string name="sTrialPeriodExpiredMsg">Porfavor, desinstale esta versión antes de comprar la versión completa
-    </string>
-    <string name="sBuy">Comprar</string>
-
-    <!--New settings-->
-    <string name="action_settings">Ajustes</string>
-    <string name="section_help">Ayuda</string>
-
-    <!--Main settings-->
-    <string name="buy_full_version">Comprar versión completa</string>
-    <string name="buy_full_version_summary">La versión actual caduca el %s</string>
-    <string name="sCallRecorderUpdater">Actualizador de CallRecorder</string>
+    <!--  Settings -> Headers -->
     <string name="settings_recording">Grabación</string>
     <string name="settings_folders_and_files">Carpetas y archivos</string>
     <string name="settings_ui_and_appearance">Interfaz y apariencia</string>
-    <string name="cloud_provider_dropbox">Dropbox</string>
     <string name="settings_security">Seguridad</string>
+    
     <string name="settings_audio_player">Reproductor de audio</string>
-    <string name="sExperimentalSettings">Características experimentales</string>
     <string name="settings_debug">Depurar</string>
     <string name="settings_about">Información</string>
 
-    <!--General-->
-    <string name="sGeneralSettingsCategory">General</string>
-    <string name="sOtherSettingsCategory">Otros</string>
-    <string name="sAdvancedSettingsCategory">Ajustes avanzados</string>
-    <string name="category_wav_settings">Ajuestes WAV</string>
-    <string name="category_main">Principal</string>
+    <!-- Settings -> License -->
+    <string name="license_status">Estado de la licencia</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="license_trial">Versión de prueba, expirará el %s</string>
+    
+    
+    
+    
+    
+    
 
+    <string name="buy_full_version">Comprar versión completa</string>
+    <string name="buy_full_version_summary">La versión actual caduca el %s</string>
 
-    <!--Buy full version-->
-    <string name="sOpenPlayStore">Abrir Play Store</string>
-
-    <!--CallRecorder Updater-->
-    <string name="sOpenCallRecorderUpdater">Abrir el actualizador de CallRecorder</string>
-
-    <!--Recording-->
+    <!-- Settings -> Recording -->
     <string name="recording_calls_switch">Grabación de llamadas</string>
+    <string name="category_main">Principal</string>
     <string name="device">Teléfono</string>
-    <string name="device_other">Otros</string>
     <string name="select_your_device">Seleccione su teléfono</string>
-    <string name="sAudioFormatSettingsCategory">Formato de audio</string>
-    <string name="sCallRecordingFormat">Formato de grabación de llamadas</string>
-    <string name="sMethodSettingsCategory">Método</string>
-    <string name="sKernelSettings">Kernel</string>
-    <string name="sKernelSettingsSummary">Preferencias para la grabación mediante del kernel</string>
+    
+    
+    
+    <string name="device_other">Otros</string>
+    <string name="recording_method">Método de grabación</string>
     <string name="recording_method_api">API estándar</string>
     <string name="recording_method_api_settings">Preferencias para la grabación mediante la API estándar</string>
-    <string name="recording_method_alsa">ALSA</string>
-    <string name="recording_method_alsa_settings">Preferencias para la grabación mediante ALSA</string>
-    <string name="recording_method">Método de grabación</string>
     <string name="recording_method_caf">CAF</string>
     <string name="recording_method_caf_settings">Configuraciones para grabaciones CAF</string>
-    <string name="volume_control">Control de volumen</string>
-
-    <!--Recording methods array-->
-    <string name="sRecordingMethodKernel">Kernel (requiere acceso superusuario)</string>
-    <string name="sRecordingMethodStandardAPI">API estándar</string>
-    <string name="sRecordingMethodALSA">ALSA (requiere acceso superusuario)</string>
-    <string name="sRecordingMethodCAF">CAF (requiere acceso superusuario)</string>
-
-    <!--Recording audio formats-->
-    <string name="recording_format_wav">WAV</string>
-    <string name="recording_format_amr">AMR</string>
-    <string name="recording_format_aac">AAC</string>
-    <string name="s3GPP">3GPP</string>
-    <string name="recording_format_mp3">MP3</string>
-
-    <!--Recording behavior-->
-    <string name="after_call_actions_dialog">Dialogo de acciones luego de la llamada</string>
-    <string name="after_call_actions_dialog_summary">Preguntar que hacer luego de la llamada</string>
-    <string name="call_confirm">Confirmar llamada</string>
-    <string name="call_confirm_summary">Mostrar diálogo de confirmación antes de la llamada</string>
-    <string name="sDefaultAction">Acción por defecto</string>
-    <string name="action_for_outgoing">Acción para llamadas salientes</string>
+    <string name="recording_method_alsa">ALSA</string>
+    <string name="recording_method_alsa_settings">Preferencias para la grabación mediante ALSA</string>
+    
+    
+    <string name="category_actions">Acciones</string>
     <string name="action_for_incoming">Acción para llamadas entrantes</string>
-    <string name="delay_before_start_recording">Retardo antes de comenzar la grabación</string>
-    <string name="sIncomingCalls">Llamadas entrantes</string>
-    <string name="sOutgoingAndIncomingCalls">Llamadas salientes &amp; entrantes</string>
-    <string name="sOutgoingCalls">Llamadas salientes</string>
-    <string name="vibrate_on_call">Vibrar al comienzo/final de la llamada</string>
-
-    <!--Actions-->
+    <string name="action_for_outgoing">Acción para llamadas salientes</string>
     <string name="action_record_all">Grabar todo</string>
     <string name="action_do_not_record">No grabar</string>
     <string name="action_record_contacts">Grabar a contactos</string>
     <string name="action_record_non_contacts">Grabar a quienes no son contactos</string>
-
-    <!--Recording -> Exceptions-->
+    <string name="call_confirm">Confirmar llamada</string>
+    <string name="call_confirm_summary">Mostrar diálogo de confirmación antes de la llamada</string>
+    <string name="after_call_actions_dialog">Dialogo de acciones luego de la llamada</string>
+    <string name="after_call_actions_dialog_summary">Preguntar que hacer luego de la llamada</string>
+    <string name="vibrate_on_call">Vibrar al comienzo/final de la llamada</string>
     <string name="exceptions">Excepciones</string>
-    <string name="sAddGroup">Añadir grupo</string>
-    <string name="sAdd">Añadir</string>
-    <string name="exception_group">Grupo</string>
-    <string name="exception_select_group">Seleccionar grupo</string>
-    <string name="exception_select_action">Seleccionar acción</string>
-    <string name="sChangeAction">Cambiar acción</string>
-    <string name="exception_action_always_record">Grabar siempre</string>
-    <string name="exception_action_never_record">No grabar nunca</string>
-    <string name="sPressMenuToAddException">Presione \'menu\' para añadir una excepción</string>
-
-    <!--Recording -> Kernel-->
-    <string name="chipset_type">Tipo de chipset</string>
-    <string name="chipset_type_msm72xx">Qualcomm MSM72XX</string>
-    <string name="chipset_type_msm8250">Qualcomm MSM8250</string>
-    <string name="chipset_type_msm8255">Qualcomm MSM8255</string>
-    <string name="chipset_type_msm8260">Qualcomm MSM8260</string>
-    <string name="sSoundBoost">Amplificación de sonido</string>
-    <string name="sUplinkBoost">Amplificación del uplink</string>
-    <string name="sDownlinkBoost">Amplificación del downlink</string>
-    <string name="dont_use_amr_driver">No utilizar el controlador AMR</string>
-    <string name="dont_use_amr_driver_summary">Convertir WAV a AMR en tiempo real</string>
-
-    <!--Recording -> Standard API-->
-    <string name="api_audio_source">Fuente de audio</string>
-    <string name="sWhenBTConnected">Cuando se conecta un dispositivo BT..</string>
-    <string name="sBTEnabledMeansBTConnected">BT habilitado significa BT conectado</string>
-    <string name="sBTEnabledMeansBTConnectedSummary">Luego que un adaptador BT es habilitado, utiliza la misma
-        configuración que tendría si estuviera conectado
-    </string>
-    <string name="sAudioSourceWhenBTConnected">Fuente de audio cuando BT está conectado</string>
-    <string name="sample_rate">Tamaño de muestreo</string>
+    
+    
+    
+    <string name="delay_before_start_recording">Retardo antes de comenzar la grabación</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="recording_format_wav">WAV</string>
+    <string name="recording_format_amr">AMR</string>
+    <string name="recording_format_aac">AAC</string>
+    <string name="recording_format_mp3">MP3</string>
+    <string name="volume_control">Control de volumen</string>
+    
+    
+    
+    
+    
     <string name="sample_rate_8000">8000 Hz (Predeterminado)</string>
     <string name="sample_rate_11025">11025 Hz</string>
     <string name="sample_rate_16000">16000 Hz</string>
     <string name="sample_rate_22050">22050 Hz</string>
     <string name="sample_rate_44100">44100 Hz</string>
+    
 
-    <!--Audio sources of Standard API array-->
+    <!-- Settings -> Recording -> Standard API -->
+    <string name="api_audio_source">Fuente de audio</string>
     <string name="api_source_uplink_downlink">Uplink + downlink de la llamada de voz</string>
     <string name="api_source_downlink">Downlink de la llamada de voz</string>
     <string name="api_source_uplink">Uplink de la llamada de voz</string>
     <string name="api_source_microphone">Micrófono</string>
     <string name="api_source_default">Predeterminado</string>
     <string name="api_source_voice_communication">Comunicación por voz</string>
+    <string name="category_wav_settings">Ajuestes WAV</string>
+    
 
-    <!--Actions on BT connected array-->
-    <string name="sOnBTConnectedActionDoNothing">No hacer nada</string>
-    <string name="sOnBTConnectedActionSwitchAudioSource">Cambiar la fuente del audio</string>
-    <string name="sOnBTConnectedActionDisableRecording">Deshabilitar la grabación</string>
+    <!-- Settings -> Recording -> CAF -->
+    
 
-    <!--Recording -> ALSA-->
-    <string name="sAlsa">Alsa</string>
-    <string name="sAlsaIsInstalled">Alsa está instalado</string>
+    <!-- Settings -> Recording -> ALSA -->
+    
+    
 
-    <!--Folders and Files-->
-    <string name="sRescan">Escanear</string>
-    <string name="sRescanSummary">Escanéa nuevamente la carpeta para actualizar el listado de llamadas</string>
-    <string name="sFolderSettingsCategory">Carpeta</string>
+    <!-- Settings -> Recording -> MSM -->
+    <string name="chipset_type">Tipo de chipset</string>
+    <string name="chipset_type_msm72xx">Qualcomm MSM72XX</string>
+    <string name="chipset_type_msm8250">Qualcomm MSM8250</string>
+    <string name="chipset_type_msm8255">Qualcomm MSM8255</string>
+    <string name="chipset_type_msm8260">Qualcomm MSM8260</string>
+    <string name="dont_use_amr_driver">No utilizar el controlador AMR</string>
+    <string name="dont_use_amr_driver_summary">Convertir WAV a AMR en tiempo real</string>
+
+    <!-- Settings -> Recording -> Exceptions -->
+    
+    <string name="exception_group">Grupo</string>
+    <string name="exception_select_group">Seleccionar grupo</string>
+    
+    
+    
+    
+    <string name="exception_select_action">Seleccionar acción</string>
+    <string name="exception_action_always_record">Grabar siempre</string>
+    <string name="exception_action_never_record">No grabar nunca</string>
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- Settings -> Folders and Files -->
     <string name="folder">Carpeta</string>
+    
     <string name="automatic_cleanup">Limpieza automática</string>
     <string name="max_number_of_files">Número máximo de ficheros</string>
     <string name="max_number_of_files_message">Introduzca un número (0 - sin límite)</string>
@@ -325,224 +229,160 @@
     <string name="max_age_of_recordings">Antigüedad máxima de las grabaciones</string>
     <string name="max_age_of_recordings_message">Introduzca un valor en días (0 - sin límite)</string>
     <string name="current_setting">Valor actual: %s</string>
-    <string name="sFileNameSettingsCategory">Nombre del archivo</string>
+    
     <string name="filename_pattern">Formato</string>
     <string name="time_pattern">Formato del tiempo</string>
 
-    <!--Interface and Appearance-->
+    <!-- Description for filename pattern -->
+    <string name="pattern_contact_name">nombre de contacto</string>
+    <string name="pattern_phone_number">número de teléfono</string>
+    <string name="pattern_call_time">duración de la llamada</string>
+    
+    <string name="pattern_call_type">tipo de llamada (saliente o entrante)</string>
+    <string name="time_pattern_hours">horas</string>
+    <string name="time_pattern_minutes">minutos</string>
+    <string name="time_pattern_seconds">segundos</string>
+    <string name="time_pattern_days">días</string>
+    <string name="time_pattern_months">meses</string>
+    <string name="time_pattern_years">años</string>
+    <string name="pattern_example">Ejemplo:</string>
+
+    <!--Settings -> Interface and Appearance-->
     <string name="language">Idioma</string>
     <string name="select_language">Seleccionar idioma</string>
-    <string name="sActionBarSettingsCategory">Barra de acciones</string>
-    <string name="sAudioOutputActionBar">Salida de audio</string>
-    <string name="sAudioOutputActionBarSummary">Muestra la salida de audio en la barra de acciones</string>
-    <string name="incall_control_for_outgoing">Para llamadas salientes</string>
-    <string name="sInCallControlForOutgoingSummary">Control durante la llamada para llamadas salientes</string>
-    <string name="incall_control_for_incoming">Para llamadas entrantes</string>
-    <string name="sInCallControlForIncomingSummary">Control durante la llamada para llamadas entrantes</string>
     <string name="category_notification">Notificación</string>
-    <string name="sNotificationIcon">Ícono de notificación</string>
     <string name="show_notification">Mostrar notificatión</string>
-    <string name="sShowNotificationSummary">Aumenta la prioridad del proceso</string>
-    <string name="sInCallControl">Control durante la llamada</string>
-    <string name="sHangUpAndCallBack">Cortar y volver a llamar</string>
-    <string name="sHangUpAndCallBackSummary">Con un clic largo, corta la llamada y vuelve a discar automáticamente
-    </string>
+    
+    
+    <string name="incall_control_for_outgoing">Para llamadas salientes</string>
+    
+    <string name="incall_control_for_incoming">Para llamadas entrantes</string>
+    
+    
+    
     <string name="show_button_while_ringing">Mostrar el botón mientras suena</string>
-    <string name="show_button_while_ringing_summary">Mostrar el botón de control en llamada antes de que la llamada sea
-        atendida
-    </string>
-    <string name="sExcludeFavoritesFromAll">Excluir favoritos de la pantalla "Todas"</string>
-    <string name="sExcludeFavoritesFromAllSummary">No muestra los favoritos en la pantalla con todas las grabaciones
-    </string>
+    <string name="show_button_while_ringing_summary">Mostrar el botón de control en llamada antes de que la llamada sea atendida</string>
     <string name="vertical_position">Posición vertical</string>
+    
     <string name="horizontal_position">Posición horizontal</string>
-    <string name="sVerticalOffset">Desplazamiento del borde vertical</string>
-    <string name="sVerticalOffsetSummary">Configura el desplazamiento del borde seleccionado en alineación vertical
-        (Arriba o Abajo)
-    </string>
-    <string name="sHorizontalOffset">Desplazamiento del borde horizontal</string>
-    <string name="sHorizontalOffsetSummary">Configura el desplazamiento del borde seleccionado en alineación horizontal
-        (izquierda o derecha)
-    </string>
-    <string name="sLowSpaceWarning">Advertencia: poco espacio</string>
-    <string name="sLowSpaceWarningSummary">Establece un limite de espacio mínimo para mostrar una advertencia en
-        megabytes
-    </string>
-    <string name="sMainScreen">Pantalla principal</string>
-    <string name="sHideInCallControlButton">Ocultar botón de control durante la llamada</string>
-    <string name="sHideInCallControlButtonSummary">Ocultar botón de control durante la llamada si se está grabando
-    </string>
-    <string name="sDontShowInCallButton">No mostrar el botón antes de la conexión</string>
-    <string name="hide_button_before_answer_summary">No mostrar el botón de control durante la llamada hasta que se establece
-        la conexión
-    </string>
-    <string name="sLanguageDefault">Predeterminado</string>
+    
+    
+    <string name="hide_button_before_answer_summary">No mostrar el botón de control durante la llamada hasta que se establece la conexión</string>
 
-    <!--Vertical aligns array-->
-    <string name="sVerticalAlignTop">Arriba</string>
-    <string name="sVerticalAlignBottom">Abajo</string>
-
-    <!--Horizontal aligns array-->
-    <string name="sHorizontalAlignLeft">Izquierda</string>
-    <string name="sHorizontalAlignRight">Derecha</string>
-
-    <!--Notification icons array-->
-    <string name="sNotificationIconDefault">Predeterminado</string>
-    <string name="sNotificationIconGreenNew">Verde (nuevo)</string>
-    <string name="sNotificationIconGreenOld">Verde (viejo)</string>
-    <string name="sNotificationIconGray">Gris</string>
-
-    <!--Dropbox-->
-    <string name="sDropboxLogin">Ingresar</string>
-    <string name="sDropboxLogout">Salir</string>
-
+    <!-- Settings -> Cloud -->
+    
+    <string name="cloud_provider_dropbox">Dropbox</string>
+    
+    
+    
+    
     <string name="cloud_wifi_only">Solamente WiFi</string>
     <string name="cloud_auto_upload">Subir automáticamente</string>
-    <string name="sCloudUploadFavorites">Subir favoritos</string>
-    <string name="sCloudUploadFavoritesSummary">Subir grabaciones a Dropbox cuando los agregas a favoritos</string>
     <string name="cloud_auto_upload_summary">Subir grabación luego de la llamada</string>
-    <string name="menu_add_to_dropbox">Agregar a Dropbox</string>
+    
+    
 
-    <!--Security-->
-    <string name="category_encryption">Encriptación</string>
-    <string name="sKeyNotFound">No se halló ninguna llave</string>
-    <string name="sCreate">Crear</string>
-    <string name="create_new_key">Crear una nueva llave</string>
+    <!-- Notification -->
+    
+    
+
+    <!-- Password dialog -->
+    
     <string name="enter_password">Introduzca su contraseña</string>
-    <string name="sReEnterPassword">Introduuza nuevamente su contraseña</string>
+    
+
+    <!-- Settings -> Security -->
+    <string name="category_encryption">Encriptación</string>
+    <string name="category_application">Aplicación</string>
+    <string name="create_new_key">Crear una nueva llave</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="app_admin">Administrador de dispositivos</string>
+    
+    
     <string name="aes_128bit">128-bit AES (Más rápido)</string>
     <string name="aes_192bit">192-bit AES (Equilibrado)</string>
     <string name="aes_256bit">256-bit AES (Más seguro)</string>
-    <string name="category_application">Aplicación</string>
-    <string name="app_admin">Administrador de dispositivos</string>
-    <string name="sAppAdminSummary">Necesario para evitar la desinstalacion de CallRecorder</string>
-    <string name="sAppAdminExplanation">CallRecorder no usa ninguna característica de administración salvo protección
-        contra la desinstalación
-    </string>
 
-    <!--Audio player-->
-    <string name="sUseDefaultPlayer">Utilizar reproductor predeterminado</string>
+    <!-- Settings -> Audio player -->
+    
     <string name="audio_output">Salida de Audio</string>
+    
+    <string name="main_speaker">Parlante principal</string>
+    <string name="phone_speaker">Parlante del teléfono</string>
+    <string name="use_proximity_sensor">Usar el sensor de proximidad</string>
+    
+    <string name="switch_audio_output">Cambiar salida de audio</string>
+    
     <string name="android_wav_decoder">Decodificador Android para WAV</string>
     <string name="android_wav_decoder_summary">Utilizar las herramientas internas de Android para reproducir WAV</string>
     <string name="android_amr_decoder">Decodificador android para AMR</string>
     <string name="android_amr_decoder_summary">Utilizar herramientas internas de Android para reproducir AMR</string>
-    <string name="switch_audio_output">Cambiar salida de audio</string>
-    <string name="SwitchAudioOutputSummary">Cambia la salida de audio automáticamente si la pantalla se
-        habilita/deshabilita por el sensor de proximidad
-    </string>
-    <string name="use_proximity_sensor">Usar el sensor de proximidad</string>
-    <string name="sUseProximitySensorSummary">Usar el sensor de proximidad para deshabilitar la pantalla mientras se
-        escucha una grabación (requiere ROOT)
-    </string>
 
-    <!--Audio output array-->
-    <string name="main_speaker">Parlante principal</string>
-    <string name="phone_speaker">Parlante del teléfono</string>
-
-    <!--Experimental-->
-    <string name="sConvertAfterCall">Convertir luego de la llamada</string>
-    <string name="sDontConvert">No convertir</string>
-    <string name="sWavToMp3">WAV a MP3</string>
-    <string name="sWavToAmr">WAV a AMR</string>
-
-    <!--Debug-->
-    <string name="sDetailedLogs">Registros detallados</string>
+    <!--Settings -> Debug-->
     <string name="root_access">Acceso superusuario</string>
     <string name="root_access_no">No</string>
     <string name="root_access_yes">Si</string>
-    <string name="sLogsSettingsCategory">Registros</string>
-    <string name="sSendLogsToTheDeveloper">Enviar registros al desarrollador</string>
-    <string name="sUseGzipToCompressLogs">Usar gzip para comprimir los registros</string>
-    <string name="sRecordOnNotificationClick">Grabar al hacer clic en la notificación</string>
-    <string name="sRecordOnNotificationClickSummary">No haga clic en la notificación hasta que la llamada se estableza
-    </string>
-    <string name="sHideNotificationDuringCall">Ocultar notificaciones durante la llamada</string>
-    <string name="sHideNotificationDuringCallSummary">No habilitar esta opción, es solo para desarrollo</string>
     <string name="dual_sim_phone">Telefono doble SIM</string>
-    <string name="dual_sim_phone_summary">Habilite esto si la aplicación no reconoce las llamadas de la SIM secundaria
-    </string>
+    <string name="dual_sim_phone_summary">Habilite esto si la aplicación no reconoce las llamadas de la SIM secundaria</string>
+
+    <!-- General -->
+    <string name="contact_unknown">Desconocido</string>
+    
+    <string name="button_ok">OK</string>
+    
+    <string name="button_edit">Editar</string>
+    <string name="button_cancel">Cancelar</string>
+    
+    
+    
+    
+    
+    
+    
+    <string name="please_wait">Espere por favor...</string>
+    <string name="start_recording">Comenzar a grabar</string>
+    <string name="stop_recording">Detener grabación</string>
+    
+    <string name="switch_on">Encender</string>
+    <string name="switch_off">Apagar</string>
+
+    <!-- Call confirm dialog -->
+    <string name="call_confirm_record_this_call">Grabar esta llamada</string>
+    
+
+    <!--Notification-->
+    
+    
+    
+    <string name="an_error_has_occurred">Se produjo un error, esta llamada no puede grabarse</string>
 
     <!--About-->
+    
     <string name="version">Versión</string>
-    <string name="sAboutCallRecorder">Sobre CallRecorder</string>
-    <string name="license_status">Estado de la licencia</string>
-    <string name="sLicenseStatusVerified">Licencia verificada</string>
-    <string name="license_trial">Versión de prueba, expirará el %s</string>
-
     <string name="copyright">Derechos de autor</string>
     <string name="copyright_summary">© %s Alexander Skvortsov (skvalex)</string>
     <string name="about_many_thanks">Agradecimientos</string>
     <string name="about_many_thanks_summary">a Alexey Subbotin (avs234)</string>
-    <string name="sGermanTranslation">Traducción al alemán</string>
-    <string name="sGermanTranslationSummary_ver1">por Marc Hillesheim and Thomas Käfer</string>
-    <string name="sPolishTranslation">Traducción al polaco</string>
-    <string name="sPolishTranslationSummary">por Robert Gonta</string>
-    <string name="sFrenchTranslation">Traducción al francés</string>
-    <string name="sFrenchTranslationSummary">por Julien Boiteux</string>
-    <string name="sBrazilianPortugueseTranslation">Traducción al portugués/brasileño</string>
-    <string name="sBrazilianPortugueseTranslationSummary">por Luiz Marcelo Serique</string>
-    <string name="sSpanishTranslation">Traducción al español</string>
-    <string name="sSpanishTranslationSummary_ver1">por Iñigo García y Diego Vilas</string>
-    <string name="sSlovakTranslation">Traducción al eslovaco</string>
-    <string name="sSlovakTranslationSummary">por Loránt Gerencsér</string>
-    <string name="sItalianTranslation">Traducción al italiano</string>
-    <string name="sItalianTranslationSummary">por Luca Trevisan</string>
-    <string name="sPersianTranslation">Traducción al persa</string>
-    <string name="sPersianTranslationSummary_v2">por Alireza Afkar</string>
-    <string name="sChineseTranslation">Traducción al chino</string>
-    <string name="sChineseTranslationSummary">por qhq</string>
-    <string name="sCzechTranslation">Traducción al checo</string>
-    <string name="sCzechTranslationSummary_ver2">por Ales Kerner y Lukas Waldauf</string>
-    <string name="sArabicTranslation">Traducción al árabe</string>
-    <string name="sArabicTranslationSummary">por Ausama S. Ibrahim</string>
-    <string name="sHebrewTranslation">Traducción al hebreo</string>
-    <string name="sHebrewTranslationSummary">por NuFlood</string>
-    <string name="sHungarianTranslation">Traducción al húngaro</string>
-    <string name="sHungarianTranslationSummary_ver2">por Szalay Levente y Miklós Toldi</string>
-    <string name="sDutchTranslation">Traduccion al holandés</string>
-    <string name="sDutchTranslationSummary">por Elroy Tirbeni</string>
-    <string name="sTurkishTranslation">Traduccion al turco</string>
-    <string name="sTurkishTranslationSummary">por Omer Ilik</string>
-    <string name="sSerbianTranslation">Traduccion al serbio</string>
-    <string name="sSerbianTranslationSummary">por sHAKaJaada</string>
-    <string name="sKoreanTranslation">Traducción al coreano</string>
-    <string name="sKoreanTranslationSummary_ver2">por SoHyunSeop y Joon Hee Jo</string>
-    <string name="sRomanianTranslation">Traducción al rumano</string>
-    <string name="sRomanianTranslationSummary">por Dan P. (sad)</string>
-    <string name="sUkrainianTranslation">Traducción al ucraniano</string>
-    <string name="sUkrainianTranslationSummary">por Gennadi Samoluk</string>
-    <string name="sTraditionalChineseTranslation">Traducción al chino tradicional</string>
-    <string name="sTraditionalChineseTranslationSummary_v2">por GPF_kaibird and Chien Jung Liaw</string>
-    <string name="sJapaneseTranslation">Traducción al japonés</string>
-    <string name="sJapaneseTranslationSummary">por Akira Tagoh</string>
-    <string name="sSwedishTranslation">Traducción al sueco</string>
-    <string name="sSwedishTranslationSummary">por Johannes Sjölund</string>
-    <string name="sBulgarianTranslation">Traducción al búlgaro</string>
-    <string name="sBulgarianTranslationSummary">por PROXIMO</string>
-    <string name="sDanishTranslation">Traducción al danés</string>
-    <string name="sDanishTranslationSummary">por Lars Sarauw Hansen</string>
-    <string name="sLatvianTranslation">Traducción al letón</string>
-    <string name="sLatvianTranslationSummary">por Arvīds Dreimanis</string>
-    <string name="sThaiTranslation">Traducción al tailandés</string>
-    <string name="sThaiTranslationSummary">por Wuttisak Saichoncharn</string>
-    <string name="sArmenianTranslation">Traducción al armenio</string>
-    <string name="sArmenianTranslationSummary">por Konstantin Gevorgyan</string>
-    <string name="sGeorgianTranslation">Traducción al georgiano</string>
-    <string name="sGeorgianTranslationSummary">por Alexandre Razmadze</string>
-    <string name="sCatalanTranslation">Traducción al catalán</string>
-    <string name="sCatalanTranslationSummary">por cybdani</string>
 
-    <!--Licenses-->
     <string name="licenses">Licencias</string>
-    <string name="sActionBarSherlockLicense">ActionBarSherlock</string>
-    <string name="sActionBarSherlockLicenseSummary">Se utiliza ActionBarSherlock bajo Licencia Apache Version 2.0, pulse
-        aqui para visitar actionbarsherlock.com
-    </string>
     <string name="about_open_core_amr_license">opencore-amr</string>
-    <string name="about_open_core_amr_license_summary">Se utiliza opencore-amr bajo Licencia Apache Versión 2.0, pulse aquí para
-        visitar opencore-amr.sourceforge.net
-    </string>
+    <string name="about_open_core_amr_license_summary">Se utiliza opencore-amr bajo Licencia Apache Versión 2.0, pulse aquí para visitar opencore-amr.sourceforge.net</string>
     <string name="about_alsa">ALSA</string>
     <string name="about_alsa_summary">Se utiliza ALSA bajo LGPL, pulse aqui para visitar alsa-project.org</string>
     <string name="about_lame">LAME</string>

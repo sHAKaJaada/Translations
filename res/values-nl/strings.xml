@@ -1,321 +1,226 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+<?xml version="1.0" encoding="utf-8" standalone="no"?><resources>
     <string name="app_name">CallRecorder</string>
-    <!--Rules array-->
-    <string name="sRuleDescription">Ik heb de app beschrijving gelezen en begrepen</string>
-    <string name="sRulePlayStore">Ik begrijp dat de ontwikkelaar niet kan reageren op reacties in de play store</string>
-    <string name="sRuleUseOfProgram">Ik begrijp dat de ontwikkelaar niet verantwoordelijk is voor het gebruik van dit
-        programma. Ik gebruik dit programma op eigen verantwoordelijkheid
-    </string>
-    <string name="sRuleLaw">Ik weet zeker dat ik geen wetten verbreek bij het gebruik van deze programma</string>
-    <string name="sRuleNotWorking">Als call recording niet werkt op mijn toestel, dan lees ik de app beschrijving
-        nogmaals. mocht ik geen antwoord vinden dan email ik de ontwikkelaar op skvalex@gmail.com
-    </string>
+    
+    
 
-    <!--Notification-->
-    <string name="sRecordingIsRunning">Service voor gespreks opname is actief</string>
-    <string name="sThisCallIsRecording">Dit gesprek word opgenomen</string>
-    <string name="an_error_has_occurred">Er is een fout opgetreden, deze oproep kan niet worden opgenomen</string>
-    <string name="sEncodingError">Fout ontstaan tijdens het encoden...</string>
-    <string name="start_recording">Start recording</string>
-    <string name="stop_recording">Stop recording</string>
+    <!-- Navigation drawer -->
+    
+    
 
-    <!--List with recordings-->
+    <!-- Navigation drawer sections -->
+    
+    
+    <string name="section_incoming">Inkomende</string>
+    <string name="section_outgoing">uitgaande</string>
+    
+    
+    
+    <string name="section_help">Hulp</string>
+    <string name="section_tasks">Taken</string>
+    
     <string name="empty_hint">Leeg</string>
-    <string name="contact_unknown">Onbekend</string>
 
-    <!--Actions on recording-->
-    <string name="category_actions">Akties</string>
-    <string name="sFilterThisNumber">Filter dit nummer</string>
-    <string name="sAddToFavorites">Voeg toe aan favorieten</string>
-    <string name="sRemoveFromFavorites">Verwijder uit favorieten</string>
-    <string name="sAddToContacts">Voeg toe aan contacten</string>
-    <string name="sOpenContact">Open contact</string>
-    <string name="sCall">Oproep</string>
-    <string name="sNote">Noot</string>
-    <string name="sConvertToMp3">Converteer naar mp3</string>
-    <string name="sConvertToAmr">Converteer naar amr</string>
-    <string name="sRenameFile">Naam wijzigen</string>
+    <!-- Action bar -->
+    <string name="action_search">Zoeken</string>
+    
+    <string name="action_settings">Instellingen</string>
+    
+    
+    
+    
+    
+    <string name="action_select_all">Selecteer alles</string>
+    
+    
+    
+
+    <!-- List -->
+    
+    
+    
+    
+
+    <!-- List -> Context menu -->
+    <string name="menu_add_to_dropbox">Toevoegen in Dropbox</string>
+    
+    
+    <string name="menu_delete">Verwijderen</string>
+    
+    
+    
     <string name="menu_get_info">Bekijk info</string>
+    
     <string name="menu_encrypt">Encrypt</string>
     <string name="menu_decrypt">Decrypt</string>
 
-    <!--Actions on selected recordings-->
-    <string name="action_select_all">Selecteer alles</string>
-    <string name="sSelectNone">Selecteer geen</string>
-
-    <!--General-->
-    <string name="sSend">Verzenden</string>
-    <string name="sSendVia">Verzend via</string>
-    <string name="menu_delete">Verwijderen</string>
-    <string name="button_cancel">Annuleren</string>
-    <string name="button_ok">OK</string>
-    <string name="sSeconds">sec</string>
-    <string name="sDisabled">Uitgeschakeld</string>
-    <string name="sYes">Ja</string>
-    <string name="sNo">Nee</string>
+    <!-- List -> Get info dialog -->
+    <string name="file_name">Bestandsnaam</string>
+    <string name="sample_rate">Sample rate</string>
+    <string name="sample_rate_hz">Hz</string>
+    
+    
+    
+    <string name="file_size">Bestands grootte</string>
     <string name="terabyte">TB</string>
     <string name="gigabyte">GB</string>
     <string name="megabyte">MB</string>
     <string name="kilobyte">KB</string>
     <string name="bytes">bytes</string>
-    <string name="please_wait">Wacht aub...</string>
-    <string name="switch_on">Aan</string>
-    <string name="switch_off">Uit</string>
+    
 
-    <!--Tabs-->
-    <string name="section_incoming">Inkomende</string>
-    <string name="section_outgoing">uitgaande</string>
-    <string name="sFavorites">Favorieten</string>
-    <string name="sAll">Alles</string>
-
-    <!--Send recordings-->
-    <string name="recorded_calls">Opgenomen gesprekken</string>
-    <string name="sIncoming">Inkomende</string>
-    <string name="sOutgoing">Uitgaande</string>
-
-    <!--Dialog after call-->
-    <string name="sDlgDeleteMsg">Opgenomen gesprek behouden of verwijderen?</string>
-    <string name="sKeep">Behouden</string>
-    <string name="sDropboxAdded">Toegevoegd</string>
-
-    <!--Delete confirmation dialog-->
-    <string name="sDeleteFiles">Verwijder bestanden</string>
-    <string name="confirm_delete_message">Weet u zeker dat u deze opname wilt verwijderen?</string>
-    <string name="sDlgDeleteSelectionMsg">U heeft %d bestanden geselecteerd. Weet u zeker dat u ze wilt verwijderen?
-    </string>
-    <string name="sFilesDeletedToast">%d bestanden verwijderd</string>
-
-    <!--Call confirm dialog-->
-    <string name="call_confirm_record_this_call">Neem dit gesprek op</string>
-
-    <!--Dialog about law-->
-    <string name="sWarning">Waarschuwing</string>
-    <string name="sMsgAboutLaw">Oproep recording is in sommige landen illegaal. Weet u zeker dat in uw land
-        oproeprecording legaal is?
-    </string>
-
-    <!--Rules dialog-->
-    <string name="sRules">Reglement</string>
-    <string name="sIAgree">Ik ga akkoord</string>
-    <string name="sIDisagree">Ik ga niet akkoord</string>
-
-    <!--Main screen toasts-->
-    <string name="sAddToFavoritesSuccess">Deze opname is succesvol toegevoegd aan favorieten</string>
-    <string name="sRemoveFromFavoritesSuccess">Deze opname is succesvol verwijderd uit favorieten</string>
-    <string name="sDeleteFavoriteRecordingMsg">Om deze opname te verwijderen dient u eerst deze uit uw favorieten
-        tehalen
-    </string>
-
-    <!--Encryption-->
-    <string name="sFileSuccessfullyEncrypted">Bestand succesvol encrypted</string>
-    <string name="sFileSuccessfullyDecrypted">Bestand succesvol decrypted</string>
-    <string name="sEncrypting">Encrypten</string>
-    <string name="sDecrypting">Decrypten</string>
-    <string name="sEncrypted">Encrypted</string>
-
-    <!--Main screen warnings-->
-    <string name="sAvailableFreeSpace">Weinig ruimte: %s</string>
-    <string name="sReadWriteErr">Bestandssysteem moet worden gemount als lezen/schrijven.</string>
-    <string name="sAlsaIsNotInstalledMsg">Alsa is niet geinstalleerd. Druk hier om te installeren.</string>
-    <string name="sPhoneMustBeRootedWarning">Uw toestel moet geroot zijn. Houd lang ingedrukt om dit bericht
-        teverbergen.
-    </string>
-    <string name="sStandardAPITip">Indien call recording niet werkt probeer dan elke audio bron in standaard
-        APIvoorkeuren. Houd lang ingedrukt om dit bericht te verbergen.
-    </string>
-
-    <!--Toasts-->
-    <string name="sLoggerMustBeEnabledToast">De logger in uw ROM/Kernel dient geactiveerd te zijn!</string>
-    <string name="sFileWasDeletedToast">Het bestand was verwijderd</string>
-
-    <!--Action bar-->
-    <string name="action_search">Zoeken</string>
-    <string name="sSizeRecords">Opnames: %1$s, grootte: %2$s</string>
-    <string name="sFreeOf">Vrij van</string>
-
-    <!--Tasks screen-->
-    <string name="section_tasks">Taken</string>
-    <string name="sInProgress">In Progress (%s)</string>
-    <string name="sInQueue">In Wachtrij</string>
-
-    <!--Get Info dialog-->
-    <string name="file_name">Bestandsnaam</string>
-    <string name="sample_rate">Sample rate</string>
-    <string name="sample_rate_hz">Hz</string>
-    <string name="file_size">Bestands grootte</string>
-    <string name="button_edit">Wijzig</string>
-
-    <!--Edit Info dialog-->
+    <!-- List -> Get info dialog -> Edit -->
     <string name="contact_name">Contact naam</string>
     <string name="phone_number">Telefoon nummer</string>
 
-    <!--Description for file name pattern-->
-    <string name="pattern_contact_name">contact naam</string>
-    <string name="pattern_phone_number">Telefoon nummer</string>
-    <string name="pattern_call_time">Gespreks tijd</string>
-    <string name="sCallTimestamp">gespreks tijdsweergave</string>
-    <string name="pattern_call_type">gespreks type (inkomend of uitgaand)</string>
+    <!-- List -> Confirm delete dialog -->
+    <string name="confirm_delete_message">Weet u zeker dat u deze opname wilt verwijderen?</string>
+    
+    
 
-    <!--Description for time pattern-->
-    <string name="time_pattern_hours">uren</string>
-    <string name="time_pattern_minutes">minuten</string>
-    <string name="time_pattern_seconds">seconden</string>
-    <string name="time_pattern_days">dagen</string>
-    <string name="time_pattern_months">maanden</string>
-    <string name="time_pattern_years">jaren</string>
-    <string name="pattern_example">Voorbeeld:</string>
+    <!-- List -> Share -->
+    
+    <string name="recorded_calls">Opgenomen gesprekken</string>
 
-    <!--Trial expired dialog-->
-    <string name="sTrialPeriodExpired">Proefperiode verlopen</string>
-    <string name="sTrialPeriodExpiredMsg">Verwijder aub deze versie eerst voordat u de volledige versie koopt</string>
-    <string name="sBuy">Kopen</string>
-
-    <!--New settings-->
-    <string name="action_settings">Instellingen</string>
-    <string name="section_help">Hulp</string>
-
-    <!--Main settings-->
-    <string name="buy_full_version">Koop volledige versie</string>
-    <string name="buy_full_version_summary">Huidige versie verloopt op %s</string>
-    <string name="sCallRecorderUpdater">Callrecorder Updaten</string>
+    <!--  Settings -> Headers -->
     <string name="settings_recording">Opname</string>
     <string name="settings_folders_and_files">Mappen en Bestanden</string>
     <string name="settings_ui_and_appearance">Interface en Weergave</string>
-    <string name="cloud_provider_dropbox">Dropbox</string>
     <string name="settings_security">Beveiliging</string>
+    
     <string name="settings_audio_player">Audio speler</string>
-    <string name="sExperimentalSettings">Experimenteel</string>
     <string name="settings_debug">Debuggen</string>
     <string name="settings_about">Over</string>
 
-    <!--General-->
-    <string name="sGeneralSettingsCategory">Algemeen</string>
-    <string name="sOtherSettingsCategory">Overige</string>
-    <string name="sAdvancedSettingsCategory">Geavanceerd</string>
-    <string name="category_wav_settings">WAV instellingen</string>
-    <string name="category_main">Hoofd</string>
+    <!-- Settings -> License -->
+    <string name="license_status">Licentie status</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="license_trial">Proef versie verloopt op %s</string>
+    
+    
+    
+    
+    
+    
 
+    <string name="buy_full_version">Koop volledige versie</string>
+    <string name="buy_full_version_summary">Huidige versie verloopt op %s</string>
 
-    <!--Buy full version-->
-    <string name="sOpenPlayStore">Open Play Store</string>
-
-    <!--CallRecorder Updater-->
-    <string name="sOpenCallRecorderUpdater">Open CallRecorder Updater</string>
-
-    <!--Recording-->
+    <!-- Settings -> Recording -->
     <string name="recording_calls_switch">Opname gesprekken</string>
+    <string name="category_main">Hoofd</string>
     <string name="device">Toestel</string>
-    <string name="device_other">Overige Toestel</string>
     <string name="select_your_device">Selecteer uw toestel</string>
-    <string name="sAudioFormatSettingsCategory">Audio formaat</string>
-    <string name="sCallRecordingFormat">Gespreksopname formaat</string>
-    <string name="sMethodSettingsCategory">Methode</string>
-    <string name="sKernelSettings">Kernel</string>
-    <string name="sKernelSettingsSummary">Instellingen voor kernel opname</string>
+    
+    
+    
+    <string name="device_other">Overige Toestel</string>
+    <string name="recording_method">Opname methode</string>
     <string name="recording_method_api">Standaard API</string>
     <string name="recording_method_api_settings">Instellingen voor standaard API opname</string>
-    <string name="recording_method_alsa">ALSA</string>
-    <string name="recording_method_alsa_settings">Instellingen voor ALSA opname</string>
-    <string name="recording_method">Opname methode</string>
     <string name="recording_method_caf">CAF</string>
     <string name="recording_method_caf_settings">instellingen voor CAF opname</string>
-    <string name="volume_control">Volume instellingen</string>
-
-    <!--Recording methods array-->
-    <string name="sRecordingMethodKernel">Kernel (root toegang nodig)</string>
-    <string name="sRecordingMethodStandardAPI">Standaard API</string>
-    <string name="sRecordingMethodALSA">ALSA (root toegang nodig)</string>
-    <string name="sRecordingMethodCAF">CAF (root benodigd)</string>
-
-    <!--Recording audio formats-->
-    <string name="recording_format_wav">WAV</string>
-    <string name="recording_format_amr">AMR</string>
-    <string name="recording_format_aac">AAC</string>
-    <string name="s3GPP">3GPP</string>
-    <string name="recording_format_mp3">MP3</string>
-
-    <!--Recording behavior-->
-    <string name="after_call_actions_dialog">Na gesprek dialoogvenster</string>
-    <string name="after_call_actions_dialog_summary">Vraag wat te doen na een gesprek</string>
-    <string name="call_confirm">Oproep bevestigen</string>
-    <string name="call_confirm_summary">Laat bevestigings scherm zien voor gesprek</string>
-    <string name="sDefaultAction">Standaard actie</string>
-    <string name="action_for_outgoing">Actie voor uitgaande oproepen</string>
+    <string name="recording_method_alsa">ALSA</string>
+    <string name="recording_method_alsa_settings">Instellingen voor ALSA opname</string>
+    
+    
+    <string name="category_actions">Akties</string>
     <string name="action_for_incoming">Actie voor inkomende oproepen</string>
-    <string name="delay_before_start_recording">Vertraging voordat gespreksopname begint</string>
-    <string name="sIncomingCalls">Inkomende oproepen</string>
-    <string name="sOutgoingAndIncomingCalls">Uitgaande &amp; inkomende gesprekken</string>
-    <string name="sOutgoingCalls">Uitgaande gesprekken</string>
-    <string name="vibrate_on_call">Tril bij gespreks aanvang/beindiging</string>
-
-    <!--Actions-->
+    <string name="action_for_outgoing">Actie voor uitgaande oproepen</string>
     <string name="action_record_all">Alles opnemen</string>
     <string name="action_do_not_record">Niet opnemen</string>
     <string name="action_record_contacts">Contacten opnemen</string>
     <string name="action_record_non_contacts">Niet-contacten opnemen</string>
-
-    <!--Recording -> Exceptions-->
+    <string name="call_confirm">Oproep bevestigen</string>
+    <string name="call_confirm_summary">Laat bevestigings scherm zien voor gesprek</string>
+    <string name="after_call_actions_dialog">Na gesprek dialoogvenster</string>
+    <string name="after_call_actions_dialog_summary">Vraag wat te doen na een gesprek</string>
+    <string name="vibrate_on_call">Tril bij gespreks aanvang/beindiging</string>
     <string name="exceptions">Uitzonderingen</string>
-    <string name="sAddGroup">Groep toevoegen</string>
-    <string name="sAdd">Toevoegen</string>
-    <string name="exception_group">Group</string>
-    <string name="exception_select_group">Selecteer groep</string>
-    <string name="exception_select_action">Selecteer handeling</string>
-    <string name="sChangeAction">Verander handeling</string>
-    <string name="exception_action_always_record">Altijd recorden</string>
-    <string name="exception_action_never_record">Nooit recorden</string>
-    <string name="sPressMenuToAddException">Druk \'menu\' om uitzondering toe te voegen</string>
-
-    <!--Recording -> Kernel-->
-    <string name="chipset_type">Chipset type</string>
-    <string name="chipset_type_msm72xx">Qualcomm MSM72XX</string>
-    <string name="chipset_type_msm8250">Qualcomm MSM8250</string>
-    <string name="chipset_type_msm8255">Qualcomm MSM8255</string>
-    <string name="chipset_type_msm8260">Qualcomm MSM8260</string>
-    <string name="sSoundBoost">Geluid boost</string>
-    <string name="sUplinkBoost">Uplink boost</string>
-    <string name="sDownlinkBoost">Downlink boost</string>
-    <string name="dont_use_amr_driver">Gebruik geen AMR driver</string>
-    <string name="dont_use_amr_driver_summary">Coverteer WAV naar AMR in real-time</string>
-
-    <!--Recording -> Standard API-->
-    <string name="api_audio_source">Audio bron</string>
-    <string name="sWhenBTConnected">Indien BT is verbonden...</string>
-    <string name="sBTEnabledMeansBTConnected">BT aan betekent BT verbonden</string>
-    <string name="sBTEnabledMeansBTConnectedSummary">Als BT aangezet is, gebruik dan dezelfde instellingen als BT
-        verbonden
-    </string>
-    <string name="sAudioSourceWhenBTConnected">audiobron indien BT verbonden is</string>
-    <string name="sample_rate">Sample rate</string>
+    
+    
+    
+    <string name="delay_before_start_recording">Vertraging voordat gespreksopname begint</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="recording_format_wav">WAV</string>
+    <string name="recording_format_amr">AMR</string>
+    <string name="recording_format_aac">AAC</string>
+    <string name="recording_format_mp3">MP3</string>
+    <string name="volume_control">Volume instellingen</string>
+    
+    
+    
+    
+    
     <string name="sample_rate_8000">8000 Hz (Standaard)</string>
     <string name="sample_rate_11025">11025 Hz</string>
     <string name="sample_rate_16000">16000 Hz</string>
     <string name="sample_rate_22050">22050 Hz</string>
     <string name="sample_rate_44100">44100 Hz</string>
+    
 
-    <!--Audio sources of Standard API array-->
+    <!-- Settings -> Recording -> Standard API -->
+    <string name="api_audio_source">Audio bron</string>
     <string name="api_source_uplink_downlink">Voice call uplink + downlink</string>
     <string name="api_source_downlink">Voice call downlink</string>
     <string name="api_source_uplink">Voice call uplink</string>
     <string name="api_source_microphone">Microfoon</string>
     <string name="api_source_default">Standaard</string>
     <string name="api_source_voice_communication">Voice communicatie</string>
+    <string name="category_wav_settings">WAV instellingen</string>
+    
 
-    <!--Actions on BT connected array-->
-    <string name="sOnBTConnectedActionDoNothing">Doe niets</string>
-    <string name="sOnBTConnectedActionSwitchAudioSource">Wissel audio bron</string>
-    <string name="sOnBTConnectedActionDisableRecording">opnemen uitschakelen</string>
+    <!-- Settings -> Recording -> CAF -->
+    
 
-    <!--Recording -> ALSA-->
-    <string name="sAlsa">Alsa</string>
-    <string name="sAlsaIsInstalled">Alsa is geinstalleerd</string>
+    <!-- Settings -> Recording -> ALSA -->
+    
+    
 
-    <!--Folders and Files-->
-    <string name="sRescan">Herscannen</string>
-    <string name="sRescanSummary">Herscan map om lijst opnames te updaten</string>
-    <string name="sFolderSettingsCategory">Map</string>
+    <!-- Settings -> Recording -> MSM -->
+    <string name="chipset_type">Chipset type</string>
+    <string name="chipset_type_msm72xx">Qualcomm MSM72XX</string>
+    <string name="chipset_type_msm8250">Qualcomm MSM8250</string>
+    <string name="chipset_type_msm8255">Qualcomm MSM8255</string>
+    <string name="chipset_type_msm8260">Qualcomm MSM8260</string>
+    <string name="dont_use_amr_driver">Gebruik geen AMR driver</string>
+    <string name="dont_use_amr_driver_summary">Coverteer WAV naar AMR in real-time</string>
+
+    <!-- Settings -> Recording -> Exceptions -->
+    
+    <string name="exception_group">Group</string>
+    <string name="exception_select_group">Selecteer groep</string>
+    
+    
+    
+    
+    <string name="exception_select_action">Selecteer handeling</string>
+    <string name="exception_action_always_record">Altijd recorden</string>
+    <string name="exception_action_never_record">Nooit recorden</string>
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- Settings -> Folders and Files -->
     <string name="folder">Map</string>
+    
     <string name="automatic_cleanup">Automatisch opruimen</string>
     <string name="max_number_of_files">Max. aantal bestanden</string>
     <string name="max_number_of_files_message">Voer een aantal in (0 - geen limiet)</string>
@@ -324,218 +229,160 @@
     <string name="max_age_of_recordings">Max. oudheid van opnames</string>
     <string name="max_age_of_recordings_message">Voer een waarde in, in dagen (0 - geen limiet)</string>
     <string name="current_setting">Huidige instelling: %s</string>
-    <string name="sFileNameSettingsCategory">Bestandsnaam</string>
+    
     <string name="filename_pattern">Patroon</string>
     <string name="time_pattern">Tijdspatroon</string>
 
-    <!--Interface and Appearance-->
+    <!-- Description for filename pattern -->
+    <string name="pattern_contact_name">contact naam</string>
+    <string name="pattern_phone_number">Telefoon nummer</string>
+    <string name="pattern_call_time">Gespreks tijd</string>
+    
+    <string name="pattern_call_type">gespreks type (inkomend of uitgaand)</string>
+    <string name="time_pattern_hours">uren</string>
+    <string name="time_pattern_minutes">minuten</string>
+    <string name="time_pattern_seconds">seconden</string>
+    <string name="time_pattern_days">dagen</string>
+    <string name="time_pattern_months">maanden</string>
+    <string name="time_pattern_years">jaren</string>
+    <string name="pattern_example">Voorbeeld:</string>
+
+    <!--Settings -> Interface and Appearance-->
     <string name="language">Taal</string>
     <string name="select_language">Kies taal</string>
-    <string name="sActionBarSettingsCategory">Actiebalk</string>
-    <string name="sAudioOutputActionBar">Audio uitgang</string>
-    <string name="sAudioOutputActionBarSummary">Laat audio uitgang instellingen zien in Actiebalk</string>
-    <string name="incall_control_for_outgoing">Voor uitgaande gesprekken</string>
-    <string name="sInCallControlForOutgoingSummary">In-gesprek bediening voor uitgaande gesprekken</string>
-    <string name="incall_control_for_incoming">voor inkomende gesprekken</string>
-    <string name="sInCallControlForIncomingSummary">In-gesprek bediening voor inkomende gesprekken</string>
     <string name="category_notification">Notificatie</string>
-    <string name="sNotificationIcon">Notificatie icoon</string>
     <string name="show_notification">Laat notificatie zien</string>
-    <string name="sShowNotificationSummary">Verbeterde proces prioriteit</string>
-    <string name="sInCallControl">In gesprek control</string>
-    <string name="sHangUpAndCallBack">Ophangen en terugbellen</string>
-    <string name="sHangUpAndCallBackSummary">Bij lang ingedrukt houden, automatisch ophangen en terugbellen</string>
+    
+    
+    <string name="incall_control_for_outgoing">Voor uitgaande gesprekken</string>
+    
+    <string name="incall_control_for_incoming">voor inkomende gesprekken</string>
+    
+    
+    
     <string name="show_button_while_ringing">Laat knop zien bij het overgaan</string>
-    <string name="show_button_while_ringing_summary">Laat in-gesprek control knop zien voordat inkomend gesprek wordt
-        beantwoord
-    </string>
-    <string name="sExcludeFavoritesFromAll">Uitsluiten van favorieten op het "Alles" scherm</string>
-    <string name="sExcludeFavoritesFromAllSummary">Uitsluiten van favorieten op het scherm waar alle opnames staan
-    </string>
+    <string name="show_button_while_ringing_summary">Laat in-gesprek control knop zien voordat inkomend gesprek wordt beantwoord</string>
     <string name="vertical_position">Vertikaal</string>
+    
     <string name="horizontal_position">Horizontaal</string>
-    <string name="sVerticalOffset">Verschuiving van de verticale rand</string>
-    <string name="sVerticalOffsetSummary">Een verschuiving van de geselecteerde rand in verticale lijn (Boven ofonder)
-    </string>
-    <string name="sHorizontalOffset">Verschuiving van horizontale rand</string>
-    <string name="sHorizontalOffsetSummary">Een verschuiving van de geselecteerde rand in horizontale lijn (Boven
-        ofonder)
-    </string>
-    <string name="sLowSpaceWarning">Waarschuwing weinig ruimte</string>
-    <string name="sLowSpaceWarningSummary">Stel een drempel in van een minimale ruimte voor de waarschuwing
-        inmegabytes
-    </string>
-    <string name="sMainScreen">Hoofdscherm</string>
-    <string name="sHideInCallControlButton">Verberg in-call control knop</string>
-    <string name="sHideInCallControlButtonSummary">Verberg in-call control knop indien gesprek word opgenomen</string>
-    <string name="sDontShowInCallButton">Laat knop niet zien voor dat er verbinding is gemaakt</string>
+    
+    
     <string name="hide_button_before_answer_summary">Laat in-call control niet zien voor dat er verbinding is</string>
-    <string name="sLanguageDefault">Standaard</string>
 
-    <!--Vertical aligns array-->
-    <string name="sVerticalAlignTop">Boven</string>
-    <string name="sVerticalAlignBottom">Onder</string>
-
-    <!--Horizontal aligns array-->
-    <string name="sHorizontalAlignLeft">Links</string>
-    <string name="sHorizontalAlignRight">Rechts</string>
-
-    <!--Notification icons array-->
-    <string name="sNotificationIconDefault">Standaard</string>
-    <string name="sNotificationIconGreenNew">Groen (nieuw)</string>
-    <string name="sNotificationIconGreenOld">Groen (oud)</string>
-    <string name="sNotificationIconGray">Grijs</string>
-
-    <!--Dropbox-->
-    <string name="sDropboxLogin">Inloggen</string>
-    <string name="sDropboxLogout">Uitloggen</string>
-
+    <!-- Settings -> Cloud -->
+    
+    <string name="cloud_provider_dropbox">Dropbox</string>
+    
+    
+    
+    
     <string name="cloud_wifi_only">Wi-Fi only</string>
     <string name="cloud_auto_upload">auto upload</string>
-    <string name="sCloudUploadFavorites">Upload favorieten</string>
-    <string name="sCloudUploadFavoritesSummary">Upload opname naar Dropbox indien toegevoegd aan favorieten</string>
     <string name="cloud_auto_upload_summary">Upload opname direct na het gesprek</string>
-    <string name="menu_add_to_dropbox">Toevoegen in Dropbox</string>
+    
+    
 
-    <!--Security-->
-    <string name="category_encryption">Encryptie</string>
-    <string name="sKeyNotFound">Key niet gevonden</string>
-    <string name="sCreate">Maken</string>
-    <string name="create_new_key">Maak nieuwe key</string>
+    <!-- Notification -->
+    
+    
+
+    <!-- Password dialog -->
+    
     <string name="enter_password">Voer wachtwoord in</string>
-    <string name="sReEnterPassword">Herhaal wachtwoord</string>
+    
+
+    <!-- Settings -> Security -->
+    <string name="category_encryption">Encryptie</string>
+    <string name="category_application">Applicatie</string>
+    <string name="create_new_key">Maak nieuwe key</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="app_admin">App Admin</string>
+    
+    
     <string name="aes_128bit">128-bit AES (Sneller)</string>
     <string name="aes_192bit">192-bit AES (Gebalanceerd)</string>
     <string name="aes_256bit">256-bit AES (Sterker)</string>
-    <string name="category_application">Applicatie</string>
-    <string name="app_admin">App Admin</string>
-    <string name="sAppAdminSummary">Noodzakelijk om het verwijderen van CallRecorder te voorkomen</string>
-    <string name="sAppAdminExplanation">CallRecorder gebruikt geen enkele functie van toestel admin behalve de
-        beveiliging op verwijdering
-    </string>
 
-    <!--Audio player-->
-    <string name="sUseDefaultPlayer">Gebruik standaard speler</string>
+    <!-- Settings -> Audio player -->
+    
     <string name="audio_output">Audio uitgang</string>
+    
+    <string name="main_speaker">Hoofd lspeaker</string>
+    <string name="phone_speaker">Telefoonspeaker</string>
+    <string name="use_proximity_sensor">Gebruik naderings (proximity) sensor</string>
+    
+    <string name="switch_audio_output">Wissel audio uitgang</string>
+    
     <string name="android_wav_decoder">Android decoder voor WAV</string>
     <string name="android_wav_decoder_summary">Gebruik ingebouwde Android tools om WAV af te spelen</string>
     <string name="android_amr_decoder">Android decoder voor AMR</string>
     <string name="android_amr_decoder_summary">Gebruik ingebouwde android tools om AMR af te spelen</string>
-    <string name="switch_audio_output">Wissel audio uitgang</string>
-    <string name="SwitchAudioOutputSummary">Wissel automatisch audio uitgang indien scherm uit/ingeschakeld word door
-        proximity sensor
-    </string>
-    <string name="use_proximity_sensor">Gebruik naderings (proximity) sensor</string>
-    <string name="sUseProximitySensorSummary">Gebruik naderings (proximity) sensor om het scherm uit te schakelentijdens
-        het beluisteren van een opname (ROOTbenodigd)
-    </string>
 
-    <!--Audio output array-->
-    <string name="main_speaker">Hoofd lspeaker</string>
-    <string name="phone_speaker">Telefoonspeaker</string>
-
-    <!--Experimental-->
-    <string name="sConvertAfterCall">Converteer na gesprek</string>
-    <string name="sDontConvert">Niet converteren</string>
-    <string name="sWavToMp3">WAV naar MP3</string>
-    <string name="sWavToAmr">WAV naar AMR</string>
-
-    <!--Debug-->
-    <string name="sDetailedLogs">gedetaileerde logs</string>
+    <!--Settings -> Debug-->
     <string name="root_access">Root toegang</string>
     <string name="root_access_no">Nee</string>
     <string name="root_access_yes">Ja</string>
-    <string name="sLogsSettingsCategory">Logs</string>
-    <string name="sSendLogsToTheDeveloper">Zend logs naar de ontwikkelaar</string>
-    <string name="sUseGzipToCompressLogs">gebruik gzip om logs in te pakken</string>
-    <string name="sRecordOnNotificationClick">Opnemen na notificatie klik</string>
-    <string name="sRecordOnNotificationClickSummary">Klik niet op notificatie voordat er verbinding is</string>
-    <string name="sHideNotificationDuringCall">Verberg notificatie tijdens gesprek</string>
-    <string name="sHideNotificationDuringCallSummary">Niet inschakelen, het is alleen voor debuggen</string>
     <string name="dual_sim_phone">Dual Sim Telefoon</string>
-    <string name="dual_sim_phone_summary">Schakel dit aan als de app geen gesprekken van de 2e simkaart kan vaststellen
-    </string>
+    <string name="dual_sim_phone_summary">Schakel dit aan als de app geen gesprekken van de 2e simkaart kan vaststellen</string>
+
+    <!-- General -->
+    <string name="contact_unknown">Onbekend</string>
+    
+    <string name="button_ok">OK</string>
+    
+    <string name="button_edit">Wijzig</string>
+    <string name="button_cancel">Annuleren</string>
+    
+    
+    
+    
+    
+    
+    
+    <string name="please_wait">Wacht aub...</string>
+    <string name="start_recording">Start recording</string>
+    <string name="stop_recording">Stop recording</string>
+    
+    <string name="switch_on">Aan</string>
+    <string name="switch_off">Uit</string>
+
+    <!-- Call confirm dialog -->
+    <string name="call_confirm_record_this_call">Neem dit gesprek op</string>
+    
+
+    <!--Notification-->
+    
+    
+    
+    <string name="an_error_has_occurred">Er is een fout opgetreden, deze oproep kan niet worden opgenomen</string>
 
     <!--About-->
+    
     <string name="version">Versie</string>
-    <string name="sAboutCallRecorder">Over CallRecorder</string>
-    <string name="license_status">Licentie status</string>
-    <string name="sLicenseStatusVerified">Licentie gecontroleerd</string>
-    <string name="license_trial">Proef versie verloopt op %s</string>
-
     <string name="copyright">Copyright</string>
-    <string name="copyright_summary">&#169; %s Alexander Skvortsov (skvalex)</string>
+    <string name="copyright_summary">© %s Alexander Skvortsov (skvalex)</string>
     <string name="about_many_thanks">Veel dank</string>
     <string name="about_many_thanks_summary">aan Alexey Subbotin (avs234)</string>
-    <string name="sGermanTranslation">Duitse vertaling</string>
-    <string name="sGermanTranslationSummary">door Marc Hillesheim</string>
-    <string name="sPolishTranslation">Poolse vertaling</string>
-    <string name="sPolishTranslationSummary">door Robert Gonta</string>
-    <string name="sFrenchTranslation">Franse vertaling</string>
-    <string name="sFrenchTranslationSummary">door Julien Boiteux</string>
-    <string name="sBrazilianPortugueseTranslation">Braziliaans Portugese vertaling</string>
-    <string name="sBrazilianPortugueseTranslationSummary">door Luiz Marcelo Serique</string>
-    <string name="sSpanishTranslation">Spaanse vertaling</string>
-    <string name="sSpanishTranslationSummary_ver1">door Iñigo Garcia and Diego Vilas</string>
-    <string name="sSlovakTranslation">Slovaakse vertaling</string>
-    <string name="sSlovakTranslationSummary">door Loránt Gerencsér</string>
-    <string name="sItalianTranslation">Italiaanse vertaling</string>
-    <string name="sItalianTranslationSummary">door Luca Trevisan</string>
-    <string name="sPersianTranslation">Persische vertaling</string>
-    <string name="sPersianTranslationSummary_v2">door Alireza Afkar</string>
-    <string name="sChineseTranslation">Chinese vertaling</string>
-    <string name="sChineseTranslationSummary">door qhq</string>
-    <string name="sCzechTranslation">Czech vertaling</string>
-    <string name="sCzechTranslationSummary_ver2">door Ales Kerner en Lukas Waldauf</string>
-    <string name="sArabicTranslation">Arabische vertaling</string>
-    <string name="sArabicTranslationSummary">door Ausama S. Ibrahim</string>
-    <string name="sHebrewTranslation">Hebreeuwse vertaling</string>
-    <string name="sHebrewTranslationSummary">door NuFlood</string>
-    <string name="sHungarianTranslation">Hongaarese vertaling</string>
-    <string name="sHungarianTranslationSummary_ver2">door Szalay Levente en Miklós Toldi</string>
-    <string name="sDutchTranslation">Nederlandse vertaling</string>
-    <string name="sDutchTranslationSummary">door Elroy Tirbeni</string>
-    <string name="sTurkishTranslation">Turkse vertaling</string>
-    <string name="sTurkishTranslationSummary">door Omer Ilik</string>
-    <string name="sSerbianTranslation">Servische vertaling</string>
-    <string name="sSerbianTranslationSummary">door sHAKaJaada</string>
-    <string name="sKoreanTranslation">Koreaanse vertaling</string>
-    <string name="sKoreanTranslationSummary_ver2">door SoHyunSeop en Joon Hee Jo</string>
-    <string name="sRomanianTranslation">Romeense vertaling</string>
-    <string name="sRomanianTranslationSummary">door Dan P. (sad)</string>
-    <string name="sUkrainianTranslation">Ukraiens vertaling</string>
-    <string name="sUkrainianTranslationSummary">door Gennadi Samoluk</string>
-    <string name="sTraditionalChineseTranslation">Traditioneel Chinees vertaling</string>
-    <string name="sTraditionalChineseTranslationSummary_v2">door GPF_kaibird and Chien Jung Liaw</string>
-    <string name="sJapaneseTranslation">Japanse vertaling</string>
-    <string name="sJapaneseTranslationSummary">door Akira Tagoh</string>
-    <string name="sSwedishTranslation">Zweedse vertaling</string>
-    <string name="sSwedishTranslationSummary">door Johannes Sjölund</string>
-    <string name="sBulgarianTranslation">Bulgaarse vertaling</string>
-    <string name="sBulgarianTranslationSummary">door PROXIMO</string>
-    <string name="sDanishTranslation">Deense vertaling</string>
-    <string name="sDanishTranslationSummary">door Lars Sarauw Hansen</string>
-    <string name="sLatvianTranslation">Latijnse vertaling</string>
-    <string name="sLatvianTranslationSummary">door Arvīds Dreimanis</string>
-    <string name="sThaiTranslation">Thaise vertaling</string>
-    <string name="sThaiTranslationSummary">door Wuttisak Saichoncharn</string>
-    <string name="sArmenianTranslation">Armeense vertaling</string>
-    <string name="sArmenianTranslationSummary">door Konstantin Gevorgyan</string>
-    <string name="sGeorgianTranslation">Georgische vertaling</string>
-    <string name="sGeorgianTranslationSummary">door Alexandre Razmadze</string>
-    <string name="sCatalanTranslation">Catalaanse vertaling</string>
-    <string name="sCatalanTranslationSummary">door cybdani</string>
 
-    <!--Licenses-->
     <string name="licenses">Licenties</string>
-    <string name="sActionBarSherlockLicense">ActionBarSherlock</string>
-    <string name="sActionBarSherlockLicenseSummary">Gebruikt ActionBarSherlock onder Apache Licentie Versie 2.0,
-        klikhier om naar actionbarsherlock.com te gaan
-    </string>
     <string name="about_open_core_amr_license">opencore-amr</string>
-    <string name="about_open_core_amr_license_summary">Gebruikt opencore-arm onder Apache licentie versie 2.0, klik hier om naar
-        opencore-amr.sourceforge.net te gaan
-    </string>
+    <string name="about_open_core_amr_license_summary">Gebruikt opencore-arm onder Apache licentie versie 2.0, klik hier om naar opencore-amr.sourceforge.net te gaan</string>
     <string name="about_alsa">ALSA</string>
     <string name="about_alsa_summary">Gebruikt ALSA onder LGPL, klik hier om hun site te bezoeken alsa-project.org</string>
     <string name="about_lame">LAME</string>

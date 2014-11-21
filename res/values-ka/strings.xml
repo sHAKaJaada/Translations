@@ -1,316 +1,226 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+<?xml version="1.0" encoding="utf-8" standalone="no"?><resources>
     <string name="app_name">CallRecorder</string>
-    <!--Rules array-->
-    <string name="sRuleDescription">წავიკითხე და ვეთანხმები პროგრამის აღწერილობას</string>
-    <string name="sRulePlayStore">ვეთანხმები, რომ პროგრამის შემქმნელი ვერ მიპასუხებს დასმულ კითხვებზე Play Store ში
-    </string>
-    <string name="sRuleUseOfProgram">ვეთანხმები, რომ პროგრამის შემქმნელი პასუხს არ აგებს თუ ამ პროგრამით ზიანი მოუვიდა
-        ტელეფონს.
-    </string>
-    <string name="sRuleLaw">დარწმუნებული ვარ რომ ამ პროგრამით არ ვარღვევ საქართველოს კანონმდებლობას</string>
-    <string name="sRuleNotWorking">თუ ზარის ჩაწერა არ მუშაობს ,წავიკითხავ პროგრამის აღწერილობას ხელახლა და თუ ვერ
-        გავარკვიე ,მივწერ პროგრამის შემქმნელს მისამართზე skvalex@gmail.com
-    </string>
+    
+    
 
-    <!--Notification-->
-    <string name="sRecordingIsRunning">მიმდინარეობს ზარის ჩაწერა</string>
-    <string name="sThisCallIsRecording">ზარი ჩაიწერა</string>
-    <string name="an_error_has_occurred">დაფიქსირდა შეცდომა. ზარი არ ჩაიწერა</string>
-    <string name="sEncodingError">დაფიქსირდა შეცდომა კოდირების დროს</string>
-    <string name="start_recording">ჩაწერის დაწყება</string>
-    <string name="stop_recording">ჩაწერის დამთავრება</string>
+    <!-- Navigation drawer -->
+    
+    
 
-    <!--List with recordings-->
+    <!-- Navigation drawer sections -->
+    
+    
+    <string name="section_incoming">შემოსული</string>
+    <string name="section_outgoing">გამავალი</string>
+    
+    
+    
+    <string name="section_help">დახმარება</string>
+    <string name="section_tasks">ამოცანა</string>
+    
     <string name="empty_hint">ცარიელი</string>
-    <string name="contact_unknown">ამოუცნობი</string>
 
-    <!--Actions on recording-->
-    <string name="category_actions">ქმედება</string>
-    <string name="sFilterThisNumber">ნომრის ფილტრში ჩაგდება(დაბლოკვა)</string>
-    <string name="sAddToFavorites">ფავორიტებში დამატება</string>
-    <string name="sRemoveFromFavorites">ფავორიტებიდან წაშლა</string>
-    <string name="sAddToContacts">კონტაქტებში დამატება</string>
-    <string name="sOpenContact">კონტაქტის გახსნა</string>
-    <string name="sCall">დარეკვა</string>
-    <string name="sNote">შენიშვნა</string>
-    <string name="sConvertToMp3">გადავაკეთოთ mp3 ად</string>
-    <string name="sConvertToAmr">გადავაკეთოთ amr ად</string>
-    <string name="sRenameFile">სახელის შეცვლა</string>
+    <!-- Action bar -->
+    <string name="action_search">ძებნა</string>
+    
+    <string name="action_settings">პარამეტრები</string>
+    
+    
+    
+    
+    
+    <string name="action_select_all">აირჩიეთ ყველა</string>
+    
+    
+    
+
+    <!-- List -->
+    
+    
+    
+    
+
+    <!-- List -> Context menu -->
+    <string name="menu_add_to_dropbox">დამატება Dropbox ზე</string>
+    
+    
+    <string name="menu_delete">წაშლა</string>
+    
+    
+    
     <string name="menu_get_info">ინფორმაციის მიღება</string>
+    
     <string name="menu_encrypt">გაშიფრვა</string>
     <string name="menu_decrypt">დეკოდირება</string>
 
-    <!--Actions on selected recordings-->
-    <string name="action_select_all">აირჩიეთ ყველა</string>
-    <string name="sSelectNone">არცერთის არჩევა</string>
-
-    <!--General-->
-    <string name="sSend">გაგზავნა</string>
-    <string name="sSendVia">გავაგზავნო</string>
-    <string name="menu_delete">წაშლა</string>
-    <string name="button_cancel">გაუქმება</string>
-    <string name="button_ok">OK</string>
-    <string name="sSeconds">წამი</string>
-    <string name="sDisabled">პასიური</string>
-    <string name="sYes">კი</string>
-    <string name="sNo">არა</string>
+    <!-- List -> Get info dialog -->
+    <string name="file_name">ფაილის სახელი</string>
+    <string name="sample_rate">სიშხირე</string>
+    <string name="sample_rate_hz">ჰერცი</string>
+    
+    
+    
+    <string name="file_size">ფაილის ზომა</string>
     <string name="terabyte">ტერაბაიტი</string>
     <string name="gigabyte">გიგაბაიტი</string>
     <string name="megabyte">მეგაბაიტი</string>
     <string name="kilobyte">კილობაიტი</string>
     <string name="bytes">ბაიტი</string>
-    <string name="please_wait">გთხოვთ დაიცადოთ</string>
-    <string name="switch_on">ღია</string>
-    <string name="switch_off">დაკეტილი</string>
+    
 
-    <!--Tabs-->
-    <string name="section_incoming">შემოსული</string>
-    <string name="section_outgoing">გამავალი</string>
-    <string name="sFavorites">ფავორიტები</string>
-    <string name="sAll">ყველა</string>
-
-    <!--Send recordings-->
-    <string name="recorded_calls">ჩაწერილი ზარები</string>
-    <string name="sIncoming">შემოსული</string>
-    <string name="sOutgoing">გამავალი</string>
-
-    <!--Dialog after call-->
-    <string name="sDlgDeleteMsg">შევინახო ან წავშალო ჩაწერილი ზარი?</string>
-    <string name="sKeep">შენარჩუნება</string>
-    <string name="sDropboxAdded">დამატებული</string>
-
-    <!--Delete confirmation dialog-->
-    <string name="sDeleteFiles">ფაილის წაშლა</string>
-    <string name="confirm_delete_message">გსურთ თუ არა წავშალო ჩაწერილი ზარი?</string>
-    <string name="sDlgDeleteSelectionMsg">მონიშნულია %d ფაილი ? გინდათ წაშალოთ?</string>
-    <string name="sFilesDeletedToast">%d ფაილი წაიშალა</string>
-
-    <!--Call confirm dialog-->
-    <string name="call_confirm_record_this_call">ჩავწერო ეს ზარი</string>
-
-    <!--Dialog about law-->
-    <string name="sWarning">გაფრთხილება</string>
-    <string name="sMsgAboutLaw">ზარების ჩაწერა ზოგიერთ ქვეყანაში იკრძალება.დარწმუნებული ხართ ,რომ თქვენი ქვეყნის
-        კანონმდებლობა არ კრძალავს ამას?
-    </string>
-
-    <!--Rules dialog-->
-    <string name="sRules">წესები</string>
-    <string name="sIAgree">ვეთანხმები</string>
-    <string name="sIDisagree">არ ვეთანხმები</string>
-
-    <!--Main screen toasts-->
-    <string name="sAddToFavoritesSuccess">ჩანაწერი წარმატებით დაემატა ფავორიტებს</string>
-    <string name="sRemoveFromFavoritesSuccess">ჩანაწერი წარმატებით წაიშალა ფავორიტებიდან</string>
-    <string name="sDeleteFavoriteRecordingMsg">ჩანაწერის წასაშლელად ამოშალეთ ფავორიტებიდან</string>
-
-    <!--Encryption-->
-    <string name="sFileSuccessfullyEncrypted">ფაილის კოდირება განხორციელდა წარმატებით</string>
-    <string name="sFileSuccessfullyDecrypted">ფაილის დეკოდირება განხორციელდა წარმატებით</string>
-    <string name="sEncrypting">კოდირება</string>
-    <string name="sDecrypting">დეკოდირება</string>
-    <string name="sEncrypted">კოდირებული</string>
-
-    <!--Main screen warnings-->
-    <string name="sAvailableFreeSpace">მცირე ადგილი:%s</string>
-    <string name="sReadWriteErr">ფაილების სისტემა დააყენეთ ,როგორც read/write</string>
-    <string name="sAlsaIsNotInstalledMsg">alsa დაყენებული არაა.დააჭირეთ მის დასაყენებლად</string>
-    <string name="sPhoneMustBeRootedWarning">ტელეფონი დარუთული უნდა იყოს .დიდხანს დააჭირეთ მოსაშორებლად</string>
-    <string name="sStandardAPITip">თუ ზარის ჩაწერა არ მუშაობს ,სცადეთ პარამეტრებში STANDART API ოპცია.დიდხანს დააჭირეთ
-        წასაშლელად
-    </string>
-
-    <!--Toasts-->
-    <string name="sLoggerMustBeEnabledToast">ლოგერი უნდა იყოს ჩართული თქვენს პროგრმაში</string>
-    <string name="sFileWasDeletedToast">ფაილი წაშლილია</string>
-
-    <!--Action bar-->
-    <string name="action_search">ძებნა</string>
-    <string name="sSizeRecords">ჩანაწერი:%1$s,ზომა:%2$s</string>
-    <string name="sFreeOf">უფასო</string>
-
-    <!--Tasks screen-->
-    <string name="section_tasks">ამოცანა</string>
-    <string name="sInProgress">მუშავდება (%s)</string>
-    <string name="sInQueue">რიგშია</string>
-
-    <!--Get Info dialog-->
-    <string name="file_name">ფაილის სახელი</string>
-    <string name="sample_rate">სიშხირე</string>
-    <string name="sample_rate_hz">ჰერცი</string>
-    <string name="file_size">ფაილის ზომა</string>
-    <string name="button_edit">შესწორება</string>
-
-    <!--Edit Info dialog-->
+    <!-- List -> Get info dialog -> Edit -->
     <string name="contact_name">კონტაქტის სახელი</string>
     <string name="phone_number">ტელეფონის ნომერი</string>
 
-    <!--Description for file name pattern-->
-    <string name="pattern_contact_name">კონტაქტის სახელი</string>
-    <string name="pattern_phone_number">ტელეფონის ნომერი</string>
-    <string name="pattern_call_time">ზარის ხანგრძლივობა</string>
-    <string name="sCallTimestamp">ზარის ხანგრძლივობა(stamp)</string>
-    <string name="pattern_call_type">ზარის ტიპი(შემავალი გამავალი)</string>
+    <!-- List -> Confirm delete dialog -->
+    <string name="confirm_delete_message">გსურთ თუ არა წავშალო ჩაწერილი ზარი?</string>
+    
+    
 
-    <!--Description for time pattern-->
-    <string name="time_pattern_hours">საათი</string>
-    <string name="time_pattern_minutes">წუთი</string>
-    <string name="time_pattern_seconds">წამი</string>
-    <string name="time_pattern_days">დღე</string>
-    <string name="time_pattern_months">თვე</string>
-    <string name="time_pattern_years">წელი</string>
-    <string name="pattern_example">მაგალითად</string>
+    <!-- List -> Share -->
+    
+    <string name="recorded_calls">ჩაწერილი ზარები</string>
 
-    <!--Trial expired dialog-->
-    <string name="sTrialPeriodExpired">საცდელი პერიოდი გავიდა</string>
-    <string name="sTrialPeriodExpiredMsg">გთხოვთ,წაშალოთ ეს ვერსია სანამ ახალს დააყენებთ</string>
-    <string name="sBuy">ყიდვა</string>
-
-    <!--New settings-->
-    <string name="action_settings">პარამეტრები</string>
-    <string name="section_help">დახმარება</string>
-
-    <!--Main settings-->
-    <string name="buy_full_version">სრული ვერსიის ყიდვა</string>
-    <string name="buy_full_version_summary">მიმდინარე ვერსიას ვადა გასდის %s</string>
-    <string name="sCallRecorderUpdater">პროგრამის განახლება</string>
+    <!--  Settings -> Headers -->
     <string name="settings_recording">ჩაწერა</string>
     <string name="settings_folders_and_files">ფაილები და პაპკები</string>
     <string name="settings_ui_and_appearance">ინტერფეისი და გაფორმება</string>
-    <string name="cloud_provider_dropbox">Dropbox</string>
     <string name="settings_security">უსაფრთხოება</string>
+    
     <string name="settings_audio_player">Audio player</string>
-    <string name="sExperimentalSettings">ექსპერიმენტული</string>
     <string name="settings_debug">გამართვა</string>
     <string name="settings_about">შესახებ</string>
 
-    <!--General-->
-    <string name="sGeneralSettingsCategory">მთავარი</string>
-    <string name="sOtherSettingsCategory">სხვა</string>
-    <string name="sAdvancedSettingsCategory">გამოცდილი</string>
-    <string name="category_wav_settings">WAV პარამეტერები</string>
-    <string name="category_main">მთავარი</string>
+    <!-- Settings -> License -->
+    <string name="license_status">ლიცენზიის ვადა</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="license_trial">საცდელი ვერსიის ვადა იწურება % ში</string>
+    
+    
+    
+    
+    
+    
 
+    <string name="buy_full_version">სრული ვერსიის ყიდვა</string>
+    <string name="buy_full_version_summary">მიმდინარე ვერსიას ვადა გასდის %s</string>
 
-    <!--Buy full version-->
-    <string name="sOpenPlayStore">გავხსნათ Play Store</string>
-
-    <!--CallRecorder Updater-->
-    <string name="sOpenCallRecorderUpdater">პროგრამის განმაახლებლის გახსნა</string>
-
-    <!--Recording-->
+    <!-- Settings -> Recording -->
     <string name="recording_calls_switch">ზარების ჩაწერა</string>
+    <string name="category_main">მთავარი</string>
     <string name="device">მობილურის მოდელი</string>
-    <string name="device_other">სხვა</string>
     <string name="select_your_device">აირჩიეთ თქვენი მობილურის მოდელი</string>
-    <string name="sAudioFormatSettingsCategory">ფაილის ფორმატი</string>
-    <string name="sCallRecordingFormat">ზარის ჩაწერის ფორმატი</string>
-    <string name="sMethodSettingsCategory">მეთოდი</string>
-    <string name="sKernelSettings">ბირთვი</string>
-    <string name="sKernelSettingsSummary">ბირთვიდან ჩაწერის პარამეტრები</string>
+    
+    
+    
+    <string name="device_other">სხვა</string>
+    <string name="recording_method">ჩაწერის მეთოდები</string>
     <string name="recording_method_api">სტანდარტული API</string>
     <string name="recording_method_api_settings">სტანდარტული API ჩაწერის პარამეტრები</string>
-    <string name="recording_method_alsa">ALSA</string>
-    <string name="recording_method_alsa_settings">ALSA დან ჩაწერის პარამეტრები</string>
-    <string name="recording_method">ჩაწერის მეთოდები</string>
     <string name="recording_method_caf">CAF</string>
     <string name="recording_method_caf_settings">CAF ჩაწერის პარამეტრები</string>
-    <string name="volume_control">ხმის კონტროლი</string>
-
-    <!--Recording methods array-->
-    <string name="sRecordingMethodKernel">ბირთვიდან(დარუთვა სჭირდება)</string>
-    <string name="sRecordingMethodStandardAPI">სტანდარტული API</string>
-    <string name="sRecordingMethodALSA">ALSA(დარუთვა სჭირდება)</string>
-    <string name="sRecordingMethodCAF">CAF(საჭიროა დარუთვა)</string>
-
-    <!--Recording audio formats-->
-    <string name="recording_format_wav">WAV</string>
-    <string name="recording_format_amr">AMR</string>
-    <string name="recording_format_aac">AAC</string>
-    <string name="s3GPP">3GPP</string>
-    <string name="recording_format_mp3">MP3</string>
-
-    <!--Recording behavior-->
-    <string name="after_call_actions_dialog">ზარის შემდგომი დიალოგი</string>
-    <string name="after_call_actions_dialog_summary">შემეკითხე რა გავაკეთო ზარის დამთავრების შემდეგ</string>
-    <string name="call_confirm">ზარის დადასტურება</string>
-    <string name="call_confirm_summary">ზარის დარეკვამდე დადასტურების ჩვენება</string>
-    <string name="sDefaultAction">სტანდარტული ქმედება</string>
-    <string name="action_for_outgoing">ქმედება გამავალი ზარის დროს</string>
+    <string name="recording_method_alsa">ALSA</string>
+    <string name="recording_method_alsa_settings">ALSA დან ჩაწერის პარამეტრები</string>
+    
+    
+    <string name="category_actions">ქმედება</string>
     <string name="action_for_incoming">ქმედება შემომავალი ზარის დროს</string>
-    <string name="delay_before_start_recording">ზარის ჩაწერამდე შეჩერება</string>
-    <string name="sIncomingCalls">შემომავალი ზარები</string>
-    <string name="sOutgoingAndIncomingCalls">გამავალი და შემომავალი ზარები</string>
-    <string name="sOutgoingCalls">გამავალი ზარები</string>
-    <string name="vibrate_on_call">ვიბრაცია ზარის ჩაწერის დაწყებისას და დამთავრებისას</string>
-
-    <!--Actions-->
+    <string name="action_for_outgoing">ქმედება გამავალი ზარის დროს</string>
     <string name="action_record_all">ყველა ზარის ჩაწერა</string>
     <string name="action_do_not_record">არ ჩაწერო</string>
     <string name="action_record_contacts">კონტაქტების ჩაწერა</string>
     <string name="action_record_non_contacts">არა კონტაქტების ჩაწერა</string>
-
-    <!--Recording -> Exceptions-->
+    <string name="call_confirm">ზარის დადასტურება</string>
+    <string name="call_confirm_summary">ზარის დარეკვამდე დადასტურების ჩვენება</string>
+    <string name="after_call_actions_dialog">ზარის შემდგომი დიალოგი</string>
+    <string name="after_call_actions_dialog_summary">შემეკითხე რა გავაკეთო ზარის დამთავრების შემდეგ</string>
+    <string name="vibrate_on_call">ვიბრაცია ზარის ჩაწერის დაწყებისას და დამთავრებისას</string>
     <string name="exceptions">გამონაკლისი</string>
-    <string name="sAddGroup">ჯგუფის დამატება</string>
-    <string name="sAdd">დამატება</string>
-    <string name="exception_group">ჯგუფი</string>
-    <string name="exception_select_group">ჯგუფის შერჩევა</string>
-    <string name="exception_select_action">ქმედების შერჩევა</string>
-    <string name="sChangeAction">ქმედების შეცვლა</string>
-    <string name="exception_action_always_record">ყოველთვის ჩავწერო</string>
-    <string name="exception_action_never_record">არასდროს ჩავწერო</string>
-    <string name="sPressMenuToAddException">დააჭირეთ menu კლავიშს, რომ დაამატოთ გამონაკლისებში</string>
-
-    <!--Recording -> Kernel-->
-    <string name="chipset_type">ჩიპსეტის ტიპი</string>
-    <string name="chipset_type_msm72xx">Qualcomm MSM72XX</string>
-    <string name="chipset_type_msm8250">Qualcomm MSM8250</string>
-    <string name="chipset_type_msm8255">Qualcomm MSM8255</string>
-    <string name="chipset_type_msm8260">Qualcomm MSM8260</string>
-    <string name="sSoundBoost">ხმის იმპულსი</string>
-    <string name="sUplinkBoost">Uplink იმპულსი</string>
-    <string name="sDownlinkBoost">Downlink იმპულსი</string>
-    <string name="dont_use_amr_driver">AMR არ გამოიყენოს</string>
-    <string name="dont_use_amr_driver_summary">WAV გდაქცევა AMR ად</string>
-
-    <!--Recording -> Standard API-->
-    <string name="api_audio_source">Audio წყარო(ხმის წყარო)</string>
-    <string name="sWhenBTConnected">როცა BT დაკავშირებულია</string>
-    <string name="sBTEnabledMeansBTConnected">BT აქტიურია ,ნიშნავს დაკავშირებულია</string>
-    <string name="sBTEnabledMeansBTConnectedSummary">BT აქტიურია,გამოვიყენო იგივე პარამეტრები თითქოს BT დაკავშირებულია
-    </string>
-    <string name="sAudioSourceWhenBTConnected">ხმის წყარო როცა დაკავშირებულია bluetooth</string>
-    <string name="sample_rate">სიშხირე</string>
+    
+    
+    
+    <string name="delay_before_start_recording">ზარის ჩაწერამდე შეჩერება</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="recording_format_wav">WAV</string>
+    <string name="recording_format_amr">AMR</string>
+    <string name="recording_format_aac">AAC</string>
+    <string name="recording_format_mp3">MP3</string>
+    <string name="volume_control">ხმის კონტროლი</string>
+    
+    
+    
+    
+    
     <string name="sample_rate_8000">8000 H</string>
     <string name="sample_rate_11025">11025 Hz</string>
     <string name="sample_rate_16000">16000 Hz</string>
     <string name="sample_rate_22050">22050 Hz</string>
     <string name="sample_rate_44100">44100 Hz</string>
+    
 
-    <!--Audio sources of Standard API array-->
+    <!-- Settings -> Recording -> Standard API -->
+    <string name="api_audio_source">Audio წყარო(ხმის წყარო)</string>
     <string name="api_source_uplink_downlink">ორივე არხი</string>
     <string name="api_source_downlink">შემომავალი არხი</string>
     <string name="api_source_uplink">გამავალი არხი</string>
     <string name="api_source_microphone">მიკროფონი</string>
     <string name="api_source_default">სტანდარტული</string>
     <string name="api_source_voice_communication">ხმოვანი კავშირი</string>
+    <string name="category_wav_settings">WAV პარამეტერები</string>
+    
 
-    <!--Actions on BT connected array-->
-    <string name="sOnBTConnectedActionDoNothing">არაფერი შეცვალო</string>
-    <string name="sOnBTConnectedActionSwitchAudioSource">ხმის წყაროს შეცვლა</string>
-    <string name="sOnBTConnectedActionDisableRecording">ჩაწერის გამორთვა (დეაქტივაცია)</string>
+    <!-- Settings -> Recording -> CAF -->
+    
 
-    <!--Recording -> ALSA-->
-    <string name="sAlsa">Alsa</string>
-    <string name="sAlsaIsInstalled">Alsa დაყენებულია</string>
+    <!-- Settings -> Recording -> ALSA -->
+    
+    
 
-    <!--Folders and Files-->
-    <string name="sRescan">თავიდან სკანირება</string>
-    <string name="sRescanSummary">პაპკების სკანირება ჩანაწერების გასაახლებლად</string>
-    <string name="sFolderSettingsCategory">პაპკა</string>
+    <!-- Settings -> Recording -> MSM -->
+    <string name="chipset_type">ჩიპსეტის ტიპი</string>
+    <string name="chipset_type_msm72xx">Qualcomm MSM72XX</string>
+    <string name="chipset_type_msm8250">Qualcomm MSM8250</string>
+    <string name="chipset_type_msm8255">Qualcomm MSM8255</string>
+    <string name="chipset_type_msm8260">Qualcomm MSM8260</string>
+    <string name="dont_use_amr_driver">AMR არ გამოიყენოს</string>
+    <string name="dont_use_amr_driver_summary">WAV გდაქცევა AMR ად</string>
+
+    <!-- Settings -> Recording -> Exceptions -->
+    
+    <string name="exception_group">ჯგუფი</string>
+    <string name="exception_select_group">ჯგუფის შერჩევა</string>
+    
+    
+    
+    
+    <string name="exception_select_action">ქმედების შერჩევა</string>
+    <string name="exception_action_always_record">ყოველთვის ჩავწერო</string>
+    <string name="exception_action_never_record">არასდროს ჩავწერო</string>
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- Settings -> Folders and Files -->
     <string name="folder">პაპკა</string>
+    
     <string name="automatic_cleanup">ავტომატური გაწმენდა</string>
     <string name="max_number_of_files">ფაილების მაქსიმალური რაოდენობა</string>
     <string name="max_number_of_files_message">შეიყვანეთ ციფრი 0 დან უსასრულოდ</string>
@@ -319,207 +229,160 @@
     <string name="max_age_of_recordings">ჩანაწერის მაქსიმალური ზომა</string>
     <string name="max_age_of_recordings_message">შეიყვანეთ დღეების რაოდენობა 0 დან უსასრულოდ</string>
     <string name="current_setting">მიმდინარე პარამეტრები %s ში</string>
-    <string name="sFileNameSettingsCategory">ფაილის სახელი</string>
+    
     <string name="filename_pattern">ნიმუში</string>
     <string name="time_pattern">დროის ნიმუში</string>
 
-    <!--Interface and Appearance-->
+    <!-- Description for filename pattern -->
+    <string name="pattern_contact_name">კონტაქტის სახელი</string>
+    <string name="pattern_phone_number">ტელეფონის ნომერი</string>
+    <string name="pattern_call_time">ზარის ხანგრძლივობა</string>
+    
+    <string name="pattern_call_type">ზარის ტიპი(შემავალი გამავალი)</string>
+    <string name="time_pattern_hours">საათი</string>
+    <string name="time_pattern_minutes">წუთი</string>
+    <string name="time_pattern_seconds">წამი</string>
+    <string name="time_pattern_days">დღე</string>
+    <string name="time_pattern_months">თვე</string>
+    <string name="time_pattern_years">წელი</string>
+    <string name="pattern_example">მაგალითად</string>
+
+    <!--Settings -> Interface and Appearance-->
     <string name="language">ენა</string>
     <string name="select_language">ავირჩიოთ ენა</string>
-    <string name="sActionBarSettingsCategory">მოქმედების არე</string>
-    <string name="sAudioOutputActionBar">ხმის გამოსავალი</string>
-    <string name="sAudioOutputActionBarSummary">მაჩვენე გამომავალი ხმის პარამეტრები</string>
-    <string name="incall_control_for_outgoing">გამავალი ზარებისათვის</string>
-    <string name="sInCallControlForOutgoingSummary">ზარების მართვა გამავალი ზარებისათვის</string>
-    <string name="incall_control_for_incoming">შემომავალი ზარებისათვის</string>
-    <string name="sInCallControlForIncomingSummary">ზარების მართვა შემომავალი ზარებისათვის</string>
     <string name="category_notification">შეტყობინება</string>
-    <string name="sNotificationIcon">შეტყობინების ემბლება</string>
     <string name="show_notification">მაჩვენე შეტყობინება</string>
-    <string name="sShowNotificationSummary">პროცესის პრიორიტეტი</string>
-    <string name="sInCallControl">ზარების მართვა</string>
-    <string name="sHangUpAndCallBack">გათიშვა და გადარეკვა</string>
-    <string name="sHangUpAndCallBackSummary">დიდხანს დაჭერით,გათიშვა და ავტომატურად გადარეკვა</string>
+    
+    
+    <string name="incall_control_for_outgoing">გამავალი ზარებისათვის</string>
+    
+    <string name="incall_control_for_incoming">შემომავალი ზარებისათვის</string>
+    
+    
+    
     <string name="show_button_while_ringing">ღილაკის ჩვენება დარეკვისას</string>
     <string name="show_button_while_ringing_summary">სანამ უპასუხებ დარეკვის ღილაკის ჩვენება</string>
-    <string name="sExcludeFavoritesFromAll">ფავორიტებიდან გამორიცხვა</string>
-    <string name="sExcludeFavoritesFromAllSummary">არ მაჩვენო ფავორიტები</string>
     <string name="vertical_position">ვეტიკალური პოზიცია</string>
+    
     <string name="horizontal_position">ჰორიზონტალური პოზიცია</string>
-    <string name="sVerticalOffset">ვერტიკალური მდებარეობა</string>
-    <string name="sVerticalOffsetSummary">დავაყენოთ მდებარეობა (მაღლა ,დაბლა)</string>
-    <string name="sHorizontalOffset">ჰორიზონტალური მდებარეობა</string>
-    <string name="sHorizontalOffsetSummary">დავაყენო მდებარეობა (მარცხნივ,მარჯვნივ)</string>
-    <string name="sLowSpaceWarning">შეტყობინება მცირე ადგილის დარჩენის შესახებ</string>
-    <string name="sLowSpaceWarningSummary">დავაყენოთ შეტყობინება მცირე ადგილის დარჩენის შესახებ მეგაბაიტებში</string>
-    <string name="sMainScreen">მთავარი ეკრანი</string>
-    <string name="sHideInCallControlButton">დამალე შეტყობინების ღილაკი</string>
-    <string name="sHideInCallControlButtonSummary">დამალე შეტყობინების ღილაკი ,თუ ზარი იწერება</string>
-    <string name="sDontShowInCallButton">არ მაჩვენო ღილაკი კავშირის დამყარებამდე</string>
+    
+    
     <string name="hide_button_before_answer_summary">არ მაჩვენო ზარების მართვის ღილაკი კავშირის დამყარებამდე</string>
-    <string name="sLanguageDefault">სტანდარტული</string>
 
-    <!--Vertical aligns array-->
-    <string name="sVerticalAlignTop">მაღლა</string>
-    <string name="sVerticalAlignBottom">ძირში</string>
-
-    <!--Horizontal aligns array-->
-    <string name="sHorizontalAlignLeft">მარცხნივ</string>
-    <string name="sHorizontalAlignRight">მარჯვნივ</string>
-
-    <!--Notification icons array-->
-    <string name="sNotificationIconDefault">სტანდარტული</string>
-    <string name="sNotificationIconGreenNew">მწვანე(ახალი)</string>
-    <string name="sNotificationIconGreenOld">მწვანე(ძველი)</string>
-    <string name="sNotificationIconGray">მწვანე</string>
-
-    <!--Dropbox-->
-    <string name="sDropboxLogin">შესვლა</string>
-    <string name="sDropboxLogout">გამოსვლა</string>
-
+    <!-- Settings -> Cloud -->
+    
+    <string name="cloud_provider_dropbox">Dropbox</string>
+    
+    
+    
+    
     <string name="cloud_wifi_only">Wi-Fi მხოლოდ</string>
     <string name="cloud_auto_upload">ავტომატური ატვირთვა</string>
-    <string name="sCloudUploadFavorites">ფავორითებში ატვირთვა</string>
-    <string name="sCloudUploadFavoritesSummary">ატვირთვა Dropbox ზე ფავორიტებში დამატებისას</string>
     <string name="cloud_auto_upload_summary">ატვირთვა ზარის დამთავრებისთანავე</string>
-    <string name="menu_add_to_dropbox">დამატება Dropbox ზე</string>
+    
+    
 
-    <!--Security-->
-    <string name="category_encryption">გაშიფრვა</string>
-    <string name="sKeyNotFound">გასაღები ვერ მოიძებნა</string>
-    <string name="sCreate">შექმნა</string>
-    <string name="create_new_key">ახალი გასაღების შექმნა</string>
+    <!-- Notification -->
+    
+    
+
+    <!-- Password dialog -->
+    
     <string name="enter_password">შეიყვანეთ პაროლი</string>
-    <string name="sReEnterPassword">ხელახლა შეიყვანეთ პაროლი</string>
+    
+
+    <!-- Settings -> Security -->
+    <string name="category_encryption">გაშიფრვა</string>
+    <string name="category_application">პროგრამა</string>
+    <string name="create_new_key">ახალი გასაღების შექმნა</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="app_admin">პროგრამის ადმინისტრატორი</string>
+    
+    
     <string name="aes_128bit">128 -bit (სწრაფი)</string>
     <string name="aes_192bit">192-bit AES (დაბალანსებული)</string>
     <string name="aes_256bit">256-bit AES (ძლიერი)</string>
-    <string name="category_application">პროგრამა</string>
-    <string name="app_admin">პროგრამის ადმინისტრატორი</string>
-    <string name="sAppAdminSummary">საჭიროა ,რომ არ მოხდეს CallRecorder ის დეინსტალაცია</string>
-    <string name="sAppAdminExplanation">CallRecorder არ იყენებს არანაირ უფლებას ტელეფონზე ,გარდა
-        დეინსტალაციისსაწინაარმდეგო ქმედებისა
-    </string>
 
-    <!--Audio player-->
-    <string name="sUseDefaultPlayer">გამოვიყენო სტანდარტული პლეერი</string>
+    <!-- Settings -> Audio player -->
+    
     <string name="audio_output">ხმის გამოშვება</string>
+    
+    <string name="main_speaker">ზარის დინამიკი</string>
+    <string name="phone_speaker">ყურის დინამიკი</string>
+    <string name="use_proximity_sensor">გამოვიყენო სიახლოვის სენსორი</string>
+    
+    <string name="switch_audio_output">ხმის გამომშვების გადართვა</string>
+    
     <string name="android_wav_decoder">ანდოიდი დეკოდერიWAV სათვის</string>
     <string name="android_wav_decoder_summary">გამოვიყენო შიგ ჩამონტაჟებული WAV პლეერი</string>
     <string name="android_amr_decoder">გამოვიყენო შიგ ჩამონტაჟებული ანდროიდ დეკოდერი AMR ისათვის</string>
     <string name="android_amr_decoder_summary">გამოვიყენო შიგ ჩამონტაჟებული AMR პლეერი</string>
-    <string name="switch_audio_output">ხმის გამომშვების გადართვა</string>
-    <string name="SwitchAudioOutputSummary">ავტომატურად ხმის გამომშვების გადართვა როცა ეკრანი აქტიურია ან
-        არააქტიურიასიახლოვის სენსორის მიერ
-    </string>
-    <string name="use_proximity_sensor">გამოვიყენო სიახლოვის სენსორი</string>
-    <string name="sUseProximitySensorSummary">ეკრანის დეაქტივაცია სიახლოვის სენსორის მიერ(საჭიროა რუთი)</string>
 
-    <!--Audio output array-->
-    <string name="main_speaker">ზარის დინამიკი</string>
-    <string name="phone_speaker">ყურის დინამიკი</string>
-
-    <!--Experimental-->
-    <string name="sConvertAfterCall">დარეკვის მერე კონვერტაცია</string>
-    <string name="sDontConvert">არ დააკონვენტირო</string>
-    <string name="sWavToMp3">WAV MP3 ად</string>
-    <string name="sWavToAmr">WAV AMR ად</string>
-
-    <!--Debug-->
-    <string name="sDetailedLogs">დეტალური ჩანაწერები</string>
+    <!--Settings -> Debug-->
     <string name="root_access">რუთის უფლება</string>
     <string name="root_access_no">არა</string>
     <string name="root_access_yes">დიახ</string>
-    <string name="sLogsSettingsCategory">ჩანაწერი</string>
-    <string name="sSendLogsToTheDeveloper">გავუგზავნო ჩანაწერი პროგრამის შემქმნელს</string>
-    <string name="sUseGzipToCompressLogs">გამოვიყენო gzip ი ჩანაწერის შესამცირებლად</string>
-    <string name="sRecordOnNotificationClick">ჩაწერა შეტყობინებაზე დაჭერისას</string>
-    <string name="sRecordOnNotificationClickSummary">არ დააწვეთ შეტყობინებას ,სანამ კავშირი დამყარდება</string>
-    <string name="sHideNotificationDuringCall">დამალე შეტყობინება ზარის დროს</string>
-    <string name="sHideNotificationDuringCallSummary">არ ჩართოთ ეს მხოლოდ პროგრამისთვისაა</string>
     <string name="dual_sim_phone">ორსიმიანი ტელეფონი</string>
     <string name="dual_sim_phone_summary">გააქტიურე, თუ ტელეფონი არ იწერს მეორე სიმიდან</string>
 
-    <!--About-->
-    <string name="version">ვერსია</string>
-    <string name="sAboutCallRecorder">CallRecorder ის შესახებ</string>
-    <string name="license_status">ლიცენზიის ვადა</string>
-    <string name="sLicenseStatusVerified">ლიცენზია დადასტურებულია</string>
-    <string name="license_trial">საცდელი ვერსიის ვადა იწურება % ში</string>
+    <!-- General -->
+    <string name="contact_unknown">ამოუცნობი</string>
+    
+    <string name="button_ok">OK</string>
+    
+    <string name="button_edit">შესწორება</string>
+    <string name="button_cancel">გაუქმება</string>
+    
+    
+    
+    
+    
+    
+    
+    <string name="please_wait">გთხოვთ დაიცადოთ</string>
+    <string name="start_recording">ჩაწერის დაწყება</string>
+    <string name="stop_recording">ჩაწერის დამთავრება</string>
+    
+    <string name="switch_on">ღია</string>
+    <string name="switch_off">დაკეტილი</string>
 
+    <!-- Call confirm dialog -->
+    <string name="call_confirm_record_this_call">ჩავწერო ეს ზარი</string>
+    
+
+    <!--Notification-->
+    
+    
+    
+    <string name="an_error_has_occurred">დაფიქსირდა შეცდომა. ზარი არ ჩაიწერა</string>
+
+    <!--About-->
+    
+    <string name="version">ვერსია</string>
     <string name="copyright">უფლება</string>
-    <string name="copyright_summary">&#169; %s ალექსანდრე სკვორცოვი</string>
+    <string name="copyright_summary">© %s ალექსანდრე სკვორცოვი</string>
     <string name="about_many_thanks">დიდი მადლობა</string>
     <string name="about_many_thanks_summary">ალექსი სუბოტინს</string>
-    <string name="sGermanTranslation">გერმანული თარგმანი</string>
-    <string name="sGermanTranslationSummary">მარკ ჰილეშეიმის მიერ</string>
-    <string name="sPolishTranslation">პოლონური თარგმანი</string>
-    <string name="sPolishTranslationSummary">რობერტ გონტას მიერ</string>
-    <string name="sFrenchTranslation">ფრანგული თარგმანი</string>
-    <string name="sFrenchTranslationSummary">ჯულიენ ბოიტექსის მიერ</string>
-    <string name="sBrazilianPortugueseTranslation">ბრაზილიურ -პორტუგალიური თარგმანი</string>
-    <string name="sBrazilianPortugueseTranslationSummary">ლუის მარჩელო სერიკის მიერ</string>
-    <string name="sSpanishTranslation">ესპანური თარგმანი</string>
-    <string name="sSpanishTranslationSummary_ver1">ინიგო გარსია და დიეგო ვილასის მიერ</string>
-    <string name="sSlovakTranslation">სლოვაკური თარგმანი</string>
-    <string name="sSlovakTranslationSummary">ლორან გელენჩერის მიერ</string>
-    <string name="sItalianTranslation">იტალიური თარგმანი</string>
-    <string name="sItalianTranslationSummary">ლუკა ტრევიზანის მიერ</string>
-    <string name="sPersianTranslation">პერსიული თარგმანი</string>
-    <string name="sPersianTranslationSummary_v2">ალირეზა აფკარის მიერ</string>
-    <string name="sChineseTranslation">ჩინური თარგმანი</string>
-    <string name="sChineseTranslationSummary">ქჰქ ს მიერ</string>
-    <string name="sCzechTranslation">ჩეხური თარგმანი</string>
-    <string name="sCzechTranslationSummary_ver2">ალეს კერნერი და ლუკას ვალდაუფის მიერ</string>
-    <string name="sArabicTranslation">არაბული თარგმანი</string>
-    <string name="sArabicTranslationSummary">აუსამა იბრაჰიმს</string>
-    <string name="sHebrewTranslation">ებრაული თარგმანი</string>
-    <string name="sHebrewTranslationSummary">ნუფლოდის მიერ</string>
-    <string name="sHungarianTranslation">უნგრული თარგმანი</string>
-    <string name="sHungarianTranslationSummary_ver2">სზალაი ლევენტე და მიკლოშ ტოლდის მიერ</string>
-    <string name="sDutchTranslation">დანიური თარგმანი</string>
-    <string name="sDutchTranslationSummary">ელროი ტირბენის მიერ</string>
-    <string name="sTurkishTranslation">თურქული თარგმანი</string>
-    <string name="sTurkishTranslationSummary">ომერ ილიკის მიერ</string>
-    <string name="sSerbianTranslation">სერბული თარგმანი</string>
-    <string name="sSerbianTranslationSummary">შაკალაადას მიერ</string>
-    <string name="sKoreanTranslation">კორეული თარგმანი</string>
-    <string name="sKoreanTranslationSummary_ver2">სოჰიუნსეოპის და ჯო ჰეე ჯოს მიერ</string>
-    <string name="sRomanianTranslation">რომანული თარგმანი</string>
-    <string name="sRomanianTranslationSummary">დან პ ს მიერ</string>
-    <string name="sUkrainianTranslation">უკრაინული თარგმანი</string>
-    <string name="sUkrainianTranslationSummary">გენადი სამოლუკის მიერ</string>
-    <string name="sTraditionalChineseTranslation">ჩინური თარგმანი</string>
-    <string name="sTraditionalChineseTranslationSummary_v2">კაიბორდის და ჩენ ჯუნგ ლიაოს მიერ</string>
-    <string name="sJapaneseTranslation">იაპონური თარგმანი</string>
-    <string name="sJapaneseTranslationSummary">აკირა ტაგოჰის მიერ</string>
-    <string name="sSwedishTranslation">შვედური თარგმანი</string>
-    <string name="sSwedishTranslationSummary">იოჰასეს სჯოლუნდის მიერ</string>
-    <string name="sBulgarianTranslation">ბულგარული თარგმანი</string>
-    <string name="sBulgarianTranslationSummary">პროქსიმოს მიერ</string>
-    <string name="sDanishTranslation">დანიური თარგმანი</string>
-    <string name="sDanishTranslationSummary">ლარს სარაუ ჰანსენის მიერ</string>
-    <string name="sLatvianTranslation">ლატვიური თარგმანი</string>
-    <string name="sLatvianTranslationSummary">არვიდას დრეიმანისის მიერ</string>
-    <string name="sThaiTranslation">ტაილანდური თარგმანი</string>
-    <string name="sThaiTranslationSummary">ვუტისაკ საიჩონჩარნის მიერ</string>
-    <string name="sArmenianTranslation">სომხური თარგმანი</string>
-    <string name="sArmenianTranslationSummary">კონსტანტინე გევორქიანის მიერ</string>
-    <string name="sGeorgianTranslation">ქართული თარგმანი</string>
-    <string name="sGeorgianTranslationSummary">სანდრო რაზმაძის მიერ</string>
-    <string name="sCatalanTranslation">კატალანური თარგმანი</string>
-    <string name="sCatalanTranslationSummary">სიბდანის მიერ</string>
 
-    <!--Licenses-->
     <string name="licenses">ლიცენზია</string>
-    <string name="sActionBarSherlockLicense">ActionBarSherlock</string>
-    <string name="sActionBarSherlockLicenseSummary">იყენებს ActionBarSherlockს Apache License Version 2.0
-        ისფარგლებში,დააჭირეთ რომ ეწვიოთ actionbarsherlock.com
-    </string>
     <string name="about_open_core_amr_license">opencore-amr</string>
-    <string name="about_open_core_amr_license_summary">იყენებს opencore-amr ს Apache License Version 2.0 ის ფარგლებში,დააჭირეთრომ
-        ეწვიოთ pencore-amr.sourceforge.net
-    </string>
+    <string name="about_open_core_amr_license_summary">იყენებს opencore-amr ს Apache License Version 2.0 ის ფარგლებში,დააჭირეთრომ ეწვიოთ pencore-amr.sourceforge.net</string>
     <string name="about_alsa">ALSA</string>
     <string name="about_alsa_summary">იყენებს ALSA ს LGPL ის ფარგლებში ,დააჭირეთ რომ ეწვიოთ alsa-project.org</string>
     <string name="about_lame">LAME</string>
