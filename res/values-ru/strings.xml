@@ -146,7 +146,7 @@
     <string name="exceptions">Исключения</string>
     <string name="exceptions_summary">Установить определенные действия для контактов, групп и телефонов</string>
     <string name="start_recording_on_answer">Начинать запись при ответе</string>
-    <string name="start_recording_on_answer_summary"/>
+    <string name="start_recording_on_answer_summary">"Начать запись после ответа ответа на исходящий вызов. Программа использует недокументированый способ обнаружения момента, когда другая стороная снимает трубку, поэтому эта функция может не работать на некоторых устройствах. Начиная с Android 4.1 Jelly Bean требуется root. Logger в вашем ядре должен быть включен. "</string>
     <string name="delay_before_start_recording">Задержка перед началом записи</string>
     <string name="delay_before_start_recording_summary">Для исходящих: %1$s, для исходящих: %2$s</string>
     <string name="delay_format_sec">%s сек</string>
@@ -395,4 +395,31 @@
 
     <string name="recording_method_msm_settings">Настройки для записи через MSM</string>
     <string name="section_tasks_hint">"Здесь отображаются длительные операции (конвертирование, шифрование, загрузка на облако и т.п.) "</string>
+    <string name="settings_diff_method_title">[%1$s] %2$s</string>
+    <string name="button_create">Создать</string>
+    <string name="button_call">Позвонить</string>
+    <string name="button_choose">Выбрать</string>
+    <string name="switch_audio_output_summary">"Автоматически переключать источник вывода звука,  когда экран выключен или включен датчиком приближения "</string>
+    <string name="use_proximity_sensor_summary">Отключать дисплей во время проигрывания записи датчиком приближения</string>
+    <string name="audio_output_summary">%s (Долгое нажатие на кнопку проигрывания/паузы также переключит эту настройку)</string>
+    <string name="no_recording_in_progress">Нет записи</string>
+    <string name="volume_control_rx">Rx</string>
+    <string name="volume_control_tx">Tx</string>
+    <string name="settings_filename">Имя файла</string>
+    <string name="pattern_call_timestamp">время звонка в unix time</string>
+    <string name="show_notification_summary">Постоянное уведомление в строке состояния</string>
+    <string name="category_incall_control_button">Кнопка управления записью</string>
+    <string name="incall_control_for_outgoing_summary">Отображать кнопку управления записью для исходящих звонков</string>
+    <string name="incall_control_for_incoming_summary">Отображать кнопку управления записью для входящих звонков</string>
+    <string name="hide_button_while_recording">Скрыть кнопку во время записи</string>
+    <string name="hide_button_while_recording_summary">Скрыть кнопку управления записью, если разговор записывается</string>
+    <string name="vertical_position_summary">%s dp, отступ от центра экрана</string>
+    <string name="horizontal_position_summary">%s dp, отступ от центра экрана</string>
+    <string name="hide_button_before_answer">Скрыть кнопку до ответа</string>
+    <string name="delete_key_message">"После удаления вы не сможете восстановить зашифрованные этим ключем записи. Вы уверены, что хотите продолжить? "</string>
+    <string name="require_password_summary_no_key">"Требовать пароль при открытии программы. Чтобы это включить, необходимо создать ключ. "</string>
+    <string name="app_admin_summary">Требуется для предотвращения удаления Call Recorder\'a</string>
+    <string name="app_admin_explanation">"Call Recorder не использует каких либо возможностей администраторов устройств, кроме предотвращения удаления "</string>
+    <string name="use_built_in_player">Встроенный плеер</string>
+    <string name="cloud_provider">Провайдер облака</string>
     </resources>
