@@ -378,6 +378,7 @@
     <string name="about_many_thanks">Many thanks</string>
     <string name="about_many_thanks_summary">to Alexey Subbotin (avs234)</string>
 
+    <!--About -> Licenses-->
     <string name="licenses">Licenses</string>
     <string name="about_open_core_amr_license">opencore-amr</string>
     <string name="about_open_core_amr_license_summary">Uses opencore-amr under Apache License Version 2.0, click here to visit opencore-amr.sourceforge.net</string>
@@ -386,6 +387,7 @@
     <string name="about_lame">LAME</string>
     <string name="about_lame_summary">Uses LAME under LGPL, click here to visit mp3dev.org</string>
 
+    <!--Credits-->
     <string name="german_translation">German translation</string>
     <string name="german_translation_summary">by Marc Hillesheim and Thomas Käfer</string>
     <string name="polish_translation">Polish translation</string>
