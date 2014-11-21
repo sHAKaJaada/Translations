@@ -303,7 +303,7 @@
     <string name="re_enter_new_password">Повторно введите новый пароль</string>
     <string name="require_password">Спрашивать пароль</string>
     <string name="require_password_summary">Спрашивать пароль при входе в программу</string>
-    <string name="require_password_summary_no_key">Требовать пароль при открытии программы. Чтобы это включить, необходимо создать ключ.</string>
+    <string name="require_password_summary_no_key">Требовать пароль при открытии программы. Чтобы это включить, необходимо создать ключ</string>
     <string name="lock_after">Заблокировать после</string>
     <string name="lock_after_exit">Выхода</string>
     <string name="lock_after_1_minute">1 мин</string>
