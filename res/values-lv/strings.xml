@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
     <string name="app_name">CallRecorder</string>
     
     
@@ -153,14 +154,11 @@
     
     
     
-    
-    
     <string name="recording_format_wav">WAV</string>
     <string name="recording_format_amr">AMR</string>
     <string name="recording_format_aac">AAC</string>
     <string name="recording_format_mp3">MP3</string>
     <string name="volume_control">Skaļuma kontrole</string>
-    
     
     
     
@@ -387,4 +385,71 @@
     <string name="about_alsa_summary">Izmanto ALSA zem LGPL, spiest šeit, lai apmeklētu alsa-project.org</string>
     <string name="about_lame">LAME</string>
     <string name="about_lame_summary">Izmanto LAME zem LGPL, spiest šeit, lai apmeklētu mp3dev.org</string>
+
+    <string name="german_translation">Vācu valodas tulkojums</string>
+    
+    <string name="polish_translation">Poļu valodas tulkojums</string>
+    <string name="polish_translation_summary">Robert Gonta</string>
+    <string name="french_translation">Franču valodas tulkojums</string>
+    <string name="french_translation_summary">Julien Boiteux</string>
+    <string name="brazilian_portuguese_translation">Brazīlijas un Portugāļu valodas tulkojums</string>
+    <string name="brazilian_portuguese_translation_summary">Luiz Marcelo Serique</string>
+    <string name="spanish_translation">Spāņu valodas tulkojums</string>
+    <string name="spanish_translation_summary">Iñigo Garcia un Diego Vilas</string>
+    <string name="slovak_translation">Slovāku valodas tulkojums</string>
+    <string name="slovak_translation_summary">Lóránt Gerencsér</string>
+    <string name="italian_translation">Itāļu valodas tulkojums</string>
+    
+    <string name="persian_translation">Persiešu valodas tulkojums</string>
+    <string name="persian_translation_summary">Alireza Afkar</string>
+    <string name="chinese_translation">Ķīniešu valodas tulkojums</string>
+    
+    <string name="czech_translation">Čehijas valodas tulkojums</string>
+    <string name="czech_translation_summary">Ales Kerner un Lukas Waldauf</string>
+    <string name="arabic_translation">Arābu valodas tulkojums</string>
+    <string name="arabic_translation_summary">Ausama S. Ibrahim</string>
+    <string name="hebrew_translation">Ebreju valodas tulkojums</string>
+    <string name="hebrew_translation_summary">NuFlood</string>
+    <string name="hungarian_translation">Ungāru valodas tulkojums</string>
+    <string name="hungarian_translation_summary">Szalay Levente un Miklós Toldi</string>
+    <string name="dutch_translation">Holandiešu valodas tulkojums</string>
+    <string name="dutch_translation_summary">Elroy Tirbeni</string>
+    <string name="turkish_translation">Turku valodas tulkojums</string>
+    <string name="turkish_translation_summary">Omer Ilik</string>
+    <string name="serbian_translation">Serbu valodas tulkojums</string>
+    <string name="serbian_translation_summary">sHAKaJaada</string>
+    <string name="korean_translation">Korejiešu valodas tulkojums</string>
+    <string name="korean_translation_summary">SoHyunSeop un Joon Hee Jo</string>
+    <string name="romanian_translation">Rumāņu valodas tulkojums</string>
+    <string name="romanian_translation_summary">Dan P. (sad)</string>
+    <string name="ukrainian_translation">Ukraiņu valodas tulkojums</string>
+    <string name="ukrainian_translation_summary">Gennadi Samoluk</string>
+    <string name="traditional_chinese_translation">Tradicionālās Ķīniešu valodas tulkojums</string>
+    <string name="traditional_chinese_translation_summary">GPF_kaibird un Chien Jung Liaw</string>
+    <string name="japanese_translation">Japāņu valodas tulkojums</string>
+    <string name="japanese_translation_summary">Akira Tagoh</string>
+    <string name="swedish_translation">Zviedru valodas tulkojums</string>
+    <string name="swedish_translation_summary">Johannes Sjølund</string>
+    <string name="bulgarian_translation">Bulgāru valodas tulkojums</string>
+    <string name="bulgarian_translation_summary">PROXIMO</string>
+    <string name="danish_translation">Dāņu valodas tulkojums</string>
+    <string name="danish_translation_summary">Lars Sarauw Hansen</string>
+    <string name="latvian_translation">Latviešu valodas tulkojums</string>
+    <string name="latvian_translation_summary">Arvīds Dreimanis</string>
+    <string name="thai_translation">Taizemiešu valodas tulkojums</string>
+    <string name="thai_translation_summary">Wuttisak Saichoncharn</string>
+    <string name="georgian_translation">Gruzīnu valodas tulkojums</string>
+    <string name="georgian_translation_summary">Alexandre Razmadze</string>
+    <string name="catalan_translation">Katalāņu valodas tulkojums</string>
+    <string name="catalan_translation_summary">cybdani</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 </resources>

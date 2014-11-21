@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
     <string name="app_name">CallRecorder</string>
     
     
@@ -153,14 +154,11 @@
     
     
     
-    
-    
     <string name="recording_format_wav">WAV</string>
     <string name="recording_format_amr">AMR</string>
     <string name="recording_format_aac">AAC</string>
     <string name="recording_format_mp3">MP3</string>
     <string name="volume_control">Điều khiển âm lượng</string>
-    
     
     
     <string name="volume_control_tx">Tx</string>
@@ -387,4 +385,71 @@
     <string name="about_alsa_summary">Sử dụng ALSA dưới giấy phép LGPL, chọn vào đây để thăm alsa-project.org</string>
     <string name="about_lame">LAME</string>
     <string name="about_lame_summary">Sử dụng LAME dưới giấy phép LGPL, chọn vào đây để thăm mp3dev.org</string>
+
+    <string name="german_translation">Bản dịch tiếng Đức</string>
+    <string name="german_translation_summary">bởi Marc Hillesheim và Thomas Käfer</string>
+    <string name="polish_translation">Bản dịch tiếng Ba Lan</string>
+    <string name="polish_translation_summary">bởi Robert Gonta</string>
+    <string name="french_translation">Bản dịch tiếng Pháp</string>
+    <string name="french_translation_summary">bởi Julien Boiteux</string>
+    <string name="brazilian_portuguese_translation">Bản dịch tiếng Bồ Đào Nha, Bra-zin</string>
+    <string name="brazilian_portuguese_translation_summary">bởi Luiz Marcelo Serique</string>
+    <string name="spanish_translation">Bản dịch tiếng Tây Ban Nha</string>
+    <string name="spanish_translation_summary">bởi Iñigo Garcia và Diego Vilas</string>
+    <string name="slovak_translation">Bản dịch tiếng Tiệp - Slovak</string>
+    <string name="slovak_translation_summary">bởi Loránt Gerencsér</string>
+    <string name="italian_translation">Bản dịch tiếng Ý</string>
+    
+    <string name="persian_translation">Bản dịch tiếng Ba Tư</string>
+    <string name="persian_translation_summary">bởi Alireza Afkar</string>
+    <string name="chinese_translation">Bản dịch tiếng Trung</string>
+    
+    <string name="czech_translation">Bản dịch tiếng Tiệp - Czech</string>
+    <string name="czech_translation_summary">bởi Ales Kerner và Lukas Waldauf</string>
+    <string name="arabic_translation">Bản dịch tiếng Ả Rập</string>
+    <string name="arabic_translation_summary">bởi Ausama S. Ibrahim</string>
+    <string name="hebrew_translation">Bản dịch tiếng Do Thái</string>
+    <string name="hebrew_translation_summary">bởi NuFlood</string>
+    <string name="hungarian_translation">Bản dịch tiếng Hung-ga-ri</string>
+    <string name="hungarian_translation_summary">bởi Szalay Levente và Miklós Toldi</string>
+    <string name="dutch_translation">Bản dịch tiếng Hà Lan</string>
+    <string name="dutch_translation_summary">bởi Elroy Tirbeni</string>
+    <string name="turkish_translation">Bản dịch tiếng Thổ Nhĩ Kỳ</string>
+    <string name="turkish_translation_summary">bởi Omer Ilik</string>
+    <string name="serbian_translation">Bản dịch tiếng Xéc-bi</string>
+    <string name="serbian_translation_summary">bởi sHAKaJaada</string>
+    <string name="korean_translation">Bản dịch tiếng Hàn</string>
+    <string name="korean_translation_summary">bởi SoHyunSeop và Joon Hee Jo</string>
+    <string name="romanian_translation">Bản dịch tiếng Ru-ma-ni</string>
+    <string name="romanian_translation_summary">bởi Dan P. (sad)</string>
+    <string name="ukrainian_translation">Bản dịch tiếng U-crai-na</string>
+    <string name="ukrainian_translation_summary">bởi Gennadi Samoluk</string>
+    <string name="traditional_chinese_translation">Bản dịch tiếng Trung - truyền thống</string>
+    <string name="traditional_chinese_translation_summary">bởi GPF_kaibird và Chien Jung Liaw</string>
+    <string name="japanese_translation">Bản dịch tiếng Nhật</string>
+    <string name="japanese_translation_summary">bởi Akira Tagoh</string>
+    <string name="swedish_translation">Bản dịch tiếng Thụy Điển</string>
+    <string name="swedish_translation_summary">bởi Johannes Sjölund</string>
+    <string name="bulgarian_translation">Bản dịch tiếng Bun-ga-ri</string>
+    <string name="bulgarian_translation_summary">bởi PROXIMO</string>
+    <string name="danish_translation">Bản dịch tiếng Đan Mạch</string>
+    <string name="danish_translation_summary">bởi Lars Sarauw Hansen</string>
+    <string name="latvian_translation">Bản dịch tiếng Lat-via</string>
+    <string name="latvian_translation_summary">bởi Arvīds Dreimanis</string>
+    <string name="thai_translation">Bản dịch tiếng Thái</string>
+    <string name="thai_translation_summary">bởi Wuttisak Saichoncharn</string>
+    <string name="georgian_translation">Bản dịch tiếng Gru-zia</string>
+    <string name="georgian_translation_summary">bởi Alexandre Razmadze</string>
+    <string name="catalan_translation">Bản dịch tiếng Catalan</string>
+    <string name="catalan_translation_summary">bởi cybdani</string>
+    <string name="hindi_translation">Bản dịch tiếng Ấn Độ</string>
+    <string name="hindi_translation_summary">bởi TheTAMAS Gautam</string>
+    <string name="punjabi_translation">Bản dịch tiếng Punjab</string>
+    <string name="punjabi_translation_summary">bởi Raj Verma</string>
+    <string name="finnish_translation">Bản dịch tiếng Phần Lan</string>
+    <string name="finnish_translation_summary">bởi Eero Linnainmaa</string>
+    <string name="belarusian_translation">Bản dịch tiếng Belarus</string>
+    <string name="belarusian_translation_summary">bởi Alexander Kuvshinov</string>
+    <string name="vietnamese_translation">Bản dịch tiếng Việt</string>
+    <string name="vietnamese_translation_summary">bởi Trương Hoàng Trung</string>
 </resources>

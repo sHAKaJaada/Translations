@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
     
     
     
@@ -157,10 +158,7 @@
     
     
     
-    
-    
     <string name="volume_control">Controle de volume</string>
-    
     
     
     
@@ -387,4 +385,71 @@
     <string name="about_alsa_summary">Utiliza ALSA sobre LGPL, clique aqui para visitar mp3dev.org</string>
     
     <string name="about_lame_summary">Utiliza LAME sobre LGPL, clique aqui para visitar mp3dev.org</string>
+
+    <string name="german_translation">Tradução Alemã</string>
+    
+    <string name="polish_translation">Tradução Polonesa</string>
+    <string name="polish_translation_summary">por Robert Gonta</string>
+    <string name="french_translation">Tradução Francesa</string>
+    <string name="french_translation_summary">por Julien Boiteux</string>
+    <string name="brazilian_portuguese_translation">Tradução Português do Brasil</string>
+    <string name="brazilian_portuguese_translation_summary">por Luiz Marcelo Serique</string>
+    <string name="spanish_translation">Tradução Espanhola</string>
+    <string name="spanish_translation_summary">por Iñigo Garcia and Diego Vilas</string>
+    <string name="slovak_translation">Tradução Eslovaca</string>
+    <string name="slovak_translation_summary">por Loránt Gerencsér</string>
+    <string name="italian_translation">Tradução Italiana</string>
+    
+    <string name="persian_translation">Tradução Persa</string>
+    <string name="persian_translation_summary">por Alireza Afkar</string>
+    <string name="chinese_translation">Tradução Chinesa</string>
+    
+    <string name="czech_translation">Tedução Tcheca</string>
+    <string name="czech_translation_summary">por Ales Kerner and Lukas Waldauf</string>
+    <string name="arabic_translation">Tradução Árabe</string>
+    <string name="arabic_translation_summary">por Ausama S. Ibrahim</string>
+    <string name="hebrew_translation">Tradução Hebraica</string>
+    <string name="hebrew_translation_summary">por NuFlood</string>
+    <string name="hungarian_translation">Tradução Húngara</string>
+    <string name="hungarian_translation_summary">por Szalay Levente and Miklós Toldi</string>
+    <string name="dutch_translation">Tradução Holandesa</string>
+    <string name="dutch_translation_summary">por Elroy Tirbeni</string>
+    <string name="turkish_translation">Tradução Turca</string>
+    <string name="turkish_translation_summary">por Omer Ilik</string>
+    <string name="serbian_translation">Tradução Sérvia</string>
+    <string name="serbian_translation_summary">por sHAKaJaada</string>
+    <string name="korean_translation">Tradução Coreana</string>
+    <string name="korean_translation_summary">por SoHyunSeop and Joon Hee Jo</string>
+    <string name="romanian_translation">Tradução Romena</string>
+    <string name="romanian_translation_summary">por Dan P. (sad)</string>
+    <string name="ukrainian_translation">Tradução Ucraniana</string>
+    <string name="ukrainian_translation_summary">por Gennadi Samoluk</string>
+    <string name="traditional_chinese_translation">Tradução Chinês Tradicional</string>
+    <string name="traditional_chinese_translation_summary">por GPF_kaibird and Chien Jung Liaw</string>
+    <string name="japanese_translation">Tradução Japonesa</string>
+    <string name="japanese_translation_summary">por Akira Tagoh</string>
+    <string name="swedish_translation">Tradução Sueca</string>
+    <string name="swedish_translation_summary">por Johannes Sjölund</string>
+    <string name="bulgarian_translation">Tradução Búlgara</string>
+    <string name="bulgarian_translation_summary">por PROXIMO</string>
+    <string name="danish_translation">Tradução Dinamarquesa</string>
+    <string name="danish_translation_summary">por Lars Sarauw Hansen</string>
+    <string name="latvian_translation">Tradução Letã</string>
+    <string name="latvian_translation_summary">por Arvīds Dreimanis</string>
+    <string name="thai_translation">Tradução Tailândesa</string>
+    <string name="thai_translation_summary">por Wuttisak Saichoncharn</string>
+    <string name="georgian_translation">Tradução Georgiana</string>
+    <string name="georgian_translation_summary">por Alexandre Razmadze</string>
+    <string name="catalan_translation">Tradução Catalã</string>
+    <string name="catalan_translation_summary">por cybdani</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 </resources>

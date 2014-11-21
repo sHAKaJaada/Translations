@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
     <string name="app_name">CallRecorder</string>
     
     
@@ -153,14 +154,11 @@
     
     
     
-    
-    
     <string name="recording_format_wav">WAV</string>
     <string name="recording_format_amr">AMR</string>
     <string name="recording_format_aac">AAC</string>
     <string name="recording_format_mp3">MP3</string>
     <string name="volume_control">Кіраванне гучнасцю</string>
-    
     
     
     <string name="volume_control_tx">Tx</string>
@@ -387,4 +385,71 @@
     <string name="about_alsa_summary">Выкарыстоўвае ALSA у рамках LGPL, націсніце сюды, каб наведаць alsa-project.org</string>
     <string name="about_lame">LAME</string>
     <string name="about_lame_summary">Выкарыстоўвае LAME у рамках LGPL, націсніце сюды, каб наведаць mp3dev.org</string>
+
+    <string name="german_translation">Пераклад на нямецкі</string>
+    <string name="german_translation_summary">ад Marc Hillesheim і Thomas Kafer</string>
+    <string name="polish_translation">Пераклад на польскі</string>
+    <string name="polish_translation_summary">ад Robert Gonta</string>
+    <string name="french_translation">Пераклад на французскі</string>
+    <string name="french_translation_summary">ад Julien Boiteux</string>
+    <string name="brazilian_portuguese_translation">Пераклад на бразільскі партугальскі</string>
+    <string name="brazilian_portuguese_translation_summary">ад Luiz Marcelo Serique</string>
+    <string name="spanish_translation">Пераклад на іспанскі</string>
+    <string name="spanish_translation_summary">ад Inigo Garcia і Diego Vilas</string>
+    <string name="slovak_translation">Пераклад на славацкі</string>
+    <string name="slovak_translation_summary">ад Lorant Gerencser</string>
+    <string name="italian_translation">Пераклад на італьянскі</string>
+    <string name="italian_translation_summary">ад Luca Trevisan i Francesco Cafagna</string>
+    <string name="persian_translation">Пераклад на персідскі</string>
+    <string name="persian_translation_summary">ад Alireza Afkar</string>
+    <string name="chinese_translation">Пераклад на кітайскі</string>
+    <string name="chinese_translation_summary">ад qhq i Yu Fei</string>
+    <string name="czech_translation">Пераклад на чэшскі</string>
+    <string name="czech_translation_summary">ад Ales Kerner і Lukas Waldauf</string>
+    <string name="arabic_translation">Пераклад на арабскі</string>
+    <string name="arabic_translation_summary">ад Ausama S. Ibrahim</string>
+    <string name="hebrew_translation">Пераклад на іўрыт</string>
+    <string name="hebrew_translation_summary">ад NuFlood</string>
+    <string name="hungarian_translation">Пераклад на вугорскі</string>
+    <string name="hungarian_translation_summary">ад Szalay Levente і Miklos Toldi</string>
+    <string name="dutch_translation">Пераклад на галандскі</string>
+    <string name="dutch_translation_summary">ад Elroy Tirbeni</string>
+    <string name="turkish_translation">Пераклад на турэцкі</string>
+    <string name="turkish_translation_summary">ад Omer Ilik</string>
+    <string name="serbian_translation">Пераклад на сербскі</string>
+    <string name="serbian_translation_summary">ад sHAKaJaada</string>
+    <string name="korean_translation">Пераклад на карэйскі</string>
+    <string name="korean_translation_summary">ад SoHyunSeop і Joon Hee Jo</string>
+    <string name="romanian_translation">Пераклад на румынскі</string>
+    <string name="romanian_translation_summary">ад Dan P. (sad)</string>
+    <string name="ukrainian_translation">Пераклад на ўкраінскі</string>
+    <string name="ukrainian_translation_summary">ад Gennadi Samoluk</string>
+    <string name="traditional_chinese_translation">Пераклад на традыцыйны кітайскі</string>
+    <string name="traditional_chinese_translation_summary">ад GPF_kaibird і Chien Jung Liaw</string>
+    <string name="japanese_translation">Пераклад на японскі</string>
+    <string name="japanese_translation_summary">ад Akira Tagoh</string>
+    <string name="swedish_translation">Пераклад на швецкі</string>
+    <string name="swedish_translation_summary">ад Johannes Sjolund</string>
+    <string name="bulgarian_translation">Пераклад на балгарскі</string>
+    <string name="bulgarian_translation_summary">ад PROXIMO</string>
+    <string name="danish_translation">Пераклад на дацкі</string>
+    <string name="danish_translation_summary">ад Lars Sarauw Hansen</string>
+    <string name="latvian_translation">Пераклад на латышскі</string>
+    <string name="latvian_translation_summary">ад Arvids Dreimanis</string>
+    <string name="thai_translation">Пераклад на тайскі</string>
+    <string name="thai_translation_summary">ад Wuttisak Saichoncharn</string>
+    <string name="georgian_translation">Пераклад на грузінскі</string>
+    <string name="georgian_translation_summary">ад Alexandre Razmadze</string>
+    <string name="catalan_translation">Пераклад на каталонскі</string>
+    <string name="catalan_translation_summary">ад cybdani</string>
+    <string name="hindi_translation">Пераклад на хіндзі</string>
+    <string name="hindi_translation_summary">ад TheTAMAS Gautam</string>
+    <string name="punjabi_translation">Пераклад на пенджабі</string>
+    <string name="punjabi_translation_summary">ад Raj Verma</string>
+    <string name="finnish_translation">Пераклад на фінскі</string>
+    <string name="finnish_translation_summary">ад Eero Linnainmaa</string>
+    <string name="belarusian_translation">Пераклад на беларускі</string>
+    <string name="belarusian_translation_summary">ад Куўшынава Аляксандра</string>
+    <string name="vietnamese_translation">Пераклад на в\'етнамскі</string>
+    <string name="vietnamese_translation_summary">ад Truong Hoang Trung</string>
 </resources>

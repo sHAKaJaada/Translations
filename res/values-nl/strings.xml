@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
     <string name="app_name">CallRecorder</string>
     
     
@@ -153,14 +154,11 @@
     
     
     
-    
-    
     <string name="recording_format_wav">WAV</string>
     <string name="recording_format_amr">AMR</string>
     <string name="recording_format_aac">AAC</string>
     <string name="recording_format_mp3">MP3</string>
     <string name="volume_control">Volume instellingen</string>
-    
     
     
     
@@ -387,4 +385,71 @@
     <string name="about_alsa_summary">Gebruikt ALSA onder LGPL, klik hier om hun site te bezoeken alsa-project.org</string>
     <string name="about_lame">LAME</string>
     <string name="about_lame_summary">Gebruikt LAME onder LGPL, klik hier om naar mp3dev.org te gaan</string>
+
+    <string name="german_translation">Duitse vertaling</string>
+    
+    <string name="polish_translation">Poolse vertaling</string>
+    <string name="polish_translation_summary">door Robert Gonta</string>
+    <string name="french_translation">Franse vertaling</string>
+    <string name="french_translation_summary">door Julien Boiteux</string>
+    <string name="brazilian_portuguese_translation">Braziliaans Portugese vertaling</string>
+    <string name="brazilian_portuguese_translation_summary">door Luiz Marcelo Serique</string>
+    <string name="spanish_translation">Spaanse vertaling</string>
+    <string name="spanish_translation_summary">door Iñigo Garcia and Diego Vilas</string>
+    <string name="slovak_translation">Slovaakse vertaling</string>
+    <string name="slovak_translation_summary">door Loránt Gerencsér</string>
+    <string name="italian_translation">Italiaanse vertaling</string>
+    
+    <string name="persian_translation">Persische vertaling</string>
+    <string name="persian_translation_summary">door Alireza Afkar</string>
+    <string name="chinese_translation">Chinese vertaling</string>
+    
+    <string name="czech_translation">Czech vertaling</string>
+    <string name="czech_translation_summary">door Ales Kerner en Lukas Waldauf</string>
+    <string name="arabic_translation">Arabische vertaling</string>
+    <string name="arabic_translation_summary">door Ausama S. Ibrahim</string>
+    <string name="hebrew_translation">Hebreeuwse vertaling</string>
+    <string name="hebrew_translation_summary">door NuFlood</string>
+    <string name="hungarian_translation">Hongaarese vertaling</string>
+    <string name="hungarian_translation_summary">door Szalay Levente en Miklós Toldi</string>
+    <string name="dutch_translation">Nederlandse vertaling</string>
+    <string name="dutch_translation_summary">door Elroy Tirbeni</string>
+    <string name="turkish_translation">Turkse vertaling</string>
+    <string name="turkish_translation_summary">door Omer Ilik</string>
+    <string name="serbian_translation">Servische vertaling</string>
+    <string name="serbian_translation_summary">door sHAKaJaada</string>
+    <string name="korean_translation">Koreaanse vertaling</string>
+    <string name="korean_translation_summary">door SoHyunSeop en Joon Hee Jo</string>
+    <string name="romanian_translation">Romeense vertaling</string>
+    <string name="romanian_translation_summary">door Dan P. (sad)</string>
+    <string name="ukrainian_translation">Ukraiens vertaling</string>
+    <string name="ukrainian_translation_summary">door Gennadi Samoluk</string>
+    <string name="traditional_chinese_translation">Traditioneel Chinees vertaling</string>
+    <string name="traditional_chinese_translation_summary">door GPF_kaibird and Chien Jung Liaw</string>
+    <string name="japanese_translation">Japanse vertaling</string>
+    <string name="japanese_translation_summary">door Akira Tagoh</string>
+    <string name="swedish_translation">Zweedse vertaling</string>
+    <string name="swedish_translation_summary">door Johannes Sjölund</string>
+    <string name="bulgarian_translation">Bulgaarse vertaling</string>
+    <string name="bulgarian_translation_summary">door PROXIMO</string>
+    <string name="danish_translation">Deense vertaling</string>
+    <string name="danish_translation_summary">door Lars Sarauw Hansen</string>
+    <string name="latvian_translation">Latijnse vertaling</string>
+    <string name="latvian_translation_summary">door Arvīds Dreimanis</string>
+    <string name="thai_translation">Thaise vertaling</string>
+    <string name="thai_translation_summary">door Wuttisak Saichoncharn</string>
+    <string name="georgian_translation">Georgische vertaling</string>
+    <string name="georgian_translation_summary">door Alexandre Razmadze</string>
+    <string name="catalan_translation">Catalaanse vertaling</string>
+    <string name="catalan_translation_summary">door cybdani</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 </resources>

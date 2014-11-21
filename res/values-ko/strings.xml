@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
     <string name="app_name">CallRecorder</string>
     
     
@@ -153,14 +154,11 @@
     
     
     
-    
-    
     <string name="recording_format_wav">WAV</string>
     <string name="recording_format_amr">AMR</string>
     <string name="recording_format_aac">AAC</string>
     <string name="recording_format_mp3">MP3</string>
     <string name="volume_control">볼륨 조정</string>
-    
     
     
     
@@ -387,4 +385,71 @@
     <string name="about_alsa_summary">LGPL 하에 ALSA 를 사용합니다. 여기를 터치하여 alsa-project.org 를 방문합니다.</string>
     <string name="about_lame">LAME</string>
     <string name="about_lame_summary">LAME 하에 LGPL 을 사용합니다, 여기를 터치하여 mp3dev.org 를 방문하세요.</string>
+
+    <string name="german_translation">독일어 번역</string>
+    <string name="german_translation_summary">Marc Hillesheim and Thomas Käfer</string>
+    <string name="polish_translation">폴란드어 번역</string>
+    <string name="polish_translation_summary">Robert Gonta</string>
+    <string name="french_translation">프랑스어 번역</string>
+    <string name="french_translation_summary">Julien Boiteux</string>
+    <string name="brazilian_portuguese_translation">브라질 포루투갈어 번역</string>
+    <string name="brazilian_portuguese_translation_summary">Luiz Marcelo Serique</string>
+    <string name="spanish_translation">스페인어 번역</string>
+    <string name="spanish_translation_summary">Iñigo Garcia and Diego Vilas</string>
+    <string name="slovak_translation">슬로바키아어 번역</string>
+    <string name="slovak_translation_summary">Loránt Gerencsér</string>
+    <string name="italian_translation">이탈리아어 번역</string>
+    
+    <string name="persian_translation">페르시아어 번역</string>
+    <string name="persian_translation_summary">Alireza Afkar</string>
+    <string name="chinese_translation">중국어 번역</string>
+    
+    <string name="czech_translation">체코어 번역</string>
+    <string name="czech_translation_summary">Ales Kerner and Lukas Waldauf</string>
+    <string name="arabic_translation">아랍어 번역</string>
+    <string name="arabic_translation_summary">Ausama S. Ibrahim</string>
+    <string name="hebrew_translation">히브리어 번역</string>
+    <string name="hebrew_translation_summary">NuFlood</string>
+    <string name="hungarian_translation">헝가리어 번역</string>
+    <string name="hungarian_translation_summary">Szalay Levente and Miklós Toldi</string>
+    <string name="dutch_translation">네덜란드어 번역</string>
+    <string name="dutch_translation_summary">Elroy Tirbeni</string>
+    <string name="turkish_translation">터키어 번역</string>
+    <string name="turkish_translation_summary">Omer Ilik</string>
+    <string name="serbian_translation">세르비아어 번역</string>
+    <string name="serbian_translation_summary">sHAKaJaada</string>
+    <string name="korean_translation">한국어 번역</string>
+    <string name="korean_translation_summary">SoHyunSeop and Joon Hee Jo (Gomdolius)</string>
+    <string name="romanian_translation">루마니아어 번역</string>
+    <string name="romanian_translation_summary">Dan P. (sad)</string>
+    <string name="ukrainian_translation">우크라이나어 번역</string>
+    <string name="ukrainian_translation_summary">Gennadi Samoluk</string>
+    <string name="traditional_chinese_translation">중국어 번체 번역</string>
+    <string name="traditional_chinese_translation_summary">GPF_kaibird Chien Jung Liaw</string>
+    <string name="japanese_translation">일본어 번역</string>
+    <string name="japanese_translation_summary">Akira Tagoh</string>
+    <string name="swedish_translation">스웨덴어 번역</string>
+    <string name="swedish_translation_summary">Johannes Sjölund</string>
+    <string name="bulgarian_translation">불가리아어 번역</string>
+    <string name="bulgarian_translation_summary">PROXIMO</string>
+    <string name="danish_translation">덴마크어 번역</string>
+    <string name="danish_translation_summary">Lars Sarauw Hansen</string>
+    <string name="latvian_translation">라트비아어 번역</string>
+    <string name="latvian_translation_summary">Arvīds Dreimanis</string>
+    <string name="thai_translation">태국어 번역</string>
+    <string name="thai_translation_summary">Wuttisak Saichoncharn</string>
+    <string name="georgian_translation">그루지야어 번역</string>
+    <string name="georgian_translation_summary">Alexandre Razmadze</string>
+    <string name="catalan_translation">카탈로니아어 번역</string>
+    <string name="catalan_translation_summary">cybdani</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 </resources>

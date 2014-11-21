@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
     <string name="app_name">ضبط مکالمات</string>
     
     
@@ -153,14 +154,11 @@
     
     
     
-    
-    
     <string name="recording_format_wav">WAV</string>
     <string name="recording_format_amr">AMR</string>
     <string name="recording_format_aac">AAC</string>
     <string name="recording_format_mp3">MP3</string>
     <string name="volume_control">کنترل صدا</string>
-    
     
     
     
@@ -387,4 +385,71 @@
     <string name="about_alsa_summary">استفاده شده از ALSA تحت LGPL, برای بازدید از alsa-project.org اینجا ضربه بزنید</string>
     <string name="about_lame">LAME</string>
     <string name="about_lame_summary">استفده شده از LAME تحت LGPL, برای بازدید کلیک کنید mp3dev.org</string>
+
+    <string name="german_translation">ترجمه آلمانی</string>
+    <string name="german_translation_summary">Marc Hillesheim و Thomas Käfer</string>
+    <string name="polish_translation">ترجمه لهستانی</string>
+    <string name="polish_translation_summary">Robert Gonta</string>
+    <string name="french_translation">ترجمه فرانسوی</string>
+    <string name="french_translation_summary">Julien Boiteux</string>
+    <string name="brazilian_portuguese_translation">ترجمه برزیلی پرتقالی</string>
+    <string name="brazilian_portuguese_translation_summary">Luiz Marcelo Serique</string>
+    <string name="spanish_translation">ترجمه اسپانیایی</string>
+    <string name="spanish_translation_summary">Iñigo Garcia و Diego Vilas</string>
+    <string name="slovak_translation">ترجمه اسلواکی</string>
+    <string name="slovak_translation_summary">Loránt Gerencsér</string>
+    <string name="italian_translation">ترجمه ایتالیایی</string>
+    
+    <string name="persian_translation">ترجمه پارسی</string>
+    <string name="persian_translation_summary">علیرضا افکار</string>
+    <string name="chinese_translation">ترجمه چینی</string>
+    
+    <string name="czech_translation">ترجمه چکی</string>
+    <string name="czech_translation_summary">Ales Kerner و Lukas Waldauf</string>
+    <string name="arabic_translation">ترجمه عربی</string>
+    <string name="arabic_translation_summary">Ausama S. Ibrahim</string>
+    <string name="hebrew_translation">ترجمه عبری</string>
+    <string name="hebrew_translation_summary">NuFlood</string>
+    <string name="hungarian_translation">ترجمه مجارستانی</string>
+    <string name="hungarian_translation_summary">Szalay Levente و Miklós Toldi</string>
+    <string name="dutch_translation">ترجمه هلندی</string>
+    <string name="dutch_translation_summary">Elroy Tirbeni</string>
+    <string name="turkish_translation">ترجمه ترکی</string>
+    <string name="turkish_translation_summary">Omer Ilik</string>
+    <string name="serbian_translation">ترجمه صربستانی</string>
+    <string name="serbian_translation_summary">sHAKaJaada</string>
+    <string name="korean_translation">ترجمه کره ای</string>
+    <string name="korean_translation_summary">SoHyunSeop و Joon Hee Jo</string>
+    <string name="romanian_translation">ترجمه رومانیایی</string>
+    <string name="romanian_translation_summary">Dan P. (sad)</string>
+    <string name="ukrainian_translation">ترجمه اکراینی</string>
+    <string name="ukrainian_translation_summary">Gennadi Samoluk</string>
+    <string name="traditional_chinese_translation">ترجمه چینی سنتی</string>
+    <string name="traditional_chinese_translation_summary">GPF_kaibird و Chien Jung Liaw</string>
+    <string name="japanese_translation">ترجمه ژاپنی</string>
+    <string name="japanese_translation_summary">Akira Tagoh</string>
+    <string name="swedish_translation">ترجمه سوئدی</string>
+    <string name="swedish_translation_summary">Johannes Sj?lund</string>
+    <string name="bulgarian_translation">ترجمه بلغاری</string>
+    <string name="bulgarian_translation_summary">PROXIMO</string>
+    <string name="danish_translation">ترجمه دانمارکی</string>
+    <string name="danish_translation_summary">Lars Sarauw Hansen</string>
+    <string name="latvian_translation">ترجمه لتونی</string>
+    <string name="latvian_translation_summary">Arvīds Dreimanis</string>
+    <string name="thai_translation">ترجمه تایلندی</string>
+    <string name="thai_translation_summary">Wuttisak Saichoncharn</string>
+    <string name="georgian_translation">ترجمه گرجستانی</string>
+    <string name="georgian_translation_summary">Alexandre Razmadze</string>
+    <string name="catalan_translation">ترجمه کاتالان</string>
+    <string name="catalan_translation_summary">cybdani</string>
+    <string name="hindi_translation">ترجمه هندی</string>
+    <string name="hindi_translation_summary">TheTAMAS Gautam</string>
+    <string name="punjabi_translation">ترجمه پنجابی</string>
+    <string name="punjabi_translation_summary">Raj Verma</string>
+    <string name="finnish_translation">ترجمه فنلاندی</string>
+    <string name="finnish_translation_summary">Eero Linnainmaa</string>
+    
+    
+    
+    
 </resources>

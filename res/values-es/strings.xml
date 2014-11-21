@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
     <string name="app_name">CallRecorder</string>
     
     
@@ -153,14 +154,11 @@
     
     
     
-    
-    
     <string name="recording_format_wav">WAV</string>
     <string name="recording_format_amr">AMR</string>
     <string name="recording_format_aac">AAC</string>
     <string name="recording_format_mp3">MP3</string>
     <string name="volume_control">Control de volumen</string>
-    
     
     
     
@@ -387,4 +385,71 @@
     <string name="about_alsa_summary">Se utiliza ALSA bajo LGPL, pulse aqui para visitar alsa-project.org</string>
     <string name="about_lame">LAME</string>
     <string name="about_lame_summary">Se utiliza LAME bajo LGPL, haz click aquí para visitar mp3dev.org</string>
+
+    <string name="german_translation">Traducción al alemán</string>
+    <string name="german_translation_summary">por Marc Hillesheim and Thomas Käfer</string>
+    <string name="polish_translation">Traducción al polaco</string>
+    <string name="polish_translation_summary">por Robert Gonta</string>
+    <string name="french_translation">Traducción al francés</string>
+    <string name="french_translation_summary">por Julien Boiteux</string>
+    <string name="brazilian_portuguese_translation">Traducción al portugués/brasileño</string>
+    <string name="brazilian_portuguese_translation_summary">por Luiz Marcelo Serique</string>
+    <string name="spanish_translation">Traducción al español</string>
+    <string name="spanish_translation_summary">por Iñigo García y Diego Vilas</string>
+    <string name="slovak_translation">Traducción al eslovaco</string>
+    <string name="slovak_translation_summary">por Loránt Gerencsér</string>
+    <string name="italian_translation">Traducción al italiano</string>
+    
+    <string name="persian_translation">Traducción al persa</string>
+    <string name="persian_translation_summary">por Alireza Afkar</string>
+    <string name="chinese_translation">Traducción al chino</string>
+    
+    <string name="czech_translation">Traducción al checo</string>
+    <string name="czech_translation_summary">por Ales Kerner y Lukas Waldauf</string>
+    <string name="arabic_translation">Traducción al árabe</string>
+    <string name="arabic_translation_summary">por Ausama S. Ibrahim</string>
+    <string name="hebrew_translation">Traducción al hebreo</string>
+    <string name="hebrew_translation_summary">por NuFlood</string>
+    <string name="hungarian_translation">Traducción al húngaro</string>
+    <string name="hungarian_translation_summary">por Szalay Levente y Miklós Toldi</string>
+    <string name="dutch_translation">Traduccion al holandés</string>
+    <string name="dutch_translation_summary">por Elroy Tirbeni</string>
+    <string name="turkish_translation">Traduccion al turco</string>
+    <string name="turkish_translation_summary">por Omer Ilik</string>
+    <string name="serbian_translation">Traduccion al serbio</string>
+    <string name="serbian_translation_summary">por sHAKaJaada</string>
+    <string name="korean_translation">Traducción al coreano</string>
+    <string name="korean_translation_summary">por SoHyunSeop y Joon Hee Jo</string>
+    <string name="romanian_translation">Traducción al rumano</string>
+    <string name="romanian_translation_summary">por Dan P. (sad)</string>
+    <string name="ukrainian_translation">Traducción al ucraniano</string>
+    <string name="ukrainian_translation_summary">por Gennadi Samoluk</string>
+    <string name="traditional_chinese_translation">Traducción al chino tradicional</string>
+    <string name="traditional_chinese_translation_summary">por GPF_kaibird and Chien Jung Liaw</string>
+    <string name="japanese_translation">Traducción al japonés</string>
+    <string name="japanese_translation_summary">por Akira Tagoh</string>
+    <string name="swedish_translation">Traducción al sueco</string>
+    <string name="swedish_translation_summary">por Johannes Sjölund</string>
+    <string name="bulgarian_translation">Traducción al búlgaro</string>
+    <string name="bulgarian_translation_summary">por PROXIMO</string>
+    <string name="danish_translation">Traducción al danés</string>
+    <string name="danish_translation_summary">por Lars Sarauw Hansen</string>
+    <string name="latvian_translation">Traducción al letón</string>
+    <string name="latvian_translation_summary">por Arvīds Dreimanis</string>
+    <string name="thai_translation">Traducción al tailandés</string>
+    <string name="thai_translation_summary">por Wuttisak Saichoncharn</string>
+    <string name="georgian_translation">Traducción al georgiano</string>
+    <string name="georgian_translation_summary">por Alexandre Razmadze</string>
+    <string name="catalan_translation">Traducción al catalán</string>
+    <string name="catalan_translation_summary">por cybdani</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 </resources>

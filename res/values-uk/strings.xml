@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
     <string name="app_name">CallRecorder</string>
     
     
@@ -153,14 +154,11 @@
     
     
     
-    
-    
     <string name="recording_format_wav">WAV</string>
     <string name="recording_format_amr">AMR</string>
     <string name="recording_format_aac">AAC</string>
     <string name="recording_format_mp3">MP3</string>
     <string name="volume_control">Регулювання звуку</string>
-    
     
     
     
@@ -387,4 +385,71 @@
     <string name="about_alsa_summary">Використовує ALSA за умов LGPL, натисніть тут, аби відвідати alsa-project.org</string>
     <string name="about_lame">LAME</string>
     <string name="about_lame_summary">Використовується LAME за умов LGPL. Натисніть сюди аби відвідати mp3dev.org</string>
+
+    <string name="german_translation">переклад на німецьку</string>
+    <string name="german_translation_summary">завдяки Marc Hillesheim and Thomas Käfer</string>
+    <string name="polish_translation">Переклад на польську</string>
+    <string name="polish_translation_summary">by Robert Gonta</string>
+    <string name="french_translation">Переклад французькою</string>
+    <string name="french_translation_summary">завдяки Julien Boiteux</string>
+    <string name="brazilian_portuguese_translation">Переклад на бразилійську португальську</string>
+    <string name="brazilian_portuguese_translation_summary">завдяки Luiz Marcelo Serique</string>
+    <string name="spanish_translation">Переклад на іспанську</string>
+    <string name="spanish_translation_summary">завдяки Iñigo Garcia та Diego Vilas</string>
+    <string name="slovak_translation">Переклад на словацьку</string>
+    <string name="slovak_translation_summary">by Loránt Gerencsér</string>
+    <string name="italian_translation">Переклад на італійську</string>
+    
+    <string name="persian_translation">Переклад на фарсі</string>
+    <string name="persian_translation_summary">завдяки Alireza Afkar</string>
+    <string name="chinese_translation">Переклад на китайську</string>
+    
+    <string name="czech_translation">Переклад чеською</string>
+    <string name="czech_translation_summary">завдяки Ales Kerner та Lukas Waldauf</string>
+    <string name="arabic_translation">Переклад арабською</string>
+    <string name="arabic_translation_summary">завдяки Ausama S. Ibrahim</string>
+    <string name="hebrew_translation">Переклад на іврит</string>
+    <string name="hebrew_translation_summary">by NuFlood</string>
+    <string name="hungarian_translation">Переклад на угорську</string>
+    <string name="hungarian_translation_summary">завдяки Szalay Levente та Miklós Toldi</string>
+    <string name="dutch_translation">Переклад на голандську</string>
+    <string name="dutch_translation_summary">завдяки Elroy Tirbeni</string>
+    <string name="turkish_translation">Переклад на турецьку</string>
+    <string name="turkish_translation_summary">завдяки Omer Ilik</string>
+    <string name="serbian_translation">Переклад на сербську</string>
+    <string name="serbian_translation_summary">завдяки sHAKaJaada</string>
+    <string name="korean_translation">Переклад на корейську</string>
+    <string name="korean_translation_summary">завдяки SoHyunSeop та Joon Hee Jo</string>
+    <string name="romanian_translation">Переклад на румунську</string>
+    <string name="romanian_translation_summary">завдяки Dan P. (sad)</string>
+    <string name="ukrainian_translation">Переклад на українську</string>
+    <string name="ukrainian_translation_summary">здійснив Геннадій Самолюк</string>
+    <string name="traditional_chinese_translation">Переклад на традиційну китайську</string>
+    <string name="traditional_chinese_translation_summary">GPF_kaibird та Ghien Jung</string>
+    <string name="japanese_translation">Переклад на японську</string>
+    <string name="japanese_translation_summary">завдяки Akira Tagoh</string>
+    <string name="swedish_translation">Переклад на шведську</string>
+    <string name="swedish_translation_summary">завдяки Johannes Sjölund</string>
+    <string name="bulgarian_translation">Переклад на болгарську</string>
+    <string name="bulgarian_translation_summary">завдяки PROXIMO</string>
+    <string name="danish_translation">Переклад на данську</string>
+    <string name="danish_translation_summary">завдяки Lars Sarauw Hansen</string>
+    <string name="latvian_translation">Переклад на латвійську</string>
+    <string name="latvian_translation_summary">завдяки Arvīds Dreimanis</string>
+    <string name="thai_translation">Переклад на тайську</string>
+    <string name="thai_translation_summary">завдяки Wuttisak Saichoncharn</string>
+    <string name="georgian_translation">Переклад на грузинську</string>
+    <string name="georgian_translation_summary">завдяки Alexandre Razmadze</string>
+    <string name="catalan_translation">Переклад на каталонську</string>
+    <string name="catalan_translation_summary">завдяки cybdani</string>
+    <string name="hindi_translation">Переклад на гінді</string>
+    <string name="hindi_translation_summary">завдяки TheTAMAS Gautam</string>
+    <string name="punjabi_translation">Переклад на пунджабі</string>
+    <string name="punjabi_translation_summary">завдяки Raj Verma</string>
+    <string name="finnish_translation">Переклад на фінську</string>
+    <string name="finnish_translation_summary">завдяки Eero Linnainmaa</string>
+    
+    
+    
+    
 </resources>

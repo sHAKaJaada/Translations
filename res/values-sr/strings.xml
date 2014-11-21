@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
     <string name="app_name">CallRecorder</string>
     
     
@@ -153,14 +154,11 @@
     
     
     
-    
-    
     <string name="recording_format_wav">WAV</string>
     <string name="recording_format_amr">AMR</string>
     <string name="recording_format_aac">AAC</string>
     <string name="recording_format_mp3">MP3</string>
     <string name="volume_control">Јачина звука</string>
-    
     
     
     <string name="volume_control_tx">Tx</string>
@@ -387,4 +385,71 @@
     <string name="about_alsa_summary">Користи ALSA под LGPL. Притисните овде за посету alsa-project.org</string>
     <string name="about_lame">LAME</string>
     <string name="about_lame_summary">Користи LAME лиценциран од LGPL.Притисните за посету mp3dev.org</string>
+
+    <string name="german_translation">Немачки превод</string>
+    <string name="german_translation_summary">Marc Hillesheim и Thomas Käfer</string>
+    <string name="polish_translation">Пољски превод</string>
+    <string name="polish_translation_summary">Robert Gonta</string>
+    <string name="french_translation">Француски превод</string>
+    <string name="french_translation_summary">Julien Boiteux</string>
+    <string name="brazilian_portuguese_translation">Португалски (Бразил) превод</string>
+    <string name="brazilian_portuguese_translation_summary">Luiz Marcelo Serique</string>
+    <string name="spanish_translation">Шпански превод</string>
+    <string name="spanish_translation_summary">Iñigo Garcia и Diego Vilas</string>
+    <string name="slovak_translation">Словачки превод</string>
+    <string name="slovak_translation_summary">Matrix44</string>
+    <string name="italian_translation">Италијански превод</string>
+    <string name="italian_translation_summary">Luca Trevisan и Francesco Cafagna</string>
+    <string name="persian_translation">Персијски превод</string>
+    <string name="persian_translation_summary">Alireza Afkar</string>
+    <string name="chinese_translation">Кинески превод</string>
+    <string name="chinese_translation_summary">qhq и Yu Fei</string>
+    <string name="czech_translation">Чешки превод</string>
+    <string name="czech_translation_summary">Ales Kerner и Lukas Waldauf</string>
+    <string name="arabic_translation">Арапски превод</string>
+    <string name="arabic_translation_summary">Ausama S. Ibrahim</string>
+    <string name="hebrew_translation">Јеврејски превод</string>
+    <string name="hebrew_translation_summary">NuFlood</string>
+    <string name="hungarian_translation">Мађарски превод</string>
+    <string name="hungarian_translation_summary">Szalay Levente и Miklós Toldi</string>
+    <string name="dutch_translation">Холандски превод</string>
+    <string name="dutch_translation_summary">Elroy Tirbeni</string>
+    <string name="turkish_translation">Турски превод</string>
+    <string name="turkish_translation_summary">Omer Ilik</string>
+    <string name="serbian_translation">Српски превод</string>
+    <string name="serbian_translation_summary">sHAKaJaada™</string>
+    <string name="korean_translation">Корејски превод</string>
+    <string name="korean_translation_summary">SoHyunSeop и Joon Hee Jo</string>
+    <string name="romanian_translation">Румунски превод</string>
+    <string name="romanian_translation_summary">Dan P. (sad)</string>
+    <string name="ukrainian_translation">Украјински превод</string>
+    <string name="ukrainian_translation_summary">Gennadi Samoluk</string>
+    <string name="traditional_chinese_translation">Традиционални кинески превод вер.2</string>
+    <string name="traditional_chinese_translation_summary">GPF_kaibird и Chien Jung Liaw</string>
+    <string name="japanese_translation">Јапаски превод</string>
+    <string name="japanese_translation_summary">Akira Tagoh</string>
+    <string name="swedish_translation">Шведски превод</string>
+    <string name="swedish_translation_summary">Johannes Sjölund</string>
+    <string name="bulgarian_translation">Бугарски превод</string>
+    <string name="bulgarian_translation_summary">PROXIMO</string>
+    <string name="danish_translation">Дански превод</string>
+    <string name="danish_translation_summary">Lars Sarauw Hansen</string>
+    <string name="latvian_translation">Летонски превод</string>
+    <string name="latvian_translation_summary">Arvīds Dreimanis</string>
+    <string name="thai_translation">Тајландски превод</string>
+    <string name="thai_translation_summary">Wuttisak Saichoncharn</string>
+    <string name="georgian_translation">Грузински превод</string>
+    <string name="georgian_translation_summary">Alexandre Razmadze</string>
+    <string name="catalan_translation">Каталонски превод</string>
+    <string name="catalan_translation_summary">cybdani</string>
+    <string name="hindi_translation">Хинди превод</string>
+    <string name="hindi_translation_summary">TheTAMAS Gautam</string>
+    <string name="punjabi_translation">Панџаби превод</string>
+    <string name="punjabi_translation_summary">Raj Verma</string>
+    <string name="finnish_translation">Фински превод</string>
+    <string name="finnish_translation_summary">Eero Linnainmaa</string>
+    <string name="belarusian_translation">Белоруски превод</string>
+    <string name="belarusian_translation_summary">Alexander Kuvshinov</string>
+    <string name="vietnamese_translation">Вијетнамски превод</string>
+    <string name="vietnamese_translation_summary">Truong Hoang Trung</string>
 </resources>

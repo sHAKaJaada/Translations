@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
     <string name="app_name">CallRecorder</string>
     
     
@@ -153,14 +154,11 @@
     
     
     
-    
-    
     <string name="recording_format_wav">WAV</string>
     <string name="recording_format_amr">AMR</string>
     <string name="recording_format_aac">AAC</string>
     <string name="recording_format_mp3">MP3</string>
     <string name="volume_control">Control del volum</string>
-    
     
     
     
@@ -387,4 +385,71 @@
     <string name="about_alsa_summary">Usa ALSA sota LGPL fes clic aquí per visitar alsa-project.org</string>
     <string name="about_lame">LAME</string>
     <string name="about_lame_summary">Usa LAME sota LGPL fes clic aquí per visitar mp3dev.org</string>
+
+    <string name="german_translation">Traducció al Alemany</string>
+    
+    <string name="polish_translation">Traducció al Polac</string>
+    <string name="polish_translation_summary">per Robert Gonta</string>
+    <string name="french_translation">Traducció al Francès</string>
+    <string name="french_translation_summary">per Julien Boiteux</string>
+    <string name="brazilian_portuguese_translation">Traducció al Brasiler i portugès</string>
+    <string name="brazilian_portuguese_translation_summary">per Luiz Marcelo Serique</string>
+    <string name="spanish_translation">Traducció al Espanyol</string>
+    <string name="spanish_translation_summary">per Iñigo Garcia i Diego Vilas</string>
+    <string name="slovak_translation">Traducció al Eslovac</string>
+    <string name="slovak_translation_summary">per Loránt Gerencsér</string>
+    <string name="italian_translation">Traducció al Italià</string>
+    
+    <string name="persian_translation">Traducció al Persa</string>
+    <string name="persian_translation_summary">per Alireza Afkar</string>
+    <string name="chinese_translation">Traducció al Xinès</string>
+    
+    <string name="czech_translation">Traducció al Txec</string>
+    <string name="czech_translation_summary">per Ales Kerner and Lukas Waldauf</string>
+    <string name="arabic_translation">Traducció al Arab</string>
+    <string name="arabic_translation_summary">per Ausama S. Ibrahim</string>
+    <string name="hebrew_translation">Traducció al Hebreu</string>
+    <string name="hebrew_translation_summary">per NuFlood</string>
+    <string name="hungarian_translation">Traducció al Hungarès</string>
+    <string name="hungarian_translation_summary">per Szalay Levente and Miklós Toldi</string>
+    <string name="dutch_translation">Traducció al Holandès</string>
+    <string name="dutch_translation_summary">per Elroy Tirbeni</string>
+    <string name="turkish_translation">Traducció al Turc</string>
+    <string name="turkish_translation_summary">per Omer Ilik</string>
+    <string name="serbian_translation">Traducció al Serbi</string>
+    <string name="serbian_translation_summary">per sHAKaJaada</string>
+    <string name="korean_translation">Traducció al Coreà</string>
+    <string name="korean_translation_summary">per SoHyunSeop and Joon Hee Jo</string>
+    <string name="romanian_translation">Traducció al Romanès</string>
+    <string name="romanian_translation_summary">per Dan P. (sad)</string>
+    <string name="ukrainian_translation">Traducció al Ucraïnès</string>
+    <string name="ukrainian_translation_summary">per Gennadi Samoluk</string>
+    <string name="traditional_chinese_translation">Traducció al Xinès tradicional</string>
+    <string name="traditional_chinese_translation_summary">per GPF_kaibird and Chien Jung Liaw</string>
+    <string name="japanese_translation">Traducció al Japonès</string>
+    <string name="japanese_translation_summary">per Akira Tagoh</string>
+    <string name="swedish_translation">Traducció al Suec</string>
+    <string name="swedish_translation_summary">per Johannes Sjölund</string>
+    <string name="bulgarian_translation">Traducció al Búlgar</string>
+    <string name="bulgarian_translation_summary">per PROXIMO</string>
+    <string name="danish_translation">Traducció al Danès</string>
+    <string name="danish_translation_summary">per Lars Sarauw Hansen</string>
+    <string name="latvian_translation">Traducció al Lituà</string>
+    <string name="latvian_translation_summary">per Arvīds Dreimanis</string>
+    <string name="thai_translation">Traducció al Tailandès</string>
+    <string name="thai_translation_summary">per Wuttisak Saichoncharn</string>
+    <string name="georgian_translation">Traducció al Georgià</string>
+    <string name="georgian_translation_summary">per Alexandre Razmadze</string>
+    <string name="catalan_translation">Traducció al Català</string>
+    <string name="catalan_translation_summary">per Cybdani</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 </resources>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
     <string name="app_name">مسجل المكالمة</string>
     
     
@@ -153,14 +154,11 @@
     
     
     
-    
-    
     <string name="recording_format_wav">WAV</string>
     <string name="recording_format_amr">AMR</string>
     <string name="recording_format_aac">AAC</string>
     <string name="recording_format_mp3">MP3</string>
     <string name="volume_control">تحكم بعلو الصوت</string>
-    
     
     
     
@@ -387,4 +385,71 @@
     <string name="about_alsa_summary">استخدام ALSA تحت LGPL, اضغط هنا لزيارة موقع alsa-project.org</string>
     <string name="about_lame">LAME خاصية</string>
     <string name="about_lame_summary">استخدام خاصية LAME تحت LGPL, اضغط هنا لزيارة mp3dev.org</string>
+
+    <string name="german_translation">ترجمة المانية</string>
+    <string name="german_translation_summary">لـ مارك هليشيم وتوماس كافير</string>
+    <string name="polish_translation">الترجمة البولندية</string>
+    <string name="polish_translation_summary">لـ روبرت كونتا</string>
+    <string name="french_translation">الترجمة الفرنسية</string>
+    <string name="french_translation_summary">لـ جوليان بوترو</string>
+    <string name="brazilian_portuguese_translation">الترجمة البرتغالية البرازيلية</string>
+    <string name="brazilian_portuguese_translation_summary">لـ لويز مارسيلو سيريك</string>
+    <string name="spanish_translation">الترجمة الأسبانية</string>
+    <string name="spanish_translation_summary">لـ انديگو گارسيا و دييگو ڤيلاس</string>
+    <string name="slovak_translation">الترجمة السلوفاكية</string>
+    <string name="slovak_translation_summary">لـ لوران جيرينسير</string>
+    <string name="italian_translation">ترجمة ايطالية</string>
+    
+    <string name="persian_translation">ترجمة فارسية</string>
+    <string name="persian_translation_summary">لـ اليريزا افكار</string>
+    <string name="chinese_translation">ترجمة صينية</string>
+    
+    <string name="czech_translation">الترجمة التشيكية</string>
+    <string name="czech_translation_summary">لـ اليس كيرنر و لوكاس والداوف</string>
+    <string name="arabic_translation">الترجمة العربية</string>
+    <string name="arabic_translation_summary">لـ أسامة سيف ابراهيم</string>
+    <string name="hebrew_translation">الترجمة العبرية</string>
+    
+    <string name="hungarian_translation">الترجمة الهنغارية</string>
+    <string name="hungarian_translation_summary">لـ ستزالي ليڤينتي و ميكلوس تولدي</string>
+    <string name="dutch_translation">ترجمة هولندية</string>
+    <string name="dutch_translation_summary">لـ الروي تيربيني</string>
+    <string name="turkish_translation">ترجمة تركية</string>
+    <string name="turkish_translation_summary">لـ عمر إليك</string>
+    <string name="serbian_translation">ترجمة صربية</string>
+    <string name="serbian_translation_summary">لـ sHAKaJaada</string>
+    <string name="korean_translation">ترجمة كورية</string>
+    <string name="korean_translation_summary">لـ سوهينسيوب و جوون هي جو</string>
+    <string name="romanian_translation">ترجمة رومانية</string>
+    <string name="romanian_translation_summary">لـ دان ب. (ساد)</string>
+    <string name="ukrainian_translation">ترجمة اوكرانية</string>
+    <string name="ukrainian_translation_summary">لـ غينادي سامولوك</string>
+    <string name="traditional_chinese_translation">الترجمة الصينية التقليدية</string>
+    <string name="traditional_chinese_translation_summary">لـ كايبرد و جين جونك لياو</string>
+    <string name="japanese_translation">ترجمة يابانية</string>
+    <string name="japanese_translation_summary">لـ اكيرا تاغو</string>
+    <string name="swedish_translation">ترجمة سويدية</string>
+    <string name="swedish_translation_summary">لـ يوهانس سيولوند</string>
+    <string name="bulgarian_translation">الترجمة البلغارية</string>
+    <string name="bulgarian_translation_summary">لـ بروكسيمو</string>
+    <string name="danish_translation">الترجمة الدنماركية</string>
+    <string name="danish_translation_summary">لـ لارس ساراو هانسين</string>
+    <string name="latvian_translation">الترجمة اللاتيفية</string>
+    <string name="latvian_translation_summary">لـ ارفدس دريمانس</string>
+    <string name="thai_translation">الترجمة التايلندية</string>
+    <string name="thai_translation_summary">لـ ووتيساك سايشونتشارن</string>
+    <string name="georgian_translation">الترجمة الجورجية</string>
+    <string name="georgian_translation_summary">لـ الكساندر رازمادز</string>
+    <string name="catalan_translation">الترجمة الـكـتـلونـيـة</string>
+    <string name="catalan_translation_summary">لـ سايبداني</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 </resources>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
     <string name="app_name">CallRecorder</string>
     
     
@@ -153,14 +154,11 @@
     
     
     
-    
-    
     <string name="recording_format_wav">WAV</string>
     <string name="recording_format_amr">AMR</string>
     <string name="recording_format_aac">AAC</string>
     <string name="recording_format_mp3">MP3</string>
     <string name="volume_control">ხმის კონტროლი</string>
-    
     
     
     
@@ -387,4 +385,71 @@
     <string name="about_alsa_summary">იყენებს ALSA ს LGPL ის ფარგლებში ,დააჭირეთ რომ ეწვიოთ alsa-project.org</string>
     <string name="about_lame">LAME</string>
     <string name="about_lame_summary">იყენებს LAME ს LGPL ის ფარგლებში ,დააჭირეთ რომ ეწვიოთ mp3dev.org</string>
+
+    <string name="german_translation">გერმანული თარგმანი</string>
+    
+    <string name="polish_translation">პოლონური თარგმანი</string>
+    <string name="polish_translation_summary">რობერტ გონტას მიერ</string>
+    <string name="french_translation">ფრანგული თარგმანი</string>
+    <string name="french_translation_summary">ჯულიენ ბოიტექსის მიერ</string>
+    <string name="brazilian_portuguese_translation">ბრაზილიურ -პორტუგალიური თარგმანი</string>
+    <string name="brazilian_portuguese_translation_summary">ლუის მარჩელო სერიკის მიერ</string>
+    <string name="spanish_translation">ესპანური თარგმანი</string>
+    <string name="spanish_translation_summary">ინიგო გარსია და დიეგო ვილასის მიერ</string>
+    <string name="slovak_translation">სლოვაკური თარგმანი</string>
+    <string name="slovak_translation_summary">ლორან გელენჩერის მიერ</string>
+    <string name="italian_translation">იტალიური თარგმანი</string>
+    
+    <string name="persian_translation">პერსიული თარგმანი</string>
+    <string name="persian_translation_summary">ალირეზა აფკარის მიერ</string>
+    <string name="chinese_translation">ჩინური თარგმანი</string>
+    
+    <string name="czech_translation">ჩეხური თარგმანი</string>
+    <string name="czech_translation_summary">ალეს კერნერი და ლუკას ვალდაუფის მიერ</string>
+    <string name="arabic_translation">არაბული თარგმანი</string>
+    <string name="arabic_translation_summary">აუსამა იბრაჰიმს</string>
+    <string name="hebrew_translation">ებრაული თარგმანი</string>
+    <string name="hebrew_translation_summary">ნუფლოდის მიერ</string>
+    <string name="hungarian_translation">უნგრული თარგმანი</string>
+    <string name="hungarian_translation_summary">სზალაი ლევენტე და მიკლოშ ტოლდის მიერ</string>
+    <string name="dutch_translation">დანიური თარგმანი</string>
+    <string name="dutch_translation_summary">ელროი ტირბენის მიერ</string>
+    <string name="turkish_translation">თურქული თარგმანი</string>
+    <string name="turkish_translation_summary">ომერ ილიკის მიერ</string>
+    <string name="serbian_translation">სერბული თარგმანი</string>
+    <string name="serbian_translation_summary">შაკალაადას მიერ</string>
+    <string name="korean_translation">კორეული თარგმანი</string>
+    <string name="korean_translation_summary">სოჰიუნსეოპის და ჯო ჰეე ჯოს მიერ</string>
+    <string name="romanian_translation">რომანული თარგმანი</string>
+    <string name="romanian_translation_summary">დან პ ს მიერ</string>
+    <string name="ukrainian_translation">უკრაინული თარგმანი</string>
+    <string name="ukrainian_translation_summary">გენადი სამოლუკის მიერ</string>
+    <string name="traditional_chinese_translation">ჩინური თარგმანი</string>
+    <string name="traditional_chinese_translation_summary">კაიბორდის და ჩენ ჯუნგ ლიაოს მიერ</string>
+    <string name="japanese_translation">იაპონური თარგმანი</string>
+    <string name="japanese_translation_summary">აკირა ტაგოჰის მიერ</string>
+    <string name="swedish_translation">შვედური თარგმანი</string>
+    <string name="swedish_translation_summary">იოჰასეს სჯოლუნდის მიერ</string>
+    <string name="bulgarian_translation">ბულგარული თარგმანი</string>
+    <string name="bulgarian_translation_summary">პროქსიმოს მიერ</string>
+    <string name="danish_translation">დანიური თარგმანი</string>
+    <string name="danish_translation_summary">ლარს სარაუ ჰანსენის მიერ</string>
+    <string name="latvian_translation">ლატვიური თარგმანი</string>
+    <string name="latvian_translation_summary">არვიდას დრეიმანისის მიერ</string>
+    <string name="thai_translation">ტაილანდური თარგმანი</string>
+    <string name="thai_translation_summary">ვუტისაკ საიჩონჩარნის მიერ</string>
+    <string name="georgian_translation">ქართული თარგმანი</string>
+    <string name="georgian_translation_summary">სანდრო რაზმაძის მიერ</string>
+    <string name="catalan_translation">კატალანური თარგმანი</string>
+    <string name="catalan_translation_summary">სიბდანის მიერ</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 </resources>
