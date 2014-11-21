@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">CallRecorder</string>
+    <string name="app_name">Call Recorder</string>
     <string name="terms_of_use">Условия использования</string>
     <string name="terms_of_use_message">Используя приложение, вы соглашаетесь с &lt;a href=http://rec.sh/terms&gt;условиями использования&lt;/a&gt; CallRecorder\'а.</string>
 
@@ -221,7 +221,7 @@
 
     <!-- Settings -> Folders and Files -->
     <string name="folder">Папка</string>
-    <string name="folder_chooser_up_to"/>
+    <string name="folder_chooser_up_to">↑ Наверх до %s</string>
     <string name="automatic_cleanup">Автоудаление записей</string>
     <string name="max_number_of_files">Макс. число файлов</string>
     <string name="max_number_of_files_message">Введите число (0 - без ограничений)</string>
@@ -391,4 +391,6 @@
 <string name="about_call_recorder">О программе</string>
     <string name="recording_in_progress">Идет запись</string>
     <string name="waiting_for_answer">Ожидание ответа</string>
+    <string name="open_contact">Открыть контакт</string>
+
     </resources>
