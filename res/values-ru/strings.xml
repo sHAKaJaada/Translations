@@ -422,4 +422,7 @@
     <string name="app_admin_explanation">"Call Recorder не использует каких либо возможностей администраторов устройств, кроме предотвращения удаления "</string>
     <string name="use_built_in_player">Встроенный плеер</string>
     <string name="cloud_provider">Провайдер облака</string>
+    <string name="volume_control_summary">Tx: %1$s, Rx: %2$s</string>
+    <string name="cloud_provider_google_drive">Google Drive</string>
+    <string name="volume_control_format_percents">%1$s%%</string>
     </resources>
