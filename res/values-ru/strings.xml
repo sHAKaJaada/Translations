@@ -393,4 +393,5 @@
     <string name="waiting_for_answer">Ожидание ответа</string>
     <string name="open_contact">Открыть контакт</string>
 
+    <string name="recording_method_msm_settings">Настройки для записи через MSM</string>
     </resources>
