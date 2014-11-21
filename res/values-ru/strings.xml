@@ -456,4 +456,6 @@
     <string name="german_translation_summary">от Marc Hillesheim и Thomas Käfer</string>
     <string name="polish_translation">Перевод на польский</string>
     <string name="polish_translation_summary">от Robert Gonta</string>
+    <string name="long_press_action">Действие на долгое нажатие</string>
+
     </resources>
