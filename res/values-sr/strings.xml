@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">CallRecorder</string>
     
@@ -380,7 +380,7 @@
 
     <string name="licenses">Лиценце</string>
     <string name="about_open_core_amr_license">opencore-amr</string>
-    <string name="about_open_core_amr_license_summary">Koristi opencore-amr од: Apache License Version 2.0, притисните за посету opencore-amr.sourceforge.net</string>
+    <string name="about_open_core_amr_license_summary">Користи opencore-amr од: Apache License Version 2.0, притисните за посету opencore-amr.sourceforge.net</string>
     <string name="about_alsa">ALSA</string>
     <string name="about_alsa_summary">Користи ALSA под LGPL. Притисните овде за посету alsa-project.org</string>
     <string name="about_lame">LAME</string>
@@ -452,4 +452,7 @@
     <string name="belarusian_translation_summary">Alexander Kuvshinov</string>
     <string name="vietnamese_translation">Вијетнамски превод</string>
     <string name="vietnamese_translation_summary">Truong Hoang Trung</string>
-</resources>
+<string name="terms_of_use">Услови коришћења</string>
+    <string name="terms_of_use_message">Употребом ове апликације сагласни сте са CallRecorder's &lt;a href=http://rec.sh/terms&gt;условима коришћења&lt;/a&gt;.</string>
+
+    </resources>
