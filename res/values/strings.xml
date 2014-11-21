@@ -267,6 +267,7 @@
     <string name="hide_button_before_answer">Hide button before answer</string>
     <string name="hide_button_before_answer_summary">Don\'t show in-call control button until connection is established</string>
     <string name="long_press_action">Long press action</string>
+    <string name="long_press_action_hang_up">Hang up the call and call back automatically</string>
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">Cloud provider</string>
