@@ -394,4 +394,5 @@
     <string name="open_contact">Открыть контакт</string>
 
     <string name="recording_method_msm_settings">Настройки для записи через MSM</string>
+    <string name="section_tasks_hint">"Здесь отображаются длительные операции (конвертирование, шифрование, загрузка на облако и т.п.) "</string>
     </resources>
