@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    
+    
+
+    <!-- Navigation drawer -->
+    
+    
+
+    <!-- Navigation drawer sections -->
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="section_tasks">ਕੰਮ</string>
+    
+    <string name="empty_hint">ਖਾਲੀ</string>
+
+    <!-- Action bar -->
+    <string name="action_search">ਲਭੋ</string>
+    
+    <string name="action_settings">ਸੈਟਿੰਗ</string>
+    
+    
+    
+    
+    
+    <string name="action_select_all">ਸਭ ਚੁਣੋ</string>
+    
+    
+    
+
+    <!-- List -->
+    
+    
+    
+    
+
+    <!-- List -> Context menu -->
+    <string name="menu_add_to_dropbox">Dropbox ਵਿਚ ਜਮਾ ਕਰੋ</string>
+    
+    
+    
+    
+    
+    
+    <string name="menu_get_info">ਜਾਣਕਾਰੀ ਲਵੋ</string>
+    
+    <string name="menu_encrypt">ਇਨਕ੍ਰਿਪਟ</string>
+    <string name="menu_decrypt">ਡਿਕ੍ਰਿਪਟ</string>
+
+    <!-- List -> Get info dialog -->
+    <string name="file_name">ਫਾਇਲ ਨਾਮ</string>
+    <string name="sample_rate">ਨਮੂਨਾ ਦੀ ਦਰ</string>
+    <string name="sample_rate_hz">Hz</string>
+    
+    <string name="recording_type_mono">ਮੋਨੋ</string>
+    <string name="recording_type_stereo">ਸਟੀਰੀਓ</string>
+    <string name="file_size">ਫਾਇਲ ਦਾ ਆਕਾਰ</string>
+    <string name="terabyte">ਟੀਬੀ</string>
+    <string name="gigabyte">ਜੀਬੀ</string>
+    <string name="megabyte">ਐਮਬੀ</string>
+    <string name="kilobyte">ਕੇਬੀ</string>
+    <string name="bytes">ਬਾਈਟ</string>
+    <string name="note">ਸੂਚਨਾ</string>
+
+    <!-- List -> Get info dialog -> Edit -->
+    <string name="contact_name">ਸੰਪਰਕ ਨਾਮ</string>
+    
+
+    <!-- List -> Confirm delete dialog -->
+    <string name="confirm_delete_message">ਕੀ ਤੁਸੀਂ ਪੱਕਾ ਇਸ ਰਿਕਾਰਡਿੰਗ ਨੂ ਮਿਟਾਉਨਾ ਚਾਹੁੰਦੇ ਹੋ?</string>
+    
+    
+
+    <!-- List -> Share -->
+    
+    <string name="recorded_calls">ਰਿਕਾਰਡ ਹੋਇਆ ਕੋਲਸ</string>
+
+    <!--  Settings -> Headers -->
+    <string name="settings_recording">ਰਿਕਾਰਡਿੰਗ</string>
+    <string name="settings_folders_and_files">ਫੋਲਡਰ ਅਤੇ ​​ਫਾਇਲ</string>
+    <string name="settings_ui_and_appearance">ਇੰਟਰਫੇਸ ਅਤੇ ਦਿਖਾਵਟ</string>
+    <string name="settings_security">ਸੁਰੱਖਿਆ</string>
+    
+    <string name="settings_audio_player">ਆਡੀਓ ਪਲੇਅਰ</string>
+    <string name="settings_debug">ਡੀਬੱਗ</string>
+    <string name="settings_about">ਬਾਰੇ</string>
+
+    <!-- Settings -> License -->
+    <string name="license_status">ਲਾਈਸਿੰਸ ਦਾ ਰੁਤਬਾ</string>
+    
+    
+    
+    
+    
+    <string name="license_help">ਮਦਦ ਕਰੋ</string>
+    
+    
+    <string name="license_trial">ਟਰਾਇਲ ਵਰਜਨ %ਸ ਨੂ ਸਮਾਪਤ ਹੋ ਜਾਵੇਗਾ</string>
+    
+    
+    
+    
+    
+    
+
+    <string name="buy_full_version">ਪੂਰਾ ਵਰਜਨ ਖਰੀਦੋ</string>
+    <string name="buy_full_version_summary">ਮੌਜੂਦਾ ਵਰਜਨ %s \'ਤੇ ਸਮਾਪਤ ਹੋ ਜਾਵੇਗਾ</string>
+
+    <!-- Settings -> Recording -->
+    <string name="recording_calls_switch">ਰਿਕਾਰਡਿੰਗ ਕਾਲ</string>
+    <string name="category_main">ਮੁੱਖ</string>
+    <string name="device">ਜੰਤਰ</string>
+    <string name="select_your_device">ਆਪਣਾ ਜੰਤਰ ਚੁਣੋ</string>
+    
+    
+    
+    <string name="device_other">ਹੋਰ</string>
+    <string name="recording_method">ਰਿਕਾਰਡਿੰਗ ਦਾ ਢੰਗ</string>
+    <string name="recording_method_api">ਸਟੇਡਰਡ API</string>
+    
+    <string name="recording_method_caf">CAF</string>
+    
+    
+    
+    
+    
+    <string name="category_actions">ਕਾਰਵਾਈ</string>
+    <string name="action_for_incoming">ਇਨਕਿਮੰਗ ਕਾਲ ਲਈ ਐਕਸ਼ਨ</string>
+    <string name="action_for_outgoing">ਬਾਹਰ ਜਾਣ ਕਾਲ ਲਈ ਐਕਸ਼ਨ</string>
+    <string name="action_record_all">ਸਭ ਨੂੰ ਰਿਕਾਰਡ ਕਰੋ</string>
+    <string name="action_do_not_record">ਰਿਕਾਰਡ ਨਾ ਕਰੋ</string>
+    <string name="action_record_contacts">ਸੰਪਰਕ ਨੂ ਰਿਕਾਰਡ ਕਰੋ</string>
+    <string name="action_record_non_contacts">ਸੰਪਰਕ ਤੋ ਬਾਹਰ ਵਾਲਿਯਾ ਨੂ ਰਿਕਾਰਡ ਕਰੋ</string>
+    <string name="call_confirm">ਕਾਲ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ</string>
+    <string name="call_confirm_summary">ਕਲ ਕਰਨ ਤੋ ਪਹਲਾ ਵਾਰਤਾਲਾਪ ਪੁਸ਼ਟੀ ਲਈ ਪੁਛੋ</string>
+    <string name="after_call_actions_dialog">ਕਾਲ ਤੋ ਬਾਅਦ ਕਾਰਵਾਈ ਵਾਰਤਾਲਾਪ</string>
+    <string name="after_call_actions_dialog_summary">ਕਾਲ ਤੋ ਬਾਅਦ ਵਿਚ ਪੁਛੋ ਕੀ ਕਿਰਨਾ ਹੈ</string>
+    <string name="vibrate_on_call">ਕਾਲ ਦੇ ਸ਼ੁਰੂ/ਅੰਤ ਵਿੱਚ ਹਿਲਾਓ</string>
+    <string name="exceptions">ਏਕ੍ਸਸੇਪਸ਼ਨ</string>
+    
+    
+    
+    <string name="delay_before_start_recording">ਰਿਕਾਰਡਿੰਗ ਸ਼ੁਰੂ ਕਰਨ ਤੋ ਪਹਲਾ ਦੇਰੀ</string>
+    
+    
+    
+    
+    
+    
+    <string name="recording_format_wav">WAV</string>
+    <string name="recording_format_amr">AMR</string>
+    <string name="recording_format_aac">AAC</string>
+    <string name="recording_format_mp3">MP3</string>
+    <string name="volume_control">ਵਾਲੀਅਮ ਕੰਟਰੋਲ</string>
+    
+    
+    
+    
+    <string name="sample_rate_8000">8000 Hz (ਮੂਲ)</string>
+    <string name="sample_rate_11025">11025 Hz</string>
+    <string name="sample_rate_16000">16000 Hz</string>
+    <string name="sample_rate_22050">22050 Hz</string>
+    <string name="sample_rate_44100">44100 Hz</string>
+    <string name="sample_rate_48000">48000 Hz</string>
+
+    <!-- Settings -> Recording -> Standard API -->
+    <string name="api_audio_source">ਆਡੀਓ ਸਰੋਤਰ</string>
+    <string name="api_source_uplink_downlink">ਵਾਇਸ ਕਾਲ ਉਪਲਿੰਕ + ਡੋਵਨਲਿੰਕ</string>
+    <string name="api_source_downlink">ਵਾਇਸ ਕਾਲ ਡੋਵਨਲਿੰਕ</string>
+    <string name="api_source_uplink">ਵਾਇਸ ਕਾਲ ਉਪਲਿੰਕ</string>
+    <string name="api_source_microphone">ਮਾਈਕਰੋਫੋਨ</string>
+    <string name="api_source_default">ਮੂਲ</string>
+    <string name="api_source_voice_communication">ਵਾਇਸ ਸੰਚਾਰ</string>
+    
+    
+
+    <!-- Settings -> Recording -> CAF -->
+    <string name="recording_mode">ਰਿਕਾਰਡਿੰਗ ਮੋਡ</string>
+
+    <!-- Settings -> Recording -> ALSA -->
+    
+    
+
+    <!-- Settings -> Recording -> MSM -->
+    <string name="chipset_type">ਚਿੱਪਸੈੱਟ ਦੀ ਕਿਸਮ</string>
+    <string name="chipset_type_msm72xx">Qualcomm MSM72XX</string>
+    <string name="chipset_type_msm8250">Qualcomm MSM8250</string>
+    <string name="chipset_type_msm8255">Qualcomm MSM8255</string>
+    <string name="chipset_type_msm8260">Qualcomm MSM8260</string>
+    
+    <string name="dont_use_amr_driver_summary">ਇਸ ਦੀ ਵਜਾਇ ਅਸਲੀ ਟਾਈਮ ਵਿੱਚ WAV ਤੋ AMR ਬਦਲੋ</string>
+
+    <!-- Settings -> Recording -> Exceptions -->
+    
+    <string name="exception_group">ਗਰੁੱਪ</string>
+    <string name="exception_select_group">ਗਰੁੱਪ ਚੁਣੋ</string>
+    
+    
+    <string name="exception_phone_number">ਫ਼ੋਨ ਨੰਬਰ</string>
+    
+    <string name="exception_select_action">ਕਾਰਵਾਈ ਚੁਣੋ</string>
+    <string name="exception_action_always_record">ਹਮੇਸ਼ਾ ਰਿਕਾਰਡ ਕਰੋ</string>
+    <string name="exception_action_never_record">ਕਦੇ ਵੀ ਰਿਕਾਰਡ ਨਾ ਕਰੋ</string>
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- Settings -> Folders and Files -->
+    <string name="folder">ਫੋਲਡਰ</string>
+    
+    <string name="automatic_cleanup">ਆਟੋਮੈਟਿਕ ਸਫ਼ਾਈ</string>
+    <string name="max_number_of_files">ਮੈਕਸ. ਫਾਇਲ ਦੀ ਗਿਣਤੀ</string>
+    <string name="max_number_of_files_message">ਇੱਕ ਨੰਬਰ ਦਿਓ (0 - ਕੋਈ ਸੀਮਾ ਨਹੀ)</string>
+    <string name="max_total_size_of_files">ਮੈਕਸ. ਫਾਇਲ ਦਾ ਕੁੱਲ ਅਕਾਰ</string>
+    <string name="max_total_size_of_files_message">ਮੈਗਾਬਾਈਟ ਵਿੱਚ ਮੁੱਲ ਦਿਓ (0 - ਕੋਈ ਸੀਮਾ ਨਹੀ)</string>
+    <string name="max_age_of_recordings">ਰਿਕਾਰਡਿੰਗ ਦੀ ਮੈਕਸ ਉਮਰ</string>
+    <string name="max_age_of_recordings_message">ਦਿਨ ਵਿੱਚ ਮੁੱਲ ਦਿਓ (0 - ਕੋਈ ਸੀਮਾ ਨਹੀ)</string>
+    <string name="current_setting">ਮੌਜੂਦਾ ਸੈਟਿੰਗ:%s</string>
+    
+    <string name="filename_pattern">ਪੈਟਰਨ</string>
+    <string name="time_pattern">ਟਾਈਮ ਪੈਟਰਨ</string>
+
+    <!-- Description for filename pattern -->
+    <string name="pattern_contact_name">ਸੰਪਰਕ ਨਾਮ</string>
+    <string name="pattern_phone_number">ਫ਼ੋਨ ਨੰਬਰ</string>
+    <string name="pattern_call_time">ਕਾਲ ਦਾ ਵਕਤ</string>
+    
+    <string name="pattern_call_type">ਕਿਸ ਕਿਸਮ ਦੀ ਕਾਲ (ਇਨ੍ਕੋਮਿੰਗ ਜਾ ਆਊਟਗੋਇੰਗ )</string>
+    <string name="time_pattern_hours">ਘੰਟੇ</string>
+    <string name="time_pattern_minutes">ਮਿੰਟ</string>
+    <string name="time_pattern_seconds">ਸਕਿੰਟ</string>
+    <string name="time_pattern_days">ਦਿਨ</string>
+    <string name="time_pattern_months">ਮਹੀਨੇ</string>
+    <string name="time_pattern_years">ਸਾਲ</string>
+    <string name="pattern_example">ਉਦਾਹਰਨ:</string>
+
+    <!--Settings -> Interface and Appearance-->
+    <string name="language">ਭਾਸ਼ਾ</string>
+    <string name="select_language">ਭਾਸ਼ਾ ਚੁਣੋ</string>
+    <string name="category_notification">ਸੂਚਨਾ</string>
+    <string name="show_notification">ਨੋਟੀਫਿਕੇਸ਼ਨ ਵੇਖਾਓ</string>
+    
+    
+    <string name="incall_control_for_outgoing">ਆਊਟਗੋਇੰਗ ਕਾਲ ਲਈ</string>
+    
+    <string name="incall_control_for_incoming">ਇਨਕਿਮੰਗ ਕਾਲ ਲਈ</string>
+    
+    
+    
+    <string name="show_button_while_ringing">ਘੰਟੀ ਦੌਰਾਨ ਬਟਨ ਵੇਖਾਓ</string>
+    <string name="show_button_while_ringing_summary">ਆਂਉਨ ਵਾਲੀ ਕਾਲ ਦਾ ਜਵਾਬ ਦੇਣ ਤੋ ਪਹਲਾ ਇਨ-ਕਾਲ ਕੰਟਰੋਲ ਵੇਖਾਓ</string>
+    <string name="vertical_position">ਲੰਬਕਾਰੀ ਸਥਿਤੀ</string>
+    
+    <string name="horizontal_position">ਲੇਟਵੀ ਸਥਿਤੀ</string>
+    
+    
+    
+    
+    
+
+    <!-- Settings -> Cloud -->
+    
+    <string name="cloud_provider_dropbox">Dropbox</string>
+    
+    
+    
+    
+    <string name="cloud_wifi_only">ਕੇਵਲ Wi-Fi</string>
+    <string name="cloud_auto_upload">ਆਟੋ ਅੱਪਲੋਡ</string>
+    <string name="cloud_auto_upload_summary">ਇਕਦਮ ਕਾਲ ਤੋ ਬਾਅਦ ਰਿਕਾਰਡਿੰਗ ਅੱਪਲੋਡ ਕਰੋ</string>
+    
+    
+
+    <!-- Notification -->
+    
+    
+
+    <!-- Password dialog -->
+    <string name="wrong_password">ਗਲਤ ਪਾਸਵਰਡ</string>
+    <string name="enter_password">ਪਾਸਵਰਡ ਦਿਓ</string>
+    <string name="password_has_been_changed">ਪਾਸਵਰਡ ਬਦਲ ਦਿੱਤਾ ਗਿਆ ਹੈ</string>
+
+    <!-- Settings -> Security -->
+    <string name="category_encryption">ਇੰਕ੍ਰਿਪਸ਼ਨ</string>
+    <string name="category_application">ਐਪਲੀਕੇਸ਼ਨ</string>
+    <string name="create_new_key">ਨਵੀ ਕੁੰਜੀ ਨੂੰ ਬਣਾਓ</string>
+    
+    
+    <string name="change_password">ਪਾਸਵਰਡ ਬਦਲੋ</string>
+    
+    
+    <string name="enter_old_password">ਪੁਰਾਣਾ ਪਾਸਵਰਡ ਭਰੋ</string>
+    <string name="enter_new_password">ਨਵਾ ਪਾਸਵਰਡ ਭਰੋ</string>
+    <string name="re_enter_new_password">ਦੁਬਾਰਾ ਨਵਾ ਪਾਸਵਰਡ ਭਰੋ</string>
+    <string name="require_password">ਪਾਸਵਰਡ ਦੀ ਲੋੜ ਹੈ</string>
+    <string name="require_password_summary">ਐਪਲੀਕੇਸ਼ਨ ਨੂੰ ਖੋਲਣ ਲਈ ਪਾਸਵਰਡ ਦੀ ਜਰੂਰਤ ਹੈ</string>
+    
+    <string name="lock_after">ਤੋ ਬਾਅਦ ਲੋਕ ਕਰੋ</string>
+    <string name="lock_after_exit">ਬਾਹਰ</string>
+    <string name="lock_after_1_minute">1 ਮਿੰਟ</string>
+    <string name="lock_after_3_minutes">3 ਮਿੰਟ</string>
+    <string name="lock_after_5_minutes">5 ਮਿੰਟ</string>
+    <string name="lock_after_10_minutes">10 ਮਿੰਟ</string>
+    <string name="app_admin">ਐਪਲੀਕੇਸ਼ਨ ਪਰਬੰਧਕ</string>
+    
+    
+    <string name="aes_128bit">128-bit AES (ਤੇਜ਼)</string>
+    <string name="aes_192bit">192-bit AES (ਸੰਤੁਲਿਤ)</string>
+    <string name="aes_256bit">256-bit AES (ਮਜ਼ਬੂਤ​​)</string>
+
+    <!-- Settings -> Audio player -->
+    
+    <string name="audio_output">ਆਡੀਓ ਆਉਟਪੁੱਟ</string>
+    
+    <string name="main_speaker">ਮੁੱਖ ਸਪੀਕਰ</string>
+    <string name="phone_speaker">ਫੋਨ ਸਪੀਕਰ</string>
+    <string name="use_proximity_sensor">ਨੇੜਤਾ ਸੂਚਕ ਵਰਤੋ</string>
+    
+    <string name="switch_audio_output">ਆਡੀਓ ਆਉਟਪੁੱਟ ਬਦਲੋ</string>
+    
+    <string name="android_wav_decoder">WAV ਐਡਰਾਇਡ ਡੀਕੋਰਡਰ ਦੀ ਵਰਤੋ ਕਰੋ</string>
+    <string name="android_wav_decoder_summary">WAV ਚਲਾਉਣ ਲਈ ਅੰਦਰ ਬਣੇ ਐਡਰਾਇਡ ਸੰਦ ਦੀ ਵਰਤੋ ਕਰੋ</string>
+    <string name="android_amr_decoder">AMR ਐਡਰਾਇਡ ਡੀਕੋਰਡਰ ਦੀ ਵਰਤੋ ਕਰੋ</string>
+    <string name="android_amr_decoder_summary">AMR ਚਲਾਉਣ ਲਈ ਅੰਦਰ ਬਣੇ ਐਡਰਾਇਡ ਸੰਦ ਦੀ ਵਰਤੋ ਕਰੋ</string>
+
+    <!--Settings -> Debug-->
+    <string name="root_access">ਰੂਟ ਪਹੁੰਚ</string>
+    <string name="root_access_no">ਨਹੀ</string>
+    <string name="root_access_yes">ਹਾ</string>
+    <string name="dual_sim_phone">ਡਿਊਲ ਸਿਮ ਫੋਨ</string>
+    <string name="dual_sim_phone_summary">ਇਸਨੁ ਏਨੇਬਲ ਕਰੋ ਜੇ ਅੱਪ ਤੁਹਾਡੇ ਦੂਜੇ ਸਿਮ ਕਾਰਡ ਤੋ ਕਾਲਸ ਨਹੀ ਲੈ ਸਕਦੀ</string>
+
+    <!-- General -->
+    <string name="contact_unknown">ਅਣਜਾਣ</string>
+    
+    <string name="button_ok">ਠੀਕ ਹੈ</string>
+    <string name="button_call">ਕਾਲ</string>
+    <string name="button_edit">ਸੋਧ</string>
+    <string name="button_cancel">ਰੱਦ ਕਰੋ</string>
+    <string name="button_create">ਬਣਾਓ</string>
+    <string name="button_delete">ਮਿਟਾਓ</string>
+    
+    
+    
+    <string name="call_incoming">ਇੰਕੋਮਿੰਗ</string>
+    <string name="call_outgoing">ਆਊਟਗੋਇੰਗ</string>
+    
+    <string name="start_recording">ਰਿਕਾਰਡਿੰਗ ਸ਼ੁਰੂ ਕਰੋ</string>
+    <string name="stop_recording">ਰਿਕਾਰਡਿੰਗ ਰੋਕੋ</string>
+    
+    <string name="switch_on">ਸ਼ੁਰੂ</string>
+    <string name="switch_off">ਬੰਦ</string>
+
+    <!-- Call confirm dialog -->
+    <string name="call_confirm_record_this_call">ਇਸ ਕਾਲ ਨੂ ਰਿਕਾਰਡ ਕਰੋ</string>
+    <string name="open_contact">ਸੰਪਰਕ ਖੋਲੋ</string>
+
+    <!--Notification-->
+    
+    
+    
+    <string name="an_error_has_occurred">ਇੱਕ ਗਲਤੀ ਆਈ ਹੈ, ਇਸ ਕਾਲ ਨੂੰ ਰਿਕਾਰਡ ਨਹੀ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ</string>
+
+    <!--About-->
+    
+    <string name="version">ਵਰਜਨ</string>
+    <string name="copyright">ਕਾਪੀਰਾਈਟ</string>
+    <string name="copyright_summary">© %s Alexander Skvortsov (skvalex)</string>
+    <string name="about_many_thanks">ਬਹੁਤ ਧੰਨਵਾਦ</string>
+    <string name="about_many_thanks_summary">ਨੂੰ Alexey Subbotin (avs234)</string>
+
+    <!--About -> Licenses-->
+    <string name="licenses">ਲਾਇਸੰਸ</string>
+    <string name="about_open_core_amr_license">ਓਪੇਨਕੋਰ-amr</string>
+    <string name="about_open_core_amr_license_summary">Opencore-AMR ਵਰਤਦਾ ਹੈ, ਅਪਾਚੇ ਲਾਈਸਿੰਸ ਵਰਜਨ 2.0 ਅਧੀਨ, ਲਈ ਇੱਥੇ ਕਲਿੱਕ ਕਰੋ visitopencore-amr.sourceforge.net</string>
+    <string name="about_alsa">ALSA</string>
+    <string name="about_alsa_summary">LGPL ਅਧੀਨ ALSA ਨੂੰ ਵਰਤਦਾ ਹੈ, ALSA-project.org ਤੇ ਜਾਣ ਲਈ ਇੱਥੇ ਕਲਿੱਕ ਕਰੋ</string>
+    <string name="about_lame">LAME</string>
+    <string name="about_lame_summary">LGPL ਅਧੀਨ ਲੰਗਡ਼ੇ ਵਰਤਦਾ ਹੈ, mp3dev.org ਤੇ ਜਾਣ ਲਈ ਇੱਥੇ ਕਲਿੱਕ ਕਰੋ</string>
+
+    <!--Credits-->
+    <string name="german_translation">ਜਰਮਨ ਅਨੁਵਾਦ</string>
+    <string name="german_translation_summary">Marc Hillesheim ਅਤੇ Thomas Käfer ਦੁਆਰਾ</string>
+    <string name="polish_translation">ਪੋਲਿਸ਼ ਅਨੁਵਾਦ</string>
+    <string name="polish_translation_summary">Robert Gonta ਦੁਆਰਾ</string>
+    <string name="french_translation">ਫ੍ਰੇੰਚ ਅਨੁਵਾਦ</string>
+    <string name="french_translation_summary">Julien Boiteux ਦੁਆਰਾ</string>
+    <string name="brazilian_portuguese_translation">ਬਰਾਜੀਲੀ ਪੁਰਤਗਾਲੀ ਅਨੁਵਾਦ</string>
+    <string name="brazilian_portuguese_translation_summary">Luiz Marcelo Serique ਦੁਆਰਾ</string>
+    <string name="spanish_translation">ਸਪੇਨੀ ਅਨੁਵਾਦ</string>
+    <string name="spanish_translation_summary">Iñigo Garcia ਅਤੇ Diego Vilas ਦੁਆਰਾ</string>
+    <string name="slovak_translation">ਸਲੋਵਾਕ ਅਨੁਵਾਦ</string>
+    <string name="slovak_translation_summary">Loránt Gerencsér ਦੁਆਰਾ</string>
+    <string name="italian_translation">ਇਤਾਲਵੀ ਅਨੁਵਾਦ</string>
+    
+    <string name="persian_translation">ਫ਼ਾਰਸੀ ਅਨੁਵਾਦ</string>
+    <string name="persian_translation_summary">Alireza Afkar ਦੁਆਰਾ</string>
+    <string name="chinese_translation">ਚੀਨੀ ਅਨੁਵਾਦ</string>
+    
+    <string name="czech_translation">ਚੇਕ ਅਨੁਵਾਦ</string>
+    <string name="czech_translation_summary">Ales Kerner ਅਤੇ Lukas Waldauf ਦੁਆਰਾ</string>
+    <string name="arabic_translation">ਅਰਬੀ ਅਨੁਵਾਦ</string>
+    <string name="arabic_translation_summary">Ausama S. Ibrahim ਦੁਆਰਾ</string>
+    <string name="hebrew_translation">ਇਬਰਾਨੀ ਅਨੁਵਾਦ</string>
+    <string name="hebrew_translation_summary">NuFlood ਦੁਆਰਾ</string>
+    <string name="hungarian_translation">ਹੰਗਰਿਅਨ ਅਨੁਵਾਦ</string>
+    <string name="hungarian_translation_summary">Szalay Levente ਅਤੇ Miklós Toldi ਦੁਆਰਾ</string>
+    <string name="dutch_translation">ਡੱਚ ਅਨੁਵਾਦ</string>
+    <string name="dutch_translation_summary">Elroy Tirbeni ਦੁਆਰਾ</string>
+    <string name="turkish_translation">ਤੁਰਕੀ ਅਨੁਵਾਦ</string>
+    <string name="turkish_translation_summary">Omer Ilik ਦੁਆਰਾ</string>
+    <string name="serbian_translation">ਸਰਬੀਆਈ ਅਨੁਵਾਦ</string>
+    <string name="serbian_translation_summary">sHAKaJaada ਦੁਆਰਾ</string>
+    <string name="korean_translation">ਕੋਰੀਆਈ ਅਨੁਵਾਦ</string>
+    <string name="korean_translation_summary">SoHyunSeop ਅਤੇ Joon Hee Jo ਦੁਆਰਾ</string>
+    <string name="romanian_translation">ਰੋਮਾਨੀ ਅਨੁਵਾਦ</string>
+    <string name="romanian_translation_summary">Dan P. (sad) ਦੁਆਰਾ</string>
+    <string name="ukrainian_translation">ਯੂਕਰੇਨੀ ਅਨੁਵਾਦ</string>
+    <string name="ukrainian_translation_summary">Gennadi Samoluk ਦੁਆਰਾ</string>
+    <string name="traditional_chinese_translation">ਮੂਲ ਚੀਨੀ ਅਨੁਵਾਦ</string>
+    <string name="traditional_chinese_translation_summary">GPF_kaibird ਅਤੇ Chien Jung Liaw ਦੁਆਰਾ</string>
+    <string name="japanese_translation">ਜਾਪਾਨੀ ਅਨੁਵਾਦ</string>
+    <string name="japanese_translation_summary">Akira Tagoh ਦੁਆਰਾ</string>
+    <string name="swedish_translation">ਸਵੀਡਨੀ ਅਨੁਵਾਦ</string>
+    <string name="swedish_translation_summary">Johannes Sjölund ਦੁਆਰਾ</string>
+    <string name="bulgarian_translation">ਕਰੋਏਸ਼ਿਆਈ ਅਨੁਵਾਦ</string>
+    <string name="bulgarian_translation_summary">PROXIMO ਦੁਆਰਾ</string>
+    <string name="danish_translation">ਲਾਤਵਿਆਈ ਅਨੁਵਾਦ</string>
+    <string name="danish_translation_summary">Lars Sarauw Hansen ਦੁਆਰਾ</string>
+    <string name="latvian_translation">ਲਾਟਵੀਅਨ ਅਨੁਵਾਦ</string>
+    <string name="latvian_translation_summary">Arvīds Dreimanis ਦੁਆਰਾ</string>
+    <string name="thai_translation">ਥਾਈ ਅਨੁਵਾਦ</string>
+    <string name="thai_translation_summary">Wuttisak Saichoncharn ਦੁਆਰਾ</string>
+    <string name="georgian_translation">ਜਾਰਜੀਅਨ ਅਨੁਵਾਦ</string>
+    <string name="georgian_translation_summary">Alexandre Razmadze ਦੁਆਰਾ</string>
+    <string name="catalan_translation">ਕੋਰਿਆਈ ਅਨੁਵਾਦ</string>
+    <string name="catalan_translation_summary">cybdani ਦੁਆਰਾ</string>
+    <string name="hindi_translation">ਹਿੰਦੀ ਅਨੁਵਾਦ</string>
+    <string name="hindi_translation_summary">TheTAMAS Gautam ਦੁਆਰਾ</string>
+    <string name="punjabi_translation">ਪੰਜਾਬੀ ਅਨੁਵਾਦ</string>
+    <string name="punjabi_translation_summary">ਰਾਜ ਵਰਮਾ ਦੁਆਰਾ Raj Verma</string>
+    <string name="finnish_translation">ਹਿਬਰੂ ਅਨੁਵਾਦ</string>
+    <string name="finnish_translation_summary">eero linnainmaa ਦੁਆਰਾ ਹਿਬਰੂ ਅਨੁਵਾਦ ਸੰਖੇਪ</string>
+    
+    
+    
+    
+</resources>
