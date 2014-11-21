@@ -454,4 +454,6 @@
     
 <string name="german_translation">Перевод на немецкий</string>
     <string name="german_translation_summary">от Marc Hillesheim и Thomas Käfer</string>
+    <string name="polish_translation">Перевод на польский</string>
+    <string name="polish_translation_summary">от Robert Gonta</string>
     </resources>
