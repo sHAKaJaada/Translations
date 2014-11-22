@@ -463,4 +463,11 @@
     <string name="section_by_contact">Kontakt</string>
     <string name="section_by_format">Format</string>
     <string name="section_by_label">Etikett</string>
+    <string name="section_tasks_hint">Här visas tidskrävande processer för inspelningar som konvertering, kryptering eller uppladdning till molntjänst</string>
+    <string name="action_sort">Sortera</string>
+    <string name="action_refresh">Uppdatera</string>
+    <string name="action_delete">Radera</string>
+    <string name="action_add_star">Lägg till stjärna</string>
+    <string name="action_remove_star">Ta bort stjärna</string>
+    <string name="action_share">Dela</string>
     </resources>
