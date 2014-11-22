@@ -470,4 +470,11 @@
     <string name="action_add_star">Lägg till stjärna</string>
     <string name="action_remove_star">Ta bort stjärna</string>
     <string name="action_share">Dela</string>
+    <string name="sort_by_date">Datum</string>
+    <string name="sort_by_contact">Kontakt</string>
+    <string name="sort_by_file_size">Filstorlek</string>
+
+    <string name="list_header_today">Idag</string>
+    <string name="list_header_yesterday">Igår</string>
+    <string name="queued">Köade</string>
     </resources>
