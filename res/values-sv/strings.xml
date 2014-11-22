@@ -460,4 +460,7 @@
 
     <string name="section_all_recordings">Alla inspelningar</string>
     <string name="section_starred">Stjärnmärkt</string>
+    <string name="section_by_contact">Kontakt</string>
+    <string name="section_by_format">Format</string>
+    <string name="section_by_label">Etikett</string>
     </resources>
