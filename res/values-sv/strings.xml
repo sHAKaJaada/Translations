@@ -477,4 +477,18 @@
     <string name="list_header_today">Idag</string>
     <string name="list_header_yesterday">Igår</string>
     <string name="queued">Köade</string>
+    <string name="no_connection">Ingen mottagning</string>
+
+    <string name="menu_add_note">Lägg till notis</string>
+    <string name="menu_edit_note">Redigera notis</string>
+    <string name="menu_share">Dela</string>
+    <string name="menu_convert_to_mp3">Konvertera till MP3</string>
+    <string name="menu_convert_to_amr">Konvertera till AMR</string>
+    <string name="menu_cancel_task">Avbryt process</string>
+    <string name="recording_type">Inspelningstyp</string>
+    <string name="note">Notis</string>
+
+    <string name="confirm_delete_several_title">Bekräfta radering</string>
+    <string name="confirm_delete_several_message">Du har valt %d inspelningar. Är du säker på att du vill radera dem?</string>
+
     </resources>
