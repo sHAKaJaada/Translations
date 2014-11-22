@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">CallRecorder</string>
     
@@ -452,4 +452,28 @@
     <string name="belarusian_translation_summary">di Alexander Kuvshinov</string>
     <string name="vietnamese_translation">Traduzione vietnamita</string>
     <string name="vietnamese_translation_summary">di Truong Hoang Trung</string>
-</resources>
+<string name="terms_of_use">Condizioni d\'uso</string>
+    <string name="terms_of_use_message">Utilizzando questa app, accetti le &lt;a href=http://rec.sh/terms&gt;Condizioni d'uso&lt;/a&gt; di CallRecorder.</string>
+
+    <string name="navigation_drawer_open">Apri cassetto di navigazione</string>
+    <string name="navigation_drawer_close">Chiudi cassetto di navigazione</string>
+
+    <string name="section_all_recordings">Tutte le registrazioni</string>
+    <string name="section_starred">Preferiti</string>
+    <string name="section_by_contact">Per contatto</string>
+    <string name="section_by_format">Per formato</string>
+    <string name="section_by_label">Per etichetta</string>
+    <string name="section_tasks_hint">Le operazioni sulle registrazioni che richiedono tempo, come la conversione, la cifratura o il caricamento su cloud saranno visualizzate qui</string>
+    <string name="action_sort">Ordina</string>
+    <string name="action_refresh">Aggiorna</string>
+    <string name="action_delete">Cancella</string>
+    <string name="action_add_star">Aggiungi a preferiti</string>
+    <string name="action_remove_star">Rimuovi da preferiti</string>
+    <string name="action_share">Condividi</string>
+    <string name="sort_by_date">Per data</string>
+    <string name="sort_by_contact">Per contatto</string>
+    <string name="sort_by_file_size">Per dimensione file</string>
+
+    <string name="list_header_today">Oggi</string>
+    <string name="list_header_yesterday">Ieri</string>
+    </resources>
