@@ -51,7 +51,7 @@
     
     <string name="menu_get_info">Získať informácie</string>
     
-    <string name="menu_encrypt">Kódovať</string>
+    <string name="menu_encrypt">Zakódovať</string>
     <string name="menu_decrypt">Odkódovať</string>
 
     <!-- List -> Get info dialog -->
@@ -290,7 +290,7 @@
     <string name="password_has_been_changed">Heslo bolo zmenené</string>
 
     <!-- Settings -> Security -->
-    <string name="category_encryption">Kódovanie</string>
+    <string name="category_encryption">Zakódovanie</string>
     <string name="category_application">Aplikácia</string>
     <string name="create_new_key">Vytvoriť nový kľúč</string>
     
@@ -463,7 +463,7 @@
     <string name="section_by_contact">Podľa kontaktu</string>
     <string name="section_by_format">Podľa formátu</string>
     <string name="section_by_label">Podľa značky</string>
-    <string name="section_tasks_hint">Časovo náročné úlohy s nahrávkami hovorov, napríklad konvertovanie, kódovanie alebo odovzdanie do vzdialeného úložiska budú zobrazené tu</string>
+    <string name="section_tasks_hint">Časovo náročné úlohy s nahrávkami hovorov, napríklad konvertovanie, zakódovanie alebo odovzdanie do vzdialeného úložiska budú zobrazené tu</string>
     <string name="action_sort">Zoradiť</string>
     <string name="action_refresh">Aktualizovať</string>
     <string name="action_delete">Vymazať</string>
@@ -568,7 +568,7 @@
     <string name="notify_uploading_dropbox">Odovzdať na Dropbox</string>
     <string name="notify_tasks_remaining">zostáva %d nahrávok</string>
 
-    <string name="create_new_key_summary">Tento kľúč bude neskôr použitý na kódovanie nahrávok alebo pre vstup do aplikácie</string>
+    <string name="create_new_key_summary">Tento kľúč bude neskôr použitý na zakódovanie nahrávok alebo pre vstup do aplikácie</string>
     <string name="delete_key">Vymazať kľúč</string>
     <string name="use_built_in_player">Použiť vstavaný prehrávač</string>
     <string name="about_call_recorder">O aplikácii Call Recorder</string>
