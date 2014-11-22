@@ -476,4 +476,31 @@
 
     <string name="list_header_today">Oggi</string>
     <string name="list_header_yesterday">Ieri</string>
+    <string name="queued">In coda</string>
+    <string name="no_connection">Non connesso</string>
+
+    <string name="menu_add_note">Aggiungi nota</string>
+    <string name="menu_edit_note">Modifica nota</string>
+    <string name="menu_share">Condividi</string>
+    <string name="menu_convert_to_mp3">Converti in MP3</string>
+    <string name="menu_convert_to_amr">Converti in AMR</string>
+    <string name="menu_cancel_task">Annulla operazione</string>
+    <string name="recording_type">Tipo di registrazione</string>
+    <string name="note">Nota</string>
+
+    <string name="confirm_delete_several_title">Conferma eliminazione</string>
+    <string name="confirm_delete_several_message">%d registrazioni selezionate. Eliminare?</string>
+
+    <string name="share_via">Condividi tramite</string>
+    <string name="settings_cloud">Cloud.</string>
+    <string name="license_check_pending">Controllo licenza in corso</string>
+    <string name="license_check_failed">Verifica licenza non riuscita</string>
+    <string name="license_check_failed_summary">Toccare per dettagli</string>
+    <string name="license_verified">Licenza verificata</string>
+    <string name="license_verified_summary">Tocca per nascondere</string>
+    <string name="license_help">Aiuto</string>
+    <string name="license_signature_verification_failed">Verifica della firma non riuscita</string>
+    <string name="license_error_message">Errore #%1$s: %2$s</string>
+    <string name="license_unknown_error">Errore sconosciuto</string>
+    <string name="license_not_market_managed">Questa versione non è ancora stata pubblicata su Play Store</string>
     </resources>
