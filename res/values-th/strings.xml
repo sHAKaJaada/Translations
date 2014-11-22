@@ -571,4 +571,11 @@
     <string name="create_new_key_summary">คีย์นี้จะถูกใช้หลังจากเข้ารหัสบันทึกหรือเข้าใช้แอพ</string>
     <string name="delete_key">ลบคีย์</string>
     <string name="delete_key_summary">คำเตือน! คุณจะไม่สามารถกู้คืนบันทึกที่เข้ารหัสถ้าคุณเข้ารหัสด้วยคีย์นี้, แม้ว่าคุณจะสร้างรหัสใหม่ด้วยรหัสผ่านเดียวกัน</string>
+    <string name="delete_key_message">หลังจากลบคุณจะไม่สามารถกู้คืนบันทึกที่เข้ารหัสด้วยคีย์นี้. คุณแน่ใจหรือไม่?</string>
+    <string name="require_password_summary_no_key">ต้องการรหัสผ่านเพื่อเปิดแอพ. เพื่อเปิดใช้งานคุณต้องสร้างคีย์เป็นอันดับแรก</string>
+    <string name="app_admin_summary">จำเป็นที่จะต้องป้องกันไม่ให้ถอนการติดตั้ง Call Recorder</string>
+    <string name="app_admin_explanation">Call Recorder ไม่ได้ใช้คุณลักษณะใดๆ ของผู้ดูแลระบบ ยกเว้นการปกป้องถอนการติดตั้ง</string>
+    <string name="use_built_in_player">ใช้ตัวเล่นภายใน</string>
+    <string name="audio_output_summary">%s (แตกค้างที่ปุ่มเล่น/หยุดชั่วคราว เพื่อสลับงาน)</string>
+    <string name="use_proximity_sensor_summary">ปิดการใช้งานหน้าจอโดยเซ็นเซอร์ความใกล้ชิดในระหว่างการเล่น</string>
     </resources>
