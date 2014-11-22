@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">CallRecorder</string>
+    <string name="app_name">Call Recorder</string>
     
     
 
@@ -453,7 +453,7 @@
     <string name="vietnamese_translation">Vietnamský preklad</string>
     <string name="vietnamese_translation_summary">Truong Hoang Trung</string>
 <string name="terms_of_use">Podmienky používania</string>
-    <string name="terms_of_use_message">Používaním aplikácie vyjadrujete svoj súhlas s &lt;a href=http://rec.sh/terms&gt;Podmienkami používania&lt;/a&gt; CallRecorder-u.</string>
+    <string name="terms_of_use_message">Používaním aplikácie vyjadrujete svoj súhlas s &lt;a href=http://rec.sh/terms&gt;Podmienkami používania&lt;/a&gt; Call Recorder-u.</string>
 
     <string name="navigation_drawer_open">Otvoriť navigačný panel</string>
     <string name="navigation_drawer_close">Zatvoriť navigačný panel</string>
@@ -577,4 +577,22 @@
     <string name="waiting_for_answer">Čakanie na odpoveď</string>
     <string name="recording_in_progress">Nahráva sa</string>
     <string name="no_recording_in_progress">Nenahráva sa</string>
+    <string name="button_choose">Vybrať</string>
+    <string name="app_admin_summary">Potrebné aby sa zabránilo odinštalovaniu Call Recorderu</string>
+    <string name="app_admin_explanation">Call Recorder nepoužíva žiadnu administrátorskú funkciu zariadenia okrem ochrany pred odinštalovaním</string>
+    <string name="delete_key_summary">Upozornenie! Nikdy nebudete môcť obnoviť nahrávky, ak ste ich zakódovali týmto kľúčom, aj keď vytvorte nový kľúč s rovnakým heslom</string>
+    <string name="delete_key_message">Po vymazaní nebudete môcť obnoviť zakódované nahrávky týmto kľúčom. Naozaj chcete pokračovať?</string>
+    <string name="require_password_summary_no_key">Vyžadovať heslo pre otvorenie aplikácie. Aby to bolo možné, mali by ste najskôr vytvoriť kľúč</string>
+    <string name="audio_output_summary">%s (Dlhým stlačením tlačidla prehrať/pauza sa prepne)</string>
+    <string name="use_proximity_sensor_summary">Použiť proximity senzor na deaktivovanie obrazovky počas prehrávania</string>
+    <string name="switch_audio_output_summary">Automaticky prepnúť výstup zvuku ak je obrazovka zakázaná/povolená pomocou proximity senzoru</string>
+    <string name="button_call">Hovor</string>
+    <string name="button_create">Vytvoriť</string>
+    <string name="button_delete">Vymazať</string>
+    <string name="button_delete_wait">Vytvoriť (%d)</string>
+    <string name="decline">Odmietnuť</string>
+    <string name="accept">Prijať</string>
+    <string name="call_incoming">Prichádzajúce</string>
+    <string name="call_outgoing">Odchádzajúce</string>
+    <string name="action_mode_selected">%d označené (-ých)</string>
     </resources>
