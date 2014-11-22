@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">通話錄音</string>
     
@@ -452,4 +452,17 @@
     <string name="belarusian_translation_summary">由 Alexander Kuvshinov 翻譯</string>
     <string name="vietnamese_translation">越南語</string>
     <string name="vietnamese_translation_summary">由 Truong Hoang Trung 翻譯</string>
-</resources>
+<string name="terms_of_use">使用條款</string>
+    <string name="navigation_drawer_open">開啟導航抽屜</string>
+    <string name="navigation_drawer_close">關閉導航抽屜</string>
+
+    <string name="section_all_recordings">全部通話</string>
+    <string name="exception_groups_not_found">沒有發現群組</string>
+    <string name="exception_contacts_not_found">沒有發現聯絡人</string>
+    <string name="exceptions_not_added">沒有增加例外</string>
+    <string name="exception_by_contact">依照聯絡人</string>
+    <string name="exception_by_group">依照群組</string>
+    <string name="exception_by_phone_number">依照電話號碼</string>
+    <string name="exception_delete_message">你確定要刪除這個例外?</string>
+
+    </resources>
