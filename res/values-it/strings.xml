@@ -123,7 +123,7 @@
     
     <string name="device_other">Altro</string>
     <string name="recording_method">Metodo di registrazione</string>
-    <string name="recording_method_api">Standard API</string>
+    <string name="recording_method_api">API standard</string>
     <string name="recording_method_api_settings">Impostazioni di registrazione Standard API</string>
     <string name="recording_method_caf">CAF</string>
     <string name="recording_method_caf_settings">Impostazioni di registrazione CAF</string>
@@ -353,7 +353,7 @@
     
     
     
-    <string name="please_wait">Attendere prego...</string>
+    <string name="please_wait">Attendere prego…</string>
     <string name="start_recording">Avvia la registrazione</string>
     <string name="stop_recording">Arresta la registrazione</string>
     
@@ -455,8 +455,8 @@
 <string name="terms_of_use">Condizioni d\'uso</string>
     <string name="terms_of_use_message">Utilizzando questa app, accetti le &lt;a href=http://rec.sh/terms&gt;Condizioni d'uso&lt;/a&gt; di CallRecorder.</string>
 
-    <string name="navigation_drawer_open">Apri cassetto di navigazione</string>
-    <string name="navigation_drawer_close">Chiudi cassetto di navigazione</string>
+    <string name="navigation_drawer_open">Apri menu di navigazione</string>
+    <string name="navigation_drawer_close">Chiudi menu di navigazione</string>
 
     <string name="section_all_recordings">Tutte le registrazioni</string>
     <string name="section_starred">Preferiti</string>
@@ -492,7 +492,7 @@
     <string name="confirm_delete_several_message">%d registrazioni selezionate. Eliminare?</string>
 
     <string name="share_via">Condividi tramite</string>
-    <string name="settings_cloud">Cloud.</string>
+    <string name="settings_cloud">Cloud</string>
     <string name="license_check_pending">Controllo licenza in corso</string>
     <string name="license_check_failed">Verifica licenza non riuscita</string>
     <string name="license_check_failed_summary">Toccare per dettagli</string>
@@ -503,4 +503,46 @@
     <string name="license_error_message">Errore #%1$s: %2$s</string>
     <string name="license_unknown_error">Errore sconosciuto</string>
     <string name="license_not_market_managed">Questa versione non è ancora stata pubblicata su Play Store</string>
+    <string name="license_error_contacting_server">Errore di connessione al server</string>
+    <string name="license_server_error">Errore del server</string>
+    <string name="license_over_quota">Troppe richieste da questo dispositivo</string>
+
+    <string name="device_change_settings_empty">Le impostazioni per questo dispositivo sono già state applicate</string>
+    <string name="device_root_is_required">Root richiesto</string>
+    <string name="device_root_is_required_summary">Per una migliore qualità su questo dispositivo sono richiesti i diritti di root</string>
+    <string name="recording_method_msm">MSM</string>
+    <string name="recording_method_msm_settings">Impostazioni per il metodo di registrazione MSM</string>
+    <string name="exceptions_summary">Imposta azioni specifiche per contatti, gruppi o numeri di telefono</string>
+    <string name="start_recording_on_answer">Avvia registrazione alla risposta</string>
+    <string name="license_incorrect_response">Risposta errata da Play Store su controllo licenza</string>
+    <string name="delay_before_start_recording_summary">In uscita: %1$s, in entrata: %2$s</string>
+    <string name="delay_format_sec">%s sec</string>
+    <string name="delay_for_outgoing">Per uscenti</string>
+    <string name="delay_for_incoming">Per entranti</string>
+    <string name="settings_for_device">Impostazioni per %s</string>
+    <string name="recording_format">Formato di registrazione</string>
+    <string name="volume_control_summary">Tx: %1$s, Rx: %2$s</string>
+    <string name="volume_control_overall">Volume complessivo</string>
+    <string name="category_wav_and_mp3_settings">Impostazioni WAV e MP3</string>
+
+    <string name="alsa_is_not_installed">Richiede installazione di ALSA</string>
+    <string name="alsa_is_not_installed_summary">Tocca qui per installare ALSA</string>
+
+    <string name="add_exception">Aggiungi eccezione</string>
+    <string name="exception_contact">Contatto</string>
+    <string name="exception_select_contact">Seleziona contatto</string>
+    <string name="exception_phone_number">Numero telefonico</string>
+    <string name="exception_action">Azione</string>
+    <string name="exception_groups_not_found">Gruppi non trovati</string>
+    <string name="exception_contacts_not_found">Contatti non trovati</string>
+    <string name="exceptions_not_added">Eccezioni non aggiunte</string>
+    <string name="exception_by_contact">Per contatto</string>
+    <string name="exception_by_group">Per gruppo</string>
+    <string name="exception_by_phone_number">Per numero telefonico</string>
+    <string name="exception_delete_message">Rimuovere questa eccezione?</string>
+
+    <string name="folder_chooser_up_to">↑ Livello superiore: %s</string>
+    <string name="settings_filename">Nome file</string>
+    <string name="show_notification_summary">Notifica permanente nella barra di stato</string>
+    <string name="category_incall_control_button">Tasto di controllo in chiamata</string>
     </resources>
