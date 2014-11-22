@@ -580,4 +580,21 @@
     <string name="use_proximity_sensor_summary">ปิดการใช้งานหน้าจอโดยเซ็นเซอร์ความใกล้ชิดในระหว่างการเล่น</string>
     <string name="switch_audio_output_summary">สลับสัญญาณเสียงออกอัตโนมัติเมื่อหน้าจอถูกปิด/เปิดใช้งานโดยเซ็นเซอร์ความใกล้ชิด</string>
     <string name="button_choose">เลือก</string>
+    <string name="button_call">โทร</string>
+    <string name="button_create">สร้าง</string>
+    <string name="button_delete">ลบ</string>
+    <string name="button_delete_wait">ลบ (%d)</string>
+    <string name="decline">ปฏิเสธ</string>
+    <string name="accept">ยอมรับ</string>
+    <string name="call_incoming">สายโทรเข้า</string>
+    <string name="call_outgoing">สายโทรออก</string>
+    <string name="action_mode_selected">%d ถูกเลือก</string>
+    <string name="open_contact">เปิดรายชื่อ</string>
+
+    <string name="waiting_for_answer">กำลังรอการรับสาย</string>
+    <string name="recording_in_progress">การบันทึกกำลังดำเนินการ</string>
+    <string name="no_recording_in_progress">ไม่มีการบันทึก</string>
+    <string name="about_call_recorder">เกี่ยวกับ Call Recorder</string>
+    <string name="italian_translation_summary">โดย Luca Trevisan และ Francesco Cafagna</string>
+    <string name="chinese_translation_summary">โดย qhq และ Yu Fei</string>
     </resources>
