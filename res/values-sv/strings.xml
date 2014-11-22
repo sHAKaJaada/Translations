@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">CallRecorder</string>
     
@@ -452,4 +452,12 @@
     <string name="belarusian_translation_summary">av Alexander Kuvshinov</string>
     <string name="vietnamese_translation">Vietnamesisk översättning</string>
     <string name="vietnamese_translation_summary">av Truong Hoang Trung</string>
-</resources>
+<string name="terms_of_use">Användarvillkor</string>
+    <string name="terms_of_use_message">Genom att använda appen godtar du CallRecorders &lt;a href=http://rec.sh/terms&gt;Användarvillkor&lt;/a&gt;.</string>
+
+    <string name="navigation_drawer_open">Öppna navigeringsmeny</string>
+    <string name="navigation_drawer_close">Stäng navigeringsmeny</string>
+
+    <string name="section_all_recordings">Alla inspelningar</string>
+    <string name="section_starred">Stjärnmärkt</string>
+    </resources>
