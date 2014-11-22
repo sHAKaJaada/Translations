@@ -578,4 +578,6 @@
     <string name="use_built_in_player">ใช้ตัวเล่นภายใน</string>
     <string name="audio_output_summary">%s (แตกค้างที่ปุ่มเล่น/หยุดชั่วคราว เพื่อสลับงาน)</string>
     <string name="use_proximity_sensor_summary">ปิดการใช้งานหน้าจอโดยเซ็นเซอร์ความใกล้ชิดในระหว่างการเล่น</string>
+    <string name="switch_audio_output_summary">สลับสัญญาณเสียงออกอัตโนมัติเมื่อหน้าจอถูกปิด/เปิดใช้งานโดยเซ็นเซอร์ความใกล้ชิด</string>
+    <string name="button_choose">เลือก</string>
     </resources>
