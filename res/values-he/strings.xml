@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">CallRecorder</string>
     
@@ -452,4 +452,38 @@
     <string name="belarusian_translation_summary">ע"י Alexander Kuvshinov</string>
     <string name="vietnamese_translation">תרגום לויאטנמית</string>
     <string name="vietnamese_translation_summary">ע"י Truong Hoang Trung</string>
-</resources>
+<string name="terms_of_use">כללי שימוש</string>
+    <string name="terms_of_use_message">בשימוש באפליקציה זו אתה מסכים ל &lt;a href=http://rec.sh/terms&gt;כללי השימוש&lt;/a&gt; של CallRecorder.</string>
+
+    <string name="navigation_drawer_open">פתח מגירת ניווט</string>
+    <string name="navigation_drawer_close">סגור מגירת ניווט</string>
+
+    <string name="section_all_recordings">כל ההקלטות</string>
+    <string name="section_starred">מודגש</string>
+    <string name="section_by_contact">על פי איש קשר</string>
+    <string name="section_by_format">על פי פורמט</string>
+    <string name="section_by_label">על פי תגית</string>
+    <string name="section_tasks_hint">משימות צורכות זמן כמו המרה, קידוד או העלאה לשירותי ענן יוצגו פה</string>
+    <string name="action_sort">מיין</string>
+    <string name="action_refresh">רענן</string>
+    <string name="action_delete">מחק</string>
+    <string name="action_add_star">הוסף הדגשה</string>
+    <string name="action_remove_star">הסר הדגשה</string>
+    <string name="action_share">שתף</string>
+    <string name="sort_by_date">על פי תאריך</string>
+    <string name="sort_by_contact">על פי איש קשר</string>
+    <string name="sort_by_file_size">על פי גודל קובץ</string>
+
+    <string name="list_header_today">היום</string>
+    <string name="list_header_yesterday">אתמול</string>
+    <string name="queued">בתור</string>
+    <string name="no_connection">אין חיבור</string>
+
+    <string name="menu_add_note">הוסף הערה</string>
+    <string name="menu_edit_note">ערוך הערה</string>
+    <string name="menu_share">שתף</string>
+    <string name="menu_convert_to_mp3">המר לMP3</string>
+    <string name="menu_convert_to_amr">המר לAMR</string>
+    <string name="menu_cancel_task">בטל משימה</string>
+    <string name="recording_type">סוג הקלטה</string>
+    </resources>
