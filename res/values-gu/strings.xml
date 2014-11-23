@@ -2,10 +2,10 @@
 <resources>
     <string name="app_name">કોલ રેકોર્ડર</string>
 <string name="terms_of_use">ઉપયોગની શરતો</string>
-    <string name="terms_of_use_message">એપ્લિકેશન ઉપયોગ કરીને, તમે આ કોલ રેકોર્ડર માતાનો માટે સંમત &lt;a href=http://rec.sh/terms&gt;ઉપયોગની શરતો&lt;/a&gt;.</string>
+    <string name="terms_of_use_message">બ્ય એપ્લિકેશન ઉપયોગ કરીને, તમે આ કોલ રેકોર્ડર માતાનો માટે સંમત &lt;a href=http://rec.sh/terms&gt;ઉપયોગની શરતો&lt;/a&gt;.</string>
 
     <string name="navigation_drawer_open">ઓપન સંશોધક ડ્રોવરને</string>
-    <string name="navigation_drawer_close">બંધ કરો સંશોધક ડ્રોવરને</string>
+    <string name="navigation_drawer_close">બંધ સંશોધક ડ્રોવરને</string>
 
     <string name="section_all_recordings">બધા રેકોર્ડિંગ્સ</string>
     <string name="section_starred">તારાંકિત</string>
