@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">Call Recorder</string>
-</resources>
+<string name="terms_of_use">விதிமுறைகள்</string>
+    <string name="terms_of_use_message">பயன்பாட்டை பயன்படுத்தி, நீங்கள் CallRecorder தான் ஒப்புக்கொள்கிறேன் &lt;a href=http://rec.sh/terms&gt;விதிமுறைகள்&lt;/a&gt;.</string>
+
+    <string name="navigation_drawer_open">வழிசெலுத்தல் இடத்தைத் திற</string>
+    <string name="navigation_drawer_close">வழிசெலுத்தல் இடத்தை மூடு</string>
+
+    <string name="section_all_recordings">அனைத்து பதிவுகளை</string>
+    <string name="section_starred">நடித்தார்</string>
+    <string name="section_incoming">உள்வரும்</string>
+    <string name="section_outgoing">வெளிச்செல்லும்</string>
+    <string name="section_by_contact">தொடர்பு மூலம்</string>
+    <string name="section_by_format">வடிவம் மூலம்</string>
+    <string name="section_by_label">லேபிள்</string>
+    <string name="section_help">உதவி</string>
+    <string name="section_tasks">பணிகள்</string>
+    <string name="section_tasks_hint">நேரம் எடுத்துக்கொள்ளும் போன்ற இங்கே காட்டப்படும் ஒரு மேகம், மாற்றும் மறையீடாக்கம் அல்லது பதிவேற்ற போல் பதிவுகளை கொண்டு பணிகளை</string>
+    <string name="empty_hint">வெற்று</string>
+
+    </resources>
