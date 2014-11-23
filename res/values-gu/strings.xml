@@ -134,7 +134,7 @@
     <string name="exceptions">અપવાદો</string>
     <string name="exceptions_summary">સંપર્કો, જૂથો, અથવા ફોન નંબરો માટે સુયોજિત ચોક્કસ ક્રિયાઓ</string>
     <string name="start_recording_on_answer">જવાબ પર રેકોર્ડિંગ શરૂ</string>
-    <string name="start_recording_on_answer_summary">એક આઉટગોઇંગ કોલને જવાબ છે એક વખત રેકોર્ડીંગ શરૂ કરો| એપ્લિકેશન બીજી બાજુ જવાબો, તેથી આ લક્ષણ અમુક ઉપકરણો પર નિષ્ફળ જશે ત્યારે એક ક્ષણ શોધી માટે એક બિનદસ્તાવેજીકૃત ઉકેલ ઉપયોગ કરે છે| રુટ એન્ડ્રોઇડ 4.1 જેલી બીન ત્યારથી જરૂરી છે| કર્નલમાં લોગર અનેબલ્ડ હોવી જોઈએ|</string>
+    <string name="start_recording_on_answer_summary">એક આઉટગોઇંગ કોલને જવાબ છે એક વખત રેકોર્ડીંગ શરૂ કરો| એપ્લિકેશન બીજી બાજુ જવાબો, તેથી આ લક્ષણ અમુક ઉપકરણો પર નિષ્ફળ જશે ત્યારે એક ક્ષણ શોધી માટે એક બિનદસ્તાવેજીકૃત ઉકેલ ઉપયોગ કરે છે| રુટ એન્ડ્રોઇડ 4.1 જેલી બીન ત્યારથી જરૂરી છે| કર્નલમાં લોગર અનેબલ્ડ હોવી જોઈએ.</string>
     <string name="delay_before_start_recording">શરૂઆત રેકોર્ડિંગ પહેલા વિલંબ</string>
     <string name="delay_before_start_recording_summary">આઉટગોઇંગ માટે: %1$, આવનારા માટે: %2$ ઓ</string>
     <string name="delay_format_sec">%s સેકન્ડ</string>
