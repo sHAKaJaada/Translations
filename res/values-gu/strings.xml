@@ -11,12 +11,12 @@
     <string name="section_starred">તારાંકિત</string>
     <string name="section_incoming">ઇનકમિંગ</string>
     <string name="section_outgoing">આઉટગોઇંગ</string>
-    <string name="section_by_contact">સંપર્ક કરીને</string>
+    <string name="section_by_contact">સંપર્ક દ્વારા</string>
     <string name="section_by_format">બંધારણમાં દ્વારા</string>
     <string name="section_by_label">લેબલ દ્વારા</string>
     <string name="section_help">મદદ</string>
-    <string name="section_tasks">કાર્યો</string>
-    <string name="section_tasks_hint">સમય માંગી આવા અહીં પ્રદર્શિત થશે એક વાદળ માટે, રૂપાંતર એનક્રિપ્ટ અથવા અપલોડ તરીકે રેકોર્ડિંગ્સ સાથે ક્રિયાઓ</string>
+    <string name="section_tasks">કાર્ય</string>
+    <string name="section_tasks_hint">સમય માંગી આવા રૂપાંતર તરીકે રેકોર્ડિંગ્સ સાથે ક્રિયાઓ, એક વાદળ માટે એનક્રિપ્ટ અથવા અપલોડ અહીં પ્રદર્શિત થશે</string>
     <string name="empty_hint">ખાલી</string>
 
     <string name="action_search">શોધો</string>
@@ -29,7 +29,7 @@
     <string name="action_share">શેર</string>
     <string name="action_select_all">બધા પસંદ</string>
     <string name="sort_by_date">તારીખ દ્વારા</string>
-    <string name="sort_by_contact">સંપર્ક કરીને</string>
+    <string name="sort_by_contact">સંપર્ક દ્વારા</string>
     <string name="sort_by_file_size">ફાઈલ માપ દ્વારા</string>
 
     <string name="list_header_today">આજે</string>
@@ -39,11 +39,11 @@
 
     <string name="menu_add_to_dropbox">ડ્રૉપબૉક્સ ઉમેરો</string>
     <string name="menu_add_note">નોંધ ઉમેરવા</string>
-    <string name="menu_edit_note">ફેરફાર કરો નોંધ</string>
+    <string name="menu_edit_note">ફેરફાર કરો ફેરફાર કરો નોંધ</string>
     <string name="menu_delete">કાઢી</string>
     <string name="menu_share">શેર</string>
-    <string name="menu_convert_to_mp3">એમપી 3 રૂપાંતરિત</string>
-    <string name="menu_convert_to_amr">એએમઆર રૂપાંતરિત</string>
+    <string name="menu_convert_to_mp3">એમપી3 માટે રૂપાંતરિત</string>
+    <string name="menu_convert_to_amr">એએમઆર માટે રૂપાંતરિત</string>
     <string name="menu_get_info">માહિતી મેળવો</string>
     <string name="menu_cancel_task">કાર્ય રદ</string>
     <string name="menu_encrypt">એન્ક્રિપ્ટ</string>
