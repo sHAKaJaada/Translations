@@ -66,11 +66,11 @@
     <string name="contact_name">સંપર્ક નામ</string>
     <string name="phone_number">ફોન નંબર</string>
 
-    <string name="confirm_delete_message">જો તમે આ રેકોર્ડિંગ કાઢી નાખવા માંગો તમે ખાતરી રહ્યાં છો?</string>
-    <string name="confirm_delete_several_title">કાઢી નાંખવા માટે ખાતરી</string>
-    <string name="confirm_delete_several_message">તમે%d રેકોર્ડિંગ્સ પસંદ કર્યું છે. જો તમારે તેમની કાઢી નાખવા માંગો તમે ખાતરી રહ્યાં છો?</string>
+    <string name="confirm_delete_message">તમે આ રેકોર્ડિંગ કાઢી નાખવા માંગો તમે ખાતરી રહ્યાં છો?</string>
+    <string name="confirm_delete_several_title">ખાતરી કાઢી નાંખવું તે</string>
+    <string name="confirm_delete_several_message">તમે %d રેકોર્ડિંગ્સ પસંદ કર્યું છે| જો તમારે તેમની કાઢી નાખવા માંગો તમે ખાતરી રહ્યાં છો?</string>
 
-    <string name="share_via">દ્વારા શેર</string>
+    <string name="share_via">શેર દ્વારા</string>
     <string name="recorded_calls">રેકોર્ડ કોલ્સ</string>
 
     <string name="settings_recording">રેકોર્ડિંગ</string>
@@ -85,33 +85,33 @@
     <string name="license_status">લાયસન્સ સ્થિતિ</string>
     <string name="license_check_pending">લાયસન્સ ચેક બાકી</string>
     <string name="license_check_failed">લાઈસન્સ ચકાસો કરવામાં નિષ્ફળ</string>
-    <string name="license_check_failed_summary">વિગતો માટે અહીં દબાવો</string>
+    <string name="license_check_failed_summary">વિગતો માટે અહીં પ્રેસ્સ</string>
     <string name="license_verified">લાયસન્સ ચકાસ્યું</string>
     <string name="license_verified_summary">પ્રેસ છુપાવવા માટે</string>
     <string name="license_help">મદદ</string>
     <string name="license_signature_verification_failed">હસ્તાક્ષર ચકાસણી નિષ્ફળ</string>
     <string name="license_error_message">ભૂલ #%1$s: %2$s</string>
-    <string name="license_trial">પરીક્ષણ સંસ્કરણ,%s પર સમાપ્ત થશે</string>
+    <string name="license_trial">પરીક્ષણ સંસ્કરણ પર સમાપ્ત થશે %s</string>
     <string name="license_unknown_error">અજ્ઞાત ભૂલ</string>
-    <string name="license_not_market_managed">આ આવૃત્તિ હજી પ્લે દુકાન પર પ્રકાશિત થયેલ નથી</string>
-    <string name="license_incorrect_response">પ્લે દુકાન પરથી અયોગ્ય પરવાના પ્રતિભાવ</string>
+    <string name="license_not_market_managed">"આ આવૃત્તિ  પ્લે દુકાન પર પ્રકાશિત થયેલ નથી હજી"</string>
+    <string name="license_incorrect_response">ખોટો લીચેન્સે રેસ્પોન્સે ફ્રોમ પ્લે દુકાન</string>
     <string name="license_error_contacting_server">ભૂલ સંપર્ક સર્વર</string>
     <string name="license_server_error">સર્વર ભૂલ</string>
     <string name="license_over_quota">આ ઉપકરણ માંથી ખૂબ વધારે વિનંતીઓ</string>
 
     <string name="buy_full_version">સંપૂર્ણ આવૃત્તિ ખરીદી</string>
-    <string name="buy_full_version_summary">વર્તમાન આવૃત્તિ %s પર સમાપ્ત થશે</string>
+    <string name="buy_full_version_summary">વર્તમાન આવૃત્તિ પર સમાપ્ત થશે %s</string>
 
     <string name="recording_calls_switch">કોલ રેકોર્ડિંગ</string>
     <string name="category_main">મુખ્ય</string>
     <string name="device">ઉપકરણ</string>
     <string name="select_your_device">તમારા ઉપકરણ પસંદ કરો</string>
-    <string name="device_change_settings_empty">આ ઉપકરણ માટે સુયોજનો પહેલેથી ગોઠવવામાં</string>
+    <string name="device_change_settings_empty">"માટે સુયોજનો આ ઉપકરણ  પહેલેથી સ્થાપના"</string>
     <string name="device_root_is_required">રુટ જરૂરી છે</string>
     <string name="device_root_is_required_summary">વધુ સારી ગુણવત્તા રુટ આ ઉપકરણ પર જરૂરી છે માટે</string>
     <string name="device_other">અન્ય</string>
     <string name="recording_method">રેકોર્ડિંગ પદ્ધતિ</string>
-    <string name="recording_method_api">ધોરણ અપીહું</string>
+    <string name="recording_method_api">ધોરણ અપીઈ</string>
     <string name="recording_method_api_settings">ધોરણ અ પી હું રેકોર્ડિંગ પદ્ધતિ માટે સુયોજનો</string>
     <string name="recording_method_caf">સી એ એફ</string>
     <string name="recording_method_caf_settings">સી એ એફ રેકોર્ડિંગ પદ્ધતિ માટે સુયોજનો</string>
