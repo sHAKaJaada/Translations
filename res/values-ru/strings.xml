@@ -282,7 +282,7 @@
 
     <!-- Notification -->
     <string name="notify_uploading_dropbox">Идет загрузка на Dropbox</string>
-    <string name="notify_tasks_remaining">% осталось</string>
+    <string name="notify_tasks_remaining">%d осталось</string>
 
     <!-- Password dialog -->
     <string name="wrong_password">Неправильный пароль</string>
