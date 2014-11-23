@@ -290,7 +290,7 @@
     <string name="password_has_been_changed">Heslo bolo zmenené</string>
 
     <!-- Settings -> Security -->
-    <string name="category_encryption">Zakódovanie</string>
+    <string name="category_encryption">Kódovanie</string>
     <string name="category_application">Aplikácia</string>
     <string name="create_new_key">Vytvoriť nový kľúč</string>
     
