@@ -102,7 +102,7 @@
     
     
     
-    <string name="license_trial">試用版本，將於 %s 過期</string>
+    <string name="license_trial">試用版本，將於 %s 到期</string>
     
     
     
@@ -205,7 +205,7 @@
     
     
     
-    <string name="exception_select_action">選擇操作</string>
+    <string name="exception_select_action">選擇動作</string>
     <string name="exception_action_always_record">總是錄音</string>
     <string name="exception_action_never_record">從不錄音</string>
     
@@ -220,11 +220,11 @@
     <string name="folder">資料夾</string>
     
     <string name="automatic_cleanup">自動清理</string>
-    <string name="max_number_of_files">檔案最大數量：</string>
+    <string name="max_number_of_files">錄音最大數量</string>
     <string name="max_number_of_files_message">輸入數值[個] (0 - 無限制)</string>
-    <string name="max_total_size_of_files">檔案最大大小：</string>
+    <string name="max_total_size_of_files">錄音最大大小</string>
     <string name="max_total_size_of_files_message">輸入數值[MB] (0 - 無限制)</string>
-    <string name="max_age_of_recordings">檔案保留最大天數：</string>
+    <string name="max_age_of_recordings">錄音保留最大天數</string>
     <string name="max_age_of_recordings_message">輸入數值[天] (0 - 無限制)</string>
     <string name="current_setting">目前的設定值： %s</string>
     
@@ -236,7 +236,7 @@
     <string name="pattern_phone_number">電話號碼</string>
     <string name="pattern_call_time">通話時間</string>
     
-    <string name="pattern_call_type">通話類型(撥出或接聽)</string>
+    <string name="pattern_call_type">通話類型(撥出或來電)</string>
     <string name="time_pattern_hours">點</string>
     <string name="time_pattern_minutes">分</string>
     <string name="time_pattern_seconds">秒</string>
@@ -269,7 +269,7 @@
 
     <!-- Settings -> Cloud -->
     
-    <string name="cloud_provider_dropbox">Dropbox</string>
+    <string name="cloud_provider_dropbox">Dropbox空間</string>
     
     
     
@@ -292,7 +292,7 @@
     <!-- Settings -> Security -->
     <string name="category_encryption">加密</string>
     <string name="category_application">應用程式</string>
-    <string name="create_new_key">建立新的金鑰</string>
+    <string name="create_new_key">建立新的密鑰</string>
     
     
     <string name="change_password">密碼</string>
@@ -337,7 +337,7 @@
     <string name="root_access_no">沒有</string>
     <string name="root_access_yes">有</string>
     <string name="dual_sim_phone">雙卡手機</string>
-    <string name="dual_sim_phone_summary">如果應用程式無法判斷來至於第二張SIM卡的通話，請開啟這個選項。</string>
+    <string name="dual_sim_phone_summary">如果應用程式無法判斷來至於第二張SIM卡的通話，請開啟這個選項</string>
 
     <!-- General -->
     <string name="contact_unknown">未知的</string>
@@ -353,7 +353,7 @@
     
     
     
-    <string name="please_wait">請稍後...</string>
+    <string name="please_wait">請稍後…</string>
     <string name="start_recording">開始錄音</string>
     <string name="stop_recording">停止錄音</string>
     
@@ -460,9 +460,147 @@
     <string name="exception_groups_not_found">沒有發現群組</string>
     <string name="exception_contacts_not_found">沒有發現聯絡人</string>
     <string name="exceptions_not_added">沒有增加例外</string>
-    <string name="exception_by_contact">依照聯絡人</string>
-    <string name="exception_by_group">依照群組</string>
-    <string name="exception_by_phone_number">依照電話號碼</string>
+    <string name="exception_by_contact">依聯絡人</string>
+    <string name="exception_by_group">依群組</string>
+    <string name="exception_by_phone_number">依電話號碼</string>
     <string name="exception_delete_message">你確定要刪除這個例外?</string>
 
+    <string name="button_choose">選擇</string>
+    <string name="button_create">建立</string>
+    <string name="button_delete">刪除</string>
+    <string name="button_keep">保持</string>
+    <string name="button_play">撥放</string>
+    <string name="button_pause">暫停</string>
+    <string name="button_delete_wait">刪除 (%d)</string>
+    <string name="accept">允許</string>
+    <string name="toast_wait_for_operation_to_complete">等待操作完成</string>
+    <string name="action_mode_selected">%d 已選擇</string>
+    <string name="long_press_action">長按動作</string>
+    <string name="sign_in_dropbox">登入Dropbox</string>
+    <string name="sign_out_dropbox">登出Dropbox</string>
+    <string name="cloud_provider_google_drive">Google 雲端硬碟</string>
+    <string name="notify_uploading_dropbox">上傳至 Dropbox 中</string>
+    <string name="notify_tasks_remaining">%d 剩餘錄音</string>
+
+    <string name="settings_filename">檔案名稱</string>
+    <string name="section_tasks_hint">耗時的錄音任務，如轉換、加密或上傳到雲端將在這裡顯示</string>
+    <string name="action_sort">類別</string>
+    <string name="action_refresh">重新整理</string>
+    <string name="action_delete">刪除</string>
+    <string name="action_add_star">加入標記</string>
+    <string name="action_remove_star">移除標記</string>
+    <string name="action_share">分享</string>
+    <string name="sort_by_date">依日期</string>
+    <string name="sort_by_contact">依聯絡人</string>
+    <string name="sort_by_file_size">依檔案大小</string>
+
+    <string name="list_header_today">今天</string>
+    <string name="list_header_yesterday">昨天</string>
+    <string name="queued">排隊</string>
+    <string name="no_connection">沒有連線</string>
+
+    <string name="menu_add_note">增加備註</string>
+    <string name="menu_edit_note">編輯備註</string>
+    <string name="menu_share">分享</string>
+    <string name="menu_convert_to_mp3">轉換成MP3格式</string>
+    <string name="menu_convert_to_amr">轉換成AMR格式</string>
+    <string name="menu_cancel_task">取消任務</string>
+    <string name="recording_type">錄音類型</string>
+    <string name="note">備註</string>
+
+    <string name="confirm_delete_several_title">確任刪除</string>
+    <string name="confirm_delete_several_message">您已選擇 %d 個錄音檔，您確定要刪除它們？</string>
+
+    <string name="share_via">透過分享</string>
+    <string name="settings_cloud">雲端</string>
+    <string name="license_check_failed">無法驗證授權</string>
+    <string name="license_check_pending">授權有待驗證</string>
+    <string name="license_check_failed_summary">按此處查看詳情</string>
+    <string name="license_verified">已授權</string>
+    <string name="license_verified_summary">按隱藏</string>
+    <string name="license_help">幫助</string>
+    <string name="license_signature_verification_failed">驗證簽名失敗</string>
+    <string name="license_error_message">錯誤 #%1$s: %2$s</string>
+    <string name="license_unknown_error">未知錯誤</string>
+    <string name="license_not_market_managed">這個版本尚未在 Play Store 上公布</string>
+    <string name="license_incorrect_response">Play Store 傳回不正確的授權驗證資訊</string>
+    <string name="license_error_contacting_server">伺服器連線錯誤</string>
+    <string name="license_server_error">伺服器錯誤</string>
+    <string name="license_over_quota">此設備的請求過多</string>
+
+    <string name="device_change_settings_empty">此裝置的設定都已設定完成</string>
+    <string name="device_root_is_required">需要ROOT權限</string>
+    <string name="device_root_is_required_summary">為了更好的品質，在此裝置上需要ROOT權限</string>
+    <string name="recording_method_msm">MSM</string>
+    <string name="recording_method_msm_settings">MSM錄音設定</string>
+    <string name="terms_of_use_message">透過使用應用程式，您同意 CallRecorder 的&lt;a href=http://rec.sh/terms&gt;使用條款&lt;/a&gt;.</string>
+
+    <string name="section_starred">出演</string>
+    <string name="section_by_contact">依聯絡人</string>
+    <string name="section_by_format">依格式</string>
+    <string name="section_by_label">依標籤</string>
+    <string name="exceptions_summary">設定聯絡人、群組或電話號碼的特定行動</string>
+    <string name="delay_format_sec">%s 秒</string>
+    <string name="recording_format">錄音格式</string>
+    <string name="delay_for_outgoing">撥出</string>
+    <string name="delay_for_incoming">來電</string>
+    <string name="volume_control_overall">整體音量</string>
+    <string name="about_call_recorder">關於通話錄音</string>
+    <string name="recording_in_progress">錄製進行中</string>
+    <string name="no_recording_in_progress">無錄製進行中</string>
+    <string name="waiting_for_answer">等待應答</string>
+    <string name="start_recording_on_answer">接通後開始錄製</string>
+    <string name="delay_before_start_recording_summary">撥出: %1$s, 來電: %2$s</string>
+    <string name="settings_for_device">設定為 %s</string>
+    <string name="volume_control_summary">傳出: %1$s, 接受: %2$s</string>
+    <string name="volume_control_tx">傳出</string>
+    <string name="volume_control_rx">接受</string>
+    <string name="category_wav_and_mp3_settings">WAV &amp; MP3 設定</string>
+
+    <string name="alsa_is_not_installed">ALSA 必須安裝</string>
+    <string name="alsa_is_not_installed_summary">點擊這裡安裝ALSA</string>
+
+    <string name="add_exception">增加例外</string>
+    <string name="exception_contact">聯絡人</string>
+    <string name="exception_select_contact">選擇聯絡人</string>
+    <string name="exception_phone_number">電話號碼</string>
+    <string name="exception_action">動作</string>
+    <string name="open_contact">開啟聯絡人</string>
+
+    <string name="call_incoming">來電</string>
+    <string name="call_outgoing">撥出</string>
+    <string name="decline">拒絕</string>
+    <string name="button_call">通話</string>
+    <string name="use_proximity_sensor_summary">播放過程中關閉螢幕接近感應器</string>
+    <string name="switch_audio_output_summary">自動切換音頻輸出，當螢幕被關閉/接近感應器啟用</string>
+    <string name="use_built_in_player">使用內置的播放器</string>
+    <string name="app_admin_explanation">通話錄音除了保護移除外，不會使用裝置上任何的管理功能</string>
+    <string name="app_admin_summary">防止移除通話紀錄</string>
+    <string name="audio_output_summary">%s (長按上播放/暫停切換)</string>
+    <string name="require_password_summary_no_key">需要密碼才能開啟應用程式。首先您須先建立密碼</string>
+    <string name="create_new_key_summary">這個密鑰將用於加密錄音或進入程式時使用</string>
+    <string name="delete_key">刪除密鑰</string>
+    <string name="delete_key_summary">警告！您將永遠無法還原加密的錄音，如果您已經使用該密鑰加密的它們，即使您重新建立一個相同的密碼</string>
+    <string name="delete_key_message">刪除後，您將無法還原加密的錄音。您確定要繼續嗎?</string>
+    <string name="cloud_common_settings">常見</string>
+    <string name="cloud_provider">雲端服務提供商</string>
+    <string name="horizontal_position_summary">%s dp，從螢幕中心偏移</string>
+    <string name="hide_button_before_answer">直到接通前隱藏按鈕</string>
+    <string name="vertical_position_summary">%s dp，從螢幕中心偏移</string>
+    <string name="hide_button_while_recording_summary">假如通話正在錄音，將隱藏呼叫控制按鈕</string>
+    <string name="incall_control_for_outgoing_summary">撥出通話時顯示呼叫控制按鈕</string>
+    <string name="show_notification_summary">永遠顯示於通知欄</string>
+    <string name="category_incall_control_button">呼叫控制按鈕</string>
+    <string name="incall_control_for_incoming_summary">來電通話時顯示呼叫控制按鈕</string>
+    <string name="hide_button_while_recording">錄製時隱藏按鈕</string>
+    <string name="folder_chooser_up_to">↑ 最多 %s</string>
+    <string name="pattern_call_timestamp">通話時間戳(Unix時間)</string>
+    <string name="default_language">預設語言</string>
+    <string name="long_press_action_dragging_the_button">拖動按鈕</string>
+    <string name="long_press_action_hang_up">掛斷電話，自動回撥</string>
+
+    <string name="cloud_upload_starred">上傳標記</string>
+    <string name="cloud_upload_starred_summary">當您已標記時上傳錄音檔到雲端</string>
+
+    <string name="start_recording_on_answer_summary">開始錄製一個撥出通話。必須擁有ROOT權限，記錄器在內核中必須開啟。</string>
     </resources>
