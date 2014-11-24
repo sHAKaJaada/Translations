@@ -522,4 +522,10 @@
     <string name="punjabi_translation_summary">от Raj Verma</string>
     <string name="finnish_translation_summary">от Eero Linnainmaa</string>
     <string name="belarusian_translation_summary">от Alexander Kuvshinov</string>
+    <string name="default_language">Язык по умолчанию</string>
+    <string name="long_press_action_dragging_the_button">Перетаскивание кнопки</string>
+    <string name="button_keep">Сохранить</string>
+    <string name="button_play">Проиграть</string>
+    <string name="button_pause">Пауза</string>
+    <string name="toast_wait_for_operation_to_complete">Подождите завершения операции</string>
     </resources>
