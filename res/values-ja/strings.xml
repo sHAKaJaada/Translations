@@ -353,7 +353,7 @@
     
     
     
-    <string name="please_wait">お待ち下さい...</string>
+    <string name="please_wait">お待ち下さい…</string>
     <string name="start_recording">録音開始</string>
     <string name="stop_recording">録音停止</string>
     
@@ -460,4 +460,25 @@
 
     <string name="section_all_recordings">全録音</string>
     <string name="section_starred">お気に入り</string>
+    <string name="action_sort">ソート</string>
+    <string name="action_delete">削除</string>
+    <string name="action_refresh">更新</string>
+    <string name="action_add_star">お気に入りへ追加</string>
+    <string name="action_remove_star">お気に入りから削除</string>
+    <string name="action_share">共有</string>
+    <string name="sort_by_date">日付順</string>
+    <string name="sort_by_contact">名前順</string>
+    <string name="sort_by_file_size">ファイルサイズ順</string>
+
+    <string name="list_header_today">今日</string>
+    <string name="list_header_yesterday">昨日</string>
+    <string name="menu_add_note">ノートを追加</string>
+    <string name="menu_edit_note">ノートを編集</string>
+    <string name="menu_share">共有</string>
+    <string name="menu_convert_to_mp3">MP3形式へ変換</string>
+    <string name="menu_convert_to_amr">AMR形式へ変換</string>
+    <string name="menu_cancel_task">タスクをキャンセル</string>
+    <string name="recording_type">録音種別</string>
+    <string name="note">ノート</string>
+
     </resources>
