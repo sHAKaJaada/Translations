@@ -372,6 +372,9 @@
     <string name="call_confirm_record_this_call">Record this call</string>
     <string name="open_contact">Open contact</string>
 
+    <!--After call actions dialog-->
+    <string name="cloud_added">Added</string>
+
     <!--Notification-->
     <string name="waiting_for_answer">Waiting for answer</string>
     <string name="recording_in_progress">Recording in progress</string>
