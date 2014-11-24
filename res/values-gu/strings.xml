@@ -239,13 +239,13 @@
     <string name="hide_button_while_recording">રેકોર્ડિંગ જ્યારે બટન છુપાવો</string>
     <string name="hide_button_while_recording_summary">કોલ રેકોર્ડ થઈ રહી છે તો માં-કોલ નિયંત્રણ બટન છુપાવો</string>
     <string name="show_button_while_ringing">રિંગિંગ જ્યારે બટન બતાવો</string>
-    <string name="show_button_while_ringing_summary">ઇનકમિંગ કોલ પહેલાં શોમાં-કોલ નિયંત્રણ બટન જવાબ આપ્યો</string>
+    <string name="show_button_while_ringing_summary">શોમાં-કોલ નિયંત્રણ બટન ઇનકમિંગ કોલ તે પહેલા જવાબ આપ્યો</string>
     <string name="vertical_position">ઊભી સ્થિતિમાં</string>
     <string name="vertical_position_summary">સ્ક્રીન માતાનો કેન્દ્રથી ઓફસેટ %s ડીપી,</string>
     <string name="horizontal_position">આડી સ્થિતિ</string>
-    <string name="horizontal_position_summary">સ્ક્રીન માતાનો કેન્દ્રથી ઓફસેટ %s ડીપી,</string>
+    <string name="horizontal_position_summary">%s ડીપી, સ્ક્રીન માતાનો કેન્દ્રથી ઓફસેટ</string>
     <string name="hide_button_before_answer">જવાબ પહેલાં બટન છુપાવો</string>
-    <string name="hide_button_before_answer_summary">જોડાણ અધિષ્ઠાપિત થાય ત્યાં સુધી માં-કોલ નિયંત્રણ બટન બતાવશો નહીં</string>
+    <string name="hide_button_before_answer_summary">બતાવશો નહીં ઇન કોલ નિયંત્રણ બટન જોડાણ અધિષ્ઠાપિત થાય ત્યાં સુધી</string>
     <string name="long_press_action">લાંબા પ્રેસ એક્શન</string>
     <string name="long_press_action_hang_up">કોલ અટકી અને આપોઆપ સામો ફોન</string>
 
@@ -259,7 +259,7 @@
     <string name="cloud_auto_upload">ઓટો અપલોડ</string>
     <string name="cloud_auto_upload_summary">જમણી કોલ પછી રેકોર્ડિંગ અપલોડ</string>
     <string name="cloud_upload_starred">અપલોડ અભિનય કર્યો</string>
-    <string name="cloud_upload_starred_summary">તમે તેને કરવા સ્ટાર ઉમેરો ત્યારે વાદળ માટે રેકોર્ડીંગ અપલોડ</string>
+    <string name="cloud_upload_starred_summary">વાદળ રેકોર્ડિંગ અપલોડ તમે તેને કરવા ત્યારે</string>
 
     <string name="notify_uploading_dropbox">ડ્રૉપબૉક્સ પર અપલોડ</string>
     <string name="notify_tasks_remaining">બાકી %d રેકોર્ડિંગ્સ</string>
@@ -271,17 +271,17 @@
     <string name="category_encryption">એન્ક્રિપ્શન</string>
     <string name="category_application">એપ્લિકેશન</string>
     <string name="create_new_key">નવી કી બનાવો</string>
-    <string name="create_new_key_summary">આ કી રેકોર્ડિંગ્સ એનક્રિપ્ટ અથવા એપ્લિકેશન દાખલ કરવા પાછળથી વપરાયેલ હશે</string>
+    <string name="create_new_key_summary">આ કી પાછળથી વપરાયેલ હશે એનક્રિપ્ટ અથવા એપ્લિકેશન દાખલ કરવા</string>
     <string name="delete_key">કી કાઢી</string>
     <string name="change_password">પાસવર્ડ બદલો</string>
-    <string name="delete_key_summary">ચેતવણી! જો તમે આ કી સાથે તેમને એનક્રિપ્ટ કર્યું હોય તો તમે તમે જ પાસવર્ડથી નવી કી બનાવો તો પણ એનક્રિપ્ટ થયેલ રેકોર્ડિંગ્સ પુનઃપ્રાપ્ત કરવાનો ક્યારેય પડશે</string>
-    <string name="delete_key_message">કાઢી નાંખવાનું પછી તમને આ કી સાથે એનક્રિપ્ટ થયેલ રેકોર્ડિંગ્સ પુનઃપ્રાપ્ત કરી શકશે નહીં| શું તમે આગળ વધવા માંગો છો?</string>
+    <string name="delete_key_summary">ચેતવણી! તમે પુનઃપ્રાપ્ત રેકોર્ડિંગ્સ કરવા માટે સમર્થ હશે નહિં આ કી સાથે એનક્રિપ્ટ થયેલ, તમે એ જ પાસવર્ડ સાથે નવી કી બનાવો તો પણ</string>
+    <string name="delete_key_message">કાઢી નાંખવાનું પછી તમે પુનઃપ્રાપ્ત રેકોર્ડિંગ્સ કરવા માટે સમર્થ હશે નહિં આ કી સાથે એનક્રિપ્ટ થયેલ| શું તમે આગળ વધવા માંગો છો?</string>
     <string name="enter_old_password">જૂના પાસવર્ડ દાખલ કરો</string>
     <string name="enter_new_password">નવો પાસવર્ડ દાખલ કરો</string>
     <string name="re_enter_new_password">નવો પાસવર્ડ ફરી દાખલ</string>
     <string name="require_password">પાસવર્ડ આવશ્યક છે</string>
     <string name="require_password_summary">એપ્લિકેશન ખોલવા માટે પાસવર્ડ આવશ્યક છે</string>
-    <string name="require_password_summary_no_key">એપ્લિકેશન ખોલવા માટે પાસવર્ડ આવશ્યક છે| આ સક્રિય કરવા માટે તમે પ્રથમ એક કી બનાવવા જોઈએ</string>
+    <string name="require_password_summary_no_key">એપ્લિકેશન ખોલવા માટે પાસવર્ડ આવશ્યક છે| સક્રિય આ કરવા માટે તમે પ્રથમ એક કી બનાવવા જોઈએ</string>
     <string name="lock_after">પછી તાળું</string>
     <string name="lock_after_exit">બહાર નીકળો</string>
     <string name="lock_after_1_minute">1 મિનિટ</string>
@@ -290,24 +290,24 @@
     <string name="lock_after_10_minutes">10 મિનિટ</string>
     <string name="app_admin">એપ્લિકેશન સંચાલન</string>
     <string name="app_admin_summary">કૉલ રેકોર્ડર અનઇન્સ્ટોલ અટકાવવા જરૂરી</string>
-    <string name="app_admin_explanation">કોલ રેકોર્ડર વિસ્થાપન રક્ષણ સિવાય ઉપકરણ સંચાલક કોઈપણ લક્ષણ ઉપયોગ કરતું નથી</string>
-    <string name="aes_128bit">128-બીટ એઇએસ (ઝડપી)</string>
-    <string name="aes_192bit">192-બીટ એઇએસ (સંતુલિત)</string>
-    <string name="aes_256bit">256-બીટ એઇએસ (મજબૂત)</string>
+    <string name="app_admin_explanation">કોલ રેકોર્ડર કોઇ લક્ષણ ઉપયોગ કરતું નથી વિસ્થાપન રક્ષણ સિવાય ઉપકરણ એડમિન ના</string>
+    <string name="aes_128bit">128-બીટ AES (ઝડપી)</string>
+    <string name="aes_192bit">192-બીટ AES (સંતુલિત)</string>
+    <string name="aes_256bit">256-બીટ AES (મજબૂત)</string>
 
     <string name="use_built_in_player">આંતરિક ખેલાડી ઉપયોગ</string>
     <string name="audio_output">ઓડિયો આઉટપુટ</string>
-    <string name="audio_output_summary">%s (પોઝ/પ્લે બટન પર લાંબા નળ સાથે સાથે તે સ્વિચ થઇ જશે)</string>
+    <string name="audio_output_summary">%s (લાંબા નળ પોઝ/પ્લે બટન પર તે સ્વિચ થઇ જશે)</string>
     <string name="main_speaker">મુખ્ય વક્તા</string>
     <string name="phone_speaker">ફોન સ્પીકર</string>
     <string name="use_proximity_sensor">નિકટતા સેન્સર ઉપયોગ</string>
     <string name="use_proximity_sensor_summary">પ્લેબેક દરમિયાન નિકટતા સેન્સર કરીને સ્ક્રીન નિષ્ક્રિય</string>
     <string name="switch_audio_output">સ્વિચ ઓડિયો આઉટપુટ</string>
-    <string name="switch_audio_output_summary">આપોઆપ ત્યારે સ્ક્રીન નિકટતા સેન્સર રીતે સક્રિય/નિષ્ક્રિય હશે ઓડિયો આઉટપુટ સ્વિચ</string>
+    <string name="switch_audio_output_summary">આપમેળે ઓડિયો આઉટપુટ સ્વિચ સ્ક્રીન નિષ્ક્રિય હશે/સક્રિયકૃત નિકટતા સેન્સર દ્વારા</string>
     <string name="android_wav_decoder">ડબલ્યુએવી માટે, એન્ડ્રોઇડ ડીકોડર</string>
     <string name="android_wav_decoder_summary">આંતરિક ઉપયોગ એન્ડ્રોઇડ સાધનો એક વી રમવા માટે</string>
-    <string name="android_amr_decoder">"એન્ડ્રોઇડ  ડીકોડર  એએમઆર માટે"</string>
-    <string name="android_amr_decoder_summary">એએમઆર રમવા માટે એન્ડ્રોઇડ સાધનો આંતરિક ઉપયોગ</string>
+    <string name="android_amr_decoder">એન્ડ્રોઇડ ડીકોડર AMR માટે</string>
+    <string name="android_amr_decoder_summary">એએમઆર રમવા માટે સાધનો એન્ડ્રોઇડ આંતરિક ઉપયોગ</string>
 
     <string name="root_access">રૂટ પરવાનગી</string>
     <string name="root_access_no">કોઈ</string>
@@ -352,14 +352,14 @@
 
     <string name="licenses">લાઇસન્સ</string>
     <string name="about_open_core_amr_license">ઓપેન્કોરે-અમર</string>
-    <string name="about_open_core_amr_license_summary">Opencore-અમ્ર અપાચે લાઇસેન્સ આવૃત્તિ 2.0 હેઠળ ઉપયોગ કરે છે, opencore-amr.sourceforge.net મુલાકાત લેવા અહીં ક્લિક</string>
+    <string name="about_open_core_amr_license_summary">opencore-amr અપાચે ઉપયોગ કરે છે લાઇસેન્સ આવૃત્તિ 2.0 હેઠળ , opencore-amr.sourceforge.net મુલાકાત લેવા અહીં ક્લિક</string>
     <string name="about_alsa">એએલએસએ</string>
-    <string name="about_alsa_summary">એએલએસએ એલજીપીએલ હેઠળ ઉપયોગ કરે છે, alsa-project.org મુલાકાત લેવા અહીં ક્લિક</string>
+    <string name="about_alsa_summary">ઉપયોગ કરે છે ALSA LGPL હેઠળ, alsa-project.org મુલાકાત લેવા અહીં ક્લિક</string>
     <string name="about_lame">એલએએમઇ</string>
     <string name="about_lame_summary">LGPL હેઠળ LAME વાપરે, mp3dev.org મુલાકાત લેવા અહીં ક્લિક</string>
 
     <string name="german_translation">જર્મન અનુવાદ</string>
-    <string name="german_translation_summary">માર્ક Hillesheim અને થોમસ Käfer દ્વારા</string>
+    <string name="german_translation_summary">Marc Hillesheim and Thomas Käfer દ્વારા</string>
     <string name="polish_translation">પોલિશ અનુવાદ</string>
     <string name="polish_translation_summary">Robert Gonta દ્વારા</string>
     <string name="french_translation">ફ્રેન્ચ અનુવાદ</string>
@@ -367,11 +367,11 @@
     <string name="brazilian_portuguese_translation">બ્રાઝિલીયન પોર્ટુગીઝ અનુવાદ</string>
     <string name="brazilian_portuguese_translation_summary">Luiz Marcelo Serique દ્વારા</string>
     <string name="spanish_translation">સ્પેનિશ અનુવાદ</string>
-    <string name="spanish_translation_summary">Iñigo ગાર્સીયા અને ડિએગો વિલાસ દ્વારા</string>
+    <string name="spanish_translation_summary">Iñigo Garcia and Diego Vilas દ્વારા</string>
     <string name="slovak_translation">સ્લોવેક અનુવાદ</string>
     <string name="slovak_translation_summary">Loránt Gerencsér દ્વારા</string>
     <string name="italian_translation">ઇટાલિયન અનુવાદ</string>
-    <string name="italian_translation_summary">લુકા Trevisan અને ફ્રાન્સેસ્કો Cafagna દ્વારા</string>
+    <string name="italian_translation_summary">Luca Trevisan and Francesco Cafagna દ્વારા</string>
     <string name="persian_translation">ફારસી અનુવાદ</string>
     <string name="persian_translation_summary">Alireza Afkar દ્વારા</string>
     <string name="chinese_translation">ચિની અનુવાદ</string>
@@ -383,7 +383,7 @@
     <string name="hebrew_translation">હિબ્રૂ અનુવાદ</string>
     <string name="hebrew_translation_summary">NuFlood દ્વારા</string>
     <string name="hungarian_translation">હંગેરિયન અનુવાદ</string>
-    <string name="hungarian_translation_summary">Szalay Levente અને મિક્લોસ Toldi દ્વારા</string>
+    <string name="hungarian_translation_summary">Szalay Levente and Miklós Toldi દ્વારા</string>
     <string name="dutch_translation">ડચ અનુવાદ</string>
     <string name="dutch_translation_summary">Elroy Tirbeni દ્વારા</string>
     <string name="turkish_translation">ટર્કીશ અનુવાદ</string>
@@ -393,7 +393,7 @@
     <string name="korean_translation">કોરિયન અનુવાદ</string>
     <string name="korean_translation_summary">SoHyunSeop and Joon Hee Jo દ્વારા</string>
     <string name="romanian_translation">રોમાનિયન અનુવાદ</string>
-    <string name="romanian_translation_summary">ડેન પી (ઉદાસી) દ્વારા</string>
+    <string name="romanian_translation_summary">Dan P. (sad) દ્વારા</string>
     <string name="ukrainian_translation">યુક્રેનિયન અનુવાદ</string>
     <string name="ukrainian_translation_summary">Gennadi Samoluk દ્વારા</string>
     <string name="traditional_chinese_translation">પરંપરાવાદી ચિની અનુવાદ</string>
@@ -411,17 +411,23 @@
     <string name="thai_translation">થાઈ અનુવાદ</string>
     <string name="thai_translation_summary">Wuttisak Saichoncharn દ્વારા</string>
     <string name="georgian_translation">જ્યોર્જિઅન અનુવાદ</string>
-    <string name="georgian_translation_summary">બ્ય આલેક્ષન્દ્રે રઝ્માંદ્ઝે</string>
+    <string name="georgian_translation_summary">Alexandre Razmadze દ્વારા</string>
     <string name="catalan_translation">કતલાન અનુવાદ</string>
     <string name="catalan_translation_summary">cybdani દ્વારા</string>
     <string name="hindi_translation">હિન્દી અનુવાદ</string>
     <string name="hindi_translation_summary">TheTAMAS Gautam દ્વારા</string>
     <string name="punjabi_translation">પંજાબી અનુવાદ</string>
-    <string name="punjabi_translation_summary">રાજ વર્મા દ્વારા</string>
+    <string name="punjabi_translation_summary">Raj Verma દ્વારા</string>
     <string name="finnish_translation">ફિનિશ અનુવાદ</string>
     <string name="finnish_translation_summary">Eero Linnainmaa દ્વારા</string>
     <string name="belarusian_translation">બેલારુસિયન અનુવાદ</string>
-    <string name="belarusian_translation_summary">બ્ય આલેક્ષન્દેર કુવ્શીનોવ</string>
+    <string name="belarusian_translation_summary">Alexander Kuvshinov દ્વારા</string>
     <string name="vietnamese_translation">વિએતનામીઝ અનુવાદ</string>
     <string name="vietnamese_translation_summary">Truong Hoang Trung દ્વારા</string>
-</resources>
+<string name="toast_wait_for_operation_to_complete">એક પૂર્ણ કરવા માટે રાહ ક્રિયા</string>
+    <string name="button_pause">થોભો</string>
+    <string name="button_play">રમો</string>
+    <string name="button_keep">રાખી</string>
+    <string name="long_press_action_dragging_the_button">આ બટન ખેંચીને</string>
+    <string name="default_language">મૂળભૂત ભાષા</string>
+    </resources>
