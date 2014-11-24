@@ -1,56 +1,56 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CallRecorder</string>
-    
-    
+    <string name="terms_of_use">Användarvillkor</string>
+    <string name="terms_of_use_message">Genom att använda appen godtar du CallRecorders &lt;a href=http://rec.sh/terms&gt;Användarvillkor&lt;/a&gt;.</string>
 
     <!-- Navigation drawer -->
-    
-    
+    <string name="navigation_drawer_open">Öppna navigeringsmeny</string>
+    <string name="navigation_drawer_close">Stäng navigeringsmeny</string>
 
     <!-- Navigation drawer sections -->
-    
-    
+    <string name="section_all_recordings">Alla inspelningar</string>
+    <string name="section_starred">Stjärnmärkt</string>
     <string name="section_incoming">Inkommande</string>
     <string name="section_outgoing">Utgående</string>
-    
-    
-    
+    <string name="section_by_contact">Kontakt</string>
+    <string name="section_by_format">Format</string>
+    <string name="section_by_label">Etikett</string>
     <string name="section_help">Hjälp</string>
     <string name="section_tasks">Ärenden</string>
-    
+    <string name="section_tasks_hint">Här visas tidskrävande processer för inspelningar som konvertering, kryptering eller uppladdning till molntjänst</string>
     <string name="empty_hint">Tomt</string>
 
     <!-- Action bar -->
     <string name="action_search">Sök</string>
-    
+    <string name="action_sort">Sortera</string>
     <string name="action_settings">Inställningar</string>
-    
-    
-    
-    
-    
+    <string name="action_refresh">Uppdatera</string>
+    <string name="action_delete">Radera</string>
+    <string name="action_add_star">Lägg till stjärna</string>
+    <string name="action_remove_star">Ta bort stjärna</string>
+    <string name="action_share">Dela</string>
     <string name="action_select_all">Markera allt</string>
-    
-    
-    
+    <string name="sort_by_date">Datum</string>
+    <string name="sort_by_contact">Kontakt</string>
+    <string name="sort_by_file_size">Filstorlek</string>
 
     <!-- List -->
-    
-    
-    
-    
+    <string name="list_header_today">Idag</string>
+    <string name="list_header_yesterday">Igår</string>
+    <string name="queued">Köade</string>
+    <string name="no_connection">Ingen mottagning</string>
 
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">Lägg till i Dropbox</string>
-    
-    
+    <string name="menu_add_note">Lägg till notis</string>
+    <string name="menu_edit_note">Redigera notis</string>
     <string name="menu_delete">Radera</string>
-    
-    
-    
+    <string name="menu_share">Dela</string>
+    <string name="menu_convert_to_mp3">Konvertera till MP3</string>
+    <string name="menu_convert_to_amr">Konvertera till AMR</string>
     <string name="menu_get_info">Hämta info</string>
-    
+    <string name="menu_cancel_task">Avbryt process</string>
     <string name="menu_encrypt">Kryptera</string>
     <string name="menu_decrypt">Dekryptera</string>
 
@@ -58,7 +58,7 @@
     <string name="file_name">Filnamn</string>
     <string name="sample_rate">Samplingsfrekvens</string>
     <string name="sample_rate_hz">Hz</string>
-    
+    <string name="recording_type">Inspelningstyp</string>
     <string name="recording_type_mono">Mono</string>
     <string name="recording_type_stereo">Stereo</string>
     <string name="file_size">Filstorlek</string>
@@ -67,7 +67,7 @@
     <string name="megabyte">MB</string>
     <string name="kilobyte">KB</string>
     <string name="bytes">byte</string>
-    
+    <string name="note">Notis</string>
 
     <!-- List -> Get info dialog -> Edit -->
     <string name="contact_name">Kontaktnamn</string>
@@ -75,8 +75,8 @@
 
     <!-- List -> Confirm delete dialog -->
     <string name="confirm_delete_message">Är du säker på att du vill radera denna inspelning?</string>
-    
-    
+    <string name="confirm_delete_several_title">Bekräfta radering</string>
+    <string name="confirm_delete_several_message">Du har valt %d inspelningar. Är du säker på att du vill radera dem?</string>
 
     <!-- List -> Share -->
     
@@ -248,6 +248,7 @@
     <!--Settings -> Interface and Appearance-->
     <string name="language">Språk</string>
     <string name="select_language">Välj språk</string>
+    
     <string name="category_notification">Notifiering</string>
     <string name="show_notification">Visa notifiering</string>
     
@@ -266,6 +267,9 @@
     
     
     <string name="hide_button_before_answer_summary">Visa ej knapp för kontroll under samtal innan förbindelse upprättats</string>
+    
+    
+    
 
     <!-- Settings -> Cloud -->
     
@@ -353,7 +357,11 @@
     
     
     
-    <string name="please_wait">Var god vänta...</string>
+    
+    
+    
+    <string name="please_wait">Var god vänta…</string>
+    
     <string name="start_recording">Starta inspelning</string>
     <string name="stop_recording">Stoppa inspelning</string>
     
@@ -363,6 +371,9 @@
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">Spela in detta samtal</string>
     
+
+    <!--After call actions dialog-->
+    <string name="cloud_added">Lades till</string>
 
     <!--Notification-->
     
@@ -378,6 +389,7 @@
     <string name="about_many_thanks">Stort tack</string>
     <string name="about_many_thanks_summary">till Alexey Subbotin (avs234)</string>
 
+    <!--About -> Licenses-->
     <string name="licenses">Licenser</string>
     <string name="about_open_core_amr_license">opencore-amr</string>
     <string name="about_open_core_amr_license_summary">Använder opencore-amr under Apache License Version 2.0, klicka här för att besöka opencore-amr.sourceforge.net</string>
@@ -386,6 +398,7 @@
     <string name="about_lame">LAME</string>
     <string name="about_lame_summary">Använder LAME under LGPL, klicka här för att besöka mp3dev.org</string>
 
+    <!--Credits-->
     <string name="german_translation">Tysk översättning</string>
     <string name="german_translation_summary">av Marc Hillesheim och Thomas Käfer</string>
     <string name="polish_translation">Polsk översättning</string>
@@ -452,43 +465,4 @@
     <string name="belarusian_translation_summary">av Alexander Kuvshinov</string>
     <string name="vietnamese_translation">Vietnamesisk översättning</string>
     <string name="vietnamese_translation_summary">av Truong Hoang Trung</string>
-<string name="terms_of_use">Användarvillkor</string>
-    <string name="terms_of_use_message">Genom att använda appen godtar du CallRecorders &lt;a href=http://rec.sh/terms&gt;Användarvillkor&lt;/a&gt;.</string>
-
-    <string name="navigation_drawer_open">Öppna navigeringsmeny</string>
-    <string name="navigation_drawer_close">Stäng navigeringsmeny</string>
-
-    <string name="section_all_recordings">Alla inspelningar</string>
-    <string name="section_starred">Stjärnmärkt</string>
-    <string name="section_by_contact">Kontakt</string>
-    <string name="section_by_format">Format</string>
-    <string name="section_by_label">Etikett</string>
-    <string name="section_tasks_hint">Här visas tidskrävande processer för inspelningar som konvertering, kryptering eller uppladdning till molntjänst</string>
-    <string name="action_sort">Sortera</string>
-    <string name="action_refresh">Uppdatera</string>
-    <string name="action_delete">Radera</string>
-    <string name="action_add_star">Lägg till stjärna</string>
-    <string name="action_remove_star">Ta bort stjärna</string>
-    <string name="action_share">Dela</string>
-    <string name="sort_by_date">Datum</string>
-    <string name="sort_by_contact">Kontakt</string>
-    <string name="sort_by_file_size">Filstorlek</string>
-
-    <string name="list_header_today">Idag</string>
-    <string name="list_header_yesterday">Igår</string>
-    <string name="queued">Köade</string>
-    <string name="no_connection">Ingen mottagning</string>
-
-    <string name="menu_add_note">Lägg till notis</string>
-    <string name="menu_edit_note">Redigera notis</string>
-    <string name="menu_share">Dela</string>
-    <string name="menu_convert_to_mp3">Konvertera till MP3</string>
-    <string name="menu_convert_to_amr">Konvertera till AMR</string>
-    <string name="menu_cancel_task">Avbryt process</string>
-    <string name="recording_type">Inspelningstyp</string>
-    <string name="note">Notis</string>
-
-    <string name="confirm_delete_several_title">Bekräfta radering</string>
-    <string name="confirm_delete_several_message">Du har valt %d inspelningar. Är du säker på att du vill radera dem?</string>
-
-    </resources>
+</resources>

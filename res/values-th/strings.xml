@@ -1,56 +1,56 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CallRecorder</string>
-    
+    <string name="terms_of_use">เงื่อนไขการใช้งาน</string>
     
 
     <!-- Navigation drawer -->
-    
-    
+    <string name="navigation_drawer_open">เปิดตัวนำทาง</string>
+    <string name="navigation_drawer_close">ปิดตัวนำทาง</string>
 
     <!-- Navigation drawer sections -->
-    
-    
+    <string name="section_all_recordings">บันทึกทั้งหมด</string>
+    <string name="section_starred">ที่ติดดาว</string>
     <string name="section_incoming">สายเรียกเข้า</string>
     <string name="section_outgoing">สายโทรออก</string>
-    
-    
-    
+    <string name="section_by_contact">โดยรายชื่อติดต่อ</string>
+    <string name="section_by_format">โดยรูปแบบ</string>
+    <string name="section_by_label">โดยตัวอักษร</string>
     <string name="section_help">ช่วยเหลือ</string>
     <string name="section_tasks">งาน</string>
-    
+    <string name="section_tasks_hint">เวลาที่ใช้ไปกับงานการบันทึกเช่น การแปลง, เข้ารหัสหรืออัพโหลดไปยังคลาวด์จะปรากฎที่นี่</string>
     <string name="empty_hint">ว่างเปล่า</string>
 
     <!-- Action bar -->
     <string name="action_search">ค้นหา</string>
-    
+    <string name="action_sort">จัดเรียง</string>
     <string name="action_settings">ตั้งค่า</string>
-    
-    
-    
-    
-    
+    <string name="action_refresh">รีเฟรซ</string>
+    <string name="action_delete">ลบ</string>
+    <string name="action_add_star">เพิ่มดาว</string>
+    <string name="action_remove_star">ลบดาว</string>
+    <string name="action_share">แบ่งปัน</string>
     <string name="action_select_all">เลือกทั้งหมด</string>
-    
-    
-    
+    <string name="sort_by_date">โดยวันที่</string>
+    <string name="sort_by_contact">โดยรายชื่อติดต่อ</string>
+    <string name="sort_by_file_size">โดยขนาดไฟล์</string>
 
     <!-- List -->
-    
-    
-    
-    
+    <string name="list_header_today">วันนี้</string>
+    <string name="list_header_yesterday">เมื่อวาน</string>
+    <string name="queued">ลำดับ</string>
+    <string name="no_connection">ไม่มีการเชื่อมต่อ</string>
 
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">เพิ่มไปยังดรอพบ็อกซ์</string>
-    
-    
+    <string name="menu_add_note">เพิ่มบันทึก</string>
+    <string name="menu_edit_note">แก้ไขบันทึก</string>
     <string name="menu_delete">ลบ</string>
-    
-    
-    
+    <string name="menu_share">แบ่งปัน</string>
+    <string name="menu_convert_to_mp3">แปลงเป็น MP3</string>
+    <string name="menu_convert_to_amr">แปลงเป็น AMR</string>
     <string name="menu_get_info">รับข้อมูลเพิ่มเติม</string>
-    
+    <string name="menu_cancel_task">ยกเลิกงาน</string>
     <string name="menu_encrypt">เข้ารหัส</string>
     <string name="menu_decrypt">ถอดรหัส</string>
 
@@ -58,7 +58,7 @@
     <string name="file_name">ชื่อไฟล์</string>
     <string name="sample_rate">อัตราสุ่ม</string>
     <string name="sample_rate_hz">เฮิร์ตซ์</string>
-    
+    <string name="recording_type">ประเภทการบันทึก</string>
     <string name="recording_type_mono">โมโน</string>
     <string name="recording_type_stereo">สเตอริโอ</string>
     <string name="file_size">ขนาดไฟล์</string>
@@ -67,7 +67,7 @@
     <string name="megabyte">MB</string>
     <string name="kilobyte">KB</string>
     <string name="bytes">ไบต์</string>
-    
+    <string name="note">บันทึก</string>
 
     <!-- List -> Get info dialog -> Edit -->
     <string name="contact_name">ชื่อผู้ติดต่อ</string>
@@ -75,11 +75,11 @@
 
     <!-- List -> Confirm delete dialog -->
     <string name="confirm_delete_message">คุณแน่ใจหรือไม่ว่าจะลบการบันทึกเสียงโทรนี้?</string>
-    
-    
+    <string name="confirm_delete_several_title">ยืนยันการลบ</string>
+    <string name="confirm_delete_several_message">คุณได้เลือก %d บันทึก. แน่ใจหรือไม่ว่าคุณต้องการลบมัน?</string>
 
     <!-- List -> Share -->
-    
+    <string name="share_via">แบ่งปันผ่าน</string>
     <string name="recorded_calls">สายที่ถูกบันทึก</string>
 
     <!--  Settings -> Headers -->
@@ -87,28 +87,28 @@
     <string name="settings_folders_and_files">โฟลเดอร์และไฟล์</string>
     <string name="settings_ui_and_appearance">หน้าตาและลักษณะ</string>
     <string name="settings_security">ความปลอดภัย</string>
-    
+    <string name="settings_cloud">คลาวด์</string>
     <string name="settings_audio_player">ตัวเล่นเสียง</string>
     <string name="settings_debug">การแก้ปัญหา</string>
     <string name="settings_about">เกี่ยวกับ</string>
 
     <!-- Settings -> License -->
     <string name="license_status">สถานะใบอนุญาต</string>
-    
-    
-    
-    
-    
-    
-    
-    
+    <string name="license_check_pending">รอตรวจสอบสิทธิ์ใช้งาน</string>
+    <string name="license_check_failed">การยืนยันสิทธิ์ใช้งานล้มเหลว</string>
+    <string name="license_check_failed_summary">กดที่นี่เพื่อดูรายละเอียด</string>
+    <string name="license_verified">สิทธิ์ใช้งานยืนยันแล้ว</string>
+    <string name="license_verified_summary">กดเพื่อซ่อน</string>
+    <string name="license_help">ช่วยเหลือ</string>
+    <string name="license_signature_verification_failed">ล้มเหลวในการตรวจสอบลายเซ็น</string>
+    <string name="license_error_message">ผิดพลาด #%1$s: %2$s</string>
     <string name="license_trial">เวอร์ชั่นทดลองใช้,จะหมดอายุใน %s</string>
-    
-    
-    
-    
-    
-    
+    <string name="license_unknown_error">ข้อผิดพลาดที่ไม่รู้จัก</string>
+    <string name="license_not_market_managed">รุ่นนี้ยังไม่ได้เผยแพร่ทางเพลย์สโตร์</string>
+    <string name="license_incorrect_response">การตอบสนองสิทธิ์ใช้งานไม่ถูกต้องจากเพลย์สโตร์</string>
+    <string name="license_error_contacting_server">การติดต่อกับเซิร์ฟเวอร์ล้มเหลว</string>
+    <string name="license_server_error">เซิร์ฟเวอร์ผิดพลาด</string>
+    <string name="license_over_quota">การร้องขอมากเกินไปจากอุปกรณ์นี้</string>
 
     <string name="buy_full_version">ซื้อรุ่นสมบูรณ์</string>
     <string name="buy_full_version_summary">รุ่นปัจจุบันจะหมดอายุใน %s</string>
@@ -118,9 +118,9 @@
     <string name="category_main">หลัก</string>
     <string name="device">อุปกรณ์</string>
     <string name="select_your_device">เลือกอุปกรณ์ของคุณ</string>
-    
-    
-    
+    <string name="device_change_settings_empty">การตั้งค่าสำหรับอุปกรณ์นี้ได้ถูกตั้งค่าไว้แล้ว</string>
+    <string name="device_root_is_required">ต้องการสิทธิ์ผู้ดูแลระบบ</string>
+    <string name="device_root_is_required_summary">เพื่อคุณภาพที่ดีกว่า สิทธิ์ผู้ดูแลระบบจำเป็นสำหรับอุปกรณ์นี้</string>
     <string name="device_other">อื่น ๆ</string>
     <string name="recording_method">วิธีการบันทึกเสียง</string>
     <string name="recording_method_api">API มาตรฐาน</string>
@@ -129,8 +129,8 @@
     <string name="recording_method_caf_settings">ตั้งค่าสำหรับการบันทึกเสียงแบบ CAF</string>
     <string name="recording_method_alsa">ALSA</string>
     <string name="recording_method_alsa_settings">ตั้งค่าสำหรับการบันทึกเสียงผ่าน ALSA</string>
-    
-    
+    <string name="recording_method_msm">MSM</string>
+    <string name="recording_method_msm_settings">การตั้งค่าสำหรับวิธีการบันทึก MSM</string>
     <string name="category_actions">กิจกรรม</string>
     <string name="action_for_incoming">การกระทำสำหรับสายเรียกเข้า</string>
     <string name="action_for_outgoing">การกระทำสำหรับสายโทรออก</string>
@@ -144,23 +144,23 @@
     <string name="after_call_actions_dialog_summary">ถามว่าต้องการทำอะไรหลังการโทร</string>
     <string name="vibrate_on_call">สั่นเมื่อการโทรเริ่มต้น/เสร็จสิ้น</string>
     <string name="exceptions">ยกเว้น</string>
-    
-    
-    
+    <string name="exceptions_summary">ระบุการกระทำที่เจาะจงสำหรับรายชื่อ, กลุ่มหรือหมายเลขโทรศัพท์</string>
+    <string name="start_recording_on_answer">เริ่มบันทึกเมื่อรับสาย</string>
+    <string name="start_recording_on_answer_summary">เริ่มบันทึกหนึ่งครั้งเมื่อสายเรียกเข้าถูกรับสาย. แอพนี้ใช้วิธีการตรวจจับการรับสายที่ไม่มีการรับรอง. คุณลักษณะนี้อาจล้มเหลวในอุปกรณ์บางอย่าง สิทธิ์ผู้ดูแลระบบเป็นสิ่งจำเป็นตั้งแต่แอนดรอยด์ 4.1. Logger ใน kernel ต้องถูกเปิดใช้งาน</string>
     <string name="delay_before_start_recording">หน่วงเวลาก่อนเริ่มบันทึกเสียง</string>
-    
-    
-    
-    
-    
-    
+    <string name="delay_before_start_recording_summary">สำหรับสายโทรออก: %1$s, สำหรับสายเรียกเข้า: %2$s</string>
+    <string name="delay_format_sec">%s วินาที</string>
+    <string name="delay_for_outgoing">สำหรับสายโทรออก</string>
+    <string name="delay_for_incoming">สำหรับสายเรียกเข้า</string>
+    <string name="settings_for_device">ตั้งค่าสำหรับ %s</string>
+    <string name="recording_format">รูปแบบการบันทึก</string>
     <string name="recording_format_wav">WAV</string>
     <string name="recording_format_amr">AMR</string>
     <string name="recording_format_aac">AAC</string>
     <string name="recording_format_mp3">MP3</string>
     <string name="volume_control">ตัวควบคุมเสียง</string>
-    
-    
+    <string name="volume_control_summary">ส่ง: %1$s, รับ: %2$s</string>
+    <string name="volume_control_overall">ระดับเสียงโดยรวม</string>
     <string name="volume_control_tx">ส่ง</string>
     <string name="volume_control_rx">รับ</string>
     <string name="sample_rate_8000">8000 Hz (เริ่มต้น)</string>
@@ -179,14 +179,14 @@
     <string name="api_source_default">ค่าเริ่มต้น</string>
     <string name="api_source_voice_communication">การสื่อสารด้วยเสียง</string>
     <string name="category_wav_settings">ตั้งค่า WAV</string>
-    
+    <string name="category_wav_and_mp3_settings">การตั้งค่า WAV และ MP3</string>
 
     <!-- Settings -> Recording -> CAF -->
     <string name="recording_mode">โหมดการบันทึก</string>
 
     <!-- Settings -> Recording -> ALSA -->
-    
-    
+    <string name="alsa_is_not_installed">ALSA ต้องถูกติดตั้ง</string>
+    <string name="alsa_is_not_installed_summary">แตะที่นี่เพื่อติดตั้ง ALSA</string>
 
     <!-- Settings -> Recording -> MSM -->
     <string name="chipset_type">ประเภทชิพเซ็ท</string>
@@ -198,27 +198,27 @@
     <string name="dont_use_amr_driver_summary">แปลง WAV เป็น AMR แบบเวลาจริง</string>
 
     <!-- Settings -> Recording -> Exceptions -->
-    
+    <string name="add_exception">เพิ่มข้อยกเว้น</string>
     <string name="exception_group">กลุ่ม</string>
     <string name="exception_select_group">เลือกกลุ่ม</string>
-    
-    
-    
-    
+    <string name="exception_contact">รายชื่อ</string>
+    <string name="exception_select_contact">เลือกรายชื่อ</string>
+    <string name="exception_phone_number">หมายเลขโทรศัพท์</string>
+    <string name="exception_action">กิจกรรม</string>
     <string name="exception_select_action">เลือกการกระทำ</string>
     <string name="exception_action_always_record">บันทึกตลอดเวลา</string>
     <string name="exception_action_never_record">ไม่บันทึกเลย</string>
-    
-    
-    
-    
-    
-    
-    
+    <string name="exception_groups_not_found">ไม่พบกลุ่ม</string>
+    <string name="exception_contacts_not_found">ไม่พบรายชื่อ</string>
+    <string name="exceptions_not_added">ข้อยกเว้นไม่ถูกเพิ่ม</string>
+    <string name="exception_by_contact">โดยรายชื่อติดต่อ</string>
+    <string name="exception_by_group">โดยกลุ่ม</string>
+    <string name="exception_by_phone_number">โดยเบอร์โทรศัพท์</string>
+    <string name="exception_delete_message">คุณแน่ใจหรือไม่ที่จะลบข้อยกเว้นนี้?</string>
 
     <!-- Settings -> Folders and Files -->
     <string name="folder">โฟลเดอร์</string>
-    
+    <string name="folder_chooser_up_to">↑ ไปยัง %s</string>
     <string name="automatic_cleanup">ทำความสะอาดอัตโนมัติ</string>
     <string name="max_number_of_files">จำนวนไฟล์สูงสุด</string>
     <string name="max_number_of_files_message">ระบุตัวเลข (0 - ไม่จำกัด)</string>
@@ -227,7 +227,7 @@
     <string name="max_age_of_recordings">อายุการบันทึกเสียงสูงสุด</string>
     <string name="max_age_of_recordings_message">ระบุค่าในหน่วยวัน (0 - ไม่จำกัด)</string>
     <string name="current_setting">การตั้งค่าปัจจุบัน: %s</string>
-    
+    <string name="settings_filename">ชื่อไฟล์</string>
     <string name="filename_pattern">รูปแบบ</string>
     <string name="time_pattern">รูปแบบเวลา</string>
 
@@ -235,7 +235,7 @@
     <string name="pattern_contact_name">ชื่อผู้ติดต่อ</string>
     <string name="pattern_phone_number">หมายเลขโทรศัพท์</string>
     <string name="pattern_call_time">เวลาสนทนา</string>
-    
+    <string name="pattern_call_timestamp">เวลาการโทร (unix time)</string>
     <string name="pattern_call_type">ประเภทการโทร (โทรออก หรือ เรียกเข้า)</string>
     <string name="time_pattern_hours">ชั่วโมง</string>
     <string name="time_pattern_minutes">นาที</string>
@@ -248,41 +248,45 @@
     <!--Settings -> Interface and Appearance-->
     <string name="language">ภาษา</string>
     <string name="select_language">เลือกภาษา</string>
+    
     <string name="category_notification">การแจ้งเตือน</string>
     <string name="show_notification">แสดงการแจ้งเตือน</string>
-    
-    
+    <string name="show_notification_summary">แจ้งเตือนถาวรในแถบสถานะ</string>
+    <string name="category_incall_control_button">ปุ่มควบคุมในสาย</string>
     <string name="incall_control_for_outgoing">สำหรับสายโทรออก</string>
-    
+    <string name="incall_control_for_outgoing_summary">แสดงปุ่มควบคุมในสายสำหรับสายโทรออก</string>
     <string name="incall_control_for_incoming">สำหรับสายเรียกเข้า</string>
-    
-    
-    
+    <string name="incall_control_for_incoming_summary">แสดงปุ่มควบคุมในสายสำหรับสายเรียกเข้า</string>
+    <string name="hide_button_while_recording">ซ่อนปุ่มในขณะบันทึก</string>
+    <string name="hide_button_while_recording_summary">ซ่อนปุ่มควบคุมในสายถ้าการโทรกำลังถูกบันทึก</string>
     <string name="show_button_while_ringing">แสดงปุ่มในขณะมีเสียงเรียกเข้า</string>
     <string name="show_button_while_ringing_summary">แสดงปุ่มควบคุมการบันทึกเสียงก่อนการรับสายเรียกเข้า</string>
     <string name="vertical_position">ตำแหน่งแนวตั้ง</string>
-    
+    <string name="vertical_position_summary">%s dp, ชดเชยจากตรงกลางหน้าจอ</string>
     <string name="horizontal_position">ตำแหน่งแนวนอน</string>
-    
-    
+    <string name="horizontal_position_summary">%s dp, ชดเชยจากตรงกลางหน้าจอ</string>
+    <string name="hide_button_before_answer">ซ่อนปุ่มก่อนรับสาย</string>
     <string name="hide_button_before_answer_summary">อย่าแสดงปุ่มควบคุมการบันทึกเสียงจนกว่าการเชื่อมต่อเริ่มต้น</string>
+    <string name="long_press_action">กิจกรรมสำหรับการแตะค้าง</string>
+    
+    <string name="long_press_action_hang_up">วางสายและโทรกลับอัตโนมัติ</string>
 
     <!-- Settings -> Cloud -->
-    
+    <string name="cloud_provider">ผู้ให้บริการคลาวด์</string>
     <string name="cloud_provider_dropbox">ดรอพบ็อกซ์</string>
-    
-    
-    
-    
+    <string name="sign_in_dropbox">เข้าใช้ดรอพบ๊อกซ์</string>
+    <string name="sign_out_dropbox">เลิกใช้ดรอพบ๊อกซ์</string>
+    <string name="cloud_provider_google_drive">กูเกิ้ลไดรฟ์</string>
+    <string name="cloud_common_settings">พื้นฐาน</string>
     <string name="cloud_wifi_only">ไวไฟเท่านั้น</string>
     <string name="cloud_auto_upload">อัพโหลดอัตโนมัติ</string>
     <string name="cloud_auto_upload_summary">อัพโหลดไฟล์บันทึกเสียงหลังโทร</string>
-    
-    
+    <string name="cloud_upload_starred">อัพโหลดที่ติดดาว</string>
+    <string name="cloud_upload_starred_summary">อัพโหลดบันทึกไปยังคลาวด์เมื่อคุณเพิ่มดาว</string>
 
     <!-- Notification -->
-    
-    
+    <string name="notify_uploading_dropbox">อัพโหลดไปยังดรอพบ๊อกซ์</string>
+    <string name="notify_tasks_remaining">%d บันทึกยังคงอยู่</string>
 
     <!-- Password dialog -->
     <string name="wrong_password">รหัสผ่านไม่ถูกต้อง</string>
@@ -293,17 +297,17 @@
     <string name="category_encryption">เข้ารหัส</string>
     <string name="category_application">แอพพลิเคชั่น</string>
     <string name="create_new_key">สร้างคีย์ใหม่</string>
-    
-    
+    <string name="create_new_key_summary">คีย์นี้จะถูกใช้หลังจากเข้ารหัสบันทึกหรือเข้าใช้แอพ</string>
+    <string name="delete_key">ลบคีย์</string>
     <string name="change_password">เปลี่ยนรหัสผ่าน</string>
-    
-    
+    <string name="delete_key_summary">คำเตือน! คุณจะไม่สามารถกู้คืนบันทึกที่เข้ารหัสถ้าคุณเข้ารหัสด้วยคีย์นี้, แม้ว่าคุณจะสร้างรหัสใหม่ด้วยรหัสผ่านเดียวกัน</string>
+    <string name="delete_key_message">หลังจากลบคุณจะไม่สามารถกู้คืนบันทึกที่เข้ารหัสด้วยคีย์นี้. คุณแน่ใจหรือไม่?</string>
     <string name="enter_old_password">กรอกรหัสผ่านเก่า</string>
     <string name="enter_new_password">กรอกรหัสผ่านใหม่</string>
     <string name="re_enter_new_password">กรอกรหัสผ่านใหม่อีกครั้ง</string>
     <string name="require_password">ต้องการรหัสผ่าน</string>
     <string name="require_password_summary">ต้องการรหัสผ่านเพื่อเปิดแอพ</string>
-    
+    <string name="require_password_summary_no_key">ต้องการรหัสผ่านเพื่อเปิดแอพ. เพื่อเปิดใช้งานคุณต้องสร้างคีย์เป็นอันดับแรก</string>
     <string name="lock_after">ล็อคหลังจาก</string>
     <string name="lock_after_exit">ออก</string>
     <string name="lock_after_1_minute">1นาที</string>
@@ -311,22 +315,22 @@
     <string name="lock_after_5_minutes">5 นาที</string>
     <string name="lock_after_10_minutes">10 นาที</string>
     <string name="app_admin">ผู้ดูแลแอพ</string>
-    
-    
+    <string name="app_admin_summary">จำเป็นที่จะต้องป้องกันไม่ให้ถอนการติดตั้ง Call Recorder</string>
+    <string name="app_admin_explanation">Call Recorder ไม่ได้ใช้คุณลักษณะใดๆ ของผู้ดูแลระบบ ยกเว้นการปกป้องถอนการติดตั้ง</string>
     <string name="aes_128bit">128-bit AES (เร็วกว่า)</string>
     <string name="aes_192bit">192-bit AES (พอดี)</string>
     <string name="aes_256bit">256-bit AES (แข็งแรงกว่า)</string>
 
     <!-- Settings -> Audio player -->
-    
+    <string name="use_built_in_player">ใช้ตัวเล่นภายใน</string>
     <string name="audio_output">เสียงออก</string>
-    
+    <string name="audio_output_summary">%s (แตกค้างที่ปุ่มเล่น/หยุดชั่วคราว เพื่อสลับงาน)</string>
     <string name="main_speaker">ลำโพงหลัก</string>
     <string name="phone_speaker">ลำโพงโทรศัพท์</string>
     <string name="use_proximity_sensor">ใช้เซ็นเซอร์ตรวจสอบความใกล้</string>
-    
+    <string name="use_proximity_sensor_summary">ปิดการใช้งานหน้าจอโดยเซ็นเซอร์ความใกล้ชิดในระหว่างการเล่น</string>
     <string name="switch_audio_output">สลับเสียงออก</string>
-    
+    <string name="switch_audio_output_summary">สลับสัญญาณเสียงออกอัตโนมัติเมื่อหน้าจอถูกปิด/เปิดใช้งานโดยเซ็นเซอร์ความใกล้ชิด</string>
     <string name="android_wav_decoder">ตัวถอดรหัสแอนดรอยด์สำหรับ WAV</string>
     <string name="android_wav_decoder_summary">ใช้เครื่องมือในตัวแอนดรอยด์เพื่อที่จะเล่น WAV</string>
     <string name="android_amr_decoder">ตัวถอดรหัสแอนดรอยด์สำหรับ AMR</string>
@@ -341,43 +345,51 @@
 
     <!-- General -->
     <string name="contact_unknown">ไม่ทราบ</string>
-    
+    <string name="button_choose">เลือก</string>
     <string name="button_ok">ตกลง</string>
-    
+    <string name="button_call">โทร</string>
     <string name="button_edit">แก้ไข</string>
     <string name="button_cancel">ยกเลิก</string>
+    <string name="button_create">สร้าง</string>
+    <string name="button_delete">ลบ</string>
     
     
     
-    
-    
-    
-    
+    <string name="button_delete_wait">ลบ (%d)</string>
+    <string name="decline">ปฏิเสธ</string>
+    <string name="accept">ยอมรับ</string>
+    <string name="call_incoming">สายโทรเข้า</string>
+    <string name="call_outgoing">สายโทรออก</string>
     <string name="please_wait">โปรดรอ...</string>
+    
     <string name="start_recording">เริ่มบันทึกเสียงการโทร</string>
     <string name="stop_recording">หยุดบันทึกเสียงการโทร</string>
-    
+    <string name="action_mode_selected">%d ถูกเลือก</string>
     <string name="switch_on">เปิด</string>
     <string name="switch_off">ปิด</string>
 
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">บันทึกเสียงสายนี้</string>
-    
+    <string name="open_contact">เปิดรายชื่อ</string>
+
+    <!--After call actions dialog-->
+    <string name="cloud_added">เพิ่มแล้ว</string>
 
     <!--Notification-->
-    
-    
-    
+    <string name="waiting_for_answer">กำลังรอการรับสาย</string>
+    <string name="recording_in_progress">การบันทึกกำลังดำเนินการ</string>
+    <string name="no_recording_in_progress">ไม่มีการบันทึก</string>
     <string name="an_error_has_occurred">มีข้อผิดพลาดเกิดขึ้น, สายนี้ไม่สามารถบันทึกเสียงได้</string>
 
     <!--About-->
-    
+    <string name="about_call_recorder">เกี่ยวกับ Call Recorder</string>
     <string name="version">รุ่น</string>
     <string name="copyright">สงวนลิขสิทธิ์</string>
     <string name="copyright_summary">© %s Alexander Skvortsov (skvalex)</string>
     <string name="about_many_thanks">ขอบคุณมากมาย</string>
     <string name="about_many_thanks_summary">ไปยัง Alexey Subbotin (avs234)</string>
 
+    <!--About -> Licenses-->
     <string name="licenses">สัญญาอนุญาต</string>
     <string name="about_open_core_amr_license">opencore-amr</string>
     <string name="about_open_core_amr_license_summary">ใช้ opencore AMR-ภายใต้สัญญาอนุญาต Apache เวอร์ชัน 2.0 คลิกที่นี่เพื่อเยี่ยมชม opencore-amr.sourceforge.net</string>
@@ -386,6 +398,7 @@
     <string name="about_lame">LAME</string>
     <string name="about_lame_summary">ใช้ LAME ภายใต้ LGPL คลิกที่นี่เพื่อเยี่ยมชม mp3dev.org</string>
 
+    <!--Credits-->
     <string name="german_translation">แปลเป็นภาษาเยอรมัน</string>
     <string name="german_translation_summary">โดย Marc Hillesheim and Thomas Käfer</string>
     <string name="polish_translation">แปลภาษาโปแลนด์</string>
@@ -399,11 +412,11 @@
     <string name="slovak_translation">แปลเป็นภาษาสโลวัก</string>
     <string name="slovak_translation_summary">โดย Loránt Gerencsér</string>
     <string name="italian_translation">แปลเป็นภาษาอิตาลี</string>
-    
+    <string name="italian_translation_summary">โดย Luca Trevisan และ Francesco Cafagna</string>
     <string name="persian_translation">แปลเป็นภาษาเปอร์เซีย</string>
     <string name="persian_translation_summary">โดย Alireza Afkar</string>
     <string name="chinese_translation">แปลเป็นภาษาจีน</string>
-    
+    <string name="chinese_translation_summary">โดย qhq และ Yu Fei</string>
     <string name="czech_translation">แปลเป็นภาษาเช็ก</string>
     <string name="czech_translation_summary">โดย Ales Kerner และ Lukas Waldauf</string>
     <string name="arabic_translation">แปลเป็นภาษาอาหรับ</string>
@@ -452,149 +465,4 @@
     <string name="belarusian_translation_summary">โดย Alexander Kuvshinov</string>
     <string name="vietnamese_translation">แปลเป็นภาษาเวียดนาม</string>
     <string name="vietnamese_translation_summary">โดย Truong Hoang Trung</string>
-<string name="terms_of_use">เงื่อนไขการใช้งาน</string>
-    <string name="terms_of_use_message">หากกำลังใช้งานแอพนี้, หมายถึงคุณยอมรับเงื่อนไขการใช้งานของ CallRecorder</string>
-
-    <string name="navigation_drawer_open">เปิดตัวนำทาง</string>
-    <string name="navigation_drawer_close">ปิดตัวนำทาง</string>
-
-    <string name="section_all_recordings">บันทึกทั้งหมด</string>
-    <string name="section_starred">ที่ติดดาว</string>
-    <string name="section_by_contact">โดยรายชื่อติดต่อ</string>
-    <string name="section_by_format">โดยรูปแบบ</string>
-    <string name="section_by_label">โดยตัวอักษร</string>
-    <string name="section_tasks_hint">เวลาที่ใช้ไปกับงานการบันทึกเช่น การแปลง, เข้ารหัสหรืออัพโหลดไปยังคลาวด์จะปรากฎที่นี่</string>
-    <string name="action_sort">จัดเรียง</string>
-    <string name="action_refresh">รีเฟรซ</string>
-    <string name="action_delete">ลบ</string>
-    <string name="action_add_star">เพิ่มดาว</string>
-    <string name="action_remove_star">ลบดาว</string>
-    <string name="action_share">แบ่งปัน</string>
-    <string name="sort_by_date">โดยวันที่</string>
-    <string name="sort_by_contact">โดยรายชื่อติดต่อ</string>
-    <string name="sort_by_file_size">โดยขนาดไฟล์</string>
-
-    <string name="list_header_today">วันนี้</string>
-    <string name="list_header_yesterday">เมื่อวาน</string>
-    <string name="queued">ลำดับ</string>
-    <string name="no_connection">ไม่มีการเชื่อมต่อ</string>
-
-    <string name="menu_add_note">เพิ่มบันทึก</string>
-    <string name="menu_edit_note">แก้ไขบันทึก</string>
-    <string name="menu_share">แบ่งปัน</string>
-    <string name="menu_convert_to_mp3">แปลงเป็น MP3</string>
-    <string name="menu_convert_to_amr">แปลงเป็น AMR</string>
-    <string name="menu_cancel_task">ยกเลิกงาน</string>
-    <string name="recording_type">ประเภทการบันทึก</string>
-    <string name="note">บันทึก</string>
-
-    <string name="confirm_delete_several_title">ยืนยันการลบ</string>
-    <string name="confirm_delete_several_message">คุณได้เลือก %d บันทึก. แน่ใจหรือไม่ว่าคุณต้องการลบมัน?</string>
-
-    <string name="share_via">แบ่งปันผ่าน</string>
-    <string name="settings_cloud">คลาวด์</string>
-    <string name="license_check_pending">รอตรวจสอบสิทธิ์ใช้งาน</string>
-    <string name="license_check_failed">การยืนยันสิทธิ์ใช้งานล้มเหลว</string>
-    <string name="license_check_failed_summary">กดที่นี่เพื่อดูรายละเอียด</string>
-    <string name="license_verified">สิทธิ์ใช้งานยืนยันแล้ว</string>
-    <string name="license_verified_summary">กดเพื่อซ่อน</string>
-    <string name="license_help">ช่วยเหลือ</string>
-    <string name="license_signature_verification_failed">ล้มเหลวในการตรวจสอบลายเซ็น</string>
-    <string name="license_error_message">ผิดพลาด #%1$s: %2$s</string>
-    <string name="license_unknown_error">ข้อผิดพลาดที่ไม่รู้จัก</string>
-    <string name="license_not_market_managed">รุ่นนี้ยังไม่ได้เผยแพร่ทางเพลย์สโตร์</string>
-    <string name="license_incorrect_response">การตอบสนองสิทธิ์ใช้งานไม่ถูกต้องจากเพลย์สโตร์</string>
-    <string name="license_error_contacting_server">การติดต่อกับเซิร์ฟเวอร์ล้มเหลว</string>
-    <string name="license_server_error">เซิร์ฟเวอร์ผิดพลาด</string>
-    <string name="license_over_quota">การร้องขอมากเกินไปจากอุปกรณ์นี้</string>
-
-    <string name="device_change_settings_empty">การตั้งค่าสำหรับอุปกรณ์นี้ได้ถูกตั้งค่าไว้แล้ว</string>
-    <string name="device_root_is_required">ต้องการสิทธิ์ผู้ดูแลระบบ</string>
-    <string name="device_root_is_required_summary">เพื่อคุณภาพที่ดีกว่า สิทธิ์ผู้ดูแลระบบจำเป็นสำหรับอุปกรณ์นี้</string>
-    <string name="recording_method_msm">MSM</string>
-    <string name="recording_method_msm_settings">การตั้งค่าสำหรับวิธีการบันทึก MSM</string>
-    <string name="exceptions_summary">ระบุการกระทำที่เจาะจงสำหรับรายชื่อ, กลุ่มหรือหมายเลขโทรศัพท์</string>
-    <string name="start_recording_on_answer">เริ่มบันทึกเมื่อรับสาย</string>
-    <string name="start_recording_on_answer_summary">เริ่มบันทึกหนึ่งครั้งเมื่อสายเรียกเข้าถูกรับสาย. แอพนี้ใช้วิธีการตรวจจับการรับสายที่ไม่มีการรับรอง. คุณลักษณะนี้อาจล้มเหลวในอุปกรณ์บางอย่าง สิทธิ์ผู้ดูแลระบบเป็นสิ่งจำเป็นตั้งแต่แอนดรอยด์ 4.1. Logger ใน kernel ต้องถูกเปิดใช้งาน</string>
-    <string name="delay_before_start_recording_summary">สำหรับสายโทรออก: %1$s, สำหรับสายเรียกเข้า: %2$s</string>
-    <string name="delay_format_sec">%s วินาที</string>
-    <string name="delay_for_outgoing">สำหรับสายโทรออก</string>
-    <string name="delay_for_incoming">สำหรับสายเรียกเข้า</string>
-    <string name="settings_for_device">ตั้งค่าสำหรับ %s</string>
-    <string name="recording_format">รูปแบบการบันทึก</string>
-    <string name="volume_control_summary">ส่ง: %1$s, รับ: %2$s</string>
-    <string name="volume_control_overall">ระดับเสียงโดยรวม</string>
-    <string name="category_wav_and_mp3_settings">การตั้งค่า WAV และ MP3</string>
-
-    <string name="alsa_is_not_installed">ALSA ต้องถูกติดตั้ง</string>
-    <string name="alsa_is_not_installed_summary">แตะที่นี่เพื่อติดตั้ง ALSA</string>
-
-    <string name="add_exception">เพิ่มข้อยกเว้น</string>
-    <string name="exception_contact">รายชื่อ</string>
-    <string name="exception_select_contact">เลือกรายชื่อ</string>
-    <string name="exception_phone_number">หมายเลขโทรศัพท์</string>
-    <string name="exception_action">กิจกรรม</string>
-    <string name="exception_groups_not_found">ไม่พบกลุ่ม</string>
-    <string name="exception_contacts_not_found">ไม่พบรายชื่อ</string>
-    <string name="exceptions_not_added">ข้อยกเว้นไม่ถูกเพิ่ม</string>
-    <string name="exception_by_contact">โดยรายชื่อติดต่อ</string>
-    <string name="exception_by_group">โดยกลุ่ม</string>
-    <string name="exception_by_phone_number">โดยเบอร์โทรศัพท์</string>
-    <string name="exception_delete_message">คุณแน่ใจหรือไม่ที่จะลบข้อยกเว้นนี้?</string>
-
-    <string name="folder_chooser_up_to">↑ ไปยัง %s</string>
-    <string name="settings_filename">ชื่อไฟล์</string>
-    <string name="pattern_call_timestamp">เวลาการโทร (unix time)</string>
-    <string name="show_notification_summary">แจ้งเตือนถาวรในแถบสถานะ</string>
-    <string name="category_incall_control_button">ปุ่มควบคุมในสาย</string>
-    <string name="incall_control_for_outgoing_summary">แสดงปุ่มควบคุมในสายสำหรับสายโทรออก</string>
-    <string name="incall_control_for_incoming_summary">แสดงปุ่มควบคุมในสายสำหรับสายเรียกเข้า</string>
-    <string name="hide_button_while_recording">ซ่อนปุ่มในขณะบันทึก</string>
-    <string name="hide_button_while_recording_summary">ซ่อนปุ่มควบคุมในสายถ้าการโทรกำลังถูกบันทึก</string>
-    <string name="vertical_position_summary">%s dp, ชดเชยจากตรงกลางหน้าจอ</string>
-    <string name="horizontal_position_summary">%s dp, ชดเชยจากตรงกลางหน้าจอ</string>
-    <string name="hide_button_before_answer">ซ่อนปุ่มก่อนรับสาย</string>
-    <string name="long_press_action">กิจกรรมสำหรับการแตะค้าง</string>
-    <string name="long_press_action_hang_up">วางสายและโทรกลับอัตโนมัติ</string>
-
-    <string name="cloud_provider">ผู้ให้บริการคลาวด์</string>
-    <string name="sign_in_dropbox">เข้าใช้ดรอพบ๊อกซ์</string>
-    <string name="sign_out_dropbox">เลิกใช้ดรอพบ๊อกซ์</string>
-    <string name="cloud_provider_google_drive">กูเกิ้ลไดรฟ์</string>
-    <string name="cloud_common_settings">พื้นฐาน</string>
-    <string name="cloud_upload_starred">อัพโหลดที่ติดดาว</string>
-    <string name="cloud_upload_starred_summary">อัพโหลดบันทึกไปยังคลาวด์เมื่อคุณเพิ่มดาว</string>
-
-    <string name="notify_uploading_dropbox">อัพโหลดไปยังดรอพบ๊อกซ์</string>
-    <string name="notify_tasks_remaining">%d บันทึกยังคงอยู่</string>
-
-    <string name="create_new_key_summary">คีย์นี้จะถูกใช้หลังจากเข้ารหัสบันทึกหรือเข้าใช้แอพ</string>
-    <string name="delete_key">ลบคีย์</string>
-    <string name="delete_key_summary">คำเตือน! คุณจะไม่สามารถกู้คืนบันทึกที่เข้ารหัสถ้าคุณเข้ารหัสด้วยคีย์นี้, แม้ว่าคุณจะสร้างรหัสใหม่ด้วยรหัสผ่านเดียวกัน</string>
-    <string name="delete_key_message">หลังจากลบคุณจะไม่สามารถกู้คืนบันทึกที่เข้ารหัสด้วยคีย์นี้. คุณแน่ใจหรือไม่?</string>
-    <string name="require_password_summary_no_key">ต้องการรหัสผ่านเพื่อเปิดแอพ. เพื่อเปิดใช้งานคุณต้องสร้างคีย์เป็นอันดับแรก</string>
-    <string name="app_admin_summary">จำเป็นที่จะต้องป้องกันไม่ให้ถอนการติดตั้ง Call Recorder</string>
-    <string name="app_admin_explanation">Call Recorder ไม่ได้ใช้คุณลักษณะใดๆ ของผู้ดูแลระบบ ยกเว้นการปกป้องถอนการติดตั้ง</string>
-    <string name="use_built_in_player">ใช้ตัวเล่นภายใน</string>
-    <string name="audio_output_summary">%s (แตกค้างที่ปุ่มเล่น/หยุดชั่วคราว เพื่อสลับงาน)</string>
-    <string name="use_proximity_sensor_summary">ปิดการใช้งานหน้าจอโดยเซ็นเซอร์ความใกล้ชิดในระหว่างการเล่น</string>
-    <string name="switch_audio_output_summary">สลับสัญญาณเสียงออกอัตโนมัติเมื่อหน้าจอถูกปิด/เปิดใช้งานโดยเซ็นเซอร์ความใกล้ชิด</string>
-    <string name="button_choose">เลือก</string>
-    <string name="button_call">โทร</string>
-    <string name="button_create">สร้าง</string>
-    <string name="button_delete">ลบ</string>
-    <string name="button_delete_wait">ลบ (%d)</string>
-    <string name="decline">ปฏิเสธ</string>
-    <string name="accept">ยอมรับ</string>
-    <string name="call_incoming">สายโทรเข้า</string>
-    <string name="call_outgoing">สายโทรออก</string>
-    <string name="action_mode_selected">%d ถูกเลือก</string>
-    <string name="open_contact">เปิดรายชื่อ</string>
-
-    <string name="waiting_for_answer">กำลังรอการรับสาย</string>
-    <string name="recording_in_progress">การบันทึกกำลังดำเนินการ</string>
-    <string name="no_recording_in_progress">ไม่มีการบันทึก</string>
-    <string name="about_call_recorder">เกี่ยวกับ Call Recorder</string>
-    <string name="italian_translation_summary">โดย Luca Trevisan และ Francesco Cafagna</string>
-    <string name="chinese_translation_summary">โดย qhq และ Yu Fei</string>
-    </resources>
+</resources>

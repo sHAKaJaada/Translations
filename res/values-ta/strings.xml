@@ -1,12 +1,14 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Call Recorder</string>
-<string name="terms_of_use">விதிமுறைகள்</string>
+    <string name="terms_of_use">விதிமுறைகள்</string>
     <string name="terms_of_use_message">பயன்பாட்டை பயன்படுத்தி, நீங்கள் CallRecorder தான் ஒப்புக்கொள்கிறேன் &lt;a href=http://rec.sh/terms&gt;விதிமுறைகள்&lt;/a&gt;.</string>
 
+    <!-- Navigation drawer -->
     <string name="navigation_drawer_open">வழிசெலுத்தல் இடத்தைத் திற</string>
     <string name="navigation_drawer_close">வழிசெலுத்தல் இடத்தை மூடு</string>
 
+    <!-- Navigation drawer sections -->
     <string name="section_all_recordings">அனைத்து பதிவுகளை</string>
     <string name="section_starred">நடித்தார்</string>
     <string name="section_incoming">உள்வரும்</string>
@@ -19,4 +21,448 @@
     <string name="section_tasks_hint">நேரம் எடுத்துக்கொள்ளும் போன்ற இங்கே காட்டப்படும் ஒரு மேகம், மாற்றும் மறையீடாக்கம் அல்லது பதிவேற்ற போல் பதிவுகளை கொண்டு பணிகளை</string>
     <string name="empty_hint">வெற்று</string>
 
-    </resources>
+    <!-- Action bar -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- List -->
+    
+    
+    
+    
+
+    <!-- List -> Context menu -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- List -> Get info dialog -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- List -> Get info dialog -> Edit -->
+    
+    
+
+    <!-- List -> Confirm delete dialog -->
+    
+    
+    
+
+    <!-- List -> Share -->
+    
+    
+
+    <!--  Settings -> Headers -->
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- Settings -> License -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    <!-- Settings -> Recording -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- Settings -> Recording -> Standard API -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- Settings -> Recording -> CAF -->
+    
+
+    <!-- Settings -> Recording -> ALSA -->
+    
+    
+
+    <!-- Settings -> Recording -> MSM -->
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- Settings -> Recording -> Exceptions -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- Settings -> Folders and Files -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- Description for filename pattern -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <!--Settings -> Interface and Appearance-->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- Settings -> Cloud -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- Notification -->
+    
+    
+
+    <!-- Password dialog -->
+    
+    
+    
+
+    <!-- Settings -> Security -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- Settings -> Audio player -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <!--Settings -> Debug-->
+    
+    
+    
+    
+    
+
+    <!-- General -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- Call confirm dialog -->
+    
+    
+
+    <!--After call actions dialog-->
+    
+
+    <!--Notification-->
+    
+    
+    
+    
+
+    <!--About-->
+    
+    
+    
+    
+    
+    
+
+    <!--About -> Licenses-->
+    
+    
+    
+    
+    
+    
+    
+
+    <!--Credits-->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</resources>

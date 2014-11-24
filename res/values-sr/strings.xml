@@ -1,8 +1,8 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CallRecorder</string>
-    
-    
+    <string name="terms_of_use">Услови коришћења</string>
+    <string name="terms_of_use_message">Употребом ове апликације сагласни сте са CallRecorder\'s &lt;a href=http://rec.sh/terms&gt;условима коришћења&lt;/a&gt;.</string>
 
     <!-- Navigation drawer -->
     
@@ -102,7 +102,7 @@
     
     
     
-    <string name="license_trial">Пробна верзија истиче дана</string>
+    
     
     
     
@@ -248,6 +248,7 @@
     <!--Settings -> Interface and Appearance-->
     <string name="language">Језик</string>
     <string name="select_language">Одабир језика</string>
+    
     <string name="category_notification">Обавештење</string>
     <string name="show_notification">Приказ иконе на инфо траци</string>
     
@@ -266,6 +267,9 @@
     
     
     <string name="hide_button_before_answer_summary">Не приказивати дугме за контролу у току позива до успостављања везе</string>
+    
+    
+    
 
     <!-- Settings -> Cloud -->
     
@@ -353,7 +357,11 @@
     
     
     
+    
+    
+    
     <string name="please_wait">Причекајте...</string>
+    
     <string name="start_recording">Покрени снимање</string>
     <string name="stop_recording">Заустави снимање</string>
     
@@ -363,6 +371,9 @@
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">Снимај овај позив</string>
     
+
+    <!--After call actions dialog-->
+    <string name="cloud_added">Додато</string>
 
     <!--Notification-->
     
@@ -378,6 +389,7 @@
     <string name="about_many_thanks">Захваљујем се</string>
     <string name="about_many_thanks_summary">Alexey Subbotin (avs234)</string>
 
+    <!--About -> Licenses-->
     <string name="licenses">Лиценце</string>
     <string name="about_open_core_amr_license">opencore-amr</string>
     <string name="about_open_core_amr_license_summary">Користи opencore-amr од: Apache License Version 2.0, притисните за посету opencore-amr.sourceforge.net</string>
@@ -386,6 +398,7 @@
     <string name="about_lame">LAME</string>
     <string name="about_lame_summary">Користи LAME лиценциран од LGPL.Притисните за посету mp3dev.org</string>
 
+    <!--Credits-->
     <string name="german_translation">Немачки превод</string>
     <string name="german_translation_summary">Marc Hillesheim и Thomas Käfer</string>
     <string name="polish_translation">Пољски превод</string>
@@ -452,7 +465,4 @@
     <string name="belarusian_translation_summary">Alexander Kuvshinov</string>
     <string name="vietnamese_translation">Вијетнамски превод</string>
     <string name="vietnamese_translation_summary">Truong Hoang Trung</string>
-<string name="terms_of_use">Услови коришћења</string>
-    <string name="terms_of_use_message">Употребом ове апликације сагласни сте са CallRecorder's &lt;a href=http://rec.sh/terms&gt;условима коришћења&lt;/a&gt;.</string>
-
-    </resources>
+</resources>

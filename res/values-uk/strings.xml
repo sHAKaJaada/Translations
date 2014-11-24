@@ -248,6 +248,7 @@
     <!--Settings -> Interface and Appearance-->
     <string name="language">Мова</string>
     <string name="select_language">Виберіть мову</string>
+    
     <string name="category_notification">Повідомлення</string>
     <string name="show_notification">Показувати повідомлення</string>
     
@@ -266,6 +267,9 @@
     
     
     <string name="hide_button_before_answer_summary">Не показуватиме кнопку контролю під час дзвінку перед з\'єднанням</string>
+    
+    
+    
 
     <!-- Settings -> Cloud -->
     
@@ -353,7 +357,11 @@
     
     
     
+    
+    
+    
     <string name="please_wait">Почекайте, будь ласка,...</string>
+    
     <string name="start_recording">Початок записування</string>
     <string name="stop_recording">Припинення записування</string>
     
@@ -363,6 +371,9 @@
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">Записати цю розмову</string>
     
+
+    <!--After call actions dialog-->
+    <string name="cloud_added">Додано</string>
 
     <!--Notification-->
     
@@ -378,6 +389,7 @@
     <string name="about_many_thanks">Велике дякую</string>
     <string name="about_many_thanks_summary">Олексію Суботіну(avs234)</string>
 
+    <!--About -> Licenses-->
     <string name="licenses">Ліцензія</string>
     <string name="about_open_core_amr_license">opencore-amr</string>
     <string name="about_open_core_amr_license_summary">Використовує opencore-amr під ліцензією Apache версії 2.0. Натисніть сюди, аби відвідати opencore-amr.sourceforge.net</string>
@@ -386,6 +398,7 @@
     <string name="about_lame">LAME</string>
     <string name="about_lame_summary">Використовується LAME за умов LGPL. Натисніть сюди аби відвідати mp3dev.org</string>
 
+    <!--Credits-->
     <string name="german_translation">переклад на німецьку</string>
     <string name="german_translation_summary">завдяки Marc Hillesheim and Thomas Käfer</string>
     <string name="polish_translation">Переклад на польську</string>

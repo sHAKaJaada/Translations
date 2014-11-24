@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CallRecorder</string>
-    
+    <string name="terms_of_use">Kullanım Şartları</string>
     
 
     <!-- Navigation drawer -->
@@ -248,6 +248,7 @@
     <!--Settings -> Interface and Appearance-->
     <string name="language">Dil</string>
     <string name="select_language">Dil seçimiz</string>
+    
     <string name="category_notification">Bildirimler</string>
     <string name="show_notification">Simgeyi göster</string>
     
@@ -266,6 +267,9 @@
     
     
     <string name="hide_button_before_answer_summary">Çağrı içi kontrol butonunu bağlantı kurulmadan gösterme</string>
+    
+    
+    
 
     <!-- Settings -> Cloud -->
     
@@ -353,7 +357,11 @@
     
     
     
+    
+    
+    
     <string name="please_wait">Lütfen bekleyin...</string>
+    
     <string name="start_recording">Kaydı Başlat</string>
     <string name="stop_recording">Kaydı Durdur</string>
     
@@ -363,6 +371,9 @@
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">Bu aramayı kaydet</string>
     
+
+    <!--After call actions dialog-->
+    <string name="cloud_added">Eklendi</string>
 
     <!--Notification-->
     
@@ -378,6 +389,7 @@
     <string name="about_many_thanks">Çok teşekkürler</string>
     <string name="about_many_thanks_summary">to Alexey Subbotin (avs234)</string>
 
+    <!--About -> Licenses-->
     <string name="licenses">Lisanslar</string>
     <string name="about_open_core_amr_license">opencore-amr</string>
     <string name="about_open_core_amr_license_summary">Uses opencore-amr under Apache License Version 2.0, click hereto visit opencore-amr.sourceforge.net</string>
@@ -386,6 +398,7 @@
     <string name="about_lame">LAME</string>
     <string name="about_lame_summary">Uses LAME under LGPL, click here to visit mp3dev.org</string>
 
+    <!--Credits-->
     <string name="german_translation">Almanca çeviri</string>
     <string name="german_translation_summary">by Marc Hillesheim ve Thomas Käfer</string>
     <string name="polish_translation">Lehçe çeviri</string>
@@ -452,5 +465,4 @@
     
     
     
-<string name="terms_of_use">Kullanım Şartları</string>
-    </resources>
+</resources>

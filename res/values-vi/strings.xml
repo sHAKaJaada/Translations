@@ -248,6 +248,7 @@
     <!--Settings -> Interface and Appearance-->
     <string name="language">Ngôn ngữ</string>
     <string name="select_language">Chọn ngôn ngữ</string>
+    
     <string name="category_notification">Thông báo</string>
     <string name="show_notification">Hiển thị thông báo</string>
     
@@ -266,6 +267,9 @@
     
     
     <string name="hide_button_before_answer_summary">Không hiển thị nút điều khiển trong cuộc gọi, cho đến khi có kết nối</string>
+    
+    
+    
 
     <!-- Settings -> Cloud -->
     
@@ -353,7 +357,11 @@
     
     
     
+    
+    
+    
     <string name="please_wait">Vui lòng chờ...</string>
+    
     <string name="start_recording">Bắt đầu ghi âm</string>
     <string name="stop_recording">Ngừng ghi âm</string>
     
@@ -363,6 +371,9 @@
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">Ghi âm cuộc gọi này</string>
     
+
+    <!--After call actions dialog-->
+    <string name="cloud_added">Đã thêm</string>
 
     <!--Notification-->
     
@@ -378,6 +389,7 @@
     <string name="about_many_thanks">Cám ơn nhiều</string>
     <string name="about_many_thanks_summary">đến Alexey Subbotin (avs234)</string>
 
+    <!--About -> Licenses-->
     <string name="licenses">Các giấy phép</string>
     <string name="about_open_core_amr_license">opencore-amr</string>
     <string name="about_open_core_amr_license_summary">Sử dụng opencore-amr dưới giấy phép Apache phiên bản 2.0, chọn vào đây để thăm opencore-amr.sourceforge.net</string>
@@ -386,6 +398,7 @@
     <string name="about_lame">LAME</string>
     <string name="about_lame_summary">Sử dụng LAME dưới giấy phép LGPL, chọn vào đây để thăm mp3dev.org</string>
 
+    <!--Credits-->
     <string name="german_translation">Bản dịch tiếng Đức</string>
     <string name="german_translation_summary">bởi Marc Hillesheim và Thomas Käfer</string>
     <string name="polish_translation">Bản dịch tiếng Ba Lan</string>
