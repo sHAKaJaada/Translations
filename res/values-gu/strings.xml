@@ -5,7 +5,7 @@
     <string name="terms_of_use_message">બ્ય એપ્લિકેશન ઉપયોગ કરીને, તમે આ કોલ રેકોર્ડર માતાનો માટે સંમત &lt;a href=http://rec.sh/terms&gt;ઉપયોગની શરતો&lt;/a&gt;.</string>
 
     <string name="navigation_drawer_open">ઓપન સંશોધક ડ્રોવરને</string>
-    <string name="navigation_drawer_close">બંધ સંશોધક ડ્રોવરને</string>
+    <string name="navigation_drawer_close">બંધ કરો ડ્રોવરને સંશોધક</string>
 
     <string name="section_all_recordings">બધા રેકોર્ડિંગ્સ</string>
     <string name="section_starred">તારાંકિત</string>
@@ -42,8 +42,8 @@
     <string name="menu_edit_note">ફેરફાર કરો ફેરફાર કરો નોંધ</string>
     <string name="menu_delete">કાઢી</string>
     <string name="menu_share">શેર</string>
-    <string name="menu_convert_to_mp3">એમપી3 માટે રૂપાંતરિત</string>
-    <string name="menu_convert_to_amr">એએમઆર માટે રૂપાંતરિત</string>
+    <string name="menu_convert_to_mp3">MP3 માટે રૂપાંતરિત</string>
+    <string name="menu_convert_to_amr">AMR માટે રૂપાંતરિત</string>
     <string name="menu_get_info">માહિતી મેળવો</string>
     <string name="menu_cancel_task">કાર્ય રદ</string>
     <string name="menu_encrypt">એન્ક્રિપ્ટ</string>
@@ -84,7 +84,7 @@
 
     <string name="license_status">લાયસન્સ સ્થિતિ</string>
     <string name="license_check_pending">લાયસન્સ ચેક બાકી</string>
-    <string name="license_check_failed">લાઈસન્સ ચકાસો કરવામાં નિષ્ફળ</string>
+    <string name="license_check_failed">કરવામાં નિષ્ફળ લાઈસન્સ ચકાસો</string>
     <string name="license_check_failed_summary">વિગતો માટે અહીં પ્રેસ્સ</string>
     <string name="license_verified">લાયસન્સ ચકાસ્યું</string>
     <string name="license_verified_summary">પ્રેસ છુપાવવા માટે</string>
@@ -111,14 +111,14 @@
     <string name="device_root_is_required_summary">વધુ સારી ગુણવત્તા રુટ આ ઉપકરણ પર જરૂરી છે માટે</string>
     <string name="device_other">અન્ય</string>
     <string name="recording_method">રેકોર્ડિંગ પદ્ધતિ</string>
-    <string name="recording_method_api">ધોરણ અપીઈ</string>
-    <string name="recording_method_api_settings">ધોરણ અપીઈ રેકોર્ડિંગ પદ્ધતિ માટે સુયોજનો</string>
-    <string name="recording_method_caf">સીએએફ</string>
-    <string name="recording_method_caf_settings">રેકોર્ડિંગ પદ્ધતિ માટે સુયોજનો સીએએફ</string>
-    <string name="recording_method_alsa">એએલએસએ</string>
-    <string name="recording_method_alsa_settings">સુયોજનો એ એએલએસએ રેકોર્ડીંગ પદ્ધતિ</string>
-    <string name="recording_method_msm">એમએસએમ</string>
-    <string name="recording_method_msm_settings">માટે સુયોજનો એમએસએમ રેકોર્ડિંગ પદ્ધતિ</string>
+    <string name="recording_method_api">ધોરણ API</string>
+    <string name="recording_method_api_settings">ધોરણ API રેકોર્ડિંગ પદ્ધતિ માટે સુયોજનો</string>
+    <string name="recording_method_caf">CAF</string>
+    <string name="recording_method_caf_settings">રેકોર્ડિંગ પદ્ધતિ માટે સુયોજનો CAF</string>
+    <string name="recording_method_alsa">ALSA</string>
+    <string name="recording_method_alsa_settings">સુયોજનો એ ALSA રેકોર્ડીંગ પદ્ધતિ</string>
+    <string name="recording_method_msm">MSM</string>
+    <string name="recording_method_msm_settings">માટે સુયોજનો MSM રેકોર્ડિંગ પદ્ધતિ</string>
     <string name="category_actions">ક્રિયાઓ</string>
     <string name="action_for_incoming">ઇનકમિંગ કોલ્સ માટે ક્રિયાઓ</string>
     <string name="action_for_outgoing">આઉટગોઇંગ કોલ્સ માટે ક્રિયાઓ</string>
@@ -134,18 +134,18 @@
     <string name="exceptions">અપવાદો</string>
     <string name="exceptions_summary">સુયોજિત ચોક્કસ ક્રિયાઓ સંપર્કો, જૂથો, અથવા ફોન નંબરો માટે</string>
     <string name="start_recording_on_answer">જવાબ પર રેકોર્ડિંગ શરૂ</string>
-    <string name="start_recording_on_answer_summary">એક આઉટગોઇંગ કોલને જવાબ છે એક વખત રેકોર્ડીંગ શરૂ કરો| એપ્લિકેશન એક ક્ષણ શોધી માટે એક બિનદસ્તાવેજીકૃત ઉકેલ વાપરે જ્યારે બીજી બાજુ જવાબો, તેથી આ લક્ષણ અમુક ઉપકરણો પર નિષ્ફળ જશે| રુટ જરૂરી છે ત્યારથી એન્ડ્રોઇડ 4.1 જેલી બીન| કર્નલમાં લોગર અનેબલ્ડ હોવી જોઈએ.</string>
+    <string name="start_recording_on_answer_summary">એક આઉટગોઇંગ કોલને જવાબ છે એક વખત રેકોર્ડીંગ શરૂ કરો| એપ્લિકેશન એક ક્ષણ શોધી માટે એક બિનદસ્તાવેજીકૃત ઉકેલ વાપરે જ્યારે બીજી બાજુ જવાબો, તેથી આ લક્ષણ અમુક ઉપકરણો પર નિષ્ફળ જશે| રુટ જરૂરી છે ત્યારથી એન્ડ્રોઇડ 4.1 જેલી બીન| લોગર કર્નલમાં અનેબલ્ડ હોવી જોઈએ.</string>
     <string name="delay_before_start_recording">શરૂઆત રેકોર્ડિંગ પહેલા વિલંબ</string>
     <string name="delay_before_start_recording_summary">આઉટગોઇંગ માટે: %1$s, આવનારા માટે: %2$s</string>
     <string name="delay_format_sec">%s સેકન્ડ</string>
     <string name="delay_for_outgoing">આઉટગોઇંગ માટે</string>
     <string name="delay_for_incoming">ઇનકમિંગ માટે</string>
-    <string name="settings_for_device">માટે સુયોજનો %s</string>
+    <string name="settings_for_device">માટે સુયોજનો માટે %s</string>
     <string name="recording_format">રેકોર્ડિંગ બંધારણ</string>
-    <string name="recording_format_wav">ડબલ્યુએવી</string>
-    <string name="recording_format_amr">એએમઆર</string>
-    <string name="recording_format_aac">એએસી</string>
-    <string name="recording_format_mp3">એમપી3</string>
+    <string name="recording_format_wav">WAV</string>
+    <string name="recording_format_amr">AMR</string>
+    <string name="recording_format_aac">AAC</string>
+    <string name="recording_format_mp3">MP3</string>
     <string name="volume_control">વોલ્યુમ નિયંત્રણ</string>
     <string name="volume_control_summary">ટીએક્સ: %1$s, આરએક્સ: %2$s</string>
     <string name="volume_control_overall">એકંદરે વોલ્યુમ</string>
@@ -159,27 +159,27 @@
     <string name="sample_rate_48000">48000 હર્ટ્ઝ</string>
 
     <string name="api_audio_source">ઑડિઓ સ્રોત</string>
-    <string name="api_source_uplink_downlink">વૉઇસ કૉલ ઉપ્લીંક + દોવ્ન્લીંક</string>
-    <string name="api_source_downlink">વૉઇસ કૉલ દોવ્ન્લીંક</string>
-    <string name="api_source_uplink">વૉઇસ કૉલ ઉપ્લીંક</string>
+    <string name="api_source_uplink_downlink">ઉપ્લીંક + દોવ્ન્લીંક વૉઇસ કૉલ</string>
+    <string name="api_source_downlink">વૉઇસ દોવ્ન્લીંક કૉલ</string>
+    <string name="api_source_uplink">વૉઇસ ઉપ્લીંક કૉલ</string>
     <string name="api_source_microphone">માઇક્રોફોન</string>
     <string name="api_source_default">ડિફોલ્ટ</string>
     <string name="api_source_voice_communication">અવાજ સંચાર</string>
-    <string name="category_wav_settings">ડબલ્યુએવી સેટિંગ્સ</string>
-    <string name="category_wav_and_mp3_settings">ડબલ્યુએવી &amp; એમપી3 સેટિંગ્સ</string>
+    <string name="category_wav_settings">WAV સેટિંગ્સ</string>
+    <string name="category_wav_and_mp3_settings">WAV &amp; MP3 સેટિંગ્સ</string>
 
     <string name="recording_mode">રેકોર્ડિંગ મોડ</string>
 
-    <string name="alsa_is_not_installed">સ્થાપિત થયેલ હોવું જ જોઈએ એએલએસએ</string>
-    <string name="alsa_is_not_installed_summary">સ્થાપિત કરવા માટે અહીં ટેપ કરો એએલએસએ</string>
+    <string name="alsa_is_not_installed">સ્થાપિત થયેલ હોવું જ જોઈએ ALSA</string>
+    <string name="alsa_is_not_installed_summary">સ્થાપિત કરવા માટે અહીં ટેપ કરો ALSA</string>
 
     <string name="chipset_type">ચિપસેટ પ્રકાર</string>
     <string name="chipset_type_msm72xx">Qualcomm MSM72XX</string>
     <string name="chipset_type_msm8250">Qualcomm MSM8250</string>
     <string name="chipset_type_msm8255">Qualcomm MSM8255</string>
     <string name="chipset_type_msm8260">Qualcomm MSM8260</string>
-    <string name="dont_use_amr_driver">એએમઆર ડ્રાઇવર ઉપયોગ કરશો નહીં</string>
-    <string name="dont_use_amr_driver_summary">તેના બદલે વાસ્તવિક સમય માં એએમઆર માટે WAV કન્વર્ટ</string>
+    <string name="dont_use_amr_driver">AMR ડ્રાઇવર ઉપયોગ કરશો નહીં</string>
+    <string name="dont_use_amr_driver_summary">તેના બદલે વાસ્તવિક સમય માં AMR માટે WAV કન્વર્ટ</string>
 
     <string name="add_exception">અપવાદ ઉમેરો</string>
     <string name="exception_group">ગ્રુપ</string>
@@ -205,9 +205,9 @@
     <string name="max_number_of_files">મેક્સ. ફાઈલોની સંખ્યા</string>
     <string name="max_number_of_files_message">દાખલ સંખ્યાબંધ (0 - કોઈ મર્યાદા)</string>
     <string name="max_total_size_of_files">મેક્સ. ફાઈલોની કુલ કદ</string>
-    <string name="max_total_size_of_files_message">મેગાબાઈટોમાં નીચેની (0 - કોઈ મર્યાદા) દાખલ</string>
+    <string name="max_total_size_of_files_message">મેગાબાઈટોમાં નીચેની દાખલ (0 - કોઈ મર્યાદા)</string>
     <string name="max_age_of_recordings">મેક્સ. રેકોર્ડિંગ્સ ઉંમર</string>
-    <string name="max_age_of_recordings_message">દિવસોમાં નીચેની (0 - કોઈ મર્યાદા) દાખલ</string>
+    <string name="max_age_of_recordings_message">દિવસોમાં કિંમત દાખલ (0 - કોઈ મર્યાદા)</string>
     <string name="current_setting">વર્તમાન સેટિંગ: %s</string>
     <string name="settings_filename">ફાઇલનામ</string>
     <string name="filename_pattern">પેટર્ન</string>
