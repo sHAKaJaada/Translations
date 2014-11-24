@@ -111,7 +111,7 @@
     
 
     <string name="buy_full_version">購買付費版</string>
-    <string name="buy_full_version_summary">目前版本將會在%s過期</string>
+    <string name="buy_full_version_summary">目前版本將會在%s到期</string>
 
     <!-- Settings -> Recording -->
     <string name="recording_calls_switch">通話時錄音</string>
@@ -456,7 +456,7 @@
     <string name="navigation_drawer_open">開啟導航抽屜</string>
     <string name="navigation_drawer_close">關閉導航抽屜</string>
 
-    <string name="section_all_recordings">全部通話</string>
+    <string name="section_all_recordings">全部錄音</string>
     <string name="exception_groups_not_found">沒有發現群組</string>
     <string name="exception_contacts_not_found">沒有發現聯絡人</string>
     <string name="exceptions_not_added">沒有增加例外</string>
@@ -508,7 +508,7 @@
     <string name="recording_type">錄音類型</string>
     <string name="note">備註</string>
 
-    <string name="confirm_delete_several_title">確任刪除</string>
+    <string name="confirm_delete_several_title">確認刪除</string>
     <string name="confirm_delete_several_message">您已選擇 %d 個錄音檔，您確定要刪除它們？</string>
 
     <string name="share_via">透過分享</string>
@@ -533,13 +533,13 @@
     <string name="device_root_is_required_summary">為了更好的品質，在此裝置上需要ROOT權限</string>
     <string name="recording_method_msm">MSM</string>
     <string name="recording_method_msm_settings">MSM錄音設定</string>
-    <string name="terms_of_use_message">透過使用應用程式，您同意 CallRecorder 的&lt;a href=http://rec.sh/terms&gt;使用條款&lt;/a&gt;.</string>
+    <string name="terms_of_use_message">使用此應用程式，您會按照&lt;a href=http://rec.sh/terms&gt;CallRecorder的使用條款&lt;/a&gt;。</string>
 
-    <string name="section_starred">出演</string>
+    <string name="section_starred">標記</string>
     <string name="section_by_contact">依聯絡人</string>
     <string name="section_by_format">依格式</string>
     <string name="section_by_label">依標籤</string>
-    <string name="exceptions_summary">設定聯絡人、群組或電話號碼的特定行動</string>
+    <string name="exceptions_summary">設定聯絡人、群組或電話號碼的特定動作</string>
     <string name="delay_format_sec">%s 秒</string>
     <string name="recording_format">錄音格式</string>
     <string name="delay_for_outgoing">撥出</string>
