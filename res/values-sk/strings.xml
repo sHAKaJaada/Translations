@@ -595,4 +595,10 @@
     <string name="call_incoming">Prichádzajúce</string>
     <string name="call_outgoing">Odchádzajúce</string>
     <string name="action_mode_selected">%d označené (-ých)</string>
+    <string name="default_language">Predvolený jazyk</string>
+    <string name="long_press_action_dragging_the_button">Posunúť tlačidlo</string>
+    <string name="button_play">Prehrať</string>
+    <string name="button_pause">Pauza</string>
+    <string name="button_keep">Podržať</string>
+    <string name="toast_wait_for_operation_to_complete">Počkajte na dokončenie operácie</string>
     </resources>
