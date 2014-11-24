@@ -248,6 +248,7 @@
     <!--Settings -> Interface and Appearance-->
     <string name="language">Language</string>
     <string name="select_language">Select language</string>
+    <string name="default_language">Default language</string>
     <string name="category_notification">Notification</string>
     <string name="show_notification">Show notification</string>
     <string name="show_notification_summary">Permanent notification in the status bar</string>
@@ -267,6 +268,7 @@
     <string name="hide_button_before_answer">Hide button before answer</string>
     <string name="hide_button_before_answer_summary">Don\'t show in-call control button until connection is established</string>
     <string name="long_press_action">Long press action</string>
+    <string name="long_press_action_dragging_the_button">Dragging the button</string>
     <string name="long_press_action_hang_up">Hang up the call and call back automatically</string>
 
     <!-- Settings -> Cloud -->
@@ -350,12 +352,16 @@
     <string name="button_cancel">Cancel</string>
     <string name="button_create">Create</string>
     <string name="button_delete">Delete</string>
+    <string name="button_keep">Keep</string>
+    <string name="button_play">Play</string>
+    <string name="button_pause">Pause</string>
     <string name="button_delete_wait">Delete (%d)</string>
     <string name="decline">Decline</string>
     <string name="accept">Accept</string>
     <string name="call_incoming">Incoming</string>
     <string name="call_outgoing">Outgoing</string>
     <string name="please_wait">Please wait…</string>
+    <string name="toast_wait_for_operation_to_complete">Wait for an operation to complete</string>
     <string name="start_recording">Start recording</string>
     <string name="stop_recording">Stop recording</string>
     <string name="action_mode_selected">%d selected</string>
