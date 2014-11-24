@@ -226,7 +226,7 @@
     <string name="max_total_size_of_files_message">मेगा बाइट्स में सीमा निर्धारित करें (0 का मतलब - असंख्य)</string>
     <string name="max_age_of_recordings">रिकॉर्डिंग की अधिकतम आयु</string>
     <string name="max_age_of_recordings_message">दिनों में सीमा निर्धारित करें (0 का मतलब - असंख्य)</string>
-    <string name="current_setting">इस समय का समायोजन</string>
+    
     
     <string name="filename_pattern">आकृति</string>
     <string name="time_pattern">समय की आकृति</string>
@@ -248,6 +248,7 @@
     <!--Settings -> Interface and Appearance-->
     <string name="language">भाषा</string>
     <string name="select_language">भाषा चुनें</string>
+    
     <string name="category_notification">अधिसूचना</string>
     <string name="show_notification">अधिसूचना दिखाई जाए</string>
     
@@ -266,6 +267,9 @@
     
     
     <string name="hide_button_before_answer_summary">संयोजन स्थापित होने से पूर्व कॉल के समय के नियंत्रण बटन को छुपाया जाए</string>
+    
+    
+    
 
     <!-- Settings -> Cloud -->
     
@@ -353,7 +357,11 @@
     
     
     
+    
+    
+    
     <string name="please_wait">कृपया ठहरें</string>
+    
     <string name="start_recording">रिकॉर्डिंग शुरू हो</string>
     <string name="stop_recording">रिकॉर्डिंग बंद हो</string>
     
@@ -363,6 +371,9 @@
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">इस कॉल को रिकॉर्ड किया जाए</string>
     
+
+    <!--After call actions dialog-->
+    <string name="cloud_added">जोड़ा गया</string>
 
     <!--Notification-->
     
@@ -378,6 +389,7 @@
     <string name="about_many_thanks">बेहद शुक्रिया</string>
     <string name="about_many_thanks_summary">Alexey Subbotin (avs234) का</string>
 
+    <!--About -> Licenses-->
     <string name="licenses">अनुज्ञा</string>
     <string name="about_open_core_amr_license">opencore-amr</string>
     <string name="about_open_core_amr_license_summary">Apache License Version 2.0 के तहत opencore-amr का प्रयोग करता है, यहाँ दबाएँ visitopencore-amr.sourceforge.net जाने के लिए</string>
@@ -386,6 +398,7 @@
     <string name="about_lame">LAME</string>
     <string name="about_lame_summary">LGPL के तहत, LAME का प्रयोग करता है, यहाँ दबाएँ mp3dev.org जाने के लिए</string>
 
+    <!--Credits-->
     <string name="german_translation">German अनुवाद के लिए</string>
     <string name="german_translation_summary">Marc Hillesheim और Thomas Käfer को</string>
     <string name="polish_translation">Polish अनुवाद के लिए</string>

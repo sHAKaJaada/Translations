@@ -1,56 +1,56 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CallRecorder</string>
-    
-    
+    <string name="terms_of_use">כללי שימוש</string>
+    <string name="terms_of_use_message">בשימוש באפליקציה זו אתה מסכים ל &lt;a href=http://rec.sh/terms&gt;כללי השימוש&lt;/a&gt; של CallRecorder.</string>
 
     <!-- Navigation drawer -->
-    
-    
+    <string name="navigation_drawer_open">פתח מגירת ניווט</string>
+    <string name="navigation_drawer_close">סגור מגירת ניווט</string>
 
     <!-- Navigation drawer sections -->
-    
-    
+    <string name="section_all_recordings">כל ההקלטות</string>
+    <string name="section_starred">מודגש</string>
     <string name="section_incoming">נכנסות</string>
     <string name="section_outgoing">יוצאות</string>
-    
-    
-    
+    <string name="section_by_contact">על פי איש קשר</string>
+    <string name="section_by_format">על פי פורמט</string>
+    <string name="section_by_label">על פי תגית</string>
     <string name="section_help">עזרה</string>
     <string name="section_tasks">משימות</string>
-    
+    <string name="section_tasks_hint">משימות צורכות זמן כמו המרה, קידוד או העלאה לשירותי ענן יוצגו פה</string>
     <string name="empty_hint">ריק</string>
 
     <!-- Action bar -->
     <string name="action_search">חפש</string>
-    
+    <string name="action_sort">מיין</string>
     <string name="action_settings">הגדרות</string>
-    
-    
-    
-    
-    
+    <string name="action_refresh">רענן</string>
+    <string name="action_delete">מחק</string>
+    <string name="action_add_star">הוסף הדגשה</string>
+    <string name="action_remove_star">הסר הדגשה</string>
+    <string name="action_share">שתף</string>
     <string name="action_select_all">בחר הכל</string>
-    
-    
-    
+    <string name="sort_by_date">על פי תאריך</string>
+    <string name="sort_by_contact">על פי איש קשר</string>
+    <string name="sort_by_file_size">על פי גודל קובץ</string>
 
     <!-- List -->
-    
-    
-    
-    
+    <string name="list_header_today">היום</string>
+    <string name="list_header_yesterday">אתמול</string>
+    <string name="queued">בתור</string>
+    <string name="no_connection">אין חיבור</string>
 
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">הוסף ל-Dropbox</string>
-    
-    
+    <string name="menu_add_note">הוסף הערה</string>
+    <string name="menu_edit_note">ערוך הערה</string>
     <string name="menu_delete">מחיקה</string>
-    
-    
-    
+    <string name="menu_share">שתף</string>
+    <string name="menu_convert_to_mp3">המר לMP3</string>
+    <string name="menu_convert_to_amr">המר לAMR</string>
     <string name="menu_get_info">השג מידע</string>
-    
+    <string name="menu_cancel_task">בטל משימה</string>
     <string name="menu_encrypt">הצפן</string>
     <string name="menu_decrypt">פענח</string>
 
@@ -58,7 +58,7 @@
     <string name="file_name">שם הקובץ</string>
     <string name="sample_rate">רמת הדגימה</string>
     <string name="sample_rate_hz">Hz</string>
-    
+    <string name="recording_type">סוג הקלטה</string>
     <string name="recording_type_mono">מונו</string>
     <string name="recording_type_stereo">סטריאו</string>
     <string name="file_size">גודל קובץ</string>
@@ -248,6 +248,7 @@
     <!--Settings -> Interface and Appearance-->
     <string name="language">שפה</string>
     <string name="select_language">בחר שפה</string>
+    
     <string name="category_notification">התראות</string>
     <string name="show_notification">הצג התראה</string>
     
@@ -266,6 +267,9 @@
     
     
     <string name="hide_button_before_answer_summary">אל תציג כפתור שליטה במהלך שיחה עד שנוצר הקשר</string>
+    
+    
+    
 
     <!-- Settings -> Cloud -->
     
@@ -353,7 +357,11 @@
     
     
     
+    
+    
+    
     <string name="please_wait">אנא המתן...</string>
+    
     <string name="start_recording">התחל הקלטה</string>
     <string name="stop_recording">הפסק הקלטה</string>
     
@@ -363,6 +371,9 @@
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">הקלט שיחה זו</string>
     
+
+    <!--After call actions dialog-->
+    <string name="cloud_added">נוסף</string>
 
     <!--Notification-->
     
@@ -378,6 +389,7 @@
     <string name="about_many_thanks">רב-תודות</string>
     <string name="about_many_thanks_summary">ל Alexey Subbotin (avs234)</string>
 
+    <!--About -> Licenses-->
     <string name="licenses">רישיון</string>
     <string name="about_open_core_amr_license">opencore-amr</string>
     <string name="about_open_core_amr_license_summary">משתמש בopencore-amr תחת Apache License Version 2.0, לחץ כאן כדי לבקר opencore-amr.sourceforge.net</string>
@@ -386,6 +398,7 @@
     <string name="about_lame">LAME</string>
     <string name="about_lame_summary">משתמש בLAME תחת LGPL, לחץ כאן כדי לבקר mp3dev.org</string>
 
+    <!--Credits-->
     <string name="german_translation">תרגום לגרמנית</string>
     <string name="german_translation_summary">ע"י Marc Hillesheim and Thomas Käfer</string>
     <string name="polish_translation">תרגום לפולנית</string>
@@ -452,38 +465,4 @@
     <string name="belarusian_translation_summary">ע"י Alexander Kuvshinov</string>
     <string name="vietnamese_translation">תרגום לויאטנמית</string>
     <string name="vietnamese_translation_summary">ע"י Truong Hoang Trung</string>
-<string name="terms_of_use">כללי שימוש</string>
-    <string name="terms_of_use_message">בשימוש באפליקציה זו אתה מסכים ל &lt;a href=http://rec.sh/terms&gt;כללי השימוש&lt;/a&gt; של CallRecorder.</string>
-
-    <string name="navigation_drawer_open">פתח מגירת ניווט</string>
-    <string name="navigation_drawer_close">סגור מגירת ניווט</string>
-
-    <string name="section_all_recordings">כל ההקלטות</string>
-    <string name="section_starred">מודגש</string>
-    <string name="section_by_contact">על פי איש קשר</string>
-    <string name="section_by_format">על פי פורמט</string>
-    <string name="section_by_label">על פי תגית</string>
-    <string name="section_tasks_hint">משימות צורכות זמן כמו המרה, קידוד או העלאה לשירותי ענן יוצגו פה</string>
-    <string name="action_sort">מיין</string>
-    <string name="action_refresh">רענן</string>
-    <string name="action_delete">מחק</string>
-    <string name="action_add_star">הוסף הדגשה</string>
-    <string name="action_remove_star">הסר הדגשה</string>
-    <string name="action_share">שתף</string>
-    <string name="sort_by_date">על פי תאריך</string>
-    <string name="sort_by_contact">על פי איש קשר</string>
-    <string name="sort_by_file_size">על פי גודל קובץ</string>
-
-    <string name="list_header_today">היום</string>
-    <string name="list_header_yesterday">אתמול</string>
-    <string name="queued">בתור</string>
-    <string name="no_connection">אין חיבור</string>
-
-    <string name="menu_add_note">הוסף הערה</string>
-    <string name="menu_edit_note">ערוך הערה</string>
-    <string name="menu_share">שתף</string>
-    <string name="menu_convert_to_mp3">המר לMP3</string>
-    <string name="menu_convert_to_amr">המר לAMR</string>
-    <string name="menu_cancel_task">בטל משימה</string>
-    <string name="recording_type">סוג הקלטה</string>
-    </resources>
+</resources>

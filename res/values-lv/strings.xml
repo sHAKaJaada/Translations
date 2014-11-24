@@ -248,6 +248,7 @@
     <!--Settings -> Interface and Appearance-->
     <string name="language">Valoda</string>
     <string name="select_language">Atlasīt valodu</string>
+    
     <string name="category_notification">Paziņojums</string>
     <string name="show_notification">Rādīt paziņojumu</string>
     
@@ -266,6 +267,9 @@
     
     
     <string name="hide_button_before_answer_summary">Nerādīt ienākošā zvana vadības pogu līdz savienojums ir izveidots</string>
+    
+    
+    
 
     <!-- Settings -> Cloud -->
     
@@ -353,7 +357,11 @@
     
     
     
+    
+    
+    
     <string name="please_wait">Lūdzu uzgaidiet ...</string>
+    
     <string name="start_recording">Sākt ierakstīšanu</string>
     <string name="stop_recording">Pārtraukt ierakstīšanu</string>
     
@@ -363,6 +371,9 @@
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">Ieraksta šo zvanu</string>
     
+
+    <!--After call actions dialog-->
+    <string name="cloud_added">Pievienots</string>
 
     <!--Notification-->
     
@@ -378,6 +389,7 @@
     <string name="about_many_thanks">Liels paldies</string>
     <string name="about_many_thanks_summary">Alexey Subbotin (avs234)</string>
 
+    <!--About -> Licenses-->
     <string name="licenses">Licences</string>
     <string name="about_open_core_amr_license">opencore-amr</string>
     <string name="about_open_core_amr_license_summary">Izmanto opencore-AMR ar Apache Licences Versiju 2.0, spiest šeit, lai apmeklētu opencore-amr.sourceforge.net</string>
@@ -386,6 +398,7 @@
     <string name="about_lame">LAME</string>
     <string name="about_lame_summary">Izmanto LAME zem LGPL, spiest šeit, lai apmeklētu mp3dev.org</string>
 
+    <!--Credits-->
     <string name="german_translation">Vācu valodas tulkojums</string>
     
     <string name="polish_translation">Poļu valodas tulkojums</string>

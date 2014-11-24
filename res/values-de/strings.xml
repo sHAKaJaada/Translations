@@ -248,6 +248,7 @@
     <!--Settings -> Interface and Appearance-->
     <string name="language">Sprache</string>
     <string name="select_language">Sprache wählen</string>
+    
     <string name="category_notification">Benachrichtigungen</string>
     <string name="show_notification">Zeige Benachrichtigung</string>
     
@@ -266,6 +267,9 @@
     
     
     <string name="hide_button_before_answer_summary">Die Schaltfläche zur Kontrolle während des Anrufs nicht vor der Verbindung zeigen</string>
+    
+    
+    
 
     <!-- Settings -> Cloud -->
     
@@ -353,7 +357,11 @@
     
     
     
+    
+    
+    
     <string name="please_wait">Bitte warten...</string>
+    
     <string name="start_recording">Aufnahme starten</string>
     <string name="stop_recording">Aufnahme stoppen</string>
     
@@ -363,6 +371,9 @@
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">Diesen Anruf aufzeichnen</string>
     
+
+    <!--After call actions dialog-->
+    <string name="cloud_added">Hinzugefügt</string>
 
     <!--Notification-->
     
@@ -378,6 +389,7 @@
     <string name="about_many_thanks">Großes Dankeschön</string>
     <string name="about_many_thanks_summary">an Alexey Subbotin (avs234)</string>
 
+    <!--About -> Licenses-->
     <string name="licenses">Lizenz</string>
     <string name="about_open_core_amr_license">OpenCore-AMR</string>
     <string name="about_open_core_amr_license_summary">Nutzt OpenCore-AMR unnter der Apache Lizenz Version 2.0, hier berühren um opencore-amr.sourceforge.net zu besuchen</string>
@@ -386,6 +398,7 @@
     <string name="about_lame">LAME</string>
     <string name="about_lame_summary">Benutzt LAME unter LGPL. Hier klicken um mp3dev.org zu besuchen</string>
 
+    <!--Credits-->
     <string name="german_translation">Deutsche Übersetzung</string>
     <string name="german_translation_summary">von Marc Hillesheim und Thomas Käfer</string>
     <string name="polish_translation">Polnische Übersetzung</string>

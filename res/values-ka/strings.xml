@@ -102,7 +102,7 @@
     
     
     
-    <string name="license_trial">საცდელი ვერსიის ვადა იწურება % ში</string>
+    
     
     
     
@@ -248,6 +248,7 @@
     <!--Settings -> Interface and Appearance-->
     <string name="language">ენა</string>
     <string name="select_language">ავირჩიოთ ენა</string>
+    
     <string name="category_notification">შეტყობინება</string>
     <string name="show_notification">მაჩვენე შეტყობინება</string>
     
@@ -266,6 +267,9 @@
     
     
     <string name="hide_button_before_answer_summary">არ მაჩვენო ზარების მართვის ღილაკი კავშირის დამყარებამდე</string>
+    
+    
+    
 
     <!-- Settings -> Cloud -->
     
@@ -353,7 +357,11 @@
     
     
     
+    
+    
+    
     <string name="please_wait">გთხოვთ დაიცადოთ</string>
+    
     <string name="start_recording">ჩაწერის დაწყება</string>
     <string name="stop_recording">ჩაწერის დამთავრება</string>
     
@@ -363,6 +371,9 @@
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">ჩავწერო ეს ზარი</string>
     
+
+    <!--After call actions dialog-->
+    <string name="cloud_added">დამატებული</string>
 
     <!--Notification-->
     
@@ -378,6 +389,7 @@
     <string name="about_many_thanks">დიდი მადლობა</string>
     <string name="about_many_thanks_summary">ალექსი სუბოტინს</string>
 
+    <!--About -> Licenses-->
     <string name="licenses">ლიცენზია</string>
     <string name="about_open_core_amr_license">opencore-amr</string>
     <string name="about_open_core_amr_license_summary">იყენებს opencore-amr ს Apache License Version 2.0 ის ფარგლებში,დააჭირეთრომ ეწვიოთ pencore-amr.sourceforge.net</string>
@@ -386,6 +398,7 @@
     <string name="about_lame">LAME</string>
     <string name="about_lame_summary">იყენებს LAME ს LGPL ის ფარგლებში ,დააჭირეთ რომ ეწვიოთ mp3dev.org</string>
 
+    <!--Credits-->
     <string name="german_translation">გერმანული თარგმანი</string>
     
     <string name="polish_translation">პოლონური თარგმანი</string>

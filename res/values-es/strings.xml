@@ -248,6 +248,7 @@
     <!--Settings -> Interface and Appearance-->
     <string name="language">Idioma</string>
     <string name="select_language">Seleccionar idioma</string>
+    
     <string name="category_notification">Notificación</string>
     <string name="show_notification">Mostrar notificatión</string>
     
@@ -266,6 +267,9 @@
     
     
     <string name="hide_button_before_answer_summary">No mostrar el botón de control durante la llamada hasta que se establece la conexión</string>
+    
+    
+    
 
     <!-- Settings -> Cloud -->
     
@@ -353,7 +357,11 @@
     
     
     
+    
+    
+    
     <string name="please_wait">Espere por favor...</string>
+    
     <string name="start_recording">Comenzar a grabar</string>
     <string name="stop_recording">Detener grabación</string>
     
@@ -363,6 +371,9 @@
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">Grabar esta llamada</string>
     
+
+    <!--After call actions dialog-->
+    <string name="cloud_added">Agregado</string>
 
     <!--Notification-->
     
@@ -378,6 +389,7 @@
     <string name="about_many_thanks">Agradecimientos</string>
     <string name="about_many_thanks_summary">a Alexey Subbotin (avs234)</string>
 
+    <!--About -> Licenses-->
     <string name="licenses">Licencias</string>
     <string name="about_open_core_amr_license">opencore-amr</string>
     <string name="about_open_core_amr_license_summary">Se utiliza opencore-amr bajo Licencia Apache Versión 2.0, pulse aquí para visitar opencore-amr.sourceforge.net</string>
@@ -386,6 +398,7 @@
     <string name="about_lame">LAME</string>
     <string name="about_lame_summary">Se utiliza LAME bajo LGPL, haz click aquí para visitar mp3dev.org</string>
 
+    <!--Credits-->
     <string name="german_translation">Traducción al alemán</string>
     <string name="german_translation_summary">por Marc Hillesheim and Thomas Käfer</string>
     <string name="polish_translation">Traducción al polaco</string>

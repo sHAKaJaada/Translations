@@ -248,6 +248,7 @@
     <!--Settings -> Interface and Appearance-->
     <string name="language">Мова</string>
     <string name="select_language">Абярыце мову</string>
+    
     <string name="category_notification">Апавяшчэнне</string>
     <string name="show_notification">Паказваць абразок у панэлі апавяшчэнняў</string>
     
@@ -266,6 +267,9 @@
     
     
     <string name="hide_button_before_answer_summary">Не паказваць кнопку кіравання запісам да злучэння</string>
+    
+    
+    
 
     <!-- Settings -> Cloud -->
     
@@ -353,7 +357,11 @@
     
     
     
+    
+    
+    
     <string name="please_wait">Калі ласка, пачакайце...</string>
+    
     <string name="start_recording">Пачаць запіс</string>
     <string name="stop_recording">Спыніць запіс</string>
     
@@ -363,6 +371,9 @@
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">Запісаць гэту гутарку</string>
     
+
+    <!--After call actions dialog-->
+    <string name="cloud_added">Дададзена</string>
 
     <!--Notification-->
     
@@ -378,6 +389,7 @@
     <string name="about_many_thanks">Велізарнае дзякуй</string>
     <string name="about_many_thanks_summary">Аляксею Субоціну (avs234)</string>
 
+    <!--About -> Licenses-->
     <string name="licenses">Ліцэнзіі</string>
     <string name="about_open_core_amr_license">opencore-amr</string>
     <string name="about_open_core_amr_license_summary">Выкарыстоўвае opencore-amr у рамках Apache License Version 2.0, націсніцесюды,каб наведаць opencore-amr.sourceforge.net</string>
@@ -386,6 +398,7 @@
     <string name="about_lame">LAME</string>
     <string name="about_lame_summary">Выкарыстоўвае LAME у рамках LGPL, націсніце сюды, каб наведаць mp3dev.org</string>
 
+    <!--Credits-->
     <string name="german_translation">Пераклад на нямецкі</string>
     <string name="german_translation_summary">ад Marc Hillesheim і Thomas Kafer</string>
     <string name="polish_translation">Пераклад на польскі</string>

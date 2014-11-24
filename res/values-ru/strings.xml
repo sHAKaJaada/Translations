@@ -2,9 +2,7 @@
 <resources>
     <string name="app_name">Call Recorder</string>
     <string name="terms_of_use">Условия использования</string>
-    <string name="terms_of_use_message">Используя приложение, вы соглашаетесь с &lt;a href=http://rec.sh/terms&gt;условиями
-        использования&lt;/a&gt; CallRecorder\'а.
-    </string>
+    <string name="terms_of_use_message">Используя приложение, вы соглашаетесь с &lt;a href=http://rec.sh/terms&gt;условиями использования&lt;/a&gt; CallRecorder\'а.</string>
 
     <!-- Navigation drawer -->
     <string name="navigation_drawer_open">Открыть панель навигации</string>
@@ -20,9 +18,7 @@
     <string name="section_by_label">По ярлыку</string>
     <string name="section_help">Помощь</string>
     <string name="section_tasks">Задачи</string>
-    <string name="section_tasks_hint">Здесь отображаются длительные операции (конвертирование, шифрование, загрузка на
-        облако и т.п.)
-    </string>
+    <string name="section_tasks_hint">Здесь отображаются длительные операции (конвертирование, шифрование, загрузка на облако и т.п.)</string>
     <string name="empty_hint">Пусто</string>
 
     <!-- Action bar -->
@@ -150,11 +146,7 @@
     <string name="exceptions">Исключения</string>
     <string name="exceptions_summary">Установить определенные действия для контактов, групп и телефонов</string>
     <string name="start_recording_on_answer">Начинать запись при ответе</string>
-    <string name="start_recording_on_answer_summary">Начать запись после ответа ответа на исходящий вызов. Программа
-        использует недокументированый способ обнаружения момента, когда другая стороная снимает трубку, поэтому эта
-        функция может не работать на некоторых устройствах. Начиная с Android 4.1 Jelly Bean требуется root. Logger в
-        вашем ядре должен быть включен.
-    </string>
+    <string name="start_recording_on_answer_summary">Начать запись после ответа ответа на исходящий вызов. Программа использует недокументированый способ обнаружения момента, когда другая стороная снимает трубку, поэтому эта функция может не работать на некоторых устройствах. Начиная с Android 4.1 Jelly Bean требуется root. Logger в вашем ядре должен быть включен.</string>
     <string name="delay_before_start_recording">Задержка перед началом записи</string>
     <string name="delay_before_start_recording_summary">Для исходящих: %1$s, для исходящих: %2$s</string>
     <string name="delay_format_sec">%s сек</string>
@@ -262,17 +254,13 @@
     <string name="show_notification_summary">Постоянное уведомление в строке состояния</string>
     <string name="category_incall_control_button">Кнопка управления записью</string>
     <string name="incall_control_for_outgoing">Для исходящих звонков</string>
-    <string name="incall_control_for_outgoing_summary">Отображать кнопку управления записью для исходящих звонков
-    </string>
+    <string name="incall_control_for_outgoing_summary">Отображать кнопку управления записью для исходящих звонков</string>
     <string name="incall_control_for_incoming">Для входящих звонков</string>
-    <string name="incall_control_for_incoming_summary">Отображать кнопку управления записью для входящих звонков
-    </string>
+    <string name="incall_control_for_incoming_summary">Отображать кнопку управления записью для входящих звонков</string>
     <string name="hide_button_while_recording">Скрыть кнопку во время записи</string>
-    <string name="hide_button_while_recording_summary">Скрыть кнопку управления записью, если разговор записывается
-    </string>
+    <string name="hide_button_while_recording_summary">Скрыть кнопку управления записью, если разговор записывается</string>
     <string name="show_button_while_ringing">Показывать кнопку во время звонка</string>
-    <string name="show_button_while_ringing_summary">Показывать кнопку управления записью до ответа на входящий вызов
-    </string>
+    <string name="show_button_while_ringing_summary">Показывать кнопку управления записью до ответа на входящий вызов</string>
     <string name="vertical_position">Расположение по вертикали</string>
     <string name="vertical_position_summary">%s dp, отступ от центра экрана</string>
     <string name="horizontal_position">Расположение по горизонтали</string>
@@ -309,25 +297,17 @@
     <string name="category_encryption">Шифрование</string>
     <string name="category_application">Приложение</string>
     <string name="create_new_key">Создать новый ключ</string>
-    <string name="create_new_key_summary">Этот ключ будет использован позднее, для шифрования записей или входа в
-        приложение
-    </string>
+    <string name="create_new_key_summary">Этот ключ будет использован позднее, для шифрования записей или входа в приложение</string>
     <string name="delete_key">Удалить ключ</string>
     <string name="change_password">Изменить пароль</string>
-    <string name="delete_key_summary">Осторожно! Вы не сможете восстановить зашифрованные этим ключем записи, даже если
-        создадите новый ключ с тем же паролем
-    </string>
-    <string name="delete_key_message">После удаления вы не сможете восстановить зашифрованные этим ключем записи. Вы
-        уверены, что хотите продолжить?
-    </string>
+    <string name="delete_key_summary">Осторожно! Вы не сможете восстановить зашифрованные этим ключем записи, даже если создадите новый ключ с тем же паролем</string>
+    <string name="delete_key_message">После удаления вы не сможете восстановить зашифрованные этим ключем записи. Вы уверены, что хотите продолжить?</string>
     <string name="enter_old_password">Введите старый пароль</string>
     <string name="enter_new_password">Введите новый пароль</string>
     <string name="re_enter_new_password">Повторно введите новый пароль</string>
     <string name="require_password">Спрашивать пароль</string>
     <string name="require_password_summary">Спрашивать пароль при входе в программу</string>
-    <string name="require_password_summary_no_key">Требовать пароль при открытии программы. Чтобы это включить,
-        необходимо создать ключ
-    </string>
+    <string name="require_password_summary_no_key">Требовать пароль при открытии программы. Чтобы это включить, необходимо создать ключ</string>
     <string name="lock_after">Заблокировать после</string>
     <string name="lock_after_exit">Выхода</string>
     <string name="lock_after_1_minute">1 мин</string>
@@ -336,9 +316,7 @@
     <string name="lock_after_10_minutes">10 мин</string>
     <string name="app_admin">Права администратора</string>
     <string name="app_admin_summary">Требуется для предотвращения удаления Call Recorder\'a</string>
-    <string name="app_admin_explanation">Call Recorder не использует каких либо возможностей администраторов устройств,
-        кроме предотвращения удаления
-    </string>
+    <string name="app_admin_explanation">Call Recorder не использует каких либо возможностей администраторов устройств, кроме предотвращения удаления</string>
     <string name="aes_128bit">128-bit AES</string>
     <string name="aes_192bit">192-bit AES</string>
     <string name="aes_256bit">256-bit AES</string>
@@ -346,18 +324,13 @@
     <!-- Settings -> Audio player -->
     <string name="use_built_in_player">Встроенный плеер</string>
     <string name="audio_output">Вывод звука</string>
-    <string name="audio_output_summary">%s (Долгое нажатие на кнопку проигрывания/паузы также переключит эту
-        настройку)
-    </string>
+    <string name="audio_output_summary">%s (Долгое нажатие на кнопку проигрывания/паузы также переключит эту настройку)</string>
     <string name="main_speaker">Основной динамик</string>
     <string name="phone_speaker">Телефонный динамик</string>
     <string name="use_proximity_sensor">Использовать датчик приближения</string>
-    <string name="use_proximity_sensor_summary">Отключать дисплей во время проигрывания записи датчиком приближения
-    </string>
+    <string name="use_proximity_sensor_summary">Отключать дисплей во время проигрывания записи датчиком приближения</string>
     <string name="switch_audio_output">Переключение вывода звука</string>
-    <string name="switch_audio_output_summary">Автоматически переключать источник вывода звука, когда экран выключен или
-        включен датчиком приближения
-    </string>
+    <string name="switch_audio_output_summary">Автоматически переключать источник вывода звука, когда экран выключен или включен датчиком приближения</string>
     <string name="android_wav_decoder">Android декодер для WAV</string>
     <string name="android_wav_decoder_summary">Использовать встроенные инструменты для проигрывания WAV</string>
     <string name="android_amr_decoder">Android декодер для AMR</string>
@@ -368,8 +341,7 @@
     <string name="root_access_no">Отсутствуют</string>
     <string name="root_access_yes">Есть</string>
     <string name="dual_sim_phone">Двухсимочный телефон</string>
-    <string name="dual_sim_phone_summary">Включите это, если программа не может определить звонки со второй сим карты
-    </string>
+    <string name="dual_sim_phone_summary">Включите это, если программа не может определить звонки со второй сим карты</string>
 
     <!-- General -->
     <string name="contact_unknown">Неизвестный</string>
@@ -420,12 +392,9 @@
     <!--About -> Licenses-->
     <string name="licenses">Лицензии</string>
     <string name="about_open_core_amr_license">opencore-amr</string>
-    <string name="about_open_core_amr_license_summary">Использует opencore-amr в рамках Apache License Version 2.0,
-        нажмите сюда,чтобы посетить opencore-amr.sourceforge.net
-    </string>
+    <string name="about_open_core_amr_license_summary">Использует opencore-amr в рамках Apache License Version 2.0, нажмите сюда,чтобы посетить opencore-amr.sourceforge.net</string>
     <string name="about_alsa">ALSA</string>
-    <string name="about_alsa_summary">Использует ALSA в рамках LGPL, нажмите сюда, чтобы посетить alsa-project.org
-    </string>
+    <string name="about_alsa_summary">Использует ALSA в рамках LGPL, нажмите сюда, чтобы посетить alsa-project.org</string>
     <string name="about_lame">LAME</string>
     <string name="about_lame_summary">Использует LAME в рамках LGPL, нажмите сюда, чтобы посетить mp3dev.org</string>
 

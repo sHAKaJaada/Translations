@@ -1,16 +1,16 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CallRecorder</string>
-    
-    
+    <string name="terms_of_use">利用規約</string>
+    <string name="terms_of_use_message">アプリを使うことで、CallRecorderの&lt;a href=http://rec.sh/terms&gt;利用規約&lt;/a&gt;に同意することになります。</string>
 
     <!-- Navigation drawer -->
-    
-    
+    <string name="navigation_drawer_open">ナビゲーションドロワーを開く</string>
+    <string name="navigation_drawer_close">ナビゲーションドロワーを閉じる</string>
 
     <!-- Navigation drawer sections -->
-    
-    
+    <string name="section_all_recordings">全録音</string>
+    <string name="section_starred">お気に入り</string>
     <string name="section_incoming">着信</string>
     <string name="section_outgoing">発信</string>
     
@@ -23,34 +23,34 @@
 
     <!-- Action bar -->
     <string name="action_search">検索</string>
-    
+    <string name="action_sort">ソート</string>
     <string name="action_settings">設定</string>
-    
-    
-    
-    
-    
+    <string name="action_refresh">更新</string>
+    <string name="action_delete">削除</string>
+    <string name="action_add_star">お気に入りへ追加</string>
+    <string name="action_remove_star">お気に入りから削除</string>
+    <string name="action_share">共有</string>
     <string name="action_select_all">全て選択</string>
-    
-    
-    
+    <string name="sort_by_date">日付順</string>
+    <string name="sort_by_contact">名前順</string>
+    <string name="sort_by_file_size">ファイルサイズ順</string>
 
     <!-- List -->
-    
-    
+    <string name="list_header_today">今日</string>
+    <string name="list_header_yesterday">昨日</string>
     
     
 
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">Dropboxへ追加</string>
-    
-    
+    <string name="menu_add_note">ノートを追加</string>
+    <string name="menu_edit_note">ノートを編集</string>
     <string name="menu_delete">削除</string>
-    
-    
-    
+    <string name="menu_share">共有</string>
+    <string name="menu_convert_to_mp3">MP3形式へ変換</string>
+    <string name="menu_convert_to_amr">AMR形式へ変換</string>
     <string name="menu_get_info">情報を取得</string>
-    
+    <string name="menu_cancel_task">タスクをキャンセル</string>
     <string name="menu_encrypt">暗号化</string>
     <string name="menu_decrypt">復号化</string>
 
@@ -58,7 +58,7 @@
     <string name="file_name">ファイル名</string>
     <string name="sample_rate">サンプルレート</string>
     <string name="sample_rate_hz">Hz</string>
-    
+    <string name="recording_type">録音種別</string>
     <string name="recording_type_mono">モノラル</string>
     <string name="recording_type_stereo">ステレオ</string>
     <string name="file_size">ファイルサイズ</string>
@@ -67,7 +67,7 @@
     <string name="megabyte">MB</string>
     <string name="kilobyte">KB</string>
     <string name="bytes">バイト</string>
-    
+    <string name="note">ノート</string>
 
     <!-- List -> Get info dialog -> Edit -->
     <string name="contact_name">コンタクト名</string>
@@ -248,6 +248,7 @@
     <!--Settings -> Interface and Appearance-->
     <string name="language">言語</string>
     <string name="select_language">言語の選択</string>
+    
     <string name="category_notification">通知</string>
     <string name="show_notification">通知領域に表示</string>
     
@@ -266,6 +267,9 @@
     
     
     <string name="hide_button_before_answer_summary">接続が確立されるまで通話制御ボタンを表示しません</string>
+    
+    
+    
 
     <!-- Settings -> Cloud -->
     
@@ -353,7 +357,11 @@
     
     
     
+    
+    
+    
     <string name="please_wait">お待ち下さい…</string>
+    
     <string name="start_recording">録音開始</string>
     <string name="stop_recording">録音停止</string>
     
@@ -363,6 +371,9 @@
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">この通話を録音</string>
     
+
+    <!--After call actions dialog-->
+    <string name="cloud_added">追加しました</string>
 
     <!--Notification-->
     
@@ -378,6 +389,7 @@
     <string name="about_many_thanks">Many thanks</string>
     <string name="about_many_thanks_summary">to Alexey Subbotin (avs234)</string>
 
+    <!--About -> Licenses-->
     <string name="licenses">ライセンス</string>
     <string name="about_open_core_amr_license">opencore-amr</string>
     <string name="about_open_core_amr_license_summary">Apacheライセンスバージョン2.0の下で opencore-amr を使用しています。 opencore-amr.sourceforge.netへ訪問するにはここをクリックして下さい</string>
@@ -386,6 +398,7 @@
     <string name="about_lame">LAME</string>
     <string name="about_lame_summary">LGPLの下でLAMEを使用しています。mp3dev.orgへ訪問するにはここをクリックして下さい</string>
 
+    <!--Credits-->
     <string name="german_translation">ドイツ語の翻訳</string>
     <string name="german_translation_summary">Marc Hillesheim と Thomas Käfer</string>
     <string name="polish_translation">ポーランド語の翻訳</string>
@@ -452,33 +465,4 @@
     <string name="belarusian_translation_summary">Alexander Kuvshinov</string>
     <string name="vietnamese_translation">ベトナム語の翻訳</string>
     <string name="vietnamese_translation_summary">Truong Hoang Trung</string>
-<string name="terms_of_use">利用規約</string>
-    <string name="terms_of_use_message">アプリを使うことで、CallRecorderの&lt;a href=http://rec.sh/terms&gt;利用規約&lt;/a&gt;に同意することになります。</string>
-
-    <string name="navigation_drawer_open">ナビゲーションドロワーを開く</string>
-    <string name="navigation_drawer_close">ナビゲーションドロワーを閉じる</string>
-
-    <string name="section_all_recordings">全録音</string>
-    <string name="section_starred">お気に入り</string>
-    <string name="action_sort">ソート</string>
-    <string name="action_delete">削除</string>
-    <string name="action_refresh">更新</string>
-    <string name="action_add_star">お気に入りへ追加</string>
-    <string name="action_remove_star">お気に入りから削除</string>
-    <string name="action_share">共有</string>
-    <string name="sort_by_date">日付順</string>
-    <string name="sort_by_contact">名前順</string>
-    <string name="sort_by_file_size">ファイルサイズ順</string>
-
-    <string name="list_header_today">今日</string>
-    <string name="list_header_yesterday">昨日</string>
-    <string name="menu_add_note">ノートを追加</string>
-    <string name="menu_edit_note">ノートを編集</string>
-    <string name="menu_share">共有</string>
-    <string name="menu_convert_to_mp3">MP3形式へ変換</string>
-    <string name="menu_convert_to_amr">AMR形式へ変換</string>
-    <string name="menu_cancel_task">タスクをキャンセル</string>
-    <string name="recording_type">録音種別</string>
-    <string name="note">ノート</string>
-
-    </resources>
+</resources>

@@ -248,6 +248,7 @@
     <!--Settings -> Interface and Appearance-->
     <string name="language">Jazyk</string>
     <string name="select_language">Vybrat jazyk</string>
+    
     <string name="category_notification">Upozornění</string>
     <string name="show_notification">Zobrazit oznámení</string>
     
@@ -266,6 +267,9 @@
     
     
     <string name="hide_button_before_answer_summary">Pokud není navázáno spojení nezobrazovat oládací tlačítko</string>
+    
+    
+    
 
     <!-- Settings -> Cloud -->
     
@@ -353,7 +357,11 @@
     
     
     
+    
+    
+    
     <string name="please_wait">Čekejte prosím...</string>
+    
     <string name="start_recording">Začít nahrávání</string>
     <string name="stop_recording">Zastavit nahrávání</string>
     
@@ -363,6 +371,9 @@
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">Nahrát tento hovor</string>
     
+
+    <!--After call actions dialog-->
+    <string name="cloud_added">Přidáno</string>
 
     <!--Notification-->
     
@@ -378,6 +389,7 @@
     <string name="about_many_thanks">Mnoho poděkování pro</string>
     <string name="about_many_thanks_summary">Alexey Subbotin (avs234)</string>
 
+    <!--About -> Licenses-->
     <string name="licenses">Licence</string>
     <string name="about_open_core_amr_license">opencore-amr</string>
     <string name="about_open_core_amr_license_summary">Použit opencore-amr pod Apache License Verze 2.0, klepni pro zobrazení stránky opencore-amr.sourceforge.net</string>
@@ -386,6 +398,7 @@
     <string name="about_lame">LAME</string>
     <string name="about_lame_summary">Použit LAME pod licencí LGPL, klepni pro zobrazení stránky mp3dev.org</string>
 
+    <!--Credits-->
     <string name="german_translation">Německý překlad</string>
     <string name="german_translation_summary">Marc Hillesheim and Thomas Käfer</string>
     <string name="polish_translation">Polský překlad</string>

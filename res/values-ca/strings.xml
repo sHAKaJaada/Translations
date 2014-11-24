@@ -248,6 +248,7 @@
     <!--Settings -> Interface and Appearance-->
     <string name="language">Idioma</string>
     <string name="select_language">Selecciona idioma</string>
+    
     <string name="category_notification">Notificació</string>
     <string name="show_notification">Mostrar notificació</string>
     
@@ -266,6 +267,9 @@
     
     
     <string name="hide_button_before_answer_summary">No mostris el botó de control de trucada fins que la connexió estigui establerta</string>
+    
+    
+    
 
     <!-- Settings -> Cloud -->
     
@@ -353,7 +357,11 @@
     
     
     
+    
+    
+    
     <string name="please_wait">Si us plau, espera...</string>
+    
     <string name="start_recording">Començar gravació</string>
     <string name="stop_recording">Parar gravació</string>
     
@@ -363,6 +371,9 @@
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">Gravar aquesta trucada</string>
     
+
+    <!--After call actions dialog-->
+    <string name="cloud_added">Afegit</string>
 
     <!--Notification-->
     
@@ -378,6 +389,7 @@
     <string name="about_many_thanks">Moltes gràcies</string>
     <string name="about_many_thanks_summary">a Alexey Subbotin (avs234)</string>
 
+    <!--About -> Licenses-->
     <string name="licenses">Llicències</string>
     <string name="about_open_core_amr_license">opencore-amr</string>
     <string name="about_open_core_amr_license_summary">Usa opencore-amr sota la llicència Apache Version 2.0, fes clic aquí per visitar opencore-amr.sourceforge.net</string>
@@ -386,6 +398,7 @@
     <string name="about_lame">LAME</string>
     <string name="about_lame_summary">Usa LAME sota LGPL fes clic aquí per visitar mp3dev.org</string>
 
+    <!--Credits-->
     <string name="german_translation">Traducció al Alemany</string>
     
     <string name="polish_translation">Traducció al Polac</string>

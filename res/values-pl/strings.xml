@@ -248,6 +248,7 @@
     <!--Settings -> Interface and Appearance-->
     <string name="language">Język</string>
     <string name="select_language">Wybierz Język</string>
+    
     <string name="category_notification">Powiadomienie</string>
     <string name="show_notification">Pokaż powiadomienie</string>
     
@@ -266,6 +267,9 @@
     
     
     <string name="hide_button_before_answer_summary">Nie pokazuj przycisku nagrywania przed nawiązaniem połączenia</string>
+    
+    
+    
 
     <!-- Settings -> Cloud -->
     
@@ -353,7 +357,11 @@
     
     
     
+    
+    
+    
     <string name="please_wait">Proszę czekać...</string>
+    
     <string name="start_recording">Nagrywania</string>
     <string name="stop_recording">Nagrywanie zakończone</string>
     
@@ -363,6 +371,9 @@
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">Nagraj tę rozmowę</string>
     
+
+    <!--After call actions dialog-->
+    <string name="cloud_added">Dodano</string>
 
     <!--Notification-->
     
@@ -378,6 +389,7 @@
     <string name="about_many_thanks">Podziękowania</string>
     <string name="about_many_thanks_summary">Dla Alexey Subbotin (avs234)</string>
 
+    <!--About -> Licenses-->
     <string name="licenses">Licencja</string>
     <string name="about_open_core_amr_license">kodek opencore-amr</string>
     <string name="about_open_core_amr_license_summary">Użyj kodeka opencore-amr na licencji Apache wersja 2.0, stuknij tu, aby przejść na opencore-amr.sourceforge.net</string>
@@ -386,6 +398,7 @@
     <string name="about_lame">LAME</string>
     <string name="about_lame_summary">Użyj LAME na licencji LGPL, kliknij tutaj, aby odwiedzić mp3dev.org</string>
 
+    <!--Credits-->
     <string name="german_translation">Tłumaczenie na język niemiecki</string>
     <string name="german_translation_summary">Marc Hillesheim i Thomas Käfer</string>
     <string name="polish_translation">Tłumaczenie na język polski</string>

@@ -248,6 +248,7 @@
     <!--Settings -> Interface and Appearance-->
     <string name="language">Limbă</string>
     <string name="select_language">Selectare limbă</string>
+    
     <string name="category_notification">Notificare</string>
     <string name="show_notification">Arată notificări</string>
     
@@ -266,6 +267,9 @@
     
     
     <string name="hide_button_before_answer_summary">Nu arăta butonul in-call pâna când este stabilită conexiunea</string>
+    
+    
+    
 
     <!-- Settings -> Cloud -->
     
@@ -353,7 +357,11 @@
     
     
     
+    
+    
+    
     <string name="please_wait">Te rog așteaptă...</string>
+    
     <string name="start_recording">Start înregistrare</string>
     <string name="stop_recording">Stop înregistrare</string>
     
@@ -363,6 +371,9 @@
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">Înregistrează acest apel</string>
     
+
+    <!--After call actions dialog-->
+    <string name="cloud_added">Adăugat</string>
 
     <!--Notification-->
     
@@ -378,6 +389,7 @@
     <string name="about_many_thanks">Multe mulțumiri</string>
     <string name="about_many_thanks_summary">către Alexey Subbotin (avs234)</string>
 
+    <!--About -> Licenses-->
     <string name="licenses">Licențe</string>
     <string name="about_open_core_amr_license">opencore-amr</string>
     <string name="about_open_core_amr_license_summary">Se utilizează opencore-amr sub Licență Apache Version 2.0, apasă aici pentru a vizita opencore-amr.sourceforge.net</string>
@@ -386,6 +398,7 @@
     <string name="about_lame">LAME</string>
     <string name="about_lame_summary">Utilizează LAME sub LGPL, dă-i click aici pentru a vizita mp3dev.org</string>
 
+    <!--Credits-->
     <string name="german_translation">Traducerea în Germană</string>
     <string name="german_translation_summary">de Marc Hillesheim și Thomas Käfer</string>
     <string name="polish_translation">Traducerea în Poloneză</string>

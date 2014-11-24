@@ -1,12 +1,14 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">કોલ રેકોર્ડર</string>
-<string name="terms_of_use">ઉપયોગની શરતો</string>
+    <string name="terms_of_use">ઉપયોગની શરતો</string>
     <string name="terms_of_use_message">બ્ય એપ્લિકેશન ઉપયોગ કરીને, તમે આ કોલ રેકોર્ડર માતાનો માટે સંમત &lt;a href=http://rec.sh/terms&gt;ઉપયોગની શરતો&lt;/a&gt;.</string>
 
+    <!-- Navigation drawer -->
     <string name="navigation_drawer_open">ઓપન સંશોધક ડ્રોવરને</string>
     <string name="navigation_drawer_close">બંધ કરો ડ્રોવરને સંશોધક</string>
 
+    <!-- Navigation drawer sections -->
     <string name="section_all_recordings">બધા રેકોર્ડિંગ્સ</string>
     <string name="section_starred">તારાંકિત</string>
     <string name="section_incoming">ઇનકમિંગ</string>
@@ -19,6 +21,7 @@
     <string name="section_tasks_hint">સમય માંગી આવા રૂપાંતર તરીકે રેકોર્ડિંગ્સ સાથે ક્રિયાઓ, એક વાદળ માટે એનક્રિપ્ટ અથવા અપલોડ અહીં પ્રદર્શિત થશે</string>
     <string name="empty_hint">ખાલી</string>
 
+    <!-- Action bar -->
     <string name="action_search">શોધો</string>
     <string name="action_sort">ક્રમમાં ગોઠવો</string>
     <string name="action_settings">સેટિંગ્સ</string>
@@ -32,11 +35,13 @@
     <string name="sort_by_contact">સંપર્ક દ્વારા</string>
     <string name="sort_by_file_size">ફાઈલ માપ દ્વારા</string>
 
+    <!-- List -->
     <string name="list_header_today">આજે</string>
     <string name="list_header_yesterday">ગઈ કાલે</string>
     <string name="queued">કતારમાં</string>
     <string name="no_connection">કોઈ જોડાણ</string>
 
+    <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">ડ્રૉપબૉક્સ ઉમેરો</string>
     <string name="menu_add_note">નોંધ ઉમેરવા</string>
     <string name="menu_edit_note">ફેરફાર કરો ફેરફાર કરો નોંધ</string>
@@ -49,6 +54,7 @@
     <string name="menu_encrypt">એન્ક્રિપ્ટ</string>
     <string name="menu_decrypt">ડિક્રિપ્ટ</string>
 
+    <!-- List -> Get info dialog -->
     <string name="file_name">ફાઇલ નામ</string>
     <string name="sample_rate">નમૂના દર</string>
     <string name="sample_rate_hz">હર્ટ્ઝ</string>
@@ -63,16 +69,20 @@
     <string name="bytes">બાઇટ્સ</string>
     <string name="note">નોંધ</string>
 
+    <!-- List -> Get info dialog -> Edit -->
     <string name="contact_name">સંપર્ક નામ</string>
     <string name="phone_number">ફોન નંબર</string>
 
+    <!-- List -> Confirm delete dialog -->
     <string name="confirm_delete_message">તમે આ રેકોર્ડિંગ કાઢી નાખવા માંગો તમે ખાતરી રહ્યાં છો?</string>
     <string name="confirm_delete_several_title">ખાતરી કાઢી નાંખવું તે</string>
     <string name="confirm_delete_several_message">તમે %d રેકોર્ડિંગ્સ પસંદ કર્યું છે| જો તમારે તેમની કાઢી નાખવા માંગો તમે ખાતરી રહ્યાં છો?</string>
 
+    <!-- List -> Share -->
     <string name="share_via">શેર દ્વારા</string>
     <string name="recorded_calls">રેકોર્ડ કોલ્સ</string>
 
+    <!--  Settings -> Headers -->
     <string name="settings_recording">રેકોર્ડિંગ</string>
     <string name="settings_folders_and_files">ફોલ્ડર્સ અને ફાઈલો</string>
     <string name="settings_ui_and_appearance">ઇન્ટરફેસ અને દેખાવ</string>
@@ -82,6 +92,7 @@
     <string name="settings_debug">ડિબગ</string>
     <string name="settings_about">વિશે</string>
 
+    <!-- Settings -> License -->
     <string name="license_status">લાયસન્સ સ્થિતિ</string>
     <string name="license_check_pending">લાયસન્સ ચેક બાકી</string>
     <string name="license_check_failed">કરવામાં નિષ્ફળ લાઈસન્સ ચકાસો</string>
@@ -93,7 +104,7 @@
     <string name="license_error_message">ભૂલ #%1$s: %2$s</string>
     <string name="license_trial">પરીક્ષણ સંસ્કરણ પર સમાપ્ત થશે %s</string>
     <string name="license_unknown_error">અજ્ઞાત ભૂલ</string>
-    <string name="license_not_market_managed">"આ આવૃત્તિ  પ્લે દુકાન પર પ્રકાશિત થયેલ નથી હજી"</string>
+    <string name="license_not_market_managed">આ આવૃત્તિ પ્લે દુકાન પર પ્રકાશિત થયેલ નથી હજી</string>
     <string name="license_incorrect_response">ખોટો લીચેન્સે રેસ્પોન્સે ફ્રોમ પ્લે દુકાન</string>
     <string name="license_error_contacting_server">ભૂલ સંપર્ક સર્વર</string>
     <string name="license_server_error">સર્વર ભૂલ</string>
@@ -102,11 +113,12 @@
     <string name="buy_full_version">સંપૂર્ણ આવૃત્તિ ખરીદી</string>
     <string name="buy_full_version_summary">વર્તમાન આવૃત્તિ પર સમાપ્ત થશે %s</string>
 
+    <!-- Settings -> Recording -->
     <string name="recording_calls_switch">કોલ રેકોર્ડિંગ</string>
     <string name="category_main">મુખ્ય</string>
     <string name="device">ઉપકરણ</string>
     <string name="select_your_device">તમારા ઉપકરણ પસંદ કરો</string>
-    <string name="device_change_settings_empty">"માટે સુયોજનો આ ઉપકરણ  પહેલેથી સ્થાપના"</string>
+    <string name="device_change_settings_empty">માટે સુયોજનો આ ઉપકરણ પહેલેથી સ્થાપના</string>
     <string name="device_root_is_required">રુટ જરૂરી છે</string>
     <string name="device_root_is_required_summary">વધુ સારી ગુણવત્તા રુટ આ ઉપકરણ પર જરૂરી છે માટે</string>
     <string name="device_other">અન્ય</string>
@@ -158,6 +170,7 @@
     <string name="sample_rate_44100">44100 હર્ટ્ઝ</string>
     <string name="sample_rate_48000">48000 હર્ટ્ઝ</string>
 
+    <!-- Settings -> Recording -> Standard API -->
     <string name="api_audio_source">ઑડિઓ સ્રોત</string>
     <string name="api_source_uplink_downlink">ઉપ્લીંક + દોવ્ન્લીંક વૉઇસ કૉલ</string>
     <string name="api_source_downlink">વૉઇસ દોવ્ન્લીંક કૉલ</string>
@@ -168,11 +181,14 @@
     <string name="category_wav_settings">WAV સેટિંગ્સ</string>
     <string name="category_wav_and_mp3_settings">WAV &amp; MP3 સેટિંગ્સ</string>
 
+    <!-- Settings -> Recording -> CAF -->
     <string name="recording_mode">રેકોર્ડિંગ મોડ</string>
 
+    <!-- Settings -> Recording -> ALSA -->
     <string name="alsa_is_not_installed">સ્થાપિત થયેલ હોવું જ જોઈએ ALSA</string>
     <string name="alsa_is_not_installed_summary">સ્થાપિત કરવા માટે અહીં ટેપ કરો ALSA</string>
 
+    <!-- Settings -> Recording -> MSM -->
     <string name="chipset_type">ચિપસેટ પ્રકાર</string>
     <string name="chipset_type_msm72xx">Qualcomm MSM72XX</string>
     <string name="chipset_type_msm8250">Qualcomm MSM8250</string>
@@ -181,6 +197,7 @@
     <string name="dont_use_amr_driver">AMR ડ્રાઇવર ઉપયોગ કરશો નહીં</string>
     <string name="dont_use_amr_driver_summary">તેના બદલે વાસ્તવિક સમય માં AMR માટે WAV કન્વર્ટ</string>
 
+    <!-- Settings -> Recording -> Exceptions -->
     <string name="add_exception">અપવાદ ઉમેરો</string>
     <string name="exception_group">ગ્રુપ</string>
     <string name="exception_select_group">પસંદ જૂથ</string>
@@ -199,6 +216,7 @@
     <string name="exception_by_phone_number">ફોન નંબર દ્વારા</string>
     <string name="exception_delete_message">તમે આ અપવાદ કાઢી નાખવા માંગો તમે ખાતરી રહ્યાં છો?</string>
 
+    <!-- Settings -> Folders and Files -->
     <string name="folder">ફોલ્ડર</string>
     <string name="folder_chooser_up_to">માટે %s ઉપર ↑</string>
     <string name="automatic_cleanup">આપોઆપ સફાઈ</string>
@@ -213,6 +231,7 @@
     <string name="filename_pattern">પેટર્ન</string>
     <string name="time_pattern">સમય પેટર્ન</string>
 
+    <!-- Description for filename pattern -->
     <string name="pattern_contact_name">સંપર્ક નામ</string>
     <string name="pattern_phone_number">ફોન નંબર</string>
     <string name="pattern_call_time">કોલ સમય</string>
@@ -226,8 +245,10 @@
     <string name="time_pattern_years">વર્ષ</string>
     <string name="pattern_example">ઉદાહરણ:</string>
 
+    <!--Settings -> Interface and Appearance-->
     <string name="language">ભાષા</string>
     <string name="select_language">ભાષા પસંદ કરો</string>
+    <string name="default_language">મૂળભૂત ભાષા</string>
     <string name="category_notification">સૂચના</string>
     <string name="show_notification">બતાવો સૂચના</string>
     <string name="show_notification_summary">સ્થિતિ પટ્ટીનાં કાયમી સૂચના</string>
@@ -247,8 +268,10 @@
     <string name="hide_button_before_answer">જવાબ પહેલાં બટન છુપાવો</string>
     <string name="hide_button_before_answer_summary">બતાવશો નહીં ઇન કોલ નિયંત્રણ બટન જોડાણ અધિષ્ઠાપિત થાય ત્યાં સુધી</string>
     <string name="long_press_action">લાંબા પ્રેસ એક્શન</string>
+    <string name="long_press_action_dragging_the_button">આ બટન ખેંચીને</string>
     <string name="long_press_action_hang_up">કોલ અટકી અને આપોઆપ સામો ફોન</string>
 
+    <!-- Settings -> Cloud -->
     <string name="cloud_provider">વાદળ પ્રદાતા</string>
     <string name="cloud_provider_dropbox">ડ્રૉપબૉક્સ</string>
     <string name="sign_in_dropbox">ડ્રૉપબૉક્સ સાઇન ઇન કરો</string>
@@ -261,13 +284,16 @@
     <string name="cloud_upload_starred">અપલોડ અભિનય કર્યો</string>
     <string name="cloud_upload_starred_summary">વાદળ રેકોર્ડિંગ અપલોડ તમે તેને કરવા ત્યારે</string>
 
+    <!-- Notification -->
     <string name="notify_uploading_dropbox">ડ્રૉપબૉક્સ પર અપલોડ</string>
     <string name="notify_tasks_remaining">બાકી %d રેકોર્ડિંગ્સ</string>
 
+    <!-- Password dialog -->
     <string name="wrong_password">ખોટી પાસવર્ડ</string>
     <string name="enter_password">પાસવર્ડ દાખલ કરો</string>
     <string name="password_has_been_changed">પાસવર્ડ બદલી દેવામાં આવ્યો છે</string>
 
+    <!-- Settings -> Security -->
     <string name="category_encryption">એન્ક્રિપ્શન</string>
     <string name="category_application">એપ્લિકેશન</string>
     <string name="create_new_key">નવી કી બનાવો</string>
@@ -295,6 +321,7 @@
     <string name="aes_192bit">192-બીટ AES (સંતુલિત)</string>
     <string name="aes_256bit">256-બીટ AES (મજબૂત)</string>
 
+    <!-- Settings -> Audio player -->
     <string name="use_built_in_player">આંતરિક ખેલાડી ઉપયોગ</string>
     <string name="audio_output">ઓડિયો આઉટપુટ</string>
     <string name="audio_output_summary">%s (લાંબા નળ પોઝ/પ્લે બટન પર તે સ્વિચ થઇ જશે)</string>
@@ -309,12 +336,14 @@
     <string name="android_amr_decoder">એન્ડ્રોઇડ ડીકોડર AMR માટે</string>
     <string name="android_amr_decoder_summary">એએમઆર રમવા માટે સાધનો એન્ડ્રોઇડ આંતરિક ઉપયોગ</string>
 
+    <!--Settings -> Debug-->
     <string name="root_access">રૂટ પરવાનગી</string>
     <string name="root_access_no">કોઈ</string>
     <string name="root_access_yes">હા</string>
     <string name="dual_sim_phone">ડ્યુઅલ સિમ ફોન</string>
     <string name="dual_sim_phone_summary">સક્રિય એપ્લિકેશન બીજા સિમ કાર્ડ પરથી કોલ નક્કી કરી શકતા હોય</string>
 
+    <!-- General -->
     <string name="contact_unknown">અજ્ઞાત</string>
     <string name="button_choose">પસંદ</string>
     <string name="button_ok">ઓકે</string>
@@ -323,26 +352,36 @@
     <string name="button_cancel">રદ કરો</string>
     <string name="button_create">બનાવો</string>
     <string name="button_delete">કાઢી</string>
+    <string name="button_keep">રાખી</string>
+    <string name="button_play">રમો</string>
+    <string name="button_pause">થોભો</string>
     <string name="button_delete_wait">કાઢી (%d)</string>
     <string name="decline">ઘટાડો</string>
     <string name="accept">સ્વીકારી</string>
     <string name="call_incoming">ઇનકમિંગ</string>
     <string name="call_outgoing">આઉટગોઇંગ</string>
     <string name="please_wait">કૃપા કરીને રાહ જુઓ…</string>
+    <string name="toast_wait_for_operation_to_complete">એક પૂર્ણ કરવા માટે રાહ ક્રિયા</string>
     <string name="start_recording">રેકોર્ડિંગ શરૂ</string>
     <string name="stop_recording">સ્ટોપ રેકોર્ડિંગ</string>
     <string name="action_mode_selected">%d પસંદ કરેલ</string>
     <string name="switch_on">પર</string>
     <string name="switch_off">બંધ</string>
 
+    <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">આ કોલ રેકોર્ડ</string>
     <string name="open_contact">ઓપન સંપર્ક</string>
 
+    <!--After call actions dialog-->
+    
+
+    <!--Notification-->
     <string name="waiting_for_answer">જવાબ માટે રાહ જોઈ</string>
     <string name="recording_in_progress">પ્રગતિમાં રેકોર્ડ</string>
     <string name="no_recording_in_progress">પ્રગતિમાં કોઈ રેકોર્ડીંગ</string>
     <string name="an_error_has_occurred">વખતે ભૂલ આવી છે, આ કોલ રેકોર્ડ કરી શકાતી નથી</string>
 
+    <!--About-->
     <string name="about_call_recorder">કૉલ રેકોર્ડર વિશે</string>
     <string name="version">આવૃત્તિ</string>
     <string name="copyright">મુદ્રણાધિકાર</string>
@@ -350,6 +389,7 @@
     <string name="about_many_thanks">ઘણા આભાર</string>
     <string name="about_many_thanks_summary">તો Alexey Subbotin (avs234)</string>
 
+    <!--About -> Licenses-->
     <string name="licenses">લાઇસન્સ</string>
     <string name="about_open_core_amr_license">ઓપેન્કોરે-અમર</string>
     <string name="about_open_core_amr_license_summary">opencore-amr અપાચે ઉપયોગ કરે છે લાઇસેન્સ આવૃત્તિ 2.0 હેઠળ , opencore-amr.sourceforge.net મુલાકાત લેવા અહીં ક્લિક</string>
@@ -358,6 +398,7 @@
     <string name="about_lame">એલએએમઇ</string>
     <string name="about_lame_summary">LGPL હેઠળ LAME વાપરે, mp3dev.org મુલાકાત લેવા અહીં ક્લિક</string>
 
+    <!--Credits-->
     <string name="german_translation">જર્મન અનુવાદ</string>
     <string name="german_translation_summary">Marc Hillesheim and Thomas Käfer દ્વારા</string>
     <string name="polish_translation">પોલિશ અનુવાદ</string>
@@ -424,10 +465,4 @@
     <string name="belarusian_translation_summary">Alexander Kuvshinov દ્વારા</string>
     <string name="vietnamese_translation">વિએતનામીઝ અનુવાદ</string>
     <string name="vietnamese_translation_summary">Truong Hoang Trung દ્વારા</string>
-<string name="toast_wait_for_operation_to_complete">એક પૂર્ણ કરવા માટે રાહ ક્રિયા</string>
-    <string name="button_pause">થોભો</string>
-    <string name="button_play">રમો</string>
-    <string name="button_keep">રાખી</string>
-    <string name="long_press_action_dragging_the_button">આ બટન ખેંચીને</string>
-    <string name="default_language">મૂળભૂત ભાષા</string>
-    </resources>
+</resources>
