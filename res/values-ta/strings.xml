@@ -18,7 +18,7 @@
     <string name="section_by_label">மூலம் லேபிள்</string>
     <string name="section_help">உதவி</string>
     <string name="section_tasks">டாஸ்க்ஸ்</string>
-    <string name="section_tasks_hint">பதிவுகளை நேரத்தை சாப்பிடும் பணிகளை போன்ற மாற்றும் என, ஒரு மேகம் மறையீடாக்கம் அல்லது ஏற்றும் இங்கே காட்டப்படும்</string>
+    <string name="section_tasks_hint">நேரம் எடுத்துக்கொள்ளும் பணிகளை போன்ற பதிவுகளை கொண்டு ஒரு மேகம் மறையீடாக்கம் அல்லது ஏற்றும், மாற்றும் இங்கே காட்டப்படும்</string>
     <string name="empty_hint">வெற்று</string>
 
     <!-- Action bar -->
@@ -502,7 +502,7 @@
     <string name="recording_type_mono">மோனோ</string>
     <string name="recording_type_stereo">ஸ்டீரியோ</string>
     <string name="file_size">கோப்பு அளவு</string>
-    <string name="terabyte">டிபி</string>
+    <string name="terabyte">காசநோய்</string>
     <string name="gigabyte">ஜிபி</string>
     <string name="megabyte">எம்பி</string>
     <string name="kilobyte">கேபி</string>
@@ -576,11 +576,11 @@
     <string name="call_confirm_summary">அழைப்பதற்கு முன் உறுதிப்படுத்தல் உரையாடல் காட்டு</string>
     <string name="after_call_actions_dialog">உரையாடல் பிறகு அழைப்பு</string>
     <string name="after_call_actions_dialog_summary">கேட்க ஒரு அழைப்பு பிறகு என்ன செய்ய வேண்டும்</string>
-    <string name="vibrate_on_call">அதிர்வுறு அழைப்பு தொடக்கத்தில் / முடிவில்</string>
+    <string name="vibrate_on_call">அதிர்வுறு மீது அழைப்பு தொடக்கத்தில் / முடிவில்</string>
     <string name="exceptions">விதிவிலக்குகள்</string>
     <string name="exceptions_summary">"அமைக்க தொடர்புகள், குழுக்கள், அல்லது தொலைபேசி எண்கள்  குறிப்பிட்ட நடவடிக்கைகள்"</string>
     <string name="start_recording_on_answer">தொடக்கம் பதில் பதிவு</string>
-    <string name="start_recording_on_answer_summary">வெளியேறும் அழைப்பு பதில் முறை பதிவு தொடக்கம்| பயன்பாட்டை ஒரு ஆவணமற்ற இவ்வகையைச் ஒரு கணம் கண்டறியபயன்படுத்துகிறது போது மற்ற பக்க பதில், இந்த அம்சம் சில சாதனங்களில் ஏற்படலாம்| வேர் இருந்து தேவைப்படுகிறது ஆண்ட்ராய்டு 4.1 ஜெல்லி பீன்| கர்னல் உள்ள சச்சரவு இயலுமைப்படுத்த வேண்டும்.</string>
+    <string name="start_recording_on_answer_summary">பதிவு தொடக்கம் வெளியேறும் அழைப்பு முறை ஆகிறது பதில்| பயன்பாட்டை பயன்கள் ஆவணமற்ற பயனளிக்காவிட்டால்ஒரு கணம் கண்டறிய போது மற்ற பக்க பதில், எனவே இந்த அம்சம் சில சாதனங்களில் தோல்வியடையக் கூடும்| வேர் ஆகிறது தேவையான ஆண்ட்ராய்டு 4.1 முதல் Jelly Bean| ஒருபோதும் உள்ள தி கர்னல் வேண்டும் இருக்கும் இயலுமைப்படுத்த.</string>
     <string name="delay_before_start_recording">தொடக்க பதிவு முன் இருந்த தாமதம்</string>
     <string name="delay_before_start_recording_summary">ஐந்து வெளியேறும்: %1$s, ஐந்து உள்வரும்: %2$s</string>
     <string name="delay_format_sec">%s நொடி</string>
@@ -625,7 +625,7 @@
     <string name="chipset_type_msm8255">Qualcomm MSM8255</string>
     <string name="chipset_type_msm8260">Qualcomm MSM8260</string>
     <string name="dont_use_amr_driver">AMR இயக்கி பயன்படுத்த வேண்டாம்</string>
-    <string name="dont_use_amr_driver_summary">உருமாற்று WAV to AMR உண்மையான நேரத்தில் அதற்கு பதிலாக</string>
+    <string name="dont_use_amr_driver_summary">உருமாற்று WAV செய்ய AMR உண்மையான நேரத்தில் அதற்கு பதிலாக</string>
 
     <string name="add_exception">விதிவிலக்கு சேர்க்கவும்</string>
     <string name="exception_group">குழு</string>
@@ -636,7 +636,7 @@
     <string name="exception_action">அதிரடி</string>
     <string name="exception_select_action">வாய்ப்புகள் நடவடிக்கை</string>
     <string name="exception_action_always_record">எப்போதும் பதிவு</string>
-    <string name="exception_action_never_record">எப்போதும் பதிவு</string>
+    <string name="exception_action_never_record">ஒருபோதும் பதிவு</string>
     <string name="exception_groups_not_found">குழுக்கள் இல்லை காணப்படும்</string>
     <string name="exception_contacts_not_found">தொடர்புகள் இல்லை காணப்படும்</string>
     <string name="exceptions_not_added">விதிவிலக்குகள் இல்லை மேலும்</string>
@@ -692,7 +692,7 @@
     <string name="horizontal_position">ஹோரிசாண்டல் பொசிடிஒன்</string>
     <string name="horizontal_position_summary">%s டிபி, மையத்தில் இருந்து ஈடு திரையில்</string>
     <string name="hide_button_before_answer">மறைத்தல் பொத்தான் பதில் முன்</string>
-    <string name="hide_button_before_answer_summary">இணைப்பு ஏற்படுத்தப்பட்டுள்ள வரை அழைப்பில் கட்டுப்பாட்டு பொத்தானை காட்ட இல்லை</string>
+    <string name="hide_button_before_answer_summary">அழைப்பில் கட்டுப்பாட்டு பொத்தானை இல்லை காட்ட இணைப்பு ஏற்படுத்தப்பட்டுள்ள வரை</string>
     <string name="long_press_action">நீண்ட அழுத்து நடவடிக்கை</string>
     <string name="long_press_action_dragging_the_button">இழுத்து தி பொத்தானை</string>
     <string name="long_press_action_hang_up">ஹாங் வரை அழைப்பு மற்றும் மீண்டும் அழைக்க தானாக</string>
@@ -705,24 +705,24 @@
     <string name="cloud_common_settings">பொதுவான</string>
     <string name="cloud_wifi_only">Wi-Fi மட்டுமே</string>
     <string name="cloud_auto_upload">வாகன பதிவேற்ற</string>
-    <string name="cloud_auto_upload_summary">பதிவு பதிவேற்ற வலது அழைப்பு பின்னர்</string>
+    <string name="cloud_auto_upload_summary">பதிவேற்றம் பதிவு வலது அழைப்பு பிறகு</string>
     <string name="cloud_upload_starred">பதிவேற்றம் நட்சத்திர</string>
     <string name="cloud_upload_starred_summary">பதிவு பதிவேற்ற நீங்கள் அதை நட்சத்திர சேர்க்கும் போது மேகம்</string>
 
     <string name="notify_uploading_dropbox">பதிவேற்றுகிறது செய்ய Dropbox</string>
-    <string name="notify_tasks_remaining">%d பதிவுகளை மீதமுள்ள</string>
+    <string name="notify_tasks_remaining">%d ரேகோர்டிங்க்ஸ் மீதமுள்ள</string>
 
     <string name="wrong_password">தவறான கடவுச்சொல்</string>
     <string name="enter_password">கடவுச்சொல்லை உள்ளிடவும்</string>
-    <string name="password_has_been_changed">கடவுச்சொல் மாற்றப்பட்டது</string>
+    <string name="password_has_been_changed">கடவுச்சொல் உள்ளது மாற்றப்பட்டது</string>
 
     <string name="category_encryption">குறியாக்க</string>
     <string name="category_application">விண்ணப்ப</string>
     <string name="create_new_key">புதிய விசையை உருவாக்கவும்</string>
-    <string name="create_new_key_summary">இந்த விசை பதிவுகளை குறியாக்கம் அல்லது பயன்பாட்டை நுழைய பின்னர் பயன்படுத்தப்படும்</string>
+    <string name="create_new_key_summary">இந்த விசை பதிவுகளை குறியாக்க பின்னர் பயன்படுத்தப்படும் அல்லது செய்ய நுழைய பயன்பாட்டை</string>
     <string name="delete_key">நீக்கு விசை</string>
     <string name="change_password">கடவுச்சொல்லை மாற்று</string>
-    <string name="delete_key_summary">எச்சரிக்கை! இந்த முக்கிய அவர்களை குறியாக்கம், நீங்கள் அதே கடவுச்சொல்லை ஒரு புதிய விசையை உருவாக்க கூட, மறைகுறியாக்கப்பட்ட பதிவுகளை மீட்க இயலாது</string>
+    <string name="delete_key_summary">எச்சரிக்கை! நீங்கள் மறைகுறியாக்கப்பட்ட பதிவுகளை மீட்க இயலாது இந்த முக்கிய அவர்களை குறியாக்கம் என்றால், நீங்கள் அதே கடவுச்சொல்லை ஒரு புதிய விசையை உருவாக்க கூட</string>
     <string name="delete_key_message">நீக்கிய பிறகு இந்த முக்கிய மூலம் குறியாக்கம் பதிவுகளை மீட்க முடியாது| நீங்கள் தொடர வேண்டும் என்பதில் உறுதியாக இருக்கிறீர்களா?</string>
     <string name="enter_old_password">பழைய கடவுச்சொல்லை உள்ளிடு</string>
     <string name="enter_new_password">புதிய கடவுச்சொல்லை சேர்க்கவும்</string>
@@ -738,7 +738,7 @@
     <string name="lock_after_10_minutes">10 நிமிடம்</string>
     <string name="app_admin">ஆப் நிர்வாகம்</string>
     <string name="app_admin_summary">கால் ரெக்கார்டர் நிறுவுவதில் தடுக்க தேவையான</string>
-    <string name="app_admin_explanation">மென்பொருள் கால் ரெக்கார்டர் நீக்கக் பாதுகாக்கும் தவிர சாதனம் நிர்வாகம் எந்த அம்சத்தை பயன்படுத்த</string>
+    <string name="app_admin_explanation">"கால் ரெக்கார்டர்  எந்த அம்சத்தை சாதனம் நிர்வாகம் இது இயங்கும் தரவு பாதுகாக்கும் பயன்படுத்த இல்லை  தவிர"</string>
     <string name="aes_128bit">128-பிட் AES (வேகமாக)</string>
     <string name="aes_192bit">192-பிட் AES (சமப்படுத்தப்பட்ட)</string>
     <string name="aes_256bit">256-பிட் AES (வலுவான)</string>
@@ -751,7 +751,7 @@
     <string name="use_proximity_sensor">அருகாமையில் சென்சார் பயன்படுத்த</string>
     <string name="use_proximity_sensor_summary">"முடக்கவும் அருகாமையில் சென்சார்  பின்னணி போது மூலம் திரையில்"</string>
     <string name="switch_audio_output">மாற ஆடியோ வெளியீடு</string>
-    <string name="switch_audio_output_summary">"தானாக திரையில் அருகாமையில் சென்சார் மூலம் செயல்படுத்தப்படும்/முடக்கப்பட்டுள்ளது இருக்கும் போது  ஆடியோ வெளியீடு மாற"</string>
+    <string name="switch_audio_output_summary">"தானாக திரையில் அருகாமையில் சென்சார் மூலம் செயல்படுத்தப்படும் / முடக்கப்பட்டுள்ளது இருக்கும் போது  ஆடியோ வெளியீடு மாற"</string>
     <string name="android_wav_decoder">WAV அண்ட்ராய்டு குறிவிலக்கியை ஐந்து</string>
     <string name="android_wav_decoder_summary">WAV பயன்படுத்தவும் உள்ளமைக்கப்பட்ட அண்ட்ராய்டு கருவிகள் விளையாட</string>
     <string name="android_amr_decoder">AMR அண்ட்ராய்டு குறிவிலக்கியை</string>
@@ -761,7 +761,7 @@
     <string name="root_access_no">இல்லை</string>
     <string name="root_access_yes">ஆம்</string>
     <string name="dual_sim_phone">இரட்டை சிம் போன்</string>
-    <string name="dual_sim_phone_summary">இந்த பயன்பாட்டை அழைப்புகள் தீர்மானிக்க முடியாது என்றால் செயல்படுத்த சிம் அட்டையிலிருந்து</string>
+    <string name="dual_sim_phone_summary">இயக்கு இந்த பயன்பாட்டை அழைப்புகள் தீர்மானிக்க முடியாது என்றால் இரண்டாவது சிம் அட்டையிலிருந்து</string>
 
     <string name="contact_unknown">தெரியாத</string>
     <string name="button_choose">தேர்வு</string>
@@ -794,7 +794,7 @@
 
     <string name="waiting_for_answer">பதில் காத்திருக்கிறது</string>
     <string name="recording_in_progress">முன்னேற்றம் இன் ரெக்கார்டிங்</string>
-    <string name="no_recording_in_progress">எந்த முன்னேற்றம் இன் ரெக்கார்டிங்</string>
+    <string name="no_recording_in_progress">இல்லை முன்னேற்றம் இன் ரெக்கார்டிங்</string>
     <string name="an_error_has_occurred">ஒரு பிழை ஏற்பட்டது, இந்த அழைப்பை பதிவு</string>
 
     <string name="about_call_recorder">கால் ரெக்கார்டர் பற்றி</string>
@@ -806,11 +806,11 @@
 
     <string name="licenses">உரிமங்கள்</string>
     <string name="about_open_core_amr_license">opencore-amr</string>
-    <string name="about_open_core_amr_license_summary">பயன்படுத்துகிறது Opencore-amr, அப்பாச்சி உரிமத்தின் 2.0 கீழ், பார்க்க இங்கே கிளிக் செய்யவும் opencore-amr.sourceforge.net</string>
+    <string name="about_open_core_amr_license_summary">பயன்படுத்துகிறது Opencore-amr அப்பாச்சி உரிமத்தின் 2.0 கீழ், விசிட் கிளிக் செய்யவும் opencore-amr.sourceforge.net</string>
     <string name="about_alsa">ALSA</string>
-    <string name="about_alsa_summary">LGPL என்ற கீழ் ALSA பயன்படுத்துகிறது, பார்க்க இங்கே கிளிக் செய்யவும் alsa-project.org</string>
+    <string name="about_alsa_summary">LGPL என்ற கீழ் ALSA பயன்படுத்துகிறது, விசிட் கிளிக் செய்யவும் alsa-project.org</string>
     <string name="about_lame">LAME</string>
-    <string name="about_lame_summary">LGPL என்ற கீழ் LAMEபயன்படுத்துகிறது, பார்க்க இங்கே கிளிக் செய்யவும் mp3dev.org</string>
+    <string name="about_lame_summary">LGPL என்ற கீழ் LAME, விசிட் கிளிக் செய்யவும் mp3dev.org</string>
 
     <string name="german_translation">ஜெர்மன் மொழிபெயர்ப்பு</string>
     <string name="german_translation_summary">Marc Hillesheim and Thomas Käfer மூலம்</string>
