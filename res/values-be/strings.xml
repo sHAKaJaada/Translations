@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">CallRecorder</string>
+    <string name="app_name">Call Recorder</string>
     
     
 
@@ -360,7 +360,7 @@
     
     
     
-    <string name="please_wait">Калі ласка, пачакайце...</string>
+    <string name="please_wait">Калі ласка, пачакайце…</string>
     
     <string name="start_recording">Пачаць запіс</string>
     <string name="stop_recording">Спыніць запіс</string>
@@ -392,7 +392,7 @@
     <!--About -> Licenses-->
     <string name="licenses">Ліцэнзіі</string>
     <string name="about_open_core_amr_license">opencore-amr</string>
-    <string name="about_open_core_amr_license_summary">Выкарыстоўвае opencore-amr у рамках Apache License Version 2.0, націсніцесюды,каб наведаць opencore-amr.sourceforge.net</string>
+    <string name="about_open_core_amr_license_summary">Выкарыстоўвае opencore-amr у рамках Apache License Version 2.0, націсніце сюды, каб наведаць opencore-amr.sourceforge.net</string>
     <string name="about_alsa">ALSA</string>
     <string name="about_alsa_summary">Выкарыстоўвае ALSA у рамках LGPL, націсніце сюды, каб наведаць alsa-project.org</string>
     <string name="about_lame">LAME</string>
@@ -465,4 +465,153 @@
     <string name="belarusian_translation_summary">ад Куўшынава Аляксандра</string>
     <string name="vietnamese_translation">Пераклад на в\'етнамскі</string>
     <string name="vietnamese_translation_summary">ад Truong Hoang Trung</string>
-</resources>
+<string name="terms_of_use">Умовы выкарыстання</string>
+    <string name="terms_of_use_message">Выкарыстоўваючы прыкладанне, вы згаджаецеся з &lt;a href=http://rec.sh/terms&gt;умовамі выкарыстання&lt;/a&gt; CallRecorder\'а.</string>
+
+    <string name="navigation_drawer_open">Адкрыць панэль навігацыі</string>
+    <string name="navigation_drawer_close">Зачыніць панэль навігацыі</string>
+
+    <string name="section_all_recordings">Усе запісы</string>
+    <string name="section_starred">Пазначаныя</string>
+    <string name="section_by_contact">Па кантакце</string>
+    <string name="section_by_format">Па фармаце</string>
+    <string name="section_by_label">Па цэтліку</string>
+    <string name="section_tasks_hint">Тут адлюстроўваюцца працяглыя аперацыі (канвертаванне, шыфраванне, загрузка на воблака і т.п.)</string>
+    <string name="action_sort">Сартаваць</string>
+    <string name="action_refresh">Абнавіць</string>
+    <string name="action_delete">Выдаліць</string>
+    <string name="action_add_star">Пазначыць</string>
+    <string name="action_remove_star">Выдаліць пазнаку</string>
+    <string name="action_share">Падзяліцца</string>
+    <string name="sort_by_date">Па даце</string>
+    <string name="sort_by_contact">Па кантакце</string>
+    <string name="sort_by_file_size">Па памеры</string>
+
+    <string name="list_header_today">Сёння</string>
+    <string name="list_header_yesterday">Учора</string>
+    <string name="queued">У чэргі</string>
+    <string name="no_connection">Няма злучэння</string>
+
+    <string name="menu_add_note">Дадаць нататку</string>
+    <string name="menu_edit_note">Змяніць нататку</string>
+    <string name="menu_share">Падзяліцца</string>
+    <string name="menu_convert_to_mp3">Канверс. у MP3</string>
+    <string name="menu_convert_to_amr">Канверс. у AMR</string>
+    <string name="menu_cancel_task">Адмяніць задачу</string>
+    <string name="recording_type">Тып запісу</string>
+    <string name="note">Нататка</string>
+
+    <string name="confirm_delete_several_title">Пацверджанне выдалення</string>
+    <string name="confirm_delete_several_message">Вы абралі %d запісаў. Вы ўпэўнены, што жадаеце выдаліць іх?</string>
+
+    <string name="share_via">Падзяліцца праз</string>
+    <string name="settings_cloud">Воблака</string>
+    <string name="license_check_pending">Чаканне праверкі ліцэнзіі</string>
+    <string name="license_check_failed">Не атрымалася праверыць ліцэнзію</string>
+    <string name="license_check_failed_summary">Націсніце, каб паглядзець дэталі</string>
+    <string name="license_verified">Ліцэнзія праверана</string>
+    <string name="license_verified_summary">Націсніце, каб схаваць</string>
+    <string name="license_help">Дапамога</string>
+    <string name="license_signature_verification_failed">Памылка праверкі подпісу</string>
+    <string name="license_error_message">Памылка #%1$s: %2$s</string>
+    <string name="license_unknown_error">Невядомая памылка</string>
+    <string name="license_not_market_managed">Гэта версія пакуль яшчэ не апублікавана на Play Store</string>
+    <string name="license_incorrect_response">Няверны адказ з ліцэнзіяй ад Play Store</string>
+    <string name="license_error_contacting_server">Памылка злучэння з серверам</string>
+    <string name="license_server_error">Памылка сервера</string>
+    <string name="license_over_quota">Занадта шмат запытаў з гэтай прылады</string>
+
+    <string name="device_change_settings_empty">Налады для гэтай прылады ўжо ўсталяваны</string>
+    <string name="device_root_is_required">Патрабуецца root</string>
+    <string name="device_root_is_required_summary">На гэтай прыладзе неабходзен root для лепшай якасці</string>
+    <string name="volume_control_overall">Агульная гучнасць</string>
+    <string name="recording_method_msm">MSM</string>
+    <string name="recording_method_msm_settings">Налады для запісу праз MSM</string>
+    <string name="exceptions_summary">Усталяваць вызначаныя дзеянні для кантактаў, груп і тэлефонаў</string>
+    <string name="start_recording_on_answer">Пачынаць запіс пры адказе</string>
+    <string name="start_recording_on_answer_summary">Пачаць запіс пасля адказу адказу на выходны выклік. Праграма выкарыстоўвае недакументаваны спосаб выяўлення моманту, калі іншы бок здымае трубку, таму гэта функцыя можа не працаваць на некаторых прыладах. Пачынальна з Android 4.1 Jelly Bean патрабуецца root. Logger у вашым ядры павінен быць уключаны.</string>
+    <string name="delay_before_start_recording_summary">Для выходных: %1$s, для ўваходных: %2$s</string>
+    <string name="delay_format_sec">%s сек</string>
+    <string name="delay_for_outgoing">Для выходных</string>
+    <string name="delay_for_incoming">Для ўваходных</string>
+    <string name="settings_for_device">Налады для %s</string>
+    <string name="recording_format">Фармат запісу</string>
+    <string name="volume_control_summary">Tx: %1$s, Rx: %2$s</string>
+    <string name="category_wav_and_mp3_settings">WAV і MP3 налады</string>
+
+    <string name="alsa_is_not_installed">ALSA павінна быць усталявана</string>
+    <string name="alsa_is_not_installed_summary">Націсніце тут, каб усталяваць ALSA</string>
+
+    <string name="add_exception">Дадаць выключэнне</string>
+    <string name="exception_contact">Кантакт</string>
+    <string name="exception_select_contact">Абярыце кантакт</string>
+    <string name="exception_phone_number">Нумар тэлефона</string>
+    <string name="exception_action">Дзеянне</string>
+    <string name="exception_groups_not_found">Групы не знойдзены</string>
+    <string name="exception_contacts_not_found">Кантакты не знойдзены</string>
+    <string name="exceptions_not_added">Выключэнні не створаны</string>
+    <string name="exception_by_contact">Па кантакце</string>
+    <string name="exception_by_group">Па групе</string>
+    <string name="exception_by_phone_number">Па нумары тэлефона</string>
+    <string name="exception_delete_message">Вы ўпэўнены, што жадаеце выдаліць гэта выключэнне?</string>
+
+    <string name="folder_chooser_up_to">↑ Наверх да %s</string>
+    <string name="settings_filename">Імя файла</string>
+    <string name="pattern_call_timestamp">час званка ў unix time</string>
+    <string name="default_language">Мова па змаўчанні</string>
+    <string name="show_notification_summary">Пастаяннае апавяшчэнне ў радку стану</string>
+    <string name="category_incall_control_button">Кнопка кіравання запісам</string>
+    <string name="incall_control_for_outgoing_summary">Адлюстроўваць кнопку кіравання запісам для выходных званкоў</string>
+    <string name="incall_control_for_incoming_summary">Адлюстроўваць кнопку кіравання запісам для ўваходных званкоў</string>
+    <string name="hide_button_while_recording">Схаваць кнопку падчас запісу</string>
+    <string name="hide_button_while_recording_summary">Схаваць кнопку кіравання запісам, калі гутарка запісваецца</string>
+    <string name="vertical_position_summary">%s dp, водступ ад цэнтра экрана</string>
+    <string name="horizontal_position_summary">%s dp, водступ ад цэнтра экрана</string>
+    <string name="hide_button_before_answer">Схаваць кнопку да адказу</string>
+    <string name="long_press_action">Дзеянне на доўгі націск</string>
+    <string name="long_press_action_dragging_the_button">Перацягванне кнопкі</string>
+    <string name="long_press_action_hang_up">Завяршыць выклік і ператэлефанаваць аўтаматычна</string>
+
+    <string name="cloud_provider">Правайдар воблака</string>
+    <string name="sign_in_dropbox">Увайсці ў Dropbox</string>
+    <string name="sign_out_dropbox">Выйсці з Dropbox</string>
+    <string name="cloud_provider_google_drive">Google Drive</string>
+    <string name="cloud_common_settings">Агульнае</string>
+    <string name="cloud_upload_starred">Загрузіць пазначаныя</string>
+    <string name="cloud_upload_starred_summary">Загружаць файл на воблака пасля дадання пазнакі на запіс</string>
+
+    <string name="notify_uploading_dropbox">Ідзе загрузка на Dropbox</string>
+    <string name="notify_tasks_remaining">%d засталося</string>
+
+    <string name="create_new_key_summary">Гэты ключ будзе скарыстаны пазней, для шыфравання запісаў ці ўваходу ў прыкладанне</string>
+    <string name="delete_key">Выдаліць ключ</string>
+    <string name="delete_key_summary">Асцярожна! Вы не зможаце аднавіць зашыфраваныя гэтым ключом запісу, нават калі створыце новы ключ з тым жа паролем</string>
+    <string name="delete_key_message">Пасля выдалення вы не зможаце аднавіць зашыфраваныя гэтым ключом запісу. Вы ўпэўнены, што жадаеце працягнуць?</string>
+    <string name="require_password_summary_no_key">Патрабаваць пароль пры адкрыцці праграмы. Каб гэта ўключыць, неабходна стварыць ключ</string>
+    <string name="app_admin_summary">Патрабуецца для прадухілення выдалення Call Recorder\\\'a</string>
+    <string name="app_admin_explanation">Call Recorder не выкарыстоўвае якіх або магчымасцяў адміністратараў прылад, акрамя прадухілення выдалення</string>
+    <string name="use_built_in_player">Убудаваны плэер</string>
+    <string name="audio_output_summary">%s (Доўгі націск на кнопку прайгравання/паўзы таксама пераключыць гэту наладу)</string>
+    <string name="use_proximity_sensor_summary">Адключаць дысплей падчас прайгравання запісу датчыкам набліжэння</string>
+    <string name="switch_audio_output_summary">Аўтаматычна перамыкаць крыніцу высновы гуку, калі экран выключаны ці ўключаны датчыкам набліжэння</string>
+    <string name="button_choose">Абраць</string>
+    <string name="button_call">Патэлефанаваць</string>
+    <string name="button_create">Стварыць</string>
+    <string name="button_delete">Выдаліць</string>
+    <string name="button_keep">Захаваць</string>
+    <string name="button_play">Прайграць</string>
+    <string name="button_pause">Паўза</string>
+    <string name="button_delete_wait">Выдаліць (%d)</string>
+    <string name="decline">Адхіліць</string>
+    <string name="accept">Прыняць</string>
+    <string name="call_incoming">Уваходны</string>
+    <string name="call_outgoing">Выходны</string>
+    <string name="toast_wait_for_operation_to_complete">Пачакайце завяршэнні аперацыі</string>
+    <string name="action_mode_selected">%d абрана</string>
+    <string name="open_contact">Адкрыць кантакт</string>
+
+    <string name="waiting_for_answer">Чаканне адказу</string>
+    <string name="recording_in_progress">Ідзе запіс</string>
+    <string name="no_recording_in_progress">Няма запісу</string>
+    <string name="about_call_recorder">Пра праграму</string>
+    </resources>
