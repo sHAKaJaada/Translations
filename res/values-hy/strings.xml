@@ -74,7 +74,7 @@
     
 
     <!-- List -> Confirm delete dialog -->
-    <string name="confirm_delete_message">Դուք վստա՞հ եք որ ցանկանում եք ջնջել այս ձայնագրությունը</string>
+    <string name="confirm_delete_message">Դուք վստահ եք որ ցանկանում եք ջնջել այս ձայնագրությունը?</string>
     
     
 
@@ -510,7 +510,7 @@
     <string name="confirm_delete_several_title">Հաստատել հեռացումը</string>
     <string name="confirm_delete_several_message">Դուք ընտրել եք %d ձայնագրություն: Վստահ եք արդյոք, որ դրանք պետք է հեռացվեն?</string>
 
-    <string name="share_via">Տարածել...</string>
+    <string name="share_via">Տարածել</string>
     <string name="settings_cloud">Ամպային պահեստարան</string>
     <string name="license_status">Լիցենզիայի ստատուսը</string>
     <string name="license_check_pending">Լիցենզիայի ստուգման փուլում է</string>
