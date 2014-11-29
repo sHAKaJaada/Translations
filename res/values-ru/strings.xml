@@ -476,4 +476,8 @@
     <string name="gujarati_translation_summary">от Abhishek Sharma</string>
     <string name="tamil_translation">Перевод на тамильский</string>
     <string name="tamil_translation_summary">от Ashish Sharma</string>
-</resources>
+<string name="toast_recording_is_off">Запись отключена</string>
+    <string name="toast_recording_is_on">Запись включена</string>
+
+
+    </resources>
