@@ -364,12 +364,17 @@
     <string name="call_incoming">Incoming</string>
     <string name="call_outgoing">Outgoing</string>
     <string name="please_wait">Please wait…</string>
-    <string name="toast_wait_for_operation_to_complete">Wait for an operation to complete</string>
     <string name="start_recording">Start recording</string>
     <string name="stop_recording">Stop recording</string>
     <string name="action_mode_selected">%d selected</string>
     <string name="switch_on">On</string>
     <string name="switch_off">Off</string>
+
+    <!--Toasts-->
+    <string name="toast_wait_for_operation_to_complete">Wait for an operation to complete</string>
+    <string name="toast_recording_is_off">Recording is OFF</string>
+    <string name="toast_recording_is_on">Recording is ON</string>
+
 
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">Record this call</string>
