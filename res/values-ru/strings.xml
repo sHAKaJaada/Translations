@@ -146,9 +146,9 @@
     <string name="exceptions">Исключения</string>
     <string name="exceptions_summary">Установить определенные действия для контактов, групп и телефонов</string>
     <string name="start_recording_on_answer">Начинать запись при ответе</string>
-    <string name="start_recording_on_answer_summary">Начать запись после ответа ответа на исходящий вызов. Программа использует недокументированый способ обнаружения момента, когда другая стороная снимает трубку, поэтому эта функция может не работать на некоторых устройствах. Начиная с Android 4.1 Jelly Bean требуется root. Logger в вашем ядре должен быть включен.</string>
+    <string name="start_recording_on_answer_summary">Начать запись после ответа ответа на исходящий вызов. Программа использует недокументированный способ обнаружения момента, когда другая сторона снимает трубку, поэтому эта функция может не работать на некоторых устройствах. Начиная с Android 4.1 Jelly Bean требуется root. Logger в вашем ядре должен быть включен.</string>
     <string name="delay_before_start_recording">Задержка перед началом записи</string>
-    <string name="delay_before_start_recording_summary">Для исходящих: %1$s, для исходящих: %2$s</string>
+    <string name="delay_before_start_recording_summary">Для исходящих: %1$s, для входящих: %2$s</string>
     <string name="delay_format_sec">%s сек</string>
     <string name="delay_for_outgoing">Для исходящих</string>
     <string name="delay_for_incoming">Для входящих</string>
@@ -209,7 +209,7 @@
     <string name="exception_action_always_record">Всегда записывать</string>
     <string name="exception_action_never_record">Никогда не записывать</string>
     <string name="exception_groups_not_found">Группы не найдены</string>
-    <string name="exception_contacts_not_found">Конктакты не найдены</string>
+    <string name="exception_contacts_not_found">Контакты не найдены</string>
     <string name="exceptions_not_added">Исключения не созданы</string>
     <string name="exception_by_contact">По контакту</string>
     <string name="exception_by_group">По группе</string>
@@ -300,8 +300,8 @@
     <string name="create_new_key_summary">Этот ключ будет использован позднее, для шифрования записей или входа в приложение</string>
     <string name="delete_key">Удалить ключ</string>
     <string name="change_password">Изменить пароль</string>
-    <string name="delete_key_summary">Осторожно! Вы не сможете восстановить зашифрованные этим ключем записи, даже если создадите новый ключ с тем же паролем</string>
-    <string name="delete_key_message">После удаления вы не сможете восстановить зашифрованные этим ключем записи. Вы уверены, что хотите продолжить?</string>
+    <string name="delete_key_summary">Осторожно! Вы не сможете восстановить зашифрованные этим ключом записи, даже если создадите новый ключ с тем же паролем</string>
+    <string name="delete_key_message">После удаления вы не сможете восстановить зашифрованные этим ключом записи. Вы уверены, что хотите продолжить?</string>
     <string name="enter_old_password">Введите старый пароль</string>
     <string name="enter_new_password">Введите новый пароль</string>
     <string name="re_enter_new_password">Повторно введите новый пароль</string>
