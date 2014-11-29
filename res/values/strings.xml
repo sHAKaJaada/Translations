@@ -252,6 +252,8 @@
     <string name="category_notification">Notification</string>
     <string name="show_notification">Show notification</string>
     <string name="show_notification_summary">Permanent notification in the status bar</string>
+    <string name="hide_icon_but_keep_notification">Hide icon, but keep notification</string>
+    <string name="hide_icon_but_keep_notification_summary">Hide icon, but keep notification in the status bar</string>
     <string name="category_incall_control_button">In-call control button</string>
     <string name="incall_control_for_outgoing">For outgoing calls</string>
     <string name="incall_control_for_outgoing_summary">Show in-call control button on outgoing calls</string>
@@ -286,6 +288,7 @@
 
     <!-- Notification -->
     <string name="notify_uploading_dropbox">Uploading to Dropbox</string>
+    <string name="notify_waiting_for_calls">Waiting for calls</string>
     <string name="notify_tasks_remaining">%d recordings remaining</string>
 
     <!-- Password dialog -->
@@ -393,6 +396,8 @@
     <string name="licenses">Licenses</string>
     <string name="about_open_core_amr_license">opencore-amr</string>
     <string name="about_open_core_amr_license_summary">Uses opencore-amr under Apache License Version 2.0, click here to visit opencore-amr.sourceforge.net</string>
+    <string name="about_ion_license">Ion</string>
+    <string name="about_ion_license_summary">Uses Ion under Apache License Version 2.0, click here to visit github.com/koush/ion</string>
     <string name="about_alsa">ALSA</string>
     <string name="about_alsa_summary">Uses ALSA under LGPL, click here to visit alsa-project.org</string>
     <string name="about_lame">LAME</string>
@@ -465,4 +470,10 @@
     <string name="belarusian_translation_summary">by Alexander Kuvshinov</string>
     <string name="vietnamese_translation">Vietnamese translation</string>
     <string name="vietnamese_translation_summary">by Truong Hoang Trung</string>
+    <string name="armenian_translation">Armenian translation</string>
+    <string name="armenian_translation_summary">by Hakob Sununu and Konstantin Gevorgyan</string>
+    <string name="gujarati_translation">Gujarati translation</string>
+    <string name="gujarati_translation_summary">by Abhishek Sharma</string>
+    <string name="tamil_translation">Tamil translation</string>
+    <string name="tamil_translation_summary">by Ashish Sharma</string>
 </resources>
