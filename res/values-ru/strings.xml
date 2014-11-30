@@ -480,4 +480,7 @@
     <string name="toast_recording_is_on">Запись включена</string>
 
 
+    <string name="toast_file_deleted">Файл был успешно удален</string>
+
+
     </resources>
