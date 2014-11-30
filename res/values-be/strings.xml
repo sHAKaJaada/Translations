@@ -614,4 +614,20 @@
     <string name="recording_in_progress">Ідзе запіс</string>
     <string name="no_recording_in_progress">Няма запісу</string>
     <string name="about_call_recorder">Пра праграму</string>
-    </resources>
+    <string name="hide_icon_but_keep_notification">Схаваць абразок пакінуўшы апавяшчэнне</string>
+    <string name="hide_icon_but_keep_notification_summary">Схаваць абразок пакінуўшы апавяшчэнне ў панэлі апавяшчэнняў</string>
+    <string name="notify_waiting_for_calls">Чаканне званкоў</string>
+    <string name="toast_recording_is_off">Запіс адключана</string>
+    <string name="toast_recording_is_on">Запіс уключана</string>
+    <string name="toast_file_deleted">Файл быў паспяхова выдалены</string>
+
+
+    <string name="about_ion_license">Ion</string>
+    <string name="about_ion_license_summary">Выкарыстоўвае Ion у рамках Apache License Version 2.0, націсніце сюды, каб наведаць github.com/koush/ion</string>
+    <string name="armenian_translation">Пераклад на армянскі</string>
+    <string name="armenian_translation_summary">ад Hakob Sununu і Konstantin Gevorgyan</string>
+    <string name="gujarati_translation">Пераклад на гуджараці</string>
+    <string name="gujarati_translation_summary">ад Abhishek Sharma</string>
+    <string name="tamil_translation">Пераклад на тамільскі</string>
+    <string name="tamil_translation_summary">ад Ashish Sharma</string>
+</resources>
