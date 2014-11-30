@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">Call Recorder</string>
     <string name="terms_of_use">Podmienky používania</string>
@@ -465,4 +465,20 @@
     <string name="belarusian_translation_summary">Alexander Kuvshinov</string>
     <string name="vietnamese_translation">Vietnamský preklad</string>
     <string name="vietnamese_translation_summary">Truong Hoang Trung</string>
-</resources>
+<string name="hide_icon_but_keep_notification">Skryť ikonu, ale ponechať oznámenia</string>
+    <string name="hide_icon_but_keep_notification_summary">Skryť ikonu, ale ponechať oznámenia v Panely oznámení</string>
+    <string name="notify_waiting_for_calls">Čakajúci hovor</string>
+    <string name="toast_recording_is_off">Nahrávanie je VYP</string>
+    <string name="toast_recording_is_on">Nahrávanie je ZAP</string>
+    <string name="toast_file_deleted">Súbor bol úspešne vymazaný</string>
+
+
+    <string name="about_ion_license">ION</string>
+    <string name="about_ion_license_summary">Používa ION pod licenciou Apache v2.0. Kliknite tu pre zobrazenie stránky github.com/koush/ion</string>
+    <string name="armenian_translation">Arménsky preklad</string>
+    <string name="armenian_translation_summary">Hakob Sununu a Konstantin Gevorgyan</string>
+    <string name="tamil_translation_summary">Ashish Sharma</string>
+<string name="gujarati_translation_summary">Abhishek Sharma</string>
+    <string name="tamil_translation">Tamilský preklad</string>
+    <string name="gujarati_translation">Gudžarátsky preklad</string>
+    </resources>
