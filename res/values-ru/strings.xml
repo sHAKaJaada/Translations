@@ -469,7 +469,7 @@
     <string name="hide_icon_but_keep_notification_summary">Скрыть иконку оставив уведомление в панели уведомлений</string>
     <string name="notify_waiting_for_calls">Ожидание звонков</string>
     <string name="about_ion_license">Ion</string>
-    <string name="about_ion_license_summary">Использует Ion в рамках Apache License Version 2.0, нажмите сюда,чтобы посетить github.com/koush/ion</string>
+    <string name="about_ion_license_summary">Использует Ion в рамках Apache License Version 2.0, нажмите сюда, чтобы посетить github.com/koush/ion</string>
     <string name="armenian_translation">Перевод на армянский</string>
     <string name="armenian_translation_summary">от Hakob Sununu и Konstantin Gevorgyan</string>
     <string name="gujarati_translation">Перевод на гуджарати</string>
