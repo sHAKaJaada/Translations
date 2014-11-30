@@ -374,6 +374,7 @@
     <string name="toast_wait_for_operation_to_complete">Wait for an operation to complete</string>
     <string name="toast_recording_is_off">Recording is OFF</string>
     <string name="toast_recording_is_on">Recording is ON</string>
+    <string name="toast_file_deleted">File has been successfully deleted</string>
 
 
     <!-- Call confirm dialog -->
