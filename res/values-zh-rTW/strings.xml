@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">通話錄音</string>
     <string name="terms_of_use">使用條款</string>
@@ -396,7 +396,7 @@
     <string name="about_alsa">ALSA</string>
     <string name="about_alsa_summary">在LGPL下使用ALSA，點選此處訪問 alsa-project.org</string>
     <string name="about_lame">LAME</string>
-    <string name="about_lame_summary">點選這裡來訪問 mp3dev.org</string>
+    <string name="about_lame_summary">在LGPL下使用LAME，點選此處訪問mp3dev.org</string>
 
     <!--Credits-->
     <string name="german_translation">德語</string>
@@ -465,4 +465,20 @@
     <string name="belarusian_translation_summary">由 Alexander Kuvshinov 翻譯</string>
     <string name="vietnamese_translation">越南語</string>
     <string name="vietnamese_translation_summary">由 Truong Hoang Trung 翻譯</string>
+<string name="hide_icon_but_keep_notification">隱藏圖示，但保持通知</string>
+    <string name="hide_icon_but_keep_notification_summary">隱藏圖示，但在狀態欄中保持通知</string>
+    <string name="notify_waiting_for_calls">等待通話</string>
+    <string name="toast_recording_is_off">已關閉錄音</string>
+    <string name="toast_recording_is_on">已開啟錄音</string>
+    <string name="toast_file_deleted">檔案已成功刪除</string>
+
+
+    <string name="about_ion_license">Ion</string>
+    <string name="about_ion_license_summary">在Apache許可證版本2.0下使用Ion，點選此處訪問 github.com/koush/ion</string>
+    <string name="armenian_translation">亞美尼亞語</string>
+    <string name="armenian_translation_summary">由 Hakob Sununu 與 Konstantin Gevorgyan 翻譯</string>
+    <string name="gujarati_translation">古吉拉特語</string>
+    <string name="gujarati_translation_summary">由 Abhishek Sharma 翻譯</string>
+    <string name="tamil_translation">坦米爾語</string>
+    <string name="tamil_translation_summary">由 Ashish Sharma 翻譯</string>
 </resources>
