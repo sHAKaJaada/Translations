@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">CallRecorder</string>
     
@@ -51,7 +51,7 @@
     
     <string name="menu_get_info">Obtenir info</string>
     
-    <string name="menu_encrypt">Encriptar</string>
+    <string name="menu_encrypt">Xifrar</string>
     <string name="menu_decrypt">Desencriptar</string>
 
     <!-- List -> Get info dialog -->
@@ -110,7 +110,7 @@
     
     
 
-    <string name="buy_full_version">Comprar versió completa</string>
+    <string name="buy_full_version">Comprar versió Complerta</string>
     <string name="buy_full_version_summary">La versió actual expirarà el %s</string>
 
     <!-- Settings -> Recording -->
@@ -294,7 +294,7 @@
     
 
     <!-- Settings -> Security -->
-    <string name="category_encryption">Encriptació</string>
+    <string name="category_encryption">Xifrat</string>
     <string name="category_application">Aplicació</string>
     <string name="create_new_key">Crear nova clau</string>
     
@@ -360,7 +360,7 @@
     
     
     
-    <string name="please_wait">Si us plau, espera...</string>
+    <string name="please_wait">Si us plau, espera…</string>
     
     <string name="start_recording">Començar gravació</string>
     <string name="stop_recording">Parar gravació</string>
@@ -392,7 +392,7 @@
     <!--About -> Licenses-->
     <string name="licenses">Llicències</string>
     <string name="about_open_core_amr_license">opencore-amr</string>
-    <string name="about_open_core_amr_license_summary">Usa opencore-amr sota la llicència Apache Version 2.0, fes clic aquí per visitar opencore-amr.sourceforge.net</string>
+    <string name="about_open_core_amr_license_summary">Utilitza opencore-amr sota la llicència Apache Version 2.0, fes clic aquí per visitar opencore-amr.sourceforge.net</string>
     <string name="about_alsa">ALSA</string>
     <string name="about_alsa_summary">Usa ALSA sota LGPL fes clic aquí per visitar alsa-project.org</string>
     <string name="about_lame">LAME</string>
@@ -465,4 +465,205 @@
     
     
     
+<string name="recording_type">Mode de gravació</string>
+    <string name="recording_type_mono">Mono</string>
+    <string name="recording_type_stereo">Estèreo</string>
+    <string name="terms_of_use">Condicions d\'ús</string>
+    <string name="terms_of_use_message">Utilitzant aquesta app, està d'acord amb les &lt;a href=http://rec.sh/terms&gt;Condicions d'ús&lt;/a&gt; de CallRecorder.</string>
+
+    <string name="navigation_drawer_open">Obrir calaix de navegació</string>
+    <string name="navigation_drawer_close">Tancar calaix de navegació</string>
+
+    <string name="section_all_recordings">Totes les gravacions</string>
+    <string name="section_starred">Protagonista</string>
+    <string name="section_by_contact">Per contacte</string>
+    <string name="section_by_format">Per format</string>
+    <string name="section_by_label">Per etiqueta</string>
+    <string name="section_tasks_hint">Les tasques de Consum-de-temps amb gravacions com la conversió, el xifrat o pujar al núvol es mostraran aquí</string>
+    <string name="action_sort">Ordenar</string>
+    <string name="action_refresh">Actualitzar</string>
+    <string name="action_delete">Esborrar</string>
+    <string name="action_add_star">Afegir estrella</string>
+    <string name="action_remove_star">Treure estrella</string>
+    <string name="action_share">Compartir</string>
+    <string name="sort_by_date">Per data</string>
+    <string name="sort_by_contact">Per contacte</string>
+    <string name="sort_by_file_size">Per tamany d\'arxiu</string>
+
+    <string name="list_header_today">Avui</string>
+    <string name="list_header_yesterday">Ahir</string>
+    <string name="queued">A la cua</string>
+    <string name="no_connection">Sense connexió</string>
+
+    <string name="menu_add_note">Afegir nota</string>
+    <string name="menu_edit_note">Modificar nota</string>
+    <string name="menu_share">Compartir</string>
+    <string name="menu_convert_to_mp3">Convertir a MP3</string>
+    <string name="menu_convert_to_amr">Convertir a AMR</string>
+    <string name="menu_cancel_task">Cancel·lar tasca</string>
+    <string name="note">Nota</string>
+
+    <string name="confirm_delete_several_title">Confirmar esborrat</string>
+    <string name="confirm_delete_several_message">Has seleccionat %d gravacions. Estàs segur que les vols esborrar?</string>
+
+    <string name="share_via">Compartir a través de</string>
+    <string name="settings_cloud">Núvol</string>
+    <string name="license_check_pending">Llicència de pendent de comprovació</string>
+    <string name="license_check_failed">No s\'ha pogut verificar la llicència</string>
+    <string name="license_check_failed_summary">Prem aquí per a més detalls</string>
+    <string name="license_verified">Llicència verificada</string>
+    <string name="license_verified_summary">Prem per ocultar</string>
+    <string name="license_help">Ajuda</string>
+    <string name="license_signature_verification_failed">La verificació de signatures ha fallat</string>
+    <string name="license_error_message">Error #%1$s: %2$s</string>
+    <string name="license_unknown_error">Error desconegut</string>
+    <string name="license_not_market_managed">Aquesta versió encara no s\'ha publicat al Play Store</string>
+    <string name="license_incorrect_response">Resposta de llicència incorrecta des del Play Store</string>
+    <string name="license_error_contacting_server">Error contactant amb el servidor</string>
+    <string name="license_server_error">Error del servidor</string>
+    <string name="license_over_quota">Masses peticions des d\'aquest dispositiu</string>
+
+    <string name="device_change_settings_empty">La configuració per aquest dispositiu ja s\'ha realitzat</string>
+    <string name="device_root_is_required">Es necessita Root</string>
+    <string name="device_root_is_required_summary">Per una millor qualitat es necessita Root en aquest dispositiu</string>
+    <string name="recording_method_msm">MSM</string>
+    <string name="recording_method_msm_settings">Configuració per al mètode de gravació MSM</string>
+    <string name="exceptions_summary">Ajustament d\'accions específiques per als contactes, grups o números de telèfon</string>
+    <string name="start_recording_on_answer">Començar a gravar al contestar</string>
+    <string name="start_recording_on_answer_summary">Iniciar la gravació una vegada que es respon una trucada sortint. S\'utilitza una solució indocumentada per detectar el moment en què l\'interlocutor respòn. Aquesta funció pot fallar en alguns dispositius. Es requereix Root i Android 4.1 Jelly Bean i logger al Kernel habilitat.</string>
+    <string name="delay_before_start_recording_summary">Per sortints: %1$s, per entrants: %2$s</string>
+    <string name="delay_format_sec">%s seg</string>
+    <string name="delay_for_outgoing">Per sortints</string>
+    <string name="delay_for_incoming">Per entrants</string>
+    <string name="settings_for_device">Configuració per %s</string>
+    <string name="recording_format">Format de gravació</string>
+    <string name="volume_control_summary">Tx: %1$s, Rx: %2$s</string>
+    <string name="volume_control_overall">Volum global</string>
+    <string name="volume_control_tx">Tx</string>
+    <string name="volume_control_rx">Rx</string>
+    <string name="sample_rate_48000">48000 Hz</string>
+
+    <string name="category_wav_and_mp3_settings">Configuració WAV i MP3</string>
+
+    <string name="recording_mode">Mode de gravació</string>
+
+    <string name="alsa_is_not_installed">ALSA ha d\'estar instal·lat</string>
+    <string name="alsa_is_not_installed_summary">Prem aquí per a instal·lar ALSA</string>
+
+    <string name="add_exception">Afegir excepció</string>
+    <string name="exception_contact">Contacte</string>
+    <string name="exception_select_contact">Seleccionar contacte</string>
+    <string name="exception_phone_number">Número de telèfon</string>
+    <string name="exception_action">Acció</string>
+    <string name="exception_groups_not_found">Grups no trobats</string>
+    <string name="exception_contacts_not_found">Contactes no trobats</string>
+    <string name="exceptions_not_added">Excepcions no afegides</string>
+    <string name="exception_by_contact">Per contacte</string>
+    <string name="exception_by_group">Per grup</string>
+    <string name="exception_by_phone_number">Per número de telèfon</string>
+    <string name="exception_delete_message">Segur que vols eliminar aquesta excepció?</string>
+
+    <string name="folder_chooser_up_to">↑ Amunt a %s</string>
+    <string name="settings_filename">Nom d\'arxiu</string>
+    <string name="pattern_call_timestamp">Marca de temps de trucada (format unix)</string>
+    <string name="default_language">Idioma per defecte</string>
+    <string name="show_notification_summary">Notificacions permanents a la barra d\'estat</string>
+    <string name="hide_icon_but_keep_notification">Amagar icona, però mantindre notificació</string>
+    <string name="hide_icon_but_keep_notification_summary">Amagar icona, però mantindre notificació a la barra d\'estat</string>
+    <string name="category_incall_control_button">Botó de control en trucada</string>
+    <string name="incall_control_for_outgoing_summary">Mostrar botó de control en trucada per trucades sortints</string>
+    <string name="incall_control_for_incoming_summary">Mostrar botó de control en trucades per trucades entrants</string>
+    <string name="hide_button_while_recording">Amagar botó mentres grava</string>
+    <string name="hide_button_while_recording_summary">Amagar botó en trucada si una trucada s\'està gravant</string>
+    <string name="vertical_position_summary">%s dp, desplaçament des de el centre de la pantalla</string>
+    <string name="horizontal_position_summary">%s dp, desplaçament des de el centre de la pantalla</string>
+    <string name="hide_button_before_answer">Amagar botó abans de contestar</string>
+    <string name="long_press_action">Acció pulsació llarga</string>
+    <string name="long_press_action_dragging_the_button">Arrossegant el botó</string>
+    <string name="long_press_action_hang_up">Penja la trucada i torna a trucar automàticament</string>
+
+    <string name="cloud_provider">Proveïdor del núvol</string>
+    <string name="sign_in_dropbox">Inicia sessió al Dropbox</string>
+    <string name="sign_out_dropbox">Tanca sessió al Dropbox</string>
+    <string name="cloud_provider_google_drive">Google Drive</string>
+    <string name="cloud_common_settings">Comú</string>
+    <string name="cloud_upload_starred">Pujar protagonista</string>
+    <string name="cloud_upload_starred_summary">Pujar gravació al núvol quan li afegeixes una estrella</string>
+
+    <string name="notify_uploading_dropbox">Pujant al Dropbox</string>
+    <string name="notify_waiting_for_calls">Esperant trucades</string>
+    <string name="notify_tasks_remaining">%d gravacions restants</string>
+
+    <string name="wrong_password">Contrassenya incorrecte</string>
+    <string name="password_has_been_changed">S\'ha canviat la contrassenya</string>
+
+    <string name="create_new_key_summary">Aquesta clau s\'utilitzarà posteriorment per xifrar gravacions o per entrar a l\'aplicació</string>
+    <string name="delete_key">Esborrar clau</string>
+    <string name="change_password">Canviar contrassenya</string>
+    <string name="delete_key_summary">Advertència! No podràs recuperar les gravacions xifrades amb aquesta clau, encara que creis una nova clau amb la mateixa contrasenya</string>
+    <string name="delete_key_message">Després de l\'eliminació no podràs recuperar les gravacions xifrades amb aquesta clau. Estàs segur que vols continuar?</string>
+    <string name="enter_old_password">Introdueix la contrassenya antiga</string>
+    <string name="enter_new_password">Introdueix la nova contrassenya</string>
+    <string name="re_enter_new_password">Torna a introduir la nova contrassenya</string>
+    <string name="require_password">Sol·licitar contrasenya</string>
+    <string name="require_password_summary">Sol·licitar contrasenya per a obrir la app</string>
+    <string name="require_password_summary_no_key">Sol·licitar contrasenya per a obrir la app. Per activar-ho, has de crear la clau abans</string>
+    <string name="lock_after">Bloquejar després</string>
+    <string name="lock_after_exit">Sortir</string>
+    <string name="lock_after_1_minute">1 min</string>
+    <string name="lock_after_3_minutes">3 min</string>
+    <string name="lock_after_5_minutes">5 min</string>
+    <string name="lock_after_10_minutes">10 min</string>
+    <string name="app_admin_summary">Necessària per prevenir la desinstal·lació de Call Recorder</string>
+    <string name="app_admin_explanation">Call Recorder no utilitza cap funció d\'administrador del dispositiu, excepte la protecció de desinstal·lació</string>
+    <string name="use_built_in_player">Utilitzar el reproductor integrat</string>
+    <string name="audio_output_summary">%s (Toc llarg en el botó de reproducció / pausa canviarà)</string>
+    <string name="use_proximity_sensor_summary">Desactivar pantalla mitjançant el sensor de proximitat durant la reproducció</string>
+    <string name="switch_audio_output_summary">Canviar automàticament la sortida d\'àudio quan la pantalla està desactivada / activada per el sensor de proximitat</string>
+    <string name="button_choose">Escollir</string>
+    <string name="button_call">Trucada</string>
+    <string name="button_create">Crear</string>
+    <string name="button_delete">Esborrar</string>
+    <string name="button_keep">Conservar</string>
+    <string name="button_play">Reproduir</string>
+    <string name="button_pause">Pausar</string>
+    <string name="button_delete_wait">Esborrar (%d)</string>
+    <string name="decline">Declinar</string>
+    <string name="accept">Acceptar</string>
+    <string name="call_incoming">Entrant</string>
+    <string name="call_outgoing">Sortint</string>
+    <string name="action_mode_selected">%d seleccionat</string>
+    <string name="toast_wait_for_operation_to_complete">Espereu que una operació es completi</string>
+    <string name="toast_recording_is_off">Gravació DESACTIVADA</string>
+    <string name="toast_recording_is_on">Gravació ACTIVADA</string>
+    <string name="toast_file_deleted">L\'arxiu s\'ha esborrat correctament</string>
+
+
+    <string name="open_contact">Obrir contacte</string>
+
+    <string name="waiting_for_answer">Esperant una resposta</string>
+    <string name="recording_in_progress">Gravació en progrés</string>
+    <string name="no_recording_in_progress">No hi ha gravacions en progrés</string>
+    <string name="about_call_recorder">Sobre Call Recorder</string>
+    <string name="about_ion_license">Ion</string>
+    <string name="about_ion_license_summary">Utilitza Ion sota Apache License Version 2.0, fes clic aquí per visitar github.com/koush/ion</string>
+    <string name="german_translation_summary">Per Marc Hillesheim i Thomas Käfer</string>
+    <string name="italian_translation_summary">per Luca Trevisan i Francesco Cafagna</string>
+    <string name="chinese_translation_summary">per qhq i Yu Fei</string>
+    <string name="hindi_translation">Traducció al Hindi</string>
+    <string name="hindi_translation_summary">per TheTAMAS Gautam</string>
+    <string name="punjabi_translation">Traducció Punjabi</string>
+    <string name="punjabi_translation_summary">per Raj Verma</string>
+    <string name="finnish_translation">Traducció al Finlandès</string>
+    <string name="finnish_translation_summary">per Eero Linnainmaa</string>
+    <string name="belarusian_translation">Traducció al Bielorús</string>
+    <string name="belarusian_translation_summary">per Alexander Kuvshinov</string>
+    <string name="vietnamese_translation">Traducció al Vietnamita</string>
+    <string name="vietnamese_translation_summary">per Truong Hoang Trung</string>
+    <string name="armenian_translation">Traducció a l\'Armeni</string>
+    <string name="armenian_translation_summary">per Hakob Sununu i Konstantin Gevorgyan</string>
+    <string name="gujarati_translation">Traducció al Gujarati</string>
+    <string name="gujarati_translation_summary">per Abhishek Sharma</string>
+    <string name="tamil_translation">Traducció al Tàmil</string>
+    <string name="tamil_translation_summary">per Ashish Sharma</string>
 </resources>
