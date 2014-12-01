@@ -360,7 +360,7 @@
     
     
     
-    <string name="please_wait">Kérem, várjon...</string>
+    <string name="please_wait">Kérem várjon…</string>
     
     <string name="start_recording">Felvétel indítása</string>
     <string name="stop_recording">Felvétel leállítása</string>
@@ -390,13 +390,13 @@
     <string name="about_many_thanks_summary">Alexey Subbotin (avs234)</string>
 
     <!--About -> Licenses-->
-    <string name="licenses">Licenszek</string>
+    <string name="licenses">Licencek</string>
     <string name="about_open_core_amr_license">opencore-amr</string>
-    <string name="about_open_core_amr_license_summary">Az opencore-amr alatt Apache License Version 2.0 használ. Kattints ide az opencore-amr.sourceforge.net megtekintéshez</string>
+    <string name="about_open_core_amr_license_summary">Uses opencore-amr under Apache License Version 2.0, click here to visit opencore-amr.sourceforge.net</string>
     <string name="about_alsa">ALSA</string>
-    <string name="about_alsa_summary">Az ALSA LGPL-t használ. Kattints ide az alsa-project.org megtekintéshez</string>
+    <string name="about_alsa_summary">Uses ALSA under LGPL, click here to visit alsa-project.org</string>
     <string name="about_lame">LAME</string>
-    <string name="about_lame_summary">LAME-t használ az LGPL-vel.Kattints ide az mp3dev.org-ra a megtekintéshez</string>
+    <string name="about_lame_summary">Uses LAME under LGPL, click here to visit mp3dev.org</string>
 
     <!--Credits-->
     <string name="german_translation">Német fordítás</string>
@@ -467,4 +467,66 @@
     <string name="vietnamese_translation_summary">Truong Hoang Trung</string>
 <string name="terms_of_use">Felhasználási feltételek</string>
     <string name="menu_share">Megosztás</string>
-    </resources>
+    <string name="terms_of_use_message">A CallRecorder alkalmazás használatával elfogadja a &lt;a href=http://rec.sh/terms&gt;Felhasználási feltételek&lt;/a&gt;-et.</string>
+
+    <string name="navigation_drawer_open">Navigációs fiók megnyitása</string>
+    <string name="navigation_drawer_close">Navigációs fiók bezárása</string>
+
+    <string name="section_all_recordings">Összes felvétel</string>
+    <string name="section_starred">Csillagozott</string>
+    <string name="section_by_contact">Névjegy</string>
+    <string name="section_by_format">Formátum</string>
+    <string name="section_by_label">Cimke</string>
+    <string name="section_tasks_hint">Időigényes feladatok megjelenítése a felvételekkel úgymint konvertálás, kódolás vagy feltöltés egy felhőbe</string>
+    <string name="action_sort">Rendezés</string>
+    <string name="action_refresh">Frissítés</string>
+    <string name="action_delete">Törlés</string>
+    <string name="action_add_star">Csillagozotthoz ad</string>
+    <string name="action_remove_star">Csillagozottból eltávolít</string>
+    <string name="action_share">Megosztás</string>
+    <string name="sort_by_date">Dátum szerint</string>
+    <string name="sort_by_contact">Névjegy szerint</string>
+    <string name="sort_by_file_size">Fájlméret szerint</string>
+
+    <string name="list_header_today">Ma</string>
+    <string name="list_header_yesterday">Tegnap</string>
+    <string name="queued">Várakozó</string>
+    <string name="no_connection">Nincs kapcsolat</string>
+
+    <string name="menu_add_note">Megjegyezést hozzáad</string>
+    <string name="menu_edit_note">Megjegyezés szerkesztése</string>
+    <string name="menu_convert_to_mp3">Konvertálás MP3-ba</string>
+    <string name="menu_convert_to_amr">Konvertálás AMR-be</string>
+    <string name="menu_cancel_task">Feladat elvetése</string>
+    <string name="recording_type">Felvétel típusa</string>
+    <string name="note">Megjegyzés</string>
+
+    <string name="confirm_delete_several_title">Törlés megerősítése</string>
+    <string name="confirm_delete_several_message">Ön kiválasztott %d felvételt. Valóban törli őket?</string>
+
+    <string name="share_via">Megosztás ezzel</string>
+    <string name="settings_cloud">Felhő</string>
+    <string name="license_check_pending">Licenc ellenőrzés függőben</string>
+    <string name="license_check_failed">Licenc ellenőrzés sikertelen</string>
+    <string name="license_check_failed_summary">Részletekért érintse meg itt</string>
+    <string name="license_verified">Licenc ellenőrzött</string>
+    <string name="license_verified_summary">Elrejtéshez érintse meg</string>
+    <string name="license_help">Súgó</string>
+    <string name="license_signature_verification_failed">Aláírás hitelesítés sikertelen</string>
+    <string name="license_error_message">Hiba #%1$s: %2$s</string>
+    <string name="license_unknown_error">Ismeretlen hiba</string>
+    <string name="license_not_market_managed">Ez verzió még nincs közzétéve a Play Store-n</string>
+    <string name="license_incorrect_response">Helytelen licenc válasz a Play Store-ból</string>
+    <string name="license_error_contacting_server">Szerver kapcsolat hiba</string>
+    <string name="license_server_error">Szerver hiba</string>
+    <string name="license_over_quota">A készüléktől túl sok a kérés</string>
+
+    <string name="about_ion_license">Ion</string>
+    <string name="about_ion_license_summary">Uses Ion under Apache License Version 2.0, click here to visit github.com/koush/ion</string>
+    <string name="armenian_translation">Örmény fordítás</string>
+    <string name="armenian_translation_summary">Hakob Sununu és Konstantin Gevorgyan</string>
+    <string name="gujarati_translation">Gujarati fordítás</string>
+    <string name="gujarati_translation_summary">Abhishek Sharma</string>
+    <string name="tamil_translation">Tamil fordítás</string>
+    <string name="tamil_translation_summary">Ashish Sharma</string>
+</resources>
