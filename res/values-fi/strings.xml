@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">CallRecorder</string>
     
@@ -465,4 +465,11 @@
     
     
     
-</resources>
+<string name="terms_of_use">Käyttöehdot</string>
+    <string name="terms_of_use_message">Käyttämällä tätä ohjelmaa, hyväksyt CallRecorderin &lt;a href=http://rec.sh/terms&gt;käyttöehdot&lt;/a&gt;.</string>
+
+    <string name="section_all_recordings">Kaikki nauhoitukset</string>
+    <string name="section_starred">Suosikit</string>
+    <string name="action_refresh">Päivitä</string>
+    <string name="action_delete">Poista</string>
+    </resources>
