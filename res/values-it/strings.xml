@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">Condizioni d\'uso</string>
@@ -465,4 +465,77 @@
     <string name="belarusian_translation_summary">di Alexander Kuvshinov</string>
     <string name="vietnamese_translation">Traduzione vietnamita</string>
     <string name="vietnamese_translation_summary">di Truong Hoang Trung</string>
+<string name="license_trial">Versione di prova, data di scadenza %s</string>
+    <string name="start_recording_on_answer_summary">Avvia la registrazione quando la chiamata in uscita è risposta. L\'app usa un metodo non documentato per rilevare il momento in cui l\'interlocutore risponde, perciò questa funzionalità potrebbe non funzionare su alcuni dispositivi. Root richiesto a partire da Android 4.1 Jelly Bean. Il logger nel kernel dev\'essere abilitato.</string>
+    <string name="pattern_call_timestamp">tempo di chiamata (formato unix)</string>
+    <string name="default_language">Lingua predefinita</string>
+    <string name="hide_icon_but_keep_notification">Nascondi icona, mantieni notifica</string>
+    <string name="hide_icon_but_keep_notification_summary">Nasconde l\'icona, ma mantiene la notifica nella barra di stato</string>
+    <string name="incall_control_for_outgoing_summary">Mostra pulsante di controllo in chiamata durante chiamata in uscita</string>
+    <string name="incall_control_for_incoming_summary">Mostra pulsante di controllo in chiamata durante chiamata in entrata</string>
+    <string name="hide_button_while_recording">Nascondi pulsante durante la registrazione</string>
+    <string name="hide_button_while_recording_summary">Nasconde il pulsante di controllo in chiamata se la chiamata è in fase di registrazione</string>
+    <string name="vertical_position_summary">%s pixel, distanza dal centro dello schermo</string>
+    <string name="horizontal_position_summary">%s pixel, distanza dal centro dello schermo</string>
+    <string name="hide_button_before_answer">Nascondi pulsante prima della risposta</string>
+    <string name="long_press_action">Azione su pressione prolungata</string>
+    <string name="long_press_action_dragging_the_button">Spostamento pulsante</string>
+    <string name="long_press_action_hang_up">Termina e riavvia la chiamata automaticamente</string>
+
+    <string name="cloud_provider">Provider Cloud</string>
+    <string name="sign_in_dropbox">Accedi a DropBox</string>
+    <string name="sign_out_dropbox">Esci da DropBox</string>
+    <string name="cloud_provider_google_drive">Google Drive</string>
+    <string name="cloud_common_settings">Comuni</string>
+    <string name="cloud_upload_starred">Carica preferiti</string>
+    <string name="cloud_upload_starred_summary">Carica la registrazione su cloud quando si aggiunge ai preferiti</string>
+
+    <string name="notify_uploading_dropbox">Caricamento su DropBox</string>
+    <string name="notify_waiting_for_calls">Attesa chiamate</string>
+    <string name="notify_tasks_remaining">%d registrazioni rimanenti</string>
+
+    <string name="create_new_key_summary">Questa chiave sarà utilizzata in seguito per cifrare le registrazioni o per avviare l\'app</string>
+    <string name="delete_key">Cancella chiave</string>
+    <string name="delete_key_summary">Attenzione! Non sarà possibile recuperare registrazioni cifrate con questa chiave, nemmeno creando una nuova chiave con la stessa password</string>
+    <string name="delete_key_message">Dopo la cancellazione non sarà possibile recuperare le registrazioni cifrate con questa chiave. Procedere?</string>
+    <string name="require_password_summary_no_key">Richiedi password per aprire l\'app. Per abilitare questa funzione occorre prima creare una chiave</string>
+    <string name="app_admin_summary">Necessario per impedire la disinstallazione di Call Recorder</string>
+    <string name="app_admin_explanation">Call Recorder non usa alcuna funzione di amministratore dispositivo, salvo che per proteggersi dalla disinstallazione</string>
+    <string name="use_built_in_player">Usa player incorporato</string>
+    <string name="audio_output_summary">%s (la pressione prolungata sul pulsante play/pausa attiverà anche il pulsante stesso)</string>
+    <string name="use_proximity_sensor_summary">Disattiva schermo da sensore di prossimità durante la riproduzione</string>
+    <string name="switch_audio_output_summary">Commuta automaticamente uscita audio quando lo schermo è disattivato/attivato da sensore di prossimità</string>
+    <string name="button_choose">Scegli</string>
+    <string name="button_call">Chiama</string>
+    <string name="button_create">Crea</string>
+    <string name="button_delete">Elimina</string>
+    <string name="button_keep">Conserva</string>
+    <string name="button_play">Play</string>
+    <string name="button_pause">Pausa</string>
+    <string name="button_delete_wait">Elimina (%d)</string>
+    <string name="decline">Rifiuta</string>
+    <string name="accept">Accetta</string>
+    <string name="call_incoming">In entrata</string>
+    <string name="call_outgoing">In uscita</string>
+    <string name="action_mode_selected">%d selezionati</string>
+    <string name="toast_wait_for_operation_to_complete">Attendere il completamento dell\'operazione</string>
+    <string name="toast_recording_is_off">Registrazione disattivata</string>
+    <string name="toast_recording_is_on">Registrazione attivata</string>
+    <string name="toast_file_deleted">File cancellato</string>
+
+
+    <string name="open_contact">Apri contatto</string>
+
+    <string name="waiting_for_answer">In attesa di risposta</string>
+    <string name="recording_in_progress">Registrazione in corso</string>
+    <string name="no_recording_in_progress">Nessuna registrazione in corso</string>
+    <string name="about_call_recorder">Informazioni su Call Recorder</string>
+    <string name="about_ion_license">Ion</string>
+    <string name="about_ion_license_summary">Utilizza Ion sotto Apache License Version 2.0, tocca qui per visitare github.com/koush/ion</string>
+    <string name="armenian_translation">Traduzione armena</string>
+    <string name="armenian_translation_summary">di Hakob Sununu e Konstantin Gevorgyan</string>
+    <string name="gujarati_translation">Traduzione gujarati</string>
+    <string name="gujarati_translation_summary">di Abhishek Sharma</string>
+    <string name="tamil_translation">Traduzione tamil</string>
+    <string name="tamil_translation_summary">di Ashish Sharma</string>
 </resources>
