@@ -150,8 +150,8 @@
     <string name="delay_before_start_recording">Ritardo prima della registrazione</string>
     <string name="delay_before_start_recording_summary">In uscita: %1$s, in entrata: %2$s</string>
     <string name="delay_format_sec">%s sec</string>
-    <string name="delay_for_outgoing">Per uscenti</string>
-    <string name="delay_for_incoming">Per entranti</string>
+    <string name="delay_for_outgoing">Per chiamate in uscita</string>
+    <string name="delay_for_incoming">Per chiamate in entrata</string>
     <string name="settings_for_device">Impostazioni per %s</string>
     <string name="recording_format">Formato di registrazione</string>
     <string name="recording_format_wav">WAV</string>
@@ -273,7 +273,7 @@
 
     <!-- Settings -> Cloud -->
     
-    <string name="cloud_provider_dropbox">Dropbox</string>
+    <string name="cloud_provider_dropbox">DropBox</string>
     
     
     
@@ -471,10 +471,10 @@
     <string name="default_language">Lingua predefinita</string>
     <string name="hide_icon_but_keep_notification">Nascondi icona, mantieni notifica</string>
     <string name="hide_icon_but_keep_notification_summary">Nasconde l\'icona, ma mantiene la notifica nella barra di stato</string>
-    <string name="incall_control_for_outgoing_summary">Mostra pulsante di controllo in chiamata durante chiamata in uscita</string>
-    <string name="incall_control_for_incoming_summary">Mostra pulsante di controllo in chiamata durante chiamata in entrata</string>
+    <string name="incall_control_for_outgoing_summary">Mostra pulsante di controllo durante chiamata in uscita</string>
+    <string name="incall_control_for_incoming_summary">Mostra pulsante di controllodurante chiamata in entrata</string>
     <string name="hide_button_while_recording">Nascondi pulsante durante la registrazione</string>
-    <string name="hide_button_while_recording_summary">Nasconde il pulsante di controllo in chiamata se la chiamata è in fase di registrazione</string>
+    <string name="hide_button_while_recording_summary">Nasconde il pulsante di controllo se la chiamata è in fase di registrazione</string>
     <string name="vertical_position_summary">%s pixel, distanza dal centro dello schermo</string>
     <string name="horizontal_position_summary">%s pixel, distanza dal centro dello schermo</string>
     <string name="hide_button_before_answer">Nascondi pulsante prima della risposta</string>
@@ -491,7 +491,7 @@
     <string name="cloud_upload_starred_summary">Carica la registrazione su cloud quando si aggiunge ai preferiti</string>
 
     <string name="notify_uploading_dropbox">Caricamento su DropBox</string>
-    <string name="notify_waiting_for_calls">Attesa chiamate</string>
+    <string name="notify_waiting_for_calls">In attesa di chiamate</string>
     <string name="notify_tasks_remaining">%d registrazioni rimanenti</string>
 
     <string name="create_new_key_summary">Questa chiave sarà utilizzata in seguito per cifrare le registrazioni o per avviare l\'app</string>
