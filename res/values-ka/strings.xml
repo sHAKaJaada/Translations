@@ -164,10 +164,10 @@
     
     
     <string name="sample_rate_8000">8000 H</string>
-    <string name="sample_rate_11025">11025 Hz</string>
-    <string name="sample_rate_16000">16000 Hz</string>
-    <string name="sample_rate_22050">22050 Hz</string>
-    <string name="sample_rate_44100">44100 Hz</string>
+    <string name="sample_rate_11025">11025 გჰ</string>
+    <string name="sample_rate_16000">16000 ჰერცი</string>
+    <string name="sample_rate_22050">22050 ჰერცი</string>
+    <string name="sample_rate_44100">44100 ჰერცი</string>
     
 
     <!-- Settings -> Recording -> Standard API -->
@@ -243,7 +243,7 @@
     <string name="time_pattern_days">დღე</string>
     <string name="time_pattern_months">თვე</string>
     <string name="time_pattern_years">წელი</string>
-    <string name="pattern_example">მაგალითად</string>
+    <string name="pattern_example">მაგალითად:</string>
 
     <!--Settings -> Interface and Appearance-->
     <string name="language">ენა</string>
@@ -273,7 +273,7 @@
 
     <!-- Settings -> Cloud -->
     
-    <string name="cloud_provider_dropbox">Dropbox</string>
+    <string name="cloud_provider_dropbox">Dropbox(ღრუბელი)</string>
     
     
     
@@ -360,7 +360,7 @@
     
     
     
-    <string name="please_wait">გთხოვთ დაიცადოთ</string>
+    <string name="please_wait">გთხოვთ დაიცადოთ…</string>
     
     <string name="start_recording">ჩაწერის დაწყება</string>
     <string name="stop_recording">ჩაწერის დამთავრება</string>
@@ -542,7 +542,7 @@
     <string name="volume_control_overall">ხმის სიძლიერე</string>
     <string name="volume_control_tx">Tx</string>
     <string name="volume_control_rx">Rx</string>
-    <string name="sample_rate_48000">48000 Hz</string>
+    <string name="sample_rate_48000">48000 ჰერცი</string>
 
     <string name="category_wav_and_mp3_settings">WAV &amp; MP3 პარამეტრები</string>
 
