@@ -529,4 +529,7 @@
     <string name="gujarati_translation_summary">Abhishek Sharma</string>
     <string name="tamil_translation">Tamil fordítás</string>
     <string name="tamil_translation_summary">Ashish Sharma</string>
-</resources>
+<string name="device_root_is_required">Root jogosultság szükséges</string>
+    <string name="device_root_is_required_summary">A jobb minőséghez rootolni kell a készüléket</string>
+    <string name="device_change_settings_empty">Ez a beállítás, már alkalmazva lett</string>
+    </resources>
