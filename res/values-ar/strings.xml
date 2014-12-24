@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">مسجل المكالمة</string>
     
@@ -229,7 +229,7 @@
     <string name="current_setting">التفضيلات الحالية %s</string>
     
     <string name="filename_pattern">نمط</string>
-    <string name="time_pattern">نمط الوقت:</string>
+    <string name="time_pattern">نمط الوقت</string>
 
     <!-- Description for filename pattern -->
     <string name="pattern_contact_name">اسم جهة الاتصال</string>
@@ -392,7 +392,7 @@
     <!--About -> Licenses-->
     <string name="licenses">التراخيص</string>
     <string name="about_open_core_amr_license">ترخيص OpenCore لـ AMR</string>
-    <string name="about_open_core_amr_license_summary">يستخدم OpenCore تحت إصدار اباتشي 2.0 ، اضغط هنا لزيارةopencore-amr.sourceforge.net</string>
+    <string name="about_open_core_amr_license_summary">يستخدم OpenCore تحت إصدار اباتشي 2.0 ، اضغط هنا لزيارة opencore-amr.sourceforge.net</string>
     <string name="about_alsa">ALSA</string>
     <string name="about_alsa_summary">استخدام ALSA تحت LGPL, اضغط هنا لزيارة موقع alsa-project.org</string>
     <string name="about_lame">LAME خاصية</string>
@@ -465,4 +465,53 @@
     
     
     
-</resources>
+<string name="terms_of_use">شروط الاستخدام</string>
+    <string name="terms_of_use_message">باستخدام التطبيق، فإنك توافق على  &lt;a href=http://rec.sh/terms&gt; شروط الأستخدام &lt;/a&gt;.</string>
+
+    <string name="navigation_drawer_open">فتح درج الملاحة</string>
+    <string name="navigation_drawer_close">غلق درج الملاحة</string>
+
+    <string name="section_all_recordings">جميع التسجيلات</string>
+    <string name="section_starred">المفضلة</string>
+    <string name="section_by_contact">بواسطة جهة الأتصال</string>
+    <string name="section_by_format">بواسطة الشكل</string>
+    <string name="section_by_label">بواسطة الملصق</string>
+    <string name="section_tasks_hint">"المهام مع التسجيلات مثل تحويل صيغة الملف التي  تستغرق وقتا طويلا ، أو تحميلها على السحاب سيتم عرضها هنا"</string>
+    <string name="action_sort">ترتيب</string>
+    <string name="action_refresh">تحديث</string>
+    <string name="action_delete">مسح</string>
+    <string name="action_add_star">اضافة الى المفضلة</string>
+    <string name="action_remove_star">الغاء من المفضلة</string>
+    <string name="action_share">مشاركة</string>
+    <string name="sort_by_date">بواسطة التاريخ</string>
+    <string name="sort_by_contact">بواسطة جهة الأتصال</string>
+    <string name="sort_by_file_size">بواسطة حجم الملف</string>
+
+    <string name="list_header_today">اليوم</string>
+    <string name="list_header_yesterday">امس</string>
+    <string name="queued">في الأنتظار</string>
+    <string name="no_connection">لا يوجد اتصال</string>
+
+    <string name="menu_add_note">إضافة ملاحظة</string>
+    <string name="menu_edit_note">تحرير ملاحظة</string>
+    <string name="menu_share">مشاركة</string>
+    <string name="menu_convert_to_mp3">حول صيغة الملف الى MP3</string>
+    <string name="menu_convert_to_amr">حول صيغة الملف الى AMR</string>
+    <string name="menu_cancel_task">الغاء المهمة</string>
+    <string name="recording_type">نوع التسجيل</string>
+    <string name="recording_type_mono">احادي الصوت</string>
+    <string name="recording_type_stereo">ثنائي الصوت (ستيريو)</string>
+    <string name="note">ملاحظة</string>
+
+    <string name="confirm_delete_several_title">تأكيد الحذف</string>
+    <string name="confirm_delete_several_message">لقد حددت %d تسجيل. هل أنت متأكد أنك تريد الحذف؟</string>
+
+    <string name="share_via">مشاركة بواسطة</string>
+    <string name="settings_cloud">السحاب</string>
+    <string name="license_check_pending">رخصة التحقق قيد الانتظار</string>
+    <string name="license_check_failed">فشل تحقيق الترخيص</string>
+    <string name="license_check_failed_summary">اضغط هنا لمزيد من التفاصيل</string>
+    <string name="license_verified">تم تحقيق الترخيص</string>
+    <string name="license_verified_summary">اضغط للأخفاء</string>
+    <string name="license_help">مساعدة</string>
+    </resources>
