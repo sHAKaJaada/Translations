@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">Kullanım Şartları</string>
@@ -89,7 +89,7 @@
     <string name="settings_security">Güvenlik</string>
     
     <string name="settings_audio_player">Ses oynatıcısı</string>
-    <string name="settings_debug">Debug</string>
+    <string name="settings_debug">Hata ayıklama</string>
     <string name="settings_about">Hakkında</string>
 
     <!-- Settings -> License -->
@@ -465,4 +465,48 @@
     
     
     
-</resources>
+<string name="section_all_recordings">Tüm kayıtlar</string>
+    <string name="action_add_star">Yıldız ekle</string>
+    <string name="action_remove_star">Yıldız kaldır</string>
+    <string name="sort_by_date">Tarihe göre</string>
+    <string name="sort_by_contact">Kişiye göre</string>
+    <string name="sort_by_file_size">Dosya boyutuna göre</string>
+
+    <string name="list_header_today">Bugün</string>
+    <string name="no_connection">Bağlantı yok</string>
+
+    <string name="menu_add_note">Not ekle</string>
+    <string name="menu_edit_note">Notu düzenle</string>
+    <string name="menu_share">Paylaş</string>
+    <string name="menu_convert_to_mp3">MP3\'e dönüştür</string>
+    <string name="menu_cancel_task">Görevi iptal et</string>
+    <string name="recording_type">Kayıt tipi</string>
+    <string name="note">Not</string>
+
+    <string name="confirm_delete_several_title">Silme işlemini onayla</string>
+    <string name="confirm_delete_several_message">%d kayıt seçitğiniz. Silmek istediğinizden eminmisiniz?</string>
+
+    <string name="share_via">Paylaş</string>
+    <string name="settings_cloud">Bulut</string>
+    <string name="license_check_pending">Lisans kontrolü askıda</string>
+    <string name="license_check_failed">Lisans kontrolü başarısız</string>
+    <string name="license_check_failed_summary">Detay için buraya dokunun</string>
+    <string name="license_verified">Lisans onaylandı</string>
+    <string name="license_help">Yardım</string>
+    <string name="license_signature_verification_failed">İmza onayı başarısız</string>
+    <string name="license_error_message">Hata #%1$s: %2$s</string>
+    <string name="license_unknown_error">Bilinmeyen hata</string>
+    <string name="license_server_error">Server hatası</string>
+    <string name="license_error_contacting_server">Server ile iletişim kurulumadı</string>
+    <string name="license_over_quota">Bu cihaz ile çok fazla istekte bulunundu</string>
+
+    <string name="device_root_is_required">Root gereklidir</string>
+    <string name="device_root_is_required_summary">En iyi kalite için aygıtınız için root gereklidir.</string>
+    <string name="recording_method_msm">MSM</string>
+    <string name="recording_method_msm_settings">MSM kaydı ayarları</string>
+    <string name="delay_format_sec">%s saniye</string>
+    <string name="delay_for_outgoing">Giden için</string>
+    <string name="delay_for_incoming">Gelen için</string>
+    <string name="settings_for_device">%s için Ayarlar</string>
+    <string name="recording_format">Kayıt formatıFormatı</string>
+    </resources>
