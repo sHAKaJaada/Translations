@@ -491,7 +491,7 @@
     <string name="start_recording_on_answer">Börja spela in vid svar</string>
     <string name="start_recording_on_answer_summary">Börja spela in då ett utgående samtal besvarats. Appen använder en odokumenterad workaround för att detektera tillfället då den andra sidan svarar, så denna funktion kan misslyckas på vissa enheter. Root-behörighet krävs sedan Android 4.1 Jelly Bean. Logger i kerneln måste vara aktiverad.</string>
     <string name="delay_before_start_recording_summary">För utgående: %1$s, för inkommande: %2$s</string>
-    <string name="delay_format_sec">%s sec</string>
+    <string name="delay_format_sec">%s sek</string>
     <string name="delay_for_outgoing">För utgående</string>
     <string name="delay_for_incoming">För inkommande</string>
     <string name="settings_for_device">Inställningar för %s</string>
