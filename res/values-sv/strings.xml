@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">Användarvillkor</string>
@@ -465,4 +465,130 @@
     <string name="belarusian_translation_summary">av Alexander Kuvshinov</string>
     <string name="vietnamese_translation">Vietnamesisk översättning</string>
     <string name="vietnamese_translation_summary">av Truong Hoang Trung</string>
+<string name="share_via">Dela via</string>
+    <string name="settings_cloud">Moln</string>
+    <string name="license_check_pending">Väntar på licenscheck</string>
+    <string name="license_check_failed">Kunde ej verifiera licens</string>
+    <string name="license_check_failed_summary">Tryck här för detaljer</string>
+    <string name="license_verified">Licens verifierad</string>
+    <string name="license_verified_summary">Tryck för att gömma</string>
+    <string name="license_help">Hjälp</string>
+    <string name="license_signature_verification_failed">Verifiering av signatur misslyckades</string>
+    <string name="license_error_message">Error #%1$s: %2$s</string>
+    <string name="license_unknown_error">Okänt fel</string>
+    <string name="license_not_market_managed">Denna version är ej publicerad på Play Store ännu</string>
+    <string name="license_incorrect_response">Felaktig licens-respons från Play Store</string>
+    <string name="license_error_contacting_server">Fel uppstod vid kontakt med server</string>
+    <string name="license_server_error">Server error</string>
+    <string name="license_over_quota">För många förfrågningar från denna enhet</string>
+
+    <string name="device_change_settings_empty">Inställningarna för denna enhet är redan satta</string>
+    <string name="device_root_is_required">Root-behörighet krävs</string>
+    <string name="device_root_is_required_summary">För bättre kvalitet krävs root på denna enhet</string>
+    <string name="recording_method_msm">MSM</string>
+    <string name="recording_method_msm_settings">Inställningar för inspelning med MSM</string>
+    <string name="exceptions_summary">Ställ in specifika åtgärder för kontakter, grupper eller telefonnummer</string>
+    <string name="start_recording_on_answer">Börja spela in vid svar</string>
+    <string name="start_recording_on_answer_summary">Börja spela in då ett utgående samtal besvarats. Appen använder en odokumenterad workaround för att detektera tillfället då den andra sidan svarar, så denna funktion kan misslyckas på vissa enheter. Root-behörighet krävs sedan Android 4.1 Jelly Bean. Logger i kerneln måste vara aktiverad.</string>
+    <string name="delay_before_start_recording_summary">För utgående: %1$s, för inkommande: %2$s</string>
+    <string name="delay_format_sec">%s sec</string>
+    <string name="delay_for_outgoing">För utgående</string>
+    <string name="delay_for_incoming">För inkommande</string>
+    <string name="settings_for_device">Inställningar för %s</string>
+    <string name="recording_format">Inspelningsformat</string>
+    <string name="volume_control_summary">Tx: %1$s, Rx: %2$s</string>
+    <string name="volume_control_overall">Allmän volym</string>
+    <string name="category_wav_and_mp3_settings">WAV &amp; MP3-inställningar</string>
+
+    <string name="alsa_is_not_installed">ALSA måste vara installerat</string>
+    <string name="alsa_is_not_installed_summary">Tryck här för att installera ALSA</string>
+
+    <string name="add_exception">Lägg till undantag</string>
+    <string name="exception_contact">Kontakt</string>
+    <string name="exception_select_contact">Välj kontakt</string>
+    <string name="exception_phone_number">Telefonnummer</string>
+    <string name="exception_action">Åtgärd</string>
+    <string name="exception_groups_not_found">Grupper hittades ej</string>
+    <string name="exception_contacts_not_found">Kontakter hittades ej</string>
+    <string name="exceptions_not_added">Undantag lades ej till</string>
+    <string name="exception_by_contact">Genom kontakt</string>
+    <string name="exception_by_group">Genom grupp</string>
+    <string name="exception_by_phone_number">Genom telefonnummer</string>
+    <string name="exception_delete_message">Är du säker på att du vill radera detta undantag?</string>
+
+    <string name="folder_chooser_up_to">↑ Upp till %s</string>
+    <string name="settings_filename">Filnamn</string>
+    <string name="pattern_call_timestamp">tidsstämpel för samtal (unix-tid)</string>
+    <string name="default_language">Standardspråk</string>
+    <string name="show_notification_summary">Permanent notifikation i statusraden</string>
+    <string name="hide_icon_but_keep_notification">Dölj ikon, men behåll notifikation</string>
+    <string name="hide_icon_but_keep_notification_summary">Göm ikon, men behåll notifikation i statusraden</string>
+    <string name="category_incall_control_button">Kontrollknapp under samtal</string>
+    <string name="incall_control_for_outgoing_summary">Visa kontrollknapp under utgående samtal</string>
+    <string name="incall_control_for_incoming_summary">Visa kontrollknapp under inkommande samtal</string>
+    <string name="hide_button_while_recording">Göm knapp vid inspelning</string>
+    <string name="hide_button_while_recording_summary">Dölj kontrollknapp då samtalet spelas in</string>
+    <string name="vertical_position_summary">%s dp, avstånd från skärmens center</string>
+    <string name="horizontal_position_summary">%s dp, offset från skärmens center</string>
+    <string name="hide_button_before_answer">Dölj knapp innan svar</string>
+    <string name="long_press_action">Åtgärd för långtryck</string>
+    <string name="long_press_action_dragging_the_button">Dragning av knappen</string>
+    <string name="long_press_action_hang_up">Lägg på samtal och ring tillbaka automatiskt</string>
+
+    <string name="cloud_provider">Moln-leverantör</string>
+    <string name="sign_in_dropbox">Logga in till Dropbox</string>
+    <string name="sign_out_dropbox">Logga ut från Dropbox</string>
+    <string name="cloud_provider_google_drive">Google Drive</string>
+    <string name="cloud_common_settings">Allmänt</string>
+    <string name="cloud_upload_starred">Ladda upp stjärnmärkta</string>
+    <string name="cloud_upload_starred_summary">Ladda upp inspelning till moln då det stjärnmärkts</string>
+
+    <string name="notify_uploading_dropbox">Laddar upp till Dropbox</string>
+    <string name="notify_waiting_for_calls">Inväntar samtal</string>
+    <string name="notify_tasks_remaining">%d inspelningar kvarstår</string>
+
+    <string name="create_new_key_summary">Denna nyckel används senare för att kryptera inspelningar och/eller öppna appen</string>
+    <string name="delete_key">Ta bort nyckel</string>
+    <string name="delete_key_summary">Varning! Du förlorar åtkomsten till inspelningar krypterade med denna nyckel, även om du skapar en ny nyckel med samma lösenord</string>
+    <string name="delete_key_message">Efter borttagning förlorar du åtkomsten till inspelningar krypterade med denna nyckel. Är du säker på att du vill fortsätta?</string>
+    <string name="require_password_summary_no_key">Kräv lösenord för att öppna appen. För att aktivera detta bör du skapa en nyckel först</string>
+    <string name="app_admin_summary">Krävs för att förhindra avinstallation av Call Recorder</string>
+    <string name="app_admin_explanation">Call Recorder använder inte några funktioner av enhets-admin förutom att förhindra avinstallering</string>
+    <string name="use_built_in_player">Använd inbyggd spelare</string>
+    <string name="audio_output_summary">%s (Långtryck på play/pause button kommer också att byta den)</string>
+    <string name="use_proximity_sensor_summary">Stäng av skärmen genom närhetssensor under uppspelning</string>
+    <string name="switch_audio_output_summary">Byt ljudutgång automatiskt när skärmen stängs/startas genom närhetssensor</string>
+    <string name="button_choose">Välj</string>
+    <string name="button_call">Samtal</string>
+    <string name="button_create">Skapa</string>
+    <string name="button_delete">Ta bort</string>
+    <string name="button_keep">Behåll</string>
+    <string name="button_play">Spela</string>
+    <string name="button_pause">Paus</string>
+    <string name="button_delete_wait">Ta bort (%d)</string>
+    <string name="decline">Tacka nej</string>
+    <string name="accept">Acceptera</string>
+    <string name="call_incoming">Inkommande</string>
+    <string name="call_outgoing">Utgående</string>
+    <string name="action_mode_selected">%d valda</string>
+    <string name="toast_wait_for_operation_to_complete">Vänta medan operation utförs</string>
+    <string name="toast_recording_is_off">Inspelning är AV</string>
+    <string name="toast_recording_is_on">Inspelning är PÅ</string>
+    <string name="toast_file_deleted">Borttagning av fil lyckades</string>
+
+
+    <string name="open_contact">Öppna kontakt</string>
+
+    <string name="waiting_for_answer">Väntar på svar</string>
+    <string name="recording_in_progress">Inspelning pågår</string>
+    <string name="no_recording_in_progress">Ingen inspelning pågår</string>
+    <string name="about_call_recorder">Om Call Recorder</string>
+    <string name="about_ion_license">Ion</string>
+    <string name="about_ion_license_summary">Använder Ion under Apache License Version 2.0, klicka här för att besöka github.com/koush/ion</string>
+    <string name="armenian_translation">Armenisk översättning</string>
+    <string name="armenian_translation_summary">av Hakob Sununu och Konstantin Gevorgyan</string>
+    <string name="gujarati_translation">Gujaratisk översättning</string>
+    <string name="gujarati_translation_summary">av Abhishek Sharma</string>
+    <string name="tamil_translation">Tamilsk översättning</string>
+    <string name="tamil_translation_summary">av Ashish Sharma</string>
 </resources>
