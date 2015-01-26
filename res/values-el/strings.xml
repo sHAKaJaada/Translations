@@ -4,8 +4,8 @@
 <string name="terms_of_use">Όροι Χρήσης</string>
     <string name="terms_of_use_message">Χρησιμοποιώντας την εφαρμογή, συμφωνείτε στους &lt;a href=http://rec.sh/terms&gt;Όρους Χρήσης&lt;/a&gt; του CallRecorder.</string>
 
-    <string name="navigation_drawer_open">Άνοιγμα συρτάρι πλοήγησης</string>
-    <string name="navigation_drawer_close">Κλείσιμο συρτάρι πλοήγησης</string>
+    <string name="navigation_drawer_open">Άνοιγμα navigation drawer</string>
+    <string name="navigation_drawer_close">Κλείσιμο navigation drawer</string>
 
     <string name="section_all_recordings">Όλες οι καταγραφές</string>
     <string name="section_starred">Με αστέρι</string>
@@ -94,7 +94,7 @@
     <string name="license_trial">Δοκιμαστική έκδοση, λήγει στις %s</string>
     <string name="license_unknown_error">Άγνωστο σφάλμα</string>
     <string name="license_not_market_managed">Αυτή η έκδοση δεν έχει δηλωθεί ακόμα στο Play Store</string>
-    <string name="license_incorrect_response">Ασφαλμένη απάντηση αδειοδότησης από το Play Store</string>
+    <string name="license_incorrect_response">Εσφαλμένη απάντηση αδειοδότησης από το Play Store</string>
     <string name="license_error_contacting_server">Σφάλμα επικοινωνίας με τον διακομιστή</string>
     <string name="license_server_error">Σφάλμα διακομιστή</string>
     <string name="license_over_quota">Πολλές αιτήσεις από την τρέχουσα συσκευή</string>
@@ -212,7 +212,7 @@
     <string name="pattern_contact_name">όνομα επαφής</string>
     <string name="pattern_phone_number">αριθμός τηλεφώνου</string>
     <string name="pattern_call_time">χρόνος κλήσης</string>
-    <string name="pattern_call_timestamp">timestamp κλήσης (ώρα unix)</string>
+    <string name="pattern_call_timestamp">χρονοσήμανση κλήσης (ώρα unix)</string>
     <string name="pattern_call_type">τύπος κλήσης (εξερχόμενη ή εισερχόμενη)</string>
     <string name="time_pattern_hours">ώρες</string>
     <string name="time_pattern_minutes">λεπτά</string>
