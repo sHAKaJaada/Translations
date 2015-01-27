@@ -481,4 +481,16 @@
 <string name="gujarati_translation_summary">Abhishek Sharma</string>
     <string name="tamil_translation">Tamilský preklad</string>
     <string name="gujarati_translation">Gudžarátsky preklad</string>
+    <string name="action_cancel_tasks">Zrušiť úlohy</string>
+    <string name="records_size">nahrávky: %1$s, veľkosť: %2$s</string>
+    <string name="space_free_of">%1$s voľných z %2$s</string>
+
+    <string name="greek_translation_summary">Lefteris (SomniusX) Eliades</string>
+<string name="greek_translation">Grécky preklad</string>
+    <string name="notify_converting_to_amr">Konvertovanie do AMR</string>
+    <string name="notify_converting_to_mp3">Konvertovanie do MP3</string>
+    <string name="notify_encrypting">Kódovanie</string>
+    <string name="notify_decrypting">Odkódovanie</string>
+    <string name="send_logs_to_the_developer">Poslať záznamy vývojárovi</string>
+
     </resources>
