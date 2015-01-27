@@ -483,4 +483,16 @@
     <string name="toast_file_deleted">Файл был успешно удален</string>
 
 
-    </resources>
+    <string name="action_cancel_tasks">Отменить задачи</string>
+    <string name="records_size">записи: %1$s, размер: %2$s</string>
+    <string name="space_free_of">%1$s из %2$s</string>
+
+    <string name="notify_converting_to_amr">Конвертирование в AMR</string>
+    <string name="notify_converting_to_mp3">Конвертирование в MP3</string>
+    <string name="notify_encrypting">Идет шифрование</string>
+    <string name="notify_decrypting">Идет расшифровка</string>
+    <string name="send_logs_to_the_developer">Отправить логи разработчику</string>
+
+    <string name="greek_translation">Перевод на греческий</string>
+    <string name="greek_translation_summary">от Lefteris (SomniusX) Eliades</string>
+</resources>
