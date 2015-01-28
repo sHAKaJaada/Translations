@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">利用規約</string>
@@ -465,4 +465,60 @@
     <string name="belarusian_translation_summary">Alexander Kuvshinov</string>
     <string name="vietnamese_translation">ベトナム語の翻訳</string>
     <string name="vietnamese_translation_summary">Truong Hoang Trung</string>
-</resources>
+<string name="section_tasks_hint">変換、暗号化あるいはクラウドへのアップロードなど録音に関する時間を消費するタスクはここに表示されます</string>
+    <string name="action_cancel_tasks">タスクをキャンセル</string>
+    <string name="records_size">録音: %1$s, サイズ: %2$s</string>
+    <string name="no_connection">接続なし</string>
+
+    <string name="confirm_delete_several_title">削除の確認</string>
+    <string name="confirm_delete_several_message">%d 個の録音を選択しました。これらを削除してもよろしいですか?</string>
+
+    <string name="settings_cloud">クラウド</string>
+    <string name="license_check_pending">ライセンスチェック待ち</string>
+    <string name="license_check_failed">ライセンスの確認に失敗しました</string>
+    <string name="license_check_failed_summary">詳細はここを押してください</string>
+    <string name="license_verified">ライセンス確認済み</string>
+    <string name="license_help">ヘルプ</string>
+    <string name="license_signature_verification_failed">シグネチャーの確認に失敗しました</string>
+    <string name="license_error_message">Error #%1$s: %2$s</string>
+    <string name="license_unknown_error">未知のエラー</string>
+    <string name="license_not_market_managed">このバージョンはPlay Storeにはまだ公開されていません</string>
+    <string name="license_incorrect_response">Play Storeからのライセンスチェックの返答が不正です</string>
+    <string name="license_error_contacting_server">サーバー接続エラー</string>
+    <string name="license_server_error">サーバーエラー</string>
+    <string name="license_over_quota">このデバイスからの要求が多すぎます</string>
+
+    <string name="device_change_settings_empty">このデバイスはすでに設定済です</string>
+    <string name="device_root_is_required">Rootが必要です</string>
+    <string name="recording_method_msm_settings">MSM録音の設定をします</string>
+    <string name="start_recording_on_answer">応答で録音を開始</string>
+    <string name="start_recording_on_answer_summary">発信時の呼び出しに応じた時に録音を開始します。アプリは応答の検出に非公式の方法を使います。このためいくつかのデバイスでは失敗するかもしれません。Android 4.1 Jelly Bean以降でRootが必要になります。kernelでLoggerを有効にしなくてはいけません。</string>
+    <string name="delay_format_sec">%s 秒</string>
+    <string name="recording_format">録音形式</string>
+    <string name="category_wav_and_mp3_settings">WAVE &amp; MP3 の設定</string>
+
+    <string name="alsa_is_not_installed">ALSAをインストールしてください</string>
+    <string name="alsa_is_not_installed_summary">ALSAをインストールするにはここをタップしてください</string>
+
+    <string name="add_exception">例外の追加</string>
+    <string name="exception_phone_number">電話番号</string>
+    <string name="exception_action">アクション</string>
+    <string name="exception_groups_not_found">グループがありません</string>
+    <string name="exception_delete_message">この例外を削除してもよろしいですか?</string>
+
+    <string name="settings_filename">ファイル名</string>
+    <string name="default_language">規定の言語</string>
+    <string name="greek_translation_summary">Lefteris (SomniusX) Eliades</string>
+<string name="armenian_translation_summary">Hakob Sununu と Konstantin Gevorgyan</string>
+    <string name="gujarati_translation">グジャラート語の翻訳</string>
+    <string name="gujarati_translation_summary">Abhishek Sharma</string>
+    <string name="tamil_translation">タミル語の翻訳</string>
+    <string name="tamil_translation_summary">Ashish Sharma</string>
+    <string name="greek_translation">ギリシャ語の翻訳</string>
+    <string name="armenian_translation">アルメニア語の翻訳</string>
+    <string name="chinese_translation_summary">qhq と Yu Fei</string>
+    <string name="italian_translation_summary">Luca Trevisan と Francesco Cafagna</string>
+    <string name="about_ion_license_summary">Apacheライセンスバージョン2.0の下で Ionを使用しています。github.com/koush/ion を訪問するにはここをクリックして下さい</string>
+    <string name="about_ion_license">Ion</string>
+    <string name="about_call_recorder">Call Recorderについて</string>
+    </resources>
