@@ -18,7 +18,7 @@
     <string name="section_by_label">По ярлыку</string>
     <string name="section_help">Помощь</string>
     <string name="section_tasks">Задачи</string>
-    <string name="section_tasks_hint">Здесь отображаются длительные операции (конвертирование, шифрование, загрузка на облако и т.п.)</string>
+    <string name="section_tasks_hint">Здесь отображаются длительные операции (конвертирование, шифрование, загрузка в облако и т.п.)</string>
     <string name="empty_hint">Пусто</string>
 
     <!-- Action bar -->
@@ -282,7 +282,7 @@
     <string name="cloud_auto_upload">Автозагрузка</string>
     <string name="cloud_auto_upload_summary">Загружать запись сразу после разговора</string>
     <string name="cloud_upload_starred">Загрузить помеченные</string>
-    <string name="cloud_upload_starred_summary">Загружать файл на облако после добавления пометки на запись</string>
+    <string name="cloud_upload_starred_summary">Загружать файл в облако после добавления пометки на запись</string>
 
     <!-- Notification -->
     <string name="notify_uploading_dropbox">Идет загрузка на Dropbox</string>
