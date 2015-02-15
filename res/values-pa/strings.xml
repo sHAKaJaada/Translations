@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     
     
@@ -465,4 +465,19 @@
     
     
     
-</resources>
+<string name="app_name">ਕਾਲ ਰਿਕਾਰਡਰ</string>
+    <string name="terms_of_use">ਵਰਤੋ ਦੀਆਂ ਸ਼ਰਤਾਂ</string>
+    <string name="terms_of_use_message">ਐਪਲੀਕੇਸ਼ ਨੂੰ ਵਰਤ ਕਰਨ ਲਈ ਤੁਸੀਂ ਕਾਲ ਰਿਕਾਰਡਰ ਦੇ ਨਿਯਮਾ ਨਾਲ ਸਹਿਮਤ ਹੋ</string>
+
+    <string name="navigation_drawer_open">ਨੇਵੀਗੇਸ਼ਨ ਦਰਾਜ਼ ਖੋਲੋ</string>
+    <string name="navigation_drawer_close">ਨੇਵੀਗੇਸ਼ਨ ਦਰਾਜ਼ ਬੰਦ ਕਰੋ</string>
+
+    <string name="section_all_recordings">ਸਾਰੀਆ ਰਿਕਾਰਡਿੰਗ</string>
+    <string name="section_starred">ਸਤਾਰੇ</string>
+    <string name="section_incoming">ਆਉਣ ਵਾਲੀਆ</string>
+    <string name="section_outgoing">ਬਾਹਰ ਜਾਣ ਵਾਲੀਆ</string>
+    <string name="section_by_contact">ਸੰਪਰਕ ਦੁਆਰਾ</string>
+    <string name="section_by_format">ਫਾਰਮੈਟ ਦੁਆਰਾ</string>
+    <string name="section_by_label">ਲੇਬਲ ਦੁਆਰਾ</string>
+    <string name="section_help">ਮਦਦ ਕਰੋ</string>
+    </resources>
