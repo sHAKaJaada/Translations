@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">Call Recorder</string>
+    <string name="app_name">Call Recοrder</string>
 <string name="terms_of_use">Όροι Χρήσης</string>
     <string name="terms_of_use_message">Χρησιμοποιώντας την εφαρμογή, συμφωνείτε στους &lt;a href=http://rec.sh/terms&gt;Όρους Χρήσης&lt;/a&gt; του CallRecorder.</string>
 
@@ -417,7 +417,7 @@
     <string name="thai_translation">Ταϊλάνδης μετάφραση</string>
     <string name="thai_translation_summary">από Wuttisak Saichoncharn</string>
     <string name="georgian_translation">Γεωργιανή μετάφραση</string>
-    <string name="georgian_translation_summary">από Alexandre Razmadze</string>
+    <string name="georgian_translation_summary">από Sandro Razmadze</string>
     <string name="catalan_translation">Καταλανικά μετάφραση</string>
     <string name="catalan_translation_summary">από cybdani</string>
     <string name="hindi_translation">Μετάφραση Χίντι</string>
@@ -448,4 +448,16 @@
     <string name="about_ion_license">Iοn</string>
     <string name="about_alsa">ALSΑ</string>
     <string name="about_lame">LAMΕ</string>
-    </resources>
+    <string name="action_cancel_tasks">Ακύρωση εργασιών</string>
+    <string name="records_size">καταγραφές: %1$s, μέγεθος: %2$s</string>
+    <string name="space_free_of">%1$s ελεύθερα από %2$s</string>
+
+    <string name="notify_converting_to_amr">Μετατρέπεται σε AMR</string>
+    <string name="notify_converting_to_mp3">Μετατρέπεται σε MP3</string>
+    <string name="notify_encrypting">Κρυπτογραφείται</string>
+    <string name="notify_decrypting">Αποκρυπτογραφείται</string>
+    <string name="send_logs_to_the_developer">Αποστολή αρχείων καταγραφής στον προγραμματιστή</string>
+
+    <string name="greek_translation">Ελληνική μετάφραση</string>
+    <string name="greek_translation_summary">από Λευτέρης (SomniusX) Ηλιάδης</string>
+</resources>
