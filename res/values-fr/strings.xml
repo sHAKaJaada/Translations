@@ -514,4 +514,138 @@
     <string name="license_verified">Licence vérifiée</string>
     <string name="license_verified_summary">Appuyez pour masquer</string>
     <string name="license_help">Aide</string>
-    </resources>
+    <string name="license_signature_verification_failed">Echec de vérification de signature</string>
+    <string name="license_error_message">Erreur #%1$s: %2$s</string>
+    <string name="license_unknown_error">Erreur inconnue</string>
+    <string name="license_not_market_managed">Cette version n\'est pas encore disponible sur le Play Store</string>
+    <string name="license_incorrect_response">Le Play Store n\'a pas pu renvoyer de licence valide</string>
+    <string name="license_error_contacting_server">Erreur de connexion au serveur</string>
+    <string name="license_server_error">Erreur de serveur</string>
+    <string name="license_over_quota">Trop de requêtes depuis cet appareil</string>
+
+    <string name="device_change_settings_empty">Les réglages sont déjà effectué sur cet appareil</string>
+    <string name="device_root_is_required">Root requis</string>
+    <string name="device_root_is_required_summary">Pour de meilleurs résultats le root est requis sur cet appareil</string>
+    <string name="recording_method_msm">MSM</string>
+    <string name="recording_method_msm_settings">Réglages pour la méthode d\'enregistrement MSM</string>
+    <string name="exceptions_summary">Définir des actions spécifiques pour les contacts, les groupes, ou les numéros de téléphone</string>
+    <string name="start_recording_on_answer">Démarrer l\'enregistrement à la prise d\'appel</string>
+    <string name="start_recording_on_answer_summary">Démarrer l\'enregistrement quand un appel sortant abouti. L\'appli utilise une astuce non documentée pour détecter le moment où le correspondant répond, ce qui signifie que cette fonction peut ne pas fonctionner sur certains appareils.Le root est requis à partir de Android 4.1 Jelly Bean. Le journal (log) doit être activé dans le noyau (kernel).</string>
+    <string name="delay_before_start_recording_summary">Pour l\'entrant : %1$s, pour le sortant : %2$s</string>
+    <string name="delay_format_sec">%s s</string>
+    <string name="delay_for_outgoing">Pour le sortant</string>
+    <string name="delay_for_incoming">Pour l\'entrant</string>
+    <string name="settings_for_device">Réglages pour %s</string>
+    <string name="recording_format">Format d\'enregistrement</string>
+    <string name="volume_control_summary">Transmission: %1$s, Réception: %2$s</string>
+    <string name="volume_control_overall">Volume global</string>
+    <string name="volume_control_tx">Transmission</string>
+    <string name="volume_control_rx">Réception</string>
+    <string name="category_wav_and_mp3_settings">Réglages WAV &amp; MP3</string>
+
+    <string name="alsa_is_not_installed">ALSA doit être installé</string>
+    <string name="alsa_is_not_installed_summary">Appuyez ici pour installer ALSA</string>
+
+    <string name="add_exception">Ajouter une exception</string>
+    <string name="exception_contact">Contact</string>
+    <string name="exception_select_contact">Sélectionner un contact</string>
+    <string name="exception_phone_number">Numéro de téléphone</string>
+    <string name="exception_action">Action</string>
+    <string name="exception_groups_not_found">Groupes introuvables</string>
+    <string name="exception_contacts_not_found">Contacts introuvables</string>
+    <string name="exceptions_not_added">Exceptions non ajoutées</string>
+    <string name="exception_by_contact">Par contact</string>
+    <string name="exception_by_group">Par groupe</string>
+    <string name="exception_by_phone_number">Par numéro de téléphone</string>
+    <string name="exception_delete_message">Etes-vous sûr de vouloir effacer cette exception ?</string>
+
+    <string name="folder_chooser_up_to">↑ Jusqu\'à %s</string>
+    <string name="settings_filename">Nom de fichier</string>
+    <string name="pattern_call_timestamp">horodatage d\'appel (temps unix)</string>
+    <string name="default_language">Langue par défaut</string>
+    <string name="show_notification_summary">Notification permanente dans la barre de status</string>
+    <string name="hide_icon_but_keep_notification">Cacher l\'icône, mais conserver la notification</string>
+    <string name="hide_icon_but_keep_notification_summary">Cacher l\'icône, mais conserver la notification dans la barre de status</string>
+    <string name="category_incall_control_button">Bouton de contrôle durant l\'appel</string>
+    <string name="incall_control_for_outgoing_summary">Montrer le bouton de contrôle durant les appels sortants</string>
+    <string name="incall_control_for_incoming_summary">Montrer le bouton de contrôle durant les appels entrants</string>
+    <string name="hide_button_while_recording">Cacher le bouton pendant l\'enregistrement</string>
+    <string name="hide_button_while_recording_summary">cacher le bouton intégré aux appels si l\'appel est en cours d\'enregistrement</string>
+    <string name="vertical_position_summary">%s dp, décalage par rapport au centre de l\'écran</string>
+    <string name="horizontal_position_summary">%s dp, décalage par rapport au centre de l\'écran</string>
+    <string name="hide_button_before_answer">Cacher le bouton avant de répondre</string>
+    <string name="long_press_action">Action pour l\'appui long</string>
+    <string name="long_press_action_dragging_the_button">Déplacer le bouton</string>
+    <string name="long_press_action_hang_up">Raccrocher et rappeler automatiquement</string>
+
+    <string name="cloud_provider">Fournisseur de nuage (cloud)</string>
+    <string name="sign_in_dropbox">S\'identifier sur Dropbox</string>
+    <string name="sign_out_dropbox">Se déconnecter de Dropbox</string>
+    <string name="cloud_provider_google_drive">Google Drive</string>
+    <string name="cloud_common_settings">Commun</string>
+    <string name="cloud_upload_starred">Démarrage de la mise en ligne</string>
+    <string name="cloud_upload_starred_summary">Mettre en ligne un enregistrement sur le nuage (cloud) quand vous y ajoutez une étoile</string>
+
+    <string name="notify_uploading_dropbox">Mettre en ligne sur Dropbox</string>
+    <string name="notify_converting_to_amr">Conversion en AMR</string>
+    <string name="notify_converting_to_mp3">Conversion en MP3</string>
+    <string name="notify_encrypting">Cryptage</string>
+    <string name="notify_decrypting">Décryptage</string>
+    <string name="notify_waiting_for_calls">En attente d\'appels</string>
+    <string name="notify_tasks_remaining">%d taches restantes</string>
+
+    <string name="create_new_key_summary">Ce code sera utilisé plus tard pour crypter les enregistrements ou pour ouvrir l\'appli</string>
+    <string name="delete_key">Effacer le code</string>
+    <string name="delete_key_summary">Attention ! Vous ne pourrez jamais récupérer les enregistrements cryptés si vous les avez cryptés avec ce code, même si vouscréez un nouveau code avec le même mot de passe</string>
+    <string name="delete_key_message">Après effacement vous ne pourrez pas récupérer les enregistrements cryptés avec cette clé. Etes-vous sûr de vouloir continuer ?</string>
+    <string name="require_password_summary_no_key">Exiger un mot de passe pour ouvrir l\'appli. Pour activer ceci vous devriez d\'abord créer un code</string>
+    <string name="app_admin_summary">Nécessaire pour empêcher la désinstallation de Call Recorder</string>
+    <string name="app_admin_explanation">Call Recorder n\'utilise aucun privilège administrateur, sauf pour la protection de sa désinstallation</string>
+    <string name="use_built_in_player">Utiliser le lecteur de base</string>
+    <string name="audio_output_summary">%s (Un appui long sur lecture/pause le permutera également)</string>
+    <string name="use_proximity_sensor_summary">Désactiver l\'écran via le capteur de proximité durant la lecture</string>
+    <string name="switch_audio_output_summary">Automatiquement permuter la source audio quand l\'écran est désactivé/activé via le capteur de proximité</string>
+    <string name="send_logs_to_the_developer">Envoyer les journaux (logs) au développeur</string>
+
+    <string name="button_choose">Choisir</string>
+    <string name="button_call">Appeler</string>
+    <string name="button_create">Créer</string>
+    <string name="button_delete">Effacer</string>
+    <string name="button_keep">Conserver</string>
+    <string name="button_play">Lire</string>
+    <string name="button_pause">Pause</string>
+    <string name="button_delete_wait">Effacer (%d)</string>
+    <string name="decline">Refuser</string>
+    <string name="accept">Accepter</string>
+    <string name="call_incoming">Entrant</string>
+    <string name="call_outgoing">Sortant</string>
+    <string name="action_mode_selected">%d sélectionné</string>
+    <string name="toast_wait_for_operation_to_complete">Attendre qu\'une opération se termine</string>
+    <string name="toast_recording_is_off">Enregistrement désactivé</string>
+    <string name="toast_recording_is_on">Enregistrement activé</string>
+    <string name="toast_file_deleted">Le fichier a bien été effacé</string>
+
+
+    <string name="open_contact">Ouvrir le contact</string>
+
+    <string name="waiting_for_answer">En attente de réponse</string>
+    <string name="recording_in_progress">Enregistrement en cours</string>
+    <string name="no_recording_in_progress">Aucun enregistrement en cours</string>
+    <string name="about_call_recorder">A propos de Call Recorder</string>
+    <string name="about_ion_license">Ion</string>
+    <string name="about_ion_license_summary">Utilise Ios sous licence Apache Version 2.0, cliquez ici pour accéder à github.com/koush/ion</string>
+    <string name="italian_translation_summary">par Luca Trevisan et Francesco Cafagna</string>
+    <string name="chinese_translation_summary">par qhq et Yu Fei</string>
+    <string name="belarusian_translation">Traduction biélorusse</string>
+    <string name="belarusian_translation_summary">par Alexander Kuvshinov</string>
+    <string name="vietnamese_translation">Traduction vietnamienne</string>
+    <string name="vietnamese_translation_summary">par Truong Hoang Trung</string>
+    <string name="armenian_translation">Traduction arménienne</string>
+    <string name="armenian_translation_summary">par Hakob Sununu et Konstantin Gevorgyan</string>
+    <string name="gujarati_translation">Traduction gujaratienne</string>
+    <string name="gujarati_translation_summary">par Abhishek Sharma</string>
+    <string name="tamil_translation">Traduction tamil</string>
+    <string name="tamil_translation_summary">par Ashish Sharma</string>
+    <string name="greek_translation">Traduction grèque</string>
+    <string name="greek_translation_summary">par Lefteris (SomniusX) Eliades</string>
+</resources>
