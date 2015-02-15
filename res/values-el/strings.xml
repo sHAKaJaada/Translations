@@ -99,7 +99,7 @@
     <string name="license_server_error">Σφάλμα διακομιστή</string>
     <string name="license_over_quota">Πολλές αιτήσεις από την τρέχουσα συσκευή</string>
 
-    <string name="buy_full_version">Αγοράστε την πλήρης έκδοση</string>
+    <string name="buy_full_version">Αγοράστε την πλήρη έκδοση</string>
     <string name="buy_full_version_summary">Τρέχουσα έκδοση θα λήξει στις %s</string>
 
     <string name="recording_calls_switch">Καταγράφει κλήσεις</string>
@@ -356,7 +356,7 @@
     <string name="version">Έκδοση</string>
     <string name="copyright">Πνευματικά Δικαιώματα</string>
     <string name="about_many_thanks">Πολλές ευχαριστίες</string>
-    <string name="about_many_thanks_summary">στον Alexey Subbotin (avs234) και Λευτέρης Ηλιάδης (@SomniusX - Ελληνική μετάφραση)</string>
+    <string name="about_many_thanks_summary">στον Alexey Subbotin (avs234)</string>
 
     <string name="licenses">Άδειες</string>
     <string name="about_open_core_amr_license_summary">Χρήση του opencore-amr υπό την Apache License Version 2.0, κάντε κλικ εδώ για να επισκεφθείε το opencore-amr.sourceforge.net</string>
