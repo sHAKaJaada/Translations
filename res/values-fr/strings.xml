@@ -85,7 +85,7 @@
     <!--  Settings -> Headers -->
     <string name="settings_recording">Enregistrement</string>
     <string name="settings_folders_and_files">Dossiers et Fichiers</string>
-    <string name="settings_ui_and_appearance">Interface et apparence</string>
+    <string name="settings_ui_and_appearance">Interface et Apparence</string>
     <string name="settings_security">Sécurité</string>
     
     <string name="settings_audio_player">Lecteur audio</string>
@@ -128,7 +128,7 @@
     <string name="recording_method_caf">CAF</string>
     <string name="recording_method_caf_settings">Réglages pour l\'enregistrement CAF</string>
     <string name="recording_method_alsa">ALSA</string>
-    <string name="recording_method_alsa_settings">Réglages d\'enregistrement via ALSA</string>
+    <string name="recording_method_alsa_settings">Réglages pour la méthode d\'enregistrement ALSA</string>
     
     
     <string name="category_actions">Actions</string>
@@ -309,7 +309,7 @@
     <string name="require_password_summary">Mot de passe requis pour ouvrir l\'application</string>
     
     <string name="lock_after">Verrouiller après</string>
-    <string name="lock_after_exit">Sortie de l\'app</string>
+    <string name="lock_after_exit">Sortie de l\'appli</string>
     <string name="lock_after_1_minute">1 min</string>
     <string name="lock_after_3_minutes">3 min</string>
     <string name="lock_after_5_minutes">5 min</string>
@@ -329,7 +329,7 @@
     <string name="phone_speaker">Haut parleur du téléphone</string>
     <string name="use_proximity_sensor">Utiliser le capteur de proximité</string>
     
-    <string name="switch_audio_output">Switcher la sortie audio</string>
+    <string name="switch_audio_output">Permuter la sortie audio</string>
     
     <string name="android_wav_decoder">Décodeur Android pour le WAV</string>
     <string name="android_wav_decoder_summary">Utiliser les outils Android d\'origine pour lire le WAV</string>
@@ -471,7 +471,7 @@
     <string name="navigation_drawer_close">Fermer le tiroir de navigation</string>
 
     <string name="section_all_recordings">Tous les enregistrements</string>
-    <string name="section_starred">Favoris</string>
+    <string name="section_starred">Etoilés</string>
     <string name="section_by_contact">Par contact</string>
     <string name="section_by_format">Par format</string>
     <string name="section_by_label">Par étiquette</string>
@@ -511,7 +511,7 @@
     <string name="license_check_pending">Vérification de licence en cours</string>
     <string name="license_check_failed">Echec de vérification de licence</string>
     <string name="license_check_failed_summary">Appuyez ici pour plus de détails</string>
-    <string name="license_verified">Licence vérifiée</string>
+    <string name="license_verified">Licence Vérifiée</string>
     <string name="license_verified_summary">Appuyez pour masquer</string>
     <string name="license_help">Aide</string>
     <string name="license_signature_verification_failed">Echec de vérification de signature</string>
@@ -596,7 +596,7 @@
 
     <string name="create_new_key_summary">Ce code sera utilisé plus tard pour crypter les enregistrements ou pour ouvrir l\'appli</string>
     <string name="delete_key">Effacer le code</string>
-    <string name="delete_key_summary">Attention ! Vous ne pourrez jamais récupérer les enregistrements cryptés si vous les avez cryptés avec ce code, même si vouscréez un nouveau code avec le même mot de passe</string>
+    <string name="delete_key_summary">Attention ! Vous ne pourrez jamais récupérer les enregistrements cryptés si vous les avez cryptés avec ce code, même si vous créez un nouveau code avec le même mot de passe</string>
     <string name="delete_key_message">Après effacement vous ne pourrez pas récupérer les enregistrements cryptés avec cette clé. Etes-vous sûr de vouloir continuer ?</string>
     <string name="require_password_summary_no_key">Exiger un mot de passe pour ouvrir l\'appli. Pour activer ceci vous devriez d\'abord créer un code</string>
     <string name="app_admin_summary">Nécessaire pour empêcher la désinstallation de Call Recorder</string>
@@ -604,7 +604,7 @@
     <string name="use_built_in_player">Utiliser le lecteur de base</string>
     <string name="audio_output_summary">%s (Un appui long sur lecture/pause le permutera également)</string>
     <string name="use_proximity_sensor_summary">Désactiver l\'écran via le capteur de proximité durant la lecture</string>
-    <string name="switch_audio_output_summary">Automatiquement permuter la source audio quand l\'écran est désactivé/activé via le capteur de proximité</string>
+    <string name="switch_audio_output_summary">Automatiquement permuter la sotie audio quand l\'écran est désactivé/activé via le capteur de proximité</string>
     <string name="send_logs_to_the_developer">Envoyer les journaux (logs) au développeur</string>
 
     <string name="button_choose">Choisir</string>
@@ -648,4 +648,9 @@
     <string name="tamil_translation_summary">par Ashish Sharma</string>
     <string name="greek_translation">Traduction grèque</string>
     <string name="greek_translation_summary">par Lefteris (SomniusX) Eliades</string>
-</resources>
+<string name="settings_open_unlocker">Ouvrir Unlocker</string>
+    <string name="license_trial_expired">Période d\'essai expirée</string>
+    <string name="license_trial_expired_summary">Merci de désinstaller cette version avant d\'acheter la version complète</string>
+
+    <string name="button_buy">Acheter</string>
+    </resources>
