@@ -466,4 +466,25 @@
     <string name="vietnamese_translation">Виетнамски превод</string>
     <string name="vietnamese_translation_summary">Truong Hoang Trung</string>
 <string name="terms_of_use">Условия за ползване</string>
+    <string name="terms_of_use_message">Използвайки приложението, вие се съгласявате с &lt;a href=http://rec.sh/terms&gt;условията за ползване&lt;/a&gt; на CallRecorder</string>
+
+    <string name="navigation_drawer_open">Отвори навигационния панел</string>
+    <string name="navigation_drawer_close">Затвори навигационния панел</string>
+
+    <string name="section_all_recordings">Всички записи</string>
+    <string name="section_starred">Важни</string>
+    <string name="section_by_contact">По контакт</string>
+    <string name="section_by_format">По формат</string>
+    <string name="section_by_label">По етикет</string>
+    <string name="section_tasks_hint">По-бавните задачи, като конвертиране, криптиране или качване в облак ще бъдат визуализирани тук</string>
+    <string name="action_sort">Подредба</string>
+    <string name="action_refresh">Опресняване</string>
+    <string name="action_delete">Изтриване</string>
+    <string name="action_add_star">Отбележи като важно</string>
+    <string name="action_remove_star">Махни от важни</string>
+    <string name="action_share">Споделяне</string>
+    <string name="action_cancel_tasks">Отмени задачи</string>
+    <string name="sort_by_date">По дата</string>
+    <string name="sort_by_contact">По контакт</string>
+    <string name="sort_by_file_size">По големина</string>
     </resources>
