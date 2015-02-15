@@ -86,6 +86,7 @@
     <string name="recorded_calls">Recorded calls</string>
 
     <!--  Settings -> Headers -->
+    <string name="settings_open_unlocker">Open Unlocker</string>
     <string name="settings_recording">Recording</string>
     <string name="settings_folders_and_files">Folders and Files</string>
     <string name="settings_ui_and_appearance">Interface and Appearance</string>
@@ -112,6 +113,8 @@
     <string name="license_error_contacting_server">Error contacting server</string>
     <string name="license_server_error">Server error</string>
     <string name="license_over_quota">Too many requests from this device</string>
+    <string name="license_trial_expired">Trial period expired</string>
+    <string name="license_trial_expired_summary">Please, uninstall this version before purchase a full version</string>
 
     <string name="buy_full_version">Buy full version</string>
     <string name="buy_full_version_summary">Current version will expire on %s</string>
@@ -359,6 +362,7 @@
     <string name="button_choose">Choose</string>
     <string name="button_ok">OK</string>
     <string name="button_call">Call</string>
+    <string name="button_buy">Buy</string>
     <string name="button_edit">Edit</string>
     <string name="button_cancel">Cancel</string>
     <string name="button_create">Create</string>
