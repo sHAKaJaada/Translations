@@ -495,4 +495,9 @@
 
     <string name="greek_translation">Перевод на греческий</string>
     <string name="greek_translation_summary">от Lefteris (SomniusX) Eliades</string>
-</resources>
+<string name="settings_open_unlocker">Открыть Unlocker</string>
+    <string name="license_trial_expired">Пробный период истек</string>
+    <string name="license_trial_expired_summary">Пожалуйста, удалите эту версию перед покупкой полной версии</string>
+
+    <string name="button_buy">Купить</string>
+    </resources>
