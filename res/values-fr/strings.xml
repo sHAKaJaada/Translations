@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">Conditions d\'utilisation</string>
@@ -465,4 +465,53 @@
     
     
     
-</resources>
+<string name="terms_of_use_message">En utilisant cette application, vous acceptez les &lt;a href=http://rec.sh/terms&gt;Conditions d'utilisation&lt;/a&gt; de CallRecorder.</string>
+
+    <string name="navigation_drawer_open">Ouvrir le tiroir de navigation</string>
+    <string name="navigation_drawer_close">Fermer le tiroir de navigation</string>
+
+    <string name="section_all_recordings">Tous les enregistrements</string>
+    <string name="section_starred">Favoris</string>
+    <string name="section_by_contact">Par contact</string>
+    <string name="section_by_format">Par format</string>
+    <string name="section_by_label">Par étiquette</string>
+    <string name="section_tasks_hint">Les tâches prenant du temps durant l\'enregistrement, telles que la conversion, le cryptage, ou la mise en ligne sur un nuage (cloud) seront affichées ici</string>
+    <string name="action_sort">Trier</string>
+    <string name="action_refresh">Rafraîchir</string>
+    <string name="action_delete">Effacer</string>
+    <string name="action_add_star">Ajouter une étoile</string>
+    <string name="action_remove_star">Enlever l\'étoile</string>
+    <string name="action_share">Partager</string>
+    <string name="action_cancel_tasks">Annuler les tâches</string>
+    <string name="sort_by_date">Par date</string>
+    <string name="sort_by_contact">Par contact</string>
+    <string name="sort_by_file_size">Par taille de fichier</string>
+    <string name="records_size">enregistrements : %1$s, taille : %2$s</string>
+    <string name="space_free_of">%1$s de libre sur %2$s</string>
+
+    <string name="list_header_today">Aujourd\'hui</string>
+    <string name="list_header_yesterday">Hier</string>
+    <string name="queued">En attente</string>
+    <string name="no_connection">Pas de connexion</string>
+
+    <string name="menu_add_note">Ajouter une note</string>
+    <string name="menu_edit_note">Editer une note</string>
+    <string name="menu_share">Partager</string>
+    <string name="menu_convert_to_mp3">Convertir en MP3</string>
+    <string name="menu_convert_to_amr">Convertir en AMR</string>
+    <string name="menu_cancel_task">Annuler la tâche</string>
+    <string name="recording_type">Type d\'enregistrement</string>
+    <string name="note">Note</string>
+
+    <string name="confirm_delete_several_title">Confirmer l\'effacement</string>
+    <string name="confirm_delete_several_message">Vous avez sélectionné %d enregistrements. Etes-vous sûr de vouloir les effacer ?</string>
+
+    <string name="share_via">Partager via</string>
+    <string name="settings_cloud">Nuage (cloud)</string>
+    <string name="license_check_pending">Vérification de licence en cours</string>
+    <string name="license_check_failed">Echec de vérification de licence</string>
+    <string name="license_check_failed_summary">Appuyez ici pour plus de détails</string>
+    <string name="license_verified">Licence vérifiée</string>
+    <string name="license_verified_summary">Appuyez pour masquer</string>
+    <string name="license_help">Aide</string>
+    </resources>
