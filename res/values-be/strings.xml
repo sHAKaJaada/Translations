@@ -642,4 +642,9 @@
 
     <string name="greek_translation">Пераклад на грэцкі</string>
     <string name="greek_translation_summary">ад Lefteris (SomniusX) Eliades</string>
-</resources>
+<string name="settings_open_unlocker">Адкрыць Unlocker</string>
+    <string name="license_trial_expired">Выпрабавальны перыяд мінуў</string>
+    <string name="license_trial_expired_summary">Калі ласка, выдаліце гэту версію перад набыццём поўнай версіі</string>
+
+    <string name="button_buy">Купіць</string>
+    </resources>
