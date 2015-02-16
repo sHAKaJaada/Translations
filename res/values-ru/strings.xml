@@ -146,7 +146,7 @@
     <string name="exceptions">Исключения</string>
     <string name="exceptions_summary">Установить определенные действия для контактов, групп и телефонов</string>
     <string name="start_recording_on_answer">Начинать запись при ответе</string>
-    <string name="start_recording_on_answer_summary">Начать запись после ответа ответа на исходящий вызов. Программа использует недокументированный способ обнаружения момента, когда другая сторона снимает трубку, поэтому эта функция может не работать на некоторых устройствах. Начиная с Android 4.1 Jelly Bean требуется root. Logger в вашем ядре должен быть включен.</string>
+    <string name="start_recording_on_answer_summary">Начать запись после ответа на исходящий вызов. Программа использует недокументированный способ обнаружения момента, когда другая сторона снимает трубку, поэтому эта функция может не работать на некоторых устройствах. Начиная с Android 4.1 Jelly Bean требуется root. Logger в вашем ядре должен быть включен.</string>
     <string name="delay_before_start_recording">Задержка перед началом записи</string>
     <string name="delay_before_start_recording_summary">Для исходящих: %1$s, для входящих: %2$s</string>
     <string name="delay_format_sec">%s сек</string>
