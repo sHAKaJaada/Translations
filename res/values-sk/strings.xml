@@ -102,7 +102,7 @@
     <string name="license_help">Nápoveda</string>
     <string name="license_signature_verification_failed">Overenie podpisu zlyhalo</string>
     <string name="license_error_message">Chyba #%1$s: %2$s</string>
-    <string name="license_trial">Skúšobná verzia vyprší %s</string>
+    <string name="license_trial">Skúšobná verzia uplynie %s</string>
     <string name="license_unknown_error">Neznáma chyba</string>
     <string name="license_not_market_managed">Táto verzia nie je momentálne zverejnená v Obchode Google Play</string>
     <string name="license_incorrect_response">Nesprávna odpoveď licencie z Obchodu Google Play</string>
@@ -111,7 +111,7 @@
     <string name="license_over_quota">Príliš veľa požiadaviek z tohto zariadenia</string>
 
     <string name="buy_full_version">Kúpiť plnú verziu</string>
-    <string name="buy_full_version_summary">Súčasná verzia vyprší %s</string>
+    <string name="buy_full_version_summary">Súčasná verzia uplynie %s</string>
 
     <!-- Settings -> Recording -->
     <string name="recording_calls_switch">Nahrávanie hovorov</string>
@@ -493,4 +493,9 @@
     <string name="notify_decrypting">Odkódovanie</string>
     <string name="send_logs_to_the_developer">Poslať záznamy vývojárovi</string>
 
+    <string name="settings_open_unlocker">Otvoriť Unlocker</string>
+    <string name="license_trial_expired">Skúšobná doba uplynula</string>
+    <string name="license_trial_expired_summary">Prosím, odinštalujte túto verziu skôr než si zakúpite plnú verziu</string>
+
+    <string name="button_buy">Kúpiť</string>
     </resources>
