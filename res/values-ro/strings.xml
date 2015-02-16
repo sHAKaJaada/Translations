@@ -30,7 +30,7 @@
     
     
     
-    <string name="action_select_all">Selectare toate</string>
+    <string name="action_select_all">Selectează tot</string>
     
     
     
@@ -42,7 +42,7 @@
     
 
     <!-- List -> Context menu -->
-    <string name="menu_add_to_dropbox">Adaugă in Dropbox</string>
+    <string name="menu_add_to_dropbox">Adaugă în Dropbox</string>
     
     
     <string name="menu_delete">Șterge</string>
@@ -102,7 +102,7 @@
     
     
     
-    <string name="license_trial">Versiunea trial va expira pe %s</string>
+    <string name="license_trial">Versiunea de probă va expira pe %s</string>
     
     
     
@@ -117,27 +117,27 @@
     <string name="recording_calls_switch">Înregistrare apeluri</string>
     <string name="category_main">Principal</string>
     <string name="device">Dispozitiv</string>
-    <string name="select_your_device">Selectați dispozitivul dumneavoastră</string>
+    <string name="select_your_device">Selectează dispozitivul tău</string>
     
     
     
     <string name="device_other">Altele</string>
     <string name="recording_method">Metodă înregistrare</string>
     <string name="recording_method_api">Standard API</string>
-    <string name="recording_method_api_settings">Setări pentru Standard API înregistrare</string>
+    <string name="recording_method_api_settings">Setări pentru metoda de înregistrare Standard API</string>
     <string name="recording_method_caf">CAF</string>
-    <string name="recording_method_caf_settings">Setări pentru înregistrarea CAF</string>
+    <string name="recording_method_caf_settings">Setări pentru metoda de înregistrare CAF</string>
     <string name="recording_method_alsa">ALSA</string>
-    <string name="recording_method_alsa_settings">Setări pentru ALSA înregistrare</string>
+    <string name="recording_method_alsa_settings">Setări pentru metoda de înregistrare ALSA</string>
     
     
     <string name="category_actions">Acțiuni</string>
     <string name="action_for_incoming">Acțiune pentru apeluri primite</string>
     <string name="action_for_outgoing">Acțiune pentru apeluri efectuate</string>
-    <string name="action_record_all">Înregistrez toate</string>
-    <string name="action_do_not_record">Nu înregistez</string>
-    <string name="action_record_contacts">Înregistrez contacte</string>
-    <string name="action_record_non_contacts">Înregistrez non-contacte</string>
+    <string name="action_record_all">Înregistrează tot</string>
+    <string name="action_do_not_record">Nu înregistrează</string>
+    <string name="action_record_contacts">Înregistrează contacte</string>
+    <string name="action_record_non_contacts">Înregistrează non-contacte</string>
     <string name="call_confirm">Confirmare apel</string>
     <string name="call_confirm_summary">Arată dialog confirmare înainte de apel</string>
     <string name="after_call_actions_dialog">Acțiune dialog După-apel</string>
@@ -147,7 +147,7 @@
     
     
     
-    <string name="delay_before_start_recording">Întârziere înainte de a înregistra</string>
+    <string name="delay_before_start_recording">Întârziere înainte de înregistrare</string>
     
     
     
@@ -194,8 +194,8 @@
     <string name="chipset_type_msm8250">Qualcomm MSM8250</string>
     <string name="chipset_type_msm8255">Qualcomm MSM8255</string>
     <string name="chipset_type_msm8260">Qualcomm MSM8260</string>
-    <string name="dont_use_amr_driver">Nu folosește driver AMR</string>
-    <string name="dont_use_amr_driver_summary">Folosește în timp real din WAV în AMR, în loc</string>
+    <string name="dont_use_amr_driver">Nu utiliza driver AMR</string>
+    <string name="dont_use_amr_driver_summary">Mai bine transformă în timp real din WAV în AMR</string>
 
     <!-- Settings -> Recording -> Exceptions -->
     
@@ -221,11 +221,11 @@
     
     <string name="automatic_cleanup">Golire automată</string>
     <string name="max_number_of_files">Numărul maxim de fișiere</string>
-    <string name="max_number_of_files_message">Introdu un numar (0 - fară limită)</string>
+    <string name="max_number_of_files_message">Introdu un numar (0 - fără limită)</string>
     <string name="max_total_size_of_files">Numărul maxim total al fișierelor</string>
-    <string name="max_total_size_of_files_message">Introdu o valoare în megabytes (0 - fară limită)</string>
+    <string name="max_total_size_of_files_message">Introdu o valoare în megabytes (0 - fără limită)</string>
     <string name="max_age_of_recordings">Perioada maximă a înregistrărilor</string>
-    <string name="max_age_of_recordings_message">Introdu o valoare a zilelor (0 - fară limită)</string>
+    <string name="max_age_of_recordings_message">Introdu o valoare a zilelor (0 - fără limită)</string>
     <string name="current_setting">Setări curente: %s</string>
     
     <string name="filename_pattern">Model</string>
@@ -233,17 +233,17 @@
 
     <!-- Description for filename pattern -->
     <string name="pattern_contact_name">nume contact</string>
-    <string name="pattern_phone_number">număr telefon</string>
+    <string name="pattern_phone_number">număr de telefon</string>
     <string name="pattern_call_time">timp apel</string>
     
-    <string name="pattern_call_type">tip de apel (ieșire sau intrare)</string>
+    <string name="pattern_call_type">tip de apel (efectuat sau primit)</string>
     <string name="time_pattern_hours">ore</string>
     <string name="time_pattern_minutes">minute</string>
     <string name="time_pattern_seconds">secunde</string>
     <string name="time_pattern_days">zile</string>
     <string name="time_pattern_months">luni</string>
     <string name="time_pattern_years">ani</string>
-    <string name="pattern_example">Exemplu</string>
+    <string name="pattern_example">Exemplu:</string>
 
     <!--Settings -> Interface and Appearance-->
     <string name="language">Limbă</string>
@@ -260,13 +260,13 @@
     
     
     <string name="show_button_while_ringing">Arată butonul în timp ce sună</string>
-    <string name="show_button_while_ringing_summary">Arată butonul control în timpul convorbirii înainte de a răspunde apelului de intrare</string>
+    <string name="show_button_while_ringing_summary">Arată butonul de control în timpul convorbirii înainte de a răspunde apelului primit</string>
     <string name="vertical_position">Poziție verticală</string>
     
     <string name="horizontal_position">Poziție orizontală</string>
     
     
-    <string name="hide_button_before_answer_summary">Nu arăta butonul in-call pâna când este stabilită conexiunea</string>
+    <string name="hide_button_before_answer_summary">Nu arăta butonul de control în timpul convorbirii până când este stabilită conexiunea</string>
     
     
     
@@ -305,8 +305,8 @@
     <string name="enter_old_password">Introdu vechea parolă</string>
     <string name="enter_new_password">Introdu noua parolă</string>
     <string name="re_enter_new_password">Re-introdu noua parolă</string>
-    <string name="require_password">Necesită parolă</string>
-    <string name="require_password_summary">Necesită parolă pentru a deschide aplicația</string>
+    <string name="require_password">Necesită o parolă</string>
+    <string name="require_password_summary">Necesită o parolă pentru a deschide aplicația</string>
     
     <string name="lock_after">Blochează după</string>
     <string name="lock_after_exit">Ieșire</string>
@@ -317,9 +317,9 @@
     <string name="app_admin">App Admin</string>
     
     
-    <string name="aes_128bit">128-bit AES (Cel mai rapid)</string>
+    <string name="aes_128bit">128-bit AES (Repede)</string>
     <string name="aes_192bit">192-bit AES (Balansat)</string>
-    <string name="aes_256bit">256-bit AES (Cel mai puternic)</string>
+    <string name="aes_256bit">256-bit AES (Puternic)</string>
 
     <!-- Settings -> Audio player -->
     
@@ -327,14 +327,14 @@
     
     <string name="main_speaker">Difuzor principal</string>
     <string name="phone_speaker">Cască</string>
-    <string name="use_proximity_sensor">Utilizare senzor de proximitate</string>
+    <string name="use_proximity_sensor">Utilizează senzor de proximitate</string>
     
     <string name="switch_audio_output">Schimbă ieșirea audio</string>
     
     <string name="android_wav_decoder">Decodor Android pentru WAV</string>
-    <string name="android_wav_decoder_summary">Folosește unealta internă Android pentru a reda WAV</string>
+    <string name="android_wav_decoder_summary">Utilizează unealta internă Android pentru a reda WAV</string>
     <string name="android_amr_decoder">Decodor Android pentru AMR</string>
-    <string name="android_amr_decoder_summary">Folosește unealta internă Android pentru redare AMR</string>
+    <string name="android_amr_decoder_summary">Utilizează unealta internă Android pentru redare AMR</string>
 
     <!--Settings -> Debug-->
     <string name="root_access">Acces root</string>
@@ -394,9 +394,9 @@
     <string name="about_open_core_amr_license">opencore-amr</string>
     <string name="about_open_core_amr_license_summary">Se utilizează opencore-amr sub Licență Apache Version 2.0, apasă aici pentru a vizita opencore-amr.sourceforge.net</string>
     <string name="about_alsa">ALSA</string>
-    <string name="about_alsa_summary">Utilizează ALSA sub LGPL, apasă aici pentru a vizita alsa-project.org</string>
+    <string name="about_alsa_summary">Se utilizează ALSA sub LGPL, apasă aici pentru a vizita alsa-project.org</string>
     <string name="about_lame">LAME</string>
-    <string name="about_lame_summary">Utilizează LAME sub LGPL, dă-i click aici pentru a vizita mp3dev.org</string>
+    <string name="about_lame_summary">Se utilizează LAME sub LGPL, dă-i click aici pentru a vizita mp3dev.org</string>
 
     <!--Credits-->
     <string name="german_translation">Traducerea în Germană</string>
@@ -413,17 +413,17 @@
     <string name="slovak_translation_summary">de Loránt Gerencsér</string>
     <string name="italian_translation">Traducere în Italiană</string>
     
-    <string name="persian_translation">Traducerea in Persană</string>
+    <string name="persian_translation">Traducerea în Persană</string>
     <string name="persian_translation_summary">de Alireza Afkar</string>
-    <string name="chinese_translation">Traducerea in Chineză</string>
+    <string name="chinese_translation">Traducerea în Chineză</string>
     
-    <string name="czech_translation">Tradicerea in Cehă</string>
+    <string name="czech_translation">Tradicerea în Cehă</string>
     <string name="czech_translation_summary">de Ales Kerner and Lukas Waldauf</string>
     <string name="arabic_translation">Traducerea în Arabă</string>
     <string name="arabic_translation_summary">de Ausama S. Ibrahim</string>
     <string name="hebrew_translation">Traducerea în Ebraică</string>
     <string name="hebrew_translation_summary">de NuFlood</string>
-    <string name="hungarian_translation">Traducerea Maghiară</string>
+    <string name="hungarian_translation">Traducerea în Maghiară</string>
     <string name="hungarian_translation_summary">de Szalay Levente and Miklós Toldi</string>
     <string name="dutch_translation">Traducerea în Olandeză</string>
     <string name="dutch_translation_summary">de Elroy Tirbeni</string>
@@ -432,7 +432,7 @@
     <string name="serbian_translation">Traducerea în Sârbă</string>
     <string name="serbian_translation_summary">de sHAKaJaada</string>
     <string name="korean_translation">Traducerea în Coreeană</string>
-    <string name="korean_translation_summary">de SoHyunSeop and Joon Hee Jo</string>
+    <string name="korean_translation_summary">de SoHyunSeop și Joon Hee Jo</string>
     <string name="romanian_translation">Traducerea în Română</string>
     <string name="romanian_translation_summary">de Dan P. (sad)</string>
     <string name="ukrainian_translation">Traducere în Ucraineană</string>
@@ -457,7 +457,7 @@
     <string name="catalan_translation_summary">de cybdani</string>
     <string name="hindi_translation">Traducerea în Hindusă</string>
     <string name="hindi_translation_summary">de TheTAMAS Gautam</string>
-    <string name="punjabi_translation">Traducerea Punjabi</string>
+    <string name="punjabi_translation">Traducerea în Punjabi</string>
     <string name="punjabi_translation_summary">de Raj Verma</string>
     <string name="finnish_translation">Traducerea în Finlandeză</string>
     <string name="finnish_translation_summary">de Eero Linnainmaa</string>
@@ -466,7 +466,7 @@
     
     
 <string name="terms_of_use">Termeni de Utilizare</string>
-    <string name="terms_of_use_message">Folosind această aplicație, ești de acord cu &lt;a href=http://rec.sh/terms&gt;Termenii de Utilizare&lt;/a&gt; ai aplicației CallRecorder.</string>
+    <string name="terms_of_use_message">Utilizand această aplicație, ești de acord cu &lt;a href=http://rec.sh/terms&gt;Termenii de Utilizare&lt;/a&gt; ai aplicației CallRecorder.</string>
 
     <string name="navigation_drawer_open">Deschide fereastra de navigare</string>
     <string name="navigation_drawer_close">Închide fereastra de navigare</string>
@@ -510,7 +510,7 @@
     <string name="share_via">Partajează via</string>
     <string name="settings_open_unlocker">Deschide \"Unlocker\"</string>
     <string name="settings_cloud">Cloud</string>
-    <string name="license_check_pending">În așteptare Verificarea Licenței</string>
+    <string name="license_check_pending">Verificarea Licenței în așteptare</string>
     <string name="license_check_failed">Verificarea Licenței eșuată</string>
     <string name="license_check_failed_summary">Apasă aici pentru detalii</string>
     <string name="license_verified">Licență Verificată</string>
@@ -528,11 +528,11 @@
     <string name="license_trial_expired_summary">Te rog, dezinstalează această versiune înainte de achiziționarea unei versiuni complete</string>
 
     <string name="device_change_settings_empty">Setările pentru acest dispozitiv sunt deja făcute</string>
-    <string name="device_root_is_required">Necesar Root</string>
+    <string name="device_root_is_required">Necesar root</string>
     <string name="device_root_is_required_summary">Pentru o calitate mai bună este necesar root pe acest dispozitiv</string>
     <string name="greek_translation_summary">de Lefteris (SomniusX) Eliades</string>
 <string name="recording_method_msm">MSM</string>
-    <string name="recording_method_msm_settings">Setări pentru metoda MSM</string>
+    <string name="recording_method_msm_settings">Setări pentru metoda de înregistrare MSM</string>
     <string name="exceptions_summary">Setează acțiuni specifice pentru contacte, grupuri sau numere telefon</string>
     <string name="start_recording_on_answer">Start înregistrare când se răspunde</string>
     <string name="start_recording_on_answer_summary">Începe înregistrarea odată cu răspunsul unui apel. Aplicația utilizează o soluție nedocumentată pentru a detecta un moment în care celălalt interlocutor răspunde, astfel încât această caracteristică poate eșua la unele dispozitive. Root este necesar de la Android 4.1 Jelly Bean . Logger în kernel trebuie să fie activat .</string>
@@ -554,7 +554,7 @@
     <string name="add_exception">Adaugă excepție</string>
     <string name="exception_contact">Contact</string>
     <string name="exception_select_contact">Selectează contact</string>
-    <string name="exception_phone_number">Număr telefon</string>
+    <string name="exception_phone_number">Număr de telefon</string>
     <string name="exception_action">Acțiune</string>
     <string name="exception_groups_not_found">Grupurile nu s-au găsit</string>
     <string name="exception_contacts_not_found">Contactele nu s-au găsit</string>
@@ -572,8 +572,8 @@
     <string name="hide_icon_but_keep_notification">Ascunde icoana, dar păstrează notificările</string>
     <string name="hide_icon_but_keep_notification_summary">Ascunde icoana, dar păstrează notificările în bara de status</string>
     <string name="category_incall_control_button">Buton de control în timpul convorbirii</string>
-    <string name="incall_control_for_outgoing_summary">Arată butonul de control în timpul convorbirii pentru apelurile de ieșire</string>
-    <string name="incall_control_for_incoming_summary">Arată butonul de control în timpul convorbirii pentru apelurile de intrare</string>
+    <string name="incall_control_for_outgoing_summary">Arată butonul de control în timpul convorbirii pentru apelurile efectuate</string>
+    <string name="incall_control_for_incoming_summary">Arată butonul de control în timpul convorbirii pentru apelurile primite</string>
     <string name="hide_button_while_recording">Ascunde butonul în timpul înregistrării</string>
     <string name="hide_button_while_recording_summary">Ascunde butonul de control în timpul convorbirii dacă apelul este înregistrat</string>
     <string name="vertical_position_summary">%s dp, ecart de la centrul ecranului</string>
@@ -596,7 +596,7 @@
     <string name="notify_converting_to_mp3">Convertește în MP3</string>
     <string name="notify_encrypting">Encriptare</string>
     <string name="notify_decrypting">Decriptare</string>
-    <string name="notify_waiting_for_calls">Asteaptă apeluri</string>
+    <string name="notify_waiting_for_calls">Așteaptă apeluri</string>
     <string name="notify_tasks_remaining">%d task-uri rămase</string>
 
     <string name="create_new_key_summary">Această cheie va fi folosită mai târziu pentru a cripta înregistrările sau pentru a intra în aplicație</string>
@@ -605,7 +605,7 @@
     <string name="delete_key_message">După ștergere nu vei putea recupera înregistrările criptate cu această cheie. Sigur dorești să continui?</string>
     <string name="require_password_summary_no_key">Se solicită parola pentru a deschide aplicația. Pentru a activa acest lucru ar trebui să creezi o cheie în primul rând</string>
     <string name="app_admin_summary">Necesar pentru a preveni dezinstalarea Call Recorder</string>
-    <string name="app_admin_explanation">Call Recorder nu folosește nici un element de administrare dispozitiv, cu excepția protejării la dezinstalare</string>
+    <string name="app_admin_explanation">Call Recorder nu folosește nici un element de administrare a dispozitivului, cu excepția protejării la dezinstalare</string>
     <string name="use_built_in_player">Utilizează player de redare intern</string>
     <string name="audio_output_summary">%s (apasă lung pe butonul de redare/pauză și se va schimba la fel de bine)</string>
     <string name="use_proximity_sensor_summary">Dezactivare ecran de către senzorul de proximitate în timpul redării</string>
@@ -623,8 +623,8 @@
     <string name="button_delete_wait">Șterge (%d)</string>
     <string name="decline">Refuză</string>
     <string name="accept">Acceptă</string>
-    <string name="call_incoming">Apel primire</string>
-    <string name="call_outgoing">Apel ieșire</string>
+    <string name="call_incoming">Primire</string>
+    <string name="call_outgoing">Efectuare</string>
     <string name="action_mode_selected">%d selectat</string>
     <string name="toast_wait_for_operation_to_complete">Asteaptă o operație pentru a finaliza</string>
     <string name="toast_recording_is_off">Înregistrarea este OPRITĂ</string>
@@ -634,7 +634,7 @@
 
     <string name="open_contact">Deschide contact</string>
 
-    <string name="waiting_for_answer">Asteaptă pentru a răspunde</string>
+    <string name="waiting_for_answer">Așteaptă răspuns</string>
     <string name="recording_in_progress">Înregistrare în curs</string>
     <string name="no_recording_in_progress">Nicio înregistrare în curs</string>
     <string name="about_call_recorder">Despre Call Recorder</string>
@@ -647,7 +647,7 @@
     <string name="vietnamese_translation">Traducerea în Vietnameză</string>
     <string name="vietnamese_translation_summary">de Truong Hoang Trung</string>
     <string name="armenian_translation">Traducerea în Armenă</string>
-    <string name="armenian_translation_summary">de Hakob Sununu and Konstantin Gevorgyan</string>
+    <string name="armenian_translation_summary">de Hakob Sununu și Konstantin Gevorgyan</string>
     <string name="gujarati_translation">Traducerea în Gujarati</string>
     <string name="gujarati_translation_summary">de Abhishek Sharma</string>
     <string name="tamil_translation">Traducerea în Tamil</string>
