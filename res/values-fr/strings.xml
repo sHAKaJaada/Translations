@@ -66,7 +66,7 @@
     <string name="gigabyte">Go</string>
     <string name="megabyte">Mo</string>
     <string name="kilobyte">Ko</string>
-    <string name="bytes">o</string>
+    <string name="bytes">octets</string>
     
 
     <!-- List -> Get info dialog -> Edit -->
@@ -296,7 +296,7 @@
     <!-- Settings -> Security -->
     <string name="category_encryption">Cryptage</string>
     <string name="category_application">Application</string>
-    <string name="create_new_key">Créer une nouvelle clé</string>
+    <string name="create_new_key">Créer un nouveau code</string>
     
     
     <string name="change_password">Changer le mot de passe</string>
@@ -479,7 +479,7 @@
     <string name="action_sort">Trier</string>
     <string name="action_refresh">Rafraîchir</string>
     <string name="action_delete">Effacer</string>
-    <string name="action_add_star">Ajouter une étoile</string>
+    <string name="action_add_star">Mettre une étoile</string>
     <string name="action_remove_star">Enlever l\'étoile</string>
     <string name="action_share">Partager</string>
     <string name="action_cancel_tasks">Annuler les tâches</string>
@@ -523,14 +523,14 @@
     <string name="license_server_error">Erreur de serveur</string>
     <string name="license_over_quota">Trop de requêtes depuis cet appareil</string>
 
-    <string name="device_change_settings_empty">Les réglages sont déjà effectué sur cet appareil</string>
+    <string name="device_change_settings_empty">Les réglages sont déjà effectués sur cet appareil</string>
     <string name="device_root_is_required">Root requis</string>
     <string name="device_root_is_required_summary">Pour de meilleurs résultats le root est requis sur cet appareil</string>
     <string name="recording_method_msm">MSM</string>
     <string name="recording_method_msm_settings">Réglages pour la méthode d\'enregistrement MSM</string>
     <string name="exceptions_summary">Définir des actions spécifiques pour les contacts, les groupes, ou les numéros de téléphone</string>
     <string name="start_recording_on_answer">Démarrer l\'enregistrement à la prise d\'appel</string>
-    <string name="start_recording_on_answer_summary">Démarrer l\'enregistrement quand un appel sortant abouti. L\'appli utilise une astuce non documentée pour détecter le moment où le correspondant répond, ce qui signifie que cette fonction peut ne pas fonctionner sur certains appareils.Le root est requis à partir de Android 4.1 Jelly Bean. Le journal (log) doit être activé dans le noyau (kernel).</string>
+    <string name="start_recording_on_answer_summary">Démarrer l\'enregistrement quand un appel sortant abouti. L\'appli utilise une astuce non documentée pour détecter le moment où le correspondant répond, ce qui signifie que cette fonction peut ne pas fonctionner sur certains appareils. Le root est requis à partir de Android 4.1 Jelly Bean. Le journal (log) doit être activé dans le noyau (kernel).</string>
     <string name="delay_before_start_recording_summary">Pour l\'entrant : %1$s, pour le sortant : %2$s</string>
     <string name="delay_format_sec">%s s</string>
     <string name="delay_for_outgoing">Pour le sortant</string>
