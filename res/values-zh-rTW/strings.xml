@@ -43,8 +43,8 @@
 
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">上傳到Dropbox</string>
-    <string name="menu_add_note">增加備註</string>
-    <string name="menu_edit_note">編輯備註</string>
+    <string name="menu_add_note">增加注釋</string>
+    <string name="menu_edit_note">編輯注釋</string>
     <string name="menu_delete">刪除</string>
     <string name="menu_share">分享</string>
     <string name="menu_convert_to_mp3">轉換成MP3格式</string>
@@ -286,7 +286,7 @@
 
     <!-- Notification -->
     <string name="notify_uploading_dropbox">上傳至 Dropbox 中</string>
-    <string name="notify_tasks_remaining">%d 剩餘錄音</string>
+    <string name="notify_tasks_remaining">%d 剩下的任務</string>
 
     <!-- Password dialog -->
     <string name="wrong_password">密碼錯誤</string>
@@ -452,7 +452,7 @@
     <string name="thai_translation">泰語</string>
     <string name="thai_translation_summary">由 Wuttisak Saichoncharn 翻譯</string>
     <string name="georgian_translation">格魯吉亞語</string>
-    <string name="georgian_translation_summary">由 Alexandre Razmadze 翻譯</string>
+    <string name="georgian_translation_summary">由 Sandro Razmadze 翻譯</string>
     <string name="catalan_translation">加泰羅尼亞語</string>
     <string name="catalan_translation_summary">由 cybdani 翻譯</string>
     <string name="hindi_translation">北印度語</string>
@@ -481,4 +481,21 @@
     <string name="gujarati_translation_summary">由 Abhishek Sharma 翻譯</string>
     <string name="tamil_translation">坦米爾語</string>
     <string name="tamil_translation_summary">由 Ashish Sharma 翻譯</string>
-</resources>
+<string name="action_cancel_tasks">取消任務</string>
+    <string name="records_size">錄音檔案數量: %1$s, 大小: %2$s</string>
+    <string name="license_trial_expired">試用期滿</string>
+    <string name="license_trial_expired_summary">購買完整版本前請卸載該版本</string>
+
+    <string name="notify_converting_to_amr">轉換成 AMR 格式</string>
+    <string name="notify_converting_to_mp3">轉換成 MP3 格式</string>
+    <string name="notify_encrypting">加密</string>
+    <string name="notify_decrypting">解密</string>
+    <string name="send_logs_to_the_developer">傳送紀錄給開發者</string>
+
+    <string name="button_buy">購買</string>
+    <string name="greek_translation">希臘語翻譯</string>
+    <string name="greek_translation_summary">由 Lefteris (SomniusX) Eliades 翻譯</string>
+<string name="settings_open_unlocker">打開解鎖</string>
+    <string name="space_free_of">%1$s 可使用於%2$s</string>
+
+    </resources>
