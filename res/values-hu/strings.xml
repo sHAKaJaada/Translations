@@ -51,8 +51,8 @@
     
     <string name="menu_get_info">Információ szerzés</string>
     
-    <string name="menu_encrypt">Titkosít</string>
-    <string name="menu_decrypt">Titkosítást felold</string>
+    <string name="menu_encrypt">Titkosítás</string>
+    <string name="menu_decrypt">Dekódolás</string>
 
     <!-- List -> Get info dialog -->
     <string name="file_name">Fájl név</string>
@@ -121,7 +121,7 @@
     
     
     
-    <string name="device_other">Egyéb készülékek</string>
+    <string name="device_other">Egyéb</string>
     <string name="recording_method">Felvételi módszer</string>
     <string name="recording_method_api">Szabvány API</string>
     <string name="recording_method_api_settings">Szabvány API felvétel beállítások</string>
@@ -142,8 +142,8 @@
     <string name="call_confirm_summary">Megjelenik egy megerősítő párbeszédablak hívás előtt</string>
     <string name="after_call_actions_dialog">Hívás utáni művelet</string>
     <string name="after_call_actions_dialog_summary">Megkérdezi párbeszédablakban mit tegyen hívás után</string>
-    <string name="vibrate_on_call">Rezgés hívás indításkor/fogadáskor</string>
-    <string name="exceptions">Kivételek hozzáadása</string>
+    <string name="vibrate_on_call">Rezgés hívás indítás/befejezéskor</string>
+    <string name="exceptions">Kivételek</string>
     
     
     
@@ -452,7 +452,7 @@
     <string name="thai_translation">Thai fordítás</string>
     <string name="thai_translation_summary">Wuttisak Saichoncharn</string>
     <string name="georgian_translation">Grúz fordítás</string>
-    <string name="georgian_translation_summary">Alexandre Razmadze</string>
+    <string name="georgian_translation_summary">Sandro Razmadze</string>
     <string name="catalan_translation">Katalán fordítás</string>
     <string name="catalan_translation_summary">cybdani</string>
     <string name="hindi_translation">Hindi fordítás</string>
@@ -473,16 +473,16 @@
     <string name="navigation_drawer_close">Navigációs fiók bezárása</string>
 
     <string name="section_all_recordings">Összes felvétel</string>
-    <string name="section_starred">Csillagozott</string>
+    <string name="section_starred">Kedvencek</string>
     <string name="section_by_contact">Névjegy</string>
     <string name="section_by_format">Formátum</string>
     <string name="section_by_label">Cimke</string>
-    <string name="section_tasks_hint">Időigényes feladatok megjelenítése a felvételekkel úgymint konvertálás, kódolás vagy feltöltés egy felhőbe</string>
+    <string name="section_tasks_hint">Időigényes feladatok a felvételekkel úgymint konvertálás, kódolás vagy feltöltés felhőbe megjelenítése itt</string>
     <string name="action_sort">Rendezés</string>
     <string name="action_refresh">Frissítés</string>
     <string name="action_delete">Törlés</string>
-    <string name="action_add_star">Csillagozotthoz ad</string>
-    <string name="action_remove_star">Csillagozottból eltávolít</string>
+    <string name="action_add_star">Kedvencekhez ad</string>
+    <string name="action_remove_star">Kedvencekből eltávolít</string>
     <string name="action_share">Megosztás</string>
     <string name="sort_by_date">Dátum szerint</string>
     <string name="sort_by_contact">Névjegy szerint</string>
@@ -509,7 +509,7 @@
     <string name="license_check_pending">Licenc ellenőrzés függőben</string>
     <string name="license_check_failed">Licenc ellenőrzés sikertelen</string>
     <string name="license_check_failed_summary">Részletekért érintse meg itt</string>
-    <string name="license_verified">Licenc ellenőrzött</string>
+    <string name="license_verified">Licenc hitelesítve</string>
     <string name="license_verified_summary">Elrejtéshez érintse meg</string>
     <string name="license_help">Súgó</string>
     <string name="license_signature_verification_failed">Aláírás hitelesítés sikertelen</string>
@@ -529,7 +529,37 @@
     <string name="gujarati_translation_summary">Abhishek Sharma</string>
     <string name="tamil_translation">Tamil fordítás</string>
     <string name="tamil_translation_summary">Ashish Sharma</string>
-<string name="device_root_is_required">Root jogosultság szükséges</string>
+<string name="device_root_is_required">Root jog szükséges</string>
     <string name="device_root_is_required_summary">A jobb minőséghez rootolni kell a készüléket</string>
-    <string name="device_change_settings_empty">Ez a beállítás, már alkalmazva lett</string>
+    <string name="device_change_settings_empty">Készülékén ez lesz beállítva</string>
+    <string name="action_cancel_tasks">Feladatok elvetése</string>
+    <string name="space_free_of">"%1$s szabad a  %2$s"</string>
+
+    <string name="records_size">felvételek: %1$s, méret: %2$s</string>
+    <string name="settings_open_unlocker">Unlocker megnyitása</string>
+    <string name="license_trial_expired">Próba időszak lejárt</string>
+    <string name="license_trial_expired_summary">Kérem, a teljes változat megvásárlása előtt távolítsa el ezt a verziót</string>
+
+    <string name="recording_method_msm_settings">MSM felvétel beállítások</string>
+    <string name="exceptions_summary">Állítson be egy konkrét műveletet a névjegyeknek, csoportoknak, vagy telefonszámoknak</string>
+    <string name="start_recording_on_answer">Felvétel indítása fogadáskor</string>
+    <string name="start_recording_on_answer_summary">Felvétel indítása kimenő hívás fogadásakor. Az alkalmazás egy dokumentálatlan megkerülő műveletet használ amely érzékel egy pillanatot amikor a másik oldal válaszol, ez a tulajdonság megbukhat néhány eszközön. Root szükséges Android 4.1 Jelly Bean-óta. Kernelben engedélyezni kell.</string>
+    <string name="delay_before_start_recording_summary">Kimenő: %1$s, bejövő: %2$s</string>
+    <string name="delay_format_sec">%s mp</string>
+    <string name="delay_for_outgoing">Kimenő</string>
+    <string name="delay_for_incoming">Bejövő</string>
+    <string name="settings_for_device">%s Beállítások</string>
+    <string name="recording_format">Felvétel formátuma</string>
+    <string name="volume_control_summary">Tx: %1$s, Rx: %2$s</string>
+    <string name="volume_control_overall">Általános hangerő</string>
+    <string name="category_wav_and_mp3_settings">WAV és MP3 beállítások</string>
+
+    <string name="alsa_is_not_installed">ALSA telepítése kötelező</string>
+    <string name="alsa_is_not_installed_summary">Kattintson ide az ALSA telepítéséhez</string>
+
+    <string name="add_exception">Kivétel hozzáadása</string>
+    <string name="exception_contact">Névjegy</string>
+    <string name="exception_select_contact">Névjegy kiválasztása</string>
+    <string name="exception_phone_number">Telefonszám</string>
+    <string name="exception_action">Művelet</string>
     </resources>
