@@ -562,4 +562,89 @@
     <string name="exception_select_contact">Névjegy kiválasztása</string>
     <string name="exception_phone_number">Telefonszám</string>
     <string name="exception_action">Művelet</string>
-    </resources>
+    <string name="recording_method_msm">MSM</string>
+    <string name="exception_groups_not_found">Csoport nem található</string>
+    <string name="exception_contacts_not_found">Névjegy nem található</string>
+    <string name="exceptions_not_added">Kivételekhez nincs hozzáadva</string>
+    <string name="exception_by_contact">Névjegyekből</string>
+    <string name="exception_by_group">Csoportokból</string>
+    <string name="exception_by_phone_number">Telefonszámokból</string>
+    <string name="exception_delete_message">Valóban törölni szeretné ezt a kivételt?</string>
+
+    <string name="folder_chooser_up_to">↑ Fel %s-ig</string>
+    <string name="settings_filename">Fájl neve</string>
+    <string name="pattern_call_timestamp">hívás ideje (Unix idő)</string>
+    <string name="default_language">Alapértelmezett nyelv</string>
+    <string name="show_notification_summary">Nem törlődő értesítés az állapotsorban</string>
+    <string name="hide_icon_but_keep_notification">Ikont elrejt, de értesítésben megtart</string>
+    <string name="hide_icon_but_keep_notification_summary">Ikon elrejtése az állapotsávból, de értesítésben megtart</string>
+    <string name="category_incall_control_button">Belső-hívás vezérlő gomb</string>
+    <string name="incall_control_for_outgoing_summary">Hívás-vezérlő gomb megjelenítése kimenő hívásnál</string>
+    <string name="incall_control_for_incoming_summary">Hívás-vezérlő gomb megjelenítése bejövő hívásnál</string>
+    <string name="hide_button_while_recording">Gomb elrejtése felvételkor</string>
+    <string name="hide_button_while_recording_summary">Hívás-vezérlő gomb elrejtése felvételkor</string>
+    <string name="vertical_position_summary">%s dp, eltolás a képernyő központjától</string>
+    <string name="horizontal_position_summary">%s dp, eltolás a képernyő központjától</string>
+    <string name="hide_button_before_answer">Gomb elrejtése hívás fogadás előtt</string>
+    <string name="long_press_action">Hosszú érintés művelet</string>
+    <string name="long_press_action_dragging_the_button">Gomb húzása</string>
+    <string name="long_press_action_hang_up">Hívás késleltetés és visszahívás automatikusan</string>
+
+    <string name="cloud_provider">Felhő szolgáltató</string>
+    <string name="sign_in_dropbox">Bejelentkezés a Dropbox-ba</string>
+    <string name="sign_out_dropbox">Kijelentkezés a Dropbox-ból</string>
+    <string name="cloud_provider_google_drive">Google Drive</string>
+    <string name="cloud_common_settings">Közös</string>
+    <string name="cloud_upload_starred">Kedvencek feltöltése</string>
+    <string name="cloud_upload_starred_summary">Felvételek feltöltése felhőbe miután hozzáadta a kedvencekhez</string>
+
+    <string name="notify_uploading_dropbox">Feltöltés Dropbox-ba</string>
+    <string name="notify_converting_to_amr">Konvertálás AMR-be</string>
+    <string name="notify_converting_to_mp3">Konvertálás MP3-ba</string>
+    <string name="notify_encrypting">Titkosítás</string>
+    <string name="notify_decrypting">Dekódolás</string>
+    <string name="notify_waiting_for_calls">Hívások várakoztatása</string>
+    <string name="notify_tasks_remaining">%d hátralevő feladatok</string>
+
+    <string name="create_new_key_summary">Ezt a kulcsot fogja később használni a felvételek kódolásához vagy belépni az alkalmazásba</string>
+    <string name="delete_key">Kulcs törlése</string>
+    <string name="delete_key_summary">Figyelmeztetés! Soha nem lesz képes helyreállítani a kódolt fevételeket, még akkor sem ha létrehoz egy új kulcsot ugyanazzal jelszóval</string>
+    <string name="delete_key_message">Törlés után nem lesz képes helyreállítani a kódolt fevételeket. Valóban folytatni szeretné?</string>
+    <string name="require_password_summary_no_key">Az alkalmazás megnyitásához jelszó szükséges. Engedélyezéshez először hozzon létre kulcsot</string>
+    <string name="app_admin_summary">Szükséges a Call Recorder eltávolításának megakadályozására</string>
+    <string name="app_admin_explanation">A Call Recorder az eltávolításon kívül nem használja semmilyen szolgáltatásara az eszközkezelőt</string>
+    <string name="use_built_in_player">Beépített lejátszó használata</string>
+    <string name="audio_output_summary">%s (Átváltáshoz hosszú érintés a lejátszás/szünet gombra)</string>
+    <string name="use_proximity_sensor_summary">Képernyő közelség érzékelő letiltása visszajátszás alatt</string>
+    <string name="switch_audio_output_summary">Automatikus akusztikus kimenet váltás amikor a képernyőt letiltja/engedélyezi a közelség érzékelő</string>
+    <string name="send_logs_to_the_developer">Napló küldése a fejlesztőnek</string>
+
+    <string name="button_choose">Kiválasztás</string>
+    <string name="button_call">Hívás</string>
+    <string name="button_buy">Vásárlás</string>
+    <string name="button_create">Létrehozás</string>
+    <string name="button_delete">Törlés</string>
+    <string name="button_keep">Megtart</string>
+    <string name="button_play">Lejátszás</string>
+    <string name="button_pause">Szünet</string>
+    <string name="button_delete_wait">(%d) Törlése</string>
+    <string name="decline">Elutasítom</string>
+    <string name="accept">Elfogadom</string>
+    <string name="call_incoming">Bejövő</string>
+    <string name="call_outgoing">Kimenő</string>
+    <string name="action_mode_selected">%d kiválasztva</string>
+    <string name="toast_wait_for_operation_to_complete">Teljes műveletre várakozás</string>
+    <string name="toast_recording_is_off">Felvétel KI</string>
+    <string name="toast_recording_is_on">Felvétel BE</string>
+    <string name="toast_file_deleted">A fájl sikeresen törölve</string>
+
+
+    <string name="open_contact">Névjegy megnyitása</string>
+
+    <string name="waiting_for_answer">Hívásfogadásra várás</string>
+    <string name="recording_in_progress">Felvétel folyamatban</string>
+    <string name="no_recording_in_progress">Nincs felvétel folyamatban</string>
+    <string name="about_call_recorder">Call Recorder névjegye</string>
+    <string name="greek_translation">Görög fordítás</string>
+    <string name="greek_translation_summary">Lefteris (SomniusX) Eliades</string>
+</resources>
