@@ -360,7 +360,7 @@
     
     
     
-    <string name="please_wait">Bitte warten...</string>
+    <string name="please_wait">Bitte warten…</string>
     
     <string name="start_recording">Aufnahme starten</string>
     <string name="stop_recording">Aufnahme stoppen</string>
@@ -392,7 +392,7 @@
     <!--About -> Licenses-->
     <string name="licenses">Lizenz</string>
     <string name="about_open_core_amr_license">OpenCore-AMR</string>
-    <string name="about_open_core_amr_license_summary">Nutzt OpenCore-AMR unnter der Apache Lizenz Version 2.0, hier berühren um opencore-amr.sourceforge.net zu besuchen</string>
+    <string name="about_open_core_amr_license_summary">Nutzt OpenCore-AMR unter der Apache Lizenz Version 2.0, hier berühren um opencore-amr.sourceforge.net zu besuchen</string>
     <string name="about_alsa">ALSA</string>
     <string name="about_alsa_summary">Nutzt ALSA unter LGPL, hier berühren um alsa-project.org zu besuchen</string>
     <string name="about_lame">LAME</string>
@@ -452,7 +452,7 @@
     <string name="thai_translation">Thailändische Übersetzung</string>
     <string name="thai_translation_summary">von Wuttisak Saichoncharn</string>
     <string name="georgian_translation">Georgische Übersetzung</string>
-    <string name="georgian_translation_summary">von Alexandre Razmadze</string>
+    <string name="georgian_translation_summary">von Sandro Razmadze</string>
     <string name="catalan_translation">Katalanische Übersetzung</string>
     <string name="catalan_translation_summary">von cybdani</string>
     <string name="hindi_translation">Übersetzung in Hindi</string>
@@ -565,4 +565,38 @@
     <string name="settings_filename">Dateiname</string>
     <string name="pattern_call_timestamp">Zeitstempel Anruf (Unix-Format)</string>
     <string name="default_language">Standardsprache</string>
+    <string name="show_notification_summary">Permanente Benachrichtigung in Status Bar</string>
+    <string name="hide_icon_but_keep_notification">Verstecke Icon, aber behalte Benachrichtigung</string>
+    <string name="hide_icon_but_keep_notification_summary">Verstecke Icon, aber behalte Benachrichtigung in Status Bar</string>
+    <string name="category_incall_control_button">Schaltfläche während Gespräch</string>
+    <string name="incall_control_for_outgoing_summary">Zeige Schaltfläche bei ausgehenden Gesprächen</string>
+    <string name="incall_control_for_incoming_summary">Zeige Schaltfläche bei eingehenden Gesprächen</string>
+    <string name="hide_button_while_recording">Verstecke Schältfläche während der Aufzeichnung</string>
+    <string name="hide_button_while_recording_summary">Verstecke Schaltfläche wenn der Anruf aufgezeichnet wird</string>
+    <string name="vertical_position_summary">%s dp, Offset von der Bildschirmmitte</string>
+    <string name="horizontal_position_summary">%s dp, Offset von der Bildschirmmitte</string>
+    <string name="hide_button_before_answer">Verstecke Schaltfläche vor Anrufannahme</string>
+    <string name="long_press_action">Aktion bei langem Drücken</string>
+    <string name="long_press_action_dragging_the_button">Schaltfläche verschieben</string>
+    <string name="long_press_action_hang_up">Anruf beenden und automatisch zurückrufen</string>
+
+    <string name="cloud_provider">Cloud-Anbieter</string>
+    <string name="sign_in_dropbox">Anmelden in Dropbox</string>
+    <string name="sign_out_dropbox">Abmelden aus Dropbox</string>
+    <string name="cloud_provider_google_drive">Google Drive</string>
+    <string name="cloud_common_settings">Allgemein</string>
+    <string name="cloud_upload_starred">Markierte Uploads</string>
+    <string name="cloud_upload_starred_summary">Aufnahmen hochladen in die Cloud wenn Sie einen Stern hinzufügen</string>
+
+    <string name="notify_uploading_dropbox">Hochladen in Dropbox</string>
+    <string name="notify_converting_to_amr">Konvertierung in AMR</string>
+    <string name="notify_converting_to_mp3">Konvertierung in MP3</string>
+    <string name="notify_encrypting">Verschlüsseln</string>
+    <string name="notify_decrypting">Entschlüsseln</string>
+    <string name="notify_waiting_for_calls">Warten auf Anrufe</string>
+    <string name="notify_tasks_remaining">%d Aufgaben verbleibend</string>
+
+    <string name="create_new_key_summary">Dieser Schlüssel wird später zum verschlüsseln von Aufzeichnungen benutzt oder für die App</string>
+    <string name="delete_key">Schlüssel löschen</string>
+    <string name="delete_key_summary">Warnung! Sie werden nicht mehr in der Lage sein Aufzeichnungen zu entschlüsseln, die mit diesem Schlüssel verschlüsselt wurden - auch nicht wenn Sie einen neuen Schlüssel mit gleichem Passwort erstellen</string>
     </resources>
