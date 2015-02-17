@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">CallRecorder</string>
+    <string name="app_name">Call Recorder</string>
     
     
 
@@ -219,7 +219,7 @@
     <!-- Settings -> Folders and Files -->
     <string name="folder">Mappa</string>
     
-    <string name="automatic_cleanup">Automatikus törlés</string>
+    <string name="automatic_cleanup">Automatikus takarítás</string>
     <string name="max_number_of_files">Fájlok max. száma</string>
     <string name="max_number_of_files_message">Írjon be egy számot (0 - korlátlan)</string>
     <string name="max_total_size_of_files">Fájlok max. mérete</string>
@@ -232,11 +232,11 @@
     <string name="time_pattern">Idő minta</string>
 
     <!-- Description for filename pattern -->
-    <string name="pattern_contact_name">Névjegy név</string>
+    <string name="pattern_contact_name">Névjegy neve</string>
     <string name="pattern_phone_number">Telefonszám</string>
     <string name="pattern_call_time">Hívás idő</string>
     
-    <string name="pattern_call_type">Hívás típusa (kimenó vagy bejövő)</string>
+    <string name="pattern_call_type">Hívás típusa (kimenő vagy bejövő)</string>
     <string name="time_pattern_hours">óra</string>
     <string name="time_pattern_minutes">perc</string>
     <string name="time_pattern_seconds">másodperc</string>
