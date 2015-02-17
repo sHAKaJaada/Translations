@@ -554,4 +554,5 @@
     <string name="button_buy">Compra</string>
     <string name="greek_translation">Traduzione greca</string>
     <string name="greek_translation_summary">di Lefteris (SomniusX) Eliades</string>
-</resources>
+<string name="records_size">Registrazioni: %1$s, Dimensione: %2$s</string>
+    </resources>
