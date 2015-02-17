@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">CallRecorder</string>
     
@@ -51,8 +51,8 @@
     
     <string name="menu_get_info">Info abrufen</string>
     
-    <string name="menu_encrypt">verschlüsseln</string>
-    <string name="menu_decrypt">entschlüsseln</string>
+    <string name="menu_encrypt">Verschlüsseln</string>
+    <string name="menu_decrypt">Entschlüsseln</string>
 
     <!-- List -> Get info dialog -->
     <string name="file_name">Dateiname</string>
@@ -74,7 +74,7 @@
     <string name="phone_number">Telefonnummer</string>
 
     <!-- List -> Confirm delete dialog -->
-    <string name="confirm_delete_message">Sind Sie sicher dass Sie die Aufzeichnung löschen wollen?</string>
+    <string name="confirm_delete_message">Sind Sie sicher, dass Sie die Aufzeichnung löschen wollen?</string>
     
     
 
@@ -93,7 +93,7 @@
     <string name="settings_about">Über</string>
 
     <!-- Settings -> License -->
-    <string name="license_status">Lizenz Status</string>
+    <string name="license_status">Lizenzstatus</string>
     
     
     
@@ -102,7 +102,7 @@
     
     
     
-    <string name="license_trial">Testversion, läuft %s aus</string>
+    <string name="license_trial">Testversion, läuft aus am %s</string>
     
     
     
@@ -126,9 +126,9 @@
     <string name="recording_method_api">Standard API</string>
     <string name="recording_method_api_settings">Einstellungen Standard API</string>
     <string name="recording_method_caf">CAF</string>
-    <string name="recording_method_caf_settings">Einstellungen für CAF Aufnahmen</string>
+    <string name="recording_method_caf_settings">Einstellungen für CAF</string>
     <string name="recording_method_alsa">ALSA</string>
-    <string name="recording_method_alsa_settings">Einstellungen ALSA-Aufzeichnung</string>
+    <string name="recording_method_alsa_settings">Einstellungen für ALSA</string>
     
     
     <string name="category_actions">Aktionen</string>
@@ -465,4 +465,104 @@
     <string name="belarusian_translation_summary">von Alexander Kuvshinov</string>
     <string name="vietnamese_translation">Vietnamesische Übersetzung</string>
     <string name="vietnamese_translation_summary">von Truong Hoang Trung</string>
-</resources>
+<string name="terms_of_use">Nutzungsbedingungen</string>
+    <string name="terms_of_use_message">Mit der Nutzung der App stimmen Sie den &lt;a href=http://rec.sh/terms&gt;Nutzungsbedingungen&lt;/a&gt; von CallRecorder zu.</string>
+
+    <string name="section_all_recordings">Alle Aufzeichnungen</string>
+    <string name="section_starred">Gekennzeichnet</string>
+    <string name="section_by_contact">Nach Kontakt</string>
+    <string name="section_by_format">Nach Format</string>
+    <string name="section_by_label">Nach Titel</string>
+    <string name="action_sort">Sortieren</string>
+    <string name="section_tasks_hint">Zeitaufwändige Prozesse wie Konvertieren, Verschlüsseln oder Hochladen in die Cloud werden hier angezeigt</string>
+    <string name="action_refresh">Aktualisieren</string>
+    <string name="action_delete">Löschen</string>
+    <string name="action_add_star">Markierung hinzufügen</string>
+    <string name="action_remove_star">Markierung entfernen</string>
+    <string name="action_share">Teilen</string>
+    <string name="action_cancel_tasks">Aufgabe abbrechen</string>
+    <string name="sort_by_date">Nach Datum</string>
+    <string name="sort_by_contact">Nach Kontakt</string>
+    <string name="sort_by_file_size">Nach Dateigröße</string>
+    <string name="records_size">Aufzeichnungen: %1$s, Größe: %2$s</string>
+    <string name="space_free_of">%1$s frei von %2$s</string>
+
+    <string name="list_header_today">Heute</string>
+    <string name="list_header_yesterday">Gestern</string>
+    <string name="queued">Eingereiht</string>
+    <string name="no_connection">Keine Verbindung</string>
+
+    <string name="menu_add_note">Notiz hinzufügen</string>
+    <string name="menu_edit_note">Notiz bearbeiten</string>
+    <string name="menu_share">Teilen</string>
+    <string name="menu_convert_to_mp3">Konvertieren in MP3</string>
+    <string name="menu_convert_to_amr">Konvertieren in AMR</string>
+    <string name="menu_cancel_task">Aufgabe abbrechen</string>
+    <string name="recording_type">Aufnahmetyp</string>
+    <string name="note">Notiz</string>
+
+    <string name="confirm_delete_several_title">Löschen bestätigen</string>
+    <string name="confirm_delete_several_message">Sie haben %d Aufzeichnungen ausgewählt. Sind Sie sicher, dass Sie diese löschen wollen?</string>
+
+    <string name="share_via">Teilen über</string>
+    <string name="settings_open_unlocker">Öffne Unlocker</string>
+    <string name="settings_cloud">Cloud</string>
+    <string name="license_check_pending">Lizenzprüfung ausstehend</string>
+    <string name="license_check_failed">Lizenzprüfung fehlgeschlagen</string>
+    <string name="license_check_failed_summary">Für mehr Informationen bitte hier berühren</string>
+    <string name="license_verified">Lizenz überprüft</string>
+    <string name="license_verified_summary">Berühren zum Verbergen</string>
+    <string name="license_help">Hilfe</string>
+    <string name="license_signature_verification_failed">Signaturprüfung fehlgeschlagen</string>
+    <string name="license_error_message">Fehler #%1$s: %2$s</string>
+    <string name="license_unknown_error">Unbekannter Fehler</string>
+    <string name="license_not_market_managed">Diese Version ist aktuell nicht im Play Store veröffentlicht</string>
+    <string name="license_incorrect_response">Fehlerhafte Lizenzrückmeldung aus dem Play Store</string>
+    <string name="license_error_contacting_server">Verbindungsfehler zum Server</string>
+    <string name="license_server_error">Serverfehler</string>
+    <string name="license_over_quota">Zu viele Anfragen von diesem Gerät</string>
+    <string name="license_trial_expired">Testzeitraum abgelaufen</string>
+    <string name="license_trial_expired_summary">Bitte deinstallieren Sie diese Version bevor Sie die Vollversion erwerben</string>
+
+    <string name="device_change_settings_empty">Die Einstellungen für dieses Gerät sind bereits erledigt</string>
+    <string name="device_root_is_required">Root wird benötigt</string>
+    <string name="device_root_is_required_summary">Für eine bessere Qualität wird root auf diesem Gerät benötigt</string>
+    <string name="recording_method_msm">MSM</string>
+    <string name="recording_method_msm_settings">Einstellungen für MSM</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="exceptions_summary">Definiere spezielle Aktion für Kontakte, Gruppen oder Telefonnummern</string>
+    <string name="start_recording_on_answer">Starte Aufzeichnung beim Annehmen</string>
+    <string name="start_recording_on_answer_summary">Starte einmalig die Aufzeichnung sobald ein ausgehendes Gespräch angenommen wird. Die App benutzt ein undokumentiertes Workaround um zu erkennen wann das Gespräch von der Gegenseite angenommen wird wodurch diese Funktion auf einigen Geräten fehlschlagen kann. Root wird seit Android 4.1 Jelly Bean benötigt. Der Logger im Kernel muss aktiviert sein.</string>
+    <string name="delay_before_start_recording_summary">Für Ausgehend: %1$s, Für Eingehend: %2$s</string>
+    <string name="delay_format_sec">%s sek</string>
+    <string name="delay_for_outgoing">Für Ausgehend</string>
+    <string name="delay_for_incoming">Für Eingehend</string>
+    <string name="settings_for_device">Einstellungen für %s</string>
+    <string name="recording_format">Aufzeichnungsformat</string>
+    <string name="volume_control_summary">Tx: %1$s, Rx: %2$s</string>
+    <string name="volume_control_overall">Gesamtlautstärke</string>
+    <string name="category_wav_and_mp3_settings">Einstellungen WAV &amp; MP3</string>
+
+    <string name="alsa_is_not_installed">ALSA muss installiert sein</string>
+    <string name="alsa_is_not_installed_summary">Hier berühren um ALSA zu installieren</string>
+
+    <string name="add_exception">Ausnahme hinzufügen</string>
+    <string name="exception_contact">Kontakt</string>
+    <string name="exception_select_contact">Wähle Kontakt</string>
+    <string name="exception_phone_number">Telefonnummer</string>
+    <string name="exception_action">Aktion</string>
+    <string name="exception_groups_not_found">Gruppen nicht gefunden</string>
+    <string name="exception_contacts_not_found">Kontakte nicht gefunden</string>
+    <string name="exceptions_not_added">Ausnahmen nicht hinzugefügt</string>
+    <string name="exception_by_contact">Nach Kontakt</string>
+    <string name="exception_by_group">Nach Gruppe</string>
+    <string name="exception_by_phone_number">Nach Telefonnummer</string>
+    <string name="exception_delete_message">Sind Sie sicher, dass Sie die Ausnahme löschen möchten?</string>
+
+    <string name="folder_chooser_up_to">↑ Bis zu %s</string>
+    <string name="settings_filename">Dateiname</string>
+    <string name="pattern_call_timestamp">Zeitstempel Anruf (Unix-Format)</string>
+    <string name="default_language">Standardsprache</string>
+    </resources>
