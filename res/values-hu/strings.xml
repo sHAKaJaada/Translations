@@ -259,8 +259,8 @@
     
     
     
-    <string name="show_button_while_ringing">Csengő gomb megjelenítése</string>
-    <string name="show_button_while_ringing_summary">Belső hívásvezérlő gomb megjelenítése mielőtt válaszolna a bejövő hívásra</string>
+    <string name="show_button_while_ringing">Gomb megjelenítése csengéskor</string>
+    <string name="show_button_while_ringing_summary">Belső hívásvezérlő gomb megjelenítése hívás fogadása előtt</string>
     <string name="vertical_position">Függőleges elhelyezés</string>
     
     <string name="horizontal_position">Vízszintes elhelyezés</string>
@@ -576,7 +576,7 @@
     <string name="pattern_call_timestamp">hívás ideje (Unix idő)</string>
     <string name="default_language">Alapértelmezett nyelv</string>
     <string name="show_notification_summary">Nem törlődő értesítés az állapotsorban</string>
-    <string name="hide_icon_but_keep_notification">Ikont elrejt, de értesítésben megtart</string>
+    <string name="hide_icon_but_keep_notification">Ikont elrejtése</string>
     <string name="hide_icon_but_keep_notification_summary">Ikon elrejtése az állapotsávból, de értesítésben megtart</string>
     <string name="category_incall_control_button">Belső-hívás vezérlő gomb</string>
     <string name="incall_control_for_outgoing_summary">Hívás-vezérlő gomb megjelenítése kimenő hívásnál</string>
@@ -603,7 +603,7 @@
     <string name="notify_converting_to_mp3">Konvertálás MP3-ba</string>
     <string name="notify_encrypting">Titkosítás</string>
     <string name="notify_decrypting">Dekódolás</string>
-    <string name="notify_waiting_for_calls">Hívások várakoztatása</string>
+    <string name="notify_waiting_for_calls">Hívásokra vár</string>
     <string name="notify_tasks_remaining">%d hátralevő feladatok</string>
 
     <string name="create_new_key_summary">Ezt a kulcsot fogja később használni a felvételek kódolásához vagy belépni az alkalmazásba</string>
