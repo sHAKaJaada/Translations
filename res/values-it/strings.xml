@@ -452,7 +452,7 @@
     <string name="thai_translation">Traduzione tailandese</string>
     <string name="thai_translation_summary">di Wuttisak Saichoncharn</string>
     <string name="georgian_translation">Traduzione georgiana</string>
-    <string name="georgian_translation_summary">di Alexandre Razmadze</string>
+    <string name="georgian_translation_summary">di Sandro Razmadze</string>
     <string name="catalan_translation">Traduzione catalana</string>
     <string name="catalan_translation_summary">di cybdani</string>
     <string name="hindi_translation">Traduzione hindi</string>
@@ -492,7 +492,7 @@
 
     <string name="notify_uploading_dropbox">Caricamento su DropBox</string>
     <string name="notify_waiting_for_calls">In attesa di chiamate</string>
-    <string name="notify_tasks_remaining">%d registrazioni rimanenti</string>
+    <string name="notify_tasks_remaining">%d operazioni rimanenti</string>
 
     <string name="create_new_key_summary">Questa chiave sarà utilizzata in seguito per cifrare le registrazioni o per avviare l\'app</string>
     <string name="delete_key">Cancella chiave</string>
@@ -538,4 +538,20 @@
     <string name="gujarati_translation_summary">di Abhishek Sharma</string>
     <string name="tamil_translation">Traduzione tamil</string>
     <string name="tamil_translation_summary">di Ashish Sharma</string>
+<string name="action_cancel_tasks">Annulla operazione</string>
+    <string name="space_free_of">%1$s liberi su %2$s</string>
+
+    <string name="settings_open_unlocker">Apri Unlocker</string>
+    <string name="license_trial_expired">Periodo di prova scaduto</string>
+    <string name="license_trial_expired_summary">Disinstallare questa versione prima di acquistarne una completa</string>
+
+    <string name="notify_converting_to_amr">Conversione in AMR</string>
+    <string name="notify_converting_to_mp3">Conversione in MP3</string>
+    <string name="notify_encrypting">Cifratura</string>
+    <string name="notify_decrypting">Decifratura</string>
+    <string name="send_logs_to_the_developer">Invia log allo sviluppatore</string>
+
+    <string name="button_buy">Compra</string>
+    <string name="greek_translation">Traduzione greca</string>
+    <string name="greek_translation_summary">di Lefteris (SomniusX) Eliades</string>
 </resources>
