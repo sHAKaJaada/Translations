@@ -599,4 +599,52 @@
     <string name="create_new_key_summary">Dieser Schlüssel wird später zum verschlüsseln von Aufzeichnungen benutzt oder für die App</string>
     <string name="delete_key">Schlüssel löschen</string>
     <string name="delete_key_summary">Warnung! Sie werden nicht mehr in der Lage sein Aufzeichnungen zu entschlüsseln, die mit diesem Schlüssel verschlüsselt wurden - auch nicht wenn Sie einen neuen Schlüssel mit gleichem Passwort erstellen</string>
-    </resources>
+    <string name="delete_key_message">Nach dem Löschen sind Sie nicht mehr in der Lage verschlüsselte Aufzeichnungen mit diesem Schlüssel wieder herzustellen. Sind Sie sicher das Sie fortsetzen wollen?</string>
+    <string name="require_password_summary_no_key">Passwortschutz beim Öffnen der App. Um die Funktion zu aktivieren müssen Sie zuerst einen Schlüssel generieren</string>
+    <string name="app_admin_summary">Notwendig um die Deinstallation von CallRecorder zu verhindern</string>
+    <string name="app_admin_explanation">Call Recorder benutzt keine Funktion des Geräteadministrators mit Ausnahme die Deinstallation zu verhindern</string>
+    <string name="use_built_in_player">Benutze eingebetteten Player</string>
+    <string name="audio_output_summary">%s (Langes Drücken der Play-/Pause-Schaltfläche schaltet auch um)</string>
+    <string name="use_proximity_sensor_summary">Deaktiviere Näherungssensor während der Wiedergabe</string>
+    <string name="switch_audio_output_summary">Automatische Audioumschaltung wenn der Bildschirm durch den Näherungssensor Ein- oder Ausgeschaltet wird</string>
+    <string name="send_logs_to_the_developer">Sende Logs an den Entwickler</string>
+
+    <string name="button_choose">Wähle</string>
+    <string name="button_call">Anruf</string>
+    <string name="button_buy">Kaufen</string>
+    <string name="button_create">Erstellen</string>
+    <string name="button_delete">Löschen</string>
+    <string name="button_keep">Bewahren</string>
+    <string name="button_play">Abspielen</string>
+    <string name="button_pause">Pause</string>
+    <string name="button_delete_wait">Löschen (%d)</string>
+    <string name="decline">Rückgängig</string>
+    <string name="accept">Akzeptieren</string>
+    <string name="call_incoming">Eingehend</string>
+    <string name="call_outgoing">Ausgehend</string>
+    <string name="action_mode_selected">%d ausgewählt</string>
+    <string name="toast_wait_for_operation_to_complete">Warten auf den Abschluss einer Aktion</string>
+    <string name="toast_recording_is_off">Aufzeichnung ist Ausgeschaltet</string>
+    <string name="toast_recording_is_on">Aufzeichnung ist Eingeschaltet</string>
+    <string name="toast_file_deleted">Datei wurde erfolgreich gelöscht</string>
+
+
+    <string name="open_contact">Öffne Kontakt</string>
+
+    <string name="waiting_for_answer">Warten auf Antwort</string>
+    <string name="recording_in_progress">Aufzeichnung läuft</string>
+    <string name="no_recording_in_progress">Aktuell keine Aufzeichnung</string>
+    <string name="about_call_recorder">Über Call Recorder</string>
+    <string name="about_ion_license">Ion</string>
+    <string name="about_ion_license_summary">Nutzt Ion unter der Apache Lizenz 2.0, hier berühren um github.com/koush/ion zu besuchen</string>
+    <string name="italian_translation_summary">von Luca Trevisan und Francesco Cafagna</string>
+    <string name="chinese_translation_summary">von qhq und Yu Fei</string>
+    <string name="armenian_translation">Armenische Übersetzung</string>
+    <string name="armenian_translation_summary">von Hakob Sununu und Konstantin Gevorgyan</string>
+    <string name="gujarati_translation">Gujaratische Übersetzung</string>
+    <string name="gujarati_translation_summary">von Abhishek Sharma</string>
+    <string name="tamil_translation">Tamilische Übersetzung</string>
+    <string name="tamil_translation_summary">von Ashish Sharma</string>
+    <string name="greek_translation">Griechische Übersetzung</string>
+    <string name="greek_translation_summary">von Lefteris (SomniusX) Eliades</string>
+</resources>
