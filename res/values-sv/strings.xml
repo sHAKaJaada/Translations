@@ -591,4 +591,21 @@
     <string name="gujarati_translation_summary">av Abhishek Sharma</string>
     <string name="tamil_translation">Tamilsk översättning</string>
     <string name="tamil_translation_summary">av Ashish Sharma</string>
+<string name="action_cancel_tasks">Avbryt uppgift</string>
+    <string name="records_size">inspelningar: %1$s, storlek: %2$s</string>
+    <string name="space_free_of">%1$s ledigt av %2$s</string>
+
+    <string name="settings_open_unlocker">Öppna Upplåsare</string>
+    <string name="license_trial_expired">Testperioden har gått ut</string>
+    <string name="license_trial_expired_summary">Var god avinstallera denna version innan köp av fullversion</string>
+
+    <string name="notify_converting_to_amr">Konverterar till AMR</string>
+    <string name="notify_converting_to_mp3">Konverterar till MP3</string>
+    <string name="notify_encrypting">Krypterar</string>
+    <string name="notify_decrypting">Dekrypterar</string>
+    <string name="send_logs_to_the_developer">Skicka loggar till utvecklaren</string>
+
+    <string name="button_buy">Köp</string>
+    <string name="greek_translation">Grekisk översättning</string>
+    <string name="greek_translation_summary">av Lefteris (SomniusX) Eliades</string>
 </resources>
