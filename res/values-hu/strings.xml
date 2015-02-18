@@ -641,7 +641,7 @@
 
     <string name="open_contact">Névjegy megnyitása</string>
 
-    <string name="waiting_for_answer">Hívásfogadásra várás</string>
+    <string name="waiting_for_answer">Hívásfogadásra vár</string>
     <string name="recording_in_progress">Felvétel folyamatban</string>
     <string name="no_recording_in_progress">Nincs felvétel folyamatban</string>
     <string name="about_call_recorder">Call Recorder névjegye</string>
