@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">ضبط مکالمات</string>
     
@@ -465,4 +465,96 @@
     
     
     
-</resources>
+<string name="terms_of_use">شرایط استفاده</string>
+    <string name="terms_of_use_message">با استفاده از این برنامه، شما با &lt;a href=http://rec.sh/terms&gt;شرایط استفاده&lt;/a&gt; آن موافقت می کنید</string>
+
+    <string name="navigation_drawer_open">گشودن منوی کشویی</string>
+    <string name="navigation_drawer_close">بستن منوی کشویی</string>
+
+    <string name="section_all_recordings">تمام ضبط شده ها</string>
+    <string name="section_starred">ستاره دارها</string>
+    <string name="section_by_contact">براساس مخاطب</string>
+    <string name="section_by_format">براساس فرمت</string>
+    <string name="section_by_label">براساس برچسب</string>
+    <string name="section_tasks_hint">وظایف زمانبر مانند تبدیل، رمزنگاری یا بارگذاری اینجا نمایش داده خواهند شد</string>
+    <string name="action_sort">چیدمان</string>
+    <string name="action_refresh">نوسازی</string>
+    <string name="action_delete">حذف</string>
+    <string name="action_add_star">ستاره دار کردن</string>
+    <string name="action_remove_star">بی ستاره کردن</string>
+    <string name="action_share">اشتراک گذاری</string>
+    <string name="action_cancel_tasks">لغو وظایف</string>
+    <string name="sort_by_date">براساس تاریخ</string>
+    <string name="sort_by_contact">براساس مخاطب</string>
+    <string name="sort_by_file_size">براساس سایز فایل</string>
+    <string name="list_header_today">امروز</string>
+    <string name="list_header_yesterday">دیروز</string>
+    <string name="queued">در صف</string>
+    <string name="no_connection">بدون اتصال</string>
+
+    <string name="menu_add_note">افزودن یادداشت</string>
+    <string name="menu_edit_note">ویرایش یادداشت</string>
+    <string name="menu_share">اشتراک گذاری</string>
+    <string name="menu_convert_to_mp3">تبدیل به MP3</string>
+    <string name="menu_convert_to_amr">تبدیل به AMR</string>
+    <string name="menu_cancel_task">لغو وظیفه</string>
+    <string name="recording_type">نوع ضبط</string>
+    <string name="note">یادداشت</string>
+
+    <string name="confirm_delete_several_title">تائید حذف</string>
+    <string name="confirm_delete_several_message">"شما  %d مکالمه ی ضبط شده را انتخاب کرده اید. برای حذف آن ها اطمینان دارید ؟"</string>
+
+    <string name="share_via">اشتراک گذاری توسط</string>
+    <string name="settings_open_unlocker">گشودن Unlocker</string>
+    <string name="settings_cloud">ابر</string>
+    <string name="license_check_pending">در انتظار بررسی مجوز</string>
+    <string name="license_check_failed">تائید مجوز ناموفق بود</string>
+    <string name="license_check_failed_summary">برای جزئیات اینجا را لمس کنید</string>
+    <string name="license_verified">مجوز تائید شد</string>
+    <string name="license_verified_summary">برای مخفی شدن لمس کنید</string>
+    <string name="license_help">کمک</string>
+    <string name="license_signature_verification_failed">تائید امضا ناموفق بود</string>
+    <string name="license_unknown_error">خطای شناخته نشده</string>
+    <string name="license_not_market_managed">این نسخه هنوز در فروشگاه گوگل منشتر نشده است</string>
+    <string name="license_incorrect_response">پاسخ نادرست از فروشگاه گوگل به مجوز</string>
+    <string name="license_error_contacting_server">خطا در اتصال به سرور</string>
+    <string name="license_server_error">خطای سرور</string>
+    <string name="license_over_quota">درخواست های زیادی از این دستگاه شده است</string>
+    <string name="license_trial_expired">دوره ی آزمایشی به اتمام رسیده است</string>
+    <string name="license_trial_expired_summary">لطفا، قبل از خرید نسخه ی کامل این نسخه را حذف کنید</string>
+
+    <string name="device_change_settings_empty">تنطیمات برای این دستگاه انجام شده است</string>
+    <string name="device_root_is_required">دسترسی به روت نیاز است</string>
+    <string name="device_root_is_required_summary">برای کیفیت بهتر در این دستگاه روت نیاز است</string>
+    <string name="recording_method_msm">MSM</string>
+    <string name="recording_method_msm_settings">تنطیمات ضبط به روش MSM</string>
+    <string name="exceptions_summary">اعمال تنطیمات خاص برای مخاطبین، گروه ها یا شماره ها</string>
+    <string name="start_recording_on_answer">شروع ضبط با پاسخ</string>
+    <string name="start_recording_on_answer_summary">شروع ضبط بعد از اینکه تماس شما پاسخ داده شد. برنامه از روش غیرمعمول برای تشخیض زمان پاسخ استفاده می کند، پس ممکن است در برخی دستگاه ها ناموفق باشد. دسترسی به روت نیاز است. لاگ گیری در کرنل باد فعال شده باشد.</string>
+    <string name="delay_format_sec">%s ثانیه</string>
+    <string name="delay_for_outgoing">برای تماس های خروجی</string>
+    <string name="delay_for_incoming">برای تماس های ورودی</string>
+    <string name="settings_for_device">"تنظیمات  %s"</string>
+    <string name="recording_format">فرمت ضبط</string>
+    <string name="volume_control_overall">صدا</string>
+    <string name="volume_control_tx">Tx</string>
+    <string name="volume_control_rx">Rx</string>
+    <string name="category_wav_and_mp3_settings">تنظیمات WAV &amp; MP3</string>
+
+    <string name="alsa_is_not_installed">ALSA باید نصب شده باشد</string>
+    <string name="alsa_is_not_installed_summary">برای نصب ALSA اینجا را لمس کنید</string>
+
+    <string name="add_exception">افزودن استثنا</string>
+    <string name="exception_contact">مخاطب</string>
+    <string name="exception_select_contact">انتخاب مخاطب</string>
+    <string name="exception_phone_number">شماره تلفن</string>
+    <string name="exception_action">اقدام</string>
+    <string name="exception_groups_not_found">گروه یافت نشد</string>
+    <string name="exception_contacts_not_found">مخاطب یافت نشد</string>
+    <string name="exceptions_not_added">استثنا افزوده شند</string>
+    <string name="exception_by_contact">براساس مخاطب</string>
+    <string name="exception_by_group">براساس گروه</string>
+    <string name="exception_by_phone_number">براساس شماره تلفن</string>
+    <string name="exception_delete_message">از حذف این استثنا اطمینان دارید ؟</string>
+
+    </resources>
