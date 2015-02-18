@@ -18,7 +18,7 @@
     <string name="section_by_label">Etikett</string>
     <string name="section_help">Hjälp</string>
     <string name="section_tasks">Ärenden</string>
-    <string name="section_tasks_hint">Här visas tidskrävande processer för inspelningar som konvertering, kryptering eller uppladdning till molntjänst</string>
+    <string name="section_tasks_hint">Här visas tidskrävande ärenden för inspelningar som konvertering, kryptering eller uppladdning till molntjänst</string>
     <string name="empty_hint">Tomt</string>
 
     <!-- Action bar -->
@@ -50,7 +50,7 @@
     <string name="menu_convert_to_mp3">Konvertera till MP3</string>
     <string name="menu_convert_to_amr">Konvertera till AMR</string>
     <string name="menu_get_info">Hämta info</string>
-    <string name="menu_cancel_task">Avbryt process</string>
+    <string name="menu_cancel_task">Avbryt ärende</string>
     <string name="menu_encrypt">Kryptera</string>
     <string name="menu_decrypt">Dekryptera</string>
 
@@ -139,7 +139,7 @@
     <string name="action_record_contacts">Spela in kontakter</string>
     <string name="action_record_non_contacts">Spela in icke-kontakter</string>
     <string name="call_confirm">Bekräfta uppringning</string>
-    <string name="call_confirm_summary">Visa bekräftelse-dialog innan uppringning</string>
+    <string name="call_confirm_summary">Fråga om bekräftelse innan uppringning</string>
     <string name="after_call_actions_dialog">Dialogruta efter samtal</string>
     <string name="after_call_actions_dialog_summary">Förfrågan om åtgärd efter samtal</string>
     <string name="vibrate_on_call">Vibrera vid start/avslut av samtal</string>
@@ -249,8 +249,8 @@
     <string name="language">Språk</string>
     <string name="select_language">Välj språk</string>
     
-    <string name="category_notification">Notifiering</string>
-    <string name="show_notification">Visa notifiering</string>
+    <string name="category_notification">Notifikation</string>
+    <string name="show_notification">Visa notifikation</string>
     
     
     <string name="incall_control_for_outgoing">För utgående samtal</string>
@@ -327,7 +327,7 @@
     
     <string name="main_speaker">Huvudhögtalare</string>
     <string name="phone_speaker">Telefonlur</string>
-    <string name="use_proximity_sensor">Använd närliggandesensor</string>
+    <string name="use_proximity_sensor">Använd närhetssensor</string>
     
     <string name="switch_audio_output">Byt ljudutgång</string>
     
@@ -510,10 +510,10 @@
     <string name="exception_action">Åtgärd</string>
     <string name="exception_groups_not_found">Grupper hittades ej</string>
     <string name="exception_contacts_not_found">Kontakter hittades ej</string>
-    <string name="exceptions_not_added">Undantag lades ej till</string>
-    <string name="exception_by_contact">Genom kontakt</string>
-    <string name="exception_by_group">Genom grupp</string>
-    <string name="exception_by_phone_number">Genom telefonnummer</string>
+    <string name="exceptions_not_added">Inga undantag tillagda</string>
+    <string name="exception_by_contact">Efter kontakt</string>
+    <string name="exception_by_group">Efter grupp</string>
+    <string name="exception_by_phone_number">Efter telefonnummer</string>
     <string name="exception_delete_message">Är du säker på att du vill radera detta undantag?</string>
 
     <string name="folder_chooser_up_to">↑ Upp till %s</string>
@@ -529,7 +529,7 @@
     <string name="hide_button_while_recording">Göm knapp vid inspelning</string>
     <string name="hide_button_while_recording_summary">Dölj kontrollknapp då samtalet spelas in</string>
     <string name="vertical_position_summary">%s dp, avstånd från skärmens center</string>
-    <string name="horizontal_position_summary">%s dp, offset från skärmens center</string>
+    <string name="horizontal_position_summary">%s dp, avstånd från skärmens center</string>
     <string name="hide_button_before_answer">Dölj knapp innan svar</string>
     <string name="long_press_action">Åtgärd för långtryck</string>
     <string name="long_press_action_dragging_the_button">Dragning av knappen</string>
@@ -541,11 +541,11 @@
     <string name="cloud_provider_google_drive">Google Drive</string>
     <string name="cloud_common_settings">Allmänt</string>
     <string name="cloud_upload_starred">Ladda upp stjärnmärkta</string>
-    <string name="cloud_upload_starred_summary">Ladda upp inspelning till moln då det stjärnmärkts</string>
+    <string name="cloud_upload_starred_summary">Ladda upp inspelningar till molntjänst efter stjärnmärkning</string>
 
     <string name="notify_uploading_dropbox">Laddar upp till Dropbox</string>
     <string name="notify_waiting_for_calls">Inväntar samtal</string>
-    <string name="notify_tasks_remaining">%d uppgifter kvarstår</string>
+    <string name="notify_tasks_remaining">%d ärenden kvarstår</string>
 
     <string name="create_new_key_summary">Denna nyckel används senare för att kryptera inspelningar och/eller öppna appen</string>
     <string name="delete_key">Ta bort nyckel</string>
@@ -555,7 +555,7 @@
     <string name="app_admin_summary">Krävs för att förhindra avinstallation av Call Recorder</string>
     <string name="app_admin_explanation">Call Recorder använder inte några funktioner av enhets-admin förutom att förhindra avinstallering</string>
     <string name="use_built_in_player">Använd inbyggd spelare</string>
-    <string name="audio_output_summary">%s (Långtryck på play/pause button kommer också att byta den)</string>
+    <string name="audio_output_summary">%s (Långtryck på play-/pauseknapp kommer också att byta utgång)</string>
     <string name="use_proximity_sensor_summary">Stäng av skärmen genom närhetssensor under uppspelning</string>
     <string name="switch_audio_output_summary">Byt ljudutgång automatiskt när skärmen stängs/startas genom närhetssensor</string>
     <string name="button_choose">Välj</string>
@@ -591,7 +591,7 @@
     <string name="gujarati_translation_summary">av Abhishek Sharma</string>
     <string name="tamil_translation">Tamilsk översättning</string>
     <string name="tamil_translation_summary">av Ashish Sharma</string>
-<string name="action_cancel_tasks">Avbryt uppgift</string>
+<string name="action_cancel_tasks">Avbryt ärenden</string>
     <string name="records_size">inspelningar: %1$s, storlek: %2$s</string>
     <string name="space_free_of">%1$s ledigt av %2$s</string>
 
