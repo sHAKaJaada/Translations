@@ -529,8 +529,8 @@
     <string name="device_root_is_required_summary">Für eine bessere Qualität wird root auf diesem Gerät benötigt</string>
     <string name="recording_method_msm">MSM</string>
     <string name="recording_method_msm_settings">Einstellungen für MSM</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Öffne Navigationsmenü</string>
+    <string name="navigation_drawer_close">Schließe Navigationsmenü</string>
 
     <string name="exceptions_summary">Definiere spezielle Aktion für Kontakte, Gruppen oder Telefonnummern</string>
     <string name="start_recording_on_answer">Starte Aufzeichnung beim Annehmen</string>
