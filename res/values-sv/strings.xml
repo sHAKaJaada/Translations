@@ -452,7 +452,7 @@
     <string name="thai_translation">Thailändsk översättning</string>
     <string name="thai_translation_summary">av Wuttisak Saichoncharn</string>
     <string name="georgian_translation">Georgisk översättning</string>
-    <string name="georgian_translation_summary">av Alexandre Razmadze</string>
+    <string name="georgian_translation_summary">av Sandro Razmadze</string>
     <string name="catalan_translation">Katalansk översättning</string>
     <string name="catalan_translation_summary">av cybdani</string>
     <string name="hindi_translation">Hindisk översättning</string>
@@ -545,7 +545,7 @@
 
     <string name="notify_uploading_dropbox">Laddar upp till Dropbox</string>
     <string name="notify_waiting_for_calls">Inväntar samtal</string>
-    <string name="notify_tasks_remaining">%d inspelningar kvarstår</string>
+    <string name="notify_tasks_remaining">%d uppgifter kvarstår</string>
 
     <string name="create_new_key_summary">Denna nyckel används senare för att kryptera inspelningar och/eller öppna appen</string>
     <string name="delete_key">Ta bort nyckel</string>
