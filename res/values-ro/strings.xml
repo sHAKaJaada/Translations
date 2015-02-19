@@ -88,8 +88,8 @@
     <string name="settings_ui_and_appearance">Interfață și Aspect</string>
     <string name="settings_security">Securitate</string>
     
-    <string name="settings_audio_player">Player audio</string>
-    <string name="settings_debug">Debug</string>
+    <string name="settings_audio_player">Sistem de redare audio</string>
+    <string name="settings_debug">Depanare</string>
     <string name="settings_about">Despre</string>
 
     <!-- Settings -> License -->
@@ -332,9 +332,9 @@
     <string name="switch_audio_output">Schimbă ieșirea audio</string>
     
     <string name="android_wav_decoder">Decodor Android pentru WAV</string>
-    <string name="android_wav_decoder_summary">Utilizează unealta internă Android pentru a reda WAV</string>
+    <string name="android_wav_decoder_summary">Utilizează sistem intern Android pentru a reda WAV</string>
     <string name="android_amr_decoder">Decodor Android pentru AMR</string>
-    <string name="android_amr_decoder_summary">Utilizează unealta internă Android pentru redare AMR</string>
+    <string name="android_amr_decoder_summary">Utilizează sistem intern Android pentru redare AMR</string>
 
     <!--Settings -> Debug-->
     <string name="root_access">Acces root</string>
@@ -396,7 +396,7 @@
     <string name="about_alsa">ALSA</string>
     <string name="about_alsa_summary">Se utilizează ALSA sub LGPL, apasă aici pentru a vizita alsa-project.org</string>
     <string name="about_lame">LAME</string>
-    <string name="about_lame_summary">Se utilizează LAME sub LGPL, dă-i click aici pentru a vizita mp3dev.org</string>
+    <string name="about_lame_summary">Se utilizează LAME sub LGPL, apasă aici pentru a vizita mp3dev.org</string>
 
     <!--Credits-->
     <string name="german_translation">Traducerea în Germană</string>
@@ -411,13 +411,13 @@
     <string name="spanish_translation_summary">de Iñigo Garcia and Diego Vilas</string>
     <string name="slovak_translation">Traducerea în Slovacă</string>
     <string name="slovak_translation_summary">de Loránt Gerencsér</string>
-    <string name="italian_translation">Traducere în Italiană</string>
+    <string name="italian_translation">Traducerea în Italiană</string>
     
     <string name="persian_translation">Traducerea în Persană</string>
     <string name="persian_translation_summary">de Alireza Afkar</string>
     <string name="chinese_translation">Traducerea în Chineză</string>
     
-    <string name="czech_translation">Tradicerea în Cehă</string>
+    <string name="czech_translation">Traducerea în Cehă</string>
     <string name="czech_translation_summary">de Ales Kerner and Lukas Waldauf</string>
     <string name="arabic_translation">Traducerea în Arabă</string>
     <string name="arabic_translation_summary">de Ausama S. Ibrahim</string>
@@ -435,11 +435,11 @@
     <string name="korean_translation_summary">de SoHyunSeop și Joon Hee Jo</string>
     <string name="romanian_translation">Traducerea în Română</string>
     <string name="romanian_translation_summary">de Dan P. (sad)</string>
-    <string name="ukrainian_translation">Traducere în Ucraineană</string>
+    <string name="ukrainian_translation">Traducerea în Ucraineană</string>
     <string name="ukrainian_translation_summary">de Gennadi Samoluk</string>
     <string name="traditional_chinese_translation">Traducerea în Chineză</string>
     <string name="traditional_chinese_translation_summary">de GPF_kaibird și Chien Jung Liaw</string>
-    <string name="japanese_translation">Traducera în Japoneză</string>
+    <string name="japanese_translation">Traducerea în Japoneză</string>
     <string name="japanese_translation_summary">de Akira Tagoh</string>
     <string name="swedish_translation">Traducerea în Suedeză</string>
     <string name="swedish_translation_summary">de Johannes Sjölund</string>
@@ -447,7 +447,7 @@
     <string name="bulgarian_translation_summary">de PROXIMO</string>
     <string name="danish_translation">Traducerea în Daneză</string>
     <string name="danish_translation_summary">de Lars Sarauw Hansen</string>
-    <string name="latvian_translation">Trfaducerea în Letonă</string>
+    <string name="latvian_translation">Traducerea în Letonă</string>
     <string name="latvian_translation_summary">de Arvīds Dreimanis</string>
     <string name="thai_translation">Traducerea în Tailandeză</string>
     <string name="thai_translation_summary">de Wuttisak Saichoncharn</string>
@@ -477,7 +477,7 @@
     <string name="section_by_format">După format</string>
     <string name="section_by_label">După etichetă</string>
     <string name="action_sort">Sortează</string>
-    <string name="section_tasks_hint">Task-urile \"Time-consuming\" cu înregistrări de tip convertire, encriptare sau upload într-un cloud vor fi afișate aici</string>
+    <string name="section_tasks_hint">Sarcinile \"Time-consuming\" cu înregistrări de tip convertire, encriptare sau upload într-un cloud vor fi afișate aici</string>
     <string name="action_refresh">Reîmprospătare</string>
     <string name="action_delete">Șterge</string>
     <string name="action_add_star">Adaugă stea</string>
@@ -606,7 +606,7 @@
     <string name="require_password_summary_no_key">Se solicită parola pentru a deschide aplicația. Pentru a activa acest lucru ar trebui să creezi o cheie în primul rând</string>
     <string name="app_admin_summary">Necesar pentru a preveni dezinstalarea Call Recorder</string>
     <string name="app_admin_explanation">Call Recorder nu folosește nici un element de administrare a dispozitivului, cu excepția protejării la dezinstalare</string>
-    <string name="use_built_in_player">Utilizează player de redare intern</string>
+    <string name="use_built_in_player">Utilizează sistem redare audio internă</string>
     <string name="audio_output_summary">%s (apasă lung pe butonul de redare/pauză și se va schimba la fel de bine)</string>
     <string name="use_proximity_sensor_summary">Dezactivare ecran de către senzorul de proximitate în timpul redării</string>
     <string name="switch_audio_output_summary">Comută automat ieșirea audio atunci când ecranul este dezactivat/activat de către senzorul de proximitate</string>
