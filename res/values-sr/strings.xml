@@ -486,7 +486,7 @@
     <string name="license_trial">Пробни период истиче %s</string>
     <string name="license_unknown_error">Непозната грешка</string>
     <string name="license_not_market_managed">Ова верзија још увек није објављена на Play Store</string>
-    <string name="license_incorrect_response">Неисправан одговор о лиценци са Play Store</string>
+    <string name="license_incorrect_response">Неисправан Play Store одговор о лиценци</string>
     <string name="license_error_contacting_server">Грешка приликом контактирања сервера</string>
     <string name="license_server_error">Грешка сервера</string>
     <string name="license_over_quota">Превише захтева са овог уређаја</string>
@@ -508,7 +508,7 @@
     <string name="settings_for_device">Подешавања за %s</string>
     <string name="recording_format">Формат снимка</string>
     <string name="volume_control_summary">Tx: %1$s, Rx: %2$s</string>
-    <string name="volume_control_overall">Главна јачина</string>
+    <string name="volume_control_overall">Главна јачина звука</string>
     <string name="navigation_drawer_open">Отворити навигациони мени</string>
     <string name="navigation_drawer_close">Затворити навигациони мени</string>
 
