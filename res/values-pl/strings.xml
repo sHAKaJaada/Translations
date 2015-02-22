@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">CallRecorder</string>
     
@@ -360,7 +360,7 @@
     
     
     
-    <string name="please_wait">Proszę czekać...</string>
+    <string name="please_wait">Proszę czekać…</string>
     
     <string name="start_recording">Nagrywania</string>
     <string name="stop_recording">Nagrywanie zakończone</string>
@@ -465,4 +465,147 @@
     
     
     
-</resources>
+<string name="terms_of_use">Warunki korzystania</string>
+    <string name="terms_of_use_message">Korzystając z aplikacji,  zgadzasz się z CallRecorder na &lt;a href=http://rec.sh/terms&gt;Warunki korzystania&lt;/a&gt;.</string>
+
+    <string name="navigation_drawer_open">Otwórz stronę nawigacji</string>
+    <string name="navigation_drawer_close">Zamknij stronę nawigacji</string>
+
+    <string name="section_all_recordings">Wszystkie nagrania</string>
+    <string name="section_starred">Ulubione</string>
+    <string name="section_by_contact">Po kontakcie</string>
+    <string name="section_by_format">Po formacie</string>
+    <string name="section_by_label">Po etykiecie</string>
+    <string name="section_tasks_hint">Czasochłonne zadania z nagraniami, takie jak konwertowanie, szyfrowanie lub przesyłanie do chmury, będą wyświetlane tutaj</string>
+    <string name="action_sort">Sortowanie</string>
+    <string name="action_refresh">Odśwież</string>
+    <string name="action_delete">Usuń</string>
+    <string name="action_add_star">Dodaj gwiazdkę</string>
+    <string name="action_remove_star">Usuń gwiazdkę</string>
+    <string name="action_share">Udostępnij</string>
+    <string name="action_cancel_tasks">Anuluj zadania</string>
+    <string name="sort_by_date">Po dacie</string>
+    <string name="sort_by_contact">Po kontakcie</string>
+    <string name="sort_by_file_size">Po wielkości pliku</string>
+    <string name="records_size">nagranie: %1$s, rozmiar: %2$s</string>
+    <string name="space_free_of">%1$s wolnych z %2$s</string>
+
+    <string name="list_header_today">Dziś</string>
+    <string name="list_header_yesterday">Wczoraj</string>
+    <string name="queued">W kolejce</string>
+    <string name="no_connection">Brak połączenia</string>
+
+    <string name="menu_add_note">Dodaj notatkę</string>
+    <string name="menu_edit_note">Edytuj notatkę</string>
+    <string name="menu_share">Udostępnij</string>
+    <string name="menu_convert_to_mp3">Konwertuj na MP3</string>
+    <string name="menu_convert_to_amr">Konwertuj na AMR</string>
+    <string name="menu_cancel_task">Anuluj zadanie</string>
+    <string name="recording_type">Typ nagrania</string>
+    <string name="note">Notatka</string>
+
+    <string name="confirm_delete_several_title">Potwierdź usunięcie</string>
+    <string name="confirm_delete_several_message">Wybrałeś %d nagrań. Czy na pewno chcesz je usunąć?</string>
+
+    <string name="share_via">Udostępnij przez</string>
+    <string name="settings_open_unlocker">Otwórz Unlocker</string>
+    <string name="settings_cloud">Chmura</string>
+    <string name="license_check_pending">Trwa sprawdzanie licencji</string>
+    <string name="license_check_failed">Błąd weryfikacji licencji</string>
+    <string name="license_check_failed_summary">Naciśnij by poznać szczegóły</string>
+    <string name="license_verified">Licencja zweryfikowana</string>
+    <string name="license_verified_summary">Naciśnij, aby ukryć</string>
+    <string name="license_help">Pomoc</string>
+    <string name="license_signature_verification_failed">Weryfikacja podpisu nie powiodła się</string>
+    <string name="license_error_message">Błąd #%1$s: %2$s</string>
+    <string name="license_unknown_error">Nieznany błąd</string>
+    <string name="license_not_market_managed">Ta wersja nie jest jeszcze dostępna na stronie Sklepu Play</string>
+    <string name="license_incorrect_response">Nieprawidłowa odpowiedź licencji z Sklepu Play</string>
+    <string name="license_error_contacting_server">Błąd połączenia z serwerem</string>
+    <string name="license_server_error">Błąd serwera</string>
+    <string name="license_over_quota">Zbyt wiele żądań z tego urządzenia</string>
+    <string name="license_trial_expired">Upłynął okres próbny</string>
+    <string name="license_trial_expired_summary">Proszę odinstalować tę wersję przed zakupem pełnej wersji</string>
+
+    <string name="device_change_settings_empty">Ustawienia dla tego urządzenia są już skonfigurowane</string>
+    <string name="device_root_is_required">"Wymagany  Root"</string>
+    <string name="device_root_is_required_summary">Dla lepszej jakości potrzebny jest Root na tym urządzeniu</string>
+    <string name="recording_method_msm">MSM</string>
+    <string name="recording_method_msm_settings">Ustawiania dla metody nagrywania MSM</string>
+    <string name="exceptions_summary">Ustaw specyficzne działania dla kontaktów, grup lub numerów telefonu</string>
+    <string name="start_recording_on_answer">Rozpocznij nagrywanie po odpowiedzi rozmówcy</string>
+    <string name="start_recording_on_answer_summary">Rozpocznij nagrywanie, gdy wychodzące połączenie zostanie odebrane. Aplikacja wykorzystuje nieudokumentowane obejście wykrywające moment, gdy rozmówca odpowie, więc funkcja ta może nie działać na niektórych urządzeniach. Root jest wymagany, od czasu Android 4.1 Jelly Bean, ponieważ rejestrator w kernelu musi być włączony.</string>
+    <string name="delay_before_start_recording_summary">Dla wychodzących: %1$s, Dla przychodzących: %2$s</string>
+    <string name="delay_format_sec">%s sekund</string>
+    <string name="delay_for_outgoing">Dla wychodzących</string>
+    <string name="delay_for_incoming">Dla przychodzących</string>
+    <string name="settings_for_device">Ustawienia dla %s</string>
+    <string name="recording_format">Format nagrania</string>
+    <string name="volume_control_summary">Funkcja Tx: %1$s, Funkcja Rx: %2$s</string>
+    <string name="volume_control_overall">Poziom głośności</string>
+    <string name="volume_control_tx">Funkcja TX</string>
+    <string name="volume_control_rx">Funkcja Rx</string>
+    <string name="category_wav_and_mp3_settings">Ustawienia dla WAV &amp; MP3</string>
+
+    <string name="alsa_is_not_installed">Należy zainstalować ALSA</string>
+    <string name="alsa_is_not_installed_summary">Stuknij tutaj, aby zainstalować ALSA</string>
+
+    <string name="add_exception">Dodaj wyjątek</string>
+    <string name="exception_contact">Kontakt</string>
+    <string name="exception_select_contact">Wybierz kontakt</string>
+    <string name="exception_phone_number">Numer telefonu</string>
+    <string name="exception_action">Akcja</string>
+    <string name="exception_groups_not_found">Nie znaleziono grup</string>
+    <string name="exception_contacts_not_found">Nie znaleziono kontaktów</string>
+    <string name="exceptions_not_added">Wyjątki nie zostały dodane</string>
+    <string name="exception_by_contact">Po kontakcie</string>
+    <string name="exception_by_group">Po grupie</string>
+    <string name="exception_by_phone_number">Po numerze telefonu</string>
+    <string name="exception_delete_message">Czy na pewno chcesz usunąć ten wyjątek?</string>
+
+    <string name="folder_chooser_up_to">↑ Aż do %s</string>
+    <string name="settings_filename">Nazwa pliku</string>
+    <string name="pattern_call_timestamp">znacznik czasu połączenia (czas Unix)</string>
+    <string name="default_language">Język domyślny</string>
+    <string name="show_notification_summary">Stałe powiadomienie na pasku statusu</string>
+    <string name="hide_icon_but_keep_notification">Ukryj ikonę, ale zachować powiadomienie</string>
+    <string name="hide_icon_but_keep_notification_summary">Ukryj ikonę, ale zachowaj powiadomienie w pasku statusu</string>
+    <string name="category_incall_control_button">Przycisk kontrolny połączenia</string>
+    <string name="incall_control_for_outgoing_summary">Pokaż przycisk kontrolny połączenia w trakcie rozmów wychodzących</string>
+    <string name="incall_control_for_incoming_summary">Pokaż przycisk kontrolny połączenia w trakcie rozmów przychodzących</string>
+    <string name="hide_button_while_recording">Ukryj przycisk podczas nagrywania</string>
+    <string name="hide_button_while_recording_summary">Ukryj przycisk kontrolny połączenia, gdy rozmowa jest nagrywana</string>
+    <string name="vertical_position_summary">%s dp, odsunięcie od środka ekranu</string>
+    <string name="horizontal_position_summary">%s dp, odsunięcie od środka ekranu</string>
+    <string name="hide_button_before_answer">Ukryj przycisk przed odpowiedzią</string>
+    <string name="long_press_action">Działanie długiego naciśnięcia</string>
+    <string name="long_press_action_dragging_the_button">Przeciągnięcie przycisku</string>
+    <string name="long_press_action_hang_up">Rozłącz się i automatycznie oddzwoń</string>
+
+    <string name="cloud_provider">Dostawca chmury</string>
+    <string name="sign_in_dropbox">Zaloguj się do Dropbox\'a</string>
+    <string name="sign_out_dropbox">Wyloguj się z Dropbox\'a</string>
+    <string name="cloud_provider_google_drive">Dysk Google</string>
+    <string name="cloud_common_settings">Wspólne</string>
+    <string name="cloud_upload_starred">Wyślij ulubione</string>
+    <string name="cloud_upload_starred_summary">"Prześlij  nagranie do chmury po dodaniu do niego gwiazdki"</string>
+
+    <string name="notify_uploading_dropbox">Wysyłanie do Dropbox\'a</string>
+    <string name="notify_converting_to_amr">Konwertowanie na AMR</string>
+    <string name="notify_converting_to_mp3">Konwertowanie na MP3</string>
+    <string name="notify_encrypting">Szyfrowanie</string>
+    <string name="notify_decrypting">Odszyfrowanie</string>
+    <string name="notify_waiting_for_calls">Oczekiwanie na rozmowę</string>
+    <string name="notify_tasks_remaining">%d pozostałe zadania</string>
+
+    <string name="create_new_key_summary">"Ten klucz będzie używany później do szyfrowania nagrań  lub by otworzyć aplikację"</string>
+    <string name="delete_key">Skasuj klucz</string>
+    <string name="delete_key_summary">"Ostrzeżenie! Nigdy nie będziesz w stanie odzyskać zaszyfrowanych nagrań, jeśli  zaszyfrowałeś je za pomocą tego klucza, nawet jeśli utworzysz nowy klucz za pomocą tego samego hasła"</string>
+    <string name="delete_key_message">"Po skasowaniu nie będzie w stanie odzyskać  nagrań zaszyfrowanych za pomocą tego klucza. Czy na pewno chcesz kontynuować?"</string>
+    <string name="require_password_summary_no_key">Wymagane hasło, aby otworzyć aplikację. Żeby to umożliwić należy najpierw utworzyć klucz</string>
+    <string name="app_admin_summary">Konieczne, aby zapobiec odinstalowaniu Call Recorder</string>
+    <string name="app_admin_explanation">Call Recorder nie korzysta z jakiejkolwiek funkcji administratora urządzenia, z wyjątkiem ochrony przed deinstalacją</string>
+    <string name="use_built_in_player">Użyj wbudowanego odtwarzacza</string>
+    <string name="audio_output_summary">%s ( Naciśnij długo przycisk play/pause w celu przełączenia)</string>
+    <string name="use_proximity_sensor_summary">Wyłącz ekran za pomocą czujnika zbliżeniowego podczas odtwarzania</string>
+    </resources>
