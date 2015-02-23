@@ -557,4 +557,100 @@
     <string name="exception_by_phone_number">براساس شماره تلفن</string>
     <string name="exception_delete_message">از حذف این استثنا اطمینان دارید ؟</string>
 
-    </resources>
+    <string name="records_size">ضبط شده ها: %1$, حجم: %2$</string>
+    <string name="space_free_of">%1$ خالی از %2$</string>
+
+    <string name="license_error_message">خطا #%1$: %2$</string>
+    <string name="delay_before_start_recording_summary">تماس های گرفته شده: %1$, تماس های دریافت شده: %2$</string>
+    <string name="volume_control_summary">Tx: %1$, Rx: %2$</string>
+    <string name="folder_chooser_up_to">↑ بالا به %s</string>
+    <string name="settings_filename">نام فایل</string>
+    <string name="pattern_call_timestamp">زمان تماس</string>
+    <string name="default_language">زبان پیشفرض</string>
+    <string name="show_notification_summary">اعلان همیشگی در نوار وضعیت</string>
+    <string name="hide_icon_but_keep_notification">اعلان بدون آیکون</string>
+    <string name="hide_icon_but_keep_notification_summary">حفظ اعلان در نوار وضعیت بدون آیکون</string>
+    <string name="category_incall_control_button">کنترل حین تماس</string>
+    <string name="incall_control_for_outgoing_summary">نمایش دکمه کنترل حین تماس برای تماس های خروجی</string>
+    <string name="incall_control_for_incoming_summary">نمایش دکمه کنترل حین تماس برای تماس های ورودی</string>
+    <string name="hide_button_while_recording">عدم نمایش دکمه در زمان ضبط</string>
+    <string name="hide_button_while_recording_summary">پنهان کردن دکمه کنترل زمانیکه ضبط شروع شد</string>
+    <string name="vertical_position_summary">%s dp, فاصله از وسط صفحه</string>
+    <string name="horizontal_position_summary">%s dp, فاصله از وسط صفحه</string>
+    <string name="hide_button_before_answer">پنهان کردن دکمه قبل از پاسخ</string>
+    <string name="long_press_action">عمل فشار طولانی</string>
+    <string name="long_press_action_dragging_the_button">جابجایی دکمه</string>
+    <string name="long_press_action_hang_up">قطع و تماس مجدد بطور خودکار</string>
+
+    <string name="cloud_provider">ارائه دهنده ی فضای ابری</string>
+    <string name="sign_in_dropbox">ورود به دراپ باکس</string>
+    <string name="sign_out_dropbox">خروج از دراپ باکس</string>
+    <string name="cloud_provider_google_drive">گوگل درایو</string>
+    <string name="cloud_common_settings">عمومی</string>
+    <string name="cloud_upload_starred">بارگذاری ستاره دارها</string>
+    <string name="cloud_upload_starred_summary">وقتی مکالمه ای را ستاره دار کردید در فضای ابری بارگذاری شود</string>
+
+    <string name="notify_uploading_dropbox">درحال بارگذاری در دراپ باکس</string>
+    <string name="notify_converting_to_amr">درحال تبدیل به AMR</string>
+    <string name="notify_converting_to_mp3">درحال تبدیل به MP3</string>
+    <string name="notify_encrypting">درحال رمزنگاری</string>
+    <string name="notify_decrypting">درحال رمزگشایی</string>
+    <string name="notify_waiting_for_calls">منتظر تماس</string>
+    <string name="notify_tasks_remaining">%d وظیفه باقی مانده</string>
+
+    <string name="create_new_key_summary">این کلید برای رمزنگاری و ورود به برنامه استفاده می شود</string>
+    <string name="delete_key">حذف کلید</string>
+    <string name="delete_key_summary">اخطار! شما هرگز قادر به بازگردانی مکالمه های رمزنگاری شده با این کلید نخواهید بود، حتی اگر یک کلید جدید با همان رمز بسازید</string>
+    <string name="delete_key_message">بعد از حذف شما قادر به بازگردانی مکالمه های رمزنگاری شده با این کلید نخواهید بود. از انجام این کار اطمینان دارید ؟</string>
+    <string name="require_password_summary_no_key">برای ورود به برنامه رمز نیاز خواهد بود. برای این کار ابتدا باید یک کلید بسازید</string>
+    <string name="app_admin_summary">برای جلوگیری از حذف برنامه ضروری است</string>
+    <string name="app_admin_explanation">این برنامه تنها از ویژگی ممانعت از حذف مدیر دستگاه استفاده خواهد کرد</string>
+    <string name="use_built_in_player">استفاده از پخش کننده داخلی</string>
+    <string name="audio_output_summary">%s (فشار طولانی روی دکمه پخش/ایست نیز این تغییر را اعمال می کند)</string>
+    <string name="use_proximity_sensor_summary">خاموش کردن صفحه هنگام پخش با سنسور مجاورت</string>
+    <string name="switch_audio_output_summary">تغییر خودکار خروجی صدا با استفاده از سنسور مجاورت</string>
+    <string name="send_logs_to_the_developer">ارسال لاگ ها به توسعه دهنده</string>
+
+    <string name="button_choose">انتخاب</string>
+    <string name="button_call">تماس</string>
+    <string name="button_buy">خرید</string>
+    <string name="button_create">ساخت</string>
+    <string name="button_delete">حذف</string>
+    <string name="button_keep">حفظ</string>
+    <string name="button_play">پخش</string>
+    <string name="button_pause">توقف</string>
+    <string name="button_delete_wait">حذف (%d)</string>
+    <string name="decline">رد</string>
+    <string name="accept">قبول</string>
+    <string name="call_incoming">ورودی</string>
+    <string name="call_outgoing">خروجی</string>
+    <string name="action_mode_selected">%d انتخاب شده</string>
+    <string name="toast_wait_for_operation_to_complete">منتظر باشید</string>
+    <string name="toast_recording_is_off">ضبط غیرفعال است</string>
+    <string name="toast_recording_is_on">ضبط فعال است</string>
+    <string name="toast_file_deleted">فایل با موفقیت حذف شد</string>
+
+
+    <string name="open_contact">نمایش مخاطب</string>
+
+    <string name="waiting_for_answer">درانتظار پاسخ</string>
+    <string name="recording_in_progress">درحال ضبط</string>
+    <string name="no_recording_in_progress">چیزی برای ضبط نیست</string>
+    <string name="about_call_recorder">درباره این برنامه</string>
+    <string name="about_ion_license">Ion</string>
+    <string name="about_ion_license_summary">استفاده شده از Ion، برای جزئیات بیشتر کلیک کنید</string>
+    <string name="italian_translation_summary">Luca Trevisan و Francesco Cafagna</string>
+    <string name="chinese_translation_summary">qhq وYu Fei</string>
+    <string name="belarusian_translation">ترجمه بلاروسی</string>
+    <string name="belarusian_translation_summary">Alexander Kuvshinov</string>
+    <string name="vietnamese_translation">ترجمه ویتنامی</string>
+    <string name="vietnamese_translation_summary">Truong Hoang Trung</string>
+    <string name="armenian_translation">ترجمه ارمنی</string>
+    <string name="armenian_translation_summary">Hakob Sununu و Konstantin Gevorgyan</string>
+    <string name="gujarati_translation">ترجمه گجراتی</string>
+    <string name="gujarati_translation_summary">Abhishek Sharma</string>
+    <string name="tamil_translation">ترجمه تامیل</string>
+    <string name="tamil_translation_summary">Ashish Sharma</string>
+    <string name="greek_translation">ترجمه یونانی</string>
+    <string name="greek_translation_summary">Lefteris (SomniusX) Eliades</string>
+</resources>
