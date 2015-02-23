@@ -544,7 +544,7 @@
     <string name="cloud_upload_starred_summary">Ladda upp inspelningar till molntjänst efter stjärnmärkning</string>
 
     <string name="notify_uploading_dropbox">Laddar upp till Dropbox</string>
-    <string name="notify_waiting_for_calls">Inväntar samtal</string>
+    <string name="notify_waiting_for_calls">Väntar på samtal</string>
     <string name="notify_tasks_remaining">%d ärenden kvarstår</string>
 
     <string name="create_new_key_summary">Denna nyckel används senare för att kryptera inspelningar och/eller öppna appen</string>
