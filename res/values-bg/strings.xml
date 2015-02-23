@@ -1,38 +1,44 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CallRecorder</string>
-    
-    
+    <string name="terms_of_use">Условия за ползване</string>
+    <string name="terms_of_use_message">Използвайки приложението, вие се съгласявате с &lt;a href=http://rec.sh/terms&gt;условията за ползване&lt;/a&gt; на CallRecorder</string>
 
     <!-- Navigation drawer -->
-    
-    
+    <string name="navigation_drawer_open">Отвори навигационния панел</string>
+    <string name="navigation_drawer_close">Затвори навигационния панел</string>
 
     <!-- Navigation drawer sections -->
-    
-    
+    <string name="section_all_recordings">Всички записи</string>
+    <string name="section_starred">Важни</string>
     <string name="section_incoming">Входящи</string>
     <string name="section_outgoing">Изходящи</string>
-    
-    
-    
+    <string name="section_by_contact">По контакт</string>
+    <string name="section_by_format">По формат</string>
+    <string name="section_by_label">По етикет</string>
     <string name="section_help">Помощ</string>
     <string name="section_tasks">Задачи</string>
-    
+    <string name="section_tasks_hint">По-бавните задачи, като конвертиране, криптиране или качване в облак ще бъдат визуализирани тук</string>
     <string name="empty_hint">Празно</string>
 
     <!-- Action bar -->
     <string name="action_search">Търсене</string>
-    
+    <string name="action_sort">Подредба</string>
     <string name="action_settings">Настройки</string>
-    
-    
-    
-    
-    
+    <string name="action_refresh">Опресняване</string>
+    <string name="action_delete">Изтриване</string>
+    <string name="action_add_star">Отбележи като важно</string>
+    <string name="action_remove_star">Махни от важни</string>
+    <string name="action_share">Споделяне</string>
+    <string name="action_cancel_tasks">Отмени задачи</string>
     <string name="action_select_all">Избери всички</string>
+    <string name="sort_by_date">По дата</string>
+    <string name="sort_by_contact">По контакт</string>
+    <string name="sort_by_file_size">По големина</string>
     
     
+
+    <!--Import settings -->
     
 
     <!-- List -->
@@ -83,6 +89,7 @@
     <string name="recorded_calls">Записани разговори</string>
 
     <!--  Settings -> Headers -->
+    
     <string name="settings_recording">Записване</string>
     <string name="settings_folders_and_files">Файлове и папки</string>
     <string name="settings_ui_and_appearance">Интерфейс</string>
@@ -109,7 +116,8 @@
     
     
     
-
+    
+    
     <string name="buy_full_version">Купи пълна версия</string>
     <string name="buy_full_version_summary">Тази версия ще изтече на %s</string>
 
@@ -180,6 +188,13 @@
     <string name="api_source_voice_communication">Гласова комуникация</string>
     <string name="category_wav_settings">WAV настройки</string>
     
+    <string name="when_bt_connected">При включване на BT...</string>
+    <string name="audio_source_when_bt_connected">Аудио източник когато BT е свързан</string>
+
+    <!-- Actions when BT connected -->
+    <string name="when_bt_connected_do_nothing">Не прави нищо</string>
+    <string name="when_bt_connected_switch_source">Смени аудио източника</string>
+    <string name="when_bt_connected_disable_recording">Забрани записването</string>
 
     <!-- Settings -> Recording -> CAF -->
     <string name="recording_mode">Вид на записване</string>
@@ -200,6 +215,7 @@
     <!-- Settings -> Recording -> Exceptions -->
     
     <string name="exception_group">Грипа</string>
+    
     <string name="exception_select_group">Избери група</string>
     
     
@@ -218,6 +234,8 @@
 
     <!-- Settings -> Folders and Files -->
     <string name="folder">Папка</string>
+    
+    
     
     <string name="automatic_cleanup">Автоматично почистване</string>
     <string name="max_number_of_files">Максимален брой файлове</string>
@@ -253,6 +271,8 @@
     <string name="show_notification">Покажи известяване</string>
     
     
+    
+    
     <string name="incall_control_for_outgoing">За изходящи обаждания</string>
     
     <string name="incall_control_for_incoming">За входящи обаждания</string>
@@ -270,6 +290,9 @@
     
     
     
+    <string name="category_main_screen">Главен екран</string>
+    
+    
 
     <!-- Settings -> Cloud -->
     
@@ -285,6 +308,11 @@
     
 
     <!-- Notification -->
+    
+    
+    
+    
+    
     
     
 
@@ -342,11 +370,13 @@
     <string name="root_access_yes">Да</string>
     <string name="dual_sim_phone">2 SIM карти</string>
     <string name="dual_sim_phone_summary">Активирайте, ако приложението не записва разговорите от втората Сим карта</string>
+    
 
     <!-- General -->
     <string name="contact_unknown">Неизвестно</string>
     
     <string name="button_ok">Добре</string>
+    
     
     <string name="button_edit">Редактирай</string>
     <string name="button_cancel">Отказ</string>
@@ -360,13 +390,19 @@
     
     
     
-    <string name="please_wait">Моля изчакайте...</string>
     
+    <string name="please_wait">Моля изчакайте...</string>
     <string name="start_recording">Стартирай записа</string>
     <string name="stop_recording">Спри записа</string>
     
     <string name="switch_on">Вкл.</string>
     <string name="switch_off">Изкл.</string>
+
+    <!--Toasts-->
+    
+    
+    
+    
 
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">Запиши този разговор</string>
@@ -389,16 +425,12 @@
     <string name="about_many_thanks">Благодарности на:</string>
     <string name="about_many_thanks_summary">Alexey Subbotin (avs234)</string>
 
-    <!--About -> Licenses-->
-    <string name="licenses">Лицензи</string>
-    <string name="about_open_core_amr_license">opencore-amr</string>
-    <string name="about_open_core_amr_license_summary">Използва opencore-amr с Apache лиценз версия 2.0, натиснете за да посетите opencore-amr.sourceforge.net</string>
-    <string name="about_alsa">ALSA</string>
-    <string name="about_alsa_summary">Използва ALSA с LGPL лиценз, натиснете за да посетите alsa-project.org</string>
-    <string name="about_lame">LAME</string>
-    <string name="about_lame_summary">Използва LAME с LGPL лиценз, натиснете за да посетите mp3dev.org</string>
+    <!--About -> Other-->
+    
+    
 
-    <!--Credits-->
+    <!--About -> Translators-->
+    
     <string name="german_translation">Немски превод</string>
     <string name="german_translation_summary">Marc Hillesheim и Thomas Käfer</string>
     <string name="polish_translation">Полски превод</string>
@@ -465,26 +497,12 @@
     <string name="belarusian_translation_summary">Alexander Kuvshinov</string>
     <string name="vietnamese_translation">Виетнамски превод</string>
     <string name="vietnamese_translation_summary">Truong Hoang Trung</string>
-<string name="terms_of_use">Условия за ползване</string>
-    <string name="terms_of_use_message">Използвайки приложението, вие се съгласявате с &lt;a href=http://rec.sh/terms&gt;условията за ползване&lt;/a&gt; на CallRecorder</string>
-
-    <string name="navigation_drawer_open">Отвори навигационния панел</string>
-    <string name="navigation_drawer_close">Затвори навигационния панел</string>
-
-    <string name="section_all_recordings">Всички записи</string>
-    <string name="section_starred">Важни</string>
-    <string name="section_by_contact">По контакт</string>
-    <string name="section_by_format">По формат</string>
-    <string name="section_by_label">По етикет</string>
-    <string name="section_tasks_hint">По-бавните задачи, като конвертиране, криптиране или качване в облак ще бъдат визуализирани тук</string>
-    <string name="action_sort">Подредба</string>
-    <string name="action_refresh">Опресняване</string>
-    <string name="action_delete">Изтриване</string>
-    <string name="action_add_star">Отбележи като важно</string>
-    <string name="action_remove_star">Махни от важни</string>
-    <string name="action_share">Споделяне</string>
-    <string name="action_cancel_tasks">Отмени задачи</string>
-    <string name="sort_by_date">По дата</string>
-    <string name="sort_by_contact">По контакт</string>
-    <string name="sort_by_file_size">По големина</string>
-    </resources>
+    
+    
+    
+    
+    
+    
+    
+    
+</resources>

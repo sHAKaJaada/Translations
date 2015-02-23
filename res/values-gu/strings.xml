@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">કોલ રેકોર્ડર</string>
     <string name="terms_of_use">ઉપયોગની શરતો</string>
@@ -30,10 +30,16 @@
     <string name="action_add_star">સ્ટાર ઉમેરો</string>
     <string name="action_remove_star">સ્ટાર દૂર કરો</string>
     <string name="action_share">શેર</string>
+    
     <string name="action_select_all">બધા પસંદ</string>
     <string name="sort_by_date">તારીખ દ્વારા</string>
     <string name="sort_by_contact">સંપર્ક દ્વારા</string>
     <string name="sort_by_file_size">ફાઈલ માપ દ્વારા</string>
+    
+    
+
+    <!--Import settings -->
+    
 
     <!-- List -->
     <string name="list_header_today">આજે</string>
@@ -83,6 +89,7 @@
     <string name="recorded_calls">રેકોર્ડ કોલ્સ</string>
 
     <!--  Settings -> Headers -->
+    
     <string name="settings_recording">રેકોર્ડિંગ</string>
     <string name="settings_folders_and_files">ફોલ્ડર્સ અને ફાઈલો</string>
     <string name="settings_ui_and_appearance">ઇન્ટરફેસ અને દેખાવ</string>
@@ -109,7 +116,8 @@
     <string name="license_error_contacting_server">ભૂલ સંપર્ક સર્વર</string>
     <string name="license_server_error">સર્વર ભૂલ</string>
     <string name="license_over_quota">આ ઉપકરણ માંથી ખૂબ વધારે વિનંતીઓ</string>
-
+    
+    
     <string name="buy_full_version">સંપૂર્ણ આવૃત્તિ ખરીદી</string>
     <string name="buy_full_version_summary">વર્તમાન આવૃત્તિ પર સમાપ્ત થશે %s</string>
 
@@ -180,6 +188,13 @@
     <string name="api_source_voice_communication">અવાજ સંચાર</string>
     <string name="category_wav_settings">WAV સેટિંગ્સ</string>
     <string name="category_wav_and_mp3_settings">WAV &amp; MP3 સેટિંગ્સ</string>
+    
+    
+
+    <!-- Actions when BT connected -->
+    
+    
+    
 
     <!-- Settings -> Recording -> CAF -->
     <string name="recording_mode">રેકોર્ડિંગ મોડ</string>
@@ -200,6 +215,7 @@
     <!-- Settings -> Recording -> Exceptions -->
     <string name="add_exception">અપવાદ ઉમેરો</string>
     <string name="exception_group">ગ્રુપ</string>
+    
     <string name="exception_select_group">પસંદ જૂથ</string>
     <string name="exception_contact">સંપર્ક</string>
     <string name="exception_select_contact">પસંદ સંપર્ક</string>
@@ -219,6 +235,8 @@
     <!-- Settings -> Folders and Files -->
     <string name="folder">ફોલ્ડર</string>
     <string name="folder_chooser_up_to">માટે %s ઉપર ↑</string>
+    
+    
     <string name="automatic_cleanup">આપોઆપ સફાઈ</string>
     <string name="max_number_of_files">મેક્સ. ફાઈલોની સંખ્યા</string>
     <string name="max_number_of_files_message">દાખલ સંખ્યાબંધ (0 - કોઈ મર્યાદા)</string>
@@ -252,6 +270,8 @@
     <string name="category_notification">સૂચના</string>
     <string name="show_notification">બતાવો સૂચના</string>
     <string name="show_notification_summary">સ્થિતિ પટ્ટીનાં કાયમી સૂચના</string>
+    
+    
     <string name="category_incall_control_button">ઇન કોલ નિયંત્રણ બટન</string>
     <string name="incall_control_for_outgoing">આઉટગોઇંગ કોલ્સ માટે</string>
     <string name="incall_control_for_outgoing_summary">આઉટગોઇંગ કોલ્સ પર શોમાં-કોલ નિયંત્રણ બટન</string>
@@ -270,6 +290,9 @@
     <string name="long_press_action">લાંબા પ્રેસ એક્શન</string>
     <string name="long_press_action_dragging_the_button">આ બટન ખેંચીને</string>
     <string name="long_press_action_hang_up">કોલ અટકી અને આપોઆપ સામો ફોન</string>
+    
+    
+    
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">વાદળ પ્રદાતા</string>
@@ -286,6 +309,11 @@
 
     <!-- Notification -->
     <string name="notify_uploading_dropbox">ડ્રૉપબૉક્સ પર અપલોડ</string>
+    
+    
+    
+    
+    
     <string name="notify_tasks_remaining">બાકી %d રેકોર્ડિંગ્સ</string>
 
     <!-- Password dialog -->
@@ -342,16 +370,19 @@
     <string name="root_access_yes">હા</string>
     <string name="dual_sim_phone">ડ્યુઅલ સિમ ફોન</string>
     <string name="dual_sim_phone_summary">સક્રિય એપ્લિકેશન બીજા સિમ કાર્ડ પરથી કોલ નક્કી કરી શકતા હોય</string>
+    
 
     <!-- General -->
     <string name="contact_unknown">અજ્ઞાત</string>
     <string name="button_choose">પસંદ</string>
     <string name="button_ok">ઓકે</string>
     <string name="button_call">કોલ</string>
+    
     <string name="button_edit">ફેરફાર કરો</string>
     <string name="button_cancel">રદ કરો</string>
     <string name="button_create">બનાવો</string>
     <string name="button_delete">કાઢી</string>
+    
     <string name="button_keep">રાખી</string>
     <string name="button_play">રમો</string>
     <string name="button_pause">થોભો</string>
@@ -361,19 +392,24 @@
     <string name="call_incoming">ઇનકમિંગ</string>
     <string name="call_outgoing">આઉટગોઇંગ</string>
     <string name="please_wait">કૃપા કરીને રાહ જુઓ…</string>
-    <string name="toast_wait_for_operation_to_complete">એક પૂર્ણ કરવા માટે રાહ ક્રિયા</string>
     <string name="start_recording">રેકોર્ડિંગ શરૂ</string>
     <string name="stop_recording">સ્ટોપ રેકોર્ડિંગ</string>
     <string name="action_mode_selected">%d પસંદ કરેલ</string>
     <string name="switch_on">પર</string>
     <string name="switch_off">બંધ</string>
 
+    <!--Toasts-->
+    <string name="toast_wait_for_operation_to_complete">એક પૂર્ણ કરવા માટે રાહ ક્રિયા</string>
+    
+    
+    
+
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">આ કોલ રેકોર્ડ</string>
     <string name="open_contact">ઓપન સંપર્ક</string>
 
     <!--After call actions dialog-->
-    
+    <string name="cloud_added">ઉમેરાયેલ</string>
 
     <!--Notification-->
     <string name="waiting_for_answer">જવાબ માટે રાહ જોઈ</string>
@@ -389,16 +425,12 @@
     <string name="about_many_thanks">ઘણા આભાર</string>
     <string name="about_many_thanks_summary">તો Alexey Subbotin (avs234)</string>
 
-    <!--About -> Licenses-->
-    <string name="licenses">લાઇસન્સ</string>
-    <string name="about_open_core_amr_license">ઓપેન્કોરે-અમર</string>
-    <string name="about_open_core_amr_license_summary">opencore-amr અપાચે ઉપયોગ કરે છે લાઇસેન્સ આવૃત્તિ 2.0 હેઠળ , opencore-amr.sourceforge.net મુલાકાત લેવા અહીં ક્લિક</string>
-    <string name="about_alsa">એએલએસએ</string>
-    <string name="about_alsa_summary">ઉપયોગ કરે છે ALSA LGPL હેઠળ, alsa-project.org મુલાકાત લેવા અહીં ક્લિક</string>
-    <string name="about_lame">એલએએમઇ</string>
-    <string name="about_lame_summary">LGPL હેઠળ LAME વાપરે, mp3dev.org મુલાકાત લેવા અહીં ક્લિક</string>
+    <!--About -> Other-->
+    
+    
 
-    <!--Credits-->
+    <!--About -> Translators-->
+    
     <string name="german_translation">જર્મન અનુવાદ</string>
     <string name="german_translation_summary">Marc Hillesheim and Thomas Käfer દ્વારા</string>
     <string name="polish_translation">પોલિશ અનુવાદ</string>
@@ -465,6 +497,12 @@
     <string name="belarusian_translation_summary">Alexander Kuvshinov દ્વારા</string>
     <string name="vietnamese_translation">વિએતનામીઝ અનુવાદ</string>
     <string name="vietnamese_translation_summary">Truong Hoang Trung દ્વારા</string>
-<string name="cloud_added">ઉમેરાયેલ</string>
-
-    </resources>
+    
+    
+    
+    
+    
+    
+    
+    
+</resources>

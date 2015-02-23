@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">Condizioni d\'uso</string>
@@ -30,10 +30,16 @@
     <string name="action_add_star">Aggiungi a preferiti</string>
     <string name="action_remove_star">Rimuovi da preferiti</string>
     <string name="action_share">Condividi</string>
+    <string name="action_cancel_tasks">Annulla operazione</string>
     <string name="action_select_all">Seleziona tutto</string>
     <string name="sort_by_date">Per data</string>
     <string name="sort_by_contact">Per contatto</string>
     <string name="sort_by_file_size">Per dimensione file</string>
+    <string name="records_size">Registrazioni: %1$s, Dimensione: %2$s</string>
+    <string name="space_free_of">%1$s liberi su %2$s</string>
+
+    <!--Import settings -->
+    
 
     <!-- List -->
     <string name="list_header_today">Oggi</string>
@@ -83,6 +89,7 @@
     <string name="recorded_calls">Chiamate registrate</string>
 
     <!--  Settings -> Headers -->
+    <string name="settings_open_unlocker">Apri Unlocker</string>
     <string name="settings_recording">Registrazione</string>
     <string name="settings_folders_and_files">Cartelle e File</string>
     <string name="settings_ui_and_appearance">Interfaccia e Aspetto</string>
@@ -102,14 +109,15 @@
     <string name="license_help">Aiuto</string>
     <string name="license_signature_verification_failed">Verifica della firma non riuscita</string>
     <string name="license_error_message">Errore #%1$s: %2$s</string>
-    
+    <string name="license_trial">Versione di prova, data di scadenza %s</string>
     <string name="license_unknown_error">Errore sconosciuto</string>
     <string name="license_not_market_managed">Questa versione non è ancora stata pubblicata su Play Store</string>
     <string name="license_incorrect_response">Risposta errata da Play Store su controllo licenza</string>
     <string name="license_error_contacting_server">Errore di connessione al server</string>
     <string name="license_server_error">Errore del server</string>
     <string name="license_over_quota">Troppe richieste da questo dispositivo</string>
-
+    <string name="license_trial_expired">Periodo di prova scaduto</string>
+    <string name="license_trial_expired_summary">Disinstallare questa versione prima di acquistarne una completa</string>
     <string name="buy_full_version">Acquista la versione completa</string>
     <string name="buy_full_version_summary">La versione corrente scadrà il %s</string>
 
@@ -146,7 +154,7 @@
     <string name="exceptions">Eccezioni</string>
     <string name="exceptions_summary">Imposta azioni specifiche per contatti, gruppi o numeri di telefono</string>
     <string name="start_recording_on_answer">Avvia registrazione alla risposta</string>
-    
+    <string name="start_recording_on_answer_summary">Avvia la registrazione quando la chiamata in uscita è risposta. L\'app usa un metodo non documentato per rilevare il momento in cui l\'interlocutore risponde, perciò questa funzionalità potrebbe non funzionare su alcuni dispositivi. Root richiesto a partire da Android 4.1 Jelly Bean. Il logger nel kernel dev\'essere abilitato.</string>
     <string name="delay_before_start_recording">Ritardo prima della registrazione</string>
     <string name="delay_before_start_recording_summary">In uscita: %1$s, in entrata: %2$s</string>
     <string name="delay_format_sec">%s sec</string>
@@ -180,6 +188,13 @@
     <string name="api_source_voice_communication">Comunicazione vocale</string>
     <string name="category_wav_settings">Impostazioni WAV</string>
     <string name="category_wav_and_mp3_settings">Impostazioni WAV e MP3</string>
+    <string name="when_bt_connected">Quando BT è connesso...</string>
+    <string name="audio_source_when_bt_connected">Sorgente audio con BT connesso</string>
+
+    <!-- Actions when BT connected -->
+    <string name="when_bt_connected_do_nothing">Nessuna azione</string>
+    <string name="when_bt_connected_switch_source">Cambia sorgente audio</string>
+    <string name="when_bt_connected_disable_recording">Disattiva la registrazione</string>
 
     <!-- Settings -> Recording -> CAF -->
     <string name="recording_mode">Modalità di registrazione</string>
@@ -200,6 +215,7 @@
     <!-- Settings -> Recording -> Exceptions -->
     <string name="add_exception">Aggiungi eccezione</string>
     <string name="exception_group">Gruppo</string>
+    
     <string name="exception_select_group">Seleziona gruppo</string>
     <string name="exception_contact">Contatto</string>
     <string name="exception_select_contact">Seleziona contatto</string>
@@ -219,6 +235,8 @@
     <!-- Settings -> Folders and Files -->
     <string name="folder">Cartella</string>
     <string name="folder_chooser_up_to">↑ Livello superiore: %s</string>
+    
+    
     <string name="automatic_cleanup">Pulizia automatica</string>
     <string name="max_number_of_files">Max. numero dei file</string>
     <string name="max_number_of_files_message">Inserire un numero (0 - illimitato)</string>
@@ -235,7 +253,7 @@
     <string name="pattern_contact_name">nome contatto</string>
     <string name="pattern_phone_number">numero di telefono</string>
     <string name="pattern_call_time">tempo chiamata</string>
-    
+    <string name="pattern_call_timestamp">tempo di chiamata (formato unix)</string>
     <string name="pattern_call_type">tipo di chiamata (in uscita o in entrata)</string>
     <string name="time_pattern_hours">ore</string>
     <string name="time_pattern_minutes">minuti</string>
@@ -248,45 +266,55 @@
     <!--Settings -> Interface and Appearance-->
     <string name="language">Lingua</string>
     <string name="select_language">Seleziona lingua</string>
-    
+    <string name="default_language">Lingua predefinita</string>
     <string name="category_notification">Notifica</string>
     <string name="show_notification">Mostra notifica</string>
     <string name="show_notification_summary">Notifica permanente nella barra di stato</string>
+    <string name="hide_icon_but_keep_notification">Nascondi icona, mantieni notifica</string>
+    <string name="hide_icon_but_keep_notification_summary">Nasconde l\'icona, ma mantiene la notifica nella barra di stato</string>
     <string name="category_incall_control_button">Tasto di controllo in chiamata</string>
     <string name="incall_control_for_outgoing">Per le chiamate in uscita</string>
-    
+    <string name="incall_control_for_outgoing_summary">Mostra pulsante di controllo durante chiamata in uscita</string>
     <string name="incall_control_for_incoming">Per le chiamate in entrata</string>
-    
-    
-    
+    <string name="incall_control_for_incoming_summary">Mostra pulsante di controllodurante chiamata in entrata</string>
+    <string name="hide_button_while_recording">Nascondi pulsante durante la registrazione</string>
+    <string name="hide_button_while_recording_summary">Nasconde il pulsante di controllo se la chiamata è in fase di registrazione</string>
     <string name="show_button_while_ringing">Pulsante mentre squilla</string>
     <string name="show_button_while_ringing_summary">Mostra pulsante di controllo in chiamata prima che venga risposto</string>
     <string name="vertical_position">Posizione verticale</string>
-    
+    <string name="vertical_position_summary">%s pixel, distanza dal centro dello schermo</string>
     <string name="horizontal_position">Posizione orizzontale</string>
-    
-    
+    <string name="horizontal_position_summary">%s pixel, distanza dal centro dello schermo</string>
+    <string name="hide_button_before_answer">Nascondi pulsante prima della risposta</string>
     <string name="hide_button_before_answer_summary">Non mostrare pulsante di controllo in chiamata finché non viene stabilita la connessione</string>
-    
+    <string name="long_press_action">Azione su pressione prolungata</string>
+    <string name="long_press_action_dragging_the_button">Spostamento pulsante</string>
+    <string name="long_press_action_hang_up">Termina e riavvia la chiamata automaticamente</string>
+    <string name="category_main_screen">Schermata principale</string>
     
     
 
     <!-- Settings -> Cloud -->
-    
+    <string name="cloud_provider">Provider Cloud</string>
     <string name="cloud_provider_dropbox">DropBox</string>
-    
-    
-    
-    
+    <string name="sign_in_dropbox">Accedi a DropBox</string>
+    <string name="sign_out_dropbox">Esci da DropBox</string>
+    <string name="cloud_provider_google_drive">Google Drive</string>
+    <string name="cloud_common_settings">Comuni</string>
     <string name="cloud_wifi_only">Solo Wi-Fi</string>
     <string name="cloud_auto_upload">Caricamento automatico</string>
     <string name="cloud_auto_upload_summary">Carica la registrazione subito dopo la chiamata</string>
-    
-    
+    <string name="cloud_upload_starred">Carica preferiti</string>
+    <string name="cloud_upload_starred_summary">Carica la registrazione su cloud quando si aggiunge ai preferiti</string>
 
     <!-- Notification -->
-    
-    
+    <string name="notify_uploading_dropbox">Caricamento su DropBox</string>
+    <string name="notify_converting_to_amr">Conversione in AMR</string>
+    <string name="notify_converting_to_mp3">Conversione in MP3</string>
+    <string name="notify_encrypting">Cifratura</string>
+    <string name="notify_decrypting">Decifratura</string>
+    <string name="notify_waiting_for_calls">In attesa di chiamate</string>
+    <string name="notify_tasks_remaining">%d operazioni rimanenti</string>
 
     <!-- Password dialog -->
     <string name="wrong_password">Password errata</string>
@@ -297,17 +325,17 @@
     <string name="category_encryption">Criptazione</string>
     <string name="category_application">Applicazione</string>
     <string name="create_new_key">Crea nuova chiave</string>
-    
-    
+    <string name="create_new_key_summary">Questa chiave sarà utilizzata in seguito per cifrare le registrazioni o per avviare l\'app</string>
+    <string name="delete_key">Cancella chiave</string>
     <string name="change_password">Cambia password</string>
-    
-    
+    <string name="delete_key_summary">Attenzione! Non sarà possibile recuperare registrazioni cifrate con questa chiave, nemmeno creando una nuova chiave con la stessa password</string>
+    <string name="delete_key_message">Dopo la cancellazione non sarà possibile recuperare le registrazioni cifrate con questa chiave. Procedere?</string>
     <string name="enter_old_password">Inserisci vecchia password</string>
     <string name="enter_new_password">Inserisci nuova password</string>
     <string name="re_enter_new_password">Reinserisci nuova password</string>
     <string name="require_password">Richiedi password</string>
     <string name="require_password_summary">Richiedi password all\'apertura dell\'app</string>
-    
+    <string name="require_password_summary_no_key">Richiedi password per aprire l\'app. Per abilitare questa funzione occorre prima creare una chiave</string>
     <string name="lock_after">Blocca dopo</string>
     <string name="lock_after_exit">Esci</string>
     <string name="lock_after_1_minute">1 min</string>
@@ -315,22 +343,22 @@
     <string name="lock_after_5_minutes">5 min</string>
     <string name="lock_after_10_minutes">10 min</string>
     <string name="app_admin">Amministratore app</string>
-    
-    
+    <string name="app_admin_summary">Necessario per impedire la disinstallazione di Call Recorder</string>
+    <string name="app_admin_explanation">Call Recorder non usa alcuna funzione di amministratore dispositivo, salvo che per proteggersi dalla disinstallazione</string>
     <string name="aes_128bit">128-bit AES (Più veloce)</string>
     <string name="aes_192bit">192-bit AES (Equilibrato)</string>
     <string name="aes_256bit">256-bit AES (Più sicuro)</string>
 
     <!-- Settings -> Audio player -->
-    
+    <string name="use_built_in_player">Usa player incorporato</string>
     <string name="audio_output">Uscita audio</string>
-    
+    <string name="audio_output_summary">%s (la pressione prolungata sul pulsante play/pausa attiverà anche il pulsante stesso)</string>
     <string name="main_speaker">Altoparlante principale</string>
     <string name="phone_speaker">Autoparlante telefono</string>
     <string name="use_proximity_sensor">Usa sensore di prossimità</string>
-    
+    <string name="use_proximity_sensor_summary">Disattiva schermo da sensore di prossimità durante la riproduzione</string>
     <string name="switch_audio_output">Cambia uscita audio</string>
-    
+    <string name="switch_audio_output_summary">Commuta automaticamente uscita audio quando lo schermo è disattivato/attivato da sensore di prossimità</string>
     <string name="android_wav_decoder">Decodificatore Android per WAV</string>
     <string name="android_wav_decoder_summary">Usa strumenti integrati di Android per riprodurre file WAV</string>
     <string name="android_amr_decoder">Decodificatore Android per AMR</string>
@@ -342,63 +370,67 @@
     <string name="root_access_yes">Si</string>
     <string name="dual_sim_phone">Telefono Dual SIM</string>
     <string name="dual_sim_phone_summary">Attiva questa opzione se l\'applicazione non è in grado di determinare le chiamate dalla seconda SIM</string>
+    <string name="send_logs_to_the_developer">Invia log allo sviluppatore</string>
 
     <!-- General -->
     <string name="contact_unknown">Sconosciuto</string>
-    
+    <string name="button_choose">Scegli</string>
     <string name="button_ok">OK</string>
-    
+    <string name="button_call">Chiama</string>
+    <string name="button_buy">Compra</string>
     <string name="button_edit">Modifica</string>
     <string name="button_cancel">Cancella</string>
+    <string name="button_create">Crea</string>
+    <string name="button_delete">Elimina</string>
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <string name="button_keep">Conserva</string>
+    <string name="button_play">Play</string>
+    <string name="button_pause">Pausa</string>
+    <string name="button_delete_wait">Elimina (%d)</string>
+    <string name="decline">Rifiuta</string>
+    <string name="accept">Accetta</string>
+    <string name="call_incoming">In entrata</string>
+    <string name="call_outgoing">In uscita</string>
     <string name="please_wait">Attendere prego…</string>
-    
     <string name="start_recording">Avvia la registrazione</string>
     <string name="stop_recording">Arresta la registrazione</string>
-    
+    <string name="action_mode_selected">%d selezionati</string>
     <string name="switch_on">On</string>
     <string name="switch_off">Off</string>
 
+    <!--Toasts-->
+    <string name="toast_wait_for_operation_to_complete">Attendere il completamento dell\'operazione</string>
+    <string name="toast_recording_is_off">Registrazione disattivata</string>
+    <string name="toast_recording_is_on">Registrazione attivata</string>
+    <string name="toast_file_deleted">File cancellato</string>
+
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">Registra questa chiamata</string>
-    
+    <string name="open_contact">Apri contatto</string>
 
     <!--After call actions dialog-->
     <string name="cloud_added">Aggiunto</string>
 
     <!--Notification-->
-    
-    
-    
+    <string name="waiting_for_answer">In attesa di risposta</string>
+    <string name="recording_in_progress">Registrazione in corso</string>
+    <string name="no_recording_in_progress">Nessuna registrazione in corso</string>
     <string name="an_error_has_occurred">Si è verificato un errore, questa chiamata non può essere registrata</string>
 
     <!--About-->
-    
+    <string name="about_call_recorder">Informazioni su Call Recorder</string>
     <string name="version">Versione</string>
     <string name="copyright">Copyright</string>
     <string name="copyright_summary">© %s Alexander Skvortsov (skvalex)</string>
     <string name="about_many_thanks">Grazie mille</string>
     <string name="about_many_thanks_summary">a Alexey Subbotin (avs234)</string>
 
-    <!--About -> Licenses-->
-    <string name="licenses">Licenze</string>
-    <string name="about_open_core_amr_license">opencore-amr</string>
-    <string name="about_open_core_amr_license_summary">Usa opencore-amr sotto licenza Apache License Versione 2.0, clicca qui per visitare opencore-amr.sourceforge.net</string>
-    <string name="about_alsa">ALSA</string>
-    <string name="about_alsa_summary">Usa ALSA sotto licenza LGPL, clicca qui per visitare alsa-project.org</string>
-    <string name="about_lame">LAME</string>
-    <string name="about_lame_summary">Usa LAME sotto licenza LGPL, clicca qui per visitare mp3dev.org</string>
+    <!--About -> Other-->
+    
+    
 
-    <!--Credits-->
+    <!--About -> Translators-->
+    
     <string name="german_translation">Traduzione tedesca</string>
     <string name="german_translation_summary">di Marc Hillesheim e Thomas Käfer</string>
     <string name="polish_translation">Traduzione polacca</string>
@@ -465,94 +497,12 @@
     <string name="belarusian_translation_summary">di Alexander Kuvshinov</string>
     <string name="vietnamese_translation">Traduzione vietnamita</string>
     <string name="vietnamese_translation_summary">di Truong Hoang Trung</string>
-<string name="license_trial">Versione di prova, data di scadenza %s</string>
-    <string name="start_recording_on_answer_summary">Avvia la registrazione quando la chiamata in uscita è risposta. L\'app usa un metodo non documentato per rilevare il momento in cui l\'interlocutore risponde, perciò questa funzionalità potrebbe non funzionare su alcuni dispositivi. Root richiesto a partire da Android 4.1 Jelly Bean. Il logger nel kernel dev\'essere abilitato.</string>
-    <string name="pattern_call_timestamp">tempo di chiamata (formato unix)</string>
-    <string name="default_language">Lingua predefinita</string>
-    <string name="hide_icon_but_keep_notification">Nascondi icona, mantieni notifica</string>
-    <string name="hide_icon_but_keep_notification_summary">Nasconde l\'icona, ma mantiene la notifica nella barra di stato</string>
-    <string name="incall_control_for_outgoing_summary">Mostra pulsante di controllo durante chiamata in uscita</string>
-    <string name="incall_control_for_incoming_summary">Mostra pulsante di controllodurante chiamata in entrata</string>
-    <string name="hide_button_while_recording">Nascondi pulsante durante la registrazione</string>
-    <string name="hide_button_while_recording_summary">Nasconde il pulsante di controllo se la chiamata è in fase di registrazione</string>
-    <string name="vertical_position_summary">%s pixel, distanza dal centro dello schermo</string>
-    <string name="horizontal_position_summary">%s pixel, distanza dal centro dello schermo</string>
-    <string name="hide_button_before_answer">Nascondi pulsante prima della risposta</string>
-    <string name="long_press_action">Azione su pressione prolungata</string>
-    <string name="long_press_action_dragging_the_button">Spostamento pulsante</string>
-    <string name="long_press_action_hang_up">Termina e riavvia la chiamata automaticamente</string>
-
-    <string name="cloud_provider">Provider Cloud</string>
-    <string name="sign_in_dropbox">Accedi a DropBox</string>
-    <string name="sign_out_dropbox">Esci da DropBox</string>
-    <string name="cloud_provider_google_drive">Google Drive</string>
-    <string name="cloud_common_settings">Comuni</string>
-    <string name="cloud_upload_starred">Carica preferiti</string>
-    <string name="cloud_upload_starred_summary">Carica la registrazione su cloud quando si aggiunge ai preferiti</string>
-
-    <string name="notify_uploading_dropbox">Caricamento su DropBox</string>
-    <string name="notify_waiting_for_calls">In attesa di chiamate</string>
-    <string name="notify_tasks_remaining">%d operazioni rimanenti</string>
-
-    <string name="create_new_key_summary">Questa chiave sarà utilizzata in seguito per cifrare le registrazioni o per avviare l\'app</string>
-    <string name="delete_key">Cancella chiave</string>
-    <string name="delete_key_summary">Attenzione! Non sarà possibile recuperare registrazioni cifrate con questa chiave, nemmeno creando una nuova chiave con la stessa password</string>
-    <string name="delete_key_message">Dopo la cancellazione non sarà possibile recuperare le registrazioni cifrate con questa chiave. Procedere?</string>
-    <string name="require_password_summary_no_key">Richiedi password per aprire l\'app. Per abilitare questa funzione occorre prima creare una chiave</string>
-    <string name="app_admin_summary">Necessario per impedire la disinstallazione di Call Recorder</string>
-    <string name="app_admin_explanation">Call Recorder non usa alcuna funzione di amministratore dispositivo, salvo che per proteggersi dalla disinstallazione</string>
-    <string name="use_built_in_player">Usa player incorporato</string>
-    <string name="audio_output_summary">%s (la pressione prolungata sul pulsante play/pausa attiverà anche il pulsante stesso)</string>
-    <string name="use_proximity_sensor_summary">Disattiva schermo da sensore di prossimità durante la riproduzione</string>
-    <string name="switch_audio_output_summary">Commuta automaticamente uscita audio quando lo schermo è disattivato/attivato da sensore di prossimità</string>
-    <string name="button_choose">Scegli</string>
-    <string name="button_call">Chiama</string>
-    <string name="button_create">Crea</string>
-    <string name="button_delete">Elimina</string>
-    <string name="button_keep">Conserva</string>
-    <string name="button_play">Play</string>
-    <string name="button_pause">Pausa</string>
-    <string name="button_delete_wait">Elimina (%d)</string>
-    <string name="decline">Rifiuta</string>
-    <string name="accept">Accetta</string>
-    <string name="call_incoming">In entrata</string>
-    <string name="call_outgoing">In uscita</string>
-    <string name="action_mode_selected">%d selezionati</string>
-    <string name="toast_wait_for_operation_to_complete">Attendere il completamento dell\'operazione</string>
-    <string name="toast_recording_is_off">Registrazione disattivata</string>
-    <string name="toast_recording_is_on">Registrazione attivata</string>
-    <string name="toast_file_deleted">File cancellato</string>
-
-
-    <string name="open_contact">Apri contatto</string>
-
-    <string name="waiting_for_answer">In attesa di risposta</string>
-    <string name="recording_in_progress">Registrazione in corso</string>
-    <string name="no_recording_in_progress">Nessuna registrazione in corso</string>
-    <string name="about_call_recorder">Informazioni su Call Recorder</string>
-    <string name="about_ion_license">Ion</string>
-    <string name="about_ion_license_summary">Utilizza Ion sotto Apache License Version 2.0, tocca qui per visitare github.com/koush/ion</string>
     <string name="armenian_translation">Traduzione armena</string>
     <string name="armenian_translation_summary">di Hakob Sununu e Konstantin Gevorgyan</string>
     <string name="gujarati_translation">Traduzione gujarati</string>
     <string name="gujarati_translation_summary">di Abhishek Sharma</string>
     <string name="tamil_translation">Traduzione tamil</string>
     <string name="tamil_translation_summary">di Ashish Sharma</string>
-<string name="action_cancel_tasks">Annulla operazione</string>
-    <string name="space_free_of">%1$s liberi su %2$s</string>
-
-    <string name="settings_open_unlocker">Apri Unlocker</string>
-    <string name="license_trial_expired">Periodo di prova scaduto</string>
-    <string name="license_trial_expired_summary">Disinstallare questa versione prima di acquistarne una completa</string>
-
-    <string name="notify_converting_to_amr">Conversione in AMR</string>
-    <string name="notify_converting_to_mp3">Conversione in MP3</string>
-    <string name="notify_encrypting">Cifratura</string>
-    <string name="notify_decrypting">Decifratura</string>
-    <string name="send_logs_to_the_developer">Invia log allo sviluppatore</string>
-
-    <string name="button_buy">Compra</string>
     <string name="greek_translation">Traduzione greca</string>
     <string name="greek_translation_summary">di Lefteris (SomniusX) Eliades</string>
-<string name="records_size">Registrazioni: %1$s, Dimensione: %2$s</string>
-    </resources>
+</resources>

@@ -1,22 +1,22 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    
-    
+    <string name="app_name">ਕਾਲ ਰਿਕਾਰਡਰ</string>
+    <string name="terms_of_use">ਵਰਤੋ ਦੀਆਂ ਸ਼ਰਤਾਂ</string>
     
 
     <!-- Navigation drawer -->
-    
-    
+    <string name="navigation_drawer_open">ਨੇਵੀਗੇਸ਼ਨ ਦਰਾਜ਼ ਖੋਲੋ</string>
+    <string name="navigation_drawer_close">ਨੇਵੀਗੇਸ਼ਨ ਦਰਾਜ਼ ਬੰਦ ਕਰੋ</string>
 
     <!-- Navigation drawer sections -->
-    
-    
-    
-    
-    
-    
-    
-    
+    <string name="section_all_recordings">ਸਾਰੀਆ ਰਿਕਾਰਡਿੰਗ</string>
+    <string name="section_starred">ਸਤਾਰੇ</string>
+    <string name="section_incoming">ਆਉਣ ਵਾਲੀਆ</string>
+    <string name="section_outgoing">ਬਾਹਰ ਜਾਣ ਵਾਲੀਆ</string>
+    <string name="section_by_contact">ਸੰਪਰਕ ਦੁਆਰਾ</string>
+    <string name="section_by_format">ਫਾਰਮੈਟ ਦੁਆਰਾ</string>
+    <string name="section_by_label">ਲੇਬਲ ਦੁਆਰਾ</string>
+    <string name="section_help">ਮਦਦ ਕਰੋ</string>
     <string name="section_tasks">ਕੰਮ</string>
     
     <string name="empty_hint">ਖਾਲੀ</string>
@@ -30,9 +30,15 @@
     
     
     
+    
     <string name="action_select_all">ਸਭ ਚੁਣੋ</string>
     
     
+    
+    
+    
+
+    <!--Import settings -->
     
 
     <!-- List -->
@@ -83,6 +89,7 @@
     <string name="recorded_calls">ਰਿਕਾਰਡ ਹੋਇਆ ਕੋਲਸ</string>
 
     <!--  Settings -> Headers -->
+    
     <string name="settings_recording">ਰਿਕਾਰਡਿੰਗ</string>
     <string name="settings_folders_and_files">ਫੋਲਡਰ ਅਤੇ ​​ਫਾਇਲ</string>
     <string name="settings_ui_and_appearance">ਇੰਟਰਫੇਸ ਅਤੇ ਦਿਖਾਵਟ</string>
@@ -109,7 +116,8 @@
     
     
     
-
+    
+    
     <string name="buy_full_version">ਪੂਰਾ ਵਰਜਨ ਖਰੀਦੋ</string>
     <string name="buy_full_version_summary">ਮੌਜੂਦਾ ਵਰਜਨ %s \'ਤੇ ਸਮਾਪਤ ਹੋ ਜਾਵੇਗਾ</string>
 
@@ -180,6 +188,13 @@
     <string name="api_source_voice_communication">ਵਾਇਸ ਸੰਚਾਰ</string>
     
     
+    
+    
+
+    <!-- Actions when BT connected -->
+    
+    
+    
 
     <!-- Settings -> Recording -> CAF -->
     <string name="recording_mode">ਰਿਕਾਰਡਿੰਗ ਮੋਡ</string>
@@ -200,6 +215,7 @@
     <!-- Settings -> Recording -> Exceptions -->
     
     <string name="exception_group">ਗਰੁੱਪ</string>
+    
     <string name="exception_select_group">ਗਰੁੱਪ ਚੁਣੋ</string>
     
     
@@ -218,6 +234,8 @@
 
     <!-- Settings -> Folders and Files -->
     <string name="folder">ਫੋਲਡਰ</string>
+    
+    
     
     <string name="automatic_cleanup">ਆਟੋਮੈਟਿਕ ਸਫ਼ਾਈ</string>
     <string name="max_number_of_files">ਮੈਕਸ. ਫਾਇਲ ਦੀ ਗਿਣਤੀ</string>
@@ -253,6 +271,8 @@
     <string name="show_notification">ਨੋਟੀਫਿਕੇਸ਼ਨ ਵੇਖਾਓ</string>
     
     
+    
+    
     <string name="incall_control_for_outgoing">ਆਊਟਗੋਇੰਗ ਕਾਲ ਲਈ</string>
     
     <string name="incall_control_for_incoming">ਇਨਕਿਮੰਗ ਕਾਲ ਲਈ</string>
@@ -264,6 +284,9 @@
     <string name="vertical_position">ਲੰਬਕਾਰੀ ਸਥਿਤੀ</string>
     
     <string name="horizontal_position">ਲੇਟਵੀ ਸਥਿਤੀ</string>
+    
+    
+    
     
     
     
@@ -285,6 +308,11 @@
     
 
     <!-- Notification -->
+    
+    
+    
+    
+    
     
     
 
@@ -342,12 +370,14 @@
     <string name="root_access_yes">ਹਾ</string>
     <string name="dual_sim_phone">ਡਿਊਲ ਸਿਮ ਫੋਨ</string>
     <string name="dual_sim_phone_summary">ਇਸਨੁ ਏਨੇਬਲ ਕਰੋ ਜੇ ਅੱਪ ਤੁਹਾਡੇ ਦੂਜੇ ਸਿਮ ਕਾਰਡ ਤੋ ਕਾਲਸ ਨਹੀ ਲੈ ਸਕਦੀ</string>
+    
 
     <!-- General -->
     <string name="contact_unknown">ਅਣਜਾਣ</string>
     
     <string name="button_ok">ਠੀਕ ਹੈ</string>
     <string name="button_call">ਕਾਲ</string>
+    
     <string name="button_edit">ਸੋਧ</string>
     <string name="button_cancel">ਰੱਦ ਕਰੋ</string>
     <string name="button_create">ਬਣਾਓ</string>
@@ -358,15 +388,21 @@
     
     
     
+    
     <string name="call_incoming">ਇੰਕੋਮਿੰਗ</string>
     <string name="call_outgoing">ਆਊਟਗੋਇੰਗ</string>
-    
     
     <string name="start_recording">ਰਿਕਾਰਡਿੰਗ ਸ਼ੁਰੂ ਕਰੋ</string>
     <string name="stop_recording">ਰਿਕਾਰਡਿੰਗ ਰੋਕੋ</string>
     
     <string name="switch_on">ਸ਼ੁਰੂ</string>
     <string name="switch_off">ਬੰਦ</string>
+
+    <!--Toasts-->
+    
+    
+    
+    
 
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">ਇਸ ਕਾਲ ਨੂ ਰਿਕਾਰਡ ਕਰੋ</string>
@@ -389,16 +425,12 @@
     <string name="about_many_thanks">ਬਹੁਤ ਧੰਨਵਾਦ</string>
     <string name="about_many_thanks_summary">ਨੂੰ Alexey Subbotin (avs234)</string>
 
-    <!--About -> Licenses-->
-    <string name="licenses">ਲਾਇਸੰਸ</string>
-    <string name="about_open_core_amr_license">ਓਪੇਨਕੋਰ-amr</string>
-    <string name="about_open_core_amr_license_summary">Opencore-AMR ਵਰਤਦਾ ਹੈ, ਅਪਾਚੇ ਲਾਈਸਿੰਸ ਵਰਜਨ 2.0 ਅਧੀਨ, ਲਈ ਇੱਥੇ ਕਲਿੱਕ ਕਰੋ visitopencore-amr.sourceforge.net</string>
-    <string name="about_alsa">ALSA</string>
-    <string name="about_alsa_summary">LGPL ਅਧੀਨ ALSA ਨੂੰ ਵਰਤਦਾ ਹੈ, ALSA-project.org ਤੇ ਜਾਣ ਲਈ ਇੱਥੇ ਕਲਿੱਕ ਕਰੋ</string>
-    <string name="about_lame">LAME</string>
-    <string name="about_lame_summary">LGPL ਅਧੀਨ ਲੰਗਡ਼ੇ ਵਰਤਦਾ ਹੈ, mp3dev.org ਤੇ ਜਾਣ ਲਈ ਇੱਥੇ ਕਲਿੱਕ ਕਰੋ</string>
+    <!--About -> Other-->
+    
+    
 
-    <!--Credits-->
+    <!--About -> Translators-->
+    
     <string name="german_translation">ਜਰਮਨ ਅਨੁਵਾਦ</string>
     <string name="german_translation_summary">Marc Hillesheim ਅਤੇ Thomas Käfer ਦੁਆਰਾ</string>
     <string name="polish_translation">ਪੋਲਿਸ਼ ਅਨੁਵਾਦ</string>
@@ -465,19 +497,12 @@
     
     
     
-<string name="app_name">ਕਾਲ ਰਿਕਾਰਡਰ</string>
-    <string name="terms_of_use">ਵਰਤੋ ਦੀਆਂ ਸ਼ਰਤਾਂ</string>
-    <string name="terms_of_use_message">ਐਪਲੀਕੇਸ਼ ਨੂੰ ਵਰਤ ਕਰਨ ਲਈ ਤੁਸੀਂ ਕਾਲ ਰਿਕਾਰਡਰ ਦੇ ਨਿਯਮਾ ਨਾਲ ਸਹਿਮਤ ਹੋ</string>
-
-    <string name="navigation_drawer_open">ਨੇਵੀਗੇਸ਼ਨ ਦਰਾਜ਼ ਖੋਲੋ</string>
-    <string name="navigation_drawer_close">ਨੇਵੀਗੇਸ਼ਨ ਦਰਾਜ਼ ਬੰਦ ਕਰੋ</string>
-
-    <string name="section_all_recordings">ਸਾਰੀਆ ਰਿਕਾਰਡਿੰਗ</string>
-    <string name="section_starred">ਸਤਾਰੇ</string>
-    <string name="section_incoming">ਆਉਣ ਵਾਲੀਆ</string>
-    <string name="section_outgoing">ਬਾਹਰ ਜਾਣ ਵਾਲੀਆ</string>
-    <string name="section_by_contact">ਸੰਪਰਕ ਦੁਆਰਾ</string>
-    <string name="section_by_format">ਫਾਰਮੈਟ ਦੁਆਰਾ</string>
-    <string name="section_by_label">ਲੇਬਲ ਦੁਆਰਾ</string>
-    <string name="section_help">ਮਦਦ ਕਰੋ</string>
-    </resources>
+    
+    
+    
+    
+    
+    
+    
+    
+</resources>

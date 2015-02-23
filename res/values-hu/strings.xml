@@ -1,56 +1,62 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Call Recorder</string>
-    
-    
+    <string name="terms_of_use">Felhasználási feltételek</string>
+    <string name="terms_of_use_message">A CallRecorder alkalmazás használatával elfogadja a &lt;a href=http://rec.sh/terms&gt;Felhasználási feltételek&lt;/a&gt;-et.</string>
 
     <!-- Navigation drawer -->
-    
-    
+    <string name="navigation_drawer_open">Navigációs fiók megnyitása</string>
+    <string name="navigation_drawer_close">Navigációs fiók bezárása</string>
 
     <!-- Navigation drawer sections -->
-    
-    
+    <string name="section_all_recordings">Összes felvétel</string>
+    <string name="section_starred">Kedvencek</string>
     <string name="section_incoming">Bejövő</string>
     <string name="section_outgoing">Kimenő</string>
-    
-    
-    
+    <string name="section_by_contact">Névjegy</string>
+    <string name="section_by_format">Formátum</string>
+    <string name="section_by_label">Cimke</string>
     <string name="section_help">Segítség</string>
     <string name="section_tasks">Feladatok</string>
-    
+    <string name="section_tasks_hint">Időigényes feladatok a felvételekkel úgymint konvertálás, kódolás vagy feltöltés felhőbe megjelenítése itt</string>
     <string name="empty_hint">Üres</string>
 
     <!-- Action bar -->
     <string name="action_search">Keresés</string>
-    
+    <string name="action_sort">Rendezés</string>
     <string name="action_settings">Beállítások</string>
-    
-    
-    
-    
-    
+    <string name="action_refresh">Frissítés</string>
+    <string name="action_delete">Törlés</string>
+    <string name="action_add_star">Kedvencekhez ad</string>
+    <string name="action_remove_star">Kedvencekből eltávolít</string>
+    <string name="action_share">Megosztás</string>
+    <string name="action_cancel_tasks">Feladatok elvetése</string>
     <string name="action_select_all">Összes kijelölése</string>
-    
-    
+    <string name="sort_by_date">Dátum szerint</string>
+    <string name="sort_by_contact">Névjegy szerint</string>
+    <string name="sort_by_file_size">Fájlméret szerint</string>
+    <string name="records_size">felvételek: %1$s, méret: %2$s</string>
+    <string name="space_free_of">%1$s szabad a %2$s</string>
+
+    <!--Import settings -->
     
 
     <!-- List -->
-    
-    
-    
-    
+    <string name="list_header_today">Ma</string>
+    <string name="list_header_yesterday">Tegnap</string>
+    <string name="queued">Várakozó</string>
+    <string name="no_connection">Nincs kapcsolat</string>
 
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">Dropboxhoz ad</string>
-    
-    
+    <string name="menu_add_note">Megjegyezést hozzáad</string>
+    <string name="menu_edit_note">Megjegyezés szerkesztése</string>
     <string name="menu_delete">Törlés</string>
-    
-    
-    
+    <string name="menu_share">Megosztás</string>
+    <string name="menu_convert_to_mp3">Konvertálás MP3-ba</string>
+    <string name="menu_convert_to_amr">Konvertálás AMR-be</string>
     <string name="menu_get_info">Információ szerzés</string>
-    
+    <string name="menu_cancel_task">Feladat elvetése</string>
     <string name="menu_encrypt">Titkosítás</string>
     <string name="menu_decrypt">Dekódolás</string>
 
@@ -58,7 +64,7 @@
     <string name="file_name">Fájl név</string>
     <string name="sample_rate">Mintavétel frekvencia</string>
     <string name="sample_rate_hz">Hz</string>
-    
+    <string name="recording_type">Felvétel típusa</string>
     <string name="recording_type_mono">Mono</string>
     <string name="recording_type_stereo">Stereo</string>
     <string name="file_size">Fájl méret</string>
@@ -67,7 +73,7 @@
     <string name="megabyte">MB</string>
     <string name="kilobyte">KB</string>
     <string name="bytes">bájt</string>
-    
+    <string name="note">Megjegyzés</string>
 
     <!-- List -> Get info dialog -> Edit -->
     <string name="contact_name">Névjegy név</string>
@@ -75,41 +81,43 @@
 
     <!-- List -> Confirm delete dialog -->
     <string name="confirm_delete_message">Biztos törölni akarja ezt a fevételt?</string>
-    
-    
+    <string name="confirm_delete_several_title">Törlés megerősítése</string>
+    <string name="confirm_delete_several_message">Ön kiválasztott %d felvételt. Valóban törli őket?</string>
 
     <!-- List -> Share -->
-    
+    <string name="share_via">Megosztás ezzel</string>
     <string name="recorded_calls">Felvett hívások</string>
 
     <!--  Settings -> Headers -->
+    <string name="settings_open_unlocker">Unlocker megnyitása</string>
     <string name="settings_recording">Felvétel</string>
     <string name="settings_folders_and_files">Mappák és fájlok</string>
     <string name="settings_ui_and_appearance">Illesztőfelület és megjelenés</string>
     <string name="settings_security">Adatvédelem</string>
-    
+    <string name="settings_cloud">Felhő</string>
     <string name="settings_audio_player">Hanglejátszó</string>
     <string name="settings_debug">Hibakeresés</string>
     <string name="settings_about">Névjegy</string>
 
     <!-- Settings -> License -->
     <string name="license_status">Licensz állapota</string>
-    
-    
-    
-    
-    
-    
-    
-    
+    <string name="license_check_pending">Licenc ellenőrzés függőben</string>
+    <string name="license_check_failed">Licenc ellenőrzés sikertelen</string>
+    <string name="license_check_failed_summary">Részletekért érintse meg itt</string>
+    <string name="license_verified">Licenc hitelesítve</string>
+    <string name="license_verified_summary">Elrejtéshez érintse meg</string>
+    <string name="license_help">Súgó</string>
+    <string name="license_signature_verification_failed">Aláírás hitelesítés sikertelen</string>
+    <string name="license_error_message">Hiba #%1$s: %2$s</string>
     <string name="license_trial">A próba verzió %s lejár</string>
-    
-    
-    
-    
-    
-    
-
+    <string name="license_unknown_error">Ismeretlen hiba</string>
+    <string name="license_not_market_managed">Ez verzió még nincs közzétéve a Play Store-n</string>
+    <string name="license_incorrect_response">Helytelen licenc válasz a Play Store-ból</string>
+    <string name="license_error_contacting_server">Szerver kapcsolat hiba</string>
+    <string name="license_server_error">Szerver hiba</string>
+    <string name="license_over_quota">A készüléktől túl sok a kérés</string>
+    <string name="license_trial_expired">Próba időszak lejárt</string>
+    <string name="license_trial_expired_summary">Kérem, a teljes változat megvásárlása előtt távolítsa el ezt a verziót</string>
     <string name="buy_full_version">Teljes verzió vásárlása</string>
     <string name="buy_full_version_summary">Az aktuális verzió %s lejár</string>
 
@@ -118,9 +126,9 @@
     <string name="category_main">Fő beállítások</string>
     <string name="device">Készülék</string>
     <string name="select_your_device">Válassza ki a készülékét</string>
-    
-    
-    
+    <string name="device_change_settings_empty">Készülékén ez lesz beállítva</string>
+    <string name="device_root_is_required">Root jog szükséges</string>
+    <string name="device_root_is_required_summary">A jobb minőséghez rootolni kell a készüléket</string>
     <string name="device_other">Egyéb</string>
     <string name="recording_method">Felvételi módszer</string>
     <string name="recording_method_api">Szabvány API</string>
@@ -129,8 +137,8 @@
     <string name="recording_method_caf_settings">CAF felvétel beállítások</string>
     <string name="recording_method_alsa">ALSA</string>
     <string name="recording_method_alsa_settings">ALSA felvétel beállítások</string>
-    
-    
+    <string name="recording_method_msm">MSM</string>
+    <string name="recording_method_msm_settings">MSM felvétel beállítások</string>
     <string name="category_actions">Műveletek</string>
     <string name="action_for_incoming">Művelet bejövő hívásoknál</string>
     <string name="action_for_outgoing">Művelet kimenő hívásoknál</string>
@@ -144,23 +152,23 @@
     <string name="after_call_actions_dialog_summary">Megkérdezi párbeszédablakban mit tegyen hívás után</string>
     <string name="vibrate_on_call">Rezgés hívás indítás/befejezéskor</string>
     <string name="exceptions">Kivételek</string>
-    
-    
-    
+    <string name="exceptions_summary">Állítson be egy konkrét műveletet a névjegyeknek, csoportoknak, vagy telefonszámoknak</string>
+    <string name="start_recording_on_answer">Felvétel indítása fogadáskor</string>
+    <string name="start_recording_on_answer_summary">Felvétel indítása kimenő hívás fogadásakor. Az alkalmazás egy dokumentálatlan megkerülő műveletet használ amely érzékel egy pillanatot amikor a másik oldal válaszol, ez a tulajdonság megbukhat néhány eszközön. Root szükséges Android 4.1 Jelly Bean-óta. Kernelben engedélyezni kell.</string>
     <string name="delay_before_start_recording">Felvétel előtti késleltetés</string>
-    
-    
-    
-    
-    
-    
+    <string name="delay_before_start_recording_summary">Kimenő: %1$s, bejövő: %2$s</string>
+    <string name="delay_format_sec">%s mp</string>
+    <string name="delay_for_outgoing">Kimenő</string>
+    <string name="delay_for_incoming">Bejövő</string>
+    <string name="settings_for_device">%s Beállítások</string>
+    <string name="recording_format">Felvétel formátuma</string>
     <string name="recording_format_wav">WAV</string>
     <string name="recording_format_amr">AMR</string>
     <string name="recording_format_aac">AAC</string>
     <string name="recording_format_mp3">MP3</string>
     <string name="volume_control">Hangerő szabályozás</string>
-    
-    
+    <string name="volume_control_summary">Tx: %1$s, Rx: %2$s</string>
+    <string name="volume_control_overall">Általános hangerő</string>
     <string name="volume_control_tx">Tx</string>
     <string name="volume_control_rx">Rx</string>
     <string name="sample_rate_8000">8000 Hz (Alapértelmezett)</string>
@@ -179,14 +187,21 @@
     <string name="api_source_default">Alapértelmezett</string>
     <string name="api_source_voice_communication">Hang kommunikáció</string>
     <string name="category_wav_settings">WAV beállítások</string>
-    
+    <string name="category_wav_and_mp3_settings">WAV és MP3 beállítások</string>
+    <string name="when_bt_connected">Mikor BT-hoz van csatlakoztatva...</string>
+    <string name="audio_source_when_bt_connected">Hangforrás BT csatlakoztatásakor</string>
+
+    <!-- Actions when BT connected -->
+    <string name="when_bt_connected_do_nothing">Ne tegyen semmit</string>
+    <string name="when_bt_connected_switch_source">Hangforrás váltás</string>
+    <string name="when_bt_connected_disable_recording">Felvétel letiltása</string>
 
     <!-- Settings -> Recording -> CAF -->
     <string name="recording_mode">Felvételi mód</string>
 
     <!-- Settings -> Recording -> ALSA -->
-    
-    
+    <string name="alsa_is_not_installed">ALSA telepítése kötelező</string>
+    <string name="alsa_is_not_installed_summary">Kattintson ide az ALSA telepítéséhez</string>
 
     <!-- Settings -> Recording -> MSM -->
     <string name="chipset_type">Chipset típusa</string>
@@ -198,26 +213,29 @@
     <string name="dont_use_amr_driver_summary">Helyette WAV-ből AMR-be konvertáljon valós időben</string>
 
     <!-- Settings -> Recording -> Exceptions -->
-    
+    <string name="add_exception">Kivétel hozzáadása</string>
     <string name="exception_group">Csoport</string>
+    
     <string name="exception_select_group">Csoport kiválasztása</string>
-    
-    
-    
-    
+    <string name="exception_contact">Névjegy</string>
+    <string name="exception_select_contact">Névjegy kiválasztása</string>
+    <string name="exception_phone_number">Telefonszám</string>
+    <string name="exception_action">Művelet</string>
     <string name="exception_select_action">Művelet kiválasztása</string>
     <string name="exception_action_always_record">Mindig felvesz</string>
     <string name="exception_action_never_record">Soha nem vesz fel</string>
-    
-    
-    
-    
-    
-    
-    
+    <string name="exception_groups_not_found">Csoport nem található</string>
+    <string name="exception_contacts_not_found">Névjegy nem található</string>
+    <string name="exceptions_not_added">Kivételekhez nincs hozzáadva</string>
+    <string name="exception_by_contact">Névjegyekből</string>
+    <string name="exception_by_group">Csoportokból</string>
+    <string name="exception_by_phone_number">Telefonszámokból</string>
+    <string name="exception_delete_message">Valóban törölni szeretné ezt a kivételt?</string>
 
     <!-- Settings -> Folders and Files -->
     <string name="folder">Mappa</string>
+    <string name="folder_chooser_up_to">↑ Fel %s-ig</string>
+    
     
     <string name="automatic_cleanup">Automatikus takarítás</string>
     <string name="max_number_of_files">Fájlok max. száma</string>
@@ -227,7 +245,7 @@
     <string name="max_age_of_recordings">Felvételek max. tárolási ideje</string>
     <string name="max_age_of_recordings_message">Érték beírása napokban (0 - korlátlan)</string>
     <string name="current_setting">Jelenlegi beállítások: %s</string>
-    
+    <string name="settings_filename">Fájl neve</string>
     <string name="filename_pattern">Minta</string>
     <string name="time_pattern">Idő minta</string>
 
@@ -235,7 +253,7 @@
     <string name="pattern_contact_name">Névjegy neve</string>
     <string name="pattern_phone_number">Telefonszám</string>
     <string name="pattern_call_time">Hívás idő</string>
-    
+    <string name="pattern_call_timestamp">hívás ideje (Unix idő)</string>
     <string name="pattern_call_type">Hívás típusa (kimenő vagy bejövő)</string>
     <string name="time_pattern_hours">óra</string>
     <string name="time_pattern_minutes">perc</string>
@@ -248,45 +266,55 @@
     <!--Settings -> Interface and Appearance-->
     <string name="language">Nyelv</string>
     <string name="select_language">Nyelv választás</string>
-    
+    <string name="default_language">Alapértelmezett nyelv</string>
     <string name="category_notification">Értesítés</string>
     <string name="show_notification">Értesítés megjelenítése</string>
-    
-    
+    <string name="show_notification_summary">Nem törlődő értesítés az állapotsorban</string>
+    <string name="hide_icon_but_keep_notification">Ikont elrejtése</string>
+    <string name="hide_icon_but_keep_notification_summary">Ikon elrejtése az állapotsávból, de értesítésben megtart</string>
+    <string name="category_incall_control_button">Belső-hívás vezérlő gomb</string>
     <string name="incall_control_for_outgoing">Kimenő hívások</string>
-    
+    <string name="incall_control_for_outgoing_summary">Hívás-vezérlő gomb megjelenítése kimenő hívásnál</string>
     <string name="incall_control_for_incoming">Bejövő hívások</string>
-    
-    
-    
+    <string name="incall_control_for_incoming_summary">Hívás-vezérlő gomb megjelenítése bejövő hívásnál</string>
+    <string name="hide_button_while_recording">Gomb elrejtése felvételkor</string>
+    <string name="hide_button_while_recording_summary">Hívás-vezérlő gomb elrejtése felvételkor</string>
     <string name="show_button_while_ringing">Gomb megjelenítése csengéskor</string>
     <string name="show_button_while_ringing_summary">Belső hívásvezérlő gomb megjelenítése hívás fogadása előtt</string>
     <string name="vertical_position">Függőleges elhelyezés</string>
-    
+    <string name="vertical_position_summary">%s dp, eltolás a képernyő központjától</string>
     <string name="horizontal_position">Vízszintes elhelyezés</string>
-    
-    
+    <string name="horizontal_position_summary">%s dp, eltolás a képernyő központjától</string>
+    <string name="hide_button_before_answer">Gomb elrejtése hívás fogadás előtt</string>
     <string name="hide_button_before_answer_summary">Ne mutassa a belső hívásvezérlő gombot amíg a kapcsolat létre nem jött</string>
-    
+    <string name="long_press_action">Hosszú érintés művelet</string>
+    <string name="long_press_action_dragging_the_button">Gomb húzása</string>
+    <string name="long_press_action_hang_up">Hívás késleltetés és visszahívás automatikusan</string>
+    <string name="category_main_screen">Főképernyő</string>
     
     
 
     <!-- Settings -> Cloud -->
-    
+    <string name="cloud_provider">Felhő szolgáltató</string>
     <string name="cloud_provider_dropbox">Dropbox</string>
-    
-    
-    
-    
+    <string name="sign_in_dropbox">Bejelentkezés a Dropbox-ba</string>
+    <string name="sign_out_dropbox">Kijelentkezés a Dropbox-ból</string>
+    <string name="cloud_provider_google_drive">Google Drive</string>
+    <string name="cloud_common_settings">Közös</string>
     <string name="cloud_wifi_only">Csak WiFi-vel</string>
     <string name="cloud_auto_upload">Automatikus feltöltés</string>
     <string name="cloud_auto_upload_summary">Felvétel automatikus feltöltése hívás után</string>
-    
-    
+    <string name="cloud_upload_starred">Kedvencek feltöltése</string>
+    <string name="cloud_upload_starred_summary">Felvételek feltöltése felhőbe miután hozzáadta a kedvencekhez</string>
 
     <!-- Notification -->
-    
-    
+    <string name="notify_uploading_dropbox">Feltöltés Dropbox-ba</string>
+    <string name="notify_converting_to_amr">Konvertálás AMR-be</string>
+    <string name="notify_converting_to_mp3">Konvertálás MP3-ba</string>
+    <string name="notify_encrypting">Titkosítás</string>
+    <string name="notify_decrypting">Dekódolás</string>
+    <string name="notify_waiting_for_calls">Hívásokra vár</string>
+    <string name="notify_tasks_remaining">%d hátralevő feladatok</string>
 
     <!-- Password dialog -->
     <string name="wrong_password">A jelszó helytelen</string>
@@ -297,17 +325,17 @@
     <string name="category_encryption">Titkosítás</string>
     <string name="category_application">Alkalmazás</string>
     <string name="create_new_key">Új kulcs létrehozása</string>
-    
-    
+    <string name="create_new_key_summary">Ezt a kulcsot fogja később használni a felvételek kódolásához vagy belépni az alkalmazásba</string>
+    <string name="delete_key">Kulcs törlése</string>
     <string name="change_password">Jelszó módosítás</string>
-    
-    
+    <string name="delete_key_summary">Figyelmeztetés! Soha nem lesz képes helyreállítani a kódolt fevételeket, még akkor sem ha létrehoz egy új kulcsot ugyanazzal jelszóval</string>
+    <string name="delete_key_message">Törlés után nem lesz képes helyreállítani a kódolt fevételeket. Valóban folytatni szeretné?</string>
     <string name="enter_old_password">Adja meg a régi jelszót</string>
     <string name="enter_new_password">Adja meg az új jelszót</string>
     <string name="re_enter_new_password">Adja meg az új jelszót ismét</string>
     <string name="require_password">Jelszó szükséges</string>
     <string name="require_password_summary">Az alkalmazás megnyitásához jelszó szükséges</string>
-    
+    <string name="require_password_summary_no_key">Az alkalmazás megnyitásához jelszó szükséges. Engedélyezéshez először hozzon létre kulcsot</string>
     <string name="lock_after">Után lezár</string>
     <string name="lock_after_exit">Kilépés</string>
     <string name="lock_after_1_minute">1 perc</string>
@@ -315,22 +343,22 @@
     <string name="lock_after_5_minutes">5 perc</string>
     <string name="lock_after_10_minutes">10 perc</string>
     <string name="app_admin">Alkalmazás kezelő</string>
-    
-    
+    <string name="app_admin_summary">Szükséges a Call Recorder eltávolításának megakadályozására</string>
+    <string name="app_admin_explanation">A Call Recorder az eltávolításon kívül nem használja semmilyen szolgáltatásara az eszközkezelőt</string>
     <string name="aes_128bit">128-bit AES (Gyorsabb)</string>
     <string name="aes_192bit">192-bit AES (Kiegyensúlyozott)</string>
     <string name="aes_256bit">256-bit AES (Erősebb)</string>
 
     <!-- Settings -> Audio player -->
-    
+    <string name="use_built_in_player">Beépített lejátszó használata</string>
     <string name="audio_output">Hangkimenet</string>
-    
+    <string name="audio_output_summary">%s (Átváltáshoz hosszú érintés a lejátszás/szünet gombra)</string>
     <string name="main_speaker">Fő hangszóró(kihangosítás)</string>
     <string name="phone_speaker">Telefon hangszóró</string>
     <string name="use_proximity_sensor">Közelségi szenzor használata</string>
-    
+    <string name="use_proximity_sensor_summary">Képernyő közelség érzékelő letiltása visszajátszás alatt</string>
     <string name="switch_audio_output">Hangkimenet váltás</string>
-    
+    <string name="switch_audio_output_summary">Automatikus akusztikus kimenet váltás amikor a képernyőt letiltja/engedélyezi a közelség érzékelő</string>
     <string name="android_wav_decoder">Android dekóder WAV-hez</string>
     <string name="android_wav_decoder_summary">WAV lejátszásához a beépített lejátszó használata</string>
     <string name="android_amr_decoder">Android dekóder AMR-hez</string>
@@ -342,63 +370,67 @@
     <string name="root_access_yes">Igen</string>
     <string name="dual_sim_phone">Dual Sim kártyás telefon</string>
     <string name="dual_sim_phone_summary">Engedélyezze ezt, ha az alkalmazás nem tudja meghatározni a hívásokat a második sim kártyáról</string>
+    <string name="send_logs_to_the_developer">Napló küldése a fejlesztőnek</string>
 
     <!-- General -->
     <string name="contact_unknown">Ismeretlen</string>
-    
+    <string name="button_choose">Kiválasztás</string>
     <string name="button_ok">Rendben</string>
-    
+    <string name="button_call">Hívás</string>
+    <string name="button_buy">Vásárlás</string>
     <string name="button_edit">Szerkeszt</string>
     <string name="button_cancel">Mégse</string>
+    <string name="button_create">Létrehozás</string>
+    <string name="button_delete">Törlés</string>
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <string name="button_keep">Megtart</string>
+    <string name="button_play">Lejátszás</string>
+    <string name="button_pause">Szünet</string>
+    <string name="button_delete_wait">(%d) Törlése</string>
+    <string name="decline">Elutasítom</string>
+    <string name="accept">Elfogadom</string>
+    <string name="call_incoming">Bejövő</string>
+    <string name="call_outgoing">Kimenő</string>
     <string name="please_wait">Kérem várjon…</string>
-    
     <string name="start_recording">Felvétel indítása</string>
     <string name="stop_recording">Felvétel leállítása</string>
-    
+    <string name="action_mode_selected">%d kiválasztva</string>
     <string name="switch_on">Be</string>
     <string name="switch_off">Ki</string>
 
+    <!--Toasts-->
+    <string name="toast_wait_for_operation_to_complete">Teljes műveletre várakozás</string>
+    <string name="toast_recording_is_off">Felvétel KI</string>
+    <string name="toast_recording_is_on">Felvétel BE</string>
+    <string name="toast_file_deleted">A fájl sikeresen törölve</string>
+
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">Hívás felvétele</string>
-    
+    <string name="open_contact">Névjegy megnyitása</string>
 
     <!--After call actions dialog-->
     <string name="cloud_added">Hozzáadás</string>
 
     <!--Notification-->
-    
-    
-    
+    <string name="waiting_for_answer">Hívásfogadásra vár</string>
+    <string name="recording_in_progress">Felvétel folyamatban</string>
+    <string name="no_recording_in_progress">Nincs felvétel folyamatban</string>
     <string name="an_error_has_occurred">Hiba történt, ezt a hívást nem lehet rögzíteni</string>
 
     <!--About-->
-    
+    <string name="about_call_recorder">Call Recorder névjegye</string>
     <string name="version">Verzió</string>
     <string name="copyright">Szerzői jog</string>
     <string name="copyright_summary">© %s Alexander Skvortsov (skvalex)</string>
     <string name="about_many_thanks">Köszönet</string>
     <string name="about_many_thanks_summary">Alexey Subbotin (avs234)</string>
 
-    <!--About -> Licenses-->
-    <string name="licenses">Licencek</string>
-    <string name="about_open_core_amr_license">opencore-amr</string>
-    <string name="about_open_core_amr_license_summary">Uses opencore-amr under Apache License Version 2.0, click here to visit opencore-amr.sourceforge.net</string>
-    <string name="about_alsa">ALSA</string>
-    <string name="about_alsa_summary">Uses ALSA under LGPL, click here to visit alsa-project.org</string>
-    <string name="about_lame">LAME</string>
-    <string name="about_lame_summary">Uses LAME under LGPL, click here to visit mp3dev.org</string>
+    <!--About -> Other-->
+    
+    
 
-    <!--Credits-->
+    <!--About -> Translators-->
+    
     <string name="german_translation">Német fordítás</string>
     <string name="german_translation_summary">Marc Hillesheim és Thomas Käfer</string>
     <string name="polish_translation">Lengyel fordítás</string>
@@ -465,186 +497,12 @@
     <string name="belarusian_translation_summary">Alexander Kuvshinov</string>
     <string name="vietnamese_translation">Vietnami fordítás</string>
     <string name="vietnamese_translation_summary">Truong Hoang Trung</string>
-<string name="terms_of_use">Felhasználási feltételek</string>
-    <string name="menu_share">Megosztás</string>
-    <string name="terms_of_use_message">A CallRecorder alkalmazás használatával elfogadja a &lt;a href=http://rec.sh/terms&gt;Felhasználási feltételek&lt;/a&gt;-et.</string>
-
-    <string name="navigation_drawer_open">Navigációs fiók megnyitása</string>
-    <string name="navigation_drawer_close">Navigációs fiók bezárása</string>
-
-    <string name="section_all_recordings">Összes felvétel</string>
-    <string name="section_starred">Kedvencek</string>
-    <string name="section_by_contact">Névjegy</string>
-    <string name="section_by_format">Formátum</string>
-    <string name="section_by_label">Cimke</string>
-    <string name="section_tasks_hint">Időigényes feladatok a felvételekkel úgymint konvertálás, kódolás vagy feltöltés felhőbe megjelenítése itt</string>
-    <string name="action_sort">Rendezés</string>
-    <string name="action_refresh">Frissítés</string>
-    <string name="action_delete">Törlés</string>
-    <string name="action_add_star">Kedvencekhez ad</string>
-    <string name="action_remove_star">Kedvencekből eltávolít</string>
-    <string name="action_share">Megosztás</string>
-    <string name="sort_by_date">Dátum szerint</string>
-    <string name="sort_by_contact">Névjegy szerint</string>
-    <string name="sort_by_file_size">Fájlméret szerint</string>
-
-    <string name="list_header_today">Ma</string>
-    <string name="list_header_yesterday">Tegnap</string>
-    <string name="queued">Várakozó</string>
-    <string name="no_connection">Nincs kapcsolat</string>
-
-    <string name="menu_add_note">Megjegyezést hozzáad</string>
-    <string name="menu_edit_note">Megjegyezés szerkesztése</string>
-    <string name="menu_convert_to_mp3">Konvertálás MP3-ba</string>
-    <string name="menu_convert_to_amr">Konvertálás AMR-be</string>
-    <string name="menu_cancel_task">Feladat elvetése</string>
-    <string name="recording_type">Felvétel típusa</string>
-    <string name="note">Megjegyzés</string>
-
-    <string name="confirm_delete_several_title">Törlés megerősítése</string>
-    <string name="confirm_delete_several_message">Ön kiválasztott %d felvételt. Valóban törli őket?</string>
-
-    <string name="share_via">Megosztás ezzel</string>
-    <string name="settings_cloud">Felhő</string>
-    <string name="license_check_pending">Licenc ellenőrzés függőben</string>
-    <string name="license_check_failed">Licenc ellenőrzés sikertelen</string>
-    <string name="license_check_failed_summary">Részletekért érintse meg itt</string>
-    <string name="license_verified">Licenc hitelesítve</string>
-    <string name="license_verified_summary">Elrejtéshez érintse meg</string>
-    <string name="license_help">Súgó</string>
-    <string name="license_signature_verification_failed">Aláírás hitelesítés sikertelen</string>
-    <string name="license_error_message">Hiba #%1$s: %2$s</string>
-    <string name="license_unknown_error">Ismeretlen hiba</string>
-    <string name="license_not_market_managed">Ez verzió még nincs közzétéve a Play Store-n</string>
-    <string name="license_incorrect_response">Helytelen licenc válasz a Play Store-ból</string>
-    <string name="license_error_contacting_server">Szerver kapcsolat hiba</string>
-    <string name="license_server_error">Szerver hiba</string>
-    <string name="license_over_quota">A készüléktől túl sok a kérés</string>
-
-    <string name="about_ion_license">Ion</string>
-    <string name="about_ion_license_summary">Uses Ion under Apache License Version 2.0, click here to visit github.com/koush/ion</string>
     <string name="armenian_translation">Örmény fordítás</string>
     <string name="armenian_translation_summary">Hakob Sununu és Konstantin Gevorgyan</string>
     <string name="gujarati_translation">Gujarati fordítás</string>
     <string name="gujarati_translation_summary">Abhishek Sharma</string>
     <string name="tamil_translation">Tamil fordítás</string>
     <string name="tamil_translation_summary">Ashish Sharma</string>
-<string name="device_root_is_required">Root jog szükséges</string>
-    <string name="device_root_is_required_summary">A jobb minőséghez rootolni kell a készüléket</string>
-    <string name="device_change_settings_empty">Készülékén ez lesz beállítva</string>
-    <string name="action_cancel_tasks">Feladatok elvetése</string>
-    <string name="space_free_of">"%1$s szabad a  %2$s"</string>
-
-    <string name="records_size">felvételek: %1$s, méret: %2$s</string>
-    <string name="settings_open_unlocker">Unlocker megnyitása</string>
-    <string name="license_trial_expired">Próba időszak lejárt</string>
-    <string name="license_trial_expired_summary">Kérem, a teljes változat megvásárlása előtt távolítsa el ezt a verziót</string>
-
-    <string name="recording_method_msm_settings">MSM felvétel beállítások</string>
-    <string name="exceptions_summary">Állítson be egy konkrét műveletet a névjegyeknek, csoportoknak, vagy telefonszámoknak</string>
-    <string name="start_recording_on_answer">Felvétel indítása fogadáskor</string>
-    <string name="start_recording_on_answer_summary">Felvétel indítása kimenő hívás fogadásakor. Az alkalmazás egy dokumentálatlan megkerülő műveletet használ amely érzékel egy pillanatot amikor a másik oldal válaszol, ez a tulajdonság megbukhat néhány eszközön. Root szükséges Android 4.1 Jelly Bean-óta. Kernelben engedélyezni kell.</string>
-    <string name="delay_before_start_recording_summary">Kimenő: %1$s, bejövő: %2$s</string>
-    <string name="delay_format_sec">%s mp</string>
-    <string name="delay_for_outgoing">Kimenő</string>
-    <string name="delay_for_incoming">Bejövő</string>
-    <string name="settings_for_device">%s Beállítások</string>
-    <string name="recording_format">Felvétel formátuma</string>
-    <string name="volume_control_summary">Tx: %1$s, Rx: %2$s</string>
-    <string name="volume_control_overall">Általános hangerő</string>
-    <string name="category_wav_and_mp3_settings">WAV és MP3 beállítások</string>
-
-    <string name="alsa_is_not_installed">ALSA telepítése kötelező</string>
-    <string name="alsa_is_not_installed_summary">Kattintson ide az ALSA telepítéséhez</string>
-
-    <string name="add_exception">Kivétel hozzáadása</string>
-    <string name="exception_contact">Névjegy</string>
-    <string name="exception_select_contact">Névjegy kiválasztása</string>
-    <string name="exception_phone_number">Telefonszám</string>
-    <string name="exception_action">Művelet</string>
-    <string name="recording_method_msm">MSM</string>
-    <string name="exception_groups_not_found">Csoport nem található</string>
-    <string name="exception_contacts_not_found">Névjegy nem található</string>
-    <string name="exceptions_not_added">Kivételekhez nincs hozzáadva</string>
-    <string name="exception_by_contact">Névjegyekből</string>
-    <string name="exception_by_group">Csoportokból</string>
-    <string name="exception_by_phone_number">Telefonszámokból</string>
-    <string name="exception_delete_message">Valóban törölni szeretné ezt a kivételt?</string>
-
-    <string name="folder_chooser_up_to">↑ Fel %s-ig</string>
-    <string name="settings_filename">Fájl neve</string>
-    <string name="pattern_call_timestamp">hívás ideje (Unix idő)</string>
-    <string name="default_language">Alapértelmezett nyelv</string>
-    <string name="show_notification_summary">Nem törlődő értesítés az állapotsorban</string>
-    <string name="hide_icon_but_keep_notification">Ikont elrejtése</string>
-    <string name="hide_icon_but_keep_notification_summary">Ikon elrejtése az állapotsávból, de értesítésben megtart</string>
-    <string name="category_incall_control_button">Belső-hívás vezérlő gomb</string>
-    <string name="incall_control_for_outgoing_summary">Hívás-vezérlő gomb megjelenítése kimenő hívásnál</string>
-    <string name="incall_control_for_incoming_summary">Hívás-vezérlő gomb megjelenítése bejövő hívásnál</string>
-    <string name="hide_button_while_recording">Gomb elrejtése felvételkor</string>
-    <string name="hide_button_while_recording_summary">Hívás-vezérlő gomb elrejtése felvételkor</string>
-    <string name="vertical_position_summary">%s dp, eltolás a képernyő központjától</string>
-    <string name="horizontal_position_summary">%s dp, eltolás a képernyő központjától</string>
-    <string name="hide_button_before_answer">Gomb elrejtése hívás fogadás előtt</string>
-    <string name="long_press_action">Hosszú érintés művelet</string>
-    <string name="long_press_action_dragging_the_button">Gomb húzása</string>
-    <string name="long_press_action_hang_up">Hívás késleltetés és visszahívás automatikusan</string>
-
-    <string name="cloud_provider">Felhő szolgáltató</string>
-    <string name="sign_in_dropbox">Bejelentkezés a Dropbox-ba</string>
-    <string name="sign_out_dropbox">Kijelentkezés a Dropbox-ból</string>
-    <string name="cloud_provider_google_drive">Google Drive</string>
-    <string name="cloud_common_settings">Közös</string>
-    <string name="cloud_upload_starred">Kedvencek feltöltése</string>
-    <string name="cloud_upload_starred_summary">Felvételek feltöltése felhőbe miután hozzáadta a kedvencekhez</string>
-
-    <string name="notify_uploading_dropbox">Feltöltés Dropbox-ba</string>
-    <string name="notify_converting_to_amr">Konvertálás AMR-be</string>
-    <string name="notify_converting_to_mp3">Konvertálás MP3-ba</string>
-    <string name="notify_encrypting">Titkosítás</string>
-    <string name="notify_decrypting">Dekódolás</string>
-    <string name="notify_waiting_for_calls">Hívásokra vár</string>
-    <string name="notify_tasks_remaining">%d hátralevő feladatok</string>
-
-    <string name="create_new_key_summary">Ezt a kulcsot fogja később használni a felvételek kódolásához vagy belépni az alkalmazásba</string>
-    <string name="delete_key">Kulcs törlése</string>
-    <string name="delete_key_summary">Figyelmeztetés! Soha nem lesz képes helyreállítani a kódolt fevételeket, még akkor sem ha létrehoz egy új kulcsot ugyanazzal jelszóval</string>
-    <string name="delete_key_message">Törlés után nem lesz képes helyreállítani a kódolt fevételeket. Valóban folytatni szeretné?</string>
-    <string name="require_password_summary_no_key">Az alkalmazás megnyitásához jelszó szükséges. Engedélyezéshez először hozzon létre kulcsot</string>
-    <string name="app_admin_summary">Szükséges a Call Recorder eltávolításának megakadályozására</string>
-    <string name="app_admin_explanation">A Call Recorder az eltávolításon kívül nem használja semmilyen szolgáltatásara az eszközkezelőt</string>
-    <string name="use_built_in_player">Beépített lejátszó használata</string>
-    <string name="audio_output_summary">%s (Átváltáshoz hosszú érintés a lejátszás/szünet gombra)</string>
-    <string name="use_proximity_sensor_summary">Képernyő közelség érzékelő letiltása visszajátszás alatt</string>
-    <string name="switch_audio_output_summary">Automatikus akusztikus kimenet váltás amikor a képernyőt letiltja/engedélyezi a közelség érzékelő</string>
-    <string name="send_logs_to_the_developer">Napló küldése a fejlesztőnek</string>
-
-    <string name="button_choose">Kiválasztás</string>
-    <string name="button_call">Hívás</string>
-    <string name="button_buy">Vásárlás</string>
-    <string name="button_create">Létrehozás</string>
-    <string name="button_delete">Törlés</string>
-    <string name="button_keep">Megtart</string>
-    <string name="button_play">Lejátszás</string>
-    <string name="button_pause">Szünet</string>
-    <string name="button_delete_wait">(%d) Törlése</string>
-    <string name="decline">Elutasítom</string>
-    <string name="accept">Elfogadom</string>
-    <string name="call_incoming">Bejövő</string>
-    <string name="call_outgoing">Kimenő</string>
-    <string name="action_mode_selected">%d kiválasztva</string>
-    <string name="toast_wait_for_operation_to_complete">Teljes műveletre várakozás</string>
-    <string name="toast_recording_is_off">Felvétel KI</string>
-    <string name="toast_recording_is_on">Felvétel BE</string>
-    <string name="toast_file_deleted">A fájl sikeresen törölve</string>
-
-
-    <string name="open_contact">Névjegy megnyitása</string>
-
-    <string name="waiting_for_answer">Hívásfogadásra vár</string>
-    <string name="recording_in_progress">Felvétel folyamatban</string>
-    <string name="no_recording_in_progress">Nincs felvétel folyamatban</string>
-    <string name="about_call_recorder">Call Recorder névjegye</string>
     <string name="greek_translation">Görög fordítás</string>
     <string name="greek_translation_summary">Lefteris (SomniusX) Eliades</string>
 </resources>

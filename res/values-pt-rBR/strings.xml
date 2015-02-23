@@ -30,9 +30,15 @@
     
     
     
+    
     <string name="action_select_all">Selecionar tudo</string>
     
     
+    
+    
+    
+
+    <!--Import settings -->
     
 
     <!-- List -->
@@ -83,6 +89,7 @@
     <string name="recorded_calls">Chamadas gravadas</string>
 
     <!--  Settings -> Headers -->
+    
     <string name="settings_recording">Gravação</string>
     <string name="settings_folders_and_files">Pastas e Arquivos</string>
     <string name="settings_ui_and_appearance">Interface e Aparência</string>
@@ -109,7 +116,8 @@
     
     
     
-
+    
+    
     <string name="buy_full_version">Comprar versão completa</string>
     <string name="buy_full_version_summary">A versão atual expirará em %s</string>
 
@@ -180,6 +188,13 @@
     <string name="api_source_voice_communication">Comunicação de voz</string>
     <string name="category_wav_settings">Configurações WAV</string>
     
+    <string name="when_bt_connected">Quando o BT estiver conectado...</string>
+    <string name="audio_source_when_bt_connected">Origem de áudio quando o BT estiver conectado</string>
+
+    <!-- Actions when BT connected -->
+    <string name="when_bt_connected_do_nothing">Não fazer nada</string>
+    <string name="when_bt_connected_switch_source">Alterar a origem de áudio</string>
+    <string name="when_bt_connected_disable_recording">Desabilitar gravação</string>
 
     <!-- Settings -> Recording -> CAF -->
     
@@ -200,6 +215,7 @@
     <!-- Settings -> Recording -> Exceptions -->
     
     <string name="exception_group">Grupo</string>
+    
     <string name="exception_select_group">Selecionar grupo</string>
     
     
@@ -218,6 +234,8 @@
 
     <!-- Settings -> Folders and Files -->
     <string name="folder">Pasta</string>
+    
+    
     
     <string name="automatic_cleanup">Limpeza automática</string>
     <string name="max_number_of_files">Número máx. de arquivos</string>
@@ -253,6 +271,8 @@
     <string name="show_notification">Mostrar notificação</string>
     
     
+    
+    
     <string name="incall_control_for_outgoing">Para chamadas enviadas</string>
     
     <string name="incall_control_for_incoming">Para chamadas recebidas</string>
@@ -270,6 +290,9 @@
     
     
     
+    <string name="category_main_screen">Tela principal</string>
+    
+    
 
     <!-- Settings -> Cloud -->
     
@@ -285,6 +308,11 @@
     
 
     <!-- Notification -->
+    
+    
+    
+    
+    
     
     
 
@@ -342,9 +370,11 @@
     <string name="root_access_yes">Sim</string>
     <string name="dual_sim_phone">Telefone de dois chips</string>
     <string name="dual_sim_phone_summary">Habilitar se o app não reconhecer as chamadas do chip secundário</string>
+    
 
     <!-- General -->
     <string name="contact_unknown">Desconhecido</string>
+    
     
     
     
@@ -360,13 +390,19 @@
     
     
     
-    <string name="please_wait">Por favor aguarde...</string>
     
+    <string name="please_wait">Por favor aguarde...</string>
     <string name="start_recording">Iniciar gravação</string>
     <string name="stop_recording">Parar gravação</string>
     
     <string name="switch_on">Lig.</string>
     <string name="switch_off">Desl.</string>
+
+    <!--Toasts-->
+    
+    
+    
+    
 
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">Gravar esta chamada</string>
@@ -389,16 +425,12 @@
     <string name="about_many_thanks">Muito Obrigado</string>
     <string name="about_many_thanks_summary">para Alexey Subbotin (avs234)</string>
 
-    <!--About -> Licenses-->
-    <string name="licenses">Licenças</string>
+    <!--About -> Other-->
     
-    <string name="about_open_core_amr_license_summary">Utiliza opencore-amr sobre Apache License Version 2.0, clique aqui para visitar opencore-amr.sourceforge.net</string>
     
-    <string name="about_alsa_summary">Utiliza ALSA sobre LGPL, clique aqui para visitar mp3dev.org</string>
-    
-    <string name="about_lame_summary">Utiliza LAME sobre LGPL, clique aqui para visitar mp3dev.org</string>
 
-    <!--Credits-->
+    <!--About -> Translators-->
+    
     <string name="german_translation">Tradução Alemã</string>
     
     <string name="polish_translation">Tradução Polonesa</string>
@@ -455,6 +487,14 @@
     <string name="georgian_translation_summary">por Alexandre Razmadze</string>
     <string name="catalan_translation">Tradução Catalã</string>
     <string name="catalan_translation_summary">por cybdani</string>
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     

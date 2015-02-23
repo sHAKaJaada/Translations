@@ -1,56 +1,62 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">مسجل المكالمة</string>
-    
-    
+    <string name="terms_of_use">شروط الاستخدام</string>
+    <string name="terms_of_use_message">باستخدام التطبيق، فإنك توافق على &lt;a href=http://rec.sh/terms&gt; شروط الأستخدام &lt;/a&gt;.</string>
 
     <!-- Navigation drawer -->
-    
-    
+    <string name="navigation_drawer_open">فتح درج الملاحة</string>
+    <string name="navigation_drawer_close">غلق درج الملاحة</string>
 
     <!-- Navigation drawer sections -->
-    
-    
+    <string name="section_all_recordings">جميع التسجيلات</string>
+    <string name="section_starred">المفضلة</string>
     <string name="section_incoming">واردة</string>
     <string name="section_outgoing">صادرة</string>
-    
-    
-    
+    <string name="section_by_contact">بواسطة جهة الأتصال</string>
+    <string name="section_by_format">بواسطة الشكل</string>
+    <string name="section_by_label">بواسطة الملصق</string>
     <string name="section_help">مساعدة</string>
     <string name="section_tasks">مهمات</string>
-    
+    <string name="section_tasks_hint">المهام مع التسجيلات مثل تحويل صيغة الملف التي تستغرق وقتا طويلا ، أو تحميلها على السحاب سيتم عرضها هنا</string>
     <string name="empty_hint">فارغ</string>
 
     <!-- Action bar -->
     <string name="action_search">يحث</string>
-    
+    <string name="action_sort">ترتيب</string>
     <string name="action_settings">إعدادات</string>
-    
-    
-    
-    
+    <string name="action_refresh">تحديث</string>
+    <string name="action_delete">مسح</string>
+    <string name="action_add_star">اضافة الى المفضلة</string>
+    <string name="action_remove_star">الغاء من المفضلة</string>
+    <string name="action_share">مشاركة</string>
     
     <string name="action_select_all">اختيار الكل</string>
+    <string name="sort_by_date">بواسطة التاريخ</string>
+    <string name="sort_by_contact">بواسطة جهة الأتصال</string>
+    <string name="sort_by_file_size">بواسطة حجم الملف</string>
     
     
+
+    <!--Import settings -->
     
 
     <!-- List -->
-    
-    
-    
-    
+    <string name="list_header_today">اليوم</string>
+    <string name="list_header_yesterday">امس</string>
+    <string name="queued">في الأنتظار</string>
+    <string name="no_connection">لا يوجد اتصال</string>
 
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">اظافة الى DropBox</string>
-    
-    
+    <string name="menu_add_note">إضافة ملاحظة</string>
+    <string name="menu_edit_note">تحرير ملاحظة</string>
     <string name="menu_delete">حذف</string>
-    
-    
-    
+    <string name="menu_share">مشاركة</string>
+    <string name="menu_convert_to_mp3">حول صيغة الملف الى MP3</string>
+    <string name="menu_convert_to_amr">حول صيغة الملف الى AMR</string>
     <string name="menu_get_info">احصل على المعلومات</string>
-    
+    <string name="menu_cancel_task">الغاء المهمة</string>
     <string name="menu_encrypt">شفرة</string>
     <string name="menu_decrypt">فك شفرة</string>
 
@@ -58,16 +64,16 @@
     <string name="file_name">اسم الملف</string>
     <string name="sample_rate">معدل الترميز</string>
     <string name="sample_rate_hz">هيرتز</string>
-    
-    
-    
+    <string name="recording_type">نوع التسجيل</string>
+    <string name="recording_type_mono">احادي الصوت</string>
+    <string name="recording_type_stereo">ثنائي الصوت (ستيريو)</string>
     <string name="file_size">حجم الملف</string>
     <string name="terabyte">تيرا بايت</string>
     <string name="gigabyte">كيكا بايت</string>
     <string name="megabyte">ميغابايت</string>
     <string name="kilobyte">كيلوبايت</string>
     <string name="bytes">بايت</string>
-    
+    <string name="note">ملاحظة</string>
 
     <!-- List -> Get info dialog -> Edit -->
     <string name="contact_name">اسم الشخص</string>
@@ -75,31 +81,32 @@
 
     <!-- List -> Confirm delete dialog -->
     <string name="confirm_delete_message">هل أنت متأكد من أنك تريد حذف هذا التسجيل؟</string>
-    
-    
+    <string name="confirm_delete_several_title">تأكيد الحذف</string>
+    <string name="confirm_delete_several_message">لقد حددت %d تسجيل. هل أنت متأكد أنك تريد الحذف؟</string>
 
     <!-- List -> Share -->
-    
+    <string name="share_via">مشاركة بواسطة</string>
     <string name="recorded_calls">المكالمات المسجلة</string>
 
     <!--  Settings -> Headers -->
+    
     <string name="settings_recording">تسجيل</string>
     <string name="settings_folders_and_files">ملفات و مجلدات</string>
     <string name="settings_ui_and_appearance">واجهة و مظهر</string>
     <string name="settings_security">حماية البرنامج</string>
-    
+    <string name="settings_cloud">السحاب</string>
     <string name="settings_audio_player">مشغل الصوت</string>
     <string name="settings_debug">تصحيح</string>
     <string name="settings_about">عن</string>
 
     <!-- Settings -> License -->
     <string name="license_status">حالة الرخصة</string>
-    
-    
-    
-    
-    
-    
+    <string name="license_check_pending">رخصة التحقق قيد الانتظار</string>
+    <string name="license_check_failed">فشل تحقيق الترخيص</string>
+    <string name="license_check_failed_summary">اضغط هنا لمزيد من التفاصيل</string>
+    <string name="license_verified">تم تحقيق الترخيص</string>
+    <string name="license_verified_summary">اضغط للأخفاء</string>
+    <string name="license_help">مساعدة</string>
     
     
     <string name="license_trial">النسخة التجريبية، وسوف تنتهي في %s</string>
@@ -109,7 +116,8 @@
     
     
     
-
+    
+    
     <string name="buy_full_version">شراء النسخة الكاملة</string>
     <string name="buy_full_version_summary">يتوقف عمل النسخة الحالية في %s</string>
 
@@ -180,6 +188,13 @@
     <string name="api_source_voice_communication">مصدر صوت الاتصالات</string>
     <string name="category_wav_settings">خيارات الصوت WAV</string>
     
+    <string name="when_bt_connected">عندما يربط البلوتوث</string>
+    <string name="audio_source_when_bt_connected">مصدر الصوت عند اتصال البلوتوث</string>
+
+    <!-- Actions when BT connected -->
+    <string name="when_bt_connected_do_nothing">لا تفعل شيئا</string>
+    <string name="when_bt_connected_switch_source">تبديل مصدر الصوت</string>
+    <string name="when_bt_connected_disable_recording">تعطيل التسجيل</string>
 
     <!-- Settings -> Recording -> CAF -->
     
@@ -200,6 +215,7 @@
     <!-- Settings -> Recording -> Exceptions -->
     
     <string name="exception_group">مجموعة</string>
+    
     <string name="exception_select_group">اختيار مجموعة</string>
     
     
@@ -218,6 +234,8 @@
 
     <!-- Settings -> Folders and Files -->
     <string name="folder">مجلد (فولدر)</string>
+    
+    
     
     <string name="automatic_cleanup">تنظيف تلقائي</string>
     <string name="max_number_of_files">اكبر عدد للملفات المخزنة</string>
@@ -253,6 +271,8 @@
     <string name="show_notification">اظهار الإخطار</string>
     
     
+    
+    
     <string name="incall_control_for_outgoing">للمكالمات الصادرة</string>
     
     <string name="incall_control_for_incoming">للمكالمات الواردة</string>
@@ -270,6 +290,9 @@
     
     
     
+    <string name="category_main_screen">الشاشة الرئيسية</string>
+    
+    
 
     <!-- Settings -> Cloud -->
     
@@ -285,6 +308,11 @@
     
 
     <!-- Notification -->
+    
+    
+    
+    
+    
     
     
 
@@ -342,11 +370,13 @@
     <string name="root_access_yes">نعم</string>
     <string name="dual_sim_phone">موبايل بشريحتين</string>
     <string name="dual_sim_phone_summary">فعّل هذا الإختيار إذا كان التطبيق لا يستطيع تحديد المكالمات من الشريحة الثانية</string>
+    
 
     <!-- General -->
     <string name="contact_unknown">غير معروف</string>
     
     <string name="button_ok">تم</string>
+    
     
     <string name="button_edit">تنقيح</string>
     <string name="button_cancel">الغاء</string>
@@ -360,13 +390,19 @@
     
     
     
-    <string name="please_wait">الرجاء انتظار …</string>
     
+    <string name="please_wait">الرجاء انتظار …</string>
     <string name="start_recording">بدء التسجيل</string>
     <string name="stop_recording">ايقاف التسجيل</string>
     
     <string name="switch_on">تشغيل</string>
     <string name="switch_off">اطفاء</string>
+
+    <!--Toasts-->
+    
+    
+    
+    
 
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">سجل هذه المكالمة</string>
@@ -389,16 +425,12 @@
     <string name="about_many_thanks">شكرا جزيلا</string>
     <string name="about_many_thanks_summary">الى اليكسي سوبوتين (avs234)</string>
 
-    <!--About -> Licenses-->
-    <string name="licenses">التراخيص</string>
-    <string name="about_open_core_amr_license">ترخيص OpenCore لـ AMR</string>
-    <string name="about_open_core_amr_license_summary">يستخدم OpenCore تحت إصدار اباتشي 2.0 ، اضغط هنا لزيارة opencore-amr.sourceforge.net</string>
-    <string name="about_alsa">ALSA</string>
-    <string name="about_alsa_summary">استخدام ALSA تحت LGPL, اضغط هنا لزيارة موقع alsa-project.org</string>
-    <string name="about_lame">LAME خاصية</string>
-    <string name="about_lame_summary">استخدام خاصية LAME تحت LGPL, اضغط هنا لزيارة mp3dev.org</string>
+    <!--About -> Other-->
+    
+    
 
-    <!--Credits-->
+    <!--About -> Translators-->
+    
     <string name="german_translation">ترجمة المانية</string>
     <string name="german_translation_summary">لـ مارك هليشيم وتوماس كافير</string>
     <string name="polish_translation">الترجمة البولندية</string>
@@ -465,53 +497,12 @@
     
     
     
-<string name="terms_of_use">شروط الاستخدام</string>
-    <string name="terms_of_use_message">باستخدام التطبيق، فإنك توافق على  &lt;a href=http://rec.sh/terms&gt; شروط الأستخدام &lt;/a&gt;.</string>
-
-    <string name="navigation_drawer_open">فتح درج الملاحة</string>
-    <string name="navigation_drawer_close">غلق درج الملاحة</string>
-
-    <string name="section_all_recordings">جميع التسجيلات</string>
-    <string name="section_starred">المفضلة</string>
-    <string name="section_by_contact">بواسطة جهة الأتصال</string>
-    <string name="section_by_format">بواسطة الشكل</string>
-    <string name="section_by_label">بواسطة الملصق</string>
-    <string name="section_tasks_hint">"المهام مع التسجيلات مثل تحويل صيغة الملف التي  تستغرق وقتا طويلا ، أو تحميلها على السحاب سيتم عرضها هنا"</string>
-    <string name="action_sort">ترتيب</string>
-    <string name="action_refresh">تحديث</string>
-    <string name="action_delete">مسح</string>
-    <string name="action_add_star">اضافة الى المفضلة</string>
-    <string name="action_remove_star">الغاء من المفضلة</string>
-    <string name="action_share">مشاركة</string>
-    <string name="sort_by_date">بواسطة التاريخ</string>
-    <string name="sort_by_contact">بواسطة جهة الأتصال</string>
-    <string name="sort_by_file_size">بواسطة حجم الملف</string>
-
-    <string name="list_header_today">اليوم</string>
-    <string name="list_header_yesterday">امس</string>
-    <string name="queued">في الأنتظار</string>
-    <string name="no_connection">لا يوجد اتصال</string>
-
-    <string name="menu_add_note">إضافة ملاحظة</string>
-    <string name="menu_edit_note">تحرير ملاحظة</string>
-    <string name="menu_share">مشاركة</string>
-    <string name="menu_convert_to_mp3">حول صيغة الملف الى MP3</string>
-    <string name="menu_convert_to_amr">حول صيغة الملف الى AMR</string>
-    <string name="menu_cancel_task">الغاء المهمة</string>
-    <string name="recording_type">نوع التسجيل</string>
-    <string name="recording_type_mono">احادي الصوت</string>
-    <string name="recording_type_stereo">ثنائي الصوت (ستيريو)</string>
-    <string name="note">ملاحظة</string>
-
-    <string name="confirm_delete_several_title">تأكيد الحذف</string>
-    <string name="confirm_delete_several_message">لقد حددت %d تسجيل. هل أنت متأكد أنك تريد الحذف؟</string>
-
-    <string name="share_via">مشاركة بواسطة</string>
-    <string name="settings_cloud">السحاب</string>
-    <string name="license_check_pending">رخصة التحقق قيد الانتظار</string>
-    <string name="license_check_failed">فشل تحقيق الترخيص</string>
-    <string name="license_check_failed_summary">اضغط هنا لمزيد من التفاصيل</string>
-    <string name="license_verified">تم تحقيق الترخيص</string>
-    <string name="license_verified_summary">اضغط للأخفاء</string>
-    <string name="license_help">مساعدة</string>
-    </resources>
+    
+    
+    
+    
+    
+    
+    
+    
+</resources>

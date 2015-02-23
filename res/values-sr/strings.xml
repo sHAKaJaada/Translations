@@ -1,56 +1,62 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">Услови коришћења</string>
     <string name="terms_of_use_message">Употребом ове апликације сагласни сте са CallRecorder\'s &lt;a href=http://rec.sh/terms&gt;условима коришћења&lt;/a&gt;.</string>
 
     <!-- Navigation drawer -->
-    
-    
+    <string name="navigation_drawer_open">Отворити навигациони мени</string>
+    <string name="navigation_drawer_close">Затворити навигациони мени</string>
 
     <!-- Navigation drawer sections -->
-    
-    
+    <string name="section_all_recordings">Сви снимци</string>
+    <string name="section_starred">Фаворити</string>
     <string name="section_incoming">Долазни</string>
     <string name="section_outgoing">Одлазни</string>
-    
-    
-    
+    <string name="section_by_contact">По контактима</string>
+    <string name="section_by_format">По формату снимка</string>
+    <string name="section_by_label">По ознакама</string>
     <string name="section_help">Помоћ</string>
     <string name="section_tasks">Задаци</string>
-    
+    <string name="section_tasks_hint">Приказивање задатака попут: конвертовања, шифровања или слања снимака ће бити приказано овде</string>
     <string name="empty_hint">Празно</string>
 
     <!-- Action bar -->
     <string name="action_search">Претрага</string>
-    
+    <string name="action_sort">Поређати по</string>
     <string name="action_settings">Подешавања</string>
-    
-    
-    
-    
-    
+    <string name="action_refresh">Освежити</string>
+    <string name="action_delete">Избрисати</string>
+    <string name="action_add_star">Додати у фаворите</string>
+    <string name="action_remove_star">Уклонити из фаворита</string>
+    <string name="action_share">Подели</string>
+    <string name="action_cancel_tasks">Поништити задатке</string>
     <string name="action_select_all">Изабери све</string>
-    
-    
+    <string name="sort_by_date">По датуму</string>
+    <string name="sort_by_contact">По контакту</string>
+    <string name="sort_by_file_size">По величини датотеке</string>
+    <string name="records_size">снимци: %1$s, величина: %2$s</string>
+    <string name="space_free_of">%1$s слободно од %2$s</string>
+
+    <!--Import settings -->
     
 
     <!-- List -->
-    
-    
-    
-    
+    <string name="list_header_today">Данас</string>
+    <string name="list_header_yesterday">Јуче</string>
+    <string name="queued">На чекању</string>
+    <string name="no_connection">Нема конекције</string>
 
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">Додај у Dropbox</string>
-    
-    
+    <string name="menu_add_note">Додај забелешку</string>
+    <string name="menu_edit_note">Измени забелешку</string>
     <string name="menu_delete">Избриши</string>
-    
-    
-    
+    <string name="menu_share">Дели</string>
+    <string name="menu_convert_to_mp3">Пребаци у MP3</string>
+    <string name="menu_convert_to_amr">Пребаци у AMR</string>
     <string name="menu_get_info">Инфо</string>
-    
+    <string name="menu_cancel_task">Поништити задатак</string>
     <string name="menu_encrypt">Шифровање</string>
     <string name="menu_decrypt">Дешифровање</string>
 
@@ -58,7 +64,7 @@
     <string name="file_name">Име датотеке</string>
     <string name="sample_rate">Брзина одмеравања</string>
     <string name="sample_rate_hz">Hz</string>
-    
+    <string name="recording_type">Начин снимања</string>
     <string name="recording_type_mono">Моно</string>
     <string name="recording_type_stereo">Стерео</string>
     <string name="file_size">Величина датотеке</string>
@@ -67,7 +73,7 @@
     <string name="megabyte">MiB</string>
     <string name="kilobyte">KiB</string>
     <string name="bytes">бајтова</string>
-    
+    <string name="note">Напомена</string>
 
     <!-- List -> Get info dialog -> Edit -->
     <string name="contact_name">Име контакта</string>
@@ -75,41 +81,43 @@
 
     <!-- List -> Confirm delete dialog -->
     <string name="confirm_delete_message">Да ли сте сигурни да желите избрисати снимак?</string>
-    
-    
+    <string name="confirm_delete_several_title">Потврда брисања</string>
+    <string name="confirm_delete_several_message">Изабрано је %d снимака. Да ли желите да их избришете?</string>
 
     <!-- List -> Share -->
-    
+    <string name="share_via">Дели преко</string>
     <string name="recorded_calls">Снимљени позиви</string>
 
     <!--  Settings -> Headers -->
+    <string name="settings_open_unlocker">Налог</string>
     <string name="settings_recording">Снимање</string>
     <string name="settings_folders_and_files">Фасцикла и датотеке</string>
     <string name="settings_ui_and_appearance">Изглед интерфејса</string>
     <string name="settings_security">Сигурносна подешавања</string>
-    
+    <string name="settings_cloud">Облак</string>
     <string name="settings_audio_player">Аудио репродукција</string>
     <string name="settings_debug">Отклањање грешака</string>
     <string name="settings_about">Инфо о програму</string>
 
     <!-- Settings -> License -->
     <string name="license_status">Статус лиценце</string>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
+    <string name="license_check_pending">Чека се провера лиценце</string>
+    <string name="license_check_failed">Грешка приликом провере лиценце</string>
+    <string name="license_check_failed_summary">Притиснути за детаље</string>
+    <string name="license_verified">Лиценца је одобрена</string>
+    <string name="license_verified_summary">Притиснути за скривање</string>
+    <string name="license_help">Помоћ</string>
+    <string name="license_signature_verification_failed">Грешка приликом провере потписа</string>
+    <string name="license_error_message">Грешка #%1$s: %2$s</string>
+    <string name="license_trial">Пробни период истиче %s</string>
+    <string name="license_unknown_error">Непозната грешка</string>
+    <string name="license_not_market_managed">Ова верзија још увек није објављена на Play Store</string>
+    <string name="license_incorrect_response">Неисправан Play Store одговор о лиценци</string>
+    <string name="license_error_contacting_server">Грешка приликом контактирања сервера</string>
+    <string name="license_server_error">Грешка сервера</string>
+    <string name="license_over_quota">Превише захтева са овог уређаја</string>
+    <string name="license_trial_expired">Пробни период је истекао</string>
+    <string name="license_trial_expired_summary">Деинсталирајте ову верзију пре инсталације пуне верзије програма</string>
     <string name="buy_full_version">Купите апликацију без ограничења</string>
     <string name="buy_full_version_summary">Пробни период истиче %s</string>
 
@@ -118,9 +126,9 @@
     <string name="category_main">Главна подешавања</string>
     <string name="device">Уређај</string>
     <string name="select_your_device">Одабир уређаја</string>
-    
-    
-    
+    <string name="device_change_settings_empty">Подешавања за овај уређај су већ постављена</string>
+    <string name="device_root_is_required">Неопходан root приступ</string>
+    <string name="device_root_is_required_summary">За бољи квалитет неопходан је root приступ уређају</string>
     <string name="device_other">Ниједан од наведених</string>
     <string name="recording_method">Начин снимања</string>
     <string name="recording_method_api">API подешавања</string>
@@ -129,8 +137,8 @@
     <string name="recording_method_caf_settings">Подешавања CAF снимања</string>
     <string name="recording_method_alsa">ALSA подешавања</string>
     <string name="recording_method_alsa_settings">Подешавања за ALSA снимање</string>
-    
-    
+    <string name="recording_method_msm">MSM</string>
+    <string name="recording_method_msm_settings">Подешавања MSM снимања</string>
     <string name="category_actions">Избор</string>
     <string name="action_for_incoming">Избор за долазне позиве</string>
     <string name="action_for_outgoing">Избор за одлазне позиве</string>
@@ -144,23 +152,23 @@
     <string name="after_call_actions_dialog_summary">Упит за акцију после позива</string>
     <string name="vibrate_on_call">Вибрација на почетку и крају разговора</string>
     <string name="exceptions">Изузеци</string>
-    
-    
-    
+    <string name="exceptions_summary">Посебна подешавања за контакте, групе или бројеве телефона</string>
+    <string name="start_recording_on_answer">Почетак снимања по јављању</string>
+    <string name="start_recording_on_answer_summary">Почетак снимања одлазних позива након одговора. Апликација користи заобилазну путању да детектује тренутак када друга страна одговори, па ова функција може бити неподржана на неким уређајима. Неопходан root приступ почев од Android 4.1 Jelly Bean. Kernel Logger мора бити омогућен.</string>
     <string name="delay_before_start_recording">Кашњење почетка снимања</string>
-    
-    
-    
-    
-    
-    
+    <string name="delay_before_start_recording_summary">За одлазне: %1$s, за долазне: %2$s</string>
+    <string name="delay_format_sec">%s сек</string>
+    <string name="delay_for_outgoing">За одлазне</string>
+    <string name="delay_for_incoming">За долазне</string>
+    <string name="settings_for_device">Подешавања за %s</string>
+    <string name="recording_format">Формат снимка</string>
     <string name="recording_format_wav">WAV</string>
     <string name="recording_format_amr">AMR</string>
     <string name="recording_format_aac">AAC</string>
     <string name="recording_format_mp3">MP3</string>
     <string name="volume_control">Јачина звука</string>
-    
-    
+    <string name="volume_control_summary">Tx: %1$s, Rx: %2$s</string>
+    <string name="volume_control_overall">Главна јачина звука</string>
     <string name="volume_control_tx">Tx</string>
     <string name="volume_control_rx">Rx</string>
     <string name="sample_rate_8000">8000 Hz (Стандардна)</string>
@@ -179,14 +187,21 @@
     <string name="api_source_default">Стандардно</string>
     <string name="api_source_voice_communication">Гласовна комуникација</string>
     <string name="category_wav_settings">WAV подешавања</string>
-    
+    <string name="category_wav_and_mp3_settings">WAV &amp; MP3 подешавања</string>
+    <string name="when_bt_connected">Када је Bluetooth повезан...</string>
+    <string name="audio_source_when_bt_connected">Аудио извор када је BT повезан</string>
+
+    <!-- Actions when BT connected -->
+    <string name="when_bt_connected_do_nothing">Без промене подешавања</string>
+    <string name="when_bt_connected_switch_source">Промена аудио извора</string>
+    <string name="when_bt_connected_disable_recording">Онемогућити снимање</string>
 
     <!-- Settings -> Recording -> CAF -->
     <string name="recording_mode">Начин снимања</string>
 
     <!-- Settings -> Recording -> ALSA -->
-    
-    
+    <string name="alsa_is_not_installed">ALSA мора бити инсталиран</string>
+    <string name="alsa_is_not_installed_summary">Додирнути овде за инсталацију ALSA</string>
 
     <!-- Settings -> Recording -> MSM -->
     <string name="chipset_type">Врста чипа</string>
@@ -198,26 +213,29 @@
     <string name="dont_use_amr_driver_summary">Конвертовати одмах из WAV у AMR</string>
 
     <!-- Settings -> Recording -> Exceptions -->
-    
+    <string name="add_exception">Додај у изузетке</string>
     <string name="exception_group">Група</string>
+    
     <string name="exception_select_group">Изабери групу</string>
-    
-    
-    
-    
+    <string name="exception_contact">Контакт</string>
+    <string name="exception_select_contact">Одабир контакта</string>
+    <string name="exception_phone_number">Број телефона</string>
+    <string name="exception_action">Радња</string>
     <string name="exception_select_action">Изабери радњу</string>
     <string name="exception_action_always_record">Снимај увек</string>
     <string name="exception_action_never_record">Не снимај никада</string>
-    
-    
-    
-    
-    
-    
-    
+    <string name="exception_groups_not_found">Група не постоји</string>
+    <string name="exception_contacts_not_found">Контакт не постоји</string>
+    <string name="exceptions_not_added">Изузетак није додат</string>
+    <string name="exception_by_contact">По контакту</string>
+    <string name="exception_by_group">По групи</string>
+    <string name="exception_by_phone_number">По броју телефона</string>
+    <string name="exception_delete_message">Желите ли избрисати овај изузетак?</string>
 
     <!-- Settings -> Folders and Files -->
     <string name="folder">Фасцикла</string>
+    <string name="folder_chooser_up_to">↑ До %s</string>
+    
     
     <string name="automatic_cleanup">Самостално одржавање</string>
     <string name="max_number_of_files">Највише снимака</string>
@@ -227,7 +245,7 @@
     <string name="max_age_of_recordings">Највиша старост снимка</string>
     <string name="max_age_of_recordings_message">Унети број дана (0 = неограничено)</string>
     <string name="current_setting">Тренутно: %s</string>
-    
+    <string name="settings_filename">Назив</string>
     <string name="filename_pattern">Образац</string>
     <string name="time_pattern">Временски образац</string>
 
@@ -235,7 +253,7 @@
     <string name="pattern_contact_name">име контакта</string>
     <string name="pattern_phone_number">број телефона</string>
     <string name="pattern_call_time">време позива</string>
-    
+    <string name="pattern_call_timestamp">временска ознака позива (unix време)</string>
     <string name="pattern_call_type">врста позива (одлазни или долазни)</string>
     <string name="time_pattern_hours">сати</string>
     <string name="time_pattern_minutes">минути</string>
@@ -248,45 +266,55 @@
     <!--Settings -> Interface and Appearance-->
     <string name="language">Језик</string>
     <string name="select_language">Одабир језика</string>
-    
+    <string name="default_language">Подразумевано</string>
     <string name="category_notification">Обавештење</string>
     <string name="show_notification">Приказ иконе на инфо траци</string>
-    
-    
+    <string name="show_notification_summary">Стална информација у статусној траци</string>
+    <string name="hide_icon_but_keep_notification">Сакрити икону али задржати обавештење</string>
+    <string name="hide_icon_but_keep_notification_summary">Сакрити икону али чувати обавештење у статусној траци</string>
+    <string name="category_incall_control_button">Контролно дугме у току позива</string>
     <string name="incall_control_for_outgoing">За одлазне позиве</string>
-    
+    <string name="incall_control_for_outgoing_summary">Приказ контролног дугмета у одлазним позивима</string>
     <string name="incall_control_for_incoming">За долазне позиве</string>
-    
-    
-    
+    <string name="incall_control_for_incoming_summary">Приказ контролног дугмета у долазним позивима</string>
+    <string name="hide_button_while_recording">Сакрити дугме приликом снимања</string>
+    <string name="hide_button_while_recording_summary">Сакрити контролно дугме уколико се разговор снима</string>
     <string name="show_button_while_ringing">Приказати дугме приликом сигнала позива</string>
     <string name="show_button_while_ringing_summary">Приказати дугме за контролу позива пре одговора на позив</string>
     <string name="vertical_position">Вертикална позиција</string>
-    
+    <string name="vertical_position_summary">%s dp, офсет од центра екрана</string>
     <string name="horizontal_position">Хоризонтална позиција</string>
-    
-    
+    <string name="horizontal_position_summary">%s dp, офсет од центра екрана</string>
+    <string name="hide_button_before_answer">Сакрити дугме пре јављања</string>
     <string name="hide_button_before_answer_summary">Не приказивати дугме за контролу у току позива до успостављања везе</string>
-    
+    <string name="long_press_action">Радња при дужем додиру</string>
+    <string name="long_press_action_dragging_the_button">Повлачење дугмета</string>
+    <string name="long_press_action_hang_up">Одбаци позив и позови број аутоматски</string>
+    <string name="category_main_screen">Главни приказ</string>
     
     
 
     <!-- Settings -> Cloud -->
-    
+    <string name="cloud_provider">Cloud услуга</string>
     <string name="cloud_provider_dropbox">Dropbox подешавања</string>
-    
-    
-    
-    
+    <string name="sign_in_dropbox">Пријава у Dropbox</string>
+    <string name="sign_out_dropbox">Одјава са Dropbox</string>
+    <string name="cloud_provider_google_drive">Google Drive</string>
+    <string name="cloud_common_settings">Заједничко</string>
     <string name="cloud_wifi_only">Само преко Wi-Fi</string>
     <string name="cloud_auto_upload">Самостално отпремање</string>
     <string name="cloud_auto_upload_summary">Отпремање после позива</string>
-    
-    
+    <string name="cloud_upload_starred">Отпреми фаворите</string>
+    <string name="cloud_upload_starred_summary">Отпремање приликом додавања у фаворите</string>
 
     <!-- Notification -->
-    
-    
+    <string name="notify_uploading_dropbox">Отпремање у Dropbox</string>
+    <string name="notify_converting_to_amr">Конвертовање у AMR</string>
+    <string name="notify_converting_to_mp3">Конвертовање у MP3</string>
+    <string name="notify_encrypting">Шифровање</string>
+    <string name="notify_decrypting">Дешифровање</string>
+    <string name="notify_waiting_for_calls">Очекивање позива</string>
+    <string name="notify_tasks_remaining">%d задатака преостало</string>
 
     <!-- Password dialog -->
     <string name="wrong_password">Погрешна лозинка</string>
@@ -297,17 +325,17 @@
     <string name="category_encryption">Шифровање</string>
     <string name="category_application">Апликација</string>
     <string name="create_new_key">Направи нови кључ</string>
-    
-    
+    <string name="create_new_key_summary">Овај кључ служи за касније шифровање позива и за приступ апликацији</string>
+    <string name="delete_key">Избрисати кључ</string>
     <string name="change_password">Промена лозинке</string>
-    
-    
+    <string name="delete_key_summary">УПОЗОРЕЊЕ! Нећете бити у могућности да дешифрујете заштићене снимке чак и ако креирате кључ са истом шифром</string>
+    <string name="delete_key_message">Нећете моћи дешифровати заштићене снимке уколико избришете кључ. Желите ли наставити?</string>
     <string name="enter_old_password">Унети стару лозинку</string>
     <string name="enter_new_password">Унети нову лозинку</string>
     <string name="re_enter_new_password">Поново унети нову лозинку</string>
     <string name="require_password">Захтев за лозинком</string>
     <string name="require_password_summary">Лозинка за отварање апликације</string>
-    
+    <string name="require_password_summary_no_key">Захтев лозинке за приступ апликацији. Потребно је прво креирати кључ</string>
     <string name="lock_after">Закључати после</string>
     <string name="lock_after_exit">Излаза</string>
     <string name="lock_after_1_minute">1 мин.</string>
@@ -315,22 +343,22 @@
     <string name="lock_after_5_minutes">5 мин.</string>
     <string name="lock_after_10_minutes">10 мин.</string>
     <string name="app_admin">Администратор уређаја</string>
-    
-    
+    <string name="app_admin_summary">Неопходно ради заштите од деинсталације</string>
+    <string name="app_admin_explanation">Call Recorder не користи друге административне дозволе осим заштите од деинсталације</string>
     <string name="aes_128bit">128-bit AES (Брже)</string>
     <string name="aes_192bit">192-bit AES (Умерено)</string>
     <string name="aes_256bit">256-bit AES (Сигурније)</string>
 
     <!-- Settings -> Audio player -->
-    
+    <string name="use_built_in_player">Користи уграђени плејер</string>
     <string name="audio_output">Аудио излаз</string>
-    
+    <string name="audio_output_summary">%s (Задржати на play/pause ће променити функцију)</string>
     <string name="main_speaker">Звучник</string>
     <string name="phone_speaker">Слушалица</string>
     <string name="use_proximity_sensor">Користи сензор близине</string>
-    
+    <string name="use_proximity_sensor_summary">Искључити екран приликом преслушавања</string>
     <string name="switch_audio_output">Промена аудио излаза</string>
-    
+    <string name="switch_audio_output_summary">Аутоматско пребацивање звучника приликом активирања/деактивирања екрана</string>
     <string name="android_wav_decoder">Андроид декодер за WAV</string>
     <string name="android_wav_decoder_summary">Користи уграђене Андроид алате за репродукцијy WAV</string>
     <string name="android_amr_decoder">Андроид AMR декодер</string>
@@ -342,63 +370,67 @@
     <string name="root_access_yes">Одобрен</string>
     <string name="dual_sim_phone">Dual Sim телефон</string>
     <string name="dual_sim_phone_summary">Омогућити уколико није могуће препознати позив са друге картице</string>
+    <string name="send_logs_to_the_developer">Слање информација аутору</string>
 
     <!-- General -->
     <string name="contact_unknown">Непознат број</string>
-    
+    <string name="button_choose">Одабир</string>
     <string name="button_ok">OK</string>
-    
+    <string name="button_call">Позив</string>
+    <string name="button_buy">Куповина</string>
     <string name="button_edit">Уреди</string>
     <string name="button_cancel">Откажи</string>
+    <string name="button_create">Направите</string>
+    <string name="button_delete">Обрисати</string>
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <string name="button_keep">Задржати</string>
+    <string name="button_play">Репродукуј</string>
+    <string name="button_pause">Пауза</string>
+    <string name="button_delete_wait">Брисање (%d)</string>
+    <string name="decline">Одбити</string>
+    <string name="accept">Прихватити</string>
+    <string name="call_incoming">Долазни</string>
+    <string name="call_outgoing">Одлазни</string>
     <string name="please_wait">Сачекајте…</string>
-    
     <string name="start_recording">Покрени снимање</string>
     <string name="stop_recording">Заустави снимање</string>
-    
+    <string name="action_mode_selected">%d изабрано</string>
     <string name="switch_on">Укључено</string>
     <string name="switch_off">Искључено</string>
 
+    <!--Toasts-->
+    <string name="toast_wait_for_operation_to_complete">Причекајте завршетак задатка</string>
+    <string name="toast_recording_is_off">Снимање је искључено</string>
+    <string name="toast_recording_is_on">Снимање је укључено</string>
+    <string name="toast_file_deleted">Снимак је избрисан</string>
+
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">Снимај овај позив</string>
-    
+    <string name="open_contact">Преглед контакта</string>
 
     <!--After call actions dialog-->
     <string name="cloud_added">Додато</string>
 
     <!--Notification-->
-    
-    
-    
+    <string name="waiting_for_answer">Чекање одговора</string>
+    <string name="recording_in_progress">Снимање у току</string>
+    <string name="no_recording_in_progress">Не снима се</string>
     <string name="an_error_has_occurred">Дошло је до грешке! Позив није снимљен.</string>
 
     <!--About-->
-    
+    <string name="about_call_recorder">Инфо о Call Recorder апликацији</string>
     <string name="version">Верзија</string>
     <string name="copyright">Copyright</string>
     <string name="copyright_summary">© %s Alexander Skvortsov (skvalex)</string>
     <string name="about_many_thanks">Захваљујем се</string>
     <string name="about_many_thanks_summary">Alexey Subbotin (avs234)</string>
 
-    <!--About -> Licenses-->
-    <string name="licenses">Лиценце</string>
-    <string name="about_open_core_amr_license">opencore-amr</string>
-    <string name="about_open_core_amr_license_summary">Користи opencore-amr од: Apache License Version 2.0, притисните за посету opencore-amr.sourceforge.net</string>
-    <string name="about_alsa">ALSA</string>
-    <string name="about_alsa_summary">Користи ALSA под LGPL. Притисните овде за посету alsa-project.org</string>
-    <string name="about_lame">LAME</string>
-    <string name="about_lame_summary">Користи LAME лиценциран од LGPL.Притисните за посету mp3dev.org</string>
+    <!--About -> Other-->
+    
+    
 
-    <!--Credits-->
+    <!--About -> Translators-->
+    
     <string name="german_translation">Немачки превод</string>
     <string name="german_translation_summary">Marc Hillesheim и Thomas Käfer</string>
     <string name="polish_translation">Пољски превод</string>
@@ -465,175 +497,6 @@
     <string name="belarusian_translation_summary">Alexander Kuvshinov</string>
     <string name="vietnamese_translation">Вијетнамски превод</string>
     <string name="vietnamese_translation_summary">Truong Hoang Trung</string>
-<string name="section_all_recordings">Сви снимци</string>
-    <string name="section_starred">Фаворити</string>
-    <string name="menu_cancel_task">Поништити задатак</string>
-    <string name="recording_type">Начин снимања</string>
-    <string name="note">Напомена</string>
-
-    <string name="confirm_delete_several_title">Потврда брисања</string>
-    <string name="confirm_delete_several_message">Изабрано је %d снимака. Да ли желите да их избришете?</string>
-
-    <string name="share_via">Дели преко</string>
-    <string name="license_check_pending">Чека се провера лиценце</string>
-    <string name="license_check_failed">Грешка приликом провере лиценце</string>
-    <string name="license_check_failed_summary">Притиснути за детаље</string>
-    <string name="license_verified">Лиценца је одобрена</string>
-    <string name="license_verified_summary">Притиснути за скривање</string>
-    <string name="license_help">Помоћ</string>
-    <string name="license_signature_verification_failed">Грешка приликом провере потписа</string>
-    <string name="license_error_message">Грешка #%1$s: %2$s</string>
-    <string name="license_trial">Пробни период истиче %s</string>
-    <string name="license_unknown_error">Непозната грешка</string>
-    <string name="license_not_market_managed">Ова верзија још увек није објављена на Play Store</string>
-    <string name="license_incorrect_response">Неисправан Play Store одговор о лиценци</string>
-    <string name="license_error_contacting_server">Грешка приликом контактирања сервера</string>
-    <string name="license_server_error">Грешка сервера</string>
-    <string name="license_over_quota">Превише захтева са овог уређаја</string>
-    <string name="license_trial_expired">Пробни период је истекао</string>
-    <string name="license_trial_expired_summary">Деинсталирајте ову верзију пре инсталације пуне верзије програма</string>
-
-    <string name="device_change_settings_empty">Подешавања за овај уређај су већ постављена</string>
-    <string name="device_root_is_required">Неопходан root приступ</string>
-    <string name="device_root_is_required_summary">За бољи квалитет неопходан је root приступ уређају</string>
-    <string name="recording_method_msm">MSM</string>
-    <string name="recording_method_msm_settings">Подешавања MSM снимања</string>
-    <string name="exceptions_summary">Посебна подешавања за контакте, групе или бројеве телефона</string>
-    <string name="start_recording_on_answer">Почетак снимања по јављању</string>
-    <string name="start_recording_on_answer_summary">Почетак снимања одлазних позива након одговора. Апликација користи заобилазну путању да детектује тренутак када друга страна одговори, па ова функција може бити неподржана на неким уређајима. Неопходан root приступ почев од Android 4.1 Jelly Bean. Kernel Logger мора бити омогућен.</string>
-    <string name="delay_before_start_recording_summary">За одлазне: %1$s, за долазне: %2$s</string>
-    <string name="delay_format_sec">%s сек</string>
-    <string name="delay_for_outgoing">За одлазне</string>
-    <string name="delay_for_incoming">За долазне</string>
-    <string name="settings_for_device">Подешавања за %s</string>
-    <string name="recording_format">Формат снимка</string>
-    <string name="volume_control_summary">Tx: %1$s, Rx: %2$s</string>
-    <string name="volume_control_overall">Главна јачина звука</string>
-    <string name="navigation_drawer_open">Отворити навигациони мени</string>
-    <string name="navigation_drawer_close">Затворити навигациони мени</string>
-
-    <string name="section_by_contact">По контактима</string>
-    <string name="section_by_format">По формату снимка</string>
-    <string name="section_by_label">По ознакама</string>
-    <string name="section_tasks_hint">Приказивање задатака попут: конвертовања, шифровања или слања снимака ће бити приказано овде</string>
-    <string name="action_sort">Поређати по</string>
-    <string name="action_refresh">Освежити</string>
-    <string name="action_delete">Избрисати</string>
-    <string name="action_add_star">Додати у фаворите</string>
-    <string name="action_remove_star">Уклонити из фаворита</string>
-    <string name="action_share">Подели</string>
-    <string name="action_cancel_tasks">Поништити задатке</string>
-    <string name="sort_by_date">По датуму</string>
-    <string name="sort_by_contact">По контакту</string>
-    <string name="sort_by_file_size">По величини датотеке</string>
-    <string name="records_size">снимци: %1$s, величина: %2$s</string>
-    <string name="space_free_of">%1$s слободно од %2$s</string>
-
-    <string name="list_header_today">Данас</string>
-    <string name="list_header_yesterday">Јуче</string>
-    <string name="queued">На чекању</string>
-    <string name="no_connection">Нема конекције</string>
-
-    <string name="menu_add_note">Додај забелешку</string>
-    <string name="menu_edit_note">Измени забелешку</string>
-    <string name="menu_share">Дели</string>
-    <string name="menu_convert_to_mp3">Пребаци у MP3</string>
-    <string name="menu_convert_to_amr">Пребаци у AMR</string>
-    <string name="settings_open_unlocker">Налог</string>
-    <string name="settings_cloud">Облак</string>
-    <string name="category_wav_and_mp3_settings">WAV &amp; MP3 подешавања</string>
-
-    <string name="alsa_is_not_installed">ALSA мора бити инсталиран</string>
-    <string name="alsa_is_not_installed_summary">Додирнути овде за инсталацију ALSA</string>
-
-    <string name="add_exception">Додај у изузетке</string>
-    <string name="exception_contact">Контакт</string>
-    <string name="exception_select_contact">Одабир контакта</string>
-    <string name="exception_phone_number">Број телефона</string>
-    <string name="exception_action">Радња</string>
-    <string name="exception_groups_not_found">Група не постоји</string>
-    <string name="exception_contacts_not_found">Контакт не постоји</string>
-    <string name="exceptions_not_added">Изузетак није додат</string>
-    <string name="exception_by_contact">По контакту</string>
-    <string name="exception_by_group">По групи</string>
-    <string name="exception_by_phone_number">По броју телефона</string>
-    <string name="exception_delete_message">Желите ли избрисати овај изузетак?</string>
-
-    <string name="folder_chooser_up_to">↑ До %s</string>
-    <string name="settings_filename">Назив</string>
-    <string name="pattern_call_timestamp">временска ознака позива (unix време)</string>
-    <string name="default_language">Подразумевано</string>
-    <string name="show_notification_summary">Стална информација у статусној траци</string>
-    <string name="hide_icon_but_keep_notification">Сакрити икону али задржати обавештење</string>
-    <string name="hide_icon_but_keep_notification_summary">Сакрити икону али чувати обавештење у статусној траци</string>
-    <string name="category_incall_control_button">Контролно дугме у току позива</string>
-    <string name="incall_control_for_outgoing_summary">Приказ контролног дугмета у одлазним позивима</string>
-    <string name="incall_control_for_incoming_summary">Приказ контролног дугмета у долазним позивима</string>
-    <string name="hide_button_while_recording">Сакрити дугме приликом снимања</string>
-    <string name="hide_button_while_recording_summary">Сакрити контролно дугме уколико се разговор снима</string>
-    <string name="vertical_position_summary">%s dp, офсет од центра екрана</string>
-    <string name="horizontal_position_summary">%s dp, офсет од центра екрана</string>
-    <string name="hide_button_before_answer">Сакрити дугме пре јављања</string>
-    <string name="long_press_action">Радња при дужем додиру</string>
-    <string name="long_press_action_dragging_the_button">Повлачење дугмета</string>
-    <string name="long_press_action_hang_up">Одбаци позив и позови број аутоматски</string>
-
-    <string name="cloud_provider">Cloud услуга</string>
-    <string name="sign_in_dropbox">Пријава у Dropbox</string>
-    <string name="sign_out_dropbox">Одјава са Dropbox</string>
-    <string name="cloud_provider_google_drive">Google Drive</string>
-    <string name="cloud_upload_starred">Отпреми фаворите</string>
-    <string name="cloud_upload_starred_summary">Отпремање приликом додавања у фаворите</string>
-
-    <string name="notify_uploading_dropbox">Отпремање у Dropbox</string>
-    <string name="notify_converting_to_amr">Конвертовање у AMR</string>
-    <string name="notify_converting_to_mp3">Конвертовање у MP3</string>
-    <string name="notify_encrypting">Шифровање</string>
-    <string name="notify_decrypting">Дешифровање</string>
-    <string name="notify_waiting_for_calls">Очекивање позива</string>
-    <string name="notify_tasks_remaining">%d задатака преостало</string>
-
-    <string name="create_new_key_summary">Овај кључ служи за касније шифровање позива и за приступ апликацији</string>
-    <string name="delete_key">Избрисати кључ</string>
-    <string name="delete_key_summary">УПОЗОРЕЊЕ! Нећете бити у могућности да дешифрујете заштићене снимке чак и ако креирате кључ са истом шифром</string>
-    <string name="delete_key_message">Нећете моћи дешифровати заштићене снимке уколико избришете кључ. Желите ли наставити?</string>
-    <string name="require_password_summary_no_key">Захтев лозинке за приступ апликацији. Потребно је прво креирати кључ</string>
-    <string name="app_admin_summary">Неопходно ради заштите од деинсталације</string>
-    <string name="app_admin_explanation">Call Recorder не користи друге административне дозволе осим заштите од деинсталације</string>
-    <string name="use_built_in_player">Користи уграђени плејер</string>
-    <string name="audio_output_summary">%s (Задржати на play/pause ће променити функцију)</string>
-    <string name="use_proximity_sensor_summary">Искључити екран приликом преслушавања</string>
-    <string name="switch_audio_output_summary">Аутоматско пребацивање звучника приликом активирања/деактивирања екрана</string>
-    <string name="send_logs_to_the_developer">Слање информација аутору</string>
-
-    <string name="button_choose">Одабир</string>
-    <string name="button_call">Позив</string>
-    <string name="button_buy">Куповина</string>
-    <string name="button_create">Направите</string>
-    <string name="button_delete">Обрисати</string>
-    <string name="button_keep">Задржати</string>
-    <string name="button_play">Репродукуј</string>
-    <string name="button_pause">Пауза</string>
-    <string name="button_delete_wait">Брисање (%d)</string>
-    <string name="decline">Одбити</string>
-    <string name="accept">Прихватити</string>
-    <string name="call_incoming">Долазни</string>
-    <string name="call_outgoing">Одлазни</string>
-    <string name="action_mode_selected">%d изабрано</string>
-    <string name="toast_wait_for_operation_to_complete">Причекајте завршетак задатка</string>
-    <string name="toast_recording_is_off">Снимање је искључено</string>
-    <string name="toast_recording_is_on">Снимање је укључено</string>
-    <string name="toast_file_deleted">Снимак је избрисан</string>
-
-
-    <string name="open_contact">Преглед контакта</string>
-
-    <string name="waiting_for_answer">Чекање одговора</string>
-    <string name="recording_in_progress">Снимање у току</string>
-    <string name="no_recording_in_progress">Не снима се</string>
-    <string name="about_call_recorder">Инфо о Call Recorder апликацији</string>
-    <string name="about_ion_license">Ion</string>
-    <string name="about_ion_license_summary">Користи Ion Apache License Version 2.0, притиснути за посету github.com/koush/ion</string>
     <string name="armenian_translation">Јерменски превод</string>
     <string name="armenian_translation_summary">Hakob Sununu и Konstantin Gevorgyan</string>
     <string name="gujarati_translation">Гуџарати превод</string>
@@ -642,5 +505,4 @@
     <string name="tamil_translation_summary">Ashish Sharma</string>
     <string name="greek_translation">Грчки превод</string>
     <string name="greek_translation_summary">Lefteris (SomniusX) Eliades</string>
-<string name="cloud_common_settings">Заједничко</string>
-    </resources>
+</resources>

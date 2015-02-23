@@ -30,9 +30,15 @@
     
     
     
+    
     <string name="action_select_all">सबको चुना जाए</string>
     
     
+    
+    
+    
+
+    <!--Import settings -->
     
 
     <!-- List -->
@@ -83,6 +89,7 @@
     <string name="recorded_calls">रिकॉर्ड की गई कॉल्स</string>
 
     <!--  Settings -> Headers -->
+    
     <string name="settings_recording">रिकॉर्डिंग समायोजन</string>
     <string name="settings_folders_and_files">फ़ोल्डर्स और फाइल्स</string>
     <string name="settings_ui_and_appearance">रंग-रूप</string>
@@ -109,7 +116,8 @@
     
     
     
-
+    
+    
     <string name="buy_full_version">पूरा संस्करण खरीदें</string>
     <string name="buy_full_version_summary">यह संस्करण %s को काम करना बंद कर देगा</string>
 
@@ -180,6 +188,13 @@
     <string name="api_source_voice_communication">ध्वनि वार्तालाप</string>
     <string name="category_wav_settings">WAV समायोजन</string>
     
+    <string name="when_bt_connected">जब ब्लू-टूथ(हेड-सेट) का इस्तेमाल हो</string>
+    <string name="audio_source_when_bt_connected">ब्लू टूथ(हेड-सेट) के जुड़े होने पर ध्वनि स्त्रोत</string>
+
+    <!-- Actions when BT connected -->
+    <string name="when_bt_connected_do_nothing">कुछ न किया जाए</string>
+    <string name="when_bt_connected_switch_source">ध्वनि स्त्रोत बदला जाए</string>
+    <string name="when_bt_connected_disable_recording">रिकॉर्डिंग को रोक दिया जाए</string>
 
     <!-- Settings -> Recording -> CAF -->
     <string name="recording_mode">रिकॉर्डिंग प्रणाली</string>
@@ -200,6 +215,7 @@
     <!-- Settings -> Recording -> Exceptions -->
     
     <string name="exception_group">समूह</string>
+    
     <string name="exception_select_group">समूह को चुना जाए</string>
     
     
@@ -218,6 +234,8 @@
 
     <!-- Settings -> Folders and Files -->
     <string name="folder">फोल्डर</string>
+    
+    
     
     <string name="automatic_cleanup">स्वचालित मिटाना</string>
     <string name="max_number_of_files">अधिकतम फाइल सीमा</string>
@@ -253,6 +271,8 @@
     <string name="show_notification">अधिसूचना दिखाई जाए</string>
     
     
+    
+    
     <string name="incall_control_for_outgoing">जाने वाली कॉल्स के लिए</string>
     
     <string name="incall_control_for_incoming">आने वाली कॉल्स के लिए</string>
@@ -270,6 +290,9 @@
     
     
     
+    <string name="category_main_screen">मुख्य स्क्रीन</string>
+    
+    
 
     <!-- Settings -> Cloud -->
     
@@ -285,6 +308,11 @@
     
 
     <!-- Notification -->
+    
+    
+    
+    
+    
     
     
 
@@ -342,11 +370,13 @@
     <string name="root_access_yes">हाँ</string>
     <string name="dual_sim_phone">2 सिम वाला फ़ोन</string>
     <string name="dual_sim_phone_summary">यदि दूसरी सिम से कॉल रिकॉर्ड नहीं हो रहीं हों तो इसको चालु करें</string>
+    
 
     <!-- General -->
     <string name="contact_unknown">अंजान</string>
     
     <string name="button_ok">ठीक है</string>
+    
     
     <string name="button_edit">सम्पादन</string>
     <string name="button_cancel">रद्द किया जाए</string>
@@ -360,13 +390,19 @@
     
     
     
-    <string name="please_wait">कृपया ठहरें</string>
     
+    <string name="please_wait">कृपया ठहरें</string>
     <string name="start_recording">रिकॉर्डिंग शुरू हो</string>
     <string name="stop_recording">रिकॉर्डिंग बंद हो</string>
     
     <string name="switch_on">चालु</string>
     <string name="switch_off">बंद</string>
+
+    <!--Toasts-->
+    
+    
+    
+    
 
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">इस कॉल को रिकॉर्ड किया जाए</string>
@@ -389,16 +425,12 @@
     <string name="about_many_thanks">बेहद शुक्रिया</string>
     <string name="about_many_thanks_summary">Alexey Subbotin (avs234) का</string>
 
-    <!--About -> Licenses-->
-    <string name="licenses">अनुज्ञा</string>
-    <string name="about_open_core_amr_license">opencore-amr</string>
-    <string name="about_open_core_amr_license_summary">Apache License Version 2.0 के तहत opencore-amr का प्रयोग करता है, यहाँ दबाएँ visitopencore-amr.sourceforge.net जाने के लिए</string>
-    <string name="about_alsa">ALSA</string>
-    <string name="about_alsa_summary">LGPL के तहत, ALSA का प्रयोग करता है, यहाँ दबाएँ alsa-project.org जाने के लिए</string>
-    <string name="about_lame">LAME</string>
-    <string name="about_lame_summary">LGPL के तहत, LAME का प्रयोग करता है, यहाँ दबाएँ mp3dev.org जाने के लिए</string>
+    <!--About -> Other-->
+    
+    
 
-    <!--Credits-->
+    <!--About -> Translators-->
+    
     <string name="german_translation">German अनुवाद के लिए</string>
     <string name="german_translation_summary">Marc Hillesheim और Thomas Käfer को</string>
     <string name="polish_translation">Polish अनुवाद के लिए</string>
@@ -461,6 +493,14 @@
     <string name="punjabi_translation_summary">Raj Verma का</string>
     <string name="finnish_translation">Finnish अनुवाद के लिए</string>
     <string name="finnish_translation_summary">Eero Linnainmaa का</string>
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     

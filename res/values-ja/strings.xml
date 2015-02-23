@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">利用規約</string>
@@ -18,7 +18,7 @@
     
     <string name="section_help">ヘルプ</string>
     <string name="section_tasks">タスク</string>
-    
+    <string name="section_tasks_hint">変換、暗号化あるいはクラウドへのアップロードなど録音に関する時間を消費するタスクはここに表示されます</string>
     <string name="empty_hint">なし</string>
 
     <!-- Action bar -->
@@ -30,16 +30,22 @@
     <string name="action_add_star">お気に入りへ追加</string>
     <string name="action_remove_star">お気に入りから削除</string>
     <string name="action_share">共有</string>
+    <string name="action_cancel_tasks">タスクをキャンセル</string>
     <string name="action_select_all">全て選択</string>
     <string name="sort_by_date">日付順</string>
     <string name="sort_by_contact">名前順</string>
     <string name="sort_by_file_size">ファイルサイズ順</string>
+    <string name="records_size">録音: %1$s, サイズ: %2$s</string>
+    
+
+    <!--Import settings -->
+    
 
     <!-- List -->
     <string name="list_header_today">今日</string>
     <string name="list_header_yesterday">昨日</string>
     
-    
+    <string name="no_connection">接続なし</string>
 
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">Dropboxへ追加</string>
@@ -75,41 +81,43 @@
 
     <!-- List -> Confirm delete dialog -->
     <string name="confirm_delete_message">この録音を削除してもよろしいですか?</string>
-    
-    
+    <string name="confirm_delete_several_title">削除の確認</string>
+    <string name="confirm_delete_several_message">%d 個の録音を選択しました。これらを削除してもよろしいですか?</string>
 
     <!-- List -> Share -->
     
     <string name="recorded_calls">録音された通話</string>
 
     <!--  Settings -> Headers -->
+    
     <string name="settings_recording">録音</string>
     <string name="settings_folders_and_files">フォルダーとファイル</string>
     <string name="settings_ui_and_appearance">インターフェースと外観</string>
     <string name="settings_security">セキュリティー</string>
-    
+    <string name="settings_cloud">クラウド</string>
     <string name="settings_audio_player">オーディオプレイヤー</string>
     <string name="settings_debug">デバッグ</string>
     <string name="settings_about">情報</string>
 
     <!-- Settings -> License -->
     <string name="license_status">ライセンスステータス</string>
+    <string name="license_check_pending">ライセンスチェック待ち</string>
+    <string name="license_check_failed">ライセンスの確認に失敗しました</string>
+    <string name="license_check_failed_summary">詳細はここを押してください</string>
+    <string name="license_verified">ライセンス確認済み</string>
     
-    
-    
-    
-    
-    
-    
-    
+    <string name="license_help">ヘルプ</string>
+    <string name="license_signature_verification_failed">シグネチャーの確認に失敗しました</string>
+    <string name="license_error_message">Error #%1$s: %2$s</string>
     <string name="license_trial">%sに期限切れとなるトライアル版</string>
+    <string name="license_unknown_error">未知のエラー</string>
+    <string name="license_not_market_managed">このバージョンはPlay Storeにはまだ公開されていません</string>
+    <string name="license_incorrect_response">Play Storeからのライセンスチェックの返答が不正です</string>
+    <string name="license_error_contacting_server">サーバー接続エラー</string>
+    <string name="license_server_error">サーバーエラー</string>
+    <string name="license_over_quota">このデバイスからの要求が多すぎます</string>
     
     
-    
-    
-    
-    
-
     <string name="buy_full_version">フルバージョンを購入</string>
     <string name="buy_full_version_summary">現在のバージョンは %s に期限切れとなります</string>
 
@@ -118,8 +126,8 @@
     <string name="category_main">メイン</string>
     <string name="device">デバイス</string>
     <string name="select_your_device">デバイスを選択</string>
-    
-    
+    <string name="device_change_settings_empty">このデバイスはすでに設定済です</string>
+    <string name="device_root_is_required">Rootが必要です</string>
     
     <string name="device_other">その他</string>
     <string name="recording_method">録音方法</string>
@@ -130,7 +138,7 @@
     <string name="recording_method_alsa">ALSA</string>
     <string name="recording_method_alsa_settings">ALSA録音の設定をします</string>
     
-    
+    <string name="recording_method_msm_settings">MSM録音の設定をします</string>
     <string name="category_actions">アクション</string>
     <string name="action_for_incoming">着信時のアクション</string>
     <string name="action_for_outgoing">発信時のアクション</string>
@@ -145,15 +153,15 @@
     <string name="vibrate_on_call">通話の開始/終了でバイブ</string>
     <string name="exceptions">例外</string>
     
-    
-    
+    <string name="start_recording_on_answer">応答で録音を開始</string>
+    <string name="start_recording_on_answer_summary">発信時の呼び出しに応じた時に録音を開始します。アプリは応答の検出に非公式の方法を使います。このためいくつかのデバイスでは失敗するかもしれません。Android 4.1 Jelly Bean以降でRootが必要になります。kernelでLoggerを有効にしなくてはいけません。</string>
     <string name="delay_before_start_recording">録音開始前の遅延時間</string>
     
+    <string name="delay_format_sec">%s 秒</string>
     
     
     
-    
-    
+    <string name="recording_format">録音形式</string>
     <string name="recording_format_wav">WAV形式</string>
     <string name="recording_format_amr">AMR形式</string>
     <string name="recording_format_aac">AAC形式</string>
@@ -179,14 +187,21 @@
     <string name="api_source_default">規定値</string>
     
     <string name="category_wav_settings">WAV の設定</string>
-    
+    <string name="category_wav_and_mp3_settings">WAVE &amp; MP3 の設定</string>
+    <string name="when_bt_connected">BT接続時...</string>
+    <string name="audio_source_when_bt_connected">BT接続時の音源</string>
+
+    <!-- Actions when BT connected -->
+    <string name="when_bt_connected_do_nothing">何もしない</string>
+    <string name="when_bt_connected_switch_source">音源を切り替える</string>
+    <string name="when_bt_connected_disable_recording">録音を無効にする</string>
 
     <!-- Settings -> Recording -> CAF -->
     <string name="recording_mode">録音モード</string>
 
     <!-- Settings -> Recording -> ALSA -->
-    
-    
+    <string name="alsa_is_not_installed">ALSAをインストールしてください</string>
+    <string name="alsa_is_not_installed_summary">ALSAをインストールするにはここをタップしてください</string>
 
     <!-- Settings -> Recording -> MSM -->
     <string name="chipset_type">チップセットの種類</string>
@@ -198,26 +213,29 @@
     <string name="dont_use_amr_driver_summary">代わりにリアルタイムでWAVからAMRへ変換します</string>
 
     <!-- Settings -> Recording -> Exceptions -->
-    
+    <string name="add_exception">例外の追加</string>
     <string name="exception_group">グループ</string>
+    
     <string name="exception_select_group">グループを選択</string>
     
     
-    
-    
+    <string name="exception_phone_number">電話番号</string>
+    <string name="exception_action">アクション</string>
     <string name="exception_select_action">アクションを選択</string>
     <string name="exception_action_always_record">常に録音</string>
     <string name="exception_action_never_record">録音しない</string>
+    <string name="exception_groups_not_found">グループがありません</string>
     
     
     
     
     
-    
-    
+    <string name="exception_delete_message">この例外を削除してもよろしいですか?</string>
 
     <!-- Settings -> Folders and Files -->
     <string name="folder">フォルダー</string>
+    
+    
     
     <string name="automatic_cleanup">自動クリーンアップ</string>
     <string name="max_number_of_files">保存するファイルの最大数</string>
@@ -227,7 +245,7 @@
     <string name="max_age_of_recordings">録音を保持する最長日数</string>
     <string name="max_age_of_recordings_message">日単位で値を入力して下さい (0 - 無制限)</string>
     <string name="current_setting">現在の設定: %s</string>
-    
+    <string name="settings_filename">ファイル名</string>
     <string name="filename_pattern">パターン</string>
     <string name="time_pattern">タイムパターン</string>
 
@@ -248,9 +266,11 @@
     <!--Settings -> Interface and Appearance-->
     <string name="language">言語</string>
     <string name="select_language">言語の選択</string>
-    
+    <string name="default_language">規定の言語</string>
     <string name="category_notification">通知</string>
     <string name="show_notification">通知領域に表示</string>
+    
+    
     
     
     <string name="incall_control_for_outgoing">発信</string>
@@ -270,6 +290,9 @@
     
     
     
+    <string name="category_main_screen">メイン画面</string>
+    
+    
 
     <!-- Settings -> Cloud -->
     
@@ -285,6 +308,11 @@
     
 
     <!-- Notification -->
+    
+    
+    
+    
+    
     
     
 
@@ -342,11 +370,13 @@
     <string name="root_access_yes">可</string>
     <string name="dual_sim_phone">デュアルSIM携帯</string>
     <string name="dual_sim_phone_summary">アプリが2番目のSIMカードから通話を決定できない場合はこれを有効にしてください</string>
+    
 
     <!-- General -->
     <string name="contact_unknown">不明</string>
     
     <string name="button_ok">OK</string>
+    
     
     <string name="button_edit">編集</string>
     <string name="button_cancel">キャンセル</string>
@@ -360,13 +390,19 @@
     
     
     
-    <string name="please_wait">お待ち下さい…</string>
     
+    <string name="please_wait">お待ち下さい…</string>
     <string name="start_recording">録音開始</string>
     <string name="stop_recording">録音停止</string>
     
     <string name="switch_on">オン</string>
     <string name="switch_off">オフ</string>
+
+    <!--Toasts-->
+    
+    
+    
+    
 
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">この通話を録音</string>
@@ -382,23 +418,19 @@
     <string name="an_error_has_occurred">エラーが発生しました。この通話は録音できません</string>
 
     <!--About-->
-    
+    <string name="about_call_recorder">Call Recorderについて</string>
     <string name="version">バージョン</string>
     <string name="copyright">Copyright</string>
     <string name="copyright_summary">© %s Alexander Skvortsov (skvalex)</string>
     <string name="about_many_thanks">Many thanks</string>
     <string name="about_many_thanks_summary">to Alexey Subbotin (avs234)</string>
 
-    <!--About -> Licenses-->
-    <string name="licenses">ライセンス</string>
-    <string name="about_open_core_amr_license">opencore-amr</string>
-    <string name="about_open_core_amr_license_summary">Apacheライセンスバージョン2.0の下で opencore-amr を使用しています。 opencore-amr.sourceforge.netへ訪問するにはここをクリックして下さい</string>
-    <string name="about_alsa">ALSA</string>
-    <string name="about_alsa_summary">LGPLでALSAを使用しています。alsa-project.orgへ訪問するにはここをクリックして下さい</string>
-    <string name="about_lame">LAME</string>
-    <string name="about_lame_summary">LGPLの下でLAMEを使用しています。mp3dev.orgへ訪問するにはここをクリックして下さい</string>
+    <!--About -> Other-->
+    
+    
 
-    <!--Credits-->
+    <!--About -> Translators-->
+    
     <string name="german_translation">ドイツ語の翻訳</string>
     <string name="german_translation_summary">Marc Hillesheim と Thomas Käfer</string>
     <string name="polish_translation">ポーランド語の翻訳</string>
@@ -412,11 +444,11 @@
     <string name="slovak_translation">スロバキア語の翻訳</string>
     <string name="slovak_translation_summary">Loránt Gerencsér</string>
     <string name="italian_translation">イタリア語の翻訳</string>
-    
+    <string name="italian_translation_summary">Luca Trevisan と Francesco Cafagna</string>
     <string name="persian_translation">ペルシア語の翻訳</string>
     <string name="persian_translation_summary">Alireza Afkar</string>
     <string name="chinese_translation">中国語の翻訳</string>
-    
+    <string name="chinese_translation_summary">qhq と Yu Fei</string>
     <string name="czech_translation">チェコ語の翻訳</string>
     <string name="czech_translation_summary">Ales Kerner と Lukas Waldauf</string>
     <string name="arabic_translation">アラビア語の翻訳</string>
@@ -465,60 +497,12 @@
     <string name="belarusian_translation_summary">Alexander Kuvshinov</string>
     <string name="vietnamese_translation">ベトナム語の翻訳</string>
     <string name="vietnamese_translation_summary">Truong Hoang Trung</string>
-<string name="section_tasks_hint">変換、暗号化あるいはクラウドへのアップロードなど録音に関する時間を消費するタスクはここに表示されます</string>
-    <string name="action_cancel_tasks">タスクをキャンセル</string>
-    <string name="records_size">録音: %1$s, サイズ: %2$s</string>
-    <string name="no_connection">接続なし</string>
-
-    <string name="confirm_delete_several_title">削除の確認</string>
-    <string name="confirm_delete_several_message">%d 個の録音を選択しました。これらを削除してもよろしいですか?</string>
-
-    <string name="settings_cloud">クラウド</string>
-    <string name="license_check_pending">ライセンスチェック待ち</string>
-    <string name="license_check_failed">ライセンスの確認に失敗しました</string>
-    <string name="license_check_failed_summary">詳細はここを押してください</string>
-    <string name="license_verified">ライセンス確認済み</string>
-    <string name="license_help">ヘルプ</string>
-    <string name="license_signature_verification_failed">シグネチャーの確認に失敗しました</string>
-    <string name="license_error_message">Error #%1$s: %2$s</string>
-    <string name="license_unknown_error">未知のエラー</string>
-    <string name="license_not_market_managed">このバージョンはPlay Storeにはまだ公開されていません</string>
-    <string name="license_incorrect_response">Play Storeからのライセンスチェックの返答が不正です</string>
-    <string name="license_error_contacting_server">サーバー接続エラー</string>
-    <string name="license_server_error">サーバーエラー</string>
-    <string name="license_over_quota">このデバイスからの要求が多すぎます</string>
-
-    <string name="device_change_settings_empty">このデバイスはすでに設定済です</string>
-    <string name="device_root_is_required">Rootが必要です</string>
-    <string name="recording_method_msm_settings">MSM録音の設定をします</string>
-    <string name="start_recording_on_answer">応答で録音を開始</string>
-    <string name="start_recording_on_answer_summary">発信時の呼び出しに応じた時に録音を開始します。アプリは応答の検出に非公式の方法を使います。このためいくつかのデバイスでは失敗するかもしれません。Android 4.1 Jelly Bean以降でRootが必要になります。kernelでLoggerを有効にしなくてはいけません。</string>
-    <string name="delay_format_sec">%s 秒</string>
-    <string name="recording_format">録音形式</string>
-    <string name="category_wav_and_mp3_settings">WAVE &amp; MP3 の設定</string>
-
-    <string name="alsa_is_not_installed">ALSAをインストールしてください</string>
-    <string name="alsa_is_not_installed_summary">ALSAをインストールするにはここをタップしてください</string>
-
-    <string name="add_exception">例外の追加</string>
-    <string name="exception_phone_number">電話番号</string>
-    <string name="exception_action">アクション</string>
-    <string name="exception_groups_not_found">グループがありません</string>
-    <string name="exception_delete_message">この例外を削除してもよろしいですか?</string>
-
-    <string name="settings_filename">ファイル名</string>
-    <string name="default_language">規定の言語</string>
-    <string name="greek_translation_summary">Lefteris (SomniusX) Eliades</string>
-<string name="armenian_translation_summary">Hakob Sununu と Konstantin Gevorgyan</string>
+    <string name="armenian_translation">アルメニア語の翻訳</string>
+    <string name="armenian_translation_summary">Hakob Sununu と Konstantin Gevorgyan</string>
     <string name="gujarati_translation">グジャラート語の翻訳</string>
     <string name="gujarati_translation_summary">Abhishek Sharma</string>
     <string name="tamil_translation">タミル語の翻訳</string>
     <string name="tamil_translation_summary">Ashish Sharma</string>
     <string name="greek_translation">ギリシャ語の翻訳</string>
-    <string name="armenian_translation">アルメニア語の翻訳</string>
-    <string name="chinese_translation_summary">qhq と Yu Fei</string>
-    <string name="italian_translation_summary">Luca Trevisan と Francesco Cafagna</string>
-    <string name="about_ion_license_summary">Apacheライセンスバージョン2.0の下で Ionを使用しています。github.com/koush/ion を訪問するにはここをクリックして下さい</string>
-    <string name="about_ion_license">Ion</string>
-    <string name="about_call_recorder">Call Recorderについて</string>
-    </resources>
+    <string name="greek_translation_summary">Lefteris (SomniusX) Eliades</string>
+</resources>

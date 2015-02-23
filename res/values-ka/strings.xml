@@ -1,56 +1,62 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CallRecorder</string>
-    
-    
+    <string name="terms_of_use">გამოყენების პირობა</string>
+    <string name="terms_of_use_message">ამ პროგრამის გამოყენებით თქვენ ეთანხმებით პროგრამის პირობებს &lt;a href=http://rec.sh/terms&gt;Terms of Use&lt;/a&gt;.</string>
 
     <!-- Navigation drawer -->
-    
-    
+    <string name="navigation_drawer_open">ნავიგაციის ფანჯრის გახსნა</string>
+    <string name="navigation_drawer_close">ნავიგაციის ფანჯრის დახურვა</string>
 
     <!-- Navigation drawer sections -->
-    
-    
+    <string name="section_all_recordings">ყველა ჩანაწერი</string>
+    <string name="section_starred">აღნიშნული</string>
     <string name="section_incoming">შემოსული</string>
     <string name="section_outgoing">გამავალი</string>
-    
-    
-    
+    <string name="section_by_contact">კონტაქტების მიხედვით</string>
+    <string name="section_by_format">ფორმატის მიხედვით</string>
+    <string name="section_by_label">იარლიყის მიხედვით</string>
     <string name="section_help">დახმარება</string>
     <string name="section_tasks">ამოცანა</string>
-    
+    <string name="section_tasks_hint">აქ გამოისახება ისეთი ოპერაციები,როგორიცაა კონვერტაცია,გაშიფვრა ჩამოტვირთვები და ა. შ</string>
     <string name="empty_hint">ცარიელი</string>
 
     <!-- Action bar -->
     <string name="action_search">ძებნა</string>
-    
+    <string name="action_sort">დახარისხება</string>
     <string name="action_settings">პარამეტრები</string>
-    
-    
-    
-    
+    <string name="action_refresh">განახლება</string>
+    <string name="action_delete">წაშლა</string>
+    <string name="action_add_star">აღნიშვნა</string>
+    <string name="action_remove_star">მონიშვნის წაშლა</string>
+    <string name="action_share">გაზიარება</string>
     
     <string name="action_select_all">აირჩიეთ ყველა</string>
+    <string name="sort_by_date">თარიღის მიხედვით</string>
+    <string name="sort_by_contact">კონტაქტების მიხედვით</string>
+    <string name="sort_by_file_size">ზომის მიხედვით</string>
     
     
+
+    <!--Import settings -->
     
 
     <!-- List -->
-    
-    
-    
-    
+    <string name="list_header_today">დღეს</string>
+    <string name="list_header_yesterday">გუშინ</string>
+    <string name="queued">რიგშია</string>
+    <string name="no_connection">დაკავშირება არაა</string>
 
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">დამატება Dropbox ზე</string>
-    
-    
+    <string name="menu_add_note">მონიშვნის დამატება</string>
+    <string name="menu_edit_note">მონიშვნის შეცვლა</string>
     <string name="menu_delete">წაშლა</string>
-    
-    
-    
+    <string name="menu_share">გაზიარება</string>
+    <string name="menu_convert_to_mp3">MP3 ად კონვენტირება</string>
+    <string name="menu_convert_to_amr">AMR ად კონვენტირება</string>
     <string name="menu_get_info">ინფორმაციის მიღება</string>
-    
+    <string name="menu_cancel_task">ბრძანების გაუქმება</string>
     <string name="menu_encrypt">გაშიფრვა</string>
     <string name="menu_decrypt">დეკოდირება</string>
 
@@ -58,16 +64,16 @@
     <string name="file_name">ფაილის სახელი</string>
     <string name="sample_rate">სიშხირე</string>
     <string name="sample_rate_hz">ჰერცი</string>
-    
-    
-    
+    <string name="recording_type">ჩაწერის ტიპი</string>
+    <string name="recording_type_mono">მონო</string>
+    <string name="recording_type_stereo">სტერეო</string>
     <string name="file_size">ფაილის ზომა</string>
     <string name="terabyte">ტერაბაიტი</string>
     <string name="gigabyte">გიგაბაიტი</string>
     <string name="megabyte">მეგაბაიტი</string>
     <string name="kilobyte">კილობაიტი</string>
     <string name="bytes">ბაიტი</string>
-    
+    <string name="note">ჩანიშვნა</string>
 
     <!-- List -> Get info dialog -> Edit -->
     <string name="contact_name">კონტაქტის სახელი</string>
@@ -75,41 +81,43 @@
 
     <!-- List -> Confirm delete dialog -->
     <string name="confirm_delete_message">გსურთ თუ არა წავშალო ჩაწერილი ზარი?</string>
-    
-    
+    <string name="confirm_delete_several_title">წაშლის დადასტურება</string>
+    <string name="confirm_delete_several_message">თქვენ აირჩიეთ %d ჩანაწერი.გსურთ რომ იგი წაიშალოს?</string>
 
     <!-- List -> Share -->
-    
+    <string name="share_via">გააზიარე შემდეგი გზით</string>
     <string name="recorded_calls">ჩაწერილი ზარები</string>
 
     <!--  Settings -> Headers -->
+    
     <string name="settings_recording">ჩაწერა</string>
     <string name="settings_folders_and_files">ფაილები და პაპკები</string>
     <string name="settings_ui_and_appearance">ინტერფეისი და გაფორმება</string>
     <string name="settings_security">უსაფრთხოება</string>
-    
+    <string name="settings_cloud">ღრუბელი (dropbox)</string>
     <string name="settings_audio_player">Audio player</string>
     <string name="settings_debug">გამართვა</string>
     <string name="settings_about">შესახებ</string>
 
     <!-- Settings -> License -->
     <string name="license_status">ლიცენზიის ვადა</string>
+    <string name="license_check_pending">ლიცენზიის შემოწმების მოლოდინი</string>
+    <string name="license_check_failed">ლიცეზიის შემოწმება ვერ მოხერხდა</string>
+    <string name="license_check_failed_summary">დააჭირეთ ,რომ ნახოთ დეტალურად</string>
+    <string name="license_verified">ლიცენზია დადასტურებულია</string>
+    <string name="license_verified_summary">დააჭირეთ ,რომ დამალოთ</string>
+    <string name="license_help">დახმარება</string>
+    <string name="license_signature_verification_failed">ხელმოწერის შემოწმება ვერ მოხერხდა</string>
+    <string name="license_error_message">შეცდომა #%1$s: %2$s</string>
+    <string name="license_trial">საცდელი ვერსია, გაითიშება %s</string>
+    <string name="license_unknown_error">ამოუცნობი შეცდომა</string>
+    <string name="license_not_market_managed">ეს ვერსია ჯერ არ ატვირთულა მარკეტზე</string>
+    <string name="license_incorrect_response">არასწორი სალიცენზიო პასუხი მარკეტიდან</string>
+    <string name="license_error_contacting_server">სერვერთან დაკავშირება ვერ ხერხდება</string>
+    <string name="license_server_error">სერვერის შეცდომა</string>
+    <string name="license_over_quota">ბევრი მოთხოვნაა ამ მოწყობილობიდან</string>
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
     <string name="buy_full_version">სრული ვერსიის ყიდვა</string>
     <string name="buy_full_version_summary">მიმდინარე ვერსიას ვადა გასდის %s</string>
 
@@ -118,9 +126,9 @@
     <string name="category_main">მთავარი</string>
     <string name="device">მობილურის მოდელი</string>
     <string name="select_your_device">აირჩიეთ თქვენი მობილურის მოდელი</string>
-    
-    
-    
+    <string name="device_change_settings_empty">ამ მოწყობილობის პარამეტრები უკვე დაყენებულია</string>
+    <string name="device_root_is_required">საჭიროა რუთი</string>
+    <string name="device_root_is_required_summary">ამ მოწყობილებაზე რუთია საჭირო</string>
     <string name="device_other">სხვა</string>
     <string name="recording_method">ჩაწერის მეთოდები</string>
     <string name="recording_method_api">სტანდარტული API</string>
@@ -129,8 +137,8 @@
     <string name="recording_method_caf_settings">CAF ჩაწერის პარამეტრები</string>
     <string name="recording_method_alsa">ALSA</string>
     <string name="recording_method_alsa_settings">ALSA დან ჩაწერის პარამეტრები</string>
-    
-    
+    <string name="recording_method_msm">MSM</string>
+    <string name="recording_method_msm_settings">MSM მეთოდით ჩაწერის პარამეტრები</string>
     <string name="category_actions">ქმედება</string>
     <string name="action_for_incoming">ქმედება შემომავალი ზარის დროს</string>
     <string name="action_for_outgoing">ქმედება გამავალი ზარის დროს</string>
@@ -144,31 +152,31 @@
     <string name="after_call_actions_dialog_summary">შემეკითხე რა გავაკეთო ზარის დამთავრების შემდეგ</string>
     <string name="vibrate_on_call">ვიბრაცია ზარის ჩაწერის დაწყებისას და დამთავრებისას</string>
     <string name="exceptions">გამონაკლისი</string>
-    
-    
-    
+    <string name="exceptions_summary">დავაყენოთ განსაზღვრული მოქმედება კონტაქტებისათვის,ჯგუფების და ტელეფონებისათვის</string>
+    <string name="start_recording_on_answer">დაიწყოს ჩაწერა როცა უპასუხებ</string>
+    <string name="start_recording_on_answer_summary">დაიწყოს ჩაწერა მაშინ როცა აბონენტი გიპასუხებთ(გამავალი ზარის დროს).პროგრამა იყენებს არადოკუმენტირებულ მეთოდს მომენტის აღმოსაჩენად,ამიტომ ეს მეთოდი შეიძლება არ მუშაობდეს ზოგიერთ მოწყობილობაზე,მაგალითად 4.1 ვერსიიდან საჭიროა რუთი.</string>
     <string name="delay_before_start_recording">ზარის ჩაწერამდე შეჩერება</string>
-    
-    
-    
-    
-    
-    
+    <string name="delay_before_start_recording_summary">გამავალი : %1$s,შემომავალი : %2$s</string>
+    <string name="delay_format_sec">%s წამი</string>
+    <string name="delay_for_outgoing">გამავალი ზარებისთვის</string>
+    <string name="delay_for_incoming">შემომავალი ზარებისთვის</string>
+    <string name="settings_for_device">%s პარამეტრები</string>
+    <string name="recording_format">ჩაწერის ფორმატი</string>
     <string name="recording_format_wav">WAV</string>
     <string name="recording_format_amr">AMR</string>
     <string name="recording_format_aac">AAC</string>
     <string name="recording_format_mp3">MP3</string>
     <string name="volume_control">ხმის კონტროლი</string>
-    
-    
-    
-    
+    <string name="volume_control_summary">Tx: %1$s, Rx: %2$s</string>
+    <string name="volume_control_overall">ხმის სიძლიერე</string>
+    <string name="volume_control_tx">Tx</string>
+    <string name="volume_control_rx">Rx</string>
     <string name="sample_rate_8000">8000 H</string>
     <string name="sample_rate_11025">11025 გჰ</string>
     <string name="sample_rate_16000">16000 ჰერცი</string>
     <string name="sample_rate_22050">22050 ჰერცი</string>
     <string name="sample_rate_44100">44100 ჰერცი</string>
-    
+    <string name="sample_rate_48000">48000 ჰერცი</string>
 
     <!-- Settings -> Recording -> Standard API -->
     <string name="api_audio_source">Audio წყარო(ხმის წყარო)</string>
@@ -179,14 +187,21 @@
     <string name="api_source_default">სტანდარტული</string>
     <string name="api_source_voice_communication">ხმოვანი კავშირი</string>
     <string name="category_wav_settings">WAV პარამეტერები</string>
-    
+    <string name="category_wav_and_mp3_settings">WAV &amp; MP3 პარამეტრები</string>
+    <string name="when_bt_connected">როცა BT დაკავშირებულია</string>
+    <string name="audio_source_when_bt_connected">ხმის წყარო როცა დაკავშირებულია bluetooth</string>
+
+    <!-- Actions when BT connected -->
+    <string name="when_bt_connected_do_nothing">არაფერი შეცვალო</string>
+    <string name="when_bt_connected_switch_source">ხმის წყაროს შეცვლა</string>
+    <string name="when_bt_connected_disable_recording">ჩაწერის გამორთვა (დეაქტივაცია)</string>
 
     <!-- Settings -> Recording -> CAF -->
-    
+    <string name="recording_mode">ჩაწერის რეჟიმი</string>
 
     <!-- Settings -> Recording -> ALSA -->
-    
-    
+    <string name="alsa_is_not_installed">ALSA უნდა იყოს დაყენებული</string>
+    <string name="alsa_is_not_installed_summary">დააჭირეთ ALSA ს დასაყენებლად</string>
 
     <!-- Settings -> Recording -> MSM -->
     <string name="chipset_type">ჩიპსეტის ტიპი</string>
@@ -198,26 +213,29 @@
     <string name="dont_use_amr_driver_summary">WAV გდაქცევა AMR ად</string>
 
     <!-- Settings -> Recording -> Exceptions -->
-    
+    <string name="add_exception">გამონაკლისი</string>
     <string name="exception_group">ჯგუფი</string>
+    
     <string name="exception_select_group">ჯგუფის შერჩევა</string>
-    
-    
-    
-    
+    <string name="exception_contact">კონტაქტი</string>
+    <string name="exception_select_contact">კონტაქტის შერჩევა</string>
+    <string name="exception_phone_number">ტელეფონის ნომერი</string>
+    <string name="exception_action">მოქმედება</string>
     <string name="exception_select_action">ქმედების შერჩევა</string>
     <string name="exception_action_always_record">ყოველთვის ჩავწერო</string>
     <string name="exception_action_never_record">არასდროს ჩავწერო</string>
-    
-    
-    
-    
-    
-    
-    
+    <string name="exception_groups_not_found">ჯგუფი ვერ მოიძებნა</string>
+    <string name="exception_contacts_not_found">კონტაქტი ვერ მოიძებნა</string>
+    <string name="exceptions_not_added">გამონაკლისი არ შედგა</string>
+    <string name="exception_by_contact">კონტაქტის მიხედვით</string>
+    <string name="exception_by_group">ჯგუფის მიხედვით</string>
+    <string name="exception_by_phone_number">ტელეფონის ნომრის მიხედვით</string>
+    <string name="exception_delete_message">დარწმუნებული ხართ წაშალოთ გამონაკლისი?</string>
 
     <!-- Settings -> Folders and Files -->
     <string name="folder">პაპკა</string>
+    <string name="folder_chooser_up_to">↑ზემოთ%s</string>
+    
     
     <string name="automatic_cleanup">ავტომატური გაწმენდა</string>
     <string name="max_number_of_files">ფაილების მაქსიმალური რაოდენობა</string>
@@ -227,7 +245,7 @@
     <string name="max_age_of_recordings">ჩანაწერის მაქსიმალური ზომა</string>
     <string name="max_age_of_recordings_message">შეიყვანეთ დღეების რაოდენობა 0 დან უსასრულოდ</string>
     <string name="current_setting">მიმდინარე პარამეტრები %s ში</string>
-    
+    <string name="settings_filename">ფაილის სახელი</string>
     <string name="filename_pattern">ნიმუში</string>
     <string name="time_pattern">დროის ნიმუში</string>
 
@@ -235,7 +253,7 @@
     <string name="pattern_contact_name">კონტაქტის სახელი</string>
     <string name="pattern_phone_number">ტელეფონის ნომერი</string>
     <string name="pattern_call_time">ზარის ხანგრძლივობა</string>
-    
+    <string name="pattern_call_timestamp">ზარის ხანგრძლივობა (unix time)</string>
     <string name="pattern_call_type">ზარის ტიპი(შემავალი გამავალი)</string>
     <string name="time_pattern_hours">საათი</string>
     <string name="time_pattern_minutes">წუთი</string>
@@ -248,89 +266,99 @@
     <!--Settings -> Interface and Appearance-->
     <string name="language">ენა</string>
     <string name="select_language">ავირჩიოთ ენა</string>
-    
+    <string name="default_language">სტანდარტული ენა</string>
     <string name="category_notification">შეტყობინება</string>
     <string name="show_notification">მაჩვენე შეტყობინება</string>
-    
-    
+    <string name="show_notification_summary">მუდმივი შეტყობინების ჩვენება აპარატზე</string>
+    <string name="hide_icon_but_keep_notification">იარლიყის დამალვა,მაგრამ შეტყობინება ჩართულია</string>
+    <string name="hide_icon_but_keep_notification_summary">იარლიყის დამალვა,მაგრამ შეტყობინება ჩართულია</string>
+    <string name="category_incall_control_button">ჩაწერის პარამეტრების მართვა</string>
     <string name="incall_control_for_outgoing">გამავალი ზარებისათვის</string>
-    
+    <string name="incall_control_for_outgoing_summary">მართვის ღილაკის ჩვენება გამავალი ზარებისთვის</string>
     <string name="incall_control_for_incoming">შემომავალი ზარებისათვის</string>
-    
-    
-    
+    <string name="incall_control_for_incoming_summary">მართვის ღილაკის ჩვენება შემომავალი ზარებისთვის</string>
+    <string name="hide_button_while_recording">დაიმალოს ღილაკი ჩაწერის დროს</string>
+    <string name="hide_button_while_recording_summary">ჩაწერის ღილაკის დამალვა ,როცა ზარი იწერება</string>
     <string name="show_button_while_ringing">ღილაკის ჩვენება დარეკვისას</string>
     <string name="show_button_while_ringing_summary">სანამ უპასუხებ დარეკვის ღილაკის ჩვენება</string>
     <string name="vertical_position">ვეტიკალური პოზიცია</string>
-    
+    <string name="vertical_position_summary">%s dp ეკრანის ცენტრიდან</string>
     <string name="horizontal_position">ჰორიზონტალური პოზიცია</string>
-    
-    
+    <string name="horizontal_position_summary">%s dp დახრა ეკრანის ცენტრიდან</string>
+    <string name="hide_button_before_answer">ღილაკის დამალვა ზარის პასუხამდე</string>
     <string name="hide_button_before_answer_summary">არ მაჩვენო ზარების მართვის ღილაკი კავშირის დამყარებამდე</string>
-    
+    <string name="long_press_action">დიდხანს დაჭერის დროს ქმედება</string>
+    <string name="long_press_action_dragging_the_button">ღილაკების გადაადგილება</string>
+    <string name="long_press_action_hang_up">ზარის შეწყვეტა და ავტომატურად გადარეკვა</string>
+    <string name="category_main_screen">მთავარი ეკრანი</string>
     
     
 
     <!-- Settings -> Cloud -->
-    
+    <string name="cloud_provider">სერვერის პროვაიდერი</string>
     <string name="cloud_provider_dropbox">Dropbox(ღრუბელი)</string>
-    
-    
-    
-    
+    <string name="sign_in_dropbox">Dropbox ში შესვლა</string>
+    <string name="sign_out_dropbox">Dropbox იდან გამოსვლა</string>
+    <string name="cloud_provider_google_drive">Google Drive</string>
+    <string name="cloud_common_settings">საერთო</string>
     <string name="cloud_wifi_only">Wi-Fi მხოლოდ</string>
     <string name="cloud_auto_upload">ავტომატური ატვირთვა</string>
     <string name="cloud_auto_upload_summary">ატვირთვა ზარის დამთავრებისთანავე</string>
-    
-    
+    <string name="cloud_upload_starred">მონიშნულების ჩამოტვირთვა</string>
+    <string name="cloud_upload_starred_summary">მონიშნე თუ გინდა სერვერზე ატვირთვა</string>
 
     <!-- Notification -->
+    <string name="notify_uploading_dropbox">მიმდინარეობს სერვერზე ატვირთვა</string>
     
     
+    
+    
+    <string name="notify_waiting_for_calls">ზარის მოლოდინი</string>
+    <string name="notify_tasks_remaining">%d დარჩა</string>
 
     <!-- Password dialog -->
-    
+    <string name="wrong_password">არასწორი პაროლი</string>
     <string name="enter_password">შეიყვანეთ პაროლი</string>
-    
+    <string name="password_has_been_changed">პაროლი შეიცვალა</string>
 
     <!-- Settings -> Security -->
     <string name="category_encryption">გაშიფრვა</string>
     <string name="category_application">პროგრამა</string>
     <string name="create_new_key">ახალი გასაღების შექმნა</string>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <string name="create_new_key_summary">ეს გასაღები გამოყენებული იქნება მოგვიანებით ,ჩაწერის გასაშიფრად ან აპლიკაციაში შესასვლელად</string>
+    <string name="delete_key">გასაღების წაშლა</string>
+    <string name="change_password">პაროლის შეცვლა</string>
+    <string name="delete_key_summary">ფრთხილად! თქვენ ვერ შეძლებთ ჩანაწერის აღდგენას,იმ შემთხვევაშიც კი თუ შექმნით ახალ გასაღებს იგივე პაროლით</string>
+    <string name="delete_key_message">წაშლის შემდეგ.თქვენ ვერ შეძლებთ ჩანაწერების აღდგენას ამ გასაღებით.დარწმუნებული ხართ გააგრძელოთ?</string>
+    <string name="enter_old_password">შეიყვანეთ ძველი პაროლი</string>
+    <string name="enter_new_password">შეიყვანეთ ახალი პაროლი</string>
+    <string name="re_enter_new_password">კიდევ შეიყვანეთ ახალი პაროლი</string>
+    <string name="require_password">საჭიროა პაროლი</string>
+    <string name="require_password_summary">საჭიროა პაროლი ,რომ გახსნათ აპლიკაცია</string>
+    <string name="require_password_summary_no_key">საჭიროა პაროლი ,რომ გახსნათ აპლიკაცია.ეს რომ ჩართოთ საჭიროა შექმნათ გასაღები</string>
+    <string name="lock_after">შემდგომ დაბლოკვა</string>
+    <string name="lock_after_exit">გასვლა</string>
+    <string name="lock_after_1_minute">1 წუთი</string>
+    <string name="lock_after_3_minutes">3 წუთი</string>
+    <string name="lock_after_5_minutes">5 წუთი</string>
+    <string name="lock_after_10_minutes">10 წუთი</string>
     <string name="app_admin">პროგრამის ადმინისტრატორი</string>
-    
-    
+    <string name="app_admin_summary">საჭიროა პროგრამის წაშლის თავიდან ასაცილებლად</string>
+    <string name="app_admin_explanation">პროგრამა არ იყენებს არანაირ უფლებას ,გარდა იმისა რომ არ წაიშალოს აპლიკაცია</string>
     <string name="aes_128bit">128 -bit (სწრაფი)</string>
     <string name="aes_192bit">192-bit AES (დაბალანსებული)</string>
     <string name="aes_256bit">256-bit AES (ძლიერი)</string>
 
     <!-- Settings -> Audio player -->
-    
+    <string name="use_built_in_player">ჩაყენებული player</string>
     <string name="audio_output">ხმის გამოშვება</string>
-    
+    <string name="audio_output_summary">%s (დიდხანს დააჭირეთ play/pause ღილაკს ,რომ გადართოთ)</string>
     <string name="main_speaker">ზარის დინამიკი</string>
     <string name="phone_speaker">ყურის დინამიკი</string>
     <string name="use_proximity_sensor">გამოვიყენო სიახლოვის სენსორი</string>
-    
+    <string name="use_proximity_sensor_summary">ეკრანის გამორთვა მიახლოების სენსორის საშუალებით</string>
     <string name="switch_audio_output">ხმის გამომშვების გადართვა</string>
-    
+    <string name="switch_audio_output_summary">ავტომატურად გადაირთოს ხმის გამოშვების წყარო მიახლოების სენსორის საშუალებით</string>
     <string name="android_wav_decoder">ანდოიდი დეკოდერიWAV სათვის</string>
     <string name="android_wav_decoder_summary">გამოვიყენო შიგ ჩამონტაჟებული WAV პლეერი</string>
     <string name="android_amr_decoder">გამოვიყენო შიგ ჩამონტაჟებული ანდროიდ დეკოდერი AMR ისათვის</string>
@@ -342,65 +370,69 @@
     <string name="root_access_yes">დიახ</string>
     <string name="dual_sim_phone">ორსიმიანი ტელეფონი</string>
     <string name="dual_sim_phone_summary">გააქტიურე, თუ ტელეფონი არ იწერს მეორე სიმიდან</string>
+    
 
     <!-- General -->
     <string name="contact_unknown">ამოუცნობი</string>
-    
+    <string name="button_choose">არჩევა</string>
     <string name="button_ok">OK</string>
+    <string name="button_call">დარეკვა</string>
     
     <string name="button_edit">შესწორება</string>
     <string name="button_cancel">გაუქმება</string>
+    <string name="button_create">შექმნა</string>
+    <string name="button_delete">წაშლა</string>
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <string name="button_keep">შენახვა</string>
+    <string name="button_play">დაკვრა(Play)</string>
+    <string name="button_pause">დაპაუზება</string>
+    <string name="button_delete_wait">წაშლა (%d)</string>
+    <string name="decline">უარყოფა</string>
+    <string name="accept">მიღება</string>
+    <string name="call_incoming">შემომავალი</string>
+    <string name="call_outgoing">გამავალი</string>
     <string name="please_wait">გთხოვთ დაიცადოთ…</string>
-    
     <string name="start_recording">ჩაწერის დაწყება</string>
     <string name="stop_recording">ჩაწერის დამთავრება</string>
-    
+    <string name="action_mode_selected">%d შერჩეული</string>
     <string name="switch_on">ღია</string>
     <string name="switch_off">დაკეტილი</string>
 
+    <!--Toasts-->
+    <string name="toast_wait_for_operation_to_complete">დაიცადეთ ოპერაციის დასრულებამდე</string>
+    <string name="toast_recording_is_off">ზარების ჩაწერა გამორთულია</string>
+    <string name="toast_recording_is_on">ზარების ჩაწერა ჩართულია</string>
+    <string name="toast_file_deleted">ფაილი წარმატებით წაიშალა</string>
+
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">ჩავწერო ეს ზარი</string>
-    
+    <string name="open_contact">კონტაქტის გახსნა</string>
 
     <!--After call actions dialog-->
     <string name="cloud_added">დამატებული</string>
 
     <!--Notification-->
-    
-    
-    
+    <string name="waiting_for_answer">პასუხის გაცემის მოლოდინი</string>
+    <string name="recording_in_progress">ჩაწერა მიმდინარეობს</string>
+    <string name="no_recording_in_progress">ჩანაწერები არაა</string>
     <string name="an_error_has_occurred">დაფიქსირდა შეცდომა. ზარი არ ჩაიწერა</string>
 
     <!--About-->
-    
+    <string name="about_call_recorder">პროგრამის შესახებ</string>
     <string name="version">ვერსია</string>
     <string name="copyright">უფლება</string>
     <string name="copyright_summary">© %s ალექსანდრე სკვორცოვი</string>
     <string name="about_many_thanks">დიდი მადლობა</string>
     <string name="about_many_thanks_summary">ალექსი სუბოტინს</string>
 
-    <!--About -> Licenses-->
-    <string name="licenses">ლიცენზია</string>
-    <string name="about_open_core_amr_license">opencore-amr</string>
-    <string name="about_open_core_amr_license_summary">იყენებს opencore-amr ს Apache License Version 2.0 ის ფარგლებში,დააჭირეთრომ ეწვიოთ pencore-amr.sourceforge.net</string>
-    <string name="about_alsa">ALSA</string>
-    <string name="about_alsa_summary">იყენებს ALSA ს LGPL ის ფარგლებში ,დააჭირეთ რომ ეწვიოთ alsa-project.org</string>
-    <string name="about_lame">LAME</string>
-    <string name="about_lame_summary">იყენებს LAME ს LGPL ის ფარგლებში ,დააჭირეთ რომ ეწვიოთ mp3dev.org</string>
-
-    <!--Credits-->
-    <string name="german_translation">გერმანული თარგმანი</string>
+    <!--About -> Other-->
     
+    
+
+    <!--About -> Translators-->
+    
+    <string name="german_translation">გერმანული თარგმანი</string>
+    <string name="german_translation_summary">მარკ ჰილეშეიმის და თომას კაფერის მიერ</string>
     <string name="polish_translation">პოლონური თარგმანი</string>
     <string name="polish_translation_summary">რობერტ გონტას მიერ</string>
     <string name="french_translation">ფრანგული თარგმანი</string>
@@ -412,11 +444,11 @@
     <string name="slovak_translation">სლოვაკური თარგმანი</string>
     <string name="slovak_translation_summary">ლორან გელენჩერის მიერ</string>
     <string name="italian_translation">იტალიური თარგმანი</string>
-    
+    <string name="italian_translation_summary">ლუკა ტრევიზანის და ფრანჩესკო კაფანიას მიერ</string>
     <string name="persian_translation">პერსიული თარგმანი</string>
     <string name="persian_translation_summary">ალირეზა აფკარის მიერ</string>
     <string name="chinese_translation">ჩინური თარგმანი</string>
-    
+    <string name="chinese_translation_summary">ქჰქ და იუ ფეის მიერ</string>
     <string name="czech_translation">ჩეხური თარგმანი</string>
     <string name="czech_translation_summary">ალეს კერნერი და ლუკას ვალდაუფის მიერ</string>
     <string name="arabic_translation">არაბული თარგმანი</string>
@@ -455,203 +487,6 @@
     <string name="georgian_translation_summary">სანდრო რაზმაძის მიერ</string>
     <string name="catalan_translation">კატალანური თარგმანი</string>
     <string name="catalan_translation_summary">სიბდანის მიერ</string>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-<string name="terms_of_use">გამოყენების პირობა</string>
-    <string name="terms_of_use_message">ამ პროგრამის გამოყენებით თქვენ ეთანხმებით პროგრამის პირობებს &lt;a href=http://rec.sh/terms&gt;Terms of Use&lt;/a&gt;.</string>
-
-    <string name="navigation_drawer_open">ნავიგაციის ფანჯრის გახსნა</string>
-    <string name="navigation_drawer_close">ნავიგაციის ფანჯრის დახურვა</string>
-
-    <string name="section_all_recordings">ყველა ჩანაწერი</string>
-    <string name="section_starred">აღნიშნული</string>
-    <string name="section_by_contact">კონტაქტების მიხედვით</string>
-    <string name="section_by_format">ფორმატის მიხედვით</string>
-    <string name="section_by_label">იარლიყის მიხედვით</string>
-    <string name="section_tasks_hint">"აქ გამოისახება ისეთი ოპერაციები,როგორიცაა კონვერტაცია,გაშიფვრა ჩამოტვირთვები  და ა. შ"</string>
-    <string name="action_sort">დახარისხება</string>
-    <string name="action_refresh">განახლება</string>
-    <string name="action_delete">წაშლა</string>
-    <string name="action_add_star">აღნიშვნა</string>
-    <string name="action_remove_star">მონიშვნის წაშლა</string>
-    <string name="action_share">გაზიარება</string>
-    <string name="sort_by_date">თარიღის მიხედვით</string>
-    <string name="sort_by_contact">კონტაქტების მიხედვით</string>
-    <string name="sort_by_file_size">ზომის მიხედვით</string>
-
-    <string name="list_header_today">დღეს</string>
-    <string name="list_header_yesterday">გუშინ</string>
-    <string name="queued">რიგშია</string>
-    <string name="no_connection">დაკავშირება არაა</string>
-
-    <string name="menu_add_note">მონიშვნის დამატება</string>
-    <string name="menu_edit_note">მონიშვნის შეცვლა</string>
-    <string name="menu_share">გაზიარება</string>
-    <string name="menu_convert_to_mp3">"MP3  ად კონვენტირება"</string>
-    <string name="menu_convert_to_amr">AMR ად კონვენტირება</string>
-    <string name="menu_cancel_task">ბრძანების გაუქმება</string>
-    <string name="recording_type">ჩაწერის ტიპი</string>
-    <string name="recording_type_mono">მონო</string>
-    <string name="recording_type_stereo">სტერეო</string>
-    <string name="note">ჩანიშვნა</string>
-
-    <string name="confirm_delete_several_title">წაშლის დადასტურება</string>
-    <string name="confirm_delete_several_message">თქვენ აირჩიეთ %d ჩანაწერი.გსურთ რომ იგი წაიშალოს?</string>
-
-    <string name="share_via">გააზიარე შემდეგი გზით</string>
-    <string name="settings_cloud">ღრუბელი (dropbox)</string>
-    <string name="license_check_pending">ლიცენზიის შემოწმების მოლოდინი</string>
-    <string name="license_check_failed">ლიცეზიის შემოწმება ვერ მოხერხდა</string>
-    <string name="license_check_failed_summary">დააჭირეთ ,რომ ნახოთ დეტალურად</string>
-    <string name="license_verified">ლიცენზია დადასტურებულია</string>
-    <string name="license_verified_summary">დააჭირეთ ,რომ დამალოთ</string>
-    <string name="license_help">დახმარება</string>
-    <string name="license_signature_verification_failed">ხელმოწერის შემოწმება ვერ მოხერხდა</string>
-    <string name="license_error_message">"შეცდომა  #%1$s: %2$s"</string>
-    <string name="license_trial">საცდელი ვერსია, გაითიშება %s</string>
-    <string name="license_unknown_error">ამოუცნობი შეცდომა</string>
-    <string name="license_not_market_managed">ეს ვერსია ჯერ არ ატვირთულა მარკეტზე</string>
-    <string name="license_incorrect_response">არასწორი სალიცენზიო პასუხი მარკეტიდან</string>
-    <string name="license_error_contacting_server">სერვერთან დაკავშირება ვერ ხერხდება</string>
-    <string name="license_server_error">სერვერის შეცდომა</string>
-    <string name="license_over_quota">ბევრი მოთხოვნაა ამ მოწყობილობიდან</string>
-
-    <string name="device_change_settings_empty">ამ მოწყობილობის პარამეტრები უკვე დაყენებულია</string>
-    <string name="device_root_is_required">საჭიროა რუთი</string>
-    <string name="device_root_is_required_summary">ამ მოწყობილებაზე რუთია საჭირო</string>
-    <string name="recording_method_msm">MSM</string>
-    <string name="recording_method_msm_settings">MSM მეთოდით ჩაწერის პარამეტრები</string>
-    <string name="exceptions_summary">დავაყენოთ განსაზღვრული მოქმედება კონტაქტებისათვის,ჯგუფების და ტელეფონებისათვის</string>
-    <string name="start_recording_on_answer">დაიწყოს ჩაწერა როცა უპასუხებ</string>
-    <string name="start_recording_on_answer_summary">დაიწყოს ჩაწერა მაშინ როცა აბონენტი გიპასუხებთ(გამავალი ზარის დროს).პროგრამა იყენებს არადოკუმენტირებულ მეთოდს მომენტის აღმოსაჩენად,ამიტომ ეს მეთოდი შეიძლება არ მუშაობდეს ზოგიერთ მოწყობილობაზე,მაგალითად 4.1 ვერსიიდან საჭიროა რუთი.</string>
-    <string name="delay_before_start_recording_summary">გამავალი : %1$s,შემომავალი : %2$s</string>
-    <string name="delay_format_sec">%s წამი</string>
-    <string name="delay_for_outgoing">გამავალი ზარებისთვის</string>
-    <string name="delay_for_incoming">შემომავალი ზარებისთვის</string>
-    <string name="settings_for_device">%s პარამეტრები</string>
-    <string name="recording_format">ჩაწერის ფორმატი</string>
-    <string name="volume_control_summary">Tx: %1$s, Rx: %2$s</string>
-    <string name="volume_control_overall">ხმის სიძლიერე</string>
-    <string name="volume_control_tx">Tx</string>
-    <string name="volume_control_rx">Rx</string>
-    <string name="sample_rate_48000">48000 ჰერცი</string>
-
-    <string name="category_wav_and_mp3_settings">WAV &amp; MP3 პარამეტრები</string>
-
-    <string name="recording_mode">ჩაწერის რეჟიმი</string>
-
-    <string name="alsa_is_not_installed">ALSA უნდა იყოს დაყენებული</string>
-    <string name="alsa_is_not_installed_summary">"დააჭირეთ  ALSA ს დასაყენებლად"</string>
-
-    <string name="add_exception">გამონაკლისი</string>
-    <string name="exception_contact">კონტაქტი</string>
-    <string name="exception_select_contact">კონტაქტის შერჩევა</string>
-    <string name="exception_phone_number">ტელეფონის ნომერი</string>
-    <string name="exception_action">მოქმედება</string>
-    <string name="exception_groups_not_found">ჯგუფი ვერ მოიძებნა</string>
-    <string name="exception_contacts_not_found">კონტაქტი ვერ მოიძებნა</string>
-    <string name="exceptions_not_added">გამონაკლისი არ შედგა</string>
-    <string name="exception_by_contact">კონტაქტის მიხედვით</string>
-    <string name="exception_by_group">ჯგუფის მიხედვით</string>
-    <string name="exception_by_phone_number">ტელეფონის ნომრის მიხედვით</string>
-    <string name="exception_delete_message">დარწმუნებული ხართ წაშალოთ გამონაკლისი?</string>
-
-    <string name="folder_chooser_up_to">↑ზემოთ%s</string>
-    <string name="settings_filename">ფაილის სახელი</string>
-    <string name="pattern_call_timestamp">"ზარის ხანგრძლივობა  (unix time)"</string>
-    <string name="default_language">სტანდარტული ენა</string>
-    <string name="show_notification_summary">მუდმივი შეტყობინების ჩვენება აპარატზე</string>
-    <string name="hide_icon_but_keep_notification">იარლიყის დამალვა,მაგრამ შეტყობინება ჩართულია</string>
-    <string name="hide_icon_but_keep_notification_summary">იარლიყის დამალვა,მაგრამ შეტყობინება ჩართულია</string>
-    <string name="category_incall_control_button">ჩაწერის პარამეტრების მართვა</string>
-    <string name="incall_control_for_outgoing_summary">მართვის ღილაკის ჩვენება გამავალი ზარებისთვის</string>
-    <string name="incall_control_for_incoming_summary">მართვის ღილაკის ჩვენება შემომავალი ზარებისთვის</string>
-    <string name="hide_button_while_recording">დაიმალოს ღილაკი ჩაწერის დროს</string>
-    <string name="hide_button_while_recording_summary">ჩაწერის ღილაკის დამალვა ,როცა ზარი იწერება</string>
-    <string name="vertical_position_summary">%s dp ეკრანის ცენტრიდან</string>
-    <string name="horizontal_position_summary">%s dp დახრა ეკრანის ცენტრიდან</string>
-    <string name="hide_button_before_answer">"ღილაკის დამალვა  ზარის პასუხამდე"</string>
-    <string name="long_press_action">დიდხანს დაჭერის დროს ქმედება</string>
-    <string name="long_press_action_dragging_the_button">ღილაკების გადაადგილება</string>
-    <string name="long_press_action_hang_up">ზარის შეწყვეტა და ავტომატურად გადარეკვა</string>
-
-    <string name="cloud_provider">სერვერის პროვაიდერი</string>
-    <string name="sign_in_dropbox">"Dropbox  ში შესვლა"</string>
-    <string name="tamil_translation_summary">აშიშ შარმას მიერ</string>
-<string name="sign_out_dropbox">Dropbox იდან გამოსვლა</string>
-    <string name="cloud_provider_google_drive">Google Drive</string>
-    <string name="cloud_common_settings">საერთო</string>
-    <string name="cloud_upload_starred">მონიშნულების ჩამოტვირთვა</string>
-    <string name="cloud_upload_starred_summary">მონიშნე თუ გინდა სერვერზე ატვირთვა</string>
-
-    <string name="notify_uploading_dropbox">მიმდინარეობს სერვერზე ატვირთვა</string>
-    <string name="notify_waiting_for_calls">ზარის მოლოდინი</string>
-    <string name="notify_tasks_remaining">%d დარჩა</string>
-
-    <string name="wrong_password">არასწორი პაროლი</string>
-    <string name="password_has_been_changed">პაროლი შეიცვალა</string>
-
-    <string name="create_new_key_summary">ეს გასაღები გამოყენებული იქნება მოგვიანებით ,ჩაწერის გასაშიფრად ან აპლიკაციაში შესასვლელად</string>
-    <string name="delete_key">გასაღების წაშლა</string>
-    <string name="change_password">პაროლის შეცვლა</string>
-    <string name="delete_key_summary">"ფრთხილად! თქვენ ვერ შეძლებთ ჩანაწერის აღდგენას,იმ შემთხვევაშიც კი თუ შექმნით ახალ გასაღებს  იგივე პაროლით"</string>
-    <string name="delete_key_message">"წაშლის შემდეგ.თქვენ ვერ შეძლებთ ჩანაწერების აღდგენას  ამ გასაღებით.დარწმუნებული ხართ გააგრძელოთ?"</string>
-    <string name="enter_old_password">შეიყვანეთ ძველი პაროლი</string>
-    <string name="enter_new_password">"შეიყვანეთ ახალი  პაროლი"</string>
-    <string name="re_enter_new_password">კიდევ შეიყვანეთ ახალი პაროლი</string>
-    <string name="require_password">საჭიროა პაროლი</string>
-    <string name="require_password_summary">საჭიროა პაროლი ,რომ გახსნათ აპლიკაცია</string>
-    <string name="require_password_summary_no_key">საჭიროა პაროლი ,რომ გახსნათ აპლიკაცია.ეს რომ ჩართოთ საჭიროა შექმნათ გასაღები</string>
-    <string name="lock_after">შემდგომ დაბლოკვა</string>
-    <string name="lock_after_exit">გასვლა</string>
-    <string name="lock_after_1_minute">1 წუთი</string>
-    <string name="lock_after_3_minutes">"3  წუთი"</string>
-    <string name="lock_after_5_minutes">5 წუთი</string>
-    <string name="lock_after_10_minutes">10 წუთი</string>
-    <string name="app_admin_summary">საჭიროა პროგრამის წაშლის თავიდან ასაცილებლად</string>
-    <string name="app_admin_explanation">პროგრამა არ იყენებს არანაირ უფლებას ,გარდა იმისა რომ არ წაიშალოს აპლიკაცია</string>
-    <string name="use_built_in_player">"ჩაყენებული  player"</string>
-    <string name="audio_output_summary">%s (დიდხანს დააჭირეთ play/pause ღილაკს ,რომ გადართოთ)</string>
-    <string name="use_proximity_sensor_summary">ეკრანის გამორთვა მიახლოების სენსორის საშუალებით</string>
-    <string name="switch_audio_output_summary">ავტომატურად გადაირთოს ხმის გამოშვების წყარო მიახლოების სენსორის საშუალებით</string>
-    <string name="button_choose">არჩევა</string>
-    <string name="button_call">დარეკვა</string>
-    <string name="button_create">შექმნა</string>
-    <string name="button_delete">წაშლა</string>
-    <string name="button_keep">შენახვა</string>
-    <string name="button_play">დაკვრა(Play)</string>
-    <string name="button_pause">დაპაუზება</string>
-    <string name="button_delete_wait">წაშლა (%d)</string>
-    <string name="decline">უარყოფა</string>
-    <string name="accept">მიღება</string>
-    <string name="call_incoming">შემომავალი</string>
-    <string name="call_outgoing">გამავალი</string>
-    <string name="action_mode_selected">%d შერჩეული</string>
-    <string name="toast_wait_for_operation_to_complete">დაიცადეთ ოპერაციის დასრულებამდე</string>
-    <string name="toast_recording_is_off">ზარების ჩაწერა გამორთულია</string>
-    <string name="toast_recording_is_on">ზარების ჩაწერა ჩართულია</string>
-    <string name="toast_file_deleted">ფაილი წარმატებით წაიშალა</string>
-
-
-    <string name="open_contact">კონტაქტის გახსნა</string>
-
-    <string name="waiting_for_answer">პასუხის გაცემის მოლოდინი</string>
-    <string name="recording_in_progress">ჩაწერა მიმდინარეობს</string>
-    <string name="no_recording_in_progress">ჩანაწერები არაა</string>
-    <string name="about_call_recorder">პროგრამის შესახებ</string>
-    <string name="about_ion_license">Ion</string>
-    <string name="about_ion_license_summary">"იყენებს Ion ს    Apache License Version 2.0  უფლებით,დააჭირეთ  რომ ნახოთ   github.com/koush/ion"</string>
-    <string name="german_translation_summary">მარკ ჰილეშეიმის და თომას კაფერის მიერ</string>
-    <string name="italian_translation_summary">ლუკა ტრევიზანის და ფრანჩესკო კაფანიას მიერ</string>
-    <string name="chinese_translation_summary">ქჰქ და იუ ფეის მიერ</string>
     <string name="hindi_translation">ინდურიდან თარგმნა</string>
     <string name="hindi_translation_summary">თამაზ გაუტამის მიერ</string>
     <string name="punjabi_translation">პანჯაბური თარგმანი</string>
@@ -667,4 +502,7 @@
     <string name="gujarati_translation">გუჯარათული თარგმანი</string>
     <string name="gujarati_translation_summary">აბჰიშეკ შარმას მიერ</string>
     <string name="tamil_translation">თამილური თარგმანი</string>
-    </resources>
+    <string name="tamil_translation_summary">აშიშ შარმას მიერ</string>
+    
+    
+</resources>

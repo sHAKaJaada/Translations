@@ -30,9 +30,15 @@
     
     
     
+    
     <string name="action_select_all">Vybrat vše</string>
     
     
+    
+    
+    
+
+    <!--Import settings -->
     
 
     <!-- List -->
@@ -83,6 +89,7 @@
     <string name="recorded_calls">Nahrané hovory</string>
 
     <!--  Settings -> Headers -->
+    
     <string name="settings_recording">Nahrávání</string>
     <string name="settings_folders_and_files">Soubory a složky</string>
     <string name="settings_ui_and_appearance">Rozhraní a vzhled</string>
@@ -109,7 +116,8 @@
     
     
     
-
+    
+    
     <string name="buy_full_version">Koupit plnou verzi</string>
     <string name="buy_full_version_summary">Tato verze vyprší %s</string>
 
@@ -180,6 +188,13 @@
     <string name="api_source_voice_communication">Hlasová komunikace</string>
     <string name="category_wav_settings">Nastavení WAV</string>
     
+    <string name="when_bt_connected">Když je připojen BT...</string>
+    <string name="audio_source_when_bt_connected">Zdroj zvuku pokud je BT připojen</string>
+
+    <!-- Actions when BT connected -->
+    <string name="when_bt_connected_do_nothing">Nedělat nic</string>
+    <string name="when_bt_connected_switch_source">Přepnout zdroj zvuku</string>
+    <string name="when_bt_connected_disable_recording">Vypnout nahrávání</string>
 
     <!-- Settings -> Recording -> CAF -->
     <string name="recording_mode">Mód nahrávání</string>
@@ -200,6 +215,7 @@
     <!-- Settings -> Recording -> Exceptions -->
     
     <string name="exception_group">Skupina</string>
+    
     <string name="exception_select_group">Vybrat skupinu</string>
     
     
@@ -218,6 +234,8 @@
 
     <!-- Settings -> Folders and Files -->
     <string name="folder">Složka</string>
+    
+    
     
     <string name="automatic_cleanup">Automatické mazání</string>
     <string name="max_number_of_files">Max. počet souborů</string>
@@ -253,6 +271,8 @@
     <string name="show_notification">Zobrazit oznámení</string>
     
     
+    
+    
     <string name="incall_control_for_outgoing">Pro odchozí hovory</string>
     
     <string name="incall_control_for_incoming">Pro příchozí hovory</string>
@@ -270,6 +290,9 @@
     
     
     
+    <string name="category_main_screen">Hlavní obrazovka</string>
+    
+    
 
     <!-- Settings -> Cloud -->
     
@@ -285,6 +308,11 @@
     
 
     <!-- Notification -->
+    
+    
+    
+    
+    
     
     
 
@@ -342,11 +370,13 @@
     <string name="root_access_yes">Ano</string>
     <string name="dual_sim_phone">Telefon s duální SIM</string>
     <string name="dual_sim_phone_summary">Toto povol pokud aplikace není schopna rozlišit hovory z druhé simkarty</string>
+    
 
     <!-- General -->
     <string name="contact_unknown">Neznámý</string>
     
     <string name="button_ok">OK</string>
+    
     
     <string name="button_edit">Editovat</string>
     <string name="button_cancel">Storno</string>
@@ -360,13 +390,19 @@
     
     
     
-    <string name="please_wait">Čekejte prosím...</string>
     
+    <string name="please_wait">Čekejte prosím...</string>
     <string name="start_recording">Začít nahrávání</string>
     <string name="stop_recording">Zastavit nahrávání</string>
     
     <string name="switch_on">Zap</string>
     <string name="switch_off">Vyp</string>
+
+    <!--Toasts-->
+    
+    
+    
+    
 
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">Nahrát tento hovor</string>
@@ -389,16 +425,12 @@
     <string name="about_many_thanks">Mnoho poděkování pro</string>
     <string name="about_many_thanks_summary">Alexey Subbotin (avs234)</string>
 
-    <!--About -> Licenses-->
-    <string name="licenses">Licence</string>
-    <string name="about_open_core_amr_license">opencore-amr</string>
-    <string name="about_open_core_amr_license_summary">Použit opencore-amr pod Apache License Verze 2.0, klepni pro zobrazení stránky opencore-amr.sourceforge.net</string>
-    <string name="about_alsa">ALSA</string>
-    <string name="about_alsa_summary">Použit ALSA pod licencí LGPL, klepni pro zobrazení stránky alsa-project.org</string>
-    <string name="about_lame">LAME</string>
-    <string name="about_lame_summary">Použit LAME pod licencí LGPL, klepni pro zobrazení stránky mp3dev.org</string>
+    <!--About -> Other-->
+    
+    
 
-    <!--Credits-->
+    <!--About -> Translators-->
+    
     <string name="german_translation">Německý překlad</string>
     <string name="german_translation_summary">Marc Hillesheim and Thomas Käfer</string>
     <string name="polish_translation">Polský překlad</string>
@@ -461,6 +493,14 @@
     <string name="punjabi_translation_summary">Raj Verma</string>
     <string name="finnish_translation">Finský překlad</string>
     <string name="finnish_translation_summary">Eero Linnainmaa</string>
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     

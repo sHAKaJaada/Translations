@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">通話錄音</string>
     <string name="terms_of_use">使用條款</string>
@@ -30,10 +30,16 @@
     <string name="action_add_star">加入標記</string>
     <string name="action_remove_star">移除標記</string>
     <string name="action_share">分享</string>
+    <string name="action_cancel_tasks">取消任務</string>
     <string name="action_select_all">選擇全部</string>
     <string name="sort_by_date">依日期</string>
     <string name="sort_by_contact">依聯絡人</string>
     <string name="sort_by_file_size">依檔案大小</string>
+    <string name="records_size">錄音檔案數量: %1$s, 大小: %2$s</string>
+    <string name="space_free_of">%1$s 可使用於%2$s</string>
+
+    <!--Import settings -->
+    
 
     <!-- List -->
     <string name="list_header_today">今天</string>
@@ -83,6 +89,7 @@
     <string name="recorded_calls">通話錄音</string>
 
     <!--  Settings -> Headers -->
+    <string name="settings_open_unlocker">打開解鎖</string>
     <string name="settings_recording">錄音中</string>
     <string name="settings_folders_and_files">資料夾與檔案</string>
     <string name="settings_ui_and_appearance">介面與外觀</string>
@@ -109,7 +116,8 @@
     <string name="license_error_contacting_server">伺服器連線錯誤</string>
     <string name="license_server_error">伺服器錯誤</string>
     <string name="license_over_quota">此設備的請求過多</string>
-
+    <string name="license_trial_expired">試用期滿</string>
+    <string name="license_trial_expired_summary">購買完整版本前請卸載該版本</string>
     <string name="buy_full_version">購買付費版</string>
     <string name="buy_full_version_summary">目前版本將會在%s到期</string>
 
@@ -180,6 +188,13 @@
     <string name="api_source_voice_communication">語音通訊</string>
     <string name="category_wav_settings">WAV設定</string>
     <string name="category_wav_and_mp3_settings">WAV &amp; MP3 設定</string>
+    <string name="when_bt_connected">當藍牙連接之後的動作...</string>
+    <string name="audio_source_when_bt_connected">當藍牙連接後的聲音來源</string>
+
+    <!-- Actions when BT connected -->
+    <string name="when_bt_connected_do_nothing">無變動</string>
+    <string name="when_bt_connected_switch_source">改變聲音來源</string>
+    <string name="when_bt_connected_disable_recording">停止錄音</string>
 
     <!-- Settings -> Recording -> CAF -->
     <string name="recording_mode">錄製模式</string>
@@ -200,6 +215,7 @@
     <!-- Settings -> Recording -> Exceptions -->
     <string name="add_exception">增加例外</string>
     <string name="exception_group">群組</string>
+    
     <string name="exception_select_group">選擇群組</string>
     <string name="exception_contact">聯絡人</string>
     <string name="exception_select_contact">選擇聯絡人</string>
@@ -219,6 +235,8 @@
     <!-- Settings -> Folders and Files -->
     <string name="folder">資料夾</string>
     <string name="folder_chooser_up_to">↑ 最多 %s</string>
+    
+    
     <string name="automatic_cleanup">自動清理</string>
     <string name="max_number_of_files">錄音最大數量</string>
     <string name="max_number_of_files_message">輸入數值[個] (0 - 無限制)</string>
@@ -252,6 +270,8 @@
     <string name="category_notification">通知欄</string>
     <string name="show_notification">顯示於通知欄</string>
     <string name="show_notification_summary">永遠顯示於通知欄</string>
+    <string name="hide_icon_but_keep_notification">隱藏圖示，但保持通知</string>
+    <string name="hide_icon_but_keep_notification_summary">隱藏圖示，但在狀態欄中保持通知</string>
     <string name="category_incall_control_button">呼叫控制按鈕</string>
     <string name="incall_control_for_outgoing">撥出通話</string>
     <string name="incall_control_for_outgoing_summary">撥出通話時顯示呼叫控制按鈕</string>
@@ -270,6 +290,9 @@
     <string name="long_press_action">長按動作</string>
     <string name="long_press_action_dragging_the_button">拖動按鈕</string>
     <string name="long_press_action_hang_up">掛斷電話，自動回撥</string>
+    <string name="category_main_screen">主畫面</string>
+    
+    
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">雲端服務提供商</string>
@@ -286,6 +309,11 @@
 
     <!-- Notification -->
     <string name="notify_uploading_dropbox">上傳至 Dropbox 中</string>
+    <string name="notify_converting_to_amr">轉換成 AMR 格式</string>
+    <string name="notify_converting_to_mp3">轉換成 MP3 格式</string>
+    <string name="notify_encrypting">加密</string>
+    <string name="notify_decrypting">解密</string>
+    <string name="notify_waiting_for_calls">等待通話</string>
     <string name="notify_tasks_remaining">%d 剩下的任務</string>
 
     <!-- Password dialog -->
@@ -342,16 +370,19 @@
     <string name="root_access_yes">有</string>
     <string name="dual_sim_phone">雙卡手機</string>
     <string name="dual_sim_phone_summary">如果應用程式無法判斷來至於第二張SIM卡的通話，請開啟這個選項</string>
+    <string name="send_logs_to_the_developer">傳送紀錄給開發者</string>
 
     <!-- General -->
     <string name="contact_unknown">未知的</string>
     <string name="button_choose">選擇</string>
     <string name="button_ok">確定</string>
     <string name="button_call">通話</string>
+    <string name="button_buy">購買</string>
     <string name="button_edit">編輯</string>
     <string name="button_cancel">取消</string>
     <string name="button_create">建立</string>
     <string name="button_delete">刪除</string>
+    
     <string name="button_keep">保持</string>
     <string name="button_play">撥放</string>
     <string name="button_pause">暫停</string>
@@ -361,12 +392,17 @@
     <string name="call_incoming">來電</string>
     <string name="call_outgoing">撥出</string>
     <string name="please_wait">請稍後…</string>
-    <string name="toast_wait_for_operation_to_complete">等待操作完成</string>
     <string name="start_recording">開始錄音</string>
     <string name="stop_recording">停止錄音</string>
     <string name="action_mode_selected">%d 已選擇</string>
     <string name="switch_on">開啟</string>
     <string name="switch_off">關閉</string>
+
+    <!--Toasts-->
+    <string name="toast_wait_for_operation_to_complete">等待操作完成</string>
+    <string name="toast_recording_is_off">已關閉錄音</string>
+    <string name="toast_recording_is_on">已開啟錄音</string>
+    <string name="toast_file_deleted">檔案已成功刪除</string>
 
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">錄製此通話</string>
@@ -389,16 +425,12 @@
     <string name="about_many_thanks">非常感謝</string>
     <string name="about_many_thanks_summary">Alexey Subbotin (avs234)</string>
 
-    <!--About -> Licenses-->
-    <string name="licenses">授權</string>
-    <string name="about_open_core_amr_license">opencore-amr(多媒體框架)</string>
-    <string name="about_open_core_amr_license_summary">在Apache許可證版本2.0下使用opencore-amr，點選此處訪問opencore-amr.sourceforge.net</string>
-    <string name="about_alsa">ALSA</string>
-    <string name="about_alsa_summary">在LGPL下使用ALSA，點選此處訪問 alsa-project.org</string>
-    <string name="about_lame">LAME</string>
-    <string name="about_lame_summary">在LGPL下使用LAME，點選此處訪問mp3dev.org</string>
+    <!--About -> Other-->
+    
+    
 
-    <!--Credits-->
+    <!--About -> Translators-->
+    
     <string name="german_translation">德語</string>
     <string name="german_translation_summary">由 Marc Hillesheim 與 Thomas Käfer 翻譯</string>
     <string name="polish_translation">波蘭語</string>
@@ -465,37 +497,12 @@
     <string name="belarusian_translation_summary">由 Alexander Kuvshinov 翻譯</string>
     <string name="vietnamese_translation">越南語</string>
     <string name="vietnamese_translation_summary">由 Truong Hoang Trung 翻譯</string>
-<string name="hide_icon_but_keep_notification">隱藏圖示，但保持通知</string>
-    <string name="hide_icon_but_keep_notification_summary">隱藏圖示，但在狀態欄中保持通知</string>
-    <string name="notify_waiting_for_calls">等待通話</string>
-    <string name="toast_recording_is_off">已關閉錄音</string>
-    <string name="toast_recording_is_on">已開啟錄音</string>
-    <string name="toast_file_deleted">檔案已成功刪除</string>
-
-
-    <string name="about_ion_license">Ion</string>
-    <string name="about_ion_license_summary">在Apache許可證版本2.0下使用Ion，點選此處訪問 github.com/koush/ion</string>
     <string name="armenian_translation">亞美尼亞語</string>
     <string name="armenian_translation_summary">由 Hakob Sununu 與 Konstantin Gevorgyan 翻譯</string>
     <string name="gujarati_translation">古吉拉特語</string>
     <string name="gujarati_translation_summary">由 Abhishek Sharma 翻譯</string>
     <string name="tamil_translation">坦米爾語</string>
     <string name="tamil_translation_summary">由 Ashish Sharma 翻譯</string>
-<string name="action_cancel_tasks">取消任務</string>
-    <string name="records_size">錄音檔案數量: %1$s, 大小: %2$s</string>
-    <string name="license_trial_expired">試用期滿</string>
-    <string name="license_trial_expired_summary">購買完整版本前請卸載該版本</string>
-
-    <string name="notify_converting_to_amr">轉換成 AMR 格式</string>
-    <string name="notify_converting_to_mp3">轉換成 MP3 格式</string>
-    <string name="notify_encrypting">加密</string>
-    <string name="notify_decrypting">解密</string>
-    <string name="send_logs_to_the_developer">傳送紀錄給開發者</string>
-
-    <string name="button_buy">購買</string>
     <string name="greek_translation">希臘語翻譯</string>
     <string name="greek_translation_summary">由 Lefteris (SomniusX) Eliades 翻譯</string>
-<string name="settings_open_unlocker">打開解鎖</string>
-    <string name="space_free_of">%1$s 可使用於%2$s</string>
-
-    </resources>
+</resources>

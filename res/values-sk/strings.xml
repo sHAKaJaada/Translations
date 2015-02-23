@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Call Recorder</string>
     <string name="terms_of_use">Podmienky používania</string>
@@ -30,10 +30,16 @@
     <string name="action_add_star">Pridať hvizdičku</string>
     <string name="action_remove_star">Odobrať hviezdičku</string>
     <string name="action_share">Zdieľať</string>
+    <string name="action_cancel_tasks">Zrušiť úlohy</string>
     <string name="action_select_all">Vybrať všetko</string>
     <string name="sort_by_date">Podľa dátumu</string>
     <string name="sort_by_contact">Podľa kontaktu</string>
     <string name="sort_by_file_size">Podľa veľkosti súboru</string>
+    <string name="records_size">nahrávky: %1$s, veľkosť: %2$s</string>
+    <string name="space_free_of">%1$s voľných z %2$s</string>
+
+    <!--Import settings -->
+    
 
     <!-- List -->
     <string name="list_header_today">Dnes</string>
@@ -83,6 +89,7 @@
     <string name="recorded_calls">Nahraté hovory</string>
 
     <!--  Settings -> Headers -->
+    <string name="settings_open_unlocker">Otvoriť Unlocker</string>
     <string name="settings_recording">Nahrávanie</string>
     <string name="settings_folders_and_files">Priečinky a súbory</string>
     <string name="settings_ui_and_appearance">Rozhranie a vzhľad</string>
@@ -109,7 +116,8 @@
     <string name="license_error_contacting_server">Chyba pripojenia na server</string>
     <string name="license_server_error">Chyba servera</string>
     <string name="license_over_quota">Príliš veľa požiadaviek z tohto zariadenia</string>
-
+    <string name="license_trial_expired">Skúšobná doba uplynula</string>
+    <string name="license_trial_expired_summary">Prosím, odinštalujte túto verziu skôr než si zakúpite plnú verziu</string>
     <string name="buy_full_version">Kúpiť plnú verziu</string>
     <string name="buy_full_version_summary">Súčasná verzia uplynie %s</string>
 
@@ -180,6 +188,13 @@
     <string name="api_source_voice_communication">Hlasová komunikácia</string>
     <string name="category_wav_settings">Nastavenia WAV</string>
     <string name="category_wav_and_mp3_settings">Nastavenia WAV a MP3</string>
+    <string name="when_bt_connected">Pri pripojenom BT...</string>
+    <string name="audio_source_when_bt_connected">Zdroj zvuku pri pripojenom BT</string>
+
+    <!-- Actions when BT connected -->
+    <string name="when_bt_connected_do_nothing">Nerobiť nič</string>
+    <string name="when_bt_connected_switch_source">Prepnúť zdroj zvuku</string>
+    <string name="when_bt_connected_disable_recording">Zakázať nahrávanie</string>
 
     <!-- Settings -> Recording -> CAF -->
     <string name="recording_mode">Režim nahrávania</string>
@@ -200,6 +215,7 @@
     <!-- Settings -> Recording -> Exceptions -->
     <string name="add_exception">Pridať výnimku</string>
     <string name="exception_group">Skupina</string>
+    
     <string name="exception_select_group">Vybrať skupinu</string>
     <string name="exception_contact">Kontakt</string>
     <string name="exception_select_contact">Vybrať kontakt</string>
@@ -219,6 +235,8 @@
     <!-- Settings -> Folders and Files -->
     <string name="folder">Priečinok</string>
     <string name="folder_chooser_up_to">↑ Späť %s</string>
+    
+    
     <string name="automatic_cleanup">Automatické mazanie</string>
     <string name="max_number_of_files">Max. počet súborov</string>
     <string name="max_number_of_files_message">Zadať číslo (0 - bez limitu)</string>
@@ -252,6 +270,8 @@
     <string name="category_notification">Oznámenie</string>
     <string name="show_notification">Zobraziť oznámenie</string>
     <string name="show_notification_summary">Permanentné oznámenie v Panely oznámení</string>
+    <string name="hide_icon_but_keep_notification">Skryť ikonu, ale ponechať oznámenia</string>
+    <string name="hide_icon_but_keep_notification_summary">Skryť ikonu, ale ponechať oznámenia v Panely oznámení</string>
     <string name="category_incall_control_button">Tlačidlo ovládania počas hovoru</string>
     <string name="incall_control_for_outgoing">Pre odchádzajúce hovory</string>
     <string name="incall_control_for_outgoing_summary">Zobraziť tlačidlo ovládania počas hovoru pre odchádzajúce hovory</string>
@@ -270,6 +290,9 @@
     <string name="long_press_action">Akcia dlhým stlačením</string>
     <string name="long_press_action_dragging_the_button">Posunúť tlačidlo</string>
     <string name="long_press_action_hang_up">Ukončiť hovor a automaticky zavolať späť</string>
+    <string name="category_main_screen">Hlavná obrazovka</string>
+    
+    
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">Poskytovateľ vzdialeného úložiska</string>
@@ -286,6 +309,11 @@
 
     <!-- Notification -->
     <string name="notify_uploading_dropbox">Odovzdať na Dropbox</string>
+    <string name="notify_converting_to_amr">Konvertovanie do AMR</string>
+    <string name="notify_converting_to_mp3">Konvertovanie do MP3</string>
+    <string name="notify_encrypting">Kódovanie</string>
+    <string name="notify_decrypting">Odkódovanie</string>
+    <string name="notify_waiting_for_calls">Čakajúci hovor</string>
     <string name="notify_tasks_remaining">zostáva %d úloh</string>
 
     <!-- Password dialog -->
@@ -342,16 +370,19 @@
     <string name="root_access_yes">Áno</string>
     <string name="dual_sim_phone">Telefón na dve SIM karty</string>
     <string name="dual_sim_phone_summary">Povoľte túto možnosť, ak aplikácia nemôže určiť volania z druhej SIM karty</string>
+    <string name="send_logs_to_the_developer">Poslať záznamy vývojárovi</string>
 
     <!-- General -->
     <string name="contact_unknown">Neznámy</string>
     <string name="button_choose">Vybrať</string>
     <string name="button_ok">OK</string>
     <string name="button_call">Hovor</string>
+    <string name="button_buy">Kúpiť</string>
     <string name="button_edit">Upraviť</string>
     <string name="button_cancel">Zrušiť</string>
     <string name="button_create">Vytvoriť</string>
     <string name="button_delete">Vymazať</string>
+    
     <string name="button_keep">Podržať</string>
     <string name="button_play">Prehrať</string>
     <string name="button_pause">Pauza</string>
@@ -361,12 +392,17 @@
     <string name="call_incoming">Prichádzajúce</string>
     <string name="call_outgoing">Odchádzajúce</string>
     <string name="please_wait">Čakajte prosím…</string>
-    <string name="toast_wait_for_operation_to_complete">Počkajte na dokončenie operácie</string>
     <string name="start_recording">Začať nahrávanie</string>
     <string name="stop_recording">Zastaviť nahrávanie</string>
     <string name="action_mode_selected">%d označené (-ých)</string>
     <string name="switch_on">ZAP</string>
     <string name="switch_off">VYP</string>
+
+    <!--Toasts-->
+    <string name="toast_wait_for_operation_to_complete">Počkajte na dokončenie operácie</string>
+    <string name="toast_recording_is_off">Nahrávanie je VYP</string>
+    <string name="toast_recording_is_on">Nahrávanie je ZAP</string>
+    <string name="toast_file_deleted">Súbor bol úspešne vymazaný</string>
 
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">Nahrať tento hovor</string>
@@ -389,16 +425,12 @@
     <string name="about_many_thanks">Veľká vďaka</string>
     <string name="about_many_thanks_summary">Alexey Subbotin (avs234)</string>
 
-    <!--About -> Licenses-->
-    <string name="licenses">Licencie</string>
-    <string name="about_open_core_amr_license">OpenCORE-AMR</string>
-    <string name="about_open_core_amr_license_summary">Používa OpenCORE-AMR pod licenciou Apache v2.0. Kliknite tu pre zobrazenie stránky opencore-amr.sourceforge.net</string>
-    <string name="about_alsa">ALSA</string>
-    <string name="about_alsa_summary">Používa ALSA pod licenciou LGPL. Kliknite tu pre zobrazenie stránky alsa-project.org</string>
-    <string name="about_lame">LAME</string>
-    <string name="about_lame_summary">Používa LAME pod Všeobecnou Verejnou Licenciou, Kliknite tu pre zobrazenie stránky mp3dev.org</string>
+    <!--About -> Other-->
+    
+    
 
-    <!--Credits-->
+    <!--About -> Translators-->
+    
     <string name="german_translation">Slovenský preklad</string>
     <string name="german_translation_summary">Loránt Gerencsér (www.DroiD.sk)</string>
     <string name="polish_translation">Poľský preklad</string>
@@ -465,37 +497,12 @@
     <string name="belarusian_translation_summary">Alexander Kuvshinov</string>
     <string name="vietnamese_translation">Vietnamský preklad</string>
     <string name="vietnamese_translation_summary">Truong Hoang Trung</string>
-<string name="hide_icon_but_keep_notification">Skryť ikonu, ale ponechať oznámenia</string>
-    <string name="hide_icon_but_keep_notification_summary">Skryť ikonu, ale ponechať oznámenia v Panely oznámení</string>
-    <string name="notify_waiting_for_calls">Čakajúci hovor</string>
-    <string name="toast_recording_is_off">Nahrávanie je VYP</string>
-    <string name="toast_recording_is_on">Nahrávanie je ZAP</string>
-    <string name="toast_file_deleted">Súbor bol úspešne vymazaný</string>
-
-
-    <string name="about_ion_license">ION</string>
-    <string name="about_ion_license_summary">Používa ION pod licenciou Apache v2.0. Kliknite tu pre zobrazenie stránky github.com/koush/ion</string>
     <string name="armenian_translation">Arménsky preklad</string>
     <string name="armenian_translation_summary">Hakob Sununu a Konstantin Gevorgyan</string>
-    <string name="tamil_translation_summary">Ashish Sharma</string>
-<string name="gujarati_translation_summary">Abhishek Sharma</string>
-    <string name="tamil_translation">Tamilský preklad</string>
     <string name="gujarati_translation">Gudžarátsky preklad</string>
-    <string name="action_cancel_tasks">Zrušiť úlohy</string>
-    <string name="records_size">nahrávky: %1$s, veľkosť: %2$s</string>
-    <string name="space_free_of">%1$s voľných z %2$s</string>
-
+    <string name="gujarati_translation_summary">Abhishek Sharma</string>
+    <string name="tamil_translation">Tamilský preklad</string>
+    <string name="tamil_translation_summary">Ashish Sharma</string>
+    <string name="greek_translation">Grécky preklad</string>
     <string name="greek_translation_summary">Lefteris (SomniusX) Eliades</string>
-<string name="greek_translation">Grécky preklad</string>
-    <string name="notify_converting_to_amr">Konvertovanie do AMR</string>
-    <string name="notify_converting_to_mp3">Konvertovanie do MP3</string>
-    <string name="notify_encrypting">Kódovanie</string>
-    <string name="notify_decrypting">Odkódovanie</string>
-    <string name="send_logs_to_the_developer">Poslať záznamy vývojárovi</string>
-
-    <string name="settings_open_unlocker">Otvoriť Unlocker</string>
-    <string name="license_trial_expired">Skúšobná doba uplynula</string>
-    <string name="license_trial_expired_summary">Prosím, odinštalujte túto verziu skôr než si zakúpite plnú verziu</string>
-
-    <string name="button_buy">Kúpiť</string>
-    </resources>
+</resources>

@@ -1,56 +1,62 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    
-    
-    
+    <string name="app_name">Զանգերի ձայնագրիչ</string>
+    <string name="terms_of_use">Օգտագործման պայմաններ</string>
+    <string name="terms_of_use_message">Օգտագործելով այս ծրագիրը դուք համաձայնվում եք CallRecorder-ի &lt;a href=http://rec.sh/terms&gt;Օգտագործման մասին պայմաններին&lt;/a&gt;.</string>
 
     <!-- Navigation drawer -->
-    
-    
+    <string name="navigation_drawer_open">Բացել կառավարման վահանակը</string>
+    <string name="navigation_drawer_close">Փակել կառավարման վահանակը</string>
 
     <!-- Navigation drawer sections -->
-    
-    
-    
-    
-    
-    
-    
-    
+    <string name="section_all_recordings">Բոլոր ձայնագրությունները</string>
+    <string name="section_starred">Նշված</string>
+    <string name="section_incoming">Մուտքային</string>
+    <string name="section_outgoing">Ելքային</string>
+    <string name="section_by_contact">Ըստ կոնտակտի</string>
+    <string name="section_by_format">Ըստ ֆորմատի</string>
+    <string name="section_by_label">Ըստ պիտակի</string>
+    <string name="section_help">Օգնություն</string>
     <string name="section_tasks">Հանձնարարություններ</string>
-    
+    <string name="section_tasks_hint">Այստեղ արտացոլվում են երկարատև գործողությունները (կոնվերտացիա, կոդավորում, բեռնում ամպային տարածք և այլն)</string>
     <string name="empty_hint">Դատարկ</string>
 
     <!-- Action bar -->
     <string name="action_search">Փնտրել</string>
-    
+    <string name="action_sort">Դասավորել</string>
     <string name="action_settings">Կարգավորումներ</string>
-    
-    
-    
-    
+    <string name="action_refresh">Թարմացնել</string>
+    <string name="action_delete">Հեռացնել</string>
+    <string name="action_add_star">Ընդգծել</string>
+    <string name="action_remove_star">Հեռացնել ընդգծվածը</string>
+    <string name="action_share">Տարածել</string>
     
     <string name="action_select_all">Նշել բոլորը</string>
+    <string name="sort_by_date">Ըստ ժամանակացույցի</string>
+    <string name="sort_by_contact">Ըստ կոնտակտի</string>
+    <string name="sort_by_file_size">Ըստ ֆայլի մեծության</string>
     
     
+
+    <!--Import settings -->
     
 
     <!-- List -->
-    
-    
-    
-    
+    <string name="list_header_today">Այսօր</string>
+    <string name="list_header_yesterday">Երեկ</string>
+    <string name="queued">Հերթում</string>
+    <string name="no_connection">Կապ չկա</string>
 
     <!-- List -> Context menu -->
-    
-    
-    
-    
-    
-    
-    
+    <string name="menu_add_to_dropbox">Ավելացնել Dropbox-ում</string>
+    <string name="menu_add_note">Ավելացնել նշում</string>
+    <string name="menu_edit_note">Խմբագրել նշումը</string>
+    <string name="menu_delete">Հեռացնել</string>
+    <string name="menu_share">Տարածել</string>
+    <string name="menu_convert_to_mp3">Փոխարկել MP3 ֆորմատի</string>
+    <string name="menu_convert_to_amr">Փոխարկել AMR ֆորմատի</string>
     <string name="menu_get_info">Ստանալ ինֆորմացիա</string>
-    
+    <string name="menu_cancel_task">Չեղարկել առաջադրանքը</string>
     <string name="menu_encrypt">Կոդավորել</string>
     <string name="menu_decrypt">Ապակոդավորել</string>
 
@@ -58,7 +64,7 @@
     <string name="file_name">Ֆայլի անունը</string>
     <string name="sample_rate">Դիսկրետացման հաճախություն</string>
     <string name="sample_rate_hz">Հց</string>
-    
+    <string name="recording_type">Ձայնագրման տեսակը</string>
     <string name="recording_type_mono">Մոնո</string>
     <string name="recording_type_stereo">Ստերիո</string>
     <string name="file_size">Ֆիյլի ծավալը</string>
@@ -71,45 +77,47 @@
 
     <!-- List -> Get info dialog -> Edit -->
     <string name="contact_name">Կոնտակտի անուն</string>
-    
+    <string name="phone_number">Հեռախոսահամարը</string>
 
     <!-- List -> Confirm delete dialog -->
     <string name="confirm_delete_message">Դուք վստահ եք որ ցանկանում եք ջնջել այս ձայնագրությունը?</string>
-    
-    
+    <string name="confirm_delete_several_title">Հաստատել հեռացումը</string>
+    <string name="confirm_delete_several_message">Դուք ընտրել եք %d ձայնագրություն: Վստահ եք արդյոք, որ դրանք պետք է հեռացվեն?</string>
 
     <!-- List -> Share -->
-    
+    <string name="share_via">Տարածել</string>
     <string name="recorded_calls">Ձայնագրված զանգեր</string>
 
     <!--  Settings -> Headers -->
+    
     <string name="settings_recording">Ձայնագրում</string>
     <string name="settings_folders_and_files">Պանակներ և ֆայլեր</string>
     <string name="settings_ui_and_appearance">Ինտերֆեյս եւ արտաքին տեսք</string>
     <string name="settings_security">Անվտանգություն</string>
-    
+    <string name="settings_cloud">Ամպային պահեստարան</string>
     <string name="settings_audio_player">Ձայնային նվագարկիչ</string>
     <string name="settings_debug">Դեբագ</string>
     <string name="settings_about">Ծրագրի մասին</string>
 
     <!-- Settings -> License -->
-    
-    
-    
-    
-    
-    
+    <string name="license_status">Լիցենզիայի ստատուսը</string>
+    <string name="license_check_pending">Լիցենզիայի ստուգման փուլում է</string>
+    <string name="license_check_failed">Չհաջողվեց ստուգել լիցենզիայի ստատուսը</string>
+    <string name="license_check_failed_summary">Սեղմեք մանրամասների համար</string>
+    <string name="license_verified">Լիցենզիան հաստատված է</string>
+    <string name="license_verified_summary">Սեղմեք թաքցնելու համար</string>
     <string name="license_help">Օգնություն</string>
+    <string name="license_signature_verification_failed">Ստորագրության ստուգման սխալ</string>
+    <string name="license_error_message">Սխալ #%1$s: %2$s</string>
+    <string name="license_trial">Ծրագրի օգտագործման փորձնական շրջանը կավարտվի %s</string>
+    <string name="license_unknown_error">Անհայտ սխալ</string>
+    <string name="license_not_market_managed">Տվյալ օրինակը դեռ տեղադրված չէ Play Stor-ում</string>
+    <string name="license_incorrect_response">Սխալ լիցենզիայի պատասխան Play Stor-ից</string>
+    <string name="license_error_contacting_server">Սերվերի հետ միանալու սխալ</string>
+    <string name="license_server_error">Սերվերի սխալ</string>
+    <string name="license_over_quota">Տվյալ սարքից հարցումները բավական շատ են</string>
     
     
-    
-    
-    
-    
-    
-    
-    
-
     <string name="buy_full_version">Գնել ամբողջական տարբերակը</string>
     <string name="buy_full_version_summary">Տվյալ տարբերակը կավարտվի %s</string>
 
@@ -118,19 +126,19 @@
     <string name="category_main">հիմնական</string>
     <string name="device">Սարք</string>
     <string name="select_your_device">Ընտրեք ձեր սարքը</string>
-    
-    
-    
+    <string name="device_change_settings_empty">Տվյալ սարքի կարգավորումները արդեն հաստատված են</string>
+    <string name="device_root_is_required">Պահանջվում է Root</string>
+    <string name="device_root_is_required_summary">Այս սարքի համար անհրաժեշտ է Root ավելի լավ աշխատանքի համար</string>
     <string name="device_other">Ուրիշ</string>
     <string name="recording_method">Ձայնարման եղանակը</string>
     <string name="recording_method_api">Ստանդարտ API</string>
-    
+    <string name="recording_method_api_settings">Կարգավորումներ ստանդարտ API-ով ձայնագրելու համար</string>
     <string name="recording_method_caf">CAF</string>
-    
-    
-    
-    
-    
+    <string name="recording_method_caf_settings">Կարգավորումներ CAF-ով ձայնագրելու համար</string>
+    <string name="recording_method_alsa">ALSA</string>
+    <string name="recording_method_alsa_settings">Կարգավորումներ ALSA-ով ձայնագրելու համար</string>
+    <string name="recording_method_msm">MSM</string>
+    <string name="recording_method_msm_settings">Կարգավորումներ MSN-ով ձայնագրելու համար</string>
     <string name="category_actions">Գործողություններ</string>
     <string name="action_for_incoming">Գործողություն մուտքային զանգերի համար</string>
     <string name="action_for_outgoing">գործուղություն ելքային զանգերի համար</string>
@@ -144,39 +152,46 @@
     <string name="after_call_actions_dialog_summary">Հարցնել ինչ անել զանգից հետո</string>
     <string name="vibrate_on_call">Վիբրել զանգը սկսելուց/ավարտվելուց</string>
     <string name="exceptions">Բացառություններ</string>
-    
-    
-    
+    <string name="exceptions_summary">Նշել հատուկ գործողություններ կոնտակտների, խմբերի կամ հեռախոսահամարների համար</string>
+    <string name="start_recording_on_answer">Սկսել ձայնագրությունը զանգի պատասխանի դեպքում</string>
+    <string name="start_recording_on_answer_summary">Սկսել ձայնագրությունը ելքային զանգի պատասխանի դեպքում: Ծրագիրը օգտագործում է չգրանցված լուծում պատասխանող կողմի պատասխանի ժամանակը ֆիքսելու համար, ուստի հնարավոր է որոշ սարքերի վրա ոչ կոռեկտ աշխատանք: Android 4.1 և բարձր վերսիաների դեպքում անհրաժեշտ է Root: Loger-ը կեռնելում պետք է միացված լինի:</string>
     <string name="delay_before_start_recording">Ուշացում ձայնագրումը սկսելուց առաջ</string>
-    
-    
-    
-    
-    
-    
+    <string name="delay_before_start_recording_summary">Ելքային զանգերի համար : %1$s, մուտքային զանգերի համար : %2$s</string>
+    <string name="delay_format_sec">%s վրկ</string>
+    <string name="delay_for_outgoing">Ելքային զանգերի համար</string>
+    <string name="delay_for_incoming">Մուտքային զանգերի համար</string>
+    <string name="settings_for_device">Կարգավորումներ %s-ի համար</string>
+    <string name="recording_format">Ձայնագրման ֆորմատը</string>
     <string name="recording_format_wav">WAV</string>
     <string name="recording_format_amr">AMR</string>
     <string name="recording_format_aac">AAC</string>
     <string name="recording_format_mp3">MP3</string>
     <string name="volume_control">Ձայնի կառավարում</string>
-    
-    
+    <string name="volume_control_summary">Tx: %1$s, Rx: %2$s</string>
+    <string name="volume_control_overall">Ընդհանուր ձայնի բարձրությունը</string>
     <string name="volume_control_tx">Tx</string>
     <string name="volume_control_rx">Rx</string>
-    
-    
-    
-    
+    <string name="sample_rate_8000">8000 Hz (Նախընտրելի)</string>
+    <string name="sample_rate_11025">11025 Hz</string>
+    <string name="sample_rate_16000">16000 Hz</string>
+    <string name="sample_rate_22050">22050 Hz</string>
+    <string name="sample_rate_44100">44100 Hz</string>
+    <string name="sample_rate_48000">48000 Hz</string>
+
+    <!-- Settings -> Recording -> Standard API -->
+    <string name="api_audio_source">Ձայնագրման աղբյուրը</string>
+    <string name="api_source_uplink_downlink">Երկկողմանի</string>
+    <string name="api_source_downlink">Մուտքային ձայն</string>
+    <string name="api_source_uplink">Ելքային ձայն</string>
+    <string name="api_source_microphone">Բարձրախոս</string>
+    <string name="api_source_default">Նախընտրելի</string>
+    <string name="api_source_voice_communication">Ձայնային կապ</string>
+    <string name="category_wav_settings">WAV կարգավորումներ</string>
+    <string name="category_wav_and_mp3_settings">WAV և MP3 կարգավորումներ</string>
     
     
 
-    <!-- Settings -> Recording -> Standard API -->
-    
-    
-    
-    
-    
-    
+    <!-- Actions when BT connected -->
     
     
     
@@ -185,8 +200,8 @@
     <string name="recording_mode">Ձայնագրման եղանակ</string>
 
     <!-- Settings -> Recording -> ALSA -->
-    
-    
+    <string name="alsa_is_not_installed">ALSA պետք է տեղադրված լինի</string>
+    <string name="alsa_is_not_installed_summary">Սեղմեք այստեղ ALSA-ն տեղադրելու համար</string>
 
     <!-- Settings -> Recording -> MSM -->
     <string name="chipset_type">Միկրոսխեմայի տեսակը</string>
@@ -194,48 +209,51 @@
     <string name="chipset_type_msm8250">Միկրոսխեմայի տեսակը MSM8250</string>
     <string name="chipset_type_msm8255">Միկրոսխեմայի տեսակը MSM8255</string>
     <string name="chipset_type_msm8260">Միկրոսխեմայի տեսակը MSM8260</string>
-    
-    
+    <string name="dont_use_amr_driver">Չօգտագործել AMR դրայվեր</string>
+    <string name="dont_use_amr_driver_summary">Վերափոխել WAV-ը AMR-ի իրական ժամանակում</string>
 
     <!-- Settings -> Recording -> Exceptions -->
-    
+    <string name="add_exception">Ավելացնել բացառություններ</string>
     <string name="exception_group">Խումբ</string>
+    
     <string name="exception_select_group">Ընտրել խումբը</string>
-    
-    
+    <string name="exception_contact">Կոնտակտ</string>
+    <string name="exception_select_contact">Ընտրել կոնտակտը</string>
     <string name="exception_phone_number">Հեռախոսի համար</string>
-    
+    <string name="exception_action">Գործողություն</string>
     <string name="exception_select_action">Ընտրել գործողությունը</string>
     <string name="exception_action_always_record">Միշտ ձայնագրել</string>
     <string name="exception_action_never_record">Երբեք չձայնագրել</string>
-    
-    
-    
-    
-    
-    
-    
+    <string name="exception_groups_not_found">Խմբեր չեն գտնվել</string>
+    <string name="exception_contacts_not_found">Կոնտակտներ չեն գտնվել</string>
+    <string name="exceptions_not_added">Բացառություններ չեն ստեղծվել</string>
+    <string name="exception_by_contact">Ըստ կոնտակտի</string>
+    <string name="exception_by_group">Ըստ խմբի</string>
+    <string name="exception_by_phone_number">Ըստ հեռախոսահամարի</string>
+    <string name="exception_delete_message">Վստահ եք արդյոք, որ ցանկանում եք հեռացել այս բացառությունը?</string>
 
     <!-- Settings -> Folders and Files -->
+    <string name="folder">Թղթապանակ</string>
+    <string name="folder_chooser_up_to">↑ Վերև մինչեւ %s</string>
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <string name="automatic_cleanup">Ձայնագրությունների ավտոմատ հեռացում</string>
+    <string name="max_number_of_files">Մաքս. ֆայլերի քանակը</string>
+    <string name="max_number_of_files_message">Մուտքագրեք քանակը (0 - անվերջ)</string>
+    <string name="max_total_size_of_files">Ընդհանուր ֆայլերի ծավալը</string>
+    <string name="max_total_size_of_files_message">Մուտքագրեք ծավալը մեգաբայթերով (0 - անվերջ)</string>
+    <string name="max_age_of_recordings">Ձայնագրությունների պահպանման մաքսիմալ ժամանակը</string>
+    <string name="max_age_of_recordings_message">Մուտքագրեք օրերի քանակը (0 - անվերջ)</string>
+    <string name="current_setting">Ընթացիկ կարգավորումը: %s</string>
+    <string name="settings_filename">Անունը Ազգանունը</string>
+    <string name="filename_pattern">Շաբլոն</string>
+    <string name="time_pattern">Շաբլոնի ժամանակը</string>
 
     <!-- Description for filename pattern -->
     <string name="pattern_contact_name">կոնտակտի անուն</string>
     <string name="pattern_phone_number">հեռախոսի համար</string>
     <string name="pattern_call_time">զանգի ժամ</string>
-    
+    <string name="pattern_call_timestamp">Զանգի ժամը (unix time)</string>
     <string name="pattern_call_type">զանգի տեսայ (մուտքային կամ ելքային)</string>
     <string name="time_pattern_hours">ժամ</string>
     <string name="time_pattern_minutes">րոպե</string>
@@ -246,161 +264,175 @@
     <string name="pattern_example">Օրինակ:</string>
 
     <!--Settings -> Interface and Appearance-->
+    <string name="language">Լեզու</string>
+    <string name="select_language">Ընտրել լեզուն</string>
+    <string name="default_language">Նախընտրելի լեզուն</string>
+    <string name="category_notification">Տեղեկացում</string>
+    <string name="show_notification">Ցուցադրել տեղեկատվությունը վերևի տեղեկացման վահանակում</string>
+    <string name="show_notification_summary">Միշտ տեղեկացրել տեղեկացման տողում</string>
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <string name="category_incall_control_button">Ձայնագրման կառավարման ստեղն</string>
+    <string name="incall_control_for_outgoing">Ելքային զանգերի համար</string>
+    <string name="incall_control_for_outgoing_summary">Ցուցադրել կառավարման ստեղնը ելքային զանգերի ժամանակ</string>
+    <string name="incall_control_for_incoming">Մուտքային զանգերի համար</string>
+    <string name="incall_control_for_incoming_summary">Ցուցադրել կառավարման ստեղնը մուտքային զանգերի ժամանակ</string>
+    <string name="hide_button_while_recording">Թաքցնել ստեղնը ձայնագրման ժամանակ</string>
+    <string name="hide_button_while_recording_summary">Թաքցնել ձայնագրման կառավարման ստեղնը զանգի ձայնագրման դեպքում</string>
+    <string name="show_button_while_ringing">Ցուցադրել ստեղնը զանգի ժամանակ</string>
+    <string name="show_button_while_ringing_summary">Ցուցադրել ձայնագրման կառավարման ստեղնը մինչեւ մուտքային զանգին պատասխանելը</string>
+    <string name="vertical_position">Ուղղահայաց դիրքում</string>
+    <string name="vertical_position_summary">%s dp, էկրանի կենտրոնից</string>
+    <string name="horizontal_position">Հորիզոնական դիրքում</string>
+    <string name="horizontal_position_summary">%s dp, էկրանի կենտրոնից</string>
+    <string name="hide_button_before_answer">Թաքցնել ստեղնը մինչեւ պատասխանելը</string>
+    <string name="hide_button_before_answer_summary">Չցուցադրել ձայնագրության կառավարման ստեղնը մինչև զանգի կայանալը</string>
+    <string name="long_press_action">Գործողություն երկար հպման դեպքում</string>
+    <string name="long_press_action_dragging_the_button">Ստեղնի տեղափոխում</string>
+    <string name="long_press_action_hang_up">Անջատել հեռախոսազանգը և ետ զանգահարել</string>
     
     
     
 
     <!-- Settings -> Cloud -->
-    
+    <string name="cloud_provider">Ամպային պահեստարանի օպերատոր</string>
     <string name="cloud_provider_dropbox">Dropbox</string>
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <string name="sign_in_dropbox">Մուտք Dropbox</string>
+    <string name="sign_out_dropbox">Ելք Dropbox-ից</string>
+    <string name="cloud_provider_google_drive">Google Drive</string>
+    <string name="cloud_common_settings">Ընդհանուր</string>
+    <string name="cloud_wifi_only">Միայն Wi-Fi-ով</string>
+    <string name="cloud_auto_upload">Ավտոբեռնավորում</string>
+    <string name="cloud_auto_upload_summary">Վերբեռնել ձայնագրությունը զանգի ավարտից անմիջապես հետո</string>
+    <string name="cloud_upload_starred">Վերբեռնել միայն պիտակավորվածները</string>
+    <string name="cloud_upload_starred_summary">Վերբեռնել ձայնագրությունը պիտակավորելուց հետո</string>
 
     <!-- Notification -->
+    <string name="notify_uploading_dropbox">Կատարվում է վերբեռնում դեպի Dropbox</string>
     
     
+    
+    
+    
+    <string name="notify_tasks_remaining">%d մնաց</string>
 
     <!-- Password dialog -->
     <string name="wrong_password">Սխալ գաղտնանուն</string>
-    
-    
+    <string name="enter_password">Մուտքագրեք գաղտնաբառը</string>
+    <string name="password_has_been_changed">Գաղտնաբառը փոխված է</string>
 
     <!-- Settings -> Security -->
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <string name="category_encryption">Կոդավորում</string>
+    <string name="category_application">Ծրագիր</string>
+    <string name="create_new_key">Ստեղծել նոր բանալի</string>
+    <string name="create_new_key_summary">Այս բանալին հետագայում օգտագործվելու է դեկոդավորման կամ ծրագիր մուտք գործելու համար</string>
+    <string name="delete_key">Ջնջել բանալին</string>
+    <string name="change_password">Փոխել գաղտնաբառը</string>
+    <string name="delete_key_summary">Զգուշացում! Դուք չեք կարողանա վերականգնել այս բանալիով կոդավորված ձայնագրությունները նույնիսկ եթե ստեղծեք նոր բանալի նույն գաղտնաբառով</string>
+    <string name="delete_key_message">Ջնջելուց հետո դուք չեք կարողանա ապակոդավորել տվյալ բանալիով կոդավորված ձայնագրությունները, վստահ եք որ ցանկանում եք շարունակել?</string>
+    <string name="enter_old_password">Մուտքագրեք հին գաղտնաբառը</string>
+    <string name="enter_new_password">Մուտքագրեք նոր գաղտնաբառը</string>
+    <string name="re_enter_new_password">Կրկնեք նոր գաղտնաբառը</string>
+    <string name="require_password">Պահանջել գաղտնաբառ</string>
+    <string name="require_password_summary">Պահանջել գաղտնաբառ ծրագիր մուտք գործելու համար</string>
+    <string name="require_password_summary_no_key">Պահանջել գաղտնաբառ ծրագիր մուտք գործելու համար: Այն ակտիվացնելու համար անհրաժեշտ է նախապես ստեղծել բանալի</string>
+    <string name="lock_after">Արգելափակել</string>
+    <string name="lock_after_exit">Ելք</string>
+    <string name="lock_after_1_minute">1 րոպե</string>
+    <string name="lock_after_3_minutes">3 րոպե</string>
+    <string name="lock_after_5_minutes">5 րոպե</string>
+    <string name="lock_after_10_minutes">10 րոպե</string>
+    <string name="app_admin">Ադմինիստրատիվ մուտք</string>
+    <string name="app_admin_summary">Անհրաժեշտ է Call Recorder-ի հեռացնելը արգելելու համար</string>
+    <string name="app_admin_explanation">Call Recorder չի օգտագործում այլ ադմինիստրատիվ գործառույթներ, բացի ծրագրի հեռացնելը արգելելը</string>
+    <string name="aes_128bit">128-bit AES</string>
+    <string name="aes_192bit">192-bit AES</string>
+    <string name="aes_256bit">256-bit AES</string>
 
     <!-- Settings -> Audio player -->
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <string name="use_built_in_player">Հիմնական ձայնարկիչ</string>
+    <string name="audio_output">Ձայնի ելք</string>
+    <string name="audio_output_summary">%s ( play/pause ստեղնի երկար սեղմումը նաև փոխում է այս կարգավորումը)</string>
+    <string name="main_speaker">Հիմնական բարձրախոս</string>
+    <string name="phone_speaker">Հեռախոսի բարձրախոս</string>
+    <string name="use_proximity_sensor">Օգտագործել մոտեցման սենսորը</string>
+    <string name="use_proximity_sensor_summary">Անջատել էկրանը ձայբագրման վերարտադրման ժամանակ մոտիկացման սենսորի միջոցով</string>
+    <string name="switch_audio_output">Ձայնի ելքի փոփոխում</string>
+    <string name="switch_audio_output_summary">Ավտոմատ փոխել ձայնի ելքի ուղղին երբ էկրանը անջատված կամ միացված է մոտեցման սենսորի կողմից</string>
+    <string name="android_wav_decoder">Android դեկոդեր WAV-ի համար</string>
+    <string name="android_wav_decoder_summary">Օգտագործել ներքին պարագաները WAV-ը վերարտադրելու համար</string>
+    <string name="android_amr_decoder">Android դեկոդեր AMR-ի համար</string>
+    <string name="android_amr_decoder_summary">Օգտագործել ներքին պարագաները AMR-ը վերարտադրելու համար</string>
 
     <!--Settings -> Debug-->
-    
+    <string name="root_access">Root իրավունք</string>
     <string name="root_access_no">Ոչ</string>
     <string name="root_access_yes">Այո</string>
-    
+    <string name="dual_sim_phone">Երկքարտանի հեռախոս</string>
+    <string name="dual_sim_phone_summary">Միացնել այս եթե ծրագիրը չի կարողանում հասկանալ զանգերը երկրորդ քարտից</string>
     
 
     <!-- General -->
     <string name="contact_unknown">Անհայտ</string>
-    
+    <string name="button_choose">Ընտրել</string>
     <string name="button_ok">Լավ</string>
     <string name="button_call">Զանգել</string>
+    
     <string name="button_edit">Խմբագրել</string>
     <string name="button_cancel">Չեղարկել</string>
-    
+    <string name="button_create">Ստեղծել</string>
     <string name="button_delete">Ջնջել</string>
     
-    
-    
-    
-    
-    
+    <string name="button_keep">Պահպանել</string>
+    <string name="button_play">Վերարտադրել</string>
+    <string name="button_pause">Դադար</string>
+    <string name="button_delete_wait">Հեռացնել (%d)</string>
+    <string name="decline">Չընդունել</string>
+    <string name="accept">Ընդունել</string>
     <string name="call_incoming">Մուտքային</string>
     <string name="call_outgoing">Ելքային</string>
-    
-    
+    <string name="please_wait">Խնդրում ենք սպասել…</string>
     <string name="start_recording">Սկսել ձայանգրումը</string>
     <string name="stop_recording">Դադարեցնել ձայնագրումը</string>
-    
+    <string name="action_mode_selected">%d նշվածը</string>
     <string name="switch_on">Միացված</string>
     <string name="switch_off">Անջատված</string>
+
+    <!--Toasts-->
+    <string name="toast_wait_for_operation_to_complete">Սպասեք գործողության ավարտին</string>
+    
+    
+    
 
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">Ձայնագրել այս զանգը</string>
     <string name="open_contact">Բացել կոնտակտները</string>
 
     <!--After call actions dialog-->
-    
+    <string name="cloud_added">Ավելացված է</string>
 
     <!--Notification-->
-    
-    
-    
+    <string name="waiting_for_answer">Պատասխանի սպասում</string>
+    <string name="recording_in_progress">Ձայնագրությունը ընթացքում է</string>
+    <string name="no_recording_in_progress">Չկա ընթացիկ ձայնագրություն</string>
     <string name="an_error_has_occurred">Տեղի ունեցավ սխալ, այս զանգը չի կարող ձայնագրվել</string>
 
     <!--About-->
-    
-    
-    
-    
+    <string name="about_call_recorder">Ծրագրի մասին</string>
+    <string name="version">Տարբերակ</string>
+    <string name="copyright">Copyright</string>
+    <string name="copyright_summary">© %s Ալեքսանդր Սկվորցով (skvalex)</string>
+    <string name="about_many_thanks">Մեծ Շնորհակալություն</string>
+    <string name="about_many_thanks_summary">Ալեքսեյ Սուբոտինին (avs234)</string>
+
+    <!--About -> Other-->
     
     
 
-    <!--About -> Licenses-->
-    <string name="licenses">Լիցենզիաներ</string>
-    <string name="about_open_core_amr_license">opencore-amr</string>
-    <string name="about_open_core_amr_license_summary">Օգտագործում է opencore-amr Apache License Version 2.0 ներքո, սեղմեք այստեղ այցելելու համար opencore-amr.sourceforge.net</string>
-    <string name="about_alsa">ALSA</string>
-    <string name="about_alsa_summary">Օգտագործում է ASLA LGPL--ի ներքո, սեղմեք այստեղ այցելելու համար alsa-project.org</string>
-    <string name="about_lame">LAME</string>
-    <string name="about_lame_summary">Օգտագործում է LAME LGPL-Ի ներքո,սեղմեք այստեղ այցելելու համար mp3dev.org</string>
-
-    <!--Credits-->
+    <!--About -> Translators-->
     
-    
+    <string name="german_translation">Գերմաներեն թարգմանություն</string>
+    <string name="german_translation_summary">Marc Hillesheim and Thomas Käfer</string>
     <string name="polish_translation">Լեհերեն թարգմանություն</string>
     <string name="polish_translation_summary">Robert Gonta-ի կողմից</string>
     <string name="french_translation">Ֆրանսերեն թարգմանություն</string>
@@ -412,11 +444,11 @@
     <string name="slovak_translation">Սլովակերեն թարգմանություն</string>
     <string name="slovak_translation_summary">Loránt Gerencsér-ի կողմից</string>
     <string name="italian_translation">Իտալերեն թարգմանություն</string>
-    
+    <string name="italian_translation_summary">Luca Trevisan and Francesco Cafagna-ի կողմից</string>
     <string name="persian_translation">Պարսկերեն թարգմանություն</string>
     <string name="persian_translation_summary">Alireza Afkar-ի կողմից</string>
     <string name="chinese_translation">ՉԻնարեն թարգմանություն</string>
-    
+    <string name="chinese_translation_summary">qhq and Yu Fei-ի կողմից</string>
     <string name="czech_translation">Չեխերեն թարգմանություն</string>
     <string name="czech_translation_summary">Ales Kerner and Lukas Waldauf-ի կողմից</string>
     <string name="arabic_translation">Արաբերեն թարգմանություն</string>
@@ -463,255 +495,14 @@
     <string name="finnish_translation_summary">Eero Linnainmaa-ի կողմից</string>
     <string name="belarusian_translation">Բելոռուսերեն թարգմանություն</string>
     <string name="belarusian_translation_summary">Alexander Kuvshinov-ի կողմից</string>
-    
-    
-<string name="app_name">Զանգերի ձայնագրիչ</string>
-    <string name="terms_of_use">Օգտագործման պայմաններ</string>
-    <string name="terms_of_use_message">Օգտագործելով այս ծրագիրը դուք համաձայնվում եք CallRecorder-ի &lt;a href=http://rec.sh/terms&gt;Օգտագործման մասին պայմաններին&lt;/a&gt;.</string>
-
-    <string name="navigation_drawer_open">Բացել կառավարման վահանակը</string>
-    <string name="navigation_drawer_close">Փակել կառավարման վահանակը</string>
-
-    <string name="section_all_recordings">Բոլոր ձայնագրությունները</string>
-    <string name="section_starred">Նշված</string>
-    <string name="section_incoming">Մուտքային</string>
-    <string name="section_outgoing">Ելքային</string>
-    <string name="section_by_contact">Ըստ կոնտակտի</string>
-    <string name="section_by_format">Ըստ ֆորմատի</string>
-    <string name="section_by_label">Ըստ պիտակի</string>
-    <string name="section_help">Օգնություն</string>
-    <string name="section_tasks_hint">"Այստեղ արտացոլվում են երկարատև գործողությունները (կոնվերտացիա,  կոդավորում, բեռնում ամպային տարածք և այլն)"</string>
-    <string name="action_sort">Դասավորել</string>
-    <string name="action_refresh">Թարմացնել</string>
-    <string name="action_delete">Հեռացնել</string>
-    <string name="action_add_star">Ընդգծել</string>
-    <string name="action_remove_star">Հեռացնել ընդգծվածը</string>
-    <string name="action_share">Տարածել</string>
-    <string name="sort_by_date">Ըստ ժամանակացույցի</string>
-    <string name="sort_by_contact">Ըստ կոնտակտի</string>
-    <string name="sort_by_file_size">Ըստ ֆայլի մեծության</string>
-
-    <string name="list_header_today">Այսօր</string>
-    <string name="list_header_yesterday">Երեկ</string>
-    <string name="queued">Հերթում</string>
-    <string name="no_connection">Կապ չկա</string>
-
-    <string name="menu_add_to_dropbox">Ավելացնել Dropbox-ում</string>
-    <string name="menu_add_note">Ավելացնել նշում</string>
-    <string name="menu_edit_note">Խմբագրել նշումը</string>
-    <string name="menu_delete">Հեռացնել</string>
-    <string name="menu_share">Տարածել</string>
-    <string name="menu_convert_to_mp3">Փոխարկել MP3 ֆորմատի</string>
-    <string name="menu_convert_to_amr">Փոխարկել AMR ֆորմատի</string>
-    <string name="menu_cancel_task">Չեղարկել առաջադրանքը</string>
-    <string name="recording_type">Ձայնագրման տեսակը</string>
-    <string name="phone_number">Հեռախոսահամարը</string>
-
-    <string name="confirm_delete_several_title">Հաստատել հեռացումը</string>
-    <string name="confirm_delete_several_message">Դուք ընտրել եք %d ձայնագրություն: Վստահ եք արդյոք, որ դրանք պետք է հեռացվեն?</string>
-
-    <string name="share_via">Տարածել</string>
-    <string name="settings_cloud">Ամպային պահեստարան</string>
-    <string name="license_status">Լիցենզիայի ստատուսը</string>
-    <string name="license_check_pending">Լիցենզիայի ստուգման փուլում է</string>
-    <string name="license_check_failed">Չհաջողվեց ստուգել լիցենզիայի ստատուսը</string>
-    <string name="license_check_failed_summary">Սեղմեք մանրամասների համար</string>
-    <string name="license_verified">Լիցենզիան հաստատված է</string>
-    <string name="license_verified_summary">Սեղմեք թաքցնելու համար</string>
-    <string name="license_signature_verification_failed">Ստորագրության ստուգման սխալ</string>
-    <string name="license_error_message">Սխալ #%1$s: %2$s</string>
-    <string name="license_trial">Ծրագրի օգտագործման փորձնական շրջանը կավարտվի %s</string>
-    <string name="license_unknown_error">Անհայտ սխալ</string>
-    <string name="license_not_market_managed">Տվյալ օրինակը դեռ տեղադրված չէ Play Stor-ում</string>
-    <string name="license_incorrect_response">Սխալ լիցենզիայի պատասխան Play Stor-ից</string>
-    <string name="license_error_contacting_server">Սերվերի հետ միանալու սխալ</string>
-    <string name="license_server_error">Սերվերի սխալ</string>
-    <string name="license_over_quota">Տվյալ սարքից հարցումները բավական շատ են</string>
-
-    <string name="device_change_settings_empty">Տվյալ սարքի կարգավորումները արդեն հաստատված են</string>
-    <string name="device_root_is_required">Պահանջվում է Root</string>
-    <string name="device_root_is_required_summary">Այս սարքի համար անհրաժեշտ է Root ավելի լավ աշխատանքի համար</string>
-    <string name="recording_method_api_settings">Կարգավորումներ ստանդարտ API-ով ձայնագրելու համար</string>
-    <string name="recording_method_caf_settings">Կարգավորումներ CAF-ով ձայնագրելու համար</string>
-    <string name="recording_method_alsa">ALSA</string>
-    <string name="recording_method_alsa_settings">Կարգավորումներ ALSA-ով ձայնագրելու համար</string>
-    <string name="recording_method_msm">MSM</string>
-    <string name="recording_method_msm_settings">Կարգավորումներ MSN-ով ձայնագրելու համար</string>
-    <string name="exceptions_summary">Նշել հատուկ գործողություններ կոնտակտների, խմբերի կամ հեռախոսահամարների համար</string>
-    <string name="start_recording_on_answer">Սկսել ձայնագրությունը զանգի պատասխանի դեպքում</string>
-    <string name="start_recording_on_answer_summary">Սկսել ձայնագրությունը ելքային զանգի պատասխանի դեպքում: Ծրագիրը օգտագործում է չգրանցված լուծում պատասխանող կողմի պատասխանի ժամանակը ֆիքսելու համար, ուստի հնարավոր է որոշ սարքերի վրա ոչ կոռեկտ աշխատանք: Android 4.1 և բարձր վերսիաների դեպքում անհրաժեշտ է Root: Loger-ը կեռնելում պետք է միացված լինի:</string>
-    <string name="delay_before_start_recording_summary">Ելքային զանգերի համար : %1$s, մուտքային զանգերի համար : %2$s</string>
-    <string name="delay_format_sec">%s վրկ</string>
-    <string name="delay_for_outgoing">Ելքային զանգերի համար</string>
-    <string name="delay_for_incoming">Մուտքային զանգերի համար</string>
-    <string name="settings_for_device">Կարգավորումներ %s-ի համար</string>
-    <string name="recording_format">Ձայնագրման ֆորմատը</string>
-    <string name="volume_control_summary">Tx: %1$s, Rx: %2$s</string>
-    <string name="volume_control_overall">Ընդհանուր ձայնի բարձրությունը</string>
-    <string name="sample_rate_8000">8000 Hz (Նախընտրելի)</string>
-    <string name="sample_rate_11025">11025 Hz</string>
-    <string name="sample_rate_16000">16000 Hz</string>
-    <string name="sample_rate_22050">22050 Hz</string>
-    <string name="sample_rate_44100">44100 Hz</string>
-    <string name="sample_rate_48000">48000 Hz</string>
-
-    <string name="api_audio_source">Ձայնագրման աղբյուրը</string>
-    <string name="api_source_uplink_downlink">Երկկողմանի</string>
-    <string name="api_source_downlink">Մուտքային ձայն</string>
-    <string name="api_source_uplink">Ելքային ձայն</string>
-    <string name="api_source_microphone">Բարձրախոս</string>
-    <string name="api_source_default">Նախընտրելի</string>
-    <string name="api_source_voice_communication">Ձայնային կապ</string>
-    <string name="category_wav_settings">WAV կարգավորումներ</string>
-    <string name="category_wav_and_mp3_settings">WAV և MP3 կարգավորումներ</string>
-
-    <string name="alsa_is_not_installed">ALSA պետք է տեղադրված լինի</string>
-    <string name="alsa_is_not_installed_summary">"Սեղմեք այստեղ  ALSA-ն տեղադրելու համար"</string>
-
-    <string name="dont_use_amr_driver">Չօգտագործել AMR դրայվեր</string>
-    <string name="dont_use_amr_driver_summary">Վերափոխել WAV-ը AMR-ի իրական ժամանակում</string>
-
-    <string name="add_exception">Ավելացնել բացառություններ</string>
-    <string name="exception_contact">Կոնտակտ</string>
-    <string name="exception_select_contact">Ընտրել կոնտակտը</string>
-    <string name="exception_action">Գործողություն</string>
-    <string name="exception_groups_not_found">Խմբեր չեն գտնվել</string>
-    <string name="exception_contacts_not_found">Կոնտակտներ չեն գտնվել</string>
-    <string name="exceptions_not_added">Բացառություններ չեն ստեղծվել</string>
-    <string name="exception_by_contact">Ըստ կոնտակտի</string>
-    <string name="exception_by_group">Ըստ խմբի</string>
-    <string name="exception_by_phone_number">Ըստ հեռախոսահամարի</string>
-    <string name="exception_delete_message">Վստահ եք արդյոք, որ ցանկանում եք հեռացել այս բացառությունը?</string>
-
-    <string name="folder">Թղթապանակ</string>
-    <string name="folder_chooser_up_to">"↑ Վերև մինչեւ  %s"</string>
-    <string name="automatic_cleanup">Ձայնագրությունների ավտոմատ հեռացում</string>
-    <string name="max_number_of_files">Մաքս. ֆայլերի քանակը</string>
-    <string name="max_number_of_files_message">Մուտքագրեք քանակը (0 - անվերջ)</string>
-    <string name="max_total_size_of_files">Ընդհանուր ֆայլերի ծավալը</string>
-    <string name="max_total_size_of_files_message">Մուտքագրեք ծավալը մեգաբայթերով (0 - անվերջ)</string>
-    <string name="max_age_of_recordings">Ձայնագրությունների պահպանման մաքսիմալ ժամանակը</string>
-    <string name="max_age_of_recordings_message">"Մուտքագրեք օրերի քանակը  (0 - անվերջ)"</string>
-    <string name="current_setting">Ընթացիկ կարգավորումը: %s</string>
-    <string name="settings_filename">Անունը Ազգանունը</string>
-    <string name="filename_pattern">Շաբլոն</string>
-    <string name="time_pattern">Շաբլոնի ժամանակը</string>
-
-    <string name="pattern_call_timestamp">"Զանգի ժամը  (unix time)"</string>
-    <string name="language">Լեզու</string>
-    <string name="select_language">Ընտրել լեզուն</string>
-    <string name="default_language">Նախընտրելի լեզուն</string>
-    <string name="category_notification">Տեղեկացում</string>
-    <string name="show_notification">Ցուցադրել տեղեկատվությունը վերևի տեղեկացման վահանակում</string>
-    <string name="show_notification_summary">Միշտ տեղեկացրել տեղեկացման տողում</string>
-    <string name="category_incall_control_button">Ձայնագրման կառավարման ստեղն</string>
-    <string name="incall_control_for_outgoing">Ելքային զանգերի համար</string>
-    <string name="incall_control_for_outgoing_summary">Ցուցադրել կառավարման ստեղնը ելքային զանգերի ժամանակ</string>
-    <string name="incall_control_for_incoming">Մուտքային զանգերի համար</string>
-    <string name="incall_control_for_incoming_summary">Ցուցադրել կառավարման ստեղնը մուտքային զանգերի ժամանակ</string>
-    <string name="hide_button_while_recording">Թաքցնել ստեղնը ձայնագրման ժամանակ</string>
-    <string name="hide_button_while_recording_summary">Թաքցնել ձայնագրման կառավարման ստեղնը զանգի ձայնագրման դեպքում</string>
-    <string name="show_button_while_ringing">Ցուցադրել ստեղնը զանգի ժամանակ</string>
-    <string name="show_button_while_ringing_summary">Ցուցադրել ձայնագրման կառավարման ստեղնը մինչեւ մուտքային զանգին պատասխանելը</string>
-    <string name="vertical_position">Ուղղահայաց դիրքում</string>
-    <string name="vertical_position_summary">%s dp, էկրանի կենտրոնից</string>
-    <string name="horizontal_position">Հորիզոնական դիրքում</string>
-    <string name="horizontal_position_summary">%s dp, էկրանի կենտրոնից</string>
-    <string name="hide_button_before_answer">Թաքցնել ստեղնը մինչեւ պատասխանելը</string>
-    <string name="hide_button_before_answer_summary">Չցուցադրել ձայնագրության կառավարման ստեղնը մինչև զանգի կայանալը</string>
-    <string name="long_press_action">Գործողություն երկար հպման դեպքում</string>
-    <string name="long_press_action_dragging_the_button">Ստեղնի տեղափոխում</string>
-    <string name="long_press_action_hang_up">Անջատել հեռախոսազանգը և ետ զանգահարել</string>
-
-    <string name="cloud_provider">Ամպային պահեստարանի օպերատոր</string>
-    <string name="sign_in_dropbox">Մուտք Dropbox</string>
-    <string name="sign_out_dropbox">Ելք Dropbox-ից</string>
-    <string name="cloud_provider_google_drive">Google Drive</string>
-    <string name="cloud_common_settings">Ընդհանուր</string>
-    <string name="cloud_wifi_only">Միայն Wi-Fi-ով</string>
-    <string name="cloud_auto_upload">Ավտոբեռնավորում</string>
-    <string name="cloud_auto_upload_summary">Վերբեռնել ձայնագրությունը զանգի ավարտից անմիջապես հետո</string>
-    <string name="cloud_upload_starred">Վերբեռնել միայն պիտակավորվածները</string>
-    <string name="cloud_upload_starred_summary">Վերբեռնել ձայնագրությունը պիտակավորելուց հետո</string>
-
-    <string name="notify_uploading_dropbox">Կատարվում է վերբեռնում դեպի Dropbox</string>
-    <string name="notify_tasks_remaining">%d մնաց</string>
-
-    <string name="enter_password">Մուտքագրեք գաղտնաբառը</string>
-    <string name="password_has_been_changed">Գաղտնաբառը փոխված է</string>
-
-    <string name="category_encryption">Կոդավորում</string>
-    <string name="category_application">Ծրագիր</string>
-    <string name="create_new_key">Ստեղծել նոր բանալի</string>
-    <string name="create_new_key_summary">Այս բանալին հետագայում օգտագործվելու է դեկոդավորման կամ ծրագիր մուտք գործելու համար</string>
-    <string name="delete_key">Ջնջել բանալին</string>
-    <string name="change_password">Փոխել գաղտնաբառը</string>
-    <string name="delete_key_summary">Զգուշացում! Դուք չեք կարողանա վերականգնել այս բանալիով կոդավորված ձայնագրությունները նույնիսկ եթե ստեղծեք նոր բանալի նույն գաղտնաբառով</string>
-    <string name="delete_key_message">Ջնջելուց հետո դուք չեք կարողանա ապակոդավորել տվյալ բանալիով կոդավորված ձայնագրությունները, վստահ եք որ ցանկանում եք շարունակել?</string>
-    <string name="enter_old_password">Մուտքագրեք հին գաղտնաբառը</string>
-    <string name="enter_new_password">Մուտքագրեք նոր գաղտնաբառը</string>
-    <string name="re_enter_new_password">Կրկնեք նոր գաղտնաբառը</string>
-    <string name="require_password">Պահանջել գաղտնաբառ</string>
-    <string name="require_password_summary">Պահանջել գաղտնաբառ ծրագիր մուտք գործելու համար</string>
-    <string name="require_password_summary_no_key">Պահանջել գաղտնաբառ ծրագիր մուտք գործելու համար: Այն ակտիվացնելու համար անհրաժեշտ է նախապես ստեղծել բանալի</string>
-    <string name="lock_after">Արգելափակել</string>
-    <string name="lock_after_exit">Ելք</string>
-    <string name="lock_after_1_minute">1 րոպե</string>
-    <string name="lock_after_3_minutes">3 րոպե</string>
-    <string name="lock_after_5_minutes">5 րոպե</string>
-    <string name="lock_after_10_minutes">10 րոպե</string>
-    <string name="app_admin">Ադմինիստրատիվ մուտք</string>
-    <string name="app_admin_summary">Անհրաժեշտ է Call Recorder-ի հեռացնելը արգելելու համար</string>
-    <string name="app_admin_explanation">Call Recorder չի օգտագործում այլ ադմինիստրատիվ գործառույթներ, բացի ծրագրի հեռացնելը արգելելը</string>
-    <string name="aes_128bit">128-bit AES</string>
-    <string name="aes_192bit">192-bit AES</string>
-    <string name="aes_256bit">256-bit AES</string>
-
-    <string name="use_built_in_player">Հիմնական ձայնարկիչ</string>
-    <string name="audio_output">Ձայնի ելք</string>
-    <string name="audio_output_summary">%s ( play/pause ստեղնի երկար սեղմումը նաև փոխում է այս կարգավորումը)</string>
-    <string name="main_speaker">Հիմնական բարձրախոս</string>
-    <string name="phone_speaker">Հեռախոսի բարձրախոս</string>
-    <string name="use_proximity_sensor">Օգտագործել մոտեցման սենսորը</string>
-    <string name="use_proximity_sensor_summary">Անջատել էկրանը ձայբագրման վերարտադրման ժամանակ մոտիկացման սենսորի միջոցով</string>
-    <string name="switch_audio_output">Ձայնի ելքի փոփոխում</string>
-    <string name="switch_audio_output_summary">Ավտոմատ փոխել ձայնի ելքի ուղղին երբ էկրանը անջատված կամ միացված է մոտեցման սենսորի կողմից</string>
-    <string name="android_wav_decoder">Android դեկոդեր WAV-ի համար</string>
-    <string name="android_wav_decoder_summary">Օգտագործել ներքին պարագաները WAV-ը վերարտադրելու համար</string>
-    <string name="android_amr_decoder">Android դեկոդեր AMR-ի համար</string>
-    <string name="android_amr_decoder_summary">Օգտագործել ներքին պարագաները AMR-ը վերարտադրելու համար</string>
-
-    <string name="root_access">Root իրավունք</string>
-    <string name="dual_sim_phone">Երկքարտանի հեռախոս</string>
-    <string name="dual_sim_phone_summary">Միացնել այս եթե ծրագիրը չի կարողանում հասկանալ զանգերը երկրորդ քարտից</string>
-
-    <string name="button_choose">Ընտրել</string>
-    <string name="button_create">Ստեղծել</string>
-    <string name="button_keep">Պահպանել</string>
-    <string name="button_play">Վերարտադրել</string>
-    <string name="button_pause">Դադար</string>
-    <string name="button_delete_wait">"Հեռացնել  (%d)"</string>
-    <string name="decline">Չընդունել</string>
-    <string name="accept">Ընդունել</string>
-    <string name="please_wait">Խնդրում ենք սպասել…</string>
-    <string name="toast_wait_for_operation_to_complete">Սպասեք գործողության ավարտին</string>
-    <string name="action_mode_selected">%d նշվածը</string>
-    <string name="cloud_added">Ավելացված է</string>
-
-    <string name="waiting_for_answer">Պատասխանի սպասում</string>
-    <string name="recording_in_progress">Ձայնագրությունը ընթացքում է</string>
-    <string name="no_recording_in_progress">Չկա ընթացիկ ձայնագրություն</string>
-    <string name="about_call_recorder">Ծրագրի մասին</string>
-    <string name="version">Տարբերակ</string>
-    <string name="copyright">Copyright</string>
-    <string name="copyright_summary">© %s Ալեքսանդր Սկվորցով (skvalex)</string>
-    <string name="about_many_thanks">Մեծ Շնորհակալություն</string>
-    <string name="about_many_thanks_summary">Ալեքսեյ Սուբոտինին (avs234)</string>
-
-    <string name="german_translation">Գերմաներեն թարգմանություն</string>
-    <string name="german_translation_summary">Marc Hillesheim and Thomas Käfer</string>
-    <string name="italian_translation_summary">Luca Trevisan and Francesco Cafagna-ի կողմից</string>
-    <string name="chinese_translation_summary">qhq and Yu Fei-ի կողմից</string>
     <string name="vietnamese_translation">Վիետնամերեն թարգմանությունը</string>
     <string name="vietnamese_translation_summary">Truong Hoang Trung-ի կողմից</string>
+    
+    
+    
+    
+    
+    
+    
+    
 </resources>

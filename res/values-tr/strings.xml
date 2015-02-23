@@ -1,56 +1,62 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">Kullanım Şartları</string>
-    
+    <string name="terms_of_use_message">Bu uygulamayı kullanarak, CallRecorder\'ın &lt;a href=http://rec.sh/terms&gt;kullanım şartlarını&lt;/a&gt;. kabul etmiş sayılırsınız.</string>
 
     <!-- Navigation drawer -->
     
     
 
     <!-- Navigation drawer sections -->
-    
-    
+    <string name="section_all_recordings">Tüm kayıtlar</string>
+    <string name="section_starred">Favori</string>
     <string name="section_incoming">Gelen</string>
     <string name="section_outgoing">Giden</string>
-    
-    
-    
+    <string name="section_by_contact">Kişiye göre</string>
+    <string name="section_by_format">Kayıt tipine göre</string>
+    <string name="section_by_label">İsme Göre</string>
     <string name="section_help">Yardım</string>
     <string name="section_tasks">Görevler</string>
-    
+    <string name="section_tasks_hint">Zaman alıcı görevler, kayıt çevirme işlemi, şifreleme, buluta yükleme işlemleri burada gözükecektir</string>
     <string name="empty_hint">Boş</string>
 
     <!-- Action bar -->
     <string name="action_search">Arama</string>
-    
+    <string name="action_sort">Sırala</string>
     <string name="action_settings">Ayarlar</string>
-    
-    
-    
-    
-    
+    <string name="action_refresh">Yenile</string>
+    <string name="action_delete">Sil</string>
+    <string name="action_add_star">Yıldız ekle</string>
+    <string name="action_remove_star">Yıldız kaldır</string>
+    <string name="action_share">Paylaş</string>
+    <string name="action_cancel_tasks">Görevleri iptal et</string>
     <string name="action_select_all">Hepsini seç</string>
+    <string name="sort_by_date">Tarihe göre</string>
+    <string name="sort_by_contact">Kişiye göre</string>
+    <string name="sort_by_file_size">Dosya boyutuna göre</string>
     
     
+
+    <!--Import settings -->
     
 
     <!-- List -->
+    <string name="list_header_today">Bugün</string>
     
     
-    
-    
+    <string name="no_connection">Bağlantı yok</string>
 
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">Dropbox\'a ekle</string>
-    
-    
+    <string name="menu_add_note">Not ekle</string>
+    <string name="menu_edit_note">Notu düzenle</string>
     <string name="menu_delete">Sil</string>
-    
-    
+    <string name="menu_share">Paylaş</string>
+    <string name="menu_convert_to_mp3">MP3\'e dönüştür</string>
     
     <string name="menu_get_info">Bilgi al</string>
-    
+    <string name="menu_cancel_task">Görevi iptal et</string>
     <string name="menu_encrypt">Şifrele</string>
     <string name="menu_decrypt">Çöz</string>
 
@@ -58,7 +64,7 @@
     <string name="file_name">Dosya Adı</string>
     <string name="sample_rate">Örnek oran</string>
     <string name="sample_rate_hz">Hz</string>
-    
+    <string name="recording_type">Kayıt tipi</string>
     <string name="recording_type_mono">Mono</string>
     <string name="recording_type_stereo">Stereo</string>
     <string name="file_size">Dosya boyutu</string>
@@ -67,7 +73,7 @@
     <string name="megabyte">MB</string>
     <string name="kilobyte">KB</string>
     <string name="bytes">bayt</string>
-    
+    <string name="note">Not</string>
 
     <!-- List -> Get info dialog -> Edit -->
     <string name="contact_name">Kişi adı</string>
@@ -75,41 +81,43 @@
 
     <!-- List -> Confirm delete dialog -->
     <string name="confirm_delete_message">Bu kaydı silmek istediğinizden eminmisiniz?</string>
-    
-    
+    <string name="confirm_delete_several_title">Silme işlemini onayla</string>
+    <string name="confirm_delete_several_message">%d kayıt seçitğiniz. Silmek istediğinizden eminmisiniz?</string>
 
     <!-- List -> Share -->
-    
+    <string name="share_via">Paylaş</string>
     <string name="recorded_calls">Kayıtlı görüşmeler</string>
 
     <!--  Settings -> Headers -->
+    
     <string name="settings_recording">Kayıt Ayarları</string>
     <string name="settings_folders_and_files">Dosyalar ve Klasörler</string>
     <string name="settings_ui_and_appearance">Arayüz ve Görünüm</string>
     <string name="settings_security">Güvenlik</string>
-    
+    <string name="settings_cloud">Bulut</string>
     <string name="settings_audio_player">Ses oynatıcısı</string>
     <string name="settings_debug">Hata ayıklama</string>
     <string name="settings_about">Hakkında</string>
 
     <!-- Settings -> License -->
     <string name="license_status">Lisans durumu</string>
+    <string name="license_check_pending">Lisans kontrolü askıda</string>
+    <string name="license_check_failed">Lisans kontrolü başarısız</string>
+    <string name="license_check_failed_summary">Detay için buraya dokunun</string>
+    <string name="license_verified">Lisans onaylandı</string>
     
-    
-    
-    
-    
-    
-    
-    
+    <string name="license_help">Yardım</string>
+    <string name="license_signature_verification_failed">İmza onayı başarısız</string>
+    <string name="license_error_message">Hata #%1$s: %2$s</string>
     <string name="license_trial">Deneme versiyonu %s tarihinde sona erecek</string>
+    <string name="license_unknown_error">Bilinmeyen hata</string>
     
     
+    <string name="license_error_contacting_server">Server ile iletişim kurulumadı</string>
+    <string name="license_server_error">Server hatası</string>
+    <string name="license_over_quota">Bu cihaz ile çok fazla istekte bulunundu</string>
     
     
-    
-    
-
     <string name="buy_full_version">Tam sürümünü satın al</string>
     <string name="buy_full_version_summary">Şuanki version %s tarihinde bitecek</string>
 
@@ -119,8 +127,8 @@
     <string name="device">Aygıt</string>
     <string name="select_your_device">Aygıtınızı Seçiniz</string>
     
-    
-    
+    <string name="device_root_is_required">Root gereklidir</string>
+    <string name="device_root_is_required_summary">En iyi kalite için aygıtınız için root gereklidir.</string>
     <string name="device_other">Diğer</string>
     <string name="recording_method">Kayıt yöntemi</string>
     <string name="recording_method_api">Standard API</string>
@@ -129,8 +137,8 @@
     <string name="recording_method_caf_settings">CAF kaydı için Ayarlar</string>
     <string name="recording_method_alsa">ALSA</string>
     <string name="recording_method_alsa_settings">ALSA kaydedici için ayarlar</string>
-    
-    
+    <string name="recording_method_msm">MSM</string>
+    <string name="recording_method_msm_settings">MSM kaydı ayarları</string>
     <string name="category_actions">Eylemler</string>
     <string name="action_for_incoming">Gelen çağrılar için eylem</string>
     <string name="action_for_outgoing">Yapılan çağrılar için eylem</string>
@@ -149,11 +157,11 @@
     
     <string name="delay_before_start_recording">Gecikmeli kayıt etme</string>
     
-    
-    
-    
-    
-    
+    <string name="delay_format_sec">%s saniye</string>
+    <string name="delay_for_outgoing">Giden için</string>
+    <string name="delay_for_incoming">Gelen için</string>
+    <string name="settings_for_device">%s için Ayarlar</string>
+    <string name="recording_format">Kayıt formatıFormatı</string>
     <string name="recording_format_wav">WAV</string>
     <string name="recording_format_amr">AMR</string>
     <string name="recording_format_aac">AAC</string>
@@ -180,6 +188,13 @@
     <string name="api_source_voice_communication">Ses iletişimi</string>
     <string name="category_wav_settings">WAV Ayarları</string>
     
+    <string name="when_bt_connected">BT bağlanıldığı zaman...</string>
+    <string name="audio_source_when_bt_connected">BT bağlanıldığında ses kaynağı yap</string>
+
+    <!-- Actions when BT connected -->
+    <string name="when_bt_connected_do_nothing">Hiç birşey yapma</string>
+    <string name="when_bt_connected_switch_source">Ses kaynağını değiş</string>
+    <string name="when_bt_connected_disable_recording">Kaydı pasifleştir</string>
 
     <!-- Settings -> Recording -> CAF -->
     <string name="recording_mode">Kayıt modu</string>
@@ -200,6 +215,7 @@
     <!-- Settings -> Recording -> Exceptions -->
     
     <string name="exception_group">Grup</string>
+    
     <string name="exception_select_group">Grup seç</string>
     
     
@@ -218,6 +234,8 @@
 
     <!-- Settings -> Folders and Files -->
     <string name="folder">Klasör</string>
+    
+    
     
     <string name="automatic_cleanup">Otomatik temizleme</string>
     <string name="max_number_of_files">Max. dosya sayısı</string>
@@ -253,6 +271,8 @@
     <string name="show_notification">Simgeyi göster</string>
     
     
+    
+    
     <string name="incall_control_for_outgoing">Giden aramalar için</string>
     
     <string name="incall_control_for_incoming">Cevapsız aramalar için</string>
@@ -270,6 +290,9 @@
     
     
     
+    <string name="category_main_screen">Ana Ekran</string>
+    
+    
 
     <!-- Settings -> Cloud -->
     
@@ -285,6 +308,11 @@
     
 
     <!-- Notification -->
+    
+    
+    
+    
+    
     
     
 
@@ -342,11 +370,13 @@
     <string name="root_access_yes">Hayır</string>
     <string name="dual_sim_phone">Çift simli telefon</string>
     <string name="dual_sim_phone_summary">ikinci sim kartından gelen aramaları tanıyamıyorsa bunu etkinleştirin</string>
+    
 
     <!-- General -->
     <string name="contact_unknown">Bilinmeyen</string>
     
     <string name="button_ok">OK</string>
+    
     
     <string name="button_edit">Düzenle</string>
     <string name="button_cancel">Vazgeç</string>
@@ -360,13 +390,19 @@
     
     
     
-    <string name="please_wait">Lütfen bekleyin...</string>
     
+    <string name="please_wait">Lütfen bekleyin...</string>
     <string name="start_recording">Kaydı Başlat</string>
     <string name="stop_recording">Kaydı Durdur</string>
     
     <string name="switch_on">Açık</string>
     <string name="switch_off">Kapalı</string>
+
+    <!--Toasts-->
+    
+    
+    
+    
 
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">Bu aramayı kaydet</string>
@@ -389,16 +425,12 @@
     <string name="about_many_thanks">Çok teşekkürler</string>
     <string name="about_many_thanks_summary">to Alexey Subbotin (avs234)</string>
 
-    <!--About -> Licenses-->
-    <string name="licenses">Lisanslar</string>
-    <string name="about_open_core_amr_license">opencore-amr</string>
-    <string name="about_open_core_amr_license_summary">Uses opencore-amr under Apache License Version 2.0, click hereto visit opencore-amr.sourceforge.net</string>
-    <string name="about_alsa">ALSA</string>
-    <string name="about_alsa_summary">Uses ALSA under LGPL, click here to visit alsa-project.org</string>
-    <string name="about_lame">LAME</string>
-    <string name="about_lame_summary">Uses LAME under LGPL, click here to visit mp3dev.org</string>
+    <!--About -> Other-->
+    
+    
 
-    <!--Credits-->
+    <!--About -> Translators-->
+    
     <string name="german_translation">Almanca çeviri</string>
     <string name="german_translation_summary">by Marc Hillesheim ve Thomas Käfer</string>
     <string name="polish_translation">Lehçe çeviri</string>
@@ -465,60 +497,12 @@
     
     
     
-<string name="section_all_recordings">Tüm kayıtlar</string>
-    <string name="action_add_star">Yıldız ekle</string>
-    <string name="action_remove_star">Yıldız kaldır</string>
-    <string name="sort_by_date">Tarihe göre</string>
-    <string name="sort_by_contact">Kişiye göre</string>
-    <string name="sort_by_file_size">Dosya boyutuna göre</string>
-
-    <string name="list_header_today">Bugün</string>
-    <string name="no_connection">Bağlantı yok</string>
-
-    <string name="menu_add_note">Not ekle</string>
-    <string name="menu_edit_note">Notu düzenle</string>
-    <string name="menu_share">Paylaş</string>
-    <string name="menu_convert_to_mp3">MP3\'e dönüştür</string>
-    <string name="menu_cancel_task">Görevi iptal et</string>
-    <string name="recording_type">Kayıt tipi</string>
-    <string name="note">Not</string>
-
-    <string name="confirm_delete_several_title">Silme işlemini onayla</string>
-    <string name="confirm_delete_several_message">%d kayıt seçitğiniz. Silmek istediğinizden eminmisiniz?</string>
-
-    <string name="share_via">Paylaş</string>
-    <string name="settings_cloud">Bulut</string>
-    <string name="license_check_pending">Lisans kontrolü askıda</string>
-    <string name="license_check_failed">Lisans kontrolü başarısız</string>
-    <string name="license_check_failed_summary">Detay için buraya dokunun</string>
-    <string name="license_verified">Lisans onaylandı</string>
-    <string name="license_help">Yardım</string>
-    <string name="license_signature_verification_failed">İmza onayı başarısız</string>
-    <string name="license_error_message">Hata #%1$s: %2$s</string>
-    <string name="license_unknown_error">Bilinmeyen hata</string>
-    <string name="license_server_error">Server hatası</string>
-    <string name="license_error_contacting_server">Server ile iletişim kurulumadı</string>
-    <string name="license_over_quota">Bu cihaz ile çok fazla istekte bulunundu</string>
-
-    <string name="device_root_is_required">Root gereklidir</string>
-    <string name="device_root_is_required_summary">En iyi kalite için aygıtınız için root gereklidir.</string>
-    <string name="recording_method_msm">MSM</string>
-    <string name="recording_method_msm_settings">MSM kaydı ayarları</string>
-    <string name="delay_format_sec">%s saniye</string>
-    <string name="delay_for_outgoing">Giden için</string>
-    <string name="delay_for_incoming">Gelen için</string>
-    <string name="settings_for_device">%s için Ayarlar</string>
-    <string name="recording_format">Kayıt formatıFormatı</string>
-    <string name="section_starred">Favori</string>
-    <string name="section_by_label">İsme Göre</string>
-    <string name="section_by_contact">Kişiye göre</string>
-    <string name="section_by_format">Kayıt tipine göre</string>
-    <string name="section_tasks_hint">Zaman alıcı görevler, kayıt çevirme işlemi, şifreleme, buluta yükleme işlemleri burada gözükecektir</string>
-    <string name="action_sort">Sırala</string>
-    <string name="action_delete">Sil</string>
-    <string name="action_refresh">Yenile</string>
-    <string name="action_share">Paylaş</string>
-    <string name="action_cancel_tasks">Görevleri iptal et</string>
-    <string name="terms_of_use_message">Bu uygulamayı kullanarak, CallRecorder'ın  &lt;a href=http://rec.sh/terms&gt;kullanım şartlarını&lt;/a&gt;. kabul etmiş sayılırsınız.</string>
-
-    </resources>
+    
+    
+    
+    
+    
+    
+    
+    
+</resources>

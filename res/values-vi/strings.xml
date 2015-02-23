@@ -30,9 +30,15 @@
     
     
     
+    
     <string name="action_select_all">Chọn tất cả</string>
     
     
+    
+    
+    
+
+    <!--Import settings -->
     
 
     <!-- List -->
@@ -83,6 +89,7 @@
     <string name="recorded_calls">Các cuộc gọi ghi âm</string>
 
     <!--  Settings -> Headers -->
+    
     <string name="settings_recording">Ghi âm</string>
     <string name="settings_folders_and_files">Thư mục và tệp tin</string>
     <string name="settings_ui_and_appearance">Giao diện và hiển thị</string>
@@ -109,7 +116,8 @@
     
     
     
-
+    
+    
     <string name="buy_full_version">Mua bản đầy đủ</string>
     <string name="buy_full_version_summary">Phiên bản hiện tại sẽ hết hạn vào %s</string>
 
@@ -180,6 +188,13 @@
     <string name="api_source_voice_communication">Đường âm thanh qua Voice-communication</string>
     <string name="category_wav_settings">Cài đặt WAV</string>
     
+    <string name="when_bt_connected">Khi kết nối BT ...</string>
+    <string name="audio_source_when_bt_connected">Nguồn âm thanh khi kết nối BT</string>
+
+    <!-- Actions when BT connected -->
+    <string name="when_bt_connected_do_nothing">Không làm gì cả</string>
+    <string name="when_bt_connected_switch_source">Đổi nguồn âm thanh</string>
+    <string name="when_bt_connected_disable_recording">Không ghi âm</string>
 
     <!-- Settings -> Recording -> CAF -->
     <string name="recording_mode">Chế độ ghi âm</string>
@@ -200,6 +215,7 @@
     <!-- Settings -> Recording -> Exceptions -->
     
     <string name="exception_group">Nhóm</string>
+    
     <string name="exception_select_group">Chọn nhóm</string>
     
     
@@ -218,6 +234,8 @@
 
     <!-- Settings -> Folders and Files -->
     <string name="folder">Thư mục</string>
+    
+    
     
     <string name="automatic_cleanup">Tự động dọn dẹp</string>
     <string name="max_number_of_files">Số tệp tin tối đa</string>
@@ -253,6 +271,8 @@
     <string name="show_notification">Hiển thị thông báo</string>
     
     
+    
+    
     <string name="incall_control_for_outgoing">Cho cuộc gọi đi</string>
     
     <string name="incall_control_for_incoming">Cho cuộc gọi đến</string>
@@ -270,6 +290,9 @@
     
     
     
+    <string name="category_main_screen">Màn hình chính</string>
+    
+    
 
     <!-- Settings -> Cloud -->
     
@@ -285,6 +308,11 @@
     
 
     <!-- Notification -->
+    
+    
+    
+    
+    
     
     
 
@@ -342,11 +370,13 @@
     <string name="root_access_yes">Có</string>
     <string name="dual_sim_phone">Điện thoại 2 Sim</string>
     <string name="dual_sim_phone_summary">Bật lên nếu ứng dụng không thể xác định cuộc gọi từ Sim thứ 2</string>
+    
 
     <!-- General -->
     <string name="contact_unknown">Không nhận biết</string>
     
     <string name="button_ok">Chấp nhận</string>
+    
     
     <string name="button_edit">Chỉnh sửa</string>
     <string name="button_cancel">Hủy</string>
@@ -360,13 +390,19 @@
     
     
     
-    <string name="please_wait">Vui lòng chờ...</string>
     
+    <string name="please_wait">Vui lòng chờ...</string>
     <string name="start_recording">Bắt đầu ghi âm</string>
     <string name="stop_recording">Ngừng ghi âm</string>
     
     <string name="switch_on">Mở</string>
     <string name="switch_off">Tắt</string>
+
+    <!--Toasts-->
+    
+    
+    
+    
 
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">Ghi âm cuộc gọi này</string>
@@ -389,16 +425,12 @@
     <string name="about_many_thanks">Cám ơn nhiều</string>
     <string name="about_many_thanks_summary">đến Alexey Subbotin (avs234)</string>
 
-    <!--About -> Licenses-->
-    <string name="licenses">Các giấy phép</string>
-    <string name="about_open_core_amr_license">opencore-amr</string>
-    <string name="about_open_core_amr_license_summary">Sử dụng opencore-amr dưới giấy phép Apache phiên bản 2.0, chọn vào đây để thăm opencore-amr.sourceforge.net</string>
-    <string name="about_alsa">ALSA</string>
-    <string name="about_alsa_summary">Sử dụng ALSA dưới giấy phép LGPL, chọn vào đây để thăm alsa-project.org</string>
-    <string name="about_lame">LAME</string>
-    <string name="about_lame_summary">Sử dụng LAME dưới giấy phép LGPL, chọn vào đây để thăm mp3dev.org</string>
+    <!--About -> Other-->
+    
+    
 
-    <!--Credits-->
+    <!--About -> Translators-->
+    
     <string name="german_translation">Bản dịch tiếng Đức</string>
     <string name="german_translation_summary">bởi Marc Hillesheim và Thomas Käfer</string>
     <string name="polish_translation">Bản dịch tiếng Ba Lan</string>
@@ -465,4 +497,12 @@
     <string name="belarusian_translation_summary">bởi Alexander Kuvshinov</string>
     <string name="vietnamese_translation">Bản dịch tiếng Việt</string>
     <string name="vietnamese_translation_summary">bởi Trương Hoàng Trung</string>
+    
+    
+    
+    
+    
+    
+    
+    
 </resources>

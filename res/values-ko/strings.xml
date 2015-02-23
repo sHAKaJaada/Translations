@@ -30,9 +30,15 @@
     
     
     
+    
     <string name="action_select_all">모두 선택</string>
     
     
+    
+    
+    
+
+    <!--Import settings -->
     
 
     <!-- List -->
@@ -83,6 +89,7 @@
     <string name="recorded_calls">녹음된 통화</string>
 
     <!--  Settings -> Headers -->
+    
     <string name="settings_recording">녹음</string>
     <string name="settings_folders_and_files">폴더 및 파일</string>
     <string name="settings_ui_and_appearance">인터페이스 및 모양새</string>
@@ -109,7 +116,8 @@
     
     
     
-
+    
+    
     <string name="buy_full_version">정식 버전 구입</string>
     <string name="buy_full_version_summary">현재 버전은 %s 에 만료됩니다.</string>
 
@@ -180,6 +188,13 @@
     <string name="api_source_voice_communication">음성 통신</string>
     <string name="category_wav_settings">WAV 설정</string>
     
+    <string name="when_bt_connected">BT 연결시...</string>
+    <string name="audio_source_when_bt_connected">BT 연결시 오디오 소스</string>
+
+    <!-- Actions when BT connected -->
+    <string name="when_bt_connected_do_nothing">작업 없음</string>
+    <string name="when_bt_connected_switch_source">오디오 소스 전환</string>
+    <string name="when_bt_connected_disable_recording">녹음 비활성화</string>
 
     <!-- Settings -> Recording -> CAF -->
     
@@ -200,6 +215,7 @@
     <!-- Settings -> Recording -> Exceptions -->
     
     <string name="exception_group">그룹</string>
+    
     <string name="exception_select_group">그룹 선택</string>
     
     
@@ -218,6 +234,8 @@
 
     <!-- Settings -> Folders and Files -->
     <string name="folder">폴더</string>
+    
+    
     
     <string name="automatic_cleanup">자동 정리</string>
     <string name="max_number_of_files">파일의 최대 개수</string>
@@ -253,6 +271,8 @@
     <string name="show_notification">알림 표시</string>
     
     
+    
+    
     <string name="incall_control_for_outgoing">발신 통화</string>
     
     <string name="incall_control_for_incoming">수신 통화</string>
@@ -270,6 +290,9 @@
     
     
     
+    <string name="category_main_screen">메인 화면</string>
+    
+    
 
     <!-- Settings -> Cloud -->
     
@@ -285,6 +308,11 @@
     
 
     <!-- Notification -->
+    
+    
+    
+    
+    
     
     
 
@@ -342,11 +370,13 @@
     <string name="root_access_yes">승인</string>
     <string name="dual_sim_phone">듀얼 SIM 지원 단말</string>
     <string name="dual_sim_phone_summary">2번째 SIM의 회선으로부터 온 전화를 판별하지 못하는 경우 선택하십시오.</string>
+    
 
     <!-- General -->
     <string name="contact_unknown">알 수 없음</string>
     
     <string name="button_ok">확인</string>
+    
     
     <string name="button_edit">편집</string>
     <string name="button_cancel">취소</string>
@@ -360,10 +390,16 @@
     
     
     
-    <string name="please_wait">잠시 기다려 주십시오...</string>
     
+    <string name="please_wait">잠시 기다려 주십시오...</string>
     <string name="start_recording">녹음 시작</string>
     <string name="stop_recording">녹음 중지</string>
+    
+    
+    
+
+    <!--Toasts-->
+    
     
     
     
@@ -389,16 +425,12 @@
     <string name="about_many_thanks">특별 감사</string>
     <string name="about_many_thanks_summary">Alexey Subbotin (avs234)</string>
 
-    <!--About -> Licenses-->
-    <string name="licenses">라이센스</string>
-    <string name="about_open_core_amr_license">Opencore-AMR</string>
-    <string name="about_open_core_amr_license_summary">Apache 라이센스 버전 2.0 하에 Opencore-AMR 을 사용합니다. 여기를 터치하여 opencore-amr.sourceforge.net 을 방문합니다.</string>
-    <string name="about_alsa">ALSA</string>
-    <string name="about_alsa_summary">LGPL 하에 ALSA 를 사용합니다. 여기를 터치하여 alsa-project.org 를 방문합니다.</string>
-    <string name="about_lame">LAME</string>
-    <string name="about_lame_summary">LAME 하에 LGPL 을 사용합니다, 여기를 터치하여 mp3dev.org 를 방문하세요.</string>
+    <!--About -> Other-->
+    
+    
 
-    <!--Credits-->
+    <!--About -> Translators-->
+    
     <string name="german_translation">독일어 번역</string>
     <string name="german_translation_summary">Marc Hillesheim and Thomas Käfer</string>
     <string name="polish_translation">폴란드어 번역</string>
@@ -455,6 +487,14 @@
     <string name="georgian_translation_summary">Alexandre Razmadze</string>
     <string name="catalan_translation">카탈로니아어 번역</string>
     <string name="catalan_translation_summary">cybdani</string>
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     

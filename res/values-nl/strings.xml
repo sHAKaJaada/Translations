@@ -30,9 +30,15 @@
     
     
     
+    
     <string name="action_select_all">Selecteer alles</string>
     
     
+    
+    
+    
+
+    <!--Import settings -->
     
 
     <!-- List -->
@@ -83,6 +89,7 @@
     <string name="recorded_calls">Opgenomen gesprekken</string>
 
     <!--  Settings -> Headers -->
+    
     <string name="settings_recording">Opname</string>
     <string name="settings_folders_and_files">Mappen en Bestanden</string>
     <string name="settings_ui_and_appearance">Interface en Weergave</string>
@@ -109,7 +116,8 @@
     
     
     
-
+    
+    
     <string name="buy_full_version">Koop volledige versie</string>
     <string name="buy_full_version_summary">Huidige versie verloopt op %s</string>
 
@@ -180,6 +188,13 @@
     <string name="api_source_voice_communication">Voice communicatie</string>
     <string name="category_wav_settings">WAV instellingen</string>
     
+    <string name="when_bt_connected">Indien BT is verbonden...</string>
+    <string name="audio_source_when_bt_connected">audiobron indien BT verbonden is</string>
+
+    <!-- Actions when BT connected -->
+    <string name="when_bt_connected_do_nothing">Doe niets</string>
+    <string name="when_bt_connected_switch_source">Wissel audio bron</string>
+    <string name="when_bt_connected_disable_recording">opnemen uitschakelen</string>
 
     <!-- Settings -> Recording -> CAF -->
     
@@ -200,6 +215,7 @@
     <!-- Settings -> Recording -> Exceptions -->
     
     <string name="exception_group">Group</string>
+    
     <string name="exception_select_group">Selecteer groep</string>
     
     
@@ -218,6 +234,8 @@
 
     <!-- Settings -> Folders and Files -->
     <string name="folder">Map</string>
+    
+    
     
     <string name="automatic_cleanup">Automatisch opruimen</string>
     <string name="max_number_of_files">Max. aantal bestanden</string>
@@ -253,6 +271,8 @@
     <string name="show_notification">Laat notificatie zien</string>
     
     
+    
+    
     <string name="incall_control_for_outgoing">Voor uitgaande gesprekken</string>
     
     <string name="incall_control_for_incoming">voor inkomende gesprekken</string>
@@ -270,6 +290,9 @@
     
     
     
+    <string name="category_main_screen">Hoofdscherm</string>
+    
+    
 
     <!-- Settings -> Cloud -->
     
@@ -285,6 +308,11 @@
     
 
     <!-- Notification -->
+    
+    
+    
+    
+    
     
     
 
@@ -342,11 +370,13 @@
     <string name="root_access_yes">Ja</string>
     <string name="dual_sim_phone">Dual Sim Telefoon</string>
     <string name="dual_sim_phone_summary">Schakel dit aan als de app geen gesprekken van de 2e simkaart kan vaststellen</string>
+    
 
     <!-- General -->
     <string name="contact_unknown">Onbekend</string>
     
     <string name="button_ok">OK</string>
+    
     
     <string name="button_edit">Wijzig</string>
     <string name="button_cancel">Annuleren</string>
@@ -360,13 +390,19 @@
     
     
     
-    <string name="please_wait">Wacht aub...</string>
     
+    <string name="please_wait">Wacht aub...</string>
     <string name="start_recording">Start recording</string>
     <string name="stop_recording">Stop recording</string>
     
     <string name="switch_on">Aan</string>
     <string name="switch_off">Uit</string>
+
+    <!--Toasts-->
+    
+    
+    
+    
 
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">Neem dit gesprek op</string>
@@ -389,16 +425,12 @@
     <string name="about_many_thanks">Veel dank</string>
     <string name="about_many_thanks_summary">aan Alexey Subbotin (avs234)</string>
 
-    <!--About -> Licenses-->
-    <string name="licenses">Licenties</string>
-    <string name="about_open_core_amr_license">opencore-amr</string>
-    <string name="about_open_core_amr_license_summary">Gebruikt opencore-arm onder Apache licentie versie 2.0, klik hier om naar opencore-amr.sourceforge.net te gaan</string>
-    <string name="about_alsa">ALSA</string>
-    <string name="about_alsa_summary">Gebruikt ALSA onder LGPL, klik hier om hun site te bezoeken alsa-project.org</string>
-    <string name="about_lame">LAME</string>
-    <string name="about_lame_summary">Gebruikt LAME onder LGPL, klik hier om naar mp3dev.org te gaan</string>
+    <!--About -> Other-->
+    
+    
 
-    <!--Credits-->
+    <!--About -> Translators-->
+    
     <string name="german_translation">Duitse vertaling</string>
     
     <string name="polish_translation">Poolse vertaling</string>
@@ -455,6 +487,14 @@
     <string name="georgian_translation_summary">door Alexandre Razmadze</string>
     <string name="catalan_translation">Catalaanse vertaling</string>
     <string name="catalan_translation_summary">door cybdani</string>
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     

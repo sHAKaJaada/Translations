@@ -1,56 +1,62 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">Conditions d\'utilisation</string>
-    
+    <string name="terms_of_use_message">En utilisant cette application, vous acceptez les &lt;a href=http://rec.sh/terms&gt;Conditions d\'utilisation&lt;/a&gt; de CallRecorder.</string>
 
     <!-- Navigation drawer -->
-    
-    
+    <string name="navigation_drawer_open">Ouvrir le tiroir de navigation</string>
+    <string name="navigation_drawer_close">Fermer le tiroir de navigation</string>
 
     <!-- Navigation drawer sections -->
-    
-    
+    <string name="section_all_recordings">Tous les enregistrements</string>
+    <string name="section_starred">Etoilés</string>
     <string name="section_incoming">Entrants</string>
     <string name="section_outgoing">Sortants</string>
-    
-    
-    
+    <string name="section_by_contact">Par contact</string>
+    <string name="section_by_format">Par format</string>
+    <string name="section_by_label">Par étiquette</string>
     <string name="section_help">Aide</string>
     <string name="section_tasks">Tâches</string>
-    
+    <string name="section_tasks_hint">Les tâches prenant du temps durant l\'enregistrement, telles que la conversion, le cryptage, ou la mise en ligne sur un nuage (cloud) seront affichées ici</string>
     <string name="empty_hint">Vide</string>
 
     <!-- Action bar -->
     <string name="action_search">Rechercher</string>
-    
+    <string name="action_sort">Trier</string>
     <string name="action_settings">Réglages</string>
-    
-    
-    
-    
-    
+    <string name="action_refresh">Rafraîchir</string>
+    <string name="action_delete">Effacer</string>
+    <string name="action_add_star">Mettre une étoile</string>
+    <string name="action_remove_star">Enlever l\'étoile</string>
+    <string name="action_share">Partager</string>
+    <string name="action_cancel_tasks">Annuler les tâches</string>
     <string name="action_select_all">Sélectionner tout</string>
-    
-    
+    <string name="sort_by_date">Par date</string>
+    <string name="sort_by_contact">Par contact</string>
+    <string name="sort_by_file_size">Par taille de fichier</string>
+    <string name="records_size">enregistrements : %1$s, taille : %2$s</string>
+    <string name="space_free_of">%1$s de libre sur %2$s</string>
+
+    <!--Import settings -->
     
 
     <!-- List -->
-    
-    
-    
-    
+    <string name="list_header_today">Aujourd\'hui</string>
+    <string name="list_header_yesterday">Hier</string>
+    <string name="queued">En attente</string>
+    <string name="no_connection">Pas de connexion</string>
 
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">Ajouter à Dropbox</string>
-    
-    
+    <string name="menu_add_note">Ajouter une note</string>
+    <string name="menu_edit_note">Editer une note</string>
     <string name="menu_delete">Effacer</string>
-    
-    
-    
+    <string name="menu_share">Partager</string>
+    <string name="menu_convert_to_mp3">Convertir en MP3</string>
+    <string name="menu_convert_to_amr">Convertir en AMR</string>
     <string name="menu_get_info">Informations</string>
-    
+    <string name="menu_cancel_task">Annuler la tâche</string>
     <string name="menu_encrypt">Cryptage</string>
     <string name="menu_decrypt">Décryptage</string>
 
@@ -58,7 +64,7 @@
     <string name="file_name">Nom de fichier</string>
     <string name="sample_rate">Echantillonage</string>
     <string name="sample_rate_hz">Hz</string>
-    
+    <string name="recording_type">Type d\'enregistrement</string>
     <string name="recording_type_mono">Mono</string>
     <string name="recording_type_stereo">Stéréo</string>
     <string name="file_size">Taille du fichier</string>
@@ -67,7 +73,7 @@
     <string name="megabyte">Mo</string>
     <string name="kilobyte">Ko</string>
     <string name="bytes">octets</string>
-    
+    <string name="note">Note</string>
 
     <!-- List -> Get info dialog -> Edit -->
     <string name="contact_name">Nom du contact</string>
@@ -75,41 +81,43 @@
 
     <!-- List -> Confirm delete dialog -->
     <string name="confirm_delete_message">Êtes-vous sûr de vouloir effacer cet enregistrement ?</string>
-    
-    
+    <string name="confirm_delete_several_title">Confirmer l\'effacement</string>
+    <string name="confirm_delete_several_message">Vous avez sélectionné %d enregistrements. Etes-vous sûr de vouloir les effacer ?</string>
 
     <!-- List -> Share -->
-    
+    <string name="share_via">Partager via</string>
     <string name="recorded_calls">Appels enregistrés</string>
 
     <!--  Settings -> Headers -->
+    <string name="settings_open_unlocker">Ouvrir Unlocker</string>
     <string name="settings_recording">Enregistrement</string>
     <string name="settings_folders_and_files">Dossiers et Fichiers</string>
     <string name="settings_ui_and_appearance">Interface et Apparence</string>
     <string name="settings_security">Sécurité</string>
-    
+    <string name="settings_cloud">Nuage (cloud)</string>
     <string name="settings_audio_player">Lecteur audio</string>
     <string name="settings_debug">Débogage</string>
     <string name="settings_about">A propos</string>
 
     <!-- Settings -> License -->
     <string name="license_status">Status de la licence</string>
-    
-    
-    
-    
-    
-    
-    
-    
+    <string name="license_check_pending">Vérification de licence en cours</string>
+    <string name="license_check_failed">Echec de vérification de licence</string>
+    <string name="license_check_failed_summary">Appuyez ici pour plus de détails</string>
+    <string name="license_verified">Licence Vérifiée</string>
+    <string name="license_verified_summary">Appuyez pour masquer</string>
+    <string name="license_help">Aide</string>
+    <string name="license_signature_verification_failed">Echec de vérification de signature</string>
+    <string name="license_error_message">Erreur #%1$s: %2$s</string>
     <string name="license_trial">Version d\'évaluation, expirera le %s</string>
-    
-    
-    
-    
-    
-    
-
+    <string name="license_unknown_error">Erreur inconnue</string>
+    <string name="license_not_market_managed">Cette version n\'est pas encore disponible sur le Play Store</string>
+    <string name="license_incorrect_response">Le Play Store n\'a pas pu renvoyer de licence valide</string>
+    <string name="license_error_contacting_server">Erreur de connexion au serveur</string>
+    <string name="license_server_error">Erreur de serveur</string>
+    <string name="license_over_quota">Trop de requêtes depuis cet appareil</string>
+    <string name="license_trial_expired">Période d\'essai expirée</string>
+    <string name="license_trial_expired_summary">Merci de désinstaller cette version avant d\'acheter la version complète</string>
     <string name="buy_full_version">Acheter la version complète</string>
     <string name="buy_full_version_summary">La version actuelle expirera le %s</string>
 
@@ -118,9 +126,9 @@
     <string name="category_main">Principal</string>
     <string name="device">Appareil</string>
     <string name="select_your_device">Sélectionnez votre appareil</string>
-    
-    
-    
+    <string name="device_change_settings_empty">Les réglages sont déjà effectués sur cet appareil</string>
+    <string name="device_root_is_required">Root requis</string>
+    <string name="device_root_is_required_summary">Pour de meilleurs résultats le root est requis sur cet appareil</string>
     <string name="device_other">Autre</string>
     <string name="recording_method">Méthode d\'enregistrement</string>
     <string name="recording_method_api">API standard</string>
@@ -129,8 +137,8 @@
     <string name="recording_method_caf_settings">Réglages pour l\'enregistrement CAF</string>
     <string name="recording_method_alsa">ALSA</string>
     <string name="recording_method_alsa_settings">Réglages pour la méthode d\'enregistrement ALSA</string>
-    
-    
+    <string name="recording_method_msm">MSM</string>
+    <string name="recording_method_msm_settings">Réglages pour la méthode d\'enregistrement MSM</string>
     <string name="category_actions">Actions</string>
     <string name="action_for_incoming">Action pour les appels entrants</string>
     <string name="action_for_outgoing">Action pour les appels sortants</string>
@@ -144,25 +152,25 @@
     <string name="after_call_actions_dialog_summary">Demander quoi faire après un appel</string>
     <string name="vibrate_on_call">Vibrer quand l\'appel débute / se termine</string>
     <string name="exceptions">Exceptions</string>
-    
-    
-    
+    <string name="exceptions_summary">Définir des actions spécifiques pour les contacts, les groupes, ou les numéros de téléphone</string>
+    <string name="start_recording_on_answer">Démarrer l\'enregistrement à la prise d\'appel</string>
+    <string name="start_recording_on_answer_summary">Démarrer l\'enregistrement quand un appel sortant abouti. L\'appli utilise une astuce non documentée pour détecter le moment où le correspondant répond, ce qui signifie que cette fonction peut ne pas fonctionner sur certains appareils. Le root est requis à partir de Android 4.1 Jelly Bean. Le journal (log) doit être activé dans le noyau (kernel).</string>
     <string name="delay_before_start_recording">Délai avant le début de l\'enregistrement</string>
-    
-    
-    
-    
-    
-    
+    <string name="delay_before_start_recording_summary">Pour l\'entrant : %1$s, pour le sortant : %2$s</string>
+    <string name="delay_format_sec">%s s</string>
+    <string name="delay_for_outgoing">Pour le sortant</string>
+    <string name="delay_for_incoming">Pour l\'entrant</string>
+    <string name="settings_for_device">Réglages pour %s</string>
+    <string name="recording_format">Format d\'enregistrement</string>
     <string name="recording_format_wav">WAV</string>
     <string name="recording_format_amr">AMR</string>
     <string name="recording_format_aac">AAC</string>
     <string name="recording_format_mp3">MP3</string>
     <string name="volume_control">Contrôle du volume</string>
-    
-    
-    
-    
+    <string name="volume_control_summary">Transmission: %1$s, Réception: %2$s</string>
+    <string name="volume_control_overall">Volume global</string>
+    <string name="volume_control_tx">Transmission</string>
+    <string name="volume_control_rx">Réception</string>
     <string name="sample_rate_8000">8000 Hz (Par défaut)</string>
     <string name="sample_rate_11025">11025 Hz</string>
     <string name="sample_rate_16000">16000 Hz</string>
@@ -179,14 +187,21 @@
     <string name="api_source_default">Défaut</string>
     <string name="api_source_voice_communication">Communication vocale</string>
     <string name="category_wav_settings">Réglages WAV</string>
-    
+    <string name="category_wav_and_mp3_settings">Réglages WAV &amp; MP3</string>
+    <string name="when_bt_connected">Quand le bluetooth est connecté...</string>
+    <string name="audio_source_when_bt_connected">Source audio quand le bluetooth est activé</string>
+
+    <!-- Actions when BT connected -->
+    <string name="when_bt_connected_do_nothing">Ne rien faire</string>
+    <string name="when_bt_connected_switch_source">Permuter la source audio</string>
+    <string name="when_bt_connected_disable_recording">Désactiver l\'enregistrement</string>
 
     <!-- Settings -> Recording -> CAF -->
     <string name="recording_mode">Mode d\'enregistrement</string>
 
     <!-- Settings -> Recording -> ALSA -->
-    
-    
+    <string name="alsa_is_not_installed">ALSA doit être installé</string>
+    <string name="alsa_is_not_installed_summary">Appuyez ici pour installer ALSA</string>
 
     <!-- Settings -> Recording -> MSM -->
     <string name="chipset_type">Type de Chipset</string>
@@ -198,26 +213,29 @@
     <string name="dont_use_amr_driver_summary">Convertir le WAV en AMR plutôt en temps réel</string>
 
     <!-- Settings -> Recording -> Exceptions -->
-    
+    <string name="add_exception">Ajouter une exception</string>
     <string name="exception_group">Groupe</string>
+    
     <string name="exception_select_group">Sélectionner un groupe</string>
-    
-    
-    
-    
+    <string name="exception_contact">Contact</string>
+    <string name="exception_select_contact">Sélectionner un contact</string>
+    <string name="exception_phone_number">Numéro de téléphone</string>
+    <string name="exception_action">Action</string>
     <string name="exception_select_action">Sélectionner une action</string>
     <string name="exception_action_always_record">Toujours enregistrer</string>
     <string name="exception_action_never_record">Ne jamais enregistrer</string>
-    
-    
-    
-    
-    
-    
-    
+    <string name="exception_groups_not_found">Groupes introuvables</string>
+    <string name="exception_contacts_not_found">Contacts introuvables</string>
+    <string name="exceptions_not_added">Exceptions non ajoutées</string>
+    <string name="exception_by_contact">Par contact</string>
+    <string name="exception_by_group">Par groupe</string>
+    <string name="exception_by_phone_number">Par numéro de téléphone</string>
+    <string name="exception_delete_message">Etes-vous sûr de vouloir effacer cette exception ?</string>
 
     <!-- Settings -> Folders and Files -->
     <string name="folder">Dossier</string>
+    <string name="folder_chooser_up_to">↑ Jusqu\'à %s</string>
+    
     
     <string name="automatic_cleanup">Nettoyage automatique</string>
     <string name="max_number_of_files">Nombre de fichiers max.</string>
@@ -227,7 +245,7 @@
     <string name="max_age_of_recordings">Age max. des enregistrements</string>
     <string name="max_age_of_recordings_message">Entrez une valeur en jours (0- infini)</string>
     <string name="current_setting">Réglage actuel : %s</string>
-    
+    <string name="settings_filename">Nom de fichier</string>
     <string name="filename_pattern">Modèle</string>
     <string name="time_pattern">Modèle de temps</string>
 
@@ -235,7 +253,7 @@
     <string name="pattern_contact_name">nom du contact</string>
     <string name="pattern_phone_number">numéro de téléphone</string>
     <string name="pattern_call_time">heure de l\'appel</string>
-    
+    <string name="pattern_call_timestamp">horodatage d\'appel (temps unix)</string>
     <string name="pattern_call_type">type d\'appel (entrant ou sortant)</string>
     <string name="time_pattern_hours">heures</string>
     <string name="time_pattern_minutes">minutes</string>
@@ -248,45 +266,55 @@
     <!--Settings -> Interface and Appearance-->
     <string name="language">Langue</string>
     <string name="select_language">Choisir une langue</string>
-    
+    <string name="default_language">Langue par défaut</string>
     <string name="category_notification">Notification</string>
     <string name="show_notification">Afficher une notification</string>
-    
-    
+    <string name="show_notification_summary">Notification permanente dans la barre de status</string>
+    <string name="hide_icon_but_keep_notification">Cacher l\'icône, mais conserver la notification</string>
+    <string name="hide_icon_but_keep_notification_summary">Cacher l\'icône, mais conserver la notification dans la barre de status</string>
+    <string name="category_incall_control_button">Bouton de contrôle durant l\'appel</string>
     <string name="incall_control_for_outgoing">Pour les appels sortants</string>
-    
+    <string name="incall_control_for_outgoing_summary">Montrer le bouton de contrôle durant les appels sortants</string>
     <string name="incall_control_for_incoming">Pour les appels entrants</string>
-    
-    
-    
+    <string name="incall_control_for_incoming_summary">Montrer le bouton de contrôle durant les appels entrants</string>
+    <string name="hide_button_while_recording">Cacher le bouton pendant l\'enregistrement</string>
+    <string name="hide_button_while_recording_summary">cacher le bouton intégré aux appels si l\'appel est en cours d\'enregistrement</string>
     <string name="show_button_while_ringing">Montrer le bouton pendant la sonnerie</string>
     <string name="show_button_while_ringing_summary">Montrer le bouton de contrôle en-cours-d\'appel avant d\'avoir répondu</string>
     <string name="vertical_position">Position verticale</string>
-    
+    <string name="vertical_position_summary">%s dp, décalage par rapport au centre de l\'écran</string>
     <string name="horizontal_position">Position horizontale</string>
-    
-    
+    <string name="horizontal_position_summary">%s dp, décalage par rapport au centre de l\'écran</string>
+    <string name="hide_button_before_answer">Cacher le bouton avant de répondre</string>
     <string name="hide_button_before_answer_summary">Ne pas montrer les boutons de contrôle d\'appel tant que la connexion n\'est pas établie</string>
-    
+    <string name="long_press_action">Action pour l\'appui long</string>
+    <string name="long_press_action_dragging_the_button">Déplacer le bouton</string>
+    <string name="long_press_action_hang_up">Raccrocher et rappeler automatiquement</string>
+    <string name="category_main_screen">Ecran principal</string>
     
     
 
     <!-- Settings -> Cloud -->
-    
+    <string name="cloud_provider">Fournisseur de nuage (cloud)</string>
     <string name="cloud_provider_dropbox">Dropbox</string>
-    
-    
-    
-    
+    <string name="sign_in_dropbox">S\'identifier sur Dropbox</string>
+    <string name="sign_out_dropbox">Se déconnecter de Dropbox</string>
+    <string name="cloud_provider_google_drive">Google Drive</string>
+    <string name="cloud_common_settings">Commun</string>
     <string name="cloud_wifi_only">Wi-Fi uniquement</string>
     <string name="cloud_auto_upload">Upload automatique</string>
     <string name="cloud_auto_upload_summary">Uploader l\'enregistrement juste après l\'appel</string>
-    
-    
+    <string name="cloud_upload_starred">Démarrage de la mise en ligne</string>
+    <string name="cloud_upload_starred_summary">Mettre en ligne un enregistrement sur le nuage (cloud) quand vous y ajoutez une étoile</string>
 
     <!-- Notification -->
-    
-    
+    <string name="notify_uploading_dropbox">Mettre en ligne sur Dropbox</string>
+    <string name="notify_converting_to_amr">Conversion en AMR</string>
+    <string name="notify_converting_to_mp3">Conversion en MP3</string>
+    <string name="notify_encrypting">Cryptage</string>
+    <string name="notify_decrypting">Décryptage</string>
+    <string name="notify_waiting_for_calls">En attente d\'appels</string>
+    <string name="notify_tasks_remaining">%d taches restantes</string>
 
     <!-- Password dialog -->
     <string name="wrong_password">Mot de passe erroné</string>
@@ -297,17 +325,17 @@
     <string name="category_encryption">Cryptage</string>
     <string name="category_application">Application</string>
     <string name="create_new_key">Créer un nouveau code</string>
-    
-    
+    <string name="create_new_key_summary">Ce code sera utilisé plus tard pour crypter les enregistrements ou pour ouvrir l\'appli</string>
+    <string name="delete_key">Effacer le code</string>
     <string name="change_password">Changer le mot de passe</string>
-    
-    
+    <string name="delete_key_summary">Attention ! Vous ne pourrez jamais récupérer les enregistrements cryptés si vous les avez cryptés avec ce code, même si vous créez un nouveau code avec le même mot de passe</string>
+    <string name="delete_key_message">Après effacement vous ne pourrez pas récupérer les enregistrements cryptés avec cette clé. Etes-vous sûr de vouloir continuer ?</string>
     <string name="enter_old_password">Entrer l\'ancien mot de passe</string>
     <string name="enter_new_password">Entrer le nouveau mot de passe</string>
     <string name="re_enter_new_password">Entrer encore le nouveau mot de passe</string>
     <string name="require_password">Mot de passe requis</string>
     <string name="require_password_summary">Mot de passe requis pour ouvrir l\'application</string>
-    
+    <string name="require_password_summary_no_key">Exiger un mot de passe pour ouvrir l\'appli. Pour activer ceci vous devriez d\'abord créer un code</string>
     <string name="lock_after">Verrouiller après</string>
     <string name="lock_after_exit">Sortie de l\'appli</string>
     <string name="lock_after_1_minute">1 min</string>
@@ -315,22 +343,22 @@
     <string name="lock_after_5_minutes">5 min</string>
     <string name="lock_after_10_minutes">10 min</string>
     <string name="app_admin">Administration de l\'application</string>
-    
-    
+    <string name="app_admin_summary">Nécessaire pour empêcher la désinstallation de Call Recorder</string>
+    <string name="app_admin_explanation">Call Recorder n\'utilise aucun privilège administrateur, sauf pour la protection de sa désinstallation</string>
     <string name="aes_128bit">128 bits AES (rapidité)</string>
     <string name="aes_192bit">192 bits AES (équilibre)</string>
     <string name="aes_256bit">256 bits AES (performance)</string>
 
     <!-- Settings -> Audio player -->
-    
+    <string name="use_built_in_player">Utiliser le lecteur de base</string>
     <string name="audio_output">Sortie audio</string>
-    
+    <string name="audio_output_summary">%s (Un appui long sur lecture/pause le permutera également)</string>
     <string name="main_speaker">Haut parleur de sonnerie</string>
     <string name="phone_speaker">Haut parleur du téléphone</string>
     <string name="use_proximity_sensor">Utiliser le capteur de proximité</string>
-    
+    <string name="use_proximity_sensor_summary">Désactiver l\'écran via le capteur de proximité durant la lecture</string>
     <string name="switch_audio_output">Permuter la sortie audio</string>
-    
+    <string name="switch_audio_output_summary">Automatiquement permuter la sotie audio quand l\'écran est désactivé/activé via le capteur de proximité</string>
     <string name="android_wav_decoder">Décodeur Android pour le WAV</string>
     <string name="android_wav_decoder_summary">Utiliser les outils Android d\'origine pour lire le WAV</string>
     <string name="android_amr_decoder">Décodeur Android pour AMR</string>
@@ -342,63 +370,67 @@
     <string name="root_access_yes">Oui</string>
     <string name="dual_sim_phone">Téléphone double sim</string>
     <string name="dual_sim_phone_summary">Activer ceci si l\'appli ne peut pas déterminer les appels de la seconde carte sim</string>
+    <string name="send_logs_to_the_developer">Envoyer les journaux (logs) au développeur</string>
 
     <!-- General -->
     <string name="contact_unknown">Inconnu</string>
-    
+    <string name="button_choose">Choisir</string>
     <string name="button_ok">OK</string>
-    
+    <string name="button_call">Appeler</string>
+    <string name="button_buy">Acheter</string>
     <string name="button_edit">Modifier</string>
     <string name="button_cancel">Annuler</string>
+    <string name="button_create">Créer</string>
+    <string name="button_delete">Effacer</string>
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <string name="button_keep">Conserver</string>
+    <string name="button_play">Lire</string>
+    <string name="button_pause">Pause</string>
+    <string name="button_delete_wait">Effacer (%d)</string>
+    <string name="decline">Refuser</string>
+    <string name="accept">Accepter</string>
+    <string name="call_incoming">Entrant</string>
+    <string name="call_outgoing">Sortant</string>
     <string name="please_wait">Veuillez patienter…</string>
-    
     <string name="start_recording">Démarrer l\'enregistrement</string>
     <string name="stop_recording">Stopper l\'enregistrement</string>
-    
+    <string name="action_mode_selected">%d sélectionné</string>
     <string name="switch_on">Activé</string>
     <string name="switch_off">Désactivé</string>
 
+    <!--Toasts-->
+    <string name="toast_wait_for_operation_to_complete">Attendre qu\'une opération se termine</string>
+    <string name="toast_recording_is_off">Enregistrement désactivé</string>
+    <string name="toast_recording_is_on">Enregistrement activé</string>
+    <string name="toast_file_deleted">Le fichier a bien été effacé</string>
+
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">Enregistrer cet appel</string>
-    
+    <string name="open_contact">Ouvrir le contact</string>
 
     <!--After call actions dialog-->
     <string name="cloud_added">Ajouté</string>
 
     <!--Notification-->
-    
-    
-    
+    <string name="waiting_for_answer">En attente de réponse</string>
+    <string name="recording_in_progress">Enregistrement en cours</string>
+    <string name="no_recording_in_progress">Aucun enregistrement en cours</string>
     <string name="an_error_has_occurred">Une erreur s\'est produite, cet appel ne peut être enregistré</string>
 
     <!--About-->
-    
+    <string name="about_call_recorder">A propos de Call Recorder</string>
     <string name="version">Version</string>
     <string name="copyright">Droits d\'auteur</string>
     <string name="copyright_summary">© %s Alexander Skvortsov (skvalex)</string>
     <string name="about_many_thanks">Remerciements</string>
     <string name="about_many_thanks_summary">à Alexey Subbotin (avs234)</string>
 
-    <!--About -> Licenses-->
-    <string name="licenses">Licences</string>
-    <string name="about_open_core_amr_license">opencore-amr</string>
-    <string name="about_open_core_amr_license_summary">Utilise opencore-amr sous licence Apache 2.0. Cliquez ici pour visiter opencore-amr.sourceforge.net</string>
-    <string name="about_alsa">ALSA</string>
-    <string name="about_alsa_summary">Utilise ALSA sous LGPL, cliquez ici pour visiter alsa-project.org</string>
-    <string name="about_lame">LAME</string>
-    <string name="about_lame_summary">LAME utilisé sous licence LGPL, cliquez ici pour visiter mp3dev.org</string>
+    <!--About -> Other-->
+    
+    
 
-    <!--Credits-->
+    <!--About -> Translators-->
+    
     <string name="german_translation">Traduction allemande</string>
     <string name="german_translation_summary">par Marc Hilleshiem et Thomas Käfer</string>
     <string name="polish_translation">Traduction polonaise</string>
@@ -412,11 +444,11 @@
     <string name="slovak_translation">Traduction slovaque</string>
     <string name="slovak_translation_summary">par Lorànt Gerencsér</string>
     <string name="italian_translation">Traduction italienne</string>
-    
+    <string name="italian_translation_summary">par Luca Trevisan et Francesco Cafagna</string>
     <string name="persian_translation">Traduction perse</string>
     <string name="persian_translation_summary">par Alireza Afkar</string>
     <string name="chinese_translation">Traduction chinoise</string>
-    
+    <string name="chinese_translation_summary">par qhq et Yu Fei</string>
     <string name="czech_translation">Traduction tchèque</string>
     <string name="czech_translation_summary">par Ales Kerner et Lukas Waldauf</string>
     <string name="arabic_translation">Traduction arabe</string>
@@ -461,181 +493,6 @@
     <string name="punjabi_translation_summary">par Raj Verma</string>
     <string name="finnish_translation">Traduction Finlandaise</string>
     <string name="finnish_translation_summary">par Eero Linnainmaa</string>
-    
-    
-    
-    
-<string name="terms_of_use_message">En utilisant cette application, vous acceptez les &lt;a href=http://rec.sh/terms&gt;Conditions d'utilisation&lt;/a&gt; de CallRecorder.</string>
-
-    <string name="navigation_drawer_open">Ouvrir le tiroir de navigation</string>
-    <string name="navigation_drawer_close">Fermer le tiroir de navigation</string>
-
-    <string name="section_all_recordings">Tous les enregistrements</string>
-    <string name="section_starred">Etoilés</string>
-    <string name="section_by_contact">Par contact</string>
-    <string name="section_by_format">Par format</string>
-    <string name="section_by_label">Par étiquette</string>
-    <string name="section_tasks_hint">Les tâches prenant du temps durant l\'enregistrement, telles que la conversion, le cryptage, ou la mise en ligne sur un nuage (cloud) seront affichées ici</string>
-    <string name="action_sort">Trier</string>
-    <string name="action_refresh">Rafraîchir</string>
-    <string name="action_delete">Effacer</string>
-    <string name="action_add_star">Mettre une étoile</string>
-    <string name="action_remove_star">Enlever l\'étoile</string>
-    <string name="action_share">Partager</string>
-    <string name="action_cancel_tasks">Annuler les tâches</string>
-    <string name="sort_by_date">Par date</string>
-    <string name="sort_by_contact">Par contact</string>
-    <string name="sort_by_file_size">Par taille de fichier</string>
-    <string name="records_size">enregistrements : %1$s, taille : %2$s</string>
-    <string name="space_free_of">%1$s de libre sur %2$s</string>
-
-    <string name="list_header_today">Aujourd\'hui</string>
-    <string name="list_header_yesterday">Hier</string>
-    <string name="queued">En attente</string>
-    <string name="no_connection">Pas de connexion</string>
-
-    <string name="menu_add_note">Ajouter une note</string>
-    <string name="menu_edit_note">Editer une note</string>
-    <string name="menu_share">Partager</string>
-    <string name="menu_convert_to_mp3">Convertir en MP3</string>
-    <string name="menu_convert_to_amr">Convertir en AMR</string>
-    <string name="menu_cancel_task">Annuler la tâche</string>
-    <string name="recording_type">Type d\'enregistrement</string>
-    <string name="note">Note</string>
-
-    <string name="confirm_delete_several_title">Confirmer l\'effacement</string>
-    <string name="confirm_delete_several_message">Vous avez sélectionné %d enregistrements. Etes-vous sûr de vouloir les effacer ?</string>
-
-    <string name="share_via">Partager via</string>
-    <string name="settings_cloud">Nuage (cloud)</string>
-    <string name="license_check_pending">Vérification de licence en cours</string>
-    <string name="license_check_failed">Echec de vérification de licence</string>
-    <string name="license_check_failed_summary">Appuyez ici pour plus de détails</string>
-    <string name="license_verified">Licence Vérifiée</string>
-    <string name="license_verified_summary">Appuyez pour masquer</string>
-    <string name="license_help">Aide</string>
-    <string name="license_signature_verification_failed">Echec de vérification de signature</string>
-    <string name="license_error_message">Erreur #%1$s: %2$s</string>
-    <string name="license_unknown_error">Erreur inconnue</string>
-    <string name="license_not_market_managed">Cette version n\'est pas encore disponible sur le Play Store</string>
-    <string name="license_incorrect_response">Le Play Store n\'a pas pu renvoyer de licence valide</string>
-    <string name="license_error_contacting_server">Erreur de connexion au serveur</string>
-    <string name="license_server_error">Erreur de serveur</string>
-    <string name="license_over_quota">Trop de requêtes depuis cet appareil</string>
-
-    <string name="device_change_settings_empty">Les réglages sont déjà effectués sur cet appareil</string>
-    <string name="device_root_is_required">Root requis</string>
-    <string name="device_root_is_required_summary">Pour de meilleurs résultats le root est requis sur cet appareil</string>
-    <string name="recording_method_msm">MSM</string>
-    <string name="recording_method_msm_settings">Réglages pour la méthode d\'enregistrement MSM</string>
-    <string name="exceptions_summary">Définir des actions spécifiques pour les contacts, les groupes, ou les numéros de téléphone</string>
-    <string name="start_recording_on_answer">Démarrer l\'enregistrement à la prise d\'appel</string>
-    <string name="start_recording_on_answer_summary">Démarrer l\'enregistrement quand un appel sortant abouti. L\'appli utilise une astuce non documentée pour détecter le moment où le correspondant répond, ce qui signifie que cette fonction peut ne pas fonctionner sur certains appareils. Le root est requis à partir de Android 4.1 Jelly Bean. Le journal (log) doit être activé dans le noyau (kernel).</string>
-    <string name="delay_before_start_recording_summary">Pour l\'entrant : %1$s, pour le sortant : %2$s</string>
-    <string name="delay_format_sec">%s s</string>
-    <string name="delay_for_outgoing">Pour le sortant</string>
-    <string name="delay_for_incoming">Pour l\'entrant</string>
-    <string name="settings_for_device">Réglages pour %s</string>
-    <string name="recording_format">Format d\'enregistrement</string>
-    <string name="volume_control_summary">Transmission: %1$s, Réception: %2$s</string>
-    <string name="volume_control_overall">Volume global</string>
-    <string name="volume_control_tx">Transmission</string>
-    <string name="volume_control_rx">Réception</string>
-    <string name="category_wav_and_mp3_settings">Réglages WAV &amp; MP3</string>
-
-    <string name="alsa_is_not_installed">ALSA doit être installé</string>
-    <string name="alsa_is_not_installed_summary">Appuyez ici pour installer ALSA</string>
-
-    <string name="add_exception">Ajouter une exception</string>
-    <string name="exception_contact">Contact</string>
-    <string name="exception_select_contact">Sélectionner un contact</string>
-    <string name="exception_phone_number">Numéro de téléphone</string>
-    <string name="exception_action">Action</string>
-    <string name="exception_groups_not_found">Groupes introuvables</string>
-    <string name="exception_contacts_not_found">Contacts introuvables</string>
-    <string name="exceptions_not_added">Exceptions non ajoutées</string>
-    <string name="exception_by_contact">Par contact</string>
-    <string name="exception_by_group">Par groupe</string>
-    <string name="exception_by_phone_number">Par numéro de téléphone</string>
-    <string name="exception_delete_message">Etes-vous sûr de vouloir effacer cette exception ?</string>
-
-    <string name="folder_chooser_up_to">↑ Jusqu\'à %s</string>
-    <string name="settings_filename">Nom de fichier</string>
-    <string name="pattern_call_timestamp">horodatage d\'appel (temps unix)</string>
-    <string name="default_language">Langue par défaut</string>
-    <string name="show_notification_summary">Notification permanente dans la barre de status</string>
-    <string name="hide_icon_but_keep_notification">Cacher l\'icône, mais conserver la notification</string>
-    <string name="hide_icon_but_keep_notification_summary">Cacher l\'icône, mais conserver la notification dans la barre de status</string>
-    <string name="category_incall_control_button">Bouton de contrôle durant l\'appel</string>
-    <string name="incall_control_for_outgoing_summary">Montrer le bouton de contrôle durant les appels sortants</string>
-    <string name="incall_control_for_incoming_summary">Montrer le bouton de contrôle durant les appels entrants</string>
-    <string name="hide_button_while_recording">Cacher le bouton pendant l\'enregistrement</string>
-    <string name="hide_button_while_recording_summary">cacher le bouton intégré aux appels si l\'appel est en cours d\'enregistrement</string>
-    <string name="vertical_position_summary">%s dp, décalage par rapport au centre de l\'écran</string>
-    <string name="horizontal_position_summary">%s dp, décalage par rapport au centre de l\'écran</string>
-    <string name="hide_button_before_answer">Cacher le bouton avant de répondre</string>
-    <string name="long_press_action">Action pour l\'appui long</string>
-    <string name="long_press_action_dragging_the_button">Déplacer le bouton</string>
-    <string name="long_press_action_hang_up">Raccrocher et rappeler automatiquement</string>
-
-    <string name="cloud_provider">Fournisseur de nuage (cloud)</string>
-    <string name="sign_in_dropbox">S\'identifier sur Dropbox</string>
-    <string name="sign_out_dropbox">Se déconnecter de Dropbox</string>
-    <string name="cloud_provider_google_drive">Google Drive</string>
-    <string name="cloud_common_settings">Commun</string>
-    <string name="cloud_upload_starred">Démarrage de la mise en ligne</string>
-    <string name="cloud_upload_starred_summary">Mettre en ligne un enregistrement sur le nuage (cloud) quand vous y ajoutez une étoile</string>
-
-    <string name="notify_uploading_dropbox">Mettre en ligne sur Dropbox</string>
-    <string name="notify_converting_to_amr">Conversion en AMR</string>
-    <string name="notify_converting_to_mp3">Conversion en MP3</string>
-    <string name="notify_encrypting">Cryptage</string>
-    <string name="notify_decrypting">Décryptage</string>
-    <string name="notify_waiting_for_calls">En attente d\'appels</string>
-    <string name="notify_tasks_remaining">%d taches restantes</string>
-
-    <string name="create_new_key_summary">Ce code sera utilisé plus tard pour crypter les enregistrements ou pour ouvrir l\'appli</string>
-    <string name="delete_key">Effacer le code</string>
-    <string name="delete_key_summary">Attention ! Vous ne pourrez jamais récupérer les enregistrements cryptés si vous les avez cryptés avec ce code, même si vous créez un nouveau code avec le même mot de passe</string>
-    <string name="delete_key_message">Après effacement vous ne pourrez pas récupérer les enregistrements cryptés avec cette clé. Etes-vous sûr de vouloir continuer ?</string>
-    <string name="require_password_summary_no_key">Exiger un mot de passe pour ouvrir l\'appli. Pour activer ceci vous devriez d\'abord créer un code</string>
-    <string name="app_admin_summary">Nécessaire pour empêcher la désinstallation de Call Recorder</string>
-    <string name="app_admin_explanation">Call Recorder n\'utilise aucun privilège administrateur, sauf pour la protection de sa désinstallation</string>
-    <string name="use_built_in_player">Utiliser le lecteur de base</string>
-    <string name="audio_output_summary">%s (Un appui long sur lecture/pause le permutera également)</string>
-    <string name="use_proximity_sensor_summary">Désactiver l\'écran via le capteur de proximité durant la lecture</string>
-    <string name="switch_audio_output_summary">Automatiquement permuter la sotie audio quand l\'écran est désactivé/activé via le capteur de proximité</string>
-    <string name="send_logs_to_the_developer">Envoyer les journaux (logs) au développeur</string>
-
-    <string name="button_choose">Choisir</string>
-    <string name="button_call">Appeler</string>
-    <string name="button_create">Créer</string>
-    <string name="button_delete">Effacer</string>
-    <string name="button_keep">Conserver</string>
-    <string name="button_play">Lire</string>
-    <string name="button_pause">Pause</string>
-    <string name="button_delete_wait">Effacer (%d)</string>
-    <string name="decline">Refuser</string>
-    <string name="accept">Accepter</string>
-    <string name="call_incoming">Entrant</string>
-    <string name="call_outgoing">Sortant</string>
-    <string name="action_mode_selected">%d sélectionné</string>
-    <string name="toast_wait_for_operation_to_complete">Attendre qu\'une opération se termine</string>
-    <string name="toast_recording_is_off">Enregistrement désactivé</string>
-    <string name="toast_recording_is_on">Enregistrement activé</string>
-    <string name="toast_file_deleted">Le fichier a bien été effacé</string>
-
-
-    <string name="open_contact">Ouvrir le contact</string>
-
-    <string name="waiting_for_answer">En attente de réponse</string>
-    <string name="recording_in_progress">Enregistrement en cours</string>
-    <string name="no_recording_in_progress">Aucun enregistrement en cours</string>
-    <string name="about_call_recorder">A propos de Call Recorder</string>
-    <string name="about_ion_license">Ion</string>
-    <string name="about_ion_license_summary">Utilise Ios sous licence Apache Version 2.0, cliquez ici pour accéder à github.com/koush/ion</string>
-    <string name="italian_translation_summary">par Luca Trevisan et Francesco Cafagna</string>
-    <string name="chinese_translation_summary">par qhq et Yu Fei</string>
     <string name="belarusian_translation">Traduction biélorusse</string>
     <string name="belarusian_translation_summary">par Alexander Kuvshinov</string>
     <string name="vietnamese_translation">Traduction vietnamienne</string>
@@ -648,9 +505,4 @@
     <string name="tamil_translation_summary">par Ashish Sharma</string>
     <string name="greek_translation">Traduction grèque</string>
     <string name="greek_translation_summary">par Lefteris (SomniusX) Eliades</string>
-<string name="settings_open_unlocker">Ouvrir Unlocker</string>
-    <string name="license_trial_expired">Période d\'essai expirée</string>
-    <string name="license_trial_expired_summary">Merci de désinstaller cette version avant d\'acheter la version complète</string>
-
-    <string name="button_buy">Acheter</string>
-    </resources>
+</resources>

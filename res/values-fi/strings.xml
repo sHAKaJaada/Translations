@@ -1,16 +1,16 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CallRecorder</string>
-    
-    
+    <string name="terms_of_use">Käyttöehdot</string>
+    <string name="terms_of_use_message">Käyttämällä tätä ohjelmaa, hyväksyt CallRecorderin &lt;a href=http://rec.sh/terms&gt;käyttöehdot&lt;/a&gt;.</string>
 
     <!-- Navigation drawer -->
     
     
 
     <!-- Navigation drawer sections -->
-    
-    
+    <string name="section_all_recordings">Kaikki nauhoitukset</string>
+    <string name="section_starred">Suosikit</string>
     <string name="section_incoming">Saapuva</string>
     <string name="section_outgoing">Lähtevä</string>
     
@@ -25,7 +25,8 @@
     <string name="action_search">Etsi</string>
     
     <string name="action_settings">Asetukset</string>
-    
+    <string name="action_refresh">Päivitä</string>
+    <string name="action_delete">Poista</string>
     
     
     
@@ -33,6 +34,11 @@
     <string name="action_select_all">Valitse kaikki</string>
     
     
+    
+    
+    
+
+    <!--Import settings -->
     
 
     <!-- List -->
@@ -83,6 +89,7 @@
     <string name="recorded_calls">Nauhoitetut puhelut</string>
 
     <!--  Settings -> Headers -->
+    
     <string name="settings_recording">Tallennetaan</string>
     <string name="settings_folders_and_files">Kansiot ja Tiedostot</string>
     <string name="settings_ui_and_appearance">Käyttöliittymä ja Ulkonäkö</string>
@@ -109,7 +116,8 @@
     
     
     
-
+    
+    
     <string name="buy_full_version">Osta täysversio</string>
     <string name="buy_full_version_summary">Tämänhetkinen versio umpeutuu %s</string>
 
@@ -180,6 +188,13 @@
     <string name="api_source_voice_communication">Voice communication</string>
     <string name="category_wav_settings">WAV Asetukset</string>
     
+    <string name="when_bt_connected">Kun BT yhdistetään...</string>
+    <string name="audio_source_when_bt_connected">Äänilähde kun BT yhdistetty</string>
+
+    <!-- Actions when BT connected -->
+    <string name="when_bt_connected_do_nothing">Älä tee mitään</string>
+    <string name="when_bt_connected_switch_source">Vaihda äänilähde</string>
+    <string name="when_bt_connected_disable_recording">Poista nauhoitus käytöstä</string>
 
     <!-- Settings -> Recording -> CAF -->
     <string name="recording_mode">Nauhoitustapa</string>
@@ -200,6 +215,7 @@
     <!-- Settings -> Recording -> Exceptions -->
     
     <string name="exception_group">Ryhmä</string>
+    
     <string name="exception_select_group">Valitse ryhmä</string>
     
     
@@ -218,6 +234,8 @@
 
     <!-- Settings -> Folders and Files -->
     <string name="folder">Kansio</string>
+    
+    
     
     <string name="automatic_cleanup">Automaattinen siivous</string>
     <string name="max_number_of_files">Tiedostojen enimmäismäärä</string>
@@ -253,6 +271,8 @@
     <string name="show_notification">Näytä ilmoitus</string>
     
     
+    
+    
     <string name="incall_control_for_outgoing">Lähteville puheluille</string>
     
     <string name="incall_control_for_incoming">Saapuville puheluille</string>
@@ -270,6 +290,9 @@
     
     
     
+    <string name="category_main_screen">Päänäyttö</string>
+    
+    
 
     <!-- Settings -> Cloud -->
     
@@ -285,6 +308,11 @@
     
 
     <!-- Notification -->
+    
+    
+    
+    
+    
     
     
 
@@ -342,11 +370,13 @@
     <string name="root_access_yes">Kyllä</string>
     <string name="dual_sim_phone">TuplaSIM puhelin</string>
     <string name="dual_sim_phone_summary">Ota käyttöön, jos sovellus ei huomaa puheluita toiselta SIM kortilta</string>
+    
 
     <!-- General -->
     <string name="contact_unknown">Tuntematon</string>
     
     <string name="button_ok">OK</string>
+    
     
     <string name="button_edit">Muokkaa</string>
     <string name="button_cancel">Peruuta</string>
@@ -360,13 +390,19 @@
     
     
     
-    <string name="please_wait">Odota...</string>
     
+    <string name="please_wait">Odota...</string>
     <string name="start_recording">Aloita tallennus</string>
     <string name="stop_recording">Lopeta tallennus</string>
     
     <string name="switch_on">On</string>
     <string name="switch_off">Off</string>
+
+    <!--Toasts-->
+    
+    
+    
+    
 
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">Tallenna tämä puhelu</string>
@@ -389,16 +425,12 @@
     <string name="about_many_thanks">Suuret kiitokset</string>
     <string name="about_many_thanks_summary">Alexey Subbotin (avs234)</string>
 
-    <!--About -> Licenses-->
-    <string name="licenses">Lisenssit</string>
-    <string name="about_open_core_amr_license">opencore-amr</string>
-    <string name="about_open_core_amr_license_summary">Käyttää opencore-amr:ia Apache Lisenssin Version 2.0 alaisuudessa, napauta tästä vieraillaksesi visitopencore-amr.sourceforge.net osoitteessa</string>
-    <string name="about_alsa">ALSA</string>
-    <string name="about_alsa_summary">Käyttää ALSA:a LGPL:n alaisuudessa, napauta tästä vieraillaksesi alsa-project.org osoitteessa</string>
-    <string name="about_lame">LAME</string>
-    <string name="about_lame_summary">Käyttää LAME:a LGPL:n alaisuudessa, napauta tästä vieraillaksesi mp3dev.org osoitteessa</string>
+    <!--About -> Other-->
+    
+    
 
-    <!--Credits-->
+    <!--About -> Translators-->
+    
     <string name="german_translation">Saksan käännös</string>
     <string name="german_translation_summary">Marc Hillesheim ja Thomas Käfer</string>
     <string name="polish_translation">Puolan käännös</string>
@@ -465,11 +497,12 @@
     
     
     
-<string name="terms_of_use">Käyttöehdot</string>
-    <string name="terms_of_use_message">Käyttämällä tätä ohjelmaa, hyväksyt CallRecorderin &lt;a href=http://rec.sh/terms&gt;käyttöehdot&lt;/a&gt;.</string>
-
-    <string name="section_all_recordings">Kaikki nauhoitukset</string>
-    <string name="section_starred">Suosikit</string>
-    <string name="action_refresh">Päivitä</string>
-    <string name="action_delete">Poista</string>
-    </resources>
+    
+    
+    
+    
+    
+    
+    
+    
+</resources>

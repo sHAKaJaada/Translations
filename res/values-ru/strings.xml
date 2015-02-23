@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Call Recorder</string>
     <string name="terms_of_use">Условия использования</string>
@@ -30,10 +30,16 @@
     <string name="action_add_star">Пометить</string>
     <string name="action_remove_star">Удалить пометку</string>
     <string name="action_share">Поделиться</string>
+    <string name="action_cancel_tasks">Отменить задачи</string>
     <string name="action_select_all">Выбрать всё</string>
     <string name="sort_by_date">По дате</string>
     <string name="sort_by_contact">По контакту</string>
     <string name="sort_by_file_size">По размеру</string>
+    <string name="records_size">записи: %1$s, размер: %2$s</string>
+    <string name="space_free_of">%1$s из %2$s</string>
+
+    <!--Import settings -->
+    
 
     <!-- List -->
     <string name="list_header_today">Сегодня</string>
@@ -83,6 +89,7 @@
     <string name="recorded_calls">Записанные звонки</string>
 
     <!--  Settings -> Headers -->
+    <string name="settings_open_unlocker">Открыть Unlocker</string>
     <string name="settings_recording">Запись</string>
     <string name="settings_folders_and_files">Папки и Файлы</string>
     <string name="settings_ui_and_appearance">Интерфейс и внешний вид</string>
@@ -109,7 +116,8 @@
     <string name="license_error_contacting_server">Ошибка соединения с сервером</string>
     <string name="license_server_error">Ошибка сервера</string>
     <string name="license_over_quota">Слишком много запросов с этого устройства</string>
-
+    <string name="license_trial_expired">Пробный период истек</string>
+    <string name="license_trial_expired_summary">Пожалуйста, удалите эту версию перед покупкой полной версии</string>
     <string name="buy_full_version">Купить полную версию</string>
     <string name="buy_full_version_summary">Текущая версия истекает %s</string>
 
@@ -180,6 +188,13 @@
     <string name="api_source_voice_communication">Голосовая связь</string>
     <string name="category_wav_settings">WAV Настройки</string>
     <string name="category_wav_and_mp3_settings">WAV и MP3 настройки</string>
+    <string name="when_bt_connected">Когда BT подключено…</string>
+    <string name="audio_source_when_bt_connected">Источник записи когда BT подключено</string>
+
+    <!-- Actions when BT connected -->
+    <string name="when_bt_connected_do_nothing">Ничего</string>
+    <string name="when_bt_connected_switch_source">Переключить источник записи</string>
+    <string name="when_bt_connected_disable_recording">Отключить запись</string>
 
     <!-- Settings -> Recording -> CAF -->
     <string name="recording_mode">Режим записи</string>
@@ -200,6 +215,7 @@
     <!-- Settings -> Recording -> Exceptions -->
     <string name="add_exception">Добавить исключение</string>
     <string name="exception_group">Группа</string>
+    
     <string name="exception_select_group">Выберите группу</string>
     <string name="exception_contact">Контакт</string>
     <string name="exception_select_contact">Выберите контакт</string>
@@ -219,6 +235,8 @@
     <!-- Settings -> Folders and Files -->
     <string name="folder">Папка</string>
     <string name="folder_chooser_up_to">↑ Наверх до %s</string>
+    
+    
     <string name="automatic_cleanup">Автоудаление записей</string>
     <string name="max_number_of_files">Макс. число файлов</string>
     <string name="max_number_of_files_message">Введите число (0 - без ограничений)</string>
@@ -252,6 +270,8 @@
     <string name="category_notification">Уведомление</string>
     <string name="show_notification">Показывать иконку в панели уведомлений</string>
     <string name="show_notification_summary">Постоянное уведомление в строке состояния</string>
+    <string name="hide_icon_but_keep_notification">Скрыть иконку оставив уведомление</string>
+    <string name="hide_icon_but_keep_notification_summary">Скрыть иконку оставив уведомление в панели уведомлений</string>
     <string name="category_incall_control_button">Кнопка управления записью</string>
     <string name="incall_control_for_outgoing">Для исходящих звонков</string>
     <string name="incall_control_for_outgoing_summary">Отображать кнопку управления записью для исходящих звонков</string>
@@ -270,6 +290,9 @@
     <string name="long_press_action">Действие на долгое нажатие</string>
     <string name="long_press_action_dragging_the_button">Перетаскивание кнопки</string>
     <string name="long_press_action_hang_up">Завершить вызов и перезвонить автоматически</string>
+    <string name="category_main_screen">Основной экран</string>
+    
+    
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">Провайдер облака</string>
@@ -286,6 +309,11 @@
 
     <!-- Notification -->
     <string name="notify_uploading_dropbox">Идет загрузка на Dropbox</string>
+    <string name="notify_converting_to_amr">Конвертирование в AMR</string>
+    <string name="notify_converting_to_mp3">Конвертирование в MP3</string>
+    <string name="notify_encrypting">Идет шифрование</string>
+    <string name="notify_decrypting">Идет расшифровка</string>
+    <string name="notify_waiting_for_calls">Ожидание звонков</string>
     <string name="notify_tasks_remaining">%d осталось</string>
 
     <!-- Password dialog -->
@@ -342,16 +370,19 @@
     <string name="root_access_yes">Есть</string>
     <string name="dual_sim_phone">Двухсимочный телефон</string>
     <string name="dual_sim_phone_summary">Включите это, если программа не может определить звонки со второй сим карты</string>
+    <string name="send_logs_to_the_developer">Отправить логи разработчику</string>
 
     <!-- General -->
     <string name="contact_unknown">Неизвестный</string>
     <string name="button_choose">Выбрать</string>
     <string name="button_ok">ОК</string>
     <string name="button_call">Позвонить</string>
+    <string name="button_buy">Купить</string>
     <string name="button_edit">Изменить</string>
     <string name="button_cancel">Отмена</string>
     <string name="button_create">Создать</string>
     <string name="button_delete">Удалить</string>
+    
     <string name="button_keep">Сохранить</string>
     <string name="button_play">Проиграть</string>
     <string name="button_pause">Пауза</string>
@@ -361,12 +392,17 @@
     <string name="call_incoming">Входящий</string>
     <string name="call_outgoing">Исходящий</string>
     <string name="please_wait">Пожалуйста, подождите…</string>
-    <string name="toast_wait_for_operation_to_complete">Подождите завершения операции</string>
     <string name="start_recording">Начать запись</string>
     <string name="stop_recording">Остановить запись</string>
     <string name="action_mode_selected">%d</string>
     <string name="switch_on">Вкл</string>
     <string name="switch_off">Выкл</string>
+
+    <!--Toasts-->
+    <string name="toast_wait_for_operation_to_complete">Подождите завершения операции</string>
+    <string name="toast_recording_is_off">Запись отключена</string>
+    <string name="toast_recording_is_on">Запись включена</string>
+    <string name="toast_file_deleted">Файл был успешно удален</string>
 
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">Записать этот разговор</string>
@@ -389,16 +425,12 @@
     <string name="about_many_thanks">Огромное спасибо</string>
     <string name="about_many_thanks_summary">Алексею Субботину (avs234)</string>
 
-    <!--About -> Licenses-->
-    <string name="licenses">Лицензии</string>
-    <string name="about_open_core_amr_license">opencore-amr</string>
-    <string name="about_open_core_amr_license_summary">Использует opencore-amr в рамках Apache License Version 2.0, нажмите сюда,чтобы посетить opencore-amr.sourceforge.net</string>
-    <string name="about_alsa">ALSA</string>
-    <string name="about_alsa_summary">Использует ALSA в рамках LGPL, нажмите сюда, чтобы посетить alsa-project.org</string>
-    <string name="about_lame">LAME</string>
-    <string name="about_lame_summary">Использует LAME в рамках LGPL, нажмите сюда, чтобы посетить mp3dev.org</string>
+    <!--About -> Other-->
+    
+    
 
-    <!--Credits-->
+    <!--About -> Translators-->
+    
     <string name="german_translation">Перевод на немецкий</string>
     <string name="german_translation_summary">от Marc Hillesheim и Thomas Käfer</string>
     <string name="polish_translation">Перевод на польский</string>
@@ -465,39 +497,12 @@
     <string name="belarusian_translation_summary">от Alexander Kuvshinov</string>
     <string name="vietnamese_translation">Перевод на вьетнамский</string>
     <string name="vietnamese_translation_summary">от Truong Hoang Trung</string>
-<string name="hide_icon_but_keep_notification">Скрыть иконку оставив уведомление</string>
-    <string name="hide_icon_but_keep_notification_summary">Скрыть иконку оставив уведомление в панели уведомлений</string>
-    <string name="notify_waiting_for_calls">Ожидание звонков</string>
-    <string name="about_ion_license">Ion</string>
-    <string name="about_ion_license_summary">Использует Ion в рамках Apache License Version 2.0, нажмите сюда, чтобы посетить github.com/koush/ion</string>
     <string name="armenian_translation">Перевод на армянский</string>
     <string name="armenian_translation_summary">от Hakob Sununu и Konstantin Gevorgyan</string>
     <string name="gujarati_translation">Перевод на гуджарати</string>
     <string name="gujarati_translation_summary">от Abhishek Sharma</string>
     <string name="tamil_translation">Перевод на тамильский</string>
     <string name="tamil_translation_summary">от Ashish Sharma</string>
-<string name="toast_recording_is_off">Запись отключена</string>
-    <string name="toast_recording_is_on">Запись включена</string>
-
-
-    <string name="toast_file_deleted">Файл был успешно удален</string>
-
-
-    <string name="action_cancel_tasks">Отменить задачи</string>
-    <string name="records_size">записи: %1$s, размер: %2$s</string>
-    <string name="space_free_of">%1$s из %2$s</string>
-
-    <string name="notify_converting_to_amr">Конвертирование в AMR</string>
-    <string name="notify_converting_to_mp3">Конвертирование в MP3</string>
-    <string name="notify_encrypting">Идет шифрование</string>
-    <string name="notify_decrypting">Идет расшифровка</string>
-    <string name="send_logs_to_the_developer">Отправить логи разработчику</string>
-
     <string name="greek_translation">Перевод на греческий</string>
     <string name="greek_translation_summary">от Lefteris (SomniusX) Eliades</string>
-<string name="settings_open_unlocker">Открыть Unlocker</string>
-    <string name="license_trial_expired">Пробный период истек</string>
-    <string name="license_trial_expired_summary">Пожалуйста, удалите эту версию перед покупкой полной версии</string>
-
-    <string name="button_buy">Купить</string>
-    </resources>
+</resources>
