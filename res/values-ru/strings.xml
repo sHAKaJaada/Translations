@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">Call Recorder</string>
     <string name="terms_of_use">Условия использования</string>
@@ -505,4 +505,17 @@
     <string name="tamil_translation_summary">от Ashish Sharma</string>
     <string name="greek_translation">Перевод на греческий</string>
     <string name="greek_translation_summary">от Lefteris (SomniusX) Eliades</string>
-</resources>
+<string name="restore_settings">Восстановить настройки</string>
+
+    <string name="exception_groups">%d группы</string>
+    <string name="create_new_folder">Создать новую папку…</string>
+    <string name="dialog_title_new_folder">Новая папка</string>
+    <string name="hide_starred_recordings">Скрыть помеченные записи</string>
+    <string name="hide_starred_recordings_summary">Не показывать помеченные записи на экране со всеми записями</string>
+
+    <string name="button_restore">Восстановить</string>
+    <string name="category_other">Другое</string>
+    <string name="open_source_licenses">Open source лицензии</string>
+
+    <string name="category_translators">Переводчики</string>
+    </resources>
