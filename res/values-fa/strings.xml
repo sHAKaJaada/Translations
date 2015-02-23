@@ -392,7 +392,7 @@
     <!--About -> Licenses-->
     <string name="licenses">گواهینامه ها</string>
     <string name="about_open_core_amr_license">opencore-amr</string>
-    <string name="about_open_core_amr_license_summary">استفاده شده از opencore-amr تحت Apache License Version 2.0, برای نمایش کلیک کنید opencore-amr.sourceforge.net</string>
+    <string name="about_open_core_amr_license_summary">استفاده شده از opencore-amr، برای نمایش جزئیات کلیک کنید</string>
     <string name="about_alsa">ALSA</string>
     <string name="about_alsa_summary">استفاده شده از ALSA تحت LGPL, برای بازدید از alsa-project.org اینجا ضربه بزنید</string>
     <string name="about_lame">LAME</string>
@@ -452,7 +452,7 @@
     <string name="thai_translation">ترجمه تایلندی</string>
     <string name="thai_translation_summary">Wuttisak Saichoncharn</string>
     <string name="georgian_translation">ترجمه گرجستانی</string>
-    <string name="georgian_translation_summary">Alexandre Razmadze</string>
+    <string name="georgian_translation_summary">Sandro Razmadze</string>
     <string name="catalan_translation">ترجمه کاتالان</string>
     <string name="catalan_translation_summary">cybdani</string>
     <string name="hindi_translation">ترجمه هندی</string>
