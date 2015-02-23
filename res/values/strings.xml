@@ -38,6 +38,9 @@
     <string name="records_size">records: %1$s, size: %2$s</string>
     <string name="space_free_of">%1$s free of %2$s</string>
 
+    <!--Import settings -->
+    <string name="restore_settings">Restore settings</string>
+
     <!-- List -->
     <string name="list_header_today">Today</string>
     <string name="list_header_yesterday">Yesterday</string>
@@ -115,7 +118,6 @@
     <string name="license_over_quota">Too many requests from this device</string>
     <string name="license_trial_expired">Trial period expired</string>
     <string name="license_trial_expired_summary">Please, uninstall this version before purchase a full version</string>
-
     <string name="buy_full_version">Buy full version</string>
     <string name="buy_full_version_summary">Current version will expire on %s</string>
 
@@ -186,6 +188,13 @@
     <string name="api_source_voice_communication">Voice communication</string>
     <string name="category_wav_settings">WAV settings</string>
     <string name="category_wav_and_mp3_settings">WAV &amp; MP3 settings</string>
+    <string name="when_bt_connected">When BT connected…</string>
+    <string name="audio_source_when_bt_connected">Audio source when BT connected</string>
+
+    <!-- Actions when BT connected -->
+    <string name="when_bt_connected_do_nothing">Do nothing</string>
+    <string name="when_bt_connected_switch_source">Switch audio source</string>
+    <string name="when_bt_connected_disable_recording">Disable recording</string>
 
     <!-- Settings -> Recording -> CAF -->
     <string name="recording_mode">Recording mode</string>
@@ -206,6 +215,7 @@
     <!-- Settings -> Recording -> Exceptions -->
     <string name="add_exception">Add exception</string>
     <string name="exception_group">Group</string>
+    <string name="exception_groups">%d groups</string>
     <string name="exception_select_group">Select group</string>
     <string name="exception_contact">Contact</string>
     <string name="exception_select_contact">Select contact</string>
@@ -225,6 +235,8 @@
     <!-- Settings -> Folders and Files -->
     <string name="folder">Folder</string>
     <string name="folder_chooser_up_to">↑ Up to %s</string>
+    <string name="create_new_folder">Create new folder…</string>
+    <string name="dialog_title_new_folder">New folder</string>
     <string name="automatic_cleanup">Automatic cleanup</string>
     <string name="max_number_of_files">Max. number of files</string>
     <string name="max_number_of_files_message">Enter a number (0 - no limit)</string>
@@ -278,6 +290,9 @@
     <string name="long_press_action">Long press action</string>
     <string name="long_press_action_dragging_the_button">Dragging the button</string>
     <string name="long_press_action_hang_up">Hang up the call and call back automatically</string>
+    <string name="category_main_screen">Main screen</string>
+    <string name="hide_starred_recordings">Hide starred recordings</string>
+    <string name="hide_starred_recordings_summary">Don\'t show starred recordings on screen with all recordings</string>
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">Cloud provider</string>
@@ -367,6 +382,7 @@
     <string name="button_cancel">Cancel</string>
     <string name="button_create">Create</string>
     <string name="button_delete">Delete</string>
+    <string name="button_restore">Restore</string>
     <string name="button_keep">Keep</string>
     <string name="button_play">Play</string>
     <string name="button_pause">Pause</string>
@@ -387,7 +403,6 @@
     <string name="toast_recording_is_off">Recording is OFF</string>
     <string name="toast_recording_is_on">Recording is ON</string>
     <string name="toast_file_deleted">File has been successfully deleted</string>
-
 
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">Record this call</string>
@@ -410,18 +425,12 @@
     <string name="about_many_thanks">Many thanks</string>
     <string name="about_many_thanks_summary">to Alexey Subbotin (avs234)</string>
 
-    <!--About -> Licenses-->
-    <string name="licenses">Licenses</string>
-    <string name="about_open_core_amr_license">opencore-amr</string>
-    <string name="about_open_core_amr_license_summary">Uses opencore-amr under Apache License Version 2.0, click here to visit opencore-amr.sourceforge.net</string>
-    <string name="about_ion_license">Ion</string>
-    <string name="about_ion_license_summary">Uses Ion under Apache License Version 2.0, click here to visit github.com/koush/ion</string>
-    <string name="about_alsa">ALSA</string>
-    <string name="about_alsa_summary">Uses ALSA under LGPL, click here to visit alsa-project.org</string>
-    <string name="about_lame">LAME</string>
-    <string name="about_lame_summary">Uses LAME under LGPL, click here to visit mp3dev.org</string>
+    <!--About -> Other-->
+    <string name="category_other">Other</string>
+    <string name="open_source_licenses">Open source licenses</string>
 
-    <!--Credits-->
+    <!--About -> Translators-->
+    <string name="category_translators">Translators</string>
     <string name="german_translation">German translation</string>
     <string name="german_translation_summary">by Marc Hillesheim and Thomas Käfer</string>
     <string name="polish_translation">Polish translation</string>
