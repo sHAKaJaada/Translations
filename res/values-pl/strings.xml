@@ -608,4 +608,49 @@
     <string name="use_built_in_player">Użyj wbudowanego odtwarzacza</string>
     <string name="audio_output_summary">%s ( Naciśnij długo przycisk play/pause w celu przełączenia)</string>
     <string name="use_proximity_sensor_summary">Wyłącz ekran za pomocą czujnika zbliżeniowego podczas odtwarzania</string>
-    </resources>
+    <string name="switch_audio_output_summary">Automatyczne przełączanie źródła dżwięku, kiedy ekran jest wyłączony/włączony przez czujnik zbliżeniowy</string>
+    <string name="send_logs_to_the_developer">Wyślij logi do autora</string>
+
+    <string name="button_choose">Wybierz</string>
+    <string name="button_call">Zadzwoń</string>
+    <string name="button_buy">Kup</string>
+    <string name="button_create">Utwórz</string>
+    <string name="button_delete">Skasuj</string>
+    <string name="button_keep">Zachowaj</string>
+    <string name="button_play">Odtwórz</string>
+    <string name="button_pause">Pauza</string>
+    <string name="button_delete_wait">Skasuj (%d)</string>
+    <string name="decline">Odrzuć</string>
+    <string name="accept">Akceptuj</string>
+    <string name="call_incoming">Przychodzące</string>
+    <string name="call_outgoing">Wychodzące</string>
+    <string name="action_mode_selected">%d wybranych</string>
+    <string name="toast_wait_for_operation_to_complete">Poczekaj na zakończenie działania</string>
+    <string name="toast_recording_is_off">Nagrywanie wyłączone</string>
+    <string name="toast_recording_is_on">Nagrywanie włączone</string>
+    <string name="toast_file_deleted">Plik został usunięty</string>
+
+
+    <string name="open_contact">Otwórz kontakty</string>
+
+    <string name="waiting_for_answer">Oczekiwanie na odpowiedź</string>
+    <string name="recording_in_progress">Nagrywanie w toku</string>
+    <string name="no_recording_in_progress">Nagrywania w toku nie odbywa się</string>
+    <string name="about_call_recorder">O Call Recorder</string>
+    <string name="about_ion_license">Licencja Ion</string>
+    <string name="about_ion_license_summary">Korzysta z Apache License w ramach Ion wersji 2.0, kliknij tutaj, aby odwiedzić github.com/koush/ion</string>
+    <string name="italian_translation_summary">Luca Trevisan and Francesco Cafagna</string>
+    <string name="chinese_translation_summary">qhq and Yu Fei</string>
+    <string name="belarusian_translation">Tłumaczenie na język białoruski</string>
+    <string name="belarusian_translation_summary">Alexander Kuvshinov</string>
+    <string name="vietnamese_translation">Tłumaczenie na język wietnamski</string>
+    <string name="vietnamese_translation_summary">Truong Hoang Trung</string>
+    <string name="armenian_translation">Tłumaczenie na język armeński</string>
+    <string name="armenian_translation_summary">Hakob Sununu and Konstantin Gevorgyan</string>
+    <string name="gujarati_translation">Tłumaczenie na język gudżarati</string>
+    <string name="gujarati_translation_summary">Abhishek Sharma</string>
+    <string name="tamil_translation">Tłumaczenie na język tamilski</string>
+    <string name="tamil_translation_summary">Ashish Sharma</string>
+    <string name="greek_translation">Tłumaczenie na język grecki</string>
+    <string name="greek_translation_summary">Lefteris (SomniusX) Eliades</string>
+</resources>
