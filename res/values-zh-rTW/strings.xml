@@ -188,7 +188,7 @@
     <string name="api_source_voice_communication">語音通訊</string>
     <string name="category_wav_settings">WAV設定</string>
     <string name="category_wav_and_mp3_settings">WAV &amp; MP3 設定</string>
-    <string name="when_bt_connected">當藍牙連接之後的動作...</string>
+    <string name="when_bt_connected">當藍牙連接之後的動作…</string>
     <string name="audio_source_when_bt_connected">當藍牙連接後的聲音來源</string>
 
     <!-- Actions when BT connected -->
