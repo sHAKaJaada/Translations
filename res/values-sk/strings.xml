@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">Call Recorder</string>
     <string name="terms_of_use">Podmienky používania</string>
@@ -188,7 +188,7 @@
     <string name="api_source_voice_communication">Hlasová komunikácia</string>
     <string name="category_wav_settings">Nastavenia WAV</string>
     <string name="category_wav_and_mp3_settings">Nastavenia WAV a MP3</string>
-    <string name="when_bt_connected">Pri pripojenom BT...</string>
+    <string name="when_bt_connected">Keď je pripojené BT…</string>
     <string name="audio_source_when_bt_connected">Zdroj zvuku pri pripojenom BT</string>
 
     <!-- Actions when BT connected -->
@@ -505,4 +505,17 @@
     <string name="tamil_translation_summary">Ashish Sharma</string>
     <string name="greek_translation">Grécky preklad</string>
     <string name="greek_translation_summary">Lefteris (SomniusX) Eliades</string>
-</resources>
+<string name="restore_settings">Obnoviť nastavenia</string>
+
+    <string name="exception_groups">Skupina %d</string>
+    <string name="create_new_folder">Vytvoriť nový priečinok…</string>
+    <string name="dialog_title_new_folder">Nový priečinok</string>
+    <string name="hide_starred_recordings">Skryť nahrávky s hviezdičkou</string>
+    <string name="hide_starred_recordings_summary">Nezobrazovať nahrávky s hviezdičkou na obrazovke so všetkými nahrávkami</string>
+
+    <string name="button_restore">Obnoviť</string>
+    <string name="category_other">Iné</string>
+    <string name="open_source_licenses">Licencie otvorených zdrojov</string>
+
+    <string name="category_translators">Preklady</string>
+    </resources>
