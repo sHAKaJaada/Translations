@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">通話錄音</string>
     <string name="terms_of_use">使用條款</string>
@@ -505,4 +505,17 @@
     <string name="tamil_translation_summary">由 Ashish Sharma 翻譯</string>
     <string name="greek_translation">希臘語翻譯</string>
     <string name="greek_translation_summary">由 Lefteris (SomniusX) Eliades 翻譯</string>
-</resources>
+<string name="restore_settings">恢復設定</string>
+
+    <string name="exception_groups">%d 群組</string>
+    <string name="create_new_folder">建立新資料夾…</string>
+    <string name="dialog_title_new_folder">新資料夾</string>
+    <string name="hide_starred_recordings">隱藏標記的錄音</string>
+    <string name="hide_starred_recordings_summary">在螢幕上不顯示所有標記的錄音檔案</string>
+
+    <string name="button_restore">恢復</string>
+    <string name="category_other">其它</string>
+    <string name="open_source_licenses">開啟來源許可證</string>
+
+    <string name="category_translators">翻譯人員</string>
+    </resources>
