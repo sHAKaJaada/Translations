@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">Call Recοrder</string>
     <string name="terms_of_use">Όροι Χρήσης</string>
@@ -505,4 +505,29 @@
     <string name="tamil_translation_summary">από Ashish Sharma</string>
     <string name="greek_translation">Ελληνική μετάφραση</string>
     <string name="greek_translation_summary">από Λευτέρης (SomniusX) Ηλιάδης</string>
-</resources>
+<string name="restore_settings">Επαναφορά ρυθμίσεων</string>
+
+    <string name="category_other">Άλλα</string>
+    <string name="open_source_licenses">Άδειες χρήσης ελεύθερου λογισμικού</string>
+
+    <string name="category_translators">Μεταφραστές</string>
+    <string name="settings_open_unlocker">Εκκίνηση Unlocker</string>
+    <string name="license_trial_expired">Έληξε η δοκιμαστική περίοδος</string>
+    <string name="license_trial_expired_summary">Παρακαλώ απεγκαταστήστε την τρέχουσα έκδοση πριν αγοράσετε την πλήρη</string>
+    <string name="when_bt_connected">Με συνδεδεμένο ΒΤ…</string>
+    <string name="audio_source_when_bt_connected">Πηγή ήχου με συνδεδεμένο BT</string>
+
+    <string name="when_bt_connected_do_nothing">Χωρίς ενέργεια</string>
+    <string name="when_bt_connected_switch_source">Εναλλαγή πηγής ήχου</string>
+    <string name="when_bt_connected_disable_recording">Απενεργοποίηση καταγραφής</string>
+
+    <string name="exception_groups">%d γκρουπ</string>
+    <string name="create_new_folder">Δημιουργία νέου φακέλου…</string>
+    <string name="dialog_title_new_folder">Νέος φάκελος</string>
+    <string name="category_main_screen">Κεντρική οθόνη</string>
+    <string name="hide_starred_recordings">Απόκρυψη καταγραφών με αστέρι</string>
+    <string name="hide_starred_recordings_summary">Οι καταγραφές με αστέρι δεν θα εμφανίζονται στη λίστα των όλων των καταγραφών</string>
+
+    <string name="button_buy">Αγορά</string>
+    <string name="button_restore">Επαναφορά</string>
+    </resources>
