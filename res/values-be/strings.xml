@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">Call Recorder</string>
     <string name="terms_of_use">Умовы выкарыстання</string>
@@ -188,7 +188,7 @@
     <string name="api_source_voice_communication">Галасавая сувязь</string>
     <string name="category_wav_settings">WAV Налады</string>
     <string name="category_wav_and_mp3_settings">WAV і MP3 налады</string>
-    <string name="when_bt_connected">Калі BT падлучана...</string>
+    <string name="when_bt_connected">Калі BT падлучана…</string>
     <string name="audio_source_when_bt_connected">Крыніца запісу калі BT падлучана</string>
 
     <!-- Actions when BT connected -->
@@ -505,4 +505,17 @@
     <string name="tamil_translation_summary">ад Ashish Sharma</string>
     <string name="greek_translation">Пераклад на грэцкі</string>
     <string name="greek_translation_summary">ад Lefteris (SomniusX) Eliades</string>
-</resources>
+<string name="restore_settings">Аднавіць налады</string>
+
+    <string name="exception_groups">%d групы</string>
+    <string name="create_new_folder">Стварыць новую тэчку…</string>
+    <string name="dialog_title_new_folder">Новая тэчка</string>
+    <string name="hide_starred_recordings">Схаваць пазначаныя запісы</string>
+    <string name="hide_starred_recordings_summary">Не паказваць пазначаныя запісы на экране з усімі запісамі</string>
+
+    <string name="button_restore">Аднавіць</string>
+    <string name="category_other">Іншае</string>
+    <string name="open_source_licenses">Open source ліцэнзіі</string>
+
+    <string name="category_translators">Перакладнікі</string>
+    </resources>
