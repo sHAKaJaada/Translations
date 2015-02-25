@@ -18,7 +18,7 @@
     <string name="section_by_label">По ознакама</string>
     <string name="section_help">Помоћ</string>
     <string name="section_tasks">Задаци</string>
-    <string name="section_tasks_hint">Приказивање задатака попут: конвертовања, шифровања или слања снимака ће бити приказано овде</string>
+    <string name="section_tasks_hint">Приказивање процеса конвертовања, шифровања или слања снимака ће бити приказано овде</string>
     <string name="empty_hint">Празно</string>
 
     <!-- Action bar -->
@@ -62,7 +62,7 @@
 
     <!-- List -> Get info dialog -->
     <string name="file_name">Име датотеке</string>
-    <string name="sample_rate">Брзина одмеравања</string>
+    <string name="sample_rate">Брзина такта</string>
     <string name="sample_rate_hz">Hz</string>
     <string name="recording_type">Начин снимања</string>
     <string name="recording_type_mono">Моно</string>
@@ -85,7 +85,7 @@
     <string name="confirm_delete_several_message">Изабрано је %d снимака. Да ли желите да их избришете?</string>
 
     <!-- List -> Share -->
-    <string name="share_via">Дели преко</string>
+    <string name="share_via">Делити преко</string>
     <string name="recorded_calls">Снимљени позиви</string>
 
     <!--  Settings -> Headers -->
@@ -237,7 +237,7 @@
     <string name="folder_chooser_up_to">↑ До %s</string>
     
     
-    <string name="automatic_cleanup">Самостално одржавање</string>
+    <string name="automatic_cleanup">Самостално чишћење</string>
     <string name="max_number_of_files">Највише снимака</string>
     <string name="max_number_of_files_message">Унети број (0 = неограничено)</string>
     <string name="max_total_size_of_files">Величина снимка</string>
@@ -305,7 +305,7 @@
     <string name="cloud_auto_upload">Самостално отпремање</string>
     <string name="cloud_auto_upload_summary">Отпремање после позива</string>
     <string name="cloud_upload_starred">Отпреми фаворите</string>
-    <string name="cloud_upload_starred_summary">Отпремање приликом додавања у фаворите</string>
+    <string name="cloud_upload_starred_summary">Отпреми после додавања у фаворите</string>
 
     <!-- Notification -->
     <string name="notify_uploading_dropbox">Отпремање у Dropbox</string>
@@ -317,9 +317,9 @@
     <string name="notify_tasks_remaining">%d задатака преостало</string>
 
     <!-- Password dialog -->
-    <string name="wrong_password">Погрешна лозинка</string>
+    <string name="wrong_password">Погрешна шифра</string>
     <string name="enter_password">Унети шифру</string>
-    <string name="password_has_been_changed">Лозинка је промењена</string>
+    <string name="password_has_been_changed">Шифра је измењена</string>
 
     <!-- Settings -> Security -->
     <string name="category_encryption">Шифровање</string>
@@ -327,15 +327,15 @@
     <string name="create_new_key">Направи нови кључ</string>
     <string name="create_new_key_summary">Овај кључ служи за касније шифровање позива и за приступ апликацији</string>
     <string name="delete_key">Избрисати кључ</string>
-    <string name="change_password">Промена лозинке</string>
+    <string name="change_password">Промена шифре</string>
     <string name="delete_key_summary">УПОЗОРЕЊЕ! Нећете бити у могућности да дешифрујете заштићене снимке чак и ако креирате кључ са истом шифром</string>
     <string name="delete_key_message">Нећете моћи дешифровати заштићене снимке уколико избришете кључ. Желите ли наставити?</string>
-    <string name="enter_old_password">Унети стару лозинку</string>
-    <string name="enter_new_password">Унети нову лозинку</string>
-    <string name="re_enter_new_password">Поново унети нову лозинку</string>
-    <string name="require_password">Захтев за лозинком</string>
-    <string name="require_password_summary">Лозинка за отварање апликације</string>
-    <string name="require_password_summary_no_key">Захтев лозинке за приступ апликацији. Потребно је прво креирати кључ</string>
+    <string name="enter_old_password">Унети стару шифру</string>
+    <string name="enter_new_password">Унети нову шифру</string>
+    <string name="re_enter_new_password">Поново унети нову шифру</string>
+    <string name="require_password">Захтев за шифром</string>
+    <string name="require_password_summary">Шифра за отварање апликације</string>
+    <string name="require_password_summary_no_key">Захтев шифре за приступ апликацији. Потребно је прво креирати кључ</string>
     <string name="lock_after">Закључати после</string>
     <string name="lock_after_exit">Излаза</string>
     <string name="lock_after_1_minute">1 мин.</string>
@@ -418,7 +418,7 @@
     <string name="an_error_has_occurred">Дошло је до грешке! Позив није снимљен.</string>
 
     <!--About-->
-    <string name="about_call_recorder">Инфо о Call Recorder апликацији</string>
+    <string name="about_call_recorder">Call Recorder информације</string>
     <string name="version">Верзија</string>
     <string name="copyright">Copyright</string>
     <string name="copyright_summary">© %s Alexander Skvortsov (skvalex)</string>
