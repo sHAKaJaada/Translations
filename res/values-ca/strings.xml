@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">Condicions d\'ús</string>
@@ -486,7 +486,7 @@
     <string name="georgian_translation">Traducció al Georgià</string>
     <string name="georgian_translation_summary">per Alexandre Razmadze</string>
     <string name="catalan_translation">Traducció al Català</string>
-    <string name="catalan_translation_summary">per Cybdani</string>
+    <string name="catalan_translation_summary">per Dani500Living</string>
     <string name="hindi_translation">Traducció al Hindi</string>
     <string name="hindi_translation_summary">per TheTAMAS Gautam</string>
     <string name="punjabi_translation">Traducció Punjabi</string>
@@ -505,4 +505,33 @@
     <string name="tamil_translation_summary">per Ashish Sharma</string>
     
     
+<string name="action_cancel_tasks">Cancela tasques</string>
+    <string name="records_size">registres: %1$s, tamany: %2$s</string>
+    <string name="space_free_of">%1$s lliure de %2$s</string>
+
+    <string name="restore_settings">Restaurar ajustaments</string>
+
+    <string name="settings_open_unlocker">Obrir Unlocker</string>
+    <string name="license_trial_expired">El temps de prova ha acabat</string>
+    <string name="license_trial_expired_summary">Si us plau, des-instal·la aquesta versió abans de comprar la versió complerta</string>
+    <string name="exception_groups">%d grups</string>
+    <string name="create_new_folder">Crear nou directori…</string>
+    <string name="dialog_title_new_folder">Nou directori</string>
+    <string name="hide_starred_recordings">Amagar registres preferits</string>
+    <string name="hide_starred_recordings_summary">No mostrar registres preferits a la pantalla amb tots els registres</string>
+
+    <string name="notify_converting_to_amr">Convertint a AMR</string>
+    <string name="notify_converting_to_mp3">Convertint a MP3</string>
+    <string name="notify_encrypting">Xifrant</string>
+    <string name="notify_decrypting">Desxifrant</string>
+    <string name="send_logs_to_the_developer">Enviar logs al desenvolupador</string>
+
+    <string name="button_buy">Comprar</string>
+    <string name="button_restore">Restaurar</string>
+    <string name="category_other">Altre</string>
+    <string name="open_source_licenses">Llicències de codi obert</string>
+
+    <string name="category_translators">Traductors</string>
+    <string name="greek_translation">Traducció al Grec</string>
+    <string name="greek_translation_summary">per Lefteris (SomniusX) Eliades</string>
 </resources>
