@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">Nutzungsbedingungen</string>
@@ -505,4 +505,17 @@
     <string name="tamil_translation_summary">von Ashish Sharma</string>
     <string name="greek_translation">Griechische Übersetzung</string>
     <string name="greek_translation_summary">von Lefteris (SomniusX) Eliades</string>
-</resources>
+<string name="restore_settings">Einstellungen wiederherstellen</string>
+
+    <string name="exception_groups">%d Gruppen</string>
+    <string name="create_new_folder">Erstelle neuen Ordner…</string>
+    <string name="dialog_title_new_folder">Neuer Ordner</string>
+    <string name="hide_starred_recordings">Mit Stern markierte Aufnahmen ausblenden</string>
+    <string name="hide_starred_recordings_summary">Blende mit Stern markierte Ausfnahmen auf der \'Alle Aufnahmen\' Seite aus</string>
+
+    <string name="button_restore">Wiederherstellen</string>
+    <string name="category_other">Sonstiges</string>
+    <string name="open_source_licenses">Open-Source Lizenzen</string>
+
+    <string name="category_translators">Übersetzer</string>
+    </resources>
