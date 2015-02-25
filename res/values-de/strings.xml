@@ -188,7 +188,7 @@
     <string name="api_source_voice_communication">Sprachverbindung</string>
     <string name="category_wav_settings">WAV Einstellungen</string>
     <string name="category_wav_and_mp3_settings">Einstellungen WAV &amp; MP3</string>
-    <string name="when_bt_connected">Wenn BT verbunden ist:</string>
+    <string name="when_bt_connected">Wenn BT verbunden ist…</string>
     <string name="audio_source_when_bt_connected">Audioquelle bei BT verbunden</string>
 
     <!-- Actions when BT connected -->
