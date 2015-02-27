@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">Call Recorder</string>
     <string name="terms_of_use">Felhasználási feltételek</string>
@@ -188,7 +188,7 @@
     <string name="api_source_voice_communication">Hang kommunikáció</string>
     <string name="category_wav_settings">WAV beállítások</string>
     <string name="category_wav_and_mp3_settings">WAV és MP3 beállítások</string>
-    <string name="when_bt_connected">Mikor BT-hoz van csatlakoztatva...</string>
+    <string name="when_bt_connected">Mikor BT-hoz csatlakozik…</string>
     <string name="audio_source_when_bt_connected">Hangforrás BT csatlakoztatásakor</string>
 
     <!-- Actions when BT connected -->
@@ -505,4 +505,17 @@
     <string name="tamil_translation_summary">Ashish Sharma</string>
     <string name="greek_translation">Görög fordítás</string>
     <string name="greek_translation_summary">Lefteris (SomniusX) Eliades</string>
-</resources>
+<string name="dialog_title_new_folder">Új mappa</string>
+    <string name="create_new_folder">Új mappa létrehozása…</string>
+    <string name="category_other">Egyéb</string>
+    <string name="open_source_licenses">Nyílt forrású licencek</string>
+
+    <string name="category_translators">Fordító</string>
+    <string name="button_restore">Visszaállítás</string>
+    <string name="exception_groups">%d csoportok</string>
+    <string name="restore_settings">Beállítások visszaállítása</string>
+
+    <string name="hide_starred_recordings">Csillagos felvételek elrejtése</string>
+    <string name="hide_starred_recordings_summary">Nem mutatja a csillaggal jelölt fevételeket a képernyőn az összes fevételnél</string>
+
+    </resources>
