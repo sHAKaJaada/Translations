@@ -10,7 +10,7 @@
 
     <!-- Navigation drawer sections -->
     <string name="section_all_recordings">Összes felvétel</string>
-    <string name="section_starred">Csillaggal jelölt</string>
+    <string name="section_starred">Csillaggal megjelölt</string>
     <string name="section_incoming">Bejövő</string>
     <string name="section_outgoing">Kimenő</string>
     <string name="section_by_contact">Névjegy</string>
@@ -378,7 +378,7 @@
     <string name="button_ok">OK</string>
     <string name="button_call">Hívás</string>
     <string name="button_buy">Vásárlás</string>
-    <string name="button_edit">Szerkeszt</string>
+    <string name="button_edit">Szerkesztés</string>
     <string name="button_cancel">Mégse</string>
     <string name="button_create">Létrehozás</string>
     <string name="button_delete">Törlés</string>
@@ -399,7 +399,7 @@
     <string name="switch_off">Ki</string>
 
     <!--Toasts-->
-    <string name="toast_wait_for_operation_to_complete">Teljes műveletre várakozás</string>
+    <string name="toast_wait_for_operation_to_complete">Vár a művelet befejezésére</string>
     <string name="toast_recording_is_off">Felvétel KI</string>
     <string name="toast_recording_is_on">Felvétel BE</string>
     <string name="toast_file_deleted">A fájl sikeresen törölve</string>
@@ -412,7 +412,7 @@
     <string name="cloud_added">Hozzáadás</string>
 
     <!--Notification-->
-    <string name="waiting_for_answer">Hívásfogadásra vár</string>
+    <string name="waiting_for_answer">Válaszra vár</string>
     <string name="recording_in_progress">Felvétel folyamatban</string>
     <string name="no_recording_in_progress">Nincs felvétel folyamatban</string>
     <string name="an_error_has_occurred">Hiba történt, ezt a hívást nem lehet rögzíteni</string>
@@ -442,7 +442,7 @@
     <string name="spanish_translation">Spanyol fordítás</string>
     <string name="spanish_translation_summary">Iñigo Garcia and Diego Vilas</string>
     <string name="slovak_translation">Szlovák fordítás</string>
-    <string name="slovak_translation_summary">Loránt Gerencsér</string>
+    <string name="slovak_translation_summary">Gerencsér Loránt</string>
     <string name="italian_translation">Olasz fordítás</string>
     <string name="italian_translation_summary">Luca Trevisan és Francesco Cafagna</string>
     <string name="persian_translation">Perzsa fordítás</string>
@@ -510,7 +510,7 @@
     <string name="category_other">Egyéb</string>
     <string name="open_source_licenses">Nyílt forrású licencek</string>
 
-    <string name="category_translators">Fordító</string>
+    <string name="category_translators">Fordítók</string>
     <string name="button_restore">Visszaállítás</string>
     <string name="exception_groups">%d csoport</string>
     <string name="restore_settings">Beállítások visszaállítása</string>
