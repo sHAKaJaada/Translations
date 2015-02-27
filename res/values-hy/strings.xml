@@ -314,7 +314,7 @@
     
     
     
-    <string name="notify_tasks_remaining">%d մնաց</string>
+    <string name="notify_tasks_remaining">%d մնաց գործողություն</string>
 
     <!-- Password dialog -->
     <string name="wrong_password">Սխալ գաղտնանուն</string>
@@ -484,7 +484,7 @@
     <string name="thai_translation">Թաի թարգմանություն</string>
     <string name="thai_translation_summary">Wuttisak Saichoncharn-ի կողմից</string>
     <string name="georgian_translation">Վրացերեն թարգմանություն</string>
-    <string name="georgian_translation_summary">Alexandre Razmadze-ի կողմից</string>
+    <string name="georgian_translation_summary">Sandro Razmadze-ի կողմից</string>
     <string name="catalan_translation">Կատալոներեն թարգմանություն</string>
     <string name="catalan_translation_summary">cybdani-ի կողմից</string>
     <string name="hindi_translation">Հինդի թարգմանություն</string>
