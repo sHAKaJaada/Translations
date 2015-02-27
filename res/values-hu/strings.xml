@@ -10,7 +10,7 @@
 
     <!-- Navigation drawer sections -->
     <string name="section_all_recordings">Összes felvétel</string>
-    <string name="section_starred">Kedvencek</string>
+    <string name="section_starred">Csillaggal jelölt</string>
     <string name="section_incoming">Bejövő</string>
     <string name="section_outgoing">Kimenő</string>
     <string name="section_by_contact">Névjegy</string>
@@ -27,8 +27,8 @@
     <string name="action_settings">Beállítások</string>
     <string name="action_refresh">Frissítés</string>
     <string name="action_delete">Törlés</string>
-    <string name="action_add_star">Kedvencekhez ad</string>
-    <string name="action_remove_star">Kedvencekből eltávolít</string>
+    <string name="action_add_star">Csillaggal jelöltekhez ad</string>
+    <string name="action_remove_star">Csillaggal jelöltekből eltávolít</string>
     <string name="action_share">Megosztás</string>
     <string name="action_cancel_tasks">Feladatok elvetése</string>
     <string name="action_select_all">Összes kijelölése</string>
@@ -55,7 +55,7 @@
     <string name="menu_share">Megosztás</string>
     <string name="menu_convert_to_mp3">Konvertálás MP3-ba</string>
     <string name="menu_convert_to_amr">Konvertálás AMR-be</string>
-    <string name="menu_get_info">Információ szerzés</string>
+    <string name="menu_get_info">Információ megszerzése</string>
     <string name="menu_cancel_task">Feladat elvetése</string>
     <string name="menu_encrypt">Titkosítás</string>
     <string name="menu_decrypt">Dekódolás</string>
@@ -92,7 +92,7 @@
     <string name="settings_open_unlocker">Unlocker megnyitása</string>
     <string name="settings_recording">Felvétel</string>
     <string name="settings_folders_and_files">Mappák és fájlok</string>
-    <string name="settings_ui_and_appearance">Illesztőfelület és megjelenés</string>
+    <string name="settings_ui_and_appearance">Felület és megjelenés</string>
     <string name="settings_security">Adatvédelem</string>
     <string name="settings_cloud">Felhő</string>
     <string name="settings_audio_player">Hanglejátszó</string>
@@ -125,7 +125,7 @@
     <string name="recording_calls_switch">Hívások felvétele</string>
     <string name="category_main">Fő beállítások</string>
     <string name="device">Készülék</string>
-    <string name="select_your_device">Válassza ki a készülékét</string>
+    <string name="select_your_device">Válassza ki készülékét</string>
     <string name="device_change_settings_empty">Készülékén ez lesz beállítva</string>
     <string name="device_root_is_required">Root jog szükséges</string>
     <string name="device_root_is_required_summary">A jobb minőséghez rootolni kell a készüléket</string>
@@ -265,21 +265,21 @@
 
     <!--Settings -> Interface and Appearance-->
     <string name="language">Nyelv</string>
-    <string name="select_language">Nyelv választás</string>
+    <string name="select_language">Nyelv kiválasztása</string>
     <string name="default_language">Alapértelmezett nyelv</string>
     <string name="category_notification">Értesítés</string>
     <string name="show_notification">Értesítés megjelenítése</string>
     <string name="show_notification_summary">Nem törlődő értesítés az állapotsorban</string>
-    <string name="hide_icon_but_keep_notification">Ikont elrejtése</string>
+    <string name="hide_icon_but_keep_notification">Ikon elrejtése</string>
     <string name="hide_icon_but_keep_notification_summary">Ikon elrejtése az állapotsávból, de értesítésben megtart</string>
-    <string name="category_incall_control_button">Belső-hívás vezérlő gomb</string>
+    <string name="category_incall_control_button">Belső-hívásvezérlő gomb</string>
     <string name="incall_control_for_outgoing">Kimenő hívások</string>
-    <string name="incall_control_for_outgoing_summary">Hívás-vezérlő gomb megjelenítése kimenő hívásnál</string>
+    <string name="incall_control_for_outgoing_summary">Hívásvezérlő gomb megjelenítése kimenő hívásnál</string>
     <string name="incall_control_for_incoming">Bejövő hívások</string>
-    <string name="incall_control_for_incoming_summary">Hívás-vezérlő gomb megjelenítése bejövő hívásnál</string>
+    <string name="incall_control_for_incoming_summary">Hívásvezérlő gomb megjelenítése bejövő hívásnál</string>
     <string name="hide_button_while_recording">Gomb elrejtése felvételkor</string>
-    <string name="hide_button_while_recording_summary">Hívás-vezérlő gomb elrejtése felvételkor</string>
-    <string name="show_button_while_ringing">Gomb megjelenítése csengéskor</string>
+    <string name="hide_button_while_recording_summary">Hívásvezérlő gomb elrejtése felvételkor</string>
+    <string name="show_button_while_ringing">Gomb megjelenítése csengetéskor</string>
     <string name="show_button_while_ringing_summary">Belső hívásvezérlő gomb megjelenítése hívás fogadása előtt</string>
     <string name="vertical_position">Függőleges elhelyezés</string>
     <string name="vertical_position_summary">%s dp, eltolás a képernyő központjától</string>
@@ -304,8 +304,8 @@
     <string name="cloud_wifi_only">Csak WiFi-vel</string>
     <string name="cloud_auto_upload">Automatikus feltöltés</string>
     <string name="cloud_auto_upload_summary">Felvétel automatikus feltöltése hívás után</string>
-    <string name="cloud_upload_starred">Kedvencek feltöltése</string>
-    <string name="cloud_upload_starred_summary">Felvételek feltöltése felhőbe miután hozzáadta a kedvencekhez</string>
+    <string name="cloud_upload_starred">Csillaggal jelöltek feltöltése</string>
+    <string name="cloud_upload_starred_summary">Felvételek feltöltése felhőbe miután hozzáadta a csillaggal jelöltekhez</string>
 
     <!-- Notification -->
     <string name="notify_uploading_dropbox">Feltöltés Dropbox-ba</string>
@@ -313,7 +313,7 @@
     <string name="notify_converting_to_mp3">Konvertálás MP3-ba</string>
     <string name="notify_encrypting">Titkosítás</string>
     <string name="notify_decrypting">Dekódolás</string>
-    <string name="notify_waiting_for_calls">Hívásokra vár</string>
+    <string name="notify_waiting_for_calls">Hívásra vár</string>
     <string name="notify_tasks_remaining">%d hátralevő feladatok</string>
 
     <!-- Password dialog -->
@@ -327,9 +327,9 @@
     <string name="create_new_key">Új kulcs létrehozása</string>
     <string name="create_new_key_summary">Ezt a kulcsot fogja később használni a felvételek kódolásához vagy belépni az alkalmazásba</string>
     <string name="delete_key">Kulcs törlése</string>
-    <string name="change_password">Jelszó módosítás</string>
-    <string name="delete_key_summary">Figyelmeztetés! Soha nem lesz képes helyreállítani a kódolt fevételeket, még akkor sem ha létrehoz egy új kulcsot ugyanazzal jelszóval</string>
-    <string name="delete_key_message">Törlés után nem lesz képes helyreállítani a kódolt fevételeket. Valóban folytatni szeretné?</string>
+    <string name="change_password">Jelszó módosítása</string>
+    <string name="delete_key_summary">Figyelmeztetés! Soha nem lesz képes helyreállítani a kódolt felvételeket, még akkor sem ha létrehoz egy új kulcsot ugyanazzal a jelszóval</string>
+    <string name="delete_key_message">Törlés után nem lesz képes helyreállítani a kódolt felvételeket. Valóban folytatni szeretné?</string>
     <string name="enter_old_password">Adja meg a régi jelszót</string>
     <string name="enter_new_password">Adja meg az új jelszót</string>
     <string name="re_enter_new_password">Adja meg az új jelszót ismét</string>
@@ -343,7 +343,7 @@
     <string name="lock_after_5_minutes">5 perc</string>
     <string name="lock_after_10_minutes">10 perc</string>
     <string name="app_admin">Alkalmazás kezelő</string>
-    <string name="app_admin_summary">Szükséges a Call Recorder eltávolításának megakadályozására</string>
+    <string name="app_admin_summary">Nélkülözhetetlen a Call Recorder eltávolításának megakadályozására</string>
     <string name="app_admin_explanation">A Call Recorder az eltávolításon kívül nem használja semmilyen szolgáltatásara az eszközkezelőt</string>
     <string name="aes_128bit">128-bit AES (Gyorsabb)</string>
     <string name="aes_192bit">192-bit AES (Kiegyensúlyozott)</string>
@@ -353,12 +353,12 @@
     <string name="use_built_in_player">Beépített lejátszó használata</string>
     <string name="audio_output">Hangkimenet</string>
     <string name="audio_output_summary">%s (Átváltáshoz hosszú érintés a lejátszás/szünet gombra)</string>
-    <string name="main_speaker">Fő hangszóró(kihangosítás)</string>
+    <string name="main_speaker">Fő hangszóró</string>
     <string name="phone_speaker">Telefon hangszóró</string>
     <string name="use_proximity_sensor">Közelségi szenzor használata</string>
     <string name="use_proximity_sensor_summary">Képernyő közelség érzékelő letiltása visszajátszás alatt</string>
     <string name="switch_audio_output">Hangkimenet váltás</string>
-    <string name="switch_audio_output_summary">Automatikus akusztikus kimenet váltás amikor a képernyőt letiltja/engedélyezi a közelség érzékelő</string>
+    <string name="switch_audio_output_summary">Automatikus hagnkimenet váltás amikor a képernyőt letiltja/engedélyezi a közelség érzékelő</string>
     <string name="android_wav_decoder">Android dekóder WAV-hez</string>
     <string name="android_wav_decoder_summary">WAV lejátszásához a beépített lejátszó használata</string>
     <string name="android_amr_decoder">Android dekóder AMR-hez</string>
@@ -374,8 +374,8 @@
 
     <!-- General -->
     <string name="contact_unknown">Ismeretlen</string>
-    <string name="button_choose">Kiválasztás</string>
-    <string name="button_ok">Rendben</string>
+    <string name="button_choose">Választ</string>
+    <string name="button_ok">OK</string>
     <string name="button_call">Hívás</string>
     <string name="button_buy">Vásárlás</string>
     <string name="button_edit">Szerkeszt</string>
@@ -512,10 +512,10 @@
 
     <string name="category_translators">Fordító</string>
     <string name="button_restore">Visszaállítás</string>
-    <string name="exception_groups">%d csoportok</string>
+    <string name="exception_groups">%d csoport</string>
     <string name="restore_settings">Beállítások visszaállítása</string>
 
-    <string name="hide_starred_recordings">Csillagos felvételek elrejtése</string>
-    <string name="hide_starred_recordings_summary">Nem mutatja a csillaggal jelölt fevételeket a képernyőn az összes fevételnél</string>
+    <string name="hide_starred_recordings">Csillaggal jelölt felvételek elrejtése</string>
+    <string name="hide_starred_recordings_summary">Nem mutatja a csillaggal jelölt felvételeket a képernyőn az összes felvételnél</string>
 
     </resources>
