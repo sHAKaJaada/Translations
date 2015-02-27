@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">Զանգերի ձայնագրիչ</string>
     <string name="terms_of_use">Օգտագործման պայմաններ</string>
@@ -505,4 +505,54 @@
     
     
     
+<string name="action_cancel_tasks">Չեղարկել հանձնարարությունները</string>
+    <string name="records_size">ձայնագրություններ: %1$s, չափս: %2$s</string>
+    <string name="space_free_of">%1$s ազատ %2$s-ից</string>
+
+    <string name="restore_settings">Վերականգնել կարգավորումները</string>
+
+    <string name="settings_open_unlocker">Բացել Unlocker-ը</string>
+    <string name="license_trial_expired">Փորձաշրջանը ավարտված է</string>
+    <string name="license_trial_expired_summary">Խնրում ենք ջնջել ծրագրի այս տարբերակը, ամբողջական տարբերակը գնելուց առաջ</string>
+    <string name="when_bt_connected">Երբ BT-ն միացված է</string>
+    <string name="audio_source_when_bt_connected">Ձայնագրման աղբյուրը, երբ BT-ն միացված է</string>
+
+    <string name="when_bt_connected_do_nothing">Ոչինչ</string>
+    <string name="when_bt_connected_switch_source">Փոխել ձայնագրման աղբյուրը</string>
+    <string name="when_bt_connected_disable_recording">Անջատել ձայնագրումը</string>
+
+    <string name="exception_groups">%d խմբեր</string>
+    <string name="create_new_folder">Ստեղծել նոր թղթապանակ</string>
+    <string name="dialog_title_new_folder">Նոր թղթապանակ</string>
+    <string name="hide_icon_but_keep_notification">Թաքցնել նշանը՝ թողնելով տեղեկացումները</string>
+    <string name="hide_icon_but_keep_notification_summary">Թացնել նշանը՝ թողնելով տեղեկատվությունը ինֆորմացիոն տողում</string>
+    <string name="category_main_screen">Գլխավոր էկրան</string>
+    <string name="hide_starred_recordings">Թաքցնել նշված ձայնագրությունները</string>
+    <string name="hide_starred_recordings_summary">Թաքցնել նշված ձայնագրությունները էկրանին բոլոր ձայնագրություններով</string>
+
+    <string name="notify_converting_to_amr">Փոփոխել AMR-ի</string>
+    <string name="notify_converting_to_mp3">Փոփոխել MP3-ի</string>
+    <string name="notify_encrypting">Ընթանում է կոդավորում</string>
+    <string name="notify_decrypting">Ընթանում է ապակոդավորում</string>
+    <string name="notify_waiting_for_calls">Զանգի սպասում</string>
+    <string name="send_logs_to_the_developer">Ուղարկել լոգերը հեղինակին</string>
+
+    <string name="button_buy">Գնել</string>
+    <string name="button_restore">Վերականգնել</string>
+    <string name="toast_recording_is_off">Ձայնագրումը անջատված է</string>
+    <string name="toast_recording_is_on">Ձայնագրումը միացված է</string>
+    <string name="toast_file_deleted">Ֆայլը հաջողությամբ ջնջված է</string>
+
+    <string name="category_other">Այլ</string>
+    <string name="open_source_licenses">Open source լիցենզիա</string>
+
+    <string name="category_translators">Թարգմանիչներ</string>
+    <string name="armenian_translation">Հայերեն թարգմանությունը</string>
+    <string name="armenian_translation_summary">Հակոբ Սունունուի և Կոնստանտին Գևորգյանի</string>
+    <string name="gujarati_translation">Գուջարիթի թարգմանությունը</string>
+    <string name="gujarati_translation_summary">Abhishek Sharma-ի</string>
+    <string name="tamil_translation">Թամիլյան թարգմանությունը</string>
+    <string name="tamil_translation_summary">Ashish Sharma-ի</string>
+    <string name="greek_translation">Հունարեն թարգմանությունը</string>
+    <string name="greek_translation_summary">Lefteris (SomniusX) Eliades-ի</string>
 </resources>
