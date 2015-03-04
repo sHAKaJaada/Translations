@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">Услови коришћења</string>
@@ -505,4 +505,17 @@
     <string name="tamil_translation_summary">Ashish Sharma</string>
     <string name="greek_translation">Грчки превод</string>
     <string name="greek_translation_summary">Lefteris (SomniusX) Eliades</string>
-</resources>
+<string name="exception_groups">%d групе</string>
+    <string name="create_new_folder">Направити нову фасциклу…</string>
+    <string name="dialog_title_new_folder">Нова фасцикла</string>
+    <string name="hide_starred_recordings">Сакрити фаворизоване снимке</string>
+    <string name="hide_starred_recordings_summary">Не приказивати фаворизоване снимке</string>
+
+    <string name="button_restore">Врати</string>
+    <string name="category_other">Остало</string>
+    <string name="open_source_licenses">Лиценце отвореног кода</string>
+
+    <string name="category_translators">Преводиоци</string>
+    <string name="restore_settings">Поништити подешавања</string>
+
+    </resources>
