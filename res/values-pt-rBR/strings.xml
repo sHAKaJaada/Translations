@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     
     <string name="terms_of_use">Termos de Uso</string>
@@ -188,7 +188,7 @@
     <string name="api_source_voice_communication">Comunicação de voz</string>
     <string name="category_wav_settings">Configurações WAV</string>
     
-    <string name="when_bt_connected">Quando o BT estiver conectado...</string>
+    <string name="when_bt_connected">Quando o BlueTooth estiver conectado…</string>
     <string name="audio_source_when_bt_connected">Origem de áudio quando o BT estiver conectado</string>
 
     <!-- Actions when BT connected -->
@@ -391,7 +391,7 @@
     
     
     
-    <string name="please_wait">Por favor aguarde...</string>
+    <string name="please_wait">Por favor aguarde…</string>
     <string name="start_recording">Iniciar gravação</string>
     <string name="stop_recording">Parar gravação</string>
     
@@ -484,7 +484,7 @@
     <string name="thai_translation">Tradução Tailândesa</string>
     <string name="thai_translation_summary">por Wuttisak Saichoncharn</string>
     <string name="georgian_translation">Tradução Georgiana</string>
-    <string name="georgian_translation_summary">por Alexandre Razmadze</string>
+    <string name="georgian_translation_summary">por Sandro Razmadze</string>
     <string name="catalan_translation">Tradução Catalã</string>
     <string name="catalan_translation_summary">por cybdani</string>
     
@@ -505,4 +505,59 @@
     
     
     
-</resources>
+<string name="app_name"/>
+    <string name="terms_of_use_message">Ao utilizar o aplicativo, você concorda com o &lt;a href=http://rec.sh/terms&gt;Termo de Uso&lt;/a&gt; do CallRecorder.</string>
+
+    <string name="navigation_drawer_open">Abrir a gaveta de navegação</string>
+    <string name="navigation_drawer_close">Fechar a gaveta de navegação</string>
+
+    <string name="section_all_recordings">Todas gravações</string>
+    <string name="section_starred">Marcado</string>
+    <string name="section_by_contact">Por contato</string>
+    <string name="section_by_format">Por formato</string>
+    <string name="section_by_label">Por marcador</string>
+    <string name="section_tasks_hint">Tarefas que consomem tempo, como conversão, criptografia ou upload para a nuvem, aparecerão aqui</string>
+    <string name="action_sort">Ordenar</string>
+    <string name="action_refresh">Atualizar</string>
+    <string name="greek_translation_summary">porLefteris (SomniusX) Eliades</string>
+<string name="action_delete">Apagar</string>
+    <string name="action_add_star">Adicionar estrela</string>
+    <string name="action_remove_star">Remover estrela</string>
+    <string name="action_share">Compartilhar</string>
+    <string name="action_cancel_tasks">Cancelar tarefas</string>
+    <string name="sort_by_date">Por data</string>
+    <string name="sort_by_contact">Por contato</string>
+    <string name="sort_by_file_size">Por tamanho de arquivo</string>
+    <string name="records_size">registros: %1$s, tamanho: %2$s</string>
+    <string name="space_free_of">%1$s livre de %2$s</string>
+
+    <string name="restore_settings">Restaurar configurações</string>
+
+    <string name="list_header_today">Hoje</string>
+    <string name="list_header_yesterday">Ontem</string>
+    <string name="queued">Enfileirada</string>
+    <string name="no_connection">Sem conexão</string>
+
+    <string name="menu_add_note">Adicionar nota</string>
+    <string name="menu_edit_note">Editar nota</string>
+    <string name="menu_share">Compartilhar</string>
+    <string name="menu_convert_to_mp3">Converter para MP3</string>
+    <string name="menu_convert_to_amr">Converter para AMR</string>
+    <string name="menu_cancel_task">Cancelar tarefas</string>
+    <string name="sample_rate_hz"/>
+    <string name="recording_type">Tipo de gravação</string>
+    <string name="recording_type_mono"/>
+    <string name="recording_type_stereo">Estéreo</string>
+    <string name="terabyte"/>
+    <string name="gigabyte"/>
+    <string name="megabyte"/>
+    <string name="kilobyte"/>
+    <string name="bytes"/>
+    <string name="note">Nota</string>
+
+    <string name="confirm_delete_several_title">Confirmar deleção</string>
+    <string name="confirm_delete_several_message">Você selecionou %d gravações. Você tem certeza que deseja apagá-las?</string>
+
+    <string name="share_via">Compartilhar via</string>
+    <string name="settings_open_unlocker">Abrir desbloqueador</string>
+    </resources>
