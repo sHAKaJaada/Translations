@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">CallRecorder</string>
+    <string name="app_name">कॉल रिकॉर्डर</string>
     
     
 
@@ -11,13 +11,13 @@
     <!-- Navigation drawer sections -->
     
     
-    <string name="section_incoming">आने वाली</string>
-    <string name="section_outgoing">जाने वाली</string>
+    <string name="section_incoming">आने वाली कॉल</string>
+    <string name="section_outgoing">जाने वाली कॉल</string>
     
     
     
     <string name="section_help">सहायता</string>
-    <string name="section_tasks">भिन्न-भिन्न काम</string>
+    <string name="section_tasks">भिन्न-भिन्न कार्य</string>
     
     <string name="empty_hint">ख़ाली</string>
 
@@ -48,22 +48,22 @@
     
 
     <!-- List -> Context menu -->
-    <string name="menu_add_to_dropbox">Dropbox में जोड़ा जाए</string>
+    <string name="menu_add_to_dropbox">Dropbox में जोडें</string>
     
     
-    <string name="menu_delete">मिटाना है</string>
+    <string name="menu_delete">मिटायें</string>
     
     
     
-    <string name="menu_get_info">जानकारी प्राप्त करनी है</string>
+    <string name="menu_get_info">जानकारी प्राप्त करें</string>
     
-    <string name="menu_encrypt">कूटबद्ध किया जाए</string>
+    <string name="menu_encrypt">कूटबद्ध करें</string>
     <string name="menu_decrypt">कूटबद्धता हटाई जाए</string>
 
     <!-- List -> Get info dialog -->
     <string name="file_name">फाइल का नाम</string>
     <string name="sample_rate">नमूना दर</string>
-    <string name="sample_rate_hz">sHz</string>
+    <string name="sample_rate_hz">Hz</string>
     
     <string name="recording_type_mono">मोनो(1चैनल)</string>
     <string name="recording_type_stereo">स्टीरियो (2 चैनल)</string>
@@ -76,7 +76,7 @@
     
 
     <!-- List -> Get info dialog -> Edit -->
-    <string name="contact_name">संपर्क का नाम</string>
+    <string name="contact_name">व्यक्ति का नाम</string>
     <string name="phone_number">फ़ोन नंबर</string>
 
     <!-- List -> Confirm delete dialog -->
@@ -90,7 +90,7 @@
 
     <!--  Settings -> Headers -->
     
-    <string name="settings_recording">रिकॉर्डिंग समायोजन</string>
+    <string name="settings_recording">रिकॉर्डिंग</string>
     <string name="settings_folders_and_files">फ़ोल्डर्स और फाइल्स</string>
     <string name="settings_ui_and_appearance">रंग-रूप</string>
     <string name="settings_security">सुरक्षा</string>
@@ -505,4 +505,60 @@
     
     
     
-</resources>
+<string name="terms_of_use">इस्तेमाल करने की शर्तें</string>
+    <string name="terms_of_use_message">इस एप (app) का इस्तेमाल करके आप कॉल रिकॉर्डर की &lt;a href=http://rec.sh/terms&gt;शर्तों&lt;/a&gt; को स्वीकार करते हैं</string>
+
+    <string name="navigation_drawer_open">समायोजन पट्टी खोलें</string>
+    <string name="navigation_drawer_close">समायोजन पट्टी बंद करें</string>
+
+    <string name="section_all_recordings">सारी रिकॉर्डिंग</string>
+    <string name="section_starred">पसंदीदा</string>
+    <string name="section_by_contact">व्यक्ति के नाम से</string>
+    <string name="section_by_format">प्रारूप से</string>
+    <string name="section_by_label">label से</string>
+    <string name="section_tasks_hint">प्रारूप बदलने, कूटबद्ध करने या क्लाउड में अपलोड करने जैसे कार्य जो ज्यादा वक़्त लेते हैं, वह यहाँ दिखाए जायेंगे</string>
+    <string name="action_sort">श्रेणी के अनुसार लगाएं</string>
+    <string name="action_refresh">ताज़ा (Refresh)</string>
+    <string name="action_delete">मिटायें</string>
+    <string name="action_add_star">पसंदीदी बनाएं</string>
+    <string name="action_remove_star">पसंदीदा की श्रेणी से हटायें</string>
+    <string name="action_share">बाँटें</string>
+    <string name="action_cancel_tasks">सब ही कार्य रोकें</string>
+    <string name="sort_by_date">तारीख से</string>
+    <string name="sort_by_contact">व्यक्ति से</string>
+    <string name="sort_by_file_size">आकार के अनुसार</string>
+    <string name="space_free_of">%1$s में से %2$s शेष</string>
+
+    <string name="records_size">अभिलेख: %1$s, आकार: %2$s</string>
+    <string name="restore_settings">समायोजन बहान करें</string>
+
+    <string name="list_header_today">आज</string>
+    <string name="list_header_yesterday">बीता हुआ कल</string>
+    <string name="queued">पंक्तिबद्ध</string>
+    <string name="no_connection">इन्टरनेट नहीं है</string>
+
+    <string name="menu_add_note">टिप्पणी जोडें</string>
+    <string name="menu_edit_note">टिप्पणी सम्पादन करें</string>
+    <string name="menu_share">बाँटें</string>
+    <string name="menu_convert_to_mp3">MP3 में परिवर्तित करें</string>
+    <string name="menu_convert_to_amr">AMR में परिवर्तित करें</string>
+    <string name="menu_cancel_task">कार्य रोकें</string>
+    <string name="recording_type">रिकॉर्डिंग ढंग</string>
+    <string name="note">टिप्पणी</string>
+
+    <string name="confirm_delete_several_title">पुष्टि करी</string>
+    <string name="confirm_delete_several_message">आपने %d रिकॉर्डिंग चुनी हैं, इन सबको मिटा दिया जाए?</string>
+
+    <string name="share_via">बाँटें</string>
+    <string name="settings_open_unlocker">Call Recorder Unlocker खोलें</string>
+    <string name="settings_cloud">क्लाउड</string>
+    <string name="license_check_pending">अनुज्ञा-जाँच शेष</string>
+    <string name="license_check_failed">अनुज्ञा-जाँच असफल</string>
+    <string name="license_check_failed_summary">अधिक जानकारी के लिए यहाँ छुएं</string>
+    <string name="license_verified">अनुज्ञा-जाँच सफल</string>
+    <string name="license_verified_summary">छुपाने के लिए छुएं</string>
+    <string name="license_help">सहायता</string>
+    <string name="license_signature_verification_failed">अनुज्ञा-जाँच असफल</string>
+    <string name="license_error_message">त्रुटी #%1$s: %2$s</string>
+    <string name="license_unknown_error">अनजान त्रुटी</string>
+    </resources>
