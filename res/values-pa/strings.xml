@@ -519,7 +519,7 @@
     <string name="sort_by_contact">ਸੰਪਰਕ ਦੁਆਰਾ</string>
     <string name="sort_by_file_size">ਆਕਾਰ ਦੇ ਅਨੁਸਾਰ ਨਾਲ</string>
     <string name="records_size">ਰਿਕਾਰਡ: %1$s, ਆਕਾਰ: %2$s</string>
-    <string name="space_free_of">% 2 $ s ਦੀ ਮੁਫਤ% 1 $ s</string>
+    <string name="space_free_of">%2$s ਦੀ ਮੁਫਤ %1$s</string>
 
     <string name="restore_settings">ਸੈਟਿੰਗ ਮੁੜ ਬਹਾਲ ਕਰੋ</string>
 
@@ -551,7 +551,7 @@
     <string name="license_verified_summary">ਓਹਲੇ ਕਰਨ ਲਈ ਛੂਹੋ</string>
     <string name="license_signature_verification_failed">ਦਸਤਖਤ ਪ੍ਰਮਾਣਿਕਤਾ ਅਸਫਲ</string>
     <string name="license_error_message">ਗਲਤੀ ਹੈ #%1$s: %2$s</string>
-    <string name="license_trial"></string>
+    <string name="license_trial"/>
     <string name="license_unknown_error">ਅਣਜਾਣ ਗਲਤੀ</string>
     <string name="license_not_market_managed">ਇਹ ਵਰਜਨ ਅਜੇ ਵੀ Play Store \'ਤੇ ਪ੍ਰਕਾਸ਼ਿਤ ਨਹੀ ਹੈ</string>
     <string name="license_incorrect_response">"Play Store ਦਾ  ਗਲਤ ਲਾਇਸੰਸ ਜਵਾਬ"</string>
