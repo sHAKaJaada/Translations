@@ -505,7 +505,7 @@
     
     
     
-<string name="terms_of_use_message">ਇਸ ਐਪਲੀਕੇਸ਼ ਨੂੰ ਵਰਤ ਕੇ, ਤੁਸੀਂ ਕੋਲ ਰਿਕਾਰ੍ਡਰ ਦੇ &lt;a href=http://rec.sh/terms&gt; ਨਿਯਮ ਦੀ ਵਰਤੋ ਕਰਨ ਲਈ ਸਹਿਮਤ ਹੋ&lt;/a&gt;</string>
+<string name="terms_of_use_message">ਇਸ ਐਪਲੀਕੇਸ਼ ਨੂੰ ਵਰਤ ਕੇ, ਤੁਸੀਂ ਕੋਲ ਰਿਕਾਰ੍ਡਰ ਦੇ &lt;a href=http://rec.sh/terms&gt; ਨਿਯਮ ਦੀ ਵਰਤੋ ਕਰਨ ਲਈ ਸਹਿਮਤ ਹੋ&lt;/a&gt;.</string>
 
     <string name="section_tasks_hint">ਓਹ ਕਮ ਜਿਨਾ ਨੂ ਜ੍ਯਾਦਾ ਸਮਾ ਲਗਦਾ ਆ ਜਿਵੇ ਕਿ, ਫਾਰਮੈਟ ਬੱਦਲ ਕਰਨ ਲਈ, ਇਨਕ੍ਰਿਪਟ ਜਾ ਰਿਕਾਰਡਿੰਗਜ਼ ਨੂ ਅੱਪਲੋਡ ਕਰਨ ਵਾਲੇ ਇਥੇ ਦਿਸੁਗੇ</string>
     <string name="action_sort">ਲੜੀਬੱਧ ਦੇ ਮੁਤਾਬਿਕ ਲਗਾਓ</string>
@@ -551,7 +551,7 @@
     <string name="license_verified_summary">ਓਹਲੇ ਕਰਨ ਲਈ ਛੂਹੋ</string>
     <string name="license_signature_verification_failed">ਦਸਤਖਤ ਪ੍ਰਮਾਣਿਕਤਾ ਅਸਫਲ</string>
     <string name="license_error_message">ਗਲਤੀ ਹੈ #%1$s: %2$s</string>
-    <string name="license_trial">ਟੈਸਟ ਵਰਜਨ,% s ਨੂੰ ਖਤਮ ਕਰੇਗਾ</string>
+    <string name="license_trial"></string>
     <string name="license_unknown_error">ਅਣਜਾਣ ਗਲਤੀ</string>
     <string name="license_not_market_managed">ਇਹ ਵਰਜਨ ਅਜੇ ਵੀ Play Store \'ਤੇ ਪ੍ਰਕਾਸ਼ਿਤ ਨਹੀ ਹੈ</string>
     <string name="license_incorrect_response">"Play Store ਦਾ  ਗਲਤ ਲਾਇਸੰਸ ਜਵਾਬ"</string>
@@ -584,7 +584,7 @@
     <string name="volume_control_rx">Rx</string>
     <string name="category_wav_settings">WAV ਵਿਵਸਥਾ</string>
     <string name="category_wav_and_mp3_settings">WAV &amp; MP3 ਵਿਵਸਥਾ</string>
-    <string name="when_bt_connected">ਜਦ ਬਲਿਊ-ਟੁੱਥ (ਸਿਰ-ਸੈੱਟ) ਲਈ ਵਰਤਿਆ ਹੈ</string>
+    <string name="when_bt_connected">ਜਦ ਬਲਿਊ-ਟੁੱਥ (ਸਿਰ-ਸੈੱਟ) ਲਈ ਵਰਤਿਆ ਹੈ…</string>
     <string name="audio_source_when_bt_connected">ਬਲਿਊ ਟੁੱਥ (ਸਿਰ-ਸੈੱਟ) ਆਵਾਜ਼ ਸਰੋਤ ਨਾਲ ਜੁੜਿਆ ਹੈ</string>
 
     <string name="when_bt_connected_do_nothing">ਕੁਝ ਨਾ ਕੀਤਾ ਜਾਵੇ</string>
