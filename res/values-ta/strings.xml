@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">கால் ரெக்கார்டர்</string>
     <string name="terms_of_use">விதிமுறைகள்</string>
@@ -505,4 +505,54 @@
     
     
     
+<string name="action_cancel_tasks">பணிகளை ரத்து</string>
+    <string name="records_size">பதிவுகள்: %1$s, அளவு: %2$s</string>
+    <string name="space_free_of">%1$s இலவச உடைய %2$s</string>
+
+    <string name="restore_settings">அமைப்புகளை மீட்டெடு</string>
+
+    <string name="settings_open_unlocker">திறந்த ஐநாலாக்கர்</string>
+    <string name="license_trial_expired">சோதனை காலம் முடிந்துவிட்டதாக</string>
+    <string name="license_trial_expired_summary">தயவு செய்து, வாங்குவதற்கு ஒரு முழு பதிப்பு முன் இந்த பதிப்பு நீக்கத்</string>
+    <string name="when_bt_connected">போது பிடி இணைக்கப்பட்ட…</string>
+    <string name="audio_source_when_bt_connected">ஆடியோ மூல போது பிடி இணைக்கப்பட்ட</string>
+
+    <string name="when_bt_connected_do_nothing">ஒன்றும் செய்ய</string>
+    <string name="when_bt_connected_switch_source">ஆடியோ மூல சுவிட்ச்</string>
+    <string name="when_bt_connected_disable_recording">முடக்கு பதிவு</string>
+
+    <string name="exception_groups">%d குழுக்கள்</string>
+    <string name="create_new_folder">புதிய அடைவை உருவாக்கு…</string>
+    <string name="dialog_title_new_folder">புதிய கோப்புறை</string>
+    <string name="hide_icon_but_keep_notification">சின்னத்தை மறைக்க, ஆனால் அறிவிப்பை வைக்க</string>
+    <string name="hide_icon_but_keep_notification_summary">சின்னத்தை மறைக்க, ஆனால் இந்த நிலையை பட்டியில் அறிவிப்பை வைக்க</string>
+    <string name="category_main_screen">முக்கிய திரை</string>
+    <string name="hide_starred_recordings">இணைந்து நடித்தனர் பதிவுகளை மறை</string>
+    <string name="hide_starred_recordings_summary">அனைத்து பதிவுகள் மூலம் திரையில் இணைந்து நடித்தனர் பதிவுகளை காண்பிக்க</string>
+
+    <string name="notify_converting_to_amr">AMR செய்ய மாற்றுகிறது</string>
+    <string name="notify_converting_to_mp3">MP3 க்கு மாற்றப்படும்</string>
+    <string name="notify_encrypting">என்க்ரிப்ட்</string>
+    <string name="notify_decrypting">குறிநீக்கம்</string>
+    <string name="notify_waiting_for_calls">அழைப்புகள் காத்திருக்கிறது</string>
+    <string name="send_logs_to_the_developer">டெவலப்பர் பதிவுகள் அனுப்பவும்</string>
+
+    <string name="button_buy">வாங்க</string>
+    <string name="button_restore">மீட்டமை</string>
+    <string name="toast_recording_is_off">பதிவு ஆஃப் ஆகிறது</string>
+    <string name="toast_recording_is_on">பதிவு செய்தல் ஆகிறது மீது</string>
+    <string name="toast_file_deleted">கோப்பு வெற்றிகரமாக நீக்கப்பட்டது</string>
+
+    <string name="category_other">பிற</string>
+    <string name="open_source_licenses">ஓப்பன் சோர்ஸ் உரிமங்கள்</string>
+
+    <string name="category_translators">மொழிபெயர்ப்பாளர்</string>
+    <string name="armenian_translation">ஆர்மீனிய மொழிபெயர்ப்பு</string>
+    <string name="armenian_translation_summary">மூலம் Hakob Sununu மற்றும் Konstantin Gevorgyan</string>
+    <string name="gujarati_translation">குஜராத்திய மொழிபெயர்ப்பு</string>
+    <string name="gujarati_translation_summary">மூலம் Abhishek Sharma</string>
+    <string name="tamil_translation">தமிழ் மொழிபெயர்ப்பு</string>
+    <string name="tamil_translation_summary">மூலம் Ashish Sharma</string>
+    <string name="greek_translation">கிரேக்கம் மொழிபெயர்ப்பு</string>
+    <string name="greek_translation_summary">மூலம் Lefteris (SomniusX) Eliades</string>
 </resources>
