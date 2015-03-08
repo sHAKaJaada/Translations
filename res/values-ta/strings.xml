@@ -314,7 +314,7 @@
     
     
     
-    <string name="notify_tasks_remaining">%d ரேகோர்டிங்க்ஸ் மீதமுள்ள</string>
+    <string name="notify_tasks_remaining">%d பணிகளை மீதமுள்ள</string>
 
     <!-- Password dialog -->
     <string name="wrong_password">தவறான கடவுச்சொல்</string>
@@ -369,7 +369,7 @@
     <string name="root_access_no">இல்லை</string>
     <string name="root_access_yes">ஆம்</string>
     <string name="dual_sim_phone">இரட்டை சிம் போன்</string>
-    <string name="dual_sim_phone_summary">இயக்கு இந்த பயன்பாட்டை அழைப்புகள் தீர்மானிக்க முடியாது என்றால் இரண்டாவது சிம் அட்டையிலிருந்து</string>
+    <string name="dual_sim_phone_summary">இந்த இயக்கு பயன்பாட்டை முடியவில்லை என்றால் முடியாது இரண்டாவது சிம் கார்டு இருந்து அழைப்புகள் தீர்மானிக்க</string>
     
 
     <!-- General -->
@@ -394,18 +394,18 @@
     <string name="please_wait">தயவு செய்து காத்திருக்கவும்…</string>
     <string name="start_recording">பதிவு தொடக்கம்</string>
     <string name="stop_recording">நிறுத்தத்தில் பதிவு</string>
-    <string name="action_mode_selected">%d தேர்வு</string>
+    <string name="action_mode_selected">%d செலக்ட்</string>
     <string name="switch_on">அன்று</string>
     <string name="switch_off">இனிய</string>
 
     <!--Toasts-->
-    <string name="toast_wait_for_operation_to_complete">ஒரு அறுவை சிகிச்சை முடிக்க காத்திரு</string>
+    <string name="toast_wait_for_operation_to_complete">ஒரு அறுவை சிகிச்சைக்கு காத்திருக்க செய்ய முடிக்க</string>
     
     
     
 
     <!-- Call confirm dialog -->
-    <string name="call_confirm_record_this_call">இந்த அழைப்பை ரெகார்ட்</string>
+    <string name="call_confirm_record_this_call">ரெகார்ட் திஸ் கால்</string>
     <string name="open_contact">தொடர்பைத் திற</string>
 
     <!--After call actions dialog-->
@@ -484,7 +484,7 @@
     <string name="thai_translation">தாய் மொழிபெயர்ப்பு</string>
     <string name="thai_translation_summary">Wuttisak Saichoncharn மூலம்</string>
     <string name="georgian_translation">ஜோர்ஜிய மொழிபெயர்ப்பு</string>
-    <string name="georgian_translation_summary">Alexandre Razmadze மூலம்</string>
+    <string name="georgian_translation_summary">Sandro Razmadze மூலம்</string>
     <string name="catalan_translation">தமிழ் மொழிபெயர்ப்பு</string>
     <string name="catalan_translation_summary">cybdani மூலம்</string>
     <string name="hindi_translation">ஹிந்தி மொழிபெயர்ப்பு</string>
@@ -539,8 +539,8 @@
 
     <string name="button_buy">வாங்க</string>
     <string name="button_restore">மீட்டமை</string>
-    <string name="toast_recording_is_off">பதிவு ஆஃப் ஆகிறது</string>
-    <string name="toast_recording_is_on">பதிவு செய்தல் ஆகிறது மீது</string>
+    <string name="toast_recording_is_off">ரெகார்டிங் ஆஃப் ஆகிறது</string>
+    <string name="toast_recording_is_on">ரெகார்டிங் மீது</string>
     <string name="toast_file_deleted">கோப்பு வெற்றிகரமாக நீக்கப்பட்டது</string>
 
     <string name="category_other">பிற</string>
@@ -548,11 +548,11 @@
 
     <string name="category_translators">மொழிபெயர்ப்பாளர்</string>
     <string name="armenian_translation">ஆர்மீனிய மொழிபெயர்ப்பு</string>
-    <string name="armenian_translation_summary">மூலம் Hakob Sununu மற்றும் Konstantin Gevorgyan</string>
+    <string name="armenian_translation_summary">Hakob Sununu மற்றும் Konstantin Gevorgyan மூலம்</string>
     <string name="gujarati_translation">குஜராத்திய மொழிபெயர்ப்பு</string>
-    <string name="gujarati_translation_summary">மூலம் Abhishek Sharma</string>
+    <string name="gujarati_translation_summary">Abhishek Sharma மூலம்</string>
     <string name="tamil_translation">தமிழ் மொழிபெயர்ப்பு</string>
-    <string name="tamil_translation_summary">மூலம் Ashish Sharma</string>
+    <string name="tamil_translation_summary">Ashish Sharma மூலம்</string>
     <string name="greek_translation">கிரேக்கம் மொழிபெயர்ப்பு</string>
-    <string name="greek_translation_summary">மூலம் Lefteris (SomniusX) Eliades</string>
+    <string name="greek_translation_summary">Lefteris (SomniusX) Eliades மூலம்</string>
 </resources>
