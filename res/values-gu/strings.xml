@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">કોલ રેકોર્ડર</string>
     <string name="terms_of_use">ઉપયોગની શરતો</string>
@@ -314,7 +314,7 @@
     
     
     
-    <string name="notify_tasks_remaining">બાકી %d રેકોર્ડિંગ્સ</string>
+    <string name="notify_tasks_remaining">%d કાર્ય બાકી રહી જવું</string>
 
     <!-- Password dialog -->
     <string name="wrong_password">ખોટી પાસવર્ડ</string>
@@ -505,4 +505,54 @@
     
     
     
+<string name="action_cancel_tasks">કાર્યવિશેષ રદ</string>
+    <string name="records_size">રેકોર્ડ: %1$s, કદ: %2$s</string>
+    <string name="space_free_of">%1$s મફત ના %2$s</string>
+
+    <string name="restore_settings">સેટિંગ્સ ફરિથી</string>
+
+    <string name="settings_open_unlocker">ઓપન અનલોકર</string>
+    <string name="license_trial_expired">ટ્રાયલ સમયગાળા નિવૃત્ત થઈ</string>
+    <string name="license_trial_expired_summary">કૃપા કરીને, ખરીદી એક સંપૂર્ણ આવૃત્તિ પહેલાં આ સંસ્કરણ અનઇન્સ્ટોલ</string>
+    <string name="when_bt_connected">જ્યારે બીટી જોડાયેલ…</string>
+    <string name="audio_source_when_bt_connected">ઑડિઓ સ્રોત જ્યારે બીટી જોડાયેલ</string>
+
+    <string name="when_bt_connected_do_nothing">કશું કરી</string>
+    <string name="when_bt_connected_switch_source">ઑડિઓ સ્રોત સ્વિચ</string>
+    <string name="when_bt_connected_disable_recording">અક્ષમ કરો રેકોર્ડિંગ</string>
+
+    <string name="exception_groups">%d જૂથો</string>
+    <string name="create_new_folder">નવું ફોલ્ડર બનાવવા…</string>
+    <string name="dialog_title_new_folder">નવું ફોલ્ડર</string>
+    <string name="hide_icon_but_keep_notification">છુપાવો ચિહ્ન, પરંતુ જાહેરનામું રાખવા</string>
+    <string name="hide_icon_but_keep_notification_summary">છુપાવો ચિહ્ન, પરંતુ જાહેરનામું રાખવા માં સ્થિતિ પટ્ટીનાં</string>
+    <string name="category_main_screen">મુખ્ય સ્ક્રીન</string>
+    <string name="hide_starred_recordings">તારાંકિત રેકોર્ડિંગ્સ છુપાવો</string>
+    <string name="hide_starred_recordings_summary">બધા રેકોર્ડિંગ્સ સાથે સ્ક્રીન પર તારાંકિત રેકોર્ડિંગ્સ બતાવશો નહીં</string>
+
+    <string name="notify_converting_to_amr">માટે રૂપાંતરિત AMR</string>
+    <string name="notify_converting_to_mp3">માટે રૂપાંતરિત MP3</string>
+    <string name="notify_encrypting">એનક્રિપ્ટ</string>
+    <string name="notify_decrypting">ડિક્રિપ્ટ</string>
+    <string name="notify_waiting_for_calls">કોલ માટે રાહ જોઈ</string>
+    <string name="send_logs_to_the_developer">વિકાસકર્તા માટે લોગ મોકલો</string>
+
+    <string name="button_buy">ખરીદી</string>
+    <string name="button_restore">પુનઃસ્થાપિત કરો</string>
+    <string name="toast_recording_is_off">રેકોર્ડિંગ બંધ છે</string>
+    <string name="toast_recording_is_on">રેકોર્ડિંગ ઓન છે</string>
+    <string name="toast_file_deleted">ફાઇલ સફળતાપૂર્વક કાઢી નાખવામાં આવ્યું છે</string>
+
+    <string name="category_other">અન્ય</string>
+    <string name="open_source_licenses">ઓપન સોર્સ લાઇસન્સ</string>
+
+    <string name="category_translators">અનુવાદકો</string>
+    <string name="armenian_translation">આર્મેનિયન અનુવાદ</string>
+    <string name="armenian_translation_summary">Hakob Sununu અને Konstantin Gevorgyan દ્વારા</string>
+    <string name="gujarati_translation">ગુજરાતી અનુવાદ</string>
+    <string name="gujarati_translation_summary">Abhishek Sharma દ્વારા</string>
+    <string name="tamil_translation">તમિળ અનુવાદ</string>
+    <string name="tamil_translation_summary">Ashish Sharma દ્વારા</string>
+    <string name="greek_translation">ગ્રીક અનુવાદ</string>
+    <string name="greek_translation_summary">Lefteris (SomniusX) Eliades દ્વારા</string>
 </resources>
