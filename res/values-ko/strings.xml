@@ -628,7 +628,7 @@
     <string name="hide_starred_recordings">즐겨찾는 녹음 숨기기</string>
     <string name="space_free_of">%2$s 중 %1$s 사용 가능</string>
 
-    <string name="settings_open_unlocker">Unlocker 열기</string>
+    <string name="settings_open_unlocker">Unlocker 앱 열기</string>
     <string name="hide_starred_recordings_summary">즐겨찾기로 등록한 녹음 항목을 \'모든 녹음 항목\' 화면에서 제외합니다</string>
 
     <string name="cloud_provider">클라우드 서비스 제공자</string>
