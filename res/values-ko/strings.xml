@@ -551,17 +551,17 @@
 
     <string name="share_via">공유 수단</string>
     <string name="settings_cloud">클라우드</string>
-    <string name="license_check_pending">라이센스 검사 보류 중</string>
-    <string name="license_check_failed">라이센스 검사 실패</string>
+    <string name="license_check_pending">라이선스 검사 보류 중</string>
+    <string name="license_check_failed">라이선스 검사 실패</string>
     <string name="license_check_failed_summary">오류 상세 확인</string>
-    <string name="license_verified">라이센스 확인됨</string>
+    <string name="license_verified">라이선스 확인됨</string>
     <string name="license_verified_summary">눌러서 숨기기</string>
     <string name="license_help">도움말</string>
     <string name="license_signature_verification_failed">서명 검증 실패</string>
     <string name="license_error_message">오류 #%1$s: %2$s</string>
     <string name="license_unknown_error">알 수 없는 오류</string>
     <string name="license_not_market_managed">이 버전은 아직 Play 스토어에 등록되지 않았습니다</string>
-    <string name="license_incorrect_response">Play 스토어에서 잘못된 라이센스 응답을 보내 왔습니다</string>
+    <string name="license_incorrect_response">Play 스토어에서 잘못된 라이선스 응답을 보내 왔습니다</string>
     <string name="license_error_contacting_server">서버에 접속할 수 없습니다</string>
     <string name="license_server_error">서버 오류</string>
     <string name="license_over_quota">이 디바이스에서 요청을 너무 많이 하였습니다</string>
