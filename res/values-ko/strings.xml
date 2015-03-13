@@ -699,7 +699,7 @@
     <string name="no_recording_in_progress">진행 중인 녹음 없음</string>
     <string name="about_call_recorder">CallRecorder 정보</string>
     <string name="category_other">그 외</string>
-    <string name="open_source_licenses">오픈 소스 라이센스</string>
+    <string name="open_source_licenses">오픈 소스 라이선스</string>
 
     <string name="category_translators">번역</string>
     <string name="italian_translation_summary"/>
