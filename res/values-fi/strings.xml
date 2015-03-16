@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">CallRecorder</string>
+    <string name="app_name">Call Recorder</string>
     <string name="terms_of_use">Käyttöehdot</string>
     <string name="terms_of_use_message">Käyttämällä tätä ohjelmaa, hyväksyt CallRecorderin &lt;a href=http://rec.sh/terms&gt;käyttöehdot&lt;/a&gt;.</string>
 
@@ -9,7 +9,7 @@
     
 
     <!-- Navigation drawer sections -->
-    <string name="section_all_recordings">Kaikki nauhoitukset</string>
+    <string name="section_all_recordings">Kaikki tallenukset</string>
     <string name="section_starred">Suosikit</string>
     <string name="section_incoming">Saapuva</string>
     <string name="section_outgoing">Lähtevä</string>
@@ -80,13 +80,13 @@
     <string name="phone_number">Puhelinnumero</string>
 
     <!-- List -> Confirm delete dialog -->
-    <string name="confirm_delete_message">Oletko varma, että haluat poistaa tämän nauhoituksen?</string>
+    <string name="confirm_delete_message">Oletko varma, että haluat poistaa tämän tallennuksen?</string>
     
     
 
     <!-- List -> Share -->
     
-    <string name="recorded_calls">Nauhoitetut puhelut</string>
+    <string name="recorded_calls">Tallennetut puhelut</string>
 
     <!--  Settings -> Headers -->
     
@@ -122,7 +122,7 @@
     <string name="buy_full_version_summary">Tämänhetkinen versio umpeutuu %s</string>
 
     <!-- Settings -> Recording -->
-    <string name="recording_calls_switch">Nauhoitetaan puheluita</string>
+    <string name="recording_calls_switch">Tallennetaan puheluita</string>
     <string name="category_main">Pää</string>
     <string name="device">Laite</string>
     <string name="select_your_device">Valitse laitteesi</string>
@@ -131,7 +131,7 @@
     
     <string name="device_other">Muu</string>
     <string name="recording_method">Tallennus tapa</string>
-    <string name="recording_method_api">Standard API</string>
+    <string name="recording_method_api">Standardi API</string>
     <string name="recording_method_api_settings">Asetukset Standard API tallennukselle</string>
     <string name="recording_method_caf">CAF</string>
     <string name="recording_method_caf_settings">Asetukset CAF tallennukselle</string>
@@ -148,14 +148,14 @@
     <string name="action_record_non_contacts">Tallenna ei-yhteystiedot</string>
     <string name="call_confirm">Puhelun varmistus</string>
     <string name="call_confirm_summary">Näytä varmistus ennen soittoa</string>
-    <string name="after_call_actions_dialog">Puhelun jälkeinen kysymys?</string>
+    <string name="after_call_actions_dialog">Puhelun jälkeinen kysymys</string>
     <string name="after_call_actions_dialog_summary">Kysy mitä tehdään puhelun jälkeen</string>
     <string name="vibrate_on_call">Tärinä puhelun alussa/lopussa</string>
     <string name="exceptions">Poikkeukset</string>
     
     
     
-    <string name="delay_before_start_recording">Viive nauhoituksen aloittamisessa</string>
+    <string name="delay_before_start_recording">Viive tallennuksen aloittamisessa</string>
     
     
     
@@ -185,19 +185,19 @@
     <string name="api_source_uplink">Äänipuhelu lähtevä</string>
     <string name="api_source_microphone">Mikrofoni</string>
     <string name="api_source_default">Oletus</string>
-    <string name="api_source_voice_communication">Voice communication</string>
+    <string name="api_source_voice_communication">Keskustelu</string>
     <string name="category_wav_settings">WAV Asetukset</string>
     
-    <string name="when_bt_connected">Kun BT yhdistetään...</string>
+    <string name="when_bt_connected">Kun BT yhdistetään…</string>
     <string name="audio_source_when_bt_connected">Äänilähde kun BT yhdistetty</string>
 
     <!-- Actions when BT connected -->
     <string name="when_bt_connected_do_nothing">Älä tee mitään</string>
     <string name="when_bt_connected_switch_source">Vaihda äänilähde</string>
-    <string name="when_bt_connected_disable_recording">Poista nauhoitus käytöstä</string>
+    <string name="when_bt_connected_disable_recording">Poista tallennus käytöstä</string>
 
     <!-- Settings -> Recording -> CAF -->
-    <string name="recording_mode">Nauhoitustapa</string>
+    <string name="recording_mode">Tallennustapa</string>
 
     <!-- Settings -> Recording -> ALSA -->
     
@@ -254,7 +254,7 @@
     <string name="pattern_phone_number">puhelinnumero</string>
     <string name="pattern_call_time">aika</string>
     
-    <string name="pattern_call_type">tyyppi (lähtevä, saapuva)</string>
+    <string name="pattern_call_type">tyyppi (lähtevä tai saapuva)</string>
     <string name="time_pattern_hours">tunnit</string>
     <string name="time_pattern_minutes">minuutit</string>
     <string name="time_pattern_seconds">sekunnit</string>
@@ -391,7 +391,7 @@
     
     
     
-    <string name="please_wait">Odota...</string>
+    <string name="please_wait">Odota…</string>
     <string name="start_recording">Aloita tallennus</string>
     <string name="stop_recording">Lopeta tallennus</string>
     
@@ -513,7 +513,7 @@
     <string name="sort_by_date">Päivämäärällä</string>
     <string name="sort_by_contact">Yhteystiedoittain</string>
     <string name="sort_by_file_size">Tiedoston koolla</string>
-    <string name="records_size">nauhoitukset: %1$s, koko: %2$s</string>
+    <string name="records_size">tallennukset: %1$s, koko: %2$s</string>
     <string name="space_free_of">%1$s vapaana %2$s</string>
 
     <string name="restore_settings">Palauta asetukset</string>
@@ -529,11 +529,11 @@
     <string name="menu_convert_to_mp3">Muunna MP3 muotoon</string>
     <string name="menu_convert_to_amr">Muunna AMR muotoon</string>
     <string name="menu_cancel_task">Peruuta tehtävä</string>
-    <string name="recording_type">Nauhoitusmuoto</string>
+    <string name="recording_type">Tallennusmuoto</string>
     <string name="note">Huomio</string>
 
     <string name="confirm_delete_several_title">Vahvista poisto</string>
-    <string name="confirm_delete_several_message">Olet valinnut %d nauhoistusta. Haluatko varmasti poistaa ne?</string>
+    <string name="confirm_delete_several_message">Olet valinnut %d tallennusta. Haluatko varmasti poistaa ne?</string>
 
     <string name="share_via">Jaa käyttäen</string>
     <string name="settings_open_unlocker">Aukaise Unlocker</string>
@@ -557,13 +557,13 @@
     <string name="device_root_is_required_summary">Root vaaditaan paremmalle laadulle</string>
     <string name="recording_method_msm">MSM</string>
     <string name="recording_method_msm_settings">Asetukset MSM tallennukselle</string>
-    <string name="start_recording_on_answer">Aloita nauhoitus vastatessa</string>
+    <string name="start_recording_on_answer">Aloita tallennus vastatessa</string>
     <string name="delay_before_start_recording_summary">Lähteville: %1$s, saapuville: %2$s</string>
     <string name="delay_format_sec">%s sek</string>
     <string name="delay_for_outgoing">Lähteville</string>
     <string name="delay_for_incoming">Saapuville</string>
     <string name="settings_for_device">Asetukset %s</string>
-    <string name="recording_format">Nauhoitus muoto</string>
+    <string name="recording_format">Tallennusmuoto</string>
     <string name="volume_control_summary">Tx: %1$s, Rx: %2$s</string>
     <string name="volume_control_overall">Pää-äänenvoimakkuus</string>
     <string name="volume_control_tx">Tx</string>
@@ -578,4 +578,86 @@
     <string name="exception_select_contact">Valitse yhteystieto</string>
     <string name="exception_phone_number">Puhelinnumero</string>
     <string name="exception_action">Toiminto</string>
+    <string name="exception_groups_not_found">Ryhmiä ei löytynyt</string>
+    <string name="exception_contacts_not_found">Yhteystietoja ei löytynyt</string>
+    <string name="exceptions_not_added">Poikkeuksia ei lisätty</string>
+    <string name="exception_by_contact">Yhteystiedolla</string>
+    <string name="exception_by_group">Ryhmällä</string>
+    <string name="exception_by_phone_number">Puhelinnumerolla</string>
+    <string name="exception_delete_message">Haluatko varmasti poistaa tämän poikkeuksen?</string>
+
+    <string name="folder_chooser_up_to">↑ Ylös %s</string>
+    <string name="create_new_folder">Uusi kansio…</string>
+    <string name="dialog_title_new_folder">Uusi kansio</string>
+    <string name="settings_filename">Tiedostonimi</string>
+    <string name="pattern_call_timestamp">puhelun ajankohta (unix aika)</string>
+    <string name="default_language">Oletus kieli</string>
+    <string name="show_notification_summary">Pysyvä ilmoitus tilarivillä</string>
+    <string name="hide_icon_but_keep_notification">Piilota kuvake, mutta pidä ilmoitus</string>
+    <string name="hide_icon_but_keep_notification_summary">Piilota kuvake, mutta pidä ilmoitus tilarivillä</string>
+    <string name="category_incall_control_button">Puhelunaikainen ohjauspainike</string>
+    <string name="hide_button_while_recording">Piilota painike kun tallennetaan</string>
+    <string name="hide_button_before_answer">Piilota painike ennen vastausta</string>
+    <string name="cloud_provider">Pilvipalvelun tarjoaja</string>
+    <string name="sign_in_dropbox">Kirjaudu Dropboxiin</string>
+    <string name="sign_out_dropbox">Kirjaudu ulos Dropboxista</string>
+    <string name="cloud_provider_google_drive">Google Drive</string>
+    <string name="cloud_common_settings">Yleinen</string>
+    <string name="notify_uploading_dropbox">Lähetetään Dropboxiin</string>
+    <string name="notify_converting_to_amr">Muunnetaan AMR muotoon</string>
+    <string name="notify_converting_to_mp3">Muunnetaan MP3 muotoon</string>
+    <string name="notify_encrypting">Salataan</string>
+    <string name="notify_decrypting">Puretaan salausta</string>
+    <string name="notify_waiting_for_calls">Odotetaan puhelua</string>
+    <string name="notify_tasks_remaining">%d tehtävää jäljellä</string>
+
+    <string name="delete_key">Tuhoa avain</string>
+    <string name="use_built_in_player">Käytä sisäänrakennettua soitinta</string>
+    <string name="send_logs_to_the_developer">Lähetä lokit kehittäjälle</string>
+
+    <string name="button_choose">Valitse</string>
+    <string name="button_call">Soita</string>
+    <string name="button_buy">Osta</string>
+    <string name="button_create">Luo</string>
+    <string name="button_delete">Poista</string>
+    <string name="button_restore">Palauta</string>
+    <string name="button_keep">Säilytä</string>
+    <string name="button_play">Toista</string>
+    <string name="button_pause">Tauko</string>
+    <string name="button_delete_wait">Poista (%d)</string>
+    <string name="decline">Kieltäydy</string>
+    <string name="accept">Hyväksy</string>
+    <string name="call_incoming">Saapuva</string>
+    <string name="call_outgoing">Lähtevä</string>
+    <string name="action_mode_selected">%d valittu</string>
+    <string name="toast_recording_is_off">Tallennus pois päältä</string>
+    <string name="toast_recording_is_on">Tallennus päällä</string>
+    <string name="toast_file_deleted">Tiedosto on poistetu onnistuneesti</string>
+
+    <string name="open_contact">Avaa yhteystieto</string>
+
+    <string name="waiting_for_answer">Odotetaan vastausta</string>
+    <string name="recording_in_progress">Tallennus käynnissä</string>
+    <string name="no_recording_in_progress">Tallennus ei käynnissä</string>
+    <string name="about_call_recorder">Tietoja Call Recorderista</string>
+    <string name="category_other">Muuta</string>
+    <string name="open_source_licenses">Open source lisenssit</string>
+
+    <string name="category_translators">Kääntäjät</string>
+    <string name="italian_translation_summary">Luca Trevisan ja Francesco Cafagna</string>
+    <string name="chinese_translation_summary">qhq ja Yu Fei</string>
+    <string name="belarusian_translation">Valko-Venäjän käännös</string>
+    <string name="belarusian_translation_summary">Alexander Kuvshinov</string>
+    <string name="vietnamese_translation">Vietnamin käännös</string>
+    <string name="vietnamese_translation_summary">Truong Hoang Trung</string>
+    <string name="armenian_translation">Armenian käännös</string>
+    <string name="armenian_translation_summary">Hakob Sununu ja Konstantin Gevorgyan</string>
+    <string name="gujarati_translation">Gujaratin käännös</string>
+    <string name="gujarati_translation_summary">Abhishek Sharma</string>
+    <string name="tamil_translation">Tamilin käännös</string>
+    <string name="tamil_translation_summary">Ashish Sharma</string>
+    <string name="greek_translation">Kreikan käännös</string>
+    <string name="greek_translation_summary">Lefteris (SomniusX) Eliades</string>
+<string name="section_by_contact">Yhteystiedolla</string>
+    <string name="section_by_format">Muodolla</string>
     </resources>
