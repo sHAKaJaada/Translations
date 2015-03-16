@@ -524,7 +524,7 @@
     <string name="start_recording_on_answer">Çağrıya cevap verince kayda başla</string>
     <string name="start_recording_on_answer_summary">Giden arama yanıtlandığında, kaydetmeye başlayın. Uygulama karşı tarafın ne zaman cevaplayağını tam kestiremez. Bu yüzden bu özelliği bazı cihazlarda başarısız olabilir. Android 4.1 Jell Bean dan itibaren root geerektirir. Kernel oggerin etkin olması gerekir.</string>
     <string name="delay_before_start_recording_summary">Giden için: %1$s, Gelen için: %2$s</string>
-    <string name="volume_control_summary"/>
+    <string name="volume_control_summary">Tx: %1$s, Rx: %2$s</string>
     <string name="volume_control_overall">Toplam ses kuvveti</string>
     <string name="volume_control_tx"/>
     <string name="volume_control_rx"/>
@@ -587,4 +587,59 @@
 
     <string name="create_new_key_summary">Bu anahtar daha sonra kayıtları şifrelemek veya uygulamaya girmek için kullanılır</string>
     <string name="delete_key">Anahtarı sil</string>
-    </resources>
+    <string name="delete_key_summary">Uyarı! Eğer aynı şifre ile yeni anahtar oluştursanız bile önceki şifrelenmiş kayıtlarınızı asla kurtaramazsınız</string>
+    <string name="delete_key_message">Silme işleminden sonra bu anahtar ile şifrelenmiş kayıtları kurtarmak için mümkün olmayacaktır. Devam etmek istediğinizden emin misiniz?</string>
+    <string name="require_password_summary_no_key">Uygulamayı açmak için parola gerekli. Bunu aktif yapmak için ilk önce anahtar oluştrmalısınız</string>
+    <string name="app_admin_summary">Call Recorderi kaldırılmasını engellemek için gereklidir</string>
+    <string name="app_admin_explanation">Call Recorder silinmesini engellemek dışında harhangi bir aygıt yöneticisi özelliğini kullanmayacak</string>
+    <string name="use_built_in_player">Yerleşik oynatıcıyı kullan</string>
+    <string name="audio_output_summary">%s (oynat/durdur tuşuna uzun dokunma geçiş yapacaktır )</string>
+    <string name="use_proximity_sensor_summary">Oynatma sırasında yakınlık sensörünü devre dışı bırak</string>
+    <string name="switch_audio_output_summary">Yakınlık sensörüne göre ses çıkışını otomatik ayarla</string>
+    <string name="send_logs_to_the_developer">Günlük kayıtlarını geliştiriciye gönder</string>
+
+    <string name="button_choose">Seçin</string>
+    <string name="button_call">Ara</string>
+    <string name="button_buy">Satın al</string>
+    <string name="button_create">Oluştur</string>
+    <string name="button_delete">Sil</string>
+    <string name="button_restore">Geri yükle</string>
+    <string name="button_keep">Sakla</string>
+    <string name="button_play">Oynat</string>
+    <string name="button_pause">Durdur</string>
+    <string name="button_delete_wait">Sil (%d)</string>
+    <string name="decline">Reddet</string>
+    <string name="accept">Kabul et</string>
+    <string name="call_incoming">Gelen</string>
+    <string name="call_outgoing">Giden</string>
+    <string name="action_mode_selected">%d seçili</string>
+    <string name="toast_wait_for_operation_to_complete">İşlemin tamamlanması için bekle</string>
+    <string name="toast_recording_is_off">Kayıt KAPALI</string>
+    <string name="toast_recording_is_on">Kayıt AÇIK</string>
+    <string name="toast_file_deleted">Dosya başarıyla silindi</string>
+
+    <string name="open_contact">Kişiyi görüntüle</string>
+
+    <string name="waiting_for_answer">Cevap için bekleniyor</string>
+    <string name="recording_in_progress">Kayıt devam ediyor</string>
+    <string name="no_recording_in_progress">Devam eden kayıt yok</string>
+    <string name="about_call_recorder">Call Recorder Hakkında</string>
+    <string name="category_other">Diğer</string>
+    <string name="open_source_licenses">Açık kaynak lisansları</string>
+
+    <string name="category_translators">Çevirmenler</string>
+    <string name="italian_translation_summary">Luca Trevisan and Francesco Cafagna tarafından</string>
+    <string name="chinese_translation_summary">qhq and Yu Fei tarafından</string>
+    <string name="belarusian_translation">Belarus çeviri</string>
+    <string name="belarusian_translation_summary">Alexander Kuvshinov tarafından</string>
+    <string name="vietnamese_translation">Vietnamca çeviri</string>
+    <string name="vietnamese_translation_summary">Truong Hoang Trung tarafından</string>
+    <string name="armenian_translation">Ermeni çeviri</string>
+    <string name="armenian_translation_summary">Hakob Sununu and Konstantin Gevorgyan tarafından</string>
+    <string name="gujarati_translation">Gucerat çeviri</string>
+    <string name="gujarati_translation_summary">Abhishek Sharma tarafından</string>
+    <string name="tamil_translation">Tami çeviri</string>
+    <string name="tamil_translation_summary">Ashish Sharma tarafından</string>
+    <string name="greek_translation">Yunanca çeviri</string>
+    <string name="greek_translation_summary">Lefteris (SomniusX) Eliades tarafından</string>
+</resources>
