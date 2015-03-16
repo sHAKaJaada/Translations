@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">CallRecorder</string>
+    <string name="app_name">Call Recorder</string>
     <string name="terms_of_use">Kullanım Şartları</string>
     <string name="terms_of_use_message">Bu uygulamayı kullanarak, CallRecorder\'ın &lt;a href=http://rec.sh/terms&gt;kullanım şartlarını&lt;/a&gt;. kabul etmiş sayılırsınız.</string>
 
@@ -10,7 +10,7 @@
 
     <!-- Navigation drawer sections -->
     <string name="section_all_recordings">Tüm kayıtlar</string>
-    <string name="section_starred">Favori</string>
+    <string name="section_starred">Yıldızlı</string>
     <string name="section_incoming">Gelen</string>
     <string name="section_outgoing">Giden</string>
     <string name="section_by_contact">Kişiye göre</string>
@@ -302,8 +302,8 @@
     
     
     <string name="cloud_wifi_only">sadece Wi-Fi</string>
-    <string name="cloud_auto_upload">Otomatik upload</string>
-    <string name="cloud_auto_upload_summary">Görüşmeden sonra kaydı upload\'et</string>
+    <string name="cloud_auto_upload">Otomatik gönder</string>
+    <string name="cloud_auto_upload_summary">Görüşmeden sonra kaydı buluta gönder</string>
     
     
 
@@ -460,7 +460,7 @@
     <string name="dutch_translation">Hollandaca çeviri</string>
     <string name="dutch_translation_summary">Elroy Tirbeni tarafından</string>
     <string name="turkish_translation">Türkçe çeviri</string>
-    <string name="turkish_translation_summary">by Ömer İ. (ilik.omer@gmail.com)</string>
+    <string name="turkish_translation_summary">Ömer İ. (ilik.omer@gmail.com) tarafından</string>
     <string name="serbian_translation">Sırpça çeviri</string>
     <string name="serbian_translation_summary">sHAKaJaada tarafından</string>
     <string name="korean_translation">Korece çeviri</string>
@@ -566,16 +566,16 @@
     <string name="long_press_action">Kontrol tuşu uzun dokunma eylemi</string>
     <string name="long_press_action_dragging_the_button">Tuşu sürükle</string>
     <string name="long_press_action_hang_up">Aramayı kapat ve otomatik olarak ara</string>
-    <string name="hide_starred_recordings">Favori kayıtları gizle</string>
-    <string name="hide_starred_recordings_summary">Tüm kayıtlar ile birlikte favori kayıtları gösterme</string>
+    <string name="hide_starred_recordings">Yıldızlı kayıtları gizle</string>
+    <string name="hide_starred_recordings_summary">Tüm kayıtlar ile birlikte yıldızlı kayıtları gösterme</string>
 
     <string name="cloud_provider">Bulut sağlayıcısı</string>
     <string name="sign_in_dropbox">Dropbox\'a Giriş yap</string>
     <string name="sign_out_dropbox">Dropbox çıkış yap</string>
     <string name="cloud_provider_google_drive"/>
     <string name="cloud_common_settings">Genel</string>
-    <string name="cloud_upload_starred">Favorileri gönder</string>
-    <string name="cloud_upload_starred_summary">Kaydı favori yaptığımda buluta yükle</string>
+    <string name="cloud_upload_starred">Yıldızlıları gönder</string>
+    <string name="cloud_upload_starred_summary">Kaydı yıldız işaretlediğimde buluta gönder</string>
 
     <string name="notify_uploading_dropbox">Dropbox\'a yükleniyor</string>
     <string name="notify_converting_to_amr">AMR\'ye dönüştürülüyor</string>
@@ -638,7 +638,7 @@
     <string name="armenian_translation_summary">Hakob Sununu and Konstantin Gevorgyan tarafından</string>
     <string name="gujarati_translation">Gucerat çeviri</string>
     <string name="gujarati_translation_summary">Abhishek Sharma tarafından</string>
-    <string name="tamil_translation">Tami çeviri</string>
+    <string name="tamil_translation">Tamil çeviri</string>
     <string name="tamil_translation_summary">Ashish Sharma tarafından</string>
     <string name="greek_translation">Yunanca çeviri</string>
     <string name="greek_translation_summary">Lefteris (SomniusX) Eliades tarafından</string>
