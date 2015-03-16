@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">Käyttöehdot</string>
@@ -67,11 +67,11 @@
     
     <string name="recording_type_mono">Mono</string>
     <string name="recording_type_stereo">Stereo</string>
-    <string name="file_size">Tiedoston koko</string>
+    <string name="file_size">Tiedosto koko</string>
     <string name="terabyte">TB</string>
     <string name="gigabyte">GB</string>
     <string name="megabyte">MB</string>
-    <string name="kilobyte">kB</string>
+    <string name="kilobyte">KB</string>
     <string name="bytes">tavua</string>
     
 
@@ -505,4 +505,77 @@
     
     
     
-</resources>
+<string name="action_sort">Järjestä</string>
+    <string name="action_add_star">Lisää suosikkeihin</string>
+    <string name="action_remove_star">Poista suosikeista</string>
+    <string name="action_share">Jaa</string>
+    <string name="action_cancel_tasks">Peruuta tehtävät</string>
+    <string name="sort_by_date">Päivämäärällä</string>
+    <string name="sort_by_contact">Yhteystiedoittain</string>
+    <string name="sort_by_file_size">Tiedoston koolla</string>
+    <string name="records_size">nauhoitukset: %1$s, koko: %2$s</string>
+    <string name="space_free_of">%1$s vapaana %2$s</string>
+
+    <string name="restore_settings">Palauta asetukset</string>
+
+    <string name="list_header_today">Tänään</string>
+    <string name="list_header_yesterday">Eilen</string>
+    <string name="queued">Jonossa</string>
+    <string name="no_connection">Ei yhteyttä</string>
+
+    <string name="menu_add_note">Lisää huomio</string>
+    <string name="menu_edit_note">Muokkaa huomiota</string>
+    <string name="menu_share">Jaa</string>
+    <string name="menu_convert_to_mp3">Muunna MP3 muotoon</string>
+    <string name="menu_convert_to_amr">Muunna AMR muotoon</string>
+    <string name="menu_cancel_task">Peruuta tehtävä</string>
+    <string name="recording_type">Nauhoitusmuoto</string>
+    <string name="note">Huomio</string>
+
+    <string name="confirm_delete_several_title">Vahvista poisto</string>
+    <string name="confirm_delete_several_message">Olet valinnut %d nauhoistusta. Haluatko varmasti poistaa ne?</string>
+
+    <string name="share_via">Jaa käyttäen</string>
+    <string name="settings_open_unlocker">Aukaise Unlocker</string>
+    <string name="settings_cloud">Pilvi</string>
+    <string name="license_check_pending">Odotetaan lisenssin tarkistusta</string>
+    <string name="license_check_failed">Lisenssin tarkistus epäonnistui</string>
+    <string name="license_check_failed_summary">Tästä lisätietoja</string>
+    <string name="license_verified">Lisenssi varmistettu</string>
+    <string name="license_verified_summary">Piilota</string>
+    <string name="license_help">Apua</string>
+    <string name="license_error_message">Virhe #%1$s: %2$s</string>
+    <string name="license_unknown_error">Tuntematon virhe</string>
+    <string name="license_not_market_managed">Tätä versiota ei ole vielä Play Storessa</string>
+    <string name="license_incorrect_response">Virheellinen lisenssi Play Storesta</string>
+    <string name="license_error_contacting_server">Virhe palvelimeen yhdistettäessä</string>
+    <string name="license_server_error">Palvelin virhe</string>
+    <string name="license_over_quota">Liian monta pyyntöä tästä laitteesta</string>
+    <string name="license_trial_expired">Kokeilujakso loppunut</string>
+    <string name="license_trial_expired_summary">Poista tämä versio ennen täysversion ostoa</string>
+    <string name="device_root_is_required">Root vaaditaan</string>
+    <string name="device_root_is_required_summary">Root vaaditaan paremmalle laadulle</string>
+    <string name="recording_method_msm">MSM</string>
+    <string name="recording_method_msm_settings">Asetukset MSM tallennukselle</string>
+    <string name="start_recording_on_answer">Aloita nauhoitus vastatessa</string>
+    <string name="delay_before_start_recording_summary">Lähteville: %1$s, saapuville: %2$s</string>
+    <string name="delay_format_sec">%s sek</string>
+    <string name="delay_for_outgoing">Lähteville</string>
+    <string name="delay_for_incoming">Saapuville</string>
+    <string name="settings_for_device">Asetukset %s</string>
+    <string name="recording_format">Nauhoitus muoto</string>
+    <string name="volume_control_summary">Tx: %1$s, Rx: %2$s</string>
+    <string name="volume_control_overall">Pää-äänenvoimakkuus</string>
+    <string name="volume_control_tx">Tx</string>
+    <string name="volume_control_rx">Rx</string>
+    <string name="category_wav_and_mp3_settings">WAV &amp; MP3 asetukset</string>
+    <string name="alsa_is_not_installed">ALSA täytyy olla asennettuna</string>
+    <string name="alsa_is_not_installed_summary">Napauta tästä asentaaksesi ALSA:n</string>
+
+    <string name="add_exception">Lisää poikkeus</string>
+    <string name="exception_groups">%d ryhmät</string>
+    <string name="exception_contact">Yhteystieto</string>
+    <string name="exception_select_contact">Valitse yhteystieto</string>
+    <string name="exception_phone_number">Puhelinnumero</string>
+    <string name="exception_action">Toiminto</string>
+    </resources>
