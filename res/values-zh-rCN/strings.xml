@@ -562,4 +562,10 @@
     <string name="license_trial_expired">试用期已满</string>
     <string name="license_trial_expired_summary">在购买完整版前请卸载本版本</string>
     <string name="device_change_settings_empty">本设备的设置已完成</string>
+    <string name="device_root_is_required">需要根权限授权</string>
+    <string name="device_root_is_required_summary">为了更好的品质，本设备上需要根权限授权</string>
+    <string name="recording_method_msm">MSM</string>
+    <string name="recording_method_msm_settings">MSM 录音设置</string>
+    <string name="exceptions_summary">设置联系人、群主或电话号码的特定动作</string>
+    <string name="start_recording_on_answer">接通后开始录音</string>
     </resources>
