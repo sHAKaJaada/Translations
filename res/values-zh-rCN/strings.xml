@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">通话录音</string>
     <string name="terms_of_use">使用條款</string>
-    <string name="terms_of_use_message">使用此应用程式，您须同意CallRecorder &lt;a href=http://rec.sh/terms&gt;使用条款&lt;/a&gt;.</string>
+    <string name="terms_of_use_message">要使用本应用，您须同意通话录音的&lt;a href=http://rec.sh/terms&gt;使用条款&lt;/a&gt;。</string>
 
     <!-- Navigation drawer -->
     <string name="navigation_drawer_open">开启导航抽屉</string>
@@ -90,7 +90,7 @@
 
     <!--  Settings -> Headers -->
     
-    <string name="settings_recording">录制中</string>
+    <string name="settings_recording">录音</string>
     <string name="settings_folders_and_files">文件夹和文件</string>
     <string name="settings_ui_and_appearance">界面和外观</string>
     <string name="settings_security">安全</string>
@@ -130,7 +130,7 @@
     
     
     <string name="device_other">其他</string>
-    <string name="recording_method">记录方式</string>
+    <string name="recording_method">录音方式</string>
     <string name="recording_method_api">标准 API</string>
     <string name="recording_method_api_settings">标准API录制设置</string>
     <string name="recording_method_caf">CAF</string>
@@ -432,71 +432,71 @@
     <!--About -> Translators-->
     
     <string name="german_translation">德语翻译</string>
-    <string name="german_translation_summary">Marc Hillesheim 和 Thomas Käfer</string>
+    <string name="german_translation_summary">由 Marc Hillesheim 和 Thomas Käfer 翻译</string>
     <string name="polish_translation">波兰语翻译</string>
-    <string name="polish_translation_summary">Robert Gonta</string>
+    <string name="polish_translation_summary">由 Robert Gonta 翻译</string>
     <string name="french_translation">法语翻译</string>
-    <string name="french_translation_summary">Julien Boiteux</string>
+    <string name="french_translation_summary">由 Julien Boiteux 翻译</string>
     <string name="brazilian_portuguese_translation">巴西葡萄牙语翻译</string>
-    <string name="brazilian_portuguese_translation_summary">Luiz Marcelo Serique</string>
+    <string name="brazilian_portuguese_translation_summary">由 Luiz Marcelo Serique 翻译</string>
     <string name="spanish_translation">西班牙语翻译</string>
-    <string name="spanish_translation_summary">Iñigo Garcia 和 Diego Vilas</string>
+    <string name="spanish_translation_summary">由 Iñigo Garcia 和 Diego Vilas 翻译</string>
     <string name="slovak_translation">斯洛伐克翻译</string>
-    <string name="slovak_translation_summary">Loránt Gerencsér</string>
+    <string name="slovak_translation_summary">由 Loránt Gerencsér 翻译</string>
     <string name="italian_translation">意大利语翻译</string>
-    <string name="italian_translation_summary">Trevisan 和 Francesco Cafagna</string>
+    <string name="italian_translation_summary">由 Trevisan 和 Francesco Cafagna 翻译</string>
     <string name="persian_translation">波斯语翻译</string>
-    <string name="persian_translation_summary">Alireza Afkar</string>
+    <string name="persian_translation_summary">由 Alireza Afkar 翻译</string>
     <string name="chinese_translation">简体中文翻译</string>
-    <string name="chinese_translation_summary">qhq 和 Yu Fei</string>
+    <string name="chinese_translation_summary">由 qhq 和 郁飞 翻译</string>
     <string name="czech_translation">捷克语翻译</string>
-    <string name="czech_translation_summary">Ales Kerner和Lukas Waldauf</string>
+    <string name="czech_translation_summary">由 Ales Kerner和Lukas Waldauf 翻译</string>
     <string name="arabic_translation">阿拉伯语翻译</string>
-    <string name="arabic_translation_summary">Ausama S. Ibrahim</string>
+    <string name="arabic_translation_summary">由 Ausama S. Ibrahim 翻译</string>
     <string name="hebrew_translation">希伯来语翻译</string>
-    <string name="hebrew_translation_summary">NuFlood</string>
+    <string name="hebrew_translation_summary">由 NuFlood 翻译</string>
     <string name="hungarian_translation">匈牙利语翻译</string>
-    <string name="hungarian_translation_summary">Szalay Levente 和 Miklós Toldi</string>
+    <string name="hungarian_translation_summary">由 Szalay Levente 和 Miklós Toldi 翻译</string>
     <string name="dutch_translation">荷兰语翻译</string>
-    <string name="dutch_translation_summary">Elroy Tirbeni</string>
+    <string name="dutch_translation_summary">由 Elroy Tirbeni 翻译</string>
     <string name="turkish_translation">土耳其文翻译</string>
-    <string name="turkish_translation_summary">Omer Ilik</string>
+    <string name="turkish_translation_summary">由 Omer Ilik 翻译</string>
     <string name="serbian_translation">塞尔维亚翻译</string>
     <string name="serbian_translation_summary">sHAKaJaada</string>
     <string name="korean_translation">韩语翻译</string>
-    <string name="korean_translation_summary">SoHyunSeop 和 Joon Hee Jo</string>
+    <string name="korean_translation_summary">由 SoHyunSeop 和 Joon Hee Jo 翻译</string>
     <string name="romanian_translation">罗马尼亚翻译</string>
-    <string name="romanian_translation_summary">Dan P. (sad)</string>
+    <string name="romanian_translation_summary">"由  Dan P. (sad) 翻译"</string>
     <string name="ukrainian_translation">乌克兰语翻译</string>
-    <string name="ukrainian_translation_summary">Gennadi Samoluk</string>
+    <string name="ukrainian_translation_summary">由 Gennadi Samoluk 翻译</string>
     <string name="traditional_chinese_translation">繁体中文翻译</string>
-    <string name="traditional_chinese_translation_summary">GPF_kaibird 和 Chien Jung Liaw</string>
+    <string name="traditional_chinese_translation_summary">由 GPF_kaibird 和 Chien Jung Liaw 翻译</string>
     <string name="japanese_translation">日语翻译</string>
-    <string name="japanese_translation_summary">Akira Tagoh</string>
+    <string name="japanese_translation_summary">由 Akira Tagoh 翻译</string>
     <string name="swedish_translation">瑞典语翻译</string>
-    <string name="swedish_translation_summary">Johannes Sjölund</string>
+    <string name="swedish_translation_summary">由 Johannes Sjölund 翻译</string>
     <string name="bulgarian_translation">保加利亚语翻译</string>
-    <string name="bulgarian_translation_summary">PROXIMO</string>
+    <string name="bulgarian_translation_summary">由 PROXIMO 翻译</string>
     <string name="danish_translation">丹麦语翻译</string>
-    <string name="danish_translation_summary">Lars Sarauw Hansen</string>
+    <string name="danish_translation_summary">由 Lars Sarauw Hansen 翻译</string>
     <string name="latvian_translation">拉脱维亚语翻译</string>
-    <string name="latvian_translation_summary">rvīds Dreimanis</string>
+    <string name="latvian_translation_summary">由 rvīds Dreimanis 翻译</string>
     <string name="thai_translation">泰语翻译</string>
-    <string name="thai_translation_summary">Wuttisak Saichoncharn</string>
+    <string name="thai_translation_summary">由 Wuttisak Saichoncharn 翻译</string>
     <string name="georgian_translation">格鲁吉亚翻译</string>
     <string name="georgian_translation_summary">由 Sandro Razmadze 翻译</string>
     <string name="catalan_translation">加泰罗尼亚语翻译</string>
-    <string name="catalan_translation_summary">cybdani</string>
+    <string name="catalan_translation_summary">由 cybdani 翻译</string>
     <string name="hindi_translation">印地语翻译</string>
-    <string name="hindi_translation_summary">TheTAMAS Gautam</string>
+    <string name="hindi_translation_summary">由 TheTAMAS Gautam 翻译</string>
     <string name="punjabi_translation">旁遮普语翻译</string>
-    <string name="punjabi_translation_summary">Raj Verma</string>
+    <string name="punjabi_translation_summary">由 Raj Verma 翻译</string>
     <string name="finnish_translation">芬兰语翻译</string>
-    <string name="finnish_translation_summary">Eero Linnainmaa</string>
+    <string name="finnish_translation_summary">由 Eero Linnainmaa 翻译</string>
     <string name="belarusian_translation">白俄罗斯语翻译</string>
-    <string name="belarusian_translation_summary">Alexander Kuvshinov</string>
+    <string name="belarusian_translation_summary">由 Alexander Kuvshinov 翻译</string>
     <string name="vietnamese_translation">越南语翻译</string>
-    <string name="vietnamese_translation_summary">Truong Hoang Trung</string>
+    <string name="vietnamese_translation_summary">由 Truong Hoang Trung 翻译</string>
     
     
     
