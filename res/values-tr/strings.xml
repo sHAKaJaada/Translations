@@ -423,7 +423,7 @@
     <string name="copyright">Telif hakkı</string>
     <string name="copyright_summary">© %s Alexander Skvortsov (skvalex)</string>
     <string name="about_many_thanks">Çok teşekkürler</string>
-    <string name="about_many_thanks_summary">to Alexey Subbotin (avs234)</string>
+    <string name="about_many_thanks_summary">Alexey Subbotin (avs234)</string>
 
     <!--About -> Other-->
     
@@ -432,7 +432,7 @@
     <!--About -> Translators-->
     
     <string name="german_translation">Almanca çeviri</string>
-    <string name="german_translation_summary">by Marc Hillesheim ve Thomas Käfer</string>
+    <string name="german_translation_summary">Marc Hillesheim ve Thomas Käfer tarafından</string>
     <string name="polish_translation">Lehçe çeviri</string>
     <string name="polish_translation_summary">Robert Gonta tarafından</string>
     <string name="french_translation">Fransızca çeviri</string>
@@ -464,7 +464,7 @@
     <string name="serbian_translation">Sırpça çeviri</string>
     <string name="serbian_translation_summary">sHAKaJaada tarafından</string>
     <string name="korean_translation">Korece çeviri</string>
-    <string name="korean_translation_summary">by SoHyunSeop ve Joon Hee Jo</string>
+    <string name="korean_translation_summary">SoHyunSeop ve Joon Hee Jo tarafından</string>
     <string name="romanian_translation">Romanca çeviri</string>
     <string name="romanian_translation_summary">Dan P. (sad) tarafından</string>
     <string name="ukrainian_translation">Ukraynaca çeviri</string>
@@ -614,8 +614,8 @@
     <string name="call_outgoing">Giden</string>
     <string name="action_mode_selected">%d seçili</string>
     <string name="toast_wait_for_operation_to_complete">İşlemin tamamlanması için bekle</string>
-    <string name="toast_recording_is_off">Kayıt KAPALI</string>
-    <string name="toast_recording_is_on">Kayıt AÇIK</string>
+    <string name="toast_recording_is_off">Görüşme Kaydı Kapatıldı</string>
+    <string name="toast_recording_is_on">Görüşme Kaydı Açıldı</string>
     <string name="toast_file_deleted">Dosya başarıyla silindi</string>
 
     <string name="open_contact">Kişiyi görüntüle</string>
