@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">გამოყენების პირობა</string>
@@ -505,4 +505,33 @@
     <string name="tamil_translation_summary">აშიშ შარმას მიერ</string>
     
     
-</resources>
+<string name="greek_translation_summary">ლეფტერის ელიდესის მიერ</string>
+<string name="action_cancel_tasks">"ბრძანების  ურყოფა"</string>
+    <string name="records_size">ჩანაწერი:%1s,ზომა:%2s</string>
+    <string name="space_free_of">%1s თავისუფალი %2s</string>
+
+    <string name="restore_settings">პარამეტრების აღდგენა</string>
+
+    <string name="settings_open_unlocker">unlocker ის გახსნა</string>
+    <string name="license_trial_expired">"საცდელი უფასო  პერიოდი გავიდა"</string>
+    <string name="license_trial_expired_summary">გთხოვთ ,წაშალოთ ეს ვერსია სანამ იყიდით ახალს</string>
+    <string name="exception_groups">%d ჯგუფები</string>
+    <string name="create_new_folder">გავხსნათ ახალი საქაღალდე</string>
+    <string name="dialog_title_new_folder">ახალი საქაღალდე</string>
+    <string name="hide_starred_recordings">დამალე აღნიშნული ჩანაწერები</string>
+    <string name="hide_starred_recordings_summary">არ აჩვენო მონიშნული ჩანაწერები ეკრანზე სხვებთან ერთად</string>
+
+    <string name="notify_converting_to_amr">კონვერტაცია AMR ად</string>
+    <string name="notify_converting_to_mp3">კონვერტაცია MP3 ად</string>
+    <string name="notify_encrypting">მიმდინარეობს დამუშავება</string>
+    <string name="notify_decrypting">მიმდინარეობს დამუშავება</string>
+    <string name="send_logs_to_the_developer">გაუგზავნეთ მონაცემები პროგრამის შემქმნელს</string>
+
+    <string name="button_buy">ყიდვა</string>
+    <string name="button_restore">აღდგენა</string>
+    <string name="category_other">სხვა</string>
+    <string name="open_source_licenses">ლიცენზიის ნახვა</string>
+
+    <string name="category_translators">თარგმანები</string>
+    <string name="greek_translation">ბერძნულად თარგმანი</string>
+    </resources>
