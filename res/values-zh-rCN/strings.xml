@@ -572,4 +572,97 @@
     <string name="delay_before_start_recording_summary">拨出：%1$s，来电：%1$s</string>
     <string name="delay_format_sec">%s秒</string>
     <string name="delay_for_outgoing">拨出</string>
-    </resources>
+    <string name="delay_for_incoming">来电</string>
+    <string name="settings_for_device">设置为：%s</string>
+    <string name="recording_format">录音格式</string>
+    <string name="category_wav_and_mp3_settings">WAV 和 MP3 设置</string>
+    <string name="alsa_is_not_installed">必须要安装 ALSA</string>
+    <string name="alsa_is_not_installed_summary">点此安装 ALSA</string>
+
+    <string name="add_exception">添加例外</string>
+    <string name="exception_groups">%d 群组</string>
+    <string name="exception_contact">联系人</string>
+    <string name="exception_select_contact">选择联系人</string>
+    <string name="exception_phone_number">电话号码</string>
+    <string name="exception_action">操作</string>
+    <string name="exception_groups_not_found">无群组</string>
+    <string name="exception_contacts_not_found">无联系人</string>
+    <string name="exceptions_not_added">无例外</string>
+    <string name="exception_by_contact">按联系人</string>
+    <string name="exception_by_group">按群组</string>
+    <string name="exception_by_phone_number">按电话号码</string>
+    <string name="exception_delete_message">您确定定要删除该例外？</string>
+
+    <string name="folder_chooser_up_to">↑ 最多 %s</string>
+    <string name="create_new_folder">新建文件夹…</string>
+    <string name="dialog_title_new_folder">新文件夹</string>
+    <string name="settings_filename">文件名称</string>
+    <string name="pattern_call_timestamp">通话时间戳（Unix 时间）</string>
+    <string name="default_language">默认语言</string>
+    <string name="show_notification_summary">在状态栏中显示常驻通知</string>
+    <string name="hide_icon_but_keep_notification">保留通知，但隐藏图标</string>
+    <string name="hide_icon_but_keep_notification_summary">隐藏图标，但在状态栏中保持通知</string>
+    <string name="category_incall_control_button">呼叫控制按钮</string>
+    <string name="incall_control_for_outgoing_summary">拨出通话时显示呼叫控制按钮</string>
+    <string name="incall_control_for_incoming_summary">来电通话时显示呼叫控制按钮</string>
+    <string name="hide_button_while_recording">录制时隐藏按钮</string>
+    <string name="hide_button_while_recording_summary">若正在录制通话是隐藏呼叫控制按钮</string>
+    <string name="vertical_position_summary">从屏幕中心偏移 %s dp</string>
+    <string name="horizontal_position_summary">从屏幕中心偏移 %s dp</string>
+    <string name="hide_button_before_answer">直到接通前隐藏按钮</string>
+    <string name="long_press_action">长按动作</string>
+    <string name="long_press_action_dragging_the_button">拖动按钮</string>
+    <string name="long_press_action_hang_up">挂断电话后自动回拨</string>
+    <string name="hide_starred_recordings">隐藏星标的录音</string>
+    <string name="hide_starred_recordings_summary">在屏幕上不显示所有星标的录音</string>
+
+    <string name="cloud_provider">云服务提供商</string>
+    <string name="sign_in_dropbox">登录 DropBox</string>
+    <string name="sign_out_dropbox">登出 DropBox</string>
+    <string name="cloud_provider_google_drive">谷歌云端硬盘</string>
+    <string name="cloud_common_settings">常规</string>
+    <string name="cloud_upload_starred">上传星标录音</string>
+    <string name="cloud_upload_starred_summary">当您将录音添加星标时上传至云端存储</string>
+
+    <string name="notify_uploading_dropbox">上传至 DropBox</string>
+    <string name="notify_converting_to_amr">转换成 AMR 格式</string>
+    <string name="notify_converting_to_mp3">转换成 MP3 格式</string>
+    <string name="notify_encrypting">加密</string>
+    <string name="notify_decrypting">解密</string>
+    <string name="notify_waiting_for_calls">等待通话</string>
+    <string name="notify_tasks_remaining">剩余 %d 项任务</string>
+
+    <string name="create_new_key_summary">该密钥会于加密录音或进入应用时使用</string>
+    <string name="delete_key">删除密钥</string>
+    <string name="delete_key_summary">警告！如果您已经使用该密钥加密录音，即使您重新创建一个相同的密码，也永远无法还原加密的录音</string>
+    <string name="delete_key_message">删除后，您将无法还原加密的录音，您确定要删除吗？</string>
+    <string name="require_password_summary_no_key">您必须要创建一个密钥才可以设置开启应用时需要密码</string>
+    <string name="app_admin_summary">防止卸载本应用</string>
+    <string name="app_admin_explanation">通话录音除了保护避免被卸载外，不会使用设备上任何其他的功能</string>
+    <string name="use_built_in_player">使用内置播放器</string>
+    <string name="audio_output_summary">%s（长按播放/暂停按钮可以切换）</string>
+    <string name="use_proximity_sensor_summary">播放时通过距离传感器来关闭屏幕</string>
+    <string name="switch_audio_output_summary">通过距离传感器开启/关闭屏幕来自动切换音频输出</string>
+    <string name="send_logs_to_the_developer">发送日志给开发者</string>
+
+    <string name="button_choose">选择</string>
+    <string name="button_call">通话</string>
+    <string name="button_buy">购买</string>
+    <string name="button_restore">恢复</string>
+    <string name="toast_recording_is_off">已禁止通话录音</string>
+    <string name="toast_recording_is_on">已开启通话录音</string>
+    <string name="toast_file_deleted">已成功删除文件</string>
+
+    <string name="category_other">其他</string>
+    <string name="open_source_licenses">开源许可证</string>
+
+    <string name="category_translators">译者</string>
+    <string name="armenian_translation">亚美尼亚文</string>
+    <string name="armenian_translation_summary">由 Hakob Sununu 与 Konstantin Gevorgyan 翻译</string>
+    <string name="gujarati_translation">古吉拉特文</string>
+    <string name="gujarati_translation_summary">由 Abhishek Sharma 翻译</string>
+    <string name="tamil_translation">泰米尔文</string>
+    <string name="tamil_translation_summary">由 Ashish Sharma 翻译</string>
+    <string name="greek_translation">希腊文</string>
+    <string name="greek_translation_summary">由 Lefteris (SomniusX) Eliades 翻译</string>
+</resources>
