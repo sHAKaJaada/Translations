@@ -568,4 +568,5 @@
     <string name="recording_method_msm_settings">MSM 录音设置</string>
     <string name="exceptions_summary">设置联系人、群主或电话号码的特定动作</string>
     <string name="start_recording_on_answer">接通后开始录音</string>
+    <string name="start_recording_on_answer_summary">开始录制一个播出通话。我们采取了一个非公开的解决方案来检测对方的声音，所以本功能可能无法在某些设备上实现。在 Android 4.1 及以后的版本中需要获取根权限授权。内核中的记录器必须启用。</string>
     </resources>
