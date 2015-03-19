@@ -539,7 +539,7 @@
     <string name="phone_number">ਫੋਨ ਨੰਬਰ</string>
 
     <string name="confirm_delete_several_title">ਪੁਸ਼ਟੀ ਕਰੋ ਤੁਸੀਂ ਮਿਟਾਨਾ ਹੈ</string>
-    <string name="confirm_delete_several_message">ਤੁਸੀ % d ਰਿਕਾਰਡਿੰਗ ਚੁਣਿਆ ਹੈ, ਸਾਰੇ ਹਟਾ ਦਿੱਤਾ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ,?</string>
+    <string name="confirm_delete_several_message">ਤੁਸੀ%dਰਿਕਾਰਡਿੰਗ ਚੁਣਿਆ ਹੈ, ਸਾਰੇ ਹਟਾ ਦਿੱਤਾ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ,?</string>
 
     <string name="share_via">ਦੁਆਰਾ ਵੰਡੋ</string>
     <string name="settings_open_unlocker">Call Recorder Unlocker ਖੋਲੋ</string>
@@ -551,7 +551,7 @@
     <string name="license_verified_summary">ਓਹਲੇ ਕਰਨ ਲਈ ਛੂਹੋ</string>
     <string name="license_signature_verification_failed">ਦਸਤਖਤ ਪ੍ਰਮਾਣਿਕਤਾ ਅਸਫਲ</string>
     <string name="license_error_message">ਗਲਤੀ ਹੈ #%1$s: %2$s</string>
-    <string name="license_trial"/>
+    <string name="license_trial">ਪ੍ਰੀਖਣ ਵਰਜਨ ਨੂੰ%sਤੇ ਸਮਾਪਤ ਹੋ ਜਾਵੇਗਾ</string>
     <string name="license_unknown_error">ਅਣਜਾਣ ਗਲਤੀ</string>
     <string name="license_not_market_managed">ਇਹ ਵਰਜਨ ਅਜੇ ਵੀ Play Store \'ਤੇ ਪ੍ਰਕਾਸ਼ਿਤ ਨਹੀ ਹੈ</string>
     <string name="license_incorrect_response">"Play Store ਦਾ  ਗਲਤ ਲਾਇਸੰਸ ਜਵਾਬ"</string>
