@@ -507,8 +507,8 @@
     
 <string name="greek_translation_summary">ლეფტერის ელიდესის მიერ</string>
 <string name="action_cancel_tasks">"ბრძანების  ურყოფა"</string>
-    <string name="records_size">ჩანაწერი:%1s,ზომა:%2s</string>
-    <string name="space_free_of">%1s თავისუფალი %2s</string>
+    <string name="records_size">ჩანაწერი:%1$s,ზომა:%2$s</string>
+    <string name="space_free_of">%1$s თავისუფალი %2$s</string>
 
     <string name="restore_settings">პარამეტრების აღდგენა</string>
 
