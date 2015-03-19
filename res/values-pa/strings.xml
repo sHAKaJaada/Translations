@@ -519,7 +519,7 @@
     <string name="sort_by_contact">ਸੰਪਰਕ ਦੁਆਰਾ</string>
     <string name="sort_by_file_size">ਆਕਾਰ ਦੇ ਅਨੁਸਾਰ ਨਾਲ</string>
     <string name="records_size">ਰਿਕਾਰਡ: %1$s, ਆਕਾਰ: %2$s</string>
-    <string name="space_free_of">%2$s ਦੀ ਮੁਫਤ %1$s</string>
+    <string name="space_free_of">%2$sਦੀ ਮੁਫਤ%1$s</string>
 
     <string name="restore_settings">ਸੈਟਿੰਗ ਮੁੜ ਬਹਾਲ ਕਰੋ</string>
 
