@@ -561,7 +561,7 @@
     <string name="license_signature_verification_failed">Ověření podpisu selhalo</string>
     <string name="license_error_message">Chyba #%1$s: %2$s</string>
     <string name="license_unknown_error">Neznámá chyba</string>
-    <string name="license_not_market_managed">Tato verze zatím nebyla zveřejněna v obchodu Play.</string>
+    <string name="license_not_market_managed">Tato verze zatím nebyla zveřejněna v obchodu Play</string>
     <string name="license_incorrect_response">Obchod Play hlásí nesprávná licence</string>
     <string name="license_error_contacting_server">Chyba spojení se serverem</string>
     <string name="license_server_error">Chyba serveru</string>
