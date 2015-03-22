@@ -46,6 +46,7 @@
     <string name="list_header_yesterday">Yesterday</string>
     <string name="queued">Queued</string>
     <string name="no_connection">No connection</string>
+    <string name="add_to_contacts">Add to contacts</string>
 
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">Add to Dropbox</string>
@@ -462,7 +463,7 @@
     <string name="turkish_translation">Turkish translation</string>
     <string name="turkish_translation_summary">by Omer Ilik</string>
     <string name="serbian_translation">Serbian translation</string>
-    <string name="serbian_translation_summary">by sHAKaJaada</string>
+    <string name="serbian_translation_summary">by sHAKaJaada™</string>
     <string name="korean_translation">Korean translation</string>
     <string name="korean_translation_summary">by SoHyunSeop and Joon Hee Jo</string>
     <string name="romanian_translation">Romanian translation</string>
