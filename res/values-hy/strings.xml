@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Զանգերի ձայնագրիչ</string>
     <string name="terms_of_use">Օգտագործման պայմաններ</string>
@@ -30,22 +30,23 @@
     <string name="action_add_star">Ընդգծել</string>
     <string name="action_remove_star">Հեռացնել ընդգծվածը</string>
     <string name="action_share">Տարածել</string>
-    
+    <string name="action_cancel_tasks">Չեղարկել հանձնարարությունները</string>
     <string name="action_select_all">Նշել բոլորը</string>
     <string name="sort_by_date">Ըստ ժամանակացույցի</string>
     <string name="sort_by_contact">Ըստ կոնտակտի</string>
     <string name="sort_by_file_size">Ըստ ֆայլի մեծության</string>
-    
-    
+    <string name="records_size">ձայնագրություններ: %1$s, չափս: %2$s</string>
+    <string name="space_free_of">%1$s ազատ %2$s-ից</string>
 
     <!--Import settings -->
-    
+    <string name="restore_settings">Վերականգնել կարգավորումները</string>
 
     <!-- List -->
     <string name="list_header_today">Այսօր</string>
     <string name="list_header_yesterday">Երեկ</string>
     <string name="queued">Հերթում</string>
     <string name="no_connection">Կապ չկա</string>
+    
 
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">Ավելացնել Dropbox-ում</string>
@@ -89,7 +90,7 @@
     <string name="recorded_calls">Ձայնագրված զանգեր</string>
 
     <!--  Settings -> Headers -->
-    
+    <string name="settings_open_unlocker">Բացել Unlocker-ը</string>
     <string name="settings_recording">Ձայնագրում</string>
     <string name="settings_folders_and_files">Պանակներ և ֆայլեր</string>
     <string name="settings_ui_and_appearance">Ինտերֆեյս եւ արտաքին տեսք</string>
@@ -116,8 +117,8 @@
     <string name="license_error_contacting_server">Սերվերի հետ միանալու սխալ</string>
     <string name="license_server_error">Սերվերի սխալ</string>
     <string name="license_over_quota">Տվյալ սարքից հարցումները բավական շատ են</string>
-    
-    
+    <string name="license_trial_expired">Փորձաշրջանը ավարտված է</string>
+    <string name="license_trial_expired_summary">Խնրում ենք ջնջել ծրագրի այս տարբերակը, ամբողջական տարբերակը գնելուց առաջ</string>
     <string name="buy_full_version">Գնել ամբողջական տարբերակը</string>
     <string name="buy_full_version_summary">Տվյալ տարբերակը կավարտվի %s</string>
 
@@ -188,13 +189,13 @@
     <string name="api_source_voice_communication">Ձայնային կապ</string>
     <string name="category_wav_settings">WAV կարգավորումներ</string>
     <string name="category_wav_and_mp3_settings">WAV և MP3 կարգավորումներ</string>
-    
-    
+    <string name="when_bt_connected">Երբ BT-ն միացված է</string>
+    <string name="audio_source_when_bt_connected">Ձայնագրման աղբյուրը, երբ BT-ն միացված է</string>
 
     <!-- Actions when BT connected -->
-    
-    
-    
+    <string name="when_bt_connected_do_nothing">Ոչինչ</string>
+    <string name="when_bt_connected_switch_source">Փոխել ձայնագրման աղբյուրը</string>
+    <string name="when_bt_connected_disable_recording">Անջատել ձայնագրումը</string>
 
     <!-- Settings -> Recording -> CAF -->
     <string name="recording_mode">Ձայնագրման եղանակ</string>
@@ -215,7 +216,7 @@
     <!-- Settings -> Recording -> Exceptions -->
     <string name="add_exception">Ավելացնել բացառություններ</string>
     <string name="exception_group">Խումբ</string>
-    
+    <string name="exception_groups">%d խմբեր</string>
     <string name="exception_select_group">Ընտրել խումբը</string>
     <string name="exception_contact">Կոնտակտ</string>
     <string name="exception_select_contact">Ընտրել կոնտակտը</string>
@@ -235,8 +236,8 @@
     <!-- Settings -> Folders and Files -->
     <string name="folder">Թղթապանակ</string>
     <string name="folder_chooser_up_to">↑ Վերև մինչեւ %s</string>
-    
-    
+    <string name="create_new_folder">Ստեղծել նոր թղթապանակ</string>
+    <string name="dialog_title_new_folder">Նոր թղթապանակ</string>
     <string name="automatic_cleanup">Ձայնագրությունների ավտոմատ հեռացում</string>
     <string name="max_number_of_files">Մաքս. ֆայլերի քանակը</string>
     <string name="max_number_of_files_message">Մուտքագրեք քանակը (0 - անվերջ)</string>
@@ -270,8 +271,8 @@
     <string name="category_notification">Տեղեկացում</string>
     <string name="show_notification">Ցուցադրել տեղեկատվությունը վերևի տեղեկացման վահանակում</string>
     <string name="show_notification_summary">Միշտ տեղեկացրել տեղեկացման տողում</string>
-    
-    
+    <string name="hide_icon_but_keep_notification">Թաքցնել նշանը՝ թողնելով տեղեկացումները</string>
+    <string name="hide_icon_but_keep_notification_summary">Թացնել նշանը՝ թողնելով տեղեկատվությունը ինֆորմացիոն տողում</string>
     <string name="category_incall_control_button">Ձայնագրման կառավարման ստեղն</string>
     <string name="incall_control_for_outgoing">Ելքային զանգերի համար</string>
     <string name="incall_control_for_outgoing_summary">Ցուցադրել կառավարման ստեղնը ելքային զանգերի ժամանակ</string>
@@ -290,9 +291,9 @@
     <string name="long_press_action">Գործողություն երկար հպման դեպքում</string>
     <string name="long_press_action_dragging_the_button">Ստեղնի տեղափոխում</string>
     <string name="long_press_action_hang_up">Անջատել հեռախոսազանգը և ետ զանգահարել</string>
-    
-    
-    
+    <string name="category_main_screen">Գլխավոր էկրան</string>
+    <string name="hide_starred_recordings">Թաքցնել նշված ձայնագրությունները</string>
+    <string name="hide_starred_recordings_summary">Թաքցնել նշված ձայնագրությունները էկրանին բոլոր ձայնագրություններով</string>
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">Ամպային պահեստարանի օպերատոր</string>
@@ -309,11 +310,11 @@
 
     <!-- Notification -->
     <string name="notify_uploading_dropbox">Կատարվում է վերբեռնում դեպի Dropbox</string>
-    
-    
-    
-    
-    
+    <string name="notify_converting_to_amr">Փոփոխել AMR-ի</string>
+    <string name="notify_converting_to_mp3">Փոփոխել MP3-ի</string>
+    <string name="notify_encrypting">Ընթանում է կոդավորում</string>
+    <string name="notify_decrypting">Ընթանում է ապակոդավորում</string>
+    <string name="notify_waiting_for_calls">Զանգի սպասում</string>
     <string name="notify_tasks_remaining">%d մնաց գործողություն</string>
 
     <!-- Password dialog -->
@@ -370,19 +371,19 @@
     <string name="root_access_yes">Այո</string>
     <string name="dual_sim_phone">Երկքարտանի հեռախոս</string>
     <string name="dual_sim_phone_summary">Միացնել այս եթե ծրագիրը չի կարողանում հասկանալ զանգերը երկրորդ քարտից</string>
-    
+    <string name="send_logs_to_the_developer">Ուղարկել լոգերը հեղինակին</string>
 
     <!-- General -->
     <string name="contact_unknown">Անհայտ</string>
     <string name="button_choose">Ընտրել</string>
     <string name="button_ok">Լավ</string>
     <string name="button_call">Զանգել</string>
-    
+    <string name="button_buy">Գնել</string>
     <string name="button_edit">Խմբագրել</string>
     <string name="button_cancel">Չեղարկել</string>
     <string name="button_create">Ստեղծել</string>
     <string name="button_delete">Ջնջել</string>
-    
+    <string name="button_restore">Վերականգնել</string>
     <string name="button_keep">Պահպանել</string>
     <string name="button_play">Վերարտադրել</string>
     <string name="button_pause">Դադար</string>
@@ -400,9 +401,9 @@
 
     <!--Toasts-->
     <string name="toast_wait_for_operation_to_complete">Սպասեք գործողության ավարտին</string>
-    
-    
-    
+    <string name="toast_recording_is_off">Ձայնագրումը անջատված է</string>
+    <string name="toast_recording_is_on">Ձայնագրումը միացված է</string>
+    <string name="toast_file_deleted">Ֆայլը հաջողությամբ ջնջված է</string>
 
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">Ձայնագրել այս զանգը</string>
@@ -426,11 +427,11 @@
     <string name="about_many_thanks_summary">Ալեքսեյ Սուբոտինին (avs234)</string>
 
     <!--About -> Other-->
-    
-    
+    <string name="category_other">Այլ</string>
+    <string name="open_source_licenses">Open source լիցենզիա</string>
 
     <!--About -> Translators-->
-    
+    <string name="category_translators">Թարգմանիչներ</string>
     <string name="german_translation">Գերմաներեն թարգմանություն</string>
     <string name="german_translation_summary">Marc Hillesheim and Thomas Käfer</string>
     <string name="polish_translation">Լեհերեն թարգմանություն</string>
@@ -497,56 +498,6 @@
     <string name="belarusian_translation_summary">Alexander Kuvshinov-ի կողմից</string>
     <string name="vietnamese_translation">Վիետնամերեն թարգմանությունը</string>
     <string name="vietnamese_translation_summary">Truong Hoang Trung-ի կողմից</string>
-    
-    
-    
-    
-    
-    
-    
-    
-<string name="action_cancel_tasks">Չեղարկել հանձնարարությունները</string>
-    <string name="records_size">ձայնագրություններ: %1$s, չափս: %2$s</string>
-    <string name="space_free_of">%1$s ազատ %2$s-ից</string>
-
-    <string name="restore_settings">Վերականգնել կարգավորումները</string>
-
-    <string name="settings_open_unlocker">Բացել Unlocker-ը</string>
-    <string name="license_trial_expired">Փորձաշրջանը ավարտված է</string>
-    <string name="license_trial_expired_summary">Խնրում ենք ջնջել ծրագրի այս տարբերակը, ամբողջական տարբերակը գնելուց առաջ</string>
-    <string name="when_bt_connected">Երբ BT-ն միացված է</string>
-    <string name="audio_source_when_bt_connected">Ձայնագրման աղբյուրը, երբ BT-ն միացված է</string>
-
-    <string name="when_bt_connected_do_nothing">Ոչինչ</string>
-    <string name="when_bt_connected_switch_source">Փոխել ձայնագրման աղբյուրը</string>
-    <string name="when_bt_connected_disable_recording">Անջատել ձայնագրումը</string>
-
-    <string name="exception_groups">%d խմբեր</string>
-    <string name="create_new_folder">Ստեղծել նոր թղթապանակ</string>
-    <string name="dialog_title_new_folder">Նոր թղթապանակ</string>
-    <string name="hide_icon_but_keep_notification">Թաքցնել նշանը՝ թողնելով տեղեկացումները</string>
-    <string name="hide_icon_but_keep_notification_summary">Թացնել նշանը՝ թողնելով տեղեկատվությունը ինֆորմացիոն տողում</string>
-    <string name="category_main_screen">Գլխավոր էկրան</string>
-    <string name="hide_starred_recordings">Թաքցնել նշված ձայնագրությունները</string>
-    <string name="hide_starred_recordings_summary">Թաքցնել նշված ձայնագրությունները էկրանին բոլոր ձայնագրություններով</string>
-
-    <string name="notify_converting_to_amr">Փոփոխել AMR-ի</string>
-    <string name="notify_converting_to_mp3">Փոփոխել MP3-ի</string>
-    <string name="notify_encrypting">Ընթանում է կոդավորում</string>
-    <string name="notify_decrypting">Ընթանում է ապակոդավորում</string>
-    <string name="notify_waiting_for_calls">Զանգի սպասում</string>
-    <string name="send_logs_to_the_developer">Ուղարկել լոգերը հեղինակին</string>
-
-    <string name="button_buy">Գնել</string>
-    <string name="button_restore">Վերականգնել</string>
-    <string name="toast_recording_is_off">Ձայնագրումը անջատված է</string>
-    <string name="toast_recording_is_on">Ձայնագրումը միացված է</string>
-    <string name="toast_file_deleted">Ֆայլը հաջողությամբ ջնջված է</string>
-
-    <string name="category_other">Այլ</string>
-    <string name="open_source_licenses">Open source լիցենզիա</string>
-
-    <string name="category_translators">Թարգմանիչներ</string>
     <string name="armenian_translation">Հայերեն թարգմանությունը</string>
     <string name="armenian_translation_summary">Հակոբ Սունունուի և Կոնստանտին Գևորգյանի</string>
     <string name="gujarati_translation">Գուջարիթի թարգմանությունը</string>

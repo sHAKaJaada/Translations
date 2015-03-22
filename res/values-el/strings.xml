@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Call Recοrder</string>
     <string name="terms_of_use">Όροι Χρήσης</string>
@@ -39,13 +39,14 @@
     <string name="space_free_of">%1$s ελεύθερα από %2$s</string>
 
     <!--Import settings -->
-    
+    <string name="restore_settings">Επαναφορά ρυθμίσεων</string>
 
     <!-- List -->
     <string name="list_header_today">Σήμερα</string>
     <string name="list_header_yesterday">Χθές</string>
     <string name="queued">Στην ουρά</string>
     <string name="no_connection">Χωρίς σύνδεση</string>
+    
 
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">Προσθήκη στο Dropbox</string>
@@ -89,7 +90,7 @@
     <string name="recorded_calls">Καταγεγραμμένες κλήσεις</string>
 
     <!--  Settings -> Headers -->
-    
+    <string name="settings_open_unlocker">Εκκίνηση Unlocker</string>
     <string name="settings_recording">Καταγραφή</string>
     <string name="settings_folders_and_files">Φάκελοι και Αρχεία</string>
     <string name="settings_ui_and_appearance">Μενού εφαρμογής και Εμφάνιση</string>
@@ -116,8 +117,8 @@
     <string name="license_error_contacting_server">Σφάλμα επικοινωνίας με τον διακομιστή</string>
     <string name="license_server_error">Σφάλμα διακομιστή</string>
     <string name="license_over_quota">Πολλές αιτήσεις από την τρέχουσα συσκευή</string>
-    
-    
+    <string name="license_trial_expired">Έληξε η δοκιμαστική περίοδος</string>
+    <string name="license_trial_expired_summary">Παρακαλώ απεγκαταστήστε την τρέχουσα έκδοση πριν αγοράσετε την πλήρη</string>
     <string name="buy_full_version">Αγοράστε την πλήρη έκδοση</string>
     <string name="buy_full_version_summary">Τρέχουσα έκδοση θα λήξει στις %s</string>
 
@@ -188,13 +189,13 @@
     <string name="api_source_voice_communication">Επικοινωνία φωνής</string>
     <string name="category_wav_settings">Ρυθμίσεις WAV</string>
     <string name="category_wav_and_mp3_settings">Ρυθμίσεις WAV &amp; MP3</string>
-    
-    
+    <string name="when_bt_connected">Με συνδεδεμένο ΒΤ…</string>
+    <string name="audio_source_when_bt_connected">Πηγή ήχου με συνδεδεμένο BT</string>
 
     <!-- Actions when BT connected -->
-    
-    
-    
+    <string name="when_bt_connected_do_nothing">Χωρίς ενέργεια</string>
+    <string name="when_bt_connected_switch_source">Εναλλαγή πηγής ήχου</string>
+    <string name="when_bt_connected_disable_recording">Απενεργοποίηση καταγραφής</string>
 
     <!-- Settings -> Recording -> CAF -->
     <string name="recording_mode">Μέθοδος καταγραφής</string>
@@ -215,7 +216,7 @@
     <!-- Settings -> Recording -> Exceptions -->
     <string name="add_exception">Προσθήκη εξαίρεσης</string>
     <string name="exception_group">Γκρουπ</string>
-    
+    <string name="exception_groups">%d γκρουπ</string>
     <string name="exception_select_group">Επιλογή γκρουπ</string>
     <string name="exception_contact">Επαφή</string>
     <string name="exception_select_contact">Επιλογή επαφής</string>
@@ -235,8 +236,8 @@
     <!-- Settings -> Folders and Files -->
     <string name="folder">Φάκελος</string>
     <string name="folder_chooser_up_to">↑ Μέχρι %s</string>
-    
-    
+    <string name="create_new_folder">Δημιουργία νέου φακέλου…</string>
+    <string name="dialog_title_new_folder">Νέος φάκελος</string>
     <string name="automatic_cleanup">Αυτόματος καθαρισμός</string>
     <string name="max_number_of_files">Μέγ. αριθμός αρχείων</string>
     <string name="max_number_of_files_message">Εισάγετε έναν αριθμό (0 - άπειρο)</string>
@@ -290,9 +291,9 @@
     <string name="long_press_action">Δράση μακρύ πατήματος</string>
     <string name="long_press_action_dragging_the_button">Μετακινώντας το κουμπί</string>
     <string name="long_press_action_hang_up">Τερματισμός κλήσεις και αυτόματη επανάκληση</string>
-    
-    
-    
+    <string name="category_main_screen">Κεντρική οθόνη</string>
+    <string name="hide_starred_recordings">Απόκρυψη καταγραφών με αστέρι</string>
+    <string name="hide_starred_recordings_summary">Οι καταγραφές με αστέρι δεν θα εμφανίζονται στη λίστα των όλων των καταγραφών</string>
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">Πάροχος cloud</string>
@@ -377,12 +378,12 @@
     <string name="button_choose">Επιλογή</string>
     <string name="button_ok">ΟΚ</string>
     <string name="button_call">Κλήση</string>
-    
+    <string name="button_buy">Αγορά</string>
     <string name="button_edit">Επεξεργασία</string>
     <string name="button_cancel">Άκυρο</string>
     <string name="button_create">Δημιουργία</string>
     <string name="button_delete">Διαγραφή</string>
-    
+    <string name="button_restore">Επαναφορά</string>
     <string name="button_keep">Κράτηση</string>
     <string name="button_play">Αναπαραγωγή</string>
     <string name="button_pause">Παύση</string>
@@ -426,11 +427,11 @@
     <string name="about_many_thanks_summary">στον Alexey Subbotin (avs234)</string>
 
     <!--About -> Other-->
-    
-    
+    <string name="category_other">Άλλα</string>
+    <string name="open_source_licenses">Άδειες χρήσης ελεύθερου λογισμικού</string>
 
     <!--About -> Translators-->
-    
+    <string name="category_translators">Μεταφραστές</string>
     <string name="german_translation">Γερμανική μετάφραση</string>
     <string name="german_translation_summary">από Marc Hillesheim και Thomas Käfer</string>
     <string name="polish_translation">Πολωνική μετάφραση</string>
@@ -505,29 +506,4 @@
     <string name="tamil_translation_summary">από Ashish Sharma</string>
     <string name="greek_translation">Ελληνική μετάφραση</string>
     <string name="greek_translation_summary">από Λευτέρης (SomniusX) Ηλιάδης</string>
-<string name="restore_settings">Επαναφορά ρυθμίσεων</string>
-
-    <string name="category_other">Άλλα</string>
-    <string name="open_source_licenses">Άδειες χρήσης ελεύθερου λογισμικού</string>
-
-    <string name="category_translators">Μεταφραστές</string>
-    <string name="settings_open_unlocker">Εκκίνηση Unlocker</string>
-    <string name="license_trial_expired">Έληξε η δοκιμαστική περίοδος</string>
-    <string name="license_trial_expired_summary">Παρακαλώ απεγκαταστήστε την τρέχουσα έκδοση πριν αγοράσετε την πλήρη</string>
-    <string name="when_bt_connected">Με συνδεδεμένο ΒΤ…</string>
-    <string name="audio_source_when_bt_connected">Πηγή ήχου με συνδεδεμένο BT</string>
-
-    <string name="when_bt_connected_do_nothing">Χωρίς ενέργεια</string>
-    <string name="when_bt_connected_switch_source">Εναλλαγή πηγής ήχου</string>
-    <string name="when_bt_connected_disable_recording">Απενεργοποίηση καταγραφής</string>
-
-    <string name="exception_groups">%d γκρουπ</string>
-    <string name="create_new_folder">Δημιουργία νέου φακέλου…</string>
-    <string name="dialog_title_new_folder">Νέος φάκελος</string>
-    <string name="category_main_screen">Κεντρική οθόνη</string>
-    <string name="hide_starred_recordings">Απόκρυψη καταγραφών με αστέρι</string>
-    <string name="hide_starred_recordings_summary">Οι καταγραφές με αστέρι δεν θα εμφανίζονται στη λίστα των όλων των καταγραφών</string>
-
-    <string name="button_buy">Αγορά</string>
-    <string name="button_restore">Επαναφορά</string>
-    </resources>
+</resources>

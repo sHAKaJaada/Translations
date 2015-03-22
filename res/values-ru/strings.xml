@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Call Recorder</string>
     <string name="terms_of_use">Условия использования</string>
@@ -39,13 +39,14 @@
     <string name="space_free_of">%1$s из %2$s</string>
 
     <!--Import settings -->
-    
+    <string name="restore_settings">Восстановить настройки</string>
 
     <!-- List -->
     <string name="list_header_today">Сегодня</string>
     <string name="list_header_yesterday">Вчера</string>
     <string name="queued">В очереди</string>
     <string name="no_connection">Нет соединения</string>
+    <string name="add_to_contacts">Добавить в контакты</string>
 
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">Добавить на Dropbox</string>
@@ -215,7 +216,7 @@
     <!-- Settings -> Recording -> Exceptions -->
     <string name="add_exception">Добавить исключение</string>
     <string name="exception_group">Группа</string>
-    
+    <string name="exception_groups">%d группы</string>
     <string name="exception_select_group">Выберите группу</string>
     <string name="exception_contact">Контакт</string>
     <string name="exception_select_contact">Выберите контакт</string>
@@ -235,8 +236,8 @@
     <!-- Settings -> Folders and Files -->
     <string name="folder">Папка</string>
     <string name="folder_chooser_up_to">↑ Наверх до %s</string>
-    
-    
+    <string name="create_new_folder">Создать новую папку…</string>
+    <string name="dialog_title_new_folder">Новая папка</string>
     <string name="automatic_cleanup">Автоудаление записей</string>
     <string name="max_number_of_files">Макс. число файлов</string>
     <string name="max_number_of_files_message">Введите число (0 - без ограничений)</string>
@@ -291,8 +292,8 @@
     <string name="long_press_action_dragging_the_button">Перетаскивание кнопки</string>
     <string name="long_press_action_hang_up">Завершить вызов и перезвонить автоматически</string>
     <string name="category_main_screen">Основной экран</string>
-    
-    
+    <string name="hide_starred_recordings">Скрыть помеченные записи</string>
+    <string name="hide_starred_recordings_summary">Не показывать помеченные записи на экране со всеми записями</string>
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">Провайдер облака</string>
@@ -382,7 +383,7 @@
     <string name="button_cancel">Отмена</string>
     <string name="button_create">Создать</string>
     <string name="button_delete">Удалить</string>
-    
+    <string name="button_restore">Восстановить</string>
     <string name="button_keep">Сохранить</string>
     <string name="button_play">Проиграть</string>
     <string name="button_pause">Пауза</string>
@@ -426,11 +427,11 @@
     <string name="about_many_thanks_summary">Алексею Субботину (avs234)</string>
 
     <!--About -> Other-->
-    
-    
+    <string name="category_other">Другое</string>
+    <string name="open_source_licenses">Open source лицензии</string>
 
     <!--About -> Translators-->
-    
+    <string name="category_translators">Переводчики</string>
     <string name="german_translation">Перевод на немецкий</string>
     <string name="german_translation_summary">от Marc Hillesheim и Thomas Käfer</string>
     <string name="polish_translation">Перевод на польский</string>
@@ -505,17 +506,4 @@
     <string name="tamil_translation_summary">от Ashish Sharma</string>
     <string name="greek_translation">Перевод на греческий</string>
     <string name="greek_translation_summary">от Lefteris (SomniusX) Eliades</string>
-<string name="restore_settings">Восстановить настройки</string>
-
-    <string name="exception_groups">%d группы</string>
-    <string name="create_new_folder">Создать новую папку…</string>
-    <string name="dialog_title_new_folder">Новая папка</string>
-    <string name="hide_starred_recordings">Скрыть помеченные записи</string>
-    <string name="hide_starred_recordings_summary">Не показывать помеченные записи на экране со всеми записями</string>
-
-    <string name="button_restore">Восстановить</string>
-    <string name="category_other">Другое</string>
-    <string name="open_source_licenses">Open source лицензии</string>
-
-    <string name="category_translators">Переводчики</string>
-    </resources>
+</resources>

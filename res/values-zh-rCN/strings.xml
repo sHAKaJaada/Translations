@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">通话录音</string>
     <string name="terms_of_use">使用條款</string>
@@ -10,53 +10,54 @@
 
     <!-- Navigation drawer sections -->
     <string name="section_all_recordings">全部录音</string>
-    
+    <string name="section_starred">星标</string>
     <string name="section_incoming">呼入</string>
     <string name="section_outgoing">呼出</string>
-    
-    
-    
+    <string name="section_by_contact">按联系人</string>
+    <string name="section_by_format">按格式</string>
+    <string name="section_by_label">按标签</string>
     <string name="section_help">帮助</string>
     <string name="section_tasks">任务</string>
-    
+    <string name="section_tasks_hint">好使的录音任务，如转换、加密或上传至云端会在这里显示</string>
     <string name="empty_hint">空</string>
 
     <!-- Action bar -->
     <string name="action_search">搜索</string>
-    
+    <string name="action_sort">类别</string>
     <string name="action_settings">设置</string>
-    
-    
-    
-    
-    
-    
+    <string name="action_refresh">重新整理</string>
+    <string name="action_delete">删除</string>
+    <string name="action_add_star">添加星标</string>
+    <string name="action_remove_star">移除星标</string>
+    <string name="action_share">分享</string>
+    <string name="action_cancel_tasks">取消任务</string>
     <string name="action_select_all">全选</string>
-    
-    
-    
-    
-    
+    <string name="sort_by_date">按日期</string>
+    <string name="sort_by_contact">按联系人</string>
+    <string name="sort_by_file_size">按文件大小</string>
+    <string name="records_size">录音文件数量：%1$s，大小：%2$s</string>
+    <string name="space_free_of">%1$s 可使用于 %2$s</string>
 
     <!--Import settings -->
-    
+    <string name="restore_settings">恢复设置</string>
 
     <!-- List -->
-    
-    
-    
-    
+    <string name="list_header_today">今天</string>
+    <string name="list_header_yesterday">昨天</string>
+    <string name="queued">排队</string>
+    <string name="no_connection">无连接</string>
+    <string name="add_to_contacts">添加到联系人</string>
 
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">上传至 Dropbox</string>
-    
-    
+    <string name="menu_add_note">添加注释</string>
+    <string name="menu_edit_note">编辑注释</string>
     <string name="menu_delete">删除</string>
-    
-    
-    
+    <string name="menu_share">分享</string>
+    <string name="menu_convert_to_mp3">转换成 MP3 格式</string>
+    <string name="menu_convert_to_amr">转换成 ARM 格式</string>
     <string name="menu_get_info">查看信息</string>
-    
+    <string name="menu_cancel_task">取消任务</string>
     <string name="menu_encrypt">加密</string>
     <string name="menu_decrypt">解密</string>
 
@@ -64,7 +65,7 @@
     <string name="file_name">文件名</string>
     <string name="sample_rate">采样率</string>
     <string name="sample_rate_hz">赫兹</string>
-    
+    <string name="recording_type">录音类型</string>
     <string name="recording_type_mono">单声道</string>
     <string name="recording_type_stereo">立体声</string>
     <string name="file_size">文件大小</string>
@@ -73,7 +74,7 @@
     <string name="megabyte">MB</string>
     <string name="kilobyte">KB</string>
     <string name="bytes">字节</string>
-    
+    <string name="note">备注</string>
 
     <!-- List -> Get info dialog -> Edit -->
     <string name="contact_name">联系人姓名</string>
@@ -81,43 +82,43 @@
 
     <!-- List -> Confirm delete dialog -->
     <string name="confirm_delete_message">您确定要删除该记录吗？</string>
-    
-    
+    <string name="confirm_delete_several_title">确认删除</string>
+    <string name="confirm_delete_several_message">您已选中 %d 个录音文档，您确定要删除吗？</string>
 
     <!-- List -> Share -->
-    
+    <string name="share_via">分享文件，通过</string>
     <string name="recorded_calls">已记录通话</string>
 
     <!--  Settings -> Headers -->
-    
+    <string name="settings_open_unlocker">打开解锁</string>
     <string name="settings_recording">录音</string>
     <string name="settings_folders_and_files">文件夹和文件</string>
     <string name="settings_ui_and_appearance">界面和外观</string>
     <string name="settings_security">安全</string>
-    
+    <string name="settings_cloud">云端</string>
     <string name="settings_audio_player">音频播放器</string>
     <string name="settings_debug">调试</string>
     <string name="settings_about">关于</string>
 
     <!-- Settings -> License -->
     <string name="license_status">授权状态</string>
-    
-    
-    
-    
-    
-    
-    
-    
+    <string name="license_check_pending">授权有待验证</string>
+    <string name="license_check_failed">无法验证授权</string>
+    <string name="license_check_failed_summary">点此查看详情</string>
+    <string name="license_verified">已授权</string>
+    <string name="license_verified_summary">点按以隐藏</string>
+    <string name="license_help">帮助</string>
+    <string name="license_signature_verification_failed">签名验证失败</string>
+    <string name="license_error_message">错误 #%1$s: %2$s</string>
     <string name="license_trial">试用版将于 %s 到期</string>
-    
-    
-    
-    
-    
-    
-    
-    
+    <string name="license_unknown_error">未知错误</string>
+    <string name="license_not_market_managed">本版本尚未于 Play 商店中发布</string>
+    <string name="license_incorrect_response">Play 商店传回不正确的授权验证信息</string>
+    <string name="license_error_contacting_server">服务器连接错误</string>
+    <string name="license_server_error">服务器错误</string>
+    <string name="license_over_quota">本设备请求过多</string>
+    <string name="license_trial_expired">试用期已满</string>
+    <string name="license_trial_expired_summary">在购买完整版前请卸载本版本</string>
     <string name="buy_full_version">购买完整版</string>
     <string name="buy_full_version_summary">当前版本将在 %s 到期</string>
 
@@ -126,9 +127,9 @@
     <string name="category_main">主要</string>
     <string name="device">设备</string>
     <string name="select_your_device">选择您的设备</string>
-    
-    
-    
+    <string name="device_change_settings_empty">本设备的设置已完成</string>
+    <string name="device_root_is_required">需要根权限授权</string>
+    <string name="device_root_is_required_summary">为了更好的品质，本设备上需要根权限授权</string>
     <string name="device_other">其他</string>
     <string name="recording_method">录音方式</string>
     <string name="recording_method_api">标准 API</string>
@@ -137,8 +138,8 @@
     <string name="recording_method_caf_settings">CAF 录音设置</string>
     <string name="recording_method_alsa">ALSA</string>
     <string name="recording_method_alsa_settings">ALSA 录制设置</string>
-    
-    
+    <string name="recording_method_msm">MSM</string>
+    <string name="recording_method_msm_settings">MSM 录音设置</string>
     <string name="category_actions">操作</string>
     <string name="action_for_incoming">呼入操作</string>
     <string name="action_for_outgoing">呼出操作</string>
@@ -152,16 +153,16 @@
     <string name="after_call_actions_dialog_summary">通话后询问操作</string>
     <string name="vibrate_on_call">接通/挂断电话时振动</string>
     <string name="exceptions">例外</string>
-    
-    
-    
+    <string name="exceptions_summary">设置联系人、群主或电话号码的特定动作</string>
+    <string name="start_recording_on_answer">接通后开始录音</string>
+    <string name="start_recording_on_answer_summary">开始录制一个播出通话。我们采取了一个非公开的解决方案来检测对方的声音，所以本功能可能无法在某些设备上实现。在 Android 4.1 及以后的版本中需要获取根权限授权。必须启用内核中的记录器。</string>
     <string name="delay_before_start_recording">开始录制时间延迟</string>
-    
-    
-    
-    
-    
-    
+    <string name="delay_before_start_recording_summary">拨出：%1$s，来电：%1$s</string>
+    <string name="delay_format_sec">%s秒</string>
+    <string name="delay_for_outgoing">拨出</string>
+    <string name="delay_for_incoming">来电</string>
+    <string name="settings_for_device">设置为：%s</string>
+    <string name="recording_format">录音格式</string>
     <string name="recording_format_wav">WAV</string>
     <string name="recording_format_amr">AMR</string>
     <string name="recording_format_aac">AAC</string>
@@ -187,7 +188,7 @@
     <string name="api_source_default">默认</string>
     <string name="api_source_voice_communication">语音通信</string>
     <string name="category_wav_settings">WAV 设置</string>
-    
+    <string name="category_wav_and_mp3_settings">WAV 和 MP3 设置</string>
     <string name="when_bt_connected">当蓝牙连接…</string>
     <string name="audio_source_when_bt_connected">蓝牙连接时的音频源</string>
 
@@ -200,8 +201,8 @@
     <string name="recording_mode">录音模式</string>
 
     <!-- Settings -> Recording -> ALSA -->
-    
-    
+    <string name="alsa_is_not_installed">必须要安装 ALSA</string>
+    <string name="alsa_is_not_installed_summary">点此安装 ALSA</string>
 
     <!-- Settings -> Recording -> MSM -->
     <string name="chipset_type">芯片类型</string>
@@ -213,30 +214,30 @@
     <string name="dont_use_amr_driver_summary">实时转换 WAV 至 AMR</string>
 
     <!-- Settings -> Recording -> Exceptions -->
-    
+    <string name="add_exception">添加例外</string>
     <string name="exception_group">群组</string>
-    
+    <string name="exception_groups">%d 群组</string>
     <string name="exception_select_group">选择群组</string>
-    
-    
-    
-    
+    <string name="exception_contact">联系人</string>
+    <string name="exception_select_contact">选择联系人</string>
+    <string name="exception_phone_number">电话号码</string>
+    <string name="exception_action">操作</string>
     <string name="exception_select_action">选择操作</string>
     <string name="exception_action_always_record">总是录制</string>
     <string name="exception_action_never_record">从不录制</string>
-    
-    
-    
-    
-    
-    
-    
+    <string name="exception_groups_not_found">无群组</string>
+    <string name="exception_contacts_not_found">无联系人</string>
+    <string name="exceptions_not_added">无例外</string>
+    <string name="exception_by_contact">按联系人</string>
+    <string name="exception_by_group">按群组</string>
+    <string name="exception_by_phone_number">按电话号码</string>
+    <string name="exception_delete_message">您确定定要删除该例外？</string>
 
     <!-- Settings -> Folders and Files -->
     <string name="folder">文件夹</string>
-    
-    
-    
+    <string name="folder_chooser_up_to">↑ 最多 %s</string>
+    <string name="create_new_folder">新建文件夹…</string>
+    <string name="dialog_title_new_folder">新文件夹</string>
     <string name="automatic_cleanup">自动清理</string>
     <string name="max_number_of_files">录音最大数量</string>
     <string name="max_number_of_files_message">输入数量（0 表示无限制）</string>
@@ -245,7 +246,7 @@
     <string name="max_age_of_recordings">录音最大期限</string>
     <string name="max_age_of_recordings_message">输入以天为单位值（0 表示无限制）</string>
     <string name="current_setting">当前设置：%s</string>
-    
+    <string name="settings_filename">文件名称</string>
     <string name="filename_pattern">格式</string>
     <string name="time_pattern">时间格式</string>
 
@@ -253,7 +254,7 @@
     <string name="pattern_contact_name">联系人姓名</string>
     <string name="pattern_phone_number">电话号码</string>
     <string name="pattern_call_time">通话时间</string>
-    
+    <string name="pattern_call_timestamp">通话时间戳（Unix 时间）</string>
     <string name="pattern_call_type">通话类型（呼入或呼出）</string>
     <string name="time_pattern_hours">时</string>
     <string name="time_pattern_minutes">分</string>
@@ -266,55 +267,55 @@
     <!--Settings -> Interface and Appearance-->
     <string name="language">语言</string>
     <string name="select_language">选择语言</string>
-    
+    <string name="default_language">默认语言</string>
     <string name="category_notification">通知栏</string>
     <string name="show_notification">显示通知栏图标</string>
-    
-    
-    
-    
+    <string name="show_notification_summary">在状态栏中显示常驻通知</string>
+    <string name="hide_icon_but_keep_notification">保留通知，但隐藏图标</string>
+    <string name="hide_icon_but_keep_notification_summary">隐藏图标，但在状态栏中保持通知</string>
+    <string name="category_incall_control_button">呼叫控制按钮</string>
     <string name="incall_control_for_outgoing">对于呼出电话</string>
-    
+    <string name="incall_control_for_outgoing_summary">拨出通话时显示呼叫控制按钮</string>
     <string name="incall_control_for_incoming">对于呼入电话</string>
-    
-    
-    
+    <string name="incall_control_for_incoming_summary">来电通话时显示呼叫控制按钮</string>
+    <string name="hide_button_while_recording">录制时隐藏按钮</string>
+    <string name="hide_button_while_recording_summary">若正在录制通话是隐藏呼叫控制按钮</string>
     <string name="show_button_while_ringing">响铃时显示按钮</string>
     <string name="show_button_while_ringing_summary">来电接通前显示来电控制按钮</string>
     <string name="vertical_position">垂直位置</string>
-    
+    <string name="vertical_position_summary">从屏幕中心偏移 %s dp</string>
     <string name="horizontal_position">水平位置</string>
-    
-    
+    <string name="horizontal_position_summary">从屏幕中心偏移 %s dp</string>
+    <string name="hide_button_before_answer">直到接通前隐藏按钮</string>
     <string name="hide_button_before_answer_summary">直到电话接通前不显示呼入控制按钮</string>
-    
-    
-    
+    <string name="long_press_action">长按动作</string>
+    <string name="long_press_action_dragging_the_button">拖动按钮</string>
+    <string name="long_press_action_hang_up">挂断电话后自动回拨</string>
     <string name="category_main_screen">主屏幕</string>
-    
-    
+    <string name="hide_starred_recordings">隐藏星标的录音</string>
+    <string name="hide_starred_recordings_summary">在屏幕上不显示所有星标的录音</string>
 
     <!-- Settings -> Cloud -->
-    
+    <string name="cloud_provider">云服务提供商</string>
     <string name="cloud_provider_dropbox">Dropbox 空间</string>
-    
-    
-    
-    
+    <string name="sign_in_dropbox">登录 DropBox</string>
+    <string name="sign_out_dropbox">登出 DropBox</string>
+    <string name="cloud_provider_google_drive">谷歌云端硬盘</string>
+    <string name="cloud_common_settings">常规</string>
     <string name="cloud_wifi_only">仅使用无线网络</string>
     <string name="cloud_auto_upload">自动上传</string>
     <string name="cloud_auto_upload_summary">通话结束后自动上传录音</string>
-    
-    
+    <string name="cloud_upload_starred">上传星标录音</string>
+    <string name="cloud_upload_starred_summary">当您将录音添加星标时上传至云端存储</string>
 
     <!-- Notification -->
-    
-    
-    
-    
-    
-    
-    
+    <string name="notify_uploading_dropbox">上传至 DropBox</string>
+    <string name="notify_converting_to_amr">转换成 AMR 格式</string>
+    <string name="notify_converting_to_mp3">转换成 MP3 格式</string>
+    <string name="notify_encrypting">加密</string>
+    <string name="notify_decrypting">解密</string>
+    <string name="notify_waiting_for_calls">等待通话</string>
+    <string name="notify_tasks_remaining">剩余 %d 项任务</string>
 
     <!-- Password dialog -->
     <string name="wrong_password">密码错误</string>
@@ -325,17 +326,17 @@
     <string name="category_encryption">加密</string>
     <string name="category_application">应用程序</string>
     <string name="create_new_key">创建新密钥</string>
-    
-    
+    <string name="create_new_key_summary">该密钥会于加密录音或进入应用时使用</string>
+    <string name="delete_key">删除密钥</string>
     <string name="change_password">修改密码</string>
-    
-    
+    <string name="delete_key_summary">警告！如果您已经使用该密钥加密录音，即使您重新创建一个相同的密码，也永远无法还原加密的录音</string>
+    <string name="delete_key_message">删除后，您将无法还原加密的录音，您确定要删除吗？</string>
     <string name="enter_old_password">输入旧密码</string>
     <string name="enter_new_password">输入新密码</string>
     <string name="re_enter_new_password">重输新密码</string>
     <string name="require_password">需要密码</string>
     <string name="require_password_summary">需要密码才能打开程序</string>
-    
+    <string name="require_password_summary_no_key">您必须要创建一个密钥才可以设置开启应用时需要密码</string>
     <string name="lock_after">自动锁定</string>
     <string name="lock_after_exit">退出</string>
     <string name="lock_after_1_minute">1 分钟</string>
@@ -343,22 +344,22 @@
     <string name="lock_after_5_minutes">5 分钟</string>
     <string name="lock_after_10_minutes">10 分钟</string>
     <string name="app_admin">设备管理器</string>
-    
-    
+    <string name="app_admin_summary">防止卸载本应用</string>
+    <string name="app_admin_explanation">通话录音除了保护避免被卸载外，不会使用设备上任何其他的功能</string>
     <string name="aes_128bit">128-bit AES（较快）</string>
     <string name="aes_192bit">192-bit AES（平衡）</string>
     <string name="aes_256bit">256-bit AES（较强）</string>
 
     <!-- Settings -> Audio player -->
-    
+    <string name="use_built_in_player">使用内置播放器</string>
     <string name="audio_output">音频输出</string>
-    
+    <string name="audio_output_summary">%s（长按播放/暂停按钮可以切换）</string>
     <string name="main_speaker">扬声器</string>
     <string name="phone_speaker">手机听筒</string>
     <string name="use_proximity_sensor">使用距离感应器</string>
-    
+    <string name="use_proximity_sensor_summary">播放时通过距离传感器来关闭屏幕</string>
     <string name="switch_audio_output">切换音频输出</string>
-    
+    <string name="switch_audio_output_summary">通过距离传感器开启/关闭屏幕来自动切换音频输出</string>
     <string name="android_wav_decoder">系统 WAV 解码器</string>
     <string name="android_wav_decoder_summary">使用内置工具播放 WAV</string>
     <string name="android_amr_decoder">系统 AMR 解码器</string>
@@ -370,19 +371,19 @@
     <string name="root_access_yes">是</string>
     <string name="dual_sim_phone">双卡手机</string>
     <string name="dual_sim_phone_summary">如果应用无法判定来自第二张SIM卡的电话请启用本选项</string>
-    
+    <string name="send_logs_to_the_developer">发送日志给开发者</string>
 
     <!-- General -->
     <string name="contact_unknown">未知</string>
-    
+    <string name="button_choose">选择</string>
     <string name="button_ok">确定</string>
-    
-    
+    <string name="button_call">通话</string>
+    <string name="button_buy">购买</string>
     <string name="button_edit">编辑</string>
     <string name="button_cancel">取消</string>
     <string name="button_create">添加</string>
     <string name="button_delete">删除</string>
-    
+    <string name="button_restore">恢复</string>
     <string name="button_keep">保持</string>
     <string name="button_play">拨放</string>
     <string name="button_pause">暂停</string>
@@ -400,9 +401,9 @@
 
     <!--Toasts-->
     <string name="toast_wait_for_operation_to_complete">等待操作完成</string>
-    
-    
-    
+    <string name="toast_recording_is_off">已禁止通话录音</string>
+    <string name="toast_recording_is_on">已开启通话录音</string>
+    <string name="toast_file_deleted">已成功删除文件</string>
 
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">录制此通话</string>
@@ -426,11 +427,11 @@
     <string name="about_many_thanks_summary">Alexey Subbotin (avs234)</string>
 
     <!--About -> Other-->
-    
-    
+    <string name="category_other">其他</string>
+    <string name="open_source_licenses">开源许可证</string>
 
     <!--About -> Translators-->
-    
+    <string name="category_translators">译者</string>
     <string name="german_translation">德语翻译</string>
     <string name="german_translation_summary">由 Marc Hillesheim 和 Thomas Käfer 翻译</string>
     <string name="polish_translation">波兰语翻译</string>
@@ -466,7 +467,7 @@
     <string name="korean_translation">韩语翻译</string>
     <string name="korean_translation_summary">由 SoHyunSeop 和 Joon Hee Jo 翻译</string>
     <string name="romanian_translation">罗马尼亚翻译</string>
-    <string name="romanian_translation_summary">"由  Dan P. (sad) 翻译"</string>
+    <string name="romanian_translation_summary">由 Dan P. (sad) 翻译</string>
     <string name="ukrainian_translation">乌克兰语翻译</string>
     <string name="ukrainian_translation_summary">由 Gennadi Samoluk 翻译</string>
     <string name="traditional_chinese_translation">繁体中文翻译</string>
@@ -497,166 +498,6 @@
     <string name="belarusian_translation_summary">由 Alexander Kuvshinov 翻译</string>
     <string name="vietnamese_translation">越南语翻译</string>
     <string name="vietnamese_translation_summary">由 Truong Hoang Trung 翻译</string>
-    
-    
-    
-    
-    
-    
-    
-    
-<string name="section_starred">星标</string>
-    <string name="section_by_contact">按联系人</string>
-    <string name="section_by_format">按格式</string>
-    <string name="section_by_label">按标签</string>
-    <string name="section_tasks_hint">好使的录音任务，如转换、加密或上传至云端会在这里显示</string>
-    <string name="action_sort">类别</string>
-    <string name="action_refresh">重新整理</string>
-    <string name="action_delete">删除</string>
-    <string name="action_add_star">添加星标</string>
-    <string name="action_remove_star">移除星标</string>
-    <string name="action_share">分享</string>
-    <string name="action_cancel_tasks">取消任务</string>
-    <string name="sort_by_date">按日期</string>
-    <string name="sort_by_contact">按联系人</string>
-    <string name="sort_by_file_size">按文件大小</string>
-    <string name="records_size">录音文件数量：%1$s，大小：%2$s</string>
-    <string name="space_free_of">%1$s 可使用于 %2$s</string>
-
-    <string name="restore_settings">恢复设置</string>
-
-    <string name="list_header_today">今天</string>
-    <string name="list_header_yesterday">昨天</string>
-    <string name="queued">排队</string>
-    <string name="no_connection">无连接</string>
-
-    <string name="menu_add_note">添加注释</string>
-    <string name="menu_edit_note">编辑注释</string>
-    <string name="menu_share">分享</string>
-    <string name="menu_convert_to_mp3">转换成 MP3 格式</string>
-    <string name="menu_convert_to_amr">转换成 ARM 格式</string>
-    <string name="menu_cancel_task">取消任务</string>
-    <string name="recording_type">录音类型</string>
-    <string name="note">备注</string>
-
-    <string name="confirm_delete_several_title">确认删除</string>
-    <string name="confirm_delete_several_message">您已选中 %d 个录音文档，您确定要删除吗？</string>
-
-    <string name="share_via">分享文件，通过</string>
-    <string name="settings_open_unlocker">打开解锁</string>
-    <string name="settings_cloud">云端</string>
-    <string name="license_check_pending">授权有待验证</string>
-    <string name="license_check_failed">无法验证授权</string>
-    <string name="license_check_failed_summary">点此查看详情</string>
-    <string name="license_verified">已授权</string>
-    <string name="license_verified_summary">点按以隐藏</string>
-    <string name="license_help">帮助</string>
-    <string name="license_signature_verification_failed">签名验证失败</string>
-    <string name="license_error_message">错误 #%1$s: %2$s</string>
-    <string name="license_unknown_error">未知错误</string>
-    <string name="license_not_market_managed">本版本尚未于 Play 商店中发布</string>
-    <string name="license_incorrect_response">Play 商店传回不正确的授权验证信息</string>
-    <string name="license_error_contacting_server">服务器连接错误</string>
-    <string name="license_server_error">服务器错误</string>
-    <string name="license_over_quota">本设备请求过多</string>
-    <string name="license_trial_expired">试用期已满</string>
-    <string name="license_trial_expired_summary">在购买完整版前请卸载本版本</string>
-    <string name="device_change_settings_empty">本设备的设置已完成</string>
-    <string name="device_root_is_required">需要根权限授权</string>
-    <string name="device_root_is_required_summary">为了更好的品质，本设备上需要根权限授权</string>
-    <string name="recording_method_msm">MSM</string>
-    <string name="recording_method_msm_settings">MSM 录音设置</string>
-    <string name="exceptions_summary">设置联系人、群主或电话号码的特定动作</string>
-    <string name="start_recording_on_answer">接通后开始录音</string>
-    <string name="start_recording_on_answer_summary">开始录制一个播出通话。我们采取了一个非公开的解决方案来检测对方的声音，所以本功能可能无法在某些设备上实现。在 Android 4.1 及以后的版本中需要获取根权限授权。必须启用内核中的记录器。</string>
-    <string name="delay_before_start_recording_summary">拨出：%1$s，来电：%1$s</string>
-    <string name="delay_format_sec">%s秒</string>
-    <string name="delay_for_outgoing">拨出</string>
-    <string name="delay_for_incoming">来电</string>
-    <string name="settings_for_device">设置为：%s</string>
-    <string name="recording_format">录音格式</string>
-    <string name="category_wav_and_mp3_settings">WAV 和 MP3 设置</string>
-    <string name="alsa_is_not_installed">必须要安装 ALSA</string>
-    <string name="alsa_is_not_installed_summary">点此安装 ALSA</string>
-
-    <string name="add_exception">添加例外</string>
-    <string name="exception_groups">%d 群组</string>
-    <string name="exception_contact">联系人</string>
-    <string name="exception_select_contact">选择联系人</string>
-    <string name="exception_phone_number">电话号码</string>
-    <string name="exception_action">操作</string>
-    <string name="exception_groups_not_found">无群组</string>
-    <string name="exception_contacts_not_found">无联系人</string>
-    <string name="exceptions_not_added">无例外</string>
-    <string name="exception_by_contact">按联系人</string>
-    <string name="exception_by_group">按群组</string>
-    <string name="exception_by_phone_number">按电话号码</string>
-    <string name="exception_delete_message">您确定定要删除该例外？</string>
-
-    <string name="folder_chooser_up_to">↑ 最多 %s</string>
-    <string name="create_new_folder">新建文件夹…</string>
-    <string name="dialog_title_new_folder">新文件夹</string>
-    <string name="settings_filename">文件名称</string>
-    <string name="pattern_call_timestamp">通话时间戳（Unix 时间）</string>
-    <string name="default_language">默认语言</string>
-    <string name="show_notification_summary">在状态栏中显示常驻通知</string>
-    <string name="hide_icon_but_keep_notification">保留通知，但隐藏图标</string>
-    <string name="hide_icon_but_keep_notification_summary">隐藏图标，但在状态栏中保持通知</string>
-    <string name="category_incall_control_button">呼叫控制按钮</string>
-    <string name="incall_control_for_outgoing_summary">拨出通话时显示呼叫控制按钮</string>
-    <string name="incall_control_for_incoming_summary">来电通话时显示呼叫控制按钮</string>
-    <string name="hide_button_while_recording">录制时隐藏按钮</string>
-    <string name="hide_button_while_recording_summary">若正在录制通话是隐藏呼叫控制按钮</string>
-    <string name="vertical_position_summary">从屏幕中心偏移 %s dp</string>
-    <string name="horizontal_position_summary">从屏幕中心偏移 %s dp</string>
-    <string name="hide_button_before_answer">直到接通前隐藏按钮</string>
-    <string name="long_press_action">长按动作</string>
-    <string name="long_press_action_dragging_the_button">拖动按钮</string>
-    <string name="long_press_action_hang_up">挂断电话后自动回拨</string>
-    <string name="hide_starred_recordings">隐藏星标的录音</string>
-    <string name="hide_starred_recordings_summary">在屏幕上不显示所有星标的录音</string>
-
-    <string name="cloud_provider">云服务提供商</string>
-    <string name="sign_in_dropbox">登录 DropBox</string>
-    <string name="sign_out_dropbox">登出 DropBox</string>
-    <string name="cloud_provider_google_drive">谷歌云端硬盘</string>
-    <string name="cloud_common_settings">常规</string>
-    <string name="cloud_upload_starred">上传星标录音</string>
-    <string name="cloud_upload_starred_summary">当您将录音添加星标时上传至云端存储</string>
-
-    <string name="notify_uploading_dropbox">上传至 DropBox</string>
-    <string name="notify_converting_to_amr">转换成 AMR 格式</string>
-    <string name="notify_converting_to_mp3">转换成 MP3 格式</string>
-    <string name="notify_encrypting">加密</string>
-    <string name="notify_decrypting">解密</string>
-    <string name="notify_waiting_for_calls">等待通话</string>
-    <string name="notify_tasks_remaining">剩余 %d 项任务</string>
-
-    <string name="create_new_key_summary">该密钥会于加密录音或进入应用时使用</string>
-    <string name="delete_key">删除密钥</string>
-    <string name="delete_key_summary">警告！如果您已经使用该密钥加密录音，即使您重新创建一个相同的密码，也永远无法还原加密的录音</string>
-    <string name="delete_key_message">删除后，您将无法还原加密的录音，您确定要删除吗？</string>
-    <string name="require_password_summary_no_key">您必须要创建一个密钥才可以设置开启应用时需要密码</string>
-    <string name="app_admin_summary">防止卸载本应用</string>
-    <string name="app_admin_explanation">通话录音除了保护避免被卸载外，不会使用设备上任何其他的功能</string>
-    <string name="use_built_in_player">使用内置播放器</string>
-    <string name="audio_output_summary">%s（长按播放/暂停按钮可以切换）</string>
-    <string name="use_proximity_sensor_summary">播放时通过距离传感器来关闭屏幕</string>
-    <string name="switch_audio_output_summary">通过距离传感器开启/关闭屏幕来自动切换音频输出</string>
-    <string name="send_logs_to_the_developer">发送日志给开发者</string>
-
-    <string name="button_choose">选择</string>
-    <string name="button_call">通话</string>
-    <string name="button_buy">购买</string>
-    <string name="button_restore">恢复</string>
-    <string name="toast_recording_is_off">已禁止通话录音</string>
-    <string name="toast_recording_is_on">已开启通话录音</string>
-    <string name="toast_file_deleted">已成功删除文件</string>
-
-    <string name="category_other">其他</string>
-    <string name="open_source_licenses">开源许可证</string>
-
-    <string name="category_translators">译者</string>
     <string name="armenian_translation">亚美尼亚文</string>
     <string name="armenian_translation_summary">由 Hakob Sununu 与 Konstantin Gevorgyan 翻译</string>
     <string name="gujarati_translation">古吉拉特文</string>

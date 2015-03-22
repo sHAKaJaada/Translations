@@ -1,62 +1,63 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">कॉल रिकॉर्डर</string>
-    
-    
+    <string name="terms_of_use">इस्तेमाल करने की शर्तें</string>
+    <string name="terms_of_use_message">इस एप (app) का इस्तेमाल करके आप कॉल रिकॉर्डर की &lt;a href=http://rec.sh/terms&gt;शर्तों&lt;/a&gt; को स्वीकार करते हैं</string>
 
     <!-- Navigation drawer -->
-    
-    
+    <string name="navigation_drawer_open">समायोजन पट्टी खोलें</string>
+    <string name="navigation_drawer_close">समायोजन पट्टी बंद करें</string>
 
     <!-- Navigation drawer sections -->
-    
-    
+    <string name="section_all_recordings">सारी रिकॉर्डिंग</string>
+    <string name="section_starred">पसंदीदा</string>
     <string name="section_incoming">आने वाली कॉल</string>
     <string name="section_outgoing">जाने वाली कॉल</string>
-    
-    
-    
+    <string name="section_by_contact">व्यक्ति के नाम से</string>
+    <string name="section_by_format">प्रारूप से</string>
+    <string name="section_by_label">label से</string>
     <string name="section_help">सहायता</string>
     <string name="section_tasks">भिन्न-भिन्न कार्य</string>
-    
+    <string name="section_tasks_hint">प्रारूप बदलने, कूटबद्ध करने या क्लाउड में अपलोड करने जैसे कार्य जो ज्यादा वक़्त लेते हैं, वह यहाँ दिखाए जायेंगे</string>
     <string name="empty_hint">ख़ाली</string>
 
     <!-- Action bar -->
     <string name="action_search">ख़ोज</string>
-    
+    <string name="action_sort">श्रेणी के अनुसार लगाएं</string>
     <string name="action_settings">समायोजन</string>
-    
-    
-    
-    
-    
-    
+    <string name="action_refresh">ताज़ा (Refresh)</string>
+    <string name="action_delete">मिटायें</string>
+    <string name="action_add_star">पसंदीदी बनाएं</string>
+    <string name="action_remove_star">पसंदीदा की श्रेणी से हटायें</string>
+    <string name="action_share">बाँटें</string>
+    <string name="action_cancel_tasks">सब ही कार्य रोकें</string>
     <string name="action_select_all">सबको चुना जाए</string>
-    
-    
-    
-    
-    
+    <string name="sort_by_date">तारीख से</string>
+    <string name="sort_by_contact">व्यक्ति से</string>
+    <string name="sort_by_file_size">आकार के अनुसार</string>
+    <string name="records_size">अभिलेख: %1$s, आकार: %2$s</string>
+    <string name="space_free_of">%1$s में से %2$s शेष</string>
 
     <!--Import settings -->
-    
+    <string name="restore_settings">समायोजन बहान करें</string>
 
     <!-- List -->
-    
-    
-    
-    
+    <string name="list_header_today">आज</string>
+    <string name="list_header_yesterday">बीता हुआ कल</string>
+    <string name="queued">पंक्तिबद्ध</string>
+    <string name="no_connection">इन्टरनेट नहीं है</string>
+    <string name="add_to_contacts">संपर्क सूची में जोड़ा जाए</string>
 
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">Dropbox में जोडें</string>
-    
-    
+    <string name="menu_add_note">टिप्पणी जोडें</string>
+    <string name="menu_edit_note">टिप्पणी सम्पादन करें</string>
     <string name="menu_delete">मिटायें</string>
-    
-    
-    
+    <string name="menu_share">बाँटें</string>
+    <string name="menu_convert_to_mp3">MP3 में परिवर्तित करें</string>
+    <string name="menu_convert_to_amr">AMR में परिवर्तित करें</string>
     <string name="menu_get_info">जानकारी प्राप्त करें</string>
-    
+    <string name="menu_cancel_task">कार्य रोकें</string>
     <string name="menu_encrypt">कूटबद्ध करें</string>
     <string name="menu_decrypt">कूटबद्धता हटाई जाए</string>
 
@@ -64,7 +65,7 @@
     <string name="file_name">फाइल का नाम</string>
     <string name="sample_rate">नमूना दर</string>
     <string name="sample_rate_hz">Hz</string>
-    
+    <string name="recording_type">रिकॉर्डिंग ढंग</string>
     <string name="recording_type_mono">मोनो(1चैनल)</string>
     <string name="recording_type_stereo">स्टीरियो (2 चैनल)</string>
     <string name="file_size">फाइल का नाप</string>
@@ -73,7 +74,7 @@
     <string name="megabyte">MB</string>
     <string name="kilobyte">KB</string>
     <string name="bytes">bytes</string>
-    
+    <string name="note">टिप्पणी</string>
 
     <!-- List -> Get info dialog -> Edit -->
     <string name="contact_name">व्यक्ति का नाम</string>
@@ -81,40 +82,40 @@
 
     <!-- List -> Confirm delete dialog -->
     <string name="confirm_delete_message">पुष्टि करें कि, इस रिकॉर्डिंग को मिटा दिया जाए?</string>
-    
-    
+    <string name="confirm_delete_several_title">पुष्टि करी</string>
+    <string name="confirm_delete_several_message">आपने %d रिकॉर्डिंग चुनी हैं, इन सबको मिटा दिया जाए?</string>
 
     <!-- List -> Share -->
-    
+    <string name="share_via">बाँटें</string>
     <string name="recorded_calls">रिकॉर्ड की गई कॉल्स</string>
 
     <!--  Settings -> Headers -->
-    
+    <string name="settings_open_unlocker">Call Recorder Unlocker खोलें</string>
     <string name="settings_recording">रिकॉर्डिंग</string>
     <string name="settings_folders_and_files">फ़ोल्डर्स और फाइल्स</string>
     <string name="settings_ui_and_appearance">रंग-रूप</string>
     <string name="settings_security">सुरक्षा</string>
-    
+    <string name="settings_cloud">क्लाउड</string>
     <string name="settings_audio_player">ध्वनि वादक</string>
     <string name="settings_debug">दोषमार्जन</string>
     <string name="settings_about">एप(app) की जानकारी</string>
 
     <!-- Settings -> License -->
     <string name="license_status">अनुज्ञा स्तिथि</string>
-    
-    
-    
-    
-    
-    
-    
-    
+    <string name="license_check_pending">अनुज्ञा-जाँच शेष</string>
+    <string name="license_check_failed">अनुज्ञा-जाँच असफल</string>
+    <string name="license_check_failed_summary">अधिक जानकारी के लिए यहाँ छुएं</string>
+    <string name="license_verified">अनुज्ञा-जाँच सफल</string>
+    <string name="license_verified_summary">छुपाने के लिए छुएं</string>
+    <string name="license_help">सहायता</string>
+    <string name="license_signature_verification_failed">अनुज्ञा-जाँच असफल</string>
+    <string name="license_error_message">त्रुटी #%1$s: %2$s</string>
     <string name="license_trial">परिक्षण संस्करण, %s को ख़तम हो जाएगा</string>
-    
-    
-    
-    
-    
+    <string name="license_unknown_error">अनजान त्रुटी</string>
+    <string name="license_not_market_managed">यह रूपांतर अभी तक Play Store पर प्रकाशित नहीं हुआ है</string>
+    <string name="license_incorrect_response">Play Store से अनुज्ञा जाँच त्रुटिपूर्ण</string>
+    <string name="license_error_contacting_server">Server से संपर्क स्थापित न हो सका</string>
+    <string name="license_server_error">Server की और से गलती</string>
     
     
     
@@ -152,25 +153,25 @@
     <string name="after_call_actions_dialog_summary">कॉल समाप्ति पर पुछा जाए कि क्या करना है</string>
     <string name="vibrate_on_call">कॉल के शुरू व् अंत होने पर सपन्दित होना</string>
     <string name="exceptions">अपवाद</string>
-    
-    
+    <string name="exceptions_summary">संपर्कों, समूहों व् फोन नम्बरों के लिए ख़ास क्रिया निर्धारित करें</string>
+    <string name="start_recording_on_answer">कॉल उठाने पर रिकॉर्डिंग शुरू हो जाए</string>
     
     <string name="delay_before_start_recording">कितने अंतराल के पश्चात रिकॉर्डिंग शुरू की जाए</string>
-    
-    
-    
-    
-    
-    
+    <string name="delay_before_start_recording_summary">आने वाली कॉल के लिए: %1$s, जाने वाली कॉल के लिए: %2$s</string>
+    <string name="delay_format_sec">%s सेकेंड</string>
+    <string name="delay_for_outgoing">जाने वाली कॉल के लिए</string>
+    <string name="delay_for_incoming">आने वाली कॉल के लिए</string>
+    <string name="settings_for_device">%s के लिए समायोजन</string>
+    <string name="recording_format">रिकॉर्डिंग का प्रारूप</string>
     <string name="recording_format_wav">WAV</string>
     <string name="recording_format_amr">AMR</string>
     <string name="recording_format_aac">AAC</string>
     <string name="recording_format_mp3">MP3</string>
     <string name="volume_control">आवाज़ नियंत्रण</string>
-    
-    
-    
-    
+    <string name="volume_control_summary">संचार: %1$s, ग्रहण: %2$s</string>
+    <string name="volume_control_overall">कुल आवाज़</string>
+    <string name="volume_control_tx">संचार</string>
+    <string name="volume_control_rx">ग्रहण</string>
     <string name="sample_rate_8000">8000 Hz (मौलिक)</string>
     <string name="sample_rate_11025">11025 Hz</string>
     <string name="sample_rate_16000">16000 Hz</string>
@@ -187,7 +188,7 @@
     <string name="api_source_default">मौलिक</string>
     <string name="api_source_voice_communication">ध्वनि वार्तालाप</string>
     <string name="category_wav_settings">WAV समायोजन</string>
-    
+    <string name="category_wav_and_mp3_settings">WAV &amp; MP3 समायोजन</string>
     <string name="when_bt_connected">जब ब्लू-टूथ(हेड-सेट) का इस्तेमाल हो</string>
     <string name="audio_source_when_bt_connected">ब्लू टूथ(हेड-सेट) के जुड़े होने पर ध्वनि स्त्रोत</string>
 
@@ -200,8 +201,8 @@
     <string name="recording_mode">रिकॉर्डिंग प्रणाली</string>
 
     <!-- Settings -> Recording -> ALSA -->
-    
-    
+    <string name="alsa_is_not_installed">ALSA स्थापित होना आवश्यक</string>
+    <string name="alsa_is_not_installed_summary">ALSA को स्थापित करने हेतु यहाँ छुएँ</string>
 
     <!-- Settings -> Recording -> MSM -->
     <string name="chipset_type">Chipset का प्रकार</string>
@@ -213,30 +214,30 @@
     <string name="dont_use_amr_driver_summary">बल्कि WAV को AMR में साथ की साथ तब्दील किया जाए</string>
 
     <!-- Settings -> Recording -> Exceptions -->
-    
+    <string name="add_exception">अपवाद जोडें</string>
     <string name="exception_group">समूह</string>
-    
+    <string name="exception_groups">%d समूह</string>
     <string name="exception_select_group">समूहों को चुना जाए</string>
-    
-    
-    
-    
+    <string name="exception_contact">संपर्क</string>
+    <string name="exception_select_contact">संपर्क चुनें</string>
+    <string name="exception_phone_number">फ़ोन नंबर</string>
+    <string name="exception_action">क्रिया</string>
     <string name="exception_select_action">क्रिया चुनी जाए</string>
     <string name="exception_action_always_record">हमेशा रिकॉर्ड किया जाए</string>
     <string name="exception_action_never_record">कभी रिकॉर्ड न किया जाए</string>
-    
-    
-    
-    
-    
-    
-    
+    <string name="exception_groups_not_found">समूह नहीं मिले</string>
+    <string name="exception_contacts_not_found">संपर्क नहीं मिले</string>
+    <string name="exceptions_not_added">अपवाद नहीं जोड़ा गया</string>
+    <string name="exception_by_contact">संपर्क से</string>
+    <string name="exception_by_group">समूह से</string>
+    <string name="exception_by_phone_number">फ़ोन नंबर से</string>
+    <string name="exception_delete_message">आप यकीनन इस अपवाद को मिटाना चाहते हैं?</string>
 
     <!-- Settings -> Folders and Files -->
     <string name="folder">फोल्डर</string>
-    
-    
-    
+    <string name="folder_chooser_up_to">↑ ऊपर %s</string>
+    <string name="create_new_folder">नया फोल्डर निर्मित करें</string>
+    <string name="dialog_title_new_folder">नया फोल्डर</string>
     <string name="automatic_cleanup">स्वचालित मिटाना</string>
     <string name="max_number_of_files">अधिकतम फाइल सीमा</string>
     <string name="max_number_of_files_message">कोई नंबर लिखें (0 का मतलब - असंख्य)</string>
@@ -245,7 +246,7 @@
     <string name="max_age_of_recordings">रिकॉर्डिंग की अधिकतम आयु</string>
     <string name="max_age_of_recordings_message">दिनों में सीमा निर्धारित करें (0 का मतलब - असंख्य)</string>
     
-    
+    <string name="settings_filename">फाइल का नाम</string>
     <string name="filename_pattern">आकृति</string>
     <string name="time_pattern">समय की आकृति</string>
 
@@ -253,7 +254,7 @@
     <string name="pattern_contact_name">संपर्क का नाम</string>
     <string name="pattern_phone_number">फ़ोन नंबर</string>
     <string name="pattern_call_time">कॉल का समय</string>
-    
+    <string name="pattern_call_timestamp">कॉल की अवधि (unix time)</string>
     <string name="pattern_call_type">कॉल का प्रकार</string>
     <string name="time_pattern_hours">घंटे</string>
     <string name="time_pattern_minutes">मिनट</string>
@@ -266,55 +267,55 @@
     <!--Settings -> Interface and Appearance-->
     <string name="language">भाषा</string>
     <string name="select_language">भाषा चुनें</string>
-    
+    <string name="default_language">मौलिक भाषा</string>
     <string name="category_notification">अधिसूचना</string>
     <string name="show_notification">अधिसूचना दिखाई जाए</string>
-    
-    
-    
-    
+    <string name="show_notification_summary">Status bar में स्थायी अधिसूचना रहे</string>
+    <string name="hide_icon_but_keep_notification">Icon छिपायें परन्तु अधिसूचना रहे</string>
+    <string name="hide_icon_but_keep_notification_summary">Icon छिपायें परन्तु status bar में अधिसूचना रहे</string>
+    <string name="category_incall_control_button">कॉल के दौरान बटन दिखे</string>
     <string name="incall_control_for_outgoing">जाने वाली कॉल्स के लिए</string>
-    
+    <string name="incall_control_for_outgoing_summary">जाने वाली कॉल के दौरान बटन दिखे</string>
     <string name="incall_control_for_incoming">आने वाली कॉल्स के लिए</string>
-    
-    
-    
+    <string name="incall_control_for_incoming_summary">आने वाली कॉल के दौरान बटन दिखे</string>
+    <string name="hide_button_while_recording">रिकॉर्डिंग के समय बटन छिप जाए</string>
+    <string name="hide_button_while_recording_summary">कॉल रिकॉर्डिंग के समय नियंत्रण बटन छिप जाए</string>
     <string name="show_button_while_ringing">फ़ोन के बजने पर बटन प्रदर्शित किया जाए</string>
     <string name="show_button_while_ringing_summary">आने वाली कॉल उठाने से पहले नियंत्रण बटन प्रदर्शित हो</string>
     <string name="vertical_position">लम्बवत स्थान</string>
-    
+    <string name="vertical_position_summary">%s dp, स्क्रीन के मध्य से हट कर</string>
     <string name="horizontal_position">क्षैतिज स्थान</string>
-    
-    
+    <string name="horizontal_position_summary">%s dp, स्क्रीन के मध्य से हट कर</string>
+    <string name="hide_button_before_answer">कॉल उठाने से पहले बटन न दिखे</string>
     <string name="hide_button_before_answer_summary">संपर्क स्थापित होने से पूर्व नियंत्रण बटन न दिखे</string>
-    
-    
-    
+    <string name="long_press_action">देर तक दबाने पर क्या हो</string>
+    <string name="long_press_action_dragging_the_button">बटन सरकाया जाए</string>
+    <string name="long_press_action_hang_up">कॉल को काट-तुरंत वापिस कॉल की जाए</string>
     <string name="category_main_screen">मुख्य स्क्रीन</string>
-    
-    
+    <string name="hide_starred_recordings">पसंदीदा रिकॉर्डिंग को छिपायें</string>
+    <string name="hide_starred_recordings_summary">सभी रिकॉर्डिंग के साथ पसंदीदा रिकॉर्डिंग न दिखाई जायें</string>
 
     <!-- Settings -> Cloud -->
-    
+    <string name="cloud_provider">Cloud सेवा</string>
     <string name="cloud_provider_dropbox">Dropbox</string>
-    
-    
-    
-    
+    <string name="sign_in_dropbox">Dropbox में लोग-इन करें</string>
+    <string name="sign_out_dropbox">Dropbox से लोग-आउट करें</string>
+    <string name="cloud_provider_google_drive">Google Drive</string>
+    <string name="cloud_common_settings">समान</string>
     <string name="cloud_wifi_only">सिर्फ Wi-Fi पर</string>
     <string name="cloud_auto_upload">स्वचालित अप-लोड़</string>
     <string name="cloud_auto_upload_summary">रिकॉर्डिंग के तुरंत बाद अप-लोड़ किया जाए</string>
-    
-    
+    <string name="cloud_upload_starred">पसंदीदा ही उप-लोड़ हों</string>
+    <string name="cloud_upload_starred_summary">पसंदीदा घोषित होने पर रिकॉर्डिंग को उप-लोड़ किया जाए</string>
 
     <!-- Notification -->
-    
-    
-    
-    
-    
-    
-    
+    <string name="notify_uploading_dropbox">Dropbox में उप-लोड़ हो रहा है</string>
+    <string name="notify_converting_to_amr">AMR में परिवर्तन जारी</string>
+    <string name="notify_converting_to_mp3">MP3 में परिवर्तन जारी</string>
+    <string name="notify_encrypting">कूटबद्ध किया जा रहा है</string>
+    <string name="notify_decrypting">कूटबद्ध मुक्त किया जा रहा है</string>
+    <string name="notify_waiting_for_calls">कॉल की प्रतीक्षा</string>
+    <string name="notify_tasks_remaining">%d कार्य शेष</string>
 
     <!-- Password dialog -->
     <string name="wrong_password">गलत पासवर्ड</string>
@@ -325,17 +326,17 @@
     <string name="category_encryption">कूटबद्धता</string>
     <string name="category_application">एप्लीकेशन</string>
     <string name="create_new_key">नई कूटबद्धता चाबी रची जाए</string>
-    
-    
+    <string name="create_new_key_summary">इस कूटबद्धता चाबी का इस्तेमाल कर बाद में रिकॉर्डिंग को कूटबद्ध किया जाएगा और एप (app) का प्रयोग आप कर सकेंगे</string>
+    <string name="delete_key">कूटबद्धता चाबी को मिटायें</string>
     <string name="change_password">पासवर्ड बदलें</string>
-    
-    
+    <string name="delete_key_summary">चेतावनी! यदि आप इस कूटबद्धता चाबी का प्रयोग करके रिकॉर्डिंग को कूटबद्ध करेंगे तो आप कभी भी इस से पहले कूटबद्ध की गयी रिकॉर्डिंग का इस्तेमाल नहीं कर सकेंगे, चाहे आप पुनः मौजूदा पास-वर्ड का इस्तेमाल ही क्यूँ न कर लें</string>
+    <string name="delete_key_message">मिटाने के बाद आप कभी भी इस कूटबद्धता चाबी से कूटबद्ध की गयी रिकॉर्डिंग का इस्तेमाल नहीं कर सकेंगे, आप यह जानते हुए भी आगे बढ़ना चाहते हैं?</string>
     <string name="enter_old_password">मौजूदा पासवर्ड डालें</string>
     <string name="enter_new_password">नया पासवर्ड डालें</string>
     <string name="re_enter_new_password">पुनः नया पासवर्ड डालें</string>
     <string name="require_password">पासवर्ड आवश्यक हो</string>
     <string name="require_password_summary">एप(app) के इस्तेमाल के लिए पासवर्ड आवश्यक हो</string>
-    
+    <string name="require_password_summary_no_key">इस से पहले की एप (app) के इस्तेमाल के लिए पासवर्ड आवश्यक हो-आपको पास-वर्ड बनाना पड़ेगा</string>
     <string name="lock_after">कितने समय पश्चात एप(app) स्वयं सुरक्षित (lock) हो जाए</string>
     <string name="lock_after_exit">बंद होने पर</string>
     <string name="lock_after_1_minute">1 मिनट बाद</string>
@@ -343,22 +344,22 @@
     <string name="lock_after_5_minutes">5 मिनट बाद</string>
     <string name="lock_after_10_minutes">10 मिनट बाद</string>
     <string name="app_admin">एप(app) शासक</string>
-    
-    
+    <string name="app_admin_summary">आवश्यक है ताकि Call Recorder को आपके फ़ोन से कोई मिटा न सके</string>
+    <string name="app_admin_explanation">Call Recorder केवल इसलिए एप(app) शासक है ताकि इसको आपके फ़ोन से कोई मिटा न सके</string>
     <string name="aes_128bit">128-bit AES (तेज़)</string>
     <string name="aes_192bit">192-bit AES (संतुलित)</string>
     <string name="aes_256bit">256-bit AES (मजबूत)</string>
 
     <!-- Settings -> Audio player -->
-    
+    <string name="use_built_in_player">एप(app) में ही निर्मित ध्वनि वादक का इस्तेमाल किया जाए</string>
     <string name="audio_output">ध्वनि उत्पाद</string>
-    
+    <string name="audio_output_summary">%s (ज्यादा देर तक शुरू/थामने के बटन को दबाने से यह भी बदल जाए)</string>
     <string name="main_speaker">मुख्य स्पीकर</string>
     <string name="phone_speaker">फ़ोन स्पीकर</string>
     <string name="use_proximity_sensor">proximity sensor का इस्तेमाल किया जाए</string>
-    
+    <string name="use_proximity_sensor_summary">ध्वनि वादन के दौरान proximity sensor द्वारा स्क्रीन का नियंत्रण न हो</string>
     <string name="switch_audio_output">ध्वनि उत्पाद में बदलाव</string>
-    
+    <string name="switch_audio_output_summary">ध्वनि वादन के दौरान proximity sensor द्वारा स्क्रीन का नियंत्रण होने पर खुद-ब-खुद ध्वनि उत्पाद में बदलाव हो</string>
     <string name="android_wav_decoder">WAV के लिए Android के कूटानुवादक का इस्तेमाल हो</string>
     <string name="android_wav_decoder_summary">WAV के लिए Android के ही औज़ार का इस्तेमाल हो</string>
     <string name="android_amr_decoder">AMR के लिए Android के कूटानुवादक का इस्तेमाल हो</string>
@@ -370,55 +371,55 @@
     <string name="root_access_yes">हाँ</string>
     <string name="dual_sim_phone">2 सिम वाला फ़ोन</string>
     <string name="dual_sim_phone_summary">यदि दूसरी सिम से कॉल रिकॉर्ड नहीं हो रहीं हों तो इसको इस्तेमाल करें</string>
-    
+    <string name="send_logs_to_the_developer">एप(app) निर्माता को एप(app) का लेखा-जोखा भेजें</string>
 
     <!-- General -->
     <string name="contact_unknown">अंजान</string>
-    
+    <string name="button_choose">चुनें</string>
     <string name="button_ok">ठीक है</string>
-    
-    
+    <string name="button_call">कॉल करें</string>
+    <string name="button_buy">खरीदें</string>
     <string name="button_edit">सम्पादन</string>
     <string name="button_cancel">रद्द किया जाए</string>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <string name="button_create">रचें</string>
+    <string name="button_delete">मिटायें</string>
+    <string name="button_restore">पुनः स्थापन करें</string>
+    <string name="button_keep">रखें</string>
+    <string name="button_play">शुरू करें</string>
+    <string name="button_pause">थामें</string>
+    <string name="button_delete_wait">मिटायें (%d)</string>
+    <string name="decline">नकारें</string>
+    <string name="accept">स्वीकारें</string>
+    <string name="call_incoming">आने वाली</string>
+    <string name="call_outgoing">जाने वाली</string>
     <string name="please_wait">कृपया ठहरें</string>
     <string name="start_recording">रिकॉर्डिंग शुरू करें</string>
     <string name="stop_recording">रिकॉर्डिंग रोकें</string>
-    
+    <string name="action_mode_selected">%d चुना गया</string>
     <string name="switch_on">चालु</string>
     <string name="switch_off">बंद</string>
 
     <!--Toasts-->
-    
-    
-    
-    
+    <string name="toast_wait_for_operation_to_complete">जारी कार्यवाही के पूरे होने का इन्तेजार करें</string>
+    <string name="toast_recording_is_off">रिकॉर्डिंग बंद है</string>
+    <string name="toast_recording_is_on">रिकॉर्डिंग चालु है</string>
+    <string name="toast_file_deleted">रिकॉर्डिंग को सफलतापूर्ण मिटाया गया</string>
 
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">इस कॉल को रिकॉर्ड किया जाए</string>
-    
+    <string name="open_contact">संपर्क को देखें</string>
 
     <!--After call actions dialog-->
     <string name="cloud_added">जोड़ा गया</string>
 
     <!--Notification-->
-    
-    
-    
+    <string name="waiting_for_answer">जवाब का इंतज़ार है</string>
+    <string name="recording_in_progress">रिकॉर्डिंग जारी है</string>
+    <string name="no_recording_in_progress">कोई रिकॉर्डिंग जारी नहीं है</string>
     <string name="an_error_has_occurred">किसी कारणवश यह कॉल रिकॉर्ड नहीं हो सकती</string>
 
     <!--About-->
-    
+    <string name="about_call_recorder">Call Recorder के बारे में</string>
     <string name="version">संस्करण</string>
     <string name="copyright">प्रकाशनाधिकार</string>
     <string name="copyright_summary">© %s Alexander Skvortsov (skvalex)</string>
@@ -426,11 +427,11 @@
     <string name="about_many_thanks_summary">Alexey Subbotin (avs234) का</string>
 
     <!--About -> Other-->
-    
-    
+    <string name="category_other">अन्य</string>
+    <string name="open_source_licenses">खुला स्रोत अनुज्ञा</string>
 
     <!--About -> Translators-->
-    
+    <string name="category_translators">अनुवादक</string>
     <string name="german_translation">German अनुवादन के लिए</string>
     <string name="german_translation_summary">Marc Hillesheim और Thomas Käfer को</string>
     <string name="polish_translation">Polish अनुवादन के लिए</string>
@@ -444,11 +445,11 @@
     <string name="slovak_translation">Slovak अनुवादन के लिए</string>
     <string name="slovak_translation_summary">Loránt Gerencsér का</string>
     <string name="italian_translation">Italian अनुवादन के लिए</string>
-    
+    <string name="italian_translation_summary">Luca Trevisan व Francesco Cafagna का</string>
     <string name="persian_translation">Persian अनुवादन के लिए</string>
     <string name="persian_translation_summary">Alireza Afkar का</string>
     <string name="chinese_translation">Chinese अनुवादन के लिए</string>
-    
+    <string name="chinese_translation_summary">qhq व Yu Fei का</string>
     <string name="czech_translation">Czech अनुवादन के लिए</string>
     <string name="czech_translation_summary">Ales Kerner व Lukas Waldauf का</string>
     <string name="arabic_translation">Arabic अनुवादन के लिए</string>
@@ -493,203 +494,16 @@
     <string name="punjabi_translation_summary">Raj Verma का</string>
     <string name="finnish_translation">Finnish अनुवादन के लिए</string>
     <string name="finnish_translation_summary">Eero Linnainmaa का</string>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-<string name="terms_of_use">इस्तेमाल करने की शर्तें</string>
-    <string name="terms_of_use_message">इस एप (app) का इस्तेमाल करके आप कॉल रिकॉर्डर की &lt;a href=http://rec.sh/terms&gt;शर्तों&lt;/a&gt; को स्वीकार करते हैं</string>
-
-    <string name="navigation_drawer_open">समायोजन पट्टी खोलें</string>
-    <string name="navigation_drawer_close">समायोजन पट्टी बंद करें</string>
-
-    <string name="section_all_recordings">सारी रिकॉर्डिंग</string>
-    <string name="section_starred">पसंदीदा</string>
-    <string name="section_by_contact">व्यक्ति के नाम से</string>
-    <string name="section_by_format">प्रारूप से</string>
-    <string name="section_by_label">label से</string>
-    <string name="section_tasks_hint">प्रारूप बदलने, कूटबद्ध करने या क्लाउड में अपलोड करने जैसे कार्य जो ज्यादा वक़्त लेते हैं, वह यहाँ दिखाए जायेंगे</string>
-    <string name="action_sort">श्रेणी के अनुसार लगाएं</string>
-    <string name="action_refresh">ताज़ा (Refresh)</string>
-    <string name="action_delete">मिटायें</string>
-    <string name="action_add_star">पसंदीदी बनाएं</string>
-    <string name="action_remove_star">पसंदीदा की श्रेणी से हटायें</string>
-    <string name="action_share">बाँटें</string>
-    <string name="action_cancel_tasks">सब ही कार्य रोकें</string>
-    <string name="sort_by_date">तारीख से</string>
-    <string name="sort_by_contact">व्यक्ति से</string>
-    <string name="sort_by_file_size">आकार के अनुसार</string>
-    <string name="space_free_of">%1$s में से %2$s शेष</string>
-
-    <string name="records_size">अभिलेख: %1$s, आकार: %2$s</string>
-    <string name="restore_settings">समायोजन बहान करें</string>
-
-    <string name="list_header_today">आज</string>
-    <string name="list_header_yesterday">बीता हुआ कल</string>
-    <string name="queued">पंक्तिबद्ध</string>
-    <string name="no_connection">इन्टरनेट नहीं है</string>
-
-    <string name="menu_add_note">टिप्पणी जोडें</string>
-    <string name="menu_edit_note">टिप्पणी सम्पादन करें</string>
-    <string name="menu_share">बाँटें</string>
-    <string name="menu_convert_to_mp3">MP3 में परिवर्तित करें</string>
-    <string name="menu_convert_to_amr">AMR में परिवर्तित करें</string>
-    <string name="menu_cancel_task">कार्य रोकें</string>
-    <string name="recording_type">रिकॉर्डिंग ढंग</string>
-    <string name="note">टिप्पणी</string>
-
-    <string name="confirm_delete_several_title">पुष्टि करी</string>
-    <string name="confirm_delete_several_message">आपने %d रिकॉर्डिंग चुनी हैं, इन सबको मिटा दिया जाए?</string>
-
-    <string name="share_via">बाँटें</string>
-    <string name="settings_open_unlocker">Call Recorder Unlocker खोलें</string>
-    <string name="settings_cloud">क्लाउड</string>
-    <string name="license_check_pending">अनुज्ञा-जाँच शेष</string>
-    <string name="license_check_failed">अनुज्ञा-जाँच असफल</string>
-    <string name="license_check_failed_summary">अधिक जानकारी के लिए यहाँ छुएं</string>
-    <string name="license_verified">अनुज्ञा-जाँच सफल</string>
-    <string name="license_verified_summary">छुपाने के लिए छुएं</string>
-    <string name="license_help">सहायता</string>
-    <string name="license_signature_verification_failed">अनुज्ञा-जाँच असफल</string>
-    <string name="license_error_message">त्रुटी #%1$s: %2$s</string>
-    <string name="license_unknown_error">अनजान त्रुटी</string>
-    <string name="delay_before_start_recording_summary">आने वाली कॉल के लिए: %1$s, जाने वाली कॉल के लिए: %2$s</string>
-    <string name="delay_format_sec">%s सेकेंड</string>
-    <string name="delay_for_outgoing">जाने वाली कॉल के लिए</string>
-    <string name="delay_for_incoming">आने वाली कॉल के लिए</string>
-    <string name="settings_for_device">%s के लिए समायोजन</string>
-    <string name="recording_format">रिकॉर्डिंग का प्रारूप</string>
-    <string name="volume_control_summary">"संचार: %1$s,  ग्रहण: %2$s"</string>
-    <string name="volume_control_overall">कुल आवाज़</string>
-    <string name="volume_control_tx">संचार</string>
-    <string name="volume_control_rx">ग्रहण</string>
-    <string name="category_wav_and_mp3_settings">WAV &amp; MP3 समायोजन</string>
-    <string name="alsa_is_not_installed">ALSA स्थापित होना आवश्यक</string>
-    <string name="alsa_is_not_installed_summary">ALSA को स्थापित करने हेतु यहाँ छुएँ</string>
-
-    <string name="add_exception">अपवाद जोडें</string>
-    <string name="exception_groups">%d समूह</string>
-    <string name="exception_contact">संपर्क</string>
-    <string name="exception_select_contact">संपर्क चुनें</string>
-    <string name="exceptions_summary">संपर्कों, समूहों व् फोन नम्बरों के लिए ख़ास क्रिया निर्धारित करें</string>
-    <string name="start_recording_on_answer">कॉल उठाने पर रिकॉर्डिंग शुरू हो जाए</string>
-    <string name="license_error_contacting_server">Server से संपर्क स्थापित न हो सका</string>
-    <string name="license_server_error">Server की और से गलती</string>
-    <string name="license_incorrect_response">Play Store से अनुज्ञा जाँच त्रुटिपूर्ण</string>
-    <string name="license_not_market_managed">यह रूपांतर अभी तक Play Store पर प्रकाशित नहीं हुआ है</string>
-    <string name="exception_by_group">समूह से</string>
-    <string name="exception_by_contact">संपर्क से</string>
-    <string name="exceptions_not_added">अपवाद नहीं जोड़ा गया</string>
-    <string name="exception_contacts_not_found">संपर्क नहीं मिले</string>
-    <string name="exception_groups_not_found">समूह नहीं मिले</string>
-    <string name="exception_phone_number">फ़ोन नंबर</string>
-    <string name="exception_action">क्रिया</string>
-    <string name="exception_by_phone_number">फ़ोन नंबर से</string>
-    <string name="exception_delete_message">आप यकीनन इस अपवाद को मिटाना चाहते हैं?</string>
-
-    <string name="folder_chooser_up_to">↑ ऊपर %s</string>
-    <string name="create_new_folder">नया फोल्डर निर्मित करें</string>
-    <string name="dialog_title_new_folder">नया फोल्डर</string>
-    <string name="current_setting">मौजूदा समायोजन</string>
-    <string name="settings_filename">फाइल का नाम</string>
-    <string name="pattern_call_timestamp">कॉल की अवधि (unix time)</string>
-    <string name="default_language">मौलिक भाषा</string>
-    <string name="show_notification_summary">Status bar में स्थायी अधिसूचना रहे</string>
-    <string name="hide_icon_but_keep_notification">Icon छिपायें परन्तु अधिसूचना रहे</string>
-    <string name="hide_icon_but_keep_notification_summary">Icon छिपायें परन्तु status bar में अधिसूचना रहे</string>
-    <string name="category_incall_control_button">कॉल के दौरान बटन दिखे</string>
-    <string name="incall_control_for_outgoing_summary">जाने वाली कॉल के दौरान बटन दिखे</string>
-    <string name="incall_control_for_incoming_summary">आने वाली कॉल के दौरान बटन दिखे</string>
-    <string name="hide_button_while_recording">रिकॉर्डिंग के समय बटन छिप जाए</string>
-    <string name="hide_button_while_recording_summary">कॉल रिकॉर्डिंग के समय नियंत्रण बटन छिप जाए</string>
-    <string name="vertical_position_summary">%s dp, स्क्रीन के मध्य से हट कर</string>
-    <string name="horizontal_position_summary">%s dp, स्क्रीन के मध्य से हट कर</string>
-    <string name="hide_button_before_answer">कॉल उठाने से पहले बटन न दिखे</string>
-    <string name="long_press_action">देर तक दबाने पर क्या हो</string>
-    <string name="long_press_action_dragging_the_button">बटन सरकाया जाए</string>
-    <string name="long_press_action_hang_up">कॉल को काट-तुरंत वापिस कॉल की जाए</string>
-    <string name="hide_starred_recordings">पसंदीदा रिकॉर्डिंग को छिपायें</string>
-    <string name="hide_starred_recordings_summary">सभी रिकॉर्डिंग के साथ पसंदीदा रिकॉर्डिंग न दिखाई जायें</string>
-
-    <string name="cloud_provider">Cloud सेवा</string>
-    <string name="sign_in_dropbox">Dropbox में लोग-इन करें</string>
-    <string name="sign_out_dropbox">Dropbox से लोग-आउट करें</string>
-    <string name="cloud_provider_google_drive">Google Drive</string>
-    <string name="cloud_common_settings">समान</string>
-    <string name="cloud_upload_starred">पसंदीदा ही उप-लोड़ हों</string>
-    <string name="cloud_upload_starred_summary">पसंदीदा घोषित होने पर रिकॉर्डिंग को उप-लोड़ किया जाए</string>
-
-    <string name="notify_uploading_dropbox">Dropbox में उप-लोड़ हो रहा है</string>
-    <string name="notify_converting_to_amr">AMR में परिवर्तन जारी</string>
-    <string name="notify_converting_to_mp3">MP3 में परिवर्तन जारी</string>
-    <string name="notify_encrypting">कूटबद्ध किया जा रहा है</string>
-    <string name="notify_decrypting">कूटबद्ध मुक्त किया जा रहा है</string>
-    <string name="notify_waiting_for_calls">कॉल की प्रतीक्षा</string>
-    <string name="notify_tasks_remaining">%d कार्य शेष</string>
-
-    <string name="create_new_key_summary">इस कूटबद्धता चाबी का इस्तेमाल कर बाद में रिकॉर्डिंग को कूटबद्ध किया जाएगा और एप (app) का प्रयोग आप कर सकेंगे</string>
-    <string name="delete_key">कूटबद्धता चाबी को मिटायें</string>
-    <string name="delete_key_summary">चेतावनी! यदि आप इस कूटबद्धता चाबी का प्रयोग करके रिकॉर्डिंग को कूटबद्ध करेंगे तो आप कभी भी इस से पहले कूटबद्ध की गयी रिकॉर्डिंग का इस्तेमाल नहीं कर सकेंगे, चाहे आप पुनः मौजूदा पास-वर्ड का इस्तेमाल ही क्यूँ न कर लें</string>
-    <string name="delete_key_message">मिटाने के बाद आप कभी भी इस कूटबद्धता चाबी से कूटबद्ध की गयी रिकॉर्डिंग का इस्तेमाल नहीं कर सकेंगे, आप यह जानते हुए भी आगे बढ़ना चाहते हैं?</string>
-    <string name="require_password_summary_no_key">इस से पहले की एप (app) के इस्तेमाल के लिए पासवर्ड आवश्यक हो-आपको पास-वर्ड बनाना पड़ेगा</string>
-    <string name="app_admin_summary">आवश्यक है ताकि Call Recorder को आपके फ़ोन से कोई मिटा न सके</string>
-    <string name="app_admin_explanation">Call Recorder केवल इसलिए एप(app) शासक है ताकि इसको आपके फ़ोन से कोई मिटा न सके</string>
-    <string name="use_built_in_player">एप(app) में ही निर्मित ध्वनि वादक का इस्तेमाल किया जाए</string>
-    <string name="audio_output_summary">%s (ज्यादा देर तक शुरू/थामने के बटन को दबाने से यह भी बदल जाए)</string>
-    <string name="use_proximity_sensor_summary">ध्वनि वादन के दौरान proximity sensor द्वारा स्क्रीन का नियंत्रण न हो</string>
-    <string name="switch_audio_output_summary">ध्वनि वादन के दौरान proximity sensor द्वारा स्क्रीन का नियंत्रण होने पर खुद-ब-खुद ध्वनि उत्पाद में बदलाव हो</string>
-    <string name="send_logs_to_the_developer">एप(app) निर्माता को एप(app) का लेखा-जोखा भेजें</string>
-
-    <string name="button_call">कॉल करें</string>
-    <string name="button_choose">चुनें</string>
-    <string name="button_buy">खरीदें</string>
-    <string name="button_create">रचें</string>
-    <string name="button_delete">मिटायें</string>
-    <string name="button_restore">पुनः स्थापन करें</string>
-    <string name="button_keep">रखें</string>
-    <string name="button_play">शुरू करें</string>
-    <string name="button_pause">थामें</string>
-    <string name="button_delete_wait">मिटायें (%d)</string>
-    <string name="accept">स्वीकारें</string>
-    <string name="decline">नकारें</string>
-    <string name="call_incoming">आने वाली</string>
-    <string name="call_outgoing">जाने वाली</string>
-    <string name="action_mode_selected">%d चुना गया</string>
-    <string name="toast_wait_for_operation_to_complete">जारी कार्यवाही के पूरे होने का इन्तेजार करें</string>
-    <string name="toast_recording_is_off">रिकॉर्डिंग बंद है</string>
-    <string name="toast_recording_is_on">रिकॉर्डिंग चालु है</string>
-    <string name="toast_file_deleted">रिकॉर्डिंग को सफलतापूर्ण मिटाया गया</string>
-
-    <string name="open_contact">संपर्क को देखें</string>
-
-    <string name="waiting_for_answer">जवाब का इंतज़ार है</string>
-    <string name="recording_in_progress">रिकॉर्डिंग जारी है</string>
-    <string name="no_recording_in_progress">कोई रिकॉर्डिंग जारी नहीं है</string>
-    <string name="about_call_recorder">Call Recorder के बारे में</string>
-    <string name="category_other">अन्य</string>
-    <string name="open_source_licenses">खुला स्रोत अनुज्ञा</string>
-
-    <string name="category_translators">अनुवादक</string>
-    <string name="italian_translation_summary">Luca Trevisan व Francesco Cafagna का</string>
-    <string name="chinese_translation_summary">qhq व Yu Fei का</string>
     <string name="belarusian_translation">Belarusian अनुवादन के लिए</string>
     <string name="belarusian_translation_summary">Alexander Kuvshinov का</string>
     <string name="vietnamese_translation">Vietnamese अनुवादन के लिए</string>
+    <string name="vietnamese_translation_summary">Truong Hoang Trung का</string>
     <string name="armenian_translation">Armenian अनुवादन के लिए</string>
+    <string name="armenian_translation_summary">Hakob Sununu व् Konstantin Gevorgyan का</string>
     <string name="gujarati_translation">Gujarati अनुवादन के लिए</string>
+    <string name="gujarati_translation_summary">Abhishek Sharma का</string>
     <string name="tamil_translation">Tamil अनुवादन के लिए</string>
+    <string name="tamil_translation_summary">Ashish Sharma का</string>
     <string name="greek_translation">Greek अनुवादन के लिए</string>
     <string name="greek_translation_summary">Lefteris (SomniusX) Eliades का</string>
-<string name="tamil_translation_summary">Ashish Sharma का</string>
-    <string name="gujarati_translation_summary">Abhishek Sharma का</string>
-    <string name="armenian_translation_summary">Hakob Sununu व् Konstantin Gevorgyan का</string>
-    <string name="vietnamese_translation_summary">Truong Hoang Trung का</string>
-    </resources>
+</resources>

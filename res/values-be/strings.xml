@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Call Recorder</string>
     <string name="terms_of_use">Умовы выкарыстання</string>
@@ -39,13 +39,14 @@
     <string name="space_free_of">%1$s з %2$s</string>
 
     <!--Import settings -->
-    
+    <string name="restore_settings">Аднавіць налады</string>
 
     <!-- List -->
     <string name="list_header_today">Сёння</string>
     <string name="list_header_yesterday">Учора</string>
     <string name="queued">У чэргі</string>
     <string name="no_connection">Няма злучэння</string>
+    <string name="add_to_contacts">Дадаць у кантакты</string>
 
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">Дадаць на Dropbox</string>
@@ -215,7 +216,7 @@
     <!-- Settings -> Recording -> Exceptions -->
     <string name="add_exception">Дадаць выключэнне</string>
     <string name="exception_group">Група</string>
-    
+    <string name="exception_groups">%d групы</string>
     <string name="exception_select_group">Абярыце групу</string>
     <string name="exception_contact">Кантакт</string>
     <string name="exception_select_contact">Абярыце кантакт</string>
@@ -235,8 +236,8 @@
     <!-- Settings -> Folders and Files -->
     <string name="folder">Тэчка</string>
     <string name="folder_chooser_up_to">↑ Наверх да %s</string>
-    
-    
+    <string name="create_new_folder">Стварыць новую тэчку…</string>
+    <string name="dialog_title_new_folder">Новая тэчка</string>
     <string name="automatic_cleanup">Аўтавыдаленне запісаў</string>
     <string name="max_number_of_files">Макс. лік файлаў</string>
     <string name="max_number_of_files_message">Увядзіце лік (0 - без абмежаванняў)</string>
@@ -291,8 +292,8 @@
     <string name="long_press_action_dragging_the_button">Перацягванне кнопкі</string>
     <string name="long_press_action_hang_up">Завяршыць выклік і ператэлефанаваць аўтаматычна</string>
     <string name="category_main_screen">Асноўны экран</string>
-    
-    
+    <string name="hide_starred_recordings">Схаваць пазначаныя запісы</string>
+    <string name="hide_starred_recordings_summary">Не паказваць пазначаныя запісы на экране з усімі запісамі</string>
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">Правайдар воблака</string>
@@ -382,7 +383,7 @@
     <string name="button_cancel">Адмена</string>
     <string name="button_create">Стварыць</string>
     <string name="button_delete">Выдаліць</string>
-    
+    <string name="button_restore">Аднавіць</string>
     <string name="button_keep">Захаваць</string>
     <string name="button_play">Прайграць</string>
     <string name="button_pause">Паўза</string>
@@ -426,11 +427,11 @@
     <string name="about_many_thanks_summary">Аляксею Субоціну (avs234)</string>
 
     <!--About -> Other-->
-    
-    
+    <string name="category_other">Іншае</string>
+    <string name="open_source_licenses">Open source ліцэнзіі</string>
 
     <!--About -> Translators-->
-    
+    <string name="category_translators">Перакладнікі</string>
     <string name="german_translation">Пераклад на нямецкі</string>
     <string name="german_translation_summary">ад Marc Hillesheim і Thomas Kafer</string>
     <string name="polish_translation">Пераклад на польскі</string>
@@ -505,17 +506,4 @@
     <string name="tamil_translation_summary">ад Ashish Sharma</string>
     <string name="greek_translation">Пераклад на грэцкі</string>
     <string name="greek_translation_summary">ад Lefteris (SomniusX) Eliades</string>
-<string name="restore_settings">Аднавіць налады</string>
-
-    <string name="exception_groups">%d групы</string>
-    <string name="create_new_folder">Стварыць новую тэчку…</string>
-    <string name="dialog_title_new_folder">Новая тэчка</string>
-    <string name="hide_starred_recordings">Схаваць пазначаныя запісы</string>
-    <string name="hide_starred_recordings_summary">Не паказваць пазначаныя запісы на экране з усімі запісамі</string>
-
-    <string name="button_restore">Аднавіць</string>
-    <string name="category_other">Іншае</string>
-    <string name="open_source_licenses">Open source ліцэнзіі</string>
-
-    <string name="category_translators">Перакладнікі</string>
-    </resources>
+</resources>

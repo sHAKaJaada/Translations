@@ -46,6 +46,7 @@
     <string name="list_header_yesterday">เมื่อวาน</string>
     <string name="queued">ลำดับ</string>
     <string name="no_connection">ไม่มีการเชื่อมต่อ</string>
+    <string name="add_to_contacts">เพิ่มไปยังรายชื่อติดต่อ</string>
 
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">เพิ่มไปยังดรอพบ็อกซ์</string>

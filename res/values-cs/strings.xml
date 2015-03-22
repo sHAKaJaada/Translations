@@ -1,62 +1,63 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CallRecorder</string>
-    
-    
+    <string name="terms_of_use">Podmínky používání</string>
+    <string name="terms_of_use_message">Používáním aplikace souhlasíte s &lt;a href=http://rec.sh/terms&gt;Podmínkami používání&lt;/a&gt; CallRecorderu.</string>
 
     <!-- Navigation drawer -->
-    
-    
+    <string name="navigation_drawer_open">Otevřít navigační box</string>
+    <string name="navigation_drawer_close">Zavřít navigační box</string>
 
     <!-- Navigation drawer sections -->
-    
-    
+    <string name="section_all_recordings">Všechny nahrávky</string>
+    <string name="section_starred">Oblíbené</string>
     <string name="section_incoming">Příchozí</string>
     <string name="section_outgoing">Odchozí</string>
-    
-    
-    
+    <string name="section_by_contact">Podle kontaktů</string>
+    <string name="section_by_format">Podle formátu</string>
+    <string name="section_by_label">Podle názvu</string>
     <string name="section_help">Nápověda</string>
     <string name="section_tasks">Úkoly</string>
-    
+    <string name="section_tasks_hint">Časově náročné úkoly s nahrávkami jako je konverze, šifrování nebo nahrávání do Cloud se bude zobrazovat zde</string>
     <string name="empty_hint">Žádné nahrávky</string>
 
     <!-- Action bar -->
     <string name="action_search">Hledat</string>
-    
+    <string name="action_sort">Třídit</string>
     <string name="action_settings">Nastavení</string>
-    
-    
-    
-    
-    
-    
+    <string name="action_refresh">Obnovit</string>
+    <string name="action_delete">Smazat</string>
+    <string name="action_add_star">Přidat hvězdičku</string>
+    <string name="action_remove_star">Odebrat hvězdičku</string>
+    <string name="action_share">Sdílet</string>
+    <string name="action_cancel_tasks">Přerušit úkoly</string>
     <string name="action_select_all">Vybrat vše</string>
-    
-    
-    
-    
-    
+    <string name="sort_by_date">Podle data</string>
+    <string name="sort_by_contact">Podle kontaktů</string>
+    <string name="sort_by_file_size">Podle velikosti souboru</string>
+    <string name="records_size">nahrávek: %1$s, velikost: %2$s</string>
+    <string name="space_free_of">%1$s volných z %2$s</string>
 
     <!--Import settings -->
-    
+    <string name="restore_settings">Obnovit nastavení</string>
 
     <!-- List -->
-    
-    
-    
-    
+    <string name="list_header_today">Dnes</string>
+    <string name="list_header_yesterday">Včera</string>
+    <string name="queued">Ve frontě</string>
+    <string name="no_connection">Žádné spojení</string>
+    <string name="add_to_contacts">Přidat do kontaktů</string>
 
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">Přidat do Dropboxu</string>
-    
-    
+    <string name="menu_add_note">Přidat poznámku</string>
+    <string name="menu_edit_note">Editovat poznámku</string>
     <string name="menu_delete">Vymazat</string>
-    
-    
-    
+    <string name="menu_share">Sdílet</string>
+    <string name="menu_convert_to_mp3">Konvertovat do MP3</string>
+    <string name="menu_convert_to_amr">Konvertovat do AMR</string>
     <string name="menu_get_info">Zobrazit informace</string>
-    
+    <string name="menu_cancel_task">Přerušit úkol</string>
     <string name="menu_encrypt">Kódovat</string>
     <string name="menu_decrypt">Dekódovat</string>
 
@@ -64,7 +65,7 @@
     <string name="file_name">Jméno souboru</string>
     <string name="sample_rate">Vzorkovací frekvence</string>
     <string name="sample_rate_hz">Hz</string>
-    
+    <string name="recording_type">Typ nahrávání</string>
     <string name="recording_type_mono">Mono</string>
     <string name="recording_type_stereo">Stereo</string>
     <string name="file_size">Velikost souboru</string>
@@ -73,7 +74,7 @@
     <string name="megabyte">MB</string>
     <string name="kilobyte">kB</string>
     <string name="bytes">bajtů</string>
-    
+    <string name="note">Poznámka</string>
 
     <!-- List -> Get info dialog -> Edit -->
     <string name="contact_name">Jméno kontaktu</string>
@@ -81,43 +82,43 @@
 
     <!-- List -> Confirm delete dialog -->
     <string name="confirm_delete_message">Opravdu chceš vymazat tuto nahrávku?</string>
-    
-    
+    <string name="confirm_delete_several_title">Potvrď smazání</string>
+    <string name="confirm_delete_several_message">Vybral jsi %d nahrávek. Opravdu je chceš vymazat?</string>
 
     <!-- List -> Share -->
-    
+    <string name="share_via">Sdílet na</string>
     <string name="recorded_calls">Nahrané hovory</string>
 
     <!--  Settings -> Headers -->
-    
+    <string name="settings_open_unlocker">Otevřít Unlocker</string>
     <string name="settings_recording">Nahrávání</string>
     <string name="settings_folders_and_files">Soubory a složky</string>
     <string name="settings_ui_and_appearance">Rozhraní a vzhled</string>
     <string name="settings_security">Bezpečnost</string>
-    
+    <string name="settings_cloud">Cloud</string>
     <string name="settings_audio_player">Přehrávač zvuků</string>
     <string name="settings_debug">Debug</string>
     <string name="settings_about">O programu</string>
 
     <!-- Settings -> License -->
     <string name="license_status">Stav licence</string>
-    
-    
-    
-    
-    
-    
-    
-    
+    <string name="license_check_pending">Čekám na kontrolu licence</string>
+    <string name="license_check_failed">Ověření licence selhalo</string>
+    <string name="license_check_failed_summary">Tapni sem pro podrobnosti</string>
+    <string name="license_verified">Licence ověřena</string>
+    <string name="license_verified_summary">Tapni pro skrytí</string>
+    <string name="license_help">Nápověda</string>
+    <string name="license_signature_verification_failed">Ověření podpisu selhalo</string>
+    <string name="license_error_message">Chyba #%1$s: %2$s</string>
     <string name="license_trial">Zkušební verze vyprší %s</string>
-    
-    
-    
-    
-    
-    
-    
-    
+    <string name="license_unknown_error">Neznámá chyba</string>
+    <string name="license_not_market_managed">Tato verze zatím nebyla zveřejněna v obchodu Play</string>
+    <string name="license_incorrect_response">Obchod Play hlásí nesprávná licence</string>
+    <string name="license_error_contacting_server">Chyba spojení se serverem</string>
+    <string name="license_server_error">Chyba serveru</string>
+    <string name="license_over_quota">Příliš mnoho požadavků z tohoto zařízení</string>
+    <string name="license_trial_expired">Zkušební doba uplynula</string>
+    <string name="license_trial_expired_summary">Prosím, před zakoupením plné verze odinstaluj tuto verzi</string>
     <string name="buy_full_version">Koupit plnou verzi</string>
     <string name="buy_full_version_summary">Tato verze vyprší %s</string>
 
@@ -126,9 +127,9 @@
     <string name="category_main">Hlavní</string>
     <string name="device">Zařízení</string>
     <string name="select_your_device">Vybrat zařízení</string>
-    
-    
-    
+    <string name="device_change_settings_empty">Nastavení tohoto zařízení již bylo nastaveno</string>
+    <string name="device_root_is_required">Je nutný root</string>
+    <string name="device_root_is_required_summary">K dosažení lepší kvality je zapotřebí root</string>
     <string name="device_other">Jiné</string>
     <string name="recording_method">Nahrávací metoda</string>
     <string name="recording_method_api">Standartní API</string>
@@ -137,8 +138,8 @@
     <string name="recording_method_caf_settings">Nastavení nahrávání CAF</string>
     <string name="recording_method_alsa">ALSA</string>
     <string name="recording_method_alsa_settings">Nastavení nahrávání ALSA</string>
-    
-    
+    <string name="recording_method_msm">MSM</string>
+    <string name="recording_method_msm_settings">Nastavení nahrávání MSM</string>
     <string name="category_actions">Akce</string>
     <string name="action_for_incoming">Akce pro příchozí hovory</string>
     <string name="action_for_outgoing">Akce pro odchozí hovory</string>
@@ -152,25 +153,25 @@
     <string name="after_call_actions_dialog_summary">Zeptat se, co dělat, po skončení hovoru</string>
     <string name="vibrate_on_call">Vibrovat na zač./konci hovoru</string>
     <string name="exceptions">Výjimky</string>
-    
-    
-    
+    <string name="exceptions_summary">Nastav akce pro kontakty, skupiny nebo telefonní čísla</string>
+    <string name="start_recording_on_answer">Začít nahrávání při odpovědi</string>
+    <string name="start_recording_on_answer_summary">Začít nahrávání odchozího hovoru jakmile je přijat. Aplikace používá nezdokumentované prostředky pro zjištění momentu kdy druhá strana přijme hovor proto tato vlastnost může na některých zařízeních selhat. Od Androidu 4.1 Jelly Bean je požadován root. V kernelu musí být povoleno logování.</string>
     <string name="delay_before_start_recording">Odložení začátku nahrávání</string>
-    
-    
-    
-    
-    
-    
+    <string name="delay_before_start_recording_summary">Pro odchozí: %1$s, pro příchozí: %2$s</string>
+    <string name="delay_format_sec">%s s</string>
+    <string name="delay_for_outgoing">Pro odchozí</string>
+    <string name="delay_for_incoming">Pro příchozí</string>
+    <string name="settings_for_device">Nastavení pro %s</string>
+    <string name="recording_format">Formát nahrávání</string>
     <string name="recording_format_wav">WAV</string>
     <string name="recording_format_amr">AMR</string>
     <string name="recording_format_aac">AAC</string>
     <string name="recording_format_mp3">MP3</string>
     <string name="volume_control">Ovládání hlasitosti</string>
-    
-    
-    
-    
+    <string name="volume_control_summary">Tx: %1$s, Rx: %2$s</string>
+    <string name="volume_control_overall">Celková hlasitost</string>
+    <string name="volume_control_tx">Tx</string>
+    <string name="volume_control_rx">Rx</string>
     <string name="sample_rate_8000">8000 Hz (výchozí)</string>
     <string name="sample_rate_11025">11025 Hz</string>
     <string name="sample_rate_16000">16000 Hz</string>
@@ -187,7 +188,7 @@
     <string name="api_source_default">Výchozí</string>
     <string name="api_source_voice_communication">Hlasová komunikace</string>
     <string name="category_wav_settings">Nastavení WAV</string>
-    
+    <string name="category_wav_and_mp3_settings">Nastavení WAV a MP3</string>
     <string name="when_bt_connected">Když je připojen BT…</string>
     <string name="audio_source_when_bt_connected">Zdroj zvuku pokud je BT připojen</string>
 
@@ -200,8 +201,8 @@
     <string name="recording_mode">Mód nahrávání</string>
 
     <!-- Settings -> Recording -> ALSA -->
-    
-    
+    <string name="alsa_is_not_installed">Musí být nainstalována ALSA</string>
+    <string name="alsa_is_not_installed_summary">Tapni sem pro instalaci ALSA</string>
 
     <!-- Settings -> Recording -> MSM -->
     <string name="chipset_type">Typ čipu</string>
@@ -213,30 +214,30 @@
     <string name="dont_use_amr_driver_summary">Raději převést WAV do AMR v reálném čase</string>
 
     <!-- Settings -> Recording -> Exceptions -->
-    
+    <string name="add_exception">Přidat vyjímku</string>
     <string name="exception_group">Skupina</string>
-    
+    <string name="exception_groups">%d skupin</string>
     <string name="exception_select_group">Vybrat skupinu</string>
-    
-    
-    
-    
+    <string name="exception_contact">Kontakt</string>
+    <string name="exception_select_contact">Vyber kontakt</string>
+    <string name="exception_phone_number">Telefonní číslo</string>
+    <string name="exception_action">Akce</string>
     <string name="exception_select_action">Vybrat akci</string>
     <string name="exception_action_always_record">Nahrát vždy</string>
     <string name="exception_action_never_record">Nenahrát nikdy</string>
-    
-    
-    
-    
-    
-    
-    
+    <string name="exception_groups_not_found">Skupina nenalezena</string>
+    <string name="exception_contacts_not_found">Kontakt nenalezen</string>
+    <string name="exceptions_not_added">Výjimka nepřidána</string>
+    <string name="exception_by_contact">Podle kontaktů</string>
+    <string name="exception_by_group">Podle skupin</string>
+    <string name="exception_by_phone_number">Podle telefonních čísel</string>
+    <string name="exception_delete_message">Opravdu chceš smazat tuto výjimku?</string>
 
     <!-- Settings -> Folders and Files -->
     <string name="folder">Složka</string>
-    
-    
-    
+    <string name="folder_chooser_up_to">↑ až k %s</string>
+    <string name="create_new_folder">Vytvořit novou složku…</string>
+    <string name="dialog_title_new_folder">Nová složka</string>
     <string name="automatic_cleanup">Automatické mazání</string>
     <string name="max_number_of_files">Max. počet souborů</string>
     <string name="max_number_of_files_message">Zadej číslo (0 - bez limitu)</string>
@@ -245,7 +246,7 @@
     <string name="max_age_of_recordings">Max. doba uložení nahrávek</string>
     <string name="max_age_of_recordings_message">Zadej počet dnů (0 - bez limitu)</string>
     <string name="current_setting">Aktuální nastavení: %s</string>
-    
+    <string name="settings_filename">Jméno souboru</string>
     <string name="filename_pattern">Šablona</string>
     <string name="time_pattern">Šablona času</string>
 
@@ -253,7 +254,7 @@
     <string name="pattern_contact_name">jméno kontaktu</string>
     <string name="pattern_phone_number">telefonní číslo</string>
     <string name="pattern_call_time">čas hovoru</string>
-    
+    <string name="pattern_call_timestamp">časové razítko hovoru (unixový čas)</string>
     <string name="pattern_call_type">typ hovoru (příchozí nebo odchozí)</string>
     <string name="time_pattern_hours">hodina</string>
     <string name="time_pattern_minutes">minuta</string>
@@ -266,55 +267,55 @@
     <!--Settings -> Interface and Appearance-->
     <string name="language">Jazyk</string>
     <string name="select_language">Vybrat jazyk</string>
-    
+    <string name="default_language">Výchozí jazyk</string>
     <string name="category_notification">Oznámení</string>
     <string name="show_notification">Zobrazit oznámení</string>
-    
-    
-    
-    
+    <string name="show_notification_summary">Trvalé oznámení ve stavové řádce</string>
+    <string name="hide_icon_but_keep_notification">Schovat ikonu, ale zachovat oznámení</string>
+    <string name="hide_icon_but_keep_notification_summary">Schovat ikonu, ale zachovat oznámení ve stavové řádce</string>
+    <string name="category_incall_control_button">Ovládací tlačítko hovoru</string>
     <string name="incall_control_for_outgoing">Pro odchozí hovory</string>
-    
+    <string name="incall_control_for_outgoing_summary">Zobrazit ovládací tlačítko během odchozích hovorů</string>
     <string name="incall_control_for_incoming">Pro příchozí hovory</string>
-    
-    
-    
+    <string name="incall_control_for_incoming_summary">Zobrazit ovládací tlačítko během příchozích hovorů</string>
+    <string name="hide_button_while_recording">Při nahrávání schovat tlačítko</string>
+    <string name="hide_button_while_recording_summary">Schovat ovládací tlačítko pokud započne nahrávání hovoru</string>
     <string name="show_button_while_ringing">Zobrazit tlačítko při vyzvánění</string>
     <string name="show_button_while_ringing_summary">Zobrazí ovládací tlačítko při vyzvánění dokud nepřijmeš hovor</string>
     <string name="vertical_position">Vertikální pozice</string>
-    
+    <string name="vertical_position_summary">%s dp, odsazení od středu obrazovky</string>
     <string name="horizontal_position">Horizontální pozice</string>
-    
-    
+    <string name="horizontal_position_summary">%s dp, odsazení od středu obrazovky</string>
+    <string name="hide_button_before_answer">Skrýt tlačítko před odpovědí</string>
     <string name="hide_button_before_answer_summary">Pokud není navázáno spojení nezobrazovat oládací tlačítko</string>
-    
-    
-    
+    <string name="long_press_action">Akce pro dlouhé tapnutí</string>
+    <string name="long_press_action_dragging_the_button">Táhnutí tlačítka</string>
+    <string name="long_press_action_hang_up">Zavěsit hovor a automaticky volat zpět</string>
     <string name="category_main_screen">Hlavní obrazovka</string>
-    
-    
+    <string name="hide_starred_recordings">Skrýt oblíbené nahrávky</string>
+    <string name="hide_starred_recordings_summary">Nezobrazovat oblíbené nahrávky při zobrazení všech nahrávek</string>
 
     <!-- Settings -> Cloud -->
-    
+    <string name="cloud_provider">Poskytovatel cloudu</string>
     <string name="cloud_provider_dropbox">Dropbox</string>
-    
-    
-    
-    
+    <string name="sign_in_dropbox">Přihlásit do Dropboxu</string>
+    <string name="sign_out_dropbox">Odhlásit z Dropboxu</string>
+    <string name="cloud_provider_google_drive">Google Drive</string>
+    <string name="cloud_common_settings">Společný</string>
     <string name="cloud_wifi_only">Pouze Wi-Fi</string>
     <string name="cloud_auto_upload">Automatický upload</string>
     <string name="cloud_auto_upload_summary">Uploadovat nahrávku ihned po hovoru</string>
-    
-    
+    <string name="cloud_upload_starred">Upload započal</string>
+    <string name="cloud_upload_starred_summary">Uploadovat nahrávky do cloudu pokud jim přidáš hvězdičku</string>
 
     <!-- Notification -->
-    
-    
-    
-    
-    
-    
-    
+    <string name="notify_uploading_dropbox">Nahrávám do Dropboxu</string>
+    <string name="notify_converting_to_amr">Konvertuji do ARM</string>
+    <string name="notify_converting_to_mp3">Konvertuji do MP3</string>
+    <string name="notify_encrypting">Šifruji</string>
+    <string name="notify_decrypting">Dešifruji</string>
+    <string name="notify_waiting_for_calls">Čekání na hovory</string>
+    <string name="notify_tasks_remaining">Zbývá %d úkolů</string>
 
     <!-- Password dialog -->
     <string name="wrong_password">Špatné heslo</string>
@@ -325,17 +326,17 @@
     <string name="category_encryption">Šifrování</string>
     <string name="category_application">Aplikovat na</string>
     <string name="create_new_key">Vytvořit nový klíč</string>
-    
-    
+    <string name="create_new_key_summary">Teto klíč bude později použit pro šifrování nahrávek nebo pro vstup do aplikace</string>
+    <string name="delete_key">Smazat klíč</string>
     <string name="change_password">Změna hesla</string>
-    
-    
+    <string name="delete_key_summary">Varování! Nikdy nebudeš schopen(a) obnovit šifrované nahrávky pokud je zašifruješ tímto klíčem, a to ani když vytvoříš nový klíč se stejným heslem</string>
+    <string name="delete_key_message">Po smazání tohoto klíče nebudeš moci obnovit šifrované nahrávky tímto klíčem. Jsi si jistý(á) smazáním?</string>
     <string name="enter_old_password">Zadej staré heslo</string>
     <string name="enter_new_password">Zadej nové heslo</string>
     <string name="re_enter_new_password">Znovu zadej nové heslo</string>
     <string name="require_password">Vyžaduje heslo</string>
     <string name="require_password_summary">K otevření aplikace je požadováno heslo</string>
-    
+    <string name="require_password_summary_no_key">Vyžadovat heslo při spuštění aplikace. K této funkci je zapotřebí nejprve vytvořit klíč</string>
     <string name="lock_after">Zamknout po</string>
     <string name="lock_after_exit">Exit</string>
     <string name="lock_after_1_minute">1 min.</string>
@@ -343,22 +344,22 @@
     <string name="lock_after_5_minutes">5 min.</string>
     <string name="lock_after_10_minutes">10 min.</string>
     <string name="app_admin">Správce aplikace</string>
-    
-    
+    <string name="app_admin_summary">Zabránit odinstalování Call Recorderu</string>
+    <string name="app_admin_explanation">Call Recorder nepoužívá žádné funkce administrátora zařízení kromě ochrany odinstalování</string>
     <string name="aes_128bit">128-bit AES (Rychlé)</string>
     <string name="aes_192bit">192-bit AES (Vyvážené)</string>
     <string name="aes_256bit">256-bit AES (Silné)</string>
 
     <!-- Settings -> Audio player -->
-    
+    <string name="use_built_in_player">Použít vestavěný přehrávač</string>
     <string name="audio_output">Výstup zvuku</string>
-    
+    <string name="audio_output_summary">%s (Dlouhé tapnutí na tlačítko Přehrát/pauza je rovněž přepne)</string>
     <string name="main_speaker">Hlavní reproduktor</string>
     <string name="phone_speaker">Reproduktor telefonu</string>
     <string name="use_proximity_sensor">Použít pohybový senzor</string>
-    
+    <string name="use_proximity_sensor_summary">Při přiblížení k senzoru během přehrávání vypnout obrazovku</string>
     <string name="switch_audio_output">Přepnout výstup zvuku</string>
-    
+    <string name="switch_audio_output_summary">Automaticky přepnout výstup zvuku pokud je obrazovka zakázána/povolena přibližovacím senzorem</string>
     <string name="android_wav_decoder">Android dekodér pro WAV</string>
     <string name="android_wav_decoder_summary">Použít vestavěný android nástroj pro přehrání WAV</string>
     <string name="android_amr_decoder">Android dekodér pro AMR</string>
@@ -370,55 +371,55 @@
     <string name="root_access_yes">Ano</string>
     <string name="dual_sim_phone">Telefon s duální SIM</string>
     <string name="dual_sim_phone_summary">Toto povol pokud aplikace není schopna rozlišit hovory z druhé simkarty</string>
-    
+    <string name="send_logs_to_the_developer">Zaslat log vývojáři</string>
 
     <!-- General -->
     <string name="contact_unknown">Neznámý</string>
-    
+    <string name="button_choose">Zvol</string>
     <string name="button_ok">OK</string>
-    
-    
+    <string name="button_call">Hovor</string>
+    <string name="button_buy">Koupit</string>
     <string name="button_edit">Editovat</string>
     <string name="button_cancel">Storno</string>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <string name="button_create">Vytvořit</string>
+    <string name="button_delete">Smazat</string>
+    <string name="button_restore">Obnovit</string>
+    <string name="button_keep">Podržet</string>
+    <string name="button_play">Hrát</string>
+    <string name="button_pause">Pauza</string>
+    <string name="button_delete_wait">Smazat (%d)</string>
+    <string name="decline">Zamítnout</string>
+    <string name="accept">Přijmout</string>
+    <string name="call_incoming">Příchozí</string>
+    <string name="call_outgoing">Odchozí</string>
     <string name="please_wait">Čekej prosím…</string>
     <string name="start_recording">Začít nahrávání</string>
     <string name="stop_recording">Zastavit nahrávání</string>
-    
+    <string name="action_mode_selected">%d vybraných</string>
     <string name="switch_on">Zap</string>
     <string name="switch_off">Vyp</string>
 
     <!--Toasts-->
-    
-    
-    
-    
+    <string name="toast_wait_for_operation_to_complete">Čekej na dokončení operace</string>
+    <string name="toast_recording_is_off">Nahrávání je VYP</string>
+    <string name="toast_recording_is_on">Nahrávání je ZAP</string>
+    <string name="toast_file_deleted">Soubor byl úspěšně smazán</string>
 
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">Nahrát tento hovor</string>
-    
+    <string name="open_contact">Otevřít kontakt</string>
 
     <!--After call actions dialog-->
     <string name="cloud_added">Přidáno</string>
 
     <!--Notification-->
-    
-    
-    
+    <string name="waiting_for_answer">Čekám na odpověď</string>
+    <string name="recording_in_progress">Probíhá nahrávání</string>
+    <string name="no_recording_in_progress">Neprobíhá nahrávání</string>
     <string name="an_error_has_occurred">Nastala chyba, tento hovor nemůže být nahrán</string>
 
     <!--About-->
-    
+    <string name="about_call_recorder">O Call Recorderu</string>
     <string name="version">Verze</string>
     <string name="copyright">Kopírovací práva</string>
     <string name="copyright_summary">© %s Alexander Skvortsov (skvalex)</string>
@@ -426,11 +427,11 @@
     <string name="about_many_thanks_summary">Alexey Subbotin (avs234)</string>
 
     <!--About -> Other-->
-    
-    
+    <string name="category_other">Ostatní</string>
+    <string name="open_source_licenses">Open source licence</string>
 
     <!--About -> Translators-->
-    
+    <string name="category_translators">Překladatelé</string>
     <string name="german_translation">Německý překlad</string>
     <string name="german_translation_summary">Marc Hillesheim a Thomas Käfer</string>
     <string name="polish_translation">Polský překlad</string>
@@ -444,11 +445,11 @@
     <string name="slovak_translation">Slovenský překlad</string>
     <string name="slovak_translation_summary">Loránt Gerencsér</string>
     <string name="italian_translation">Italský překlad</string>
-    
+    <string name="italian_translation_summary">Luca Trevisan a Francesco Cafagna</string>
     <string name="persian_translation">Perský překlad</string>
     <string name="persian_translation_summary">Alireza Afkar</string>
     <string name="chinese_translation">Čínský překlad</string>
-    
+    <string name="chinese_translation_summary">qhq a Yu Fei</string>
     <string name="czech_translation">Český překlad</string>
     <string name="czech_translation_summary">Aleš Kerner a Lukáš Waldauf</string>
     <string name="arabic_translation">Arabský překlad</string>
@@ -493,201 +494,6 @@
     <string name="punjabi_translation_summary">Raj Verma</string>
     <string name="finnish_translation">Finský překlad</string>
     <string name="finnish_translation_summary">Eero Linnainmaa</string>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-<string name="terms_of_use">Podmínky používání</string>
-    <string name="terms_of_use_message">Používáním aplikace souhlasíte s &lt;a href=http://rec.sh/terms&gt;Podmínkami používání&lt;/a&gt; CallRecorderu.</string>
-
-    <string name="navigation_drawer_open">Otevřít navigační box</string>
-    <string name="navigation_drawer_close">Zavřít navigační box</string>
-
-    <string name="section_all_recordings">Všechny nahrávky</string>
-    <string name="section_starred">Oblíbené</string>
-    <string name="section_by_contact">Podle kontaktů</string>
-    <string name="section_by_format">Podle formátu</string>
-    <string name="section_by_label">Podle názvu</string>
-    <string name="section_tasks_hint">Časově náročné úkoly s nahrávkami jako je konverze, šifrování nebo nahrávání do Cloud se bude zobrazovat zde</string>
-    <string name="action_sort">Třídit</string>
-    <string name="action_refresh">Obnovit</string>
-    <string name="action_delete">Smazat</string>
-    <string name="action_add_star">Přidat hvězdičku</string>
-    <string name="action_remove_star">Odebrat hvězdičku</string>
-    <string name="action_share">Sdílet</string>
-    <string name="action_cancel_tasks">Přerušit úkoly</string>
-    <string name="sort_by_date">Podle data</string>
-    <string name="sort_by_contact">Podle kontaktů</string>
-    <string name="sort_by_file_size">Podle velikosti souboru</string>
-    <string name="records_size">nahrávek: %1$s, velikost: %2$s</string>
-    <string name="space_free_of">%1$s volných z %2$s</string>
-
-    <string name="restore_settings">Obnovit nastavení</string>
-
-    <string name="list_header_today">Dnes</string>
-    <string name="list_header_yesterday">Včera</string>
-    <string name="queued">Ve frontě</string>
-    <string name="no_connection">Žádné spojení</string>
-
-    <string name="menu_add_note">Přidat poznámku</string>
-    <string name="menu_edit_note">Editovat poznámku</string>
-    <string name="menu_share">Sdílet</string>
-    <string name="menu_convert_to_mp3">Konvertovat do MP3</string>
-    <string name="menu_convert_to_amr">Konvertovat do AMR</string>
-    <string name="menu_cancel_task">Přerušit úkol</string>
-    <string name="recording_type">Typ nahrávání</string>
-    <string name="note">Poznámka</string>
-
-    <string name="confirm_delete_several_title">Potvrď smazání</string>
-    <string name="confirm_delete_several_message">Vybral jsi %d nahrávek. Opravdu je chceš vymazat?</string>
-
-    <string name="share_via">Sdílet na</string>
-    <string name="settings_open_unlocker">Otevřít Unlocker</string>
-    <string name="settings_cloud">Cloud</string>
-    <string name="license_check_pending">Čekám na kontrolu licence</string>
-    <string name="license_check_failed">Ověření licence selhalo</string>
-    <string name="license_check_failed_summary">Tapni sem pro podrobnosti</string>
-    <string name="license_verified">Licence ověřena</string>
-    <string name="license_verified_summary">Tapni pro skrytí</string>
-    <string name="license_help">Nápověda</string>
-    <string name="license_signature_verification_failed">Ověření podpisu selhalo</string>
-    <string name="license_error_message">Chyba #%1$s: %2$s</string>
-    <string name="license_unknown_error">Neznámá chyba</string>
-    <string name="license_not_market_managed">Tato verze zatím nebyla zveřejněna v obchodu Play</string>
-    <string name="license_incorrect_response">Obchod Play hlásí nesprávná licence</string>
-    <string name="license_error_contacting_server">Chyba spojení se serverem</string>
-    <string name="license_server_error">Chyba serveru</string>
-    <string name="license_over_quota">Příliš mnoho požadavků z tohoto zařízení</string>
-    <string name="license_trial_expired">Zkušební doba uplynula</string>
-    <string name="license_trial_expired_summary">Prosím, před zakoupením plné verze odinstaluj tuto verzi</string>
-    <string name="device_change_settings_empty">Nastavení tohoto zařízení již bylo nastaveno</string>
-    <string name="device_root_is_required">Je nutný root</string>
-    <string name="device_root_is_required_summary">K dosažení lepší kvality je zapotřebí root</string>
-    <string name="recording_method_msm">MSM</string>
-    <string name="recording_method_msm_settings">Nastavení nahrávání MSM</string>
-    <string name="exceptions_summary">Nastav akce pro kontakty, skupiny nebo telefonní čísla</string>
-    <string name="start_recording_on_answer">Začít nahrávání při odpovědi</string>
-    <string name="start_recording_on_answer_summary">Začít nahrávání odchozího hovoru jakmile je přijat. Aplikace používá nezdokumentované prostředky pro zjištění momentu kdy druhá strana přijme hovor proto tato vlastnost může na některých zařízeních selhat. Od Androidu 4.1 Jelly Bean je požadován root. V kernelu musí být povoleno logování.</string>
-    <string name="delay_before_start_recording_summary">Pro odchozí: %1$s, pro příchozí: %2$s</string>
-    <string name="delay_format_sec">%s s</string>
-    <string name="delay_for_outgoing">Pro odchozí</string>
-    <string name="delay_for_incoming">Pro příchozí</string>
-    <string name="settings_for_device">Nastavení pro %s</string>
-    <string name="recording_format">Formát nahrávání</string>
-    <string name="volume_control_summary">Tx: %1$s, Rx: %2$s</string>
-    <string name="volume_control_overall">Celková hlasitost</string>
-    <string name="volume_control_tx">Tx</string>
-    <string name="volume_control_rx">Rx</string>
-    <string name="category_wav_and_mp3_settings">Nastavení WAV a MP3</string>
-    <string name="alsa_is_not_installed">Musí být nainstalována ALSA</string>
-    <string name="alsa_is_not_installed_summary">Tapni sem pro instalaci ALSA</string>
-
-    <string name="add_exception">Přidat vyjímku</string>
-    <string name="exception_groups">%d skupin</string>
-    <string name="exception_contact">Kontakt</string>
-    <string name="exception_select_contact">Vyber kontakt</string>
-    <string name="exception_phone_number">Telefonní číslo</string>
-    <string name="exception_action">Akce</string>
-    <string name="exception_groups_not_found">Skupina nenalezena</string>
-    <string name="exception_contacts_not_found">Kontakt nenalezen</string>
-    <string name="exceptions_not_added">Výjimka nepřidána</string>
-    <string name="exception_by_contact">Podle kontaktů</string>
-    <string name="exception_by_group">Podle skupin</string>
-    <string name="exception_by_phone_number">Podle telefonních čísel</string>
-    <string name="exception_delete_message">Opravdu chceš smazat tuto výjimku?</string>
-
-    <string name="folder_chooser_up_to">↑ až k %s</string>
-    <string name="create_new_folder">Vytvořit novou složku…</string>
-    <string name="dialog_title_new_folder">Nová složka</string>
-    <string name="settings_filename">Jméno souboru</string>
-    <string name="pattern_call_timestamp">časové razítko hovoru (unixový čas)</string>
-    <string name="default_language">Výchozí jazyk</string>
-    <string name="show_notification_summary">Trvalé oznámení ve stavové řádce</string>
-    <string name="hide_icon_but_keep_notification">Schovat ikonu, ale zachovat oznámení</string>
-    <string name="hide_icon_but_keep_notification_summary">Schovat ikonu, ale zachovat oznámení ve stavové řádce</string>
-    <string name="category_incall_control_button">Ovládací tlačítko hovoru</string>
-    <string name="incall_control_for_outgoing_summary">Zobrazit ovládací tlačítko během odchozích hovorů</string>
-    <string name="incall_control_for_incoming_summary">Zobrazit ovládací tlačítko během příchozích hovorů</string>
-    <string name="hide_button_while_recording">Při nahrávání schovat tlačítko</string>
-    <string name="hide_button_while_recording_summary">Schovat ovládací tlačítko pokud započne nahrávání hovoru</string>
-    <string name="vertical_position_summary">%s dp, odsazení od středu obrazovky</string>
-    <string name="horizontal_position_summary">%s dp, odsazení od středu obrazovky</string>
-    <string name="hide_button_before_answer">Skrýt tlačítko před odpovědí</string>
-    <string name="long_press_action">Akce pro dlouhé tapnutí</string>
-    <string name="long_press_action_dragging_the_button">Táhnutí tlačítka</string>
-    <string name="long_press_action_hang_up">Zavěsit hovor a automaticky volat zpět</string>
-    <string name="hide_starred_recordings">Skrýt oblíbené nahrávky</string>
-    <string name="hide_starred_recordings_summary">Nezobrazovat oblíbené nahrávky při zobrazení všech nahrávek</string>
-
-    <string name="cloud_provider">Poskytovatel cloudu</string>
-    <string name="sign_in_dropbox">Přihlásit do Dropboxu</string>
-    <string name="sign_out_dropbox">Odhlásit z Dropboxu</string>
-    <string name="cloud_provider_google_drive">Google Drive</string>
-    <string name="cloud_common_settings">Společný</string>
-    <string name="cloud_upload_starred">Upload započal</string>
-    <string name="cloud_upload_starred_summary">Uploadovat nahrávky do cloudu pokud jim přidáš hvězdičku</string>
-
-    <string name="notify_uploading_dropbox">Nahrávám do Dropboxu</string>
-    <string name="notify_converting_to_amr">Konvertuji do ARM</string>
-    <string name="notify_converting_to_mp3">Konvertuji do MP3</string>
-    <string name="notify_encrypting">Šifruji</string>
-    <string name="notify_decrypting">Dešifruji</string>
-    <string name="notify_waiting_for_calls">Čekání na hovory</string>
-    <string name="notify_tasks_remaining">Zbývá %d úkolů</string>
-
-    <string name="create_new_key_summary">Teto klíč bude později použit pro šifrování nahrávek nebo pro vstup do aplikace</string>
-    <string name="delete_key">Smazat klíč</string>
-    <string name="delete_key_summary">Varování! Nikdy nebudeš schopen(a) obnovit šifrované nahrávky pokud je zašifruješ tímto klíčem, a to ani když vytvoříš nový klíč se stejným heslem</string>
-    <string name="delete_key_message">Po smazání tohoto klíče nebudeš moci obnovit šifrované nahrávky tímto klíčem. Jsi si jistý(á) smazáním?</string>
-    <string name="require_password_summary_no_key">Vyžadovat heslo při spuštění aplikace. K této funkci je zapotřebí nejprve vytvořit klíč</string>
-    <string name="app_admin_summary">Zabránit odinstalování Call Recorderu</string>
-    <string name="app_admin_explanation">Call Recorder nepoužívá žádné funkce administrátora zařízení kromě ochrany odinstalování</string>
-    <string name="use_built_in_player">Použít vestavěný přehrávač</string>
-    <string name="audio_output_summary">%s (Dlouhé tapnutí na tlačítko Přehrát/pauza je rovněž přepne)</string>
-    <string name="use_proximity_sensor_summary">Při přiblížení k senzoru během přehrávání vypnout obrazovku</string>
-    <string name="switch_audio_output_summary">Automaticky přepnout výstup zvuku pokud je obrazovka zakázána/povolena přibližovacím senzorem</string>
-    <string name="send_logs_to_the_developer">Zaslat log vývojáři</string>
-
-    <string name="button_choose">Zvol</string>
-    <string name="button_call">Hovor</string>
-    <string name="button_buy">Koupit</string>
-    <string name="button_create">Vytvořit</string>
-    <string name="button_delete">Smazat</string>
-    <string name="button_restore">Obnovit</string>
-    <string name="button_keep">Podržet</string>
-    <string name="button_play">Hrát</string>
-    <string name="button_pause">Pauza</string>
-    <string name="button_delete_wait">Smazat (%d)</string>
-    <string name="decline">Zamítnout</string>
-    <string name="accept">Přijmout</string>
-    <string name="call_incoming">Příchozí</string>
-    <string name="call_outgoing">Odchozí</string>
-    <string name="action_mode_selected">%d vybraných</string>
-    <string name="toast_wait_for_operation_to_complete">Čekej na dokončení operace</string>
-    <string name="toast_recording_is_off">Nahrávání je VYP</string>
-    <string name="toast_recording_is_on">Nahrávání je ZAP</string>
-    <string name="toast_file_deleted">Soubor byl úspěšně smazán</string>
-
-    <string name="open_contact">Otevřít kontakt</string>
-
-    <string name="waiting_for_answer">Čekám na odpověď</string>
-    <string name="recording_in_progress">Probíhá nahrávání</string>
-    <string name="no_recording_in_progress">Neprobíhá nahrávání</string>
-    <string name="about_call_recorder">O Call Recorderu</string>
-    <string name="category_other">Ostatní</string>
-    <string name="open_source_licenses">Open source licence</string>
-
-    <string name="category_translators">Překladatelé</string>
-    <string name="italian_translation_summary">Luca Trevisan a Francesco Cafagna</string>
-    <string name="chinese_translation_summary">qhq a Yu Fei</string>
     <string name="belarusian_translation">Běloruský překlad</string>
     <string name="belarusian_translation_summary">Alexander Kuvshinov</string>
     <string name="vietnamese_translation">Vietnamský překlad</string>

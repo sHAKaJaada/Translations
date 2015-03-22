@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Call Recorder</string>
     <string name="terms_of_use">Podmienky používania</string>
@@ -39,13 +39,14 @@
     <string name="space_free_of">%1$s voľných z %2$s</string>
 
     <!--Import settings -->
-    
+    <string name="restore_settings">Obnoviť nastavenia</string>
 
     <!-- List -->
     <string name="list_header_today">Dnes</string>
     <string name="list_header_yesterday">Včera</string>
     <string name="queued">Čakajúce</string>
     <string name="no_connection">Bez pripojenia</string>
+    <string name="add_to_contacts">Pridať do kontaktov</string>
 
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">Pridať na Dropbox</string>
@@ -215,7 +216,7 @@
     <!-- Settings -> Recording -> Exceptions -->
     <string name="add_exception">Pridať výnimku</string>
     <string name="exception_group">Skupina</string>
-    
+    <string name="exception_groups">Skupina %d</string>
     <string name="exception_select_group">Vybrať skupinu</string>
     <string name="exception_contact">Kontakt</string>
     <string name="exception_select_contact">Vybrať kontakt</string>
@@ -235,8 +236,8 @@
     <!-- Settings -> Folders and Files -->
     <string name="folder">Priečinok</string>
     <string name="folder_chooser_up_to">↑ Späť %s</string>
-    
-    
+    <string name="create_new_folder">Vytvoriť nový priečinok…</string>
+    <string name="dialog_title_new_folder">Nový priečinok</string>
     <string name="automatic_cleanup">Automatické mazanie</string>
     <string name="max_number_of_files">Max. počet súborov</string>
     <string name="max_number_of_files_message">Zadať číslo (0 - bez limitu)</string>
@@ -291,8 +292,8 @@
     <string name="long_press_action_dragging_the_button">Posunúť tlačidlo</string>
     <string name="long_press_action_hang_up">Ukončiť hovor a automaticky zavolať späť</string>
     <string name="category_main_screen">Hlavná obrazovka</string>
-    
-    
+    <string name="hide_starred_recordings">Skryť nahrávky s hviezdičkou</string>
+    <string name="hide_starred_recordings_summary">Nezobrazovať nahrávky s hviezdičkou na obrazovke so všetkými nahrávkami</string>
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">Poskytovateľ vzdialeného úložiska</string>
@@ -382,7 +383,7 @@
     <string name="button_cancel">Zrušiť</string>
     <string name="button_create">Vytvoriť</string>
     <string name="button_delete">Vymazať</string>
-    
+    <string name="button_restore">Obnoviť</string>
     <string name="button_keep">Podržať</string>
     <string name="button_play">Prehrať</string>
     <string name="button_pause">Pauza</string>
@@ -426,11 +427,11 @@
     <string name="about_many_thanks_summary">Alexey Subbotin (avs234)</string>
 
     <!--About -> Other-->
-    
-    
+    <string name="category_other">Iné</string>
+    <string name="open_source_licenses">Licencie otvorených zdrojov</string>
 
     <!--About -> Translators-->
-    
+    <string name="category_translators">Preklady</string>
     <string name="german_translation">Slovenský preklad</string>
     <string name="german_translation_summary">Loránt Gerencsér (www.DroiD.sk)</string>
     <string name="polish_translation">Poľský preklad</string>
@@ -505,17 +506,4 @@
     <string name="tamil_translation_summary">Ashish Sharma</string>
     <string name="greek_translation">Grécky preklad</string>
     <string name="greek_translation_summary">Lefteris (SomniusX) Eliades</string>
-<string name="restore_settings">Obnoviť nastavenia</string>
-
-    <string name="exception_groups">Skupina %d</string>
-    <string name="create_new_folder">Vytvoriť nový priečinok…</string>
-    <string name="dialog_title_new_folder">Nový priečinok</string>
-    <string name="hide_starred_recordings">Skryť nahrávky s hviezdičkou</string>
-    <string name="hide_starred_recordings_summary">Nezobrazovať nahrávky s hviezdičkou na obrazovke so všetkými nahrávkami</string>
-
-    <string name="button_restore">Obnoviť</string>
-    <string name="category_other">Iné</string>
-    <string name="open_source_licenses">Licencie otvorených zdrojov</string>
-
-    <string name="category_translators">Preklady</string>
-    </resources>
+</resources>

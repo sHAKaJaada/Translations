@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">કોલ રેકોર્ડર</string>
     <string name="terms_of_use">ઉપયોગની શરતો</string>
@@ -30,22 +30,23 @@
     <string name="action_add_star">સ્ટાર ઉમેરો</string>
     <string name="action_remove_star">સ્ટાર દૂર કરો</string>
     <string name="action_share">શેર</string>
-    
+    <string name="action_cancel_tasks">કાર્યવિશેષ રદ</string>
     <string name="action_select_all">બધા પસંદ</string>
     <string name="sort_by_date">તારીખ દ્વારા</string>
     <string name="sort_by_contact">સંપર્ક દ્વારા</string>
     <string name="sort_by_file_size">ફાઈલ માપ દ્વારા</string>
-    
-    
+    <string name="records_size">રેકોર્ડ: %1$s, કદ: %2$s</string>
+    <string name="space_free_of">%1$s મફત ના %2$s</string>
 
     <!--Import settings -->
-    
+    <string name="restore_settings">સેટિંગ્સ ફરિથી</string>
 
     <!-- List -->
     <string name="list_header_today">આજે</string>
     <string name="list_header_yesterday">ગઈ કાલે</string>
     <string name="queued">કતારમાં</string>
     <string name="no_connection">કોઈ જોડાણ</string>
+    
 
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">ડ્રૉપબૉક્સ ઉમેરો</string>
@@ -89,7 +90,7 @@
     <string name="recorded_calls">રેકોર્ડ કોલ્સ</string>
 
     <!--  Settings -> Headers -->
-    
+    <string name="settings_open_unlocker">ઓપન અનલોકર</string>
     <string name="settings_recording">રેકોર્ડિંગ</string>
     <string name="settings_folders_and_files">ફોલ્ડર્સ અને ફાઈલો</string>
     <string name="settings_ui_and_appearance">ઇન્ટરફેસ અને દેખાવ</string>
@@ -116,8 +117,8 @@
     <string name="license_error_contacting_server">ભૂલ સંપર્ક સર્વર</string>
     <string name="license_server_error">સર્વર ભૂલ</string>
     <string name="license_over_quota">આ ઉપકરણ માંથી ખૂબ વધારે વિનંતીઓ</string>
-    
-    
+    <string name="license_trial_expired">ટ્રાયલ સમયગાળા નિવૃત્ત થઈ</string>
+    <string name="license_trial_expired_summary">કૃપા કરીને, ખરીદી એક સંપૂર્ણ આવૃત્તિ પહેલાં આ સંસ્કરણ અનઇન્સ્ટોલ</string>
     <string name="buy_full_version">સંપૂર્ણ આવૃત્તિ ખરીદી</string>
     <string name="buy_full_version_summary">વર્તમાન આવૃત્તિ પર સમાપ્ત થશે %s</string>
 
@@ -188,13 +189,13 @@
     <string name="api_source_voice_communication">અવાજ સંચાર</string>
     <string name="category_wav_settings">WAV સેટિંગ્સ</string>
     <string name="category_wav_and_mp3_settings">WAV &amp; MP3 સેટિંગ્સ</string>
-    
-    
+    <string name="when_bt_connected">જ્યારે બીટી જોડાયેલ…</string>
+    <string name="audio_source_when_bt_connected">ઑડિઓ સ્રોત જ્યારે બીટી જોડાયેલ</string>
 
     <!-- Actions when BT connected -->
-    
-    
-    
+    <string name="when_bt_connected_do_nothing">કશું કરી</string>
+    <string name="when_bt_connected_switch_source">ઑડિઓ સ્રોત સ્વિચ</string>
+    <string name="when_bt_connected_disable_recording">અક્ષમ કરો રેકોર્ડિંગ</string>
 
     <!-- Settings -> Recording -> CAF -->
     <string name="recording_mode">રેકોર્ડિંગ મોડ</string>
@@ -215,7 +216,7 @@
     <!-- Settings -> Recording -> Exceptions -->
     <string name="add_exception">અપવાદ ઉમેરો</string>
     <string name="exception_group">ગ્રુપ</string>
-    
+    <string name="exception_groups">%d જૂથો</string>
     <string name="exception_select_group">પસંદ જૂથ</string>
     <string name="exception_contact">સંપર્ક</string>
     <string name="exception_select_contact">પસંદ સંપર્ક</string>
@@ -235,8 +236,8 @@
     <!-- Settings -> Folders and Files -->
     <string name="folder">ફોલ્ડર</string>
     <string name="folder_chooser_up_to">માટે %s ઉપર ↑</string>
-    
-    
+    <string name="create_new_folder">નવું ફોલ્ડર બનાવવા…</string>
+    <string name="dialog_title_new_folder">નવું ફોલ્ડર</string>
     <string name="automatic_cleanup">આપોઆપ સફાઈ</string>
     <string name="max_number_of_files">મેક્સ. ફાઈલોની સંખ્યા</string>
     <string name="max_number_of_files_message">દાખલ સંખ્યાબંધ (0 - કોઈ મર્યાદા)</string>
@@ -270,8 +271,8 @@
     <string name="category_notification">સૂચના</string>
     <string name="show_notification">બતાવો સૂચના</string>
     <string name="show_notification_summary">સ્થિતિ પટ્ટીનાં કાયમી સૂચના</string>
-    
-    
+    <string name="hide_icon_but_keep_notification">છુપાવો ચિહ્ન, પરંતુ જાહેરનામું રાખવા</string>
+    <string name="hide_icon_but_keep_notification_summary">છુપાવો ચિહ્ન, પરંતુ જાહેરનામું રાખવા માં સ્થિતિ પટ્ટીનાં</string>
     <string name="category_incall_control_button">ઇન કોલ નિયંત્રણ બટન</string>
     <string name="incall_control_for_outgoing">આઉટગોઇંગ કોલ્સ માટે</string>
     <string name="incall_control_for_outgoing_summary">આઉટગોઇંગ કોલ્સ પર શોમાં-કોલ નિયંત્રણ બટન</string>
@@ -290,9 +291,9 @@
     <string name="long_press_action">લાંબા પ્રેસ એક્શન</string>
     <string name="long_press_action_dragging_the_button">આ બટન ખેંચીને</string>
     <string name="long_press_action_hang_up">કોલ અટકી અને આપોઆપ સામો ફોન</string>
-    
-    
-    
+    <string name="category_main_screen">મુખ્ય સ્ક્રીન</string>
+    <string name="hide_starred_recordings">તારાંકિત રેકોર્ડિંગ્સ છુપાવો</string>
+    <string name="hide_starred_recordings_summary">બધા રેકોર્ડિંગ્સ સાથે સ્ક્રીન પર તારાંકિત રેકોર્ડિંગ્સ બતાવશો નહીં</string>
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">વાદળ પ્રદાતા</string>
@@ -309,11 +310,11 @@
 
     <!-- Notification -->
     <string name="notify_uploading_dropbox">ડ્રૉપબૉક્સ પર અપલોડ</string>
-    
-    
-    
-    
-    
+    <string name="notify_converting_to_amr">માટે રૂપાંતરિત AMR</string>
+    <string name="notify_converting_to_mp3">માટે રૂપાંતરિત MP3</string>
+    <string name="notify_encrypting">એનક્રિપ્ટ</string>
+    <string name="notify_decrypting">ડિક્રિપ્ટ</string>
+    <string name="notify_waiting_for_calls">કોલ માટે રાહ જોઈ</string>
     <string name="notify_tasks_remaining">%d કાર્ય બાકી રહી જવું</string>
 
     <!-- Password dialog -->
@@ -370,19 +371,19 @@
     <string name="root_access_yes">હા</string>
     <string name="dual_sim_phone">ડ્યુઅલ સિમ ફોન</string>
     <string name="dual_sim_phone_summary">સક્રિય એપ્લિકેશન બીજા સિમ કાર્ડ પરથી કોલ નક્કી કરી શકતા હોય</string>
-    
+    <string name="send_logs_to_the_developer">વિકાસકર્તા માટે લોગ મોકલો</string>
 
     <!-- General -->
     <string name="contact_unknown">અજ્ઞાત</string>
     <string name="button_choose">પસંદ</string>
     <string name="button_ok">ઓકે</string>
     <string name="button_call">કોલ</string>
-    
+    <string name="button_buy">ખરીદી</string>
     <string name="button_edit">ફેરફાર કરો</string>
     <string name="button_cancel">રદ કરો</string>
     <string name="button_create">બનાવો</string>
     <string name="button_delete">કાઢી</string>
-    
+    <string name="button_restore">પુનઃસ્થાપિત કરો</string>
     <string name="button_keep">રાખી</string>
     <string name="button_play">રમો</string>
     <string name="button_pause">થોભો</string>
@@ -400,9 +401,9 @@
 
     <!--Toasts-->
     <string name="toast_wait_for_operation_to_complete">એક પૂર્ણ કરવા માટે રાહ ક્રિયા</string>
-    
-    
-    
+    <string name="toast_recording_is_off">રેકોર્ડિંગ બંધ છે</string>
+    <string name="toast_recording_is_on">રેકોર્ડિંગ ઓન છે</string>
+    <string name="toast_file_deleted">ફાઇલ સફળતાપૂર્વક કાઢી નાખવામાં આવ્યું છે</string>
 
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">આ કોલ રેકોર્ડ</string>
@@ -426,11 +427,11 @@
     <string name="about_many_thanks_summary">તો Alexey Subbotin (avs234)</string>
 
     <!--About -> Other-->
-    
-    
+    <string name="category_other">અન્ય</string>
+    <string name="open_source_licenses">ઓપન સોર્સ લાઇસન્સ</string>
 
     <!--About -> Translators-->
-    
+    <string name="category_translators">અનુવાદકો</string>
     <string name="german_translation">જર્મન અનુવાદ</string>
     <string name="german_translation_summary">Marc Hillesheim and Thomas Käfer દ્વારા</string>
     <string name="polish_translation">પોલિશ અનુવાદ</string>
@@ -497,56 +498,6 @@
     <string name="belarusian_translation_summary">Alexander Kuvshinov દ્વારા</string>
     <string name="vietnamese_translation">વિએતનામીઝ અનુવાદ</string>
     <string name="vietnamese_translation_summary">Truong Hoang Trung દ્વારા</string>
-    
-    
-    
-    
-    
-    
-    
-    
-<string name="action_cancel_tasks">કાર્યવિશેષ રદ</string>
-    <string name="records_size">રેકોર્ડ: %1$s, કદ: %2$s</string>
-    <string name="space_free_of">%1$s મફત ના %2$s</string>
-
-    <string name="restore_settings">સેટિંગ્સ ફરિથી</string>
-
-    <string name="settings_open_unlocker">ઓપન અનલોકર</string>
-    <string name="license_trial_expired">ટ્રાયલ સમયગાળા નિવૃત્ત થઈ</string>
-    <string name="license_trial_expired_summary">કૃપા કરીને, ખરીદી એક સંપૂર્ણ આવૃત્તિ પહેલાં આ સંસ્કરણ અનઇન્સ્ટોલ</string>
-    <string name="when_bt_connected">જ્યારે બીટી જોડાયેલ…</string>
-    <string name="audio_source_when_bt_connected">ઑડિઓ સ્રોત જ્યારે બીટી જોડાયેલ</string>
-
-    <string name="when_bt_connected_do_nothing">કશું કરી</string>
-    <string name="when_bt_connected_switch_source">ઑડિઓ સ્રોત સ્વિચ</string>
-    <string name="when_bt_connected_disable_recording">અક્ષમ કરો રેકોર્ડિંગ</string>
-
-    <string name="exception_groups">%d જૂથો</string>
-    <string name="create_new_folder">નવું ફોલ્ડર બનાવવા…</string>
-    <string name="dialog_title_new_folder">નવું ફોલ્ડર</string>
-    <string name="hide_icon_but_keep_notification">છુપાવો ચિહ્ન, પરંતુ જાહેરનામું રાખવા</string>
-    <string name="hide_icon_but_keep_notification_summary">છુપાવો ચિહ્ન, પરંતુ જાહેરનામું રાખવા માં સ્થિતિ પટ્ટીનાં</string>
-    <string name="category_main_screen">મુખ્ય સ્ક્રીન</string>
-    <string name="hide_starred_recordings">તારાંકિત રેકોર્ડિંગ્સ છુપાવો</string>
-    <string name="hide_starred_recordings_summary">બધા રેકોર્ડિંગ્સ સાથે સ્ક્રીન પર તારાંકિત રેકોર્ડિંગ્સ બતાવશો નહીં</string>
-
-    <string name="notify_converting_to_amr">માટે રૂપાંતરિત AMR</string>
-    <string name="notify_converting_to_mp3">માટે રૂપાંતરિત MP3</string>
-    <string name="notify_encrypting">એનક્રિપ્ટ</string>
-    <string name="notify_decrypting">ડિક્રિપ્ટ</string>
-    <string name="notify_waiting_for_calls">કોલ માટે રાહ જોઈ</string>
-    <string name="send_logs_to_the_developer">વિકાસકર્તા માટે લોગ મોકલો</string>
-
-    <string name="button_buy">ખરીદી</string>
-    <string name="button_restore">પુનઃસ્થાપિત કરો</string>
-    <string name="toast_recording_is_off">રેકોર્ડિંગ બંધ છે</string>
-    <string name="toast_recording_is_on">રેકોર્ડિંગ ઓન છે</string>
-    <string name="toast_file_deleted">ફાઇલ સફળતાપૂર્વક કાઢી નાખવામાં આવ્યું છે</string>
-
-    <string name="category_other">અન્ય</string>
-    <string name="open_source_licenses">ઓપન સોર્સ લાઇસન્સ</string>
-
-    <string name="category_translators">અનુવાદકો</string>
     <string name="armenian_translation">આર્મેનિયન અનુવાદ</string>
     <string name="armenian_translation_summary">Hakob Sununu અને Konstantin Gevorgyan દ્વારા</string>
     <string name="gujarati_translation">ગુજરાતી અનુવાદ</string>

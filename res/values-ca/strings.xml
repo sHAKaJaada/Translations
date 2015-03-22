@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">Condicions d\'ús</string>
@@ -30,22 +30,23 @@
     <string name="action_add_star">Afegir estrella</string>
     <string name="action_remove_star">Treure estrella</string>
     <string name="action_share">Compartir</string>
-    
+    <string name="action_cancel_tasks">Cancela tasques</string>
     <string name="action_select_all">Seleccionar-ho tot</string>
     <string name="sort_by_date">Per data</string>
     <string name="sort_by_contact">Per contacte</string>
     <string name="sort_by_file_size">Per tamany d\'arxiu</string>
-    
-    
+    <string name="records_size">registres: %1$s, tamany: %2$s</string>
+    <string name="space_free_of">%1$s lliure de %2$s</string>
 
     <!--Import settings -->
-    
+    <string name="restore_settings">Restaurar ajustaments</string>
 
     <!-- List -->
     <string name="list_header_today">Avui</string>
     <string name="list_header_yesterday">Ahir</string>
     <string name="queued">A la cua</string>
     <string name="no_connection">Sense connexió</string>
+    <string name="add_to_contacts">Afegir a contactes</string>
 
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">Afegir al Dropbox</string>
@@ -89,7 +90,7 @@
     <string name="recorded_calls">Trucades gravades</string>
 
     <!--  Settings -> Headers -->
-    
+    <string name="settings_open_unlocker">Obrir Unlocker</string>
     <string name="settings_recording">Gravació</string>
     <string name="settings_folders_and_files">Fitxers i Carpetes</string>
     <string name="settings_ui_and_appearance">Interfície i Aparença</string>
@@ -116,8 +117,8 @@
     <string name="license_error_contacting_server">Error contactant amb el servidor</string>
     <string name="license_server_error">Error del servidor</string>
     <string name="license_over_quota">Masses peticions des d\'aquest dispositiu</string>
-    
-    
+    <string name="license_trial_expired">El temps de prova ha acabat</string>
+    <string name="license_trial_expired_summary">Si us plau, des-instal·la aquesta versió abans de comprar la versió complerta</string>
     <string name="buy_full_version">Comprar versió Complerta</string>
     <string name="buy_full_version_summary">La versió actual expirarà el %s</string>
 
@@ -215,7 +216,7 @@
     <!-- Settings -> Recording -> Exceptions -->
     <string name="add_exception">Afegir excepció</string>
     <string name="exception_group">Grup</string>
-    
+    <string name="exception_groups">%d grups</string>
     <string name="exception_select_group">Seleccionar grup</string>
     <string name="exception_contact">Contacte</string>
     <string name="exception_select_contact">Seleccionar contacte</string>
@@ -235,8 +236,8 @@
     <!-- Settings -> Folders and Files -->
     <string name="folder">Carpeta</string>
     <string name="folder_chooser_up_to">↑ Amunt a %s</string>
-    
-    
+    <string name="create_new_folder">Crear nou directori…</string>
+    <string name="dialog_title_new_folder">Nou directori</string>
     <string name="automatic_cleanup">Neteja automàtica</string>
     <string name="max_number_of_files">Nombre max. de fitxers</string>
     <string name="max_number_of_files_message">Entra un nombre (0 - sense límit)</string>
@@ -291,8 +292,8 @@
     <string name="long_press_action_dragging_the_button">Arrossegant el botó</string>
     <string name="long_press_action_hang_up">Penja la trucada i torna a trucar automàticament</string>
     <string name="category_main_screen">Pantalla principal</string>
-    
-    
+    <string name="hide_starred_recordings">Amagar registres preferits</string>
+    <string name="hide_starred_recordings_summary">No mostrar registres preferits a la pantalla amb tots els registres</string>
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">Proveïdor del núvol</string>
@@ -309,10 +310,10 @@
 
     <!-- Notification -->
     <string name="notify_uploading_dropbox">Pujant al Dropbox</string>
-    
-    
-    
-    
+    <string name="notify_converting_to_amr">Convertint a AMR</string>
+    <string name="notify_converting_to_mp3">Convertint a MP3</string>
+    <string name="notify_encrypting">Xifrant</string>
+    <string name="notify_decrypting">Desxifrant</string>
     <string name="notify_waiting_for_calls">Esperant trucades</string>
     <string name="notify_tasks_remaining">%d tasques restants</string>
 
@@ -370,19 +371,19 @@
     <string name="root_access_yes">Si</string>
     <string name="dual_sim_phone">Telèfon Dual Sim</string>
     <string name="dual_sim_phone_summary">Activa això si el telèfon no pot detectar les trucades des de la segona tarjeta sim</string>
-    
+    <string name="send_logs_to_the_developer">Enviar logs al desenvolupador</string>
 
     <!-- General -->
     <string name="contact_unknown">Desconegut</string>
     <string name="button_choose">Escollir</string>
     <string name="button_ok">Acceptar</string>
     <string name="button_call">Trucada</string>
-    
+    <string name="button_buy">Comprar</string>
     <string name="button_edit">Editar</string>
     <string name="button_cancel">Cancel.lar</string>
     <string name="button_create">Crear</string>
     <string name="button_delete">Esborrar</string>
-    
+    <string name="button_restore">Restaurar</string>
     <string name="button_keep">Conservar</string>
     <string name="button_play">Reproduir</string>
     <string name="button_pause">Pausar</string>
@@ -426,11 +427,11 @@
     <string name="about_many_thanks_summary">a Alexey Subbotin (avs234)</string>
 
     <!--About -> Other-->
-    
-    
+    <string name="category_other">Altre</string>
+    <string name="open_source_licenses">Llicències de codi obert</string>
 
     <!--About -> Translators-->
-    
+    <string name="category_translators">Traductors</string>
     <string name="german_translation">Traducció al Alemany</string>
     <string name="german_translation_summary">Per Marc Hillesheim i Thomas Käfer</string>
     <string name="polish_translation">Traducció al Polac</string>
@@ -503,35 +504,6 @@
     <string name="gujarati_translation_summary">per Abhishek Sharma</string>
     <string name="tamil_translation">Traducció al Tàmil</string>
     <string name="tamil_translation_summary">per Ashish Sharma</string>
-    
-    
-<string name="action_cancel_tasks">Cancela tasques</string>
-    <string name="records_size">registres: %1$s, tamany: %2$s</string>
-    <string name="space_free_of">%1$s lliure de %2$s</string>
-
-    <string name="restore_settings">Restaurar ajustaments</string>
-
-    <string name="settings_open_unlocker">Obrir Unlocker</string>
-    <string name="license_trial_expired">El temps de prova ha acabat</string>
-    <string name="license_trial_expired_summary">Si us plau, des-instal·la aquesta versió abans de comprar la versió complerta</string>
-    <string name="exception_groups">%d grups</string>
-    <string name="create_new_folder">Crear nou directori…</string>
-    <string name="dialog_title_new_folder">Nou directori</string>
-    <string name="hide_starred_recordings">Amagar registres preferits</string>
-    <string name="hide_starred_recordings_summary">No mostrar registres preferits a la pantalla amb tots els registres</string>
-
-    <string name="notify_converting_to_amr">Convertint a AMR</string>
-    <string name="notify_converting_to_mp3">Convertint a MP3</string>
-    <string name="notify_encrypting">Xifrant</string>
-    <string name="notify_decrypting">Desxifrant</string>
-    <string name="send_logs_to_the_developer">Enviar logs al desenvolupador</string>
-
-    <string name="button_buy">Comprar</string>
-    <string name="button_restore">Restaurar</string>
-    <string name="category_other">Altre</string>
-    <string name="open_source_licenses">Llicències de codi obert</string>
-
-    <string name="category_translators">Traductors</string>
     <string name="greek_translation">Traducció al Grec</string>
     <string name="greek_translation_summary">per Lefteris (SomniusX) Eliades</string>
 </resources>

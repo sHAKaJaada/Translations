@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Call Recorder</string>
     <string name="terms_of_use">Kullanım Şartları</string>
@@ -35,17 +35,18 @@
     <string name="sort_by_date">Tarihe göre</string>
     <string name="sort_by_contact">Kişiye göre</string>
     <string name="sort_by_file_size">Dosya boyutuna göre</string>
-    
-    
+    <string name="records_size">kayıtlar: %1$s, boyut: %2$s</string>
+    <string name="space_free_of">%1$s boş alan %2$s</string>
 
     <!--Import settings -->
-    
+    <string name="restore_settings">Ayarları geri yükle</string>
 
     <!-- List -->
     <string name="list_header_today">Bugün</string>
-    
-    
+    <string name="list_header_yesterday">Dün</string>
+    <string name="queued">Sıraya alındı</string>
     <string name="no_connection">Bağlantı yok</string>
+    <string name="add_to_contacts">Kişilere ekle</string>
 
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">Dropbox\'a ekle</string>
@@ -54,7 +55,7 @@
     <string name="menu_delete">Sil</string>
     <string name="menu_share">Paylaş</string>
     <string name="menu_convert_to_mp3">MP3\'e dönüştür</string>
-    
+    <string name="menu_convert_to_amr">AMR ye dönüştür</string>
     <string name="menu_get_info">Bilgi al</string>
     <string name="menu_cancel_task">Görevi iptal et</string>
     <string name="menu_encrypt">Şifrele</string>
@@ -89,7 +90,7 @@
     <string name="recorded_calls">Kayıtlı görüşmeler</string>
 
     <!--  Settings -> Headers -->
-    
+    <string name="settings_open_unlocker">Unlocker Aç</string>
     <string name="settings_recording">Kayıt Ayarları</string>
     <string name="settings_folders_and_files">Dosyalar ve Klasörler</string>
     <string name="settings_ui_and_appearance">Arayüz ve Görünüm</string>
@@ -105,19 +106,19 @@
     <string name="license_check_failed">Lisans kontrolü başarısız</string>
     <string name="license_check_failed_summary">Detay için buraya dokunun</string>
     <string name="license_verified">Lisans onaylandı</string>
-    
+    <string name="license_verified_summary">Gizlemek için dokun</string>
     <string name="license_help">Yardım</string>
     <string name="license_signature_verification_failed">İmza onayı başarısız</string>
     <string name="license_error_message">Hata #%1$s: %2$s</string>
     <string name="license_trial">Deneme versiyonu %s tarihinde sona erecek</string>
     <string name="license_unknown_error">Bilinmeyen hata</string>
-    
-    
+    <string name="license_not_market_managed">Bu versiyon henüz markette yayınlanmadı</string>
+    <string name="license_incorrect_response">Play Storeden geçersiz lisans bilgileri</string>
     <string name="license_error_contacting_server">Server ile iletişim kurulumadı</string>
     <string name="license_server_error">Server hatası</string>
     <string name="license_over_quota">Bu cihaz ile çok fazla istekte bulunundu</string>
-    
-    
+    <string name="license_trial_expired">Deneme sürümü sona erdi</string>
+    <string name="license_trial_expired_summary">Lütfen, bu versiyonu kaldırın ve tam versiyonu satın alın</string>
     <string name="buy_full_version">Tam sürümünü satın al</string>
     <string name="buy_full_version_summary">Şuanki version %s tarihinde bitecek</string>
 
@@ -126,7 +127,7 @@
     <string name="category_main">Ana</string>
     <string name="device">Cihaz</string>
     <string name="select_your_device">Aygıtınızı Seçiniz</string>
-    
+    <string name="device_change_settings_empty">Bu aygıt için ayarlar zaten daha önce ayarlanmış</string>
     <string name="device_root_is_required">Root gereklidir</string>
     <string name="device_root_is_required_summary">En iyi kalite için cihazınız için root gereklidir</string>
     <string name="device_other">Diğer</string>
@@ -152,11 +153,11 @@
     <string name="after_call_actions_dialog_summary">Görüşmeden sonra ne yapılacağını sor</string>
     <string name="vibrate_on_call">Görüşme başladı/bitti titreşim</string>
     <string name="exceptions">Hariç tut</string>
-    
-    
-    
+    <string name="exceptions_summary">Kişiler, gruplar veya numaralar için karmaşık işlemler atayın</string>
+    <string name="start_recording_on_answer">Çağrıya cevap verince kayda başla</string>
+    <string name="start_recording_on_answer_summary">Giden arama yanıtlandığında, kaydetmeye başla. Uygulama karşı tarafın ne zaman cevaplayağını tam kestiremez. Bu özellik bazı cihazlarda başarısız olabilir. Android 4.1 Jell Bean dan itibaren root geerektirir. Kernel loggerin etkin olması gerekir.</string>
     <string name="delay_before_start_recording">Gecikmeli kayıt etme</string>
-    
+    <string name="delay_before_start_recording_summary">Giden için: %1$s, Gelen için: %2$s</string>
     <string name="delay_format_sec">%s saniye</string>
     <string name="delay_for_outgoing">Giden için</string>
     <string name="delay_for_incoming">Gelen için</string>
@@ -167,10 +168,10 @@
     <string name="recording_format_aac">AAC</string>
     <string name="recording_format_mp3">MP3</string>
     <string name="volume_control">Ses kontrolü</string>
-    
-    
-    
-    
+    <string name="volume_control_summary">Tx: %1$s, Rx: %2$s</string>
+    <string name="volume_control_overall">Toplam ses kuvveti</string>
+    <string name="volume_control_tx">Tx</string>
+    <string name="volume_control_rx"/>
     <string name="sample_rate_8000">8000 Hz (Varsayılan)</string>
     <string name="sample_rate_11025">11025 Hz</string>
     <string name="sample_rate_16000">16000 Hz</string>
@@ -187,7 +188,7 @@
     <string name="api_source_default">Varsayılan</string>
     <string name="api_source_voice_communication">Ses iletişimi</string>
     <string name="category_wav_settings">WAV Ayarları</string>
-    
+    <string name="category_wav_and_mp3_settings">WAV &amp; MP3 ayarları</string>
     <string name="when_bt_connected">BT bağlanıldığı zaman…</string>
     <string name="audio_source_when_bt_connected">BT bağlanıldığında ses kaynağı yap</string>
 
@@ -200,8 +201,8 @@
     <string name="recording_mode">Kayıt modu</string>
 
     <!-- Settings -> Recording -> ALSA -->
-    
-    
+    <string name="alsa_is_not_installed">ALSA yüklü olmalıdır</string>
+    <string name="alsa_is_not_installed_summary">ALSA\'yı yüklemek için buraya dokun</string>
 
     <!-- Settings -> Recording -> MSM -->
     <string name="chipset_type">Cipset tipi</string>
@@ -213,30 +214,30 @@
     <string name="dont_use_amr_driver_summary">Gerçek zamanlı kayıt yerine WAV\'ı AMR dönüştür</string>
 
     <!-- Settings -> Recording -> Exceptions -->
-    
+    <string name="add_exception">İstisna Ekle</string>
     <string name="exception_group">Grup</string>
-    
+    <string name="exception_groups">%d gruplar</string>
     <string name="exception_select_group">Grup seç</string>
-    
-    
-    
-    
+    <string name="exception_contact">Kişi</string>
+    <string name="exception_select_contact">Kişi seç</string>
+    <string name="exception_phone_number">Telefon numarası</string>
+    <string name="exception_action">İşlem</string>
     <string name="exception_select_action">Eylem seç</string>
     <string name="exception_action_always_record">Her zaman kaydet</string>
     <string name="exception_action_never_record">Kayıt etme</string>
-    
-    
-    
-    
-    
-    
-    
+    <string name="exception_groups_not_found">Gruplar bulunamadı</string>
+    <string name="exception_contacts_not_found">Kişiler bulunamadı</string>
+    <string name="exceptions_not_added">İstisnalar eklenmemiş</string>
+    <string name="exception_by_contact">Kişiye göre</string>
+    <string name="exception_by_group">Grupa göre</string>
+    <string name="exception_by_phone_number">Telefon numarasına göre</string>
+    <string name="exception_delete_message">Bu istisnayı silmek istediğinizden emin misiniz ?</string>
 
     <!-- Settings -> Folders and Files -->
     <string name="folder">Klasör</string>
-    
-    
-    
+    <string name="folder_chooser_up_to">↑ Yukarı %s</string>
+    <string name="create_new_folder">Yeni klasör oluştur…</string>
+    <string name="dialog_title_new_folder">Yeni klasör</string>
     <string name="automatic_cleanup">Otomatik temizleme</string>
     <string name="max_number_of_files">Max. dosya sayısı</string>
     <string name="max_number_of_files_message">Bir sayı giriniz (0 - sonsuz)</string>
@@ -245,7 +246,7 @@
     <string name="max_age_of_recordings">Max. kayıt ömrü</string>
     <string name="max_age_of_recordings_message">Gün olarak değere giriniz (0 - no sonsuz)</string>
     <string name="current_setting">Seçili ayarlar: %s</string>
-    
+    <string name="settings_filename">Dosya adı</string>
     <string name="filename_pattern">Şablon</string>
     <string name="time_pattern">Zaman kalıbı</string>
 
@@ -253,7 +254,7 @@
     <string name="pattern_contact_name">Kişi adı</string>
     <string name="pattern_phone_number">Telefon numarası</string>
     <string name="pattern_call_time">Çağrı zamanı</string>
-    
+    <string name="pattern_call_timestamp">çağrı zaman damgası (unix saati)</string>
     <string name="pattern_call_type">Çağrı tipi (Giden veya Gelen)</string>
     <string name="time_pattern_hours">saatler</string>
     <string name="time_pattern_minutes">dakikalar</string>
@@ -266,55 +267,55 @@
     <!--Settings -> Interface and Appearance-->
     <string name="language">Dil</string>
     <string name="select_language">Dil seçimiz</string>
-    
+    <string name="default_language">Varsayılan dil</string>
     <string name="category_notification">Bildirimler</string>
     <string name="show_notification">Simgeyi göster</string>
-    
-    
-    
-    
+    <string name="show_notification_summary">Durum çubuğunda kalıcı bildirim</string>
+    <string name="hide_icon_but_keep_notification">Simgeyi gizle, ama bildirim kalsın</string>
+    <string name="hide_icon_but_keep_notification_summary">Simgeyi gizle, ama durum çubuğunda bildirim kalsın</string>
+    <string name="category_incall_control_button">Çağrı içi kontrol tuşu</string>
     <string name="incall_control_for_outgoing">Giden aramalar için</string>
-    
+    <string name="incall_control_for_outgoing_summary">Giden aramalarda çağrı için kontrol tuşunu göster</string>
     <string name="incall_control_for_incoming">Cevapsız aramalar için</string>
-    
-    
-    
+    <string name="incall_control_for_incoming_summary">Gelen aramalarda çağrı içi kontrol tuşunu göster</string>
+    <string name="hide_button_while_recording">Kayıt esnasında tuşu gizle</string>
+    <string name="hide_button_while_recording_summary">Kayıt başladığında çağrı içi kontrol tuşunu gizle</string>
     <string name="show_button_while_ringing">Telefon çalarken butonu göster</string>
     <string name="show_button_while_ringing_summary">Arama içi kontrol butonunu cevapsız çağrı cevaplanmadan önce göster</string>
     <string name="vertical_position">Dikey poziyon</string>
-    
+    <string name="vertical_position_summary">%s dp, ekran merkezine göre konumu</string>
     <string name="horizontal_position">Yatay poziyon</string>
-    
-    
+    <string name="horizontal_position_summary">%s dp, ekran merkezine göre konumu</string>
+    <string name="hide_button_before_answer">Cevaplamadan önce tuşu gizle</string>
     <string name="hide_button_before_answer_summary">Çağrı içi kontrol butonunu bağlantı kurulmadan gösterme</string>
-    
-    
-    
+    <string name="long_press_action">Kontrol tuşu uzun dokunma eylemi</string>
+    <string name="long_press_action_dragging_the_button">Tuşu sürükle</string>
+    <string name="long_press_action_hang_up">Aramayı kapat ve otomatik olarak ara</string>
     <string name="category_main_screen">Ana Ekran</string>
-    
-    
+    <string name="hide_starred_recordings">Yıldızlı kayıtları gizle</string>
+    <string name="hide_starred_recordings_summary">Tüm kayıtlar ile birlikte yıldızlı kayıtları gösterme</string>
 
     <!-- Settings -> Cloud -->
-    
+    <string name="cloud_provider">Bulut sağlayıcısı</string>
     <string name="cloud_provider_dropbox">Dropbox</string>
-    
-    
-    
-    
+    <string name="sign_in_dropbox">Dropbox\'a Giriş yap</string>
+    <string name="sign_out_dropbox">Dropbox çıkış yap</string>
+    <string name="cloud_provider_google_drive"/>
+    <string name="cloud_common_settings">Genel</string>
     <string name="cloud_wifi_only">sadece Wi-Fi</string>
     <string name="cloud_auto_upload">Otomatik gönder</string>
     <string name="cloud_auto_upload_summary">Görüşmeden sonra kaydı buluta gönder</string>
-    
-    
+    <string name="cloud_upload_starred">Yıldızlıları gönder</string>
+    <string name="cloud_upload_starred_summary">Kaydı yıldız işaretlediğimde buluta gönder</string>
 
     <!-- Notification -->
-    
-    
-    
-    
-    
-    
-    
+    <string name="notify_uploading_dropbox">Dropbox\'a yükleniyor</string>
+    <string name="notify_converting_to_amr">AMR\'ye dönüştürülüyor</string>
+    <string name="notify_converting_to_mp3">MP3\'e dönüştürülüyor</string>
+    <string name="notify_encrypting">Şifreleniyor</string>
+    <string name="notify_decrypting">Çözülüyor</string>
+    <string name="notify_waiting_for_calls">Aramalar bekliyor</string>
+    <string name="notify_tasks_remaining">%d görev kaldı</string>
 
     <!-- Password dialog -->
     <string name="wrong_password">Yanlış şifre</string>
@@ -325,17 +326,17 @@
     <string name="category_encryption">Şifreleme</string>
     <string name="category_application">Uygulama</string>
     <string name="create_new_key">Yeni anahtar oluştur</string>
-    
-    
+    <string name="create_new_key_summary">Bu anahtar daha sonra kayıtları şifrelemek veya uygulamaya girmek için kullanılır</string>
+    <string name="delete_key">Anahtarı sil</string>
     <string name="change_password">Şifre değiştir</string>
-    
-    
+    <string name="delete_key_summary">Uyarı! Eğer aynı şifre ile yeni anahtar oluştursanız bile önceki şifrelenmiş kayıtlarınızı asla kurtaramazsınız</string>
+    <string name="delete_key_message">Silme işleminden sonra bu anahtar ile şifrelenmiş kayıtları kurtarmak için mümkün olmayacaktır. Devam etmek istediğinizden emin misiniz?</string>
     <string name="enter_old_password">Eski şifreniz</string>
     <string name="enter_new_password">Yeni şifrenizi girin</string>
     <string name="re_enter_new_password">Tekrar yeni şifreniz</string>
     <string name="require_password">Şifre gerekli</string>
     <string name="require_password_summary">Uygulamayı açmak için şifre gerekli</string>
-    
+    <string name="require_password_summary_no_key">Uygulamayı açmak için parola gerekli. Bunu aktif yapmak için ilk önce anahtar oluştrmalısınız</string>
     <string name="lock_after">Sonra kilitle</string>
     <string name="lock_after_exit">Çıkış</string>
     <string name="lock_after_1_minute">1 dk</string>
@@ -343,22 +344,22 @@
     <string name="lock_after_5_minutes">5 Dk</string>
     <string name="lock_after_10_minutes">10 Dk</string>
     <string name="app_admin">Uygulama Yöneticisi</string>
-    
-    
+    <string name="app_admin_summary">Call Recorderi kaldırılmasını engellemek için gereklidir</string>
+    <string name="app_admin_explanation">Call Recorder silinmesini engellemek dışında harhangi bir aygıt yöneticisi özelliğini kullanmayacak</string>
     <string name="aes_128bit">128-bit AES (Hızlı)</string>
     <string name="aes_192bit">192-bit AES (Dengeli)</string>
     <string name="aes_256bit">256-bit AES (Güçlü)</string>
 
     <!-- Settings -> Audio player -->
-    
+    <string name="use_built_in_player">Yerleşik oynatıcıyı kullan</string>
     <string name="audio_output">Ses çıkışı</string>
-    
+    <string name="audio_output_summary">%s (oynat/durdur tuşuna uzun dokunma geçiş yapacaktır )</string>
     <string name="main_speaker">Ana hoparlör</string>
     <string name="phone_speaker">Kulak hoparlörü</string>
     <string name="use_proximity_sensor">Yakınlık sensörünü kullan</string>
-    
+    <string name="use_proximity_sensor_summary">Oynatma sırasında yakınlık sensörünü devre dışı bırak</string>
     <string name="switch_audio_output">Ses çıkışına geç</string>
-    
+    <string name="switch_audio_output_summary">Yakınlık sensörüne göre ses çıkışını otomatik ayarla</string>
     <string name="android_wav_decoder">WAV için android çözücü</string>
     <string name="android_wav_decoder_summary">WAV yürütmek için yerleşik android araçlarını kullan</string>
     <string name="android_amr_decoder">Android AMR çözümleyici</string>
@@ -370,55 +371,55 @@
     <string name="root_access_yes">Hayır</string>
     <string name="dual_sim_phone">Çift simli telefon</string>
     <string name="dual_sim_phone_summary">ikinci sim kartından gelen aramaları tanıyamıyorsa bunu etkinleştirin</string>
-    
+    <string name="send_logs_to_the_developer">Günlük kayıtlarını geliştiriciye gönder</string>
 
     <!-- General -->
     <string name="contact_unknown">Bilinmeyen</string>
-    
+    <string name="button_choose">Seçin</string>
     <string name="button_ok">Tamam</string>
-    
-    
+    <string name="button_call">Ara</string>
+    <string name="button_buy">Satın al</string>
     <string name="button_edit">Düzenle</string>
     <string name="button_cancel">Vazgeç</string>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <string name="button_create">Oluştur</string>
+    <string name="button_delete">Sil</string>
+    <string name="button_restore">Geri yükle</string>
+    <string name="button_keep">Sakla</string>
+    <string name="button_play">Oynat</string>
+    <string name="button_pause">Durdur</string>
+    <string name="button_delete_wait">Sil (%d)</string>
+    <string name="decline">Reddet</string>
+    <string name="accept">Kabul et</string>
+    <string name="call_incoming">Gelen</string>
+    <string name="call_outgoing">Giden</string>
     <string name="please_wait">Lütfen bekleyin…</string>
     <string name="start_recording">Kaydı Başlat</string>
     <string name="stop_recording">Kaydı Durdur</string>
-    
+    <string name="action_mode_selected">%d seçili</string>
     <string name="switch_on">Açık</string>
     <string name="switch_off">Kapalı</string>
 
     <!--Toasts-->
-    
-    
-    
-    
+    <string name="toast_wait_for_operation_to_complete">İşlemin tamamlanması için bekle</string>
+    <string name="toast_recording_is_off">Görüşme Kaydı Kapatıldı</string>
+    <string name="toast_recording_is_on">Görüşme Kaydı Açıldı</string>
+    <string name="toast_file_deleted">Dosya başarıyla silindi</string>
 
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">Bu aramayı kaydet</string>
-    
+    <string name="open_contact">Kişiyi görüntüle</string>
 
     <!--After call actions dialog-->
     <string name="cloud_added">Eklendi</string>
 
     <!--Notification-->
-    
-    
-    
+    <string name="waiting_for_answer">Cevap için bekleniyor</string>
+    <string name="recording_in_progress">Kayıt devam ediyor</string>
+    <string name="no_recording_in_progress">Devam eden kayıt yok</string>
     <string name="an_error_has_occurred">Bir hata oluştu</string>
 
     <!--About-->
-    
+    <string name="about_call_recorder">Call Recorder Hakkında</string>
     <string name="version">Versiyon</string>
     <string name="copyright">Telif hakkı</string>
     <string name="copyright_summary">© %s Alexander Skvortsov (skvalex)</string>
@@ -426,11 +427,11 @@
     <string name="about_many_thanks_summary">Alexey Subbotin (avs234)</string>
 
     <!--About -> Other-->
-    
-    
+    <string name="category_other">Diğer</string>
+    <string name="open_source_licenses">Açık kaynak lisansları</string>
 
     <!--About -> Translators-->
-    
+    <string name="category_translators">Çevirmenler</string>
     <string name="german_translation">Almanca çeviri</string>
     <string name="german_translation_summary">Marc Hillesheim ve Thomas Käfer tarafından</string>
     <string name="polish_translation">Lehçe çeviri</string>
@@ -444,11 +445,11 @@
     <string name="slovak_translation">Slovakça çeviri</string>
     <string name="slovak_translation_summary">Loránt Gerencsér tarafından</string>
     <string name="italian_translation">İtalyanca çeviri</string>
-    
+    <string name="italian_translation_summary">Luca Trevisan and Francesco Cafagna tarafından</string>
     <string name="persian_translation">Farsça çeviri</string>
     <string name="persian_translation_summary">Alireza Afkar tarafından</string>
     <string name="chinese_translation">Çince çeviri</string>
-    
+    <string name="chinese_translation_summary">qhq and Yu Fei tarafından</string>
     <string name="czech_translation">Çekce çeviri</string>
     <string name="czech_translation_summary">Ales Kerner and Lukas Waldauf tarafından</string>
     <string name="arabic_translation">Arapça çeviri</string>
@@ -493,143 +494,6 @@
     <string name="punjabi_translation_summary">Raj Verma tarafından</string>
     <string name="finnish_translation">Fince çeviri</string>
     <string name="finnish_translation_summary">Eero Linnainmaa tarafından</string>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-<string name="records_size">kayıtlar: %1$s, boyut: %2$s</string>
-    <string name="space_free_of">%1$s boş alan %2$s</string>
-
-    <string name="restore_settings">Ayarları geri yükle</string>
-
-    <string name="list_header_yesterday">Dün</string>
-    <string name="queued">Sıraya alındı</string>
-    <string name="menu_convert_to_amr">AMR ye dönüştür</string>
-    <string name="settings_open_unlocker">Unlocker Aç</string>
-    <string name="license_verified_summary">Gizlemek için dokun</string>
-    <string name="license_not_market_managed">Bu versiyon henüz markette yayınlanmadı</string>
-    <string name="license_incorrect_response">Play Storeden geçersiz lisans bilgileri</string>
-    <string name="license_trial_expired">Deneme sürümü sona erdi</string>
-    <string name="license_trial_expired_summary">Lütfen, bu versiyonu kaldırın ve tam versiyonu satın alın</string>
-    <string name="device_change_settings_empty">Bu aygıt için ayarlar zaten daha önce ayarlanmış</string>
-    <string name="exceptions_summary">Kişiler, gruplar veya numaralar için karmaşık işlemler atayın</string>
-    <string name="start_recording_on_answer">Çağrıya cevap verince kayda başla</string>
-    <string name="start_recording_on_answer_summary">Giden arama yanıtlandığında, kaydetmeye başla. Uygulama karşı tarafın ne zaman cevaplayağını tam kestiremez. Bu özellik bazı cihazlarda başarısız olabilir. Android 4.1 Jell Bean dan itibaren root geerektirir. Kernel loggerin etkin olması gerekir.</string>
-    <string name="delay_before_start_recording_summary">Giden için: %1$s, Gelen için: %2$s</string>
-    <string name="volume_control_summary">Tx: %1$s, Rx: %2$s</string>
-    <string name="volume_control_overall">Toplam ses kuvveti</string>
-    <string name="volume_control_tx">Tx</string>
-    <string name="volume_control_rx"/>
-    <string name="category_wav_and_mp3_settings">WAV &amp; MP3 ayarları</string>
-    <string name="alsa_is_not_installed">ALSA yüklü olmalıdır</string>
-    <string name="alsa_is_not_installed_summary">ALSA\'yı yüklemek için buraya dokun</string>
-
-    <string name="add_exception">İstisna Ekle</string>
-    <string name="exception_groups">%d gruplar</string>
-    <string name="exception_contact">Kişi</string>
-    <string name="exception_select_contact">Kişi seç</string>
-    <string name="exception_phone_number">Telefon numarası</string>
-    <string name="exception_action">İşlem</string>
-    <string name="exception_groups_not_found">Gruplar bulunamadı</string>
-    <string name="exception_contacts_not_found">Kişiler bulunamadı</string>
-    <string name="exceptions_not_added">İstisnalar eklenmemiş</string>
-    <string name="exception_by_contact">Kişiye göre</string>
-    <string name="exception_by_group">Grupa göre</string>
-    <string name="exception_by_phone_number">Telefon numarasına göre</string>
-    <string name="exception_delete_message">Bu istisnayı silmek istediğinizden emin misiniz ?</string>
-
-    <string name="folder_chooser_up_to">↑ Yukarı %s</string>
-    <string name="create_new_folder">Yeni klasör oluştur…</string>
-    <string name="dialog_title_new_folder">Yeni klasör</string>
-    <string name="settings_filename">Dosya adı</string>
-    <string name="pattern_call_timestamp">çağrı zaman damgası (unix saati)</string>
-    <string name="default_language">Varsayılan dil</string>
-    <string name="show_notification_summary">Durum çubuğunda kalıcı bildirim</string>
-    <string name="hide_icon_but_keep_notification">Simgeyi gizle, ama bildirim kalsın</string>
-    <string name="hide_icon_but_keep_notification_summary">Simgeyi gizle, ama durum çubuğunda bildirim kalsın</string>
-    <string name="category_incall_control_button">Çağrı içi kontrol tuşu</string>
-    <string name="incall_control_for_outgoing_summary">Giden aramalarda çağrı için kontrol tuşunu göster</string>
-    <string name="incall_control_for_incoming_summary">Gelen aramalarda çağrı içi kontrol tuşunu göster</string>
-    <string name="hide_button_while_recording">Kayıt esnasında tuşu gizle</string>
-    <string name="hide_button_while_recording_summary">Kayıt başladığında çağrı içi kontrol tuşunu gizle</string>
-    <string name="vertical_position_summary">%s dp, ekran merkezine göre konumu</string>
-    <string name="horizontal_position_summary">%s dp, ekran merkezine göre konumu</string>
-    <string name="hide_button_before_answer">Cevaplamadan önce tuşu gizle</string>
-    <string name="long_press_action">Kontrol tuşu uzun dokunma eylemi</string>
-    <string name="long_press_action_dragging_the_button">Tuşu sürükle</string>
-    <string name="long_press_action_hang_up">Aramayı kapat ve otomatik olarak ara</string>
-    <string name="hide_starred_recordings">Yıldızlı kayıtları gizle</string>
-    <string name="hide_starred_recordings_summary">Tüm kayıtlar ile birlikte yıldızlı kayıtları gösterme</string>
-
-    <string name="cloud_provider">Bulut sağlayıcısı</string>
-    <string name="sign_in_dropbox">Dropbox\'a Giriş yap</string>
-    <string name="sign_out_dropbox">Dropbox çıkış yap</string>
-    <string name="cloud_provider_google_drive"/>
-    <string name="cloud_common_settings">Genel</string>
-    <string name="cloud_upload_starred">Yıldızlıları gönder</string>
-    <string name="cloud_upload_starred_summary">Kaydı yıldız işaretlediğimde buluta gönder</string>
-
-    <string name="notify_uploading_dropbox">Dropbox\'a yükleniyor</string>
-    <string name="notify_converting_to_amr">AMR\'ye dönüştürülüyor</string>
-    <string name="notify_converting_to_mp3">MP3\'e dönüştürülüyor</string>
-    <string name="notify_encrypting">Şifreleniyor</string>
-    <string name="notify_decrypting">Çözülüyor</string>
-    <string name="notify_waiting_for_calls">Aramalar bekliyor</string>
-    <string name="notify_tasks_remaining">%d görev kaldı</string>
-
-    <string name="create_new_key_summary">Bu anahtar daha sonra kayıtları şifrelemek veya uygulamaya girmek için kullanılır</string>
-    <string name="delete_key">Anahtarı sil</string>
-    <string name="delete_key_summary">Uyarı! Eğer aynı şifre ile yeni anahtar oluştursanız bile önceki şifrelenmiş kayıtlarınızı asla kurtaramazsınız</string>
-    <string name="delete_key_message">Silme işleminden sonra bu anahtar ile şifrelenmiş kayıtları kurtarmak için mümkün olmayacaktır. Devam etmek istediğinizden emin misiniz?</string>
-    <string name="require_password_summary_no_key">Uygulamayı açmak için parola gerekli. Bunu aktif yapmak için ilk önce anahtar oluştrmalısınız</string>
-    <string name="app_admin_summary">Call Recorderi kaldırılmasını engellemek için gereklidir</string>
-    <string name="app_admin_explanation">Call Recorder silinmesini engellemek dışında harhangi bir aygıt yöneticisi özelliğini kullanmayacak</string>
-    <string name="use_built_in_player">Yerleşik oynatıcıyı kullan</string>
-    <string name="audio_output_summary">%s (oynat/durdur tuşuna uzun dokunma geçiş yapacaktır )</string>
-    <string name="use_proximity_sensor_summary">Oynatma sırasında yakınlık sensörünü devre dışı bırak</string>
-    <string name="switch_audio_output_summary">Yakınlık sensörüne göre ses çıkışını otomatik ayarla</string>
-    <string name="send_logs_to_the_developer">Günlük kayıtlarını geliştiriciye gönder</string>
-
-    <string name="button_choose">Seçin</string>
-    <string name="button_call">Ara</string>
-    <string name="button_buy">Satın al</string>
-    <string name="button_create">Oluştur</string>
-    <string name="button_delete">Sil</string>
-    <string name="button_restore">Geri yükle</string>
-    <string name="button_keep">Sakla</string>
-    <string name="button_play">Oynat</string>
-    <string name="button_pause">Durdur</string>
-    <string name="button_delete_wait">Sil (%d)</string>
-    <string name="decline">Reddet</string>
-    <string name="accept">Kabul et</string>
-    <string name="call_incoming">Gelen</string>
-    <string name="call_outgoing">Giden</string>
-    <string name="action_mode_selected">%d seçili</string>
-    <string name="toast_wait_for_operation_to_complete">İşlemin tamamlanması için bekle</string>
-    <string name="toast_recording_is_off">Görüşme Kaydı Kapatıldı</string>
-    <string name="toast_recording_is_on">Görüşme Kaydı Açıldı</string>
-    <string name="toast_file_deleted">Dosya başarıyla silindi</string>
-
-    <string name="open_contact">Kişiyi görüntüle</string>
-
-    <string name="waiting_for_answer">Cevap için bekleniyor</string>
-    <string name="recording_in_progress">Kayıt devam ediyor</string>
-    <string name="no_recording_in_progress">Devam eden kayıt yok</string>
-    <string name="about_call_recorder">Call Recorder Hakkında</string>
-    <string name="category_other">Diğer</string>
-    <string name="open_source_licenses">Açık kaynak lisansları</string>
-
-    <string name="category_translators">Çevirmenler</string>
-    <string name="italian_translation_summary">Luca Trevisan and Francesco Cafagna tarafından</string>
-    <string name="chinese_translation_summary">qhq and Yu Fei tarafından</string>
     <string name="belarusian_translation">Belarus çeviri</string>
     <string name="belarusian_translation_summary">Alexander Kuvshinov tarafından</string>
     <string name="vietnamese_translation">Vietnamca çeviri</string>

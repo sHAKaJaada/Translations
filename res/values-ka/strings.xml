@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">გამოყენების პირობა</string>
@@ -30,22 +30,23 @@
     <string name="action_add_star">აღნიშვნა</string>
     <string name="action_remove_star">მონიშვნის წაშლა</string>
     <string name="action_share">გაზიარება</string>
-    
+    <string name="action_cancel_tasks">ბრძანების ურყოფა</string>
     <string name="action_select_all">აირჩიეთ ყველა</string>
     <string name="sort_by_date">თარიღის მიხედვით</string>
     <string name="sort_by_contact">კონტაქტების მიხედვით</string>
     <string name="sort_by_file_size">ზომის მიხედვით</string>
-    
-    
+    <string name="records_size">ჩანაწერი:%1$s,ზომა:%2$s</string>
+    <string name="space_free_of">%1$s თავისუფალი %2$s</string>
 
     <!--Import settings -->
-    
+    <string name="restore_settings">პარამეტრების აღდგენა</string>
 
     <!-- List -->
     <string name="list_header_today">დღეს</string>
     <string name="list_header_yesterday">გუშინ</string>
     <string name="queued">რიგშია</string>
     <string name="no_connection">დაკავშირება არაა</string>
+    <string name="add_to_contacts">კონტაქტებში დამატება</string>
 
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">დამატება Dropbox ზე</string>
@@ -89,7 +90,7 @@
     <string name="recorded_calls">ჩაწერილი ზარები</string>
 
     <!--  Settings -> Headers -->
-    
+    <string name="settings_open_unlocker">unlocker ის გახსნა</string>
     <string name="settings_recording">ჩაწერა</string>
     <string name="settings_folders_and_files">ფაილები და პაპკები</string>
     <string name="settings_ui_and_appearance">ინტერფეისი და გაფორმება</string>
@@ -116,8 +117,8 @@
     <string name="license_error_contacting_server">სერვერთან დაკავშირება ვერ ხერხდება</string>
     <string name="license_server_error">სერვერის შეცდომა</string>
     <string name="license_over_quota">ბევრი მოთხოვნაა ამ მოწყობილობიდან</string>
-    
-    
+    <string name="license_trial_expired">საცდელი უფასო პერიოდი გავიდა</string>
+    <string name="license_trial_expired_summary">გთხოვთ ,წაშალოთ ეს ვერსია სანამ იყიდით ახალს</string>
     <string name="buy_full_version">სრული ვერსიის ყიდვა</string>
     <string name="buy_full_version_summary">მიმდინარე ვერსიას ვადა გასდის %s</string>
 
@@ -215,7 +216,7 @@
     <!-- Settings -> Recording -> Exceptions -->
     <string name="add_exception">გამონაკლისი</string>
     <string name="exception_group">ჯგუფი</string>
-    
+    <string name="exception_groups">%d ჯგუფები</string>
     <string name="exception_select_group">ჯგუფის შერჩევა</string>
     <string name="exception_contact">კონტაქტი</string>
     <string name="exception_select_contact">კონტაქტის შერჩევა</string>
@@ -235,8 +236,8 @@
     <!-- Settings -> Folders and Files -->
     <string name="folder">პაპკა</string>
     <string name="folder_chooser_up_to">↑ზემოთ%s</string>
-    
-    
+    <string name="create_new_folder">გავხსნათ ახალი საქაღალდე</string>
+    <string name="dialog_title_new_folder">ახალი საქაღალდე</string>
     <string name="automatic_cleanup">ავტომატური გაწმენდა</string>
     <string name="max_number_of_files">ფაილების მაქსიმალური რაოდენობა</string>
     <string name="max_number_of_files_message">შეიყვანეთ ციფრი 0 დან უსასრულოდ</string>
@@ -291,8 +292,8 @@
     <string name="long_press_action_dragging_the_button">ღილაკების გადაადგილება</string>
     <string name="long_press_action_hang_up">ზარის შეწყვეტა და ავტომატურად გადარეკვა</string>
     <string name="category_main_screen">მთავარი ეკრანი</string>
-    
-    
+    <string name="hide_starred_recordings">დამალე აღნიშნული ჩანაწერები</string>
+    <string name="hide_starred_recordings_summary">არ აჩვენო მონიშნული ჩანაწერები ეკრანზე სხვებთან ერთად</string>
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">სერვერის პროვაიდერი</string>
@@ -309,10 +310,10 @@
 
     <!-- Notification -->
     <string name="notify_uploading_dropbox">მიმდინარეობს სერვერზე ატვირთვა</string>
-    
-    
-    
-    
+    <string name="notify_converting_to_amr">კონვერტაცია AMR ად</string>
+    <string name="notify_converting_to_mp3">კონვერტაცია MP3 ად</string>
+    <string name="notify_encrypting">მიმდინარეობს დამუშავება</string>
+    <string name="notify_decrypting">მიმდინარეობს დამუშავება</string>
     <string name="notify_waiting_for_calls">ზარის მოლოდინი</string>
     <string name="notify_tasks_remaining">%d დარჩა</string>
 
@@ -370,19 +371,19 @@
     <string name="root_access_yes">დიახ</string>
     <string name="dual_sim_phone">ორსიმიანი ტელეფონი</string>
     <string name="dual_sim_phone_summary">გააქტიურე, თუ ტელეფონი არ იწერს მეორე სიმიდან</string>
-    
+    <string name="send_logs_to_the_developer">გაუგზავნეთ მონაცემები პროგრამის შემქმნელს</string>
 
     <!-- General -->
     <string name="contact_unknown">ამოუცნობი</string>
     <string name="button_choose">არჩევა</string>
     <string name="button_ok">OK</string>
     <string name="button_call">დარეკვა</string>
-    
+    <string name="button_buy">ყიდვა</string>
     <string name="button_edit">შესწორება</string>
     <string name="button_cancel">გაუქმება</string>
     <string name="button_create">შექმნა</string>
     <string name="button_delete">წაშლა</string>
-    
+    <string name="button_restore">აღდგენა</string>
     <string name="button_keep">შენახვა</string>
     <string name="button_play">დაკვრა(Play)</string>
     <string name="button_pause">დაპაუზება</string>
@@ -426,11 +427,11 @@
     <string name="about_many_thanks_summary">ალექსი სუბოტინს</string>
 
     <!--About -> Other-->
-    
-    
+    <string name="category_other">სხვა</string>
+    <string name="open_source_licenses">ლიცენზიის ნახვა</string>
 
     <!--About -> Translators-->
-    
+    <string name="category_translators">თარგმანები</string>
     <string name="german_translation">გერმანული თარგმანი</string>
     <string name="german_translation_summary">მარკ ჰილეშეიმის და თომას კაფერის მიერ</string>
     <string name="polish_translation">პოლონური თარგმანი</string>
@@ -503,35 +504,6 @@
     <string name="gujarati_translation_summary">აბჰიშეკ შარმას მიერ</string>
     <string name="tamil_translation">თამილური თარგმანი</string>
     <string name="tamil_translation_summary">აშიშ შარმას მიერ</string>
-    
-    
-<string name="greek_translation_summary">ლეფტერის ელიდესის მიერ</string>
-<string name="action_cancel_tasks">"ბრძანების  ურყოფა"</string>
-    <string name="records_size">ჩანაწერი:%1$s,ზომა:%2$s</string>
-    <string name="space_free_of">%1$s თავისუფალი %2$s</string>
-
-    <string name="restore_settings">პარამეტრების აღდგენა</string>
-
-    <string name="settings_open_unlocker">unlocker ის გახსნა</string>
-    <string name="license_trial_expired">"საცდელი უფასო  პერიოდი გავიდა"</string>
-    <string name="license_trial_expired_summary">გთხოვთ ,წაშალოთ ეს ვერსია სანამ იყიდით ახალს</string>
-    <string name="exception_groups">%d ჯგუფები</string>
-    <string name="create_new_folder">გავხსნათ ახალი საქაღალდე</string>
-    <string name="dialog_title_new_folder">ახალი საქაღალდე</string>
-    <string name="hide_starred_recordings">დამალე აღნიშნული ჩანაწერები</string>
-    <string name="hide_starred_recordings_summary">არ აჩვენო მონიშნული ჩანაწერები ეკრანზე სხვებთან ერთად</string>
-
-    <string name="notify_converting_to_amr">კონვერტაცია AMR ად</string>
-    <string name="notify_converting_to_mp3">კონვერტაცია MP3 ად</string>
-    <string name="notify_encrypting">მიმდინარეობს დამუშავება</string>
-    <string name="notify_decrypting">მიმდინარეობს დამუშავება</string>
-    <string name="send_logs_to_the_developer">გაუგზავნეთ მონაცემები პროგრამის შემქმნელს</string>
-
-    <string name="button_buy">ყიდვა</string>
-    <string name="button_restore">აღდგენა</string>
-    <string name="category_other">სხვა</string>
-    <string name="open_source_licenses">ლიცენზიის ნახვა</string>
-
-    <string name="category_translators">თარგმანები</string>
     <string name="greek_translation">ბერძნულად თარგმანი</string>
-    </resources>
+    <string name="greek_translation_summary">ლეფტერის ელიდესის მიერ</string>
+</resources>

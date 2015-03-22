@@ -46,6 +46,7 @@
     <string name="list_header_yesterday">دیروز</string>
     <string name="queued">در صف</string>
     <string name="no_connection">بدون اتصال</string>
+    <string name="add_to_contacts">افزودن به مخاطبین</string>
 
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">افزودن به دراپ باکس</string>

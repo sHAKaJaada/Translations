@@ -46,6 +46,7 @@
     <string name="list_header_yesterday">Ieri</string>
     <string name="queued">În așteptare</string>
     <string name="no_connection">Fără conexiune</string>
+    <string name="add_to_contacts">Adaugă la contacte</string>
 
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">Adaugă în Dropbox</string>

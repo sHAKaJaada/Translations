@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">Услови коришћења</string>
@@ -39,13 +39,14 @@
     <string name="space_free_of">%1$s слободно од %2$s</string>
 
     <!--Import settings -->
-    
+    <string name="restore_settings">Поништити подешавања</string>
 
     <!-- List -->
     <string name="list_header_today">Данас</string>
     <string name="list_header_yesterday">Јуче</string>
     <string name="queued">На чекању</string>
     <string name="no_connection">Нема конекције</string>
+    <string name="add_to_contacts">Додати у контакте</string>
 
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">Додај у Dropbox</string>
@@ -215,7 +216,7 @@
     <!-- Settings -> Recording -> Exceptions -->
     <string name="add_exception">Додај у изузетке</string>
     <string name="exception_group">Група</string>
-    
+    <string name="exception_groups">%d групе</string>
     <string name="exception_select_group">Изабери групу</string>
     <string name="exception_contact">Контакт</string>
     <string name="exception_select_contact">Одабир контакта</string>
@@ -235,8 +236,8 @@
     <!-- Settings -> Folders and Files -->
     <string name="folder">Фасцикла</string>
     <string name="folder_chooser_up_to">↑ До %s</string>
-    
-    
+    <string name="create_new_folder">Направити нову фасциклу…</string>
+    <string name="dialog_title_new_folder">Нова фасцикла</string>
     <string name="automatic_cleanup">Самостално одржавање</string>
     <string name="max_number_of_files">Највише снимака</string>
     <string name="max_number_of_files_message">Унети број (0 = неограничено)</string>
@@ -291,8 +292,8 @@
     <string name="long_press_action_dragging_the_button">Повлачење дугмета</string>
     <string name="long_press_action_hang_up">Одбаци позив и позови број аутоматски</string>
     <string name="category_main_screen">Главни приказ</string>
-    
-    
+    <string name="hide_starred_recordings">Сакрити фаворизоване снимке</string>
+    <string name="hide_starred_recordings_summary">Не приказивати фаворизоване снимке</string>
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">Cloud услуга</string>
@@ -382,7 +383,7 @@
     <string name="button_cancel">Откажи</string>
     <string name="button_create">Направите</string>
     <string name="button_delete">Обрисати</string>
-    
+    <string name="button_restore">Врати</string>
     <string name="button_keep">Задржати</string>
     <string name="button_play">Репродукуј</string>
     <string name="button_pause">Пауза</string>
@@ -426,11 +427,11 @@
     <string name="about_many_thanks_summary">Alexey Subbotin (avs234)</string>
 
     <!--About -> Other-->
-    
-    
+    <string name="category_other">Остало</string>
+    <string name="open_source_licenses">Лиценце отвореног кода</string>
 
     <!--About -> Translators-->
-    
+    <string name="category_translators">Преводиоци</string>
     <string name="german_translation">Немачки превод</string>
     <string name="german_translation_summary">Marc Hillesheim и Thomas Käfer</string>
     <string name="polish_translation">Пољски превод</string>
@@ -505,17 +506,4 @@
     <string name="tamil_translation_summary">Ashish Sharma</string>
     <string name="greek_translation">Грчки превод</string>
     <string name="greek_translation_summary">Lefteris (SomniusX) Eliades</string>
-<string name="exception_groups">%d групе</string>
-    <string name="create_new_folder">Направити нову фасциклу…</string>
-    <string name="dialog_title_new_folder">Нова фасцикла</string>
-    <string name="hide_starred_recordings">Сакрити фаворизоване снимке</string>
-    <string name="hide_starred_recordings_summary">Не приказивати фаворизоване снимке</string>
-
-    <string name="button_restore">Врати</string>
-    <string name="category_other">Остало</string>
-    <string name="open_source_licenses">Лиценце отвореног кода</string>
-
-    <string name="category_translators">Преводиоци</string>
-    <string name="restore_settings">Поништити подешавања</string>
-
-    </resources>
+</resources>

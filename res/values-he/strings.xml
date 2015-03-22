@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">כללי שימוש</string>
@@ -39,13 +39,14 @@
     <string name="space_free_of">%1$s פנוי מתוך %2$s</string>
 
     <!--Import settings -->
-    
+    <string name="restore_settings">שחזר הגדרות</string>
 
     <!-- List -->
     <string name="list_header_today">היום</string>
     <string name="list_header_yesterday">אתמול</string>
     <string name="queued">בתור</string>
     <string name="no_connection">אין חיבור</string>
+    <string name="add_to_contacts">הוסף לאנשי הקשר</string>
 
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">הוסף ל-Dropbox</string>
@@ -89,7 +90,7 @@
     <string name="recorded_calls">שיחות מוקלטות</string>
 
     <!--  Settings -> Headers -->
-    
+    <string name="settings_open_unlocker">הפעל פותח נעילה</string>
     <string name="settings_recording">הקלטה</string>
     <string name="settings_folders_and_files">תיקיות וקבצים</string>
     <string name="settings_ui_and_appearance">ממשק ומראה</string>
@@ -116,8 +117,8 @@
     <string name="license_error_contacting_server">תקלה ביצירת קשר עם השרת</string>
     <string name="license_server_error">תקלת שרת</string>
     <string name="license_over_quota">יותר מדי בקשות ממכשיר זה</string>
-    
-    
+    <string name="license_trial_expired">פגה תקופת הניסיון</string>
+    <string name="license_trial_expired_summary">אנא הסר גירסא זו לפני רכישת הגירסא המלאה</string>
     <string name="buy_full_version">קנה את הגירסה המלאה</string>
     <string name="buy_full_version_summary">הגירסא הנוכחית תפוג ב%s</string>
 
@@ -215,7 +216,7 @@
     <!-- Settings -> Recording -> Exceptions -->
     <string name="add_exception">הוסף יוצאי דופן</string>
     <string name="exception_group">קבוצה</string>
-    
+    <string name="exception_groups">%d קבוצות</string>
     <string name="exception_select_group">בחר קבוצה</string>
     <string name="exception_contact">איש קשר</string>
     <string name="exception_select_contact">בחר איש קשר</string>
@@ -235,8 +236,8 @@
     <!-- Settings -> Folders and Files -->
     <string name="folder">תיקייה</string>
     <string name="folder_chooser_up_to">↑ עד ל %s</string>
-    
-    
+    <string name="create_new_folder">צור ספריה חדשה…</string>
+    <string name="dialog_title_new_folder">ספריה חדשה</string>
     <string name="automatic_cleanup">ניקוי אוטומטי</string>
     <string name="max_number_of_files">מספר מקסימלי של קבצים</string>
     <string name="max_number_of_files_message">הכנס מספר (0 - ללא הגבלה)</string>
@@ -282,39 +283,39 @@
     <string name="show_button_while_ringing">הצג כפתור בזמן צלצול</string>
     <string name="show_button_while_ringing_summary">הצג כפתור שליטה במסך, לפני ששיחה נכנסת נענת</string>
     <string name="vertical_position">מיקום אנכי</string>
-    
+    <string name="vertical_position_summary">%s dp, סטיה ממרכז המסך</string>
     <string name="horizontal_position">מיקום אופקי</string>
-    
-    
+    <string name="horizontal_position_summary">%s dp, סטיה ממרכז המסך</string>
+    <string name="hide_button_before_answer">הסתר כפתור לפני מענה</string>
     <string name="hide_button_before_answer_summary">אל תציג כפתור שליטה במהלך שיחה עד שנוצר הקשר</string>
-    
-    
-    
+    <string name="long_press_action">פעולת לחיצה ארוכה</string>
+    <string name="long_press_action_dragging_the_button">גרירת הכפתור</string>
+    <string name="long_press_action_hang_up">נתק את השיחה והתקשר מיד בשנית</string>
     <string name="category_main_screen">מסך ראשי</string>
-    
-    
+    <string name="hide_starred_recordings">הסתר הקלטות מסומנות בכוכב</string>
+    <string name="hide_starred_recordings_summary">אל תציד הקלטות מסומנות בכוכב עם שאר ההקלטות</string>
 
     <!-- Settings -> Cloud -->
-    
+    <string name="cloud_provider">ספק ענן</string>
     <string name="cloud_provider_dropbox">דרופבוקס</string>
-    
-    
-    
-    
+    <string name="sign_in_dropbox">התחבר לDropbox</string>
+    <string name="sign_out_dropbox">התנתק מDropbox</string>
+    <string name="cloud_provider_google_drive">Google Drive</string>
+    <string name="cloud_common_settings">כללי</string>
     <string name="cloud_wifi_only">רשת אלחוטית בלבד</string>
     <string name="cloud_auto_upload">העלאה אוטומטית</string>
     <string name="cloud_auto_upload_summary">העלה הקלטה מיד אחרי השיחה</string>
-    
-    
+    <string name="cloud_upload_starred">העלה מסומן בכוכב</string>
+    <string name="cloud_upload_starred_summary">העלה הקלטות לענן כאשר סומנו בכוכב</string>
 
     <!-- Notification -->
-    
-    
-    
-    
-    
-    
-    
+    <string name="notify_uploading_dropbox">העלאה לDropbox</string>
+    <string name="notify_converting_to_amr">המרה לAMR</string>
+    <string name="notify_converting_to_mp3">המרה לMP3</string>
+    <string name="notify_encrypting">קידוד</string>
+    <string name="notify_decrypting">פיענוח</string>
+    <string name="notify_waiting_for_calls">ממתין לשיחות</string>
+    <string name="notify_tasks_remaining">%d משימות נותרו</string>
 
     <!-- Password dialog -->
     <string name="wrong_password">סיסמא שגויה</string>
@@ -325,17 +326,17 @@
     <string name="category_encryption">הצפנה</string>
     <string name="category_application">אפליקציות</string>
     <string name="create_new_key">צור סיסמא חדשה</string>
-    
-    
+    <string name="create_new_key_summary">סיסמא זו לשימוש מאוחר יותר לקידוד הקלטות או כניסה לאפליקציה</string>
+    <string name="delete_key">מחק סיסמא</string>
     <string name="change_password">שנה סיסמא</string>
-    
-    
+    <string name="delete_key_summary">אזהרה! לא תוכל לפענח הקלטות מקודדות עם סיסמא זו גם אם תיצור סיסמא זהה חדשה</string>
+    <string name="delete_key_message">לאחר המחיקה לא תוכל לפענח הקלטות מקודדות עם מפתח זה. האם הרצונך להמשיך?</string>
     <string name="enter_old_password">הכנס סיסמא ישנה</string>
     <string name="enter_new_password">הכנס סיסמא חדשה</string>
     <string name="re_enter_new_password">הכנס סיסמא חדשה בשנית</string>
     <string name="require_password">דרושה סיסמא</string>
     <string name="require_password_summary">דרושה סיסמא בכדי לפתוח את האפליקציה</string>
-    
+    <string name="require_password_summary_no_key">נדרשת סיסמא לפתיחת האפליקציה. להפעלת אפשרות זו צור סיסמא</string>
     <string name="lock_after">נעל לאחר מכן</string>
     <string name="lock_after_exit">צא</string>
     <string name="lock_after_1_minute">דקה אחת</string>
@@ -343,22 +344,22 @@
     <string name="lock_after_5_minutes">חמש דקות</string>
     <string name="lock_after_10_minutes">עשר דקות</string>
     <string name="app_admin">מנהל אפליקציה</string>
-    
-    
+    <string name="app_admin_summary">הכרחי למניעת הסרת התקנת Call Recorder</string>
+    <string name="app_admin_explanation">Call Recorder לא משתמש באף אפשרויות מנהל של המכשיר למעט הגנה מפני הסרת ההתקנה</string>
     <string name="aes_128bit">128-bit AES (מהיר יותר)</string>
     <string name="aes_192bit">192-bit AES (מאוזן)</string>
     <string name="aes_256bit">256-bit AES (חזק יותר)</string>
 
     <!-- Settings -> Audio player -->
-    
+    <string name="use_built_in_player">השתמש בנגן המכשיר</string>
     <string name="audio_output">פלט קול</string>
-    
+    <string name="audio_output_summary">%s (לחיצה ארוכה על כפתור ההפעלההשהייה תפעיל את זה גם כן)</string>
     <string name="main_speaker">רמקול ראשי</string>
     <string name="phone_speaker">רמקול המכשיר</string>
     <string name="use_proximity_sensor">השתמש בחיישן קירבה</string>
-    
+    <string name="use_proximity_sensor_summary">כבה מסך באמצעות חיישן הקרבה בעת השמעת הקלטה</string>
     <string name="switch_audio_output">שנה פלט קול</string>
-    
+    <string name="switch_audio_output_summary">החלף מקור ניגון אוטומטית כאשר מסר פועלכבוי באמצעות חיישן קרבה</string>
     <string name="android_wav_decoder">מקודד אנדרואיד ל-WAV</string>
     <string name="android_wav_decoder_summary">השתמש בכלי האנדרואיד המקוריים לניגון WAV</string>
     <string name="android_amr_decoder">מפענח אנדרואיד של AMR</string>
@@ -370,55 +371,55 @@
     <string name="root_access_yes">כן</string>
     <string name="dual_sim_phone">טלפון בעל זוג כרטיסי סים</string>
     <string name="dual_sim_phone_summary">הפעל אם האפליקציה לא יכולה לקבוע אם השיחות מכרטיס הסים השני</string>
-    
+    <string name="send_logs_to_the_developer">שלח לוג למפתח</string>
 
     <!-- General -->
     <string name="contact_unknown">לא ידוע</string>
-    
+    <string name="button_choose">בחר</string>
     <string name="button_ok">אישור</string>
-    
-    
+    <string name="button_call">התקשר</string>
+    <string name="button_buy">קנה</string>
     <string name="button_edit">ערוך</string>
     <string name="button_cancel">ביטול</string>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <string name="button_create">צור</string>
+    <string name="button_delete">מחק</string>
+    <string name="button_restore">שחזר</string>
+    <string name="button_keep">שמור</string>
+    <string name="button_play">נגן</string>
+    <string name="button_pause">השהה</string>
+    <string name="button_delete_wait">מחק (%d)</string>
+    <string name="decline">דחה</string>
+    <string name="accept">אשר</string>
+    <string name="call_incoming">נכנסת</string>
+    <string name="call_outgoing">יוצאת</string>
     <string name="please_wait">אנא המתן…</string>
     <string name="start_recording">התחל הקלטה</string>
     <string name="stop_recording">הפסק הקלטה</string>
-    
+    <string name="action_mode_selected">%d נבחרו</string>
     <string name="switch_on">פועל</string>
     <string name="switch_off">כבוי</string>
 
     <!--Toasts-->
-    
-    
-    
-    
+    <string name="toast_wait_for_operation_to_complete">המתן להשלמת הפעולה</string>
+    <string name="toast_recording_is_off">הקלטה כבוייה</string>
+    <string name="toast_recording_is_on">הקלטה מופעלת</string>
+    <string name="toast_file_deleted">הקובץ נמחק בהצלחה</string>
 
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">הקלט שיחה זו</string>
-    
+    <string name="open_contact">פתח איש קשר</string>
 
     <!--After call actions dialog-->
     <string name="cloud_added">נוסף</string>
 
     <!--Notification-->
-    
-    
-    
+    <string name="waiting_for_answer">ממתין לתשובה</string>
+    <string name="recording_in_progress">הקלטה בפעולה</string>
+    <string name="no_recording_in_progress">אין הקלטה בפעולה</string>
     <string name="an_error_has_occurred">קרתה תקלה. שיחה זו לא תוקלט</string>
 
     <!--About-->
-    
+    <string name="about_call_recorder">על Call Recorder</string>
     <string name="version">גירסה</string>
     <string name="copyright">זכויות יוצרים</string>
     <string name="copyright_summary">© %s Alexander Skvortsov (skvalex)</string>
@@ -426,11 +427,11 @@
     <string name="about_many_thanks_summary">ל Alexey Subbotin (avs234)</string>
 
     <!--About -> Other-->
-    
-    
+    <string name="category_other">אחר</string>
+    <string name="open_source_licenses">פתח רישיון מקור</string>
 
     <!--About -> Translators-->
-    
+    <string name="category_translators">מתרגמים</string>
     <string name="german_translation">תרגום לגרמנית</string>
     <string name="german_translation_summary">ע"י Marc Hillesheim and Thomas Käfer</string>
     <string name="polish_translation">תרגום לפולנית</string>
@@ -444,11 +445,11 @@
     <string name="slovak_translation">תרגום לסלובקית</string>
     <string name="slovak_translation_summary">ע"י Loránt Gerencsér</string>
     <string name="italian_translation">תרגום לאיטלקית</string>
-    
+    <string name="italian_translation_summary">ע"י Luca Trevisan and Francesco Cafagna</string>
     <string name="persian_translation">תרגום לפרסית</string>
     <string name="persian_translation_summary">ע"י Alireza Afkar</string>
     <string name="chinese_translation">תרגום לסינית</string>
-    
+    <string name="chinese_translation_summary">ע"י qhq and Yu Fei</string>
     <string name="czech_translation">תרגום לצ\'כית</string>
     <string name="czech_translation_summary">ע"י Ales Kerner and Lukas Waldauf</string>
     <string name="arabic_translation">תרגום לערבית</string>
@@ -498,93 +499,11 @@
     <string name="vietnamese_translation">תרגום לויאטנמית</string>
     <string name="vietnamese_translation_summary">ע"י Truong Hoang Trung</string>
     <string name="armenian_translation">תרגום לארמנית</string>
-    
+    <string name="armenian_translation_summary">ע"י Hakob Sununu and Konstantin Gevorgyan</string>
     <string name="gujarati_translation">תרגום לגוג\'רטי</string>
-    
+    <string name="gujarati_translation_summary">ע"י Abhishek Sharma</string>
     <string name="tamil_translation">תרגום לטמילית</string>
-    
+    <string name="tamil_translation_summary">ע"י Ashish Sharma</string>
     <string name="greek_translation">תרגום ליוונית</string>
-    
-<string name="restore_settings">שחזר הגדרות</string>
-
-    <string name="settings_open_unlocker">הפעל פותח נעילה</string>
-    <string name="license_trial_expired">פגה תקופת הניסיון</string>
-    <string name="license_trial_expired_summary">אנא הסר גירסא זו לפני רכישת הגירסא המלאה</string>
-    <string name="exception_groups">%d קבוצות</string>
-    <string name="create_new_folder">צור ספריה חדשה…</string>
-    <string name="dialog_title_new_folder">ספריה חדשה</string>
-    <string name="vertical_position_summary">%s dp, סטיה ממרכז המסך</string>
-    <string name="horizontal_position_summary">%s dp, סטיה ממרכז המסך</string>
-    <string name="hide_button_before_answer">הסתר כפתור לפני מענה</string>
-    <string name="long_press_action">פעולת לחיצה ארוכה</string>
-    <string name="long_press_action_dragging_the_button">גרירת הכפתור</string>
-    <string name="long_press_action_hang_up">נתק את השיחה והתקשר מיד בשנית</string>
-    <string name="hide_starred_recordings">הסתר הקלטות מסומנות בכוכב</string>
-    <string name="hide_starred_recordings_summary">אל תציד הקלטות מסומנות בכוכב עם שאר ההקלטות</string>
-
-    <string name="cloud_provider">ספק ענן</string>
-    <string name="sign_in_dropbox">התחבר לDropbox</string>
-    <string name="sign_out_dropbox">התנתק מDropbox</string>
-    <string name="cloud_provider_google_drive">Google Drive</string>
-    <string name="cloud_common_settings">כללי</string>
-    <string name="cloud_upload_starred">העלה מסומן בכוכב</string>
-    <string name="cloud_upload_starred_summary">העלה הקלטות לענן כאשר סומנו בכוכב</string>
-
-    <string name="notify_uploading_dropbox">העלאה לDropbox</string>
-    <string name="notify_converting_to_amr">המרה לAMR</string>
-    <string name="notify_converting_to_mp3">המרה לMP3</string>
-    <string name="notify_encrypting">קידוד</string>
-    <string name="notify_decrypting">פיענוח</string>
-    <string name="notify_waiting_for_calls">ממתין לשיחות</string>
-    <string name="notify_tasks_remaining">%d משימות נותרו</string>
-
-    <string name="create_new_key_summary">סיסמא זו לשימוש מאוחר יותר לקידוד הקלטות או כניסה לאפליקציה</string>
-    <string name="delete_key">מחק סיסמא</string>
-    <string name="delete_key_summary">אזהרה! לא תוכל לפענח הקלטות מקודדות עם סיסמא זו גם אם תיצור סיסמא זהה חדשה</string>
-    <string name="delete_key_message">לאחר המחיקה לא תוכל לפענח הקלטות מקודדות עם מפתח זה. האם הרצונך להמשיך?</string>
-    <string name="require_password_summary_no_key">נדרשת סיסמא לפתיחת האפליקציה. להפעלת אפשרות זו צור סיסמא</string>
-    <string name="app_admin_summary">הכרחי למניעת הסרת התקנת Call Recorder</string>
-    <string name="app_admin_explanation">Call Recorder לא משתמש באף אפשרויות מנהל של המכשיר למעט הגנה מפני הסרת ההתקנה</string>
-    <string name="use_built_in_player">השתמש בנגן המכשיר</string>
-    <string name="audio_output_summary">%s (לחיצה ארוכה על כפתור ההפעלה\\השהייה תפעיל את זה גם כן)</string>
-    <string name="use_proximity_sensor_summary">כבה מסך באמצעות חיישן הקרבה בעת השמעת הקלטה</string>
-    <string name="switch_audio_output_summary">החלף מקור ניגון אוטומטית כאשר מסר פועל\\כבוי באמצעות חיישן קרבה</string>
-    <string name="send_logs_to_the_developer">שלח לוג למפתח</string>
-
-    <string name="button_choose">בחר</string>
-    <string name="button_call">התקשר</string>
-    <string name="button_buy">קנה</string>
-    <string name="button_create">צור</string>
-    <string name="button_delete">מחק</string>
-    <string name="button_restore">שחזר</string>
-    <string name="button_keep">שמור</string>
-    <string name="button_play">נגן</string>
-    <string name="button_pause">השהה</string>
-    <string name="button_delete_wait">מחק (%d)</string>
-    <string name="decline">דחה</string>
-    <string name="accept">אשר</string>
-    <string name="call_incoming">נכנסת</string>
-    <string name="call_outgoing">יוצאת</string>
-    <string name="action_mode_selected">%d נבחרו</string>
-    <string name="toast_wait_for_operation_to_complete">המתן להשלמת הפעולה</string>
-    <string name="toast_recording_is_off">הקלטה כבוייה</string>
-    <string name="toast_recording_is_on">הקלטה מופעלת</string>
-    <string name="toast_file_deleted">הקובץ נמחק בהצלחה</string>
-
-    <string name="open_contact">פתח איש קשר</string>
-
-    <string name="waiting_for_answer">ממתין לתשובה</string>
-    <string name="recording_in_progress">הקלטה בפעולה</string>
-    <string name="no_recording_in_progress">אין הקלטה בפעולה</string>
-    <string name="about_call_recorder">על Call Recorder</string>
-    <string name="category_other">אחר</string>
-    <string name="open_source_licenses">פתח רישיון מקור</string>
-
-    <string name="category_translators">מתרגמים</string>
-    <string name="italian_translation_summary">ע\"י Luca Trevisan and Francesco Cafagna</string>
-    <string name="chinese_translation_summary">ע\"י qhq and Yu Fei</string>
-    <string name="armenian_translation_summary">ע\"י Hakob Sununu and Konstantin Gevorgyan</string>
-    <string name="gujarati_translation_summary">ע\"י Abhishek Sharma</string>
-    <string name="tamil_translation_summary">ע\"י Ashish Sharma</string>
-    <string name="greek_translation_summary">"ע\"י  Lefteris (SomniusX) Eliades"</string>
+    <string name="greek_translation_summary">ע"י Lefteris (SomniusX) Eliades</string>
 </resources>

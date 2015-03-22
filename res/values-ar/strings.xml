@@ -46,6 +46,7 @@
     <string name="list_header_yesterday">امس</string>
     <string name="queued">في الأنتظار</string>
     <string name="no_connection">لا يوجد اتصال</string>
+    <string name="add_to_contacts">إضافة إلى جهات الاتصال</string>
 
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">اظافة الى DropBox</string>

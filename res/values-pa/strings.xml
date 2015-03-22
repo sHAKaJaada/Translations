@@ -1,8 +1,8 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">ਕਾਲ ਰਿਕਾਰਡਰ</string>
     <string name="terms_of_use">ਵਰਤੋ ਦੀਆਂ ਸ਼ਰਤਾਂ</string>
-    
+    <string name="terms_of_use_message">ਇਸ ਐਪਲੀਕੇਸ਼ ਨੂੰ ਵਰਤ ਕੇ, ਤੁਸੀਂ ਕੋਲ ਰਿਕਾਰ੍ਡਰ ਦੇ &lt;a href=http://rec.sh/terms&gt; ਨਿਯਮ ਦੀ ਵਰਤੋ ਕਰਨ ਲਈ ਸਹਿਮਤ ਹੋ&lt;/a&gt;.</string>
 
     <!-- Navigation drawer -->
     <string name="navigation_drawer_open">ਨੇਵੀਗੇਸ਼ਨ ਦਰਾਜ਼ ਖੋਲੋ</string>
@@ -18,45 +18,46 @@
     <string name="section_by_label">ਲੇਬਲ ਦੁਆਰਾ</string>
     <string name="section_help">ਮਦਦ ਕਰੋ</string>
     <string name="section_tasks">ਕੰਮ</string>
-    
+    <string name="section_tasks_hint">ਓਹ ਕਮ ਜਿਨਾ ਨੂ ਜ੍ਯਾਦਾ ਸਮਾ ਲਗਦਾ ਆ ਜਿਵੇ ਕਿ, ਫਾਰਮੈਟ ਬੱਦਲ ਕਰਨ ਲਈ, ਇਨਕ੍ਰਿਪਟ ਜਾ ਰਿਕਾਰਡਿੰਗਜ਼ ਨੂ ਅੱਪਲੋਡ ਕਰਨ ਵਾਲੇ ਇਥੇ ਦਿਸੁਗੇ</string>
     <string name="empty_hint">ਖਾਲੀ</string>
 
     <!-- Action bar -->
     <string name="action_search">ਲਭੋ</string>
-    
+    <string name="action_sort">ਲੜੀਬੱਧ ਦੇ ਮੁਤਾਬਿਕ ਲਗਾਓ</string>
     <string name="action_settings">ਸੈਟਿੰਗ</string>
-    
-    
-    
-    
-    
-    
+    <string name="action_refresh">ਤਾਜ਼ਾ ਕਰੋ(Refresh)</string>
+    <string name="action_delete">ਹਟਾਓ</string>
+    <string name="action_add_star">ਪਸੰਦੀਦਾ ਬਣਾਓ</string>
+    <string name="action_remove_star">ਮਨਪਸੰਦ ਸ਼੍ਰੇਣੀ ਤੋ ਹਟਾਓ</string>
+    <string name="action_share">ਵੰਡੋ</string>
+    <string name="action_cancel_tasks">ਸਭ ਕੰਮਾ ਨੂੰ ਰੋਕੋ</string>
     <string name="action_select_all">ਸਭ ਚੁਣੋ</string>
-    
-    
-    
-    
-    
+    <string name="sort_by_date">ਮਿਤੀ ਨਾਲ</string>
+    <string name="sort_by_contact">ਸੰਪਰਕ ਦੁਆਰਾ</string>
+    <string name="sort_by_file_size">ਆਕਾਰ ਦੇ ਅਨੁਸਾਰ ਨਾਲ</string>
+    <string name="records_size">ਰਿਕਾਰਡ: %1$s, ਆਕਾਰ: %2$s</string>
+    <string name="space_free_of">%2$sਦੀ ਮੁਫਤ%1$s</string>
 
     <!--Import settings -->
-    
+    <string name="restore_settings">ਸੈਟਿੰਗ ਮੁੜ ਬਹਾਲ ਕਰੋ</string>
 
     <!-- List -->
-    
-    
-    
+    <string name="list_header_today">ਅੱਜ</string>
+    <string name="list_header_yesterday">ਕਲ ਜੋ ਨਿਕਲ ਗਿਆ</string>
+    <string name="queued">ਕਤਾਰਬੱਧ</string>
+    <string name="no_connection">ਕੋਈ ਇੰਟਰਨੈੱਟ ਨਹੀਂ ਹੈ</string>
     
 
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">Dropbox ਵਿਚ ਜਮਾ ਕਰੋ</string>
-    
-    
-    
-    
-    
-    
+    <string name="menu_add_note">ਨੋਟ ਸ਼ਾਮਲ ਕਰੋ</string>
+    <string name="menu_edit_note">ਨੋਟ ਸੋਧ ਕਰੋ</string>
+    <string name="menu_delete">ਹਟਾਓ</string>
+    <string name="menu_share">ਵੰਡੋ</string>
+    <string name="menu_convert_to_mp3">MP3 ਵਿੱਚ ਬਦਲੋ</string>
+    <string name="menu_convert_to_amr">AMR ਵਿੱਚ ਬਦਲੋ</string>
     <string name="menu_get_info">ਜਾਣਕਾਰੀ ਲਵੋ</string>
-    
+    <string name="menu_cancel_task">ਕੰਮ ਰੱਦ ਕਰੋ</string>
     <string name="menu_encrypt">ਇਨਕ੍ਰਿਪਟ</string>
     <string name="menu_decrypt">ਡਿਕ੍ਰਿਪਟ</string>
 
@@ -64,7 +65,7 @@
     <string name="file_name">ਫਾਇਲ ਨਾਮ</string>
     <string name="sample_rate">ਨਮੂਨਾ ਦੀ ਦਰ</string>
     <string name="sample_rate_hz">Hz</string>
-    
+    <string name="recording_type">ਰਿਕਾਰਡਿੰਗ ਢੰਗ</string>
     <string name="recording_type_mono">ਮੋਨੋ</string>
     <string name="recording_type_stereo">ਸਟੀਰੀਓ</string>
     <string name="file_size">ਫਾਇਲ ਦਾ ਆਕਾਰ</string>
@@ -77,47 +78,47 @@
 
     <!-- List -> Get info dialog -> Edit -->
     <string name="contact_name">ਸੰਪਰਕ ਨਾਮ</string>
-    
+    <string name="phone_number">ਫੋਨ ਨੰਬਰ</string>
 
     <!-- List -> Confirm delete dialog -->
     <string name="confirm_delete_message">ਕੀ ਤੁਸੀਂ ਪੱਕਾ ਇਸ ਰਿਕਾਰਡਿੰਗ ਨੂ ਮਿਟਾਉਨਾ ਚਾਹੁੰਦੇ ਹੋ?</string>
-    
-    
+    <string name="confirm_delete_several_title">ਪੁਸ਼ਟੀ ਕਰੋ ਤੁਸੀਂ ਮਿਟਾਨਾ ਹੈ</string>
+    <string name="confirm_delete_several_message">ਤੁਸੀ%dਰਿਕਾਰਡਿੰਗ ਚੁਣਿਆ ਹੈ, ਸਾਰੇ ਹਟਾ ਦਿੱਤਾ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ,?</string>
 
     <!-- List -> Share -->
-    
+    <string name="share_via">ਦੁਆਰਾ ਵੰਡੋ</string>
     <string name="recorded_calls">ਰਿਕਾਰਡ ਹੋਇਆ ਕੋਲਸ</string>
 
     <!--  Settings -> Headers -->
-    
+    <string name="settings_open_unlocker">Call Recorder Unlocker ਖੋਲੋ</string>
     <string name="settings_recording">ਰਿਕਾਰਡਿੰਗ</string>
     <string name="settings_folders_and_files">ਫੋਲਡਰ ਅਤੇ ਫਾਇਲ</string>
     <string name="settings_ui_and_appearance">ਇੰਟਰਫੇਸ ਅਤੇ ਦਿਖਾਵਟ</string>
     <string name="settings_security">ਸੁਰੱਖਿਆ</string>
-    
+    <string name="settings_cloud">ਕ੍ਲਾਉਡ</string>
     <string name="settings_audio_player">ਆਡੀਓ ਪਲੇਅਰ</string>
     <string name="settings_debug">ਡੀਬੱਗ</string>
     <string name="settings_about">ਬਾਰੇ</string>
 
     <!-- Settings -> License -->
     <string name="license_status">ਲਾਈਸਿੰਸ ਦਾ ਰੁਤਬਾ</string>
-    
-    
-    
-    
-    
+    <string name="license_check_pending">ਪਰਮਿਟ ਚੈੱਕ ਬਾਕੀ ਹੈ</string>
+    <string name="license_check_failed">ਲਾਇਸੰਸ-ਚੈਕਿੰਗ ਫੇਲ ਹੋਈ</string>
+    <string name="license_check_failed_summary">ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ ਇੱਥੇ ਛੂਹੋ</string>
+    <string name="license_verified">ਲਾਇਸੰਸ ਚੇਕ ਸਫਲ ਹੈ</string>
+    <string name="license_verified_summary">ਓਹਲੇ ਕਰਨ ਲਈ ਛੂਹੋ</string>
     <string name="license_help">ਮਦਦ ਕਰੋ</string>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <string name="license_signature_verification_failed">ਦਸਤਖਤ ਪ੍ਰਮਾਣਿਕਤਾ ਅਸਫਲ</string>
+    <string name="license_error_message">ਗਲਤੀ ਹੈ #%1$s: %2$s</string>
+    <string name="license_trial">ਪ੍ਰੀਖਣ ਵਰਜਨ ਨੂੰ%sਤੇ ਸਮਾਪਤ ਹੋ ਜਾਵੇਗਾ</string>
+    <string name="license_unknown_error">ਅਣਜਾਣ ਗਲਤੀ</string>
+    <string name="license_not_market_managed">ਇਹ ਵਰਜਨ ਅਜੇ ਵੀ Play Store \'ਤੇ ਪ੍ਰਕਾਸ਼ਿਤ ਨਹੀ ਹੈ</string>
+    <string name="license_incorrect_response">Play Store ਦਾ ਗਲਤ ਲਾਇਸੰਸ ਜਵਾਬ</string>
+    <string name="license_error_contacting_server">ਸਰਵਰ ਨੂੰ ਸੰਪਰਕ ਕਰਨ ਵਿਚ ਮੁਸ਼ਕਿਲ ਆ</string>
+    <string name="license_server_error">ਸਰਵਰ ਮੁਸ਼ਕਿਲ</string>
+    <string name="license_over_quota">ਇਸ ਜੰਤਰ ਤੋ ਬਹੁਤ ਸਾਰਿਆ ਬੇਨਤੀਆ ਹਨ</string>
+    <string name="license_trial_expired">ਮੁਕੱਦਮੇ ਦੀ ਮਿਆਦ ਖਤਮ</string>
+    <string name="license_trial_expired_summary">ਕਿਰਪਾ ਕਰਕੇ ਇਸ ਵਰਜਨ ਨੂ ਹਟਾਓ ਪੂਰੇ ਵਰਜਨ ਨੂ ਖ਼ਰੀਦਨ ਤੋ ਪਹਲਾ</string>
     <string name="buy_full_version">ਪੂਰਾ ਵਰਜਨ ਖਰੀਦੋ</string>
     <string name="buy_full_version_summary">ਮੌਜੂਦਾ ਵਰਜਨ %s \'ਤੇ ਸਮਾਪਤ ਹੋ ਜਾਵੇਗਾ</string>
 
@@ -126,19 +127,19 @@
     <string name="category_main">ਮੁੱਖ</string>
     <string name="device">ਜੰਤਰ</string>
     <string name="select_your_device">ਆਪਣਾ ਜੰਤਰ ਚੁਣੋ</string>
-    
-    
-    
+    <string name="device_change_settings_empty">ਇਸ ਜੰਤਰ ਲਈ ਸੈਟਿੰਗ ਪਹਲਾ ਹੀ ਸਥਾਪਤ ਕੀਤੀ ਜਾ ਚੁਕੀ ਹੈ</string>
+    <string name="device_root_is_required">ਰੂਟ ਦੀ ਲੋੜ ਹੈ</string>
+    <string name="device_root_is_required_summary">ਬਿਹਤਰ ਗੁਣਵੱਤਾ ਲਈ ਇਸ ਜੰਤਰ ਤੇ ਰੂਟ ਦੀ ਲੋੜ ਹੈ</string>
     <string name="device_other">ਹੋਰ</string>
     <string name="recording_method">ਰਿਕਾਰਡਿੰਗ ਦਾ ਢੰਗ</string>
     <string name="recording_method_api">ਸਟੇਡਰਡ API</string>
-    
+    <string name="recording_method_api_settings">ਮਿਆਰੀ API ਸਬੰਧਤ ਸਮਾਯੋਜਨ</string>
     <string name="recording_method_caf">CAF</string>
-    
-    
-    
-    
-    
+    <string name="recording_method_caf_settings">CAF ਸਬੰਧਤ ਵਿਵਸਥਾ ਦੀ ਰਿਕਾਰਡਿੰਗ</string>
+    <string name="recording_method_alsa">ALSA</string>
+    <string name="recording_method_alsa_settings">ALSA ਸਬੰਧਤ ਵਿਵਸਥਾ ਦੀ ਰਿਕਾਰਡਿੰਗ</string>
+    <string name="recording_method_msm">MSM</string>
+    <string name="recording_method_msm_settings">MSM ਸਬੰਧਤ ਵਿਵਸਥਾ ਦੀ ਰਿਕਾਰਡਿੰਗ</string>
     <string name="category_actions">ਕਾਰਵਾਈ</string>
     <string name="action_for_incoming">ਇਨਕਿਮੰਗ ਕਾਲ ਲਈ ਐਕਸ਼ਨ</string>
     <string name="action_for_outgoing">ਬਾਹਰ ਜਾਣ ਕਾਲ ਲਈ ਐਕਸ਼ਨ</string>
@@ -152,25 +153,25 @@
     <string name="after_call_actions_dialog_summary">ਕਾਲ ਤੋ ਬਾਅਦ ਵਿਚ ਪੁਛੋ ਕੀ ਕਿਰਨਾ ਹੈ</string>
     <string name="vibrate_on_call">ਕਾਲ ਦੇ ਸ਼ੁਰੂ/ਅੰਤ ਵਿੱਚ ਹਿਲਾਓ</string>
     <string name="exceptions">ਏਕ੍ਸਸੇਪਸ਼ਨ/ਅਪਵਾਦ</string>
-    
-    
-    
+    <string name="exceptions_summary">ਸੰਪਰਕ, ਗਰੁੱਪ, ਜ ਫੋਨ ਨੰਬਰ ਲਈ ਖਾਸ ਕਾਰਵਾਈ ਸੈਟ ਕਰੋ</string>
+    <string name="start_recording_on_answer">ਕੋਲ ਦੇ ਜਵਾਬ ਤੇ ਰਿਕਾਰਿਡੰਗ ਸ਼ੁਰੂ ਕਰੋ</string>
+    <string name="start_recording_on_answer_summary">ਜਦੋ ਬਾਹਰ ਜਾਨ ਵਾਲੀ ਕੋਲ ਦੇ ਜਵਾਬ ਤੇ ਰਿਕਾਰਿਡੰਗ ਸ਼ੁਰੂ ਕਰੋ. ਐਪਲੀਕੇਸ਼ ਇਕ ਤਰੀਕਾ ਵਰਤਦੀ ਹੈ ਜੋ ਦੂਜੇ ਪਾਸੇ ਦੇ ਜਵਾਬ ਨਾਲ ਖੋਜ ਕਰਦੀ ਹੈ, ਇਹ ਸੁਵਿਦਾ ਕਈ ਜੰਤਰਾ ਤੇ ਕਾਮ ਨਹੀ ਕਰ ਸਕਦੀ . Android 4.1 Jelly Bean ਤੇ ਰੂਟ ਚਾਹਿਦਾ ਹੈ. ਕਰਨਲ ਵਿੱਚ ਲਾਗਰ ਯੋਗ ਕੀਤਾ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ.</string>
     <string name="delay_before_start_recording">ਰਿਕਾਰਡਿੰਗ ਸ਼ੁਰੂ ਕਰਨ ਤੋ ਪਹਲਾ ਦੇਰੀ</string>
-    
-    
-    
-    
-    
-    
+    <string name="delay_before_start_recording_summary">ਬਾਹਰ ਜਾਣ ਲਈ: %1$s, ਆਉਣ ਲਈ: %2$s</string>
+    <string name="delay_format_sec">%s ਸਕਿੰਟ</string>
+    <string name="delay_for_outgoing">ਬਾਹਰ ਜਾਣ ਲਈ</string>
+    <string name="delay_for_incoming">ਆਉਣ ਲਈ</string>
+    <string name="settings_for_device">%s ਲਈ ਸੈਟਿੰਗ</string>
+    <string name="recording_format">ਰਿਕਾਰਡ ਫਾਰਮੈਟ ਹੈ</string>
     <string name="recording_format_wav">WAV</string>
     <string name="recording_format_amr">AMR</string>
     <string name="recording_format_aac">AAC</string>
     <string name="recording_format_mp3">MP3</string>
     <string name="volume_control">ਵਾਲੀਅਮ ਕੰਟਰੋਲ</string>
-    
-    
-    
-    
+    <string name="volume_control_summary">Tx:%1$s,Rx:%2$s</string>
+    <string name="volume_control_overall">ਓਵਰਆਲ ਵਾਲੀਅਮ</string>
+    <string name="volume_control_tx">Tx</string>
+    <string name="volume_control_rx">Rx</string>
     <string name="sample_rate_8000">8000 Hz (ਮੂਲ)</string>
     <string name="sample_rate_11025">11025 Hz</string>
     <string name="sample_rate_16000">16000 Hz</string>
@@ -186,22 +187,22 @@
     <string name="api_source_microphone">ਮਾਈਕਰੋਫੋਨ</string>
     <string name="api_source_default">ਮੂਲ</string>
     <string name="api_source_voice_communication">ਵਾਇਸ ਸੰਚਾਰ</string>
-    
-    
-    
-    
+    <string name="category_wav_settings">WAV ਵਿਵਸਥਾ</string>
+    <string name="category_wav_and_mp3_settings">WAV &amp; MP3 ਵਿਵਸਥਾ</string>
+    <string name="when_bt_connected">ਜਦ ਬਲਿਊ-ਟੁੱਥ (ਸਿਰ-ਸੈੱਟ) ਲਈ ਵਰਤਿਆ ਹੈ…</string>
+    <string name="audio_source_when_bt_connected">ਬਲਿਊ ਟੁੱਥ (ਸਿਰ-ਸੈੱਟ) ਆਵਾਜ਼ ਸਰੋਤ ਨਾਲ ਜੁੜਿਆ ਹੈ</string>
 
     <!-- Actions when BT connected -->
-    
-    
-    
+    <string name="when_bt_connected_do_nothing">ਕੁਝ ਨਾ ਕੀਤਾ ਜਾਵੇ</string>
+    <string name="when_bt_connected_switch_source">ਆਡੀਓ ਸਰੋਤ ਬਦਲੋ</string>
+    <string name="when_bt_connected_disable_recording">ਰਿਕਾਰਡਿੰਗ ਬੰਦ/ਆਯੋਗ ਕਰੋ</string>
 
     <!-- Settings -> Recording -> CAF -->
     <string name="recording_mode">ਰਿਕਾਰਡਿੰਗ ਮੋਡ</string>
 
     <!-- Settings -> Recording -> ALSA -->
-    
-    
+    <string name="alsa_is_not_installed">ALSA ਇੰਸਟਾਲ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ</string>
+    <string name="alsa_is_not_installed_summary">ALSA ਨੂੰ ਇੰਸਟਾਲ ਕਰਨ ਲਈ ਇੱਥੇ ਟੈਪ</string>
 
     <!-- Settings -> Recording -> MSM -->
     <string name="chipset_type">ਚਿੱਪਸੈੱਟ ਦੀ ਕਿਸਮ</string>
@@ -209,34 +210,34 @@
     <string name="chipset_type_msm8250">Qualcomm MSM8250</string>
     <string name="chipset_type_msm8255">Qualcomm MSM8255</string>
     <string name="chipset_type_msm8260">Qualcomm MSM8260</string>
-    
+    <string name="dont_use_amr_driver">AMR ਡਰਾਈਵਰ ਦਾ ਇਸਤੇਮਾਲ ਨਾ ਕਰੋ</string>
     <string name="dont_use_amr_driver_summary">ਇਸ ਦੀ ਵਜਾਇ ਅਸਲੀ ਟਾਈਮ ਵਿੱਚ WAV ਤੋ AMR ਬਦਲੋ</string>
 
     <!-- Settings -> Recording -> Exceptions -->
-    
+    <string name="add_exception">ਅਪਵਾਦ ਸ਼ਾਮਲ ਕਰੋ</string>
     <string name="exception_group">ਗਰੁੱਪ</string>
     
     <string name="exception_select_group">ਗਰੁੱਪ ਚੁਣੋ</string>
-    
-    
+    <string name="exception_contact">ਸੰਪਰਕ</string>
+    <string name="exception_select_contact">ਸੰਪਰਕ ਚੁਣੋ</string>
     <string name="exception_phone_number">ਫ਼ੋਨ ਨੰਬਰ</string>
-    
+    <string name="exception_action">ਐਕਸ਼ਨ</string>
     <string name="exception_select_action">ਕਾਰਵਾਈ ਚੁਣੋ</string>
     <string name="exception_action_always_record">ਹਮੇਸ਼ਾ ਰਿਕਾਰਡ ਕਰੋ</string>
     <string name="exception_action_never_record">ਕਦੇ ਵੀ ਰਿਕਾਰਡ ਨਾ ਕਰੋ</string>
-    
-    
-    
-    
-    
-    
-    
+    <string name="exception_groups_not_found">ਗਰੁੱਪ ਨਹੀ ਲੱਭੇ</string>
+    <string name="exception_contacts_not_found">ਸੰਪਰਕ ਨਹੀ ਲੱਭੇ</string>
+    <string name="exceptions_not_added">ਅਪਵਾਦ ਸ਼ਾਮਿਲ ਨਹੀ ਕੀਤਾ ਗਿਆ ਹੈ</string>
+    <string name="exception_by_contact">ਸੰਪਰਕ ਦੁਆਰਾ</string>
+    <string name="exception_by_group">ਗਰੁੱਪ ਦੁਆਰਾ</string>
+    <string name="exception_by_phone_number">ਫੋਨ ਨੰਬਰ ਦੁਆਰਾ</string>
+    <string name="exception_delete_message">ਤੁਹਾਨੂੰ ਯਕੀਨ ਹੈ ਕਈ ਤੁਸੀਂ ਇਸ ਅਪਵਾਦ ਨੂੰ ਹਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ ?</string>
 
     <!-- Settings -> Folders and Files -->
     <string name="folder">ਫੋਲਡਰ</string>
-    
-    
-    
+    <string name="folder_chooser_up_to">↑ ਤਕ %s</string>
+    <string name="create_new_folder">ਨਵਾ ਫੋਲਡਰ ਬਣਾਓ …</string>
+    <string name="dialog_title_new_folder">ਨਵਾ ਫੋਲਡਰ</string>
     <string name="automatic_cleanup">ਆਟੋਮੈਟਿਕ ਸਫ਼ਾਈ</string>
     <string name="max_number_of_files">ਵੱਧ ਫਾਇਲ ਦੀ ਗਿਣਤੀ</string>
     <string name="max_number_of_files_message">ਇੱਕ ਨੰਬਰ ਦਿਓ (0 - ਕੋਈ ਸੀਮਾ ਨਹੀ)</string>
@@ -245,7 +246,7 @@
     <string name="max_age_of_recordings">ਰਿਕਾਰਡਿੰਗ ਦੀ ਮੈਕਸ ਉਮਰ</string>
     <string name="max_age_of_recordings_message">ਦਿਨ ਵਿੱਚ ਮੁੱਲ ਦਿਓ (0 - ਕੋਈ ਸੀਮਾ ਨਹੀ)</string>
     <string name="current_setting">ਮੌਜੂਦਾ ਸੈਟਿੰਗ:%s</string>
-    
+    <string name="settings_filename">ਫਾਈਲ ਦਾ ਨਾਮ</string>
     <string name="filename_pattern">ਪੈਟਰਨ/ਸ਼ੇਪ</string>
     <string name="time_pattern">ਟਾਈਮ ਪੈਟਰਨ/ਸ਼ੇਪ</string>
 
@@ -253,7 +254,7 @@
     <string name="pattern_contact_name">ਸੰਪਰਕ ਨਾਮ</string>
     <string name="pattern_phone_number">ਫ਼ੋਨ ਨੰਬਰ</string>
     <string name="pattern_call_time">ਕਾਲ ਦਾ ਵਕਤ</string>
-    
+    <string name="pattern_call_timestamp">ਕਾਲ ਮੋਹਰ (unix time)</string>
     <string name="pattern_call_type">ਕਿਸ ਕਿਸਮ ਦੀ ਕਾਲ (ਇਨ੍ਕੋਮਿੰਗ ਜਾ ਆਊਟਗੋਇੰਗ )</string>
     <string name="time_pattern_hours">ਘੰਟੇ</string>
     <string name="time_pattern_minutes">ਮਿੰਟ</string>
@@ -266,55 +267,55 @@
     <!--Settings -> Interface and Appearance-->
     <string name="language">ਭਾਸ਼ਾ</string>
     <string name="select_language">ਭਾਸ਼ਾ ਚੁਣੋ</string>
-    
+    <string name="default_language">ਮੂਲ ਭਾਸ਼ਾ</string>
     <string name="category_notification">ਸੂਚਨਾ</string>
     <string name="show_notification">ਨੋਟੀਫਿਕੇਸ਼ਨ ਵੇਖਾਓ</string>
-    
-    
-    
-    
+    <string name="show_notification_summary">ਸਥਿਤੀ ਪੱਟੀ ਵਿੱਚ ਸਥਾਈ ਨੋਟੀਫਿਕੇਸ਼ਨ</string>
+    <string name="hide_icon_but_keep_notification">ਆਈਕਾਨ ਲ੍ਕੋਵੋ, ਪਰ ਨੋਟੀਫਿਕੇਸ਼ਨ ਰੱਖੋ</string>
+    <string name="hide_icon_but_keep_notification_summary">ਆਈਕਾਨ ਲ੍ਕੋਵੋ, ਪਰ ਹਾਲਤ ਪੱਟੀ ਵਿੱਚ ਨੋਟੀਫਿਕੇਸ਼ਨ ਰੱਖੋ</string>
+    <string name="category_incall_control_button">ਵਿਚ-ਕਾਲ ਕੰਟਰੋਲ ਬਟਨ</string>
     <string name="incall_control_for_outgoing">ਆਊਟਗੋਇੰਗ ਕਾਲ ਲਈ</string>
-    
+    <string name="incall_control_for_outgoing_summary">ਬਾਹਰ ਜਾਨ ਵਾਲੀ ਕਾਲ \'ਤੇ ਵਿੱਚ-ਕਾਲ ਕੰਟਰੋਲ ਬਟਨ ਦਿਖਾਓ</string>
     <string name="incall_control_for_incoming">ਇਨਕਿਮੰਗ ਕਾਲ ਲਈ</string>
-    
-    
-    
+    <string name="incall_control_for_incoming_summary">ਆਂਨ ਵਾਲੀ ਕਾਲ \'ਤੇ ਵਿੱਚ-ਕਾਲ ਕੰਟਰੋਲ ਬਟਨ ਦਿਖਾਓ</string>
+    <string name="hide_button_while_recording">ਰਿਕਾਰਡਿੰਗ ਕਰਨ ਵੇਲੇ ਬਟਨ ਨੂ ਲੁਕੋਵੋ</string>
+    <string name="hide_button_while_recording_summary">ਜਦੋ ਕਾਲ ਦਰਜ ਕੀਤਾ ਜਾ ਰਿਹੀ ਹੋਵੇ ਉਦੋ ਵਿਚ-ਕਾਲ ਕੰਟਰੋਲ ਬਟਨ ਨੂੰ ਲੋਕੋਵੋ</string>
     <string name="show_button_while_ringing">ਘੰਟੀ ਦੌਰਾਨ ਬਟਨ ਵੇਖਾਓ</string>
     <string name="show_button_while_ringing_summary">ਆਂਉਨ ਵਾਲੀ ਕਾਲ ਦਾ ਜਵਾਬ ਦੇਣ ਤੋ ਪਹਲਾ ਇਨ-ਕਾਲ ਕੰਟਰੋਲ ਵੇਖਾਓ</string>
     <string name="vertical_position">ਲੰਬਕਾਰੀ ਸਥਿਤੀ</string>
-    
+    <string name="vertical_position_summary">%s dp, ਸਕਰੀਨ ਦੇ ਸੇੰਟਰ ਤੋ ਆਫਸੈੱਟ</string>
     <string name="horizontal_position">ਲੇਟਵੀ ਸਥਿਤੀ</string>
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <string name="horizontal_position_summary">%s dp, ਸਕਰੀਨ ਦੇ ਸੇੰਟਰ ਤੋ ਆਫਸੈੱਟ</string>
+    <string name="hide_button_before_answer">ਜਵਾਬ ਤੋ ਪਹਲਾ ਬਟਨ ਨੂੰ ਲੁਕੋਵੋ</string>
+    <string name="hide_button_before_answer_summary">ਜਦੋ ਤਕ ਕੁਨੈਕਸ਼ਨ ਸਥਾਪਿਤ ਨਾ ਹੋਵੇ ਉਦੋ ਤਕ ਵਿਚ-ਕਾਲ ਕੰਟਰੋਲ ਬਟਨ ਨੂੰ ਨਾ ਦਿਖਾਉ</string>
+    <string name="long_press_action">ਲੰਮੇ ਪ੍ਰੈਸ ਕਾਰਵਾਈ</string>
+    <string name="long_press_action_dragging_the_button">ਬਟਨ ਘਸੀਟਣ</string>
+    <string name="long_press_action_hang_up">ਕਾਲ ਕੱਟੋ ਅਤੇ ਆਪਣੇ ਆਪ ਹੀ ਵਾਪਸ ਨੂੰ ਕਾਲ ਕਰੋ</string>
+    <string name="category_main_screen">ਮੁੱਖ ਸਕਰੀਨ</string>
+    <string name="hide_starred_recordings">ਤਾਰਾਬੱਧ ਰਿਕਾਰਡਿੰਗ ਲੁਕੋਵੋ</string>
+    <string name="hide_starred_recordings_summary">ਤਾਰਾਬੱਧ ਰਿਕਾਰਡਿੰਗ ਦੇ ਨਾਲ ਸਾਰੀਆ ਰਿਕਾਰਡਿੰਗ ਨੂ ਨਾ ਦਿਖਾਉ</string>
 
     <!-- Settings -> Cloud -->
-    
+    <string name="cloud_provider">Cloud ਪ੍ਰਦਾਤਾ</string>
     <string name="cloud_provider_dropbox">Dropbox</string>
-    
-    
-    
-    
+    <string name="sign_in_dropbox">Dropbox ਵਿਚ ਸਾਈਨ - ਇਨ ਕਰੋ</string>
+    <string name="sign_out_dropbox">Dropbox ਵਿਚੋ ਸਾਇਨ ਆਉਟ ਕਰੋ</string>
+    <string name="cloud_provider_google_drive">ਗੂਗਲ ਡਰਾਈਵ</string>
+    <string name="cloud_common_settings">ਆਮ</string>
     <string name="cloud_wifi_only">ਕੇਵਲ Wi-Fi</string>
     <string name="cloud_auto_upload">ਆਟੋ ਅੱਪਲੋਡ</string>
     <string name="cloud_auto_upload_summary">ਇਕਦਮ ਕਾਲ ਤੋ ਬਾਅਦ ਰਿਕਾਰਡਿੰਗ ਅੱਪਲੋਡ ਕਰੋ</string>
-    
-    
+    <string name="cloud_upload_starred">ਅੱਪਲੋਡ ਲਗਾਏ</string>
+    <string name="cloud_upload_starred_summary">ਜਦੋ ਰਿਕਾਰਡਿੰਗ ਤੇ ਸਟਾਰ ਲਗਾਵੋ ਉਦੋ cloud ਤੇ ਅੱਪਲੋਡ ਕਰੋ</string>
 
     <!-- Notification -->
-    
-    
-    
-    
-    
-    
-    
+    <string name="notify_uploading_dropbox">Dropbox ਤੇ ਅੱਪਲੋਡ ਕਰੋ</string>
+    <string name="notify_converting_to_amr">AMR ਵਿਚ ਬਦਲ ਰਹੀ ਹੈ</string>
+    <string name="notify_converting_to_mp3">MP3 ਵਿਚ ਬਦਲ ਰਹੀ ਹੈ</string>
+    <string name="notify_encrypting">ਇਨਕ੍ਰਿਪਟ ਕਰ ਰਹੀ ਹੈ</string>
+    <string name="notify_decrypting">ਡੀਕ੍ਰਿਪਟ ਕਰ ਰਹੀ ਹੈ</string>
+    <string name="notify_waiting_for_calls">ਕਾਲ ਦੀ ਉਡੀਕ ਲਈ</string>
+    <string name="notify_tasks_remaining">%d ਬਾਕੀ ਕੰਮ</string>
 
     <!-- Password dialog -->
     <string name="wrong_password">ਗਲਤ ਪਾਸਵਰਡ</string>
@@ -325,17 +326,17 @@
     <string name="category_encryption">ਇੰਕ੍ਰਿਪਸ਼ਨ</string>
     <string name="category_application">ਐਪਲੀਕੇਸ਼ਨ</string>
     <string name="create_new_key">ਨਵੀ ਕੁੰਜੀ ਨੂੰ ਬਣਾਓ</string>
-    
-    
+    <string name="create_new_key_summary">ਇਹ ਕੁੰਜੀ ਨੂੰ ਇਨਕ੍ਰਿਪਟ ਕਰਨ ਲਈ ਰਿਕਾਰਡਿੰਗ ਜ ਐਪਲੀਕੇਸ਼ ਨੂੰ ਦਰਜ ਕਰਨ ਲਈ ਬਾਅਦ ਵਿੱਚ ਵਰਤਿਆ ਜਾਵੇਗਾ</string>
+    <string name="delete_key">ਕੁੰਜੀ ਹਟਾਓ</string>
     <string name="change_password">ਪਾਸਵਰਡ ਬਦਲੋ</string>
-    
-    
+    <string name="delete_key_summary">ਚੇਤਾਵਨੀ! ਤੁਹਾਨੂੰ ਇਸ ਕੁੰਜੀ ਨਾਲ ਇੰਕ੍ਰਿਪਟਡ ਕੀਤਾ ਹੈ, ਜੇ ਤੁਹਾਨੂੰ ਵੀ ਉਸੇ ਪਾਸਵਰਡ ਨਾਲ ਇੱਕ ਨਵ ਕੁੰਜੀ ਬਣਾਉਣ ਵੀ, ਜੇ, ਇਨਕ੍ਰਿਪਟਡ ਰਿਕਾਰਡਿੰਗ ਮੁੜ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਕਦੇ ਵੀ ਯੋਗ ਹੋਵੋਗੇ</string>
+    <string name="delete_key_message">ਹਟਾਉਣ ਉਪਰੰਤ ਤੁਹਾਨੂੰ ਇਸ ਕੁੰਜੀ ਨਾਲ ਇੰਕ੍ਰਿਪਟ ਰਿਕਾਰਡਿੰਗ ਮੁੜ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਯੋਗ ਨਹੀ ਹੋ. ਤੁਹਾਨੂੰ ਜਾਰੀ ਰੱਖਣਾ ਚਾਹੁੰਦੇ ਹੋ?</string>
     <string name="enter_old_password">ਪੁਰਾਣਾ ਪਾਸਵਰਡ ਭਰੋ</string>
     <string name="enter_new_password">ਨਵਾ ਪਾਸਵਰਡ ਭਰੋ</string>
     <string name="re_enter_new_password">ਦੁਬਾਰਾ ਨਵਾ ਪਾਸਵਰਡ ਭਰੋ</string>
     <string name="require_password">ਪਾਸਵਰਡ ਦੀ ਲੋੜ ਹੈ</string>
     <string name="require_password_summary">ਐਪਲੀਕੇਸ਼ਨ ਨੂੰ ਖੋਲਣ ਲਈ ਪਾਸਵਰਡ ਦੀ ਜਰੂਰਤ ਹੈ</string>
-    
+    <string name="require_password_summary_no_key">ਐਪਲੀਕੇਸ਼ ਨੂੰ ਖੋਲ੍ਹਣ ਲਈ ਪਾਸਵਰਡ ਦੀ ਲੋੜ ਹੈ. ਇਸ ਨੂੰ ਯੋਗ ਕਰਨ ਲਈ ਤੁਹਾਨੂੰ ਪਹਿਲੀ ਇੱਕ ਕੁੰਜੀ ਬਣਾਉਣਾ ਚਾਹੀਦਾ ਹੈ</string>
     <string name="lock_after">ਤੋ ਬਾਅਦ ਲੋਕ ਕਰੋ</string>
     <string name="lock_after_exit">ਬਾਹਰ</string>
     <string name="lock_after_1_minute">1 ਮਿੰਟ</string>
@@ -343,22 +344,22 @@
     <string name="lock_after_5_minutes">5 ਮਿੰਟ</string>
     <string name="lock_after_10_minutes">10 ਮਿੰਟ</string>
     <string name="app_admin">ਐਪਲੀਕੇਸ਼ਨ ਪਰਬੰਧਕ</string>
-    
-    
+    <string name="app_admin_summary">ਕਾਲ ਰਿਕਾਰਡਰ, ਹਟਾਉਣ ਨੂੰ ਰੋਕਣ ਲਈ ਜ਼ਰੂਰੀ</string>
+    <string name="app_admin_explanation">ਕਾਲ ਰਿਕਾਰਡਰ ਅਣ ਦੀ ਸੁਰੱਖਿਆ ਨੂੰ ਛੱਡ ਕੇ ਜੰਤਰ ਨੂੰ admin ਦੇ ਕਿਸੇ ਵੀ ਫੀਚਰ ਨਾ ਵਰਤੋ ਕਰਦਾ ਹੈ</string>
     <string name="aes_128bit">128-bit AES (ਤੇਜ਼)</string>
     <string name="aes_192bit">192-bit AES (ਸੰਤੁਲਿਤ)</string>
     <string name="aes_256bit">256-bit AES (ਮਜ਼ਬੂਤ)</string>
 
     <!-- Settings -> Audio player -->
-    
+    <string name="use_built_in_player">ਅੰਦਰਲੈ ਪਲੇਅਰ ਦੀ ਵਰਤੋ ਕਰੋ</string>
     <string name="audio_output">ਆਡੀਓ ਆਉਟਪੁੱਟ</string>
-    
+    <string name="audio_output_summary">%s (ਪਲੇਅ / ਪੌਜ਼ ਬਟਨ \'ਤੇ ਲੰਮੇ ਟੂਟੀ ਦੇ ਨਾਲ ਨਾਲ ਇਸ ਨੂੰ ਬਦਲਣ ਵਿੱਚ ਹੋਵੇਗਾ )</string>
     <string name="main_speaker">ਮੁੱਖ ਸਪੀਕਰ</string>
     <string name="phone_speaker">ਫੋਨ ਸਪੀਕਰ</string>
     <string name="use_proximity_sensor">ਨੇੜਤਾ ਸੂਚਕ ਵਰਤੋ</string>
-    
+    <string name="use_proximity_sensor_summary">ਪਲੇਅਬੈਕ ਦੌਰਾਨ ਨੇੜਤਾ ਸੂਚਕ ਕੇ ਪਰਦੇ ਨੂੰ ਅਯੋਗ</string>
     <string name="switch_audio_output">ਆਡੀਓ ਆਉਟਪੁੱਟ ਬਦਲੋ</string>
-    
+    <string name="switch_audio_output_summary">ਸਕਰੀਨ ਨੂੰ ਨੇੜਤਾ ਸੂਚਕ ਹੀ ਯੋਗ / ਅਯੋਗ ਹੁੰਦਾ ਹੈ, ਜਦ ਆਟੋਮੈਟਿਕ ਆਡੀਓ ਆਉਟਪੁੱਟ ਵਿੱਚ ਤਬਦੀਲ</string>
     <string name="android_wav_decoder">WAV ਐਡਰਾਇਡ ਡੀਕੋਰਡਰ ਦੀ ਵਰਤੋ ਕਰੋ</string>
     <string name="android_wav_decoder_summary">WAV ਚਲਾਉਣ ਲਈ ਅੰਦਰ ਬਣੇ ਐਡਰਾਇਡ ਸੰਦ ਦੀ ਵਰਤੋ ਕਰੋ</string>
     <string name="android_amr_decoder">AMR ਐਡਰਾਇਡ ਡੀਕੋਰਡਰ ਦੀ ਵਰਤੋ ਕਰੋ</string>
@@ -370,55 +371,55 @@
     <string name="root_access_yes">ਹਾ</string>
     <string name="dual_sim_phone">ਡਿਊਲ ਸਿਮ ਫੋਨ</string>
     <string name="dual_sim_phone_summary">ਇਸਨੁ ਏਨੇਬਲ ਕਰੋ ਜੇ ਅੱਪ ਤੁਹਾਡੇ ਦੂਜੇ ਸਿਮ ਕਾਰਡ ਤੋ ਕਾਲਸ ਨਹੀ ਲੈ ਸਕਦੀ</string>
-    
+    <string name="send_logs_to_the_developer">ਡਿਵੈਲਪਰ ਨੂੰ ਲਾਗ ਭੇਜੋ</string>
 
     <!-- General -->
     <string name="contact_unknown">ਅਣਜਾਣ</string>
-    
+    <string name="button_choose">ਚੁਣੋ</string>
     <string name="button_ok">ਠੀਕ ਹੈ</string>
     <string name="button_call">ਕਾਲ</string>
-    
+    <string name="button_buy">ਖਰੀਦੋ</string>
     <string name="button_edit">ਸੋਧ</string>
     <string name="button_cancel">ਰੱਦ ਕਰੋ</string>
     <string name="button_create">ਬਣਾਓ</string>
     <string name="button_delete">ਮਿਟਾਓ</string>
-    
-    
-    
-    
-    
-    
-    
+    <string name="button_restore">ਮੁੜ</string>
+    <string name="button_keep">ਰੱਖੋ</string>
+    <string name="button_play">ਖੇਡੋ</string>
+    <string name="button_pause">ਵਿਰਾਮ</string>
+    <string name="button_delete_wait">ਮਿਟਾਓ (%d)</string>
+    <string name="decline">ਗਿਰਾਵਟ</string>
+    <string name="accept">ਮਨਜ਼ੂਰ</string>
     <string name="call_incoming">ਇੰਕੋਮਿੰਗ</string>
     <string name="call_outgoing">ਆਊਟਗੋਇੰਗ</string>
-    
+    <string name="please_wait">ਕ੍ਰਿਪਾ ਕਰਕੇ ਉਡੀਕ ਕਰੋ …</string>
     <string name="start_recording">ਰਿਕਾਰਡਿੰਗ ਸ਼ੁਰੂ ਕਰੋ</string>
     <string name="stop_recording">ਰਿਕਾਰਡਿੰਗ ਰੋਕੋ</string>
-    
+    <string name="action_mode_selected">%d ਚੁਣਿਆ</string>
     <string name="switch_on">ਸ਼ੁਰੂ</string>
     <string name="switch_off">ਬੰਦ</string>
 
     <!--Toasts-->
-    
-    
-    
-    
+    <string name="toast_wait_for_operation_to_complete">ਇੱਕ ਕਾਰਵਾਈ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ ਲਈ ਉਡੀਕ ਕਰੋ</string>
+    <string name="toast_recording_is_off">ਰਿਕਾਰਡਿੰਗ ਬੰਦ ਹੈ</string>
+    <string name="toast_recording_is_on">ਰਿਕਾਰਡਿੰਗ ਚਾਲੂ ਹੈ</string>
+    <string name="toast_file_deleted">ਫਾਇਲ ਸਫਲਤਾਪੂਰਕ ਹਟਾ ਦਿੱਤਾ ਗਿਆ ਹੈ</string>
 
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">ਇਸ ਕਾਲ ਨੂ ਰਿਕਾਰਡ ਕਰੋ</string>
     <string name="open_contact">ਸੰਪਰਕ ਖੋਲੋ</string>
 
     <!--After call actions dialog-->
-    
+    <string name="cloud_added">ਸ਼ਾਮਿਲ ਕੀਤਾ ਗਿਆ ਹੈ</string>
 
     <!--Notification-->
-    
-    
-    
+    <string name="waiting_for_answer">ਜਵਾਬ ਦੀ ਉਡੀਕ</string>
+    <string name="recording_in_progress">ਤਰੱਕੀ ਵਿੱਚ ਰਿਕਾਰਡਿੰਗ</string>
+    <string name="no_recording_in_progress">ਕੋਈ ਰਿਕਾਰਡਿੰਗ ਤਰੱਕੀ ਵਿੱਚ ਨਹੀ ਹੈ</string>
     <string name="an_error_has_occurred">ਇੱਕ ਗਲਤੀ ਆਈ ਹੈ, ਇਸ ਕਾਲ ਨੂੰ ਰਿਕਾਰਡ ਨਹੀ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ</string>
 
     <!--About-->
-    
+    <string name="about_call_recorder">ਕਾਲ ਰਿਕਾਰਡਰ ਬਾਰੇ</string>
     <string name="version">ਵਰਜਨ</string>
     <string name="copyright">ਕਾਪੀਰਾਈਟ</string>
     <string name="copyright_summary">© %s Alexander Skvortsov (skvalex)</string>
@@ -426,11 +427,11 @@
     <string name="about_many_thanks_summary">ਨੂੰ Alexey Subbotin (avs234)</string>
 
     <!--About -> Other-->
-    
-    
+    <string name="category_other">ਹੋਰ</string>
+    <string name="open_source_licenses">ਓਪਨ ਸਰੋਤ ਲਾਇਸੰਸ</string>
 
     <!--About -> Translators-->
-    
+    <string name="category_translators">ਅਨੁਵਾਦਕ</string>
     <string name="german_translation">ਜਰਮਨ ਅਨੁਵਾਦ</string>
     <string name="german_translation_summary">Marc Hillesheim ਅਤੇ Thomas Käfer ਦੁਆਰਾ</string>
     <string name="polish_translation">ਪੋਲਿਸ਼ ਅਨੁਵਾਦ</string>
@@ -444,11 +445,11 @@
     <string name="slovak_translation">ਸਲੋਵਾਕ ਅਨੁਵਾਦ</string>
     <string name="slovak_translation_summary">Loránt Gerencsér ਦੁਆਰਾ</string>
     <string name="italian_translation">ਇਤਾਲਵੀ ਅਨੁਵਾਦ</string>
-    
+    <string name="italian_translation_summary">Luca Trevisan ਅਤੇ Francesco Cafagna ਦੁਆਰਾ</string>
     <string name="persian_translation">ਫ਼ਾਰਸੀ ਅਨੁਵਾਦ</string>
     <string name="persian_translation_summary">Alireza Afkar ਦੁਆਰਾ</string>
     <string name="chinese_translation">ਚੀਨੀ ਅਨੁਵਾਦ</string>
-    
+    <string name="chinese_translation_summary">qhq ਅਤੇ Yu Fei ਦੁਆਰਾ</string>
     <string name="czech_translation">ਚੇਕ ਅਨੁਵਾਦ</string>
     <string name="czech_translation_summary">Ales Kerner ਅਤੇ Lukas Waldauf ਦੁਆਰਾ</string>
     <string name="arabic_translation">ਅਰਬੀ ਅਨੁਵਾਦ</string>
@@ -493,203 +494,6 @@
     <string name="punjabi_translation_summary">ਰਾਜ ਵਰਮਾ ਦੁਆਰਾ Raj Verma</string>
     <string name="finnish_translation">ਹਿਬਰੂ ਅਨੁਵਾਦ</string>
     <string name="finnish_translation_summary">eero linnainmaa ਦੁਆਰਾ ਹਿਬਰੂ ਅਨੁਵਾਦ ਸੰਖੇਪ</string>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-<string name="terms_of_use_message">ਇਸ ਐਪਲੀਕੇਸ਼ ਨੂੰ ਵਰਤ ਕੇ, ਤੁਸੀਂ ਕੋਲ ਰਿਕਾਰ੍ਡਰ ਦੇ &lt;a href=http://rec.sh/terms&gt; ਨਿਯਮ ਦੀ ਵਰਤੋ ਕਰਨ ਲਈ ਸਹਿਮਤ ਹੋ&lt;/a&gt;.</string>
-
-    <string name="section_tasks_hint">ਓਹ ਕਮ ਜਿਨਾ ਨੂ ਜ੍ਯਾਦਾ ਸਮਾ ਲਗਦਾ ਆ ਜਿਵੇ ਕਿ, ਫਾਰਮੈਟ ਬੱਦਲ ਕਰਨ ਲਈ, ਇਨਕ੍ਰਿਪਟ ਜਾ ਰਿਕਾਰਡਿੰਗਜ਼ ਨੂ ਅੱਪਲੋਡ ਕਰਨ ਵਾਲੇ ਇਥੇ ਦਿਸੁਗੇ</string>
-    <string name="action_sort">ਲੜੀਬੱਧ ਦੇ ਮੁਤਾਬਿਕ ਲਗਾਓ</string>
-    <string name="action_refresh">ਤਾਜ਼ਾ ਕਰੋ(Refresh)</string>
-    <string name="action_delete">ਹਟਾਓ</string>
-    <string name="action_add_star">ਪਸੰਦੀਦਾ ਬਣਾਓ</string>
-    <string name="action_remove_star">ਮਨਪਸੰਦ ਸ਼੍ਰੇਣੀ ਤੋ ਹਟਾਓ</string>
-    <string name="action_share">ਵੰਡੋ</string>
-    <string name="action_cancel_tasks">ਸਭ ਕੰਮਾ ਨੂੰ ਰੋਕੋ</string>
-    <string name="sort_by_date">ਮਿਤੀ ਨਾਲ</string>
-    <string name="sort_by_contact">ਸੰਪਰਕ ਦੁਆਰਾ</string>
-    <string name="sort_by_file_size">ਆਕਾਰ ਦੇ ਅਨੁਸਾਰ ਨਾਲ</string>
-    <string name="records_size">ਰਿਕਾਰਡ: %1$s, ਆਕਾਰ: %2$s</string>
-    <string name="space_free_of">%2$sਦੀ ਮੁਫਤ%1$s</string>
-
-    <string name="restore_settings">ਸੈਟਿੰਗ ਮੁੜ ਬਹਾਲ ਕਰੋ</string>
-
-    <string name="list_header_today">ਅੱਜ</string>
-    <string name="list_header_yesterday">ਕਲ ਜੋ ਨਿਕਲ ਗਿਆ</string>
-    <string name="queued">ਕਤਾਰਬੱਧ</string>
-    <string name="no_connection">ਕੋਈ ਇੰਟਰਨੈੱਟ ਨਹੀਂ ਹੈ</string>
-
-    <string name="menu_add_note">ਨੋਟ ਸ਼ਾਮਲ ਕਰੋ</string>
-    <string name="menu_edit_note">ਨੋਟ ਸੋਧ ਕਰੋ</string>
-    <string name="menu_delete">ਹਟਾਓ</string>
-    <string name="menu_share">ਵੰਡੋ</string>
-    <string name="menu_convert_to_mp3">MP3 ਵਿੱਚ ਬਦਲੋ</string>
-    <string name="menu_convert_to_amr">AMR ਵਿੱਚ ਬਦਲੋ</string>
-    <string name="menu_cancel_task">ਕੰਮ ਰੱਦ ਕਰੋ</string>
-    <string name="recording_type">ਰਿਕਾਰਡਿੰਗ ਢੰਗ</string>
-    <string name="phone_number">ਫੋਨ ਨੰਬਰ</string>
-
-    <string name="confirm_delete_several_title">ਪੁਸ਼ਟੀ ਕਰੋ ਤੁਸੀਂ ਮਿਟਾਨਾ ਹੈ</string>
-    <string name="confirm_delete_several_message">ਤੁਸੀ%dਰਿਕਾਰਡਿੰਗ ਚੁਣਿਆ ਹੈ, ਸਾਰੇ ਹਟਾ ਦਿੱਤਾ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ,?</string>
-
-    <string name="share_via">ਦੁਆਰਾ ਵੰਡੋ</string>
-    <string name="settings_open_unlocker">Call Recorder Unlocker ਖੋਲੋ</string>
-    <string name="settings_cloud">ਕ੍ਲਾਉਡ</string>
-    <string name="license_check_pending">ਪਰਮਿਟ ਚੈੱਕ ਬਾਕੀ ਹੈ</string>
-    <string name="license_check_failed">ਲਾਇਸੰਸ-ਚੈਕਿੰਗ ਫੇਲ ਹੋਈ</string>
-    <string name="license_check_failed_summary">ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ ਇੱਥੇ ਛੂਹੋ</string>
-    <string name="license_verified">ਲਾਇਸੰਸ ਚੇਕ ਸਫਲ ਹੈ</string>
-    <string name="license_verified_summary">ਓਹਲੇ ਕਰਨ ਲਈ ਛੂਹੋ</string>
-    <string name="license_signature_verification_failed">ਦਸਤਖਤ ਪ੍ਰਮਾਣਿਕਤਾ ਅਸਫਲ</string>
-    <string name="license_error_message">ਗਲਤੀ ਹੈ #%1$s: %2$s</string>
-    <string name="license_trial">ਪ੍ਰੀਖਣ ਵਰਜਨ ਨੂੰ%sਤੇ ਸਮਾਪਤ ਹੋ ਜਾਵੇਗਾ</string>
-    <string name="license_unknown_error">ਅਣਜਾਣ ਗਲਤੀ</string>
-    <string name="license_not_market_managed">ਇਹ ਵਰਜਨ ਅਜੇ ਵੀ Play Store \'ਤੇ ਪ੍ਰਕਾਸ਼ਿਤ ਨਹੀ ਹੈ</string>
-    <string name="license_incorrect_response">"Play Store ਦਾ  ਗਲਤ ਲਾਇਸੰਸ ਜਵਾਬ"</string>
-    <string name="license_error_contacting_server">ਸਰਵਰ ਨੂੰ ਸੰਪਰਕ ਕਰਨ ਵਿਚ ਮੁਸ਼ਕਿਲ ਆ</string>
-    <string name="license_server_error">ਸਰਵਰ ਮੁਸ਼ਕਿਲ</string>
-    <string name="license_over_quota">"ਇਸ ਜੰਤਰ ਤੋ ਬਹੁਤ ਸਾਰਿਆ  ਬੇਨਤੀਆ ਹਨ"</string>
-    <string name="license_trial_expired">ਮੁਕੱਦਮੇ ਦੀ ਮਿਆਦ ਖਤਮ</string>
-    <string name="license_trial_expired_summary">ਕਿਰਪਾ ਕਰਕੇ ਇਸ ਵਰਜਨ ਨੂ ਹਟਾਓ ਪੂਰੇ ਵਰਜਨ ਨੂ ਖ਼ਰੀਦਨ ਤੋ ਪਹਲਾ</string>
-    <string name="device_change_settings_empty">ਇਸ ਜੰਤਰ ਲਈ ਸੈਟਿੰਗ ਪਹਲਾ ਹੀ ਸਥਾਪਤ ਕੀਤੀ ਜਾ ਚੁਕੀ ਹੈ</string>
-    <string name="device_root_is_required">ਰੂਟ ਦੀ ਲੋੜ ਹੈ</string>
-    <string name="device_root_is_required_summary">ਬਿਹਤਰ ਗੁਣਵੱਤਾ ਲਈ ਇਸ ਜੰਤਰ ਤੇ ਰੂਟ ਦੀ ਲੋੜ ਹੈ</string>
-    <string name="recording_method_api_settings">ਮਿਆਰੀ API ਸਬੰਧਤ ਸਮਾਯੋਜਨ</string>
-    <string name="recording_method_caf_settings">CAF ਸਬੰਧਤ ਵਿਵਸਥਾ ਦੀ ਰਿਕਾਰਡਿੰਗ</string>
-    <string name="recording_method_alsa">ALSA</string>
-    <string name="recording_method_alsa_settings">ALSA ਸਬੰਧਤ ਵਿਵਸਥਾ ਦੀ ਰਿਕਾਰਡਿੰਗ</string>
-    <string name="recording_method_msm">MSM</string>
-    <string name="recording_method_msm_settings">MSM ਸਬੰਧਤ ਵਿਵਸਥਾ ਦੀ ਰਿਕਾਰਡਿੰਗ</string>
-    <string name="exceptions_summary">ਸੰਪਰਕ, ਗਰੁੱਪ, ਜ ਫੋਨ ਨੰਬਰ ਲਈ ਖਾਸ ਕਾਰਵਾਈ ਸੈਟ ਕਰੋ</string>
-    <string name="start_recording_on_answer">ਕੋਲ ਦੇ ਜਵਾਬ ਤੇ ਰਿਕਾਰਿਡੰਗ ਸ਼ੁਰੂ ਕਰੋ</string>
-    <string name="start_recording_on_answer_summary">"ਜਦੋ ਬਾਹਰ ਜਾਨ ਵਾਲੀ ਕੋਲ ਦੇ ਜਵਾਬ ਤੇ ਰਿਕਾਰਿਡੰਗ ਸ਼ੁਰੂ ਕਰੋ. ਐਪਲੀਕੇਸ਼ ਇਕ ਤਰੀਕਾ ਵਰਤਦੀ ਹੈ ਜੋ  ਦੂਜੇ ਪਾਸੇ ਦੇ ਜਵਾਬ  ਨਾਲ ਖੋਜ ਕਰਦੀ ਹੈ, ਇਹ ਸੁਵਿਦਾ ਕਈ ਜੰਤਰਾ ਤੇ ਕਾਮ ਨਹੀ ਕਰ ਸਕਦੀ . Android 4.1 Jelly Bean ਤੇ  ਰੂਟ ਚਾਹਿਦਾ ਹੈ. ਕਰਨਲ ਵਿੱਚ ਲਾਗਰ ਯੋਗ ਕੀਤਾ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ."</string>
-    <string name="delay_before_start_recording_summary">ਬਾਹਰ ਜਾਣ ਲਈ: %1$s, ਆਉਣ ਲਈ: %2$s</string>
-    <string name="delay_format_sec">%s ਸਕਿੰਟ</string>
-    <string name="delay_for_outgoing">ਬਾਹਰ ਜਾਣ ਲਈ</string>
-    <string name="delay_for_incoming">ਆਉਣ ਲਈ</string>
-    <string name="settings_for_device">%s ਲਈ ਸੈਟਿੰਗ</string>
-    <string name="recording_format">ਰਿਕਾਰਡ ਫਾਰਮੈਟ ਹੈ</string>
-    <string name="volume_control_summary">Tx:%1$s,Rx:%2$s</string>
-    <string name="volume_control_overall">ਓਵਰਆਲ ਵਾਲੀਅਮ</string>
-    <string name="volume_control_tx">Tx</string>
-    <string name="volume_control_rx">Rx</string>
-    <string name="category_wav_settings">WAV ਵਿਵਸਥਾ</string>
-    <string name="category_wav_and_mp3_settings">WAV &amp; MP3 ਵਿਵਸਥਾ</string>
-    <string name="when_bt_connected">ਜਦ ਬਲਿਊ-ਟੁੱਥ (ਸਿਰ-ਸੈੱਟ) ਲਈ ਵਰਤਿਆ ਹੈ…</string>
-    <string name="audio_source_when_bt_connected">ਬਲਿਊ ਟੁੱਥ (ਸਿਰ-ਸੈੱਟ) ਆਵਾਜ਼ ਸਰੋਤ ਨਾਲ ਜੁੜਿਆ ਹੈ</string>
-
-    <string name="when_bt_connected_do_nothing">ਕੁਝ ਨਾ ਕੀਤਾ ਜਾਵੇ</string>
-    <string name="when_bt_connected_switch_source">ਆਡੀਓ ਸਰੋਤ ਬਦਲੋ</string>
-    <string name="when_bt_connected_disable_recording">ਰਿਕਾਰਡਿੰਗ ਬੰਦ/ਆਯੋਗ ਕਰੋ</string>
-
-    <string name="alsa_is_not_installed">ALSA ਇੰਸਟਾਲ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ</string>
-    <string name="alsa_is_not_installed_summary">ALSA ਨੂੰ ਇੰਸਟਾਲ ਕਰਨ ਲਈ ਇੱਥੇ ਟੈਪ</string>
-
-    <string name="dont_use_amr_driver">AMR ਡਰਾਈਵਰ ਦਾ ਇਸਤੇਮਾਲ ਨਾ ਕਰੋ</string>
-    <string name="add_exception">ਅਪਵਾਦ ਸ਼ਾਮਲ ਕਰੋ</string>
-    <string name="exception_groups">% d ਗਰੁੱਪ</string>
-    <string name="exception_contact">ਸੰਪਰਕ</string>
-    <string name="exception_select_contact">ਸੰਪਰਕ ਚੁਣੋ</string>
-    <string name="exception_action">ਐਕਸ਼ਨ</string>
-    <string name="exception_groups_not_found">ਗਰੁੱਪ ਨਹੀ ਲੱਭੇ</string>
-    <string name="exception_contacts_not_found">"ਸੰਪਰਕ ਨਹੀ  ਲੱਭੇ"</string>
-    <string name="exceptions_not_added">ਅਪਵਾਦ ਸ਼ਾਮਿਲ ਨਹੀ ਕੀਤਾ ਗਿਆ ਹੈ</string>
-    <string name="exception_by_contact">ਸੰਪਰਕ ਦੁਆਰਾ</string>
-    <string name="exception_by_group">ਗਰੁੱਪ ਦੁਆਰਾ</string>
-    <string name="exception_by_phone_number">"ਫੋਨ ਨੰਬਰ  ਦੁਆਰਾ"</string>
-    <string name="exception_delete_message">"ਤੁਹਾਨੂੰ ਯਕੀਨ ਹੈ ਕਈ ਤੁਸੀਂ ਇਸ ਅਪਵਾਦ ਨੂੰ ਹਟਾਉਣਾ ਚਾਹੁੰਦੇ  ਹੋ ?"</string>
-
-    <string name="folder_chooser_up_to">↑ ਤਕ %s</string>
-    <string name="create_new_folder">ਨਵਾ ਫੋਲਡਰ ਬਣਾਓ …</string>
-    <string name="dialog_title_new_folder">ਨਵਾ ਫੋਲਡਰ</string>
-    <string name="settings_filename">ਫਾਈਲ ਦਾ ਨਾਮ</string>
-    <string name="pattern_call_timestamp">ਕਾਲ ਮੋਹਰ (unix time)</string>
-    <string name="default_language">ਮੂਲ ਭਾਸ਼ਾ</string>
-    <string name="show_notification_summary">ਸਥਿਤੀ ਪੱਟੀ ਵਿੱਚ ਸਥਾਈ ਨੋਟੀਫਿਕੇਸ਼ਨ</string>
-    <string name="hide_icon_but_keep_notification">ਆਈਕਾਨ ਲ੍ਕੋਵੋ, ਪਰ ਨੋਟੀਫਿਕੇਸ਼ਨ ਰੱਖੋ</string>
-    <string name="hide_icon_but_keep_notification_summary">ਆਈਕਾਨ ਲ੍ਕੋਵੋ, ਪਰ ਹਾਲਤ ਪੱਟੀ ਵਿੱਚ ਨੋਟੀਫਿਕੇਸ਼ਨ ਰੱਖੋ</string>
-    <string name="category_incall_control_button">ਵਿਚ-ਕਾਲ ਕੰਟਰੋਲ ਬਟਨ</string>
-    <string name="incall_control_for_outgoing_summary">ਬਾਹਰ ਜਾਨ ਵਾਲੀ ਕਾਲ \'ਤੇ ਵਿੱਚ-ਕਾਲ ਕੰਟਰੋਲ ਬਟਨ ਦਿਖਾਓ</string>
-    <string name="incall_control_for_incoming_summary">ਆਂਨ ਵਾਲੀ ਕਾਲ \'ਤੇ ਵਿੱਚ-ਕਾਲ ਕੰਟਰੋਲ ਬਟਨ ਦਿਖਾਓ</string>
-    <string name="hide_button_while_recording">ਰਿਕਾਰਡਿੰਗ ਕਰਨ ਵੇਲੇ ਬਟਨ ਨੂ ਲੁਕੋਵੋ</string>
-    <string name="hide_button_while_recording_summary">"ਜਦੋ ਕਾਲ ਦਰਜ ਕੀਤਾ ਜਾ ਰਿਹੀ  ਹੋਵੇ ਉਦੋ ਵਿਚ-ਕਾਲ ਕੰਟਰੋਲ ਬਟਨ ਨੂੰ ਲੋਕੋਵੋ"</string>
-    <string name="vertical_position_summary">%s dp, ਸਕਰੀਨ ਦੇ ਸੇੰਟਰ ਤੋ ਆਫਸੈੱਟ</string>
-    <string name="horizontal_position_summary">%s dp, ਸਕਰੀਨ ਦੇ ਸੇੰਟਰ ਤੋ ਆਫਸੈੱਟ</string>
-    <string name="hide_button_before_answer">ਜਵਾਬ ਤੋ ਪਹਲਾ ਬਟਨ ਨੂੰ ਲੁਕੋਵੋ</string>
-    <string name="hide_button_before_answer_summary">"ਜਦੋ ਤਕ ਕੁਨੈਕਸ਼ਨ ਸਥਾਪਿਤ ਨਾ ਹੋਵੇ ਉਦੋ ਤਕ  ਵਿਚ-ਕਾਲ ਕੰਟਰੋਲ ਬਟਨ ਨੂੰ ਨਾ ਦਿਖਾਉ"</string>
-    <string name="long_press_action">ਲੰਮੇ ਪ੍ਰੈਸ ਕਾਰਵਾਈ</string>
-    <string name="long_press_action_dragging_the_button">ਬਟਨ ਘਸੀਟਣ</string>
-    <string name="long_press_action_hang_up">ਕਾਲ ਕੱਟੋ ਅਤੇ ਆਪਣੇ ਆਪ ਹੀ ਵਾਪਸ ਨੂੰ ਕਾਲ ਕਰੋ</string>
-    <string name="category_main_screen">ਮੁੱਖ ਸਕਰੀਨ</string>
-    <string name="hide_starred_recordings">ਤਾਰਾਬੱਧ ਰਿਕਾਰਡਿੰਗ ਲੁਕੋਵੋ</string>
-    <string name="hide_starred_recordings_summary">"ਤਾਰਾਬੱਧ ਰਿਕਾਰਡਿੰਗ ਦੇ ਨਾਲ ਸਾਰੀਆ ਰਿਕਾਰਡਿੰਗ ਨੂ ਨਾ  ਦਿਖਾਉ"</string>
-
-    <string name="cloud_provider">Cloud ਪ੍ਰਦਾਤਾ</string>
-    <string name="sign_in_dropbox">Dropbox ਵਿਚ ਸਾਈਨ - ਇਨ ਕਰੋ</string>
-    <string name="sign_out_dropbox">Dropbox ਵਿਚੋ ਸਾਇਨ ਆਉਟ ਕਰੋ</string>
-    <string name="cloud_provider_google_drive">ਗੂਗਲ ਡਰਾਈਵ</string>
-    <string name="cloud_common_settings">ਆਮ</string>
-    <string name="cloud_upload_starred">ਅੱਪਲੋਡ ਲਗਾਏ</string>
-    <string name="cloud_upload_starred_summary">ਜਦੋ ਰਿਕਾਰਡਿੰਗ ਤੇ ਸਟਾਰ ਲਗਾਵੋ ਉਦੋ cloud ਤੇ ਅੱਪਲੋਡ ਕਰੋ</string>
-
-    <string name="notify_uploading_dropbox">Dropbox ਤੇ ਅੱਪਲੋਡ ਕਰੋ</string>
-    <string name="notify_converting_to_amr">AMR ਵਿਚ ਬਦਲ ਰਹੀ ਹੈ</string>
-    <string name="notify_converting_to_mp3">MP3 ਵਿਚ ਬਦਲ ਰਹੀ ਹੈ</string>
-    <string name="notify_encrypting">ਇਨਕ੍ਰਿਪਟ ਕਰ ਰਹੀ ਹੈ</string>
-    <string name="notify_decrypting">ਡੀਕ੍ਰਿਪਟ ਕਰ ਰਹੀ ਹੈ</string>
-    <string name="notify_waiting_for_calls">ਕਾਲ ਦੀ ਉਡੀਕ ਲਈ</string>
-    <string name="notify_tasks_remaining">%d ਬਾਕੀ ਕੰਮ</string>
-
-    <string name="create_new_key_summary">ਇਹ ਕੁੰਜੀ ਨੂੰ ਇਨਕ੍ਰਿਪਟ ਕਰਨ ਲਈ ਰਿਕਾਰਡਿੰਗ ਜ ਐਪਲੀਕੇਸ਼ ਨੂੰ ਦਰਜ ਕਰਨ ਲਈ ਬਾਅਦ ਵਿੱਚ ਵਰਤਿਆ ਜਾਵੇਗਾ</string>
-    <string name="delete_key">ਕੁੰਜੀ ਹਟਾਓ</string>
-    <string name="delete_key_summary">ਚੇਤਾਵਨੀ! ਤੁਹਾਨੂੰ ਇਸ ਕੁੰਜੀ ਨਾਲ ਇੰਕ੍ਰਿਪਟਡ ਕੀਤਾ ਹੈ, ਜੇ ਤੁਹਾਨੂੰ ਵੀ ਉਸੇ ਪਾਸਵਰਡ ਨਾਲ ਇੱਕ ਨਵ ਕੁੰਜੀ ਬਣਾਉਣ ਵੀ, ਜੇ, ਇਨਕ੍ਰਿਪਟਡ ਰਿਕਾਰਡਿੰਗ ਮੁੜ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਕਦੇ ਵੀ ਯੋਗ ਹੋਵੋਗੇ</string>
-    <string name="delete_key_message">ਹਟਾਉਣ ਉਪਰੰਤ ਤੁਹਾਨੂੰ ਇਸ ਕੁੰਜੀ ਨਾਲ ਇੰਕ੍ਰਿਪਟ ਰਿਕਾਰਡਿੰਗ ਮੁੜ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਯੋਗ ਨਹੀ ਹੋ. ਤੁਹਾਨੂੰ ਜਾਰੀ ਰੱਖਣਾ ਚਾਹੁੰਦੇ ਹੋ?</string>
-    <string name="require_password_summary_no_key">ਐਪਲੀਕੇਸ਼ ਨੂੰ ਖੋਲ੍ਹਣ ਲਈ ਪਾਸਵਰਡ ਦੀ ਲੋੜ ਹੈ. ਇਸ ਨੂੰ ਯੋਗ ਕਰਨ ਲਈ ਤੁਹਾਨੂੰ ਪਹਿਲੀ ਇੱਕ ਕੁੰਜੀ ਬਣਾਉਣਾ ਚਾਹੀਦਾ ਹੈ</string>
-    <string name="app_admin_summary">ਕਾਲ ਰਿਕਾਰਡਰ, ਹਟਾਉਣ ਨੂੰ ਰੋਕਣ ਲਈ ਜ਼ਰੂਰੀ</string>
-    <string name="app_admin_explanation">ਕਾਲ ਰਿਕਾਰਡਰ ਅਣ ਦੀ ਸੁਰੱਖਿਆ ਨੂੰ ਛੱਡ ਕੇ ਜੰਤਰ ਨੂੰ admin ਦੇ ਕਿਸੇ ਵੀ ਫੀਚਰ ਨਾ ਵਰਤੋ ਕਰਦਾ ਹੈ</string>
-    <string name="use_built_in_player">ਅੰਦਰਲੈ ਪਲੇਅਰ ਦੀ ਵਰਤੋ ਕਰੋ</string>
-    <string name="audio_output_summary">%s (ਪਲੇਅ / ਪੌਜ਼ ਬਟਨ \'ਤੇ ਲੰਮੇ ਟੂਟੀ ਦੇ ਨਾਲ ਨਾਲ ਇਸ ਨੂੰ ਬਦਲਣ ਵਿੱਚ ਹੋਵੇਗਾ )</string>
-    <string name="use_proximity_sensor_summary">ਪਲੇਅਬੈਕ ਦੌਰਾਨ ਨੇੜਤਾ ਸੂਚਕ ਕੇ ਪਰਦੇ ਨੂੰ ਅਯੋਗ</string>
-    <string name="switch_audio_output_summary">ਸਕਰੀਨ ਨੂੰ ਨੇੜਤਾ ਸੂਚਕ ਹੀ ਯੋਗ / ਅਯੋਗ ਹੁੰਦਾ ਹੈ, ਜਦ ਆਟੋਮੈਟਿਕ ਆਡੀਓ ਆਉਟਪੁੱਟ ਵਿੱਚ ਤਬਦੀਲ</string>
-    <string name="send_logs_to_the_developer">ਡਿਵੈਲਪਰ ਨੂੰ ਲਾਗ ਭੇਜੋ</string>
-
-    <string name="button_choose">ਚੁਣੋ</string>
-    <string name="button_buy">ਖਰੀਦੋ</string>
-    <string name="button_restore">ਮੁੜ</string>
-    <string name="button_keep">ਰੱਖੋ</string>
-    <string name="button_play">ਖੇਡੋ</string>
-    <string name="button_pause">ਵਿਰਾਮ</string>
-    <string name="button_delete_wait">ਮਿਟਾਓ (%d)</string>
-    <string name="decline">ਗਿਰਾਵਟ</string>
-    <string name="accept">ਮਨਜ਼ੂਰ</string>
-    <string name="please_wait">ਕ੍ਰਿਪਾ ਕਰਕੇ ਉਡੀਕ ਕਰੋ …</string>
-    <string name="action_mode_selected">%d ਚੁਣਿਆ</string>
-    <string name="toast_wait_for_operation_to_complete">ਇੱਕ ਕਾਰਵਾਈ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ ਲਈ ਉਡੀਕ ਕਰੋ</string>
-    <string name="toast_recording_is_off">ਰਿਕਾਰਡਿੰਗ ਬੰਦ ਹੈ</string>
-    <string name="toast_recording_is_on">ਰਿਕਾਰਡਿੰਗ ਚਾਲੂ ਹੈ</string>
-    <string name="toast_file_deleted">ਫਾਇਲ ਸਫਲਤਾਪੂਰਕ ਹਟਾ ਦਿੱਤਾ ਗਿਆ ਹੈ</string>
-
-    <string name="cloud_added">ਸ਼ਾਮਿਲ ਕੀਤਾ ਗਿਆ ਹੈ</string>
-
-    <string name="waiting_for_answer">ਜਵਾਬ ਦੀ ਉਡੀਕ</string>
-    <string name="recording_in_progress">ਤਰੱਕੀ ਵਿੱਚ ਰਿਕਾਰਡਿੰਗ</string>
-    <string name="no_recording_in_progress">ਕੋਈ ਰਿਕਾਰਡਿੰਗ ਤਰੱਕੀ ਵਿੱਚ ਨਹੀ ਹੈ</string>
-    <string name="about_call_recorder">ਕਾਲ ਰਿਕਾਰਡਰ ਬਾਰੇ</string>
-    <string name="category_other">ਹੋਰ</string>
-    <string name="open_source_licenses">ਓਪਨ ਸਰੋਤ ਲਾਇਸੰਸ</string>
-
-    <string name="category_translators">ਅਨੁਵਾਦਕ</string>
-    <string name="italian_translation_summary">Luca Trevisan ਅਤੇ Francesco Cafagna ਦੁਆਰਾ</string>
-    <string name="chinese_translation_summary">qhq ਅਤੇ Yu Fei ਦੁਆਰਾ</string>
     <string name="belarusian_translation">ਬੈਲਾਰੂਸੀ ਦਾ ਅਨੁਵਾਦ</string>
     <string name="belarusian_translation_summary">Alexander Kuvshinov ਰਾਹੀ</string>
     <string name="vietnamese_translation">ਵੀਅਤਨਾਮੀ ਅਨੁਵਾਦ</string>
@@ -701,5 +505,5 @@
     <string name="tamil_translation">ਤਾਮਿਲ ਦਾ ਅਨੁਵਾਦ</string>
     <string name="tamil_translation_summary">Ashish Sharma ਆਸ਼ੀਸ਼ ਸ਼ਰਮਾ ਦੁਆਰਾ</string>
     <string name="greek_translation">ਯੂਨਾਨੀ ਭਾਸ਼ਾ ਵਿਚ ਤਰਜਮਾ</string>
-    <string name="greek_translation_summary">"ਦੁਆਰਾ  Lefteris (SomniusX) Eliades"</string>
+    <string name="greek_translation_summary">ਦੁਆਰਾ Lefteris (SomniusX) Eliades</string>
 </resources>

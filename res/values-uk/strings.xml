@@ -46,6 +46,7 @@
     <string name="list_header_yesterday">вчора</string>
     <string name="queued">в черзі</string>
     <string name="no_connection">Нема з\'єднання</string>
+    <string name="add_to_contacts">Додати до контактів</string>
 
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">Додати до Dropbox</string>

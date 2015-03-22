@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">通話錄音</string>
     <string name="terms_of_use">使用條款</string>
@@ -39,13 +39,14 @@
     <string name="space_free_of">%1$s 可使用於%2$s</string>
 
     <!--Import settings -->
-    
+    <string name="restore_settings">恢復設定</string>
 
     <!-- List -->
     <string name="list_header_today">今天</string>
     <string name="list_header_yesterday">昨天</string>
     <string name="queued">排隊</string>
     <string name="no_connection">沒有連線</string>
+    <string name="add_to_contacts">新增至聯絡人</string>
 
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">上傳到Dropbox</string>
@@ -215,7 +216,7 @@
     <!-- Settings -> Recording -> Exceptions -->
     <string name="add_exception">增加例外</string>
     <string name="exception_group">群組</string>
-    
+    <string name="exception_groups">%d 群組</string>
     <string name="exception_select_group">選擇群組</string>
     <string name="exception_contact">聯絡人</string>
     <string name="exception_select_contact">選擇聯絡人</string>
@@ -235,8 +236,8 @@
     <!-- Settings -> Folders and Files -->
     <string name="folder">資料夾</string>
     <string name="folder_chooser_up_to">↑ 最多 %s</string>
-    
-    
+    <string name="create_new_folder">建立新資料夾…</string>
+    <string name="dialog_title_new_folder">新資料夾</string>
     <string name="automatic_cleanup">自動清理</string>
     <string name="max_number_of_files">錄音最大數量</string>
     <string name="max_number_of_files_message">輸入數值[個] (0 - 無限制)</string>
@@ -291,8 +292,8 @@
     <string name="long_press_action_dragging_the_button">拖動按鈕</string>
     <string name="long_press_action_hang_up">掛斷電話，自動回撥</string>
     <string name="category_main_screen">主畫面</string>
-    
-    
+    <string name="hide_starred_recordings">隱藏標記的錄音</string>
+    <string name="hide_starred_recordings_summary">在螢幕上不顯示所有標記的錄音檔案</string>
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">雲端服務提供商</string>
@@ -382,7 +383,7 @@
     <string name="button_cancel">取消</string>
     <string name="button_create">建立</string>
     <string name="button_delete">刪除</string>
-    
+    <string name="button_restore">恢復</string>
     <string name="button_keep">保持</string>
     <string name="button_play">撥放</string>
     <string name="button_pause">暫停</string>
@@ -426,11 +427,11 @@
     <string name="about_many_thanks_summary">Alexey Subbotin (avs234)</string>
 
     <!--About -> Other-->
-    
-    
+    <string name="category_other">其它</string>
+    <string name="open_source_licenses">開啟來源許可證</string>
 
     <!--About -> Translators-->
-    
+    <string name="category_translators">翻譯人員</string>
     <string name="german_translation">德語</string>
     <string name="german_translation_summary">由 Marc Hillesheim 與 Thomas Käfer 翻譯</string>
     <string name="polish_translation">波蘭語</string>
@@ -505,17 +506,4 @@
     <string name="tamil_translation_summary">由 Ashish Sharma 翻譯</string>
     <string name="greek_translation">希臘語翻譯</string>
     <string name="greek_translation_summary">由 Lefteris (SomniusX) Eliades 翻譯</string>
-<string name="restore_settings">恢復設定</string>
-
-    <string name="exception_groups">%d 群組</string>
-    <string name="create_new_folder">建立新資料夾…</string>
-    <string name="dialog_title_new_folder">新資料夾</string>
-    <string name="hide_starred_recordings">隱藏標記的錄音</string>
-    <string name="hide_starred_recordings_summary">在螢幕上不顯示所有標記的錄音檔案</string>
-
-    <string name="button_restore">恢復</string>
-    <string name="category_other">其它</string>
-    <string name="open_source_licenses">開啟來源許可證</string>
-
-    <string name="category_translators">翻譯人員</string>
-    </resources>
+</resources>

@@ -1,79 +1,80 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    
+    <string name="app_name"/>
     <string name="terms_of_use">Termos de Uso</string>
-    
+    <string name="terms_of_use_message">Ao utilizar o aplicativo, você concorda com o &lt;a href=http://rec.sh/terms&gt;Termo de Uso&lt;/a&gt; do CallRecorder.</string>
 
     <!-- Navigation drawer -->
-    
-    
+    <string name="navigation_drawer_open">Abrir a gaveta de navegação</string>
+    <string name="navigation_drawer_close">Fechar a gaveta de navegação</string>
 
     <!-- Navigation drawer sections -->
-    
-    
+    <string name="section_all_recordings">Todas gravações</string>
+    <string name="section_starred">Marcado</string>
     <string name="section_incoming">Recebidas</string>
     <string name="section_outgoing">Enviadas</string>
-    
-    
-    
+    <string name="section_by_contact">Por contato</string>
+    <string name="section_by_format">Por formato</string>
+    <string name="section_by_label">Por marcador</string>
     <string name="section_help">Ajuda</string>
     <string name="section_tasks">Tarefas</string>
-    
+    <string name="section_tasks_hint">Tarefas que consomem tempo, como conversão, criptografia ou upload para a nuvem, aparecerão aqui</string>
     <string name="empty_hint">Vazio</string>
 
     <!-- Action bar -->
     <string name="action_search">Localizar</string>
-    
+    <string name="action_sort">Ordenar</string>
     <string name="action_settings">Configurações</string>
-    
-    
-    
-    
-    
-    
+    <string name="action_refresh">Atualizar</string>
+    <string name="action_delete">Apagar</string>
+    <string name="action_add_star">Adicionar estrela</string>
+    <string name="action_remove_star">Remover estrela</string>
+    <string name="action_share">Compartilhar</string>
+    <string name="action_cancel_tasks">Cancelar tarefas</string>
     <string name="action_select_all">Selecionar tudo</string>
-    
-    
-    
-    
-    
+    <string name="sort_by_date">Por data</string>
+    <string name="sort_by_contact">Por contato</string>
+    <string name="sort_by_file_size">Por tamanho de arquivo</string>
+    <string name="records_size">registros: %1$s, tamanho: %2$s</string>
+    <string name="space_free_of">%1$s livre de %2$s</string>
 
     <!--Import settings -->
-    
+    <string name="restore_settings">Restaurar configurações</string>
 
     <!-- List -->
-    
-    
-    
-    
+    <string name="list_header_today">Hoje</string>
+    <string name="list_header_yesterday">Ontem</string>
+    <string name="queued">Enfileirada</string>
+    <string name="no_connection">Sem conexão</string>
+    <string name="add_to_contacts">Adicionar aos contatos</string>
 
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">Adicionar ao Dropbox</string>
-    
-    
+    <string name="menu_add_note">Adicionar nota</string>
+    <string name="menu_edit_note">Editar nota</string>
     <string name="menu_delete">Apagar</string>
-    
-    
-    
+    <string name="menu_share">Compartilhar</string>
+    <string name="menu_convert_to_mp3">Converter para MP3</string>
+    <string name="menu_convert_to_amr">Converter para AMR</string>
     <string name="menu_get_info">Obter Informação</string>
-    
+    <string name="menu_cancel_task">Cancelar tarefas</string>
     <string name="menu_encrypt">Criptografar</string>
     <string name="menu_decrypt">Decriptografar</string>
 
     <!-- List -> Get info dialog -->
     <string name="file_name">Nome do arquivo</string>
     <string name="sample_rate">Taxa de Amostragem</string>
-    
-    
-    
-    
+    <string name="sample_rate_hz"/>
+    <string name="recording_type">Tipo de gravação</string>
+    <string name="recording_type_mono"/>
+    <string name="recording_type_stereo">Estéreo</string>
     <string name="file_size">Tamanho do arquivo</string>
-    
-    
-    
-    
-    
-    
+    <string name="terabyte"/>
+    <string name="gigabyte"/>
+    <string name="megabyte"/>
+    <string name="kilobyte"/>
+    <string name="bytes"/>
+    <string name="note">Nota</string>
 
     <!-- List -> Get info dialog -> Edit -->
     <string name="contact_name">Nome do contato</string>
@@ -81,15 +82,15 @@
 
     <!-- List -> Confirm delete dialog -->
     <string name="confirm_delete_message">Tem certeza que deseja apagar esta gravação?</string>
-    
-    
+    <string name="confirm_delete_several_title">Confirmar deleção</string>
+    <string name="confirm_delete_several_message">Você selecionou %d gravações. Você tem certeza que deseja apagá-las?</string>
 
     <!-- List -> Share -->
-    
+    <string name="share_via">Compartilhar via</string>
     <string name="recorded_calls">Chamadas gravadas</string>
 
     <!--  Settings -> Headers -->
-    
+    <string name="settings_open_unlocker">Abrir desbloqueador</string>
     <string name="settings_recording">Gravação</string>
     <string name="settings_folders_and_files">Pastas e Arquivos</string>
     <string name="settings_ui_and_appearance">Interface e Aparência</string>
@@ -504,60 +505,5 @@
     
     
     
-    
-<string name="app_name"/>
-    <string name="terms_of_use_message">Ao utilizar o aplicativo, você concorda com o &lt;a href=http://rec.sh/terms&gt;Termo de Uso&lt;/a&gt; do CallRecorder.</string>
-
-    <string name="navigation_drawer_open">Abrir a gaveta de navegação</string>
-    <string name="navigation_drawer_close">Fechar a gaveta de navegação</string>
-
-    <string name="section_all_recordings">Todas gravações</string>
-    <string name="section_starred">Marcado</string>
-    <string name="section_by_contact">Por contato</string>
-    <string name="section_by_format">Por formato</string>
-    <string name="section_by_label">Por marcador</string>
-    <string name="section_tasks_hint">Tarefas que consomem tempo, como conversão, criptografia ou upload para a nuvem, aparecerão aqui</string>
-    <string name="action_sort">Ordenar</string>
-    <string name="action_refresh">Atualizar</string>
     <string name="greek_translation_summary">porLefteris (SomniusX) Eliades</string>
-<string name="action_delete">Apagar</string>
-    <string name="action_add_star">Adicionar estrela</string>
-    <string name="action_remove_star">Remover estrela</string>
-    <string name="action_share">Compartilhar</string>
-    <string name="action_cancel_tasks">Cancelar tarefas</string>
-    <string name="sort_by_date">Por data</string>
-    <string name="sort_by_contact">Por contato</string>
-    <string name="sort_by_file_size">Por tamanho de arquivo</string>
-    <string name="records_size">registros: %1$s, tamanho: %2$s</string>
-    <string name="space_free_of">%1$s livre de %2$s</string>
-
-    <string name="restore_settings">Restaurar configurações</string>
-
-    <string name="list_header_today">Hoje</string>
-    <string name="list_header_yesterday">Ontem</string>
-    <string name="queued">Enfileirada</string>
-    <string name="no_connection">Sem conexão</string>
-
-    <string name="menu_add_note">Adicionar nota</string>
-    <string name="menu_edit_note">Editar nota</string>
-    <string name="menu_share">Compartilhar</string>
-    <string name="menu_convert_to_mp3">Converter para MP3</string>
-    <string name="menu_convert_to_amr">Converter para AMR</string>
-    <string name="menu_cancel_task">Cancelar tarefas</string>
-    <string name="sample_rate_hz"/>
-    <string name="recording_type">Tipo de gravação</string>
-    <string name="recording_type_mono"/>
-    <string name="recording_type_stereo">Estéreo</string>
-    <string name="terabyte"/>
-    <string name="gigabyte"/>
-    <string name="megabyte"/>
-    <string name="kilobyte"/>
-    <string name="bytes"/>
-    <string name="note">Nota</string>
-
-    <string name="confirm_delete_several_title">Confirmar deleção</string>
-    <string name="confirm_delete_several_message">Você selecionou %d gravações. Você tem certeza que deseja apagá-las?</string>
-
-    <string name="share_via">Compartilhar via</string>
-    <string name="settings_open_unlocker">Abrir desbloqueador</string>
-    </resources>
+</resources>

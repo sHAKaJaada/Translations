@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">利用規約</string>
@@ -13,9 +13,9 @@
     <string name="section_starred">お気に入り</string>
     <string name="section_incoming">着信</string>
     <string name="section_outgoing">発信</string>
-    
-    
-    
+    <string name="section_by_contact">コンタクト毎</string>
+    <string name="section_by_format">録音形式毎</string>
+    <string name="section_by_label">ラベル毎</string>
     <string name="section_help">ヘルプ</string>
     <string name="section_tasks">タスク</string>
     <string name="section_tasks_hint">変換、暗号化あるいはクラウドへのアップロードなど録音に関する時間を消費するタスクはここに表示されます</string>
@@ -39,13 +39,14 @@
     
 
     <!--Import settings -->
-    
+    <string name="restore_settings">設定の復元</string>
 
     <!-- List -->
     <string name="list_header_today">今日</string>
     <string name="list_header_yesterday">昨日</string>
     
     <string name="no_connection">接続なし</string>
+    <string name="add_to_contacts">連絡先へ追加</string>
 
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">Dropboxへ追加</string>
@@ -85,7 +86,7 @@
     <string name="confirm_delete_several_message">%d 個の録音を選択しました。これらを削除してもよろしいですか?</string>
 
     <!-- List -> Share -->
-    
+    <string name="share_via">共有</string>
     <string name="recorded_calls">録音された通話</string>
 
     <!--  Settings -> Headers -->
@@ -116,8 +117,8 @@
     <string name="license_error_contacting_server">サーバー接続エラー</string>
     <string name="license_server_error">サーバーエラー</string>
     <string name="license_over_quota">このデバイスからの要求が多すぎます</string>
-    
-    
+    <string name="license_trial_expired">使用期限切れ</string>
+    <string name="license_trial_expired_summary">フルバージョンを購入する前にこのバージョンをアンインストールしてください</string>
     <string name="buy_full_version">フルバージョンを購入</string>
     <string name="buy_full_version_summary">現在のバージョンは %s に期限切れとなります</string>
 
@@ -128,7 +129,7 @@
     <string name="select_your_device">デバイスを選択</string>
     <string name="device_change_settings_empty">このデバイスはすでに設定済です</string>
     <string name="device_root_is_required">Rootが必要です</string>
-    
+    <string name="device_root_is_required_summary">このデバイスではより良い音質のためにrootが必要です</string>
     <string name="device_other">その他</string>
     <string name="recording_method">録音方法</string>
     <string name="recording_method_api">標準API</string>
@@ -137,7 +138,7 @@
     <string name="recording_method_caf_settings">CAF録音の設定をします</string>
     <string name="recording_method_alsa">ALSA</string>
     <string name="recording_method_alsa_settings">ALSA録音の設定をします</string>
-    
+    <string name="recording_method_msm">MSM</string>
     <string name="recording_method_msm_settings">MSM録音の設定をします</string>
     <string name="category_actions">アクション</string>
     <string name="action_for_incoming">着信時のアクション</string>
@@ -152,15 +153,15 @@
     <string name="after_call_actions_dialog_summary">通話後にどうすべきか確認します</string>
     <string name="vibrate_on_call">通話の開始/終了でバイブ</string>
     <string name="exceptions">例外</string>
-    
+    <string name="exceptions_summary">コンタクト、グループ、あるいは電話番号に対する特定のアクションを設定します</string>
     <string name="start_recording_on_answer">応答で録音を開始</string>
     <string name="start_recording_on_answer_summary">発信時の呼び出しに応じた時に録音を開始します。アプリは応答の検出に非公式の方法を使います。このためいくつかのデバイスでは失敗するかもしれません。Android 4.1 Jelly Bean以降でRootが必要になります。kernelでLoggerを有効にしなくてはいけません。</string>
     <string name="delay_before_start_recording">録音開始前の遅延時間</string>
-    
+    <string name="delay_before_start_recording_summary">発信: %1$s, 着信: %2$s</string>
     <string name="delay_format_sec">%s 秒</string>
-    
-    
-    
+    <string name="delay_for_outgoing">発信</string>
+    <string name="delay_for_incoming">着信</string>
+    <string name="settings_for_device">%s の設定</string>
     <string name="recording_format">録音形式</string>
     <string name="recording_format_wav">WAV形式</string>
     <string name="recording_format_amr">AMR形式</string>
@@ -168,7 +169,7 @@
     <string name="recording_format_mp3">MP3形式</string>
     <string name="volume_control">音量制御</string>
     
-    
+    <string name="volume_control_overall">全般的な音量</string>
     
     
     <string name="sample_rate_8000">8000 Hz (デフォルト)</string>
@@ -215,28 +216,28 @@
     <!-- Settings -> Recording -> Exceptions -->
     <string name="add_exception">例外の追加</string>
     <string name="exception_group">グループ</string>
-    
+    <string name="exception_groups">%d 個のグループ</string>
     <string name="exception_select_group">グループを選択</string>
-    
-    
+    <string name="exception_contact">コンタクト</string>
+    <string name="exception_select_contact">コンタクトの選択</string>
     <string name="exception_phone_number">電話番号</string>
     <string name="exception_action">アクション</string>
     <string name="exception_select_action">アクションを選択</string>
     <string name="exception_action_always_record">常に録音</string>
     <string name="exception_action_never_record">録音しない</string>
     <string name="exception_groups_not_found">グループがありません</string>
-    
-    
-    
-    
-    
+    <string name="exception_contacts_not_found">コンタクトがありません</string>
+    <string name="exceptions_not_added">例外は追加されていません</string>
+    <string name="exception_by_contact">コンタクト毎</string>
+    <string name="exception_by_group">グループ毎</string>
+    <string name="exception_by_phone_number">電話番号毎</string>
     <string name="exception_delete_message">この例外を削除してもよろしいですか?</string>
 
     <!-- Settings -> Folders and Files -->
     <string name="folder">フォルダー</string>
-    
-    
-    
+    <string name="folder_chooser_up_to">↑ %s へ移動</string>
+    <string name="create_new_folder">新しいフォルダーを作成…</string>
+    <string name="dialog_title_new_folder">新しいフォルダー</string>
     <string name="automatic_cleanup">自動クリーンアップ</string>
     <string name="max_number_of_files">保存するファイルの最大数</string>
     <string name="max_number_of_files_message">数字を入力して下さい (0 - 無制限)</string>
@@ -253,7 +254,7 @@
     <string name="pattern_contact_name">コンタクト名</string>
     <string name="pattern_phone_number">電話番号</string>
     <string name="pattern_call_time">通話日時</string>
-    
+    <string name="pattern_call_timestamp">通話時間 (UNIX時間)</string>
     <string name="pattern_call_type">通話種別(発信または着信)</string>
     <string name="time_pattern_hours">時</string>
     <string name="time_pattern_minutes">分</string>
@@ -269,52 +270,52 @@
     <string name="default_language">規定の言語</string>
     <string name="category_notification">通知</string>
     <string name="show_notification">通知領域に表示</string>
-    
-    
-    
-    
+    <string name="show_notification_summary">ステータスバーに永続的な通知を表示します</string>
+    <string name="hide_icon_but_keep_notification">アイコンは隠し、通知を維持</string>
+    <string name="hide_icon_but_keep_notification_summary">アイコンは隠しますが、ステータスバーに通知は維持します</string>
+    <string name="category_incall_control_button">通話中の制御ボタン</string>
     <string name="incall_control_for_outgoing">発信</string>
-    
+    <string name="incall_control_for_outgoing_summary">発信時に通話中の制御ボタンを表示します</string>
     <string name="incall_control_for_incoming">着信</string>
-    
-    
-    
+    <string name="incall_control_for_incoming_summary">着信時に通話中の制御ボタンを表示します</string>
+    <string name="hide_button_while_recording">録音中はボタンを隠す</string>
+    <string name="hide_button_while_recording_summary">通話が録音中の場合は通話中の制御ボタンを隠します</string>
     <string name="show_button_while_ringing">呼び出しと同時にボタンを表示</string>
     <string name="show_button_while_ringing_summary">着信応答前に通話中の制御ボタンを表示します</string>
     <string name="vertical_position">垂直位置</string>
-    
+    <string name="vertical_position_summary">%s dp, 画面中央からのオフセット</string>
     <string name="horizontal_position">水平位置</string>
-    
-    
+    <string name="horizontal_position_summary">%s dp, 画面中央からのオフセット</string>
+    <string name="hide_button_before_answer">応答前にボタンを隠す</string>
     <string name="hide_button_before_answer_summary">接続が確立されるまで通話制御ボタンを表示しません</string>
-    
-    
-    
+    <string name="long_press_action">長押しのアクション</string>
+    <string name="long_press_action_dragging_the_button">ボタンのドラッグ</string>
+    <string name="long_press_action_hang_up">終話し自動的にかけ直す</string>
     <string name="category_main_screen">メイン画面</string>
-    
-    
+    <string name="hide_starred_recordings">お気に入りの録音を隠す</string>
+    <string name="hide_starred_recordings_summary">全録音の画面ではお気に入りの録音を表示しません</string>
 
     <!-- Settings -> Cloud -->
-    
+    <string name="cloud_provider">クラウドプロバイダ</string>
     <string name="cloud_provider_dropbox">Dropbox</string>
-    
-    
-    
-    
+    <string name="sign_in_dropbox">Dropboxへサインイン</string>
+    <string name="sign_out_dropbox">Dropbox からサインアウト</string>
+    <string name="cloud_provider_google_drive">Google ドライブ</string>
+    <string name="cloud_common_settings">共通</string>
     <string name="cloud_wifi_only">Wi-Fiのみ</string>
     <string name="cloud_auto_upload">自動アップロード</string>
     <string name="cloud_auto_upload_summary">通話直後に録音をアップロードします</string>
-    
-    
+    <string name="cloud_upload_starred">お気に入りをアップロード</string>
+    <string name="cloud_upload_starred_summary">録音をお気に入りに追加した時にクラウドへアップロードします</string>
 
     <!-- Notification -->
-    
-    
-    
-    
-    
-    
-    
+    <string name="notify_uploading_dropbox">Dropbox へアップロード</string>
+    <string name="notify_converting_to_amr">AMR へ変換中</string>
+    <string name="notify_converting_to_mp3">MP3 へ変換中</string>
+    <string name="notify_encrypting">暗号化中</string>
+    <string name="notify_decrypting">復号化中</string>
+    <string name="notify_waiting_for_calls">通話待機中です</string>
+    <string name="notify_tasks_remaining">%d 個のタスクが残っています</string>
 
     <!-- Password dialog -->
     <string name="wrong_password">パスワードが違います</string>
@@ -325,17 +326,17 @@
     <string name="category_encryption">暗号化</string>
     <string name="category_application">アプリケーション</string>
     <string name="create_new_key">新しいキーを作成する</string>
-    
-    
+    <string name="create_new_key_summary">このキーは録音の暗号化あるいはアプリを開く際に使用されます</string>
+    <string name="delete_key">キーの削除</string>
     <string name="change_password">パスワードの変更</string>
-    
-    
+    <string name="delete_key_summary">注意! 新しいキーを同じパスワードで作成したとしても、このキーで暗号化された録音は二度と復号化できなくなります</string>
+    <string name="delete_key_message">削除後はこのキーで復号化できなくなります。処理してもよろしいですか?</string>
     <string name="enter_old_password">旧パスワードを入力してください</string>
     <string name="enter_new_password">新パスワードを入力してください</string>
     <string name="re_enter_new_password">新パスワードを再入力してください</string>
     <string name="require_password">パスワードを要求</string>
     <string name="require_password_summary">アプリを開くためにパスワードを要求します</string>
-    
+    <string name="require_password_summary_no_key">アプリを開くにはパスワードが必要です。これを有効にするためには、まずキーを作成しなければなりません</string>
     <string name="lock_after">ロックの条件</string>
     <string name="lock_after_exit">終了後</string>
     <string name="lock_after_1_minute">1分後</string>
@@ -343,22 +344,22 @@
     <string name="lock_after_5_minutes">5分後</string>
     <string name="lock_after_10_minutes">10分後</string>
     <string name="app_admin">アプリ管理者</string>
-    
-    
+    <string name="app_admin_summary">Call Recorder のアンインストール防止のために必要です</string>
+    <string name="app_admin_explanation">Call Recorder はアンインストールからの保護以外にデバイス管理者の機能は使用していません</string>
     <string name="aes_128bit">128-bit AES (高速)</string>
     <string name="aes_192bit">192-bit AES (平均)</string>
     <string name="aes_256bit">256-bit AES (強固)</string>
 
     <!-- Settings -> Audio player -->
-    
+    <string name="use_built_in_player">組み込みプレイヤーを使う</string>
     <string name="audio_output">音声出力</string>
-    
+    <string name="audio_output_summary">%s (再生/一時停止ボタンの長押しで同様に切り替えられます)</string>
     <string name="main_speaker">メインスピーカー</string>
     
     <string name="use_proximity_sensor">近接センサーを使用する</string>
-    
+    <string name="use_proximity_sensor_summary">再生中に近接センサーによって画面をオフにします</string>
     <string name="switch_audio_output">オーディオ出力の切り換え</string>
-    
+    <string name="switch_audio_output_summary">近接センサーによって画面のオフ/オン時に自動的に音声出力先を切り替えます</string>
     <string name="android_wav_decoder">WAV形式用Androidデコーダー</string>
     <string name="android_wav_decoder_summary">WAV形式を再生するために内蔵のAndroidツールを使用します</string>
     <string name="android_amr_decoder">AMR形式用Androidデコーダー</string>
@@ -370,51 +371,51 @@
     <string name="root_access_yes">可</string>
     <string name="dual_sim_phone">デュアルSIM携帯</string>
     <string name="dual_sim_phone_summary">アプリが2番目のSIMカードから通話を決定できない場合はこれを有効にしてください</string>
-    
+    <string name="send_logs_to_the_developer">開発者にログを送信</string>
 
     <!-- General -->
     <string name="contact_unknown">不明</string>
-    
+    <string name="button_choose">選択</string>
     <string name="button_ok">OK</string>
-    
-    
+    <string name="button_call">発信</string>
+    <string name="button_buy">購入</string>
     <string name="button_edit">編集</string>
     <string name="button_cancel">キャンセル</string>
+    <string name="button_create">作成</string>
+    <string name="button_delete">削除</string>
+    <string name="button_restore">復元</string>
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <string name="button_play">再生</string>
+    <string name="button_pause">一時停止</string>
+    <string name="button_delete_wait">削除 (%d)</string>
+    <string name="decline">拒否</string>
+    <string name="accept">承諾</string>
+    <string name="call_incoming">着信</string>
+    <string name="call_outgoing">発信</string>
     <string name="please_wait">お待ち下さい…</string>
     <string name="start_recording">録音開始</string>
     <string name="stop_recording">録音停止</string>
-    
+    <string name="action_mode_selected">%d 個選択</string>
     <string name="switch_on">オン</string>
     <string name="switch_off">オフ</string>
 
     <!--Toasts-->
-    
-    
-    
-    
+    <string name="toast_wait_for_operation_to_complete">操作の完了を待っています</string>
+    <string name="toast_recording_is_off">録音はオフになっています</string>
+    <string name="toast_recording_is_on">録音はオンになっています</string>
+    <string name="toast_file_deleted">ファイルは正常に削除されました</string>
 
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">この通話を録音</string>
-    
+    <string name="open_contact">コンタクトを開く</string>
 
     <!--After call actions dialog-->
     <string name="cloud_added">追加しました</string>
 
     <!--Notification-->
-    
-    
-    
+    <string name="waiting_for_answer">応答を待っています</string>
+    <string name="recording_in_progress">録音処理中です</string>
+    <string name="no_recording_in_progress">録音処理はありません</string>
     <string name="an_error_has_occurred">エラーが発生しました。この通話は録音できません</string>
 
     <!--About-->
@@ -426,11 +427,11 @@
     <string name="about_many_thanks_summary">to Alexey Subbotin (avs234)</string>
 
     <!--About -> Other-->
-    
-    
+    <string name="category_other">その他</string>
+    <string name="open_source_licenses">オープンソースライセンス</string>
 
     <!--About -> Translators-->
-    
+    <string name="category_translators">翻訳者</string>
     <string name="german_translation">ドイツ語の翻訳</string>
     <string name="german_translation_summary">Marc Hillesheim と Thomas Käfer</string>
     <string name="polish_translation">ポーランド語の翻訳</string>
@@ -505,106 +506,4 @@
     <string name="tamil_translation_summary">Ashish Sharma</string>
     <string name="greek_translation">ギリシャ語の翻訳</string>
     <string name="greek_translation_summary">Lefteris (SomniusX) Eliades</string>
-<string name="decline">拒否</string>
-    <string name="accept">承諾</string>
-    <string name="section_by_contact">コンタクト毎</string>
-    <string name="section_by_format">録音形式毎</string>
-    <string name="section_by_label">ラベル毎</string>
-    <string name="restore_settings">設定の復元</string>
-
-    <string name="share_via">共有</string>
-    <string name="license_trial_expired">使用期限切れ</string>
-    <string name="license_trial_expired_summary">フルバージョンを購入する前にこのバージョンをアンインストールしてください</string>
-    <string name="device_root_is_required_summary">このデバイスではより良い音質のためにrootが必要です</string>
-    <string name="recording_method_msm">MSM</string>
-    <string name="exceptions_summary">コンタクト、グループ、あるいは電話番号に対する特定のアクションを設定します</string>
-    <string name="delay_before_start_recording_summary">発信: %1$s, 着信: %2$s</string>
-    <string name="delay_for_outgoing">発信</string>
-    <string name="delay_for_incoming">着信</string>
-    <string name="settings_for_device">%s の設定</string>
-    <string name="volume_control_overall">全般的な音量</string>
-    <string name="exception_groups">%d 個のグループ</string>
-    <string name="exception_contact">コンタクト</string>
-    <string name="exception_select_contact">コンタクトの選択</string>
-    <string name="exception_contacts_not_found">コンタクトがありません</string>
-    <string name="exceptions_not_added">例外は追加されていません</string>
-    <string name="exception_by_contact">コンタクト毎</string>
-    <string name="exception_by_group">グループ毎</string>
-    <string name="exception_by_phone_number">電話番号毎</string>
-    <string name="create_new_folder">新しいフォルダーを作成…</string>
-    <string name="dialog_title_new_folder">新しいフォルダー</string>
-    <string name="folder_chooser_up_to">↑ %s へ移動</string>
-    <string name="pattern_call_timestamp">通話時間 (UNIX時間)</string>
-    <string name="show_notification_summary">ステータスバーに永続的な通知を表示します</string>
-    <string name="hide_icon_but_keep_notification">アイコンは隠し、通知を維持</string>
-    <string name="hide_icon_but_keep_notification_summary">アイコンは隠しますが、ステータスバーに通知は維持します</string>
-    <string name="category_incall_control_button">通話中の制御ボタン</string>
-    <string name="incall_control_for_outgoing_summary">発信時に通話中の制御ボタンを表示します</string>
-    <string name="incall_control_for_incoming_summary">着信時に通話中の制御ボタンを表示します</string>
-    <string name="hide_button_while_recording">録音中はボタンを隠す</string>
-    <string name="hide_button_while_recording_summary">通話が録音中の場合は通話中の制御ボタンを隠します</string>
-    <string name="vertical_position_summary">%s dp, 画面中央からのオフセット</string>
-    <string name="horizontal_position_summary">%s dp, 画面中央からのオフセット</string>
-    <string name="hide_button_before_answer">応答前にボタンを隠す</string>
-    <string name="long_press_action">長押しのアクション</string>
-    <string name="long_press_action_dragging_the_button">ボタンのドラッグ</string>
-    <string name="long_press_action_hang_up">終話し自動的にかけ直す</string>
-    <string name="hide_starred_recordings">お気に入りの録音を隠す</string>
-    <string name="hide_starred_recordings_summary">全録音の画面ではお気に入りの録音を表示しません</string>
-
-    <string name="cloud_provider">クラウドプロバイダ</string>
-    <string name="sign_in_dropbox">Dropboxへサインイン</string>
-    <string name="sign_out_dropbox">Dropbox からサインアウト</string>
-    <string name="cloud_provider_google_drive">Google ドライブ</string>
-    <string name="cloud_common_settings">共通</string>
-    <string name="cloud_upload_starred">お気に入りをアップロード</string>
-    <string name="cloud_upload_starred_summary">録音をお気に入りに追加した時にクラウドへアップロードします</string>
-
-    <string name="notify_uploading_dropbox">Dropbox へアップロード</string>
-    <string name="notify_converting_to_amr">AMR へ変換中</string>
-    <string name="notify_converting_to_mp3">MP3 へ変換中</string>
-    <string name="notify_encrypting">暗号化中</string>
-    <string name="notify_decrypting">復号化中</string>
-    <string name="notify_waiting_for_calls">通話待機中です</string>
-    <string name="notify_tasks_remaining">%d 個のタスクが残っています</string>
-
-    <string name="create_new_key_summary">このキーは録音の暗号化あるいはアプリを開く際に使用されます</string>
-    <string name="delete_key">キーの削除</string>
-    <string name="delete_key_summary">注意! 新しいキーを同じパスワードで作成したとしても、このキーで暗号化された録音は二度と復号化できなくなります</string>
-    <string name="delete_key_message">削除後はこのキーで復号化できなくなります。処理してもよろしいですか?</string>
-    <string name="require_password_summary_no_key">アプリを開くにはパスワードが必要です。これを有効にするためには、まずキーを作成しなければなりません</string>
-    <string name="app_admin_summary">Call Recorder のアンインストール防止のために必要です</string>
-    <string name="app_admin_explanation">Call Recorder はアンインストールからの保護以外にデバイス管理者の機能は使用していません</string>
-    <string name="use_built_in_player">組み込みプレイヤーを使う</string>
-    <string name="audio_output_summary">%s (再生/一時停止ボタンの長押しで同様に切り替えられます)</string>
-    <string name="use_proximity_sensor_summary">再生中に近接センサーによって画面をオフにします</string>
-    <string name="switch_audio_output_summary">近接センサーによって画面のオフ/オン時に自動的に音声出力先を切り替えます</string>
-    <string name="send_logs_to_the_developer">開発者にログを送信</string>
-
-    <string name="button_choose">選択</string>
-    <string name="button_call">発信</string>
-    <string name="button_buy">購入</string>
-    <string name="button_create">作成</string>
-    <string name="button_delete">削除</string>
-    <string name="button_restore">復元</string>
-    <string name="button_play">再生</string>
-    <string name="button_pause">一時停止</string>
-    <string name="button_delete_wait">削除 (%d)</string>
-    <string name="call_incoming">着信</string>
-    <string name="call_outgoing">発信</string>
-    <string name="action_mode_selected">%d 個選択</string>
-    <string name="toast_wait_for_operation_to_complete">操作の完了を待っています</string>
-    <string name="toast_recording_is_off">録音はオフになっています</string>
-    <string name="toast_recording_is_on">録音はオンになっています</string>
-    <string name="toast_file_deleted">ファイルは正常に削除されました</string>
-
-    <string name="open_contact">コンタクトを開く</string>
-
-    <string name="waiting_for_answer">応答を待っています</string>
-    <string name="recording_in_progress">録音処理中です</string>
-    <string name="no_recording_in_progress">録音処理はありません</string>
-    <string name="category_other">その他</string>
-    <string name="open_source_licenses">オープンソースライセンス</string>
-
-    <string name="category_translators">翻訳者</string>
-    </resources>
+</resources>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Call Recorder</string>
     <string name="terms_of_use">Käyttöehdot</string>
@@ -13,8 +13,8 @@
     <string name="section_starred">Suosikit</string>
     <string name="section_incoming">Saapuva</string>
     <string name="section_outgoing">Lähtevä</string>
-    
-    
+    <string name="section_by_contact">Yhteystiedolla</string>
+    <string name="section_by_format">Muodolla</string>
     
     <string name="section_help">Apua</string>
     <string name="section_tasks">Tehtävät</string>
@@ -23,40 +23,41 @@
 
     <!-- Action bar -->
     <string name="action_search">Etsi</string>
-    
+    <string name="action_sort">Järjestä</string>
     <string name="action_settings">Asetukset</string>
     <string name="action_refresh">Päivitä</string>
     <string name="action_delete">Poista</string>
-    
-    
-    
-    
+    <string name="action_add_star">Lisää suosikkeihin</string>
+    <string name="action_remove_star">Poista suosikeista</string>
+    <string name="action_share">Jaa</string>
+    <string name="action_cancel_tasks">Peruuta tehtävät</string>
     <string name="action_select_all">Valitse kaikki</string>
-    
-    
-    
-    
-    
+    <string name="sort_by_date">Päivämäärällä</string>
+    <string name="sort_by_contact">Yhteystiedoittain</string>
+    <string name="sort_by_file_size">Tiedoston koolla</string>
+    <string name="records_size">tallennukset: %1$s, koko: %2$s</string>
+    <string name="space_free_of">%1$s vapaana %2$s</string>
 
     <!--Import settings -->
-    
+    <string name="restore_settings">Palauta asetukset</string>
 
     <!-- List -->
-    
-    
-    
-    
+    <string name="list_header_today">Tänään</string>
+    <string name="list_header_yesterday">Eilen</string>
+    <string name="queued">Jonossa</string>
+    <string name="no_connection">Ei yhteyttä</string>
+    <string name="add_to_contacts">Lisää yhteystietoihin</string>
 
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">Lisää Dropboxiin</string>
-    
-    
+    <string name="menu_add_note">Lisää huomio</string>
+    <string name="menu_edit_note">Muokkaa huomiota</string>
     <string name="menu_delete">Poista</string>
-    
-    
-    
+    <string name="menu_share">Jaa</string>
+    <string name="menu_convert_to_mp3">Muunna MP3 muotoon</string>
+    <string name="menu_convert_to_amr">Muunna AMR muotoon</string>
     <string name="menu_get_info">Tietoja</string>
-    
+    <string name="menu_cancel_task">Peruuta tehtävä</string>
     <string name="menu_encrypt">Salaa</string>
     <string name="menu_decrypt">Pura salaus</string>
 
@@ -64,7 +65,7 @@
     <string name="file_name">Tiedostonimi</string>
     <string name="sample_rate">Näytteenottotaajuus</string>
     <string name="sample_rate_hz">Hz</string>
-    
+    <string name="recording_type">Tallennusmuoto</string>
     <string name="recording_type_mono">Mono</string>
     <string name="recording_type_stereo">Stereo</string>
     <string name="file_size">Tiedosto koko</string>
@@ -73,7 +74,7 @@
     <string name="megabyte">MB</string>
     <string name="kilobyte">KB</string>
     <string name="bytes">tavua</string>
-    
+    <string name="note">Huomio</string>
 
     <!-- List -> Get info dialog -> Edit -->
     <string name="contact_name">Yhteystiedon nimi</string>
@@ -81,43 +82,43 @@
 
     <!-- List -> Confirm delete dialog -->
     <string name="confirm_delete_message">Oletko varma, että haluat poistaa tämän tallennuksen?</string>
-    
-    
+    <string name="confirm_delete_several_title">Vahvista poisto</string>
+    <string name="confirm_delete_several_message">Olet valinnut %d tallennusta. Haluatko varmasti poistaa ne?</string>
 
     <!-- List -> Share -->
-    
+    <string name="share_via">Jaa käyttäen</string>
     <string name="recorded_calls">Tallennetut puhelut</string>
 
     <!--  Settings -> Headers -->
-    
+    <string name="settings_open_unlocker">Aukaise Unlocker</string>
     <string name="settings_recording">Tallennetaan</string>
     <string name="settings_folders_and_files">Kansiot ja Tiedostot</string>
     <string name="settings_ui_and_appearance">Käyttöliittymä ja Ulkonäkö</string>
     <string name="settings_security">Turvallisuus</string>
-    
+    <string name="settings_cloud">Pilvi</string>
     <string name="settings_audio_player">Soitin</string>
     <string name="settings_debug">Virheenkorjaus</string>
     <string name="settings_about">Tietoja</string>
 
     <!-- Settings -> License -->
     <string name="license_status">Lisenssin tila</string>
+    <string name="license_check_pending">Odotetaan lisenssin tarkistusta</string>
+    <string name="license_check_failed">Lisenssin tarkistus epäonnistui</string>
+    <string name="license_check_failed_summary">Tästä lisätietoja</string>
+    <string name="license_verified">Lisenssi varmistettu</string>
+    <string name="license_verified_summary">Piilota</string>
+    <string name="license_help">Apua</string>
     
-    
-    
-    
-    
-    
-    
-    
+    <string name="license_error_message">Virhe #%1$s: %2$s</string>
     <string name="license_trial">Kokeiluversio, vanhenee %s</string>
-    
-    
-    
-    
-    
-    
-    
-    
+    <string name="license_unknown_error">Tuntematon virhe</string>
+    <string name="license_not_market_managed">Tätä versiota ei ole vielä Play Storessa</string>
+    <string name="license_incorrect_response">Virheellinen lisenssi Play Storesta</string>
+    <string name="license_error_contacting_server">Virhe palvelimeen yhdistettäessä</string>
+    <string name="license_server_error">Palvelin virhe</string>
+    <string name="license_over_quota">Liian monta pyyntöä tästä laitteesta</string>
+    <string name="license_trial_expired">Kokeilujakso loppunut</string>
+    <string name="license_trial_expired_summary">Poista tämä versio ennen täysversion ostoa</string>
     <string name="buy_full_version">Osta täysversio</string>
     <string name="buy_full_version_summary">Tämänhetkinen versio umpeutuu %s</string>
 
@@ -127,8 +128,8 @@
     <string name="device">Laite</string>
     <string name="select_your_device">Valitse laitteesi</string>
     
-    
-    
+    <string name="device_root_is_required">Root vaaditaan</string>
+    <string name="device_root_is_required_summary">Root vaaditaan paremmalle laadulle</string>
     <string name="device_other">Muu</string>
     <string name="recording_method">Tallennus tapa</string>
     <string name="recording_method_api">Standardi API</string>
@@ -137,8 +138,8 @@
     <string name="recording_method_caf_settings">Asetukset CAF tallennukselle</string>
     <string name="recording_method_alsa">ALSA</string>
     <string name="recording_method_alsa_settings">Asetukset ALSA tallennukselle</string>
-    
-    
+    <string name="recording_method_msm">MSM</string>
+    <string name="recording_method_msm_settings">Asetukset MSM tallennukselle</string>
     <string name="category_actions">Tapahtumat</string>
     <string name="action_for_incoming">Toiminta saapuville puheluille</string>
     <string name="action_for_outgoing">Toiminta lähteville puheluille</string>
@@ -153,24 +154,24 @@
     <string name="vibrate_on_call">Tärinä puhelun alussa/lopussa</string>
     <string name="exceptions">Poikkeukset</string>
     
-    
+    <string name="start_recording_on_answer">Aloita tallennus vastatessa</string>
     
     <string name="delay_before_start_recording">Viive tallennuksen aloittamisessa</string>
-    
-    
-    
-    
-    
-    
+    <string name="delay_before_start_recording_summary">Lähteville: %1$s, saapuville: %2$s</string>
+    <string name="delay_format_sec">%s sek</string>
+    <string name="delay_for_outgoing">Lähteville</string>
+    <string name="delay_for_incoming">Saapuville</string>
+    <string name="settings_for_device">Asetukset %s</string>
+    <string name="recording_format">Tallennusmuoto</string>
     <string name="recording_format_wav">WAV</string>
     <string name="recording_format_amr">AMR</string>
     <string name="recording_format_aac">AAC</string>
     <string name="recording_format_mp3">MP3</string>
     <string name="volume_control">Äänenvoimakkuus</string>
-    
-    
-    
-    
+    <string name="volume_control_summary">Tx: %1$s, Rx: %2$s</string>
+    <string name="volume_control_overall">Pää-äänenvoimakkuus</string>
+    <string name="volume_control_tx">Tx</string>
+    <string name="volume_control_rx">Rx</string>
     <string name="sample_rate_8000">8000 Hz (Oletus)</string>
     <string name="sample_rate_11025">11025 Hz</string>
     <string name="sample_rate_16000">16000 Hz</string>
@@ -187,7 +188,7 @@
     <string name="api_source_default">Oletus</string>
     <string name="api_source_voice_communication">Keskustelu</string>
     <string name="category_wav_settings">WAV Asetukset</string>
-    
+    <string name="category_wav_and_mp3_settings">WAV &amp; MP3 asetukset</string>
     <string name="when_bt_connected">Kun BT yhdistetään…</string>
     <string name="audio_source_when_bt_connected">Äänilähde kun BT yhdistetty</string>
 
@@ -200,8 +201,8 @@
     <string name="recording_mode">Tallennustapa</string>
 
     <!-- Settings -> Recording -> ALSA -->
-    
-    
+    <string name="alsa_is_not_installed">ALSA täytyy olla asennettuna</string>
+    <string name="alsa_is_not_installed_summary">Napauta tästä asentaaksesi ALSA:n</string>
 
     <!-- Settings -> Recording -> MSM -->
     <string name="chipset_type">Piirisarjan tyyppi</string>
@@ -213,30 +214,30 @@
     <string name="dont_use_amr_driver_summary">Muunna WAV AMR muotoon reaaliajassa</string>
 
     <!-- Settings -> Recording -> Exceptions -->
-    
+    <string name="add_exception">Lisää poikkeus</string>
     <string name="exception_group">Ryhmä</string>
-    
+    <string name="exception_groups">%d ryhmät</string>
     <string name="exception_select_group">Valitse ryhmä</string>
-    
-    
-    
-    
+    <string name="exception_contact">Yhteystieto</string>
+    <string name="exception_select_contact">Valitse yhteystieto</string>
+    <string name="exception_phone_number">Puhelinnumero</string>
+    <string name="exception_action">Toiminto</string>
     <string name="exception_select_action">Valitse toiminto</string>
     <string name="exception_action_always_record">Tallenna aina</string>
     <string name="exception_action_never_record">Älä tallenna koskaan</string>
-    
-    
-    
-    
-    
-    
-    
+    <string name="exception_groups_not_found">Ryhmiä ei löytynyt</string>
+    <string name="exception_contacts_not_found">Yhteystietoja ei löytynyt</string>
+    <string name="exceptions_not_added">Poikkeuksia ei lisätty</string>
+    <string name="exception_by_contact">Yhteystiedolla</string>
+    <string name="exception_by_group">Ryhmällä</string>
+    <string name="exception_by_phone_number">Puhelinnumerolla</string>
+    <string name="exception_delete_message">Haluatko varmasti poistaa tämän poikkeuksen?</string>
 
     <!-- Settings -> Folders and Files -->
     <string name="folder">Kansio</string>
-    
-    
-    
+    <string name="folder_chooser_up_to">↑ Ylös %s</string>
+    <string name="create_new_folder">Uusi kansio…</string>
+    <string name="dialog_title_new_folder">Uusi kansio</string>
     <string name="automatic_cleanup">Automaattinen siivous</string>
     <string name="max_number_of_files">Tiedostojen enimmäismäärä</string>
     <string name="max_number_of_files_message">Määrä (0 - ei rajaa)</string>
@@ -245,7 +246,7 @@
     <string name="max_age_of_recordings">Tiedostojen enimmäisikä</string>
     <string name="max_age_of_recordings_message">Ikä päivissä (0 - ei rajaa)</string>
     <string name="current_setting">Tämänhetkinen asetus: %s</string>
-    
+    <string name="settings_filename">Tiedostonimi</string>
     <string name="filename_pattern">Muoto</string>
     <string name="time_pattern">Aikamuoto</string>
 
@@ -253,7 +254,7 @@
     <string name="pattern_contact_name">yhteystiedon nimi</string>
     <string name="pattern_phone_number">puhelinnumero</string>
     <string name="pattern_call_time">aika</string>
-    
+    <string name="pattern_call_timestamp">puhelun ajankohta (unix aika)</string>
     <string name="pattern_call_type">tyyppi (lähtevä tai saapuva)</string>
     <string name="time_pattern_hours">tunnit</string>
     <string name="time_pattern_minutes">minuutit</string>
@@ -266,18 +267,18 @@
     <!--Settings -> Interface and Appearance-->
     <string name="language">Kieli</string>
     <string name="select_language">Valitse kieli</string>
-    
+    <string name="default_language">Oletus kieli</string>
     <string name="category_notification">Ilmoitus</string>
     <string name="show_notification">Näytä ilmoitus</string>
-    
-    
-    
-    
+    <string name="show_notification_summary">Pysyvä ilmoitus tilarivillä</string>
+    <string name="hide_icon_but_keep_notification">Piilota kuvake, mutta pidä ilmoitus</string>
+    <string name="hide_icon_but_keep_notification_summary">Piilota kuvake, mutta pidä ilmoitus tilarivillä</string>
+    <string name="category_incall_control_button">Puhelunaikainen ohjauspainike</string>
     <string name="incall_control_for_outgoing">Lähteville puheluille</string>
     
     <string name="incall_control_for_incoming">Saapuville puheluille</string>
     
-    
+    <string name="hide_button_while_recording">Piilota painike kun tallennetaan</string>
     
     <string name="show_button_while_ringing">Näytä painike hälyttäessä</string>
     <string name="show_button_while_ringing_summary">Näytä puhelunaikainen ohjauspainike ennen kuin saapuvaan puheluun vastataan</string>
@@ -285,7 +286,7 @@
     
     <string name="horizontal_position">Vaakasuora sijainti</string>
     
-    
+    <string name="hide_button_before_answer">Piilota painike ennen vastausta</string>
     <string name="hide_button_before_answer_summary">Älä näytä puhelunaikaista ohjauspainiketta ennen kuin yhteys on saavutettu</string>
     
     
@@ -295,12 +296,12 @@
     
 
     <!-- Settings -> Cloud -->
-    
+    <string name="cloud_provider">Pilvipalvelun tarjoaja</string>
     <string name="cloud_provider_dropbox">Dropbox</string>
-    
-    
-    
-    
+    <string name="sign_in_dropbox">Kirjaudu Dropboxiin</string>
+    <string name="sign_out_dropbox">Kirjaudu ulos Dropboxista</string>
+    <string name="cloud_provider_google_drive">Google Drive</string>
+    <string name="cloud_common_settings">Yleinen</string>
     <string name="cloud_wifi_only">Vain Wi-Fi</string>
     <string name="cloud_auto_upload">Automaattinen lähetys</string>
     <string name="cloud_auto_upload_summary">Lähetä heti puhelun jälkeen</string>
@@ -308,13 +309,13 @@
     
 
     <!-- Notification -->
-    
-    
-    
-    
-    
-    
-    
+    <string name="notify_uploading_dropbox">Lähetetään Dropboxiin</string>
+    <string name="notify_converting_to_amr">Muunnetaan AMR muotoon</string>
+    <string name="notify_converting_to_mp3">Muunnetaan MP3 muotoon</string>
+    <string name="notify_encrypting">Salataan</string>
+    <string name="notify_decrypting">Puretaan salausta</string>
+    <string name="notify_waiting_for_calls">Odotetaan puhelua</string>
+    <string name="notify_tasks_remaining">%d tehtävää jäljellä</string>
 
     <!-- Password dialog -->
     <string name="wrong_password">Väärä salasana</string>
@@ -326,7 +327,7 @@
     <string name="category_application">Sovellus</string>
     <string name="create_new_key">Luo uusi avain</string>
     
-    
+    <string name="delete_key">Tuhoa avain</string>
     <string name="change_password">Vaihda salasana</string>
     
     
@@ -350,7 +351,7 @@
     <string name="aes_256bit">256-bit AES (vahvempi)</string>
 
     <!-- Settings -> Audio player -->
-    
+    <string name="use_built_in_player">Käytä sisäänrakennettua soitinta</string>
     <string name="audio_output">Äänen ulostulo</string>
     
     <string name="main_speaker">Pääkaiutin</string>
@@ -370,55 +371,55 @@
     <string name="root_access_yes">Kyllä</string>
     <string name="dual_sim_phone">TuplaSIM puhelin</string>
     <string name="dual_sim_phone_summary">Ota käyttöön, jos sovellus ei huomaa puheluita toiselta SIM kortilta</string>
-    
+    <string name="send_logs_to_the_developer">Lähetä lokit kehittäjälle</string>
 
     <!-- General -->
     <string name="contact_unknown">Tuntematon</string>
-    
+    <string name="button_choose">Valitse</string>
     <string name="button_ok">OK</string>
-    
-    
+    <string name="button_call">Soita</string>
+    <string name="button_buy">Osta</string>
     <string name="button_edit">Muokkaa</string>
     <string name="button_cancel">Peruuta</string>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <string name="button_create">Luo</string>
+    <string name="button_delete">Poista</string>
+    <string name="button_restore">Palauta</string>
+    <string name="button_keep">Säilytä</string>
+    <string name="button_play">Toista</string>
+    <string name="button_pause">Tauko</string>
+    <string name="button_delete_wait">Poista (%d)</string>
+    <string name="decline">Kieltäydy</string>
+    <string name="accept">Hyväksy</string>
+    <string name="call_incoming">Saapuva</string>
+    <string name="call_outgoing">Lähtevä</string>
     <string name="please_wait">Odota…</string>
     <string name="start_recording">Aloita tallennus</string>
     <string name="stop_recording">Lopeta tallennus</string>
-    
+    <string name="action_mode_selected">%d valittu</string>
     <string name="switch_on">On</string>
     <string name="switch_off">Off</string>
 
     <!--Toasts-->
     
-    
-    
-    
+    <string name="toast_recording_is_off">Tallennus pois päältä</string>
+    <string name="toast_recording_is_on">Tallennus päällä</string>
+    <string name="toast_file_deleted">Tiedosto on poistetu onnistuneesti</string>
 
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">Tallenna tämä puhelu</string>
-    
+    <string name="open_contact">Avaa yhteystieto</string>
 
     <!--After call actions dialog-->
     <string name="cloud_added">Lisätty</string>
 
     <!--Notification-->
-    
-    
-    
+    <string name="waiting_for_answer">Odotetaan vastausta</string>
+    <string name="recording_in_progress">Tallennus käynnissä</string>
+    <string name="no_recording_in_progress">Tallennus ei käynnissä</string>
     <string name="an_error_has_occurred">Virhe tapahtunut, puhelua ei voida tallentaa</string>
 
     <!--About-->
-    
+    <string name="about_call_recorder">Tietoja Call Recorderista</string>
     <string name="version">Versio</string>
     <string name="copyright">Copyright</string>
     <string name="copyright_summary">© %s Alexander Skvortsov (skvalex)</string>
@@ -426,11 +427,11 @@
     <string name="about_many_thanks_summary">Alexey Subbotin (avs234)</string>
 
     <!--About -> Other-->
-    
-    
+    <string name="category_other">Muuta</string>
+    <string name="open_source_licenses">Open source lisenssit</string>
 
     <!--About -> Translators-->
-    
+    <string name="category_translators">Kääntäjät</string>
     <string name="german_translation">Saksan käännös</string>
     <string name="german_translation_summary">Marc Hillesheim ja Thomas Käfer</string>
     <string name="polish_translation">Puolan käännös</string>
@@ -444,11 +445,11 @@
     <string name="slovak_translation">Slovakian käännös</string>
     <string name="slovak_translation_summary">Loránt Gerencsér</string>
     <string name="italian_translation">Italian käännös</string>
-    
+    <string name="italian_translation_summary">Luca Trevisan ja Francesco Cafagna</string>
     <string name="persian_translation">Persian käännös</string>
     <string name="persian_translation_summary">Alireza Afkar</string>
     <string name="chinese_translation">Kiinan käännös</string>
-    
+    <string name="chinese_translation_summary">qhq ja Yu Fei</string>
     <string name="czech_translation">Tshekin käännös</string>
     <string name="czech_translation_summary">Ales Kerner ja Lukas Waldauf</string>
     <string name="arabic_translation">Arabian käännös</string>
@@ -493,159 +494,6 @@
     <string name="punjabi_translation_summary">Raj Verma</string>
     <string name="finnish_translation">Suomen käännös</string>
     <string name="finnish_translation_summary">Eero Linnainmaa</string>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-<string name="action_sort">Järjestä</string>
-    <string name="action_add_star">Lisää suosikkeihin</string>
-    <string name="action_remove_star">Poista suosikeista</string>
-    <string name="action_share">Jaa</string>
-    <string name="action_cancel_tasks">Peruuta tehtävät</string>
-    <string name="sort_by_date">Päivämäärällä</string>
-    <string name="sort_by_contact">Yhteystiedoittain</string>
-    <string name="sort_by_file_size">Tiedoston koolla</string>
-    <string name="records_size">tallennukset: %1$s, koko: %2$s</string>
-    <string name="space_free_of">%1$s vapaana %2$s</string>
-
-    <string name="restore_settings">Palauta asetukset</string>
-
-    <string name="list_header_today">Tänään</string>
-    <string name="list_header_yesterday">Eilen</string>
-    <string name="queued">Jonossa</string>
-    <string name="no_connection">Ei yhteyttä</string>
-
-    <string name="menu_add_note">Lisää huomio</string>
-    <string name="menu_edit_note">Muokkaa huomiota</string>
-    <string name="menu_share">Jaa</string>
-    <string name="menu_convert_to_mp3">Muunna MP3 muotoon</string>
-    <string name="menu_convert_to_amr">Muunna AMR muotoon</string>
-    <string name="menu_cancel_task">Peruuta tehtävä</string>
-    <string name="recording_type">Tallennusmuoto</string>
-    <string name="note">Huomio</string>
-
-    <string name="confirm_delete_several_title">Vahvista poisto</string>
-    <string name="confirm_delete_several_message">Olet valinnut %d tallennusta. Haluatko varmasti poistaa ne?</string>
-
-    <string name="share_via">Jaa käyttäen</string>
-    <string name="settings_open_unlocker">Aukaise Unlocker</string>
-    <string name="settings_cloud">Pilvi</string>
-    <string name="license_check_pending">Odotetaan lisenssin tarkistusta</string>
-    <string name="license_check_failed">Lisenssin tarkistus epäonnistui</string>
-    <string name="license_check_failed_summary">Tästä lisätietoja</string>
-    <string name="license_verified">Lisenssi varmistettu</string>
-    <string name="license_verified_summary">Piilota</string>
-    <string name="license_help">Apua</string>
-    <string name="license_error_message">Virhe #%1$s: %2$s</string>
-    <string name="license_unknown_error">Tuntematon virhe</string>
-    <string name="license_not_market_managed">Tätä versiota ei ole vielä Play Storessa</string>
-    <string name="license_incorrect_response">Virheellinen lisenssi Play Storesta</string>
-    <string name="license_error_contacting_server">Virhe palvelimeen yhdistettäessä</string>
-    <string name="license_server_error">Palvelin virhe</string>
-    <string name="license_over_quota">Liian monta pyyntöä tästä laitteesta</string>
-    <string name="license_trial_expired">Kokeilujakso loppunut</string>
-    <string name="license_trial_expired_summary">Poista tämä versio ennen täysversion ostoa</string>
-    <string name="device_root_is_required">Root vaaditaan</string>
-    <string name="device_root_is_required_summary">Root vaaditaan paremmalle laadulle</string>
-    <string name="recording_method_msm">MSM</string>
-    <string name="recording_method_msm_settings">Asetukset MSM tallennukselle</string>
-    <string name="start_recording_on_answer">Aloita tallennus vastatessa</string>
-    <string name="delay_before_start_recording_summary">Lähteville: %1$s, saapuville: %2$s</string>
-    <string name="delay_format_sec">%s sek</string>
-    <string name="delay_for_outgoing">Lähteville</string>
-    <string name="delay_for_incoming">Saapuville</string>
-    <string name="settings_for_device">Asetukset %s</string>
-    <string name="recording_format">Tallennusmuoto</string>
-    <string name="volume_control_summary">Tx: %1$s, Rx: %2$s</string>
-    <string name="volume_control_overall">Pää-äänenvoimakkuus</string>
-    <string name="volume_control_tx">Tx</string>
-    <string name="volume_control_rx">Rx</string>
-    <string name="category_wav_and_mp3_settings">WAV &amp; MP3 asetukset</string>
-    <string name="alsa_is_not_installed">ALSA täytyy olla asennettuna</string>
-    <string name="alsa_is_not_installed_summary">Napauta tästä asentaaksesi ALSA:n</string>
-
-    <string name="add_exception">Lisää poikkeus</string>
-    <string name="exception_groups">%d ryhmät</string>
-    <string name="exception_contact">Yhteystieto</string>
-    <string name="exception_select_contact">Valitse yhteystieto</string>
-    <string name="exception_phone_number">Puhelinnumero</string>
-    <string name="exception_action">Toiminto</string>
-    <string name="exception_groups_not_found">Ryhmiä ei löytynyt</string>
-    <string name="exception_contacts_not_found">Yhteystietoja ei löytynyt</string>
-    <string name="exceptions_not_added">Poikkeuksia ei lisätty</string>
-    <string name="exception_by_contact">Yhteystiedolla</string>
-    <string name="exception_by_group">Ryhmällä</string>
-    <string name="exception_by_phone_number">Puhelinnumerolla</string>
-    <string name="exception_delete_message">Haluatko varmasti poistaa tämän poikkeuksen?</string>
-
-    <string name="folder_chooser_up_to">↑ Ylös %s</string>
-    <string name="create_new_folder">Uusi kansio…</string>
-    <string name="dialog_title_new_folder">Uusi kansio</string>
-    <string name="settings_filename">Tiedostonimi</string>
-    <string name="pattern_call_timestamp">puhelun ajankohta (unix aika)</string>
-    <string name="default_language">Oletus kieli</string>
-    <string name="show_notification_summary">Pysyvä ilmoitus tilarivillä</string>
-    <string name="hide_icon_but_keep_notification">Piilota kuvake, mutta pidä ilmoitus</string>
-    <string name="hide_icon_but_keep_notification_summary">Piilota kuvake, mutta pidä ilmoitus tilarivillä</string>
-    <string name="category_incall_control_button">Puhelunaikainen ohjauspainike</string>
-    <string name="hide_button_while_recording">Piilota painike kun tallennetaan</string>
-    <string name="hide_button_before_answer">Piilota painike ennen vastausta</string>
-    <string name="cloud_provider">Pilvipalvelun tarjoaja</string>
-    <string name="sign_in_dropbox">Kirjaudu Dropboxiin</string>
-    <string name="sign_out_dropbox">Kirjaudu ulos Dropboxista</string>
-    <string name="cloud_provider_google_drive">Google Drive</string>
-    <string name="cloud_common_settings">Yleinen</string>
-    <string name="notify_uploading_dropbox">Lähetetään Dropboxiin</string>
-    <string name="notify_converting_to_amr">Muunnetaan AMR muotoon</string>
-    <string name="notify_converting_to_mp3">Muunnetaan MP3 muotoon</string>
-    <string name="notify_encrypting">Salataan</string>
-    <string name="notify_decrypting">Puretaan salausta</string>
-    <string name="notify_waiting_for_calls">Odotetaan puhelua</string>
-    <string name="notify_tasks_remaining">%d tehtävää jäljellä</string>
-
-    <string name="delete_key">Tuhoa avain</string>
-    <string name="use_built_in_player">Käytä sisäänrakennettua soitinta</string>
-    <string name="send_logs_to_the_developer">Lähetä lokit kehittäjälle</string>
-
-    <string name="button_choose">Valitse</string>
-    <string name="button_call">Soita</string>
-    <string name="button_buy">Osta</string>
-    <string name="button_create">Luo</string>
-    <string name="button_delete">Poista</string>
-    <string name="button_restore">Palauta</string>
-    <string name="button_keep">Säilytä</string>
-    <string name="button_play">Toista</string>
-    <string name="button_pause">Tauko</string>
-    <string name="button_delete_wait">Poista (%d)</string>
-    <string name="decline">Kieltäydy</string>
-    <string name="accept">Hyväksy</string>
-    <string name="call_incoming">Saapuva</string>
-    <string name="call_outgoing">Lähtevä</string>
-    <string name="action_mode_selected">%d valittu</string>
-    <string name="toast_recording_is_off">Tallennus pois päältä</string>
-    <string name="toast_recording_is_on">Tallennus päällä</string>
-    <string name="toast_file_deleted">Tiedosto on poistetu onnistuneesti</string>
-
-    <string name="open_contact">Avaa yhteystieto</string>
-
-    <string name="waiting_for_answer">Odotetaan vastausta</string>
-    <string name="recording_in_progress">Tallennus käynnissä</string>
-    <string name="no_recording_in_progress">Tallennus ei käynnissä</string>
-    <string name="about_call_recorder">Tietoja Call Recorderista</string>
-    <string name="category_other">Muuta</string>
-    <string name="open_source_licenses">Open source lisenssit</string>
-
-    <string name="category_translators">Kääntäjät</string>
-    <string name="italian_translation_summary">Luca Trevisan ja Francesco Cafagna</string>
-    <string name="chinese_translation_summary">qhq ja Yu Fei</string>
     <string name="belarusian_translation">Valko-Venäjän käännös</string>
     <string name="belarusian_translation_summary">Alexander Kuvshinov</string>
     <string name="vietnamese_translation">Vietnamin käännös</string>
@@ -658,6 +506,4 @@
     <string name="tamil_translation_summary">Ashish Sharma</string>
     <string name="greek_translation">Kreikan käännös</string>
     <string name="greek_translation_summary">Lefteris (SomniusX) Eliades</string>
-<string name="section_by_contact">Yhteystiedolla</string>
-    <string name="section_by_format">Muodolla</string>
-    </resources>
+</resources>

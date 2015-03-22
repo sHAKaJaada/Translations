@@ -46,6 +46,7 @@
     <string name="list_header_yesterday">Igår</string>
     <string name="queued">Köade</string>
     <string name="no_connection">Ingen mottagning</string>
+    <string name="add_to_contacts">Lägg till i kontakter</string>
 
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">Lägg till i Dropbox</string>

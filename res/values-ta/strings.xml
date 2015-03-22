@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">கால் ரெக்கார்டர்</string>
     <string name="terms_of_use">விதிமுறைகள்</string>
@@ -30,22 +30,23 @@
     <string name="action_add_star">நட்சத்திர சேர்க்கவும்</string>
     <string name="action_remove_star">நட்சத்திரம் நீக்கவும்</string>
     <string name="action_share">பகிர்</string>
-    
+    <string name="action_cancel_tasks">பணிகளை ரத்து</string>
     <string name="action_select_all">அனைத்து தேர்வு</string>
     <string name="sort_by_date">மூலம் தேதி</string>
     <string name="sort_by_contact">மூலம் தொடர்பு</string>
     <string name="sort_by_file_size">மூலம் கோப்பு அளவு</string>
-    
-    
+    <string name="records_size">பதிவுகள்: %1$s, அளவு: %2$s</string>
+    <string name="space_free_of">%1$s இலவச உடைய %2$s</string>
 
     <!--Import settings -->
-    
+    <string name="restore_settings">அமைப்புகளை மீட்டெடு</string>
 
     <!-- List -->
     <string name="list_header_today">இன்று</string>
     <string name="list_header_yesterday">நேற்று</string>
     <string name="queued">வரிசைப்படுத்திய</string>
     <string name="no_connection">இணைப்பும் இல்லை</string>
+    
 
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">டிராப்பாக்ஸ் சேர்க்கவும்</string>
@@ -89,7 +90,7 @@
     <string name="recorded_calls">பதிவு அழைப்புகள்</string>
 
     <!--  Settings -> Headers -->
-    
+    <string name="settings_open_unlocker">திறந்த ஐநாலாக்கர்</string>
     <string name="settings_recording">பதிவு</string>
     <string name="settings_folders_and_files">கோப்புறைகள் மற்றும் கோப்புகளை</string>
     <string name="settings_ui_and_appearance">இடைமுகம் மற்றும் தோற்றம்</string>
@@ -116,8 +117,8 @@
     <string name="license_error_contacting_server">பிழை தொடர்பு சர்வர்</string>
     <string name="license_server_error">சர்வர் பிழை</string>
     <string name="license_over_quota">இந்த சாதனத்தில் இருந்து அதிகப்படியான கோரிக்கைகள்</string>
-    
-    
+    <string name="license_trial_expired">சோதனை காலம் முடிந்துவிட்டதாக</string>
+    <string name="license_trial_expired_summary">தயவு செய்து, வாங்குவதற்கு ஒரு முழு பதிப்பு முன் இந்த பதிப்பு நீக்கத்</string>
     <string name="buy_full_version">முழு பதிப்பு வாங்க</string>
     <string name="buy_full_version_summary">தற்போதைய பதிப்பு காலாவதியாகிவிடும் %s</string>
 
@@ -188,13 +189,13 @@
     <string name="api_source_voice_communication">குரல் தொடர்பு</string>
     <string name="category_wav_settings">WAV அமைப்புகள்</string>
     <string name="category_wav_and_mp3_settings">WAV &amp; MP3 அமைப்புகள்</string>
-    
-    
+    <string name="when_bt_connected">போது பிடி இணைக்கப்பட்ட…</string>
+    <string name="audio_source_when_bt_connected">ஆடியோ மூல போது பிடி இணைக்கப்பட்ட</string>
 
     <!-- Actions when BT connected -->
-    
-    
-    
+    <string name="when_bt_connected_do_nothing">ஒன்றும் செய்ய</string>
+    <string name="when_bt_connected_switch_source">ஆடியோ மூல சுவிட்ச்</string>
+    <string name="when_bt_connected_disable_recording">முடக்கு பதிவு</string>
 
     <!-- Settings -> Recording -> CAF -->
     <string name="recording_mode">பதிவு முறையில்</string>
@@ -215,7 +216,7 @@
     <!-- Settings -> Recording -> Exceptions -->
     <string name="add_exception">விதிவிலக்கு சேர்க்கவும்</string>
     <string name="exception_group">குழு</string>
-    
+    <string name="exception_groups">%d குழுக்கள்</string>
     <string name="exception_select_group">தேர்வு குரூப்</string>
     <string name="exception_contact">தொடர்பு</string>
     <string name="exception_select_contact">தொடர்பைத் தேர்ந்தெடு</string>
@@ -235,8 +236,8 @@
     <!-- Settings -> Folders and Files -->
     <string name="folder">அடைவு</string>
     <string name="folder_chooser_up_to">%s அப் ↑</string>
-    
-    
+    <string name="create_new_folder">புதிய அடைவை உருவாக்கு…</string>
+    <string name="dialog_title_new_folder">புதிய கோப்புறை</string>
     <string name="automatic_cleanup">தானியங்கி தூய்மைப்படுத்தும்</string>
     <string name="max_number_of_files">மேக்ஸ். கோப்புகளை எண்ணிக்கை</string>
     <string name="max_number_of_files_message">ஒரு எண்ணை சேர்க்கவும் (0 - எந்த எல்லை)</string>
@@ -270,8 +271,8 @@
     <string name="category_notification">அறிவித்தல்</string>
     <string name="show_notification">காட்டு அறிவிப்பை</string>
     <string name="show_notification_summary">அறிவிப்பு நிரந்தர நிலையை பட்டியில்</string>
-    
-    
+    <string name="hide_icon_but_keep_notification">சின்னத்தை மறைக்க, ஆனால் அறிவிப்பை வைக்க</string>
+    <string name="hide_icon_but_keep_notification_summary">சின்னத்தை மறைக்க, ஆனால் இந்த நிலையை பட்டியில் அறிவிப்பை வைக்க</string>
     <string name="category_incall_control_button">அழைப்பில் கட்டுப்பாட்டு பொத்தானை</string>
     <string name="incall_control_for_outgoing">வெளியேறும் அழைப்புக்கு</string>
     <string name="incall_control_for_outgoing_summary">காட்டு அழைப்பில் கட்டுப்பாட்டு பொத்தானை வெளிச்செல்லும் அழைப்புக்கள் மீது</string>
@@ -290,9 +291,9 @@
     <string name="long_press_action">நீண்ட அழுத்து நடவடிக்கை</string>
     <string name="long_press_action_dragging_the_button">இழுத்து தி பொத்தானை</string>
     <string name="long_press_action_hang_up">ஹாங் வரை அழைப்பு மற்றும் மீண்டும் அழைக்க தானாக</string>
-    
-    
-    
+    <string name="category_main_screen">முக்கிய திரை</string>
+    <string name="hide_starred_recordings">இணைந்து நடித்தனர் பதிவுகளை மறை</string>
+    <string name="hide_starred_recordings_summary">அனைத்து பதிவுகள் மூலம் திரையில் இணைந்து நடித்தனர் பதிவுகளை காண்பிக்க</string>
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">மேகம் வழங்குநர்</string>
@@ -309,11 +310,11 @@
 
     <!-- Notification -->
     <string name="notify_uploading_dropbox">பதிவேற்றுகிறது செய்ய Dropbox</string>
-    
-    
-    
-    
-    
+    <string name="notify_converting_to_amr">AMR செய்ய மாற்றுகிறது</string>
+    <string name="notify_converting_to_mp3">MP3 க்கு மாற்றப்படும்</string>
+    <string name="notify_encrypting">என்க்ரிப்ட்</string>
+    <string name="notify_decrypting">குறிநீக்கம்</string>
+    <string name="notify_waiting_for_calls">அழைப்புகள் காத்திருக்கிறது</string>
     <string name="notify_tasks_remaining">%d பணிகளை மீதமுள்ள</string>
 
     <!-- Password dialog -->
@@ -370,19 +371,19 @@
     <string name="root_access_yes">ஆம்</string>
     <string name="dual_sim_phone">இரட்டை சிம் போன்</string>
     <string name="dual_sim_phone_summary">இந்த இயக்கு பயன்பாட்டை முடியவில்லை என்றால் முடியாது இரண்டாவது சிம் கார்டு இருந்து அழைப்புகள் தீர்மானிக்க</string>
-    
+    <string name="send_logs_to_the_developer">டெவலப்பர் பதிவுகள் அனுப்பவும்</string>
 
     <!-- General -->
     <string name="contact_unknown">தெரியாத</string>
     <string name="button_choose">தேர்வு</string>
     <string name="button_ok">ஓகே</string>
     <string name="button_call">கால்</string>
-    
+    <string name="button_buy">வாங்க</string>
     <string name="button_edit">திருத்த</string>
     <string name="button_cancel">ரத்து</string>
     <string name="button_create">உருவாக்கவும்</string>
     <string name="button_delete">நீக்கு</string>
-    
+    <string name="button_restore">மீட்டமை</string>
     <string name="button_keep">வை</string>
     <string name="button_play">விளையாடு</string>
     <string name="button_pause">இடைநிறுத்தி</string>
@@ -400,9 +401,9 @@
 
     <!--Toasts-->
     <string name="toast_wait_for_operation_to_complete">ஒரு அறுவை சிகிச்சைக்கு காத்திருக்க செய்ய முடிக்க</string>
-    
-    
-    
+    <string name="toast_recording_is_off">ரெகார்டிங் ஆஃப் ஆகிறது</string>
+    <string name="toast_recording_is_on">ரெகார்டிங் மீது</string>
+    <string name="toast_file_deleted">கோப்பு வெற்றிகரமாக நீக்கப்பட்டது</string>
 
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">ரெகார்ட் திஸ் கால்</string>
@@ -426,11 +427,11 @@
     <string name="about_many_thanks_summary">Alexey Subbotin (avs234) செய்ய</string>
 
     <!--About -> Other-->
-    
-    
+    <string name="category_other">பிற</string>
+    <string name="open_source_licenses">ஓப்பன் சோர்ஸ் உரிமங்கள்</string>
 
     <!--About -> Translators-->
-    
+    <string name="category_translators">மொழிபெயர்ப்பாளர்</string>
     <string name="german_translation">ஜெர்மன் மொழிபெயர்ப்பு</string>
     <string name="german_translation_summary">Marc Hillesheim and Thomas Käfer மூலம்</string>
     <string name="polish_translation">போலிஷ் மொழிபெயர்ப்பு</string>
@@ -497,56 +498,6 @@
     <string name="belarusian_translation_summary">Alexander Kuvshinov மூலம்</string>
     <string name="vietnamese_translation">வியட்நாம் மொழிபெயர்ப்பு</string>
     <string name="vietnamese_translation_summary">Truong Hoang Trung மூலம்</string>
-    
-    
-    
-    
-    
-    
-    
-    
-<string name="action_cancel_tasks">பணிகளை ரத்து</string>
-    <string name="records_size">பதிவுகள்: %1$s, அளவு: %2$s</string>
-    <string name="space_free_of">%1$s இலவச உடைய %2$s</string>
-
-    <string name="restore_settings">அமைப்புகளை மீட்டெடு</string>
-
-    <string name="settings_open_unlocker">திறந்த ஐநாலாக்கர்</string>
-    <string name="license_trial_expired">சோதனை காலம் முடிந்துவிட்டதாக</string>
-    <string name="license_trial_expired_summary">தயவு செய்து, வாங்குவதற்கு ஒரு முழு பதிப்பு முன் இந்த பதிப்பு நீக்கத்</string>
-    <string name="when_bt_connected">போது பிடி இணைக்கப்பட்ட…</string>
-    <string name="audio_source_when_bt_connected">ஆடியோ மூல போது பிடி இணைக்கப்பட்ட</string>
-
-    <string name="when_bt_connected_do_nothing">ஒன்றும் செய்ய</string>
-    <string name="when_bt_connected_switch_source">ஆடியோ மூல சுவிட்ச்</string>
-    <string name="when_bt_connected_disable_recording">முடக்கு பதிவு</string>
-
-    <string name="exception_groups">%d குழுக்கள்</string>
-    <string name="create_new_folder">புதிய அடைவை உருவாக்கு…</string>
-    <string name="dialog_title_new_folder">புதிய கோப்புறை</string>
-    <string name="hide_icon_but_keep_notification">சின்னத்தை மறைக்க, ஆனால் அறிவிப்பை வைக்க</string>
-    <string name="hide_icon_but_keep_notification_summary">சின்னத்தை மறைக்க, ஆனால் இந்த நிலையை பட்டியில் அறிவிப்பை வைக்க</string>
-    <string name="category_main_screen">முக்கிய திரை</string>
-    <string name="hide_starred_recordings">இணைந்து நடித்தனர் பதிவுகளை மறை</string>
-    <string name="hide_starred_recordings_summary">அனைத்து பதிவுகள் மூலம் திரையில் இணைந்து நடித்தனர் பதிவுகளை காண்பிக்க</string>
-
-    <string name="notify_converting_to_amr">AMR செய்ய மாற்றுகிறது</string>
-    <string name="notify_converting_to_mp3">MP3 க்கு மாற்றப்படும்</string>
-    <string name="notify_encrypting">என்க்ரிப்ட்</string>
-    <string name="notify_decrypting">குறிநீக்கம்</string>
-    <string name="notify_waiting_for_calls">அழைப்புகள் காத்திருக்கிறது</string>
-    <string name="send_logs_to_the_developer">டெவலப்பர் பதிவுகள் அனுப்பவும்</string>
-
-    <string name="button_buy">வாங்க</string>
-    <string name="button_restore">மீட்டமை</string>
-    <string name="toast_recording_is_off">ரெகார்டிங் ஆஃப் ஆகிறது</string>
-    <string name="toast_recording_is_on">ரெகார்டிங் மீது</string>
-    <string name="toast_file_deleted">கோப்பு வெற்றிகரமாக நீக்கப்பட்டது</string>
-
-    <string name="category_other">பிற</string>
-    <string name="open_source_licenses">ஓப்பன் சோர்ஸ் உரிமங்கள்</string>
-
-    <string name="category_translators">மொழிபெயர்ப்பாளர்</string>
     <string name="armenian_translation">ஆர்மீனிய மொழிபெயர்ப்பு</string>
     <string name="armenian_translation_summary">Hakob Sununu மற்றும் Konstantin Gevorgyan மூலம்</string>
     <string name="gujarati_translation">குஜராத்திய மொழிபெயர்ப்பு</string>

@@ -46,6 +46,7 @@
     <string name="list_header_yesterday">Hier</string>
     <string name="queued">En attente</string>
     <string name="no_connection">Pas de connexion</string>
+    <string name="add_to_contacts">Ajouter aux contacts</string>
 
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">Ajouter à Dropbox</string>
