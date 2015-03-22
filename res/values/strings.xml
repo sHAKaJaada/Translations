@@ -2,9 +2,7 @@
 <resources>
     <string name="app_name">Call Recorder</string>
     <string name="terms_of_use">Terms of Use</string>
-    <string name="terms_of_use_message">By using the app, you agree to the CallRecorder\'s &lt;a
-        href="http://rec.sh/terms"&gt;Terms of Use&lt;/a&gt;.
-    </string>
+    <string name="terms_of_use_message">By using the app, you agree to the CallRecorder\'s &lt;a href="http://rec.sh/terms"&gt;Terms of Use&lt;/a&gt;.</string>
 
     <!-- Navigation drawer -->
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -20,9 +18,7 @@
     <string name="section_by_label">By label</string>
     <string name="section_help">Help</string>
     <string name="section_tasks">Tasks</string>
-    <string name="section_tasks_hint">Time-consuming tasks with recordings such as converting, encrypting or uploading
-        to a cloud will be displayed here
-    </string>
+    <string name="section_tasks_hint">Time-consuming tasks with recordings such as converting, encrypting or uploading to a cloud will be displayed here</string>
     <string name="empty_hint">Empty</string>
 
     <!-- Action bar -->
@@ -87,9 +83,7 @@
     <!-- List -> Confirm delete dialog -->
     <string name="confirm_delete_message">Are you sure you want to delete this recording?</string>
     <string name="confirm_delete_several_title">Confirm deletion</string>
-    <string name="confirm_delete_several_message">You have selected %d recordings. Are you sure you want to delete
-        them?
-    </string>
+    <string name="confirm_delete_several_message">You have selected %d recordings. Are you sure you want to delete them?</string>
 
     <!-- List -> Share -->
     <string name="share_via">Share via</string>
@@ -161,10 +155,7 @@
     <string name="exceptions">Exceptions</string>
     <string name="exceptions_summary">Set specific actions for contacts, groups, or phone numbers</string>
     <string name="start_recording_on_answer">Start recording on answer</string>
-    <string name="start_recording_on_answer_summary">Start recording once an outgoing call is answered. The app uses an
-        undocumented workaround to detect a moment when the other side answers, so this feature may fail on some
-        devices. Root is required since Android 4.1 Jelly Bean. Logger in the kernel must be enabled.
-    </string>
+    <string name="start_recording_on_answer_summary">Start recording once an outgoing call is answered. The app uses an undocumented workaround to detect a moment when the other side answers, so this feature may fail on some devices. Root is required since Android 4.1 Jelly Bean. Logger in the kernel must be enabled.</string>
     <string name="delay_before_start_recording">Delay before start recording</string>
     <string name="delay_before_start_recording_summary">For outgoing: %1$s, for incoming: %2$s</string>
     <string name="delay_format_sec">%s sec</string>
@@ -296,9 +287,7 @@
     <string name="horizontal_position">Horizontal position</string>
     <string name="horizontal_position_summary">%s dp, offset from the screen\'s center</string>
     <string name="hide_button_before_answer">Hide button before answer</string>
-    <string name="hide_button_before_answer_summary">Don\'t show in-call control button until connection is
-        established
-    </string>
+    <string name="hide_button_before_answer_summary">Don\'t show in-call control button until connection is established</string>
     <string name="long_press_action">Long press action</string>
     <string name="long_press_action_dragging_the_button">Dragging the button</string>
     <string name="long_press_action_hang_up">Hang up the call and call back automatically</string>
@@ -340,20 +329,14 @@
     <string name="create_new_key_summary">This key will be used later to encrypt recordings or to enter the app</string>
     <string name="delete_key">Delete key</string>
     <string name="change_password">Change password</string>
-    <string name="delete_key_summary">Warning! You\'ll never be able to recover encrypted recordings if you\'ve
-        encrypted them with this key, even if you create a new key with the same password
-    </string>
-    <string name="delete_key_message">After deletion you won\'t be able to recover encrypted recordings with this key.
-        Are you sure you want to proceed?
-    </string>
+    <string name="delete_key_summary">Warning! You\'ll never be able to recover encrypted recordings if you\'ve encrypted them with this key, even if you create a new key with the same password</string>
+    <string name="delete_key_message">After deletion you won\'t be able to recover encrypted recordings with this key. Are you sure you want to proceed?</string>
     <string name="enter_old_password">Enter old password</string>
     <string name="enter_new_password">Enter new password</string>
     <string name="re_enter_new_password">Re-enter new password</string>
     <string name="require_password">Require password</string>
     <string name="require_password_summary">Require password to open the app</string>
-    <string name="require_password_summary_no_key">Require password to open the app. To enable this you should create a
-        key firstly
-    </string>
+    <string name="require_password_summary_no_key">Require password to open the app. To enable this you should create a key firstly</string>
     <string name="lock_after">Lock after</string>
     <string name="lock_after_exit">Exit</string>
     <string name="lock_after_1_minute">1 min</string>
@@ -362,9 +345,7 @@
     <string name="lock_after_10_minutes">10 min</string>
     <string name="app_admin">App Admin</string>
     <string name="app_admin_summary">Necessary to prevent uninstalling Call Recorder</string>
-    <string name="app_admin_explanation">Call Recorder doesn\'t use any feature of device admin except protecting
-        uninstall
-    </string>
+    <string name="app_admin_explanation">Call Recorder doesn\'t use any feature of device admin except protecting uninstall</string>
     <string name="aes_128bit">128-bit AES (Faster)</string>
     <string name="aes_192bit">192-bit AES (Balanced)</string>
     <string name="aes_256bit">256-bit AES (Stronger)</string>
@@ -378,9 +359,7 @@
     <string name="use_proximity_sensor">Use proximity sensor</string>
     <string name="use_proximity_sensor_summary">Disable screen by proximity sensor during playback</string>
     <string name="switch_audio_output">Switch audio output</string>
-    <string name="switch_audio_output_summary">Automatically switch audio output when screen is disabled/enabled by
-        proximity sensor
-    </string>
+    <string name="switch_audio_output_summary">Automatically switch audio output when screen is disabled/enabled by proximity sensor</string>
     <string name="android_wav_decoder">Android decoder for WAV</string>
     <string name="android_wav_decoder_summary">Use built-in Android tools to play WAV</string>
     <string name="android_amr_decoder">Android decoder for AMR</string>
@@ -391,8 +370,7 @@
     <string name="root_access_no">No</string>
     <string name="root_access_yes">Yes</string>
     <string name="dual_sim_phone">Dual Sim phone</string>
-    <string name="dual_sim_phone_summary">Enable this if the app cannot determine calls from the second sim card
-    </string>
+    <string name="dual_sim_phone_summary">Enable this if the app cannot determine calls from the second sim card</string>
     <string name="send_logs_to_the_developer">Send logs to the developer</string>
 
     <!-- General -->
