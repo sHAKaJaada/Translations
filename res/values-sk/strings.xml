@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">Call Recorder</string>
     <string name="terms_of_use">Podmienky používania</string>
@@ -463,7 +463,7 @@
     <string name="turkish_translation">Turecký preklad</string>
     <string name="turkish_translation_summary">Omer Ilik</string>
     <string name="serbian_translation">Srbský preklad</string>
-    <string name="serbian_translation_summary">sHAKaJaada</string>
+    <string name="serbian_translation_summary">sHAKaJaada™</string>
     <string name="korean_translation">Kórejský preklad</string>
     <string name="korean_translation_summary">SoHyunSeop a Joon Hee Jo</string>
     <string name="romanian_translation">Rumunský preklad</string>
