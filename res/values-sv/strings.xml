@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">Användarvillkor</string>
@@ -506,4 +506,17 @@
     <string name="tamil_translation_summary">av Ashish Sharma</string>
     <string name="greek_translation">Grekisk översättning</string>
     <string name="greek_translation_summary">av Lefteris (SomniusX) Eliades</string>
-</resources>
+<string name="restore_settings">Återställ inställningar</string>
+
+    <string name="exception_groups">%d grupper</string>
+    <string name="create_new_folder">Skapa ny mapp…</string>
+    <string name="dialog_title_new_folder">Ny mapp</string>
+    <string name="hide_starred_recordings">Dölj stjärnmärkta inspelningar</string>
+    <string name="hide_starred_recordings_summary">Visa ej stjärnmärkta inspelningar i vyn med alla inspelningar</string>
+
+    <string name="button_restore">Återställ</string>
+    <string name="category_other">Annat</string>
+    <string name="open_source_licenses">Licenser för öppen källkod</string>
+
+    <string name="category_translators">Översättare</string>
+    </resources>
