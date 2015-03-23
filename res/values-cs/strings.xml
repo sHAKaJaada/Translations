@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">Podmínky používání</string>
-    <string name="terms_of_use_message">Používáním aplikace souhlasíte s &lt;a href=http://rec.sh/terms&gt;Podmínkami používání&lt;/a&gt; CallRecorderu.</string>
+    <string name="terms_of_use_message">Používáním aplikace souhlasíte s &lt;a href=http://rec.sh/terms&gt;podmínkami používání&lt;/a&gt; CallRecorderu.</string>
 
     <!-- Navigation drawer -->
     <string name="navigation_drawer_open">Otevřít navigační box</string>
@@ -18,7 +18,7 @@
     <string name="section_by_label">Podle názvu</string>
     <string name="section_help">Nápověda</string>
     <string name="section_tasks">Úkoly</string>
-    <string name="section_tasks_hint">Časově náročné úkoly s nahrávkami jako je konverze, šifrování nebo nahrávání do Cloud se bude zobrazovat zde</string>
+    <string name="section_tasks_hint">Časově náročné úkoly s nahrávkami jako je konverze, šifrování nebo nahrávání do Cloudu se budou zobrazovat zde</string>
     <string name="empty_hint">Žádné nahrávky</string>
 
     <!-- Action bar -->
@@ -214,7 +214,7 @@
     <string name="dont_use_amr_driver_summary">Raději převést WAV do AMR v reálném čase</string>
 
     <!-- Settings -> Recording -> Exceptions -->
-    <string name="add_exception">Přidat vyjímku</string>
+    <string name="add_exception">Přidat výjimku</string>
     <string name="exception_group">Skupina</string>
     <string name="exception_groups">%d skupin</string>
     <string name="exception_select_group">Vybrat skupinu</string>
@@ -227,15 +227,15 @@
     <string name="exception_action_never_record">Nenahrát nikdy</string>
     <string name="exception_groups_not_found">Skupina nenalezena</string>
     <string name="exception_contacts_not_found">Kontakt nenalezen</string>
-    <string name="exceptions_not_added">Výjimka nepřidána</string>
-    <string name="exception_by_contact">Podle kontaktů</string>
-    <string name="exception_by_group">Podle skupin</string>
-    <string name="exception_by_phone_number">Podle telefonních čísel</string>
+    <string name="exceptions_not_added">žádná výjimka</string>
+    <string name="exception_by_contact">Pro kontakt</string>
+    <string name="exception_by_group">Pro skupinu</string>
+    <string name="exception_by_phone_number">Pro telefonní číslo</string>
     <string name="exception_delete_message">Opravdu chceš smazat tuto výjimku?</string>
 
     <!-- Settings -> Folders and Files -->
     <string name="folder">Složka</string>
-    <string name="folder_chooser_up_to">↑ až k %s</string>
+    <string name="folder_chooser_up_to">↑ %s (o úroveň výše)</string>
     <string name="create_new_folder">Vytvořit novou složku…</string>
     <string name="dialog_title_new_folder">Nová složka</string>
     <string name="automatic_cleanup">Automatické mazání</string>
@@ -353,7 +353,7 @@
     <!-- Settings -> Audio player -->
     <string name="use_built_in_player">Použít vestavěný přehrávač</string>
     <string name="audio_output">Výstup zvuku</string>
-    <string name="audio_output_summary">%s (Dlouhé tapnutí na tlačítko Přehrát/pauza je rovněž přepne)</string>
+    <string name="audio_output_summary">%s (Dlouhé tapnutí na tlačítko přehrát/pauza rovněž přepne výstup)</string>
     <string name="main_speaker">Hlavní reproduktor</string>
     <string name="phone_speaker">Reproduktor telefonu</string>
     <string name="use_proximity_sensor">Použít pohybový senzor</string>
@@ -375,7 +375,7 @@
 
     <!-- General -->
     <string name="contact_unknown">Neznámý</string>
-    <string name="button_choose">Zvol</string>
+    <string name="button_choose">Nastavit</string>
     <string name="button_ok">OK</string>
     <string name="button_call">Hovor</string>
     <string name="button_buy">Koupit</string>
