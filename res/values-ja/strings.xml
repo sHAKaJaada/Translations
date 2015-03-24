@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">利用規約</string>
@@ -463,7 +463,7 @@
     <string name="turkish_translation">トルコ語の翻訳</string>
     <string name="turkish_translation_summary">Omer Ilik</string>
     <string name="serbian_translation">セルビア語の翻訳</string>
-    <string name="serbian_translation_summary">sHAKaJaada</string>
+    <string name="serbian_translation_summary">sHAKaJaada™</string>
     <string name="korean_translation">韓国語の翻訳</string>
     <string name="korean_translation_summary">SoHyunSeop と Joon Hee Jo</string>
     <string name="romanian_translation">ルーマニア語の翻訳</string>
