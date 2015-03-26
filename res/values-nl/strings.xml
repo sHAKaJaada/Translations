@@ -58,8 +58,8 @@
     <string name="menu_convert_to_amr">Converteer naar AMR</string>
     <string name="menu_get_info">Bekijk info</string>
     <string name="menu_cancel_task">Annuleer taak</string>
-    <string name="menu_encrypt">Encrypt</string>
-    <string name="menu_decrypt">Decrypt</string>
+    <string name="menu_encrypt">Versleutel</string>
+    <string name="menu_decrypt">Ontsleutel</string>
 
     <!-- List -> Get info dialog -->
     <string name="file_name">Bestandsnaam</string>
@@ -90,12 +90,12 @@
     <string name="recorded_calls">Opgenomen gesprekken</string>
 
     <!--  Settings -> Headers -->
-    <string name="settings_open_unlocker">Open Unlocker</string>
+    <string name="settings_open_unlocker">Open de Unlocker</string>
     <string name="settings_recording">Opname</string>
     <string name="settings_folders_and_files">Mappen en Bestanden</string>
     <string name="settings_ui_and_appearance">Interface en Weergave</string>
     <string name="settings_security">Beveiliging</string>
-    <string name="settings_cloud">Cloud</string>
+    <string name="settings_cloud">Cloud opslag</string>
     <string name="settings_audio_player">Audio speler</string>
     <string name="settings_debug">Debuggen</string>
     <string name="settings_about">Over</string>
