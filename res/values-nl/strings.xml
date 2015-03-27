@@ -90,7 +90,7 @@
     <string name="recorded_calls">Opgenomen gesprekken</string>
 
     <!--  Settings -> Headers -->
-    <string name="settings_open_unlocker">Open de Unlocker</string>
+    <string name="settings_open_unlocker">Open Callrecorder Unlocker</string>
     <string name="settings_recording">Opname</string>
     <string name="settings_folders_and_files">Mappen en Bestanden</string>
     <string name="settings_ui_and_appearance">Interface en Weergave</string>
@@ -521,7 +521,7 @@
     <string name="hide_starred_recordings_summary">Laat favoriete opnames niet zien in het scherm met alle opnames</string>
 
     <string name="cloud_provider">Cloud-opslag provider</string>
-    <string name="sign_in_dropbox">Inloggen in dropbox</string>
+    <string name="sign_in_dropbox">Inloggen bij dropbox</string>
     <string name="sign_out_dropbox">Uitloggen bij dropbox</string>
     <string name="cloud_provider_google_drive">Google Drive</string>
     <string name="cloud_common_settings">Gemeenschappelijke</string>
