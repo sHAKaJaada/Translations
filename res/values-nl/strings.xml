@@ -303,8 +303,8 @@
     
     
     <string name="cloud_wifi_only">Alleen Wi-Fi</string>
-    <string name="cloud_auto_upload">auto upload</string>
-    <string name="cloud_auto_upload_summary">Upload opname direct na het gesprek</string>
+    <string name="cloud_auto_upload">Auto upload</string>
+    <string name="cloud_auto_upload_summary">Upload opnames direct na het gesprek</string>
     
     
 
@@ -526,7 +526,7 @@
     <string name="cloud_provider_google_drive">Google Drive</string>
     <string name="cloud_common_settings">Gemeenschappelijke</string>
     <string name="cloud_upload_starred">Upload favorieten</string>
-    <string name="cloud_upload_starred_summary">Upload opname naar de cloud wanneer er een ster aan toegevoegd wordt</string>
+    <string name="cloud_upload_starred_summary">Upload opnames naar de cloud wanneer er een ster aan toegevoegd wordt</string>
 
     <string name="notify_uploading_dropbox">Aan het uploaden naar dropbox</string>
     <string name="notify_converting_to_amr">Converteren naar AMR</string>
