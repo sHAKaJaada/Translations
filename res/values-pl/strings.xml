@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">Warunki korzystania</string>
@@ -506,4 +506,17 @@
     <string name="tamil_translation_summary">Ashish Sharma</string>
     <string name="greek_translation">Tłumaczenie na język grecki</string>
     <string name="greek_translation_summary">Lefteris (SomniusX) Eliades</string>
-</resources>
+<string name="restore_settings">Przywróć ustawienia</string>
+
+    <string name="exception_groups">%d grupy</string>
+    <string name="create_new_folder">Utwórz nowy folder…</string>
+    <string name="dialog_title_new_folder">Nowy folder</string>
+    <string name="hide_starred_recordings">Ukryj nagrania oznaczone gwiazdką</string>
+    <string name="hide_starred_recordings_summary">Nie pokazuj nagrań oznaczonych gwiazdką na ekranie ze wszystkimi nagraniami</string>
+
+    <string name="button_restore">Przywróć</string>
+    <string name="category_other">Inne</string>
+    <string name="open_source_licenses">Licencje open source</string>
+
+    <string name="category_translators">Tłumacze</string>
+    </resources>
