@@ -189,7 +189,7 @@
     <string name="api_source_voice_communication">Komunikacja głosowa</string>
     <string name="category_wav_settings">Ustawienia WAV</string>
     <string name="category_wav_and_mp3_settings">Ustawienia dla WAV &amp; MP3</string>
-    <string name="when_bt_connected">Podczas połączenia BT</string>
+    <string name="when_bt_connected">Podczas połączenia BT…</string>
     <string name="audio_source_when_bt_connected">Źródło dzwięku podczas połaczenia BT</string>
 
     <!-- Actions when BT connected -->
@@ -463,7 +463,7 @@
     <string name="turkish_translation">Tłumaczenie na język turecki</string>
     <string name="turkish_translation_summary">Omer Ilik</string>
     <string name="serbian_translation">Tłumaczenie na język serbski</string>
-    <string name="serbian_translation_summary">sHAKaJaada</string>
+    <string name="serbian_translation_summary">sHAKaJaada™</string>
     <string name="korean_translation">Tłumaczenie na język koreański</string>
     <string name="korean_translation_summary">SoHyunSeop i Joon Hee Jo</string>
     <string name="romanian_translation">Tłumaczenie na język rumuński</string>
