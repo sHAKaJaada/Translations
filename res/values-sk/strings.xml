@@ -506,4 +506,7 @@
     <string name="tamil_translation_summary">Ashish Sharma</string>
     <string name="greek_translation">Grécky preklad</string>
     <string name="greek_translation_summary">Lefteris (SomniusX) Eliades</string>
-</resources>
+<string name="theme">Téma</string>
+    <string name="theme_light">Svetlá</string>
+    <string name="theme_dark">Tmavá</string>
+    </resources>
