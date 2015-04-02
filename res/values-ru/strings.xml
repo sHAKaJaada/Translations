@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">Call Recorder</string>
     <string name="terms_of_use">Условия использования</string>
@@ -506,4 +506,7 @@
     <string name="tamil_translation_summary">от Ashish Sharma</string>
     <string name="greek_translation">Перевод на греческий</string>
     <string name="greek_translation_summary">от Lefteris (SomniusX) Eliades</string>
-</resources>
+<string name="theme">Тема</string>
+    <string name="theme_light">Светлая</string>
+    <string name="theme_dark">Темная</string>
+    </resources>
