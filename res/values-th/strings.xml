@@ -189,7 +189,7 @@
     <string name="api_source_voice_communication">การสื่อสารด้วยเสียง</string>
     <string name="category_wav_settings">ตั้งค่า WAV</string>
     <string name="category_wav_and_mp3_settings">การตั้งค่า WAV และ MP3</string>
-    <string name="when_bt_connected">เมื่อเชื่อมต่อบลูทูธ</string>
+    <string name="when_bt_connected">เมื่อเชื่อมต่อบลูทูธ…</string>
     <string name="audio_source_when_bt_connected">แหล่งกำเนิดเสียงเมื่อบลูทูธเชื่อมต่อ</string>
 
     <!-- Actions when BT connected -->
@@ -315,7 +315,7 @@
     
     
     
-    <string name="notify_tasks_remaining">%d บันทึกยังคงอยู่</string>
+    <string name="notify_tasks_remaining">%d งานยังคงอยู่</string>
 
     <!-- Password dialog -->
     <string name="wrong_password">รหัสผ่านไม่ถูกต้อง</string>
@@ -392,7 +392,7 @@
     <string name="accept">ยอมรับ</string>
     <string name="call_incoming">สายโทรเข้า</string>
     <string name="call_outgoing">สายโทรออก</string>
-    <string name="please_wait">โปรดรอ...</string>
+    <string name="please_wait">โปรดรอ…</string>
     <string name="start_recording">เริ่มบันทึกเสียงการโทร</string>
     <string name="stop_recording">หยุดบันทึกเสียงการโทร</string>
     <string name="action_mode_selected">%d ถูกเลือก</string>
@@ -463,7 +463,7 @@
     <string name="turkish_translation">แปลเป็นภาษาตุรกี</string>
     <string name="turkish_translation_summary">โดย Omer Ilik</string>
     <string name="serbian_translation">แปลเป็นภาษาเซอร์เบีย</string>
-    <string name="serbian_translation_summary">โดย sHAKaJaada</string>
+    <string name="serbian_translation_summary">โดย sHAKaJaada™</string>
     <string name="korean_translation">แปลเป็นภาษาเกาหลี</string>
     <string name="korean_translation_summary">โดย SoHyunSeop and Joon Hee Jo</string>
     <string name="romanian_translation">แปลเป็นภาษาโรมาเนีย</string>
@@ -485,7 +485,7 @@
     <string name="thai_translation">แปลเป็นภาษาไทย</string>
     <string name="thai_translation_summary">โดย Wuttisak Saichoncharn</string>
     <string name="georgian_translation">แปลเป็นภาษาจอร์เจีย</string>
-    <string name="georgian_translation_summary">โดย Alexandre Razmadze</string>
+    <string name="georgian_translation_summary">โดย Sandro Razmadze</string>
     <string name="catalan_translation">แปลงเป็นภาษาคาตาลัน</string>
     <string name="catalan_translation_summary">โดย cybdani</string>
     <string name="hindi_translation">แปลเป็นภาษาฮินดู</string>
@@ -506,7 +506,7 @@
     
     
     
-<string name="terms_of_use_message">การใช้แอพนี้, คุณต้องยอมรับ&lt;a href=http://rec.sh/terms&gt;เงื่อนไขการใช้งาน&lt;/a&gt;.</string>
+<string name="terms_of_use_message">การใช้แอพนี้, คุณต้องยอมรับ &lt;a href=http://rec.sh/terms&gt;เงื่อนไขการใช้งาน&lt;/a&gt;.</string>
 
     <string name="action_cancel_tasks">ยกเลิกงาน</string>
     <string name="records_size">รายการ: %1$s, ขนาด: %2$s</string>
