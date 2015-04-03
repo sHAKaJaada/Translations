@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">გამოყენების პირობა</string>
@@ -506,4 +506,7 @@
     <string name="tamil_translation_summary">აშიშ შარმას მიერ</string>
     <string name="greek_translation">ბერძნულად თარგმანი</string>
     <string name="greek_translation_summary">ლეფტერის ელიდესის მიერ</string>
-</resources>
+<string name="theme">თემა</string>
+    <string name="theme_light">ნათელი</string>
+    <string name="theme_dark">ბნელი</string>
+    </resources>
