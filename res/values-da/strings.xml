@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">Brugsbetingelser</string>
@@ -506,4 +506,20 @@
     <string name="tamil_translation_summary">af Ashish Sharma</string>
     <string name="greek_translation">Græsk oversættelse</string>
     <string name="greek_translation_summary">af Lefteris (SomniusX) Eliades</string>
-</resources>
+<string name="restore_settings">Genskab indstillinger</string>
+
+    <string name="exception_groups">%d grupper</string>
+    <string name="create_new_folder">Opret ny mappe…</string>
+    <string name="dialog_title_new_folder">Ny mappe</string>
+    <string name="theme">Tema</string>
+    <string name="theme_light">Lyst</string>
+    <string name="theme_dark">Mørkt</string>
+    <string name="hide_starred_recordings">Skjul stjernemarkerede optagelser</string>
+    <string name="hide_starred_recordings_summary">Vis ikke stjernemarkerede optagelser i oversigten over alle optagelser</string>
+
+    <string name="button_restore">Genskab</string>
+    <string name="category_other">Andet</string>
+    <string name="open_source_licenses">Open-source licenser</string>
+
+    <string name="category_translators">Oversættere</string>
+    </resources>
