@@ -189,7 +189,7 @@
     <string name="api_source_voice_communication">Stemmeopkald</string>
     <string name="category_wav_settings">Wav-indstillinger</string>
     <string name="category_wav_and_mp3_settings">WAV/MP3 indstillinger</string>
-    <string name="when_bt_connected">Når Bluetooth er forbundet ...</string>
+    <string name="when_bt_connected">Når Bluetooth er forbundet…</string>
     <string name="audio_source_when_bt_connected">Lydkilde, når Bluetooth er forbundet</string>
 
     <!-- Actions when BT connected -->
@@ -463,7 +463,7 @@
     <string name="turkish_translation">Tyrkisk oversættelse</string>
     <string name="turkish_translation_summary">af Omer Ilik</string>
     <string name="serbian_translation">Serbisk oversættelse</string>
-    <string name="serbian_translation_summary">af sHAKaJaada</string>
+    <string name="serbian_translation_summary">af sHAKaJaada™</string>
     <string name="korean_translation">Koreansk oversættelse</string>
     <string name="korean_translation_summary">af SoHyunSeop og Joon Hee Jo</string>
     <string name="romanian_translation">Rumænsk oversættelse</string>
