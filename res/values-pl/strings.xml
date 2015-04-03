@@ -519,4 +519,7 @@
     <string name="open_source_licenses">Licencje open source</string>
 
     <string name="category_translators">Tłumacze</string>
+    <string name="theme">Temat</string>
+    <string name="theme_light">Jasny</string>
+    <string name="theme_dark">Ciemny</string>
     </resources>
