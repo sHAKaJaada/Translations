@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">เงื่อนไขการใช้งาน</string>
@@ -506,4 +506,57 @@
     
     
     
+<string name="terms_of_use_message">การใช้แอพนี้, คุณต้องยอมรับ&lt;a href=http://rec.sh/terms&gt;เงื่อนไขการใช้งาน&lt;/a&gt;.</string>
+
+    <string name="action_cancel_tasks">ยกเลิกงาน</string>
+    <string name="records_size">รายการ: %1$s, ขนาด: %2$s</string>
+    <string name="space_free_of">%1$s ว่างจาก %2$s</string>
+
+    <string name="restore_settings">กู้คืนการตั้งค่า</string>
+
+    <string name="settings_open_unlocker">เปิดตัวปลดล็อค</string>
+    <string name="license_trial_expired">หมดช่วงเวลาทดลองใช้</string>
+    <string name="license_trial_expired_summary">โปรดถอนรุ่นนี้ก่อนซื้อรุ่นเต็ม</string>
+    <string name="exception_groups">%d กลุ่ม</string>
+    <string name="create_new_folder">สร้างโฟลเดอร์ใหม่…</string>
+    <string name="dialog_title_new_folder">โฟลเดอร์ใหม่</string>
+    <string name="theme">ธีม</string>
+    <string name="theme_light">สว่าง</string>
+    <string name="theme_dark">มืด</string>
+    <string name="default_language">ภาษาเริ่มต้น</string>
+    <string name="hide_icon_but_keep_notification">ซ่อนไอคอน, แต่คงการแจ้งเตือน</string>
+    <string name="hide_icon_but_keep_notification_summary">ซ่อนไอคอน, แต่คงการแจ้งเตือนในแถบสถานะ</string>
+    <string name="long_press_action_dragging_the_button">ลากปุ่ม</string>
+    <string name="hide_starred_recordings">ซ่อนรายการชื่นชอบ</string>
+    <string name="hide_starred_recordings_summary">อย่าแสดงรายการชื่นชอบในหน้ารายการทั้งหมด</string>
+
+    <string name="notify_converting_to_amr">แปลงเป็น AMR</string>
+    <string name="notify_converting_to_mp3">แปลงเป็น MP3</string>
+    <string name="notify_encrypting">เข้ารหัส</string>
+    <string name="notify_decrypting">ถอดรหัส</string>
+    <string name="notify_waiting_for_calls">รอสาย</string>
+    <string name="send_logs_to_the_developer">ส่งบันทึกไปยังผู้พัฒนา</string>
+
+    <string name="button_buy">ซื้อ</string>
+    <string name="button_restore">คืนค่า</string>
+    <string name="button_keep">เก็บ</string>
+    <string name="button_play">เล่น</string>
+    <string name="button_pause">หยุดชั่วคราว</string>
+    <string name="toast_wait_for_operation_to_complete">รอจนงานสำเร็จ</string>
+    <string name="toast_recording_is_off">การบันทึกถูกปิด</string>
+    <string name="toast_recording_is_on">การบันทึกถูกเปิด</string>
+    <string name="toast_file_deleted">ไฟล์ถูกลบแล้ว</string>
+
+    <string name="category_other">อื่น</string>
+    <string name="open_source_licenses">ใบอนุญาตแบบโอเพ่นซอร์ส</string>
+
+    <string name="category_translators">ผู้แปล</string>
+    <string name="armenian_translation">แปลเป็นภาษาอามาเนียน</string>
+    <string name="armenian_translation_summary">โดย Hakob Sununu และ Konstantin Gevorgyan</string>
+    <string name="gujarati_translation">แปลเป็นภาษาคุชราต</string>
+    <string name="gujarati_translation_summary">โดย Abhishek Sharma</string>
+    <string name="tamil_translation">แปลเป็นภาษาทมิฬ</string>
+    <string name="tamil_translation_summary">โดย Ashish Sharma</string>
+    <string name="greek_translation">แปลเป็นภาษากรีก</string>
+    <string name="greek_translation_summary">โดย Lefteris (SomniusX) Eliades</string>
 </resources>
