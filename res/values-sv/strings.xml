@@ -519,4 +519,7 @@
     <string name="open_source_licenses">Licenser för öppen källkod</string>
 
     <string name="category_translators">Översättare</string>
+    <string name="theme">Tema</string>
+    <string name="theme_light">Ljust</string>
+    <string name="theme_dark">Mörkt</string>
     </resources>
