@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">Call Recοrder</string>
     <string name="terms_of_use">Όροι Χρήσης</string>
@@ -506,4 +506,9 @@
     <string name="tamil_translation_summary">από Ashish Sharma</string>
     <string name="greek_translation">Ελληνική μετάφραση</string>
     <string name="greek_translation_summary">από Λευτέρης (SomniusX) Ηλιάδης</string>
-</resources>
+<string name="add_to_contacts">Προσθήκη στις επαφές</string>
+
+    <string name="theme">Θέμα</string>
+    <string name="theme_light">Φωτεινό</string>
+    <string name="theme_dark">Σκοτεινό</string>
+    </resources>
