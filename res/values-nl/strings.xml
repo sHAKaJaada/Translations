@@ -615,4 +615,7 @@
     <string name="tamil_translation_summary">door Ashish Sharma</string>
     <string name="greek_translation">Griekse vertaling</string>
     <string name="greek_translation_summary">door Lefteris (SomniusX) Eliades</string>
-</resources>
+<string name="theme">Thema</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Donker</string>
+    </resources>
