@@ -463,7 +463,7 @@
     <string name="turkish_translation">Török fordítás</string>
     <string name="turkish_translation_summary">Omer Ilik</string>
     <string name="serbian_translation">Szerb fordítás</string>
-    <string name="serbian_translation_summary">sHAKaJaada</string>
+    <string name="serbian_translation_summary">sHAKaJaada™</string>
     <string name="korean_translation">Koreai fordítás</string>
     <string name="korean_translation_summary">SoHyunSeop és Joon Hee Jo</string>
     <string name="romanian_translation">Román fordítás</string>
@@ -507,6 +507,6 @@
     <string name="greek_translation">Görög fordítás</string>
     <string name="greek_translation_summary">Lefteris (SomniusX) Eliades</string>
 <string name="theme">Téma</string>
-    <string name="theme_light">Lágy</string>
+    <string name="theme_light">Világos</string>
     <string name="theme_dark">Sötét</string>
     </resources>
