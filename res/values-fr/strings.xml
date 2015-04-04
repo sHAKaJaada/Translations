@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">Conditions d\'utilisation</string>
@@ -506,4 +506,20 @@
     <string name="tamil_translation_summary">par Ashish Sharma</string>
     <string name="greek_translation">Traduction grèque</string>
     <string name="greek_translation_summary">par Lefteris (SomniusX) Eliades</string>
-</resources>
+<string name="restore_settings">Restaurer les réglages</string>
+
+    <string name="exception_groups">%d groupes</string>
+    <string name="create_new_folder">Créer un nouveau dossier…</string>
+    <string name="dialog_title_new_folder">Nouveau dossier</string>
+    <string name="theme">Thème</string>
+    <string name="theme_light">Clair</string>
+    <string name="theme_dark">Foncé</string>
+    <string name="hide_starred_recordings">Masquer les enregistrements étoilés</string>
+    <string name="hide_starred_recordings_summary">Ne pas montrer les enregistrements étoilée sur l\'écran de tous les enregistrements</string>
+
+    <string name="button_restore">Restaurer</string>
+    <string name="category_other">Autre</string>
+    <string name="open_source_licenses">Licences open source</string>
+
+    <string name="category_translators">Traducteurs</string>
+    </resources>
