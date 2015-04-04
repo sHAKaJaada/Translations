@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">Call Recorder</string>
     <string name="terms_of_use">Kullanım Şartları</string>
@@ -506,4 +506,7 @@
     <string name="tamil_translation_summary">Ashish Sharma tarafından</string>
     <string name="greek_translation">Yunanca çeviri</string>
     <string name="greek_translation_summary">Lefteris (SomniusX) Eliades tarafından</string>
-</resources>
+<string name="theme">Tema</string>
+    <string name="theme_light">Açık</string>
+    <string name="theme_dark">Koyu</string>
+    </resources>
