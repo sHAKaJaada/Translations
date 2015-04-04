@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">Termeni de Utilizare</string>
@@ -506,4 +506,20 @@
     <string name="tamil_translation_summary">de Ashish Sharma</string>
     <string name="greek_translation">Traducerea în Greacă</string>
     <string name="greek_translation_summary">de Lefteris (SomniusX) Eliades</string>
-</resources>
+<string name="restore_settings">Restabilește setările</string>
+
+    <string name="exception_groups">%d grupuri</string>
+    <string name="create_new_folder">Creează director nou…</string>
+    <string name="dialog_title_new_folder">Director nou</string>
+    <string name="theme">Temă</string>
+    <string name="theme_light">Deschis</string>
+    <string name="theme_dark">Închis</string>
+    <string name="hide_starred_recordings">Ascunde înregistrările cu stea</string>
+    <string name="hide_starred_recordings_summary">Nu arată înregistrările cu stea pe ecran cu toate înregistrările</string>
+
+    <string name="button_restore">Restabilire</string>
+    <string name="category_other">Altele</string>
+    <string name="open_source_licenses">Licențele open source</string>
+
+    <string name="category_translators">Traducători</string>
+    </resources>
