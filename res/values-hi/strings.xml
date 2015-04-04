@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">कॉल रिकॉर्डर</string>
     <string name="terms_of_use">इस्तेमाल करने की शर्तें</string>
-    <string name="terms_of_use_message">इस एप (app) का इस्तेमाल करके आप कॉल रिकॉर्डर की &lt;a href=http://rec.sh/terms&gt;शर्तों&lt;/a&gt; को स्वीकार करते हैं</string>
+    <string name="terms_of_use_message">इस एप(App) का इस्तेमाल करके आप कॉल रिकॉर्डर की &lt;a href=http://rec.sh/terms&gt;शर्तों&lt;/a&gt; को स्वीकार करते हैं।</string>
 
     <!-- Navigation drawer -->
     <string name="navigation_drawer_open">समायोजन पट्टी खोलें</string>
@@ -189,7 +189,7 @@
     <string name="api_source_voice_communication">ध्वनि वार्तालाप</string>
     <string name="category_wav_settings">WAV समायोजन</string>
     <string name="category_wav_and_mp3_settings">WAV &amp; MP3 समायोजन</string>
-    <string name="when_bt_connected">जब ब्लू-टूथ(हेड-सेट) का इस्तेमाल हो</string>
+    <string name="when_bt_connected">जब ब्लू-टूथ(हेड-सेट) का इस्तेमाल हो…</string>
     <string name="audio_source_when_bt_connected">ब्लू टूथ(हेड-सेट) के जुड़े होने पर ध्वनि स्त्रोत</string>
 
     <!-- Actions when BT connected -->
@@ -236,7 +236,7 @@
     <!-- Settings -> Folders and Files -->
     <string name="folder">फोल्डर</string>
     <string name="folder_chooser_up_to">↑ ऊपर %s</string>
-    <string name="create_new_folder">नया फोल्डर निर्मित करें</string>
+    <string name="create_new_folder">नया फोल्डर निर्मित करें…</string>
     <string name="dialog_title_new_folder">नया फोल्डर</string>
     <string name="automatic_cleanup">स्वचालित मिटाना</string>
     <string name="max_number_of_files">अधिकतम फाइल सीमा</string>
@@ -392,7 +392,7 @@
     <string name="accept">स्वीकारें</string>
     <string name="call_incoming">आने वाली</string>
     <string name="call_outgoing">जाने वाली</string>
-    <string name="please_wait">कृपया ठहरें</string>
+    <string name="please_wait">कृपया ठहरें…</string>
     <string name="start_recording">रिकॉर्डिंग शुरू करें</string>
     <string name="stop_recording">रिकॉर्डिंग रोकें</string>
     <string name="action_mode_selected">%d चुना गया</string>
@@ -515,7 +515,7 @@
     <string name="recording_method_msm">MSM</string>
     <string name="recording_method_msm_settings">MSM रिकॉर्डिंग प्रणाली के लिए समायोजन</string>
     <string name="start_recording_on_answer_summary">कॉल शुरू होने पर रिकॉर्डिंग शुरू हो जाए। दूसरी तरफ से जवाब प्राप्त हुआ कि नहीं, यह जाँचने हेतु App(अप्प) एक ऐसे तरीके का प्रयोग करता है जिसका कोई दस्तावेज नहीं है, इस कारण, शायद यह लक्षण कुछ यंत्रों पर कारगर न साबित हो। इसके लिए Android 4.1 Jelly Bean के बाद से Root(रुट) आवश्यक है व् Kernel(कर्नेल) में अभिलेखक(Logger) प्राप्त होना चाहिए।</string>
-    <string name="current_setting">मोजूदा समायोजन:%s</string>
+    <string name="current_setting">मोजूदा समायोजन:</string>
     <string name="theme">प्रकरण</string>
     <string name="theme_light">हल्का</string>
     <string name="theme_dark">गाढ़ा</string>
