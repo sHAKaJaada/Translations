@@ -529,4 +529,57 @@
     <string name="recording_method_caf">CAF</string>
     <string name="recording_method_msm">MSM</string>
     <string name="recording_method_msm_settings">Configurações para o método de gravação MSM</string>
+    <string name="exceptions_summary">Define ações específicas para contatos, grupos ou números de telefone</string>
+    <string name="start_recording_on_answer">Iniciar gravação ao atender</string>
+    <string name="start_recording_on_answer_summary">Iniciar gravação assim uma chamada enviada é atendida. O app utiliza uma solução alternativa para detectar o momento em que o outro lado atende, então este recurso pode não funcionar em alguns dispositivos. Requer root desde o Android 4.1 Jelly Bean. O Logger do Kernel deve estar habilitado.</string>
+    <string name="delay_before_start_recording_summary">Para Enviadas: %1$s, para recebidas: %2$s</string>
+    <string name="delay_format_sec">%s seg</string>
+    <string name="delay_for_outgoing">Para enviadas</string>
+    <string name="delay_for_incoming">Para recebidas</string>
+    <string name="settings_for_device">Configurações de %s</string>
+    <string name="recording_format">Formato de gravação</string>
+    <string name="recording_format_wav">WAV</string>
+    <string name="recording_format_amr">AMR</string>
+    <string name="recording_format_aac">AAC</string>
+    <string name="recording_format_mp3">MP3</string>
+    <string name="volume_control_summary">Tx: %1$s, Rx: %2$s</string>
+    <string name="volume_control_overall">Volume global</string>
+    <string name="category_wav_and_mp3_settings">Configurações de WAV &amp; MP#</string>
+    <string name="recording_mode">Modo de gravação</string>
+
+    <string name="alsa_is_not_installed">ALSA deve ser instalado</string>
+    <string name="alsa_is_not_installed_summary">Toque aqui para instalar o ALSA</string>
+
+    <string name="chipset_type_msm72xx"/>
+    <string name="chipset_type_msm8250"/>
+    <string name="chipset_type_msm8255"/>
+    <string name="add_exception">Adicionar exceção</string>
+    <string name="exception_groups">%d grupos</string>
+    <string name="exception_contact">Contato</string>
+    <string name="exception_select_contact">Selecionar contato</string>
+    <string name="exception_phone_number">Número de telefone</string>
+    <string name="exception_action">Ação</string>
+    <string name="exception_groups_not_found">Grupos não encontrados</string>
+    <string name="exception_contacts_not_found">Contatos não encontrados</string>
+    <string name="exceptions_not_added">Exceção não adicionada</string>
+    <string name="exception_by_contact">Por contato</string>
+    <string name="exception_by_group">Por grupo</string>
+    <string name="exception_by_phone_number">Por número de telefone</string>
+    <string name="exception_delete_message">Tem certeza que deseja apagar esta exceção?</string>
+
+    <string name="create_new_folder">Criar nova pasta…</string>
+    <string name="dialog_title_new_folder">Nova pasta</string>
+    <string name="settings_filename">Nome do arquivo</string>
+    <string name="pattern_call_timestamp">Timestamp da chamada (unix time)</string>
+    <string name="theme">Tema</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_dark">Escuro</string>
+    <string name="default_language">Idioma padrão</string>
+    <string name="show_notification_summary">Notificação permanente na barra de status</string>
+    <string name="hide_icon_but_keep_notification">Esconder ícone, mas manter a notificação</string>
+    <string name="hide_icon_but_keep_notification_summary">Esconder ícone, mas manter a notificação na barra de status</string>
+    <string name="category_incall_control_button">Botão de controle In-call</string>
+    <string name="incall_control_for_outgoing_summary">Mostrar o botão de controle In-call em chamadas recebidas</string>
+    <string name="incall_control_for_incoming_summary">Mostrar o botão de controle In-call em chamadas enviadas</string>
+    <string name="hide_button_while_recording">Esconder o botão durante a gravação</string>
     </resources>
