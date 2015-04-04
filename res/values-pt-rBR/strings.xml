@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name"/>
     <string name="terms_of_use">Termos de Uso</string>
@@ -69,11 +69,11 @@
     <string name="recording_type_mono"/>
     <string name="recording_type_stereo">Estéreo</string>
     <string name="file_size">Tamanho do arquivo</string>
-    <string name="terabyte"/>
-    <string name="gigabyte"/>
-    <string name="megabyte"/>
-    <string name="kilobyte"/>
-    <string name="bytes"/>
+    <string name="terabyte">TB</string>
+    <string name="gigabyte">GB</string>
+    <string name="megabyte">MB</string>
+    <string name="kilobyte">kilobyte</string>
+    <string name="bytes">bytes</string>
     <string name="note">Nota</string>
 
     <!-- List -> Get info dialog -> Edit -->
@@ -506,4 +506,27 @@
     
     
     <string name="greek_translation_summary">porLefteris (SomniusX) Eliades</string>
-</resources>
+<string name="license_check_failed">Falha ao verifica a licença</string>
+    <string name="license_check_failed_summary">Pressione para detalhes</string>
+    <string name="license_verified">Licença verificada</string>
+    <string name="license_help">Ajuda</string>
+    <string name="license_verified_summary">Pressione para esconder</string>
+    <string name="license_signature_verification_failed">Falha ao verificar a assinatura</string>
+    <string name="license_error_message">Erro #%1$s: %2$s</string>
+    <string name="settings_cloud">Nuvem</string>
+    <string name="license_check_pending">Verificação de licença pendente</string>
+    <string name="license_unknown_error">Erro desconhecido</string>
+    <string name="license_not_market_managed">Esta versão ainda não está publicada na Play Store</string>
+    <string name="license_incorrect_response">Resposta de licença incorreta da Play Store</string>
+    <string name="license_error_contacting_server">Erro ao contactar servidor</string>
+    <string name="license_server_error">Erro de servidor</string>
+    <string name="license_over_quota">Muitas requisições a partir deste dispositivo</string>
+    <string name="license_trial_expired">Período de avaliação expirado</string>
+    <string name="license_trial_expired_summary">Por favor, desinstale esta versão antes de comprar a versão completa</string>
+    <string name="device_change_settings_empty">As configurações para este dispositivo já estão concluídas</string>
+    <string name="device_root_is_required">Requer root</string>
+    <string name="device_root_is_required_summary">Este dispositivo requer root para uma melhor qualidade</string>
+    <string name="recording_method_caf">CAF</string>
+    <string name="recording_method_msm">MSM</string>
+    <string name="recording_method_msm_settings">Configurações para o método de gravação MSM</string>
+    </resources>
