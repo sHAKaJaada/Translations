@@ -189,7 +189,7 @@
     <string name="api_source_voice_communication">Communication vocale</string>
     <string name="category_wav_settings">Réglages WAV</string>
     <string name="category_wav_and_mp3_settings">Réglages WAV &amp; MP3</string>
-    <string name="when_bt_connected">Quand le bluetooth est connecté...</string>
+    <string name="when_bt_connected">Quand le bluetooth est connecté…</string>
     <string name="audio_source_when_bt_connected">Source audio quand le bluetooth est activé</string>
 
     <!-- Actions when BT connected -->
@@ -463,7 +463,7 @@
     <string name="turkish_translation">Traduction turque</string>
     <string name="turkish_translation_summary">par Omer Ilik</string>
     <string name="serbian_translation">Traduction serbe</string>
-    <string name="serbian_translation_summary">par sHAKaJaada</string>
+    <string name="serbian_translation_summary">par sHAKaJaada™</string>
     <string name="korean_translation">Traduction koréenne</string>
     <string name="korean_translation_summary">par SoHyunSeop et Joon Hee Jo</string>
     <string name="romanian_translation">Traduction roumaine</string>
