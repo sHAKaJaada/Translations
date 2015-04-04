@@ -189,7 +189,7 @@
     <string name="api_source_voice_communication">Comunicare voce</string>
     <string name="category_wav_settings">Setări WAV</string>
     <string name="category_wav_and_mp3_settings">Setări WAV &amp; MP3</string>
-    <string name="when_bt_connected">Când BT conectat...</string>
+    <string name="when_bt_connected">Când BT conectat…</string>
     <string name="audio_source_when_bt_connected">Sursă audio când BT conectat</string>
 
     <!-- Actions when BT connected -->
@@ -463,7 +463,7 @@
     <string name="turkish_translation">Traducerea în Turcă</string>
     <string name="turkish_translation_summary">de Omer Ilik</string>
     <string name="serbian_translation">Traducerea în Sârbă</string>
-    <string name="serbian_translation_summary">de sHAKaJaada</string>
+    <string name="serbian_translation_summary">de sHAKaJaada™</string>
     <string name="korean_translation">Traducerea în Coreeană</string>
     <string name="korean_translation_summary">de SoHyunSeop și Joon Hee Jo</string>
     <string name="romanian_translation">Traducerea în Română</string>
