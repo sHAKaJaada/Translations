@@ -582,4 +582,47 @@
     <string name="incall_control_for_outgoing_summary">Mostrar o botão de controle In-call em chamadas recebidas</string>
     <string name="incall_control_for_incoming_summary">Mostrar o botão de controle In-call em chamadas enviadas</string>
     <string name="hide_button_while_recording">Esconder o botão durante a gravação</string>
+    <string name="hide_button_while_recording_summary">Esconder o botão de controle in-call se a chamada estiver sendo gravada</string>
+    <string name="vertical_position_summary">%s dp, deslocamento a partir do centro da tela</string>
+    <string name="horizontal_position_summary">%s dp, deslocamento a partir do centro da tela</string>
+    <string name="hide_button_before_answer">Esconder o botão antes de atender</string>
+    <string name="long_press_action_dragging_the_button">Arrastar o botão</string>
+    <string name="long_press_action_hang_up">Desligar chamada e retornar automaticamente</string>
+    <string name="hide_starred_recordings">Ocultar gravações favoritas</string>
+    <string name="hide_starred_recordings_summary">Não mostrar as gravações favoritas com as outras gravações</string>
+
+    <string name="cloud_provider">Provedor de Coud</string>
+    <string name="cloud_provider_dropbox"/>
+    <string name="cloud_common_settings">Comum</string>
+    <string name="cloud_upload_starred">Upload favoritas</string>
+    <string name="cloud_upload_starred_summary">Upload gravações para a nuvem quando marca-las como favoritas</string>
+
+    <string name="notify_converting_to_amr">Convertendo para AMR</string>
+    <string name="notify_converting_to_mp3">Convertendo para MP3</string>
+    <string name="notify_encrypting">Criptografando</string>
+    <string name="notify_decrypting">Descriptografando</string>
+    <string name="notify_waiting_for_calls">Esperando por chamadas</string>
+    <string name="notify_tasks_remaining">%d tarefas restantes</string>
+
+    <string name="wrong_password">Senha errada</string>
+    <string name="password_has_been_changed">Senha alterada</string>
+
+    <string name="create_new_key_summary">Esta chave será utilizada para criptografar gravações e para entrar no app</string>
+    <string name="delete_key">Chave de deleção</string>
+    <string name="change_password">Alterar senha</string>
+    <string name="delete_key_summary">Cuidado! Você nunca poderá recuperar gravações criptografadas se você criptografá-las com esta chave, mesmo se você criar uma nova chave com a mesma senha</string>
+    <string name="delete_key_message">Após apagar, você não poderá recuperar gravações criptografadas com esta chave. Tem certeza que deseja prosseguir?</string>
+    <string name="enter_old_password">Digite a senha antiga</string>
+    <string name="enter_new_password">Digita a nova senha</string>
+    <string name="re_enter_new_password">Digite a nova senha novamente</string>
+    <string name="require_password">Requer senha</string>
+    <string name="require_password_summary">Requerer senha para abrir o app</string>
+    <string name="require_password_summary_no_key">Requerer senha para abrir o app. Para habilitar este recurso, primeiro crie uma chave</string>
+    <string name="lock_after">Bloquear depois</string>
+    <string name="lock_after_exit">Sair</string>
+    <string name="lock_after_1_minute">1 min</string>
+    <string name="lock_after_3_minutes">3 min</string>
+    <string name="lock_after_5_minutes">5 min</string>
+    <string name="lock_after_10_minutes">10 min</string>
+    <string name="app_admin_summary">Necessário para prevenir a desinstalação do Call Recorder</string>
     </resources>
