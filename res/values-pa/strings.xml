@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">ਕਾਲ ਰਿਕਾਰਡਰ</string>
     <string name="terms_of_use">ਵਰਤੋ ਦੀਆਂ ਸ਼ਰਤਾਂ</string>
@@ -506,4 +506,10 @@
     <string name="tamil_translation_summary">Ashish Sharma ਆਸ਼ੀਸ਼ ਸ਼ਰਮਾ ਦੁਆਰਾ</string>
     <string name="greek_translation">ਯੂਨਾਨੀ ਭਾਸ਼ਾ ਵਿਚ ਤਰਜਮਾ</string>
     <string name="greek_translation_summary">ਦੁਆਰਾ Lefteris (SomniusX) Eliades</string>
-</resources>
+<string name="add_to_contacts">ਸੰਪਰਕ ਸੂਚੀ ਵਿਚ ਸ਼ਾਮਿਲ ਕਰੋ</string>
+
+    <string name="exception_groups">%d ਗਰੁੱਪ</string>
+    <string name="theme">ਥੀਮ</string>
+    <string name="theme_light">ਹਲਕਾ</string>
+    <string name="theme_dark">ਗਾਢ਼ਾ</string>
+    </resources>
