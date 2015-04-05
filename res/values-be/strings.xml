@@ -506,4 +506,7 @@
     <string name="tamil_translation_summary">ад Ashish Sharma</string>
     <string name="greek_translation">Пераклад на грэцкі</string>
     <string name="greek_translation_summary">ад Lefteris (SomniusX) Eliades</string>
-</resources>
+<string name="theme">Тэма</string>
+    <string name="theme_light">Светлая</string>
+    <string name="theme_dark">Цёмная</string>
+    </resources>
