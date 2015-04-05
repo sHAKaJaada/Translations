@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">ضبط مکالمات</string>
     <string name="terms_of_use">شرایط استفاده</string>
@@ -506,4 +506,21 @@
     <string name="tamil_translation_summary">Ashish Sharma</string>
     <string name="greek_translation">ترجمه یونانی</string>
     <string name="greek_translation_summary">Lefteris (SomniusX) Eliades</string>
-</resources>
+<string name="restore_settings">تنظیمات بازگردان</string>
+
+    <string name="license_error_message">خطا #%1$s: %2$s</string>
+    <string name="exception_groups">%d گروه</string>
+    <string name="create_new_folder">ساخت پوشه جدید…</string>
+    <string name="dialog_title_new_folder">پوشه جدید</string>
+    <string name="theme">پوسته</string>
+    <string name="theme_light">روشن</string>
+    <string name="theme_dark">تیره</string>
+    <string name="hide_starred_recordings">پنهان سازی مکالمات مورد علاقه</string>
+    <string name="hide_starred_recordings_summary">مکالمات مورد علاقه را در کنار باقی مکالمات نمایش نده</string>
+
+    <string name="button_restore">بازگردان</string>
+    <string name="category_other">دیگر</string>
+    <string name="open_source_licenses">مجوز های متن باز</string>
+
+    <string name="category_translators">مترجم ها</string>
+    </resources>
