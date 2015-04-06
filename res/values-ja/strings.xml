@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">利用規約</string>
@@ -515,4 +515,5 @@
     <string name="tamil_translation_summary">Ashish Sharma</string>
     <string name="greek_translation">ギリシャ語の翻訳</string>
     <string name="greek_translation_summary">Lefteris (SomniusX) Eliades</string>
-</resources>
+<string name="license_verified_summary">タップすると隠せます</string>
+    </resources>
