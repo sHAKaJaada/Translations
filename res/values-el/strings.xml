@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">Call Recοrder</string>
     <string name="terms_of_use">Όροι Χρήσης</string>
@@ -515,4 +515,10 @@
     <string name="tamil_translation_summary">από Ashish Sharma</string>
     <string name="greek_translation">Ελληνική μετάφραση</string>
     <string name="greek_translation_summary">από Λευτέρης (SomniusX) Ηλιάδης</string>
-</resources>
+<string name="warning_root_required">Η συσκευή σας πρέπει να είναι rooted. Πατήστε παρατεταμένα για να αποδεσμεύσετε το μήνυμα.</string>
+    <string name="warning_low_space">Ανεπαρκής χώρος: %s</string>
+
+    <string name="low_space_warning">Προειδοποίηση χαμηλής χωρητικότητας</string>
+    <string name="low_space_warning_summary">Ρύθμιση προειδοποίησης χαμηλής χωρητικότητας σε megabytes</string>
+
+    </resources>
