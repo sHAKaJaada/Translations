@@ -41,6 +41,10 @@
     <!--Import settings -->
     <string name="restore_settings">恢复设置</string>
 
+    <!-- Warnings -->
+    <string name="warning_root_required">您的手机必须获得超级用户权限，长按以禁用本消息。</string>
+    <string name="warning_low_space">空间不足：%s</string>
+
     <!-- List -->
     <string name="list_header_today">今天</string>
     <string name="list_header_yesterday">昨天</string>
@@ -265,6 +269,9 @@
     <string name="pattern_example">示例：</string>
 
     <!--Settings -> Interface and Appearance-->
+    
+    
+    
     <string name="language">语言</string>
     <string name="select_language">选择语言</string>
     <string name="default_language">默认语言</string>
@@ -294,6 +301,8 @@
     <string name="category_main_screen">主屏幕</string>
     <string name="hide_starred_recordings">隐藏星标的录音</string>
     <string name="hide_starred_recordings_summary">在屏幕上不显示所有星标的录音</string>
+    <string name="low_space_warning">空间不足警告</string>
+    <string name="low_space_warning_summary">当剩余空间不足多少 MB 时警告</string>
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">云服务提供商</string>

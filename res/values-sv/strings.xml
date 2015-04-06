@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">Användarvillkor</string>
@@ -39,7 +39,11 @@
     <string name="space_free_of">%1$s ledigt av %2$s</string>
 
     <!--Import settings -->
-    
+    <string name="restore_settings">Återställ inställningar</string>
+
+    <!-- Warnings -->
+    <string name="warning_root_required">Din telefon måste vara "rootad". Långtryck för att avfärda meddelandet.</string>
+    <string name="warning_low_space">Lågt utrymme: %s</string>
 
     <!-- List -->
     <string name="list_header_today">Idag</string>
@@ -216,7 +220,7 @@
     <!-- Settings -> Recording -> Exceptions -->
     <string name="add_exception">Lägg till undantag</string>
     <string name="exception_group">Grupp</string>
-    
+    <string name="exception_groups">%d grupper</string>
     <string name="exception_select_group">Välj grupp</string>
     <string name="exception_contact">Kontakt</string>
     <string name="exception_select_contact">Välj kontakt</string>
@@ -236,8 +240,8 @@
     <!-- Settings -> Folders and Files -->
     <string name="folder">Lagringsmapp</string>
     <string name="folder_chooser_up_to">↑ Upp till %s</string>
-    
-    
+    <string name="create_new_folder">Skapa ny mapp…</string>
+    <string name="dialog_title_new_folder">Ny mapp</string>
     <string name="automatic_cleanup">Automatisk rensning</string>
     <string name="max_number_of_files">Max. antal filer</string>
     <string name="max_number_of_files_message">Skriv ett nummer (0 - obegränsat)</string>
@@ -265,6 +269,9 @@
     <string name="pattern_example">Exempel:</string>
 
     <!--Settings -> Interface and Appearance-->
+    <string name="theme">Tema</string>
+    <string name="theme_light">Ljust</string>
+    <string name="theme_dark">Mörkt</string>
     <string name="language">Språk</string>
     <string name="select_language">Välj språk</string>
     <string name="default_language">Standardspråk</string>
@@ -292,8 +299,10 @@
     <string name="long_press_action_dragging_the_button">Dragning av knappen</string>
     <string name="long_press_action_hang_up">Lägg på samtal och ring tillbaka automatiskt</string>
     <string name="category_main_screen">Huvudvy</string>
-    
-    
+    <string name="hide_starred_recordings">Dölj stjärnmärkta inspelningar</string>
+    <string name="hide_starred_recordings_summary">Visa ej stjärnmärkta inspelningar i vyn med alla inspelningar</string>
+    <string name="low_space_warning">Varning för lågt utrymme</string>
+    <string name="low_space_warning_summary">Ställ in lägsta gränsvärde i megabyte innan varning utfärdas</string>
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">Moln-leverantör</string>
@@ -383,7 +392,7 @@
     <string name="button_cancel">Avbryt</string>
     <string name="button_create">Skapa</string>
     <string name="button_delete">Ta bort</string>
-    
+    <string name="button_restore">Återställ</string>
     <string name="button_keep">Behåll</string>
     <string name="button_play">Spela</string>
     <string name="button_pause">Paus</string>
@@ -427,11 +436,11 @@
     <string name="about_many_thanks_summary">till Alexey Subbotin (avs234)</string>
 
     <!--About -> Other-->
-    
-    
+    <string name="category_other">Annat</string>
+    <string name="open_source_licenses">Licenser för öppen källkod</string>
 
     <!--About -> Translators-->
-    
+    <string name="category_translators">Översättare</string>
     <string name="german_translation">Tysk översättning</string>
     <string name="german_translation_summary">av Marc Hillesheim och Thomas Käfer</string>
     <string name="polish_translation">Polsk översättning</string>
@@ -506,20 +515,4 @@
     <string name="tamil_translation_summary">av Ashish Sharma</string>
     <string name="greek_translation">Grekisk översättning</string>
     <string name="greek_translation_summary">av Lefteris (SomniusX) Eliades</string>
-<string name="restore_settings">Återställ inställningar</string>
-
-    <string name="exception_groups">%d grupper</string>
-    <string name="create_new_folder">Skapa ny mapp…</string>
-    <string name="dialog_title_new_folder">Ny mapp</string>
-    <string name="hide_starred_recordings">Dölj stjärnmärkta inspelningar</string>
-    <string name="hide_starred_recordings_summary">Visa ej stjärnmärkta inspelningar i vyn med alla inspelningar</string>
-
-    <string name="button_restore">Återställ</string>
-    <string name="category_other">Annat</string>
-    <string name="open_source_licenses">Licenser för öppen källkod</string>
-
-    <string name="category_translators">Översättare</string>
-    <string name="theme">Tema</string>
-    <string name="theme_light">Ljust</string>
-    <string name="theme_dark">Mörkt</string>
-    </resources>
+</resources>

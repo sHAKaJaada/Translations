@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">Gebruiksvoorwaarden</string>
@@ -40,6 +40,10 @@
 
     <!--Import settings -->
     <string name="restore_settings">Herstel instellingen</string>
+
+    <!-- Warnings -->
+    <string name="warning_root_required">Uw toestel moet geroot zijn. Houd lang ingedrukt om dit bericht teverbergen.</string>
+    <string name="warning_low_space">Weinig ruimte: %s</string>
 
     <!-- List -->
     <string name="list_header_today">Vandaag</string>
@@ -254,7 +258,7 @@
     <string name="pattern_contact_name">contact naam</string>
     <string name="pattern_phone_number">Telefoon nummer</string>
     <string name="pattern_call_time">Gespreks tijd</string>
-    
+    <string name="pattern_call_timestamp">Gespreks tijdsaanduiding (unix tijd)</string>
     <string name="pattern_call_type">gespreks type (inkomend of uitgaand)</string>
     <string name="time_pattern_hours">uren</string>
     <string name="time_pattern_minutes">minuten</string>
@@ -265,6 +269,9 @@
     <string name="pattern_example">Voorbeeld:</string>
 
     <!--Settings -> Interface and Appearance-->
+    <string name="theme">Thema</string>
+    <string name="theme_light">Licht</string>
+    <string name="theme_dark">Donker</string>
     <string name="language">Taal</string>
     <string name="select_language">Kies taal</string>
     <string name="default_language">Standaard taal</string>
@@ -275,91 +282,93 @@
     <string name="hide_icon_but_keep_notification_summary">Verberg icoon, maar behoud notificatie in statusbar</string>
     <string name="category_incall_control_button">In-gesprek bedien knop</string>
     <string name="incall_control_for_outgoing">Voor uitgaande gesprekken</string>
-    
+    <string name="incall_control_for_outgoing_summary">Laat in-gespreks controle knop zien bij uitgaande gesprekken</string>
     <string name="incall_control_for_incoming">voor inkomende gesprekken</string>
-    
-    
-    
+    <string name="incall_control_for_incoming_summary">Laat in-gespreks controle knop zien bij inkomende gesprekken</string>
+    <string name="hide_button_while_recording">Verberg knop tijdens opname</string>
+    <string name="hide_button_while_recording_summary">Verberg in-gesprekscontrole knop indien gesprek wordt opgenomen</string>
     <string name="show_button_while_ringing">Laat knop zien bij het overgaan</string>
     <string name="show_button_while_ringing_summary">Laat in-gesprek control knop zien voordat inkomend gesprek wordt beantwoord</string>
     <string name="vertical_position">Vertikaal</string>
-    
+    <string name="vertical_position_summary">%s dp, verschuiving ten opzichte van het midden van het scherm</string>
     <string name="horizontal_position">Horizontaal</string>
-    
-    
+    <string name="horizontal_position_summary">%s dp, verschuiving ten opzichte van het midden van het scherm</string>
+    <string name="hide_button_before_answer">Verberg knop voordat je beantwoordt</string>
     <string name="hide_button_before_answer_summary">Laat in-call control niet zien voor dat er verbinding is</string>
-    
-    
-    
+    <string name="long_press_action">Lang ingedrukt actie</string>
+    <string name="long_press_action_dragging_the_button">Verslepen van de knop</string>
+    <string name="long_press_action_hang_up">Verbreek verbinding en bel automatisch terug</string>
     <string name="category_main_screen">Hoofdscherm</string>
-    
-    
+    <string name="hide_starred_recordings">Verberg favoriete opnames</string>
+    <string name="hide_starred_recordings_summary">Laat favoriete opnames niet zien in het scherm met alle opnames</string>
+    <string name="low_space_warning">Waarschuwing weinig ruimte</string>
+    <string name="low_space_warning_summary">Stel een drempel in van een minimale ruimte voor de waarschuwing inmegabytes</string>
 
     <!-- Settings -> Cloud -->
-    
+    <string name="cloud_provider">Cloud-opslag provider</string>
     <string name="cloud_provider_dropbox">Dropbox</string>
-    
-    
-    
-    
+    <string name="sign_in_dropbox">Inloggen bij dropbox</string>
+    <string name="sign_out_dropbox">Uitloggen bij dropbox</string>
+    <string name="cloud_provider_google_drive">Google Drive</string>
+    <string name="cloud_common_settings">Gemeenschappelijke</string>
     <string name="cloud_wifi_only">Alleen Wi-Fi</string>
     <string name="cloud_auto_upload">Auto upload</string>
     <string name="cloud_auto_upload_summary">Upload opnames direct na het gesprek</string>
-    
-    
+    <string name="cloud_upload_starred">Upload favorieten</string>
+    <string name="cloud_upload_starred_summary">Upload opnames naar de cloud wanneer er een ster aan toegevoegd wordt</string>
 
     <!-- Notification -->
-    
-    
-    
-    
-    
-    
-    
+    <string name="notify_uploading_dropbox">Aan het uploaden naar dropbox</string>
+    <string name="notify_converting_to_amr">Converteren naar AMR</string>
+    <string name="notify_converting_to_mp3">Converteren naar MP3</string>
+    <string name="notify_encrypting">Versleutelen</string>
+    <string name="notify_decrypting">Ontsleutelen</string>
+    <string name="notify_waiting_for_calls">Wachten op een gesprek</string>
+    <string name="notify_tasks_remaining">%d taken resterend</string>
 
     <!-- Password dialog -->
-    
+    <string name="wrong_password">Verkeerd wachtwoord</string>
     <string name="enter_password">Voer wachtwoord in</string>
-    
+    <string name="password_has_been_changed">Wachtwoord is gewijzigd</string>
 
     <!-- Settings -> Security -->
     <string name="category_encryption">Encryptie</string>
     <string name="category_application">Applicatie</string>
     <string name="create_new_key">Maak nieuwe key</string>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <string name="create_new_key_summary">Dit sleutel wordt gebruikt om opnames te ontsleutelen of om deze app te openen</string>
+    <string name="delete_key">Verwijder sleutel</string>
+    <string name="change_password">Verander wachtwoord</string>
+    <string name="delete_key_summary">Waarschuwing! U kunt nooit meer in staat zijn om opnames te ontsleutelen indien u ze versleuteld heeft met deze sleutel, zelfs als u een nieuwe sleutel aanmaakt met hetzelfde wachtwoord</string>
+    <string name="delete_key_message">Na het verwijderen kunt u geen opnames meer ontsleutelen met deze sleutel. Weet u zeker dat u wilt doorgaan?</string>
+    <string name="enter_old_password">Voer oude wachtwoord in</string>
+    <string name="enter_new_password">Voer nieuwe wachtwoord in</string>
+    <string name="re_enter_new_password">Voer uw wachtwoord nogmaals in</string>
+    <string name="require_password">Wachtwoord vereist</string>
+    <string name="require_password_summary">Wachtwoord vereist om deze app te openen</string>
+    <string name="require_password_summary_no_key">Wachtwoord vereist om deze app te openen, om dit in te schakelen dient u eerst een sleutel aan te maken</string>
+    <string name="lock_after">Vergrendelen na</string>
+    <string name="lock_after_exit">Afsluiten</string>
+    <string name="lock_after_1_minute">1 min</string>
+    <string name="lock_after_3_minutes">3 min</string>
+    <string name="lock_after_5_minutes">5 min</string>
+    <string name="lock_after_10_minutes">10 min</string>
     <string name="app_admin">App Beheerder</string>
-    
-    
+    <string name="app_admin_summary">Noodzakelijk om Callrecorder te beschermen tegen verwijdering</string>
+    <string name="app_admin_explanation">Callrecorder gebruikt geen enkele toestel administrator functies behalve het beschermen tegen verwijdering</string>
     <string name="aes_128bit">128-bit AES (Sneller)</string>
     <string name="aes_192bit">192-bit AES (Gebalanceerd)</string>
     <string name="aes_256bit">256-bit AES (Sterker)</string>
 
     <!-- Settings -> Audio player -->
-    
+    <string name="use_built_in_player">Gebruik ingebouwde speler</string>
     <string name="audio_output">Audio uitgang</string>
-    
+    <string name="audio_output_summary">%s (Lang ingedrukt op play/pause knop zal dit ook overschakelen)</string>
     <string name="main_speaker">Hoofd lspeaker</string>
     <string name="phone_speaker">Telefoonspeaker</string>
     <string name="use_proximity_sensor">Gebruik naderings (proximity) sensor</string>
-    
+    <string name="use_proximity_sensor_summary">Uitschakelen van scherm door proximity sensor gedurende afspelen</string>
     <string name="switch_audio_output">Wissel audio uitgang</string>
-    
+    <string name="switch_audio_output_summary">Automatisch audio uitgang overschakelen wanneer scherm is uitgeschakeld/ingeschakeld door proximity sensor</string>
     <string name="android_wav_decoder">Android decoder voor WAV</string>
     <string name="android_wav_decoder_summary">Gebruik ingebouwde Android tools om WAV af te spelen</string>
     <string name="android_amr_decoder">Android decoder voor AMR</string>
@@ -371,55 +380,55 @@
     <string name="root_access_yes">Ja</string>
     <string name="dual_sim_phone">Dual Sim Telefoon</string>
     <string name="dual_sim_phone_summary">Schakel dit aan als de app geen gesprekken van de 2e simkaart kan vaststellen</string>
-    
+    <string name="send_logs_to_the_developer">Zend logs naar ontwikkelaar</string>
 
     <!-- General -->
     <string name="contact_unknown">Onbekend</string>
-    
+    <string name="button_choose">Kies</string>
     <string name="button_ok">OK</string>
-    
-    
+    <string name="button_call">Gesprek</string>
+    <string name="button_buy">Kopen</string>
     <string name="button_edit">Wijzig</string>
     <string name="button_cancel">Annuleren</string>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <string name="button_create">Aanmaken</string>
+    <string name="button_delete">Verwijderen</string>
+    <string name="button_restore">Herstellen</string>
+    <string name="button_keep">Behouden</string>
+    <string name="button_play">Afspelen</string>
+    <string name="button_pause">Pauze</string>
+    <string name="button_delete_wait">Verwijderen (%d)</string>
+    <string name="decline">Weigeren</string>
+    <string name="accept">Accepteren</string>
+    <string name="call_incoming">Inkomende</string>
+    <string name="call_outgoing">Uitgaande</string>
     <string name="please_wait">Wacht aub…</string>
     <string name="start_recording">Start opname</string>
     <string name="stop_recording">Stop opname</string>
-    
+    <string name="action_mode_selected">%d geselecteerd</string>
     <string name="switch_on">Aan</string>
     <string name="switch_off">Uit</string>
 
     <!--Toasts-->
-    
-    
-    
-    
+    <string name="toast_wait_for_operation_to_complete">Wacht totdat een actie voltooid is</string>
+    <string name="toast_recording_is_off">Opname staat UIT</string>
+    <string name="toast_recording_is_on">Opname staat AAN</string>
+    <string name="toast_file_deleted">Bestand is succesvol verwijderd</string>
 
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">Neem dit gesprek op</string>
-    
+    <string name="open_contact">Open contact</string>
 
     <!--After call actions dialog-->
     <string name="cloud_added">Toegevoegd</string>
 
     <!--Notification-->
-    
-    
-    
+    <string name="waiting_for_answer">Wacht op beantwoording</string>
+    <string name="recording_in_progress">Opname actief</string>
+    <string name="no_recording_in_progress">Geen opname actief</string>
     <string name="an_error_has_occurred">Er is een fout opgetreden, deze oproep kan niet worden opgenomen</string>
 
     <!--About-->
-    
+    <string name="about_call_recorder">Over Call Recorder</string>
     <string name="version">Versie</string>
     <string name="copyright">Copyright</string>
     <string name="copyright_summary">© %s Alexander Skvortsov (skvalex)</string>
@@ -427,13 +436,13 @@
     <string name="about_many_thanks_summary">aan Alexey Subbotin (avs234)</string>
 
     <!--About -> Other-->
-    
-    
+    <string name="category_other">Overig</string>
+    <string name="open_source_licenses">Open source licenties</string>
 
     <!--About -> Translators-->
-    
+    <string name="category_translators">Vertalers</string>
     <string name="german_translation">Duitse vertaling</string>
-    
+    <string name="german_translation_summary">door Marc Hillesheim en Thomas Käfer</string>
     <string name="polish_translation">Poolse vertaling</string>
     <string name="polish_translation_summary">door Robert Gonta</string>
     <string name="french_translation">Franse vertaling</string>
@@ -445,11 +454,11 @@
     <string name="slovak_translation">Slovaakse vertaling</string>
     <string name="slovak_translation_summary">door Loránt Gerencsér</string>
     <string name="italian_translation">Italiaanse vertaling</string>
-    
+    <string name="italian_translation_summary">door Luca Trevisan en Francesco Cafagna</string>
     <string name="persian_translation">Persische vertaling</string>
     <string name="persian_translation_summary">door Alireza Afkar</string>
     <string name="chinese_translation">Chinese vertaling</string>
-    
+    <string name="chinese_translation_summary">door qhq en Yu Fei</string>
     <string name="czech_translation">Czech vertaling</string>
     <string name="czech_translation_summary">door Ales Kerner en Lukas Waldauf</string>
     <string name="arabic_translation">Arabische vertaling</string>
@@ -488,115 +497,6 @@
     <string name="georgian_translation_summary">door AlexSandreo Razmadze</string>
     <string name="catalan_translation">Catalaanse vertaling</string>
     <string name="catalan_translation_summary">door cybdani</string>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-<string name="pattern_call_timestamp">Gespreks tijdsaanduiding (unix tijd)</string>
-    <string name="incall_control_for_outgoing_summary">Laat in-gespreks controle knop zien bij uitgaande gesprekken</string>
-    <string name="incall_control_for_incoming_summary">Laat in-gespreks controle knop zien bij inkomende gesprekken</string>
-    <string name="hide_button_while_recording">Verberg knop tijdens opname</string>
-    <string name="hide_button_while_recording_summary">Verberg in-gesprekscontrole knop indien gesprek wordt opgenomen</string>
-    <string name="vertical_position_summary">%s dp, verschuiving ten opzichte van het midden van het scherm</string>
-    <string name="horizontal_position_summary">%s dp, verschuiving ten opzichte van het midden van het scherm</string>
-    <string name="hide_button_before_answer">Verberg knop voordat je beantwoordt</string>
-    <string name="long_press_action">Lang ingedrukt actie</string>
-    <string name="long_press_action_dragging_the_button">Verslepen van de knop</string>
-    <string name="long_press_action_hang_up">Verbreek verbinding en bel automatisch terug</string>
-    <string name="hide_starred_recordings">Verberg favoriete opnames</string>
-    <string name="hide_starred_recordings_summary">Laat favoriete opnames niet zien in het scherm met alle opnames</string>
-
-    <string name="cloud_provider">Cloud-opslag provider</string>
-    <string name="sign_in_dropbox">Inloggen bij dropbox</string>
-    <string name="sign_out_dropbox">Uitloggen bij dropbox</string>
-    <string name="cloud_provider_google_drive">Google Drive</string>
-    <string name="cloud_common_settings">Gemeenschappelijke</string>
-    <string name="cloud_upload_starred">Upload favorieten</string>
-    <string name="cloud_upload_starred_summary">Upload opnames naar de cloud wanneer er een ster aan toegevoegd wordt</string>
-
-    <string name="notify_uploading_dropbox">Aan het uploaden naar dropbox</string>
-    <string name="notify_converting_to_amr">Converteren naar AMR</string>
-    <string name="notify_converting_to_mp3">Converteren naar MP3</string>
-    <string name="notify_encrypting">Versleutelen</string>
-    <string name="notify_decrypting">Ontsleutelen</string>
-    <string name="notify_waiting_for_calls">Wachten op een gesprek</string>
-    <string name="notify_tasks_remaining">%d taken resterend</string>
-
-    <string name="wrong_password">Verkeerd wachtwoord</string>
-    <string name="password_has_been_changed">Wachtwoord is gewijzigd</string>
-
-    <string name="create_new_key_summary">Dit sleutel wordt gebruikt om opnames te ontsleutelen of om deze app te openen</string>
-    <string name="delete_key">Verwijder sleutel</string>
-    <string name="change_password">Verander wachtwoord</string>
-    <string name="delete_key_summary">Waarschuwing! U kunt nooit meer in staat zijn om opnames te ontsleutelen indien u ze versleuteld heeft met deze sleutel, zelfs als u een nieuwe sleutel aanmaakt met hetzelfde wachtwoord</string>
-    <string name="delete_key_message">Na het verwijderen kunt u geen opnames meer ontsleutelen met deze sleutel. Weet u zeker dat u wilt doorgaan?</string>
-    <string name="enter_old_password">Voer oude wachtwoord in</string>
-    <string name="enter_new_password">Voer nieuwe wachtwoord in</string>
-    <string name="re_enter_new_password">Voer uw wachtwoord nogmaals in</string>
-    <string name="require_password">Wachtwoord vereist</string>
-    <string name="require_password_summary">Wachtwoord vereist om deze app te openen</string>
-    <string name="require_password_summary_no_key">Wachtwoord vereist om deze app te openen, om dit in te schakelen dient u eerst een sleutel aan te maken</string>
-    <string name="lock_after">Vergrendelen na</string>
-    <string name="lock_after_exit">Afsluiten</string>
-    <string name="lock_after_1_minute">1 min</string>
-    <string name="lock_after_3_minutes">3 min</string>
-    <string name="lock_after_5_minutes">5 min</string>
-    <string name="lock_after_10_minutes">10 min</string>
-    <string name="app_admin_summary">Noodzakelijk om Callrecorder te beschermen tegen verwijdering</string>
-    <string name="app_admin_explanation">Callrecorder gebruikt geen enkele toestel administrator functies behalve het beschermen tegen verwijdering</string>
-    <string name="use_built_in_player">Gebruik ingebouwde speler</string>
-    <string name="audio_output_summary">%s (Lang ingedrukt op play/pause knop zal dit ook overschakelen)</string>
-    <string name="use_proximity_sensor_summary">Uitschakelen van scherm door proximity sensor gedurende afspelen</string>
-    <string name="switch_audio_output_summary">Automatisch audio uitgang overschakelen wanneer scherm is uitgeschakeld/ingeschakeld door proximity sensor</string>
-    <string name="send_logs_to_the_developer">Zend logs naar ontwikkelaar</string>
-
-    <string name="button_choose">Kies</string>
-    <string name="button_call">Gesprek</string>
-    <string name="button_buy">Kopen</string>
-    <string name="button_create">Aanmaken</string>
-    <string name="button_delete">Verwijderen</string>
-    <string name="button_restore">Herstellen</string>
-    <string name="button_keep">Behouden</string>
-    <string name="button_play">Afspelen</string>
-    <string name="button_pause">Pauze</string>
-    <string name="button_delete_wait">Verwijderen (%d)</string>
-    <string name="decline">Weigeren</string>
-    <string name="accept">Accepteren</string>
-    <string name="call_incoming">Inkomende</string>
-    <string name="call_outgoing">Uitgaande</string>
-    <string name="action_mode_selected">%d geselecteerd</string>
-    <string name="toast_wait_for_operation_to_complete">Wacht totdat een actie voltooid is</string>
-    <string name="toast_recording_is_off">Opname staat UIT</string>
-    <string name="toast_recording_is_on">Opname staat AAN</string>
-    <string name="toast_file_deleted">Bestand is succesvol verwijderd</string>
-
-    <string name="open_contact">Open contact</string>
-
-    <string name="waiting_for_answer">Wacht op beantwoording</string>
-    <string name="recording_in_progress">Opname actief</string>
-    <string name="no_recording_in_progress">Geen opname actief</string>
-    <string name="about_call_recorder">Over Call Recorder</string>
-    <string name="category_other">Overig</string>
-    <string name="open_source_licenses">Open source licenties</string>
-
-    <string name="category_translators">Vertalers</string>
-    <string name="german_translation_summary">door Marc Hillesheim en Thomas Käfer</string>
-    <string name="italian_translation_summary">door Luca Trevisan en Francesco Cafagna</string>
-    <string name="chinese_translation_summary">door qhq en Yu Fei</string>
     <string name="hindi_translation">Hindi vertaling</string>
     <string name="hindi_translation_summary">door TheTAMAS Gautam</string>
     <string name="punjabi_translation">Punjab vertaling</string>
@@ -615,7 +515,4 @@
     <string name="tamil_translation_summary">door Ashish Sharma</string>
     <string name="greek_translation">Griekse vertaling</string>
     <string name="greek_translation_summary">door Lefteris (SomniusX) Eliades</string>
-<string name="theme">Thema</string>
-    <string name="theme_light">Licht</string>
-    <string name="theme_dark">Donker</string>
-    </resources>
+</resources>

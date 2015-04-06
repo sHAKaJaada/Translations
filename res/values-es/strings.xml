@@ -41,6 +41,10 @@
     <!--Import settings -->
     
 
+    <!-- Warnings -->
+    <string name="warning_root_required">Su teléfono debe estar rooteado. Presione unos segundos para quitar este mensaje</string>
+    <string name="warning_low_space">Poco espacio: %s</string>
+
     <!-- List -->
     
     
@@ -265,6 +269,9 @@
     <string name="pattern_example">Ejemplo:</string>
 
     <!--Settings -> Interface and Appearance-->
+    
+    
+    
     <string name="language">Idioma</string>
     <string name="select_language">Seleccionar idioma</string>
     
@@ -294,6 +301,8 @@
     <string name="category_main_screen">Pantalla principal</string>
     
     
+    <string name="low_space_warning">Advertencia: poco espacio</string>
+    <string name="low_space_warning_summary">Establece un limite de espacio mínimo para mostrar una advertencia en megabytes</string>
 
     <!-- Settings -> Cloud -->
     

@@ -41,6 +41,10 @@
     <!--Import settings -->
     <string name="restore_settings">Поништити подешавања</string>
 
+    <!-- Warnings -->
+    <string name="warning_root_required">Телефон мора имати root приступ. Притисните овде да сакријете поруку.</string>
+    <string name="warning_low_space">Мало меморијског простора: %s</string>
+
     <!-- List -->
     <string name="list_header_today">Данас</string>
     <string name="list_header_yesterday">Јуче</string>
@@ -265,6 +269,9 @@
     <string name="pattern_example">Пример:</string>
 
     <!--Settings -> Interface and Appearance-->
+    
+    
+    
     <string name="language">Језик</string>
     <string name="select_language">Одабир језика</string>
     <string name="default_language">Подразумевано</string>
@@ -294,6 +301,8 @@
     <string name="category_main_screen">Главни приказ</string>
     <string name="hide_starred_recordings">Сакрити фаворизоване снимке</string>
     <string name="hide_starred_recordings_summary">Не приказивати фаворизоване снимке</string>
+    <string name="low_space_warning">Упозорење о количини меморијског простора</string>
+    <string name="low_space_warning_summary">Упозори када је количина слободне меморија мања од: (унети вредност у MiB)</string>
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">Cloud услуга</string>

@@ -41,6 +41,10 @@
     <!--Import settings -->
     <string name="restore_settings">સેટિંગ્સ ફરિથી</string>
 
+    <!-- Warnings -->
+    
+    
+
     <!-- List -->
     <string name="list_header_today">આજે</string>
     <string name="list_header_yesterday">ગઈ કાલે</string>
@@ -265,6 +269,9 @@
     <string name="pattern_example">ઉદાહરણ:</string>
 
     <!--Settings -> Interface and Appearance-->
+    
+    
+    
     <string name="language">ભાષા</string>
     <string name="select_language">ભાષા પસંદ કરો</string>
     <string name="default_language">મૂળભૂત ભાષા</string>
@@ -294,6 +301,8 @@
     <string name="category_main_screen">મુખ્ય સ્ક્રીન</string>
     <string name="hide_starred_recordings">તારાંકિત રેકોર્ડિંગ્સ છુપાવો</string>
     <string name="hide_starred_recordings_summary">બધા રેકોર્ડિંગ્સ સાથે સ્ક્રીન પર તારાંકિત રેકોર્ડિંગ્સ બતાવશો નહીં</string>
+    
+    
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">વાદળ પ્રદાતા</string>

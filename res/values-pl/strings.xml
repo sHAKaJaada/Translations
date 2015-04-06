@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">Warunki korzystania</string>
@@ -39,7 +39,11 @@
     <string name="space_free_of">%1$s wolnych z %2$s</string>
 
     <!--Import settings -->
-    
+    <string name="restore_settings">Przywróć ustawienia</string>
+
+    <!-- Warnings -->
+    <string name="warning_root_required">Twój telefon musi być zrootowany. Stuknij i przytrzymaj, aby ukryć ten komunikat.</string>
+    <string name="warning_low_space">Mało miejsca: %s</string>
 
     <!-- List -->
     <string name="list_header_today">Dziś</string>
@@ -216,7 +220,7 @@
     <!-- Settings -> Recording -> Exceptions -->
     <string name="add_exception">Dodaj wyjątek</string>
     <string name="exception_group">Grupa</string>
-    
+    <string name="exception_groups">%d grupy</string>
     <string name="exception_select_group">Wybierz grupę</string>
     <string name="exception_contact">Kontakt</string>
     <string name="exception_select_contact">Wybierz kontakt</string>
@@ -236,8 +240,8 @@
     <!-- Settings -> Folders and Files -->
     <string name="folder">Folder</string>
     <string name="folder_chooser_up_to">↑ Aż do %s</string>
-    
-    
+    <string name="create_new_folder">Utwórz nowy folder…</string>
+    <string name="dialog_title_new_folder">Nowy folder</string>
     <string name="automatic_cleanup">Czyszczenie automatyczne</string>
     <string name="max_number_of_files">Maks. liczba plików</string>
     <string name="max_number_of_files_message">Wprowadź numer (0 - bez limitu)</string>
@@ -265,6 +269,9 @@
     <string name="pattern_example">Przykład:</string>
 
     <!--Settings -> Interface and Appearance-->
+    <string name="theme">Temat</string>
+    <string name="theme_light">Jasny</string>
+    <string name="theme_dark">Ciemny</string>
     <string name="language">Język</string>
     <string name="select_language">Wybierz Język</string>
     <string name="default_language">Język domyślny</string>
@@ -292,8 +299,10 @@
     <string name="long_press_action_dragging_the_button">Przeciągnięcie przycisku</string>
     <string name="long_press_action_hang_up">Rozłącz się i automatycznie oddzwoń</string>
     <string name="category_main_screen">Główny ekran</string>
-    
-    
+    <string name="hide_starred_recordings">Ukryj nagrania oznaczone gwiazdką</string>
+    <string name="hide_starred_recordings_summary">Nie pokazuj nagrań oznaczonych gwiazdką na ekranie ze wszystkimi nagraniami</string>
+    <string name="low_space_warning">Ostrzeżenie o małej ilości miejsca</string>
+    <string name="low_space_warning_summary">Ustaw minimalny próg miejsca na karcie w megabajtach</string>
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">Dostawca chmury</string>
@@ -383,7 +392,7 @@
     <string name="button_cancel">Anuluj</string>
     <string name="button_create">Utwórz</string>
     <string name="button_delete">Skasuj</string>
-    
+    <string name="button_restore">Przywróć</string>
     <string name="button_keep">Zachowaj</string>
     <string name="button_play">Odtwórz</string>
     <string name="button_pause">Pauza</string>
@@ -427,11 +436,11 @@
     <string name="about_many_thanks_summary">Dla Alexey Subbotin (avs234)</string>
 
     <!--About -> Other-->
-    
-    
+    <string name="category_other">Inne</string>
+    <string name="open_source_licenses">Licencje open source</string>
 
     <!--About -> Translators-->
-    
+    <string name="category_translators">Tłumacze</string>
     <string name="german_translation">Tłumaczenie na język niemiecki</string>
     <string name="german_translation_summary">Marc Hillesheim i Thomas Käfer</string>
     <string name="polish_translation">Tłumaczenie na język polski</string>
@@ -506,20 +515,4 @@
     <string name="tamil_translation_summary">Ashish Sharma</string>
     <string name="greek_translation">Tłumaczenie na język grecki</string>
     <string name="greek_translation_summary">Lefteris (SomniusX) Eliades</string>
-<string name="restore_settings">Przywróć ustawienia</string>
-
-    <string name="exception_groups">%d grupy</string>
-    <string name="create_new_folder">Utwórz nowy folder…</string>
-    <string name="dialog_title_new_folder">Nowy folder</string>
-    <string name="hide_starred_recordings">Ukryj nagrania oznaczone gwiazdką</string>
-    <string name="hide_starred_recordings_summary">Nie pokazuj nagrań oznaczonych gwiazdką na ekranie ze wszystkimi nagraniami</string>
-
-    <string name="button_restore">Przywróć</string>
-    <string name="category_other">Inne</string>
-    <string name="open_source_licenses">Licencje open source</string>
-
-    <string name="category_translators">Tłumacze</string>
-    <string name="theme">Temat</string>
-    <string name="theme_light">Jasny</string>
-    <string name="theme_dark">Ciemny</string>
-    </resources>
+</resources>

@@ -41,6 +41,10 @@
     <!--Import settings -->
     
 
+    <!-- Warnings -->
+    <string name="warning_root_required">يجب أن تمكين ROOT الى هاتفك. انقر مطولا لإغلاق هذه الرسالة.</string>
+    <string name="warning_low_space">مساحة منخفضة %s</string>
+
     <!-- List -->
     <string name="list_header_today">اليوم</string>
     <string name="list_header_yesterday">امس</string>
@@ -265,6 +269,9 @@
     <string name="pattern_example">مثال:</string>
 
     <!--Settings -> Interface and Appearance-->
+    
+    
+    
     <string name="language">لغة</string>
     <string name="select_language">اختيار اللغة</string>
     
@@ -294,6 +301,8 @@
     <string name="category_main_screen">الشاشة الرئيسية</string>
     
     
+    <string name="low_space_warning">تحذير! مساحة منخفضة</string>
+    <string name="low_space_warning_summary">تعيين الحد الأدنى من مساحة التخزين قبل التحذير في ميغا بايت</string>
 
     <!-- Settings -> Cloud -->
     

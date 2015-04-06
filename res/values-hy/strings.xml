@@ -41,6 +41,10 @@
     <!--Import settings -->
     <string name="restore_settings">Վերականգնել կարգավորումները</string>
 
+    <!-- Warnings -->
+    
+    
+
     <!-- List -->
     <string name="list_header_today">Այսօր</string>
     <string name="list_header_yesterday">Երեկ</string>
@@ -265,6 +269,9 @@
     <string name="pattern_example">Օրինակ:</string>
 
     <!--Settings -> Interface and Appearance-->
+    
+    
+    
     <string name="language">Լեզու</string>
     <string name="select_language">Ընտրել լեզուն</string>
     <string name="default_language">Նախընտրելի լեզուն</string>
@@ -294,6 +301,8 @@
     <string name="category_main_screen">Գլխավոր էկրան</string>
     <string name="hide_starred_recordings">Թաքցնել նշված ձայնագրությունները</string>
     <string name="hide_starred_recordings_summary">Թաքցնել նշված ձայնագրությունները էկրանին բոլոր ձայնագրություններով</string>
+    
+    
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">Ամպային պահեստարանի օպերատոր</string>

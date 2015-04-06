@@ -41,6 +41,10 @@
     <!--Import settings -->
     
 
+    <!-- Warnings -->
+    <string name="warning_root_required">Tālrunim ir jābūt rūtotam. Garš pieskāriens, lai noņemtu šo ziņojumu.</string>
+    <string name="warning_low_space">Maz vietas: %s</string>
+
     <!-- List -->
     <string name="list_header_today">Šodien</string>
     <string name="list_header_yesterday">Vakar</string>
@@ -265,6 +269,9 @@
     <string name="pattern_example">Piemērs:</string>
 
     <!--Settings -> Interface and Appearance-->
+    
+    
+    
     <string name="language">Valoda</string>
     <string name="select_language">Atlasīt valodu</string>
     <string name="default_language">Noklusējuma valoda</string>
@@ -294,6 +301,8 @@
     <string name="category_main_screen">Galvenais ekrāns</string>
     
     
+    <string name="low_space_warning">Maz vietas, brīdinājums</string>
+    <string name="low_space_warning_summary">Uzstādīt "maz vietas" brīdinājuma robežvērtību megabaitos</string>
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">Mākoņdatu pakalpojumu sniedzējs</string>

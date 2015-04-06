@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">Brugsbetingelser</string>
@@ -39,7 +39,11 @@
     <string name="space_free_of">%1$s frit af %2$s</string>
 
     <!--Import settings -->
-    
+    <string name="restore_settings">Genskab indstillinger</string>
+
+    <!-- Warnings -->
+    <string name="warning_root_required">Din telefon skal være rooted. Et langt tryk lukker denne besked</string>
+    <string name="warning_low_space">Ledig plads: %s</string>
 
     <!-- List -->
     <string name="list_header_today">I dag</string>
@@ -216,7 +220,7 @@
     <!-- Settings -> Recording -> Exceptions -->
     <string name="add_exception">Tilføj undtagelse</string>
     <string name="exception_group">Gruppe</string>
-    
+    <string name="exception_groups">%d grupper</string>
     <string name="exception_select_group">Vælg gruppe</string>
     <string name="exception_contact">Kontakt</string>
     <string name="exception_select_contact">Vælg kontakt</string>
@@ -236,8 +240,8 @@
     <!-- Settings -> Folders and Files -->
     <string name="folder">Katalog</string>
     <string name="folder_chooser_up_to">↑ Op i %s</string>
-    
-    
+    <string name="create_new_folder">Opret ny mappe…</string>
+    <string name="dialog_title_new_folder">Ny mappe</string>
     <string name="automatic_cleanup">Automatisk oprydning</string>
     <string name="max_number_of_files">Maksimalt antal filer</string>
     <string name="max_number_of_files_message">Angiv antal (0 - ubegrænset)</string>
@@ -265,6 +269,9 @@
     <string name="pattern_example">Eksempel:</string>
 
     <!--Settings -> Interface and Appearance-->
+    <string name="theme">Tema</string>
+    <string name="theme_light">Lyst</string>
+    <string name="theme_dark">Mørkt</string>
     <string name="language">Sprog</string>
     <string name="select_language">Vælg sprog</string>
     <string name="default_language">Standardsprog</string>
@@ -292,8 +299,10 @@
     <string name="long_press_action_dragging_the_button">Ved træk af knappen</string>
     <string name="long_press_action_hang_up">Læg på og ring tilbage automatiskt</string>
     <string name="category_main_screen">Hovedskærm</string>
-    
-    
+    <string name="hide_starred_recordings">Skjul stjernemarkerede optagelser</string>
+    <string name="hide_starred_recordings_summary">Vis ikke stjernemarkerede optagelser i oversigten over alle optagelser</string>
+    <string name="low_space_warning">Advar ved for lidt ledig plads</string>
+    <string name="low_space_warning_summary">Indstil advarselsgrænse for ledig plads</string>
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">Udbyder af lagertjeneste</string>
@@ -383,7 +392,7 @@
     <string name="button_cancel">Annuller</string>
     <string name="button_create">Opret</string>
     <string name="button_delete">Slet</string>
-    
+    <string name="button_restore">Genskab</string>
     <string name="button_keep">Behold</string>
     <string name="button_play">Afspil</string>
     <string name="button_pause">Pause</string>
@@ -427,11 +436,11 @@
     <string name="about_many_thanks_summary">til Alexey Subbotin (avs234)</string>
 
     <!--About -> Other-->
-    
-    
+    <string name="category_other">Andet</string>
+    <string name="open_source_licenses">Open-source licenser</string>
 
     <!--About -> Translators-->
-    
+    <string name="category_translators">Oversættere</string>
     <string name="german_translation">Tysk oversættelse</string>
     <string name="german_translation_summary">af Marc Hillesheim og Thomas Käfer</string>
     <string name="polish_translation">Polsk oversættelse</string>
@@ -506,20 +515,4 @@
     <string name="tamil_translation_summary">af Ashish Sharma</string>
     <string name="greek_translation">Græsk oversættelse</string>
     <string name="greek_translation_summary">af Lefteris (SomniusX) Eliades</string>
-<string name="restore_settings">Genskab indstillinger</string>
-
-    <string name="exception_groups">%d grupper</string>
-    <string name="create_new_folder">Opret ny mappe…</string>
-    <string name="dialog_title_new_folder">Ny mappe</string>
-    <string name="theme">Tema</string>
-    <string name="theme_light">Lyst</string>
-    <string name="theme_dark">Mørkt</string>
-    <string name="hide_starred_recordings">Skjul stjernemarkerede optagelser</string>
-    <string name="hide_starred_recordings_summary">Vis ikke stjernemarkerede optagelser i oversigten over alle optagelser</string>
-
-    <string name="button_restore">Genskab</string>
-    <string name="category_other">Andet</string>
-    <string name="open_source_licenses">Open-source licenser</string>
-
-    <string name="category_translators">Oversættere</string>
-    </resources>
+</resources>

@@ -41,6 +41,10 @@
     <!--Import settings -->
     <string name="restore_settings">Restaurar ajustaments</string>
 
+    <!-- Warnings -->
+    <string name="warning_root_required">Has de ser root. Toc llarg per descartar aquest missatge.</string>
+    <string name="warning_low_space">Poc espai %s</string>
+
     <!-- List -->
     <string name="list_header_today">Avui</string>
     <string name="list_header_yesterday">Ahir</string>
@@ -265,6 +269,9 @@
     <string name="pattern_example">Exemple:</string>
 
     <!--Settings -> Interface and Appearance-->
+    
+    
+    
     <string name="language">Idioma</string>
     <string name="select_language">Selecciona idioma</string>
     <string name="default_language">Idioma per defecte</string>
@@ -294,6 +301,8 @@
     <string name="category_main_screen">Pantalla principal</string>
     <string name="hide_starred_recordings">Amagar registres preferits</string>
     <string name="hide_starred_recordings_summary">No mostrar registres preferits a la pantalla amb tots els registres</string>
+    <string name="low_space_warning">Avís de poc espai</string>
+    <string name="low_space_warning_summary">Ajusta l\'avís de poc espai en megabytes</string>
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">Proveïdor del núvol</string>

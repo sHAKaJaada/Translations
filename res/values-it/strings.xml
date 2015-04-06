@@ -41,6 +41,10 @@
     <!--Import settings -->
     
 
+    <!-- Warnings -->
+    <string name="warning_root_required">Il telefono deve essere rootato. Premere a lungo questo messaggio per chiuderlo.</string>
+    <string name="warning_low_space">Poco spazio: %s</string>
+
     <!-- List -->
     <string name="list_header_today">Oggi</string>
     <string name="list_header_yesterday">Ieri</string>
@@ -265,6 +269,9 @@
     <string name="pattern_example">Esempio:</string>
 
     <!--Settings -> Interface and Appearance-->
+    
+    
+    
     <string name="language">Lingua</string>
     <string name="select_language">Seleziona lingua</string>
     <string name="default_language">Lingua predefinita</string>
@@ -294,6 +301,8 @@
     <string name="category_main_screen">Schermata principale</string>
     
     
+    <string name="low_space_warning">Avviso spazio in esaurimento</string>
+    <string name="low_space_warning_summary">Imposta limite in megabyte per l\'avviso di spazio in esaurimento</string>
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">Provider Cloud</string>

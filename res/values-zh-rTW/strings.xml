@@ -41,6 +41,10 @@
     <!--Import settings -->
     <string name="restore_settings">恢復設定</string>
 
+    <!-- Warnings -->
+    <string name="warning_root_required">您的手機必須取得ROOT權限。長按此處即可關閉此訊息。</string>
+    <string name="warning_low_space">空間不足： %s</string>
+
     <!-- List -->
     <string name="list_header_today">今天</string>
     <string name="list_header_yesterday">昨天</string>
@@ -265,6 +269,9 @@
     <string name="pattern_example">範例：</string>
 
     <!--Settings -> Interface and Appearance-->
+    
+    
+    
     <string name="language">語言</string>
     <string name="select_language">選擇語言</string>
     <string name="default_language">預設語言</string>
@@ -294,6 +301,8 @@
     <string name="category_main_screen">主畫面</string>
     <string name="hide_starred_recordings">隱藏標記的錄音</string>
     <string name="hide_starred_recordings_summary">在螢幕上不顯示所有標記的錄音檔案</string>
+    <string name="low_space_warning">空間不足警告</string>
+    <string name="low_space_warning_summary">在跳出警告前，設定以MB為單位的最低空間不足門檻</string>
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">雲端服務提供商</string>

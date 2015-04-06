@@ -41,6 +41,10 @@
     <!--Import settings -->
     <string name="restore_settings">Palauta asetukset</string>
 
+    <!-- Warnings -->
+    <string name="warning_root_required">Puhelimesi täytyy olla rootattu. Napauta pitkään poistaaksesi tämän viestin.</string>
+    <string name="warning_low_space">Tila vähissä: %s</string>
+
     <!-- List -->
     <string name="list_header_today">Tänään</string>
     <string name="list_header_yesterday">Eilen</string>
@@ -265,6 +269,9 @@
     <string name="pattern_example">Esimerkki:</string>
 
     <!--Settings -> Interface and Appearance-->
+    
+    
+    
     <string name="language">Kieli</string>
     <string name="select_language">Valitse kieli</string>
     <string name="default_language">Oletus kieli</string>
@@ -294,6 +301,8 @@
     <string name="category_main_screen">Päänäyttö</string>
     
     
+    <string name="low_space_warning">Vähäinen tila varoitus</string>
+    <string name="low_space_warning_summary">Aseta vähäisen tilan varoitusraja megatavuina</string>
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">Pilvipalvelun tarjoaja</string>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">ضبط مکالمات</string>
     <string name="terms_of_use">شرایط استفاده</string>
@@ -39,7 +39,11 @@
     <string name="space_free_of">%1$ خالی از %2$</string>
 
     <!--Import settings -->
-    
+    <string name="restore_settings">تنظیمات بازگردان</string>
+
+    <!-- Warnings -->
+    <string name="warning_root_required">تلفن شما باید روت شده باشد. برای حذف این پیغام را چند ثانیه بفشارید.</string>
+    <string name="warning_low_space">کمبود فضا: %s</string>
 
     <!-- List -->
     <string name="list_header_today">امروز</string>
@@ -109,7 +113,7 @@
     <string name="license_verified_summary">برای مخفی شدن لمس کنید</string>
     <string name="license_help">کمک</string>
     <string name="license_signature_verification_failed">تائید امضا ناموفق بود</string>
-    
+    <string name="license_error_message">خطا #%1$s: %2$s</string>
     <string name="license_trial">نسخه آزمایش در تاریخ %s منقضی خواهد شد</string>
     <string name="license_unknown_error">خطای شناخته نشده</string>
     <string name="license_not_market_managed">این نسخه هنوز در فروشگاه گوگل منشتر نشده است</string>
@@ -216,7 +220,7 @@
     <!-- Settings -> Recording -> Exceptions -->
     <string name="add_exception">افزودن استثنا</string>
     <string name="exception_group">گروه</string>
-    
+    <string name="exception_groups">%d گروه</string>
     <string name="exception_select_group">انتخاب گروه</string>
     <string name="exception_contact">مخاطب</string>
     <string name="exception_select_contact">انتخاب مخاطب</string>
@@ -236,8 +240,8 @@
     <!-- Settings -> Folders and Files -->
     <string name="folder">پوشه</string>
     <string name="folder_chooser_up_to">↑ بالا به %s</string>
-    
-    
+    <string name="create_new_folder">ساخت پوشه جدید…</string>
+    <string name="dialog_title_new_folder">پوشه جدید</string>
     <string name="automatic_cleanup">پاکسازی خودکار</string>
     <string name="max_number_of_files">حداکثر تعداد فایل ها</string>
     <string name="max_number_of_files_message">عددی را وارد کنید (0 تا بی نهایت)</string>
@@ -265,6 +269,9 @@
     <string name="pattern_example">مثال</string>
 
     <!--Settings -> Interface and Appearance-->
+    <string name="theme">پوسته</string>
+    <string name="theme_light">روشن</string>
+    <string name="theme_dark">تیره</string>
     <string name="language">زبان</string>
     <string name="select_language">انتخاب زبان</string>
     <string name="default_language">زبان پیشفرض</string>
@@ -292,8 +299,10 @@
     <string name="long_press_action_dragging_the_button">جابجایی دکمه</string>
     <string name="long_press_action_hang_up">قطع و تماس مجدد بطور خودکار</string>
     <string name="category_main_screen">صفحه ی اصلی</string>
-    
-    
+    <string name="hide_starred_recordings">پنهان سازی مکالمات مورد علاقه</string>
+    <string name="hide_starred_recordings_summary">مکالمات مورد علاقه را در کنار باقی مکالمات نمایش نده</string>
+    <string name="low_space_warning">هشدار کمبود فضا</string>
+    <string name="low_space_warning_summary">تنظیم حداقل فضا قبل از هشدار کمبود فضا برحسب مگابایت</string>
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">ارائه دهنده ی فضای ابری</string>
@@ -383,7 +392,7 @@
     <string name="button_cancel">انصراف</string>
     <string name="button_create">ساخت</string>
     <string name="button_delete">حذف</string>
-    
+    <string name="button_restore">بازگردان</string>
     <string name="button_keep">حفظ</string>
     <string name="button_play">پخش</string>
     <string name="button_pause">توقف</string>
@@ -427,11 +436,11 @@
     <string name="about_many_thanks_summary">Alexey Subbotin (avs234)</string>
 
     <!--About -> Other-->
-    
-    
+    <string name="category_other">دیگر</string>
+    <string name="open_source_licenses">مجوز های متن باز</string>
 
     <!--About -> Translators-->
-    
+    <string name="category_translators">مترجم ها</string>
     <string name="german_translation">ترجمه آلمانی</string>
     <string name="german_translation_summary">Marc Hillesheim و Thomas Käfer</string>
     <string name="polish_translation">ترجمه لهستانی</string>
@@ -506,21 +515,4 @@
     <string name="tamil_translation_summary">Ashish Sharma</string>
     <string name="greek_translation">ترجمه یونانی</string>
     <string name="greek_translation_summary">Lefteris (SomniusX) Eliades</string>
-<string name="restore_settings">تنظیمات بازگردان</string>
-
-    <string name="license_error_message">خطا #%1$s: %2$s</string>
-    <string name="exception_groups">%d گروه</string>
-    <string name="create_new_folder">ساخت پوشه جدید…</string>
-    <string name="dialog_title_new_folder">پوشه جدید</string>
-    <string name="theme">پوسته</string>
-    <string name="theme_light">روشن</string>
-    <string name="theme_dark">تیره</string>
-    <string name="hide_starred_recordings">پنهان سازی مکالمات مورد علاقه</string>
-    <string name="hide_starred_recordings_summary">مکالمات مورد علاقه را در کنار باقی مکالمات نمایش نده</string>
-
-    <string name="button_restore">بازگردان</string>
-    <string name="category_other">دیگر</string>
-    <string name="open_source_licenses">مجوز های متن باز</string>
-
-    <string name="category_translators">مترجم ها</string>
-    </resources>
+</resources>

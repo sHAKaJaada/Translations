@@ -41,6 +41,10 @@
     <!--Import settings -->
     
 
+    <!-- Warnings -->
+    <string name="warning_root_required">Трябва да има root права. Задръжте, за да изчистите съобщението.</string>
+    <string name="warning_low_space">Малко пространство: %s</string>
+
     <!-- List -->
     
     
@@ -265,6 +269,9 @@
     <string name="pattern_example">Пример:</string>
 
     <!--Settings -> Interface and Appearance-->
+    
+    
+    
     <string name="language">Език</string>
     <string name="select_language">Изберете език</string>
     
@@ -294,6 +301,8 @@
     <string name="category_main_screen">Главен екран</string>
     
     
+    <string name="low_space_warning">Известяване при малко пространство</string>
+    <string name="low_space_warning_summary">Предупреждаване за малко простванство в MB</string>
 
     <!-- Settings -> Cloud -->
     

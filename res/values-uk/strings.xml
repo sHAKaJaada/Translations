@@ -41,6 +41,10 @@
     <!--Import settings -->
     
 
+    <!-- Warnings -->
+    <string name="warning_root_required">Ваш телефон повинен мати доступ до кореня. Натисніть і потримайте, аби це повідомлення зникло.</string>
+    <string name="warning_low_space">Бракує місця: %s</string>
+
     <!-- List -->
     <string name="list_header_today">сьогодні</string>
     <string name="list_header_yesterday">вчора</string>
@@ -265,6 +269,9 @@
     <string name="pattern_example">Приклад:</string>
 
     <!--Settings -> Interface and Appearance-->
+    
+    
+    
     <string name="language">Мова</string>
     <string name="select_language">Виберіть мову</string>
     <string name="default_language">Початкова мова</string>
@@ -294,6 +301,8 @@
     <string name="category_main_screen">Головна сторінка</string>
     
     
+    <string name="low_space_warning">Увага, бракує місця</string>
+    <string name="low_space_warning_summary">Встановіть рівень мінімального місця в мегабайтах, після якого вмикатиметься застереження</string>
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">Джерело хмар</string>

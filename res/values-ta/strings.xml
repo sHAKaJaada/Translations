@@ -41,6 +41,10 @@
     <!--Import settings -->
     <string name="restore_settings">அமைப்புகளை மீட்டெடு</string>
 
+    <!-- Warnings -->
+    
+    
+
     <!-- List -->
     <string name="list_header_today">இன்று</string>
     <string name="list_header_yesterday">நேற்று</string>
@@ -265,6 +269,9 @@
     <string name="pattern_example">உதாரணம்:</string>
 
     <!--Settings -> Interface and Appearance-->
+    
+    
+    
     <string name="language">மொழி</string>
     <string name="select_language">தேர்வு மொழி</string>
     <string name="default_language">முன்னிருப்பு மொழி</string>
@@ -294,6 +301,8 @@
     <string name="category_main_screen">முக்கிய திரை</string>
     <string name="hide_starred_recordings">இணைந்து நடித்தனர் பதிவுகளை மறை</string>
     <string name="hide_starred_recordings_summary">அனைத்து பதிவுகள் மூலம் திரையில் இணைந்து நடித்தனர் பதிவுகளை காண்பிக்க</string>
+    
+    
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">மேகம் வழங்குநர்</string>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">Termeni de Utilizare</string>
@@ -39,7 +39,11 @@
     <string name="space_free_of">%1$s liber din %2$s</string>
 
     <!--Import settings -->
-    
+    <string name="restore_settings">Restabilește setările</string>
+
+    <!-- Warnings -->
+    <string name="warning_root_required">Terminalul trebuie să dețină permisiunea de ROOT. Apasă lung aici pentrua ascunde acest mesaj.</string>
+    <string name="warning_low_space">Spațiu redus: %s</string>
 
     <!-- List -->
     <string name="list_header_today">Astăzi</string>
@@ -216,7 +220,7 @@
     <!-- Settings -> Recording -> Exceptions -->
     <string name="add_exception">Adaugă excepție</string>
     <string name="exception_group">Grup</string>
-    
+    <string name="exception_groups">%d grupuri</string>
     <string name="exception_select_group">Selectare grup</string>
     <string name="exception_contact">Contact</string>
     <string name="exception_select_contact">Selectează contact</string>
@@ -236,8 +240,8 @@
     <!-- Settings -> Folders and Files -->
     <string name="folder">Director</string>
     <string name="folder_chooser_up_to">↑ Up to %s</string>
-    
-    
+    <string name="create_new_folder">Creează director nou…</string>
+    <string name="dialog_title_new_folder">Director nou</string>
     <string name="automatic_cleanup">Golire automată</string>
     <string name="max_number_of_files">Numărul maxim de fișiere</string>
     <string name="max_number_of_files_message">Introdu un numar (0 - fără limită)</string>
@@ -265,6 +269,9 @@
     <string name="pattern_example">Exemplu:</string>
 
     <!--Settings -> Interface and Appearance-->
+    <string name="theme">Temă</string>
+    <string name="theme_light">Deschis</string>
+    <string name="theme_dark">Închis</string>
     <string name="language">Limbă</string>
     <string name="select_language">Selectare limbă</string>
     <string name="default_language">Limba implicită</string>
@@ -292,8 +299,10 @@
     <string name="long_press_action_dragging_the_button">Glisarea butonului</string>
     <string name="long_press_action_hang_up">Închide apelul și sună înapoi automat</string>
     <string name="category_main_screen">Ecranul principal</string>
-    
-    
+    <string name="hide_starred_recordings">Ascunde înregistrările cu stea</string>
+    <string name="hide_starred_recordings_summary">Nu arată înregistrările cu stea pe ecran cu toate înregistrările</string>
+    <string name="low_space_warning">Avertizare spațiu redus</string>
+    <string name="low_space_warning_summary">Stabilește un prag minim de spațiu înainte de avertizarea de spațiu redus, în megabytes</string>
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">Furnizor Cloud</string>
@@ -383,7 +392,7 @@
     <string name="button_cancel">Anulează</string>
     <string name="button_create">Creează</string>
     <string name="button_delete">Șterge</string>
-    
+    <string name="button_restore">Restabilire</string>
     <string name="button_keep">Păstrează</string>
     <string name="button_play">Redare</string>
     <string name="button_pause">Pauză</string>
@@ -427,11 +436,11 @@
     <string name="about_many_thanks_summary">către Alexey Subbotin (avs234)</string>
 
     <!--About -> Other-->
-    
-    
+    <string name="category_other">Altele</string>
+    <string name="open_source_licenses">Licențele open source</string>
 
     <!--About -> Translators-->
-    
+    <string name="category_translators">Traducători</string>
     <string name="german_translation">Traducerea în Germană</string>
     <string name="german_translation_summary">de Marc Hillesheim și Thomas Käfer</string>
     <string name="polish_translation">Traducerea în Poloneză</string>
@@ -506,20 +515,4 @@
     <string name="tamil_translation_summary">de Ashish Sharma</string>
     <string name="greek_translation">Traducerea în Greacă</string>
     <string name="greek_translation_summary">de Lefteris (SomniusX) Eliades</string>
-<string name="restore_settings">Restabilește setările</string>
-
-    <string name="exception_groups">%d grupuri</string>
-    <string name="create_new_folder">Creează director nou…</string>
-    <string name="dialog_title_new_folder">Director nou</string>
-    <string name="theme">Temă</string>
-    <string name="theme_light">Deschis</string>
-    <string name="theme_dark">Închis</string>
-    <string name="hide_starred_recordings">Ascunde înregistrările cu stea</string>
-    <string name="hide_starred_recordings_summary">Nu arată înregistrările cu stea pe ecran cu toate înregistrările</string>
-
-    <string name="button_restore">Restabilire</string>
-    <string name="category_other">Altele</string>
-    <string name="open_source_licenses">Licențele open source</string>
-
-    <string name="category_translators">Traducători</string>
-    </resources>
+</resources>

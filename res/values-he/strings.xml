@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">כללי שימוש</string>
@@ -40,6 +40,10 @@
 
     <!--Import settings -->
     <string name="restore_settings">שחזר הגדרות</string>
+
+    <!-- Warnings -->
+    <string name="warning_root_required">הסלולרי שלך חייב להיות לאחר רוט. לחיצה ארוכה לסגירת ההודעה.</string>
+    <string name="warning_low_space">זיכרון מוגבל: %s</string>
 
     <!-- List -->
     <string name="list_header_today">היום</string>
@@ -265,6 +269,9 @@
     <string name="pattern_example">דוגמא:</string>
 
     <!--Settings -> Interface and Appearance-->
+    <string name="theme">ערכת נושא</string>
+    <string name="theme_light">בהיר</string>
+    <string name="theme_dark">כהה</string>
     <string name="language">שפה</string>
     <string name="select_language">בחר שפה</string>
     <string name="default_language">שפת ברירת המחדל</string>
@@ -294,6 +301,8 @@
     <string name="category_main_screen">מסך ראשי</string>
     <string name="hide_starred_recordings">הסתר הקלטות מסומנות בכוכב</string>
     <string name="hide_starred_recordings_summary">אל תציד הקלטות מסומנות בכוכב עם שאר ההקלטות</string>
+    <string name="low_space_warning">התרעת זיכרון מוגבל</string>
+    <string name="low_space_warning_summary">קבע ערך סף במגהבייטים להתרעת זיכרון מוגבל</string>
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">ספק ענן</string>
@@ -506,7 +515,4 @@
     <string name="tamil_translation_summary">ע"י Ashish Sharma</string>
     <string name="greek_translation">תרגום ליוונית</string>
     <string name="greek_translation_summary">ע"י Lefteris (SomniusX) Eliades</string>
-<string name="theme">ערכת נושא</string>
-    <string name="theme_light">בהיר</string>
-    <string name="theme_dark">כהה</string>
-    </resources>
+</resources>

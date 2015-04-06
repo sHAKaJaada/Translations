@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">ਕਾਲ ਰਿਕਾਰਡਰ</string>
     <string name="terms_of_use">ਵਰਤੋ ਦੀਆਂ ਸ਼ਰਤਾਂ</string>
@@ -41,12 +41,16 @@
     <!--Import settings -->
     <string name="restore_settings">ਸੈਟਿੰਗ ਮੁੜ ਬਹਾਲ ਕਰੋ</string>
 
+    <!-- Warnings -->
+    
+    
+
     <!-- List -->
     <string name="list_header_today">ਅੱਜ</string>
     <string name="list_header_yesterday">ਕਲ ਜੋ ਨਿਕਲ ਗਿਆ</string>
     <string name="queued">ਕਤਾਰਬੱਧ</string>
     <string name="no_connection">ਕੋਈ ਇੰਟਰਨੈੱਟ ਨਹੀਂ ਹੈ</string>
-    
+    <string name="add_to_contacts">ਸੰਪਰਕ ਸੂਚੀ ਵਿਚ ਸ਼ਾਮਿਲ ਕਰੋ</string>
 
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">Dropbox ਵਿਚ ਜਮਾ ਕਰੋ</string>
@@ -216,7 +220,7 @@
     <!-- Settings -> Recording -> Exceptions -->
     <string name="add_exception">ਅਪਵਾਦ ਸ਼ਾਮਲ ਕਰੋ</string>
     <string name="exception_group">ਗਰੁੱਪ</string>
-    
+    <string name="exception_groups">%d ਗਰੁੱਪ</string>
     <string name="exception_select_group">ਗਰੁੱਪ ਚੁਣੋ</string>
     <string name="exception_contact">ਸੰਪਰਕ</string>
     <string name="exception_select_contact">ਸੰਪਰਕ ਚੁਣੋ</string>
@@ -265,6 +269,9 @@
     <string name="pattern_example">ਉਦਾਹਰਨ:</string>
 
     <!--Settings -> Interface and Appearance-->
+    <string name="theme">ਥੀਮ</string>
+    <string name="theme_light">ਹਲਕਾ</string>
+    <string name="theme_dark">ਗਾਢ਼ਾ</string>
     <string name="language">ਭਾਸ਼ਾ</string>
     <string name="select_language">ਭਾਸ਼ਾ ਚੁਣੋ</string>
     <string name="default_language">ਮੂਲ ਭਾਸ਼ਾ</string>
@@ -294,6 +301,8 @@
     <string name="category_main_screen">ਮੁੱਖ ਸਕਰੀਨ</string>
     <string name="hide_starred_recordings">ਤਾਰਾਬੱਧ ਰਿਕਾਰਡਿੰਗ ਲੁਕੋਵੋ</string>
     <string name="hide_starred_recordings_summary">ਤਾਰਾਬੱਧ ਰਿਕਾਰਡਿੰਗ ਦੇ ਨਾਲ ਸਾਰੀਆ ਰਿਕਾਰਡਿੰਗ ਨੂ ਨਾ ਦਿਖਾਉ</string>
+    
+    
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">Cloud ਪ੍ਰਦਾਤਾ</string>
@@ -506,10 +515,4 @@
     <string name="tamil_translation_summary">Ashish Sharma ਆਸ਼ੀਸ਼ ਸ਼ਰਮਾ ਦੁਆਰਾ</string>
     <string name="greek_translation">ਯੂਨਾਨੀ ਭਾਸ਼ਾ ਵਿਚ ਤਰਜਮਾ</string>
     <string name="greek_translation_summary">ਦੁਆਰਾ Lefteris (SomniusX) Eliades</string>
-<string name="add_to_contacts">ਸੰਪਰਕ ਸੂਚੀ ਵਿਚ ਸ਼ਾਮਿਲ ਕਰੋ</string>
-
-    <string name="exception_groups">%d ਗਰੁੱਪ</string>
-    <string name="theme">ਥੀਮ</string>
-    <string name="theme_light">ਹਲਕਾ</string>
-    <string name="theme_dark">ਗਾਢ਼ਾ</string>
-    </resources>
+</resources>

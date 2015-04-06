@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">Podmínky používání</string>
@@ -40,6 +40,10 @@
 
     <!--Import settings -->
     <string name="restore_settings">Obnovit nastavení</string>
+
+    <!-- Warnings -->
+    <string name="warning_root_required">Tvůj telefon musí být ROOTnutý. Dlouhým stiskem zavřeš tuto zprávu.</string>
+    <string name="warning_low_space">Málo místa: %s</string>
 
     <!-- List -->
     <string name="list_header_today">Dnes</string>
@@ -265,6 +269,9 @@
     <string name="pattern_example">Příklad:</string>
 
     <!--Settings -> Interface and Appearance-->
+    <string name="theme">Motiv</string>
+    <string name="theme_light">Světlý</string>
+    <string name="theme_dark">Tmavý</string>
     <string name="language">Jazyk</string>
     <string name="select_language">Vybrat jazyk</string>
     <string name="default_language">Výchozí jazyk</string>
@@ -294,6 +301,8 @@
     <string name="category_main_screen">Hlavní obrazovka</string>
     <string name="hide_starred_recordings">Skrýt oblíbené nahrávky</string>
     <string name="hide_starred_recordings_summary">Nezobrazovat oblíbené nahrávky při zobrazení všech nahrávek</string>
+    <string name="low_space_warning">Upozornění na málo místa</string>
+    <string name="low_space_warning_summary">Nastavit limit nedostatku místa v MB pro upozornění</string>
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">Poskytovatel cloudu</string>
@@ -506,7 +515,4 @@
     <string name="tamil_translation_summary">Ashish Sharma</string>
     <string name="greek_translation">Řečtina překlad</string>
     <string name="greek_translation_summary">Lefteris (SomniusX) Eliades</string>
-<string name="theme_light">Světlý</string>
-    <string name="theme_dark">Tmavý</string>
-    <string name="theme">Motiv</string>
-    </resources>
+</resources>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Call Recοrder</string>
     <string name="terms_of_use">Όροι Χρήσης</string>
@@ -41,12 +41,16 @@
     <!--Import settings -->
     <string name="restore_settings">Επαναφορά ρυθμίσεων</string>
 
+    <!-- Warnings -->
+    
+    
+
     <!-- List -->
     <string name="list_header_today">Σήμερα</string>
     <string name="list_header_yesterday">Χθές</string>
     <string name="queued">Στην ουρά</string>
     <string name="no_connection">Χωρίς σύνδεση</string>
-    
+    <string name="add_to_contacts">Προσθήκη στις επαφές</string>
 
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">Προσθήκη στο Dropbox</string>
@@ -265,6 +269,9 @@
     <string name="pattern_example">Παράδειγμα:</string>
 
     <!--Settings -> Interface and Appearance-->
+    <string name="theme">Θέμα</string>
+    <string name="theme_light">Φωτεινό</string>
+    <string name="theme_dark">Σκοτεινό</string>
     <string name="language">Γλώσσα</string>
     <string name="select_language">Επιλογή γλώσσας</string>
     <string name="default_language">Προκαθορισμένη γλώσσα</string>
@@ -294,6 +301,8 @@
     <string name="category_main_screen">Κεντρική οθόνη</string>
     <string name="hide_starred_recordings">Απόκρυψη καταγραφών με αστέρι</string>
     <string name="hide_starred_recordings_summary">Οι καταγραφές με αστέρι δεν θα εμφανίζονται στη λίστα των όλων των καταγραφών</string>
+    
+    
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">Πάροχος cloud</string>
@@ -506,9 +515,4 @@
     <string name="tamil_translation_summary">από Ashish Sharma</string>
     <string name="greek_translation">Ελληνική μετάφραση</string>
     <string name="greek_translation_summary">από Λευτέρης (SomniusX) Ηλιάδης</string>
-<string name="add_to_contacts">Προσθήκη στις επαφές</string>
-
-    <string name="theme">Θέμα</string>
-    <string name="theme_light">Φωτεινό</string>
-    <string name="theme_dark">Σκοτεινό</string>
-    </resources>
+</resources>

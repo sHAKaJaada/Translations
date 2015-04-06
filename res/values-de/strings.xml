@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">Nutzungsbedingungen</string>
@@ -40,6 +40,10 @@
 
     <!--Import settings -->
     <string name="restore_settings">Einstellungen wiederherstellen</string>
+
+    <!-- Warnings -->
+    <string name="warning_root_required">Ihr Telefon muss gerootet sein. Tippen und halten um diese Nachricht zu verwerfen.</string>
+    <string name="warning_low_space">Wenig Speicherplatz: %s</string>
 
     <!-- List -->
     <string name="list_header_today">Heute</string>
@@ -265,6 +269,9 @@
     <string name="pattern_example">Beispiel:</string>
 
     <!--Settings -> Interface and Appearance-->
+    <string name="theme">Theme</string>
+    <string name="theme_light">Hell</string>
+    <string name="theme_dark">Dunkel</string>
     <string name="language">Sprache</string>
     <string name="select_language">Sprache wählen</string>
     <string name="default_language">Standardsprache</string>
@@ -294,6 +301,8 @@
     <string name="category_main_screen">Startbildschirm</string>
     <string name="hide_starred_recordings">Mit Stern markierte Aufnahmen ausblenden</string>
     <string name="hide_starred_recordings_summary">Blende mit Stern markierte Ausfnahmen auf der \'Alle Aufnahmen\' Seite aus</string>
+    <string name="low_space_warning">Speicherplatzwarnung</string>
+    <string name="low_space_warning_summary">Definiert die Grenze in MB bevor eine Warnung ausgegben wird</string>
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">Cloud-Anbieter</string>
@@ -506,7 +515,4 @@
     <string name="tamil_translation_summary">von Ashish Sharma</string>
     <string name="greek_translation">Griechische Übersetzung</string>
     <string name="greek_translation_summary">von Lefteris (SomniusX) Eliades</string>
-<string name="theme_light">Hell</string>
-    <string name="theme_dark">Dunkel</string>
-    <string name="theme">Theme</string>
-    </resources>
+</resources>

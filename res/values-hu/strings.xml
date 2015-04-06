@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Call Recorder</string>
     <string name="terms_of_use">Felhasználási feltételek</string>
@@ -40,6 +40,10 @@
 
     <!--Import settings -->
     <string name="restore_settings">Beállítások visszaállítása</string>
+
+    <!-- Warnings -->
+    <string name="warning_root_required">A telefonnak rootolva kell lenni. Hosszú érintéssel átugorható ez az üzenetet.</string>
+    <string name="warning_low_space">Szabad hely: %s</string>
 
     <!-- List -->
     <string name="list_header_today">Ma</string>
@@ -265,6 +269,9 @@
     <string name="pattern_example">Például:</string>
 
     <!--Settings -> Interface and Appearance-->
+    <string name="theme">Téma</string>
+    <string name="theme_light">Világos</string>
+    <string name="theme_dark">Sötét</string>
     <string name="language">Nyelv</string>
     <string name="select_language">Nyelv kiválasztása</string>
     <string name="default_language">Alapértelmezett nyelv</string>
@@ -294,6 +301,8 @@
     <string name="category_main_screen">Főképernyő</string>
     <string name="hide_starred_recordings">Csillaggal jelölt felvételek elrejtése</string>
     <string name="hide_starred_recordings_summary">Nem mutatja a csillaggal jelölt felvételeket a képernyőn az összes felvételnél</string>
+    <string name="low_space_warning">Kevés szabad hely figyelmeztetés</string>
+    <string name="low_space_warning_summary">Állítsa be a kevés szabad hely figyelmeztetési korlátot megabájtban</string>
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">Felhő szolgáltató</string>
@@ -506,7 +515,4 @@
     <string name="tamil_translation_summary">Ashish Sharma</string>
     <string name="greek_translation">Görög fordítás</string>
     <string name="greek_translation_summary">Lefteris (SomniusX) Eliades</string>
-<string name="theme">Téma</string>
-    <string name="theme_light">Világos</string>
-    <string name="theme_dark">Sötét</string>
-    </resources>
+</resources>

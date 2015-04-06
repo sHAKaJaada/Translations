@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Call Recorder</string>
     <string name="terms_of_use">Kullanım Şartları</string>
@@ -40,6 +40,10 @@
 
     <!--Import settings -->
     <string name="restore_settings">Ayarları geri yükle</string>
+
+    <!-- Warnings -->
+    <string name="warning_root_required">Telefonunuz rootlu olmalıdır. Mesajı gizlemek için uzunca dokunun</string>
+    <string name="warning_low_space">Düşük disk alanı: %s</string>
 
     <!-- List -->
     <string name="list_header_today">Bugün</string>
@@ -265,6 +269,9 @@
     <string name="pattern_example">Örnek:</string>
 
     <!--Settings -> Interface and Appearance-->
+    <string name="theme">Tema</string>
+    <string name="theme_light">Açık</string>
+    <string name="theme_dark">Koyu</string>
     <string name="language">Dil</string>
     <string name="select_language">Dil seçimiz</string>
     <string name="default_language">Varsayılan dil</string>
@@ -294,6 +301,8 @@
     <string name="category_main_screen">Ana Ekran</string>
     <string name="hide_starred_recordings">Yıldızlı kayıtları gizle</string>
     <string name="hide_starred_recordings_summary">Tüm kayıtlar ile birlikte yıldızlı kayıtları gösterme</string>
+    <string name="low_space_warning">Düşük disk alanı uyarısı</string>
+    <string name="low_space_warning_summary">Uyarı vermeden önce megabyte olarak disk alanı sınırı</string>
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">Bulut sağlayıcısı</string>
@@ -506,7 +515,4 @@
     <string name="tamil_translation_summary">Ashish Sharma tarafından</string>
     <string name="greek_translation">Yunanca çeviri</string>
     <string name="greek_translation_summary">Lefteris (SomniusX) Eliades tarafından</string>
-<string name="theme">Tema</string>
-    <string name="theme_light">Açık</string>
-    <string name="theme_dark">Koyu</string>
-    </resources>
+</resources>

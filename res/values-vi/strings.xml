@@ -41,6 +41,10 @@
     <!--Import settings -->
     
 
+    <!-- Warnings -->
+    <string name="warning_root_required">Điện thoại của bạn phải được Root. Nhấn một lúc để bỏ tin nhắn này.</string>
+    <string name="warning_low_space">Dung lượng trống thấp %s</string>
+
     <!-- List -->
     
     
@@ -265,6 +269,9 @@
     <string name="pattern_example">Ví dụ:</string>
 
     <!--Settings -> Interface and Appearance-->
+    
+    
+    
     <string name="language">Ngôn ngữ</string>
     <string name="select_language">Chọn ngôn ngữ</string>
     
@@ -294,6 +301,8 @@
     <string name="category_main_screen">Màn hình chính</string>
     
     
+    <string name="low_space_warning">Cảnh báo dung lượng trống còn thấp</string>
+    <string name="low_space_warning_summary">Đặt mức Cảnh báo dung lượng trống còn thấp theo MB</string>
 
     <!-- Settings -> Cloud -->
     

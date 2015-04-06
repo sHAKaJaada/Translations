@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">利用規約</string>
@@ -40,6 +40,10 @@
 
     <!--Import settings -->
     <string name="restore_settings">設定の復元</string>
+
+    <!-- Warnings -->
+    <string name="warning_root_required">この端末で動作させるためにはrootを取得しなくてはなりません。このメッセージを消去するには長押しして下さい。</string>
+    <string name="warning_low_space">空き容量不足: %s</string>
 
     <!-- List -->
     <string name="list_header_today">今日</string>
@@ -265,6 +269,9 @@
     <string name="pattern_example">例:</string>
 
     <!--Settings -> Interface and Appearance-->
+    <string name="theme">テーマ</string>
+    <string name="theme_light">ライト</string>
+    <string name="theme_dark">ダーク</string>
     <string name="language">言語</string>
     <string name="select_language">言語の選択</string>
     <string name="default_language">規定の言語</string>
@@ -294,6 +301,8 @@
     <string name="category_main_screen">メイン画面</string>
     <string name="hide_starred_recordings">お気に入りの録音を隠す</string>
     <string name="hide_starred_recordings_summary">全録音の画面ではお気に入りの録音を表示しません</string>
+    <string name="low_space_warning">空き容量の警告</string>
+    <string name="low_space_warning_summary">警告する前の最小容量のしきい値をメガバイト単位で設定します</string>
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">クラウドプロバイダ</string>
@@ -506,7 +515,4 @@
     <string name="tamil_translation_summary">Ashish Sharma</string>
     <string name="greek_translation">ギリシャ語の翻訳</string>
     <string name="greek_translation_summary">Lefteris (SomniusX) Eliades</string>
-<string name="theme">テーマ</string>
-    <string name="theme_light">ライト</string>
-    <string name="theme_dark">ダーク</string>
-    </resources>
+</resources>

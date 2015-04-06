@@ -41,6 +41,10 @@
     <!--Import settings -->
     <string name="restore_settings">Restore settings</string>
 
+    <!-- Warnings -->
+    <string name="warning_root_required">Your phone must be rooted. Long tap to dismiss this message.</string>
+    <string name="warning_low_space">Low space: %s</string>
+
     <!-- List -->
     <string name="list_header_today">Today</string>
     <string name="list_header_yesterday">Yesterday</string>
@@ -297,6 +301,8 @@
     <string name="category_main_screen">Main screen</string>
     <string name="hide_starred_recordings">Hide starred recordings</string>
     <string name="hide_starred_recordings_summary">Don\'t show starred recordings on screen with all recordings</string>
+    <string name="low_space_warning">Low space warning</string>
+    <string name="low_space_warning_summary">Set low space warning limit in megabytes</string>
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">Cloud provider</string>
