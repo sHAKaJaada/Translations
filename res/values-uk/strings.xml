@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">Умови використання</string>
@@ -515,4 +515,21 @@
     <string name="tamil_translation_summary">завдяки Ashish Sharma</string>
     <string name="greek_translation">Переклад на грецьку</string>
     <string name="greek_translation_summary">завдяки Lefteris (SomniusX) Eliades</string>
-</resources>
+<string name="restore_settings">Відновити налаштування</string>
+
+    <string name="exception_groups">%d груп</string>
+    <string name="create_new_folder">Створити нову теку …</string>
+    <string name="dialog_title_new_folder">Нова тека</string>
+    <string name="theme">Тема</string>
+    <string name="theme_light">Світла</string>
+    <string name="theme_dark">Темна</string>
+    <string name="hide_starred_recordings">Заховати вибрані записи</string>
+    <string name="hide_starred_recordings_summary">Не показувати вибрані записи на екрані зі всіма</string>
+    <string name="button_restore">Відновити</string>
+    <string name="category_other">Інше</string>
+    <string name="open_source_licenses">Відкрита ліцензія</string>
+
+    <string name="category_translators">Перекладачі</string>
+    <string name="volume_control_tx">Tx</string>
+    <string name="volume_control_rx">Rx</string>
+    </resources>
