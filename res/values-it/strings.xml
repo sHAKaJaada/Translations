@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">Condizioni d\'uso</string>
@@ -515,4 +515,19 @@
     <string name="tamil_translation_summary">di Ashish Sharma</string>
     <string name="greek_translation">Traduzione greca</string>
     <string name="greek_translation_summary">di Lefteris (SomniusX) Eliades</string>
-</resources>
+<string name="restore_settings">Ripristina impostazioni</string>
+
+    <string name="exception_groups">%d gruppi</string>
+    <string name="create_new_folder">Crea nuova cartella…</string>
+    <string name="dialog_title_new_folder">Nuova cartella</string>
+    <string name="theme">Tema</string>
+    <string name="theme_light">Chiaro</string>
+    <string name="theme_dark">Scuro</string>
+    <string name="hide_starred_recordings">Nascondi registrazioni preferite</string>
+    <string name="hide_starred_recordings_summary">Non mostrare registrazioni preferite sulla schermata con tutte le registrazioni</string>
+    <string name="button_restore">Ripristina</string>
+    <string name="category_other">Altro</string>
+    <string name="open_source_licenses">Licenze open source</string>
+
+    <string name="category_translators">Traduttori</string>
+    </resources>
