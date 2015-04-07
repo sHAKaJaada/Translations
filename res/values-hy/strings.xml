@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">Զանգերի ձայնագրիչ</string>
     <string name="terms_of_use">Օգտագործման պայմաններ</string>
@@ -515,4 +515,15 @@
     <string name="tamil_translation_summary">Ashish Sharma-ի</string>
     <string name="greek_translation">Հունարեն թարգմանությունը</string>
     <string name="greek_translation_summary">Lefteris (SomniusX) Eliades-ի</string>
-</resources>
+<string name="warning_root_required">Ձեր հեռախոսը պետք է Ռութ արված լինի: Երկար սեղմեք հաղորդագրությունը թաքցնելու համար:</string>
+    <string name="warning_low_space">Հիշողությունը քիչ է %s</string>
+
+    <string name="add_to_contacts">Ավելացնել Կոնտակտներում</string>
+
+    <string name="theme">Տեսքը</string>
+    <string name="theme_light">Լուսավոր</string>
+    <string name="theme_dark">Մուգ</string>
+    <string name="low_space_warning">Զգուշացում սպառվող հիշողության մասին</string>
+    <string name="low_space_warning_summary">Գրանցել մինիմալ հիշողության սանդղակը զգուշացնելու համար մեգաբայտերով</string>
+
+    </resources>
