@@ -193,7 +193,7 @@
     <string name="api_source_voice_communication">Comunicazione vocale</string>
     <string name="category_wav_settings">Impostazioni WAV</string>
     <string name="category_wav_and_mp3_settings">Impostazioni WAV e MP3</string>
-    <string name="when_bt_connected">Quando BT è connesso...</string>
+    <string name="when_bt_connected">Quando BT è connesso…</string>
     <string name="audio_source_when_bt_connected">Sorgente audio con BT connesso</string>
 
     <!-- Actions when BT connected -->
@@ -472,7 +472,7 @@
     <string name="turkish_translation">Traduzione turca</string>
     <string name="turkish_translation_summary">di Omer Ilik</string>
     <string name="serbian_translation">Traduzione serba</string>
-    <string name="serbian_translation_summary">di sHAKaJaada</string>
+    <string name="serbian_translation_summary">di sHAKaJaada™</string>
     <string name="korean_translation">Traduzione coreana</string>
     <string name="korean_translation_summary">di SoHyunSeop e Joon Hee Jo</string>
     <string name="romanian_translation">Traduzione rumena</string>
@@ -524,7 +524,7 @@
     <string name="theme_light">Chiaro</string>
     <string name="theme_dark">Scuro</string>
     <string name="hide_starred_recordings">Nascondi registrazioni preferite</string>
-    <string name="hide_starred_recordings_summary">Non mostrare registrazioni preferite sulla schermata con tutte le registrazioni</string>
+    <string name="hide_starred_recordings_summary">Escludi i preferiti dall\'elenco di tutte le registrazioni</string>
     <string name="button_restore">Ripristina</string>
     <string name="category_other">Altro</string>
     <string name="open_source_licenses">Licenze open source</string>
