@@ -17,7 +17,7 @@
     <string name="section_by_format">Per formato</string>
     <string name="section_by_label">Per etichetta</string>
     <string name="section_help">Aiuto</string>
-    <string name="section_tasks">Attvità</string>
+    <string name="section_tasks">Attività</string>
     <string name="section_tasks_hint">Le operazioni sulle registrazioni che richiedono tempo, come la conversione, la cifratura o il caricamento su cloud saranno visualizzate qui</string>
     <string name="empty_hint">Vuoto</string>
 
