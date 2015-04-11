@@ -175,7 +175,7 @@
     <string name="volume_control_summary">傳出: %1$s, 接受: %2$s</string>
     <string name="volume_control_overall">整體音量</string>
     <string name="volume_control_tx">傳出</string>
-    <string name="volume_control_rx">接受</string>
+    <string name="volume_control_rx">接收</string>
     <string name="sample_rate_8000">8000 赫茲 (預設)</string>
     <string name="sample_rate_11025">11025 赫茲</string>
     <string name="sample_rate_16000">16000 赫茲</string>
