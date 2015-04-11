@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">通話錄音</string>
     <string name="terms_of_use">使用條款</string>
@@ -472,7 +472,7 @@
     <string name="turkish_translation">土耳其語</string>
     <string name="turkish_translation_summary">由 Omer Ilik 翻譯</string>
     <string name="serbian_translation">塞爾維亞語</string>
-    <string name="serbian_translation_summary">由 sHAKaJaada 翻譯</string>
+    <string name="serbian_translation_summary">由 sHAKaJaada™翻譯</string>
     <string name="korean_translation">韓語</string>
     <string name="korean_translation_summary">由 SoHyunSeop 與 Joon Hee Jo 翻譯</string>
     <string name="romanian_translation">羅馬尼亞語</string>
@@ -515,4 +515,7 @@
     <string name="tamil_translation_summary">由 Ashish Sharma 翻譯</string>
     <string name="greek_translation">希臘語翻譯</string>
     <string name="greek_translation_summary">由 Lefteris (SomniusX) Eliades 翻譯</string>
-</resources>
+<string name="theme">主題</string>
+    <string name="theme_light">亮</string>
+    <string name="theme_dark">暗</string>
+    </resources>
