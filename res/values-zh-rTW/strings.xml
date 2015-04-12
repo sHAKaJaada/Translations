@@ -172,7 +172,7 @@
     <string name="recording_format_aac">AAC</string>
     <string name="recording_format_mp3">MP3</string>
     <string name="volume_control">音量控制</string>
-    <string name="volume_control_summary">傳出: %1$s, 接受: %2$s</string>
+    <string name="volume_control_summary">傳出: %1$s, 接收: %2$s</string>
     <string name="volume_control_overall">整體音量</string>
     <string name="volume_control_tx">傳出</string>
     <string name="volume_control_rx">接收</string>
