@@ -159,7 +159,7 @@
     <string name="exceptions">Izņēmumi</string>
     <string name="exceptions_summary">Iestatīt noteiktas darbības priekš kontaktiem, grupām vai telefona numuriem</string>
     <string name="start_recording_on_answer">Atbildot, sākt ierakstīšanu</string>
-    <string name="start_recording_on_answer_summary">Sākt ierakstīšanu izejošajam zvanam kad tiek atbildēts. Aplikācija izmanto nereģistrētu darbību lai konstatētu brīdi, kad otra puse atbildēs. Tāpēc šī funkcija var nedarboties dažās ierīcēs. "Root"ir nepieciešama, kopš Android 4.1 Jelly Bean. "Logger" priekš kodola ir jābūt aktivizētam.</string>
+    <string name="start_recording_on_answer_summary">Sākt ierakstīšanu izejošajam zvanam kad tiek atbildēts. Aplikācija izmanto nereģistrētu darbību lai konstatētu brīdi, kad otra puse atbildēs. Tāpēc šī funkcija var nedarboties dažās ierīcēs. Root ir nepieciešama, kopš Android 4.1 Jelly Bean. Logger priekš kodola ir jābūt aktivizētam.</string>
     <string name="delay_before_start_recording">Aizkave pirms sākt ierakstu</string>
     <string name="delay_before_start_recording_summary">Priekš izejošajiem: %1$s, priekš ienākošajiem: %2$s</string>
     <string name="delay_format_sec">%s sek</string>
@@ -243,11 +243,11 @@
     
     
     <string name="automatic_cleanup">Automātiska tīrīšana</string>
-    <string name="max_number_of_files">Maks. failu skaits</string>
+    <string name="max_number_of_files">Makimalāis failu skaits</string>
     <string name="max_number_of_files_message">Ievadiet skaitu (0 - bez ierobežojuma)</string>
-    <string name="max_total_size_of_files">Maks. kopējais failu izmērs</string>
+    <string name="max_total_size_of_files">Maksimālais kopējais failu izmērs</string>
     <string name="max_total_size_of_files_message">Ievadiet vērtību megabaitos (0 - bez ierobežojuma)</string>
-    <string name="max_age_of_recordings">Maks. ierakstu vecums</string>
+    <string name="max_age_of_recordings">Maksimālais ierakstu vecums</string>
     <string name="max_age_of_recordings_message">Ievadiet vērtību dienās (0 - bez ierobežojuma)</string>
     <string name="current_setting">Pašreizējais iestatījums: %s</string>
     <string name="settings_filename">Faila nosaukums</string>
@@ -335,7 +335,7 @@
     <string name="category_encryption">Šifrēšana</string>
     <string name="category_application">Aplikācija</string>
     <string name="create_new_key">Izveidot jaunu atslēgu</string>
-    <string name="create_new_key_summary">Šī atslēga tiks izmantota vēlāk lai šifrētu ierakstus vai ienākt aplikācijā</string>
+    <string name="create_new_key_summary">Šī atslēga tiks izmantota vēlāk lai šifrētu ierakstus vai ienāktu aplikācijā</string>
     <string name="delete_key">Dzēst atslēgu</string>
     <string name="change_password">Nomainīt paroli</string>
     <string name="delete_key_summary">Uzmanību! Jūs nekad nespēsiet atgūt šifrētus ierakstus, ja esat šifrējis tos ar šo atslēgu, pat ja jūs izveidojat jaunu atslēgu ar tādu pašu paroli</string>
@@ -345,7 +345,7 @@
     <string name="re_enter_new_password">Vēlreiz ievadīt jauno paroli</string>
     <string name="require_password">Pieprasīt paroli</string>
     <string name="require_password_summary">Pieprasīt paroli, lai atvērtu lietotni</string>
-    <string name="require_password_summary_no_key">Pieprasīt paroli, lai atvērtu lietotni. Lai tas būtu iespējams, jums vajadzētu,pirmkārt, izveidot atslēgu</string>
+    <string name="require_password_summary_no_key">Pieprasīt paroli, lai atvērtu lietotni. Lai tas būtu iespējams, jums vajadzētu, pirmkārt, izveidot atslēgu</string>
     <string name="lock_after">Pēc tam aizslēgt</string>
     <string name="lock_after_exit">Iziet</string>
     <string name="lock_after_1_minute">1 min</string>
@@ -362,7 +362,7 @@
     <!-- Settings -> Audio player -->
     <string name="use_built_in_player">Izmantot iebūvēto atskaņotāju</string>
     <string name="audio_output">Audio izeja</string>
-    <string name="audio_output_summary">%s (Ilgs pieskariens atskaņošanas / pauzes pogai to pārslēgs)</string>
+    <string name="audio_output_summary">%s (Ilgs pieskāriens atskaņošanas / pauzes pogai to pārslēgs)</string>
     <string name="main_speaker">Galvenais skaļrunis</string>
     <string name="phone_speaker">Tālruņa skaļrunis</string>
     <string name="use_proximity_sensor">Izmantot tuvuma sensoru</string>
