@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">CallRecorder</string>
     
@@ -60,7 +60,7 @@
     
     
     
-    <string name="menu_get_info">Obetener información</string>
+    <string name="menu_get_info">Obtener información</string>
     
     <string name="menu_encrypt">Encriptar</string>
     <string name="menu_decrypt">Desencriptar</string>
@@ -515,4 +515,61 @@
     
     
     
-</resources>
+<string name="terms_of_use">Condiciones de Uso</string>
+    <string name="navigation_drawer_close">Cerrar menú lateral</string>
+
+    <string name="navigation_drawer_open">Abrir un menú lateral</string>
+    <string name="terms_of_use_message">Al usar la aplicación, usted acepta las &lt;a href=http://rec.sh/terms&gt; Condiciones de Uso&lt;/a&gt; de CallRecorder.</string>
+
+    <string name="section_all_recordings">Todas las grabaciones</string>
+    <string name="section_starred">Marcado</string>
+    <string name="section_by_contact">Por contacto</string>
+    <string name="section_by_format">Por formato</string>
+    <string name="section_by_label">Por etiqueta</string>
+    <string name="action_sort">Ordenar</string>
+    <string name="action_refresh">Actualizar</string>
+    <string name="action_delete">Borrar</string>
+    <string name="action_add_star">Agregar marca</string>
+    <string name="action_remove_star">Quitar marca</string>
+    <string name="action_share">Compartir</string>
+    <string name="action_cancel_tasks">Cancelar tareas</string>
+    <string name="sort_by_date">Por fecha</string>
+    <string name="sort_by_contact">Por contacto</string>
+    <string name="sort_by_file_size">Por tamaño del archivo</string>
+    <string name="records_size">grabaciones: %1$s, tamaño: %2$s</string>
+    <string name="space_free_of">%1$s libre de %2$s</string>
+
+    <string name="restore_settings">Restaurar configuraciones</string>
+
+    <string name="list_header_today">Hoy</string>
+    <string name="list_header_yesterday">Ayer</string>
+    <string name="queued">Encolada</string>
+    <string name="no_connection">Sin conexión</string>
+    <string name="menu_add_note">Agregar nota</string>
+    <string name="menu_edit_note">Editar nota</string>
+    <string name="menu_share">Compartir</string>
+    <string name="menu_convert_to_mp3">Convertir a MP3</string>
+    <string name="menu_convert_to_amr">Convertir a AMR</string>
+    <string name="menu_cancel_task">Cancelar tarea</string>
+    <string name="recording_type">Tipo de grabación</string>
+    <string name="recording_type_mono">Mono</string>
+    <string name="recording_type_stereo">Estéreo</string>
+    <string name="note">Nota</string>
+
+    <string name="confirm_delete_several_title">Confirmar el borrado</string>
+    <string name="confirm_delete_several_message">Usted ha seleccionado %d grabaciones. Está seguro que desea eliminarlas?</string>
+
+    <string name="share_via">Compartir vía</string>
+    <string name="settings_open_unlocker">Abrir desbloqueador</string>
+    <string name="settings_cloud">Nube</string>
+    <string name="license_check_pending">Verificación de licencia pendiente</string>
+    <string name="license_check_failed">Fallo en la verificación de licencia</string>
+    <string name="license_check_failed_summary">Presione aquí para más detalles</string>
+    <string name="license_verified">Licencia verificada</string>
+    <string name="license_verified_summary">Presione para ocultar</string>
+    <string name="license_help">Ayuda</string>
+    <string name="license_error_message">Error #%1$s: %2$s</string>
+    <string name="license_signature_verification_failed">Verificación de firma fallida</string>
+    <string name="license_unknown_error">Error desconocido</string>
+    <string name="license_not_market_managed">Esta versión aún no fue publicada a través de Play Store</string>
+    </resources>
