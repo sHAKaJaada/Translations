@@ -48,7 +48,7 @@
     <!-- List -->
     <string name="list_header_today">今天</string>
     <string name="list_header_yesterday">昨天</string>
-    <string name="queued">排队</string>
+    <string name="queued">列队中</string>
     <string name="no_connection">无连接</string>
     <string name="add_to_contacts">添加到联系人</string>
 
