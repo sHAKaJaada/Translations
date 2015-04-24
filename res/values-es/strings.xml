@@ -586,7 +586,7 @@
     <string name="recording_method_msm_settings">Configuraciones para el método de grabación MSM</string>
     <string name="exceptions_summary">Configure acciones específicas para contactos, grupos o números de teléfono</string>
     <string name="start_recording_on_answer">Iniciar la grabación al atender</string>
-    <string name="start_recording_on_answer_summary">"Iniciar la grabación cuando nuestras llamadas son atendidas. La aplicación utiliza una solución alternativa para detectar el momento en que desde el otro lado responden nuestras llamadas, por tanto, esta opción puede no funcionar en algunos dispositivos. Se necesita Root a partir de  Android 4.1 Jelly Bean. El Logger Kernel debe estar habilitado."</string>
+    <string name="start_recording_on_answer_summary">Iniciar la grabación cuando nuestra llamada es atendida. La app utiliza una solución alternativa para detectar cuando responden nuestras llamadas, por tanto, esta opción puede no funcionar en algunos dispositivos. Se necesita Root a partir de Android 4.1 Jelly Bean. El Logger Kernel debe estar habilitado.</string>
     <string name="delay_before_start_recording_summary">Para salientes: %1$s, para entrantes: %2$s</string>
     <string name="delay_format_sec">%s seg</string>
     <string name="delay_for_outgoing">Para salientes</string>
