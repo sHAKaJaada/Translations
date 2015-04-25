@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name"/>
+    <string name="app_name">Call Recorder</string>
     <string name="terms_of_use">Termos de Uso</string>
     <string name="terms_of_use_message">Ao utilizar o aplicativo, você concorda com o &lt;a href=http://rec.sh/terms&gt;Termo de Uso&lt;/a&gt; do CallRecorder.</string>
 
@@ -68,7 +68,7 @@
     <!-- List -> Get info dialog -->
     <string name="file_name">Nome do arquivo</string>
     <string name="sample_rate">Taxa de Amostragem</string>
-    <string name="sample_rate_hz"/>
+    <string name="sample_rate_hz">Hz</string>
     <string name="recording_type">Tipo de gravação</string>
     <string name="recording_type_mono"/>
     <string name="recording_type_stereo">Estéreo</string>
@@ -210,9 +210,9 @@
 
     <!-- Settings -> Recording -> MSM -->
     <string name="chipset_type">Tipo do chipset</string>
-    <string name="chipset_type_msm72xx"/>
-    <string name="chipset_type_msm8250"/>
-    <string name="chipset_type_msm8255"/>
+    <string name="chipset_type_msm72xx">Qualcomm MSM72XX</string>
+    <string name="chipset_type_msm8250">Qualcomm MSM8250</string>
+    <string name="chipset_type_msm8255">Qualcomm MSM8255</string>
     
     <string name="dont_use_amr_driver">Não utilizar o driver AMR</string>
     <string name="dont_use_amr_driver_summary">Converter WAV para AMR em tempo real</string>
@@ -515,4 +515,13 @@
     
     
     <string name="greek_translation_summary">porLefteris (SomniusX) Eliades</string>
-</resources>
+<string name="volume_control_tx">Tx</string>
+    <string name="volume_control_rx">Rx</string>
+    <string name="sample_rate_11025">11025 Hz</string>
+    <string name="sample_rate_16000">16000 Hz</string>
+    <string name="sample_rate_22050">22050 Hz</string>
+    <string name="sample_rate_44100">44100 Hz</string>
+    <string name="sample_rate_48000">48000 Hz</string>
+
+    <string name="chipset_type_msm8260">Qualcomm MSM8260</string>
+    </resources>
