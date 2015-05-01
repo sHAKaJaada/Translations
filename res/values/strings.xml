@@ -381,6 +381,8 @@
     <string name="dual_sim_phone">Dual Sim phone</string>
     <string name="dual_sim_phone_summary">Enable this if the app cannot determine calls from the second sim card</string>
     <string name="send_logs_to_the_developer">Send logs to the developer</string>
+    <string name="hide_all_notifications">Hide all notifications</string>
+    <string name="hide_all_notifications_summary">Use this option at your own risk</string>
 
     <!-- General -->
     <string name="contact_unknown">Unknown</string>
@@ -417,6 +419,7 @@
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">Record this call</string>
     <string name="open_contact">Open contact</string>
+    <string name="send_sms">Send SMS</string>
 
     <!--After call actions dialog-->
     <string name="cloud_added">Added</string>
