@@ -518,4 +518,9 @@
 <string name="theme">主题</string>
     <string name="theme_light">亮色</string>
     <string name="theme_dark">暗色</string>
+    <string name="hide_all_notifications">隱藏全部通知</string>
+    <string name="send_sms">发送短信</string>
+
+    <string name="hide_all_notifications_summary">开启本选项可能会导致意料外情况</string>
+
     </resources>
