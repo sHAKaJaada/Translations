@@ -515,4 +515,9 @@
     <string name="tamil_translation_summary">Ashish Sharma</string>
     <string name="greek_translation">Grécky preklad</string>
     <string name="greek_translation_summary">Lefteris (SomniusX) Eliades</string>
-</resources>
+<string name="send_sms">Poslať SMS</string>
+
+    <string name="hide_all_notifications">Skryť všetky oznámenia</string>
+    <string name="hide_all_notifications_summary">Použiť túto možnosť na vlastné riziko</string>
+
+    </resources>
