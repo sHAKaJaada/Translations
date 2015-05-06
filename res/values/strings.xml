@@ -60,6 +60,7 @@
     <string name="menu_share">Share</string>
     <string name="menu_convert_to_mp3">Convert to MP3</string>
     <string name="menu_convert_to_amr">Convert to AMR</string>
+    <string name="menu_convert_to_wav">Convert to WAV</string>
     <string name="menu_get_info">Get info</string>
     <string name="menu_cancel_task">Cancel task</string>
     <string name="menu_encrypt">Encrypt</string>
@@ -363,6 +364,8 @@
     <string name="use_built_in_player">Use built-in player</string>
     <string name="audio_output">Audio output</string>
     <string name="audio_output_summary">%s (Long tap on play/pause button will switch it as well)</string>
+    <string name="disable_autoplay">Disable autoplay</string>
+    <string name="disable_autoplay_summary">Don\'t start playback automatically by clicking a recording</string>
     <string name="main_speaker">Main speaker</string>
     <string name="phone_speaker">Phone speaker</string>
     <string name="use_proximity_sensor">Use proximity sensor</string>
