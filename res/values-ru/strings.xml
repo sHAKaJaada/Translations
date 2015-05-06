@@ -520,4 +520,7 @@
 
     <string name="send_sms">Отправить СМС</string>
 
+    <string name="menu_convert_to_wav">Конверт. в WAV</string>
+    <string name="disable_autoplay">Отключить автовоспроизведение</string>
+    <string name="disable_autoplay_summary">Не начинать воспроизведение автоматически по клику на запись</string>
     </resources>
