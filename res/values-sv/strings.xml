@@ -520,4 +520,7 @@
 
     <string name="send_sms">Skicka SMS</string>
 
+    <string name="menu_convert_to_wav">Konvertera till WAV</string>
+    <string name="disable_autoplay">Inaktivera automatisk uppspelning</string>
+    <string name="disable_autoplay_summary">Spela ej upp automatiskt vid klick på en inspelning</string>
     </resources>
