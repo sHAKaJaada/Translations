@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">CallRecorder</string>
     
@@ -193,7 +193,7 @@
     <string name="api_source_voice_communication">Đường âm thanh qua Voice-communication</string>
     <string name="category_wav_settings">Cài đặt WAV</string>
     
-    <string name="when_bt_connected">Khi kết nối BT ...</string>
+    <string name="when_bt_connected">Khi kết nối BT…</string>
     <string name="audio_source_when_bt_connected">Nguồn âm thanh khi kết nối BT</string>
 
     <!-- Actions when BT connected -->
@@ -401,7 +401,7 @@
     
     
     
-    <string name="please_wait">Vui lòng chờ...</string>
+    <string name="please_wait">Vui lòng chờ…</string>
     <string name="start_recording">Bắt đầu ghi âm</string>
     <string name="stop_recording">Ngừng ghi âm</string>
     
@@ -472,7 +472,7 @@
     <string name="turkish_translation">Bản dịch tiếng Thổ Nhĩ Kỳ</string>
     <string name="turkish_translation_summary">bởi Omer Ilik</string>
     <string name="serbian_translation">Bản dịch tiếng Xéc-bi</string>
-    <string name="serbian_translation_summary">bởi sHAKaJaada</string>
+    <string name="serbian_translation_summary">bởi sHAKaJaada™</string>
     <string name="korean_translation">Bản dịch tiếng Hàn</string>
     <string name="korean_translation_summary">bởi SoHyunSeop và Joon Hee Jo</string>
     <string name="romanian_translation">Bản dịch tiếng Ru-ma-ni</string>
@@ -494,7 +494,7 @@
     <string name="thai_translation">Bản dịch tiếng Thái</string>
     <string name="thai_translation_summary">bởi Wuttisak Saichoncharn</string>
     <string name="georgian_translation">Bản dịch tiếng Gru-zia</string>
-    <string name="georgian_translation_summary">bởi Alexandre Razmadze</string>
+    <string name="georgian_translation_summary">bởi Sandro Razmadze</string>
     <string name="catalan_translation">Bản dịch tiếng Catalan</string>
     <string name="catalan_translation_summary">bởi cybdani</string>
     <string name="hindi_translation">Bản dịch tiếng Ấn Độ</string>
@@ -515,4 +515,200 @@
     
     
     
+<string name="terms_of_use">Điều khoản sử dụng</string>
+    <string name="terms_of_use_message">Khi dùng ứng dụng, bạn đồng ý với CallRecorder's &lt;a href=http://rec.sh/terms&gt;Terms of Use&lt;/a&gt;.</string>
+
+    <string name="navigation_drawer_open">Mở mục điều hướng</string>
+    <string name="navigation_drawer_close">Đóng mục điều hướng</string>
+
+    <string name="section_all_recordings">Tất cả ghi âm</string>
+    <string name="section_starred">Đánh dấu sao</string>
+    <string name="section_by_contact">Theo danh bạ</string>
+    <string name="section_by_format">Theo định dạng</string>
+    <string name="section_by_label">Theo nhãn</string>
+    <string name="section_tasks_hint">Những tác vụ tốn thời gian với các bản ghi âm như chuyển đổi, mã hóa hoặc tải lên dịch vụ đám mây sẽ được hiển thị ở đây</string>
+    <string name="action_sort">Sắp xếp</string>
+    <string name="action_refresh">Nạp lại</string>
+    <string name="action_delete">Xoá</string>
+    <string name="action_add_star">Thêm dấu sao</string>
+    <string name="action_remove_star">Bỏ dấu sao</string>
+    <string name="action_share">Chia sẻ</string>
+    <string name="action_cancel_tasks">Hủy các tác vụ</string>
+    <string name="sort_by_date">Theo ngày</string>
+    <string name="sort_by_contact">Theo danh bạ</string>
+    <string name="sort_by_file_size">Theo dung lượng</string>
+    <string name="records_size">ghi: %1$s, dung lượng: %2$s</string>
+    <string name="space_free_of">%1$s còn trống của %2$s</string>
+
+    <string name="restore_settings">Phục hồi cài đặt gốc</string>
+
+    <string name="list_header_today">Hôm nay</string>
+    <string name="list_header_yesterday">Hôm qua</string>
+    <string name="queued">Xếp hàng</string>
+    <string name="no_connection">Không có mạng</string>
+    <string name="menu_add_note">Thêm ghi chú</string>
+    <string name="menu_edit_note">Sửa ghi chú</string>
+    <string name="menu_share">Chia sẻ</string>
+    <string name="menu_convert_to_mp3">Chuyển qua MP3</string>
+    <string name="menu_convert_to_amr">Chuyển qua AMR</string>
+    <string name="menu_convert_to_wav">Chuyển qua WAV</string>
+    <string name="menu_cancel_task">Hủy tác vụ</string>
+    <string name="recording_type">Định dạng ghi âm</string>
+    <string name="note">Ghi chú</string>
+
+    <string name="confirm_delete_several_title">Xác nhận xóa</string>
+    <string name="confirm_delete_several_message">Bạn đã chọn %d bản ghi âm. Bạn có chắc muốn xóa chúng?</string>
+
+    <string name="share_via">Chia sẻ qua</string>
+    <string name="settings_open_unlocker">Mở chương trình Unlocker</string>
+    <string name="settings_cloud">Dịch vụ đám mây</string>
+    <string name="license_check_pending">Đang chờ kiểm tra giấy phép</string>
+    <string name="license_check_failed">Không để xác minh giấy phép</string>
+    <string name="license_check_failed_summary">Nhấn ở đây để xem chi tiết</string>
+    <string name="license_verified">Giấy phép đã được xác minh</string>
+    <string name="license_verified_summary">Nhấn để dấu</string>
+    <string name="license_help">Giúp đỡ</string>
+    <string name="license_signature_verification_failed">Không thể xác nhận Chữ ký</string>
+    <string name="license_error_message">Lỗi #%1$s: %2$s</string>
+    <string name="license_unknown_error">Lỗi không xác định</string>
+    <string name="license_not_market_managed">Phiên bản này chưa được phát hành trên Cửa Hàng Play</string>
+    <string name="license_incorrect_response">Phản hồi không đúng giấy phép từ Cửa Hàng Play</string>
+    <string name="license_error_contacting_server">Lỗi kết nối máy chủ</string>
+    <string name="license_server_error">Lỗi máy chủ</string>
+    <string name="license_over_quota">Có quá nhiều yêu cầu dữ liệu từ thiết bị này</string>
+    <string name="license_trial_expired">Đã hết thời hạn dùng thử</string>
+    <string name="license_trial_expired_summary">Vui lòng gỡ cài đặt phiên bản này trước khi mua bản đầy đủ</string>
+    <string name="device_change_settings_empty">Cài đặt cho thiết bị này đã hoàn tất</string>
+    <string name="device_root_is_required">Yêu cầu Root</string>
+    <string name="device_root_is_required_summary">Để có chất lượng tốt hơn, cần Root trên thiết bị này</string>
+    <string name="recording_method_msm">MSM</string>
+    <string name="recording_method_msm_settings">Cài đặt cho ghi âm kiểu MSM</string>
+    <string name="exceptions_summary">Thiết lập các hành động cụ thể cho danh bạ, nhóm, hoặc số điện thoại</string>
+    <string name="start_recording_on_answer">Bắt đầu ghi âm khi trả lời</string>
+    <string name="start_recording_on_answer_summary">Bắt đầu ghi âm khi cuộc gọi đi được trả lời. Ứng dụng sử dụng một giải pháp không chính thống để phát hiện thời điểm khi bên kia trả lời, do đó tính năng này có thể thất bại trên một số thiết bị. Root là bắt buộc kể từ Android 4.1 Jelly Bean. Logger trong hạt nhân phải được kích hoạt.</string>
+    <string name="delay_before_start_recording_summary">Cho hướng gọi đi: %1$s, cho hướng gọi đến: %2$s</string>
+    <string name="delay_format_sec">%s giây</string>
+    <string name="delay_for_outgoing">Cho hướng gọi đi</string>
+    <string name="delay_for_incoming">Cho hướng gọi đến</string>
+    <string name="settings_for_device">Cài đặt cho %s</string>
+    <string name="recording_format">Định dạng ghi âm</string>
+    <string name="volume_control_summary">Tx: %1$s, Rx: %2$s</string>
+    <string name="volume_control_overall">Âm lượng chung</string>
+    <string name="category_wav_and_mp3_settings">Cài đặt cho WAV &amp; MP3</string>
+    <string name="alsa_is_not_installed">Cần cài đặt ALSA</string>
+    <string name="alsa_is_not_installed_summary">Chạm vào đây để cài đặt ALSA</string>
+
+    <string name="add_exception">Thêm ngoại lệ</string>
+    <string name="exception_groups">%d nhóm</string>
+    <string name="exception_contact">Danh bạ</string>
+    <string name="exception_select_contact">Chọn danh bạ</string>
+    <string name="exception_phone_number">Số điện thoại</string>
+    <string name="exception_action">Hành động</string>
+    <string name="exception_groups_not_found">Không tìm thấy nhóm</string>
+    <string name="exception_contacts_not_found">Không tìm thấy tên danh bạ</string>
+    <string name="exceptions_not_added">Ngoại lệ chưa được thêm vào</string>
+    <string name="exception_by_contact">Theo Tên danh bạ</string>
+    <string name="exception_by_group">Theo nhóm</string>
+    <string name="exception_by_phone_number">Theo số điện thoại</string>
+    <string name="exception_delete_message">Bạn có chắc muốn xóa ngoại lệ này?</string>
+
+    <string name="folder_chooser_up_to">↑ Cho đến %s</string>
+    <string name="create_new_folder">Tạo thư mục mới…</string>
+    <string name="dialog_title_new_folder">Thư mục mới</string>
+    <string name="settings_filename">Tên tệp tin</string>
+    <string name="pattern_call_timestamp">mốc thời gian cuộc gọi (hệ unix)</string>
+    <string name="theme">Chủ đề</string>
+    <string name="theme_light">Sáng</string>
+    <string name="theme_dark">Tối</string>
+    <string name="default_language">Ngôn ngữ mặc định</string>
+    <string name="show_notification_summary">Thông báo thường trú trên thanh trạng thái</string>
+    <string name="hide_icon_but_keep_notification">Ẩn biểu tượng, nhưng giữ thông báo</string>
+    <string name="hide_icon_but_keep_notification_summary">Ẩn biểu tượng, nhưng giữ thông báo trên thanh trạng thái</string>
+    <string name="category_incall_control_button">Nút điều khiển trong khi gọi</string>
+    <string name="incall_control_for_outgoing_summary">Hiện nút điều khiển trong cuộc gọi đi</string>
+    <string name="incall_control_for_incoming_summary">Hiện nút điều khiển trong cuộc gọi đến</string>
+    <string name="hide_button_while_recording">Ẩn nút trong khi ghi âm</string>
+    <string name="hide_button_while_recording_summary">Ẩn nút điều khiển nếu đang ghi âm</string>
+    <string name="vertical_position_summary">%s dp, bù đắp từ giữa màn hình</string>
+    <string name="horizontal_position_summary">%s dp, bù đắp từ giữa màn hình</string>
+    <string name="hide_button_before_answer">Ẩn nút trước khi trả lời</string>
+    <string name="long_press_action">Hành động chạm giữ lâu</string>
+    <string name="long_press_action_dragging_the_button">Kéo di chuyển nút</string>
+    <string name="long_press_action_hang_up">Không trả lời và tự động gọi lại</string>
+    <string name="hide_starred_recordings">Ẩn các cuộc ghi âm đánh dấu sao</string>
+    <string name="hide_starred_recordings_summary">Không hiện các ghi âm đánh dấu sao cùng các bản ghi âm khác</string>
+    <string name="cloud_provider">Nhà cung cấp dịch vụ đám mây</string>
+    <string name="sign_in_dropbox">Đăng nhập Dropbox</string>
+    <string name="sign_out_dropbox">Đăng xuất Dropbox</string>
+    <string name="cloud_provider_google_drive">Google Drive</string>
+    <string name="cloud_common_settings">Thông dụng</string>
+    <string name="cloud_upload_starred">Tải lên bản ghi có dấu sao</string>
+    <string name="cloud_upload_starred_summary">Tải bản ghi âm lên dịch vụ đám mây khi bạn đánh dấu sao</string>
+
+    <string name="notify_uploading_dropbox">Đang tải lên Dropbox</string>
+    <string name="notify_converting_to_amr">Đang chuyển đổi qua AMR</string>
+    <string name="notify_converting_to_mp3">Đang chuyển đổi qua MP3</string>
+    <string name="notify_encrypting">Đang mã hóa</string>
+    <string name="notify_decrypting">Đang giải mã</string>
+    <string name="notify_waiting_for_calls">Đang chờ cuộc gọi</string>
+    <string name="notify_tasks_remaining">%d tác vụ còn lại</string>
+
+    <string name="create_new_key_summary">Khóa này sẽ được sử dụng sau này để mã hóa các bản ghi âm hoặc để vào ứng dụng</string>
+    <string name="delete_key">Xóa khóa</string>
+    <string name="delete_key_summary">Cảnh báo! Bạn sẽ không bao giờ có thể phục hồi các bản ghi âm được mã hóa nếu bạn đã mã hóa chúng với khóa này, ngay cả khi bạn tạo một khóa mới với cùng một mật khẩu</string>
+    <string name="delete_key_message">Sau khi xóa, bạn sẽ không thể khôi phục lại các bản ghi âm được mã hóa với khóa này. Bạn có chắc muốn tiếp tục?</string>
+    <string name="require_password_summary_no_key">Yêu cầu mật khẩu để mở ứng dụng. Để kích hoạt tính năng này, đầu tiên bạn nên tạo ra một khóa</string>
+    <string name="app_admin_summary">Cần thiết để ngăn chặn gỡ cài đặt Call Recorder</string>
+    <string name="app_admin_explanation">Call Recorder không sử dụng bất kỳ tính năng của quản trị thiết bị ngoại trừ việc bảo vệ gỡ cài đặt</string>
+    <string name="use_built_in_player">Sử dụng chương trình phát cài sẵn</string>
+    <string name="audio_output_summary">%s (nhấn giữ lâu nút play/pause cũng sẽ hoán chuyển nó)</string>
+    <string name="disable_autoplay">Tắt Tự-động-phát</string>
+    <string name="disable_autoplay_summary">Không tự động phát lại bằng việc nhấn chọn bản ghi âm</string>
+    <string name="use_proximity_sensor_summary">Tắt màn hình bằng cảm biến tiệm cận trong quá trình phát</string>
+    <string name="switch_audio_output_summary">Tự động chuyển đổi đầu ra âm thanh khi màn hình bị vô hiệu hóa / kích hoạt bởi cảm biến tiệm cận</string>
+    <string name="send_logs_to_the_developer">Gửi các bản theo dõi kỹ thuật đến nhà phát triển</string>
+    <string name="hide_all_notifications">Ẩn tất cả thông báo</string>
+    <string name="hide_all_notifications_summary">Bạn tự chịu rủi ro (nếu có), khi bạn sử dụng tùy chọn này</string>
+
+    <string name="button_choose">Chọn</string>
+    <string name="button_call">Gọi</string>
+    <string name="button_buy">Mua</string>
+    <string name="button_create">Tạo mới</string>
+    <string name="button_delete">Xóa</string>
+    <string name="button_restore">Phục hồi</string>
+    <string name="button_keep">Giữ</string>
+    <string name="button_play">Phát</string>
+    <string name="button_pause">Dừng</string>
+    <string name="button_delete_wait">Xóa (%d)</string>
+    <string name="decline">Từ chối</string>
+    <string name="accept">Chấp nhận</string>
+    <string name="call_incoming">Cuộc gọi đến</string>
+    <string name="call_outgoing">Cuộc gọi đi</string>
+    <string name="action_mode_selected">%d đã chọn</string>
+    <string name="toast_wait_for_operation_to_complete">Chờ một hoạt động để hoàn tất</string>
+    <string name="toast_recording_is_off">Ghi âm đang TẮT</string>
+    <string name="toast_recording_is_on">Ghi âm đang MỞ</string>
+    <string name="toast_file_deleted">Tệp tin được xóa thành công</string>
+
+    <string name="open_contact">Mở danh bạ</string>
+    <string name="send_sms">Gửi SMS</string>
+
+    <string name="waiting_for_answer">Đang chờ trả lời</string>
+    <string name="recording_in_progress">Đang ghi âm</string>
+    <string name="no_recording_in_progress">Không có ghi âm</string>
+    <string name="about_call_recorder">Giới thiệu về Call Recorder</string>
+    <string name="category_other">Khác</string>
+    <string name="open_source_licenses">Các giấy phép mã nguồn mở</string>
+
+    <string name="category_translators">Phiên dịch</string>
+    <string name="italian_translation_summary">bởi Luca Trevisan và Francesco Cafagna</string>
+    <string name="chinese_translation_summary">bở qhq và Yu Fei</string>
+    <string name="armenian_translation">Bản dịch tiếng Armenia</string>
+    <string name="armenian_translation_summary">bởi Hakob Sununu và Konstantin Gevorgyan</string>
+    <string name="gujarati_translation">Bản dịch tiếng Gujarati</string>
+    <string name="gujarati_translation_summary">bởi Abhishek Sharma</string>
+    <string name="tamil_translation">Bản dịch tiếng Tamil</string>
+    <string name="tamil_translation_summary">bởi Ashish Sharma</string>
+    <string name="greek_translation">Bản dịch tiếng Hy Lạp</string>
+    <string name="greek_translation_summary">bởi Lefteris (SomniusX) Eliades</string>
 </resources>
