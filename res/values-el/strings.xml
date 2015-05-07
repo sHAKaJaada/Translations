@@ -523,4 +523,10 @@
 
     <string name="menu_convert_to_wav">Μετατροπή σε WAV</string>
     <string name="disable_autoplay">Απενεργοποίηση αυτόματης αναπαραγωγής</string>
+    <string name="disable_autoplay_summary">Να μην ξεκινάει η αναπαραγωγή με την επιλογή μιας καταγραφής</string>
+    <string name="hide_all_notifications">Απόκρυψη όλων των ειδοποιήσεων</string>
+    <string name="hide_all_notifications_summary">Χρησιμοποιείστε την επιλογή αυτή με δική σας ευθύνη</string>
+
+    <string name="send_sms">Αποστολή SMS</string>
+
     </resources>
