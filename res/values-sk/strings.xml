@@ -362,7 +362,7 @@
     <!-- Settings -> Audio player -->
     <string name="use_built_in_player">Použiť vstavaný prehrávač</string>
     <string name="audio_output">Výstup zvuku</string>
-    <string name="audio_output_summary">%s (Dlhým stlačením tlačidla prehrať/pauza sa prepne)</string>
+    <string name="audio_output_summary">%s (Prepne sa aj dlhým stlačením tlačidla prehrať/pauza)</string>
     <string name="main_speaker">Reproduktor</string>
     <string name="phone_speaker">Sluchátko</string>
     <string name="use_proximity_sensor">Použiť proximity senzor</string>
@@ -520,4 +520,7 @@
     <string name="hide_all_notifications">Skryť všetky oznámenia</string>
     <string name="hide_all_notifications_summary">Použiť túto možnosť na vlastné riziko</string>
 
+    <string name="menu_convert_to_wav">Konvertovať do WAV</string>
+    <string name="disable_autoplay">Zakázať automatické prehrávanie</string>
+    <string name="disable_autoplay_summary">Nespustiť prehrávanie automaticky po kliknutí na nahrávku</string>
     </resources>
