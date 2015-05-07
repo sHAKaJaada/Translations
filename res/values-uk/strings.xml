@@ -532,4 +532,12 @@
     <string name="category_translators">Перекладачі</string>
     <string name="volume_control_tx">Tx</string>
     <string name="volume_control_rx">Rx</string>
+    <string name="menu_convert_to_wav">Конвертувати у WAV</string>
+    <string name="disable_autoplay">Вимкнути автопрогравання</string>
+    <string name="disable_autoplay_summary">Програвання не вмикається автоматично. Натомість слід натиснути на запис</string>
+    <string name="hide_all_notifications">Приховати усі повідомлення</string>
+    <string name="hide_all_notifications_summary">Використовуйте цю можливість не свій власний ризик</string>
+
+    <string name="send_sms">Надіслати SMS</string>
+
     </resources>
