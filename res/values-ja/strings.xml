@@ -516,4 +516,12 @@
     <string name="greek_translation">ギリシャ語の翻訳</string>
     <string name="greek_translation_summary">Lefteris (SomniusX) Eliades</string>
 <string name="license_verified_summary">タップすると隠せます</string>
+    <string name="menu_convert_to_wav">WAV形式へ変換</string>
+    <string name="disable_autoplay">自動再生を無効</string>
+    <string name="disable_autoplay_summary">録音のクリックによる自動再生をしません</string>
+    <string name="hide_all_notifications">すべての通知を隠す</string>
+    <string name="hide_all_notifications_summary">このオプションは自己責任で使用してください</string>
+
+    <string name="send_sms">SMSを送信</string>
+
     </resources>
