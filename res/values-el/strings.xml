@@ -521,4 +521,5 @@
     <string name="low_space_warning">Προειδοποίηση χαμηλής χωρητικότητας</string>
     <string name="low_space_warning_summary">Ρύθμιση προειδοποίησης χαμηλής χωρητικότητας σε megabytes</string>
 
+    <string name="menu_convert_to_wav">Μετατροπή σε WAV</string>
     </resources>
