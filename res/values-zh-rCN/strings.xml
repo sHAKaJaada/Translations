@@ -523,4 +523,7 @@
 
     <string name="hide_all_notifications_summary">开启本选项可能会导致意料外情况</string>
 
+    <string name="menu_convert_to_wav">转换成 WAV 格式</string>
+    <string name="disable_autoplay">禁用自动播放</string>
+    <string name="disable_autoplay_summary">点击录音时不要自动播放</string>
     </resources>
