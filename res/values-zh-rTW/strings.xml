@@ -518,4 +518,12 @@
 <string name="theme">主題</string>
     <string name="theme_light">亮</string>
     <string name="theme_dark">暗</string>
+    <string name="menu_convert_to_wav">轉換成WAV格式</string>
+    <string name="disable_autoplay">關閉自動播放</string>
+    <string name="disable_autoplay_summary">不透過單擊錄音檔時自動開始播放</string>
+    <string name="hide_all_notifications">隱藏所有通知</string>
+    <string name="hide_all_notifications_summary">使用此選項您需自行承擔風險</string>
+
+    <string name="send_sms">傳送訊息</string>
+
     </resources>
