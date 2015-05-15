@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">ਕਾਲ ਰਿਕਾਰਡਰ</string>
     <string name="terms_of_use">ਵਰਤੋ ਦੀਆਂ ਸ਼ਰਤਾਂ</string>
@@ -515,4 +515,18 @@
     <string name="tamil_translation_summary">Ashish Sharma ਆਸ਼ੀਸ਼ ਸ਼ਰਮਾ ਦੁਆਰਾ</string>
     <string name="greek_translation">ਯੂਨਾਨੀ ਭਾਸ਼ਾ ਵਿਚ ਤਰਜਮਾ</string>
     <string name="greek_translation_summary">ਦੁਆਰਾ Lefteris (SomniusX) Eliades</string>
-</resources>
+<string name="warning_root_required">ਤੁਹਾਡੇ ਫ਼ੋਨ ਰੂਟ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ. ਇਸ ਸੁਨੇਹੇ ਨੂੰ ਰੱਦ ਕਰਨ ਲਈ ਜਿਆਦਾ ਦੇਰ ਲਈ ਦਬਾ ਕੇ ਰਖੋ.</string>
+    <string name="warning_low_space">ਜਗ੍ਹਾ ਘਟ ਹੈ: ਬਾਕੀ% s</string>
+
+    <string name="menu_convert_to_wav">WAV ਵਿਚ ਬਦਲੋ</string>
+    <string name="low_space_warning">ਜਗ੍ਹਾ ਦੀ ਘਟ ਦੀ ਚੇਤਾਵਨੀ</string>
+    <string name="low_space_warning_summary">ਘੱਟ ਸਪੇਸ ਚੇਤਾਵਨੀ ਸੀਮਾ ਨਿਰਧਾਰਿਤ ਕਰੋ (ਮੈਗਾਬਾਈਟ ਵਿੱਚ )</string>
+
+    <string name="disable_autoplay">ਸਵੈ ਪਾਠ ਰੋਕੋ</string>
+    <string name="disable_autoplay_summary">ਰਿਕਾਰਡਿੰਗ ਨੂੰ ਦਬਾ ਕੇ ਆਪਣੇ ਆਪ ਹੀ ਪਲੇਅਬੈਕ ਸ਼ੁਰੂ ਨਾ ਕਰੋ</string>
+    <string name="hide_all_notifications">ਸਾਰੇ ਸੂਚਨਾ ਨੂ ਲੂਕਾਓ</string>
+    <string name="hide_all_notifications_summary">ਆਪਣੀ ਜਿਮੇਵਾਰੀ ਤੇ ਇਸ ਨੂ ਚੁਣੋ</string>
+
+    <string name="send_sms">SMS ਭੇਜੋ</string>
+
+    </resources>
