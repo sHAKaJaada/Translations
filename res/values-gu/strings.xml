@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">કોલ રેકોર્ડર</string>
     <string name="terms_of_use">ઉપયોગની શરતો</string>
@@ -515,4 +515,23 @@
     <string name="tamil_translation_summary">Ashish Sharma દ્વારા</string>
     <string name="greek_translation">ગ્રીક અનુવાદ</string>
     <string name="greek_translation_summary">Lefteris (SomniusX) Eliades દ્વારા</string>
-</resources>
+<string name="warning_root_required">તમારો ફોન જળવાયેલી હોવી જ જોઈએ. લાંબા નળ આ સંદેશ બરતરફ.</string>
+    <string name="warning_low_space">લો જગ્યા: %s</string>
+
+    <string name="add_to_contacts">સંપર્કો ઉમેરો</string>
+
+    <string name="menu_convert_to_wav">WAV માટે કન્વર્ટ</string>
+    <string name="theme">થીમ</string>
+    <string name="theme_light">પ્રકાશ</string>
+    <string name="theme_dark">ડાર્ક</string>
+    <string name="low_space_warning">નીચા જગ્યા ચેતવણી</string>
+    <string name="low_space_warning_summary">મેગાબાઈટોમાં સેટ નીચા જગ્યા ચેતવણી મર્યાદા</string>
+
+    <string name="disable_autoplay">અક્ષમ કરો ઑટોપ્લે</string>
+    <string name="disable_autoplay_summary">પર ક્લિક કરીને રેકોર્ડિંગ આપમેળે પ્લેબેક શરૂ નથી</string>
+    <string name="hide_all_notifications_summary">તમારા પોતાના જોખમે આ વિકલ્પ વાપરો</string>
+
+    <string name="send_sms">એસએમએસ મોકલો</string>
+
+    <string name="hide_all_notifications">બધી સૂચનાઓ છુપાવો</string>
+    </resources>
