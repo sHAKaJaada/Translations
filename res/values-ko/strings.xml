@@ -532,4 +532,12 @@
     <string name="switch_on">On</string>
     <string name="switch_off">Off</string>
 
+    <string name="menu_convert_to_wav">WAV로 변환</string>
+    <string name="disable_autoplay">자동 재생 하지 않음</string>
+    <string name="disable_autoplay_summary">녹음 항목을 눌렀을 때 자동으로 재생을 시작하지 않도록 합니다</string>
+    <string name="hide_all_notifications">모든 알림을 숨김</string>
+    <string name="hide_all_notifications_summary">이 옵션을 사용 시 문제가 발생할 수 있습니다</string>
+
+    <string name="send_sms">SMS 보내기</string>
+
     </resources>
