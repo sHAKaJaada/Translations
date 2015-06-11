@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">Call Recorder</string>
     <string name="terms_of_use">Käyttöehdot</string>
@@ -515,4 +515,43 @@
     <string name="tamil_translation_summary">Ashish Sharma</string>
     <string name="greek_translation">Kreikan käännös</string>
     <string name="greek_translation_summary">Lefteris (SomniusX) Eliades</string>
-</resources>
+<string name="section_tasks_hint">Aikaa vievät tehtävät kuten muuntaminen, salaus tai lähetys pilveen näytetään tässä</string>
+    <string name="menu_convert_to_wav">Muunna WAV muotoon</string>
+    <string name="license_signature_verification_failed">Allekirjoituksen tarkistus epäonnistui</string>
+    <string name="device_change_settings_empty">Tämän laitteen asetukset on jo määritetty</string>
+    <string name="exceptions_summary">Aseta erityistoiminnot yhteystiedoille, ryhmille, tai puhelinnumeroille</string>
+    <string name="start_recording_on_answer_summary">Aloita tallennus kun lähtevään puheluun on vastattu. Ohjelma käyttää dokumentoimatonta tekniikkaa havaitakseen hetken kun puheluun vastataan, joten tämä ominaisuus saattaa epäonnistua joillakin laitteilla. Root vaaditaan Android 4.1 Jelly Beanistä lähtien. Kernelin lokitietojen tallennus täytyy olla päällä.</string>
+    <string name="theme">Teema</string>
+    <string name="theme_light">Vaalea</string>
+    <string name="theme_dark">Tumma</string>
+    <string name="incall_control_for_outgoing_summary">Näytä puhelunaikainen nappi lähtevissä puheluissa</string>
+    <string name="incall_control_for_incoming_summary">Näytä puhelunaikainen nappi saapuvissa puheluissa</string>
+    <string name="hide_button_while_recording_summary">Piilota puhelunaikainen nappi jos puhelu nauhoitetaan</string>
+    <string name="vertical_position_summary">"%s dp,  etäisyys näytön keskeltä"</string>
+    <string name="horizontal_position_summary">"%s dp,  etäisyys näytön keskeltä"</string>
+    <string name="long_press_action">Pitkän painalluksen toiminto</string>
+    <string name="long_press_action_dragging_the_button">Napin vetäminen</string>
+    <string name="long_press_action_hang_up">Lopeta puhelu ja soita takaisin automaattisesti</string>
+    <string name="hide_starred_recordings">Piilota tähdellä merkityt nauhoitukset</string>
+    <string name="hide_starred_recordings_summary">Älä näytä tähdellä merkittyjä nauhoituksia kaikki nauhoitukset näkymässä</string>
+    <string name="cloud_upload_starred">Lähetä tähdellä merkityt</string>
+    <string name="cloud_upload_starred_summary">Lähetä nauhoitus pilveen kun se merkitään tähdellä</string>
+
+    <string name="create_new_key_summary">Tätä avainta tullaan käyttämään myöhemmin salaukseen tai kirjautumiseen</string>
+    <string name="delete_key_summary">Varoitus! Salattuja nauhoituksia ei voida palauttaa jos ne on salattu tällä avaimella, vaikka tekisit uuden avaimen samalla salasanalla</string>
+    <string name="delete_key_message">Poistamisen jälkeen nauhoituksia ei voida palauttaa tällä avaimella. Haluatko varmasti jatkaa?</string>
+    <string name="require_password_summary_no_key">Vaadi salasana ohjelman aukaisemiseen. Ottaaksesi tämän käyttöön sinun täytyy tehdä ensin avain</string>
+    <string name="app_admin_summary">Tarpeellinen Call Recorderin poistamisen estämiseen</string>
+    <string name="app_admin_explanation">Call Recorder ei käytä muita ominaisuuksia kuin poistamisen estäminen</string>
+    <string name="audio_output_summary">%s (Pitkä painallus toista/tauko napista vaihtaa myös)</string>
+    <string name="disable_autoplay">Poista automaattitoisto käytöstä</string>
+    <string name="disable_autoplay_summary">Älä aloita toistoa automaattisesti nauhoitusta napauttaessa</string>
+    <string name="use_proximity_sensor_summary">Sammuta näyttö etäisyystunnistimen avulla toiston aikana</string>
+    <string name="switch_audio_output_summary">Vaihda automaattisesti äänenulostulo kun näyttö on pois/päällä etäisyystunnimen avulla</string>
+    <string name="hide_all_notifications">Piilota kaikki ilmoitukset</string>
+    <string name="hide_all_notifications_summary">Käytä tätä ominaisuutta omalla vastuullasi</string>
+
+    <string name="toast_wait_for_operation_to_complete">Odota toiminnon valmistumista</string>
+    <string name="send_sms">Lähetä SMS</string>
+
+    </resources>
