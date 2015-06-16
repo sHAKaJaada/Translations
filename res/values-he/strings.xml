@@ -523,4 +523,7 @@
 
     <string name="send_sms">שלח מיסרון</string>
 
+    <string name="dialog_grant_permission_title">הענק הרשאה</string>
+    <string name="dialog_grant_permission_message">בחר את אותה הספריה בחלון חדש כדי להעניק את ההרשאה</string>
+    <string name="toast_wrong_directory_selected">בחר ספריה שגויה. נסה שנית.</string>
     </resources>
