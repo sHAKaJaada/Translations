@@ -243,6 +243,9 @@
     <string name="folder_chooser_up_to">↑ Up to %s</string>
     <string name="create_new_folder">Create new folder…</string>
     <string name="dialog_title_new_folder">New folder</string>
+    <string name="dialog_grant_permission_title">Grant permission</string>
+    <string name="dialog_grant_permission_message">Select the same directory in a new window to grant the permission</string>
+    <string name="toast_wrong_directory_selected">You have selected wrong directory. Try again.</string>
     <string name="automatic_cleanup">Automatic cleanup</string>
     <string name="max_number_of_files">Max. number of files</string>
     <string name="max_number_of_files_message">Enter a number (0 - no limit)</string>
