@@ -42,7 +42,7 @@
     <string name="restore_settings">Genskab indstillinger</string>
 
     <!-- Warnings -->
-    <string name="warning_root_required">Din telefon skal være rooted. Et langt tryk lukker denne besked</string>
+    <string name="warning_root_required">Din telefon skal være rooted. Et langt tryk lukker denne besked.</string>
     <string name="warning_low_space">Ledig plads: %s</string>
 
     <!-- List -->
@@ -436,7 +436,7 @@
     <string name="about_many_thanks_summary">til Alexey Subbotin (avs234)</string>
 
     <!--About -> Other-->
-    <string name="category_other">Andet</string>
+    <string name="category_other">Mere</string>
     <string name="open_source_licenses">Open-source licenser</string>
 
     <!--About -> Translators-->
