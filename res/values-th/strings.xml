@@ -523,7 +523,7 @@
 
     <string name="send_sms">ส่งข้อความสั้น</string>
 
-    <string name="dialog_grant_permission_title">ยอมรับสิทธิ์</string>
+    <string name="dialog_grant_permission_title">กำหนดสิทธิ์</string>
     <string name="dialog_grant_permission_message">เลือกไดเรคทอรี่เดียวกันในหน้าต่างใหม่เพื่อกำหนดสิทธิ์</string>
     <string name="toast_wrong_directory_selected">คุณเลือกผิดไดเรคทอรี่ โปรดลองใหม่อีกครั้ง</string>
     </resources>
