@@ -523,4 +523,7 @@
     <string name="menu_convert_to_wav">Конверт. в WAV</string>
     <string name="disable_autoplay">Отключить автовоспроизведение</string>
     <string name="disable_autoplay_summary">Не начинать воспроизведение автоматически по клику на запись</string>
+    <string name="dialog_grant_permission_message">Выберите ту же самую директорию в новом окне, чтобы предоставить доступ</string>
+    <string name="toast_wrong_directory_selected">Вы указали не правильную директорию. Попробуйте снова.</string>
+    <string name="dialog_grant_permission_title">Предоставить доступ</string>
     </resources>
