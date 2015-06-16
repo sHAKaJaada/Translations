@@ -524,4 +524,5 @@
     <string name="sample_rate_48000">48000 Hz</string>
 
     <string name="chipset_type_msm8260">Qualcomm MSM8260</string>
+    <string name="menu_convert_to_wav">Converter para WAV</string>
     </resources>
