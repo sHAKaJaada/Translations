@@ -526,4 +526,7 @@
 
     <string name="send_sms">傳送訊息</string>
 
+    <string name="dialog_grant_permission_title">授予許可</string>
+    <string name="toast_wrong_directory_selected">您選擇了錯誤的電話簿，請再試一次。</string>
+    <string name="dialog_grant_permission_message">在新的視窗選擇同樣的電話簿授予許可</string>
     </resources>
