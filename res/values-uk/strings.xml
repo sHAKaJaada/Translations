@@ -540,4 +540,7 @@
 
     <string name="send_sms">Надіслати SMS</string>
 
+    <string name="dialog_grant_permission_title">Надати дозвіл</string>
+    <string name="dialog_grant_permission_message">Виберіть ту ж саму папку в новому вікні, аби надати дозвіл</string>
+    <string name="toast_wrong_directory_selected">Ви вибрали не ту папку, спробуйте ще.</string>
     </resources>
