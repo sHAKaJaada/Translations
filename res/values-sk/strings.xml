@@ -523,4 +523,7 @@
     <string name="menu_convert_to_wav">Konvertovať do WAV</string>
     <string name="disable_autoplay">Zakázať automatické prehrávanie</string>
     <string name="disable_autoplay_summary">Nespustiť prehrávanie automaticky po kliknutí na nahrávku</string>
+    <string name="dialog_grant_permission_message">Pre získanie povolenia vyberte rovnaký adresár v novom okne</string>
+    <string name="dialog_grant_permission_title">Získať povolenie</string>
+    <string name="toast_wrong_directory_selected">Vybrali ste nesprávny adresár. Skúste znova.</string>
     </resources>
