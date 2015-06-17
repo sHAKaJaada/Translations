@@ -523,4 +523,7 @@
     <string name="menu_convert_to_wav">Convertește în WAV</string>
     <string name="disable_autoplay">Dezactivează redarea automată</string>
     <string name="disable_autoplay_summary">Nu pornește redarea automată la atingere pe o înregistrare</string>
+    <string name="dialog_grant_permission_title">Acordă permisiunea</string>
+    <string name="dialog_grant_permission_message">Selectează același director într-o fereastră nouă pentru a acorda permisiunea</string>
+    <string name="toast_wrong_directory_selected">Ai selectat un director greșit. Încearcă iar.</string>
     </resources>
