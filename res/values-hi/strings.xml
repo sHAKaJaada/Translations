@@ -526,4 +526,7 @@
 
     <string name="send_sms">SMS भेजें</string>
 
+    <string name="dialog_grant_permission_title">अधिकार मुहैय्या करें</string>
+    <string name="dialog_grant_permission_message">अनुमति देने के लिए एक नई विंडो में एक ही निर्देशिका का चयन करें</string>
+    <string name="toast_wrong_directory_selected">आपने गलत निर्देशिका का चयन किया है, दुबारा प्रयास करें</string>
     </resources>
