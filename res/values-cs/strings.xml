@@ -523,4 +523,7 @@
 
     <string name="send_sms">Pošli SMS</string>
 
+    <string name="dialog_grant_permission_title">Udělit oprávnění</string>
+    <string name="dialog_grant_permission_message">Pro udělení oprávnění vyber stejný adresář v novém okně</string>
+    <string name="toast_wrong_directory_selected">Zvolil(a) jsi špatný adresář. Zkus to znovu.</string>
     </resources>
