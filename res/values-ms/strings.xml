@@ -1,4 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">CallRecorder</string>
-</resources>
+<string name="terms_of_use">Syarat-syarat penggunaan</string>
+    <string name="terms_of_use_message">Dengan menggunakan aplikasi ini, anda bersetuju dengan syarat-syarat CallRecorder.</string>
+
+    <string name="navigation_drawer_open">Buka navigasi pilihan</string>
+    <string name="navigation_drawer_close">Tutup navigasi pilihan</string>
+
+    <string name="section_all_recordings">Semua rakaman</string>
+    <string name="section_starred">Penting</string>
+    <string name="section_incoming">Masuk</string>
+    <string name="section_outgoing">Keluar</string>
+    <string name="section_by_contact">Dengan Contact</string>
+    <string name="section_by_format">Dengan Format</string>
+    <string name="section_by_label">Dengan Label</string>
+    <string name="section_help">Bantu</string>
+    <string name="section_tasks">Tugas</string>
+    <string name="section_tasks_hint">Tugas yang mengambil masa dengan rakaman seperti menukar, mengubah, menyulitkan atau memuat naik ke cloud akan dipaparkan di sini</string>
+    <string name="empty_hint">Kosong</string>
+
+    <string name="action_search">Gelintar</string>
+    <string name="action_sort">Isih</string>
+    <string name="action_settings">Seting Configurasi</string>
+    <string name="action_refresh">Segar semula</string>
+    <string name="action_delete">Hapus</string>
+    <string name="action_add_star">Tambah bintang</string>
+    <string name="action_remove_star">Alih keluar bintang</string>
+    <string name="action_share">Kongsi</string>
+    <string name="action_cancel_tasks">Batal Tugas</string>
+    <string name="action_select_all">Pilih semua</string>
+    <string name="sort_by_date">Dengan tarikh</string>
+    <string name="sort_by_contact">Dengan hubungan</string>
+    <string name="sort_by_file_size">Dengan saiz fail</string>
+    <string name="records_size">rakaman: %1$s, saiz: %2$s</string>
+    <string name="space_free_of">%1$s daripada %2$s digunakan</string>
+
+    <string name="restore_settings">Simpan semula seting</string>
+
+    <string name="warning_root_required">Fon anda mesti telah di \"root\" kan. Tekan skrin untuk abaikan mesej ini.</string>
+    </resources>
