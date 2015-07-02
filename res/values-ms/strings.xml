@@ -38,4 +38,110 @@
     <string name="restore_settings">Simpan semula seting</string>
 
     <string name="warning_root_required">Fon anda mesti telah di \"root\" kan. Tekan skrin untuk abaikan mesej ini.</string>
+    <string name="warning_low_space">Ruang kurang: %s</string>
+
+    <string name="list_header_today">Hari Ini</string>
+    <string name="list_header_yesterday">Semalam</string>
+    <string name="queued">Dibariskan</string>
+    <string name="no_connection">Tidak ada sambungan</string>
+    <string name="add_to_contacts">Tambah kepada kenalan</string>
+
+    <string name="menu_add_to_dropbox">Tambah kepada Dropbox</string>
+    <string name="menu_add_note">Tambah nota</string>
+    <string name="menu_edit_note">Edit nota</string>
+    <string name="menu_delete">Padam</string>
+    <string name="menu_share">Berkongsi</string>
+    <string name="menu_convert_to_mp3">Tukar ke MP3</string>
+    <string name="menu_convert_to_amr">Tukar ke AMR</string>
+    <string name="menu_convert_to_wav">Tukar ke WAV</string>
+    <string name="menu_get_info">Dapat info</string>
+    <string name="menu_cancel_task">Batalkan tugas</string>
+    <string name="menu_encrypt">Sulitkan</string>
+    <string name="menu_decrypt">Menyahsulit</string>
+
+    <string name="file_name">Nama Fail</string>
+    <string name="sample_rate">Kadar sampel</string>
+    <string name="sample_rate_hz">HZ</string>
+    <string name="recording_type">Jenis rakaman</string>
+    <string name="recording_type_mono">Mono</string>
+    <string name="recording_type_stereo">Stereo</string>
+    <string name="file_size">Saiz fail</string>
+    <string name="terabyte">TB</string>
+    <string name="gigabyte">GB</string>
+    <string name="megabyte">MB</string>
+    <string name="kilobyte">KB</string>
+    <string name="bytes">bytes</string>
+    <string name="note">Nota</string>
+
+    <string name="contact_name">Nama kenalan</string>
+    <string name="phone_number">Nombor telefon</string>
+
+    <string name="confirm_delete_message">Adakah anda pasti nak padamkan rakaman ini?</string>
+    <string name="confirm_delete_several_title">Mengesahkan padaman</string>
+    <string name="confirm_delete_several_message">Anda telah pilih %d rakaman. Adakah anda pasti nak padamkan?</string>
+
+    <string name="share_via">Kongsi dengan</string>
+    <string name="recorded_calls">Rakaman panggilan</string>
+
+    <string name="settings_open_unlocker">Membuka unlocker</string>
+    <string name="settings_recording">Rakaman</string>
+    <string name="settings_folders_and_files">Folder dan fail</string>
+    <string name="settings_ui_and_appearance">Antara muka dan Rupa</string>
+    <string name="settings_security">Keselamatan</string>
+    <string name="settings_cloud">Awan</string>
+    <string name="settings_audio_player">Pemain audio</string>
+    <string name="settings_debug">Nyahpepijat</string>
+    <string name="settings_about">Tentang</string>
+
+    <string name="license_status">Status lesen</string>
+    <string name="license_check_pending">Menunggu pemeriksaan lesen</string>
+    <string name="license_check_failed">Gagal menyahkan lesen</string>
+    <string name="license_check_failed_summary">Tekan sini untuk perincian</string>
+    <string name="license_verified">Lesen disahkan</string>
+    <string name="license_verified_summary">Tekan untuk simpan</string>
+    <string name="license_help">Bantu</string>
+    <string name="license_signature_verification_failed">Tandatangan pengesahan gagal</string>
+    <string name="license_error_message">Ralat #%1$s: %2$s</string>
+    <string name="license_trial">Versi percubaan akan tamat %s</string>
+    <string name="license_unknown_error">Ralat Tak Diketahui</string>
+    <string name="license_not_market_managed">Versi ini belum diterbitkan pada Play Store</string>
+    <string name="license_incorrect_response">Salah lesen respon dari Play Store</string>
+    <string name="license_error_contacting_server">Tak boleh hubungi server</string>
+    <string name="license_server_error">Server ralat</string>
+    <string name="license_over_quota">Terlalu banyak permintaan dari peranti ini</string>
+    <string name="license_trial_expired">Masa percubaan telah luput</string>
+    <string name="license_trial_expired_summary">Tolong uninstall versi ini sebelum membeli versi penuh</string>
+    <string name="buy_full_version">Beli versi penuh</string>
+    <string name="buy_full_version_summary">Versi ini akan luput %s</string>
+
+    <string name="recording_calls_switch">Merakam panggilan</string>
+    <string name="category_main">Utama</string>
+    <string name="device">Peranti</string>
+    <string name="select_your_device">Pilih peranti anda</string>
+    <string name="device_change_settings_empty">Konfigurasi untuk peranti ini telah diubahsuaikan</string>
+    <string name="device_root_is_required">Root diperlukan</string>
+    <string name="device_root_is_required_summary">Untuk qualiti yang lebih baik, root diperlukan</string>
+    <string name="device_other">Lain</string>
+    <string name="recording_method">Kaedah rakaman</string>
+    <string name="recording_method_api">Standard API</string>
+    <string name="recording_method_api_settings">Seting untuk Standard API kaedah rakaman</string>
+    <string name="recording_method_caf">CAF</string>
+    <string name="recording_method_caf_settings">Seting untuk CAF kaedah rakaman</string>
+    <string name="recording_method_alsa">ALSA</string>
+    <string name="recording_method_alsa_settings">Seting untuk ALSA kaedah rakaman</string>
+    <string name="recording_method_msm">MSM</string>
+    <string name="recording_method_msm_settings">Seting untuk MSM kaedah rakaman</string>
+    <string name="category_actions">Tindakan</string>
+    <string name="action_for_incoming">Tindakan untuk panggilan masuk</string>
+    <string name="action_for_outgoing">Tindakan untuk panggilan keluar</string>
+    <string name="action_record_all">Rakam semua</string>
+    <string name="action_do_not_record">Jangan rakam</string>
+    <string name="action_record_contacts">Rekod kenalan</string>
+    <string name="action_record_non_contacts">Rekod bukan kenalan</string>
+    <string name="call_confirm">Panggilan sah</string>
+    <string name="call_confirm_summary">Tunjuk pengesahan dialog sebelum panggilan</string>
+    <string name="after_call_actions_dialog">Lepas panggilan dialog tindakan</string>
+    <string name="after_call_actions_dialog_summary">Tanya apa hendak buat selepas panggilan</string>
+    <string name="vibrate_on_call">Bergetar bila panggilan bermula/akhir</string>
+    <string name="exceptions">Pengecualian</string>
     </resources>
