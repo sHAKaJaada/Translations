@@ -523,4 +523,7 @@
     <string name="menu_convert_to_wav">Канверт. у WAV</string>
     <string name="disable_autoplay">Адключыць аўтапрайграванне</string>
     <string name="disable_autoplay_summary">Не пачынаць прайграванне аўтаматычна па кліку на запіс</string>
+    <string name="dialog_grant_permission_title">Падаць доступ</string>
+    <string name="dialog_grant_permission_message">Абярыце тую ж самую дырэкторыю ў новым акне, каб падаць доступ</string>
+    <string name="toast_wrong_directory_selected">Вы паказалі не правільную дырэкторыю. Паспрабуйце зноў.</string>
     </resources>
