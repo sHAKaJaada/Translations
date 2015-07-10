@@ -690,4 +690,5 @@
     <string name="tamil_translation_summary">Ashish Sharma</string>
     <string name="greek_translation">Гръцки превод</string>
     <string name="greek_translation_summary">Lefteris (SomniusX) Eliades</string>
-</resources>
+<string name="menu_add_to_drive">Добави в Google Диск</string>
+    </resources>
