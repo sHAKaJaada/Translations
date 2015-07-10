@@ -526,4 +526,9 @@
     <string name="dialog_grant_permission_title">กำหนดสิทธิ์</string>
     <string name="dialog_grant_permission_message">เลือกไดเรคทอรี่เดียวกันในหน้าต่างใหม่เพื่อกำหนดสิทธิ์</string>
     <string name="toast_wrong_directory_selected">คุณเลือกผิดไดเรคทอรี่ โปรดลองใหม่อีกครั้ง</string>
+    <string name="menu_add_to_drive">เพิ่มไปยังไดรฟ์</string>
+    <string name="sign_in">เข้าใช้งาน</string>
+    <string name="sign_out_google_drive">ลงชื่อออกจาก Google Drive</string>
+    <string name="notify_uploading_drive">กำลังอัพโหลดไปยังไดรฟ์</string>
+    <string name="notify_converting_to_wav">แปลงเป็น WAV</string>
     </resources>
