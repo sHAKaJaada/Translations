@@ -526,4 +526,9 @@
     <string name="dialog_grant_permission_title">Acordă permisiunea</string>
     <string name="dialog_grant_permission_message">Selectează același director într-o fereastră nouă pentru a acorda permisiunea</string>
     <string name="toast_wrong_directory_selected">Ai selectat un director greșit. Încearcă iar.</string>
+    <string name="menu_add_to_drive">Adaugă în Drive</string>
+    <string name="sign_in">Logare</string>
+    <string name="sign_out_google_drive">Delogare din Google Drive</string>
+    <string name="notify_uploading_drive">Urcă în Drive</string>
+    <string name="notify_converting_to_wav">Convertește în WAV</string>
     </resources>
