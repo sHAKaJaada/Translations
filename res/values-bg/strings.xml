@@ -42,7 +42,7 @@
     
 
     <!-- Warnings -->
-    <string name="warning_root_required">Трябва да има root права. Задръжте, за да изчистите съобщението.</string>
+    <string name="warning_root_required">Изискват се Root права. Задръжте, за да изчистите съобщението.</string>
     <string name="warning_low_space">Малко пространство: %s</string>
 
     <!-- List -->
