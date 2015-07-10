@@ -175,7 +175,7 @@
     <string name="volume_control_summary">Tx: %1$s, Rx: %2$s</string>
     <string name="volume_control_overall">עוצמת קול כללית</string>
     <string name="volume_control_tx">sTx</string>
-    <string name="volume_control_rx">sRx</string>
+    <string name="volume_control_rx">Rx</string>
     <string name="sample_rate_8000">8000 Hz (ברירת מחדל)</string>
     <string name="sample_rate_11025">11025 Hz</string>
     <string name="sample_rate_16000">16000 Hz</string>
