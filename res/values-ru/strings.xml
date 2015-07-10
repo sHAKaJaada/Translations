@@ -526,4 +526,9 @@
     <string name="dialog_grant_permission_message">Выберите ту же самую директорию в новом окне, чтобы предоставить доступ</string>
     <string name="toast_wrong_directory_selected">Вы указали не правильную директорию. Попробуйте снова.</string>
     <string name="dialog_grant_permission_title">Предоставить доступ</string>
+    <string name="menu_add_to_drive">Добавить на Диск</string>
+    <string name="sign_in">Войти</string>
+    <string name="sign_out_google_drive">Выйти из Google Drive</string>
+    <string name="notify_uploading_drive">Идет загрузка на Диск</string>
+    <string name="notify_converting_to_wav">Конвертирование в WAV</string>
     </resources>
