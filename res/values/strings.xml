@@ -54,6 +54,7 @@
 
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">Add to Dropbox</string>
+    <string name="menu_add_to_drive">Add to Drive</string>
     <string name="menu_add_note">Add note</string>
     <string name="menu_edit_note">Edit note</string>
     <string name="menu_delete">Delete</string>
@@ -311,8 +312,9 @@
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">Cloud provider</string>
     <string name="cloud_provider_dropbox">Dropbox</string>
-    <string name="sign_in_dropbox">Sign in Dropbox</string>
+    <string name="sign_in">Sign in</string>
     <string name="sign_out_dropbox">Sign out of Dropbox</string>
+    <string name="sign_out_google_drive">Sign out of Google Drive</string>
     <string name="cloud_provider_google_drive">Google Drive</string>
     <string name="cloud_common_settings">Common</string>
     <string name="cloud_wifi_only">Wi-Fi only</string>
@@ -323,8 +325,10 @@
 
     <!-- Notification -->
     <string name="notify_uploading_dropbox">Uploading to Dropbox</string>
+    <string name="notify_uploading_drive">Uploading to Drive</string>
     <string name="notify_converting_to_amr">Converting to AMR</string>
     <string name="notify_converting_to_mp3">Converting to MP3</string>
+    <string name="notify_converting_to_wav">Converting to WAV</string>
     <string name="notify_encrypting">Encrypting</string>
     <string name="notify_decrypting">Decrypting</string>
     <string name="notify_waiting_for_calls">Waiting for calls</string>
