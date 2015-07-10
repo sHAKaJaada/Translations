@@ -526,4 +526,9 @@
     <string name="dialog_grant_permission_title">הענק הרשאה</string>
     <string name="dialog_grant_permission_message">בחר את אותה הספריה בחלון חדש כדי להעניק את ההרשאה</string>
     <string name="toast_wrong_directory_selected">בחר ספריה שגויה. נסה שנית.</string>
+    <string name="menu_add_to_drive">הוסף לכונן</string>
+    <string name="sign_in">התחבר</string>
+    <string name="sign_out_google_drive">התנתק מגוגל דרייב</string>
+    <string name="notify_uploading_drive">מעלה לכונן</string>
+    <string name="notify_converting_to_wav">ממיר לWAV</string>
     </resources>
