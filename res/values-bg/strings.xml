@@ -691,4 +691,8 @@
     <string name="greek_translation">Гръцки превод</string>
     <string name="greek_translation_summary">Lefteris (SomniusX) Eliades</string>
 <string name="menu_add_to_drive">Добави в Google Диск</string>
+    <string name="sign_in">Вписване</string>
+    <string name="sign_out_google_drive">Отписване от Google Диск</string>
+    <string name="notify_uploading_drive">Качване в Google Диск</string>
+    <string name="notify_converting_to_wav">Конвертиране в WAV</string>
     </resources>
