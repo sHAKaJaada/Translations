@@ -526,4 +526,9 @@
     <string name="dialog_grant_permission_message">Pre získanie povolenia vyberte rovnaký adresár v novom okne</string>
     <string name="dialog_grant_permission_title">Získať povolenie</string>
     <string name="toast_wrong_directory_selected">Vybrali ste nesprávny adresár. Skúste znova.</string>
+    <string name="menu_add_to_drive">Pridať na Disk Google</string>
+    <string name="sign_out_google_drive">Odhlásiť sa z Disku Google</string>
+    <string name="sign_in">Prihlásiť sa</string>
+    <string name="notify_uploading_drive">Odovzdať na Disk Google</string>
+    <string name="notify_converting_to_wav">Konvertovanie do WAV</string>
     </resources>
