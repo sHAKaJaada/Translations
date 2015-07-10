@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">Conditions d\'utilisation</string>
@@ -515,4 +515,22 @@
     <string name="tamil_translation_summary">par Ashish Sharma</string>
     <string name="greek_translation">Traduction grèque</string>
     <string name="greek_translation_summary">par Lefteris (SomniusX) Eliades</string>
-</resources>
+<string name="warning_low_space">Espace faible : %s</string>
+
+    <string name="menu_add_to_drive">Ajouter à Drive</string>
+    <string name="menu_convert_to_wav">Convertir en WAV</string>
+    <string name="dialog_grant_permission_title">Autoriser</string>
+    <string name="dialog_grant_permission_message">Sélectionner le même répertoire dans la nouvelle fenêtre pour autoriser</string>
+    <string name="toast_wrong_directory_selected">Vous avez sélectionné un mauvais répertoire. Réessayez.</string>
+    <string name="sign_in">Se connecter</string>
+    <string name="sign_out_google_drive">Se déconnecter de Google Drive</string>
+    <string name="notify_uploading_drive">Chargement dans Drive</string>
+    <string name="notify_converting_to_wav">Convertir en WAV</string>
+    <string name="disable_autoplay">Désactiver la lecture automatique</string>
+    <string name="disable_autoplay_summary">Ne pas démarrer la lecture automatiquement en cliquant sur un enregistrement</string>
+    <string name="hide_all_notifications">Cacher toutes les notifications</string>
+    <string name="hide_all_notifications_summary">Utilisez cette option à vos risques et périls</string>
+
+    <string name="send_sms">Envoyer un SMS</string>
+
+    </resources>
