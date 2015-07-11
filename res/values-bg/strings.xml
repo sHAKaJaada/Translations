@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">CallRecorder</string>
+    <string name="app_name">Call Recorder</string>
     <string name="terms_of_use">Условия за ползване</string>
     <string name="terms_of_use_message">Използвайки приложението, вие се съгласявате с &lt;a href=http://rec.sh/terms&gt;условията за ползване&lt;/a&gt; на CallRecorder.</string>
 
@@ -25,8 +25,8 @@
     <string name="action_search">Търсене</string>
     <string name="action_sort">Подредба</string>
     <string name="action_settings">Настройки</string>
-    <string name="action_refresh">Опресняване</string>
-    <string name="action_delete">Изтриване</string>
+    <string name="action_refresh">Опресни</string>
+    <string name="action_delete">Изтрий</string>
     <string name="action_add_star">Отбележи като важно</string>
     <string name="action_remove_star">Махни от важни</string>
     <string name="action_share">Споделяне</string>
@@ -66,7 +66,7 @@
     <string name="menu_decrypt">Декриптирай</string>
 
     <!-- List -> Get info dialog -->
-    <string name="file_name">Име на файла</string>
+    <string name="file_name">Файл</string>
     <string name="sample_rate">Честота</string>
     <string name="sample_rate_hz">Hz</string>
     
@@ -81,8 +81,8 @@
     
 
     <!-- List -> Get info dialog -> Edit -->
-    <string name="contact_name">Име на контакт</string>
-    <string name="phone_number">Телефонен номер</string>
+    <string name="contact_name">Контакт</string>
+    <string name="phone_number">Номер</string>
 
     <!-- List -> Confirm delete dialog -->
     <string name="confirm_delete_message">Сигурни ли сте, че искате да изтриете този запис?</string>
@@ -96,16 +96,16 @@
     <!--  Settings -> Headers -->
     
     <string name="settings_recording">Записване</string>
-    <string name="settings_folders_and_files">Файлове и папки</string>
+    <string name="settings_folders_and_files">Файлове и Папки</string>
     <string name="settings_ui_and_appearance">Интерфейс</string>
     <string name="settings_security">Сигурност</string>
     
     <string name="settings_audio_player">Аудио плеър</string>
-    <string name="settings_debug">Отстраняване на неизправности</string>
-    <string name="settings_about">За програмата</string>
+    <string name="settings_debug">Неизправности</string>
+    <string name="settings_about">За Програмата</string>
 
     <!-- Settings -> License -->
-    <string name="license_status">Лиценз статус</string>
+    <string name="license_status">Лицензен статус</string>
     
     
     
@@ -137,7 +137,7 @@
     <string name="device_other">Друго устройство</string>
     <string name="recording_method">Метод на записване</string>
     <string name="recording_method_api">Стандартно API</string>
-    <string name="recording_method_api_settings">Настройки на Стандартно API за записване</string>
+    <string name="recording_method_api_settings">Настройки при запис с API</string>
     <string name="recording_method_caf">CAF</string>
     <string name="recording_method_caf_settings">Настройки при запис с CAF</string>
     <string name="recording_method_alsa">ALSA</string>
@@ -160,7 +160,7 @@
     
     
     
-    <string name="delay_before_start_recording">Забавяне преди записването</string>
+    <string name="delay_before_start_recording">Изчакване преди записването</string>
     
     
     
@@ -298,11 +298,11 @@
     
     
     
-    <string name="category_main_screen">Главен екран</string>
+    <string name="category_main_screen">Основен екран</string>
     
     
     <string name="low_space_warning">Известяване при малко пространство</string>
-    <string name="low_space_warning_summary">Предупреждаване за малко простванство в MB</string>
+    <string name="low_space_warning_summary">Предупреждение за малко пространство в MB</string>
 
     <!-- Settings -> Cloud -->
     
@@ -332,27 +332,27 @@
     <string name="password_has_been_changed">Паролата е променена</string>
 
     <!-- Settings -> Security -->
-    <string name="category_encryption">Енкрипция</string>
+    <string name="category_encryption">Кодировка</string>
     <string name="category_application">Приложение</string>
     <string name="create_new_key">Създай нов ключ</string>
     
     
-    <string name="change_password">Смяна на паролата</string>
+    <string name="change_password">Смяна на парола</string>
     
     
     <string name="enter_old_password">Въведете старата парола</string>
     <string name="enter_new_password">Въведете нова парола</string>
     <string name="re_enter_new_password">Повторете паролата</string>
-    <string name="require_password">Изисква парола</string>
+    <string name="require_password">Защита с парола</string>
     <string name="require_password_summary">Изисква парола за стартиране на приложението</string>
     
-    <string name="lock_after">Заключи след</string>
+    <string name="lock_after">Заключване след</string>
     <string name="lock_after_exit">Изход</string>
     <string name="lock_after_1_minute">1 мин</string>
     <string name="lock_after_3_minutes">3 мин</string>
     <string name="lock_after_5_minutes">5 мин</string>
     <string name="lock_after_10_minutes">10 мин</string>
-    <string name="app_admin">Добави в Администратори на у-вото</string>
+    <string name="app_admin">Добави в администратори на устройството</string>
     
     
     <string name="aes_128bit">128-bit AES (Бързо)</string>
@@ -375,7 +375,7 @@
     <string name="android_amr_decoder_summary">Използване на вградения инструмент за възпроизвеждане на AMR</string>
 
     <!--Settings -> Debug-->
-    <string name="root_access">Root достъп</string>
+    <string name="root_access">Root права</string>
     <string name="root_access_no">Не</string>
     <string name="root_access_yes">Да</string>
     <string name="dual_sim_phone">2 SIM карти</string>
@@ -531,7 +531,7 @@
     <string name="menu_convert_to_amr">Конвертирaй в AMR</string>
     <string name="menu_convert_to_wav">Конвертирaй в WAV</string>
     <string name="menu_cancel_task">Певкрати задачата</string>
-    <string name="recording_type">Тип на записване</string>
+    <string name="recording_type">Тип на записа</string>
     <string name="note">Бележка</string>
 
     <string name="confirm_delete_several_title">Потвърждение за изтриване</string>
@@ -558,7 +558,7 @@
     <string name="license_trial_expired_summary">Деинсталирайте тази версия преди да купите пълната</string>
     <string name="device_change_settings_empty">Приложението вече е настроено</string>
     <string name="device_root_is_required">Изискват се Root права</string>
-    <string name="device_root_is_required_summary">Изисква се Root за по-добро качество на това у-во</string>
+    <string name="device_root_is_required_summary">Изискват се Root права за по-добро качество на това устройство</string>
     <string name="recording_method_msm">MSM</string>
     <string name="recording_method_msm_settings">Настройки при запис с MSM</string>
     <string name="exceptions_summary">Задаване на специфични действия относно контакти, групи или номера</string>
@@ -596,7 +596,7 @@
     <string name="dialog_grant_permission_title">Разреши достъп</string>
     <string name="dialog_grant_permission_message">Изберете същата директория в новия прозорец, за да разрешите достъпа</string>
     <string name="toast_wrong_directory_selected">Избрали сте грешна директория. Опирайте отново.</string>
-    <string name="settings_filename">Име на файла</string>
+    <string name="settings_filename">Файл</string>
     <string name="pattern_call_timestamp">времеви отпечатък (unix)</string>
     <string name="theme">Тема</string>
     <string name="theme_light">Светла</string>
@@ -623,12 +623,12 @@
     <string name="sign_out_dropbox">Отписване от Dropbox</string>
     <string name="cloud_provider_google_drive">Google Диск</string>
     <string name="cloud_common_settings">Общи настройки</string>
-    <string name="cloud_upload_starred">Качи звездните</string>
-    <string name="cloud_upload_starred_summary">Качва записите отбелязани със звезда</string>
+    <string name="cloud_upload_starred">Качи важните</string>
+    <string name="cloud_upload_starred_summary">Качва записите отбелязани като важни (със звезда)</string>
 
     <string name="notify_uploading_dropbox">Качване в Dropbox</string>
     <string name="notify_converting_to_amr">Конвертиране в AMR</string>
-    <string name="notify_converting_to_mp3">Конвертране в MP3</string>
+    <string name="notify_converting_to_mp3">Конвертиране в MP3</string>
     <string name="notify_encrypting">Криптиране</string>
     <string name="notify_decrypting">Декриптиране</string>
     <string name="notify_waiting_for_calls">Изчакване на обаждания</string>
