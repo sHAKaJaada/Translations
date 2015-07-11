@@ -526,4 +526,12 @@
     <string name="menu_convert_to_wav">转换成 WAV 格式</string>
     <string name="disable_autoplay">禁用自动播放</string>
     <string name="disable_autoplay_summary">点击录音时不要自动播放</string>
+    <string name="menu_add_to_drive">添加到云端硬盘</string>
+    <string name="dialog_grant_permission_title">授权许可</string>
+    <string name="dialog_grant_permission_message">在新窗口中选择同样的目录来授予权限</string>
+    <string name="toast_wrong_directory_selected">您选择了错误的电话簿，请重新选择。</string>
+    <string name="sign_in">登录</string>
+    <string name="sign_out_google_drive">登出谷歌云端硬盘</string>
+    <string name="notify_uploading_drive">正在上传至云端硬盘</string>
+    <string name="notify_converting_to_wav">转换成 WAV 格式</string>
     </resources>
