@@ -516,4 +516,19 @@
     <string name="greek_translation">Griekse vertaling</string>
     <string name="greek_translation_summary">door Lefteris (SomniusX) Eliades</string>
 <string name="menu_convert_to_wav">Converteer naar WAV</string>
+    <string name="menu_add_to_drive">Toevoegen aan Drive</string>
+    <string name="dialog_grant_permission_title">Geef toestemming</string>
+    <string name="dialog_grant_permission_message">Selecteer de zelfde map in een nieuw venster om toestemming te geven</string>
+    <string name="toast_wrong_directory_selected">U heeft de verkeerde map gekozen. Probeer het opnieuw.</string>
+    <string name="sign_in">Inloggen</string>
+    <string name="sign_out_google_drive">Uitloggen van Google Drive</string>
+    <string name="notify_uploading_drive">Uploading naar Drive</string>
+    <string name="notify_converting_to_wav">Converteren naar WAV</string>
+    <string name="disable_autoplay">Autoplay uitschakelen</string>
+    <string name="disable_autoplay_summary">Niet automatisch afspelen na het klikken van een opname</string>
+    <string name="hide_all_notifications">Verberg alle notificaties</string>
+    <string name="hide_all_notifications_summary">Gebruik deze optie op eigen risico</string>
+
+    <string name="send_sms">Verstuur SMS</string>
+
     </resources>
