@@ -529,4 +529,12 @@
 
     <string name="send_sms">Αποστολή SMS</string>
 
+    <string name="menu_add_to_drive">Προσθήκη στο Drive</string>
+    <string name="dialog_grant_permission_title">Απόδοση δικαιωμάτων</string>
+    <string name="dialog_grant_permission_message">Επιλέξτε τον ίδιο φάκελο στο νέο παράθυρο για απόδοση των δικαιωμάτων</string>
+    <string name="toast_wrong_directory_selected">Έχετε επιλέξει λάθος φάκελο. Προσπαθήστε ξανά.</string>
+    <string name="sign_in">Συνδεθείτε</string>
+    <string name="sign_out_google_drive">Αποσύνδεση από Google Drive</string>
+    <string name="notify_uploading_drive">Ανέβασμα στο Drive</string>
+    <string name="notify_converting_to_wav">Μετατροπή σε WAV</string>
     </resources>
