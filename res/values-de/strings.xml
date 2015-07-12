@@ -526,4 +526,9 @@
 
     <string name="send_sms">Sende SMS</string>
 
+    <string name="menu_add_to_drive">Zu Google Drive hinzufügen</string>
+    <string name="sign_in">Einloggen</string>
+    <string name="sign_out_google_drive">Aus Google Drive ausloggen</string>
+    <string name="notify_uploading_drive">Auf Google Drive hochladen</string>
+    <string name="notify_converting_to_wav">Konvertierung nach WAV</string>
     </resources>
