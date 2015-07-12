@@ -526,4 +526,9 @@
     <string name="dialog_grant_permission_title">Udělit oprávnění</string>
     <string name="dialog_grant_permission_message">Pro udělení oprávnění vyber stejný adresář v novém okně</string>
     <string name="toast_wrong_directory_selected">Zvolil(a) jsi špatný adresář. Zkus to znovu.</string>
+    <string name="notify_converting_to_wav">Konvertuji do WAV</string>
+    <string name="menu_add_to_drive">Přidat do G.Drive</string>
+    <string name="sign_in">Přihlásit</string>
+    <string name="sign_out_google_drive">Odhlásit se z Google Drive</string>
+    <string name="notify_uploading_drive">Nahrávám do G.Drive</string>
     </resources>
