@@ -529,4 +529,9 @@
     <string name="dialog_grant_permission_title">अधिकार मुहैय्या करें</string>
     <string name="dialog_grant_permission_message">अनुमति देने के लिए एक नई विंडो में एक ही निर्देशिका का चयन करें</string>
     <string name="toast_wrong_directory_selected">आपने गलत निर्देशिका का चयन किया है, दुबारा प्रयास करें</string>
+    <string name="menu_add_to_drive">Drive (ड्राइव) में डालें</string>
+    <string name="sign_in">साइन इन करें</string>
+    <string name="sign_out_google_drive">Google Drive (गूगल ड्राइव) से साइन आउट करें</string>
+    <string name="notify_uploading_drive">Drive (ड्राइव) में अपलोड करें</string>
+    <string name="notify_converting_to_wav">WAV में तब्दील किया जा रहा है</string>
     </resources>
