@@ -540,4 +540,12 @@
 
     <string name="send_sms">SMS 보내기</string>
 
+    <string name="menu_add_to_drive">드라이브에 추가</string>
+    <string name="dialog_grant_permission_title">권한 부여</string>
+    <string name="dialog_grant_permission_message">새 창에서 동일한 디렉토리를 선택하여 권한을 부여하십시오</string>
+    <string name="toast_wrong_directory_selected">디렉토리를 잘못 선택하였습니다. 다시 시도하십시오.</string>
+    <string name="sign_in">로그인</string>
+    <string name="sign_out_google_drive">Google 드라이브에서 로그아웃</string>
+    <string name="notify_uploading_drive">드라이브에 업로드 중</string>
+    <string name="notify_converting_to_wav">WAV로 변환 중</string>
     </resources>
