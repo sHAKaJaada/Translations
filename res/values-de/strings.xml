@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">CallRecorder</string>
+    <string name="app_name">Call Recorder</string>
     <string name="terms_of_use">Nutzungsbedingungen</string>
     <string name="terms_of_use_message">Mit der Nutzung der App stimmen Sie den &lt;a href=http://rec.sh/terms&gt;Nutzungsbedingungen&lt;/a&gt; von CallRecorder zu.</string>
 
@@ -30,7 +30,7 @@
     <string name="action_add_star">Markierung hinzufügen</string>
     <string name="action_remove_star">Markierung entfernen</string>
     <string name="action_share">Teilen</string>
-    <string name="action_cancel_tasks">Aufgabe abbrechen</string>
+    <string name="action_cancel_tasks">Aufgaben abbrechen</string>
     <string name="action_select_all">Alle auswählen</string>
     <string name="sort_by_date">Nach Datum</string>
     <string name="sort_by_contact">Nach Kontakt</string>
@@ -319,8 +319,8 @@
 
     <!-- Notification -->
     <string name="notify_uploading_dropbox">Hochladen in Dropbox</string>
-    <string name="notify_converting_to_amr">Konvertierung in AMR</string>
-    <string name="notify_converting_to_mp3">Konvertierung in MP3</string>
+    <string name="notify_converting_to_amr">Konvertiere nach AMR</string>
+    <string name="notify_converting_to_mp3">Konvertiere nach MP3</string>
     <string name="notify_encrypting">Verschlüsseln</string>
     <string name="notify_decrypting">Entschlüsseln</string>
     <string name="notify_waiting_for_calls">Warten auf Anrufe</string>
@@ -530,5 +530,5 @@
     <string name="sign_in">Einloggen</string>
     <string name="sign_out_google_drive">Aus Google Drive ausloggen</string>
     <string name="notify_uploading_drive">Auf Google Drive hochladen</string>
-    <string name="notify_converting_to_wav">Konvertierung nach WAV</string>
+    <string name="notify_converting_to_wav">Konvertiere nach WAV</string>
     </resources>
