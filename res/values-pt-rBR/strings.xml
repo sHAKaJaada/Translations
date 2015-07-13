@@ -525,4 +525,44 @@
 
     <string name="chipset_type_msm8260">Qualcomm MSM8260</string>
     <string name="menu_convert_to_wav">Converter para WAV</string>
+    <string name="dialog_grant_permission_title">Conceder permissão</string>
+    <string name="dialog_grant_permission_message">Selecione a mesma pasta em uma nova janela para conceder a permissão</string>
+    <string name="toast_wrong_directory_selected">Você selecionou a pasta errada. Tente novamente.</string>
+    <string name="long_press_action">Ação do toque longo</string>
+    <string name="sign_out_dropbox">Sair do Dropbox</string>
+    <string name="sign_in">Entrar</string>
+    <string name="sign_out_google_drive">Sair do Google Drive</string>
+    <string name="notify_uploading_dropbox">Enviando ao Dropbox</string>
+    <string name="notify_uploading_drive">Enviando ao Drive</string>
+    <string name="notify_converting_to_wav">Convertendo para WAV</string>
+    <string name="app_admin_explanation">O Call Recorder utiliza apenas a proteção contra desinstalação dos recursos de administração do dispositivo</string>
+    <string name="use_built_in_player">Utilizar player do dispositivo</string>
+    <string name="disable_autoplay">Desabilitar o autoplay</string>
+    <string name="use_proximity_sensor_summary">Desabilitar a tela pelo sensor de proximidade durante a reprodução</string>
+    <string name="send_logs_to_the_developer">Enviar registros para o desenvolvedor</string>
+    <string name="hide_all_notifications">Esconder todas as notificações</string>
+    <string name="hide_all_notifications_summary">Utilize essa opção por sua conta e risco</string>
+
+    <string name="button_choose">Escolher</string>
+    <string name="button_call">Ligar</string>
+    <string name="button_buy">Comprar</string>
+    <string name="button_create">Criar</string>
+    <string name="button_delete">APagar</string>
+    <string name="button_restore">Restaurar</string>
+    <string name="button_keep">Manter</string>
+    <string name="button_play">Reproduzir</string>
+    <string name="button_pause">Pausar</string>
+    <string name="button_delete_wait">Apagar (%d)</string>
+    <string name="decline">Recusar</string>
+    <string name="accept">Aceitar</string>
+    <string name="call_incoming">Recebidas</string>
+    <string name="call_outgoing">Enviadas</string>
+    <string name="action_mode_selected">%d selecionado</string>
+    <string name="toast_recording_is_off">A gravação está desligada</string>
+    <string name="toast_recording_is_on">A gravação está ligada</string>
+    <string name="toast_file_deleted">O arquivo foi apagado com sucesso</string>
+
+    <string name="open_contact">Abrir contato</string>
+    <string name="send_sms">Enviar SMS</string>
+
     </resources>
