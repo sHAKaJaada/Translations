@@ -543,4 +543,9 @@
     <string name="dialog_grant_permission_title">Надати дозвіл</string>
     <string name="dialog_grant_permission_message">Виберіть ту ж саму папку в новому вікні, аби надати дозвіл</string>
     <string name="toast_wrong_directory_selected">Ви вибрали не ту папку, спробуйте ще.</string>
+    <string name="menu_add_to_drive">Додати до диску</string>
+    <string name="sign_in">Увійти</string>
+    <string name="sign_out_google_drive">Вийти з диска Google</string>
+    <string name="notify_uploading_drive">Відвантажити на диск</string>
+    <string name="notify_converting_to_wav">Сконвертувати у WAV</string>
     </resources>
