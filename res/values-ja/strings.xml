@@ -106,7 +106,7 @@
 
     <!-- Settings -> License -->
     <string name="license_status">ライセンスステータス</string>
-    <string name="license_check_pending">ライセンスチェック待ち</string>
+    <string name="license_check_pending">ライセンスチェック未解決</string>
     <string name="license_check_failed">ライセンスの確認に失敗しました</string>
     <string name="license_check_failed_summary">詳細はここを押してください</string>
     <string name="license_verified">ライセンス確認済み</string>
@@ -318,7 +318,7 @@
     <string name="cloud_upload_starred_summary">録音をお気に入りに追加した時にクラウドへアップロードします</string>
 
     <!-- Notification -->
-    <string name="notify_uploading_dropbox">Dropbox へアップロード</string>
+    <string name="notify_uploading_dropbox">Dropbox へアップロード中</string>
     <string name="notify_converting_to_amr">AMR へ変換中</string>
     <string name="notify_converting_to_mp3">MP3 へ変換中</string>
     <string name="notify_encrypting">暗号化中</string>
@@ -524,4 +524,9 @@
 
     <string name="send_sms">SMSを送信</string>
 
+    <string name="menu_add_to_drive">Driveへ追加</string>
+    <string name="sign_in">サインイン</string>
+    <string name="sign_out_google_drive">Google Driveからサインアウト</string>
+    <string name="notify_uploading_drive">Driveへアップロード中</string>
+    <string name="notify_converting_to_wav">WAVへ変換中</string>
     </resources>
