@@ -529,4 +529,12 @@
 
     <string name="send_sms">SMS ਭੇਜੋ</string>
 
+    <string name="menu_add_to_drive">Drive (ਡਰਾਇਵ) ਵਿਚ ਪਾਓ</string>
+    <string name="dialog_grant_permission_title">ਅਧਿਕਾਰ ਦਵੋ</string>
+    <string name="dialog_grant_permission_message">ਇੱਕ ਨਵੀ ਵਿੰਡੋ ਵਿਚ ਉਸੇ ਡਾਇਰੈਕਟਰੀ ਦੀ ਚੋਣ ਕਰੋ, ਅਧਿਕਾਰ ਦੇਣ ਲਈ</string>
+    <string name="toast_wrong_directory_selected">ਤੁਸੀਂ ਗਲਤ ਨਿਰਦੇਸ਼ਿਕਾ ਨੂੰ ਚੁਣਿਆ ਹੈ ਫਿਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜੀ</string>
+    <string name="sign_in">ਸਾਇਨ ਇਨ ਕਰੋ</string>
+    <string name="sign_out_google_drive">ਗੂਗਲ ਡਰਾਈਵ (Google ਡਰਾਇਵ) ਤੋ ਸੀਏਨ ਆਉਟ ਕਰੋ ਜੀ</string>
+    <string name="notify_uploading_drive">Drive (ਡਰਾਈਵ) ਅੱਪਲੋਡ ਕਰੋ ਜੀ</string>
+    <string name="notify_converting_to_wav">WAV ਵਿੱਚ ਬਦਲ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ</string>
     </resources>
