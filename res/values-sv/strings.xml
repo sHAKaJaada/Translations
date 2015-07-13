@@ -526,4 +526,9 @@
     <string name="dialog_grant_permission_title">Ge tillstånd</string>
     <string name="dialog_grant_permission_message">Välj samma katalog i ett nytt fönster för att ge tillståndet</string>
     <string name="toast_wrong_directory_selected">Fel katalog valdes. Försök igen.</string>
+    <string name="menu_add_to_drive">Lägg till i Drive</string>
+    <string name="sign_in">Logga in</string>
+    <string name="sign_out_google_drive">Logga ut ur Google Drive</string>
+    <string name="notify_uploading_drive">Laddar upp till Drive</string>
+    <string name="notify_converting_to_wav">Konverterar till WAV</string>
     </resources>
