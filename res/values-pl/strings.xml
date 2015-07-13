@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">Warunki korzystania</string>
@@ -515,4 +515,20 @@
     <string name="tamil_translation_summary">Ashish Sharma</string>
     <string name="greek_translation">Tłumaczenie na język grecki</string>
     <string name="greek_translation_summary">Lefteris (SomniusX) Eliades</string>
-</resources>
+<string name="menu_add_to_drive">Dodaj do Dysku</string>
+    <string name="menu_convert_to_wav">Konwertuj na WAV</string>
+    <string name="dialog_grant_permission_title">Pozwolenie na Grant</string>
+    <string name="dialog_grant_permission_message">Wybierz ten sam katalog w nowym oknie aby udzielić zezwolenia</string>
+    <string name="toast_wrong_directory_selected">Wybrałeś zły katalog. Spróbuj ponownie.</string>
+    <string name="sign_in">Zaloguj</string>
+    <string name="sign_out_google_drive">Wyloguj z Dysku Google</string>
+    <string name="notify_uploading_drive">Wysyłanie na Dysk</string>
+    <string name="notify_converting_to_wav">Konwertowanie do formatu WAV</string>
+    <string name="disable_autoplay">Wyłącz autoodtwarzanie</string>
+    <string name="disable_autoplay_summary">Nie zaczynaj automatycznie odtwarzać po kliknięciu na nagranie</string>
+    <string name="hide_all_notifications">Ukryj wszystkie powiadomienia</string>
+    <string name="hide_all_notifications_summary">Użyj tej opcji na własne ryzyko</string>
+
+    <string name="send_sms">Wyślij SMS</string>
+
+    </resources>
