@@ -517,7 +517,7 @@
     <string name="greek_translation_summary">Lefteris (SomniusX) Eliades</string>
 <string name="menu_add_to_drive">Dodaj do Dysku</string>
     <string name="menu_convert_to_wav">Konwertuj na WAV</string>
-    <string name="dialog_grant_permission_title">Pozwolenie na Grant</string>
+    <string name="dialog_grant_permission_title">Udziel pozwolenia</string>
     <string name="dialog_grant_permission_message">Wybierz ten sam katalog w nowym oknie aby udzielić zezwolenia</string>
     <string name="toast_wrong_directory_selected">Wybrałeś zły katalog. Spróbuj ponownie.</string>
     <string name="sign_in">Zaloguj</string>
