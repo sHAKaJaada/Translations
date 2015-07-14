@@ -243,7 +243,7 @@
     
     
     <string name="automatic_cleanup">Limpieza automática</string>
-    <string name="max_number_of_files">Número máximo de ficheros</string>
+    <string name="max_number_of_files">Número máximo de archivos</string>
     <string name="max_number_of_files_message">Introduzca un número (0 - sin límite)</string>
     <string name="max_total_size_of_files">Tamaño total máximo de los ficheros</string>
     <string name="max_total_size_of_files_message">Introduzca un valor en megabytes (0 - sin límite)</string>
@@ -738,4 +738,20 @@
     <string name="tamil_translation_summary">por Ashish Sharma</string>
     <string name="greek_translation">Traducción al Griego</string>
     <string name="greek_translation_summary">por Lefteris (SomniusX) Eliades</string>
-</resources>
+<string name="menu_add_to_drive">Agregar a Drive</string>
+    <string name="menu_convert_to_wav">Convertir a WAV</string>
+    <string name="dialog_grant_permission_title">Brindar permiso</string>
+    <string name="dialog_grant_permission_message">Seleccione la misma carpeta en una nueva ventana para brindar permiso.</string>
+    <string name="toast_wrong_directory_selected">Usted seleccionó un directorio incorrecto. Intente nuevamente.</string>
+    <string name="sign_in">Ingresar</string>
+    <string name="sign_out_google_drive">Salir de Google Drive</string>
+    <string name="notify_uploading_drive">Subiendo a Drive</string>
+    <string name="notify_converting_to_wav">Convirtiendo a WAV</string>
+    <string name="disable_autoplay">Deshabilitar la reproducción automática</string>
+    <string name="disable_autoplay_summary">No comenzar la reproducción automática al seleccionar una grabación</string>
+    <string name="hide_all_notifications">Ocultar todas las notificaciones</string>
+    <string name="hide_all_notifications_summary">Use esta opción bajo su propio riesgo y responsabilidad</string>
+
+    <string name="send_sms">Enviar SMS</string>
+
+    </resources>
