@@ -516,7 +516,7 @@
     <string name="greek_translation">ਯੂਨਾਨੀ ਭਾਸ਼ਾ ਵਿਚ ਤਰਜਮਾ</string>
     <string name="greek_translation_summary">ਦੁਆਰਾ Lefteris (SomniusX) Eliades</string>
 <string name="warning_root_required">ਤੁਹਾਡੇ ਫ਼ੋਨ ਰੂਟ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ. ਇਸ ਸੁਨੇਹੇ ਨੂੰ ਰੱਦ ਕਰਨ ਲਈ ਜਿਆਦਾ ਦੇਰ ਲਈ ਦਬਾ ਕੇ ਰਖੋ.</string>
-    <string name="warning_low_space">ਜਗ੍ਹਾ ਘਟ ਹੈ: ਬਾਕੀ% s</string>
+    <string name="warning_low_space">ਜਗ੍ਹਾ ਘਟ ਹੈ: ਬਾਕੀ %s</string>
 
     <string name="menu_convert_to_wav">WAV ਵਿਚ ਬਦਲੋ</string>
     <string name="low_space_warning">ਜਗ੍ਹਾ ਦੀ ਘਟ ਦੀ ਚੇਤਾਵਨੀ</string>
