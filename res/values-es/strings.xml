@@ -591,7 +591,7 @@
     <string name="delay_format_sec">%s seg</string>
     <string name="delay_for_outgoing">Para salientes</string>
     <string name="delay_for_incoming">Para entrantes</string>
-    <string name="settings_for_device">Configuraciones para</string>
+    <string name="settings_for_device">Configuraciones para %s</string>
     <string name="recording_format">Formato de grabación</string>
     <string name="volume_control_summary">Tx: %1$s, Rx: %2$s</string>
     <string name="volume_control_overall">Volumen general</string>
