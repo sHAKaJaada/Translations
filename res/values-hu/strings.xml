@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">Call Recorder</string>
     <string name="terms_of_use">Felhasználási feltételek</string>
@@ -515,4 +515,20 @@
     <string name="tamil_translation_summary">Ashish Sharma</string>
     <string name="greek_translation">Görög fordítás</string>
     <string name="greek_translation_summary">Lefteris (SomniusX) Eliades</string>
-</resources>
+<string name="menu_add_to_drive">Drivehoz ad</string>
+    <string name="menu_convert_to_wav">Konvertálás WAW-be</string>
+    <string name="dialog_grant_permission_title">Jogosultság megadása</string>
+    <string name="dialog_grant_permission_message">Kiválasztott könyvtár jogosultság megadása egy új ablakban</string>
+    <string name="toast_wrong_directory_selected">A kiválasztott könyvtár helytelen. Próbálja újra.</string>
+    <string name="sign_in">Bejelentkezés</string>
+    <string name="sign_out_google_drive">Kijelentkezés Google Drive-ból</string>
+    <string name="notify_uploading_drive">Feltöltés Drive-ba</string>
+    <string name="notify_converting_to_wav">Konvertálás WAW-be</string>
+    <string name="disable_autoplay">Auto lejátszás tiltása</string>
+    <string name="disable_autoplay_summary">Ne kezdjen egy felvételt automatikusan visszajátszani kattintásra</string>
+    <string name="hide_all_notifications">Összes értesítés elrejtése</string>
+    <string name="hide_all_notifications_summary">Ezt a beállítást saját felelősségére használja</string>
+
+    <string name="send_sms">SMS küldés</string>
+
+    </resources>
