@@ -554,4 +554,12 @@
     <string name="toast_wait_for_operation_to_complete">Odota toiminnon valmistumista</string>
     <string name="send_sms">Lähetä SMS</string>
 
+    <string name="menu_add_to_drive">Lisää Driveen</string>
+    <string name="dialog_grant_permission_title">Anna lupa</string>
+    <string name="dialog_grant_permission_message">Valitse sama hakemisto uudessa ikkunassa antaaksesi luvan</string>
+    <string name="toast_wrong_directory_selected">Olet valinnut väärän hakemiston. Yritä uudelleen.</string>
+    <string name="sign_in">Kirjaudu sisään</string>
+    <string name="sign_out_google_drive">Kirjaudu ulos Google Drivestä</string>
+    <string name="notify_uploading_drive">Lähetetään Driveen</string>
+    <string name="notify_converting_to_wav">Muunnetaan WAV muotoon</string>
     </resources>
