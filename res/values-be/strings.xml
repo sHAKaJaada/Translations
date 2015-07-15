@@ -526,4 +526,9 @@
     <string name="dialog_grant_permission_title">Падаць доступ</string>
     <string name="dialog_grant_permission_message">Абярыце тую ж самую дырэкторыю ў новым акне, каб падаць доступ</string>
     <string name="toast_wrong_directory_selected">Вы паказалі не правільную дырэкторыю. Паспрабуйце зноў.</string>
+    <string name="menu_add_to_drive">Дадаць на Дыск</string>
+    <string name="sign_in">Увайсці</string>
+    <string name="sign_out_google_drive">Выйсці з Google Drive</string>
+    <string name="notify_uploading_drive">Ідзе загрузка на Дыск</string>
+    <string name="notify_converting_to_wav">Канвертаванне ў WAV</string>
     </resources>
