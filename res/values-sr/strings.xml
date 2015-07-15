@@ -518,4 +518,20 @@
 <string name="theme">Тема</string>
     <string name="theme_light">Светла</string>
     <string name="theme_dark">Тамна</string>
+    <string name="menu_convert_to_wav">Конвертовати у WAV</string>
+    <string name="dialog_grant_permission_title">Дозволити приступ</string>
+    <string name="dialog_grant_permission_message">Изабрати исти директоријум у новом прозору за одобравање приступа</string>
+    <string name="toast_wrong_directory_selected">Изабрали сте погрешан директоријум. Пробајте поново.</string>
+    <string name="sign_in">Пријава</string>
+    <string name="sign_out_google_drive">Одјава са Google Drive</string>
+    <string name="notify_uploading_drive">Отпремање на Drive</string>
+    <string name="notify_converting_to_wav">Конвертовање у WAV</string>
+    <string name="disable_autoplay">Онемогућити ауто-репродукцију</string>
+    <string name="disable_autoplay_summary">Не започињати репродукцију аутоматски кликом на снимање</string>
+    <string name="hide_all_notifications">Сакрити сва обавештења</string>
+    <string name="hide_all_notifications_summary">Користите ову опцију на сопствену одговорност</string>
+
+    <string name="send_sms">Послати SMS</string>
+
+    <string name="menu_add_to_drive">Додати на Google Drive</string>
     </resources>
