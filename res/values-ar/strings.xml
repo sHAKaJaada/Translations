@@ -535,4 +535,31 @@
     <string name="license_trial_expired">انتهت الفترة التجريبية</string>
     <string name="license_trial_expired_summary">من فضلك، إلغاء تثبيت هذا الإصدار قبل شراء النسخة الكاملة</string>
     <string name="device_change_settings_empty">الإعدادات لهذا الجهاز موجودة اصلا</string>
+    <string name="device_root_is_required">الرووت مطلوب</string>
+    <string name="device_root_is_required_summary">لتحسين جودة الأداء الرووت مطلوب على هذا الجهاز</string>
+    <string name="recording_method_msm">MSM</string>
+    <string name="recording_method_msm_settings">ضبط التسجيل بطريقة MSM</string>
+    <string name="exceptions_summary">وضع إجراءات محددة لجهات الاتصال أو المجموعات أو أرقام الهواتف</string>
+    <string name="start_recording_on_answer">بدء التسجيل على الإجابة</string>
+    <string name="start_recording_on_answer_summary">"بدء التسجيل حالما يتم الرد على المكالمة الصادرة. هذا التطبيق  يستخدم حل للكشف عن لحظة الإجابة، قد تفشل هذه الميزة على بعض الأجهزة. مطلوب الجذر من الرووت 4.1 جيلي بين فما فوق. يجب تمكين التسجيل في الكيرنل."</string>
+    <string name="delay_before_start_recording_summary">صادرة: %1$s, واردة: %2$s</string>
+    <string name="delay_format_sec">%s ثانية</string>
+    <string name="delay_for_outgoing">للصادرة</string>
+    <string name="delay_for_incoming">للواردة</string>
+    <string name="settings_for_device">اعدادات لـ %s</string>
+    <string name="recording_format">نوع ملف التسجيل</string>
+    <string name="volume_control_summary">ارسال: %1$s, استلام: %2$s</string>
+    <string name="volume_control_overall">الحجم الكلي</string>
+    <string name="volume_control_tx">ارسال</string>
+    <string name="volume_control_rx">استلام</string>
+    <string name="sample_rate_48000">48000 هيرتز</string>
+
+    <string name="category_wav_and_mp3_settings">اعدادات WAV و MP3</string>
+    <string name="recording_mode">نوع التسجيل</string>
+
+    <string name="alsa_is_not_installed">ALSA يجب ان ينصب</string>
+    <string name="alsa_is_not_installed_summary">انقر هنا لتنصيب ALSA</string>
+
+    <string name="add_exception">إضافة استثناء</string>
+    <string name="exception_groups">%d مجموعات</string>
     </resources>
