@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">مسجل المكالمة</string>
     <string name="terms_of_use">شروط الاستخدام</string>
@@ -515,4 +515,24 @@
     
     
     
-</resources>
+<string name="action_cancel_tasks">إلغاء المهام</string>
+    <string name="records_size">سجلات:%1$s ، حجم %2$s</string>
+    <string name="space_free_of">%1$s مساحة خالية من %2$s</string>
+
+    <string name="restore_settings">استعادة الإعدادات</string>
+
+    <string name="menu_add_to_drive">إضافة إلى المخزن</string>
+    <string name="menu_convert_to_wav">تحويل إلى WAV</string>
+    <string name="settings_open_unlocker">ذهاب الى فتح القفل</string>
+    <string name="license_signature_verification_failed">فشل التحقق من صحة توقيع البرنامج</string>
+    <string name="license_error_message">حدث خطأ #%1$s: %2$s</string>
+    <string name="license_unknown_error">خطأ غير معروف</string>
+    <string name="license_not_market_managed">لم يتم نشر هذا الإصدار على سوق بلاي حتى الآن</string>
+    <string name="license_incorrect_response">استجابة رخصة غير صحيحة من سوق بلاي</string>
+    <string name="license_error_contacting_server">خطأ الأتصال في الخادم</string>
+    <string name="license_server_error">خطأ في الخادم</string>
+    <string name="license_over_quota">طلبات كثيرة جدا من هذا الجهاز</string>
+    <string name="license_trial_expired">انتهت الفترة التجريبية</string>
+    <string name="license_trial_expired_summary">من فضلك، إلغاء تثبيت هذا الإصدار قبل شراء النسخة الكاملة</string>
+    <string name="device_change_settings_empty">الإعدادات لهذا الجهاز موجودة اصلا</string>
+    </resources>
