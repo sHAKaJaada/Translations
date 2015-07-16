@@ -616,8 +616,8 @@
     <string name="long_press_action">Действие при задържане</string>
     <string name="long_press_action_dragging_the_button">Местене на бутона</string>
     <string name="long_press_action_hang_up">Затваря и автоматично набира обратно</string>
-    <string name="hide_starred_recordings">Скрий записите със звезда</string>
-    <string name="hide_starred_recordings_summary">Не показва записите отбелязани със звезда във раздела всички записи</string>
+    <string name="hide_starred_recordings">Скрий важните записи</string>
+    <string name="hide_starred_recordings_summary">Скрива важните записи (отбелязани със звезда) от раздела Всички записи</string>
     <string name="cloud_provider">Облачна услуга</string>
     <string name="sign_in_dropbox">Вписване в Dropbox</string>
     <string name="sign_out_dropbox">Отписване от Dropbox</string>
