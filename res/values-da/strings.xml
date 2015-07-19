@@ -526,4 +526,9 @@
 
     <string name="send_sms">Send SMS</string>
 
+    <string name="menu_add_to_drive">Tilføj til Drev</string>
+    <string name="sign_in">Log på</string>
+    <string name="sign_out_google_drive">Log ud af Google Drev</string>
+    <string name="notify_uploading_drive">Overfører til Drev</string>
+    <string name="notify_converting_to_wav">Konverterer til WAV</string>
     </resources>
