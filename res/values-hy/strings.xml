@@ -526,4 +526,20 @@
     <string name="low_space_warning">Զգուշացում սպառվող հիշողության մասին</string>
     <string name="low_space_warning_summary">Գրանցել մինիմալ հիշողության սանդղակը զգուշացնելու համար մեգաբայտերով</string>
 
+    <string name="menu_add_to_drive">Ավելացնել Google Սկավառակում</string>
+    <string name="menu_convert_to_wav">Փոխանակել WAV-ի</string>
+    <string name="dialog_grant_permission_title">Տրամատրել թույլատվություն</string>
+    <string name="dialog_grant_permission_message">Ընտրել նույն դիրեկտորիան նոր պատուհանում, որպեսզի թույլ տալ մուտքը</string>
+    <string name="toast_wrong_directory_selected">Դուք սխալ դիրեկտորիա եք ընդունել: Խնդրում ենք նորից փորձել:</string>
+    <string name="sign_in">Մուտք</string>
+    <string name="sign_out_google_drive">Դուրս գալ Google Drive-ից</string>
+    <string name="notify_uploading_drive">Բեռնվում է Google դիսկ</string>
+    <string name="notify_converting_to_wav">Փոխարկվում է WAV-ի</string>
+    <string name="disable_autoplay">Անջատել ավտովերարտադրումը</string>
+    <string name="disable_autoplay_summary">Չսկսել ավտովերարտադրումը ձայնագրության վրա սեղմելուց</string>
+    <string name="hide_all_notifications">Թաքցնել բոլոր հաղորդագրությունները</string>
+    <string name="hide_all_notifications_summary">Օգտագործել տվյալ հնարավորությունը Ձեր պատասխանատվության ներքո</string>
+
+    <string name="send_sms">Ուղղարկել ՍՄՍ</string>
+
     </resources>
