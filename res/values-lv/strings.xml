@@ -530,4 +530,20 @@
     <string name="open_source_licenses">Atvērt koda licences</string>
 
     <string name="category_translators">Tulkotāji</string>
+    <string name="menu_add_to_drive">Pievienot diskam</string>
+    <string name="menu_convert_to_wav">Pārveidot uz WAV</string>
+    <string name="dialog_grant_permission_title">Apstiprināt piekļuvi</string>
+    <string name="dialog_grant_permission_message">Izvēlieties to pašu mapi jaunajā logā, lai piešķirtu atļauju</string>
+    <string name="toast_wrong_directory_selected">Jūs izvēlējāties nepareizu mapi. Mēģiniet vēlreiz.</string>
+    <string name="sign_in">Pierakstīties</string>
+    <string name="sign_out_google_drive">Izrakstīties no Google diska</string>
+    <string name="notify_uploading_drive">Augšupielādēt uz disku</string>
+    <string name="notify_converting_to_wav">Pārveido uz WAV</string>
+    <string name="disable_autoplay">Atslēgt automātisko atskaņošanu</string>
+    <string name="disable_autoplay_summary">Nesākt automātisko atskaņošanu uzspiežot uz ierakstu</string>
+    <string name="hide_all_notifications">Paslēpt visus paziņojumus</string>
+    <string name="hide_all_notifications_summary">Izmantojiet šo iespēju, uz savu risku</string>
+
+    <string name="send_sms">Sūtīt SMS</string>
+
     </resources>
