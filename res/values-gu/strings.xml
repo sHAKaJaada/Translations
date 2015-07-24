@@ -175,7 +175,7 @@
     <string name="volume_control_summary">ટીએક્સ: %1$s, આરએક્સ: %2$s</string>
     <string name="volume_control_overall">એકંદરે વોલ્યુમ</string>
     <string name="volume_control_tx">ટીએક્સ</string>
-    <string name="volume_control_rx">આરએક્સ</string>
+    <string name="volume_control_rx">ગ્લટની</string>
     <string name="sample_rate_8000">8000 હર્ટ્ઝ (ડિફૉલ્ટ)</string>
     <string name="sample_rate_11025">11025 હર્ટ્ઝ</string>
     <string name="sample_rate_16000">16000 હર્ટ્ઝ</string>
@@ -534,4 +534,12 @@
     <string name="send_sms">એસએમએસ મોકલો</string>
 
     <string name="hide_all_notifications">બધી સૂચનાઓ છુપાવો</string>
+    <string name="menu_add_to_drive">ડ્રાઇવ માટે ઉમેરો</string>
+    <string name="dialog_grant_permission_title">ગ્રાન્ટ પરવાનગી</string>
+    <string name="dialog_grant_permission_message">જ ડાયરેક્ટરી પસંદ કરો પરવાનગી આપવા માટે એક નવી વિંડોમાં</string>
+    <string name="toast_wrong_directory_selected">તમે ખોટું ડિરેક્ટરી પસંદ કર્યું છે. ફરીથી પ્રયાસ કરો.</string>
+    <string name="sign_in">સાઇન માં</string>
+    <string name="sign_out_google_drive">Google ડ્રાઇવ સાઇન આઉટ કરો</string>
+    <string name="notify_uploading_drive">ડ્રાઇવ પર અપલોડ કરી</string>
+    <string name="notify_converting_to_wav">WAV માટે રૂપાંતર</string>
     </resources>
