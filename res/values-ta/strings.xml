@@ -175,7 +175,7 @@
     <string name="volume_control_summary">டிஎக்ஸ்: %1$s, ஆர்எக்ஸ்: %2$s</string>
     <string name="volume_control_overall">ஒட்டுமொத்த தொகுதி</string>
     <string name="volume_control_tx">டிஎக்ஸ்</string>
-    <string name="volume_control_rx">ஆர்எக்ஸ்</string>
+    <string name="volume_control_rx">வேர்ச்சொல்</string>
     <string name="sample_rate_8000">8000 ஹெர்ட்ஸ் (இயல்புநிலை)</string>
     <string name="sample_rate_11025">11025 ஹெர்ட்ஸ்</string>
     <string name="sample_rate_16000">16000 ஹெர்ட்ஸ்</string>
