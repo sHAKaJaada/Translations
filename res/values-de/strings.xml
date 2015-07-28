@@ -531,4 +531,10 @@
     <string name="sign_out_google_drive">Aus Google Drive ausloggen</string>
     <string name="notify_uploading_drive">Auf Google Drive hochladen</string>
     <string name="notify_converting_to_wav">Konvertiere nach WAV</string>
+    <string name="tip_click_avatar">Klicke auf den Avatar um den Kontakt zu öffnen.</string>
+    <string name="tip_long_click_avatar">Langes berühren des Avatars filtert auf Anrufe dieses Kontaktes.</string>
+    <string name="tip_select_item">Berühren Sie ein Objekt lange um es auszuwählen.</string>
+    <string name="tip_select_all">Eine Optione \"Alle auswählen\" wird im Kontextmenü angezeigt.</string>
+    <string name="tip_audio_output">Drücken Sie Play/Pause lange, um die Audioausgabe zu welchseln.</string>
+
     </resources>
