@@ -534,4 +534,10 @@
     <string name="sign_out_google_drive">登出谷歌云端硬盘</string>
     <string name="notify_uploading_drive">正在上传至云端硬盘</string>
     <string name="notify_converting_to_wav">转换成 WAV 格式</string>
+    <string name="tip_click_avatar">点击头像打开联系人详情</string>
+    <string name="tip_long_click_avatar">长按头像可以过滤该联系人的来电</string>
+    <string name="tip_select_item">长按条目以选择</string>
+    <string name="tip_select_all">「全选」选项会出现在菜单中</string>
+    <string name="tip_audio_output">长按播放/暂停按钮可切换音频输出</string>
+
     </resources>
