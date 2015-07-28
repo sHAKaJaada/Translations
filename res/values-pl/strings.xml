@@ -531,4 +531,10 @@
 
     <string name="send_sms">Wyślij SMS</string>
 
+    <string name="tip_click_avatar">"Kliknij  avatar, aby otworzyć informacje o kontakcie."</string>
+    <string name="tip_long_click_avatar">"Długie naciśnięcie avatara pokaże  połączenia od tego kontaktu."</string>
+    <string name="tip_select_item">Naciśnij długo element, aby go wybrać.</string>
+    <string name="tip_select_all">Opcja Zaznacz wszystko będzie wyświetlana w menu kontekstowym.</string>
+    <string name="tip_audio_output">Naciśnij długo przycisk Play/Pause w celu przełączenia wyjście audio.</string>
+
     </resources>
