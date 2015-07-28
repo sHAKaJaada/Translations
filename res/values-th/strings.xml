@@ -531,4 +531,10 @@
     <string name="sign_out_google_drive">ลงชื่อออกจาก Google Drive</string>
     <string name="notify_uploading_drive">กำลังอัพโหลดไปยังไดรฟ์</string>
     <string name="notify_converting_to_wav">แปลงเป็น WAV</string>
+    <string name="tip_click_avatar">คลิกรูปแทนตัวเพื่อเปิดดูข้อมูลติดต่อ</string>
+    <string name="tip_long_click_avatar">กดค้างรูปแทนตัวเพื่อกรองการโทรจากเบอร์ติดต่อนี้</string>
+    <string name="tip_select_item">กดค้างที่รายการเพื่อเลือก</string>
+    <string name="tip_select_all">ตัวเลือก\'เลือกทั้งหมด\'จะปรากฎในรายการเลือก</string>
+    <string name="tip_audio_output">กดค้างปุ่มเล่น/หยุดชั่วขณะเพื่อสลับเสียงออก</string>
+
     </resources>
