@@ -548,4 +548,10 @@
     <string name="sign_out_google_drive">Вийти з диска Google</string>
     <string name="notify_uploading_drive">Відвантажити на диск</string>
     <string name="notify_converting_to_wav">Сконвертувати у WAV</string>
+    <string name="tip_click_avatar">Натисніть на аватарку, щоб відкрити контакт.</string>
+    <string name="tip_long_click_avatar">Довге натиснення на аватарку відфільтрує дзвінки з цього контакту.</string>
+    <string name="tip_select_item">Довгим натиснення ви викличите функцію селектування.</string>
+    <string name="tip_select_all">Відтак в контекстному меню з\'явиться опція «селектувати все».</string>
+    <string name="tip_audio_output">Довгим натисненням на кнопку «відтворити/рауза» перемикатиметься аудіовихід.</string>
+
     </resources>
