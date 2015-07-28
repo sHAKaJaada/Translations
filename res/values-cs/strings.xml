@@ -531,4 +531,10 @@
     <string name="sign_in">Přihlásit</string>
     <string name="sign_out_google_drive">Odhlásit se z Google Drive</string>
     <string name="notify_uploading_drive">Nahrávám do G.Drive</string>
+    <string name="tip_click_avatar">Tapnutí na avatara otevře kontaktní informace.</string>
+    <string name="tip_long_click_avatar">Dlouhé tapnutí na avatara filtruje volání od kontaktu.</string>
+    <string name="tip_select_item">Dlouhé tapnutí na položku ji vybere.</string>
+    <string name="tip_select_all">Volba Vybrat Vše se pak zobrazí v kontextovém menu.</string>
+    <string name="tip_audio_output">Dlouhé tapnutí na tlačítko Hraj/Pauza změní audio výstup.</string>
+
     </resources>
