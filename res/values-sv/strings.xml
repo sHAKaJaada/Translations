@@ -531,4 +531,10 @@
     <string name="sign_out_google_drive">Logga ut ur Google Drive</string>
     <string name="notify_uploading_drive">Laddar upp till Drive</string>
     <string name="notify_converting_to_wav">Konverterar till WAV</string>
+    <string name="tip_click_avatar">Klicka avataren för att öppna kontaktinfo.</string>
+    <string name="tip_long_click_avatar">Långtryck avataren för att filtrera samtal från kontakten.</string>
+    <string name="tip_select_item">Långtryck en post för att välja den.</string>
+    <string name="tip_select_all">Ett alternativ Välj Alla kommer då visas i kontextmenyn.</string>
+    <string name="tip_audio_output">Långtryck Play/Pause-knappen för att välja ljudutgång.</string>
+
     </resources>
