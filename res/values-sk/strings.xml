@@ -362,7 +362,7 @@
     <!-- Settings -> Audio player -->
     <string name="use_built_in_player">Použiť vstavaný prehrávač</string>
     <string name="audio_output">Výstup zvuku</string>
-    <string name="audio_output_summary">%s (Prepne sa aj dlhým stlačením tlačidla prehrať/pauza)</string>
+    <string name="audio_output_summary">%s (Prepne sa aj dlhým stlačením tlačidla Prehrať/Pauza)</string>
     <string name="main_speaker">Reproduktor</string>
     <string name="phone_speaker">Sluchátko</string>
     <string name="use_proximity_sensor">Použiť proximity senzor</string>
@@ -531,4 +531,10 @@
     <string name="sign_in">Prihlásiť sa</string>
     <string name="notify_uploading_drive">Odovzdať na Disk Google</string>
     <string name="notify_converting_to_wav">Konvertovanie do WAV</string>
+    <string name="tip_audio_output">Dlhým stlačením tlačidla Prehrať/Pauza prepnete výstup zvuku.</string>
+
+    <string name="tip_click_avatar">Kliknutím na avatara otvoriť informácie o kontakte.</string>
+    <string name="tip_long_click_avatar">Dlhým stlačením avatara filtrovať hovory od kontaktu.</string>
+    <string name="tip_select_item">Dlhým stlačením vyberiete položku.</string>
+    <string name="tip_select_all">Možnosť Vybrať všetko sa potom zobrazí v kontextovej ponuke.</string>
     </resources>
