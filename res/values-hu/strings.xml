@@ -531,7 +531,7 @@
 
     <string name="send_sms">SMS küldés</string>
 
-    <string name="tip_click_avatar">Névjegy info. megnyitásához kattintson a képre</string>
+    <string name="tip_click_avatar">Névjegy info. megnyitásához kattintson a képre.</string>
     <string name="tip_long_click_avatar">Névjegy hívás szűréséhez hosszú nyomás a képre.</string>
     <string name="tip_select_item">Kiválasztáshoz hosszú nyomás egy tételre.</string>
     <string name="tip_select_all">A kijelöl mindent beállításban megjelenik a szövegkörnyezeti menü.</string>
