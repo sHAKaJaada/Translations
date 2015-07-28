@@ -45,6 +45,13 @@
     <string name="warning_root_required">Your phone must be rooted. Long tap to dismiss this message.</string>
     <string name="warning_low_space">Low space: %s</string>
 
+    <!-- Tips -->
+    <string name="tip_click_avatar">Click avatar to open contact info.</string>
+    <string name="tip_long_click_avatar">Long press avatar will filter calls from this contact.</string>
+    <string name="tip_select_item">Long press an item to select it.</string>
+    <string name="tip_select_all">An option "Select All" will then appear in the context menu.</string>
+    <string name="tip_audio_output">Long press Play/Pause button to switch audio output.</string>
+
     <!-- List -->
     <string name="list_header_today">Today</string>
     <string name="list_header_yesterday">Yesterday</string>
