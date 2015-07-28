@@ -530,4 +530,26 @@
     <string name="open_source_licenses">Licenze open source</string>
 
     <string name="category_translators">Traduttori</string>
+    <string name="tip_click_avatar">Tocca l\'avatar per visualizzare il contatto.</string>
+    <string name="tip_long_click_avatar">Un tocco prolungato filtrerà le chiamate da questo contatto.</string>
+    <string name="tip_select_item">Tocca a lungo un elemento per selezionarlo.</string>
+    <string name="tip_select_all">Nel menu contestuale comparirà l\'opzione Seleziona Tutto.</string>
+    <string name="tip_audio_output">Tocca a lungo il tasto Play/Pausa per commutare l\'uscita audio.</string>
+
+    <string name="menu_add_to_drive">Aggiungi a Drive</string>
+    <string name="menu_convert_to_wav">Converti in WAV</string>
+    <string name="dialog_grant_permission_title">Concedi permessi</string>
+    <string name="dialog_grant_permission_message">Seleziona la stessa cartella in una nuova finestra per concedere i permessi</string>
+    <string name="toast_wrong_directory_selected">Cartella selezionata errata. Riprova.</string>
+    <string name="sign_in">Accedi</string>
+    <string name="sign_out_google_drive">Esci da Google Drive</string>
+    <string name="notify_uploading_drive">Caricamento su Drive</string>
+    <string name="notify_converting_to_wav">Conversione in WAV</string>
+    <string name="disable_autoplay">Disattiva riproduzione automatica</string>
+    <string name="disable_autoplay_summary">Non avviare la riproduzione automatica toccando una registrazione</string>
+    <string name="hide_all_notifications">Nascondi tutte le notifiche</string>
+    <string name="hide_all_notifications_summary">Usare questa opzione a proprio rischio</string>
+
+    <string name="send_sms">Invia SMS</string>
+
     </resources>
