@@ -531,4 +531,10 @@
     <string name="sign_out_google_drive">התנתק מגוגל דרייב</string>
     <string name="notify_uploading_drive">מעלה לכונן</string>
     <string name="notify_converting_to_wav">ממיר לWAV</string>
+    <string name="tip_click_avatar">לחץ על הצלמית כדי לפתוח מידע איש הקשר.</string>
+    <string name="tip_long_click_avatar">לחיצה ארוכה על הצלמית תסנן שיחות מאיש הקשר הזה.</string>
+    <string name="tip_select_item">לחיצה ארוכה לבחירה.</string>
+    <string name="tip_select_all">אפשרות בחירת הכל תופיע בתפריט.</string>
+    <string name="tip_audio_output">לחיצה ארוכה נגן/השהה להחלפת פלט קול.</string>
+
     </resources>
