@@ -533,4 +533,10 @@
 
     <string name="send_sms">Envoyer un SMS</string>
 
+    <string name="tip_click_avatar">Cliquer sur l\'avatar pour ouvrir les données du contact.</string>
+    <string name="tip_long_click_avatar">Un appui long sur un avatar bloquera les appels de ce contact.</string>
+    <string name="tip_select_item">Faire un appui long sur un objet pour le sélectionner.</string>
+    <string name="tip_select_all">Une option Sélectionner Tout apparaitra dans le menu contextuel.</string>
+    <string name="tip_audio_output">Faire un appui long sur Lecture/Pause pour permuter la sortie audio.</string>
+
     </resources>
