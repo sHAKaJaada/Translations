@@ -31,7 +31,7 @@
     <string name="action_remove_star">お気に入りから削除</string>
     <string name="action_share">共有</string>
     <string name="action_cancel_tasks">タスクをキャンセル</string>
-    <string name="action_select_all">全て選択</string>
+    <string name="action_select_all">すべて選択</string>
     <string name="sort_by_date">日付順</string>
     <string name="sort_by_contact">名前順</string>
     <string name="sort_by_file_size">ファイルサイズ順</string>
@@ -367,7 +367,7 @@
     
     <string name="use_proximity_sensor">近接センサーを使用する</string>
     <string name="use_proximity_sensor_summary">再生中に近接センサーによって画面をオフにします</string>
-    <string name="switch_audio_output">オーディオ出力の切り換え</string>
+    <string name="switch_audio_output">音声出力の切り換え</string>
     <string name="switch_audio_output_summary">近接センサーによって画面のオフ/オン時に自動的に音声出力先を切り替えます</string>
     <string name="android_wav_decoder">WAV形式用Androidデコーダー</string>
     <string name="android_wav_decoder_summary">WAV形式を再生するために内蔵のAndroidツールを使用します</string>
@@ -529,4 +529,11 @@
     <string name="sign_out_google_drive">Google Driveからサインアウト</string>
     <string name="notify_uploading_drive">Driveへアップロード中</string>
     <string name="notify_converting_to_wav">WAVへ変換中</string>
+    <string name="tip_click_avatar">コンタクト情報を開くにはアバターをクリックしてください。</string>
+    <string name="tip_long_click_avatar">長押しでこのコンタクトからの通話でフィルターします。</string>
+    <string name="tip_select_item">アイテムの長押しで選択します。</string>
+    <string name="tip_select_all">すべて選択オプションはコンテキストメニューにあります。</string>
+    <string name="tip_audio_output">再生/一時停止ボタンの長押しで音声出力を切り替えます。</string>
+
+    <string name="toast_wrong_directory_selected">間違ったディレクトリを選択しています。やり直してください。</string>
     </resources>
