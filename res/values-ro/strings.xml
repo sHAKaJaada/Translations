@@ -531,4 +531,10 @@
     <string name="sign_out_google_drive">Delogare din Google Drive</string>
     <string name="notify_uploading_drive">Urcă în Drive</string>
     <string name="notify_converting_to_wav">Convertește în WAV</string>
+    <string name="tip_click_avatar">Click pe avatar pentru a deschide informațiile de contact.</string>
+    <string name="tip_long_click_avatar">Apăsarea lungă pe avatar va filtra apelurie de la acest contact.</string>
+    <string name="tip_select_item">Apăsare lungă pe un element pentru a-l selecta.</string>
+    <string name="tip_select_all">O opțiune Selectare Totală va apărea în meniul contextual.</string>
+    <string name="tip_audio_output">Apăsare lungă Redare/Pauză pentru a comuta ieșirea audio.</string>
+
     </resources>
