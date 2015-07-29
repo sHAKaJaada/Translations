@@ -518,7 +518,7 @@
 <string name="warning_low_space">जगह कम है, शेष: %s</string>
 
     <string name="menu_convert_to_wav">WAV में परिवर्तीत करें</string>
-    <string name="current_setting"></string>
+    <string name="current_setting">मौज़ूदा समायोजन: %s</string>
     <string name="disable_autoplay">स्वः वादन रोकें</string>
     <string name="disable_autoplay_summary">रिकॉर्डिंग को छूने से स्वः वादन न हो</string>
     <string name="hide_all_notifications">सभी अधिसूचनाओं को छिपाएँ</string>
@@ -534,4 +534,10 @@
     <string name="sign_out_google_drive">Google Drive (गूगल ड्राइव) से साइन आउट करें</string>
     <string name="notify_uploading_drive">Drive (ड्राइव) में अपलोड करें</string>
     <string name="notify_converting_to_wav">WAV में तब्दील किया जा रहा है</string>
+    <string name="tip_click_avatar">संपर्क जानकारी को खोलने के लिए तस्वीर को क्लिक करें।</string>
+    <string name="tip_long_click_avatar">तस्वीर को देर तक दबाये रखने से उस संपर्क की सभी रिकॉर्डिंग प्रस्तुतित हो जायेंगी</string>
+    <string name="tip_select_item">किसी रिकॉर्डिंग को चुननें के लिए उसे देर तक दबाएं</string>
+    <string name="tip_select_all">तब संदर्भ मेनू में सभी को चुननें का एक विकल्प उभरेगा</string>
+    <string name="tip_audio_output">देर तक प्ले/पॉज को दबाये रखने से ध्वनि उत्पादन स्त्रोत बदलें</string>
+
     </resources>
