@@ -548,4 +548,6 @@
     <string name="sign_out_google_drive">Google 드라이브에서 로그아웃</string>
     <string name="notify_uploading_drive">드라이브에 업로드 중</string>
     <string name="notify_converting_to_wav">WAV로 변환 중</string>
+    <string name="tip_click_avatar">아바타를 눌러 연락처 정보를 여십시오.</string>
+    <string name="tip_select_item">항목을 길게 누르면 선택합니다.</string>
     </resources>
