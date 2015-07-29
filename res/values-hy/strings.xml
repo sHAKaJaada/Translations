@@ -542,4 +542,10 @@
 
     <string name="send_sms">Ուղղարկել ՍՄՍ</string>
 
+    <string name="tip_click_avatar">Սեղմեք նկարի վրա կոնտակտային ինֆորմացիան բացելու համար</string>
+    <string name="tip_long_click_avatar">Սեղմեք երկար նկարի վրա տվյալ կոնտակտի զանգերը ֆիլտրելու համար:</string>
+    <string name="tip_select_item">Երկար սեղմեք ձայնագրության վրա այն նշելու համար:</string>
+    <string name="tip_select_all">Ընտրել բոլորը տարբերակը կհայտնվի կոնտեքստային մենյույում:</string>
+    <string name="tip_audio_output">Երկար սեղմեք վերարտադրել/դադար տալ կոճակը ձայնի վերարտադրման եղանակը փոխելու համար:</string>
+
     </resources>
