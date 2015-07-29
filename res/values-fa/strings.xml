@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">ضبط مکالمات</string>
     <string name="terms_of_use">شرایط استفاده</string>
@@ -161,7 +161,7 @@
     <string name="start_recording_on_answer">شروع ضبط با پاسخ</string>
     <string name="start_recording_on_answer_summary">شروع ضبط بعد از اینکه تماس شما پاسخ داده شد. برنامه از روش غیرمعمول برای تشخیض زمان پاسخ استفاده می کند، پس ممکن است در برخی دستگاه ها ناموفق باشد. دسترسی به روت نیاز است. لاگ گیری در کرنل باد فعال شده باشد.</string>
     <string name="delay_before_start_recording">تاخیر قبل از شروع ضبط</string>
-    <string name="delay_before_start_recording_summary">تماس های گرفته شده: %1$, تماس های دریافت شده: %2$</string>
+    <string name="delay_before_start_recording_summary">تماس های گرفته شده: %1$s, تماس های دریافت شده: %2$s</string>
     <string name="delay_format_sec">%s ثانیه</string>
     <string name="delay_for_outgoing">برای تماس های خروجی</string>
     <string name="delay_for_incoming">برای تماس های ورودی</string>
