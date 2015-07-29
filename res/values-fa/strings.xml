@@ -35,8 +35,8 @@
     <string name="sort_by_date">براساس تاریخ</string>
     <string name="sort_by_contact">براساس مخاطب</string>
     <string name="sort_by_file_size">براساس سایز فایل</string>
-    <string name="records_size">ضبط شده ها: %1$, حجم: %2$</string>
-    <string name="space_free_of">%1$ خالی از %2$</string>
+    <string name="records_size">ضبط شده ها: %1$s, حجم: %2$s</string>
+    <string name="space_free_of">%1$s خالی از %2$s</string>
 
     <!--Import settings -->
     <string name="restore_settings">تنظیمات بازگردان</string>
@@ -172,7 +172,7 @@
     <string name="recording_format_aac">AAC</string>
     <string name="recording_format_mp3">MP3</string>
     <string name="volume_control">کنترل صدا</string>
-    <string name="volume_control_summary">Tx: %1$, Rx: %2$</string>
+    <string name="volume_control_summary">Tx: %1$s, Rx: %2$s</string>
     <string name="volume_control_overall">صدا</string>
     <string name="volume_control_tx">Tx</string>
     <string name="volume_control_rx">Rx</string>
