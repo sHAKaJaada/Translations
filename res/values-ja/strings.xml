@@ -536,4 +536,6 @@
     <string name="tip_audio_output">再生/一時停止ボタンの長押しで音声出力を切り替えます。</string>
 
     <string name="toast_wrong_directory_selected">間違ったディレクトリを選択しています。やり直してください。</string>
+    <string name="dialog_grant_permission_title">パーミッションの付与</string>
+    <string name="dialog_grant_permission_message">パーミッションを付与するために新しいウィンドウ内で同一のディレクトリを選択してください</string>
     </resources>
