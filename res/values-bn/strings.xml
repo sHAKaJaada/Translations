@@ -2,4 +2,17 @@
 <resources>
     <string name="app_name">কল রেকর্ডার</string>
 <string name="terms_of_use">ব্যবহার করার শর্তাবলী</string>
+    <string name="section_all_recordings">সমস্ত/সব রেকর্ডিং</string>
+    <string name="section_starred"/>
+    <string name="section_incoming">ইনকামিং কল</string>
+    <string name="section_outgoing">আউটগোয়িং কল</string>
+    <string name="section_help">সাহায্য</string>
+    <string name="action_search">অনুসন্ধান</string>
+    <string name="empty_hint">খালি</string>
+
+    <string name="action_settings">সেটিংস</string>
+    <string name="action_delete">মুছে দিন</string>
+    <string name="action_share">ভাগ/সেয়ার করুন</string>
+    <string name="list_header_today">আজ</string>
+    <string name="list_header_yesterday">গতকাল</string>
     </resources>
