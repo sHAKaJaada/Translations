@@ -695,4 +695,10 @@
     <string name="sign_out_google_drive">Отписване от Google Диск</string>
     <string name="notify_uploading_drive">Качване в Google Диск</string>
     <string name="notify_converting_to_wav">Конвертиране в WAV</string>
+    <string name="tip_click_avatar">Натиснете върху аватара, за да отворите контакта.</string>
+    <string name="tip_long_click_avatar">Задръжте аватара, за да филтрирате всички обаждания от контакта.</string>
+    <string name="tip_select_item">Задръжте даден ред, за да го селектирате.</string>
+    <string name="tip_select_all">След това ще се появи опцията \"Избери всички\" в менюто.</string>
+    <string name="tip_audio_output">Задръжте върху Пусни/Пауза, за да смените аудио източника.</string>
+
     </resources>
