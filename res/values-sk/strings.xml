@@ -533,7 +533,7 @@
     <string name="notify_converting_to_wav">Konvertovanie do WAV</string>
     <string name="tip_audio_output">Dlhým stlačením tlačidla Prehrať/Pauza prepnete výstup zvuku.</string>
 
-    <string name="tip_click_avatar">Kliknutím na avatara otvoriť informácie o kontakte.</string>
+    <string name="tip_click_avatar">Kliknutím na avatara otvoríte informácie o kontakte.</string>
     <string name="tip_long_click_avatar">Dlhým stlačením avatara budete filtrovať hovory od kontaktu.</string>
     <string name="tip_select_item">Dlhým stlačením vyberiete položku.</string>
     <string name="tip_select_all">Možnosť \"Vybrať všetko\" sa potom zobrazí v kontextovej ponuke.</string>
