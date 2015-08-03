@@ -537,4 +537,10 @@
     <string name="sign_out_google_drive">Αποσύνδεση από Google Drive</string>
     <string name="notify_uploading_drive">Ανέβασμα στο Drive</string>
     <string name="notify_converting_to_wav">Μετατροπή σε WAV</string>
+    <string name="tip_click_avatar">Κλικ στο avatar για πληροφορίες επαφής.</string>
+    <string name="tip_long_click_avatar">Παρατεταμένο πάτημα sto avatar θα φιλτραρίσει τις κλήσεις από αυτήν την επαφή.</string>
+    <string name="tip_select_item">Πατήστε παρατεταμένα ένα στοιχείο για να το επιλέξετε.</string>
+    <string name="tip_select_all">Θα εμφανιστεί αναδυόμενο μενού για Επιλογή Όλων.</string>
+    <string name="tip_audio_output">Παρατεταμένο πάτημα του Αναπαραγωγή/Παύση για να αλλάξετε έξοδο ήχου.</string>
+
     </resources>
