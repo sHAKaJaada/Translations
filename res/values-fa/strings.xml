@@ -515,4 +515,26 @@
     <string name="tamil_translation_summary">Ashish Sharma</string>
     <string name="greek_translation">ترجمه یونانی</string>
     <string name="greek_translation_summary">Lefteris (SomniusX) Eliades</string>
-</resources>
+<string name="tip_click_avatar">برای نمایش جزئیات مخاطب روی عکس ضربه بزنید.</string>
+    <string name="tip_long_click_avatar">برای نمایش همه مکالمات مخاطب عکس را چند ثانیه لمس کنید.</string>
+    <string name="tip_select_item">برای انتخاب یک آیتم آن را چند ثانیه لمس کنید.</string>
+    <string name="tip_select_all">گزینه انتخاب همه به منو اضافه می شود.</string>
+    <string name="tip_audio_output">برای تغییر خروجی صدا دکمه پخش را چند ثانیه لمس کنید.</string>
+
+    <string name="menu_add_to_drive">اضافه به گوگل درایو</string>
+    <string name="menu_convert_to_wav">تبدیل به WAV</string>
+    <string name="dialog_grant_permission_title">درخواست دسترسی</string>
+    <string name="dialog_grant_permission_message">برای درخواست دسترسی در پنجره جدید همان پوشه را انتخاب کنید</string>
+    <string name="toast_wrong_directory_selected">پوشه اشتباهی را انتخاب کرده اید. دوباره تلاش کنید.</string>
+    <string name="sign_in">ورود</string>
+    <string name="sign_out_google_drive">خروج از گوگل درایو</string>
+    <string name="notify_uploading_drive">بارگذاری در گوگل درایو</string>
+    <string name="notify_converting_to_wav">تبدیل به WAV</string>
+    <string name="disable_autoplay">غیرفعال کردن پخش خودکار</string>
+    <string name="disable_autoplay_summary">با ضربه زدن به یک مکالمه بطور خودکار پخش نشود</string>
+    <string name="hide_all_notifications">مخفی کردن تمام اعلان ها</string>
+    <string name="hide_all_notifications_summary">مسئولیت استفاده از این گزینه با شماست</string>
+
+    <string name="send_sms">ارسال پیامک</string>
+
+    </resources>
