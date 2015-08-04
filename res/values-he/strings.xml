@@ -68,7 +68,7 @@
     <!-- List -> Get info dialog -->
     <string name="file_name">שם הקובץ</string>
     <string name="sample_rate">רמת הדגימה</string>
-    <string name="sample_rate_hz">Hz</string>
+    <string name="sample_rate_hz">הרץ</string>
     <string name="recording_type">סוג הקלטה</string>
     <string name="recording_type_mono">מונו</string>
     <string name="recording_type_stereo">סטריאו</string>
