@@ -534,4 +534,10 @@
     <string name="send_sms">Послати SMS</string>
 
     <string name="menu_add_to_drive">Додати на Google Drive</string>
+    <string name="tip_click_avatar">Притисните на аватар за приказ информација о контакту.</string>
+    <string name="tip_long_click_avatar">Дужи притисак на аватар ће филтрирати позиве овог контакта.</string>
+    <string name="tip_select_item">Притисните и задржите за одабир ставке.</string>
+    <string name="tip_select_all">Опција Изабери све ће се приказати у контекстном менију.</string>
+    <string name="tip_audio_output">Дужи притисак на Репродукција/Пауза ће променити аудио излаз.</string>
+
     </resources>
