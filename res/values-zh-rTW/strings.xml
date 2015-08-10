@@ -532,12 +532,12 @@
     <string name="tip_click_avatar">點擊頭像開啟聯絡人信息。</string>
     <string name="tip_long_click_avatar">長按頭像將過濾這個聯絡人的來電。</string>
     <string name="tip_select_item">長按某個項目進行選擇。</string>
-    <string name="tip_select_all">「全選」選項會出現在選單中</string>
+    <string name="tip_select_all">選擇全部將在上下文選單中出現選項。</string>
     <string name="tip_audio_output">長按播放/暫停按鈕來切換音頻輸出。</string>
 
     <string name="menu_add_to_drive">增加到雲端裝置</string>
     <string name="sign_in">登入</string>
     <string name="sign_out_google_drive">登出Google 雲端硬碟</string>
     <string name="notify_uploading_drive">上傳到雲端硬碟</string>
-    <string name="notify_converting_to_wav">轉換成WAV格式</string>
+    <string name="notify_converting_to_wav">轉換成 WAV 格式</string>
     </resources>
