@@ -144,4 +144,6 @@
     <string name="after_call_actions_dialog_summary">Tanya apa hendak buat selepas panggilan</string>
     <string name="vibrate_on_call">Bergetar bila panggilan bermula/akhir</string>
     <string name="exceptions">Pengecualian</string>
+    <string name="tip_click_avatar">Tekan Avatar untuk kontak info.</string>
+    <string name="tip_long_click_avatar">Tekan lama avatar akan mengasingkan panggilan dari kontak ini.</string>
     </resources>
