@@ -50,7 +50,7 @@
     <string name="list_header_yesterday">昨天</string>
     <string name="queued">排隊</string>
     <string name="no_connection">沒有連線</string>
-    <string name="add_to_contacts">新增至聯絡人</string>
+    <string name="add_to_contacts">新增到聯絡人</string>
 
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">上傳到Dropbox</string>
@@ -529,4 +529,15 @@
     <string name="dialog_grant_permission_title">授予許可</string>
     <string name="toast_wrong_directory_selected">您選擇了錯誤的電話簿，請再試一次。</string>
     <string name="dialog_grant_permission_message">在新的視窗選擇同樣的電話簿授予許可</string>
+    <string name="tip_click_avatar">點擊頭像開啟聯絡人信息。</string>
+    <string name="tip_long_click_avatar">長按頭像將過濾這個聯絡人的來電。</string>
+    <string name="tip_select_item">長按某個項目進行選擇。</string>
+    <string name="tip_select_all">「全選」選項會出現在選單中</string>
+    <string name="tip_audio_output">長按播放/暫停按鈕來切換音頻輸出。</string>
+
+    <string name="menu_add_to_drive">增加到雲端裝置</string>
+    <string name="sign_in">登入</string>
+    <string name="sign_out_google_drive">登出Google 雲端硬碟</string>
+    <string name="notify_uploading_drive">上傳到雲端硬碟</string>
+    <string name="notify_converting_to_wav">轉換成WAV格式</string>
     </resources>
