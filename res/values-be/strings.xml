@@ -531,4 +531,10 @@
     <string name="sign_out_google_drive">Выйсці з Google Drive</string>
     <string name="notify_uploading_drive">Ідзе загрузка на Дыск</string>
     <string name="notify_converting_to_wav">Канвертаванне ў WAV</string>
+    <string name="tip_audio_output">Доўгі націск на кнопку Прайграванні/Паўзы зменіць крыніцу высновы гуку.</string>
+
+    <string name="tip_click_avatar">Націск на аватар адкрые інфармацыю пра кантакт.</string>
+    <string name="tip_long_click_avatar">Доўгі націск на аватар адфільтруе званкі ад гэтага кантакту.</string>
+    <string name="tip_select_item">Доўгі націск на запіс вылучыць яе.</string>
+    <string name="tip_select_all">Опцыя \"Абраць усё\" з\'явіцца ў кантэкстным меню.</string>
     </resources>
