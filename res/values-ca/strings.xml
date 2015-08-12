@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">CallRecorder</string>
     <string name="terms_of_use">Condicions d\'ús</string>
@@ -515,4 +515,29 @@
     <string name="tamil_translation_summary">per Ashish Sharma</string>
     <string name="greek_translation">Traducció al Grec</string>
     <string name="greek_translation_summary">per Lefteris (SomniusX) Eliades</string>
-</resources>
+<string name="tip_click_avatar">Clic en avatar per obrir la informació del contacte.</string>
+    <string name="tip_long_click_avatar">Pulsació llarga en avatar filtrarà trucades d\'aquest contacte.</string>
+    <string name="tip_select_item">Pulsació llarga en element per seleccionar-lo.</string>
+    <string name="tip_select_all">Una opció de Seleccionar tot apareixerà en el contingut del menú.</string>
+    <string name="tip_audio_output">Pulsació llarga en botó Play/Pausa canviarà la sortida d\'àudio.</string>
+
+    <string name="menu_add_to_drive">Afegir a Drive</string>
+    <string name="menu_convert_to_wav">Convertir a WAV</string>
+    <string name="dialog_grant_permission_title">Concedir permís</string>
+    <string name="dialog_grant_permission_message">Seleccioneu el mateix directori en una nova finestra per concedir el permís</string>
+    <string name="toast_wrong_directory_selected">Ha seleccionat un directori incorrecte. Intenta-ho de nou.</string>
+    <string name="theme">Tema</string>
+    <string name="theme_light">Clar</string>
+    <string name="theme_dark">Fosc</string>
+    <string name="sign_in">Inicia sessió</string>
+    <string name="sign_out_google_drive">Sortir de Google Drive</string>
+    <string name="notify_uploading_drive">Pujant a Drive</string>
+    <string name="notify_converting_to_wav">Convertint a WAV</string>
+    <string name="disable_autoplay">Desactivar reproducció automàtica</string>
+    <string name="disable_autoplay_summary">No iniciar la reproducció de forma automàtica fent clic en una grabació</string>
+    <string name="hide_all_notifications">Amaga totes les notificacions</string>
+    <string name="hide_all_notifications_summary">Utilitzeu aquestes opcions sota el seu propi risc</string>
+
+    <string name="send_sms">Enviar SMS</string>
+
+    </resources>
