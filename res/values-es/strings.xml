@@ -754,4 +754,10 @@
 
     <string name="send_sms">Enviar SMS</string>
 
+    <string name="tip_click_avatar">Click en el avatar para abrir la información del contacto.</string>
+    <string name="tip_long_click_avatar">Pulsación larga en el avatar filtrará llamadas de este contacto.</string>
+    <string name="tip_select_item">Mantenga pulsado un elemento para seleccionarlo.</string>
+    <string name="tip_select_all">Una opción de Seleccionar todo aparecerá en el contenido del menú.</string>
+    <string name="tip_audio_output">Pulsación larga en el botón Play/Pause para intercambiar la salida de audio.</string>
+
     </resources>
