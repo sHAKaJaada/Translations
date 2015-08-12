@@ -191,9 +191,9 @@
     <string name="api_source_microphone">Micrófono</string>
     <string name="api_source_default">Predeterminado</string>
     <string name="api_source_voice_communication">Comunicación por voz</string>
-    <string name="category_wav_settings">Ajuestes WAV</string>
+    <string name="category_wav_settings">Ajustes WAV</string>
     
-    <string name="when_bt_connected">Cuando se conecta el BT..</string>
+    <string name="when_bt_connected">Cuando se conecta el BT...</string>
     <string name="audio_source_when_bt_connected">Fuente de audio cuando BT está conectado</string>
 
     <!-- Actions when BT connected -->
@@ -363,8 +363,8 @@
     
     <string name="audio_output">Salida de Audio</string>
     
-    <string name="main_speaker">Parlante principal</string>
-    <string name="phone_speaker">Parlante del teléfono</string>
+    <string name="main_speaker">Altavoz principal</string>
+    <string name="phone_speaker">Altavoz del teléfono</string>
     <string name="use_proximity_sensor">Usar el sensor de proximidad</string>
     
     <string name="switch_audio_output">Cambiar salida de audio</string>
@@ -599,11 +599,11 @@
     <string name="volume_control_rx">Rx</string>
     <string name="sample_rate_48000">48000 Hz</string>
 
-    <string name="category_wav_and_mp3_settings">Configuraciones de WAV a MP3</string>
+    <string name="category_wav_and_mp3_settings">Configuraciones de WAV y MP3</string>
     <string name="recording_mode">Modo de grabación</string>
 
     <string name="alsa_is_not_installed">ALSA debe ser instalado</string>
-    <string name="alsa_is_not_installed_summary">Presiones aquí para instalar ALSA</string>
+    <string name="alsa_is_not_installed_summary">Presionar aquí para instalar ALSA</string>
 
     <string name="add_exception">Añadir excepción</string>
     <string name="exception_groups">%d grupos</string>
@@ -743,7 +743,7 @@
     <string name="dialog_grant_permission_title">Brindar permiso</string>
     <string name="dialog_grant_permission_message">Seleccione la misma carpeta en una nueva ventana para brindar permiso.</string>
     <string name="toast_wrong_directory_selected">Usted seleccionó un directorio incorrecto. Intente nuevamente.</string>
-    <string name="sign_in">Ingresar</string>
+    <string name="sign_in">Iniciar sesión</string>
     <string name="sign_out_google_drive">Salir de Google Drive</string>
     <string name="notify_uploading_drive">Subiendo a Drive</string>
     <string name="notify_converting_to_wav">Convirtiendo a WAV</string>
