@@ -315,6 +315,10 @@
     <string name="hide_starred_recordings_summary">Don\'t show starred recordings on screen with all recordings</string>
     <string name="low_space_warning">Low space warning</string>
     <string name="low_space_warning_summary">Set low space warning limit in megabytes</string>
+    <string name="category_contacts">Contacts</string>
+    <string name="link_to_contacts">Link to contacts</string>
+    <string name="link_to_contacts_summary">Create a shortcut to view recordings from within a contact</string>
+    <string name="view_recordings">View recordings</string>
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">Cloud provider</string>
