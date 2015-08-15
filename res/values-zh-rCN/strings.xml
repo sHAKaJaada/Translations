@@ -540,4 +540,9 @@
     <string name="tip_select_all">「全选」选项会出现在菜单中</string>
     <string name="tip_audio_output">长按播放/暂停按钮可切换音频输出</string>
 
+    <string name="category_contacts">联系人</string>
+    <string name="link_to_contacts">链接到联系人</string>
+    <string name="link_to_contacts_summary">创建一个可以查看特定联系人录音记录的快捷方式</string>
+    <string name="view_recordings">查看录音</string>
+
     </resources>
