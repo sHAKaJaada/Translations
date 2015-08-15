@@ -537,4 +537,9 @@
     <string name="tip_select_all">אפשרות בחירת הכל תופיע בתפריט.</string>
     <string name="tip_audio_output">לחיצה ארוכה נגן/השהה להחלפת פלט קול.</string>
 
+    <string name="category_contacts">אנשי קשר</string>
+    <string name="link_to_contacts">קישור לאנשי קשר</string>
+    <string name="link_to_contacts_summary">צור קיצור דרך כדי לראות הקלטות ישירות מתוך איש הקשר</string>
+    <string name="view_recordings">צפה בהקלטות</string>
+
     </resources>
