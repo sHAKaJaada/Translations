@@ -540,4 +540,9 @@
     <string name="tip_select_all">तब संदर्भ मेनू में सभी को चुननें का एक विकल्प उभरेगा</string>
     <string name="tip_audio_output">देर तक प्ले/पॉज को दबाये रखने से ध्वनि उत्पादन स्त्रोत बदलें</string>
 
+    <string name="category_contacts">संपर्क</string>
+    <string name="link_to_contacts">संपर्कों तक कड़ी</string>
+    <string name="link_to_contacts_summary">किसी संपर्क के भीतर से रिकॉर्डिंग देखने के लिए एक शॉर्टकट बनाएं</string>
+    <string name="view_recordings">रिकॉर्डिंग देखें</string>
+
     </resources>
