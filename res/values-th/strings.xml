@@ -537,4 +537,9 @@
     <string name="tip_select_all">ตัวเลือก\'เลือกทั้งหมด\'จะปรากฎในรายการเลือก</string>
     <string name="tip_audio_output">กดค้างปุ่มเล่น/หยุดชั่วขณะเพื่อสลับเสียงออก</string>
 
+    <string name="category_contacts">รายชื่อติดต่อ</string>
+    <string name="link_to_contacts">เชื่อมไปยังรายชื่อติดต่อ</string>
+    <string name="link_to_contacts_summary">สร้างทางลัดเพื่อดูบันทึกจากรายชื่อติดต่อ</string>
+    <string name="view_recordings">ดูบันทึก</string>
+
     </resources>
