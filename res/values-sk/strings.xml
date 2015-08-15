@@ -537,4 +537,9 @@
     <string name="tip_long_click_avatar">Dlhým stlačením avatara budete filtrovať hovory od kontaktu.</string>
     <string name="tip_select_item">Dlhým stlačením vyberiete položku.</string>
     <string name="tip_select_all">Možnosť \"Vybrať všetko\" sa potom zobrazí v kontextovej ponuke.</string>
+    <string name="category_contacts">Kontakty</string>
+    <string name="link_to_contacts_summary">Vytvoriť skratku pre zobrazenie nahrávok v rámci kontaktu</string>
+    <string name="view_recordings">Zobraziť nahrávky</string>
+
+    <string name="link_to_contacts">Odkaz na kontakty</string>
     </resources>
