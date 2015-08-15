@@ -538,4 +538,8 @@
     <string name="tip_audio_output">Dlouhé tapnutí na tlačítko Hraj/Pauza změní audio výstup.</string>
 
     <string name="category_contacts">Kontakty</string>
+    <string name="link_to_contacts">Odkaz na kontakty</string>
+    <string name="link_to_contacts_summary">Vytvořit zástupce pro prohlížení záznamů v rámci kontaktu</string>
+    <string name="view_recordings">Zobrazit nahrávky</string>
+
     </resources>
