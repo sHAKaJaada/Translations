@@ -537,4 +537,9 @@
     <string name="tip_select_all">Опция \"Выбрать всё\" появится в контекстном меню.</string>
     <string name="tip_audio_output">Долгое нажатие на кнопку Воспроизведения/Паузы изменит источник вывода звука.</string>
 
+    <string name="category_contacts">Контакты</string>
+    <string name="link_to_contacts">Связать с контактами</string>
+    <string name="link_to_contacts_summary">Создать ярлык для просмотра записей прямо из контакта</string>
+    <string name="view_recordings">Показать записи</string>
+
     </resources>
