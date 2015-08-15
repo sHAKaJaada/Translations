@@ -537,4 +537,9 @@
     <string name="tip_select_all">O opțiune Selectare Totală va apărea în meniul contextual.</string>
     <string name="tip_audio_output">Apăsare lungă Redare/Pauză pentru a comuta ieșirea audio.</string>
 
+    <string name="category_contacts">Contacte</string>
+    <string name="link_to_contacts">Link către contacte</string>
+    <string name="link_to_contacts_summary">Creează o scurtătură pentru a vedea înregistrările din cadrul unui contact</string>
+    <string name="view_recordings">Vezi înregistrările</string>
+
     </resources>
