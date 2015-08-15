@@ -531,4 +531,15 @@
     <string name="sign_out_google_drive">Log ud af Google Drev</string>
     <string name="notify_uploading_drive">Overfører til Drev</string>
     <string name="notify_converting_to_wav">Konverterer til WAV</string>
+    <string name="tip_click_avatar">Tryk på avataren for kontaktinfo.</string>
+    <string name="tip_long_click_avatar">Et langt tryk på avataren filtrerer opkald fra kontakt.</string>
+    <string name="tip_select_item">Tryk længe for at vælge punktet.</string>
+    <string name="tip_select_all">\"Vælg alt\" vil derefter vises i kontekst-menuen.</string>
+    <string name="tip_audio_output">Tryk længe på Spil/Pause knappen for at skifte lyd-udgang.</string>
+
+    <string name="category_contacts">Kontaktpersoner</string>
+    <string name="link_to_contacts">Gå til kontaktpersoner</string>
+    <string name="link_to_contacts_summary">Opret genvej til at se optagelser inde fra en kontakt af</string>
+    <string name="view_recordings">Se optagelser</string>
+
     </resources>
