@@ -554,4 +554,9 @@
     <string name="tip_audio_output">재생/일시정지 버튼을 길게 누르면 오디오 출력을 전환합니다.</string>
 
     <string name="tip_long_click_avatar">아바타를 길게 누르면 해당 연락처와의 통화만을 표시합니다.</string>
+    <string name="category_contacts">연락처</string>
+    <string name="link_to_contacts">연락처 바로 가기</string>
+    <string name="link_to_contacts_summary">연락처 항목 내에 해당 연락처와의 녹음 목록으로 바로 가는 링크 추가</string>
+    <string name="view_recordings">녹음 항목 보기</string>
+
     </resources>
