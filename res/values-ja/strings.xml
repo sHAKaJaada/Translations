@@ -13,7 +13,7 @@
     <string name="section_starred">お気に入り</string>
     <string name="section_incoming">着信</string>
     <string name="section_outgoing">発信</string>
-    <string name="section_by_contact">コンタクト毎</string>
+    <string name="section_by_contact">連絡先毎</string>
     <string name="section_by_format">録音形式毎</string>
     <string name="section_by_label">ラベル毎</string>
     <string name="section_help">ヘルプ</string>
@@ -33,7 +33,7 @@
     <string name="action_cancel_tasks">タスクをキャンセル</string>
     <string name="action_select_all">すべて選択</string>
     <string name="sort_by_date">日付順</string>
-    <string name="sort_by_contact">名前順</string>
+    <string name="sort_by_contact">連絡先順</string>
     <string name="sort_by_file_size">ファイルサイズ順</string>
     <string name="records_size">録音: %1$s, サイズ: %2$s</string>
     
@@ -81,7 +81,7 @@
     <string name="note">ノート</string>
 
     <!-- List -> Get info dialog -> Edit -->
-    <string name="contact_name">コンタクト名</string>
+    <string name="contact_name">連絡先名</string>
     <string name="phone_number">電話番号</string>
 
     <!-- List -> Confirm delete dialog -->
@@ -157,7 +157,7 @@
     <string name="after_call_actions_dialog_summary">通話後にどうすべきか確認します</string>
     <string name="vibrate_on_call">通話の開始/終了でバイブ</string>
     <string name="exceptions">例外</string>
-    <string name="exceptions_summary">コンタクト、グループ、あるいは電話番号に対する特定のアクションを設定します</string>
+    <string name="exceptions_summary">連絡先、グループ、あるいは電話番号に対する特定のアクションを設定します</string>
     <string name="start_recording_on_answer">応答で録音を開始</string>
     <string name="start_recording_on_answer_summary">発信時の呼び出しに応じた時に録音を開始します。アプリは応答の検出に非公式の方法を使います。このためいくつかのデバイスでは失敗するかもしれません。Android 4.1 Jelly Bean以降でRootが必要になります。kernelでLoggerを有効にしなくてはいけません。</string>
     <string name="delay_before_start_recording">録音開始前の遅延時間</string>
@@ -222,17 +222,17 @@
     <string name="exception_group">グループ</string>
     <string name="exception_groups">%d 個のグループ</string>
     <string name="exception_select_group">グループを選択</string>
-    <string name="exception_contact">コンタクト</string>
-    <string name="exception_select_contact">コンタクトの選択</string>
+    <string name="exception_contact">連絡先</string>
+    <string name="exception_select_contact">連絡先の選択</string>
     <string name="exception_phone_number">電話番号</string>
     <string name="exception_action">アクション</string>
     <string name="exception_select_action">アクションを選択</string>
     <string name="exception_action_always_record">常に録音</string>
     <string name="exception_action_never_record">録音しない</string>
     <string name="exception_groups_not_found">グループがありません</string>
-    <string name="exception_contacts_not_found">コンタクトがありません</string>
+    <string name="exception_contacts_not_found">連絡先がありません</string>
     <string name="exceptions_not_added">例外は追加されていません</string>
-    <string name="exception_by_contact">コンタクト毎</string>
+    <string name="exception_by_contact">連絡先毎</string>
     <string name="exception_by_group">グループ毎</string>
     <string name="exception_by_phone_number">電話番号毎</string>
     <string name="exception_delete_message">この例外を削除してもよろしいですか?</string>
@@ -255,7 +255,7 @@
     <string name="time_pattern">タイムパターン</string>
 
     <!-- Description for filename pattern -->
-    <string name="pattern_contact_name">コンタクト名</string>
+    <string name="pattern_contact_name">連絡先名</string>
     <string name="pattern_phone_number">電話番号</string>
     <string name="pattern_call_time">通話日時</string>
     <string name="pattern_call_timestamp">通話時間 (UNIX時間)</string>
@@ -416,7 +416,7 @@
 
     <!-- Call confirm dialog -->
     <string name="call_confirm_record_this_call">この通話を録音</string>
-    <string name="open_contact">コンタクトを開く</string>
+    <string name="open_contact">連絡先を開く</string>
 
     <!--After call actions dialog-->
     <string name="cloud_added">追加しました</string>
@@ -529,7 +529,7 @@
     <string name="sign_out_google_drive">Google Driveからサインアウト</string>
     <string name="notify_uploading_drive">Driveへアップロード中</string>
     <string name="notify_converting_to_wav">WAVへ変換中</string>
-    <string name="tip_click_avatar">コンタクト情報を開くにはアバターをクリックしてください。</string>
+    <string name="tip_click_avatar">連絡先情報を開くにはアバターをクリックしてください。</string>
     <string name="tip_long_click_avatar">長押しでこのコンタクトからの通話でフィルターします。</string>
     <string name="tip_select_item">アイテムの長押しで選択します。</string>
     <string name="tip_select_all">すべて選択オプションはコンテキストメニューにあります。</string>
@@ -538,4 +538,9 @@
     <string name="toast_wrong_directory_selected">間違ったディレクトリを選択しています。やり直してください。</string>
     <string name="dialog_grant_permission_title">パーミッションの付与</string>
     <string name="dialog_grant_permission_message">パーミッションを付与するために新しいウィンドウ内で同一のディレクトリを選択してください</string>
+    <string name="category_contacts">連絡先</string>
+    <string name="link_to_contacts">連絡先へリンク</string>
+    <string name="link_to_contacts_summary">連絡先の中から録音を表示するためのショートカットを作成します</string>
+    <string name="view_recordings">録音を表示</string>
+
     </resources>
