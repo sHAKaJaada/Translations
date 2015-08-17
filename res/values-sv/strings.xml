@@ -537,4 +537,9 @@
     <string name="tip_select_all">Ett alternativ Välj Alla kommer då visas i kontextmenyn.</string>
     <string name="tip_audio_output">Långtryck Play/Pause-knappen för att välja ljudutgång.</string>
 
+    <string name="category_contacts">Kontakter</string>
+    <string name="link_to_contacts">Länka till kontakter</string>
+    <string name="link_to_contacts_summary">Skapa en genväg för att visa inspelningar från inuti en kontakt</string>
+    <string name="view_recordings">Visa inspelningar</string>
+
     </resources>
