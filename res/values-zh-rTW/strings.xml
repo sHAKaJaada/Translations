@@ -540,4 +540,9 @@
     <string name="sign_out_google_drive">登出Google 雲端硬碟</string>
     <string name="notify_uploading_drive">上傳到雲端硬碟</string>
     <string name="notify_converting_to_wav">轉換成 WAV 格式</string>
+    <string name="category_contacts">聯絡人</string>
+    <string name="link_to_contacts">連結聯絡人</string>
+    <string name="link_to_contacts_summary">建立一個查看特定聯絡人錄音記錄的捷徑方式</string>
+    <string name="view_recordings">查看錄音</string>
+
     </resources>
