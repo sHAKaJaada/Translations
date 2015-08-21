@@ -537,4 +537,15 @@
     <string name="sign_out_google_drive">ਗੂਗਲ ਡਰਾਈਵ (Google ਡਰਾਇਵ) ਤੋ ਸੀਏਨ ਆਉਟ ਕਰੋ ਜੀ</string>
     <string name="notify_uploading_drive">Drive (ਡਰਾਈਵ) ਅੱਪਲੋਡ ਕਰੋ ਜੀ</string>
     <string name="notify_converting_to_wav">WAV ਵਿੱਚ ਬਦਲ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ</string>
+    <string name="tip_click_avatar">ਸੰਪਰਕ ਜਾਣਕਾਰੀ ਖੋਲ੍ਹਣ ਲਈ ਫੋਟੋ \'ਤੇ ਕਲਿੱਕ ਕਰੋ.</string>
+    <string name="tip_long_click_avatar">ਫੋਟੋ ਨੂ ਦੇਰ ਤਕ ਦਬਨ ਨਾਲ ਉਸ ਸੰਪਰਕ ਦਿਆ ਸਾਰੀਆ ਕਾਲਾ ਆ ਜਾਉਗੀਆ.</string>
+    <string name="tip_select_item">ਕਿਸੀ ਰਿਕਾਰਡਿੰਗ ਨੂੰ ਦੀ ਚੋਣ ਕਰਨ ਲਈ ਉਸਨੁ ਲੰਮੇ ਸਮੇ ਲਈ ਦਬਾਓ.</string>
+    <string name="tip_select_all">"ਉਦੋ ਪਰਸੰਗ ਮੇਨੂ ਵਿੱਚ  ਸਾਰੀਆ ਨੂ ਚੁਣਨ ਦਾ ਵਿਕਲਪ ਵੇਖਾਈ ਦੇਵੇਗਾ."</string>
+    <string name="tip_audio_output">ਚਲਾਓ / ਵਿਰਾਮ ਬਟਨ ਨੂ ਲੰਬਾ ਦਬਨ ਨਾਲ, ਆਡੀਓ ਆਉਟਪੁੱਟ ਤਬਦੀਲ ਕਰਨ ਲਈ .</string>
+
+    <string name="category_contacts">ਸੰਪਰਕ</string>
+    <string name="link_to_contacts">ਸੰਪਰਕ ਕਰਨ ਲਈ ਲਿੰਕ</string>
+    <string name="link_to_contacts_summary">ਇੱਕ ਸੰਪਰਕ ਦੇ ਅੰਦਰ ਤੱਕ ਰਿਕਾਰਡਿੰਗ ਵੇਖਣ ਲਈ ਇੱਕ ਸ਼ਾਰਟਕੱਟ ਬਣਾਓ</string>
+    <string name="view_recordings">ਰਿਕਾਰਡਿੰਗ ਦੇਖੋ</string>
+
     </resources>
