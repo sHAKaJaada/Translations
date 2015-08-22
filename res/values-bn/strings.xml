@@ -304,9 +304,9 @@
 
     <string name="category_application">অ্যাপ্লিকেশন</string>
     <string name="app_admin">অ্যাপ অ্যাডমিন</string>
-    <string name="aes_128bit">১২৮-বিট এ-ই-এস (AES) (ফাস্টার)</string>
-    <string name="aes_192bit">১৯২-বিট এ-ই-এস (AES) (ব্যালান্সড)</string>
-    <string name="aes_256bit">২৫৬-বিট এ-ই-এস (AES) (স্ট্রংঙ্গার)</string>
+    <string name="aes_128bit">১২৮-বিট এ.ই.এস (AES) (ফাস্টার)</string>
+    <string name="aes_192bit">১৯২-বিট এ.ই.এস (AES) (ব্যালান্সড)</string>
+    <string name="aes_256bit">২৫৬-বিট এ.ই.এস (AES) (স্ট্রংঙ্গার)</string>
 
     <string name="use_built_in_player">বিল্ট-ইন প্লেয়ার ব্যবহার করুন</string>
     <string name="audio_output">অডিও আউটপুট</string>
@@ -314,10 +314,10 @@
     <string name="use_proximity_sensor">প্রক্সিমিটি সেনসর ব্যবহার করুন</string>
     <string name="switch_audio_output">অডিও আউটপুট পরিবর্তন করুন</string>
     <string name="root_access">রুট অ্যাকসেস</string>
-    <string name="hide_all_notifications_summary">এই অপশন টি নিজের ঝু্ঁকি তে ব্যবহার করুন</string>
+    <string name="hide_all_notifications_summary">এই অপশন টি নিজের ঝু্ঁকিতে ব্যবহার করুন</string>
 
     <string name="contact_unknown">অজ্ঞাত (আনক্নোন)</string>
-    <string name="button_choose">নির্বাচন করুন (চুস)</string>
+    <string name="button_choose">নির্বাচন করুন (চুস্)</string>
     <string name="button_ok">ও-কে (OK)</string>
     <string name="button_call">কল</string>
     <string name="button_buy">ক্রয় করুন (Buy)</string>
@@ -330,10 +330,10 @@
     <string name="button_play">চালান (প্লে)</string>
     <string name="button_pause">থামান (পজ্)</string>
     <string name="decline">প্রত্যাখ্যান করুন (ডিক্লাইন)</string>
-    <string name="accept">মেনে নেত্তয়া (অ্যাকসেপ্ট)</string>
+    <string name="accept">মেনে নিন (অ্যাকসেপ্ট)</string>
     <string name="call_incoming">ইনকামিং</string>
     <string name="call_outgoing">আউটগোয়িং</string>
-    <string name="please_wait">অনুগ্রহ করে অপেক্ষা করুন (প্লিজ্ ওয়েইট)</string>
+    <string name="please_wait">অনুগ্রহ করে অপেক্ষা করুন (প্লিজ্ ওয়েইট) …</string>
     <string name="start_recording">রেকর্ডিং শুরু করুন</string>
     <string name="stop_recording">রেকর্ডিং বন্ধ করুন</string>
     <string name="switch_off">বন্ধ (অফ্)</string>
@@ -344,7 +344,7 @@
     <string name="open_contact">কনট্যাক্ট খুলুন</string>
     <string name="recording_in_progress">রেকর্ডিং চলছে</string>
     <string name="no_recording_in_progress">কোন রেকর্ডিং চলছে না</string>
-    <string name="send_sms">এস-এম-এস পাঠান</string>
+    <string name="send_sms">এস.এম.এস পাঠান</string>
 
     <string name="copyright">কপিরাইট</string>
     <string name="about_many_thanks">অনেক ধন্যবাদ</string>
@@ -354,12 +354,12 @@
     <string name="about_call_recorder">কল রেকর্ডার সম্বন্ধে জানুন</string>
     <string name="cloud_added">যোগ করা হল (অ্যাডেড্)</string>
 
-    <string name="toast_file_deleted">ফাইল টি সফলভাবে ডিলিট হয়েছে</string>
+    <string name="toast_file_deleted">ফাইলটি সফলভাবে ডিলিট হয়েছে</string>
 
     <string name="button_delete_wait">মুছে দিন (ডিলিট) (%d)</string>
     <string name="switch_on">চালু করা (অন্)</string>
-    <string name="toast_wait_for_operation_to_complete">এই কাজ টি সম্পূর্ণ হওয়া অবধি অপেক্ষা করুন</string>
-    <string name="an_error_has_occurred">একটি এরর্ এর জন্য এই কল টি রেকর্ড করা যাচ্ছেনা</string>
+    <string name="toast_wait_for_operation_to_complete">এই কাজটি সম্পূর্ণ হওয়া অবধি অপেক্ষা করুন</string>
+    <string name="an_error_has_occurred">একটি এরর্ এর জন্য এই কলটি রেকর্ড করা যাচ্ছেনা</string>
 
     <string name="german_translation">জার্মান অনুবাদ</string>
     <string name="polish_translation">পোলিশ অনুবাদ</string>
@@ -424,10 +424,10 @@
     <string name="app_admin_summary">কল রেকর্ডার এর আনইনস্টল প্রতিরোধ করতে ব্যবহার করুন</string>
     <string name="disable_autoplay_summary">রেকর্ডিং এ ক্লিক করা মাত্রই যেন প্লে-ব্যাক না হয়</string>
     <string name="use_proximity_sensor_summary">প্রক্সিমিটি সেনসর এর দ্বারা প্লেব্যাক চলাকালীন স্ক্রীন বন্ধ করা হোক</string>
-    <string name="android_wav_decoder">ওয়েভ-এর (WAV) অ্যান্ড্রয়েড ডিকোডার</string>
-    <string name="android_amr_decoder">এ-এম-আর এর (AMR) অ্যান্ড্রয়েড ডিকোডার</string>
+    <string name="android_wav_decoder">ওয়েভ এর (WAV) অ্যান্ড্রয়েড ডিকোডার</string>
+    <string name="android_amr_decoder">এ.এম.আর এর (AMR) অ্যান্ড্রয়েড ডিকোডার</string>
     <string name="dual_sim_phone_summary">দ্বিতীয় সিম কার্ড থেকে কল রেকর্ড না হলে এখানে ক্লিক করুন</string>
-    <string name="send_logs_to_the_developer">ডেভেলপার কে লগস্ পাঠান</string>
+    <string name="send_logs_to_the_developer">ডেভেলপারকে লগস্ পাঠান</string>
     <string name="action_mode_selected">%d সিলেক্টেড</string>
     <string name="waiting_for_answer">ফোন ধরার জন্য অপেক্ষা করা হচ্ছে</string>
     <string name="open_source_licenses">ওপেন সোর্স লাইসেন্স</string>
@@ -486,4 +486,13 @@
     <string name="long_press_action_hang_up">কলটি কেটে দিয়ে ঘুরিয়ে কল করুন স্বয়ংক্রিয়ভাবে/ অটোম্যাটিকালি</string>
     <string name="link_to_contacts_summary">একটি কনট্যাক্ট এর ভিতর থেকে রেকর্ডিংস দেখতে সর্টকাট তৈরী করুন</string>
     <string name="require_password_summary_no_key">অ্যাপটি খুলতে পাসওয়ার্ড প্রয়োজন। প্রথমে একটি কি (Key) তৈরী করুন</string>
+    <string name="app_admin_explanation">আনইনস্টল প্রতিরোধ করা ছাড়া এই অ্যাপটি ডিভাইস অ্যাডমিন এর আর কোন ফিচার ব্যবহার করেনা</string>
+    <string name="audio_output_summary">%s (প্লে-পজ বাটন এর উপর লং প্রেস করলে সেটিও পরিবর্তীত হবে)</string>
+    <string name="android_wav_decoder_summary">ওয়েভ (WAV) চালাবার জন্য বিল্ট-ইন অ্যান্ড্রয়েড টুলস ব্যবহার করা হোক</string>
+    <string name="android_amr_decoder_summary">এ.এম.আর (AMR) চালাবার জন্য বিল্ট-ইন অ্যান্ড্রয়েড টুলস ব্যবহার করা হোক</string>
+
+    <string name="copyright_summary">© %s Alexander Skvortsov (skvalex)</string>
+    <string name="about_many_thanks_summary">Alexey Subbotin (avs234) কে</string>
+
+    <string name="traditional_chinese_translation">ট্র্যাডিশনাল চাইনিজ্ অনুবাদ</string>
     </resources>
