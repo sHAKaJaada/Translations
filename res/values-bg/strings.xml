@@ -701,4 +701,9 @@
     <string name="tip_select_all">След това ще се появи опцията \"Избери всички\" в менюто.</string>
     <string name="tip_audio_output">Задръжте върху Пусни/Пауза, за да смените аудио източника.</string>
 
+    <string name="category_contacts">Контакти</string>
+    <string name="link_to_contacts">Връзка към контакт</string>
+    <string name="link_to_contacts_summary">Създаване на пряк път към всички записи от даден контакт</string>
+    <string name="view_recordings">Преглед на записите</string>
+
     </resources>
