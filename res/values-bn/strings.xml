@@ -495,4 +495,9 @@
     <string name="about_many_thanks_summary">Alexey Subbotin (avs234) কে</string>
 
     <string name="traditional_chinese_translation">ট্র্যাডিশনাল চাইনিজ্ অনুবাদ</string>
+    <string name="terms_of_use_message">অ্যাপটি ব্যবহার করার দ্বারা আপনি কল রেকর্ডার এর &lt;a href=http://rec.sh/terms&gt;Terms of Use&lt;/a&gt; মেনে নিচ্ছেন।</string>
+
+    <string name="delete_key_summary">সতর্কবাণী! আপনি কোনভাবেই এনক্রিপ্টেড রেকর্ডিংগুলি ফিরে পাবেন না যদি আপনি এই কি (Key) এর মাধ্যমে রেকর্ডিংগুলি এনক্রিপ্ট করে থাকেন, এমনকি যদি আপনি নতুন কি (Key) তৈরী করেন একই পাসওয়ার্ড দিয়ে, তাহলেও নয়</string>
+    <string name="tip_select_all">সিলেক্ট অল অপশনটি কনটেক্সট মেনুতে তখন দেখা যাবে।</string>
+    <string name="switch_audio_output_summary">যখন প্রক্সিমিটি সেন্সর এর দ্বারা স্ক্রীন চালু বা বন্ধ থাকবে তখন অডিও আউটপুট স্বয়ংক্রিয়ভাবে/ অটোম্যাটিকালী পরিবর্তন করা হোক</string>
     </resources>
