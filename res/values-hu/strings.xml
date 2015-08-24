@@ -537,7 +537,7 @@
     <string name="tip_select_all">A kijelöl mindent beállításban megjelenik a szövegkörnyezeti menü.</string>
     <string name="tip_audio_output">A Lejátszás/Szünet gomb hosszú nyomásával válthat az audio kimeneten.</string>
 
-    <string name="category_contacts">Kapcsolatok</string>
+    <string name="category_contacts">Névjegyek</string>
     <string name="link_to_contacts">Link a kapcsolatokhoz</string>
     <string name="link_to_contacts_summary">Parancsikon létehozása a felvételek eléréséhez a névjegyből</string>
     <string name="view_recordings">Felvételek megtekintése</string>
