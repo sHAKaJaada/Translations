@@ -537,4 +537,9 @@
     <string name="tip_long_click_avatar">Доўгі націск на аватар адфільтруе званкі ад гэтага кантакту.</string>
     <string name="tip_select_item">Доўгі націск на запіс вылучыць яе.</string>
     <string name="tip_select_all">Опцыя \"Абраць усё\" з\'явіцца ў кантэкстным меню.</string>
+    <string name="category_contacts">Кантакты</string>
+    <string name="link_to_contacts">Звязаць з кантактамі</string>
+    <string name="link_to_contacts_summary">Стварыць цэтлік для прагляду запісаў прама з кантакту</string>
+    <string name="view_recordings">Паказаць запісы</string>
+
     </resources>
