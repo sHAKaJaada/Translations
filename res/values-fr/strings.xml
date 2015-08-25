@@ -539,4 +539,17 @@
     <string name="tip_select_all">Une option Sélectionner Tout apparaitra dans le menu contextuel.</string>
     <string name="tip_audio_output">Faire un appui long sur Lecture/Pause pour permuter la sortie audio.</string>
 
-    </resources>
+    <string name="category_contacts">Contacts</string>
+    <string name="link_to_contacts">Lien vers les contacts</string>
+    <string name="link_to_contacts_summary">Créer un raccourci pour voir les enregistrements depuis un contact</string>
+    <string name="view_recordings">Voir les enregistrements</string>
+
+    <string name="bengali_translation">Traduction bengalienne</string>
+    <string name="bengali_translation_summary">par Saurav Ghosh</string>
+
+    <string name="app_description_0">L\'application est conçue pour l\'enregistrement automatique des appels depuis la ligne téléphonique quand le matériel et le noyau le permettent. L\'enregistrement des appels dépend beaucoup de votre appareil, car les fabricants n\'implémentent souvent pas les fonctions requises dans le système comme ils le devraient.</string>
+    <string name="app_description_1">Le root est indispensable sur les nombreux appareils dont les constructeurs n\'implémentent pas les fonctions requises. Mais celà ne signifie pas que le root est une solution miracle car le matériel peut être en cause. Le root aide souvent, mais pas toujours.</string>
+    <string name="app_description_2">L\'application a plusieurs méthodes d\'enregistrement. Avec un peu de chance, l\'application parviendra à enregistrer les deux côtés via la méthode d\'enregistrement des API standards sans root. Mais il faudra peut-être tester les diverses sources audio des API standards dans Réglages &gt; Enregistrement &gt; API Standard.</string>
+    <string name="app_description_3">Si vous avez essayé toutes les sources audio de l\'API Standard et que l\'application n\'a rien enregistré ou seulement votre voix, cela signifie que le fabricant n\'a pas implémenté, ou a bloqué l\'enregistrement des appels au niveau du système.</string>
+    <string name="app_description_4">Il faudra disposer des droits root pour essayer les autres méthodes d\'enregistrement. Pour les méthodes root, il est important de sélectionner le bon appareil dans Réglages &gt; Enregistrement. Choisissez un appareil avec le même chipset si votre appareil n\'est pas listé.</string>
+</resources>
