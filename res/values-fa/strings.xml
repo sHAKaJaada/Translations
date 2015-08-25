@@ -537,4 +537,6 @@
 
     <string name="send_sms">ارسال پیامک</string>
 
+    <string name="category_contacts">مخاطبین</string>
+    <string name="link_to_contacts">لینک به مخاطبین</string>
     </resources>
