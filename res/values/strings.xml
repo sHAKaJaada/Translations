@@ -520,7 +520,7 @@
     <string name="georgian_translation">Georgian translation</string>
     <string name="georgian_translation_summary">by Sandro Razmadze</string>
     <string name="catalan_translation">Catalan translation</string>
-    <string name="catalan_translation_summary">by cybdani</string>
+    <string name="catalan_translation_summary">by cybdani and Jordi Miró</string>
     <string name="hindi_translation">Hindi translation</string>
     <string name="hindi_translation_summary">by TheTAMAS Gautam</string>
     <string name="punjabi_translation">Punjabi translation</string>
@@ -539,4 +539,13 @@
     <string name="tamil_translation_summary">by Ashish Sharma</string>
     <string name="greek_translation">Greek translation</string>
     <string name="greek_translation_summary">by Lefteris (SomniusX) Eliades</string>
+    <string name="bengali_translation">Bengali translation</string>
+    <string name="bengali_translation_summary">by Saurav Ghosh</string>
+
+    <!--About -> Description-->
+    <string name="app_description_0">The app is intended for automatic call recording from the phone line where supported by hardware and kernel. Call recording is a very device specific feature, because manufacturers often don’t implement the required functionality on the system level as they have to.</string>
+    <string name="app_description_1">So root is a must on many devices where manufacturers didn’t implement the required functionality. But it doesn’t mean the root is a savior for any device as call recording can be broken on the hardware level. Root helps often, but not always.</string>
+    <string name="app_description_2">The app has different recording methods. If you’re lucky enough, the app won\'t fail to record both sides over Standard API recording method without root. But you may need to check every audio source for Standard API in Settings &gt; Recording &gt; Standard API.</string>
+    <string name="app_description_3">If you’ve tried every audio source for Standard API and the app didn’t record or recorded just your voice, it means that the manufacturer has either failed to implement, or blocked call recording on the system level.</string>
+    <string name="app_description_4">You need to have root permissions to try other recording methods. For root methods, it’s important to select correct device in Settings &gt; Recording. Select a device with the same chipset if your device isn’t listed there.</string>
 </resources>
