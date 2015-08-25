@@ -496,7 +496,7 @@
     <string name="georgian_translation">Georgian अनुवादन के लिए</string>
     <string name="georgian_translation_summary">AlexSandreo Razmadze का</string>
     <string name="catalan_translation">Catalan अनुवादन के लिए</string>
-    <string name="catalan_translation_summary">cybdani का</string>
+    <string name="catalan_translation_summary">cybdani व Jordi Miró का</string>
     <string name="hindi_translation">Hindi अनुवादन के लिए</string>
     <string name="hindi_translation_summary">TheTAMAS Gautam का</string>
     <string name="punjabi_translation">Punjabi अनुवादन के लिए</string>
@@ -545,4 +545,12 @@
     <string name="link_to_contacts_summary">किसी संपर्क के भीतर से रिकॉर्डिंग देखने के लिए एक शॉर्टकट बनाएं</string>
     <string name="view_recordings">रिकॉर्डिंग देखें</string>
 
+    <string name="bengali_translation_summary">Saurav Ghosh द्वारा</string>
+
+    <string name="app_description_0">यह एक ऐसा एप (app) है जिसमें रिकॉर्डिंग यदि हार्डवेयर व कर्नेल द्वारा समर्थित हो तो वह स्वत: होती है। रिकॉर्डिंग, एक अत्यधिक यंत्र विशिष्ट विशेषता यह है क्योंकि कॉल रिकॉर्डिंग के लिये आवश्याक जरिये अक्सर यंत्र निर्माता नज़रअंदाज़ कर देते हैं।</string>
+    <string name="app_description_1">इसी वज़ह से आमतौर पर यंत्रों में रुट (Root) आवश्यक है। परंतु कभी-कभी रुट से भी रिकॉर्डिंग संभव नहीं होती। रुट मददग़ार होता है मगर-हमेशा नहीं।</string>
+    <string name="app_description_2">एप(app) में रिकॉर्डिंग के लिए कईं तकनीक हैं। यदि आप खुश क़िस्मत हैं तो बिना रुट के ही Standard API से दो तरफ़ा रिकॉर्डिंग हो जायेगी। अगर ऐसा नहीं होता तो आप Standard API के सभी ध्वनि स्त्रोतों को संयोजन &gt; रिकॉर्डिंग &gt; Standard API में जा कर आज़माएं।</string>
+    <string name="app_description_3">यदि Standard API में सभी ध्वनि स्त्रोतों को आज़माने के बावज़ूद रिकॉर्डिंग नहीं होती या सिर्फ आपकी आवाज़ ही रिकॉर्ड होती है तो यह दर्शाता है कि यंत्र के निर्माता ने कॉल रिकॉर्डिंग के लिए आवश्यक तंत्र नहीं मुहैय्या करवाया या रिकॉर्डिंग को अवरोधित किया हुआ है।</string>
+    <string name="app_description_4">बाकी बची तकनीकों को आज़मानें के लिए रुट आवश्यक है। रुट हासिल करने के पश्चात यह ज़रूरी है कि समायोजन &gt; रिकॉर्डिंग में से सही तकनीक का इस्तेमाल किया जाए। यदि आपका यंत्र मुहैय्या करवाई गयी तालिका में मौज़ूद नहीं है तो उस यंत्र का चयन करें जिसमें उपकरण मौज़ूद हों जो आपके यंत्र में है।</string>
+<string name="bengali_translation">Bengali अनुवादन के लिए</string>
     </resources>
