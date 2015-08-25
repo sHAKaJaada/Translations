@@ -542,4 +542,12 @@
     <string name="link_to_contacts_summary">Opret genvej til at se optagelser inde fra en kontakt af</string>
     <string name="view_recordings">Se optagelser</string>
 
-    </resources>
+    <string name="bengali_translation">Bengali oversættelse</string>
+    <string name="bengali_translation_summary">af Saurav Ghosh</string>
+
+    <string name="app_description_0">Formålet med appen er automatisk optagelse af telefonopkald, når og hvis telefonen understøtter dette. Optagelse af opkald er meget afhængig af producentens vilje til at implementere de nødvendige funktioner på system-niveau og det er ikke altid de gør dette.</string>
+    <string name="app_description_1">Så root er påkrævet på mange enheder, hvor producenterne ikke har tilføjet de nødvendige funktioner. Root-adgang er dog ingen garanti - opkaldsoptagelse kan også rammes af fejl på hardware-niveau og det kan sjældent omgås, selv af root.</string>
+    <string name="app_description_2">Appen har forskellige optagemetoder. Med lidt held kan appen optage begge sider af samtalen uden root-adgange vha metoden \"Standard API\", men det kan være nødvendigt at prøve hver eneste lydkilde under Indstillinger -&gt; Optagelse - Standard API.</string>
+    <string name="app_description_3">Hvis du har prøvet hver eneste lydkilde for Standard API og appen ikke optog noget eller kun din stemme, betyder det at producenten enten ikke understøtter eller har blokeret optagelse af opkald på system-niveau.</string>
+    <string name="app_description_4">De øvrige optagelsesmetoder kræver root-adgang. Det er vigtigt at vælge den korrekte enhed under Indstillinger -&gt; Optagelse. Vælg en enhed med det samme chipsæt som din enhed, hvis din enhed ikke er på listen.</string>
+</resources>
