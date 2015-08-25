@@ -137,7 +137,7 @@
     <string name="device_other">Iné</string>
     <string name="recording_method">Metóda nahrávania</string>
     <string name="recording_method_api">Štandardné API</string>
-    <string name="recording_method_api_settings">Nastavenia pre štandardné API nahrávanie</string>
+    <string name="recording_method_api_settings">Nastavenia pre Štandardné API nahrávanie</string>
     <string name="recording_method_caf">CAF</string>
     <string name="recording_method_caf_settings">Nastavenia pre CAF nahrávanie</string>
     <string name="recording_method_alsa">ALSA</string>
@@ -496,7 +496,7 @@
     <string name="georgian_translation">Gruzínsky preklad</string>
     <string name="georgian_translation_summary">Sandro Razmadze</string>
     <string name="catalan_translation">Katalánsky preklad</string>
-    <string name="catalan_translation_summary">Cybdani</string>
+    <string name="catalan_translation_summary">Cybdani a Jordi Miró</string>
     <string name="hindi_translation">Hindsky preklad</string>
     <string name="hindi_translation_summary">TheTAMAS Gautam</string>
     <string name="punjabi_translation">Pandžábsky preklad</string>
@@ -545,9 +545,9 @@
     <string name="bengali_translation">Bengálsky preklad</string>
     <string name="bengali_translation_summary">Saurav Ghosh</string>
 
-    <string name="app_description_0">Aplikácia slúži na nahrávanie hovorov z telefónnej linky, ak nahrávanie podporuje hardvér a kernel. Nahrávanie hovorov je funkcia, ktorá veľmi závisí od konkrétneho zariadenia, nakoľko výrobcovia často nesprístupnia funkcie potrebné pre nahrávanie hovorov.</string>
-    <string name="app_description_1">Preto je na mnohých zariadeniach, kde výrobca nesprístupnil potrebné funkcie nevyhnutný root. Neznemaná to však, že root umožní nahrávanie na všetkých zariadeniach, nakoľko niektoré z nich nemajú potrebný hardvér. Root pomôže často, ale nie vždy.</string>
-    <string name="app_description_2">Aplikácia má niekoľko spôsobov nahrávania. Ak máte šťastie, aplikácia nahrá obidve strany štandardným API spôsobom nahrávania bez nutnosti rootu. Pravdepodobne budete musieť zaškrtnúť štandardné API pri každom zdroji zvuku v Nastavenia &gt; Nahrávanie &gt; Štandardné API.</string>
-    <string name="app_description_3">Ak ste vyskúšali štandardné API pre všetky zdroje zvuku a aplikácia nenahráva alebo nahráva iba váš hlas, znamená to, že výrobca nenainštaloval alebo zablokoval nahrávanie hovorov na systémovej úrovni.</string>
-    <string name="app_description_4">Pre vyskúšanie iných spôsobov nahrávania musíte mať prístup root. Pre tieto spôsoby je nutné zvoliť správne zariadenie v Nastavenia &gt; Nahrávanie. Ak vaše zariadenie nie je v zozname, vyberte zariadenie s rovnakým procesorom.</string>
+    <string name="app_description_0">Aplikácia slúži na automatické nahrávanie hovorov z telefónnej linky, ak nahrávanie podporuje hardvér a jadro. Nahrávanie hovorov je funkcia, ktorá veľmi závisí od konkrétneho zariadenia, nakoľko výrobcovia často nesprístupnia funkcie potrebné pre nahrávanie hovorov.</string>
+    <string name="app_description_1">Preto je na mnohých zariadeniach, kde výrobca nesprístupnil potrebné funkcie nevyhnutný Root. Neznemaná to však, že Root umožní nahrávanie na všetkých zariadeniach, nakoľko niektoré z nich nemajú potrebný hardvér. Root pomôže často, ale nie vždy.</string>
+    <string name="app_description_2">Aplikácia má niekoľko metód nahrávania. Ak máte šťastie, aplikácia nahrá obidve strany Štandardným API nahrávaním bez nutnosti Root-u. Pravdepodobne budete musieť vyskúšať všetky zdroje zvuku pre Štandardné API nahrávanie v Nastavenia &gt; Nahrávanie &gt; Štandardné API.</string>
+    <string name="app_description_3">Ak ste vyskúšali všetky zdroje zvuku pre Štandardné API nahrávanie a aplikácia nenahráva alebo nahráva iba váš hlas, znamená to, že výrobca nenainštaloval alebo zablokoval nahrávanie hovorov na systémovej úrovni.</string>
+    <string name="app_description_4">Pre vyskúšanie iných metód nahrávania musíte mať Root prístup. Pre tieto metódy je nutné zvoliť správne zariadenie v Nastavenia &gt; Nahrávanie. Ak sa vaše zariadenie nenachádza v zozname, vyberte zariadenie s rovnakým typom procesora.</string>
 </resources>
