@@ -542,4 +542,12 @@
     <string name="link_to_contacts_summary">Parancsikon létehozása a felvételek eléréséhez a névjegyből</string>
     <string name="view_recordings">Felvételek megtekintése</string>
 
-    </resources>
+    <string name="bengali_translation">Bengali forditás</string>
+    <string name="bengali_translation_summary">Saurav Ghosh -tól</string>
+
+    <string name="app_description_0">A program automatikusan rögzíti a hívásokat, ahol a kernel és a hardver ezt támogatja. A hívás felvétel egy készülék specifikus lehetőség, mert a gyártók nem teszik bele a készülékekbe az ehhez szükséges funkciókat.</string>
+    <string name="app_description_1">Sok készüléknél szükséges lehet a készülék root-olása ahol nincsenek meg a szükséges funkciók , de nem minden esetben jelent megoldás, mert a hardver ettől még okozhat hibát a felvételben. A root segíthet, de nem minden esetben megoldás.</string>
+    <string name="app_description_2">A program több felvételi opciót is tartalmaz, ha szerencsés vagy a Standard API felvétel opcióval működik mindkét félnél a rögzítés root nélkül is. Érdemes minden opciót kipróbálni Standard API a Beállításoknál &gt; Felvétel &gt; Standard API.</string>
+    <string name="app_description_3">"Ha kipróbáltál minden rögzítési opciót a Standard API -val de egyikkel sem ment a felvétel akkor a gyártó nem tette alkalmassá a készüléked, vagy blokkolja a hivás  felvételt."</string>
+    <string name="app_description_4">Szükséged lehet a root jogosultságra a többi felvétel opció kipróbálásához. Ezen opcióknál szükséges a megfelelő készülék kiválasztása a Beállítások &gt; Felvétel. menüponton belül válaszd ki ugyanazt a chipstet mint ami a te készülékedben van.</string>
+</resources>
