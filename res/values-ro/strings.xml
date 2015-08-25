@@ -542,4 +542,12 @@
     <string name="link_to_contacts_summary">Creează o scurtătură pentru a vedea înregistrările din cadrul unui contact</string>
     <string name="view_recordings">Vezi înregistrările</string>
 
-    </resources>
+    <string name="bengali_translation">Traducerea în Bengaleză</string>
+    <string name="bengali_translation_summary">de Saurav Ghosh</string>
+
+    <string name="app_description_0">Aplicația intenționează să înregistreze din linia telefonică unde este suportat de echipament și de kernel. Înregistrarea de apel este o caracteristică foarte specifică fiecărui terminal deoarece producătorii, deseori, nu implementează funcționalitatea cerută pe nivelul de sistem, așa cum ar trebui.</string>
+    <string name="app_description_1">Deci root este o necesitate obligatorie pe multe terminale unde producătorii nu au implementat funcționalitatea cerută. Dar asta nu înseamnă că având root înregistrarea funcționează pe orice terminal din moment ce ea poate fi stricată la nivel hardware. Root ajută, dar nu întotdeauna.</string>
+    <string name="app_description_2">"Aplicația are diferite metode de înregistrare. Dacă ești norocos, va înregistra ambele părți prin metoda Standard API fără root. Dar ar trebui să verifici fiecare sursă audio pentru Standard API în Setări  &gt; Înregistrare &gt; Standard API."</string>
+    <string name="app_description_3">Dacă ai încercat fiecare sursă audio pentru Standard API și aplicația nu a înregistrat sau a înregistrat doar vocea ta, înseamnă că producătorul nu a reușit să implementeze opțiunea sau a blocat-o la nivel de sistem.</string>
+    <string name="app_description_4">Ai nevoie de permisiunea de root pentru a încerca celelalte metode de înregistrare. Pentru metode de root este important sa selectezi corect în Setări &gt; Înregistrare. Selectează un terminal cu același chipset dacă terminalul tău nu este în listă.</string>
+</resources>
