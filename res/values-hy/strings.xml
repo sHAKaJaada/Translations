@@ -496,7 +496,7 @@
     <string name="georgian_translation">Վրացերեն թարգմանություն</string>
     <string name="georgian_translation_summary">Sandro Razmadze-ի կողմից</string>
     <string name="catalan_translation">Կատալոներեն թարգմանություն</string>
-    <string name="catalan_translation_summary">cybdani-ի կողմից</string>
+    <string name="catalan_translation_summary">Jordi Miró 7 cybdani-ի կողմից</string>
     <string name="hindi_translation">Հինդի թարգմանություն</string>
     <string name="hindi_translation_summary">TheTAMAS Gautam-ի կողմից</string>
     <string name="punjabi_translation">Պունջաբի թարգմանություն</string>
@@ -548,4 +548,17 @@
     <string name="tip_select_all">Ընտրել բոլորը տարբերակը կհայտնվի կոնտեքստային մենյույում:</string>
     <string name="tip_audio_output">Երկար սեղմեք վերարտադրել/դադար տալ կոճակը ձայնի վերարտադրման եղանակը փոխելու համար:</string>
 
-    </resources>
+    <string name="category_contacts">Կոնտակտներ</string>
+    <string name="link_to_contacts">Կապել կոնտակտների հետ</string>
+    <string name="link_to_contacts_summary">Ստեղծել կապ ձայնագրությունները ուղղիղ կոնտակտներից նայելու համար</string>
+    <string name="view_recordings">Ցույց տալ ձայնագրությունները</string>
+
+    <string name="bengali_translation">Թարգմանությունը Բենգալյան</string>
+    <string name="bengali_translation_summary">Saurav Ghosh-ից</string>
+
+    <string name="app_description_0">Ծրագիրը նախատեսված է հեռախոսային ցրույցները ավտոմատ կերպով գծից ձայնագրելու համար դրա հնարավորությունը ունեցող սարքերի համար: Այս փունկցիայի աշխատանքը էականորեն կախված է սարքի հնարավորությունից և չգիտես ինչու հաճախ որոշ արտադրողներ չեն իրականացնում պահանջվող ֆունկցիոնալը համակրգի մակարդակով:</string>
+    <string name="app_description_1">Դրա համար որոշ սարքերի վրա անհրաժեշտ է Ռութ ծրագրի աշխատանքի համար: բայց դա չի նշանակում, որ Ռութը կլուծի հարցը բոլոր սարքերի վրա, քանի որ դեպքեր են լինում երբ խնդիրը սարքի բացակյող մասի պատճառով է, ռութը հաճախ լուծում է խնդիրը, բայց ոչ միշտ:</string>
+    <string name="app_description_2">Ծրագրի մեջ կան ձայնագրման տարբեր տարբերակներ: Եթե ձեղ հաջողվի ապա ձայնագրությունը կլինի երկկողմանի և առանց ռութի անհրաժեշտության: Բայց ձեզ անպայման պետք է փորձել բոլոր տարբերակները - Կարգավորթւոմներ-Ձայնագրություն-Ստանդարտ API-բաժնում:</string>
+    <string name="app_description_3">Եթե դութ փորձել եք բոլոր տարբերակները և ծրագիրը ոչինչ չի ձայնագրել կամ ձայնագրել է միայն ձեր ձայնը ապա արտադրողը կամ չի իրագործել այդ ֆունկցիան կամ արգելափակել է այն:</string>
+    <string name="app_description_4">Դուք պետք է ունենաք ռութ որպեսզի փորձեք ձայնագրության մյուս տարբերակները:Ռութ տարբերակների համար շատ կարևոր է ընտրել ճիշտ սարքի մոդելը Կարգավորումնե-Ձայնագրություն բաժնից: Ընտրեք նույն չիպսետով սարք եթե ձեր սարքի մոդելը բացակայում է ցանկում:</string>
+</resources>
