@@ -542,4 +542,12 @@
     <string name="link_to_contacts_summary">Vytvořit zástupce pro prohlížení záznamů v rámci kontaktu</string>
     <string name="view_recordings">Zobrazit nahrávky</string>
 
-    </resources>
+    <string name="bengali_translation">Bengálština překlad</string>
+    <string name="bengali_translation_summary">Saurav Ghosh</string>
+
+    <string name="app_description_0">Aplikace je určená k automatickému nahrávání hovorů z telefonní linky kde je to podporováno hardwarem a kernelem. Nahrávání hovorů je velmi závislé na vlastnostech zařízení, jelikož výrobci často neimplementují požadované funkce do systému jak by měli.</string>
+    <string name="app_description_1">Takže root je nutný na většině zařízení kde výrobci neimplementovali požadované funkce. Ale neznamená to že root je všespasitelný pro všechna zařízení i tak může nahrávání hovorů být nefunkční kvůli hardware. Root často pomůže, ale ne vždy.</string>
+    <string name="app_description_2">Aplikace má různé metody nahrávání. Pokud máte štěstí, aplikace nepadá při nahrávání prostřednictvím metody Standardní API a to bez rootu. Možná však bude zapotřebí zkontrolovat všechny zdroje audia pro Standardní API v Nastavení &gt; Nahrávání &gt; Standardní API.</string>
+    <string name="app_description_3">Pokud jste vyzkoušeli všechny zdroje zvuku pro Standardní API a aplikace stále nenahrává hovory, a nebo je slyšet pouze váš hlas, znamená to že výrobce zapomněl cosi implementovat, a nebo blokuje nahrávání hovorů na úrovni systému.</string>
+    <string name="app_description_4">Musíte mít oprávnění root pro zkoušení ostatních nahrávacích metod. Pro nahrávací metody vyžadující root je důležité zkontrolovat správnost zařízení v Nastavení &gt; Nahrávání. Zvolte zařízení se stejným čipsetem pokud není vaše zařízení v seznamu.</string>
+</resources>
