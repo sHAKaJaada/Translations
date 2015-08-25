@@ -551,4 +551,7 @@
     <string name="app_description_2">アプリはいくつか異なる録音方法をサポートしています。運が良ければ、rootなしでも標準APIによる録音方法で双方向の録音ができますが、 設定 &gt; 録音 &gt; 標準API にあるすべての音源を確認する必要があるかもしれません。</string>
     <string name="app_description_3">もし標準APIによるすべての音源を試し、アプリが録音できなかった、もしくはあなたの声だけ録音出来た場合は、製造元がシステムレベルでの通話録音をブロックしているか、実装していない可能性があります。</string>
     <string name="app_description_4">他の録音方法を試すにはrootアクセスが必要です。このrootを必要とする方法を使うには、設定 &gt; 録音より正しいデバイスを選択しなくてはなりません。もしあなたの所有するデバイスが表示されていない場合は、同じチップセットのデバイスを選択してください。</string>
-</resources>
+<string name="volume_control_rx">Rx</string>
+    <string name="volume_control_summary">Tx: %1$s, Rx: %2$s</string>
+    <string name="volume_control_tx">Tx</string>
+    </resources>
