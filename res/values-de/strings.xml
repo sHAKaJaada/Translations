@@ -537,4 +537,11 @@
     <string name="tip_select_all">Eine Optione \"Alle auswählen\" wird im Kontextmenü angezeigt.</string>
     <string name="tip_audio_output">Drücken Sie Play/Pause lange, um die Audioausgabe zu welchseln.</string>
 
+    <string name="category_contacts">Kontakte</string>
+    <string name="link_to_contacts">Kontakte verknüpfen</string>
+    <string name="view_recordings">Aufnahmen anzeigen</string>
+
+    <string name="bengali_translation">Bengalische Übersetzung</string>
+    <string name="bengali_translation_summary">von Saurav Ghosh</string>
+
     </resources>
