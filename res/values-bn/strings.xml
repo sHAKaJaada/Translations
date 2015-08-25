@@ -15,7 +15,7 @@
     <string name="action_share">ভাগ/ সেয়ার করুন</string>
     <string name="list_header_today">আজ</string>
     <string name="list_header_yesterday">গতকাল</string>
-    <string name="warning_root_required">আপনার ফোন রুট হওয়া বাধ্যতামূলক</string>
+    <string name="warning_root_required">আপনার ফোন রুট হওয়া বাধ্যতামূলক ।</string>
     <string name="no_connection">কোন কানেকশন নেই</string>
     <string name="add_to_contacts">কনট্যাক্টস এ যোগ/ অ্যাড করুন</string>
 
@@ -121,18 +121,18 @@
     <string name="recording_format_amr">এ.এম.আর (AMR)</string>
     <string name="recording_format_aac">এ.এ.সি (AAC)</string>
     <string name="recording_format_mp3">এম.পি.থ্রি (MP3)</string>
-    <string name="sample_rate_8000">৮০০০ হার্য (ডিফল্ট)</string>
+    <string name="sample_rate_8000">৮০০০ হার্ৎয (ডিফল্ট)</string>
     <string name="license_trial">ট্রায়াল সংস্করণের মেয়াদ শেষ হবে %s</string>
     <string name="license_not_market_managed">এই সংস্করণটি প্লে স্টোর এ এখন অবধি প্রকাশিত হয়নি</string>
     <string name="action_do_not_record">রেকর্ড করবেন না</string>
     <string name="action_record_contacts">শুধুমাত্র কনট্যাক্টস রেকর্ড করুন</string>
     <string name="recording_format">রেকর্ডিং এর প্রকার</string>
     <string name="volume_control">শব্দ নিয়ন্ত্রণ (ভলিউম কন্ট্রোল)</string>
-    <string name="sample_rate_11025">১১০২৫ হার্য</string>
-    <string name="sample_rate_16000">১৬০০০</string>
-    <string name="sample_rate_22050">২২০৫০</string>
-    <string name="sample_rate_44100">৪৪১০০</string>
-    <string name="sample_rate_48000">৪৮০০০</string>
+    <string name="sample_rate_11025">১১০২৫ হার্ৎয</string>
+    <string name="sample_rate_16000">১৬০০০ হার্ৎয</string>
+    <string name="sample_rate_22050">২২০৫০ হার্ৎয</string>
+    <string name="sample_rate_44100">৪৪১০০ হার্ৎয</string>
+    <string name="sample_rate_48000">৪৮০০০ হার্ৎয</string>
 
     <string name="api_source_microphone">মাইক্রোফোন</string>
     <string name="api_source_default">ডিফল্ট</string>
@@ -192,7 +192,7 @@
     <string name="exception_contacts_not_found">কনট্যাক্টস খুঁজে পাওয়া যাচ্ছে না</string>
     <string name="exception_by_contact">কনট্যাক্ট এর দ্বারা</string>
     <string name="exception_by_phone_number">ফোন নাম্বার এর দ্বারা</string>
-    <string name="toast_wrong_directory_selected">আপনি ভূল ডায়রেক্টরি নির্বাযন করেছেন, আবার চেষ্টা করুন</string>
+    <string name="toast_wrong_directory_selected">আপনি ভূল ডায়রেক্টরি নির্বাযন করেছেন, আবার চেষ্টা করুন ।</string>
     <string name="max_number_of_files">ফাইলের সর্বাধিক সংখ্যা</string>
     <string name="max_age_of_recordings">রেকর্ডিং এর সর্বাধিক সময়কাল</string>
     <string name="filename_pattern">প্যাটার্ন</string>
@@ -226,7 +226,7 @@
     <string name="notify_decrypting">ডিক্রিপ্টিং</string>
     <string name="category_encryption">এনক্রিপশন</string>
     <string name="require_password">পাসওয়ার্ড প্রয়োজন</string>
-    <string name="require_password_summary">অ্যাপ টি খুলতে পাসওয়ার্ড দরকারী</string>
+    <string name="require_password_summary">অ্যাপটি খুলতে পাসওয়ার্ড দরকারী</string>
     <string name="lock_after_exit">বেরিয়ে যান (এক্সিট)</string>
     <string name="main_speaker">মেইন স্পিকার</string>
     <string name="phone_speaker">ফোন স্পিকার</string>
@@ -397,7 +397,7 @@
     <string name="tamil_translation">তামিল অনুবাদ</string>
     <string name="greek_translation">গ্রীক অনুবাদ</string>
     <string name="records_size">রেকর্ড: %1$s, আয়তন: %2$s</string>
-    <string name="tip_select_item">কোন আইটেম নির্বাচন করতে তার উপর লং প্রেস করুন।</string>
+    <string name="tip_select_item">কোন আইটেম নির্বাচন করতে তার উপর লং প্রেস করুন ।</string>
     <string name="tip_audio_output">অডিও আউটপুট পরিবর্তন করতে প্লে/পজ্ বাটন্ এর উপর লং প্রেস করুন</string>
 
     <string name="delay_format_sec">%s সেকন্ড</string>
@@ -419,7 +419,7 @@
     <string name="notify_tasks_remaining">%d টাস্কস বাকী</string>
 
     <string name="create_new_key_summary">এই কি (Key) টি রেকর্ডিং এনক্রিপ্ট করার জন্য বা অ্যাপ এ প্রবেশ করার জন্য পরে ব্যবহৃত হবে</string>
-    <string name="delete_key_message">ডিলিট করার পর এনক্রিপ্টেড রেকর্ডিংগুলি এই কি (key) এর দ্বারা পুনরুদ্ধার করতে পারবেন না। আপনি কি নিশ্চিত এই সম্বন্ধে?</string>
+    <string name="delete_key_message">ডিলিট করার পর এনক্রিপ্টেড রেকর্ডিংগুলি এই কি (key) এর দ্বারা পুনরুদ্ধার করতে পারবেন না । আপনি কি নিশ্চিত এই সম্বন্ধে?</string>
     <string name="lock_after">লক হওয়ার সময়</string>
     <string name="app_admin_summary">কল রেকর্ডার এর আনইনস্টল প্রতিরোধ করতে ব্যবহার করুন</string>
     <string name="disable_autoplay_summary">রেকর্ডিং এ ক্লিক করা মাত্রই যেন প্লে-ব্যাক না হয়</string>
@@ -473,7 +473,7 @@
     <string name="section_tasks_hint">সময়সাপেক্ষ কাজ যেমন কনভার্টিং, এনক্রিপ্টিং বা ক্লাউড আপলোডিং এখানে দেখানো হবে</string>
     <string name="space_free_of">%1$s এর %2$s খালি</string>
 
-    <string name="tip_long_click_avatar">অবতারের উপর লং প্রেস করুন এই কনট্যাক্টটির কল ফিল্টার করতে।</string>
+    <string name="tip_long_click_avatar">অবতারের উপর লং প্রেস করুন এই কনট্যাক্টটির কল ফিল্টার করতে ।</string>
     <string name="start_recording_on_answer">ফোন ধরা হলে রেকর্ডিং শুরু হোক</string>
     <string name="settings_for_device">%s এর সেটিংস</string>
     <string name="audio_source_when_bt_connected">ব্লটুথ সংযুক্ত থাকাকালীন অডিও সোর্স</string>
@@ -485,7 +485,7 @@
     <string name="long_press_action_dragging_the_button">বাটন্ টিকে টানুন (ড্র্যাগিং দ্য বাটন্)</string>
     <string name="long_press_action_hang_up">কলটি কেটে দিয়ে ঘুরিয়ে কল করুন স্বয়ংক্রিয়ভাবে/ অটোম্যাটিকালি</string>
     <string name="link_to_contacts_summary">একটি কনট্যাক্ট এর ভিতর থেকে রেকর্ডিংস দেখতে সর্টকাট তৈরী করুন</string>
-    <string name="require_password_summary_no_key">অ্যাপটি খুলতে পাসওয়ার্ড প্রয়োজন। প্রথমে একটি কি (Key) তৈরী করুন</string>
+    <string name="require_password_summary_no_key">অ্যাপটি খুলতে পাসওয়ার্ড প্রয়োজন । প্রথমে একটি কি (Key) তৈরী করুন</string>
     <string name="app_admin_explanation">আনইনস্টল প্রতিরোধ করা ছাড়া এই অ্যাপটি ডিভাইস অ্যাডমিন এর আর কোন ফিচার ব্যবহার করেনা</string>
     <string name="audio_output_summary">%s (প্লে-পজ বাটন এর উপর লং প্রেস করলে সেটিও পরিবর্তীত হবে)</string>
     <string name="android_wav_decoder_summary">ওয়েভ (WAV) চালাবার জন্য বিল্ট-ইন অ্যান্ড্রয়েড টুলস ব্যবহার করা হোক</string>
@@ -497,7 +497,12 @@
     <string name="traditional_chinese_translation">ট্র্যাডিশনাল চাইনিজ্ অনুবাদ</string>
     <string name="terms_of_use_message">অ্যাপটি ব্যবহার করার দ্বারা আপনি কল রেকর্ডার এর &lt;a href=http://rec.sh/terms&gt;Terms of Use&lt;/a&gt; মেনে নিচ্ছেন।</string>
 
-    <string name="delete_key_summary">সতর্কবাণী! আপনি কোনভাবেই এনক্রিপ্টেড রেকর্ডিংগুলি ফিরে পাবেন না যদি আপনি এই কি (Key) এর মাধ্যমে রেকর্ডিংগুলি এনক্রিপ্ট করে থাকেন, এমনকি যদি আপনি নতুন কি (Key) তৈরী করেন একই পাসওয়ার্ড দিয়ে, তাহলেও নয়</string>
-    <string name="tip_select_all">সিলেক্ট অল অপশনটি কনটেক্সট মেনুতে তখন দেখা যাবে।</string>
+    <string name="delete_key_summary">সতর্কবাণী ! আপনি কোনভাবেই এনক্রিপ্টেড রেকর্ডিংগুলি ফিরে পাবেন না যদি আপনি এই কি (Key) এর মাধ্যমে রেকর্ডিংগুলি এনক্রিপ্ট করে থাকেন, এমনকি যদি আপনি নতুন কি (Key) তৈরী করেন একই পাসওয়ার্ড দিয়ে, তাহলেও নয়</string>
+    <string name="tip_select_all">সিলেক্ট অল অপশনটি কনটেক্সট মেনুতে তখন দেখা যাবে ।</string>
     <string name="switch_audio_output_summary">যখন প্রক্সিমিটি সেন্সর এর দ্বারা স্ক্রীন চালু বা বন্ধ থাকবে তখন অডিও আউটপুট স্বয়ংক্রিয়ভাবে/ অটোম্যাটিকালী পরিবর্তন করা হোক</string>
+    <string name="bengali_translation">বাংলা অনুবাদ</string>
+    <string name="bengali_translation_summary">সৌজন্যে: Saurav Ghosh (ithehappy)</string>
+
+    <string name="app_description_0">এই অ্যাপটি ফোন লাইন থেকে অটোম্যাটিক কল রেকর্ডিং এর জন্য তৈরী, যেখানে হার্ডওয়্যার ও কার্নেল সমর্থিত । কল রেকর্ডিং হোলো একটি ডিভাইস নির্দিষ্ট ফিচার, নির্মাতারা প্রায়শই সিস্টেম লেভেলে প্রয়োজনীয় কার্যকারিতা বাস্তবায়ন করে না যেরকম তারা করতে পারে ।</string>
+    <string name="app_description_1">যে সমস্ত নির্মাতারা প্রয়োজনীয় কার্যকারিতা বাস্তবায়ীত করে নি, সেই সব ডিভাইস এর জন্য রুট বাধ্যতামূলক । কিন্তু তার মানে এই নয় যে যে সমস্ত ডিভাইস হার্ডওয়্যার লেভেলে কল রেকর্ড করতে অক্ষম সেই সমস্ত ডিভাইস এর জন্য রুট রক্ষাকর্তা হিসেবে কাজ করবে । রুট থাকা প্রায়শই সাহায্য করে, কিন্তু সর্বদা নয় ।</string>
     </resources>
