@@ -554,4 +554,8 @@
 <string name="volume_control_rx">Rx</string>
     <string name="volume_control_summary">Tx: %1$s, Rx: %2$s</string>
     <string name="volume_control_tx">Tx</string>
+    <string name="queued">処理待ち</string>
+    <string name="settings_open_unlocker">Unlockerを開く</string>
+    <string name="api_source_voice_communication">音声通信</string>
+    <string name="button_keep">保持</string>
     </resources>
