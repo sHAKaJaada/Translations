@@ -324,7 +324,7 @@
     <string name="notify_encrypting">Идет шифрование</string>
     <string name="notify_decrypting">Идет расшифровка</string>
     <string name="notify_waiting_for_calls">Ожидание звонков</string>
-    <string name="notify_tasks_remaining">%d осталось</string>
+    <string name="notify_tasks_remaining">осталось %d задач</string>
 
     <!-- Password dialog -->
     <string name="wrong_password">Неправильный пароль</string>
@@ -472,7 +472,7 @@
     <string name="turkish_translation">Перевод на турецкий</string>
     <string name="turkish_translation_summary">от Omer Ilik</string>
     <string name="serbian_translation">Перевод на сербский</string>
-    <string name="serbian_translation_summary">от sHAKaJaada</string>
+    <string name="serbian_translation_summary">от sHAKaJaada™</string>
     <string name="korean_translation">Перевод на корейский</string>
     <string name="korean_translation_summary">от SoHyunSeop и Joon Hee Jo</string>
     <string name="romanian_translation">Перевод на румынский</string>
@@ -496,7 +496,7 @@
     <string name="georgian_translation">Перевод на грузинский</string>
     <string name="georgian_translation_summary">от Sandro Razmadze</string>
     <string name="catalan_translation">Перевод на каталонский</string>
-    <string name="catalan_translation_summary">от cybdani</string>
+    <string name="catalan_translation_summary">от cybdani и Jordi Miró</string>
     <string name="hindi_translation">Перевод на хинди</string>
     <string name="hindi_translation_summary">от TheTAMAS Gautam</string>
     <string name="punjabi_translation">Перевод на панджаби</string>
