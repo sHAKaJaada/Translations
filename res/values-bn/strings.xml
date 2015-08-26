@@ -11,30 +11,30 @@
     <string name="empty_hint">খালি</string>
 
     <string name="action_settings">সেটিংস</string>
-    <string name="action_delete">মুছে দিন</string>
+    <string name="action_delete">মুছে দিন (ডিলিট)</string>
     <string name="action_share">ভাগ/ সেয়ার করুন</string>
     <string name="list_header_today">আজ</string>
     <string name="list_header_yesterday">গতকাল</string>
-    <string name="warning_root_required">আপনার ফোন রুট হওয়া বাধ্যতামূলক ।</string>
+    <string name="warning_root_required">আপনার ফোন রুট হওয়া বাধ্যতামূলক । এই মেসেজটি আর না দেখতে চাইলে লং ট্যাপ করুন ।</string>
     <string name="no_connection">কোন কানেকশন নেই</string>
-    <string name="add_to_contacts">কনট্যাক্টস এ যোগ/ অ্যাড করুন</string>
+    <string name="add_to_contacts">কনট্যাক্টস-এ যোগ/ অ্যাড করুন</string>
 
-    <string name="menu_add_to_dropbox">ড্রপবক্স এ যোগ/ অ্যাড করুন</string>
-    <string name="menu_add_to_drive">গুগল ড্রাইভ এ যোগ/ অ্যাড করুন</string>
+    <string name="menu_add_to_dropbox">ড্রপবক্স-এ যোগ/ অ্যাড করুন</string>
+    <string name="menu_add_to_drive">গুগল ড্রাইভ-এ যোগ/ অ্যাড করুন</string>
     <string name="menu_add_note">বিঃদ্রঃ (নোট) যোগ/ অ্যাড করুন</string>
     <string name="menu_edit_note">বিঃদ্রঃ সম্পাদন করুন (এডিট নোট)</string>
     <string name="menu_delete">মুছে দিন (ডিলিট)</string>
     <string name="menu_share">ভাগ করুন (সেয়ার)</string>
-    <string name="menu_convert_to_mp3">এম.পি.থ্রি তে রূপান্তর করুন (কনভার্ট টু MP3)</string>
-    <string name="menu_convert_to_amr">এ.এম.আর এ রূপান্তর করুন (কনভার্ট টু AMR)</string>
+    <string name="menu_convert_to_mp3">এম.পি.থ্রি-তে রূপান্তর করুন (কনভার্ট টু MP3)</string>
+    <string name="menu_convert_to_amr">এ.এম.আর-এ রূপান্তর করুন (কনভার্ট টু AMR)</string>
     <string name="menu_cancel_task">টাস্ক বাতিল করুন</string>
     <string name="menu_encrypt">এনক্রিপ্ট</string>
     <string name="menu_decrypt">ডিক্রিপ্ট</string>
 
-    <string name="file_name">ফাইল এর নাম</string>
+    <string name="file_name">ফাইল-এর নাম</string>
     <string name="recording_type_mono">মোনো</string>
     <string name="recording_type_stereo">স্টিরিও</string>
-    <string name="file_size">ফাইল এর আয়তন</string>
+    <string name="file_size">ফাইল-এর আয়তন</string>
     <string name="terabyte">টি.বি (টেরাবাইট)</string>
     <string name="gigabyte">জি.বি (গিগাবাইট)</string>
     <string name="megabyte">এম.বি (মেগাবাইট)</string>
@@ -44,11 +44,11 @@
 
     <string name="action_sort">বাছাই করুন (সর্ট)</string>
     <string name="queued">সারিবদ্ধ</string>
-    <string name="recording_type">রেকর্ডিং এর প্রকার (রেকর্ডিং টাইপ)</string>
-    <string name="contact_name">কনট্যাক্ট এর নাম</string>
+    <string name="recording_type">রেকর্ডিং-এর প্রকার (রেকর্ডিং টাইপ)</string>
+    <string name="contact_name">কনট্যাক্ট-এর নাম</string>
     <string name="phone_number">ফোন নাম্বার</string>
 
-    <string name="confirm_delete_message">আপনি কি নিশ্চিত যে এই রেকর্ডিং টি আপনি মুছে দিতে (ডিলিট) চান?</string>
+    <string name="confirm_delete_message">আপনি কি নিশ্চিত যে এই রেকর্ডিংটি আপনি মুছে দিতে (ডিলিট) চান?</string>
     <string name="confirm_delete_several_title">মুছিয়াতা (ডিলিশন) নিশ্চিত করুন</string>
     <string name="confirm_delete_several_message">যে %d টি রেকর্ডিং আপনি সিলেক্ট করেছেন, আপনি কি নিশ্চিত সেগুলি আপনি মুছে দিতে চান?</string>
 
@@ -68,19 +68,19 @@
     <string name="action_select_all">সবকটি চিহ্নিত করুন</string>
     <string name="sort_by_date">তারিখ দ্বারা</string>
     <string name="sort_by_contact">কনট্যাক্ট দ্বারা</string>
-    <string name="sort_by_file_size">ফাইল এর আয়তন (সাইজ) দ্বারা</string>
+    <string name="sort_by_file_size">ফাইল-এর আয়তন (সাইজ) দ্বারা</string>
     <string name="restore_settings">সেটিংস প্রত্যর্পণ (রিস্টোর) করুন</string>
 
     <string name="warning_low_space">জায়গা কম (লো স্পেস): %s</string>
 
     <string name="menu_get_info">তথ্য পান (গেট ইনফো)</string>
     <string name="sample_rate">স্যাম্পল রেট</string>
-    <string name="sample_rate_hz">হার্য</string>
+    <string name="sample_rate_hz">হার্ৎয্ (Hz)</string>
     <string name="settings_audio_player">অডিও প্লেয়ার</string>
     <string name="settings_debug">ডেবাগ্</string>
     <string name="settings_about">এই অ্যাপটির সম্বন্ধে জানুন</string>
 
-    <string name="license_status">লাইসেন্স এর অবস্থা</string>
+    <string name="license_status">লাইসেন্স-এর অবস্থা</string>
     <string name="license_check_pending">লাইসেন্স যাচাই অমীমাংসিত</string>
     <string name="license_check_failed">লাইসেন্স যাচাই ব্যর্থ</string>
     <string name="license_check_failed_summary">বিস্তারিত জানতে এখানে ক্লিক করুন</string>
@@ -101,12 +101,12 @@
     <string name="device_root_is_required_summary">ভাল কোয়ালিটির জন্য এই ডিভাইসটি রুট হওয়া প্রয়োজনীয়</string>
     <string name="device_other">অন্যান্য</string>
     <string name="section_tasks">টাস্কস</string>
-    <string name="menu_convert_to_wav">ওয়েভ এ রূপান্তর করুন (কনভার্ট টু WAV)</string>
-    <string name="license_trial_expired">ট্রায়াল পিরিয়ড এর মেয়াদ শেষ</string>
+    <string name="menu_convert_to_wav">ওয়েভ-এ রূপান্তর করুন (কনভার্ট টু WAV)</string>
+    <string name="license_trial_expired">ট্রায়াল পিরিয়ড-এর মেয়াদ শেষ</string>
     <string name="license_trial_expired_summary">সম্পূর্ণ সংস্করণ ক্রয় করার আগে দয়া করে এই সংস্করণটি আনইনস্টল করুন</string>
     <string name="buy_full_version_summary">এই সংস্করণটির মেয়াদ শেষ হবে %s</string>
 
-    <string name="recording_method">রেকর্ডিং এর পদ্ধতি</string>
+    <string name="recording_method">রেকর্ডিং-এর পদ্ধতি</string>
     <string name="recording_method_api">স্ট্যান্ডার্ড এ.পি.আই (API)</string>
     <string name="recording_method_caf">সি.এ.এফ (CAF)</string>
     <string name="recording_method_alsa">এ.এল.এস.এ (ALSA)</string>
@@ -115,18 +115,18 @@
     <string name="action_record_all">সব রেকর্ড করুন</string>
     <string name="call_confirm">কল নিশ্চিত করুন</string>
     <string name="exceptions">ব্যতিক্রম (এক্সেপসনস্)</string>
-    <string name="delay_for_outgoing">আউটগোয়িং এর জন্য</string>
-    <string name="delay_for_incoming">ইনকামিং এর জন্য</string>
+    <string name="delay_for_outgoing">আউটগোয়িং-এর জন্য</string>
+    <string name="delay_for_incoming">ইনকামিং-এর জন্য</string>
     <string name="recording_format_wav">ওয়েভ (WAV)</string>
     <string name="recording_format_amr">এ.এম.আর (AMR)</string>
     <string name="recording_format_aac">এ.এ.সি (AAC)</string>
     <string name="recording_format_mp3">এম.পি.থ্রি (MP3)</string>
     <string name="sample_rate_8000">৮০০০ হার্ৎয (ডিফল্ট)</string>
     <string name="license_trial">ট্রায়াল সংস্করণের মেয়াদ শেষ হবে %s</string>
-    <string name="license_not_market_managed">এই সংস্করণটি প্লে স্টোর এ এখন অবধি প্রকাশিত হয়নি</string>
+    <string name="license_not_market_managed">এই সংস্করণটি প্লে স্টোর-এ এখনো অবধি প্রকাশিত হয়নি</string>
     <string name="action_do_not_record">রেকর্ড করবেন না</string>
     <string name="action_record_contacts">শুধুমাত্র কনট্যাক্টস রেকর্ড করুন</string>
-    <string name="recording_format">রেকর্ডিং এর প্রকার</string>
+    <string name="recording_format">রেকর্ডিং-এর প্রকার</string>
     <string name="volume_control">শব্দ নিয়ন্ত্রণ (ভলিউম কন্ট্রোল)</string>
     <string name="sample_rate_11025">১১০২৫ হার্ৎয</string>
     <string name="sample_rate_16000">১৬০০০ হার্ৎয</string>
@@ -136,11 +136,11 @@
 
     <string name="api_source_microphone">মাইক্রোফোন</string>
     <string name="api_source_default">ডিফল্ট</string>
-    <string name="category_wav_settings">ওয়েভ (WAV) এর সেটিংস</string>
-    <string name="category_wav_and_mp3_settings">ওয়েভ (WAV) এবং এম.পি.থ্রি (MP3) এর সেটিংস</string>
+    <string name="category_wav_settings">ওয়েভ (WAV)-এর সেটিংস</string>
+    <string name="category_wav_and_mp3_settings">ওয়েভ (WAV) এবং এম.পি.থ্রি (MP3)-এর সেটিংস</string>
     <string name="when_bt_connected_disable_recording">রেকর্ডিং বন্ধ করুন</string>
 
-    <string name="chipset_type">চিপসেট এর প্রকার</string>
+    <string name="chipset_type">চিপসেট-এর প্রকার</string>
     <string name="add_exception">ব্যতিক্রম যোগ করুন (অ্যাড এক্সেপসন্)</string>
     <string name="exception_group">গ্রূপ</string>
     <string name="exception_select_group">গ্রূপ নির্বাচন করুন (সিলেক্ট গ্রূপ)</string>
@@ -148,12 +148,12 @@
     <string name="exception_select_contact">কনট্যাক্ট নির্বাচন করুন (সিলেক্ট কনট্যাক্ট)</string>
     <string name="exception_phone_number">ফোন নাম্বার</string>
     <string name="exception_action_always_record">সর্বদা রেকর্ড করুন</string>
-    <string name="exception_action_never_record">রেকর্ড সম্পূর্ণ বন্ধ করুন</string>
+    <string name="exception_action_never_record">কখনত্ত রেকর্ড করবেন না</string>
     <string name="folder">ফোল্ডার</string>
     <string name="create_new_folder">নতুন ফোল্ডার তৈরী করুন …</string>
     <string name="dialog_title_new_folder">নতুন ফোল্ডার</string>
     <string name="dialog_grant_permission_title">অনুমতি দিন</string>
-    <string name="settings_filename">ফাইল এর নাম</string>
+    <string name="settings_filename">ফাইল-এর নাম</string>
     <string name="pattern_phone_number">ফোন নাম্বার</string>
     <string name="time_pattern_hours">ঘণ্টা</string>
     <string name="time_pattern_minutes">মিনিট</string>
@@ -166,13 +166,13 @@
     <string name="theme">থিম</string>
     <string name="language">ভাষা</string>
     <string name="select_language">ভাষা নির্বাচন করুন</string>
-    <string name="incall_control_for_outgoing">আউটগোয়িং কল এর জন্য</string>
-    <string name="incall_control_for_incoming">ইনকামিং কল এর জন্য</string>
+    <string name="incall_control_for_outgoing">আউটগোয়িং কল-এর জন্য</string>
+    <string name="incall_control_for_incoming">ইনকামিং কল-এর জন্য</string>
     <string name="cloud_provider_dropbox">ড্রপবক্স</string>
     <string name="cloud_provider_google_drive">গুগল ড্রাইভ</string>
-    <string name="notify_converting_to_amr">এ.এম.আর (AMR) এ রূপান্তরিত হচ্ছে</string>
-    <string name="notify_converting_to_mp3">এম.পি.থ্রি (MP3) তে রূপান্তরিত হচ্ছে</string>
-    <string name="notify_converting_to_wav">ওয়েভ (WAV) এ রূপান্তরিত হচ্ছে</string>
+    <string name="notify_converting_to_amr">এ.এম.আর (AMR)-এ রূপান্তরিত হচ্ছে</string>
+    <string name="notify_converting_to_mp3">এম.পি.থ্রি (MP3)-তে রূপান্তরিত হচ্ছে</string>
+    <string name="notify_converting_to_wav">ওয়েভ (WAV)-এ রূপান্তরিত হচ্ছে</string>
     <string name="wrong_password">পাসওয়ার্ড ভুল</string>
     <string name="enter_password">পাসওয়ার্ড দিন</string>
     <string name="password_has_been_changed">পাসওয়ার্ড বদল হয়েছে</string>
@@ -185,30 +185,30 @@
     <string name="lock_after_3_minutes">৩ মিনিট</string>
     <string name="lock_after_5_minutes">৫ মিনিট</string>
     <string name="lock_after_10_minutes">১০ মিনিট</string>
-    <string name="recording_mode">রেকর্ডিং এর প্রকার</string>
+    <string name="recording_mode">রেকর্ডিং-এর প্রকার</string>
 
     <string name="alsa_is_not_installed">এ.এল.এস.এ (ALSA) ইনস্টল থাকা বাধ্যতামূলক</string>
-    <string name="chipset_type_msm72xx">কোয়ালকম এম.এস.এম ৭২XX</string>
+    <string name="chipset_type_msm72xx">কোয়ালকম্ এম.এস.এম ৭২XX</string>
     <string name="exception_contacts_not_found">কনট্যাক্টস খুঁজে পাওয়া যাচ্ছে না</string>
-    <string name="exception_by_contact">কনট্যাক্ট এর দ্বারা</string>
-    <string name="exception_by_phone_number">ফোন নাম্বার এর দ্বারা</string>
+    <string name="exception_by_contact">কনট্যাক্ট-এর দ্বারা</string>
+    <string name="exception_by_phone_number">ফোন নাম্বার-এর দ্বারা</string>
     <string name="toast_wrong_directory_selected">আপনি ভূল ডায়রেক্টরি নির্বাযন করেছেন, আবার চেষ্টা করুন ।</string>
     <string name="max_number_of_files">ফাইলের সর্বাধিক সংখ্যা</string>
-    <string name="max_age_of_recordings">রেকর্ডিং এর সর্বাধিক সময়কাল</string>
+    <string name="max_age_of_recordings">রেকর্ডিং-এর সর্বাধিক সময়কাল</string>
     <string name="filename_pattern">প্যাটার্ন</string>
-    <string name="time_pattern">সময় এর প্যাটার্ন</string>
+    <string name="time_pattern">সময়-এর প্যাটার্ন</string>
 
-    <string name="pattern_contact_name">কনট্যাক্ট এর নাম</string>
-    <string name="pattern_call_time">কল এর সময়</string>
-    <string name="pattern_call_type">কল এর প্রকার (ইনকামিং অথবা আউটগোয়িং)</string>
+    <string name="pattern_contact_name">কনট্যাক্ট-এর নাম</string>
+    <string name="pattern_call_time">কল-এর সময়</string>
+    <string name="pattern_call_type">কল-এর প্রকার (ইনকামিং অথবা আউটগোয়িং)</string>
     <string name="theme_light">সাদাটে (লাইট)</string>
     <string name="theme_dark">কালছে (ডার্ক)</string>
     <string name="default_language">ডিফল্ট ভাষা</string>
     <string name="category_notification">নোটিফিকেশন</string>
     <string name="show_notification">নোটিফিকেশন দেখানো হোক</string>
-    <string name="show_notification_summary">স্ট্যাটাস বার এ স্থায়ী নোটিফিকেশন</string>
+    <string name="show_notification_summary">স্ট্যাটাস বার-এ স্থায়ী নোটিফিকেশন</string>
     <string name="hide_icon_but_keep_notification">আইকন হাইড করুন, কিন্তু নোটিফিকেশন রাখুন</string>
-    <string name="hide_icon_but_keep_notification_summary">আইকন হাইড করুন, কিন্তু স্ট্যাটাস বার এ নোটিফিকেশন রাখুন</string>
+    <string name="hide_icon_but_keep_notification_summary">আইকন হাইড করুন, কিন্তু স্ট্যাটাস বার-এ নোটিফিকেশন রাখুন</string>
     <string name="hide_button_while_recording">রেকর্ডিং চলাকালীন বাটন্ হাইড করুন</string>
     <string name="vertical_position">উল্লম্ব অবস্থান (ভার্টিকাল পোজিসন)</string>
     <string name="horizontal_position">অনুভূমিক অবস্থান (হরাইজন্টাল পোজিসন)</string>
@@ -220,8 +220,8 @@
     <string name="sign_out_google_drive">গুগল ড্রাইভ থেকে সাইন আউট করুন</string>
     <string name="cloud_common_settings">সাধারণ (কমন্)</string>
     <string name="cloud_wifi_only">শুধুমাত্র ওয়াই-ফাই</string>
-    <string name="notify_uploading_dropbox">ড্রপবক্স এ আপলোড হচ্ছে</string>
-    <string name="notify_uploading_drive">গুগল ড্রাইভ এ আপলোড হচ্ছে</string>
+    <string name="notify_uploading_dropbox">ড্রপবক্স-এ আপলোড হচ্ছে</string>
+    <string name="notify_uploading_drive">গুগল ড্রাইভ-এ আপলোড হচ্ছে</string>
     <string name="notify_encrypting">এনক্রিপ্টিং</string>
     <string name="notify_decrypting">ডিক্রিপ্টিং</string>
     <string name="category_encryption">এনক্রিপশন</string>
@@ -237,19 +237,19 @@
     <string name="navigation_drawer_open">নেভিগেশন ড্রয়ার খুলুন</string>
     <string name="navigation_drawer_close">নেভিগেশন ড্রয়ার বন্ধ করুন</string>
 
-    <string name="section_by_contact">কনট্যাক্ট এর দ্বারা</string>
-    <string name="section_by_format">ফরম্যাট এর দ্বারা</string>
-    <string name="section_by_label">লেবেল এর দ্বারা</string>
-    <string name="tip_click_avatar">কনট্যাক্ট এর সম্বন্ধে জানতে অবতার এর উপর ক্লিক করুন ।</string>
+    <string name="section_by_contact">কনট্যাক্ট-এর দ্বারা</string>
+    <string name="section_by_format">ফরম্যাট-এর দ্বারা</string>
+    <string name="section_by_label">লেবেল-এর দ্বারা</string>
+    <string name="tip_click_avatar">কনট্যাক্ট-এর সম্বন্ধে জানতে অবতার-এর উপর ক্লিক করুন ।</string>
     <string name="license_verified_summary">হাইড করতে প্রেস করুন</string>
     <string name="license_incorrect_response">প্লে স্টোর থেকে বেঠিক লাইসেন্স রেস্পন্স আসছে</string>
-    <string name="device_change_settings_empty">এই ডিভাইস এর সেটিংস ইতিমধ্যেই সেট-আপ করা আছে</string>
+    <string name="device_change_settings_empty">এই ডিভাইস-এর সেটিংস ইতিমধ্যেই সেট-আপ করা আছে</string>
     <string name="recording_method_api_settings">স্ট্যান্ডার্ড এ.পি.আই রেকর্ডিং পদ্ধতির সেটিংস</string>
     <string name="recording_method_caf_settings">সি.এ.এফ রেকর্ডিং পদ্ধতির সেটিংস</string>
     <string name="recording_method_alsa_settings">এ.এল.এস.এ রেকর্ডিং পদ্ধতির সেটিংস</string>
     <string name="recording_method_msm_settings">এম.এস.এম রেকর্ডিং পদ্ধতির সেটিংস</string>
-    <string name="action_for_incoming">ইনকামিং কল এর অ্যাকশন</string>
-    <string name="action_for_outgoing">আউটগোয়িং কল এর অ্যাকশন</string>
+    <string name="action_for_incoming">ইনকামিং কল-এর অ্যাকশন</string>
+    <string name="action_for_outgoing">আউটগোয়িং কল-এর অ্যাকশন</string>
     <string name="call_confirm_summary">কল করার আগে নিশ্চিত বার্তা দেখানো হোক</string>
     <string name="after_call_actions_dialog">কল করার পরের ক্রিয়ার বার্তা (After-call actions dialog)</string>
     <string name="after_call_actions_dialog_summary">কল করার পরের কার্যাবলী জিজ্ঞাসা করা হোক</string>
@@ -262,9 +262,9 @@
     <string name="when_bt_connected">যখন ব্লটুথ সংযুক্ত/ কানক্টেড…</string>
     <string name="alsa_is_not_installed_summary">এ.এল.এস.এ (ALSA) ইনস্টল করতে এইখানে প্রেস করুন</string>
 
-    <string name="chipset_type_msm8250">কোয়ালকম এম.এস.এম৮২৫০</string>
-    <string name="chipset_type_msm8255">কোয়ালকম এম.এস.এম৮২৫৫</string>
-    <string name="chipset_type_msm8260">কোয়ালকম এম.এস.এম৮২৬০</string>
+    <string name="chipset_type_msm8250">কোয়ালকম্ এম.এস.এম৮২৫০</string>
+    <string name="chipset_type_msm8255">কোয়ালকম্ এম.এস.এম৮২৫৫</string>
+    <string name="chipset_type_msm8260">কোয়ালকম্ এম.এস.এম৮২৬০</string>
     <string name="dont_use_amr_driver">এ.এম.আর (AMR) ড্রাইভার ব্যবহার না করা হোক</string>
     <string name="exception_action">ক্রিয়া (অ্যাকশন)</string>
     <string name="exception_select_action">ক্রিয়া নির্বাচন করুন (সিলেক্ট অ্যাকশন)</string>
@@ -275,11 +275,11 @@
     <string name="show_button_while_ringing">রিং চলাকালীন বাটন্ দেখানো হোক</string>
     <string name="cloud_provider">ক্লাউড প্রোভাইডার</string>
     <string name="cloud_auto_upload">স্বয়ংক্রিয়/ অটো আপলোড</string>
-    <string name="notify_waiting_for_calls">কল এর জন্য প্রতীক্ষা চলছে (ওয়েটিং ফর কলস্)</string>
+    <string name="notify_waiting_for_calls">কল-এর জন্য প্রতীক্ষা চলছে (ওয়েটিং ফর কলস্)</string>
     <string name="delete_key">ডিলিট কি (Key)</string>
     <string name="create_new_key">নতুন কি (Key) তৈরী করুন</string>
     <string name="action_record_non_contacts">কনট্যাক্টস ছাড়া অন্যান্য রেকর্ড করুন</string>
-    <string name="exceptions_summary">কনট্যাক্ট, গ্রূপ ও ফোন নাম্বার এর জন্য নির্দিষ্ট ক্রিয়া (স্পেসিফিক অ্যাকশন) সেট করুন</string>
+    <string name="exceptions_summary">কনট্যাক্ট, গ্রূপ ও ফোন নাম্বার-এর জন্য নির্দিষ্ট ক্রিয়া (স্পেসিফিক অ্যাকশন) সেট করুন</string>
     <string name="delay_before_start_recording">রেকর্ডিং শুরুর আগে দেরী হওয়ার সময়</string>
     <string name="volume_control_tx">টি.এক্স (Tx)</string>
     <string name="volume_control_rx">আর.এক্স (Rx)</string>
@@ -287,20 +287,20 @@
     <string name="when_bt_connected_do_nothing">কিছু না করা (ডু নাথিং)</string>
     <string name="when_bt_connected_switch_source">অডিও সোর্স পরিবর্তন/ সুইচ করুন</string>
     <string name="exception_groups_not_found">গ্রূপ পাওয়া যাচ্ছেনা</string>
-    <string name="exception_by_group">গ্রূপ এর দ্বারা</string>
+    <string name="exception_by_group">গ্রূপ-এর দ্বারা</string>
     <string name="max_number_of_files_message">একটি নাম্বার লিখুন (০ থেকে সীমাহীন)</string>
     <string name="max_total_size_of_files">ফাইলের মোট আয়তনের সর্বাধিক সংখ্যা</string>
     <string name="max_total_size_of_files_message">একটি ভ্যালু লিখুন, মেগাবাইটস এ (০ থেকে সীমাহীন)</string>
     <string name="max_age_of_recordings_message">একটি ভ্যালু লিখুন, দিন এ (০ থেকে সীমাহীন)</string>
     <string name="current_setting">বর্তমান সেটিং: %s</string>
     <string name="category_incall_control_button">ইন-কল কন্ট্রোল বাটন্</string>
-    <string name="incall_control_for_outgoing_summary">আউটগোয়িং কল এর জন্য ইন-কল কন্ট্রোল বাটন্ দেখানো হোক</string>
-    <string name="incall_control_for_incoming_summary">ইনকামিং কল এর জন্য ইন-কল কন্ট্রোল বাটন্ দেখানো হোক</string>
+    <string name="incall_control_for_outgoing_summary">আউটগোয়িং কল-এর জন্য ইন-কল কন্ট্রোল বাটন্ দেখানো হোক</string>
+    <string name="incall_control_for_incoming_summary">ইনকামিং কল-এর জন্য ইন-কল কন্ট্রোল বাটন্ দেখানো হোক</string>
     <string name="hide_button_while_recording_summary">কল রেকর্ড চলাকালীন ইন-কল কন্ট্রোল বাটন্ হাইড করা হোক</string>
     <string name="long_press_action">লং প্রেস অ্যাকশন</string>
     <string name="category_contacts">কনট্যাক্টস</string>
     <string name="link_to_contacts">লিঙ্ক টু কনট্যাক্টস</string>
-    <string name="view_recordings">রেকর্ডিং গুলি দেখুন</string>
+    <string name="view_recordings">রেকর্ডিংগুলি দেখুন</string>
 
     <string name="category_application">অ্যাপ্লিকেশন</string>
     <string name="app_admin">অ্যাপ অ্যাডমিন</string>
@@ -340,7 +340,7 @@
 
     <string name="toast_recording_is_off">রেকর্ডিং বন্ধ আছে</string>
     <string name="toast_recording_is_on">রেকর্ডিং চালু আছে</string>
-    <string name="call_confirm_record_this_call">এই কল টি রেকর্ড করুন</string>
+    <string name="call_confirm_record_this_call">এই কলটি রেকর্ড করুন</string>
     <string name="open_contact">কনট্যাক্ট খুলুন</string>
     <string name="recording_in_progress">রেকর্ডিং চলছে</string>
     <string name="no_recording_in_progress">কোন রেকর্ডিং চলছে না</string>
@@ -359,7 +359,7 @@
     <string name="button_delete_wait">মুছে দিন (ডিলিট) (%d)</string>
     <string name="switch_on">চালু করা (অন্)</string>
     <string name="toast_wait_for_operation_to_complete">এই কাজটি সম্পূর্ণ হওয়া অবধি অপেক্ষা করুন</string>
-    <string name="an_error_has_occurred">একটি এরর্ এর জন্য এই কলটি রেকর্ড করা যাচ্ছেনা</string>
+    <string name="an_error_has_occurred">একটি এরর্-এর জন্য এই কলটি রেকর্ড করা যাচ্ছে না</string>
 
     <string name="german_translation">জার্মান অনুবাদ</string>
     <string name="polish_translation">পোলিশ অনুবাদ</string>
@@ -398,10 +398,10 @@
     <string name="greek_translation">গ্রীক অনুবাদ</string>
     <string name="records_size">রেকর্ড: %1$s, আয়তন: %2$s</string>
     <string name="tip_select_item">কোন আইটেম নির্বাচন করতে তার উপর লং প্রেস করুন ।</string>
-    <string name="tip_audio_output">অডিও আউটপুট পরিবর্তন করতে প্লে/পজ্ বাটন্ এর উপর লং প্রেস করুন ।</string>
+    <string name="tip_audio_output">অডিও আউটপুট পরিবর্তন করতে প্লে/পজ্ বাটন্-এর উপর লং প্রেস করুন ।</string>
 
     <string name="delay_format_sec">%s সেকন্ড</string>
-    <string name="delay_before_start_recording_summary">আউটগোয়িং এর জন্য: %1$s, ইনকামিং এর জন্য: %2$s</string>
+    <string name="delay_before_start_recording_summary">আউটগোয়িং-এর জন্য: %1$s, ইনকামিং-এর জন্য: %2$s</string>
     <string name="volume_control_summary">টি.এক্স (Tx): %1$s, আর.এক্স (Rx): %2$s</string>
     <string name="exception_groups">%d গ্রূপস</string>
     <string name="folder_chooser_up_to">↑ অবধি %s</string>
@@ -410,22 +410,22 @@
     <string name="show_button_while_ringing_summary">ইনকামিং কল রিসিভ্ করার আগে ইন-কল বাটন্ দেখানো হোক</string>
     <string name="hide_button_before_answer">রিসিভ করার আগে ইন-কল বাটন হাইড করুন</string>
     <string name="hide_button_before_answer_summary">কানেকশন না হওয়া অবধি ইন-কল বাটন্ না দেখানো হোক</string>
-    <string name="hide_starred_recordings_summary">স্টার চিহ্নিত রেকর্ডিংগুলি সমস্ত রেকর্ডিং এর সাথে একই স্ক্রীনে না দেখানো হোক</string>
+    <string name="hide_starred_recordings_summary">স্টার চিহ্নিত রেকর্ডিংগুলি সমস্ত রেকর্ডিং-এর সাথে একই স্ক্রীনে না দেখানো হোক</string>
     <string name="low_space_warning_summary">জায়গা কম থাকার সতর্কীকরণ সীমা মেগাবাইটস এ (MB) সেট করুন</string>
     <string name="cloud_auto_upload_summary">কল শেষ হওয়ার ঠিক পরেই রেকর্ডিং আপলোড করুন</string>
     <string name="cloud_upload_starred">স্টার চিহ্নিত রেকর্ডিং আপলোড করুন</string>
-    <string name="cloud_upload_starred_summary">রেকর্ডিং এ স্টার চিহ্ন যোগ করলেই ক্লাউড এ আপলোড হোক</string>
+    <string name="cloud_upload_starred_summary">রেকর্ডিং-এ স্টার চিহ্ন যোগ করলেই ক্লাউড-এ আপলোড হোক</string>
 
     <string name="notify_tasks_remaining">%d টাস্কস বাকী</string>
 
-    <string name="create_new_key_summary">এই কি (Key) টি রেকর্ডিং এনক্রিপ্ট করার জন্য বা অ্যাপ এ প্রবেশ করার জন্য পরে ব্যবহৃত হবে</string>
-    <string name="delete_key_message">ডিলিট করার পর এনক্রিপ্টেড রেকর্ডিংগুলি এই কি (key) এর দ্বারা পুনরুদ্ধার করতে পারবেন না । আপনি কি নিশ্চিত এই সম্বন্ধে?</string>
+    <string name="create_new_key_summary">এই কি (Key)টি রেকর্ডিং এনক্রিপ্ট করার জন্য বা অ্যাপ-এ প্রবেশ করার জন্য পরে ব্যবহৃত হবে</string>
+    <string name="delete_key_message">ডিলিট করার পর এনক্রিপ্টেড রেকর্ডিংগুলি এই কি (key)-এর দ্বারা পুনরুদ্ধার করতে পারবেন না । আপনি কি নিশ্চিত এই সম্বন্ধে?</string>
     <string name="lock_after">লক হওয়ার সময়</string>
-    <string name="app_admin_summary">কল রেকর্ডার এর আনইনস্টল প্রতিরোধ করতে ব্যবহার করুন</string>
-    <string name="disable_autoplay_summary">রেকর্ডিং এ ক্লিক করা মাত্রই যেন প্লে-ব্যাক না হয়</string>
-    <string name="use_proximity_sensor_summary">প্রক্সিমিটি সেনসর এর দ্বারা প্লেব্যাক চলাকালীন স্ক্রীন বন্ধ করা হোক</string>
-    <string name="android_wav_decoder">ওয়েভ এর (WAV) অ্যান্ড্রয়েড ডিকোডার</string>
-    <string name="android_amr_decoder">এ.এম.আর এর (AMR) অ্যান্ড্রয়েড ডিকোডার</string>
+    <string name="app_admin_summary">কল রেকর্ডার-এর আনইনস্টল প্রতিরোধ করতে ব্যবহার করুন</string>
+    <string name="disable_autoplay_summary">রেকর্ডিং-এ ক্লিক করা মাত্রই যেন প্লে-ব্যাক না হয়</string>
+    <string name="use_proximity_sensor_summary">প্রক্সিমিটি সেনসর-এর দ্বারা প্লেব্যাক চলাকালীন স্ক্রীন বন্ধ করা হোক</string>
+    <string name="android_wav_decoder">ওয়েভ-এর (WAV) অ্যান্ড্রয়েড ডিকোডার</string>
+    <string name="android_amr_decoder">এ.এম.আর-এর (AMR) অ্যান্ড্রয়েড ডিকোডার</string>
     <string name="dual_sim_phone_summary">দ্বিতীয় সিম কার্ড থেকে কল রেকর্ড না হলে এখানে ক্লিক করুন</string>
     <string name="send_logs_to_the_developer">ডেভেলপারকে লগস্ পাঠান</string>
     <string name="action_mode_selected">%d সিলেক্টেড</string>
@@ -478,16 +478,16 @@
     <string name="settings_for_device">%s এর সেটিংস</string>
     <string name="audio_source_when_bt_connected">ব্লটুথ সংযুক্ত থাকাকালীন অডিও সোর্স</string>
 
-    <string name="dont_use_amr_driver_summary">সঙ্গে সঙ্গে (ইন রিয়াল টাইম) ওয়েভ (WAV) থেকে এ.এম.আর (AMR) এ কনভার্ট করুন</string>
+    <string name="dont_use_amr_driver_summary">সঙ্গে সঙ্গে (ইন রিয়াল টাইম) ওয়েভ (WAV) থেকে এ.এম.আর (AMR)-এ কনভার্ট করুন</string>
 
-    <string name="vertical_position_summary">স্ক্রীন এর কেন্দ্র থেকে অফসেট, %s dp</string>
+    <string name="vertical_position_summary">স্ক্রীন-এর কেন্দ্র থেকে অফসেট, %s dp</string>
     <string name="horizontal_position_summary">স্ক্রীন এর কেন্দ্র থেকে অফসেট, %s dp</string>
     <string name="long_press_action_dragging_the_button">বাটন্ টিকে টানুন (ড্র্যাগিং দ্য বাটন্)</string>
     <string name="long_press_action_hang_up">কলটি কেটে দিয়ে ঘুরিয়ে কল করুন স্বয়ংক্রিয়ভাবে/ অটোম্যাটিকালি</string>
-    <string name="link_to_contacts_summary">একটি কনট্যাক্ট এর ভিতর থেকে রেকর্ডিংস দেখতে সর্টকাট তৈরী করুন</string>
+    <string name="link_to_contacts_summary">একটি কনট্যাক্ট-এর ভিতর থেকে রেকর্ডিংস দেখতে সর্টকাট তৈরী করুন</string>
     <string name="require_password_summary_no_key">অ্যাপটি খুলতে পাসওয়ার্ড প্রয়োজন । প্রথমে একটি কি (Key) তৈরী করুন</string>
-    <string name="app_admin_explanation">আনইনস্টল প্রতিরোধ করা ছাড়া এই অ্যাপটি ডিভাইস অ্যাডমিন এর আর কোন ফিচার ব্যবহার করেনা</string>
-    <string name="audio_output_summary">%s (প্লে-পজ বাটন এর উপর লং প্রেস করলে সেটিও পরিবর্তীত হবে)</string>
+    <string name="app_admin_explanation">আনইনস্টল প্রতিরোধ করা ছাড়া এই অ্যাপটি ডিভাইস অ্যাডমিন-এর আর কোন ফিচার ব্যবহার করেনা</string>
+    <string name="audio_output_summary">%s (প্লে-পজ বাটন-এর উপর লং প্রেস করলে সেটিও পরিবর্তীত হবে)</string>
     <string name="android_wav_decoder_summary">ওয়েভ (WAV) চালাবার জন্য বিল্ট-ইন অ্যান্ড্রয়েড টুলস ব্যবহার করা হোক</string>
     <string name="android_amr_decoder_summary">এ.এম.আর (AMR) চালাবার জন্য বিল্ট-ইন অ্যান্ড্রয়েড টুলস ব্যবহার করা হোক</string>
 
@@ -495,16 +495,16 @@
     <string name="about_many_thanks_summary">Alexey Subbotin (avs234) কে</string>
 
     <string name="traditional_chinese_translation">ট্র্যাডিশনাল চাইনিজ্ অনুবাদ</string>
-    <string name="terms_of_use_message">অ্যাপটি ব্যবহার করার দ্বারা আপনি কল রেকর্ডার এর &lt;a href=http://rec.sh/terms&gt;Terms of Use&lt;/a&gt; মেনে নিচ্ছেন।</string>
+    <string name="terms_of_use_message">অ্যাপটি ব্যবহার করার দ্বারা আপনি কল রেকর্ডার-এর &lt;a href=http://rec.sh/terms&gt;Terms of Use&lt;/a&gt; মেনে নিচ্ছেন ।</string>
 
-    <string name="delete_key_summary">সতর্কবাণী ! আপনি কোনভাবেই এনক্রিপ্টেড রেকর্ডিংগুলি ফিরে পাবেন না যদি আপনি এই কি (Key) এর মাধ্যমে রেকর্ডিংগুলি এনক্রিপ্ট করে থাকেন, এমনকি যদি আপনি নতুন কি (Key) তৈরী করেন একই পাসওয়ার্ড দিয়ে, তাহলেও নয়</string>
+    <string name="delete_key_summary">সতর্কবাণী ! আপনি কোনভাবেই এনক্রিপ্টেড রেকর্ডিংগুলি ফিরে পাবেন না যদি আপনি এই কি (Key)-এর মাধ্যমে রেকর্ডিংগুলি এনক্রিপ্ট করে থাকেন, এমনকি যদি আপনি নতুন কি (Key) তৈরী করেন একই পাসওয়ার্ড দিয়ে, তাহলেও নয়</string>
     <string name="tip_select_all">সিলেক্ট অল অপশনটি কনটেক্সট মেনুতে তখন দেখা যাবে ।</string>
-    <string name="switch_audio_output_summary">যখন প্রক্সিমিটি সেন্সর এর দ্বারা স্ক্রীন চালু বা বন্ধ থাকবে তখন অডিও আউটপুট স্বয়ংক্রিয়ভাবে/ অটোম্যাটিকালী পরিবর্তন করা হোক</string>
+    <string name="switch_audio_output_summary">যখন প্রক্সিমিটি সেনসর-এর দ্বারা স্ক্রীন চালু বা বন্ধ থাকবে তখন অডিও আউটপুট স্বয়ংক্রিয়ভাবে/ অটোম্যাটিকালি পরিবর্তন করা হোক</string>
     <string name="bengali_translation">বাংলা অনুবাদ</string>
     <string name="bengali_translation_summary">সৌজন্যে: Saurav Ghosh (ithehappy)</string>
 
-    <string name="app_description_0">এই অ্যাপটি ফোন লাইন থেকে অটোম্যাটিক কল রেকর্ডিং এর জন্য তৈরী, যেখানে হার্ডওয়্যার ও কার্নেল সমর্থিত । কল রেকর্ডিং হোলো একটি ডিভাইস নির্দিষ্ট ফিচার, নির্মাতারা প্রায়শই সিস্টেম লেভেলে প্রয়োজনীয় কার্যকারিতা বাস্তবায়ন করে না যেরকম তারা করতে পারে ।</string>
-    <string name="app_description_1">যে সমস্ত নির্মাতারা প্রয়োজনীয় কার্যকারিতা বাস্তবায়ীত করে নি, সেই সব ডিভাইস এর জন্য রুট বাধ্যতামূলক । কিন্তু তার মানে এই নয় যে যে সমস্ত ডিভাইস হার্ডওয়্যার লেভেলে কল রেকর্ড করতে অক্ষম সেই সমস্ত ডিভাইস এর জন্য রুট রক্ষাকর্তা হিসেবে কাজ করবে । রুট থাকা প্রায়শই সাহায্য করে, কিন্তু সর্বদা নয় ।</string>
+    <string name="app_description_0">এই অ্যাপটি ফোন লাইন থেকে অটোম্যাটিক কল রেকর্ডিং-এর জন্য তৈরী, যেখানে হার্ডওয়্যার ও কার্নেল সমর্থিত । কল রেকর্ডিং হোলো একটি ডিভাইস নির্দিষ্ট ফিচার, নির্মাতারা প্রায়শই সিস্টেম লেভেলে প্রয়োজনীয় কার্যকারিতা বাস্তবায়ন করে না যেরকম তারা করতে পারে ।</string>
+    <string name="app_description_1">যে সমস্ত নির্মাতারা প্রয়োজনীয় কার্যকারিতা বাস্তবায়ীত করে নি, সেই সব ডিভাইস-এর জন্য রুট বাধ্যতামূলক । কিন্তু তার মানে এই নয় যে যে সমস্ত ডিভাইস হার্ডওয়্যার লেভেলে কল রেকর্ড করতে অক্ষম সেই সমস্ত ডিভাইস-এর জন্য রুট রক্ষাকর্তা হিসেবে কাজ করবে । রুট থাকা প্রায়শই সাহায্য করে, কিন্তু সর্বদা নয় ।</string>
     <string name="app_description_4">অন্যান্য রেকর্ডিং পদ্ধতি ব্যবহার করার জন্য রুট থাকা প্রয়োজন । অন্যান্য রুট পদ্ধতির জন্য সঠিক ডিভাইস নির্বাচন করা গুরুত্বপূর্ণ, সেটিংস &gt; রেকর্ডিং । যদি আপনার ডিভাইস তালিকাভুক্ত না থাকে তাহলে একই চিপসেট থাকা একটি ডিভাইস নির্বাচন করুন ।</string>
 <string name="app_description_3">যদি আপনি স্ট্যানডার্ড এ.পি.আই-এর অধীনে থাকা প্রত্যেকটি অডিও সোর্স চেষ্টা করে থাকেন এবং তাতেও অ্যাপটি কল রেকর্ড করতে ব্যর্থ হচ্ছে, বা শুধু আপনার নিজের ভয়েস রেকর্ড করছে, তার মানে এই দাঁড়াচ্ছে যে এই ডিভাইস-এর প্রস্তুতকারক সিস্টেম লেভেলে কল রেকর্ডিং বাস্তবায়ন (ইমপ্লিমেন্ট) করতে ব্যর্থ হয়েছে, অথবা কল রেকর্ডিং ব্লক করে রেখেছে ।</string>
     <string name="app_description_2">এই অ্যাপটির বিভিন্ন প্রকারের রেকর্ডিং পদ্ধতি আছে । যদি আপনি ভাগ্যবান হন তাহলে অ্যাপটি রুট ছাড়াই উভয় পক্ষের রেকর্ড করতে সফল হবে, কিন্তু আপনাকে স্ট্যান্ডার্ড এ.পি.আই-এর প্রত্যেকটি অডিও সোর্স পরীক্ষা করে দেখতে হতে পারে সেটিংস-এর অধীনে, সেটিংস &gt; রেকর্ডিং &gt; স্ট্যান্ডার্ড এ.পি.আই ।</string>
