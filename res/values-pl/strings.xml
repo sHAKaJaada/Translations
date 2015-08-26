@@ -537,4 +537,17 @@
     <string name="tip_select_all">Opcja Zaznacz wszystko będzie wyświetlana w menu kontekstowym.</string>
     <string name="tip_audio_output">Naciśnij długo przycisk Play/Pause w celu przełączenia wyjście audio.</string>
 
-    </resources>
+    <string name="category_contacts">Kontakty</string>
+    <string name="link_to_contacts">Link do kontaktów</string>
+    <string name="link_to_contacts_summary">Tworzenie skrótu do przeglądania nagrań z poziomu kontaktu</string>
+    <string name="view_recordings">Wyświetl nagrania</string>
+
+    <string name="bengali_translation">Tłumaczenie na jęz. bengalski</string>
+    <string name="bengali_translation_summary">Saurav Ghosh</string>
+
+    <string name="app_description_0">Aplikacja przeznaczony jest do automatycznego nagrywania rozmowy z telefonu, tylko gdy wspomagane jest to przez sprzęt i kernel. Nagrywanie rozmów jest bardzo specyficzna funkcją zależną od urządzenia, ponieważ producenci często nie implementują tej funkcji na poziomie systemu.</string>
+    <string name="app_description_1">Rootowanie jest wymagany na wielu urządzeniach, gdzie producenci nie stosują wymaganej funkcjonalności. Ale to nie oznacza że, zrootowanie jest zbawieniemem dla każdego telefonu, ponieważ nagrywanie rozmów, może być niemożliwe na poziomie sprzętowym. Root pomaga często, ale nie zawsze.</string>
+    <string name="app_description_2">"Aplikacja ma różne metody nagrywania. Jeśli masz sporo szczęścia, aplikacja nagra obie strony rozmowy gdy, ustawisz standardową metodę nagrywania API bez praw root. Ale może być konieczne sprawdzenie każdego źródła dźwięku  standardowej API w Ustawienia&gt; Nagrywanie&gt; standardowe API."</string>
+    <string name="app_description_3">"Jeśli po wypróbowaniu wszystkich źródeł audio dla standardowego API, aplikacja nie nagrywa lub nagrany jest tylko twój  głos, oznacza to, że producent nie  wdrożył lub zablokował nagrywanie rozmów na poziomie systemu."</string>
+    <string name="app_description_4">"Musisz mieć uprawnienia administratora, aby spróbować innych metod nagrywania. Dla metod wymagających root\'a, ważne jest, aby wybrać odpowiednie urządzenie w menu Ustawienia&gt; Nagrywanie. Wybierz urządzenie, z tym samym chipsetem, jeśli twoje nie jest  wymienione."</string>
+</resources>
