@@ -150,7 +150,7 @@
     <string name="exception_action_always_record">সর্বদা রেকর্ড করুন</string>
     <string name="exception_action_never_record">রেকর্ড সম্পূর্ণ বন্ধ করুন</string>
     <string name="folder">ফোল্ডার</string>
-    <string name="create_new_folder">নতুন ফোল্ডার তৈরী করুন</string>
+    <string name="create_new_folder">নতুন ফোল্ডার তৈরী করুন …</string>
     <string name="dialog_title_new_folder">নতুন ফোল্ডার</string>
     <string name="dialog_grant_permission_title">অনুমতি দিন</string>
     <string name="settings_filename">ফাইল এর নাম</string>
@@ -240,7 +240,7 @@
     <string name="section_by_contact">কনট্যাক্ট এর দ্বারা</string>
     <string name="section_by_format">ফরম্যাট এর দ্বারা</string>
     <string name="section_by_label">লেবেল এর দ্বারা</string>
-    <string name="tip_click_avatar">কনট্যাক্ট এর সম্বন্ধে জানতে অবতার এর উপর ক্লিক করুন</string>
+    <string name="tip_click_avatar">কনট্যাক্ট এর সম্বন্ধে জানতে অবতার এর উপর ক্লিক করুন ।</string>
     <string name="license_verified_summary">হাইড করতে প্রেস করুন</string>
     <string name="license_incorrect_response">প্লে স্টোর থেকে বেঠিক লাইসেন্স রেস্পন্স আসছে</string>
     <string name="device_change_settings_empty">এই ডিভাইস এর সেটিংস ইতিমধ্যেই সেট-আপ করা আছে</string>
@@ -314,7 +314,7 @@
     <string name="use_proximity_sensor">প্রক্সিমিটি সেনসর ব্যবহার করুন</string>
     <string name="switch_audio_output">অডিও আউটপুট পরিবর্তন করুন</string>
     <string name="root_access">রুট অ্যাকসেস</string>
-    <string name="hide_all_notifications_summary">এই অপশন টি নিজের ঝু্ঁকিতে ব্যবহার করুন</string>
+    <string name="hide_all_notifications_summary">এই অপশনটি নিজের ঝু্ঁকিতে ব্যবহার করুন</string>
 
     <string name="contact_unknown">অজ্ঞাত (আনক্নোন)</string>
     <string name="button_choose">নির্বাচন করুন (চুস্)</string>
@@ -398,7 +398,7 @@
     <string name="greek_translation">গ্রীক অনুবাদ</string>
     <string name="records_size">রেকর্ড: %1$s, আয়তন: %2$s</string>
     <string name="tip_select_item">কোন আইটেম নির্বাচন করতে তার উপর লং প্রেস করুন ।</string>
-    <string name="tip_audio_output">অডিও আউটপুট পরিবর্তন করতে প্লে/পজ্ বাটন্ এর উপর লং প্রেস করুন</string>
+    <string name="tip_audio_output">অডিও আউটপুট পরিবর্তন করতে প্লে/পজ্ বাটন্ এর উপর লং প্রেস করুন ।</string>
 
     <string name="delay_format_sec">%s সেকন্ড</string>
     <string name="delay_before_start_recording_summary">আউটগোয়িং এর জন্য: %1$s, ইনকামিং এর জন্য: %2$s</string>
@@ -464,7 +464,7 @@
     <string name="finnish_translation_summary">সৌজন্যে: Eero Linnainmaa</string>
     <string name="punjabi_translation_summary">সৌজন্যে: Raj Verma</string>
     <string name="hindi_translation_summary">সৌজন্যে: TheTAMAS Gautam</string>
-    <string name="catalan_translation_summary">সৌজন্যে: cybdani</string>
+    <string name="catalan_translation_summary">সৌজন্যে: cybdani and Jordi Miró</string>
     <string name="georgian_translation_summary">সৌজন্যে: Sandro Razmadze</string>
     <string name="thai_translation_summary">সৌজন্যে: Wuttisak Saichoncharn</string>
     <string name="latvian_translation_summary">সৌজন্যে: Arvīds Dreimanis</string>
@@ -505,4 +505,8 @@
 
     <string name="app_description_0">এই অ্যাপটি ফোন লাইন থেকে অটোম্যাটিক কল রেকর্ডিং এর জন্য তৈরী, যেখানে হার্ডওয়্যার ও কার্নেল সমর্থিত । কল রেকর্ডিং হোলো একটি ডিভাইস নির্দিষ্ট ফিচার, নির্মাতারা প্রায়শই সিস্টেম লেভেলে প্রয়োজনীয় কার্যকারিতা বাস্তবায়ন করে না যেরকম তারা করতে পারে ।</string>
     <string name="app_description_1">যে সমস্ত নির্মাতারা প্রয়োজনীয় কার্যকারিতা বাস্তবায়ীত করে নি, সেই সব ডিভাইস এর জন্য রুট বাধ্যতামূলক । কিন্তু তার মানে এই নয় যে যে সমস্ত ডিভাইস হার্ডওয়্যার লেভেলে কল রেকর্ড করতে অক্ষম সেই সমস্ত ডিভাইস এর জন্য রুট রক্ষাকর্তা হিসেবে কাজ করবে । রুট থাকা প্রায়শই সাহায্য করে, কিন্তু সর্বদা নয় ।</string>
+    <string name="app_description_4">অন্যান্য রেকর্ডিং পদ্ধতি ব্যবহার করার জন্য রুট থাকা প্রয়োজন । অন্যান্য রুট পদ্ধতির জন্য সঠিক ডিভাইস নির্বাচন করা গুরুত্বপূর্ণ, সেটিংস &gt; রেকর্ডিং । যদি আপনার ডিভাইস তালিকাভুক্ত না থাকে তাহলে একই চিপসেট থাকা একটি ডিভাইস নির্বাচন করুন ।</string>
+<string name="app_description_3">যদি আপনি স্ট্যানডার্ড এ.পি.আই-এর অধীনে থাকা প্রত্যেকটি অডিও সোর্স চেষ্টা করে থাকেন এবং তাতেও অ্যাপটি কল রেকর্ড করতে ব্যর্থ হচ্ছে, বা শুধু আপনার নিজের ভয়েস রেকর্ড করছে, তার মানে এই দাঁড়াচ্ছে যে এই ডিভাইস-এর প্রস্তুতকারক সিস্টেম লেভেলে কল রেকর্ডিং বাস্তবায়ন (ইমপ্লিমেন্ট) করতে ব্যর্থ হয়েছে, অথবা কল রেকর্ডিং ব্লক করে রেখেছে ।</string>
+    <string name="app_description_2">এই অ্যাপটির বিভিন্ন প্রকারের রেকর্ডিং পদ্ধতি আছে । যদি আপনি ভাগ্যবান হন তাহলে অ্যাপটি রুট ছাড়াই উভয় পক্ষের রেকর্ড করতে সফল হবে, কিন্তু আপনাকে স্ট্যান্ডার্ড এ.পি.আই-এর প্রত্যেকটি অডিও সোর্স পরীক্ষা করে দেখতে হতে পারে সেটিংস-এর অধীনে, সেটিংস &gt; রেকর্ডিং &gt; স্ট্যান্ডার্ড এ.পি.আই ।</string>
+    <string name="start_recording_on_answer_summary">যখন একটি আউটগোয়িং কল রিসিভ করা হবে তখন রেকর্ডিং শুরু করা হোক । এই অ্যাপটি একটি অনথিভুক্ত কার্যসংক্রান্ত (আনডক্যূমেন্টেড ওয়ার্কঅ্যারাউন্ড) ব্যবহার করে অন্য দিকের ব্যক্তির কল রিসিভ করার মুহূর্ত সনাক্ত করতে, সুতরাং এই ফিচারটি কিছু ডিভাইসে কাজ করতে ব্যর্থ হতে পারে । অ্যান্ড্রয়েড ৪.১ জেলি বিন সংস্করণ থেকে রুট হওয়া প্রয়োজনীয় । কার্নেল-এর অধীনে লগা্র সক্রিয় থাকা অাবশ্যিক ।</string>
     </resources>
