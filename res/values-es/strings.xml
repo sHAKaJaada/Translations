@@ -193,7 +193,7 @@
     <string name="api_source_voice_communication">Comunicación por voz</string>
     <string name="category_wav_settings">Ajustes WAV</string>
     
-    <string name="when_bt_connected">Cuando se conecta el BT...</string>
+    <string name="when_bt_connected">Cuando se conecta el BT…</string>
     <string name="audio_source_when_bt_connected">Fuente de audio cuando BT está conectado</string>
 
     <!-- Actions when BT connected -->
