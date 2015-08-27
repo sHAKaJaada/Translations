@@ -540,4 +540,17 @@
 
     <string name="send_sms">Enviar SMS</string>
 
-    </resources>
+    <string name="category_contacts">Contactes</string>
+    <string name="link_to_contacts">Enllaç als contactes</string>
+    <string name="link_to_contacts_summary">Crear un accés directe per veure les gravacions des d\'un contacte</string>
+    <string name="view_recordings">Veure gravacions</string>
+
+    <string name="bengali_translation">Traducció al Bengalí</string>
+    <string name="bengali_translation_summary">per Saurav Ghosh</string>
+
+    <string name="app_description_0">L\'aplicació està dissenyada per a la gravació automàtica de trucades de la línia telefònica per hardware i kernel. La gravació de trucades és una característica específica de cada dispositiu, els fabricants no solen implementar la funcionalitat requerida en el nivell de sistema, on deuríen de fer-ho.</string>
+    <string name="app_description_1">El root és una necessitat en molts dispositius on els fabricants no implementen la funcionalitat requerida. Però això no vol dir que el root siga la salvació per a qualsevol dispositiu com gravació de trucades, ja que pot estar bloquejat a nivell de hardware. Aleshores el root ajuda, però no sempre.</string>
+    <string name="app_description_2">L\'aplicació compta amb diferents mètodes de gravació. Si tens la sort, l\'aplicació no deixarà de gravar ambes bandes sobre mètode de gravació API estàndard sense root. Però pot ser que hagi de comprovar cada tipus d\'àudio per l\'API estàndard a Configuració &gt; Gravació &gt; API estàndard.</string>
+    <string name="app_description_3">Si has provat tots els tipus d\'àudio per l\'API estàndard i l\'aplicació no va registrar res o només la seva veu, vol dir que el fabricant o bé ha deixat de implementar o bloquejat la gravació en el nivell del sistema.</string>
+    <string name="app_description_4">Vostè necessita tenir permisos de root per provar altres mètodes de gravació. Per als mètodes root, és important seleccionar el dispositiu correcte a Configuració &gt; Gravació. Seleccioneu un dispositiu amb el mateix chipset si el dispositiu no està a la llista.</string>
+</resources>
