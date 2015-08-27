@@ -193,7 +193,7 @@
     <string name="api_source_voice_communication">Comunicació de veu</string>
     <string name="category_wav_settings">Configuració WAV</string>
     <string name="category_wav_and_mp3_settings">Configuració WAV i MP3</string>
-    <string name="when_bt_connected">Quan BT estigui connectat...</string>
+    <string name="when_bt_connected">Quan BT estigui connectat…</string>
     <string name="audio_source_when_bt_connected">Font d\'àudio quan estigui connectat BT</string>
 
     <!-- Actions when BT connected -->
@@ -472,7 +472,7 @@
     <string name="turkish_translation">Traducció al Turc</string>
     <string name="turkish_translation_summary">per Omer Ilik</string>
     <string name="serbian_translation">Traducció al Serbi</string>
-    <string name="serbian_translation_summary">per sHAKaJaada</string>
+    <string name="serbian_translation_summary">per sHAKaJaada™</string>
     <string name="korean_translation">Traducció al Coreà</string>
     <string name="korean_translation_summary">per SoHyunSeop and Joon Hee Jo</string>
     <string name="romanian_translation">Traducció al Romanès</string>
@@ -496,7 +496,7 @@
     <string name="georgian_translation">Traducció al Georgià</string>
     <string name="georgian_translation_summary">per Sandro Razmadze</string>
     <string name="catalan_translation">Traducció al Català</string>
-    <string name="catalan_translation_summary">per Dani500Living</string>
+    <string name="catalan_translation_summary">per cybdani i Jordi Miró</string>
     <string name="hindi_translation">Traducció al Hindi</string>
     <string name="hindi_translation_summary">per TheTAMAS Gautam</string>
     <string name="punjabi_translation">Traducció Punjabi</string>
