@@ -496,7 +496,7 @@
     <string name="georgian_translation">Traducción al georgiano</string>
     <string name="georgian_translation_summary">por Sandro Razmadze</string>
     <string name="catalan_translation">Traducción al catalán</string>
-    <string name="catalan_translation_summary">por cybdani</string>
+    <string name="catalan_translation_summary">por cybdani y Jordi Miró</string>
     
     
     
@@ -760,4 +760,17 @@
     <string name="tip_select_all">Una opción de Seleccionar todo aparecerá en el contenido del menú.</string>
     <string name="tip_audio_output">Pulsación larga en el botón Play/Pause para intercambiar la salida de audio.</string>
 
+    <string name="category_contacts">Contactos</string>
+    <string name="link_to_contacts">Enlace a contactos</string>
+    <string name="link_to_contacts_summary">Crear un acceso directo para ver las grabaciones desde un contacto</string>
+    <string name="view_recordings">Ver grabaciones</string>
+
+    <string name="bengali_translation">Traducción al Bengalí</string>
+    <string name="bengali_translation_summary">por Saurav Ghosh</string>
+
+    <string name="app_description_4">Es necesario root del terminal para probar otros métodos de grabación. Para los métodos root, es importante seleccionar el dispositivo correcto en Ajustes &gt; Grabación. Seleccione un dispositivo con el mismo chipset si el dispositivo no está en la lista.</string>
+<string name="app_description_1">Es necesario ser root en muchos dispositivos donde los fabricantes no implementan la funcionalidad requerida. Pero esto no significa que el root es la salvación para cualquier dispositivo como grabación de llamadas, ya que es posible el bloqueo a nivel de hardware. Root ayuda en muchas ocaciones, pero no siempre.</string>
+    <string name="app_description_2">La aplicación cuenta con diferentes métodos de grabación. Si tienes suerte, la aplicación no dejará de grabar en ambos lados sobre el método de grabación API estándar sin el dispositivo rooteado. Pero puede que tenga que comprobar cada fuente de audio para el API estándar en Ajustes &gt; Grabación &gt; API estándar.</string>
+    <string name="app_description_3">Si has probado todas las fuentes de audio para la API estándar y la aplicación no grabó nada o sólo graba su voz, significa que el fabricante no ha implementado o ha bloqueado la grabación de llamadas en el nivel del sistema.</string>
+    <string name="app_description_0">La aplicación está diseñada para la grabación automática de llamadas de la línea telefónica por hardware y kernel. La grabación de llamadas es una característica específica de cada dispositivo, porque los fabricantes no suelen implementar la funcionalidad requerida en el nivel de sistema donde deberían hacerlo.</string>
     </resources>
