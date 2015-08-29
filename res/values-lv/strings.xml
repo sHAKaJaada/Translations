@@ -546,4 +546,23 @@
 
     <string name="send_sms">Sūtīt SMS</string>
 
-    </resources>
+    <string name="tip_click_avatar">Uzklikšķiniet uz avatar, lai atvērtu kontaktinformāciju.</string>
+    <string name="tip_long_click_avatar">Ilgs nospiediens uz avatar, lai filtrētu zvanus no šī kontakta.</string>
+    <string name="tip_select_item">Ilgs nospiediens uz ieraksta, lai to atlasītu.</string>
+    <string name="tip_select_all">Iespēja, Atlasīt Visu, parādīsies konteksta izvēlnē.</string>
+    <string name="tip_audio_output">Ilgs nospiediens uz Atskaņot / Pauze pogas, lai pārslēgtu audio izeju.</string>
+
+    <string name="category_contacts">Kontakti</string>
+    <string name="link_to_contacts">Saite uz kontaktiem</string>
+    <string name="link_to_contacts_summary">Izveidot saīsni, lai skatītu kontakta ierakstus</string>
+    <string name="view_recordings">Skatīt ierakstus</string>
+
+    <string name="bengali_translation">Bengāļu tulkojums</string>
+    <string name="bengali_translation_summary">Saurav Ghosh</string>
+
+    <string name="app_description_0">App ir paredzēta automātiskai zvanu ierakstīšanai no tālruņa līnijas, kurai ir aparatūras un kodola atbalsts. Zvanu ierakstīšana ir ļoti specifiska ierīces iezīme, jo ražotāji bieži neīsteno nepieciešamo funkcionalitāti sistēmas līmenī.</string>
+    <string name="app_description_1">Tātad \"root\" ir jābūt uz daudzām ierīcēm, ja ražotāji nav īstenojuši nepieciešamo funkcionalitāti. Bet tas nenozīmē, ka \"root\" ir glābējs jebkurai ierīcei, zvanu ierakstīšana var būt traucēta aparatūras līmenī. \"Root\" var bieži palīdzēt, bet ne vienmēr.</string>
+    <string name="app_description_2">App ir dažādas ierakstīšanas metodes. Ja Jums paveicies, app nebūs problēmas ierakstīt skaņu abos virzienos ar \"standarta API\" ierakstīšanas metodi bez \"Root\". Bet Jums būs nepieciešams pārbaudīt katru skaņas avotu \"Standard API\" Iestatījumi&gt; Ierakstīšana&gt; Standarta API.</string>
+    <string name="app_description_3">Ja esat izmēģinājis katru skaņas avotu \"Standarta API\" un app neieraksta vai ierakstīta tikai Jūsu balss, tas nozīmē, ka ražotājam ir izdevies īstenot, vai bloķēt zvanu ierakstīšanu sistēmas līmenī.</string>
+    <string name="app_description_4">Jums ir jābūt \"Root\" atļaujai izmēģināt citas ierakstīšanas metodes. Par \"Root\" metodēm, tas ir svarīgi izvēlēties pareizo ierīci - Uzstādījumi&gt; Ierakstīšana. Izvēlieties ierīci, ar tādu pašu mikroshēmu, ja jūsu ierīce nav uzskaitīta sarakstā.</string>
+</resources>
