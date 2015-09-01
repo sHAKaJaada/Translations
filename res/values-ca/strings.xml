@@ -10,7 +10,7 @@
 
     <!-- Navigation drawer sections -->
     <string name="section_all_recordings">Totes les gravacions</string>
-    <string name="section_starred">Protagonista</string>
+    <string name="section_starred">Favorits</string>
     <string name="section_incoming">Entrant</string>
     <string name="section_outgoing">Sortint</string>
     <string name="section_by_contact">Per contacte</string>
@@ -27,8 +27,8 @@
     <string name="action_settings">Configuració</string>
     <string name="action_refresh">Actualitzar</string>
     <string name="action_delete">Esborrar</string>
-    <string name="action_add_star">Afegir estrella</string>
-    <string name="action_remove_star">Treure estrella</string>
+    <string name="action_add_star">Afegir favorit</string>
+    <string name="action_remove_star">Eliminar favorit</string>
     <string name="action_share">Compartir</string>
     <string name="action_cancel_tasks">Cancela tasques</string>
     <string name="action_select_all">Seleccionar-ho tot</string>
