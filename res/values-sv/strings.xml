@@ -542,4 +542,12 @@
     <string name="link_to_contacts_summary">Skapa en genväg för att visa inspelningar från inuti en kontakt</string>
     <string name="view_recordings">Visa inspelningar</string>
 
-    </resources>
+    <string name="bengali_translation">Bengalisk översättning</string>
+    <string name="bengali_translation_summary">av Saurav Ghosh</string>
+
+    <string name="app_description_0">Appen är avsedd för automatisk samtalsinspelning från telefonlinjen i de fall detta stöds av hårdvaran och kärnan. Samtalsinspelning är en mycket enhetsspecifik funktion, eftersom tillverkare ofta inte implementerar den krävda funktionaliteten på systemnivå, vilket är ett krav.</string>
+    <string name="app_description_1">"Så root-behörighet är ett måste på många enheter där tillverkaren inte implementerade den krävda funktionaliteten.  Men detta innebär inte att root är en räddare i nöden för någon enhet, eftersom samtalsinspelning kan vara trasigt på hårdvarunivå. Root-behörighet hjälper ofta, men inte alltid."</string>
+    <string name="app_description_2">Denna app har olika inspelningsmetoder. Om du har nog tur, kommer inte appen att misslyckas med att spela in båda sidorna med Standard API, utan root. Men du kan behöva kontrollera/testa varje ljudkälla för Standard API i Inställningar &gt; Inspelning &gt; Standard API.</string>
+    <string name="app_description_3">Om du har testat varje ljudkälla från Standard API och appen ej spelade in, eller bara spelade in din röst, betyder det att tillverkaren antingen misslyckades att implementera, eller blockerade samtalsinspelning på systemnivå.</string>
+    <string name="app_description_4">Du behöver root-behörighet för att testa andra inspelningsmetoder. För root-metoder är det viktigt att välja korrekt enhet i Inställningar &gt; Inspelning. Välj en enhet med samma chipset som din enhet om din enhet ej är listad där.</string>
+</resources>
