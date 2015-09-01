@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">CallRecorder</string>
+    <string name="app_name">Call Recorder</string>
     
     
 
@@ -85,7 +85,7 @@
     <string name="phone_number">Teléfono del contacto</string>
 
     <!-- List -> Confirm delete dialog -->
-    <string name="confirm_delete_message">Está seguro de querer borrar esta grabación?</string>
+    <string name="confirm_delete_message">¿Está seguro de querer borrar esta grabación?</string>
     
     
 
@@ -522,15 +522,15 @@
     <string name="terms_of_use_message">Al usar la aplicación, usted acepta las &lt;a href=http://rec.sh/terms&gt; Condiciones de Uso&lt;/a&gt; de CallRecorder.</string>
 
     <string name="section_all_recordings">Todas las grabaciones</string>
-    <string name="section_starred">Marcado</string>
+    <string name="section_starred">Favoritos</string>
     <string name="section_by_contact">Por contacto</string>
     <string name="section_by_format">Por formato</string>
     <string name="section_by_label">Por etiqueta</string>
     <string name="action_sort">Ordenar</string>
     <string name="action_refresh">Actualizar</string>
     <string name="action_delete">Borrar</string>
-    <string name="action_add_star">Agregar marca</string>
-    <string name="action_remove_star">Quitar marca</string>
+    <string name="action_add_star">Añadir favorito</string>
+    <string name="action_remove_star">Eliminar favorito</string>
     <string name="action_share">Compartir</string>
     <string name="action_cancel_tasks">Cancelar tareas</string>
     <string name="sort_by_date">Por fecha</string>
@@ -557,7 +557,7 @@
     <string name="note">Nota</string>
 
     <string name="confirm_delete_several_title">Confirmar el borrado</string>
-    <string name="confirm_delete_several_message">Usted ha seleccionado %d grabaciones. Está seguro que desea eliminarlas?</string>
+    <string name="confirm_delete_several_message">Usted ha seleccionado %d grabaciones. ¿Está seguro que desea eliminarlas?</string>
 
     <string name="share_via">Compartir vía</string>
     <string name="settings_open_unlocker">Abrir desbloqueador</string>
@@ -740,8 +740,8 @@
     <string name="greek_translation_summary">por Lefteris (SomniusX) Eliades</string>
 <string name="menu_add_to_drive">Agregar a Drive</string>
     <string name="menu_convert_to_wav">Convertir a WAV</string>
-    <string name="dialog_grant_permission_title">Brindar permiso</string>
-    <string name="dialog_grant_permission_message">Seleccione la misma carpeta en una nueva ventana para brindar permiso.</string>
+    <string name="dialog_grant_permission_title">Conceder permiso</string>
+    <string name="dialog_grant_permission_message">Seleccione la misma carpeta en una nueva ventana para conceder permiso</string>
     <string name="toast_wrong_directory_selected">Usted seleccionó un directorio incorrecto. Intente nuevamente.</string>
     <string name="sign_in">Iniciar sesión</string>
     <string name="sign_out_google_drive">Salir de Google Drive</string>
