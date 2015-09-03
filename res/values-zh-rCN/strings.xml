@@ -545,4 +545,12 @@
     <string name="link_to_contacts_summary">创建一个可以查看特定联系人录音记录的快捷方式</string>
     <string name="view_recordings">查看录音</string>
 
-    </resources>
+    <string name="bengali_translation">孟加拉语</string>
+    <string name="bengali_translation_summary">由 Saurav Ghosh 翻译</string>
+
+    <string name="app_description_0">本应用自动通过硬件及内核支持来录制通话录音。通话录音是一个非常特殊的功能，因为各种原因，硬件制造商通常不会于系统中实现该功能。</string>
+    <string name="app_description_1">所以必须要获取管理员获得。然而在这个功能在很多制造商中无法实现。但并不意味着您获取了管理员权限就一定能进行通话录音。通常情况下拥有管理员权限能对通话进行录音，但并不总能。</string>
+    <string name="app_description_2">本应用有多种录音支持的途径。如果您足够幸运的话，在未获得管理员权限的情况下能通过使用标准 API 录制双向音频。但您需要检查每个音源的标准 API 设定——设置 &gt; 录音 &gt; 录音方式 &gt; 标准 API。</string>
+    <string name="app_description_3">如果您已经尝试了标准 API 的每一条音源但仍不可对通话进行录音或是只能录制到您的声音。这意味着您的设备不支持该功能，或是系统禁止通话录音。</string>
+    <string name="app_description_4">您需要获得管理员权限来尝试别的录音途径。您需要在通话录音中选择正确的录音方式，如果您的设备不再列表里，请选择与您设备相符的芯片组。</string>
+</resources>
