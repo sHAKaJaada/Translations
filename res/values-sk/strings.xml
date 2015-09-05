@@ -239,7 +239,7 @@
 
     <!-- Settings -> Folders and Files -->
     <string name="folder">Priečinok</string>
-    <string name="folder_chooser_up_to">↑ Späť %s</string>
+    <string name="folder_chooser_up_to">↑ Späť do %s</string>
     <string name="create_new_folder">Vytvoriť nový priečinok…</string>
     <string name="dialog_title_new_folder">Nový priečinok</string>
     <string name="automatic_cleanup">Automatické mazanie</string>
