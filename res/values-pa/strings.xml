@@ -548,4 +548,12 @@
     <string name="link_to_contacts_summary">ਇੱਕ ਸੰਪਰਕ ਦੇ ਅੰਦਰ ਤੱਕ ਰਿਕਾਰਡਿੰਗ ਵੇਖਣ ਲਈ ਇੱਕ ਸ਼ਾਰਟਕੱਟ ਬਣਾਓ</string>
     <string name="view_recordings">ਰਿਕਾਰਡਿੰਗ ਦੇਖੋ</string>
 
-    </resources>
+    <string name="bengali_translation">ਬੰਗਾਲੀ ਅਨੁਵਾਦ ਦੇ ਲਈ</string>
+    <string name="bengali_translation_summary">Saurav Ghosh ਦੁਆਰਾ</string>
+
+    <string name="app_description_0">ਇਹ ਇੱਕ ਐਸਾ ਐਪਲੀਕੇਸ਼ ਹੈ ਜੋ ਕਿ ਹਾਰਡਵੇਅਰ ਅਤੇ ਕਰਨਲ ਦੁਆਰਾ ਰਿਕਾਰਡਿੰਗ ਸਹਿਯੋਗੀ ਹੈ। ਰਿਕਾਰਡਿੰਗ ਇੱਕ ਬਹੁਤ ਹੀ ਵਿਲੱਖਣ ਫੀਚਰ ਹੈ ਅਕਸਰ ਨਿਰਮਾਤਾ ਇਸ ਨੂ ਸਹੀ ਤਰੀਕੇ ਨਾਲ ਨਹੀ ਬਨਾਦੇ ।</string>
+    <string name="app_description_1">"ਇਸ ਕਰਕੇ ਆਮ ਤੌਰ \'ਤੇ ਜੰਰਾ ਵਿਚ  ਰੂਟ ਦੀ ਲੋੜ ਹੈ। ਪਰ ਕਈ ਵਾਰ ਰੂਟ ਨਾਲ ਬੀ ਰਿਕਾਰਡਿੰਗ ਸੰਭਵ ਨਹੀ ਹੈ।ਰੂਟ ਮਦਦ ਕਰਦਾ ਹੈ ਪਰ ਹਮੇਸ਼ਾ ਨਹੀ ।"</string>
+    <string name="app_description_2">"ਇਸ ਐਪਲੀਕੇਸ਼ ਵਿਚ ਰਿਕਾਰਡਿੰਗ ਲਈ  ਕਈ ਤਕਨੀਕ ਹਨ । ਜੇ ਤੁਸੀਂ ਕਿਸਮਤ ਵਾਲੇ ਹੋ ਤਾ Standard API ਨਾਲ ਰਿਕਾਰਡਿੰਗ ਹੋ ਜਾਵੇਗਾ।ਜੇ ਇੱਦਾ ਨਹੀ ਹੁੰਦਾ ਤਾ ਆਵਾਜ਼ ਸਰੋਤ Standard API &gt;ਰਿਕਾਰਡਿੰਗ &gt; Settings &gt; Recording &gt; Standard API ਚੇਕ ਕਰੋ ।"</string>
+    <string name="app_description_3">"ਜੇ ਤੁਸੀਂ ਆਡੀਓ ਸਰੋਤ ਦੀ ਕੋਸ਼ਿਸ਼ ਕੀਤੀ ਹੈ ਅਤੇ APP ਨੇ ਤੁਹਾਡੀ ਆਵਾਜ਼ ਦਰਜ ਕਿੱਟੀ ਜਾ ਨਹੀ ਕਿੱਤੀ ਤਾ ਇਸਦਾ ਮਤਲਬ ਹੈ ਕੀ ਨਿਰਮਾਤਾ ਇਸਨੁ ਲਾਗੂ ਕਰਨ \'ਚ ਅਸਫਲ ਜਾ  ਸਿਸਟਮ ਦੇ ਪੱਧਰ \' ਤੇ ਰਿਕਾਰਡ ਕਾਲ ਬਲਾਕ ਵੀ ਹੈ।"</string>
+    <string name="app_description_4">ਬਾਕੀ ਤਕਨੀਕਾ ਲਈ ਰੂਟ ਜ਼ਰੂਰੀ ਹੈ। ਰੂਟ ਤਰੀਕੇ ਲਈ ਇਹ ਜ਼ਰੂਰੀ ਹੈ ਕੀ ਤੁਸੀਂ ਸਹੀ ਯੰਤਰ ਚੁਣੋ Setting &gt; Recording. ਜੇ ਤੁਹਾਡਾ ਜੰਤਰ ਨਹੀ ਹੈ ਤਾ ਉਸੇ ਹੀ ਚਿੱਪਸੈੱਟ ਵਾਲੇ ਜੰਤਰ ਨੂੰ ਚੁਣੋ।</string>
+</resources>
