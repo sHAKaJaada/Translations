@@ -308,7 +308,7 @@
     <string name="cloud_provider">Cloud-Anbieter</string>
     <string name="cloud_provider_dropbox">Dropbox</string>
     <string name="sign_in_dropbox">Anmelden in Dropbox</string>
-    <string name="sign_out_dropbox">Abmelden aus Dropbox</string>
+    <string name="sign_out_dropbox">von Dropbox abmelden</string>
     <string name="cloud_provider_google_drive">Google Drive</string>
     <string name="cloud_common_settings">Allgemein</string>
     <string name="cloud_wifi_only">Nur WLAN</string>
@@ -496,7 +496,7 @@
     <string name="georgian_translation">Georgische Übersetzung</string>
     <string name="georgian_translation_summary">von Sandro Razmadze</string>
     <string name="catalan_translation">Katalanische Übersetzung</string>
-    <string name="catalan_translation_summary">von cybdani</string>
+    <string name="catalan_translation_summary">von cybdani und Jordi Miró</string>
     <string name="hindi_translation">Übersetzung in Hindi</string>
     <string name="hindi_translation_summary">durch TheTAMAS Gautam</string>
     <string name="punjabi_translation">Übersetzung in Punjabi</string>
@@ -534,7 +534,7 @@
     <string name="tip_click_avatar">Klicke auf den Avatar um den Kontakt zu öffnen.</string>
     <string name="tip_long_click_avatar">Langes berühren des Avatars filtert auf Anrufe dieses Kontaktes.</string>
     <string name="tip_select_item">Berühren Sie ein Objekt lange um es auszuwählen.</string>
-    <string name="tip_select_all">Eine Optione \"Alle auswählen\" wird im Kontextmenü angezeigt.</string>
+    <string name="tip_select_all">Eine Option \"Alle auswählen\" wird im Kontextmenü angezeigt.</string>
     <string name="tip_audio_output">Drücken Sie Play/Pause lange, um die Audioausgabe zu welchseln.</string>
 
     <string name="category_contacts">Kontakte</string>
@@ -544,4 +544,7 @@
     <string name="bengali_translation">Bengalische Übersetzung</string>
     <string name="bengali_translation_summary">von Saurav Ghosh</string>
 
+    <string name="link_to_contacts_summary">Eine Verknüpfung zur Anzeige von Aufnahmen aus dem Kontakt heraus erstellen</string>
+    <string name="app_description_0">Diese App ist zur automatischen Telefongesprächsaufzeichnung von der Telefonleitung gedacht, sofern dies von Hardware und Kernel unterstützt wird. Anrufaufzeichnung ist eine sehr gerätespezifische Funktion, weil die Hersteller oft die dafür notwendige Systemfunktionen nicht implementieren.</string>
+    <string name="app_description_1">Deshalb ist es auf vielen Geräten notwendig, root Rechte zu haben, damit die Anrufaufzeichnung funktioniert. Wobei selbst dies nicht auf allen Geräten den erwünschten Erfolg bringt.</string>
     </resources>
