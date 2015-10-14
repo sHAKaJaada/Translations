@@ -448,7 +448,7 @@
     <string name="french_translation">Перевод на французский</string>
     <string name="french_translation_summary">от Julien Boiteux</string>
     <string name="brazilian_portuguese_translation">Перевод на бразильский португальский</string>
-    <string name="brazilian_portuguese_translation_summary">от Luiz Marcelo Serique</string>
+    <string name="brazilian_portuguese_translation_summary">от Luiz Marcelo Serique и Alexandre Beck</string>
     <string name="spanish_translation">Перевод на испанский</string>
     <string name="spanish_translation_summary">от Iñigo Garcia и Diego Vilas</string>
     <string name="slovak_translation">Перевод на словацкий</string>
@@ -548,6 +548,6 @@
     <string name="app_description_3">Если вы проверили все источники записи для Стандартных API и программа ничего не записала или записала только ваш голос, то это означает, что производитель либо не реализовал функцию записи, либо её заблокировал.</string>
     <string name="app_description_4">Вам необходимо обладать root-правами, чтобы проверить другие методы записи. Для root-методов, очень важно выбрать правильное устройство в Настройках &gt; Запись. Выберите устройство с таким же чипсетом, если ваш телефон отсутствует в списке.</string>
 <string name="bengali_translation">Перевод на бенгальский</string>
-    <string name="bengali_translation_summary">от Saurav Ghosh</string>
+    <string name="bengali_translation_summary">от Saurav Ghosh (ithehappy)</string>
 
     </resources>
