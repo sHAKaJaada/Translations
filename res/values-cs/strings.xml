@@ -323,7 +323,7 @@
     <string name="notify_converting_to_mp3">Konvertuji do MP3</string>
     <string name="notify_encrypting">Šifruji</string>
     <string name="notify_decrypting">Dešifruji</string>
-    <string name="notify_waiting_for_calls">Čekání na hovory</string>
+    <string name="notify_waiting_for_calls">Čekám na hovory</string>
     <string name="notify_tasks_remaining">Zbývá %d úkolů</string>
 
     <!-- Password dialog -->
@@ -448,7 +448,7 @@
     <string name="french_translation">Francouzký překlad</string>
     <string name="french_translation_summary">Julien Boiteux</string>
     <string name="brazilian_portuguese_translation">Brazilsko portugalský překlad</string>
-    <string name="brazilian_portuguese_translation_summary">Luiz Marcelo Serique</string>
+    <string name="brazilian_portuguese_translation_summary">Luiz Marcelo Serique a Alexandre Beck</string>
     <string name="spanish_translation">Španělský překlad</string>
     <string name="spanish_translation_summary">Iñigo Garcia a Diego Vilas</string>
     <string name="slovak_translation">Slovenský překlad</string>
@@ -472,7 +472,7 @@
     <string name="turkish_translation">Turecký překlad</string>
     <string name="turkish_translation_summary">Omer Ilik</string>
     <string name="serbian_translation">Srbský překlad</string>
-    <string name="serbian_translation_summary">sHAKaJaada</string>
+    <string name="serbian_translation_summary">sHAKaJaada™</string>
     <string name="korean_translation">Korejský překlad</string>
     <string name="korean_translation_summary">SoHyunSeop a Joon Hee Jo</string>
     <string name="romanian_translation">Rumunský překlad</string>
@@ -496,7 +496,7 @@
     <string name="georgian_translation">Gruzínský překlad</string>
     <string name="georgian_translation_summary">Sandro Razmadze</string>
     <string name="catalan_translation">Katalánský překlad</string>
-    <string name="catalan_translation_summary">cybdani</string>
+    <string name="catalan_translation_summary">cybdani a Jordi Miró</string>
     <string name="hindi_translation">Hindský překlad</string>
     <string name="hindi_translation_summary">TheTAMAS Gautam</string>
     <string name="punjabi_translation">Punjabi překlad</string>
@@ -543,7 +543,7 @@
     <string name="view_recordings">Zobrazit nahrávky</string>
 
     <string name="bengali_translation">Bengálština překlad</string>
-    <string name="bengali_translation_summary">Saurav Ghosh</string>
+    <string name="bengali_translation_summary">Saurav Ghosh (ithehappy)</string>
 
     <string name="app_description_0">Aplikace je určená k automatickému nahrávání hovorů z telefonní linky kde je to podporováno hardwarem a kernelem. Nahrávání hovorů je velmi závislé na vlastnostech zařízení, jelikož výrobci často neimplementují požadované funkce do systému jak by měli.</string>
     <string name="app_description_1">Takže root je nutný na většině zařízení kde výrobci neimplementovali požadované funkce. Ale neznamená to že root je všespasitelný pro všechna zařízení i tak může nahrávání hovorů být nefunkční kvůli hardware. Root často pomůže, ale ne vždy.</string>
