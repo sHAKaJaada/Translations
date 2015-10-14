@@ -448,7 +448,7 @@
     <string name="french_translation">แปลเป็นภาษาฝรั่งเศส</string>
     <string name="french_translation_summary">โดย Julien Boiteux</string>
     <string name="brazilian_portuguese_translation">แปลเป็นภาษาโปรตุเกสบราซิล</string>
-    <string name="brazilian_portuguese_translation_summary">โดย Luiz Marcelo Serique</string>
+    <string name="brazilian_portuguese_translation_summary">โดย Luiz Marcelo Serique และ Alexandre Beck</string>
     <string name="spanish_translation">แปลเป็นภาษาสเปน</string>
     <string name="spanish_translation_summary">โดย Iñigo Garcia และ Diego Vilas</string>
     <string name="slovak_translation">แปลเป็นภาษาสโลวัก</string>
@@ -496,7 +496,7 @@
     <string name="georgian_translation">แปลเป็นภาษาจอร์เจีย</string>
     <string name="georgian_translation_summary">โดย Sandro Razmadze</string>
     <string name="catalan_translation">แปลงเป็นภาษาคาตาลัน</string>
-    <string name="catalan_translation_summary">โดย cybdani</string>
+    <string name="catalan_translation_summary">โดย cybdani และ Jordi Miró</string>
     <string name="hindi_translation">แปลเป็นภาษาฮินดู</string>
     <string name="hindi_translation_summary">โดย TheTAMAS Gautam</string>
     <string name="punjabi_translation">แปลเป็นภาษาปัญจาบี</string>
@@ -543,7 +543,7 @@
     <string name="view_recordings">ดูบันทึก</string>
 
     <string name="bengali_translation">แปลเป็นภาษาเบงกาลี</string>
-    <string name="bengali_translation_summary">โดย Saurav Ghosh</string>
+    <string name="bengali_translation_summary">โดย Saurav Ghosh (ithehappy)</string>
 
     <string name="app_description_0">แอพนี้มีจุดประสงค์เพื่อบันทึกเสียงสายสนทนาโดยอัตโนมัติจากโทรศัพท์ที่สนับสนุนทั้งฮาร์ดแวร์และเคอร์เนล.การบันทึกเสียงสายสนทนาค่อนข้างจำกัดอุปกรณ์มากเนื่องจากผู้ผลิตไม่สนับสนุนฟังก์ชันที่จำเป็นมาด้วย</string>
     <string name="app_description_1">ดังนั้นการรูทจึงจำเป็นมากในหลายอุปกรณ์ที่ผู้ผลิตไม่สนับสนุนฟังก์ชั่น.แต่ไม่ได้หมายความว่าการรูทจะช่วยได้เสมอไป</string>
