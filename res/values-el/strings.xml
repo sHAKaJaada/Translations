@@ -448,7 +448,7 @@
     <string name="french_translation">Γαλλική μετάφραση</string>
     <string name="french_translation_summary">από Julien Boiteux</string>
     <string name="brazilian_portuguese_translation">Βραζιλιάνικη Πορτογαλική μετάφραση</string>
-    <string name="brazilian_portuguese_translation_summary">από Luiz Marcelo Serique</string>
+    <string name="brazilian_portuguese_translation_summary">από Luiz Marcelo Serique και Alexandre Beck</string>
     <string name="spanish_translation">Ισπανική μετάφραση</string>
     <string name="spanish_translation_summary">από Iñigo Garcia και Diego Vilas</string>
     <string name="slovak_translation">Σλοβάκικη μετάφραση</string>
@@ -496,7 +496,7 @@
     <string name="georgian_translation">Γεωργιανή μετάφραση</string>
     <string name="georgian_translation_summary">από Sandro Razmadze</string>
     <string name="catalan_translation">Καταλανικά μετάφραση</string>
-    <string name="catalan_translation_summary">από cybdani</string>
+    <string name="catalan_translation_summary">από cybdani και and Jordi Miró</string>
     <string name="hindi_translation">Μετάφραση Χίντι</string>
     <string name="hindi_translation_summary">από TheTAMAS Gautam</string>
     <string name="punjabi_translation">Punjabi μετάφραση</string>
@@ -549,7 +549,7 @@
     <string name="view_recordings">Προβολή καταγραφών</string>
 
     <string name="bengali_translation">Μετάφραση Bengali</string>
-    <string name="bengali_translation_summary">από Saurav Ghosh</string>
+    <string name="bengali_translation_summary">από Saurav Ghosh (ithehappy)</string>
 
     <string name="app_description_0">Η εφαρμογή προορίζεται για αυτόματη καταγραφή των τηλεφωνικών κλήσεων της συσκευής σας από όπου υποστηρίζεται από το υλικό και πυρήνα. Η Καταγραφή κλήσης είναι ένα ιδιαίτερο χαρακτηριστικό για συγκεκριμένες συσκευές, επειδή οι κατασκευαστές συχνά δεν προστεθούν τις απαιτούμενες ιδιότητες στο επίπεδο συστήματος για να είναι η όλη διαδικασία εφικτή.</string>
     <string name="app_description_1">Οπότε το Root είναι αναγκαίο σε πολλές συσκευές που οι κατασκευαστές δεν έχουν προσθέσει τις λειτουργίες αυτές. Αλλά δεν είναι πάντοτε το Root ο \"σωτήρας\" για κάθε συσκευή αφού η δυνατότητα καταγραφής κλήσης μπορεί να επιτευχθεί σε επίπεδο υλικού. Το Root ναι μεν βοηθάει, αλλά όχι πάντα.</string>
