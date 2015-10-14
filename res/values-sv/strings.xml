@@ -448,7 +448,7 @@
     <string name="french_translation">Fransk översättning</string>
     <string name="french_translation_summary">av Julien Boiteux</string>
     <string name="brazilian_portuguese_translation">Brasiliansk portugisisk översättning</string>
-    <string name="brazilian_portuguese_translation_summary">av Luiz Marcelo Serique</string>
+    <string name="brazilian_portuguese_translation_summary">av Luiz Marcelo Serique och Alexandre Beck</string>
     <string name="spanish_translation">Spansk översättning</string>
     <string name="spanish_translation_summary">av Iñigo Garcia and Diego Vilas</string>
     <string name="slovak_translation">Slovakisk översättning</string>
@@ -496,7 +496,7 @@
     <string name="georgian_translation">Georgisk översättning</string>
     <string name="georgian_translation_summary">av Sandro Razmadze</string>
     <string name="catalan_translation">Katalansk översättning</string>
-    <string name="catalan_translation_summary">av cybdani</string>
+    <string name="catalan_translation_summary">av cybdani och Jordi Miró</string>
     <string name="hindi_translation">Hindisk översättning</string>
     <string name="hindi_translation_summary">av TheTAMAS Gautam</string>
     <string name="punjabi_translation">Punjabisk översättning</string>
@@ -543,7 +543,7 @@
     <string name="view_recordings">Visa inspelningar</string>
 
     <string name="bengali_translation">Bengalisk översättning</string>
-    <string name="bengali_translation_summary">av Saurav Ghosh</string>
+    <string name="bengali_translation_summary">av Saurav Ghosh (ithehappy)</string>
 
     <string name="app_description_0">Appen är avsedd för automatisk samtalsinspelning från telefonlinjen i de fall detta stöds av hårdvaran och kärnan. Samtalsinspelning är en mycket enhetsspecifik funktion, eftersom tillverkare ofta inte implementerar den krävda funktionaliteten på systemnivå, vilket är ett krav.</string>
     <string name="app_description_1">"Så root-behörighet är ett måste på många enheter där tillverkaren inte implementerade den krävda funktionaliteten.  Men detta innebär inte att root är en räddare i nöden för någon enhet, eftersom samtalsinspelning kan vara trasigt på hårdvarunivå. Root-behörighet hjälper ofta, men inte alltid."</string>
