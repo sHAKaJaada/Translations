@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">CallRecorder</string>
+    <string name="app_name">Call Recorder</string>
     <string name="terms_of_use">Termeni de Utilizare</string>
     <string name="terms_of_use_message">Utilizand această aplicație, ești de acord cu &lt;a href=http://rec.sh/terms&gt;Termenii de Utilizare&lt;/a&gt; ai aplicației CallRecorder.</string>
 
@@ -448,7 +448,7 @@
     <string name="french_translation">Traducerea în Franceză</string>
     <string name="french_translation_summary">de Julien Boiteux</string>
     <string name="brazilian_portuguese_translation">Traducerea în Braziliană/Portugheză</string>
-    <string name="brazilian_portuguese_translation_summary">de Luiz Marcelo Serique</string>
+    <string name="brazilian_portuguese_translation_summary">de Luiz Marcelo Serique și Alexandre Beck</string>
     <string name="spanish_translation">Traducerea în Spaniolă</string>
     <string name="spanish_translation_summary">de Iñigo Garcia and Diego Vilas</string>
     <string name="slovak_translation">Traducerea în Slovacă</string>
@@ -496,7 +496,7 @@
     <string name="georgian_translation">Traducerea în Georgiană</string>
     <string name="georgian_translation_summary">de Sandro Razmadze</string>
     <string name="catalan_translation">Traducerea în Catalană</string>
-    <string name="catalan_translation_summary">de cybdani</string>
+    <string name="catalan_translation_summary">de cyabdani și Jordi Miró</string>
     <string name="hindi_translation">Traducerea în Hindusă</string>
     <string name="hindi_translation_summary">de TheTAMAS Gautam</string>
     <string name="punjabi_translation">Traducerea în Punjabi</string>
@@ -543,7 +543,7 @@
     <string name="view_recordings">Vezi înregistrările</string>
 
     <string name="bengali_translation">Traducerea în Bengaleză</string>
-    <string name="bengali_translation_summary">de Saurav Ghosh</string>
+    <string name="bengali_translation_summary">de Saurav Ghosh (ithehappy)</string>
 
     <string name="app_description_0">Aplicația intenționează să înregistreze din linia telefonică unde este suportat de echipament și de kernel. Înregistrarea de apel este o caracteristică foarte specifică fiecărui terminal deoarece producătorii, deseori, nu implementează funcționalitatea cerută pe nivelul de sistem, așa cum ar trebui.</string>
     <string name="app_description_1">Deci root este o necesitate obligatorie pe multe terminale unde producătorii nu au implementat funcționalitatea cerută. Dar asta nu înseamnă că având root înregistrarea funcționează pe orice terminal din moment ce ea poate fi stricată la nivel hardware. Root ajută, dar nu întotdeauna.</string>
