@@ -193,7 +193,7 @@
     <string name="api_source_voice_communication">Röstkommunikation</string>
     <string name="category_wav_settings">WAV-inställningar</string>
     <string name="category_wav_and_mp3_settings">WAV &amp; MP3-inställningar</string>
-    <string name="when_bt_connected">När BT är anslutet...</string>
+    <string name="when_bt_connected">När BT är anslutet…</string>
     <string name="audio_source_when_bt_connected">Ljudkälla när BT är anslutet</string>
 
     <!-- Actions when BT connected -->
