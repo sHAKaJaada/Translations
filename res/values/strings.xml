@@ -472,7 +472,7 @@
     <string name="french_translation">French translation</string>
     <string name="french_translation_summary">by Julien Boiteux</string>
     <string name="brazilian_portuguese_translation">Brazilian Portuguese translation</string>
-    <string name="brazilian_portuguese_translation_summary">by Luiz Marcelo Serique</string>
+    <string name="brazilian_portuguese_translation_summary">by Luiz Marcelo Serique and Alexandre Beck</string>
     <string name="spanish_translation">Spanish translation</string>
     <string name="spanish_translation_summary">by Iñigo Garcia and Diego Vilas</string>
     <string name="slovak_translation">Slovak translation</string>
@@ -540,7 +540,7 @@
     <string name="greek_translation">Greek translation</string>
     <string name="greek_translation_summary">by Lefteris (SomniusX) Eliades</string>
     <string name="bengali_translation">Bengali translation</string>
-    <string name="bengali_translation_summary">by Saurav Ghosh</string>
+    <string name="bengali_translation_summary">by Saurav Ghosh (ithehappy)</string>
 
     <!--About -> Description-->
     <string name="app_description_0">The app is intended for automatic call recording from the phone line where supported by hardware and kernel. Call recording is a very device specific feature, because manufacturers often don’t implement the required functionality on the system level as they have to.</string>
