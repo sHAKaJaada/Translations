@@ -448,7 +448,7 @@
     <string name="french_translation">法语翻译</string>
     <string name="french_translation_summary">由 Julien Boiteux 翻译</string>
     <string name="brazilian_portuguese_translation">巴西葡萄牙语翻译</string>
-    <string name="brazilian_portuguese_translation_summary">由 Luiz Marcelo Serique 翻译</string>
+    <string name="brazilian_portuguese_translation_summary">由 Luiz Marcelo Serique 及 Alexandre Beck 翻译</string>
     <string name="spanish_translation">西班牙语翻译</string>
     <string name="spanish_translation_summary">由 Iñigo Garcia 和 Diego Vilas 翻译</string>
     <string name="slovak_translation">斯洛伐克翻译</string>
@@ -546,7 +546,7 @@
     <string name="view_recordings">查看录音</string>
 
     <string name="bengali_translation">孟加拉语</string>
-    <string name="bengali_translation_summary">由 Saurav Ghosh 翻译</string>
+    <string name="bengali_translation_summary">由 Saurav Ghosh (ithehappy) 翻译</string>
 
     <string name="app_description_0">本应用自动通过硬件及内核支持来录制通话录音。通话录音是一个非常特殊的功能，因为各种原因，硬件制造商通常不会于系统中实现该功能。</string>
     <string name="app_description_1">所以必须要获取管理员获得。然而在这个功能在很多制造商中无法实现。但并不意味着您获取了管理员权限就一定能进行通话录音。通常情况下拥有管理员权限能对通话进行录音，但并不总能。</string>
