@@ -448,7 +448,7 @@
     <string name="french_translation">French अनुवादन के लिए</string>
     <string name="french_translation_summary">Julien Boiteux का</string>
     <string name="brazilian_portuguese_translation">Brazilian Portuguese अनुवादन के लिए</string>
-    <string name="brazilian_portuguese_translation_summary">Luiz Marcelo Serique का</string>
+    <string name="brazilian_portuguese_translation_summary">Luiz Marcelo Serique व Alexandre Beck का</string>
     <string name="spanish_translation">Spanish अनुवादन के लिए</string>
     <string name="spanish_translation_summary">Iñigo Garcia व Diego Vilas का</string>
     <string name="slovak_translation">Slovak अनुवादन के लिए</string>
@@ -545,7 +545,7 @@
     <string name="link_to_contacts_summary">किसी संपर्क के भीतर से रिकॉर्डिंग देखने के लिए एक शॉर्टकट बनाएं</string>
     <string name="view_recordings">रिकॉर्डिंग देखें</string>
 
-    <string name="bengali_translation_summary">Saurav Ghosh द्वारा</string>
+    <string name="bengali_translation_summary">Saurav Ghosh (ithehappy) द्वारा</string>
 
     <string name="app_description_0">यह एक ऐसा एप (app) है जिसमें रिकॉर्डिंग यदि हार्डवेयर व कर्नेल द्वारा समर्थित हो तो वह स्वत: होती है। रिकॉर्डिंग, एक अत्यधिक यंत्र विशिष्ट विशेषता यह है क्योंकि कॉल रिकॉर्डिंग के लिये आवश्याक जरिये अक्सर यंत्र निर्माता नज़रअंदाज़ कर देते हैं।</string>
     <string name="app_description_1">इसी वज़ह से आमतौर पर यंत्रों में रुट (Root) आवश्यक है। परंतु कभी-कभी रुट से भी रिकॉर्डिंग संभव नहीं होती। रुट मददग़ार होता है मगर-हमेशा नहीं।</string>
