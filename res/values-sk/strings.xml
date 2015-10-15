@@ -448,7 +448,7 @@
     <string name="french_translation">Francúzsky preklad</string>
     <string name="french_translation_summary">Julien Boiteux</string>
     <string name="brazilian_portuguese_translation">Portugalsky preklad</string>
-    <string name="brazilian_portuguese_translation_summary">Luiz Marcelo Serique</string>
+    <string name="brazilian_portuguese_translation_summary">Luiz Marcelo Serique a Alexandre Beck</string>
     <string name="spanish_translation">Španielsky preklad</string>
     <string name="spanish_translation_summary">Iñigo Garcia a Diego Vilas</string>
     <string name="slovak_translation">Nemecký preklad</string>
@@ -543,7 +543,7 @@
 
     <string name="link_to_contacts">Odkaz na kontakty</string>
     <string name="bengali_translation">Bengálsky preklad</string>
-    <string name="bengali_translation_summary">Saurav Ghosh</string>
+    <string name="bengali_translation_summary">Saurav Ghosh (ithehappy)</string>
 
     <string name="app_description_0">Aplikácia slúži na automatické nahrávanie hovorov z telefónnej linky, ak nahrávanie podporuje hardvér a jadro. Nahrávanie hovorov je funkcia, ktorá veľmi závisí od konkrétneho zariadenia, nakoľko výrobcovia často nesprístupnia funkcie potrebné pre nahrávanie hovorov.</string>
     <string name="app_description_1">Preto je na mnohých zariadeniach, kde výrobca nesprístupnil potrebné funkcie nevyhnutný Root. Neznemaná to však, že Root umožní nahrávanie na všetkých zariadeniach, nakoľko niektoré z nich nemajú potrebný hardvér. Root pomôže často, ale nie vždy.</string>
