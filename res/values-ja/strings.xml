@@ -448,7 +448,7 @@
     <string name="french_translation">フランス語の翻訳</string>
     <string name="french_translation_summary">Julien Boiteux</string>
     <string name="brazilian_portuguese_translation">ポルトガル語(ブラジル)の翻訳</string>
-    <string name="brazilian_portuguese_translation_summary">Luiz Marcelo Serique</string>
+    <string name="brazilian_portuguese_translation_summary">Luiz Marcelo Serique と Alexandre Beck</string>
     <string name="spanish_translation">スペイン語の翻訳</string>
     <string name="spanish_translation_summary">Iñigo Garcia と Diego Vilas</string>
     <string name="slovak_translation">スロバキア語の翻訳</string>
@@ -496,7 +496,7 @@
     <string name="georgian_translation">グルジア語の翻訳</string>
     <string name="georgian_translation_summary">Sandro Razmadze</string>
     <string name="catalan_translation">カタロニア語</string>
-    <string name="catalan_translation_summary">cybdani and Jordi Miró</string>
+    <string name="catalan_translation_summary">cybdani と Jordi Miró</string>
     <string name="hindi_translation">ヒンディー語の翻訳</string>
     <string name="hindi_translation_summary">TheTAMAS Gautam</string>
     <string name="punjabi_translation">パンジャブ語の翻訳</string>
@@ -544,7 +544,7 @@
     <string name="view_recordings">録音を表示</string>
 
     <string name="bengali_translation">ベンガル語の翻訳</string>
-    <string name="bengali_translation_summary">Saurav Ghosh</string>
+    <string name="bengali_translation_summary">Saurav Ghosh (ithehappy)</string>
 
     <string name="app_description_0">アプリはハードウェアとkernelでサポートされる電話回線より自動的に通話を録音することを目的としています。製造元がしばしばシステムレベルで実装されなくてはならない機能を実装していないことがあり、通話録音は非常にデバイス固有の機能です。</string>
     <string name="app_description_1">従って製造元が必要な機能を実装していない多くのデバイスでrootは必須となります。しかし通話録音がハードウェアレベルでうまく動作しないなど、rootはどんなデバイスに対しても救世主とはなり得ません。rootはしばしば役に立ちますが、絶対ではありません。</string>
