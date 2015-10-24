@@ -448,7 +448,7 @@
     <string name="french_translation">法語</string>
     <string name="french_translation_summary">由 Julien Boiteux 翻譯</string>
     <string name="brazilian_portuguese_translation">巴西葡萄牙語</string>
-    <string name="brazilian_portuguese_translation_summary">由 Luiz Marcelo Serique 翻譯</string>
+    <string name="brazilian_portuguese_translation_summary">"由 Luiz Marcelo Serique 與 Alexandre Beck  翻譯"</string>
     <string name="spanish_translation">西班牙語</string>
     <string name="spanish_translation_summary">由 Iñigo Garcia 與 Diego Vilas 翻譯</string>
     <string name="slovak_translation">斯洛伐克語</string>
@@ -546,7 +546,7 @@
     <string name="view_recordings">查看錄音</string>
 
     <string name="bengali_translation">孟加拉語</string>
-    <string name="bengali_translation_summary">由 Saurav Ghosh 翻譯</string>
+    <string name="bengali_translation_summary">由 Saurav Ghosh (ithehappy) 翻譯</string>
 
     <string name="app_description_4">您需要有ROOT權限來嘗試其它的錄音方式。對於ROOT方法，重要的是在設置中要選擇正確的設備&gt;錄製。如果您的設備沒有被列入其中請選擇相同的芯片。</string>
 <string name="app_description_3">如過您已經嘗試過了每一個音頻源的標準API和應用程式，但仍然沒有錄製或只有錄製您的聲音，這意味著裝置不支援該功能，或者系統阻止了通話記錄的等級。</string>
