@@ -448,7 +448,7 @@
     <string name="french_translation">Пераклад на французскі</string>
     <string name="french_translation_summary">ад Julien Boiteux</string>
     <string name="brazilian_portuguese_translation">Пераклад на бразільскі партугальскі</string>
-    <string name="brazilian_portuguese_translation_summary">ад Luiz Marcelo Serique</string>
+    <string name="brazilian_portuguese_translation_summary">ад Luiz Marcelo Serique i Alexandre Beck</string>
     <string name="spanish_translation">Пераклад на іспанскі</string>
     <string name="spanish_translation_summary">ад Inigo Garcia і Diego Vilas</string>
     <string name="slovak_translation">Пераклад на славацкі</string>
@@ -496,7 +496,7 @@
     <string name="georgian_translation">Пераклад на грузінскі</string>
     <string name="georgian_translation_summary">ад Sandro Razmadze</string>
     <string name="catalan_translation">Пераклад на каталонскі</string>
-    <string name="catalan_translation_summary">ад cybdani</string>
+    <string name="catalan_translation_summary">ад cybdani i Jordi Miró</string>
     <string name="hindi_translation">Пераклад на хіндзі</string>
     <string name="hindi_translation_summary">ад TheTAMAS Gautam</string>
     <string name="punjabi_translation">Пераклад на пенджабі</string>
@@ -543,7 +543,7 @@
     <string name="view_recordings">Паказаць запісы</string>
 
     <string name="bengali_translation">Пераклад на бенгальскі</string>
-    <string name="bengali_translation_summary">ад Saurav Ghosh</string>
+    <string name="bengali_translation_summary">ад Saurav Ghosh (ithehappy)</string>
 
     <string name="app_description_0">Праграма прызначана для аўтаматычнага запісу тэлефонных гутарак з лініі, на прыладах з адпаведнай падтрымкай у жалезе і ядры. Функцыя запісу гутарак вельмі моцна залежыць ад пэўнай прылады, таму што вытворцы даволі часта не рэалізуюць патрабаваны функцыянал на сістэмным узроўні як павінны.</string>
     <string name="app_description_1">Таму root абавязковы на шматлікіх прыладах, дзе вытворцы не рэалізавалі патрабаваны функцыянал. Але гэта не азначае, што root вырашыць пытанне на любой прыладзе, бо праблема з запісам гутарак можа быць на ўзроўні жалеза. Root дапамагае часта, але не заўсёды.</string>
