@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">通话录音</string>
-    <string name="terms_of_use">使用條款</string>
+    <string name="terms_of_use">使用条款</string>
     <string name="terms_of_use_message">要使用本应用，您须同意通话录音的&lt;a href=http://rec.sh/terms&gt;使用条款&lt;/a&gt;。</string>
 
     <!-- Navigation drawer -->
@@ -553,4 +553,9 @@
     <string name="app_description_2">本应用有多种录音支持的途径。如果您足够幸运的话，在未获得管理员权限的情况下能通过使用标准 API 录制双向音频。但您需要检查每个音源的标准 API 设定——设置 &gt; 录音 &gt; 录音方式 &gt; 标准 API。</string>
     <string name="app_description_3">如果您已经尝试了标准 API 的每一条音源但仍不可对通话进行录音或是只能录制到您的声音。这意味着您的设备不支持该功能，或是系统禁止通话录音。</string>
     <string name="app_description_4">您需要获得管理员权限来尝试别的录音途径。您需要在通话录音中选择正确的录音方式，如果您的设备不再列表里，请选择与您设备相符的芯片组。</string>
-</resources>
+<string name="delete_recording_after_upload">上传后删除录音</string>
+    <string name="delete_recording_after_upload_summary">录音会在上传成功后删除</string>
+
+    <string name="auto_unlock">自动解锁</string>
+    <string name="auto_unlock_summary">输入正确的密码后不需要点击确认按钮便会自动解锁</string>
+    </resources>
