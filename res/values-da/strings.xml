@@ -550,4 +550,9 @@
     <string name="app_description_2">Appen har forskellige optagemetoder. Med lidt held kan appen optage begge sider af samtalen uden root-adgange vha metoden \"Standard API\", men det kan være nødvendigt at prøve hver eneste lydkilde under Indstillinger -&gt; Optagelse - Standard API.</string>
     <string name="app_description_3">Hvis du har prøvet hver eneste lydkilde for Standard API og appen ikke optog noget eller kun din stemme, betyder det at producenten enten ikke understøtter eller har blokeret optagelse af opkald på system-niveau.</string>
     <string name="app_description_4">De øvrige optagelsesmetoder kræver root-adgang. Det er vigtigt at vælge den korrekte enhed under Indstillinger -&gt; Optagelse. Vælg en enhed med det samme chipsæt som din enhed, hvis din enhed ikke er på listen.</string>
-</resources>
+<string name="delete_recording_after_upload">Slet optagelse efter overførsel</string>
+    <string name="delete_recording_after_upload_summary">Optagelsen vil blive slettet efter den er korrekt overført</string>
+
+    <string name="auto_unlock">Lås op automatisk</string>
+    <string name="auto_unlock_summary">Lås op uden tryk på \'OK\' så snart du har indtastet kodeordet korrekt</string>
+    </resources>
