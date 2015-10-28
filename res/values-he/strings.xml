@@ -550,4 +550,9 @@
     <string name="app_description_2">לאפליקציה הזו יש שיטות הקלטה שונות. אם יש לך מזל, המכשיר שלך לא יכשל בהקלטת שני הצדדים בשיטת הקלטה API סטנדרטית ללא רוט. אך ייתכן שתצטרך לבדוק כל מקור קול בהגדרות&gt;הקלטה&gt;API סטנדרטי.</string>
     <string name="app_description_3">אם ניסית את כל מקורות הכל בAPI סטנדרטי והשיחה לא הוקלטה או רק צד אחד הוקלט, המשמעות היא שהיצרן לא כלל או אף חסם את הקלטת השיחות ברמת המערכת.</string>
     <string name="app_description_4">אתה חייב גישת רוט לשימוש בשיטות הקלטה נוספות. לשיטות רוט שונות, חשוב לבחור את המכשיר הנכון בהגדרות&gt;הקלטה. בחר מכשיר עם שבב דומה לשלך אם המכשיר שלך לא ברשימה.</string>
-</resources>
+<string name="delete_recording_after_upload">מחק הקלטה בסיום ההעלאה</string>
+    <string name="delete_recording_after_upload_summary">ההקלטה תמחק לאחר סיום העלאה מוצלחת</string>
+
+    <string name="auto_unlock">נעל אוטומטית</string>
+    <string name="auto_unlock_summary">פתח נעילה בלי לאשר לאחר שהכנסת סיסמא נכונה</string>
+    </resources>
