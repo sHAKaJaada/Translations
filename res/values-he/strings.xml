@@ -553,6 +553,6 @@
 <string name="delete_recording_after_upload">מחק הקלטה בסיום ההעלאה</string>
     <string name="delete_recording_after_upload_summary">ההקלטה תמחק לאחר סיום העלאה מוצלחת</string>
 
-    <string name="auto_unlock">נעל אוטומטית</string>
+    <string name="auto_unlock">פתח נעילה אוטומטית</string>
     <string name="auto_unlock_summary">פתח נעילה בלי לאשר לאחר שהכנסת סיסמא נכונה</string>
     </resources>
