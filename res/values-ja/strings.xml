@@ -558,4 +558,9 @@
     <string name="settings_open_unlocker">Unlockerを開く</string>
     <string name="api_source_voice_communication">音声通信</string>
     <string name="button_keep">保持</string>
+    <string name="delete_recording_after_upload">アップロード後に録音を削除</string>
+    <string name="delete_recording_after_upload_summary">アップロードが成功した後録音を削除します</string>
+
+    <string name="auto_unlock">自動アンロック</string>
+    <string name="auto_unlock_summary">正しいパスワードを入力した後 \'OK\' を押さずにアンロックします</string>
     </resources>
