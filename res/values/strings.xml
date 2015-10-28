@@ -333,6 +333,8 @@
     <string name="cloud_auto_upload_summary">Upload recording right after call</string>
     <string name="cloud_upload_starred">Upload starred</string>
     <string name="cloud_upload_starred_summary">Upload recording to cloud when you add star to it</string>
+    <string name="delete_recording_after_upload">Delete recording after upload</string>
+    <string name="delete_recording_after_upload_summary">Recording will be deleted after successful upload</string>
 
     <!-- Notification -->
     <string name="notify_uploading_dropbox">Uploading to Dropbox</string>
@@ -374,6 +376,8 @@
     <string name="app_admin">App Admin</string>
     <string name="app_admin_summary">Necessary to prevent uninstalling Call Recorder</string>
     <string name="app_admin_explanation">Call Recorder doesn\'t use any feature of device admin except protecting uninstall</string>
+    <string name="auto_unlock">Auto unlock</string>
+    <string name="auto_unlock_summary">Unlock without pressing \'OK\' once you entered the correct password</string>
     <string name="aes_128bit">128-bit AES (Faster)</string>
     <string name="aes_192bit">192-bit AES (Balanced)</string>
     <string name="aes_256bit">256-bit AES (Stronger)</string>
