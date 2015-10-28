@@ -550,4 +550,9 @@
     <string name="app_description_2">"Aplicația are diferite metode de înregistrare. Dacă ești norocos, va înregistra ambele părți prin metoda Standard API fără root. Dar ar trebui să verifici fiecare sursă audio pentru Standard API în Setări  &gt; Înregistrare &gt; Standard API."</string>
     <string name="app_description_3">Dacă ai încercat fiecare sursă audio pentru Standard API și aplicația nu a înregistrat sau a înregistrat doar vocea ta, înseamnă că producătorul nu a reușit să implementeze opțiunea sau a blocat-o la nivel de sistem.</string>
     <string name="app_description_4">Ai nevoie de permisiunea de root pentru a încerca celelalte metode de înregistrare. Pentru metode de root este important sa selectezi corect în Setări &gt; Înregistrare. Selectează un terminal cu același chipset dacă terminalul tău nu este în listă.</string>
-</resources>
+<string name="delete_recording_after_upload">Șterge înregistrarea după upload</string>
+    <string name="delete_recording_after_upload_summary">Înregistrarea va fi ștearsă după upload reușit</string>
+
+    <string name="auto_unlock">Deblocare automată</string>
+    <string name="auto_unlock_summary">Deblocare fără apăsare \'OK\' o dată ce s-a introdus parola corectă.</string>
+    </resources>
