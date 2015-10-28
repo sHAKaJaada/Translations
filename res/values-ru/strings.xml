@@ -550,4 +550,9 @@
 <string name="bengali_translation">Перевод на бенгальский</string>
     <string name="bengali_translation_summary">от Saurav Ghosh (ithehappy)</string>
 
+    <string name="delete_recording_after_upload">Удалить запись после загрузки</string>
+    <string name="delete_recording_after_upload_summary">Запись будет уделена после успешной загрузки</string>
+
+    <string name="auto_unlock">Авто разблокировка</string>
+    <string name="auto_unlock_summary">Разблокировать без нажатия кнопки \'OK\' сразу после ввода правильного пароля</string>
     </resources>
