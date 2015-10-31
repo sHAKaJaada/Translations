@@ -557,4 +557,5 @@
     <string name="delete_recording_after_upload_summary">"L\'enregistrement sera supprimée après un envoi réussi "</string>
 
     <string name="auto_unlock">"Auto déverrouillage "</string>
+    <string name="msg_supersu_required">Votre application super utilisateur est peut-être incompatible. Songez à installer SuperSU.</string>
     </resources>
