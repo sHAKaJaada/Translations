@@ -561,4 +561,5 @@
     <string name="msg_grant_permissions">Veuillez accorder les permissions.</string>
     <string name="msg_grant_permissions_summary">L\'application ne fonctionnera pas sans les permissions.</string>
 
+    <string name="not_charging">Ne charge pas</string>
     </resources>
