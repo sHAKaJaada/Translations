@@ -559,4 +559,6 @@
     <string name="auto_unlock">"Auto déverrouillage "</string>
     <string name="msg_supersu_required">Votre application super utilisateur est peut-être incompatible. Songez à installer SuperSU.</string>
     <string name="msg_grant_permissions">Veuillez accorder les permissions.</string>
+    <string name="msg_grant_permissions_summary">L\'application ne fonctionnera pas sans les permissions.</string>
+
     </resources>
