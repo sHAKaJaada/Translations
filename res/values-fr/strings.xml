@@ -552,4 +552,9 @@
     <string name="app_description_2">L\'application a plusieurs méthodes d\'enregistrement. Avec un peu de chance, l\'application parviendra à enregistrer les deux côtés via la méthode d\'enregistrement des API standards sans root. Mais il faudra peut-être tester les diverses sources audio des API standards dans Réglages &gt; Enregistrement &gt; API Standard.</string>
     <string name="app_description_3">Si vous avez essayé toutes les sources audio de l\'API Standard et que l\'application n\'a rien enregistré ou seulement votre voix, cela signifie que le fabricant n\'a pas implémenté, ou a bloqué l\'enregistrement des appels au niveau du système.</string>
     <string name="app_description_4">Il faudra disposer des droits root pour essayer les autres méthodes d\'enregistrement. Pour les méthodes root, il est important de sélectionner le bon appareil dans Réglages &gt; Enregistrement. Choisissez un appareil avec le même chipset si votre appareil n\'est pas listé.</string>
-</resources>
+<string name="auto_unlock_summary">Déverrouille sans appuyer sur \'OK\' lors de l\'entrée du bon de passe</string>
+    <string name="delete_recording_after_upload">Supprimer l\'enregistrement après l\'envoi</string>
+    <string name="delete_recording_after_upload_summary">"L\'enregistrement sera supprimée après un envoi réussi "</string>
+
+    <string name="auto_unlock">"Auto déverrouillage "</string>
+    </resources>
