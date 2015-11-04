@@ -550,4 +550,16 @@
     <string name="app_description_2">แอพนี้ใช้เงื่อนไขการบันทึกเสียงที่แตกต่างกันถ้าคุณโชคดีพอ, แอพจะไม่ล้มเหลวในการบันทึกเสียงทั้งสองฝั่งด้วย API มาตรฐานโดยไม่ต้องรูท.แต่คุณต้องเช็คทุกแหล่งเสียงใน Settings &gt; Recording &gt; Standard API.</string>
     <string name="app_description_3">ถ้าคุณลองทุกแหล่งเสียงสำหรับ API มาตรฐานแล้วและแอพไม่ยอมบันทึกเสียงหรือบันทึกแค่เสียงคุณฝ่ายเดียว,นั่นหมายความว่าผู้ผลิตตัดฟังก์ชั่นการบันทึกสายสนทนาออก</string>
     <string name="app_description_4">คุณจำเป็นต้องรูทเพื่อลองการบันทึกรูปแบบอื่น.เมื่อรูทแล้วให้คุณเลือก Settings &gt; Recording แล้วเลือกอุปกรณ์ที่มีชิพเซ็ตเดียวกันถ้าอุปกรณ์ของคุณไม่มีในรายการ</string>
-</resources>
+<string name="delete_recording_after_upload">ลบบันทึกหลังจากอัพโหลด</string>
+    <string name="delete_recording_after_upload_summary">บันทึกจะลบหลังการอัพโหลดเสร็จสิ้น</string>
+
+    <string name="auto_unlock">ปลดล็อคอัตโนมัติ</string>
+    <string name="auto_unlock_summary">ปลดล็อคโดยไม่ต้องกด \'ตกลง\' คุณต้องระบุรหัสผ่านที่ถูกต้อง</string>
+    <string name="root_module">รูทโมดูล</string>
+    <string name="root_module_is_not_installed">รูทโมดูลไม่ถูกติดตั้ง</string>
+    <string name="root_module_summary">การใช้รูทสำรองอย่าง CAF, ALSA หรือ MSM, คุณต้องติดตั้งรูทโมดูลหลักก่อน</string>
+    <string name="button_more_info">รายละเอียดเพิ่มเติม</string>
+    <string name="button_dismiss">ยกเลิก</string>
+
+    <string name="app_description_summary">คือแอพที่บันทึกเสียงสายสนทนาโดยอัตโนมัติ</string>
+    </resources>
