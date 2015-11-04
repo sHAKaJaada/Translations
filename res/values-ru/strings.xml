@@ -555,4 +555,11 @@
 
     <string name="auto_unlock">Авто разблокировка</string>
     <string name="auto_unlock_summary">Разблокировать без нажатия кнопки \'OK\' сразу после ввода правильного пароля</string>
+    <string name="root_module">Root модуль</string>
+    <string name="root_module_is_not_installed">Root модуль НЕ установлен</string>
+    <string name="root_module_summary">Чтобы использовать альтернативные root-методы записи, такие как CAF, ALSA или MSM, вам необходимо установить Root модуль для Call Recorder\'a.</string>
+    <string name="button_more_info">Подробнее</string>
+    <string name="button_dismiss">Скрыть</string>
+
+    <string name="app_description_summary">Программа для записи звонков с телефонной линии</string>
     </resources>
