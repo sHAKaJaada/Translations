@@ -563,7 +563,7 @@
     <string name="auto_unlock_summary">Ξεκλείδωμα χωρίς να πατήσετε \'ΟΚ\' μόλις εισάγετε τον σωστό κωδικό</string>
     <string name="root_module">Root μονάδα</string>
     <string name="root_module_is_not_installed">Root μονάδα ΔΕΝ εγκαταστάθηκε</string>
-    <string name="root_module_summary">Για να χρησιμοποιηθεί εναλλακτική μέθοδος Root όπως CAF, ALSA ή MSM, πρέπει να εγκατασταθεί Root μονάδα για το Call Recorder</string>
+    <string name="root_module_summary">Για εναλλακτική μέθοδο Root όπως CAF, ALSA ή MSM, πρέπει να εγκατασταθεί Root μονάδα για το Call Recorder.</string>
     <string name="button_more_info">Περισσότερα</string>
     <string name="button_dismiss">Εντάξει</string>
 
