@@ -572,4 +572,11 @@
 
     <string name="auto_unlock">Авторозблоеувпння</string>
     <string name="auto_unlock_summary">Розблокувати, не натискаючи «ОК», як тільки ви ввели відповідний пароль</string>
+    <string name="root_module">Кореневий модуль</string>
+    <string name="root_module_is_not_installed">Кореневий модуль не встановлено</string>
+    <string name="root_module_summary">Аби використовувати альтернативні кореневі методи, як, скажімо, CAF, ALSA чи MSM, вам слід встановити кореневий модуль для Call Recorder.</string>
+    <string name="button_more_info">Більше інфо</string>
+    <string name="button_dismiss">Відмінити</string>
+
+    <string name="app_description_summary">Програма для автоматичного запису телефонних розмов</string>
     </resources>
