@@ -455,6 +455,13 @@
     <string name="no_recording_in_progress">No recording in progress</string>
     <string name="an_error_has_occurred">An error has occurred, this call cannot be recorded</string>
 
+    <!--Root module dialog-->
+    <string name="root_module">Root module</string>
+    <string name="root_module_is_not_installed">Root module is NOT installed</string>
+    <string name="root_module_summary">To use alternative root methods such as CAF, ALSA or MSM, you need to install Root module for Call Recorder.</string>
+    <string name="button_more_info">More info</string>
+    <string name="button_dismiss">Dismiss</string>
+
     <!--About-->
     <string name="about_call_recorder">About Call Recorder</string>
     <string name="version">Version</string>
@@ -547,6 +554,7 @@
     <string name="bengali_translation_summary">by Saurav Ghosh (ithehappy)</string>
 
     <!--About -> Description-->
+    <string name="app_description_summary">An app to record phone calls from the phone line automatically</string>
     <string name="app_description_0">The app is intended for automatic call recording from the phone line where supported by hardware and kernel. Call recording is a very device specific feature, because manufacturers often don’t implement the required functionality on the system level as they have to.</string>
     <string name="app_description_1">So root is a must on many devices where manufacturers didn’t implement the required functionality. But it doesn’t mean the root is a savior for any device as call recording can be broken on the hardware level. Root helps often, but not always.</string>
     <string name="app_description_2">The app has different recording methods. If you’re lucky enough, the app won\'t fail to record both sides over Standard API recording method without root. But you may need to check every audio source for Standard API in Settings &gt; Recording &gt; Standard API.</string>
