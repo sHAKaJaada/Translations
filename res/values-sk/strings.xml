@@ -557,9 +557,9 @@
     <string name="auto_unlock_summary">Odomknúť bez potvrdenia \"OK\", akonáhle zadáte správne heslo</string>
     <string name="root_module">Root modul</string>
     <string name="root_module_is_not_installed">Root modul nie je naištalovaný</string>
-    <string name="root_module_summary">"Pre použitie alternatívnych Root metód ako  CAF, ALSA alebo MSM, potrebujete mať pre Call Recorder nainštalovaný Root modul"</string>
+    <string name="root_module_summary">Pre použitie alternatívnych Root metód ako CAF, ALSA alebo MSM, potrebujete mať pre Call Recorder nainštalovaný Root modul</string>
     <string name="button_more_info">Viac informácií</string>
     <string name="button_dismiss">Zrušiť</string>
 
-    <string name="app_description_summary">Aplikácia pre automatické nahrávanie hovorov z telefónnej linky</string>
+    <string name="app_description_summary">Aplikácia na automatické nahrávanie hovorov z telefónnej linky</string>
     </resources>
