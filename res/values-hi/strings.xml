@@ -553,4 +553,16 @@
     <string name="app_description_3">यदि Standard API में सभी ध्वनि स्त्रोतों को आज़माने के बावज़ूद रिकॉर्डिंग नहीं होती या सिर्फ आपकी आवाज़ ही रिकॉर्ड होती है तो यह दर्शाता है कि यंत्र के निर्माता ने कॉल रिकॉर्डिंग के लिए आवश्यक तंत्र नहीं मुहैय्या करवाया या रिकॉर्डिंग को अवरोधित किया हुआ है।</string>
     <string name="app_description_4">बाकी बची तकनीकों को आज़मानें के लिए रुट आवश्यक है। रुट हासिल करने के पश्चात यह ज़रूरी है कि समायोजन &gt; रिकॉर्डिंग में से सही तकनीक का इस्तेमाल किया जाए। यदि आपका यंत्र मुहैय्या करवाई गयी तालिका में मौज़ूद नहीं है तो उस यंत्र का चयन करें जिसमें उपकरण मौज़ूद हों जो आपके यंत्र में है।</string>
 <string name="bengali_translation">Bengali अनुवादन के लिए</string>
+    <string name="delete_recording_after_upload">उपलोडिंग उपरान्त रिकॉर्डिंग मिट जाए</string>
+    <string name="delete_recording_after_upload_summary">सफल उपलोडिंग उपरान्त रिकॉर्डिंग मिट जायेंगी</string>
+
+    <string name="auto_unlock">स्वचालित विपाश</string>
+    <string name="auto_unlock_summary">सही पासवर्ड डलने पर OK दबाय बिना विपाश हो जाए</string>
+    <string name="root_module">Root (रुट) मापांक</string>
+    <string name="root_module_is_not_installed">Root (रुट) मापांक मौज़ूद नहीं है</string>
+    <string name="root_module_summary">CAF, ALSA या MSM जैसे रुट आधारित रिकॉर्डिंग तरीके इस्तेमाल करने हेतु रुट मापांक मुहैय्या करवाएँ</string>
+    <string name="button_more_info">अधिक जानकारी</string>
+    <string name="button_dismiss">बर्खास्त</string>
+
+    <string name="app_description_summary">स्वचालित तौर पर कॉल रिकॉर्ड करने हेतु एक एप (app)</string>
     </resources>
