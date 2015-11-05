@@ -550,4 +550,16 @@
     <string name="app_description_2">Denna app har olika inspelningsmetoder. Om du har nog tur, kommer inte appen att misslyckas med att spela in båda sidorna med Standard API, utan root. Men du kan behöva kontrollera/testa varje ljudkälla för Standard API i Inställningar &gt; Inspelning &gt; Standard API.</string>
     <string name="app_description_3">Om du har testat varje ljudkälla från Standard API och appen ej spelade in, eller bara spelade in din röst, betyder det att tillverkaren antingen misslyckades att implementera, eller blockerade samtalsinspelning på systemnivå.</string>
     <string name="app_description_4">Du behöver root-behörighet för att testa andra inspelningsmetoder. För root-metoder är det viktigt att välja korrekt enhet i Inställningar &gt; Inspelning. Välj en enhet med samma chipset som din enhet om din enhet ej är listad där.</string>
-</resources>
+<string name="root_module">Root-modul</string>
+    <string name="root_module_is_not_installed">Root-modul är ej installerad</string>
+    <string name="root_module_summary">För att använda alternativ root-metoder som CAF, ALSA eller MSM, måste du installera Call Recorders root-modul.</string>
+    <string name="button_more_info">Mer information</string>
+    <string name="button_dismiss">Avfärda</string>
+
+    <string name="delete_recording_after_upload">Radera inspelning efter uppladdning</string>
+    <string name="delete_recording_after_upload_summary">Inspelning kommer raderas efter lyckad uppladdning</string>
+
+    <string name="auto_unlock">Automatisk upplåsning</string>
+    <string name="auto_unlock_summary">Lås upp utan att trycka \'OK\' efter rätt lösenord skrivits in</string>
+    <string name="app_description_summary">En app som spelar in samtal från telefonlinjen automatiskt</string>
+    </resources>
