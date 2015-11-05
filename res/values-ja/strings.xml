@@ -563,4 +563,9 @@
 
     <string name="auto_unlock">自動アンロック</string>
     <string name="auto_unlock_summary">正しいパスワードを入力した後 \'OK\' を押さずにアンロックします</string>
+    <string name="root_module">Rootモジュール</string>
+    <string name="root_module_is_not_installed">Rootモジュールはインストールされていません</string>
+    <string name="root_module_summary">CAF, ALSA あるいは MSM といった代わりのrootメソッドを使うためには、Call Recorder用のRootモジュールをインストールする必要があります。</string>
+    <string name="button_more_info">詳細</string>
+    <string name="app_description_summary">電話回線から通話を自動的に録音するアプリです</string>
     </resources>
