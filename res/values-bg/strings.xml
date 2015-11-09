@@ -714,4 +714,16 @@
     <string name="app_description_2">Приложението използва различни методи за запис. Ако сте късметлия, ще успеете да запишете разговора от двете страни чрез метода Стандартно API без root достъп. Възможно е да се наложи да проверите всеки аудио източник от настройките на Стандартно API.</string>
     <string name="app_description_3">Ако сте пробвали всички аудио източници от Стандартно API и няма запис или чувате само собствения си глас, значи че производителят не е вградил необходимата функционалност за това или е блокивал записването на системно ниво.</string>
     <string name="app_description_4">Необходимо е да имате root права, за да пробвате другите методи за запис. Важното за тези методи е да изберете в настройките правилното устройство или такова със същия чипсет.</string>
-</resources>
+<string name="delete_recording_after_upload">Изтриване на записите след качване</string>
+    <string name="delete_recording_after_upload_summary">Записите ще бъдат изтрити от у-вото, след успешно им качване в облака</string>
+
+    <string name="auto_unlock">Автоматично отключване</string>
+    <string name="auto_unlock_summary">Отключване при правилна парола без натискането на бутона ОК</string>
+    <string name="root_module">Root модул</string>
+    <string name="root_module_is_not_installed">Root модулът не е инсталиран</string>
+    <string name="root_module_summary">За използването на алтернативни Root медоди като CAF, ALSA или MSM, трябва да инсталирате Root модула за Call Recorder.</string>
+    <string name="button_more_info">Повече информация</string>
+    <string name="button_dismiss">Отхвърлям</string>
+
+    <string name="app_description_summary">Приложение за автоматичен запис на телефонни разговори</string>
+    </resources>
