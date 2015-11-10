@@ -553,4 +553,16 @@
     <string name="app_description_2">L\'aplicació compta amb diferents mètodes de gravació. Si tens la sort, l\'aplicació no deixarà de gravar ambes bandes sobre mètode de gravació API estàndard sense root. Però pot ser que hagi de comprovar cada tipus d\'àudio per l\'API estàndard a Configuració &gt; Gravació &gt; API estàndard.</string>
     <string name="app_description_3">Si has provat tots els tipus d\'àudio per l\'API estàndard i l\'aplicació no va registrar res o només la seva veu, vol dir que el fabricant o bé ha deixat de implementar o bloquejat la gravació en el nivell del sistema.</string>
     <string name="app_description_4">Vostè necessita tenir permisos de root per provar altres mètodes de gravació. Per als mètodes root, és important seleccionar el dispositiu correcte a Configuració &gt; Gravació. Seleccioneu un dispositiu amb el mateix chipset si el dispositiu no està a la llista.</string>
-</resources>
+<string name="delete_recording_after_upload">Eliminar la gravació després de la pujada</string>
+    <string name="delete_recording_after_upload_summary">La gravació s\'esborrarà després de la pujada amb èxit</string>
+
+    <string name="auto_unlock">Desbloqueig automàtic</string>
+    <string name="auto_unlock_summary">Desbloquejar sense prémer \"Acceptar\" una vegada que ha introduït la contrasenya correcta</string>
+    <string name="root_module">Mòdul root</string>
+    <string name="root_module_is_not_installed">Mòdul root no està instal·lat</string>
+    <string name="root_module_summary">Per utilitzar mètodes alternatius de root com CAF, ALSA o MSM, cal instal·lar el mòdul root per a Call Recorder.</string>
+    <string name="button_more_info">Més informació</string>
+    <string name="button_dismiss">Descartar</string>
+
+    <string name="app_description_summary">Una app per gravar trucades telefòniques des de la línia de telèfon de forma automàtica</string>
+    </resources>
