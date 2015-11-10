@@ -773,4 +773,16 @@
     <string name="app_description_2">La aplicación cuenta con diferentes métodos de grabación. Si tienes suerte, la aplicación no dejará de grabar en ambos lados sobre el método de grabación API estándar sin el dispositivo rooteado. Pero puede que tenga que comprobar cada fuente de audio para el API estándar en Ajustes &gt; Grabación &gt; API estándar.</string>
     <string name="app_description_3">Si has probado todas las fuentes de audio para la API estándar y la aplicación no grabó nada o sólo graba su voz, significa que el fabricante no ha implementado o ha bloqueado la grabación de llamadas en el nivel del sistema.</string>
     <string name="app_description_0">La aplicación está diseñada para la grabación automática de llamadas de la línea telefónica por hardware y kernel. La grabación de llamadas es una característica específica de cada dispositivo, porque los fabricantes no suelen implementar la funcionalidad requerida en el nivel de sistema donde deberían hacerlo.</string>
+    <string name="delete_recording_after_upload">Borrar grabación tras subida</string>
+    <string name="delete_recording_after_upload_summary">La grabación será borrada tras una subida satisfactoria</string>
+
+    <string name="auto_unlock">Auto desbloqueo</string>
+    <string name="auto_unlock_summary">Bloquear sin presionar \'OK\' una vez introducida una contraseña correcta</string>
+    <string name="root_module">Módulo Root</string>
+    <string name="root_module_is_not_installed">Módulo root no está instalado</string>
+    <string name="root_module_summary">Para usar métodos de root alternativos tales como CAF, ALSA o MSN, necesitas instalar el módulo root para Call Recorder.</string>
+    <string name="button_more_info">Más info</string>
+    <string name="button_dismiss">Descartar</string>
+
+    <string name="app_description_summary">Una app para grabar llamadas telefónicas desde la linea de entrada automáticamente</string>
     </resources>
