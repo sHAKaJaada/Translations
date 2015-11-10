@@ -448,7 +448,7 @@
     <string name="french_translation">Traducció al Francès</string>
     <string name="french_translation_summary">per Julien Boiteux</string>
     <string name="brazilian_portuguese_translation">Traducció al Brasiler i portugès</string>
-    <string name="brazilian_portuguese_translation_summary">per Luiz Marcelo Serique</string>
+    <string name="brazilian_portuguese_translation_summary">per Luiz Marcelo Serique i Alexandre Beck</string>
     <string name="spanish_translation">Traducció al Espanyol</string>
     <string name="spanish_translation_summary">per Iñigo Garcia i Diego Vilas</string>
     <string name="slovak_translation">Traducció al Eslovac</string>
@@ -546,7 +546,7 @@
     <string name="view_recordings">Veure gravacions</string>
 
     <string name="bengali_translation">Traducció al Bengalí</string>
-    <string name="bengali_translation_summary">per Saurav Ghosh</string>
+    <string name="bengali_translation_summary">per Saurav Ghosh (ithehappy)</string>
 
     <string name="app_description_0">L\'aplicació està dissenyada per a la gravació automàtica de trucades de la línia telefònica per hardware i kernel. La gravació de trucades és una característica específica de cada dispositiu, els fabricants no solen implementar la funcionalitat requerida en el nivell de sistema, on deuríen de fer-ho.</string>
     <string name="app_description_1">El root és una necessitat en molts dispositius on els fabricants no implementen la funcionalitat requerida. Però això no vol dir que el root siga la salvació per a qualsevol dispositiu com gravació de trucades, ja que pot estar bloquejat a nivell de hardware. Aleshores el root ajuda, però no sempre.</string>
