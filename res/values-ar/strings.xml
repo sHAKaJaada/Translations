@@ -562,4 +562,5 @@
 
     <string name="add_exception">إضافة استثناء</string>
     <string name="exception_groups">%d مجموعات</string>
+    <string name="tip_click_avatar">انقر الرمز لفتح معلومات الاتصال.</string>
     </resources>
