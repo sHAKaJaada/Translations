@@ -553,4 +553,16 @@
     <string name="app_description_2">該應用程式有不同的錄製方式。假如您夠信運的話，在沒有ROOT的狀況下能使用標準API錄製雙向聲音不會失敗。但是您需要檢查每個音頻源的標準API設定&gt;錄音&gt;標準API。</string>
     <string name="app_description_1">所以在大部分的裝置上取得ROOT權限是必須的。然而這是在很多製造商是未能實現的功能。但這並不意味著取得ROOT權限可以突破通話錄音在任何裝置的硬體方面限制。ROOT權限經常能支援，但並非總是。</string>
     <string name="app_description_0">該應用程式為自動透過硬體和內核支援來錄製通話錄音。通話錄音是一個非常特殊的裝置功能，因為製造商經常於系統中不實現所需的功能，他們不得不這樣做。</string>
+    <string name="delete_recording_after_upload">上傳後刪除錄音</string>
+    <string name="delete_recording_after_upload_summary">上傳成功後將刪除錄音</string>
+
+    <string name="auto_unlock">自動解鎖</string>
+    <string name="auto_unlock_summary">解鎖不需按“確定”按鈕，一旦你輸入了正確的密碼</string>
+    <string name="root_module">Root 模組</string>
+    <string name="root_module_is_not_installed">Root 模組未安裝</string>
+    <string name="button_more_info">更多信息</string>
+    <string name="button_dismiss">禁止</string>
+
+    <string name="root_module_summary">使用Root模組替代方式，例如CAF, ALSA 或 MSM。你必須為通話紀錄安裝Root模組。</string>
+    <string name="app_description_summary">這是一個自動通話錄音的應用程式</string>
     </resources>
