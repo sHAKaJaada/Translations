@@ -550,4 +550,16 @@
     <string name="app_description_2">A program több felvételi opciót is tartalmaz, ha szerencsés vagy a Standard API felvétel opcióval működik mindkét félnél a rögzítés root nélkül is. Érdemes minden opciót kipróbálni Standard API a Beállításoknál &gt; Felvétel &gt; Standard API.</string>
     <string name="app_description_3">"Ha kipróbáltál minden rögzítési opciót a Standard API -val de egyikkel sem ment a felvétel akkor a gyártó nem tette alkalmassá a készüléked, vagy blokkolja a hivás  felvételt."</string>
     <string name="app_description_4">Szükséged lehet a root jogosultságra a többi felvétel opció kipróbálásához. Ezen opcióknál szükséges a megfelelő készülék kiválasztása a Beállítások &gt; Felvétel. menüponton belül válaszd ki ugyanazt a chipstet mint ami a te készülékedben van.</string>
-</resources>
+<string name="delete_recording_after_upload">Felvétel törlése feltöltés után</string>
+    <string name="delete_recording_after_upload_summary">Sikeres feltöltés után a felvétel törölve lesz</string>
+
+    <string name="auto_unlock">Automatikus feloldás</string>
+    <string name="auto_unlock_summary">Helyes jelszó esetén feloldás az \"OK\" gomb megnyomása nélkül</string>
+    <string name="root_module">Root modul</string>
+    <string name="root_module_is_not_installed">Root modul NINCS telepítve</string>
+    <string name="root_module_summary">Alternatív felvételi módszerek használatához, mint például a CAF, ALSA, MSM, szükség van a Call Recorder ROOT module telepítésére</string>
+    <string name="button_more_info">Még több információ</string>
+    <string name="button_dismiss">Elutasít</string>
+
+    <string name="app_description_summary">Telefonon folytatott beszélgetések automatikus rögzítésére szolgáló alkalmazás</string>
+    </resources>
