@@ -553,4 +553,16 @@
     <string name="app_description_2">"Апликација има разне начине снимања. Ако сте довољно срећни, апликација ће успешно снимати обе стране разговора преко стандардног API начина. Потребно је ипак проверити сваки звучни извор за стандардни API у Подешавањима &gt; Снимање &gt;  Начин снимања."</string>
     <string name="app_description_3">Уколико сте покушали сваки начи снимања у подешавањнима и апликација и даље снима само Ваш глас, значи да је произвођач изоставио могућност, односно блокирао снимање разговора на систему.</string>
     <string name="app_description_4">Потребан Вам је рут приступ како би покушали остале начине снимања. За рут начин, важно је да одаберете тачан уређај у Подешавања &gt; Снимање. Изаберите уређај који хардверски одговара Вашем уколико није на списку.</string>
-</resources>
+<string name="delete_recording_after_upload">Избрисати снимак после складиштења</string>
+    <string name="delete_recording_after_upload_summary">Снимак ће бити избрисан после успешног складиштења</string>
+
+    <string name="auto_unlock">Аутоматско откључавање</string>
+    <string name="auto_unlock_summary">Откључавање без притиска на \"ОК\" по уношењу исправне лозинке</string>
+    <string name="root_module">Модул Root-а</string>
+    <string name="root_module_is_not_installed">Root модул није инсталиран</string>
+    <string name="root_module_summary">За алтернативне root приступе попут CAF, ALSA или MSM, потребно је инсталирати root модул за Call Recorder.</string>
+    <string name="button_more_info">Више информација</string>
+    <string name="button_dismiss">Отказати</string>
+
+    <string name="app_description_summary">Апликација за аутоматско снимање телефонских разговора</string>
+    </resources>
