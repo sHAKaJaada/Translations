@@ -559,4 +559,16 @@
     <string name="link_to_contacts_summary">각 연락처 항목 내에 해당 연락처와의 녹음 목록으로 바로 가는 링크 추가</string>
     <string name="view_recordings">통화 녹음 목록</string>
 
+    <string name="delete_recording_after_upload">업로드 후 녹음 파일 제거</string>
+    <string name="delete_recording_after_upload_summary">업로드에 성공하면 녹음된 파일은 삭제됩니다.</string>
+
+    <string name="auto_unlock">자동 잠금 해제</string>
+    <string name="auto_unlock_summary">정확한 패스워드가 입력되면 OK 버튼을 누르지 않아도 잠금해제</string>
+    <string name="root_module">루트 모듈</string>
+    <string name="root_module_is_not_installed">루트 모듈이 설치되지 않았습니다.</string>
+    <string name="root_module_summary">통화 녹음을 위해서 CAF, ALSA, MSM 같은 루트 메소드를 사용하려면 루트 모듈을 설치해야 합니다.</string>
+    <string name="button_more_info">더보기</string>
+    <string name="button_dismiss">닫기</string>
+
+    <string name="app_description_summary">통화를 자동으로 녹음해주는 앱</string>
     </resources>
