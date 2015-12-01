@@ -448,7 +448,7 @@
     <string name="french_translation">Französische Übersetzung</string>
     <string name="french_translation_summary">von Julien Boiteux</string>
     <string name="brazilian_portuguese_translation">Brasilianische Übersetzung</string>
-    <string name="brazilian_portuguese_translation_summary">von Luiz Marcelo Serique</string>
+    <string name="brazilian_portuguese_translation_summary">von Luiz Marcelo Serique und Alexandre Beck</string>
     <string name="spanish_translation">Spanische Übersetzung</string>
     <string name="spanish_translation_summary">von Iñigo Garcia und Diego Vilas</string>
     <string name="slovak_translation">Slovenische Übersetzung</string>
@@ -542,9 +542,21 @@
     <string name="view_recordings">Aufnahmen anzeigen</string>
 
     <string name="bengali_translation">Bengalische Übersetzung</string>
-    <string name="bengali_translation_summary">von Saurav Ghosh</string>
+    <string name="bengali_translation_summary">von Saurav Ghosh (ithehappy)</string>
 
     <string name="link_to_contacts_summary">Eine Verknüpfung zur Anzeige von Aufnahmen aus dem Kontakt heraus erstellen</string>
     <string name="app_description_0">Diese App ist zur automatischen Telefongesprächsaufzeichnung von der Telefonleitung gedacht, sofern dies von Hardware und Kernel unterstützt wird. Anrufaufzeichnung ist eine sehr gerätespezifische Funktion, weil die Hersteller oft die dafür notwendige Systemfunktionen nicht implementieren.</string>
-    <string name="app_description_1">Deshalb ist es auf vielen Geräten notwendig, root Rechte zu haben, damit die Anrufaufzeichnung funktioniert. Wobei selbst dies nicht auf allen Geräten den erwünschten Erfolg bringt.</string>
+    <string name="app_description_1">Deshalb ist es auf vielen Geräten notwendig, Root-Rechte zu haben, damit die Anrufaufzeichnung funktioniert. Wobei selbst dies nicht auf allen Geräten den erwünschten Erfolg bringt.</string>
+    <string name="delete_recording_after_upload">Lösche Aufnahme nach Upload</string>
+    <string name="delete_recording_after_upload_summary">Aufnahme wird nach erfolgreichem Upload gelöscht</string>
+
+    <string name="auto_unlock">Auto-unlock</string>
+    <string name="auto_unlock_summary">Entsperren, sobald das korrekte Kennwort eingegeben wurde</string>
+    <string name="root_module">Root-Modul</string>
+    <string name="root_module_is_not_installed">Root-Modul ist NICHT installiert</string>
+    <string name="root_module_summary">Um alternative Root-Methoden, wie CAF, ALSA oder MSM, zu verwenden, muss das Root-Modul installiert sein.</string>
+    <string name="button_more_info">Mehr Infos</string>
+    <string name="button_dismiss">Verbergen</string>
+
+    <string name="app_description_summary">Eine App zum automatischen Aufnehmen von Anrufen</string>
     </resources>
