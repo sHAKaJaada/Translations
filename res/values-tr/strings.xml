@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">Call Recorder</string>
     <string name="terms_of_use">Kullanım Şartları</string>
@@ -375,9 +375,9 @@
     <string name="android_amr_decoder_summary">AMR oynatmak için yerleşik Android aracını kullan</string>
 
     <!--Settings -> Debug-->
-    <string name="root_access">Root izni</string>
-    <string name="root_access_no">Evet</string>
-    <string name="root_access_yes">Hayır</string>
+    <string name="root_access">Root izini</string>
+    <string name="root_access_no">Hayır</string>
+    <string name="root_access_yes">Evet</string>
     <string name="dual_sim_phone">Çift simli telefon</string>
     <string name="dual_sim_phone_summary">ikinci sim kartından gelen aramaları tanıyamıyorsa bunu etkinleştirin</string>
     <string name="send_logs_to_the_developer">Günlük kayıtlarını geliştiriciye gönder</string>
@@ -515,4 +515,5 @@
     <string name="tamil_translation_summary">Ashish Sharma tarafından</string>
     <string name="greek_translation">Yunanca çeviri</string>
     <string name="greek_translation_summary">Lefteris (SomniusX) Eliades tarafından</string>
-</resources>
+<string name="hide_all_notifications">Tüm bildirimleri gizle</string>
+    </resources>
