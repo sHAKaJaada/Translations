@@ -559,4 +559,7 @@
     <string name="button_dismiss">Odrzuć</string>
 
     <string name="app_description_summary">Aplikacja nagrywa rozmowy z linii telefonicznej automatycznie</string>
+    <string name="root_module">Moduł Root</string>
+    <string name="root_module_is_not_installed">Moduł Root NIE jest zainstalowany</string>
+    <string name="root_module_summary">Aby skorzystać z alternatywnych metod, takich jak CAF, ALSA lub MSM, należy zainstalować moduł Root dla Call Recorder.</string>
     </resources>
