@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">CallRecorder</string>
+    <string name="app_name">Call Recorder</string>
     <string name="terms_of_use">Warunki korzystania</string>
-    <string name="terms_of_use_message">Korzystając z aplikacji, zgadzasz się z CallRecorder na &lt;a href=http://rec.sh/terms&gt;Warunki korzystania&lt;/a&gt;.</string>
+    <string name="terms_of_use_message">Korzystając z aplikacji, zgadzasz się z Call Recorder na &lt;a href=http://rec.sh/terms&gt;Warunki korzystania&lt;/a&gt;.</string>
 
     <!-- Navigation drawer -->
     <string name="navigation_drawer_open">Otwórz stronę nawigacji</string>
@@ -13,9 +13,9 @@
     <string name="section_starred">Ulubione</string>
     <string name="section_incoming">Przychodzące</string>
     <string name="section_outgoing">Wychodzące</string>
-    <string name="section_by_contact">Po kontakcie</string>
-    <string name="section_by_format">Po formacie</string>
-    <string name="section_by_label">Po etykiecie</string>
+    <string name="section_by_contact">Wg kontaktu</string>
+    <string name="section_by_format">Wg formatu</string>
+    <string name="section_by_label">Wg etykiety</string>
     <string name="section_help">Pomoc</string>
     <string name="section_tasks">Zadania</string>
     <string name="section_tasks_hint">Czasochłonne zadania z nagraniami, takie jak konwertowanie, szyfrowanie lub przesyłanie do chmury, będą wyświetlane tutaj</string>
@@ -32,9 +32,9 @@
     <string name="action_share">Udostępnij</string>
     <string name="action_cancel_tasks">Anuluj zadania</string>
     <string name="action_select_all">Zaznacz wszystko</string>
-    <string name="sort_by_date">Po dacie</string>
-    <string name="sort_by_contact">Po kontakcie</string>
-    <string name="sort_by_file_size">Po wielkości pliku</string>
+    <string name="sort_by_date">Wg daty</string>
+    <string name="sort_by_contact">Wg kontaktu</string>
+    <string name="sort_by_file_size">Wg rozmiaru pliku</string>
     <string name="records_size">nagranie: %1$s, rozmiar: %2$s</string>
     <string name="space_free_of">%1$s wolnych z %2$s</string>
 
@@ -46,7 +46,7 @@
     <string name="warning_low_space">Mało miejsca: %s</string>
 
     <!-- List -->
-    <string name="list_header_today">Dziś</string>
+    <string name="list_header_today">Dzisiaj</string>
     <string name="list_header_yesterday">Wczoraj</string>
     <string name="queued">W kolejce</string>
     <string name="no_connection">Brak połączenia</string>
@@ -96,7 +96,7 @@
     <!--  Settings -> Headers -->
     <string name="settings_open_unlocker">Otwórz Unlocker</string>
     <string name="settings_recording">Nagrywanie</string>
-    <string name="settings_folders_and_files">Foldery i Pliki</string>
+    <string name="settings_folders_and_files">Foldery i pliki</string>
     <string name="settings_ui_and_appearance">Interfejs i wygląd</string>
     <string name="settings_security">Bezpieczeństwo</string>
     <string name="settings_cloud">Chmura</string>
@@ -108,13 +108,13 @@
     <string name="license_status">Status licencji</string>
     <string name="license_check_pending">Trwa sprawdzanie licencji</string>
     <string name="license_check_failed">Błąd weryfikacji licencji</string>
-    <string name="license_check_failed_summary">Naciśnij by poznać szczegóły</string>
+    <string name="license_check_failed_summary">Naciśnij, aby poznać szczegóły</string>
     <string name="license_verified">Licencja zweryfikowana</string>
     <string name="license_verified_summary">Naciśnij, aby ukryć</string>
     <string name="license_help">Pomoc</string>
     <string name="license_signature_verification_failed">Weryfikacja podpisu nie powiodła się</string>
     <string name="license_error_message">Błąd #%1$s: %2$s</string>
-    <string name="license_trial">Wersja próbna wygaśnie za %s</string>
+    <string name="license_trial">Wersja próbna wygaśnie %s</string>
     <string name="license_unknown_error">Nieznany błąd</string>
     <string name="license_not_market_managed">Ta wersja nie jest jeszcze dostępna na stronie Sklepu Play</string>
     <string name="license_incorrect_response">Nieprawidłowa odpowiedź licencji z Sklepu Play</string>
@@ -124,7 +124,7 @@
     <string name="license_trial_expired">Upłynął okres próbny</string>
     <string name="license_trial_expired_summary">Proszę odinstalować tę wersję przed zakupem pełnej wersji</string>
     <string name="buy_full_version">Kup pełną wersję</string>
-    <string name="buy_full_version_summary">Obecna wersja wygaśnie za %s</string>
+    <string name="buy_full_version_summary">Obecna wersja wygaśnie %s</string>
 
     <!-- Settings -> Recording -->
     <string name="recording_calls_switch">Nagrywanie rozmów</string>
@@ -134,16 +134,16 @@
     <string name="device_change_settings_empty">Ustawienia dla tego urządzenia są już skonfigurowane</string>
     <string name="device_root_is_required">Wymagany Root</string>
     <string name="device_root_is_required_summary">Dla lepszej jakości potrzebny jest Root na tym urządzeniu</string>
-    <string name="device_other">inne</string>
+    <string name="device_other">Inne</string>
     <string name="recording_method">Metoda nagrywania</string>
-    <string name="recording_method_api">Standardowa aplikacja</string>
-    <string name="recording_method_api_settings">Ustawienia nagrywania dla standardowej aplikacji</string>
+    <string name="recording_method_api">Standardowe API</string>
+    <string name="recording_method_api_settings">Ustawienia nagrywania dla standardowego API</string>
     <string name="recording_method_caf">CAF</string>
     <string name="recording_method_caf_settings">Ustawienia nagrywania CAF</string>
     <string name="recording_method_alsa">ALSA</string>
     <string name="recording_method_alsa_settings">Ustawienia nagrywania ALSA</string>
     <string name="recording_method_msm">MSM</string>
-    <string name="recording_method_msm_settings">Ustawiania dla metody nagrywania MSM</string>
+    <string name="recording_method_msm_settings">Ustawienia nagrywania MSM</string>
     <string name="category_actions">Działanie</string>
     <string name="action_for_incoming">Działanie dla rozmów przychodzących</string>
     <string name="action_for_outgoing">Działanie dla rozmów wychodzących</string>
@@ -170,7 +170,7 @@
     <string name="recording_format_wav">WAV</string>
     <string name="recording_format_amr">AMR</string>
     <string name="recording_format_aac">AAC</string>
-    <string name="recording_format_mp3">Mp3</string>
+    <string name="recording_format_mp3">MP3</string>
     <string name="volume_control">Kontrola głośności</string>
     <string name="volume_control_summary">Funkcja Tx: %1$s, Funkcja Rx: %2$s</string>
     <string name="volume_control_overall">Poziom głośności</string>
@@ -181,7 +181,7 @@
     <string name="sample_rate_16000">16000 Hz</string>
     <string name="sample_rate_22050">22050 Hz</string>
     <string name="sample_rate_44100">44100 Hz</string>
-    <string name="sample_rate_48000">48000Hz</string>
+    <string name="sample_rate_48000">48000 Hz</string>
 
     <!-- Settings -> Recording -> Standard API -->
     <string name="api_audio_source">Źródło dźwięku</string>
@@ -232,9 +232,9 @@
     <string name="exception_groups_not_found">Nie znaleziono grup</string>
     <string name="exception_contacts_not_found">Nie znaleziono kontaktów</string>
     <string name="exceptions_not_added">Wyjątki nie zostały dodane</string>
-    <string name="exception_by_contact">Po kontakcie</string>
-    <string name="exception_by_group">Po grupie</string>
-    <string name="exception_by_phone_number">Po numerze telefonu</string>
+    <string name="exception_by_contact">Wg kontaktu</string>
+    <string name="exception_by_group">Wg grupy</string>
+    <string name="exception_by_phone_number">Wg numeru telefonu</string>
     <string name="exception_delete_message">Czy na pewno chcesz usunąć ten wyjątek?</string>
 
     <!-- Settings -> Folders and Files -->
@@ -245,7 +245,7 @@
     <string name="automatic_cleanup">Czyszczenie automatyczne</string>
     <string name="max_number_of_files">Maks. liczba plików</string>
     <string name="max_number_of_files_message">Wprowadź numer (0 - bez limitu)</string>
-    <string name="max_total_size_of_files">Maks. wielkość całkowita plików</string>
+    <string name="max_total_size_of_files">Maks. całkowity rozmiar plików</string>
     <string name="max_total_size_of_files_message">Wprowadź wartość w megabajtach (0 - bez limitu)</string>
     <string name="max_age_of_recordings">Maks. czas zachowania nagrań</string>
     <string name="max_age_of_recordings_message">Wprowadź czas w dniach (0 - bez limitu)</string>
@@ -269,16 +269,16 @@
     <string name="pattern_example">Przykład:</string>
 
     <!--Settings -> Interface and Appearance-->
-    <string name="theme">Temat</string>
+    <string name="theme">Motyw</string>
     <string name="theme_light">Jasny</string>
     <string name="theme_dark">Ciemny</string>
     <string name="language">Język</string>
-    <string name="select_language">Wybierz Język</string>
+    <string name="select_language">Wybierz język</string>
     <string name="default_language">Język domyślny</string>
     <string name="category_notification">Powiadomienie</string>
     <string name="show_notification">Pokaż powiadomienie</string>
     <string name="show_notification_summary">Stałe powiadomienie na pasku statusu</string>
-    <string name="hide_icon_but_keep_notification">Ukryj ikonę, ale zachować powiadomienie</string>
+    <string name="hide_icon_but_keep_notification">Ukryj ikonę, ale zachowaj powiadomienie</string>
     <string name="hide_icon_but_keep_notification_summary">Ukryj ikonę, ale zachowaj powiadomienie w pasku statusu</string>
     <string name="category_incall_control_button">Przycisk kontrolny połączenia</string>
     <string name="incall_control_for_outgoing">Dla rozmów wychodzących</string>
@@ -336,10 +336,10 @@
     <string name="category_application">Aplikacja</string>
     <string name="create_new_key">Stwórz nowy klucz</string>
     <string name="create_new_key_summary">Ten klucz będzie używany później do szyfrowania nagrań lub by otworzyć aplikację</string>
-    <string name="delete_key">Skasuj klucz</string>
+    <string name="delete_key">Usuń klucz</string>
     <string name="change_password">Zmień hasło</string>
     <string name="delete_key_summary">Ostrzeżenie! Nigdy nie będziesz w stanie odzyskać zaszyfrowanych nagrań, jeśli zaszyfrowałeś je za pomocą tego klucza, nawet jeśli utworzysz nowy klucz za pomocą tego samego hasła</string>
-    <string name="delete_key_message">Po skasowaniu nie będzie w stanie odzyskać nagrań zaszyfrowanych za pomocą tego klucza. Czy na pewno chcesz kontynuować?</string>
+    <string name="delete_key_message">Po usunięciu nie będzie można odzyskać nagrań zaszyfrowanych za pomocą tego klucza. Czy na pewno chcesz kontynuować?</string>
     <string name="enter_old_password">Wpisz stare hasło</string>
     <string name="enter_new_password">Wpisz nowe hasło</string>
     <string name="re_enter_new_password">Wpisz ponownie nowe hasło</string>
@@ -378,7 +378,7 @@
     <string name="root_access">Dostęp do plików systemowych</string>
     <string name="root_access_no">Nie</string>
     <string name="root_access_yes">Tak</string>
-    <string name="dual_sim_phone">Telefon dual Sim</string>
+    <string name="dual_sim_phone">Telefon Dual Sim</string>
     <string name="dual_sim_phone_summary">Pozwól, jeśli aplikacja nie jest w stanie określić połączenia z drugiej karty</string>
     <string name="send_logs_to_the_developer">Wyślij logi do autora</string>
 
@@ -391,12 +391,12 @@
     <string name="button_edit">Edytuj</string>
     <string name="button_cancel">Anuluj</string>
     <string name="button_create">Utwórz</string>
-    <string name="button_delete">Skasuj</string>
+    <string name="button_delete">Usuń</string>
     <string name="button_restore">Przywróć</string>
     <string name="button_keep">Zachowaj</string>
     <string name="button_play">Odtwórz</string>
     <string name="button_pause">Pauza</string>
-    <string name="button_delete_wait">Skasuj (%d)</string>
+    <string name="button_delete_wait">Usuń (%d)</string>
     <string name="decline">Odrzuć</string>
     <string name="accept">Akceptuj</string>
     <string name="call_incoming">Przychodzące</string>
@@ -405,8 +405,8 @@
     <string name="start_recording">Nagrywania</string>
     <string name="stop_recording">Nagrywanie zakończone</string>
     <string name="action_mode_selected">%d wybranych</string>
-    <string name="switch_on">włącz</string>
-    <string name="switch_off">wyłącz</string>
+    <string name="switch_on">Włącz</string>
+    <string name="switch_off">Wyłącz</string>
 
     <!--Toasts-->
     <string name="toast_wait_for_operation_to_complete">Poczekaj na zakończenie działania</string>
@@ -518,12 +518,12 @@
 <string name="menu_add_to_drive">Dodaj do Dysku</string>
     <string name="menu_convert_to_wav">Konwertuj na WAV</string>
     <string name="dialog_grant_permission_title">Udziel pozwolenia</string>
-    <string name="dialog_grant_permission_message">Wybierz ten sam katalog w nowym oknie aby udzielić zezwolenia</string>
+    <string name="dialog_grant_permission_message">Wybierz ten sam katalog w nowym oknie, aby udzielić zezwolenia</string>
     <string name="toast_wrong_directory_selected">Wybrałeś zły katalog. Spróbuj ponownie.</string>
     <string name="sign_in">Zaloguj</string>
     <string name="sign_out_google_drive">Wyloguj z Dysku Google</string>
     <string name="notify_uploading_drive">Wysyłanie na Dysk</string>
-    <string name="notify_converting_to_wav">Konwertowanie do formatu WAV</string>
+    <string name="notify_converting_to_wav">Konwertowanie na WAV</string>
     <string name="disable_autoplay">Wyłącz autoodtwarzanie</string>
     <string name="disable_autoplay_summary">Nie zaczynaj automatycznie odtwarzać po kliknięciu na nagranie</string>
     <string name="hide_all_notifications">Ukryj wszystkie powiadomienia</string>
