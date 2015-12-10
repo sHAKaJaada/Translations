@@ -35,7 +35,7 @@
     <string name="sort_by_date">Wg daty</string>
     <string name="sort_by_contact">Wg kontaktu</string>
     <string name="sort_by_file_size">Wg rozmiaru pliku</string>
-    <string name="records_size">nagranie: %1$s, rozmiar: %2$s</string>
+    <string name="records_size">nagrania: %1$s, rozmiar: %2$s</string>
     <string name="space_free_of">%1$s wolnych z %2$s</string>
 
     <!--Import settings -->
