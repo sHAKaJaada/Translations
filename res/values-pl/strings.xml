@@ -558,4 +558,5 @@
     <string name="button_more_info">Więcej informacji</string>
     <string name="button_dismiss">Odrzuć</string>
 
+    <string name="app_description_summary">Aplikacja nagrywa rozmowy z linii telefonicznej automatycznie</string>
     </resources>
