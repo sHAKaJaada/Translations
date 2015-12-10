@@ -192,7 +192,7 @@
     <string name="api_source_default">Domyślne</string>
     <string name="api_source_voice_communication">Komunikacja głosowa</string>
     <string name="category_wav_settings">Ustawienia WAV</string>
-    <string name="category_wav_and_mp3_settings">Ustawienia dla WAV &amp; MP3</string>
+    <string name="category_wav_and_mp3_settings">Ustawienia WAV &amp; MP3</string>
     <string name="when_bt_connected">Podczas połączenia BT…</string>
     <string name="audio_source_when_bt_connected">Źródło dzwięku podczas połaczenia BT</string>
 
@@ -531,8 +531,8 @@
 
     <string name="send_sms">Wyślij SMS</string>
 
-    <string name="tip_click_avatar">"Kliknij  avatar, aby otworzyć informacje o kontakcie."</string>
-    <string name="tip_long_click_avatar">"Długie naciśnięcie avatara pokaże  połączenia od tego kontaktu."</string>
+    <string name="tip_click_avatar">Kliknij avatar, aby otworzyć informacje o kontakcie.</string>
+    <string name="tip_long_click_avatar">Długie naciśnięcie avatara pokaże połączenia od tego kontaktu.</string>
     <string name="tip_select_item">Naciśnij długo element, aby go wybrać.</string>
     <string name="tip_select_all">Opcja Zaznacz wszystko będzie wyświetlana w menu kontekstowym.</string>
     <string name="tip_audio_output">Naciśnij długo przycisk Play/Pause w celu przełączenia wyjście audio.</string>
@@ -546,7 +546,7 @@
     <string name="bengali_translation_summary">Saurav Ghosh (ithehappy)</string>
 
     <string name="app_description_0">Aplikacja przeznaczona jest do automatycznego nagrywania rozmów z telefonu, tylko gdy wspomagane jest to przez sprzęt i kernel. Nagrywanie rozmów jest bardzo specyficzną funkcją zależną od urządzenia, ponieważ producenci często nie implementują tej funkcji na poziomie systemu.</string>
-    <string name="app_description_1">Rootowanie jest wymagany na wielu urządzeniach, gdzie producenci nie stosują wymaganej funkcjonalności. Ale to nie oznacza że, zrootowanie jest zbawieniemem dla każdego telefonu, ponieważ nagrywanie rozmów, może być niemożliwe na poziomie sprzętowym. Root pomaga często, ale nie zawsze.</string>
+    <string name="app_description_1">Root jest wymagany na wielu urządzeniach, gdzie producenci nie stosują wymaganej funkcjonalności. Ale to nie oznacza że, zrootowanie jest zbawieniemem dla każdego telefonu, ponieważ nagrywanie rozmów, może być niemożliwe na poziomie sprzętowym. Root pomaga często, ale nie zawsze.</string>
     <string name="app_description_2">Aplikacja ma różne metody nagrywania. Jeśli masz sporo szczęścia, aplikacja nagra obie strony rozmowy gdy, ustawisz standardową metodę nagrywania API bez praw root. Ale może być konieczne sprawdzenie każdego źródła dźwięku standardowej API w Ustawienia &gt; Nagrywanie &gt; standardowe API.</string>
     <string name="app_description_3">Jeśli po wypróbowaniu wszystkich źródeł audio dla standardowego API, aplikacja nie nagrywa lub nagrany jest tylko twój głos, oznacza to, że producent nie wdrożył lub zablokował nagrywanie rozmów na poziomie systemu.</string>
     <string name="app_description_4">Musisz mieć uprawnienia administratora, aby spróbować innych metod nagrywania. Dla metod wymagających root\'a, ważne jest, aby wybrać odpowiednie urządzenie w menu Ustawienia &gt; Nagrywanie. Wybierz urządzenie, z tym samym chipsetem, jeśli twoje nie jest wymienione.</string>
