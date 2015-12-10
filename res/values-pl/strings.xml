@@ -542,7 +542,7 @@
     <string name="link_to_contacts_summary">Tworzenie skrótu do przeglądania nagrań z poziomu kontaktu</string>
     <string name="view_recordings">Wyświetl nagrania</string>
 
-    <string name="bengali_translation">Tłumaczenie na jęz. bengalski</string>
+    <string name="bengali_translation">Tłumaczenie na język bengalski</string>
     <string name="bengali_translation_summary">Saurav Ghosh</string>
 
     <string name="app_description_0">Aplikacja przeznaczona jest do automatycznego nagrywania rozmów z telefonu, tylko gdy wspomagane jest to przez sprzęt i kernel. Nagrywanie rozmów jest bardzo specyficzną funkcją zależną od urządzenia, ponieważ producenci często nie implementują tej funkcji na poziomie systemu.</string>
