@@ -557,7 +557,7 @@
     <string name="auto_unlock_summary">Helyes jelszó esetén feloldás az \"OK\" gomb megnyomása nélkül</string>
     <string name="root_module">Root modul</string>
     <string name="root_module_is_not_installed">Root modul NINCS telepítve</string>
-    <string name="root_module_summary">Alternatív felvételi módszerek használatához, mint például a CAF, ALSA, MSM, szükség van a Call Recorder ROOT module telepítésére</string>
+    <string name="root_module_summary">Alternatív felvételi módszerek használatához, mint például a CAF, ALSA, MSM, szükség van a Call Recorder ROOT module telepítésére.</string>
     <string name="button_more_info">Még több információ</string>
     <string name="button_dismiss">Elutasít</string>
 
