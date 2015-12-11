@@ -36,7 +36,7 @@
     <string name="sort_by_contact">По контакту</string>
     <string name="sort_by_file_size">По размеру</string>
     <string name="records_size">записи: %1$s, размер: %2$s</string>
-    <string name="space_free_of">%1$s из %2$s</string>
+    <string name="space_free_of">свободно %1$s из %2$s</string>
 
     <!--Import settings -->
     <string name="restore_settings">Восстановить настройки</string>
