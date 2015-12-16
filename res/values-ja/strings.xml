@@ -568,4 +568,9 @@
     <string name="root_module_summary">CAF, ALSA あるいは MSM といった代わりのrootメソッドを使うためには、Call Recorder用のRootモジュールをインストールする必要があります。</string>
     <string name="button_more_info">詳細</string>
     <string name="app_description_summary">電話回線から通話を自動的に録音するアプリです</string>
+    <string name="msg_supersu_required">あなたのスーパーユーザーアプリは互換性がありません。SuperSUのインストールをご検討ください。</string>
+
+    <string name="show_button_to_add_star">お気に入りに追加するためのボタンを表示</string>
+    <string name="button_install">インストール</string>
+    <string name="button_dismiss">消す</string>
     </resources>
