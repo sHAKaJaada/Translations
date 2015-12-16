@@ -27,7 +27,7 @@
     <string name="action_settings">Nastavenia</string>
     <string name="action_refresh">Aktualizovať</string>
     <string name="action_delete">Vymazať</string>
-    <string name="action_add_star">Pridať hvizdičku</string>
+    <string name="action_add_star">Pridať hviezdičku</string>
     <string name="action_remove_star">Odobrať hviezdičku</string>
     <string name="action_share">Zdieľať</string>
     <string name="action_cancel_tasks">Zrušiť úlohy</string>
@@ -562,4 +562,8 @@
     <string name="button_dismiss">Zrušiť</string>
 
     <string name="app_description_summary">Aplikácia na automatické nahrávanie hovorov z telefónnej linky</string>
+    <string name="msg_supersu_required">Vaša aplikácia Superuser môže byť nekompatibilná. Prosím, zvážte inštaláciu aplikácie SuperSU.</string>
+
+    <string name="show_button_to_add_star">Zobraziť tlačidlo pridať hviezdičku</string>
+    <string name="button_install">Inštalovať</string>
     </resources>
