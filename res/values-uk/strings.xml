@@ -579,4 +579,8 @@
     <string name="button_dismiss">Відмінити</string>
 
     <string name="app_description_summary">Програма для автоматичного запису телефонних розмов</string>
+    <string name="msg_supersu_required">Здається програма суперюзера, що у вас на пристрої не сумісна. Будь ласка, встановіть SuperSU.</string>
+
+    <string name="show_button_to_add_star">Показувати кнопку додавання зірочки</string>
+    <string name="button_install">Встановити</string>
     </resources>
