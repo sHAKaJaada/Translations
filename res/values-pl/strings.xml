@@ -122,7 +122,7 @@
     <string name="license_server_error">Błąd serwera</string>
     <string name="license_over_quota">Zbyt wiele żądań z tego urządzenia</string>
     <string name="license_trial_expired">Upłynął okres próbny</string>
-    <string name="license_trial_expired_summary">Proszę odinstalować tę wersję przed zakupem pełnej wersji</string>
+    <string name="license_trial_expired_summary">Proszę odinstalować tą wersję przed zakupem pełnej wersji</string>
     <string name="buy_full_version">Kup pełną wersję</string>
     <string name="buy_full_version_summary">Obecna wersja wygaśnie %s</string>
 
@@ -156,12 +156,12 @@
     <string name="after_call_actions_dialog">Okno działania po zakończeniu rozmowy</string>
     <string name="after_call_actions_dialog_summary">Zapytaj co zrobić po zakończeniu rozmowy</string>
     <string name="vibrate_on_call">Wibruj podczas startu/zakończenia rozmowy</string>
-    <string name="exceptions">Wyłączenia</string>
+    <string name="exceptions">Wyjątki</string>
     <string name="exceptions_summary">Ustaw specyficzne działania dla kontaktów, grup lub numerów telefonu</string>
     <string name="start_recording_on_answer">Rozpocznij nagrywanie po odpowiedzi rozmówcy</string>
     <string name="start_recording_on_answer_summary">Rozpocznij nagrywanie, gdy wychodzące połączenie zostanie odebrane. Aplikacja wykorzystuje nieudokumentowane obejście wykrywające moment, gdy rozmówca odpowie, więc funkcja ta może nie działać na niektórych urządzeniach. Root jest wymagany, od czasu Android 4.1 Jelly Bean, ponieważ rejestrator w kernelu musi być włączony.</string>
     <string name="delay_before_start_recording">Opóźnienie przed rozpoczęciem nagrywania</string>
-    <string name="delay_before_start_recording_summary">Dla wychodzących: %1$s, Dla przychodzących: %2$s</string>
+    <string name="delay_before_start_recording_summary">Dla wychodzących: %1$s, dla przychodzących: %2$s</string>
     <string name="delay_format_sec">%s sekund</string>
     <string name="delay_for_outgoing">Dla wychodzących</string>
     <string name="delay_for_incoming">Dla przychodzących</string>
@@ -194,11 +194,11 @@
     <string name="category_wav_settings">Ustawienia WAV</string>
     <string name="category_wav_and_mp3_settings">Ustawienia WAV &amp; MP3</string>
     <string name="when_bt_connected">Podczas połączenia BT…</string>
-    <string name="audio_source_when_bt_connected">Źródło dzwięku podczas połaczenia BT</string>
+    <string name="audio_source_when_bt_connected">Źródło dźwięku podczas połaczenia BT</string>
 
     <!-- Actions when BT connected -->
     <string name="when_bt_connected_do_nothing">Nie rób nic</string>
-    <string name="when_bt_connected_switch_source">Przełącz źródło dzwięku</string>
+    <string name="when_bt_connected_switch_source">Przełącz źródło dźwięku</string>
     <string name="when_bt_connected_disable_recording">Wyłącz nagrywanie</string>
 
     <!-- Settings -> Recording -> CAF -->
@@ -211,7 +211,7 @@
     <!-- Settings -> Recording -> MSM -->
     <string name="chipset_type">Rodzaj chipsetu</string>
     <string name="chipset_type_msm72xx">Qualcomm MSM72XX</string>
-    <string name="chipset_type_msm8250">Qualcom MSM</string>
+    <string name="chipset_type_msm8250">Qualcomm MSM8250</string>
     <string name="chipset_type_msm8255">Qualcomm MSM8255</string>
     <string name="chipset_type_msm8260">Qualcomm MSM8260</string>
     <string name="dont_use_amr_driver">Nie używaj sterownika AMR</string>
@@ -362,13 +362,13 @@
     <!-- Settings -> Audio player -->
     <string name="use_built_in_player">Użyj wbudowanego odtwarzacza</string>
     <string name="audio_output">Wyjście audio</string>
-    <string name="audio_output_summary">%s ( Naciśnij długo przycisk play/pause w celu przełączenia)</string>
+    <string name="audio_output_summary">%s (Naciśnij długo przycisk play/pause w celu przełączenia)</string>
     <string name="main_speaker">Głośnik</string>
     <string name="phone_speaker">Słuchawka</string>
     <string name="use_proximity_sensor">Użyj czujnika zbliżeniowego</string>
     <string name="use_proximity_sensor_summary">Wyłącz ekran za pomocą czujnika zbliżeniowego podczas odtwarzania</string>
-    <string name="switch_audio_output">Przełącz źródło dzwięku</string>
-    <string name="switch_audio_output_summary">Automatyczne przełączanie źródła dżwięku, kiedy ekran jest wyłączony/włączony przez czujnik zbliżeniowy</string>
+    <string name="switch_audio_output">Przełącz źródło dźwięku</string>
+    <string name="switch_audio_output_summary">Automatyczne przełączanie źródła dźwięku, kiedy ekran jest wyłączony/włączony przez czujnik zbliżeniowy</string>
     <string name="android_wav_decoder">Dekoder systemowy android dla WAV</string>
     <string name="android_wav_decoder_summary">Użyj wbudowanych narzędzi androida do odtwarzania WAV</string>
     <string name="android_amr_decoder">Android dekoder AMR</string>
@@ -402,7 +402,7 @@
     <string name="call_incoming">Przychodzące</string>
     <string name="call_outgoing">Wychodzące</string>
     <string name="please_wait">Proszę czekać…</string>
-    <string name="start_recording">Nagrywania</string>
+    <string name="start_recording">Nagrywanie</string>
     <string name="stop_recording">Nagrywanie zakończone</string>
     <string name="action_mode_selected">%d wybranych</string>
     <string name="switch_on">Włącz</string>
@@ -424,7 +424,7 @@
     <!--Notification-->
     <string name="waiting_for_answer">Oczekiwanie na odpowiedź</string>
     <string name="recording_in_progress">Nagrywanie w toku</string>
-    <string name="no_recording_in_progress">Nagrywania w toku nie odbywa się</string>
+    <string name="no_recording_in_progress">Nagrywanie w toku nie odbywa się</string>
     <string name="an_error_has_occurred">Wystapił błąd, ta rozmowa nie może być nagrana</string>
 
     <!--About-->
@@ -458,7 +458,7 @@
     <string name="persian_translation">Tłumaczenie na język perski</string>
     <string name="persian_translation_summary">Alireza Afkar</string>
     <string name="chinese_translation">Tłumaczenie na język chiński</string>
-    <string name="chinese_translation_summary">qhq and Yu Fei</string>
+    <string name="chinese_translation_summary">qhq i Yu Fei</string>
     <string name="czech_translation">Tłumaczenie na język czeski</string>
     <string name="czech_translation_summary">Ales Kerner i Lukas Waldauf</string>
     <string name="arabic_translation">Tłumaczenie na język arabski</string>
@@ -480,7 +480,7 @@
     <string name="ukrainian_translation">Tłumaczenie na język ukraiński</string>
     <string name="ukrainian_translation_summary">Gennadi Samoluk</string>
     <string name="traditional_chinese_translation">Tłumaczanie na język chiński tradycyjny</string>
-    <string name="traditional_chinese_translation_summary">GPF_kaibird oraz Chien Jung Liaw</string>
+    <string name="traditional_chinese_translation_summary">GPF_kaibird i Chien Jung Liaw</string>
     <string name="japanese_translation">Tłumaczenie na język japoński</string>
     <string name="japanese_translation_summary">Akira Tagoh</string>
     <string name="swedish_translation">Tłumaczenie na język szwedzki</string>
@@ -508,7 +508,7 @@
     <string name="vietnamese_translation">Tłumaczenie na język wietnamski</string>
     <string name="vietnamese_translation_summary">Truong Hoang Trung</string>
     <string name="armenian_translation">Tłumaczenie na język armeński</string>
-    <string name="armenian_translation_summary">Hakob Sununu and Konstantin Gevorgyan</string>
+    <string name="armenian_translation_summary">Hakob Sununu i Konstantin Gevorgyan</string>
     <string name="gujarati_translation">Tłumaczenie na język gudżarati</string>
     <string name="gujarati_translation_summary">Abhishek Sharma</string>
     <string name="tamil_translation">Tłumaczenie na język tamilski</string>
@@ -535,7 +535,7 @@
     <string name="tip_long_click_avatar">Długie naciśnięcie avatara pokaże połączenia od tego kontaktu.</string>
     <string name="tip_select_item">Naciśnij długo element, aby go wybrać.</string>
     <string name="tip_select_all">Opcja Zaznacz wszystko będzie wyświetlana w menu kontekstowym.</string>
-    <string name="tip_audio_output">Naciśnij długo przycisk Play/Pause w celu przełączenia wyjście audio.</string>
+    <string name="tip_audio_output">Naciśnij długo przycisk Play/Pause w celu przełączenia wyjścia audio.</string>
 
     <string name="category_contacts">Kontakty</string>
     <string name="link_to_contacts">Link do kontaktów</string>
@@ -547,7 +547,7 @@
 
     <string name="app_description_0">Aplikacja przeznaczona jest do automatycznego nagrywania rozmów z telefonu, tylko gdy wspomagane jest to przez sprzęt i kernel. Nagrywanie rozmów jest bardzo specyficzną funkcją zależną od urządzenia, ponieważ producenci często nie implementują tej funkcji na poziomie systemu.</string>
     <string name="app_description_1">Root jest wymagany na wielu urządzeniach, gdzie producenci nie stosują wymaganej funkcjonalności. Ale to nie oznacza że, zrootowanie jest zbawieniemem dla każdego telefonu, ponieważ nagrywanie rozmów, może być niemożliwe na poziomie sprzętowym. Root pomaga często, ale nie zawsze.</string>
-    <string name="app_description_2">Aplikacja ma różne metody nagrywania. Jeśli masz sporo szczęścia, aplikacja nagra obie strony rozmowy gdy, ustawisz standardową metodę nagrywania API bez praw root. Ale może być konieczne sprawdzenie każdego źródła dźwięku standardowej API w Ustawienia &gt; Nagrywanie &gt; standardowe API.</string>
+    <string name="app_description_2">Aplikacja ma różne metody nagrywania. Jeśli masz sporo szczęścia, aplikacja nagra obie strony rozmowy gdy, ustawisz standardową metodę nagrywania API bez praw root. Ale może być konieczne sprawdzenie każdego źródła dźwięku standardowej API w Ustawienia &gt; Nagrywanie &gt; Standardowe API.</string>
     <string name="app_description_3">Jeśli po wypróbowaniu wszystkich źródeł audio dla standardowego API, aplikacja nie nagrywa lub nagrany jest tylko twój głos, oznacza to, że producent nie wdrożył lub zablokował nagrywanie rozmów na poziomie systemu.</string>
     <string name="app_description_4">Musisz mieć uprawnienia administratora, aby spróbować innych metod nagrywania. Dla metod wymagających root\'a, ważne jest, aby wybrać odpowiednie urządzenie w menu Ustawienia &gt; Nagrywanie. Wybierz urządzenie, z tym samym chipsetem, jeśli twoje nie jest wymienione.</string>
 <string name="delete_recording_after_upload">Usuń nagranie po wysłaniu na serwer</string>
