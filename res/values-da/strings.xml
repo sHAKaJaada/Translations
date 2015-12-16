@@ -562,4 +562,8 @@
     <string name="button_dismiss">Afvis</string>
 
     <string name="app_description_summary">En app, der optager telefonopkald automatiskt</string>
+    <string name="msg_supersu_required">Din app til root-adgang er muligvis ikke kompatibel. Overvej at installere SuperSU.</string>
+
+    <string name="show_button_to_add_star">Vis \"Tilføj stjerne\"-knap</string>
+    <string name="button_install">Installér</string>
     </resources>
