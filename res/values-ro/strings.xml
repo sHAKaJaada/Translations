@@ -562,4 +562,8 @@
     <string name="button_dismiss">Renunță</string>
 
     <string name="app_description_summary">O aplicație pentru a înregistra automat convorbirile din linia telefonică</string>
+    <string name="msg_supersu_required">Aplicația ta superuser ar putea fi incompatibilă. Te rog, încearcă să reinstalezi SuperSu.</string>
+
+    <string name="show_button_to_add_star">Arată butonul pentru a adăuga stea</string>
+    <string name="button_install">Instalare</string>
     </resources>
