@@ -562,4 +562,8 @@
     <string name="root_module">Moduł Root</string>
     <string name="root_module_is_not_installed">Moduł Root NIE jest zainstalowany</string>
     <string name="root_module_summary">Aby skorzystać z alternatywnych metod, takich jak CAF, ALSA lub MSM, należy zainstalować moduł Root dla Call Recorder.</string>
+    <string name="msg_supersu_required">Twoja aplikacja superuser może być niekompatybilna. Proszę rozważyć zainstalowanie SuperSU.</string>
+
+    <string name="show_button_to_add_star">Pokaż przycisk, aby dodać gwiazdkę</string>
+    <string name="button_install">Zainstaluj</string>
     </resources>
