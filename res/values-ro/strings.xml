@@ -554,7 +554,7 @@
     <string name="delete_recording_after_upload_summary">Înregistrarea va fi ștearsă după upload reușit</string>
 
     <string name="auto_unlock">Deblocare automată</string>
-    <string name="auto_unlock_summary">Deblocare fără apăsare \'OK\' o dată ce s-a introdus parola corectă.</string>
+    <string name="auto_unlock_summary">Deblocare fără apăsare \'OK\' o dată ce s-a introdus parola corectă</string>
     <string name="root_module">Modul root</string>
     <string name="root_module_is_not_installed">Modulul root nu este instalat</string>
     <string name="root_module_summary">Pentru a folosi metoda alternativă root cum ar fi CAF, ALSA sau MSM, ai nevoie de instalarea modului Root pentru Call Recorder</string>
