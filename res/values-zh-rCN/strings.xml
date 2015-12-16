@@ -558,4 +558,11 @@
 
     <string name="auto_unlock">自动解锁</string>
     <string name="auto_unlock_summary">输入正确的密码后不需要点击确认按钮便会自动解锁</string>
+    <string name="msg_supersu_required">您所安装的超级用户应用程序与本程序兼容性欠佳。请考虑安装 SuperSU 以达到更好的使用体验。</string>
+
+    <string name="show_button_to_add_star">显示添加星标的按钮</string>
+    <string name="button_install">安装</string>
+    <string name="button_more_info">更多信息</string>
+    <string name="button_dismiss">禁止</string>
+    <string name="app_description_summary">这是一款自动对通话进行录音的应用程序</string>
     </resources>
