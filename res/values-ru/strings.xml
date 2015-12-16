@@ -562,4 +562,8 @@
     <string name="button_dismiss">Скрыть</string>
 
     <string name="app_description_summary">Программа для записи звонков с телефонной линии</string>
+    <string name="show_button_to_add_star">Показывать кнопку для пометки</string>
+    <string name="button_install">Установить</string>
+    <string name="msg_supersu_required">Ваш суперюзер может быть несовместим. Рассмотрите возможность установки SuperSU.</string>
+
     </resources>
