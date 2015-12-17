@@ -568,4 +568,8 @@
     <string name="button_dismiss">Εντάξει</string>
 
     <string name="app_description_summary">Μια εφαρμογή για αυτόματη καταγραφή κλήσεων του τηλεφώνου</string>
+    <string name="msg_supersu_required">Η superuser εφαρμογή σας πιθανόν δεν είναι συμβατή. Παρακαλώ εγκαταστήστε το SuperSU.</string>
+
+    <string name="show_button_to_add_star">Εμφάνιση κουμπιού για προσθήκη αστεριού</string>
+    <string name="button_install">Εγκατάσταση</string>
     </resources>
