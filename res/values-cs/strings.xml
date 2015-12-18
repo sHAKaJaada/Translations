@@ -562,4 +562,8 @@
     <string name="button_dismiss">Zamítnout</string>
 
     <string name="app_description_summary">Aplikace k automatickému nahrávání hovorů na telefonní lince</string>
+    <string name="msg_supersu_required">Superuser aplikace se zdá být nekompatibilní. Zvaž instalaci SuperSU.</string>
+
+    <string name="show_button_to_add_star">Zobrazit tlačítko pro přidání hvězdy</string>
+    <string name="button_install">Instalovat</string>
     </resources>
