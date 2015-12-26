@@ -568,4 +568,8 @@
     <string name="button_dismiss">ਬੰਦ ਕਰੋ</string>
 
     <string name="app_description_summary">ਇਕ APP ਆਪ ਹੀ ਫੋਨ ਦੀ ਲਾਈਨ ਤੇ ਕਾਲ ਰਿਕਾਰਡ ਕਰਨ ਲਈ</string>
+    <string name="msg_supersu_required">ਤੁਹਾਡਾ ਸੁਪਰ ਯੂਯਰ ਐਪਲੀਕੇਸ਼ ਅਨੁਕੂਲ ਨਹੀ ਹੋ ਸਕਦਾ ਹੈ. SuperSU ਇੰਸਟਾਲ ਕਰੋ ਜੀ.</string>
+
+    <string name="show_button_to_add_star">ਸਟਾਰ ਨੂੰ ਸ਼ਾਮਿਲ ਕਰਨ ਲਈ ਬਟਨ ਦਿਖਾਓ</string>
+    <string name="button_install">ਇੰਸਟਾਲ</string>
     </resources>
