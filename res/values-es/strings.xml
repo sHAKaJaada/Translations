@@ -785,4 +785,8 @@
     <string name="button_dismiss">Descartar</string>
 
     <string name="app_description_summary">Una app para grabar llamadas telefónicas desde la linea de entrada automáticamente</string>
+    <string name="msg_supersu_required">"Tu aplicación superuser parece ser incompatible. Por favor considera instalar SuperSu. "</string>
+
+    <string name="show_button_to_add_star">"Mostrar el botón para agregar una estrella "</string>
+    <string name="button_install">Instalar</string>
     </resources>
