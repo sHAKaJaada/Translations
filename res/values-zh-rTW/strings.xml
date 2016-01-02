@@ -565,4 +565,8 @@
 
     <string name="root_module_summary">使用Root模組替代方式，例如CAF, ALSA 或 MSM。你必須為通話紀錄安裝Root模組。</string>
     <string name="app_description_summary">這是一個自動通話錄音的應用程式</string>
+    <string name="button_install">安裝</string>
+    <string name="show_button_to_add_star">顯示增加標記按鈕</string>
+    <string name="msg_supersu_required">您的超級用戶應用程式可能不相容。請考慮安裝SuperSU。</string>
+
     </resources>
