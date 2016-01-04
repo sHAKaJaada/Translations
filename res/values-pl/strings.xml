@@ -352,7 +352,7 @@
     <string name="lock_after_3_minutes">3 min</string>
     <string name="lock_after_5_minutes">5 min</string>
     <string name="lock_after_10_minutes">10 min</string>
-    <string name="app_admin">Administracja Aplikacji</string>
+    <string name="app_admin">Administrator urządzenia</string>
     <string name="app_admin_summary">Konieczne, aby zapobiec odinstalowaniu Call Recorder</string>
     <string name="app_admin_explanation">Call Recorder nie korzysta z jakiejkolwiek funkcji administratora urządzenia, z wyjątkiem ochrony przed deinstalacją</string>
     <string name="aes_128bit">128-bit AES (Szybki)</string>
