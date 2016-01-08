@@ -565,4 +565,8 @@
     <string name="button_dismiss">बर्खास्त</string>
 
     <string name="app_description_summary">स्वचालित तौर पर कॉल रिकॉर्ड करने हेतु एक एप (app)</string>
+    <string name="msg_supersu_required">आपका सुपरयूजर एप शायद बेमेल है-कृपया कर अपने यंत्र में SuperSU डालें</string>
+
+    <string name="show_button_to_add_star">पसंदीदा घोषित करने हेतु तारा दिखायें</string>
+    <string name="button_install">डालें</string>
     </resources>
