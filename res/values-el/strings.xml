@@ -572,4 +572,7 @@
 
     <string name="show_button_to_add_star">Εμφάνιση κουμπιού για προσθήκη αστεριού</string>
     <string name="button_install">Εγκατάσταση</string>
+    <string name="msg_grant_permissions">Παρακαλώ παρέχετε δικαιώματα</string>
+    <string name="msg_grant_permissions_summary">Η εφαρμογή δεν θα λειτουργεί εάν δεν της παρέχετε δικαιώματα</string>
+
     </resources>
