@@ -47,6 +47,8 @@
 
     <!-- Messages -->
     <string name="msg_supersu_required">Your superuser app may be incompatible. Please consider installing SuperSU.</string>
+    <string name="msg_grant_permissions">Please grant permissions</string>
+    <string name="msg_grant_permissions_summary">The app won\'t work unless you grant the permissions</string>
 
     <!-- Tips -->
     <string name="tip_click_avatar">Click avatar to open contact info.</string>
