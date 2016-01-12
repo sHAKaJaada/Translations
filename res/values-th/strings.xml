@@ -562,4 +562,10 @@
     <string name="button_dismiss">ยกเลิก</string>
 
     <string name="app_description_summary">คือแอพที่บันทึกเสียงสายสนทนาโดยอัตโนมัติ</string>
+    <string name="msg_supersu_required">แอพ superuser ของคุณอาจไม่เข้ากัน.โปรดตัดสินใจติดตั้ง SuperSU</string>
+    <string name="msg_grant_permissions">โปรดกำหนดสิทธิ์</string>
+    <string name="msg_grant_permissions_summary">แอพจะไม่ทำงานจนกว่าคุณจะกำหนดสิทธิ์</string>
+
+    <string name="show_button_to_add_star">แสดงปุ่มเพื่อเพิ่มดาว</string>
+    <string name="button_install">ติดตั้ง</string>
     </resources>
