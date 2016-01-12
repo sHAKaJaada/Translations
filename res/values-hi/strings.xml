@@ -569,4 +569,7 @@
 
     <string name="show_button_to_add_star">पसंदीदा घोषित करने हेतु तारा दिखायें</string>
     <string name="button_install">डालें</string>
+    <string name="msg_grant_permissions">कृपा अनुमति प्रदान करें</string>
+    <string name="msg_grant_permissions_summary">अनुमति प्राप्त नहीं होने पर ऐप काम नहीं करेगा</string>
+
     </resources>
