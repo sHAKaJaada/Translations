@@ -566,4 +566,7 @@
 
     <string name="show_button_to_add_star">Arată butonul pentru a adăuga stea</string>
     <string name="button_install">Instalare</string>
+    <string name="msg_grant_permissions">Te rog să accepți permisiunile</string>
+    <string name="msg_grant_permissions_summary">Aplicația nu va funcționa până nu accepți permisiunile</string>
+
     </resources>
