@@ -549,7 +549,7 @@
     <string name="app_description_1">Preto je na mnohých zariadeniach, kde výrobca nesprístupnil potrebné funkcie nevyhnutný Root. Neznemaná to však, že Root umožní nahrávanie na všetkých zariadeniach, nakoľko niektoré z nich nemajú potrebný hardvér. Root pomôže často, ale nie vždy.</string>
     <string name="app_description_2">Aplikácia má niekoľko metód nahrávania. Ak máte šťastie, aplikácia nahrá obidve strany Štandardným API nahrávaním bez nutnosti Root-u. Pravdepodobne budete musieť vyskúšať všetky zdroje zvuku pre Štandardné API nahrávanie v Nastavenia &gt; Nahrávanie &gt; Štandardné API.</string>
     <string name="app_description_3">Ak ste vyskúšali všetky zdroje zvuku pre Štandardné API nahrávanie a aplikácia nenahráva alebo nahráva iba váš hlas, znamená to, že výrobca nenainštaloval alebo zablokoval nahrávanie hovorov na systémovej úrovni.</string>
-    <string name="app_description_4">Pre vyskúšanie iných metód nahrávania musíte mať Root prístup. Pre tieto metódy je nutné zvoliť správne zariadenie v Nastavenia &gt; Nahrávanie. Ak sa vaše zariadenie nenachádza v zozname, vyberte zariadenie s rovnakým typom procesora.</string>
+    <string name="app_description_4">Pre vyskúšanie iných metód nahrávania musíte mať Root oprávnenie. Pre tieto metódy je nutné zvoliť správne zariadenie v Nastavenia &gt; Nahrávanie. Ak sa vaše zariadenie nenachádza v zozname, vyberte zariadenie s rovnakým typom procesora.</string>
 <string name="delete_recording_after_upload">Vymazať nahrávku po odovzdaní</string>
     <string name="delete_recording_after_upload_summary">Nahrávka bude vymazaná po úspešnom odovzdaní</string>
 
@@ -566,4 +566,7 @@
 
     <string name="show_button_to_add_star">Zobraziť tlačidlo pridať hviezdičku</string>
     <string name="button_install">Inštalovať</string>
+    <string name="msg_grant_permissions">Prosím, udelte oprávnenie</string>
+    <string name="msg_grant_permissions_summary">Aplikácia nebude fungovať, pokiaľ jej neudelíte oprávnenie</string>
+
     </resources>
