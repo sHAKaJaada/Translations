@@ -562,4 +562,10 @@
     <string name="auto_unlock">Automatisk upplåsning</string>
     <string name="auto_unlock_summary">Lås upp utan att trycka \'OK\' efter rätt lösenord skrivits in</string>
     <string name="app_description_summary">En app som spelar in samtal från telefonlinjen automatiskt</string>
+    <string name="msg_supersu_required">Din superuser-app kan vara inkompatibel. Var god installera exempelvis SuperSU.</string>
+    <string name="msg_grant_permissions">Var god ge tillåtelse</string>
+    <string name="msg_grant_permissions_summary">Appen kommer ej fungera om du ej ger tillåtelser</string>
+
+    <string name="show_button_to_add_star">Visa knapp för stjärnmärkning</string>
+    <string name="button_install">Installera</string>
     </resources>
