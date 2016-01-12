@@ -568,4 +568,18 @@
 
     <string name="show_button_to_add_star">Visa knapp för stjärnmärkning</string>
     <string name="button_install">Installera</string>
+    <string name="not_charging">Laddar ej</string>
+    <string name="menu_add_to_onedrive">Lägg till i OneDrive</string>
+    <string name="cleanup_uploaded_only">Rensa endast uppladdade filer</string>
+    <string name="cleanup_uploaded_only_summary">Endast uppladdade filer kommer raderas automatiskt</string>
+    <string name="show_phone_numbers">Visa telefonnummer</string>
+    <string name="sign_out_onedrive">Logga ut från OneDrive</string>
+    <string name="cloud_provider_onedrive">Microsoft OneDrive</string>
+    <string name="cloud_upload_when_charging">Ladda upp endast under batteriladdning</string>
+    <string name="notify_uploading_onedrive">Uppladdning till OneDrive</string>
+    <string name="auto_encryption">Automatisk kryptering</string>
+    <string name="auto_encryption_summary">Kryptera inspelningar av typen WAV och AMR efter samtal</string>
+    <string name="auto_encryption_warning">Automatisk kryptering avstängt eftersom formatet på inspelning ej stöds</string>
+    <string name="enter_password_to_encrypt_recordings">Skriv in lösenord för kryptering av inspelningar</string>
+
     </resources>
