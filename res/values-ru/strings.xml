@@ -567,6 +567,6 @@
     <string name="msg_supersu_required">Ваш суперюзер может быть несовместим. Рассмотрите возможность установки SuperSU.</string>
 
     <string name="msg_grant_permissions">Пожалуйста, представьте доступ</string>
-    <string name="msg_grant_permissions_summary">Приложение не будет работать, если вы не представьте доступ</string>
+    <string name="msg_grant_permissions_summary">Приложение не будет работать, если вы не представите доступ</string>
 
     </resources>
