@@ -730,4 +730,7 @@
 
     <string name="show_button_to_add_star">Бутон за добавяне към Важни</string>
     <string name="button_install">Инсталиране</string>
+    <string name="msg_grant_permissions">Осигурете достъп</string>
+    <string name="msg_grant_permissions_summary">Приложението няма да работи, ако не му осигурите достъп</string>
+
     </resources>
