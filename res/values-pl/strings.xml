@@ -566,4 +566,5 @@
 
     <string name="show_button_to_add_star">Pokaż przycisk, aby dodać gwiazdkę</string>
     <string name="button_install">Zainstaluj</string>
+    <string name="msg_grant_permissions">Proszę udzielić pozwolenie</string>
     </resources>
