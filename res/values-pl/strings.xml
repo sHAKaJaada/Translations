@@ -100,7 +100,7 @@
     <string name="settings_ui_and_appearance">Interfejs i wygląd</string>
     <string name="settings_security">Bezpieczeństwo</string>
     <string name="settings_cloud">Chmura</string>
-    <string name="settings_audio_player">Odtwarzacz audio</string>
+    <string name="settings_audio_player">Odtwarzanie</string>
     <string name="settings_debug">Debugowanie</string>
     <string name="settings_about">O aplikacji</string>
 
@@ -361,7 +361,7 @@
 
     <!-- Settings -> Audio player -->
     <string name="use_built_in_player">Użyj wbudowanego odtwarzacza</string>
-    <string name="audio_output">Wyjście audio</string>
+    <string name="audio_output">Wyjście dźwięku</string>
     <string name="audio_output_summary">%s (Naciśnij długo przycisk play/pause w celu przełączenia)</string>
     <string name="main_speaker">Głośnik</string>
     <string name="phone_speaker">Słuchawka</string>
@@ -566,7 +566,7 @@
 
     <string name="show_button_to_add_star">Pokaż przycisk, aby dodać gwiazdkę</string>
     <string name="button_install">Zainstaluj</string>
-    <string name="msg_grant_permissions">Proszę udzielić pozwolenie</string>
+    <string name="msg_grant_permissions">Proszę przyznać uprawnienia</string>
     <string name="msg_grant_permissions_summary">Aplikacja nie będzie działać, jeśli nie przyznasz uprawnień</string>
 
     </resources>
