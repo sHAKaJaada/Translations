@@ -565,4 +565,10 @@
     <string name="button_dismiss">Descartar</string>
 
     <string name="app_description_summary">Una app per gravar trucades telefòniques des de la línia de telèfon de forma automàtica</string>
+    <string name="msg_supersu_required">La seva aplicació superusuari pot ser incompatible. Si us plau considera la instal·lació de SuperSU.</string>
+    <string name="msg_grant_permissions">Si us plau, concedir permisos</string>
+    <string name="msg_grant_permissions_summary">L\'aplicació no funcionarà a menys que atorgui permisos</string>
+
+    <string name="show_button_to_add_star">Mostrar botó de favorits</string>
+    <string name="button_install">Instal·lar</string>
     </resources>
