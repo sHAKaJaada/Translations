@@ -789,4 +789,7 @@
 
     <string name="show_button_to_add_star">"Mostrar el botón para agregar una estrella "</string>
     <string name="button_install">Instalar</string>
+    <string name="msg_grant_permissions">Por favor, conceder permisos</string>
+    <string name="msg_grant_permissions_summary">La aplicación no funcionará a menos que otorgue permisos</string>
+
     </resources>
