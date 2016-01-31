@@ -556,4 +556,13 @@
     <string name="auto_unlock">Аўта разблакоўка</string>
     <string name="auto_unlock_summary">Разблакаваць без націску кнопкі \'OK\' адразу пасля ўводу правільнага пароля</string>
     <string name="root_module">Root модуль</string>
+    <string name="msg_supersu_required">Ваш суперюзер можа быць несумяшчальны. Разгледзіце магчымасць усталёўкі SuperSU.</string>
+    <string name="msg_grant_permissions">Калі ласка, падайце доступ</string>
+    <string name="msg_grant_permissions_summary">Прыкладанне не будзе працаваць, калі вы не падасце доступ</string>
+
+    <string name="show_button_to_add_star">Паказваць кнопку для пазнакі</string>
+    <string name="button_install">Усталяваць</string>
+    <string name="button_more_info">Падрабязней</string>
+    <string name="button_dismiss">Схаваць</string>
+    <string name="app_description_summary">Праграма для запісу званкоў з тэлефоннай лініі</string>
     </resources>
