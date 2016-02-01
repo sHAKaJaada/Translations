@@ -565,4 +565,5 @@
     <string name="app_description_2">L\'app dispone di diversi metodi di registrazione. Se sei fortunato, l\'app riuscirà a registrare la conversazione da entrambi i lati attraverso l\'API standard, senza diritti di root. Ma potrebbe essere necessario provare tutte le sorgenti audio per l\'API standard nel menu Impostazioni &gt; Registrazione &gt; Standard API.</string>
     <string name="app_description_3">Se dopo aver provato tutte le sorgenti audio per l\'API standard e l\'app non ha registrato nulla oppure solo la propria voce, significa che il produttore non ha implementato o ha disattivato la registrazione delle chiamate a livello di sistema.</string>
     <string name="app_description_4">Sono richiesti i diritti di root per provare metodi di registrazione diversi. Per i metodi che necessitano di diritti di root, è importante selezionare il dispositivo corretto nel menu Impostazioni &gt; Registrazione. Seleziona un dispositivo con lo stesso chipset se il tuo dispositivo non è nella lista.</string>
-</resources>
+<string name="msg_supersu_required">La tua app SuperUser potrebbe essere incompatibile. Considera di installare \"SuperSU\".</string>
+    </resources>
