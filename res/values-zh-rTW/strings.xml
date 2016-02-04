@@ -569,4 +569,7 @@
     <string name="show_button_to_add_star">顯示增加標記按鈕</string>
     <string name="msg_supersu_required">您的超級用戶應用程式可能不相容。請考慮安裝SuperSU。</string>
 
+    <string name="msg_grant_permissions">請授予權限</string>
+    <string name="msg_grant_permissions_summary">該應用程式將無法正常工作，除非您授予權限</string>
+
     </resources>
