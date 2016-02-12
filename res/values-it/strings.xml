@@ -364,7 +364,7 @@
     <string name="audio_output">Uscita audio</string>
     <string name="audio_output_summary">%s (la pressione prolungata sul pulsante play/pausa azionerà anche il pulsante stesso)</string>
     <string name="main_speaker">Altoparlante principale</string>
-    <string name="phone_speaker">Autoparlante telefono</string>
+    <string name="phone_speaker">Altoparlante telefono</string>
     <string name="use_proximity_sensor">Usa sensore di prossimità</string>
     <string name="use_proximity_sensor_summary">Disattiva schermo da sensore di prossimità durante la riproduzione</string>
     <string name="switch_audio_output">Cambia uscita audio</string>
