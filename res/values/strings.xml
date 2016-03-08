@@ -67,6 +67,7 @@
     <!-- List -> Context menu -->
     <string name="menu_add_to_dropbox">Add to Dropbox</string>
     <string name="menu_add_to_drive">Add to Drive</string>
+    <string name="menu_add_to_onedrive">Add to OneDrive</string>
     <string name="menu_add_note">Add note</string>
     <string name="menu_edit_note">Edit note</string>
     <string name="menu_delete">Delete</string>
@@ -328,11 +329,13 @@
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">Cloud provider</string>
-    <string name="cloud_provider_dropbox">Dropbox</string>
     <string name="sign_in">Sign in</string>
     <string name="sign_out_dropbox">Sign out of Dropbox</string>
     <string name="sign_out_google_drive">Sign out of Google Drive</string>
+    <string name="sign_out_onedrive">Sign out of OneDrive</string>
+    <string name="cloud_provider_dropbox">Dropbox</string>
     <string name="cloud_provider_google_drive">Google Drive</string>
+    <string name="cloud_provider_onedrive">Microsoft OneDrive</string>
     <string name="cloud_common_settings">Common</string>
     <string name="cloud_wifi_only">Wi-Fi only</string>
     <string name="cloud_auto_upload">Auto upload</string>
