@@ -569,4 +569,7 @@
     <string name="msg_grant_permissions">Proszę przyznać uprawnienia</string>
     <string name="msg_grant_permissions_summary">Aplikacja nie będzie działać, jeśli nie przyznasz uprawnień</string>
 
+    <string name="cloud_provider_onedrive">Microsoft OneDrive</string>
+    <string name="sign_out_onedrive">Wyloguj z OneDrive</string>
+    <string name="menu_add_to_onedrive">Dodaj do OneDrive</string>
     </resources>
