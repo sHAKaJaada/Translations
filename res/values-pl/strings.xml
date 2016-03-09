@@ -308,7 +308,7 @@
     <string name="cloud_provider">Dostawca chmury</string>
     <string name="cloud_provider_dropbox">Dropbox</string>
     <string name="sign_in_dropbox">Zaloguj się do Dropbox\'a</string>
-    <string name="sign_out_dropbox">Wyloguj się z Dropbox\'a</string>
+    <string name="sign_out_dropbox">Wyloguj z Dropbox\'a</string>
     <string name="cloud_provider_google_drive">Dysk Google</string>
     <string name="cloud_common_settings">Wspólne</string>
     <string name="cloud_wifi_only">Tylko Wi-Fi</string>
