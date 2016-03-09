@@ -569,4 +569,7 @@
     <string name="msg_grant_permissions">Te rog să accepți permisiunile</string>
     <string name="msg_grant_permissions_summary">Aplicația nu va funcționa până nu accepți permisiunile</string>
 
+    <string name="menu_add_to_onedrive">Adaugă în OneDrive</string>
+    <string name="sign_out_onedrive">Ieșire din OneDrive</string>
+    <string name="cloud_provider_onedrive">Microsoft OneDrive</string>
     </resources>
