@@ -60,7 +60,7 @@
     <string name="menu_share">Поділитися</string>
     <string name="menu_convert_to_mp3">Конвертувати в MP3</string>
     <string name="menu_convert_to_amr">Конвертувати в AMR</string>
-    <string name="menu_get_info">Мати інфо.</string>
+    <string name="menu_get_info">Мати інфо</string>
     <string name="menu_cancel_task">Скасувати завдання</string>
     <string name="menu_encrypt">Шифрувати</string>
     <string name="menu_decrypt">Розшифрувати</string>
@@ -583,4 +583,10 @@
 
     <string name="show_button_to_add_star">Показувати кнопку додавання зірочки</string>
     <string name="button_install">Встановити</string>
+    <string name="msg_grant_permissions">Будь ласка, надайте дозвоола</string>
+    <string name="msg_grant_permissions_summary">Програма не працюватиме, якщо ви не надасьте дозволи</string>
+
+    <string name="menu_add_to_onedrive">Додати до OneDrive</string>
+    <string name="sign_out_onedrive">Вийти з OneDrive</string>
+    <string name="cloud_provider_onedrive">Microsoft OneDrive</string>
     </resources>
