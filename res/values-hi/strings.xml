@@ -572,4 +572,7 @@
     <string name="msg_grant_permissions">कृपा अनुमति प्रदान करें</string>
     <string name="msg_grant_permissions_summary">अनुमति प्राप्त नहीं होने पर ऐप काम नहीं करेगा</string>
 
+    <string name="menu_add_to_onedrive">OneDrive में भेजें</string>
+    <string name="sign_out_onedrive">OneDrive से लोग आउट करें</string>
+    <string name="cloud_provider_onedrive">माइक्रोसॉफ़्ट OneDrive</string>
     </resources>
