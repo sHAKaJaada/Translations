@@ -569,4 +569,7 @@
     <string name="msg_grant_permissions">Пожалуйста, предоставьте доступ</string>
     <string name="msg_grant_permissions_summary">Приложение не будет работать, если вы не предоставите доступ</string>
 
+    <string name="menu_add_to_onedrive">Добавить на OneDrive</string>
+    <string name="sign_out_onedrive">Выйти из OneDrive</string>
+    <string name="cloud_provider_onedrive">Microsoft OneDrive</string>
     </resources>
