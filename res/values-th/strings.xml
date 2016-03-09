@@ -568,4 +568,7 @@
 
     <string name="show_button_to_add_star">แสดงปุ่มเพื่อเพิ่มดาว</string>
     <string name="button_install">ติดตั้ง</string>
+    <string name="menu_add_to_onedrive">เพิ่มไปยัง OneDrive</string>
+    <string name="sign_out_onedrive">ลงชื่อออกจาก OneDrive</string>
+    <string name="cloud_provider_onedrive">ไมโครซอฟท์ OneDrive</string>
     </resources>
