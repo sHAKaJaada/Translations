@@ -569,4 +569,7 @@
     <string name="msg_grant_permissions">Prosím, udelte oprávnenie</string>
     <string name="msg_grant_permissions_summary">Aplikácia nebude fungovať, pokiaľ jej neudelíte oprávnenie</string>
 
+    <string name="menu_add_to_onedrive">Pridať na OneDrive</string>
+    <string name="sign_out_onedrive">Odhlásiť sa z OneDrive</string>
+    <string name="cloud_provider_onedrive">Microsoft OneDrive</string>
     </resources>
