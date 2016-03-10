@@ -575,4 +575,7 @@
     <string name="msg_grant_permissions">Παρακαλώ παρέχετε δικαιώματα</string>
     <string name="msg_grant_permissions_summary">Η εφαρμογή δεν θα λειτουργεί εάν δεν της παρέχετε δικαιώματα</string>
 
+    <string name="menu_add_to_onedrive">Προσθήκη στο OneDrive</string>
+    <string name="sign_out_onedrive">Αποσύνδεση από OneDrive</string>
+    <string name="cloud_provider_onedrive">Microsoft OneDrive</string>
     </resources>
