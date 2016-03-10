@@ -448,7 +448,7 @@
     <string name="french_translation">תרגום לצרפתית</string>
     <string name="french_translation_summary">ע"י Julien Boiteux</string>
     <string name="brazilian_portuguese_translation">תרגום לפורטוגזית ברזילאית</string>
-    <string name="brazilian_portuguese_translation_summary">ע"י Luiz Marcelo Serique</string>
+    <string name="brazilian_portuguese_translation_summary">ע\"י Luiz Marcelo Serique וAlexandre Beck</string>
     <string name="spanish_translation">תרגום לספרדית</string>
     <string name="spanish_translation_summary">ע"י Iñigo Garcia and Diego Vilas</string>
     <string name="slovak_translation">תרגום לסלובקית</string>
@@ -496,7 +496,7 @@
     <string name="georgian_translation">תרגום לגאורגית</string>
     <string name="georgian_translation_summary">ע"י Sandro Razmadze</string>
     <string name="catalan_translation">תרגום לקטלונית</string>
-    <string name="catalan_translation_summary">ע"י cybdani</string>
+    <string name="catalan_translation_summary">ע\"י cybdani וJordi Miro</string>
     <string name="hindi_translation">תרגום להינדי</string>
     <string name="hindi_translation_summary">ע"י TheTAMAS Gautam</string>
     <string name="punjabi_translation">תרגום לפונג\'בי</string>
@@ -543,7 +543,7 @@
     <string name="view_recordings">צפה בהקלטות</string>
 
     <string name="bengali_translation">תרגום לבנגלית</string>
-    <string name="bengali_translation_summary">ע\"י Saurav Ghosh</string>
+    <string name="bengali_translation_summary">ע\"י Saurav Ghosh (ithehappy)</string>
 
     <string name="app_description_0">האפליקציה הזו מיועדת להקלטת שיחות אוטומטית כאשר נתמכת על ידי מכשיר וקרנל מתאימים. הקלטת השיחות היא מאוד תלוית מכשיר, מכיוון שרוב היצרנים לא כוללים את הפונקציונליות המתאימה במערכת, כמו שהם צריכים.</string>
     <string name="app_description_1">לכן רוט נדרש במכשירים רבים בהם היצרן לא כלל את פונקצית ההקלטה. אך זה לא אומר שהרוט מציל בכל מכשיר כי עדיין קיימת רמת החומרה. רוט עוזר, אך לא תמיד.</string>
