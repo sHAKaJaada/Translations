@@ -568,4 +568,7 @@
 
     <string name="show_button_to_add_star">הצג כפתור כדי להוסיף כוכב</string>
     <string name="button_install">התקן</string>
+    <string name="menu_add_to_onedrive">הוסף לOneDrive</string>
+    <string name="sign_out_onedrive">התנתק מOneDrive</string>
+    <string name="cloud_provider_onedrive">OneDrive של מיקרוסופט</string>
     </resources>
