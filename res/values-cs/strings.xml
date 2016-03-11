@@ -566,4 +566,10 @@
 
     <string name="show_button_to_add_star">Zobrazit tlačítko pro přidání hvězdy</string>
     <string name="button_install">Instalovat</string>
+    <string name="msg_grant_permissions">Prosím uděl oprávnění</string>
+    <string name="msg_grant_permissions_summary">Aplikace nefunguje bez udělení oprávnění</string>
+
+    <string name="menu_add_to_onedrive">Přidat do OneDrive</string>
+    <string name="sign_out_onedrive">Odhlásit se z OneDrive</string>
+    <string name="cloud_provider_onedrive">Microsoft OneDrive</string>
     </resources>
