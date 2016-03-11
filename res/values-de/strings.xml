@@ -559,4 +559,16 @@
     <string name="button_dismiss">Verbergen</string>
 
     <string name="app_description_summary">Eine App zum automatischen Aufnehmen von Anrufen</string>
-    </resources>
+    <string name="msg_supersu_required">Deine Superuser-App könnte inkompatibel sein. Bitte denke über die Installation von SuperSU nach.</string>
+    <string name="msg_grant_permissions">Bitte den Zugriff gestatten</string>
+    <string name="msg_grant_permissions_summary">Die App wird nicht funktionieren, biss sie die Zugriffsrechte gewährt haben</string>
+
+    <string name="menu_add_to_onedrive">Zu OneDrive hinzufügen</string>
+    <string name="show_button_to_add_star">Zeige Button um einen Stern hinzuzufügen</string>
+    <string name="sign_out_onedrive">Von OneDrive abmelden</string>
+    <string name="cloud_provider_onedrive">Microsoft OneDrive</string>
+    <string name="button_install">Installieren</string>
+    <string name="app_description_2">Die App hat unterschiedliche Aufnahmemethoden. Mit etwas Glück funktioniert die 2-Wege-Aufzeichnung über die Stadard-API ohne Root-Rechte. Allerdings müssen dann alle Audioquellen für die Stadard-API unter Einstellungen &gt; Aufzeichnung &gt; Standard-API ausgewählt sein.</string>
+    <string name="app_description_3">Wenn du alle Audioquellen der Standard-API ausprobiert hast und die App nicht, oder nur deine Stimme aufzeichnet, bedeutet dies, dass der Gerätehersteller die Aufzeichnungsfunktion nicht korrekt installiert oder auf Systemebene blockiert hat.</string>
+    <string name="app_description_4">Du benötigst Root-Rechte um andere Aufzeichnungsmethoden zu testen. Für die Root-Methode muss das korrekte Gerät unter Einstellungen &gt; Aufzeichnung ausgewählt werden. Wähle ein Gerät mit dem gleichen Chipsatz wenn dein Gerät nicht aufgelistet ist.</string>
+</resources>
