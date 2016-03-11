@@ -568,4 +568,7 @@
     <string name="msg_grant_permissions">请授予权限</string>
     <string name="msg_grant_permissions_summary">若您不授予权限，本应用程序将无法正常工作</string>
 
+    <string name="menu_add_to_onedrive">上传至 OneDrive</string>
+    <string name="sign_out_onedrive">登出 OneDrive</string>
+    <string name="cloud_provider_onedrive">微软 OneDrive</string>
     </resources>
