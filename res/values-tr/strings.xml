@@ -562,4 +562,5 @@
     <string name="navigation_drawer_close">Gezinti sekmesini kapat</string>
 
     <string name="navigation_drawer_open">Gezinti sekmesini aç</string>
+    <string name="menu_add_to_onedrive">OneDrive\'a ekle</string>
     </resources>
