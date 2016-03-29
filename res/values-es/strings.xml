@@ -792,4 +792,7 @@
     <string name="msg_grant_permissions">Por favor, conceder permisos</string>
     <string name="msg_grant_permissions_summary">La aplicación no funcionará a menos que otorgue permisos</string>
 
+    <string name="menu_add_to_onedrive">Añadir a OneDrive</string>
+    <string name="sign_out_onedrive">Cerrar la sesión de OneDrive</string>
+    <string name="cloud_provider_onedrive">Microsoft OneDrive</string>
     </resources>
