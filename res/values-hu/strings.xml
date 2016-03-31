@@ -448,7 +448,7 @@
     <string name="french_translation">Francia fordítás</string>
     <string name="french_translation_summary">Julien Boiteux</string>
     <string name="brazilian_portuguese_translation">Brazil Portugál fordítás</string>
-    <string name="brazilian_portuguese_translation_summary">Luiz Marcelo Serique</string>
+    <string name="brazilian_portuguese_translation_summary">Luiz Marcelo Serique és Alexandre Beck</string>
     <string name="spanish_translation">Spanyol fordítás</string>
     <string name="spanish_translation_summary">Iñigo Garcia and Diego Vilas</string>
     <string name="slovak_translation">Szlovák fordítás</string>
@@ -543,7 +543,7 @@
     <string name="view_recordings">Felvételek megtekintése</string>
 
     <string name="bengali_translation">Bengali forditás</string>
-    <string name="bengali_translation_summary">Saurav Ghosh -tól</string>
+    <string name="bengali_translation_summary">Saurav Ghosh (ithehappy)</string>
 
     <string name="app_description_0">A program automatikusan rögzíti a hívásokat, ahol a kernel és a hardver ezt támogatja. A hívás felvétel egy készülék specifikus lehetőség, mert a gyártók nem teszik bele a készülékekbe az ehhez szükséges funkciókat.</string>
     <string name="app_description_1">Sok készüléknél szükséges lehet a készülék root-olása ahol nincsenek meg a szükséges funkciók , de nem minden esetben jelent megoldás, mert a hardver ettől még okozhat hibát a felvételben. A root segíthet, de nem minden esetben megoldás.</string>
@@ -562,4 +562,13 @@
     <string name="button_dismiss">Elutasít</string>
 
     <string name="app_description_summary">Telefonon folytatott beszélgetések automatikus rögzítésére szolgáló alkalmazás</string>
+    <string name="msg_supersu_required">A superuser alkalmazás nem kompatibilis. Kérem telepítsen egy SuperSU alkalmazást.</string>
+    <string name="msg_grant_permissions">Kérjük adja meg a szükséges jogosultságokat</string>
+    <string name="msg_grant_permissions_summary">Az alkalmazás nem fog addig működni, míg nem engedélyezi a jogosultság hozzáféréseket</string>
+
+    <string name="menu_add_to_onedrive">Hozzáadás OneDrivehoz</string>
+    <string name="show_button_to_add_star">Mutassa a csillag hozzáadása gombot</string>
+    <string name="sign_out_onedrive">Kijelentkezés az OneDrive-ból</string>
+    <string name="cloud_provider_onedrive">Microsoft OneDrive</string>
+    <string name="button_install">Telepítés</string>
     </resources>
