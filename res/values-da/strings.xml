@@ -572,4 +572,15 @@
     <string name="menu_add_to_onedrive">Tilføj til OneDrive</string>
     <string name="sign_out_onedrive">Log ud af OneDrive</string>
     <string name="cloud_provider_onedrive">Microsoft OneDrive</string>
+    <string name="not_charging">Oplader ikke</string>
+    <string name="cleanup_uploaded_only">Slet kun filer allerede gemt online</string>
+    <string name="cleanup_uploaded_only_summary">Kun filer gemt online vil blive slettet automatiskt</string>
+    <string name="show_phone_numbers">Vis telefonnumre</string>
+    <string name="cloud_upload_when_charging">Send kun filer under opladning</string>
+    <string name="notify_uploading_onedrive">Gemmer på OneDrive</string>
+    <string name="auto_encryption">Automatisk kryptering</string>
+    <string name="auto_encryption_summary">Krypter WAV og AMR optagelser efter opkald</string>
+    <string name="auto_encryption_warning">Automatisk kryptering deaktiveres da det valgte optage-format ikke understøttes</string>
+    <string name="enter_password_to_encrypt_recordings">Indtast kodeord til kryptering af optagelser</string>
+
     </resources>
