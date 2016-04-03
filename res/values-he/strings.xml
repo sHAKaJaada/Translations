@@ -571,4 +571,15 @@
     <string name="menu_add_to_onedrive">הוסף לOneDrive</string>
     <string name="sign_out_onedrive">התנתק מOneDrive</string>
     <string name="cloud_provider_onedrive">OneDrive של מיקרוסופט</string>
+    <string name="not_charging">לא נטען</string>
+    <string name="cleanup_uploaded_only">ניקוי קבצים שהועלו בלבד</string>
+    <string name="cleanup_uploaded_only_summary">רק קבצים שהועלו יוסרו אוטומטית</string>
+    <string name="show_phone_numbers">הצג מספרי טלפון</string>
+    <string name="cloud_upload_when_charging">העלה רק בזמן טעינה</string>
+    <string name="notify_uploading_onedrive">מעלה לOneDrive</string>
+    <string name="auto_encryption">הצפנה אוטומטית</string>
+    <string name="auto_encryption_summary">הצפן קבצי WAV או AMR לאחר שיחה</string>
+    <string name="auto_encryption_warning">הצפנה אוטומטית תופסק מכיוון שאינה תומכת בפורמט ההקלטה הנבחר</string>
+    <string name="enter_password_to_encrypt_recordings">הכנס סיסמה להצפנת ההקלטות</string>
+
     </resources>
