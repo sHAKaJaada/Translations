@@ -62,6 +62,7 @@
     <string name="list_header_yesterday">Yesterday</string>
     <string name="queued">Queued</string>
     <string name="no_connection">No connection</string>
+    <string name="not_charging">Not charging</string>
     <string name="add_to_contacts">Add to contacts</string>
 
     <!-- List -> Context menu -->
@@ -261,6 +262,8 @@
     <string name="dialog_grant_permission_message">Select the same directory in a new window to grant the permission</string>
     <string name="toast_wrong_directory_selected">You have selected wrong directory. Try again.</string>
     <string name="automatic_cleanup">Automatic cleanup</string>
+    <string name="cleanup_uploaded_only">Cleanup uploaded files only</string>
+    <string name="cleanup_uploaded_only_summary">Only uploaded files will be automatically removed</string>
     <string name="max_number_of_files">Max. number of files</string>
     <string name="max_number_of_files_message">Enter a number (0 - no limit)</string>
     <string name="max_total_size_of_files">Max. total size of files</string>
@@ -322,6 +325,7 @@
     <string name="hide_starred_recordings_summary">Don\'t show starred recordings on screen with all recordings</string>
     <string name="low_space_warning">Low space warning</string>
     <string name="low_space_warning_summary">Set low space warning limit in megabytes</string>
+    <string name="show_phone_numbers">Show phone numbers</string>
     <string name="category_contacts">Contacts</string>
     <string name="link_to_contacts">Link to contacts</string>
     <string name="link_to_contacts_summary">Create a shortcut to view recordings from within a contact</string>
@@ -338,6 +342,7 @@
     <string name="cloud_provider_onedrive">Microsoft OneDrive</string>
     <string name="cloud_common_settings">Common</string>
     <string name="cloud_wifi_only">Wi-Fi only</string>
+    <string name="cloud_upload_when_charging">Upload when charging only</string>
     <string name="cloud_auto_upload">Auto upload</string>
     <string name="cloud_auto_upload_summary">Upload recording right after call</string>
     <string name="cloud_upload_starred">Upload starred</string>
@@ -348,6 +353,7 @@
     <!-- Notification -->
     <string name="notify_uploading_dropbox">Uploading to Dropbox</string>
     <string name="notify_uploading_drive">Uploading to Drive</string>
+    <string name="notify_uploading_onedrive">Uploading to OneDrive</string>
     <string name="notify_converting_to_amr">Converting to AMR</string>
     <string name="notify_converting_to_mp3">Converting to MP3</string>
     <string name="notify_converting_to_wav">Converting to WAV</string>
@@ -390,6 +396,10 @@
     <string name="aes_128bit">128-bit AES (Faster)</string>
     <string name="aes_192bit">192-bit AES (Balanced)</string>
     <string name="aes_256bit">256-bit AES (Stronger)</string>
+    <string name="auto_encryption">Auto encryption</string>
+    <string name="auto_encryption_summary">Encrypt WAV or AMR recordings after a call</string>
+    <string name="auto_encryption_warning">Auto encryption will be disabled as it doesn\'t support selected recording format</string>
+    <string name="enter_password_to_encrypt_recordings">Enter password to encrypt recordings</string>
 
     <!-- Settings -> Audio player -->
     <string name="use_built_in_player">Use built-in player</string>
