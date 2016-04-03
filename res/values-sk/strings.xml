@@ -242,7 +242,7 @@
     <string name="folder_chooser_up_to">↑ Späť do %s</string>
     <string name="create_new_folder">Vytvoriť nový priečinok…</string>
     <string name="dialog_title_new_folder">Nový priečinok</string>
-    <string name="automatic_cleanup">Automatické mazanie</string>
+    <string name="automatic_cleanup">Automatické vymazanie</string>
     <string name="max_number_of_files">Max. počet súborov</string>
     <string name="max_number_of_files_message">Zadať číslo (0 - bez limitu)</string>
     <string name="max_total_size_of_files">Max. celková veľkosť súborov</string>
@@ -572,4 +572,15 @@
     <string name="menu_add_to_onedrive">Pridať na OneDrive</string>
     <string name="sign_out_onedrive">Odhlásiť sa z OneDrive</string>
     <string name="cloud_provider_onedrive">Microsoft OneDrive</string>
+    <string name="not_charging">Nenabíja sa</string>
+    <string name="cleanup_uploaded_only">Vymazať iba odovzdané súbory</string>
+    <string name="cleanup_uploaded_only_summary">Iba odovzdané súbory budú automaticky vymazané</string>
+    <string name="show_phone_numbers">Zobraziť telefónne čísla</string>
+    <string name="cloud_upload_when_charging">Odovzdať iba pri nabíjaní</string>
+    <string name="notify_uploading_onedrive">Odovzdať na OneDrive</string>
+    <string name="auto_encryption">Automatické kódovanie</string>
+    <string name="auto_encryption_summary">Zakódovať nahrávky WAV alebo AMR po skončení hovoru</string>
+    <string name="auto_encryption_warning">Automatické kódovanie bude zakázané, ak nepodporuje vybraný formát nahrávania</string>
+    <string name="enter_password_to_encrypt_recordings">Zadajte heslo pre zakódovanie nahrávok</string>
+
     </resources>
