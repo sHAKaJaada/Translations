@@ -566,4 +566,10 @@
 
     <string name="show_button_to_add_star">Vis \"Tilføj stjerne\"-knap</string>
     <string name="button_install">Installér</string>
+    <string name="msg_grant_permissions_summary">Denne app fungerer kun hvis du tildeler tilladelserne</string>
+
+    <string name="msg_grant_permissions">Tildel tilladelser</string>
+    <string name="menu_add_to_onedrive">Tilføj til OneDrive</string>
+    <string name="sign_out_onedrive">Log ud af OneDrive</string>
+    <string name="cloud_provider_onedrive">Microsoft OneDrive</string>
     </resources>
