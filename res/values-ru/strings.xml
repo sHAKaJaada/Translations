@@ -572,4 +572,15 @@
     <string name="menu_add_to_onedrive">Добавить на OneDrive</string>
     <string name="sign_out_onedrive">Выйти из OneDrive</string>
     <string name="cloud_provider_onedrive">Microsoft OneDrive</string>
+    <string name="not_charging">Не на зарядке</string>
+    <string name="cleanup_uploaded_only_summary">Только загруженные файлы будут автоматически удалены</string>
+    <string name="show_phone_numbers">Показать номера телефонов</string>
+    <string name="cloud_upload_when_charging">Загружать только на зарядке</string>
+    <string name="notify_uploading_onedrive">Идет загрузка на OneDrive</string>
+    <string name="auto_encryption">Автоматическое шифрование</string>
+    <string name="auto_encryption_summary">Шифровать WAV или AMR записи после звонка</string>
+    <string name="auto_encryption_warning">Автоматическое шифрование будет отключено, т.к. оно не поддерживает выбранный формат записи</string>
+    <string name="enter_password_to_encrypt_recordings">Введите пароль для шифрования записей</string>
+
+    <string name="cleanup_uploaded_only">Автоудаление только загруженных файлов</string>
     </resources>
