@@ -578,4 +578,15 @@
     <string name="menu_add_to_onedrive">Προσθήκη στο OneDrive</string>
     <string name="sign_out_onedrive">Αποσύνδεση από OneDrive</string>
     <string name="cloud_provider_onedrive">Microsoft OneDrive</string>
+    <string name="not_charging">Δεν φορτίζει</string>
+    <string name="cleanup_uploaded_only">Καθαρισμός μόνο των ανεβασμένων αρχείων</string>
+    <string name="cleanup_uploaded_only_summary">Μόνο τα ανεβασμένα αρχεία θα αφαιρούνται αυτόματα</string>
+    <string name="show_phone_numbers">Εμφάνιση αριθμών</string>
+    <string name="cloud_upload_when_charging">Ανέβασμα μόνο όταν φορτίζει</string>
+    <string name="notify_uploading_onedrive">Ανεβαίνει στο OneDrive</string>
+    <string name="auto_encryption">Αυτόματη κρυπτογράφηση</string>
+    <string name="auto_encryption_summary">Να κρυπτογραφούνται οι καταγραφές WAV ή AMR μετά την κλήση</string>
+    <string name="auto_encryption_warning">Η αυτόματη κρυπτογράφηση θα παραμείνει ανενεργή διότι δεν υποστηρίζει τον επιλεγμένο τύπο καταγραφής</string>
+    <string name="enter_password_to_encrypt_recordings">Εισάγετε κωδικό για κρυπτογράφηση καταγραφών</string>
+
     </resources>
