@@ -572,4 +572,15 @@
     <string name="menu_add_to_onedrive">Adaugă în OneDrive</string>
     <string name="sign_out_onedrive">Ieșire din OneDrive</string>
     <string name="cloud_provider_onedrive">Microsoft OneDrive</string>
+    <string name="not_charging">Nu încarcă</string>
+    <string name="cleanup_uploaded_only">Doar fișierele curate sunt în ulpoad</string>
+    <string name="cleanup_uploaded_only_summary">Doar fișierele din upload vor fi șterse automat</string>
+    <string name="show_phone_numbers">Arată numerele de telefon</string>
+    <string name="cloud_upload_when_charging">Upload doar când încarcă</string>
+    <string name="notify_uploading_onedrive">Upload în OneDrive</string>
+    <string name="auto_encryption">Encriptare automată</string>
+    <string name="auto_encryption_summary">Encriptare înregistrări WAV sau AMR după apel</string>
+    <string name="auto_encryption_warning">Encriptarea automată va fi dezactivată deoarece nu suportă formatul de înregistrare selectat</string>
+    <string name="enter_password_to_encrypt_recordings">Introdu parola pentru a encripta înregistrările</string>
+
     </resources>
