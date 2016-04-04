@@ -98,7 +98,7 @@
     <string name="settings_recording">録音</string>
     <string name="settings_folders_and_files">フォルダーとファイル</string>
     <string name="settings_ui_and_appearance">インターフェースと外観</string>
-    <string name="settings_security">セキュリティー</string>
+    <string name="settings_security">セキュリティ</string>
     <string name="settings_cloud">クラウド</string>
     <string name="settings_audio_player">オーディオプレイヤー</string>
     <string name="settings_debug">デバッグ</string>
@@ -573,4 +573,21 @@
     <string name="show_button_to_add_star">お気に入りに追加するためのボタンを表示</string>
     <string name="button_install">インストール</string>
     <string name="button_dismiss">消す</string>
+    <string name="menu_add_to_onedrive">OneDriveへ追加</string>
+    <string name="msg_grant_permissions">パーミッションを付与してください</string>
+    <string name="msg_grant_permissions_summary">パーミッションを付与するまでこのアプリは動作しません</string>
+
+    <string name="cleanup_uploaded_only">アップロード済みのファイルのみ</string>
+    <string name="cleanup_uploaded_only_summary">アップロード済みのファイルのみ自動的に削除されます</string>
+    <string name="show_phone_numbers">電話番号を表示</string>
+    <string name="sign_out_onedrive">OneDriveからサインアウト</string>
+    <string name="cloud_provider_onedrive">Microsoft OneDrive</string>
+    <string name="cloud_upload_when_charging">充電中にのみアップロード</string>
+    <string name="notify_uploading_onedrive">OneDriveへアップロード中</string>
+    <string name="auto_encryption">自動暗号化</string>
+    <string name="auto_encryption_summary">通話後にWAVあるいはAMR録音されたファイルを暗号化</string>
+    <string name="auto_encryption_warning">選択された録音形式がサポートされない場合は自動暗号化昨日は無効化されます</string>
+    <string name="enter_password_to_encrypt_recordings">録音を暗号化するためのパスワードを入力してください</string>
+
+    <string name="not_charging">充電されていません</string>
     </resources>
