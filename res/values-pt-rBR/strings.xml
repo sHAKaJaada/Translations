@@ -621,4 +621,20 @@
     <string name="app_description_2">O aplicativo possui diferentes métodos de gravação. Se você tiver sorte suficiente, o aplicativo não falhará para gravar ambos lados da chamada através da API padrão e sem privilégio root. No entanto, você deve checar cada fonte de áudio da API padrão em Configurações &gt; Gravação &gt; Método de Gravação &gt; API Padrão.</string>
     <string name="app_description_3">Se você tentou cada fonte de áudio na API Padrão e o aplicativo não gravou, ou gravou apenas uma das vozes, isto significa que o fabricante ou falhou para implementar a gravação ou bloqueou gravações de chamadas no nível de sistema.</string>
     <string name="app_description_4">Você precisa ter privilégios de acesso root para tentar outros métodos de gravação. Para métodos root é importante selecionar corretamente o aparelho em Configurações &gt; Gravação. Selecione um aparelho com mesmo tipo de chipset se o seu aparelho específico não estiver listado.</string>
-</resources>
+<string name="msg_supersu_required">Seu aplicativo de super usuário pode ser incompatível. Por favor instale o SuperSu.</string>
+    <string name="msg_grant_permissions">Por favor conceda as permissões</string>
+    <string name="msg_grant_permissions_summary">O app não funcionará até que você conceda as permissões</string>
+
+    <string name="not_charging">Não está carregando</string>
+    <string name="menu_add_to_onedrive">Adicionar ao OneDrive</string>
+    <string name="cleanup_uploaded_only_summary">Apenas serão removidos os arquivos já enviados</string>
+    <string name="show_button_to_add_star">Mostrar o botão para adicionar como favorito</string>
+    <string name="show_phone_numbers">Mostrar números do telefone</string>
+    <string name="sign_out_onedrive">Sair do OneDrive</string>
+    <string name="cloud_upload_when_charging">Enviar somente quando estiver carregando</string>
+    <string name="delete_recording_after_upload">Apagar a gravação após o upload</string>
+    <string name="delete_recording_after_upload_summary">A gravação será apagada após o sucesso do upload</string>
+
+    <string name="notify_uploading_onedrive">Enviando ao OneDrive</string>
+    <string name="auto_unlock">Desbloqueio automático</string>
+    </resources>
