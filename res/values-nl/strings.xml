@@ -531,4 +531,5 @@
 
     <string name="send_sms">Verstuur SMS</string>
 
+    <string name="msg_supersu_required">Uw superuser app is mogelijk niet compatibel. Installeer indien mogelijk SuperSU</string>
     </resources>
