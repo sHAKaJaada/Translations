@@ -347,7 +347,7 @@
     <string name="require_password_summary">K otevření aplikace je požadováno heslo</string>
     <string name="require_password_summary_no_key">Vyžadovat heslo při spuštění aplikace. K této funkci je zapotřebí nejprve vytvořit klíč</string>
     <string name="lock_after">Zamknout po</string>
-    <string name="lock_after_exit">Exit</string>
+    <string name="lock_after_exit">Ukončení</string>
     <string name="lock_after_1_minute">1 min.</string>
     <string name="lock_after_3_minutes">3 min.</string>
     <string name="lock_after_5_minutes">5 min.</string>
