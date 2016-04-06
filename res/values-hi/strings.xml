@@ -575,4 +575,15 @@
     <string name="menu_add_to_onedrive">OneDrive में भेजें</string>
     <string name="sign_out_onedrive">OneDrive से लोग आउट करें</string>
     <string name="cloud_provider_onedrive">माइक्रोसॉफ़्ट OneDrive</string>
+    <string name="not_charging">चार्ज नहीं हो रहा</string>
+    <string name="cleanup_uploaded_only">केवल अपलोड हो चुकी फाइलें मिटा दी जाएं</string>
+    <string name="cleanup_uploaded_only_summary">केवल अपलोड हो चुकी फाइलें स्वतः मिटा दी जायेंगी</string>
+    <string name="show_phone_numbers">फ़ोन नंबर दर्शाये जाएँ</string>
+    <string name="cloud_upload_when_charging">केवल चार्जिंग होते वक़्त ही अपलोडिंग हो</string>
+    <string name="notify_uploading_onedrive">OneDrive में उपलोडिंग जारी है</string>
+    <string name="auto_encryption">स्वतः कूट बद्द (Encryption) की जाए</string>
+    <string name="auto_encryption_summary">WAV व् AMR रिकॉर्डिंग कॉल के पश्चात कूट बद्द की जायें</string>
+    <string name="auto_encryption_warning">रिकॉर्डिंग फ़ॉर्मेट के बेमेल होने के चलते स्वतः कूट बद्दता नहीं होगी</string>
+    <string name="enter_password_to_encrypt_recordings">रिकॉर्डिंग को कूट बद्द करने हेतु पासवर्ड डालें</string>
+
     </resources>
