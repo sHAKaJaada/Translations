@@ -565,4 +565,18 @@
     <string name="button_more_info">Падрабязней</string>
     <string name="button_dismiss">Схаваць</string>
     <string name="app_description_summary">Праграма для запісу званкоў з тэлефоннай лініі</string>
+    <string name="not_charging">Не на зарадцы</string>
+    <string name="menu_add_to_onedrive">Дадаць на OneDrive</string>
+    <string name="cleanup_uploaded_only">Аўтавыдаленне толькі загружаных файлаў</string>
+    <string name="cleanup_uploaded_only_summary">Толькі загружаныя файлы будуць аўтаматычна выдалены</string>
+    <string name="show_phone_numbers">Паказаць нумары тэлефонаў</string>
+    <string name="sign_out_onedrive">Выйсці з OneDrive</string>
+    <string name="cloud_provider_onedrive">Microsoft OneDrive</string>
+    <string name="cloud_upload_when_charging">Загружаць толькі на зарадцы</string>
+    <string name="notify_uploading_onedrive">Ідзе загрузка на OneDrive</string>
+    <string name="auto_encryption">Аўтаматычнае шыфраванне</string>
+    <string name="auto_encryption_summary">Шыфраваць WAV ці AMR запісы пасля званка</string>
+    <string name="auto_encryption_warning">Аўтаматычнае шыфраванне будзе адключана, бо яно не падтрымлівае абраны фармат запісу</string>
+    <string name="enter_password_to_encrypt_recordings">Увядзіце пароль для шыфравання запісаў</string>
+
     </resources>
