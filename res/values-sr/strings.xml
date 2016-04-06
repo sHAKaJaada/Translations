@@ -565,4 +565,24 @@
     <string name="button_dismiss">Отказати</string>
 
     <string name="app_description_summary">Апликација за аутоматско снимање телефонских разговора</string>
+    <string name="msg_supersu_required">Могуће је да је Ваша Суперкорисничка апликација некомпатибилна. Молим да инсталирате SuperSU.</string>
+    <string name="msg_grant_permissions">Омогућите приступ.</string>
+    <string name="msg_grant_permissions_summary">Апликација неће радити док не омогућите приступ</string>
+
+    <string name="not_charging">Није на пуњачу</string>
+    <string name="menu_add_to_onedrive">Додати у OneDrive</string>
+    <string name="cleanup_uploaded_only">Очистити само послате фајлове</string>
+    <string name="cleanup_uploaded_only_summary">Само послати фајлови ће бити аутоматски обрисани</string>
+    <string name="show_button_to_add_star">Приказ дугмића за додавање у омиљене</string>
+    <string name="show_phone_numbers">Приказ телефонских бројева</string>
+    <string name="sign_out_onedrive">Одјава из OneDrive</string>
+    <string name="cloud_provider_onedrive">Microsoft OneDrive</string>
+    <string name="cloud_upload_when_charging">Слање само када је на пуњачу</string>
+    <string name="notify_uploading_onedrive">Слање на OneDrive</string>
+    <string name="auto_encryption">Аутоматско дешифровање</string>
+    <string name="auto_encryption_summary">Шифровање WAV или AMR снимака после позива</string>
+    <string name="auto_encryption_warning">Аутоматско шифровање ће бити онемогућено услед неподржавања жељеног формата снимка</string>
+    <string name="enter_password_to_encrypt_recordings">Унети лозинку за шифровање снимака</string>
+
+    <string name="button_install">Инсталација</string>
     </resources>
