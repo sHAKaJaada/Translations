@@ -563,4 +563,21 @@
 
     <string name="not_charging">Ne charge pas</string>
     <string name="menu_add_to_onedrive">Ajouter à OneDrive</string>
+    <string name="cleanup_uploaded_only">Nettoyer les fichiers mis en ligne uniquement</string>
+    <string name="cleanup_uploaded_only_summary">Seuls les fichiers mis en ligne seront automatiquement supprimés</string>
+    <string name="show_button_to_add_star">Montrer le bouton pour étoiler</string>
+    <string name="show_phone_numbers">Montrer les numéros de téléphone</string>
+    <string name="sign_out_onedrive">Se déconnecter de OneDrive</string>
+    <string name="cloud_provider_onedrive">Microsoft OneDrive</string>
+    <string name="cloud_upload_when_charging">Mettre en ligne pendant la charge uniquement</string>
+    <string name="notify_uploading_onedrive">Mettre en ligne sur OneDrive</string>
+    <string name="auto_encryption">Cryptage automatique</string>
+    <string name="auto_encryption_summary">Crypter les enregistrements WAV ou AMR après un appel</string>
+    <string name="auto_encryption_warning">Le cryptage automatique sera désactivé car il ne prend pas en charge le format d\'enregistrement sélectionné</string>
+    <string name="enter_password_to_encrypt_recordings">Entrer le mot de passe pour crypter les enregistrements</string>
+
+    <string name="button_install">Installer</string>
+    <string name="button_more_info">Plus d\'infos</string>
+    <string name="button_dismiss">Ignorer</string>
+    <string name="app_description_summary">Une appli pour enregistrer les appels de la ligne téléphonique automatiquement</string>
     </resources>
