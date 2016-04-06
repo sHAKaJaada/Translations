@@ -324,7 +324,7 @@
     <string name="notify_encrypting">Ідзе шыфраванне</string>
     <string name="notify_decrypting">Ідзе расшыфроўка</string>
     <string name="notify_waiting_for_calls">Чаканне званкоў</string>
-    <string name="notify_tasks_remaining">%d засталося</string>
+    <string name="notify_tasks_remaining">засталося %d задач</string>
 
     <!-- Password dialog -->
     <string name="wrong_password">Няправільны пароль</string>
