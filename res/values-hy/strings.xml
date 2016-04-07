@@ -561,4 +561,32 @@
     <string name="app_description_2">Ծրագրի մեջ կան ձայնագրման տարբեր տարբերակներ: Եթե ձեղ հաջողվի ապա ձայնագրությունը կլինի երկկողմանի և առանց ռութի անհրաժեշտության: Բայց ձեզ անպայման պետք է փորձել բոլոր տարբերակները - Կարգավորթւոմներ-Ձայնագրություն-Ստանդարտ API-բաժնում:</string>
     <string name="app_description_3">Եթե դութ փորձել եք բոլոր տարբերակները և ծրագիրը ոչինչ չի ձայնագրել կամ ձայնագրել է միայն ձեր ձայնը ապա արտադրողը կամ չի իրագործել այդ ֆունկցիան կամ արգելափակել է այն:</string>
     <string name="app_description_4">Դուք պետք է ունենաք ռութ որպեսզի փորձեք ձայնագրության մյուս տարբերակները:Ռութ տարբերակների համար շատ կարևոր է ընտրել ճիշտ սարքի մոդելը Կարգավորումնե-Ձայնագրություն բաժնից: Ընտրեք նույն չիպսետով սարք եթե ձեր սարքի մոդելը բացակայում է ցանկում:</string>
-</resources>
+<string name="msg_supersu_required">Ձեր սուպերյուզերը կարող է լինել անհամատեղելի: Խնդրում ենք փորձել տեղադրել SuperSU:</string>
+    <string name="msg_grant_permissions">Խմդրում ենք տրամադրել մուտքի թույլատվություն</string>
+    <string name="msg_grant_permissions_summary">Ծրագիրը չի աշխատի, եթե դուք չտրամադրեք թույլատվություն</string>
+
+    <string name="not_charging">Չի լիցքավորվում</string>
+    <string name="menu_add_to_onedrive">Ավելացնել OneDrive-ում</string>
+    <string name="cleanup_uploaded_only">Ավտոհեռցաում միայն ներբեռնված ֆայլերի</string>
+    <string name="cleanup_uploaded_only_summary">Միայն ավտովերբեռնված ֆայլերի հեռացում</string>
+    <string name="show_button_to_add_star">Ցույց տալ նշման կոճակը</string>
+    <string name="show_phone_numbers">Ցուցադրել հեռախոսահամարները</string>
+    <string name="sign_out_onedrive">Դուրս գալ OneDrive-ից</string>
+    <string name="cloud_provider_onedrive">Միքրոսոֆթ OneDrive</string>
+    <string name="cloud_upload_when_charging">Վերբեռնել միայն լիցքավորման ժամանակ</string>
+    <string name="delete_recording_after_upload">Ջնջել ձայնագրությունը վերբեռնելուց հետո</string>
+    <string name="delete_recording_after_upload_summary">Ձայնագրությունը կջնջվի վերբեռնումից հետո</string>
+
+    <string name="notify_uploading_onedrive">Ներբեռնվում է OneDrive</string>
+    <string name="auto_unlock">Ավտո ապաարգելափակում</string>
+    <string name="auto_unlock_summary">Ապաարգելափակել ավտոմատ՝ առանց հաստատելու</string>
+    <string name="auto_encryption">Ավտոմատ կոդավորում</string>
+    <string name="auto_encryption_summary">Կոսավորել WAV-ը AMR-ի ձայնագրությունը զանգից հետո</string>
+    <string name="auto_encryption_warning">Ավտոկոդավորումը կանջատվի, քանի որ, տվյալ փորմատը չի աշխատում</string>
+    <string name="enter_password_to_encrypt_recordings">Մուտքագրեք գաղտնաբառը կոդավորման համար</string>
+
+    <string name="button_install">Տեղադրել</string>
+    <string name="button_more_info">Մանրամասն</string>
+    <string name="button_dismiss">Թաքցնել</string>
+    <string name="app_description_summary">Հեռախոսային խոսակցությունները գծից ձայնագրող ծրագիր</string>
+    </resources>
