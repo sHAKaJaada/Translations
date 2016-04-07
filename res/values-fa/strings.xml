@@ -539,4 +539,43 @@
 
     <string name="category_contacts">مخاطبین</string>
     <string name="link_to_contacts">لینک به مخاطبین</string>
-    </resources>
+    <string name="msg_supersu_required">برنامه superuser شما ممکن است ناسازگار باشد، لطفا از برنامه SuperSU استفاده کنید.</string>
+    <string name="msg_grant_permissions">لطفا دسترسی‌ها را اعطا کنید</string>
+    <string name="msg_grant_permissions_summary">تا زمانی‌که شما دسترسی‌ها را اعطا نکنید برنامه کار نخواهد کرد</string>
+
+    <string name="not_charging">شارژ نمی‌شود</string>
+    <string name="menu_add_to_onedrive">افزودن به OneDrive</string>
+    <string name="cleanup_uploaded_only">فقط فایل‌های آپلود شده را پاک کن</string>
+    <string name="cleanup_uploaded_only_summary">فقط فایل‌های آپلود شده بطور خودکار پاک خواهند شد</string>
+    <string name="show_button_to_add_star">نمایش دکمه برای افزودن به موردعلاقه‌ها</string>
+    <string name="show_phone_numbers">نمایش شماره تلفن‌ها</string>
+    <string name="link_to_contacts_summary">ساخت میان‌بر برای نمایش مکالمات ضبط شده از مخاطبین</string>
+    <string name="view_recordings">نمایش مکالمات ضبط شده</string>
+
+    <string name="sign_out_onedrive">خروج از OneDrive</string>
+    <string name="cloud_provider_onedrive">Microsoft OneDrive</string>
+    <string name="cloud_upload_when_charging">فقط زمانی‌که دستگاه در حال شارژ است آپلود کن</string>
+    <string name="delete_recording_after_upload">حذف مکالمه‌ی ضبط شده پس‌از آپلود</string>
+    <string name="delete_recording_after_upload_summary">مکالمه‌ی ضبط شده پس‌از آپلود موفق حذف خواهد شد</string>
+
+    <string name="notify_uploading_onedrive">درحال آپلود در OneDrive</string>
+    <string name="auto_unlock">گشایش خودکار</string>
+    <string name="auto_unlock_summary">زمانی‌که رمز ورود صحیح وارد شد بدون نیاز به فشردن دکمه برنامه باز شود</string>
+    <string name="auto_encryption">رمزنگاری خودکار</string>
+    <string name="auto_encryption_summary">رمزنگاری WAV یا AMR پس از ضبط مکالمه</string>
+    <string name="auto_encryption_warning">رمزنگاری خودکار به‌دلیل اینکه فرمت ضبط انتخاب شده پشتیبانی نمی‌شود غیرفعال می‌شود</string>
+    <string name="enter_password_to_encrypt_recordings">برای رمزنگاری مکالمات ضبط شده رمزعبور را وارد کنید</string>
+
+    <string name="button_install">نصب</string>
+    <string name="button_more_info">اطلاعات بیشتر</string>
+    <string name="button_dismiss">رد شدن</string>
+    <string name="bengali_translation">ترجمه بنگالی</string>
+    <string name="bengali_translation_summary">Saurav Ghosh (ithehappy)</string>
+
+    <string name="app_description_summary">برنامه‌ای برای ضبط خودکار مکالمات</string>
+    <string name="app_description_0">برنامه برای ضبط مکالمات تلفنی بر روی دستگاه‌هایی که سخت‌افزار آنها از این قابلیت پشتیبانی می‌کنید طراحی شده است. ضبط مکالمات بستگی به دستگاه شما دارد زیرا معمولا تولیدکنندگان ویژگی‌های مورد نیاز را در محصولات خود پیاده‌سازی نمی‌کنند.</string>
+    <string name="app_description_1">پس درصورتی‌که تولیدکننده دستگاه شما این ویژگی‌ها را پیاده‌سازی نکرده باشد بایستی دستگاه شما روت شده باشد، اما این بدان معنا نیست که درصورتی که دستگاه شما روت شده باشد حتما ضبط مکالمات انجام خواهد شد.</string>
+    <string name="app_description_2">برنامه روش‌های مختلفی برای ضبط مکالمات دارد، اگر شما خوش‌شانس باشید برنامه به‌درستی مکالمات را ضبط خواهد کرد. اما شما می‌توانید روش های دیگر را از مسیر زیر امتحان کنید.\nSettings &gt; Recording &gt; Standard API.</string>
+    <string name="app_description_3">اگر تمام روش‌هارا امتحان کردید و ضبط مکالمات انجام نشد بدان‌معناست که تولید‌کننده دستگاه شما ازضبط مکالمات پشتیبانی نمی‌کند.</string>
+    <string name="app_description_4">برای استفاده از روش‌های دیگر دستگاه شما باید روت شده باشد. برای انتخاب روش‌های دیگر به مسیر زیر بروید و دستگاه خود را انتخاب کنید.\nSettings &gt; Recording</string>
+</resources>
