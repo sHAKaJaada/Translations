@@ -572,4 +572,15 @@
     <string name="cloud_provider_onedrive">Microsoft OneDrive</string>
     <string name="sign_out_onedrive">Wyloguj z OneDrive</string>
     <string name="menu_add_to_onedrive">Dodaj do OneDrive</string>
+    <string name="not_charging">Brak ładowana</string>
+    <string name="cleanup_uploaded_only">Sprzątanie tylko plików wysłanych</string>
+    <string name="cleanup_uploaded_only_summary">Tylko pliki wysłane będą automatycznie usunięte</string>
+    <string name="show_phone_numbers">Pokaż numer telefonu</string>
+    <string name="cloud_upload_when_charging">wysyłaj tylko podczas ładowania</string>
+    <string name="notify_uploading_onedrive">Wyślij na OneDrive</string>
+    <string name="auto_encryption">Auto szyfrowanie</string>
+    <string name="auto_encryption_summary">Szyfruj nagrania WAV lub AMR po rozmowie</string>
+    <string name="auto_encryption_warning">Auto szyfrowanie będzie wyłączone ponieważ nie wspiera wybranego formatu nagrania</string>
+    <string name="enter_password_to_encrypt_recordings">Wprowadź hasło w celu szyfrowania nagrań</string>
+
     </resources>
