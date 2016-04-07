@@ -571,4 +571,15 @@
     <string name="app_description_2">Die App hat unterschiedliche Aufnahmemethoden. Mit etwas Glück funktioniert die 2-Wege-Aufzeichnung über die Stadard-API ohne Root-Rechte. Allerdings müssen dann alle Audioquellen für die Stadard-API unter Einstellungen &gt; Aufzeichnung &gt; Standard-API ausgewählt sein.</string>
     <string name="app_description_3">Wenn du alle Audioquellen der Standard-API ausprobiert hast und die App nicht, oder nur deine Stimme aufzeichnet, bedeutet dies, dass der Gerätehersteller die Aufzeichnungsfunktion nicht korrekt installiert oder auf Systemebene blockiert hat.</string>
     <string name="app_description_4">Du benötigst Root-Rechte um andere Aufzeichnungsmethoden zu testen. Für die Root-Methode muss das korrekte Gerät unter Einstellungen &gt; Aufzeichnung ausgewählt werden. Wähle ein Gerät mit dem gleichen Chipsatz wenn dein Gerät nicht aufgelistet ist.</string>
-</resources>
+<string name="not_charging">Wird nicht geladen</string>
+    <string name="cleanup_uploaded_only">Bereinige nur hochgeladene Dateien</string>
+    <string name="cleanup_uploaded_only_summary">Nur hochgeladene Dateien werden automatisch entfernt</string>
+    <string name="show_phone_numbers">Zeige Telefonnummern</string>
+    <string name="cloud_upload_when_charging">Nur beim Laden hochladen</string>
+    <string name="notify_uploading_onedrive">Hochladen zu OneDrive</string>
+    <string name="auto_encryption">Automatisch verschlüsseln</string>
+    <string name="auto_encryption_summary">Verschlüssele WAV- oder AMR-Aufzeichnungen nach einem Anruf</string>
+    <string name="auto_encryption_warning">Automatische Verschlüsselung wird deaktiviert, wenn das gewählte Aufzeichnungsformat nicht unterstützt wird</string>
+    <string name="enter_password_to_encrypt_recordings">Passwort eingeben um Aufzeichnungen zu verschlüsseln</string>
+
+    </resources>
