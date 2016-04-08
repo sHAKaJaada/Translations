@@ -364,7 +364,7 @@
     <string name="audio_output">Salida de Audio</string>
     
     <string name="main_speaker">Altavoz principal</string>
-    <string name="phone_speaker">Altavoz del teléfono</string>
+    <string name="phone_speaker">Altavoz interno del teléfono</string>
     <string name="use_proximity_sensor">Usar el sensor de proximidad</string>
     
     <string name="switch_audio_output">Cambiar salida de audio</string>
