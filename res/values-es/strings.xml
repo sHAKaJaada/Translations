@@ -795,4 +795,15 @@
     <string name="menu_add_to_onedrive">Añadir a OneDrive</string>
     <string name="sign_out_onedrive">Cerrar la sesión de OneDrive</string>
     <string name="cloud_provider_onedrive">Microsoft OneDrive</string>
+    <string name="not_charging">No está cargando</string>
+    <string name="cleanup_uploaded_only">Limpiar solo archivos ya subidos</string>
+    <string name="cleanup_uploaded_only_summary">Solo los archivos subidos se eliminarán automáticamente</string>
+    <string name="show_phone_numbers">Mostrar números de teléfono</string>
+    <string name="cloud_upload_when_charging">Subir solo si el móvil está cargando</string>
+    <string name="notify_uploading_onedrive">Subiendo a OneDrive</string>
+    <string name="auto_encryption">Auto encriptado</string>
+    <string name="auto_encryption_summary">Encriptar las grabaciones WAV o AMR luego de una llamada</string>
+    <string name="auto_encryption_warning">El auto encriptado se desactivará debido a que el formato de grabación no está soportado</string>
+    <string name="enter_password_to_encrypt_recordings">Ingrese la contraseña para las grabaciones encriptadas</string>
+
     </resources>
