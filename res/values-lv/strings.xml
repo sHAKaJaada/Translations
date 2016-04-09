@@ -193,7 +193,7 @@
     <string name="api_source_voice_communication">Balss sakari</string>
     <string name="category_wav_settings">WAV iestatījumi</string>
     <string name="category_wav_and_mp3_settings">WAV &amp; MP3 iestatījumi</string>
-    <string name="when_bt_connected">Kad BT savienots ...</string>
+    <string name="when_bt_connected">Kad BT savienots …</string>
     <string name="audio_source_when_bt_connected">Audio avots, ja BT pievienots</string>
 
     <!-- Actions when BT connected -->
@@ -302,7 +302,7 @@
     
     
     <string name="low_space_warning">Maz vietas, brīdinājums</string>
-    <string name="low_space_warning_summary">Uzstādīt "maz vietas" brīdinājuma robežvērtību megabaitos</string>
+    <string name="low_space_warning_summary">Iestatiet nepietiekamas vietas brīdinājuma ierobežojumu megabaitos</string>
 
     <!-- Settings -> Cloud -->
     <string name="cloud_provider">Mākoņdatu pakalpojumu sniedzējs</string>
@@ -564,7 +564,7 @@
     <string name="app_description_1">Tātad \"root\" ir jābūt uz daudzām ierīcēm, ja ražotāji nav īstenojuši nepieciešamo funkcionalitāti. Bet tas nenozīmē, ka \"root\" ir glābējs jebkurai ierīcei, zvanu ierakstīšana var būt traucēta aparatūras līmenī. \"Root\" var bieži palīdzēt, bet ne vienmēr.</string>
     <string name="app_description_2">App ir dažādas ierakstīšanas metodes. Ja Jums paveicies, app nebūs problēmas ierakstīt skaņu abos virzienos ar \"standarta API\" ierakstīšanas metodi bez \"Root\". Bet Jums būs nepieciešams pārbaudīt katru skaņas avotu \"Standard API\" Iestatījumi&gt; Ierakstīšana&gt; Standarta API.</string>
     <string name="app_description_3">Ja esat izmēģinājis katru skaņas avotu \"Standarta API\" un app neieraksta vai ierakstīta tikai Jūsu balss, tas nozīmē, ka ražotājam ir izdevies īstenot, vai bloķēt zvanu ierakstīšanu sistēmas līmenī.</string>
-    <string name="app_description_4">Jums ir jābūt \"Root\" atļaujai izmēģināt citas ierakstīšanas metodes. Par \"Root\" metodēm, tas ir svarīgi izvēlēties pareizo ierīci - Uzstādījumi&gt; Ierakstīšana. Izvēlieties ierīci, ar tādu pašu mikroshēmu, ja jūsu ierīce nav uzskaitīta sarakstā.</string>
+    <string name="app_description_4">Jums jābūt root tiesībām, lai izmēģinātu citas ierakstu metodes. Root metodēs, ir svarīgi izvēlēties pareizo ierīci - Iestatījumi &gt; Ierakstīšana. Izvēlieties ierīci, ar to pašu mikroshēmu, ja Jūsu ierīce nav sarakstā.</string>
 <string name="msg_supersu_required">Jūsu \"superuser\" app nav saderīga. Lūdzu izskatīt iespēju instalēt SuperSU.</string>
     <string name="msg_grant_permissions">Lūdzu piešķirt atļaujas</string>
     <string name="msg_grant_permissions_summary">Šī programma nedarbosies, ja nepiešķirat atļaujas</string>
@@ -589,7 +589,7 @@
     <string name="auto_encryption_warning">Automātiska šifrēšana tiks atspējota, jo tā neatbalsta izvēlēto ierakstīšanas formātu</string>
     <string name="enter_password_to_encrypt_recordings">Ievadiet paroli, lai šifrētu ierakstus</string>
 
-    <string name="button_install">Uzstādīt</string>
+    <string name="button_install">Instalēt</string>
     <string name="button_more_info">Vairāk info</string>
     <string name="button_dismiss">Izbeigt</string>
     <string name="app_description_summary">Lietojumprogramma ierakstīta tālruņa zvanus no tālruņa līnijas automātiski</string>
