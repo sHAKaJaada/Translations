@@ -565,4 +565,32 @@
     <string name="app_description_2">App ir dažādas ierakstīšanas metodes. Ja Jums paveicies, app nebūs problēmas ierakstīt skaņu abos virzienos ar \"standarta API\" ierakstīšanas metodi bez \"Root\". Bet Jums būs nepieciešams pārbaudīt katru skaņas avotu \"Standard API\" Iestatījumi&gt; Ierakstīšana&gt; Standarta API.</string>
     <string name="app_description_3">Ja esat izmēģinājis katru skaņas avotu \"Standarta API\" un app neieraksta vai ierakstīta tikai Jūsu balss, tas nozīmē, ka ražotājam ir izdevies īstenot, vai bloķēt zvanu ierakstīšanu sistēmas līmenī.</string>
     <string name="app_description_4">Jums ir jābūt \"Root\" atļaujai izmēģināt citas ierakstīšanas metodes. Par \"Root\" metodēm, tas ir svarīgi izvēlēties pareizo ierīci - Uzstādījumi&gt; Ierakstīšana. Izvēlieties ierīci, ar tādu pašu mikroshēmu, ja jūsu ierīce nav uzskaitīta sarakstā.</string>
-</resources>
+<string name="msg_supersu_required">Jūsu \"superuser\" app nav saderīga. Lūdzu izskatīt iespēju instalēt SuperSU.</string>
+    <string name="msg_grant_permissions">Lūdzu piešķirt atļaujas</string>
+    <string name="msg_grant_permissions_summary">Šī programma nedarbosies, ja nepiešķirat atļaujas</string>
+
+    <string name="not_charging">Uzlāde nenotiek</string>
+    <string name="menu_add_to_onedrive">Pievienot OneDrive</string>
+    <string name="cleanup_uploaded_only">Tikai augšupielādēto failu tīrīšana</string>
+    <string name="cleanup_uploaded_only_summary">Tikai augšupielādētie faili tiks automātiski noņemti</string>
+    <string name="show_button_to_add_star">Rādīt pogu, lai pievienotu zvaigzni</string>
+    <string name="show_phone_numbers">Rādīt tālruņa numurus</string>
+    <string name="sign_out_onedrive">Izrakstīties no OneDrive</string>
+    <string name="cloud_provider_onedrive">Microsoft OneDrive</string>
+    <string name="cloud_upload_when_charging">Augšupielādēt tikai uzlādes laikā</string>
+    <string name="delete_recording_after_upload">Dzēst ierakstu pēc augšupielādes</string>
+    <string name="delete_recording_after_upload_summary">Ieraksts tiks izdzēsts pēc veiksmīgas augšupielādes</string>
+
+    <string name="notify_uploading_onedrive">OneDrive augšupielāde</string>
+    <string name="auto_unlock">Automātiska atbloķēšana</string>
+    <string name="auto_unlock_summary">Atbloķē nenospiežot \'LABI\' (OK), kad ir ievadīta pareizā parole</string>
+    <string name="auto_encryption">Automātiska šifrēšana</string>
+    <string name="auto_encryption_summary">Šifrēt WAV vai AMR ierakstus pēc zvana.</string>
+    <string name="auto_encryption_warning">Automātiska šifrēšana tiks atspējota, jo tā neatbalsta izvēlēto ierakstīšanas formātu</string>
+    <string name="enter_password_to_encrypt_recordings">Ievadiet paroli, lai šifrētu ierakstus</string>
+
+    <string name="button_install">Uzstādīt</string>
+    <string name="button_more_info">Vairāk info</string>
+    <string name="button_dismiss">Izbeigt</string>
+    <string name="app_description_summary">Lietojumprogramma ierakstīta tālruņa zvanus no tālruņa līnijas automātiski</string>
+    </resources>
