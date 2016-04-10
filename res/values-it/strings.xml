@@ -582,4 +582,15 @@
     <string name="button_more_info">Altre info</string>
     <string name="button_dismiss">Annulla</string>
     <string name="app_description_summary">Un\'app per registrare automaticamente le chiamate dalla linea telefonica</string>
+    <string name="not_charging">Non in carica</string>
+    <string name="cleanup_uploaded_only">Pulizia dei soli file caricati</string>
+    <string name="cleanup_uploaded_only_summary">Solo i file già caricati saranno rimossi automaticamente</string>
+    <string name="show_phone_numbers">Mostra numeri di telefono</string>
+    <string name="cloud_upload_when_charging">Carica solo sotto alimentazione</string>
+    <string name="notify_uploading_onedrive">Caricamento su OneDrive</string>
+    <string name="auto_encryption">Cifratura automatica</string>
+    <string name="auto_encryption_summary">Codifica registrazioni WAV o AMR dopo la chiamata</string>
+    <string name="auto_encryption_warning">La cifratura automatica sarà disabilitata, poiché il formato di registrazione selezionato non è supportato</string>
+    <string name="enter_password_to_encrypt_recordings">Inserire la password per la cifratura delle registrazioni</string>
+
     </resources>
