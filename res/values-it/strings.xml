@@ -558,7 +558,7 @@
     <string name="view_recordings">Visualizza registrazioni</string>
 
     <string name="bengali_translation">Traduzione bengalese</string>
-    <string name="bengali_translation_summary">di Saurav Ghosh</string>
+    <string name="bengali_translation_summary">di Saurav Ghosh (ithehappy)</string>
 
     <string name="app_description_0">L\'app è concepita per la registrazione automatica delle chiamate dalla linea telefonica, dove supportata dall\'hardware e dal kernel. La registrazione delle telefonate è una funzione che dipende ampiamente dalle funzionalità del dispositivo, poiché i produttori spesso non implementano come dovrebbero le funzionalità richieste a livello di sistema.</string>
     <string name="app_description_1">Per questa ragione i diritti di root sono necessari su molti dispositivi in cui i produttori non hanno implementato le funzionalità richieste. Ma ciò non implica che i diritti di root garantiscono il funzionamento dell\'app su qualunque dispositivo, poiché la registrazione delle chiamate potrebbe essere impedita da limitazioni hardware. I diritti di root aiutano spesso, ma non sempre.</string>
