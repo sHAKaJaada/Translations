@@ -550,4 +550,32 @@
     <string name="app_description_2">"პროგრამაშია რამოდენიმე ჩაწერის მეთოდი,თუ ბედი გაგიღიმებთ ,მაშინ პროგრამა ჩაიწერს ორივე მხრიდან რუთის გარეშე Standard API მეთოდით,მაგრამ უნდა შეამოწმოთ ყველა წყარო ჩაწერისა   ,ოპციები ჩაწერა Standard API"</string>
     <string name="app_description_3">"თუ თქვენ შეამოწმეთ  ყველა პარამეტრი ,მაგრამ პროგრამამ არ ჩაიწერა ,ან ჩაიწერა მხოლოდ თქვენი ხმა ეს ნიშნავს რომ პროგრამის შემქმნელმა ან ვერ შექმნა ჯერ ფუნქცია თვენი ტელეფონისთვის  ან ის დაბლოკილია"</string>
     <string name="app_description_4">თქვენ გჭირდებათ რუთი რომ შეამოწმოთ ჩაწერის სხვა მეთოდები,თუ თქვენი ტელეფონი სიაში არაა,მაშინ აირჩიეთ იგივე ჩიპსეტის მქონე ჩაწერის მეთოდი.</string>
-</resources>
+<string name="msg_supersu_required">"თქვენი superuser ი  შეიძლება იყოს შეუთავსებელი.განიხილეთ თავიდან მისი დაყენების შესაძლებლობა"</string>
+    <string name="msg_grant_permissions">გთხოვთ მიანიჭეთ უფლება</string>
+    <string name="msg_grant_permissions_summary">პროგრამა არ იმუშავებს თუ არ მიანიჭებთ უფლებას</string>
+
+    <string name="not_charging">არ იტენება</string>
+    <string name="menu_add_to_onedrive">დაამატეთ onedrive</string>
+    <string name="cleanup_uploaded_only">დამატებული ფაილების ავტომატური წაშლა</string>
+    <string name="cleanup_uploaded_only_summary">მხოლოდ ჩამოტვირთული ფაილები იქნებიან ავტომატურად წაშლილი</string>
+    <string name="show_button_to_add_star">ღილაკის ჩვენება ვარსკვლავის დასამატებლად</string>
+    <string name="show_phone_numbers">ტელეფონის ნომრის ჩვენება</string>
+    <string name="sign_out_onedrive">გამოვიდეთ one drividan</string>
+    <string name="cloud_provider_onedrive">Microsoft OneDrive</string>
+    <string name="cloud_upload_when_charging">ატვირთეთ მხოლოდ დატენვისას</string>
+    <string name="delete_recording_after_upload">ჩანაწერის წაშლა ატვირთვის მერე</string>
+    <string name="delete_recording_after_upload_summary">ჩანაწერი წაიშლება ატვირთვის მერე</string>
+
+    <string name="notify_uploading_onedrive">მიმდინარეობს one drive ზე ატვირთვა</string>
+    <string name="auto_unlock">ავტომატური განბლოკვა</string>
+    <string name="auto_unlock_summary">ok კლავიშის გარეშე განბლოკვა,თუ პაროლი სწორადაა შეყვანილი</string>
+    <string name="auto_encryption">ავტომატური გაშიფრვა</string>
+    <string name="auto_encryption_summary">გაშიფრა wav ან amr ჩანაწერის</string>
+    <string name="auto_encryption_warning">ავტომატური გაშიფრვა გამორთულია,რადგან ის არ ვერ აღიქვამს არჩეულ ფორმატს</string>
+    <string name="enter_password_to_encrypt_recordings">შეიყვანეთ პაროლი ჩანაწერის გასაშიფრად</string>
+
+    <string name="button_install">დავაპროგრამო</string>
+    <string name="button_more_info">მეტი ინფორმაცია</string>
+    <string name="button_dismiss">დამალე</string>
+    <string name="app_description_summary">პროგრამა ჩასაწერად ტელეფონიდან</string>
+    </resources>
