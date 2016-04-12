@@ -53,7 +53,7 @@
     <string name="add_to_contacts">新增到聯絡人</string>
 
     <!-- List -> Context menu -->
-    <string name="menu_add_to_dropbox">上傳到Dropbox</string>
+    <string name="menu_add_to_dropbox">增加到Dropbox</string>
     <string name="menu_add_note">增加注釋</string>
     <string name="menu_edit_note">編輯注釋</string>
     <string name="menu_delete">刪除</string>
@@ -571,5 +571,19 @@
 
     <string name="msg_grant_permissions">請授予權限</string>
     <string name="msg_grant_permissions_summary">該應用程式將無法正常工作，除非您授予權限</string>
+
+    <string name="menu_add_to_onedrive">增加到OneDrive</string>
+    <string name="not_charging">不收費</string>
+    <string name="cleanup_uploaded_only">僅清理上傳的檔案</string>
+    <string name="cleanup_uploaded_only_summary">只有上傳的檔案將被自動刪除</string>
+    <string name="show_phone_numbers">顯示電話號碼</string>
+    <string name="sign_out_onedrive">登出OneDrive</string>
+    <string name="cloud_provider_onedrive">微軟OneDrive</string>
+    <string name="cloud_upload_when_charging">僅在充電時上傳</string>
+    <string name="notify_uploading_onedrive">上傳到OneDrive</string>
+    <string name="auto_encryption">自動加密</string>
+    <string name="auto_encryption_summary">錄製通話後，加密WAV或AMR</string>
+    <string name="auto_encryption_warning">自動加密將被禁用，因為它不支援選擇的錄音格式</string>
+    <string name="enter_password_to_encrypt_recordings">輸入密碼，加密錄音</string>
 
     </resources>
