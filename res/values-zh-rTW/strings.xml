@@ -573,7 +573,7 @@
     <string name="msg_grant_permissions_summary">該應用程式將無法正常工作，除非您授予權限</string>
 
     <string name="menu_add_to_onedrive">增加到OneDrive</string>
-    <string name="not_charging">不收費</string>
+    <string name="not_charging">沒有充電</string>
     <string name="cleanup_uploaded_only">僅清理上傳的檔案</string>
     <string name="cleanup_uploaded_only_summary">只有上傳的檔案將被自動刪除</string>
     <string name="show_phone_numbers">顯示電話號碼</string>
