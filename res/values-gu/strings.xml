@@ -542,4 +542,51 @@
     <string name="sign_out_google_drive">Google ડ્રાઇવ સાઇન આઉટ કરો</string>
     <string name="notify_uploading_drive">ડ્રાઇવ પર અપલોડ કરી</string>
     <string name="notify_converting_to_wav">WAV માટે રૂપાંતર</string>
-    </resources>
+    <string name="msg_supersu_required">તમારી શ્રેષ્ઠ વપરાશકર્તા એપ્લિકેશન અસંગત હોઈ શકે છે. SuperSU સ્થાપિત ધ્યાનમાં કૃપા કરીને.</string>
+    <string name="msg_grant_permissions">પરવાનગીઓ આપો કૃપા કરીને</string>
+    <string name="msg_grant_permissions_summary">એપ્લિકેશન જ્યાં સુધી તમે પરવાનગીઓ મંજૂર કામ કરશે નહિં</string>
+
+    <string name="tip_click_avatar">અવતાર ક્લિક કરો સંપર્ક માહિતી ખોલવા માટે.</string>
+    <string name="tip_long_click_avatar">લાંબા પ્રેસ અવતાર આ સંપર્ક પાસેથી કોલ્સ ફિલ્ટર કરશે.</string>
+    <string name="tip_select_item">લાંબા પ્રેસ અવતાર આ સંપર્ક પાસેથી કોલ્સ ફિલ્ટર કરશે.</string>
+    <string name="tip_select_all">એક વિકલ્પ બધા પસંદ કરો અને પછી સંદર્ભ મેનૂ માં દેખાશે.</string>
+    <string name="tip_audio_output">લાંબા પ્રેસ પોઝ/પ્લે બટન ઓડિયો આઉટપુટ સ્વિચ કરવા માટે.</string>
+
+    <string name="not_charging">નથી ચાર્જ</string>
+    <string name="menu_add_to_onedrive">OneDrive માટે ઉમેરો</string>
+    <string name="cleanup_uploaded_only">માત્ર સફાઇ અપલોડ કરાયેલ ફાઈલો</string>
+    <string name="cleanup_uploaded_only_summary">માત્ર અપલોડ કરેલી ફાઇલો આપમેળે દૂર થઇ જશે</string>
+    <string name="show_button_to_add_star">સ્ટાર ઉમેરવા માટે બટન બતાવો</string>
+    <string name="show_phone_numbers">ફોન બતાવી નંબરો</string>
+    <string name="category_contacts">સંપર્કો</string>
+    <string name="link_to_contacts">સંપર્કો માટે લિંક</string>
+    <string name="link_to_contacts_summary">સંપર્ક અંદર રેકોર્ડિંગ જોવા માટે એક શોર્ટકટ બનાવો</string>
+    <string name="view_recordings">રેકોર્ડિંગ્સ જોવા</string>
+
+    <string name="sign_out_onedrive">સાઇન આઉટ કરો OneDrive</string>
+    <string name="cloud_provider_onedrive">માઇક્રોસોફ્ટ OneDrive</string>
+    <string name="cloud_upload_when_charging">અપલોડ કરો જ્યારે માત્ર ચાર્જ</string>
+    <string name="delete_recording_after_upload">અપલોડ પછી રેકોર્ડિંગ કાઢી નાખો</string>
+    <string name="delete_recording_after_upload_summary">રેકોર્ડિંગ સફળ અપલોડ પછી કાઢી નાંખવામાં આવશે</string>
+
+    <string name="notify_uploading_onedrive">OneDrive પર અપલોડ કરી</string>
+    <string name="auto_unlock">ઓટો અનલોક</string>
+    <string name="auto_unlock_summary">દબાવીને \'ઓકે\' વગર તમે સાચો પાસવર્ડ દાખલ અનલૉક એકવાર</string>
+    <string name="auto_encryption">ઓટો એન્ક્રિપ્શન</string>
+    <string name="auto_encryption_summary">કોલ પછી એનક્રિપ્ટ WAV અથવા એએમઆર રેકોર્ડિંગ</string>
+    <string name="auto_encryption_warning">ઓટો એન્ક્રિપ્શન તે પસંદ રેકોર્ડિંગ ફોર્મેટ સપોર્ટ કરતું નથી કારણ કે નિષ્ક્રિય થઈ જશે</string>
+    <string name="enter_password_to_encrypt_recordings">એનક્રિપ્ટ થયેલ રેકોર્ડિંગ માટે પાસવર્ડ દાખલ કરો</string>
+
+    <string name="button_install">સ્થાપિત</string>
+    <string name="button_more_info">વધુ માહિતી</string>
+    <string name="button_dismiss">કાઢી મૂકવું</string>
+    <string name="bengali_translation">બંગાળી અનુવાદ</string>
+    <string name="bengali_translation_summary">દ્વારા સૌરવ ઘોષ (ithehappy)</string>
+
+    <string name="app_description_summary">આપોઆપ ફોન લાઇન રેકોર્ડ ફોન કોલ્સ માટે એક એપ્લિકેશન</string>
+    <string name="app_description_0">હાર્ડવેર અને કર્નલ દ્વારા આધારભૂત હતા એપ્લિકેશન આપોઆપ કોલ ફોન લાઇન પરથી રેકોર્ડ માટે બનાવાયેલ છે. કોલ રેકોર્ડિંગ, એક ખૂબ જ ઉપકરણ ચોક્કસ લક્ષણ છે, કારણ કે ઉત્પાદકો ઘણીવાર સિસ્ટમ સ્તર પર જરૂરી વિધેયો અમલ નથી તેઓ માટે હોય છે.</string>
+    <string name="app_description_1">કે જેથી રુટ ઘણા ઉપકરણો જ્યાં ઉત્પાદકો જરૂરી વિધેયો અમલ ન પર એક જ જોઈએ છે. પરંતુ તેનો અર્થ એ નથી રુટ કોઈપણ ઉપકરણ માટે એક તારણહાર છે, કારણ કે કોલ રેકોર્ડિંગ હાર્ડવેર સ્તર પર તોડી શકાય છે. રુટ ઘણીવાર મદદ કરે છે, પરંતુ હંમેશા નહીં.</string>
+    <string name="app_description_2">એપ્લિકેશન વિવિધ રેકોર્ડિંગ પદ્ધતિઓ છે. શું તમારી પાસે પૂરતી નસીબદાર છો, તો, એપ્લિકેશન રુટ વિના પ્રમાણભૂત API રેકોર્ડિંગ પદ્ધતિ પર બંને બાજુઓ રેકોર્ડ નથી નિષ્ફળ જશે. પરંતુ તમે સ્ટાન્ડર્ડ API માટે દરેક ઓડિયો સ્રોતની ચકાસણી કરવાની જરૂર પડી શકે સેટિંગ્સ &gt; રેકોર્ડિંગ &gt; સ્ટાન્ડર્ડ API.</string>
+    <string name="app_description_3">તમે પ્રમાણભૂત API માટે દરેક ઑડિઓ સ્રોત પ્રયત્ન કર્યો છે અને એપ્લિકેશન રેકોર્ડ ન હતી અથવા ફક્ત તમારા અવાજ રેકોર્ડ, તે અર્થ એ થાય કે ઉત્પાદક ક્યાં અમલ કરવા માટે નિષ્ફળ જાય છે, અથવા અવરોધિત કોલ સિસ્ટમ સ્તર પર રેકોર્ડ.</string>
+    <string name="app_description_4">તમે રુટ પરવાનગીઓ અન્ય રેકોર્ડિંગ પદ્ધતિઓ પ્રયાસ હોય છે કરવાની જરૂર છે. રુટ પદ્ધતિઓ માટે, તે યોગ્ય ઉપકરણને પસંદ કરવા માટે મહત્વપૂર્ણ છે સેટિંગ્સ &gt; રેકોર્ડિંગ. એ જ ચિપસેટ સાથે ઉપકરણ પસંદ કરો જો તમારા ઉપકરણ ત્યાં યાદી થયેલ નહિં હોય.</string>
+</resources>
