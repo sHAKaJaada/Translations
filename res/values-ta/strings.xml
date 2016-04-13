@@ -448,7 +448,7 @@
     <string name="french_translation">பிரஞ்சு மொழிபெயர்ப்பு</string>
     <string name="french_translation_summary">Julien Boiteux மூலம்</string>
     <string name="brazilian_portuguese_translation">பிரேசிலிய போர்த்துகீசியம் மொழிபெயர்ப்பு</string>
-    <string name="brazilian_portuguese_translation_summary">Luiz Marcelo Serique மூலம்</string>
+    <string name="brazilian_portuguese_translation_summary">மூலம் Luiz Marcelo Serique மற்றும் Alexandre Beck</string>
     <string name="spanish_translation">ஸ்பானிஷ் மொழிபெயர்ப்பு</string>
     <string name="spanish_translation_summary">Iñigo Garcia and Diego Vilas மூலம்</string>
     <string name="slovak_translation">ஸ்லோவாக் மொழிபெயர்ப்பு</string>
@@ -472,7 +472,7 @@
     <string name="turkish_translation">துருக்கிய மொழிபெயர்ப்பு</string>
     <string name="turkish_translation_summary">Omer Ilik மூலம்</string>
     <string name="serbian_translation">சேர்பிய மொழிபெயர்ப்பு</string>
-    <string name="serbian_translation_summary">sHAKaJaada மூலம்</string>
+    <string name="serbian_translation_summary">sHAKaJaada™ மூலம்</string>
     <string name="korean_translation">கொரிய மொழிபெயர்ப்பு</string>
     <string name="korean_translation_summary">SoHyunSeop and Joon Hee Jo மூலம்</string>
     <string name="romanian_translation">ரோமானியம் மொழிபெயர்ப்பு</string>
@@ -496,7 +496,7 @@
     <string name="georgian_translation">ஜோர்ஜிய மொழிபெயர்ப்பு</string>
     <string name="georgian_translation_summary">Sandro Razmadze மூலம்</string>
     <string name="catalan_translation">தமிழ் மொழிபெயர்ப்பு</string>
-    <string name="catalan_translation_summary">cybdani மூலம்</string>
+    <string name="catalan_translation_summary">மூலம் cybdani மற்றும் Jordi Miró</string>
     <string name="hindi_translation">ஹிந்தி மொழிபெயர்ப்பு</string>
     <string name="hindi_translation_summary">TheTAMAS Gautam மூலம்</string>
     <string name="punjabi_translation">பஞ்சாபி மொழிபெயர்ப்பு</string>
@@ -542,4 +542,51 @@
     <string name="sign_out_google_drive">Google இயக்ககம் வெளியேறி</string>
     <string name="notify_uploading_drive">பதிவேற்றப்படுகிறது இயக்ககத்திற்குப்</string>
     <string name="notify_converting_to_wav">"WAV  வேண்டும் மாற்றுகிறது"</string>
+    <string name="msg_supersu_required">சிறப்புப்பயனர் பயன்பாட்டை இயைந்து இருக்கலாம். SuperSU நிறுவும் கருத்தில் கொள்ளவும்.</string>
+    <string name="msg_grant_permissions">அனுமதிகளை வழங்க செய்க</string>
+    <string name="tip_click_avatar">சின்னம் கிளிக் செய்யவும் தொடர்பு தகவல் திறக்க.</string>
+    <string name="tip_long_click_avatar">நீண்ட நேரம் அழுத்தவும் சின்னம் இந்த தொடர்பு இருந்து அழைப்புகள் வடிகட்ட வேண்டும்.</string>
+    <string name="tip_select_item">நீண்ட நேரம் அழுத்தவும் அதை தேர்ந்தெடுக்க ஒரு பொருளை.</string>
+    <string name="tip_select_all">ஒரு விருப்பத்தை அனைத்து தேர்வு பின்னர் சூழல் மெனு தோன்றும்.</string>
+    <string name="tip_audio_output">ஆடியோ வெளியீடு மாற அழுத்திப்/இடைநிறுத்தி பொத்தானை.</string>
+
+    <string name="not_charging">இல்லை சார்ஜ்</string>
+    <string name="menu_add_to_onedrive">OneDrive செய்ய சேர்க்க</string>
+    <string name="cleanup_uploaded_only">துப்புரவு பதிவேற்றிய கோப்புகள் மட்டுமே</string>
+    <string name="cleanup_uploaded_only_summary">பதிவேற்றிய கோப்புகள் மட்டுமே தானாகவே அகற்றப்பட்டு விடும்</string>
+    <string name="show_button_to_add_star">நட்சத்திர சேர்க்க பொத்தானை காட்டு</string>
+    <string name="show_phone_numbers">தொலைபேசி ஷோ எண்கள்</string>
+    <string name="category_contacts">தொடர்புகள்</string>
+    <string name="link_to_contacts">இணைப்பு தொடர்புகள்</string>
+    <string name="link_to_contacts_summary">ஒரு தொடர்பு இருந்து பதிவுகளை காண ஒரு குறுக்குவழியை உருவாக்கு</string>
+    <string name="view_recordings">காண்க பதிவுகளை</string>
+
+    <string name="sign_out_onedrive">வெளியேறு OneDrive</string>
+    <string name="cloud_provider_onedrive">மைக்ரோசாப்ட் OneDrive</string>
+    <string name="cloud_upload_when_charging">சார்ஜ் ஆகும் போது பதிவேற்ற</string>
+    <string name="delete_recording_after_upload">பதிவு நீக்கு பதிவேற்ற</string>
+    <string name="delete_recording_after_upload_summary">பதிவு வெற்றிகரமான பதிவேற்றம் பின்னர் நீக்கப்படும்</string>
+
+    <string name="notify_uploading_onedrive">OneDrive பதிவேற்றம் செய்ய</string>
+    <string name="auto_unlock">ஆட்டோ திறக்க</string>
+    <string name="auto_unlock_summary">நீங்கள் சரியான கடவுச்சொல்லை உள்ளிட்ட முறை, \'சரி\' அழுத்தி திறக்</string>
+    <string name="auto_encryption">வாகன குறியாக்க</string>
+    <string name="auto_encryption_summary">ஒரு அழைப்பு பிறகு மறைகுறியாக்கு WAV அல்லது ஏஎம்ஆர் பதிவுகளை</string>
+    <string name="auto_encryption_warning">குறித்து வை குறியாக்க முடக்கப்படும் அதை தேர்வு பதிவு ஆதரிக்காது என</string>
+    <string name="enter_password_to_encrypt_recordings">குறியாக்கம் பதிவுகளை கடவுச்சொல்லை உள்ளிடவும்</string>
+
+    <string name="button_install">நிறுவ</string>
+    <string name="button_more_info">மேலும் தகவல்</string>
+    <string name="button_dismiss">நிராகரி</string>
+    <string name="bengali_translation">பெங்காலி மொழிபெயர்ப்பு</string>
+    <string name="bengali_translation_summary">மூலம் சவுரவ் கோஷ் (ithehappy)</string>
+
+    <string name="app_description_summary">தானாக தொலைபேசி இணைப்பிலிருந்து வரும் பதிவு தொலைபேசி அழைப்புகள் ஒரு பயன்பாட்டை</string>
+    <string name="app_description_0">வன்பொருள் மற்றும் கர்னல் ஆகியோர் ஆதரவு பயன்பாட்டை தானியங்கு அழைப்பு தொலைபேசி இணைப்பிலிருந்து வரும் பதிவு கருதப்படுகிறது. அழைப்பு பதிவு, ஒரு மிக சாதனம் குறிப்பிட்ட அம்சம், உற்பத்தியாளர்கள், பெரும்பாலும் கணினி அளவில் தேவையான செயல்பாட்டை செயல்படுத்த இல்லை, ஏனெனில் அவர்கள் வேண்டும் என.</string>
+    <string name="app_description_1">எனவே ரூட் உற்பத்தியாளர்கள் தேவையான செயல்பாட்டை செயல்படுத்த முடியவில்லை அங்கு பல சாதனங்களில் ஒரு வேண்டும். ஆனால் அது அழைப்பு பதிவு வன்பொருள் அளவில் பிரிக்க முடியும் என ரூட் எந்த சாதனம் ஒரு காவலர் என்று அர்த்தம் இல்லை. ரூட் அடிக்கடி உதவுகிறது, ஆனால் எப்போதும் இல்லை.</string>
+    <string name="app_description_2">பயன்பாட்டை வெவ்வேறு பதிவு முறைகள் உள்ளன. நீங்கள் அதிர்ஷ்டசாலிகள் என்றால், பயன்பாட்டை ரூட் இல்லாமல் ஸ்டாண்டர்ட் ஏபிஐ பதிவு முறை மேல் இருபுறமும் பதிவு செய்ய தவறினால் மாட்டேன். ஆனால் நீங்கள் ஸ்டாண்டர்ட் ஏபிஐ ஒவ்வொரு ஆடியோ மூலம் சரிபார்க்க வேண்டும் அமைப்புகள் &gt; ஒலிப்பதிவு &gt; ஸ்டாண்டர்ட் ஏபிஐ.</string>
+    <string name="app_description_3">நீங்கள் ஸ்டாண்டர்ட் ஏபிஐ ஒவ்வொரு ஆடியோ மூலம் முயற்சி மற்றும் பயன்பாட்டை பதிவு செய்ய மாட்டார்கள், அல்லது உங்கள் குரல் பதிவு என்றால், அது தயாரிப்பாளர் அல்லது நிறைவேற்றத் தவறிவிட்டது, அல்லது கணினி அளவில் பதிவு தடுக்கப்பட்டது அழைப்பு வருகிறது என்று அர்த்தம்.</string>
+    <string name="app_description_4">நீங்கள் மற்ற பதிவு முறைகள் முயற்சி வேர் அனுமதிகள் வேண்டும். ரூட் முறைகளைப் பொறுத்தவரை, இதை சரியான சாதனத்தை தேர்வு முக்கியம் அமைப்புகள் &gt; குறித்து வை. உங்கள் சாதனம் பட்டியலில் இல்லை என்றால் அதே சிப்செட் கொண்ட சாதனம் தேர்ந்தெடுக்கவும்.</string>
+<string name="msg_grant_permissions_summary">பயன்பாட்டை வரை இயங்காது நீங்கள் அனுமதிகளை வழங்க</string>
+
     </resources>
