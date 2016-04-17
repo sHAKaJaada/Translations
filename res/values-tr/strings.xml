@@ -563,4 +563,17 @@
 
     <string name="navigation_drawer_open">Gezinti sekmesini aç</string>
     <string name="menu_add_to_onedrive">OneDrive\'a ekle</string>
+    <string name="not_charging">Şarj olmuyor</string>
+    <string name="cleanup_uploaded_only">Sadece yüklenmiş dosyaları temizle</string>
+    <string name="cleanup_uploaded_only_summary">Sadece yüklenen dosyalar otomatik olarak silinecektir</string>
+    <string name="show_phone_numbers">Telefon numaralarını göster</string>
+    <string name="sign_out_onedrive">OneDrive çıkış yap</string>
+    <string name="cloud_provider_onedrive">Microsoft OneDrive</string>
+    <string name="cloud_upload_when_charging">Sadece şarj olurken gönder</string>
+    <string name="notify_uploading_onedrive">OneDrive\'a yükleniyor</string>
+    <string name="auto_encryption">Otomatik şifreleme</string>
+    <string name="auto_encryption_summary">Bir aramadan sonra WAV ya da AMR kayıtları şifreler</string>
+    <string name="auto_encryption_warning">Otomatik şifreleme seçili kayıt formatı desteklemiyorsa devre dışı kalacaktır</string>
+    <string name="enter_password_to_encrypt_recordings">Kayıtları şifrelemek için bir parola girin</string>
+
     </resources>
