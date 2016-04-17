@@ -576,4 +576,9 @@
     <string name="auto_encryption_warning">Otomatik şifreleme seçili kayıt formatı desteklemiyorsa devre dışı kalacaktır</string>
     <string name="enter_password_to_encrypt_recordings">Kayıtları şifrelemek için bir parola girin</string>
 
-    </resources>
+    <string name="app_description_0">Bu uygulama, telefonunuzun donanımı ve üzerinde çalışan kernel desteklediği müddetçe, direk telefon hattından, otomatik olarak görüşmeleri kaydetmek için geliştirilmiştir. Bir çok üretici, sistem seviyesinde yer alan bazı özellikleri, yapmamaları gerektiği halde, kapattıklarından, \"Call Recorder\" cihaz bağımlılığı olan bir uygulamadır.</string>
+    <string name="app_description_1">Bir çok üretici sistem seviyesinde yer alan bazı özellikleri kapattıklarından, uygulamanın çalışması için, cihazın \"root\" edilmesi gerekmektedir ancak bazı cihazlar için donanım seviyesinde alınan önlemler nedeniyle \"root\" işlemi gerçekleşse dahi sonuç alınamamaktadır.</string>
+    <string name="app_description_2">Uygulamanın değişik kayıt metodları vardır. Genel olarak \"root\" işlemi gerçekleştirilmesine gerek kalmadan, \"standart API\" metoduyla, uygulama başarılı şekilde çalışmaktadır fakat Ayarlar &gt; Kayıt &gt; Standart API sekmesinde yer alan metodlardan hangisinin sizin cihazınıza uygun geldiğini deneyerek belirlemeniz gerekebilir.</string>
+    <string name="app_description_3">Standart API sekmesinde yer alan metodların hepsini denemenize rağmen, uygulama ya hiç kayıt yapmıyor ya da sadece kendi sesinizi kaydediyor ise muhtemelen cihaz üreticiniz kayıt için gerekli sistem gereksinimini ya sağlamamış ya da engellemiş olabilir.</string>
+    <string name="app_description_4">Diğer kayıt metodlarını uygulamak için uygulamaya \"root\" yetkisi vermeniz gerekecektir. Bu durumda Ayarlar &gt; Kayıt sekmesi altında yer alan cihazlardan size ait olanı seçmeniz önemli olacaktır. Şayet listede kendinize ait cihaz ismini bulamazsanız sizin cihazınız ile aynı \"chipset\" e sahip olan başka bir cihazı seçmeniz uygun olacaktır.</string>
+</resources>
