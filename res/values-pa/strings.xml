@@ -572,4 +572,21 @@
 
     <string name="show_button_to_add_star">ਸਟਾਰ ਨੂੰ ਸ਼ਾਮਿਲ ਕਰਨ ਲਈ ਬਟਨ ਦਿਖਾਓ</string>
     <string name="button_install">ਇੰਸਟਾਲ</string>
+    <string name="msg_grant_permissions">ਕਿਰਪਾ ਕਰਕੇ ਅਧਿਕਾਰ ਦਯੋ ਜੀ</string>
+    <string name="msg_grant_permissions_summary">"ਅਧਿਕਾਰ ਨਾ ਮਿਲਣ ਨਾਲ ਇਹ  ਐਪ ਕਾਮ ਨਹੀ ਕਰੂਗੀ"</string>
+
+    <string name="not_charging">ਚਾਰਜ ਨਹੀ ਹੋ ਰਿਹਾ</string>
+    <string name="menu_add_to_onedrive">OneDrive ਵਿਚ ਭੇਜੋ</string>
+    <string name="cleanup_uploaded_only">"ਕੇਵਲ ਅੱਪਲੋਡ ਫਾਇਲਾ ਸਾਫ਼ ਕੀਤੀਆ  ਜਾਣ"</string>
+    <string name="cleanup_uploaded_only_summary">ਕੇਵਲ ਅੱਪਲੋਡ ਫਾਇਲਾ ਆਪਣੇ ਆਪ ਸਾਫ਼ ਕੀਤੀਆ ਜਾਉਗਿਆ</string>
+    <string name="show_phone_numbers">ਫੋਨ ਨੰਬਰ ਦਿਖਾਏ ਜਾਣ</string>
+    <string name="sign_out_onedrive">OneDrive ਤੋ ਲੋਗ ਆਉਟ ਕਰੋ</string>
+    <string name="cloud_provider_onedrive">Microsoft OneDrive</string>
+    <string name="cloud_upload_when_charging">"ਸਿਰਫ ਚਾਰਜ ਵੇਲੇ ਸਿਰਫ ਅੱਪਲੋਡ  ਕੀਤਾ ਜਾਵੇਗਾ"</string>
+    <string name="notify_uploading_onedrive">OneDrive ਵਿਚ ਉਪ੍ਲੋਡਿੰਗ ਹੋ ਰਹੀ ਹੈ</string>
+    <string name="auto_encryption">ਆਟੋਮੈਟਿਕ ਇੰਕ੍ਰਿਪਸ਼ਨ ਹੋ</string>
+    <string name="auto_encryption_summary">"WAV ਅਤੇ AMR ਰਿਕਾਰਡਿੰਗ ਕਾਲ ਤੋ ਬਾਅਦ  ਇੰਕ੍ਰਿਪਟ ਕਰੋ"</string>
+    <string name="auto_encryption_warning">ਔਟੋ ਇੰਕ੍ਰਿਪਟਡ ਬੰਦ ਹੋ ਜਾਵੇਗਾ ਕਯੋ ਕੀ ਰਿਕਾਰਡਿੰਗ ਦੇ ਫਾਰਮੈਟ ਸਹੀ ਨਹੀ ਹੈ</string>
+    <string name="enter_password_to_encrypt_recordings">ਰਿਕਾਰਡਿੰਗ ਨੂ ਇੰਕ੍ਰਿਪਟ ਕਰਨ ਲਈ ਪਾਸਵਰਡ ਦਿਓ</string>
+
     </resources>
