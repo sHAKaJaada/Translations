@@ -583,4 +583,7 @@
     <string name="auto_encryption_warning">Automatisk kryptering deaktiveres da det valgte optage-format ikke understøttes</string>
     <string name="enter_password_to_encrypt_recordings">Indtast kodeord til kryptering af optagelser</string>
 
+    <string name="estonian_translation">Estonisk oversættelse</string>
+    <string name="estonian_translation_summary">Af Arthur Kono</string>
+
     </resources>
