@@ -583,4 +583,7 @@
     <string name="enter_password_to_encrypt_recordings">Введите пароль для шифрования записей</string>
 
     <string name="cleanup_uploaded_only">Автоудаление только загруженных файлов</string>
+    <string name="estonian_translation">Перевод на эстонский</string>
+    <string name="estonian_translation_summary">от Arthur Kono</string>
+
     </resources>
