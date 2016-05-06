@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">Kõne salvestaja</string>
 <string name="terms_of_use">Kasutustingimused</string>
-    <string name="terms_of_use_message">"Kasutades äppi, nõustute Kõne salvestaja  &lt;a href=http://rec.sh/terms&gt;kasutustingimustega&lt;/a&gt;."</string>
+    <string name="terms_of_use_message">Kasutades rakendust, nõustud Kõne salvestaja &lt;a href=http://rec.sh/terms&gt;kasutustingimustega&lt;/a&gt;.</string>
 
     <string name="navigation_drawer_open">Ava navigeerimissahtel</string>
     <string name="navigation_drawer_close">Sulge navigeerimissahtel</string>
@@ -40,7 +40,7 @@
     <string name="warning_root_required">Sinu telefon peab olema rooditud. Pikk vajutus sõnumi eemaldamiseks.</string>
     <string name="warning_low_space">Vähe ruumi: %s</string>
 
-    <string name="msg_supersu_required">Superkasutaja äpp võib olla kokkusobimatu. Palun installida SuperSU.</string>
+    <string name="msg_supersu_required">Superkasutaja rakendus võib olla kokkusobimatu. Palun kaaluda SuperSU installimist.</string>
     <string name="msg_grant_permissions">Palun anna õigusi</string>
     <string name="msg_grant_permissions_summary">Rakendus ei tööta kuni pole antud õigusi</string>
 
@@ -48,7 +48,7 @@
     <string name="tip_long_click_avatar">Pikk vajutus avatarile filtreerib selle kasutaja kõnesi.</string>
     <string name="tip_select_item">Pikk vajutus elemendi valimiseks.</string>
     <string name="tip_select_all">Valik Vali kõik ilmub kontekstimenüüs.</string>
-    <string name="tip_audio_output">Pikk vajutus Mängi/Paus nupule vahetab heli väljundit.</string>
+    <string name="tip_audio_output">Pikk vajutus Esita/Paus nupule vahetab heli väljundit.</string>
 
     <string name="list_header_today">Täna</string>
     <string name="list_header_yesterday">Eile</string>
@@ -93,7 +93,7 @@
     <string name="confirm_delete_several_title">Kinnita kustutamist</string>
     <string name="confirm_delete_several_message">Oled valinud %d salvestist. Oled kindel, et soovid neid kustutada?</string>
 
-    <string name="share_via">Jaga</string>
+    <string name="share_via">Jaga läbi</string>
     <string name="recorded_calls">Salvestatud kõned</string>
 
     <string name="settings_open_unlocker">Ava lukustus</string>
@@ -374,7 +374,7 @@
 
     <string name="use_built_in_player">Kasuta sisemist pleierit</string>
     <string name="audio_output">Audio väljund</string>
-    <string name="audio_output_summary">%s (Pikk vajutus mängi/paus nupule vahetab seda samuti)</string>
+    <string name="audio_output_summary">%s (Pikk vajutus Esita/Paus nupule vahetab seda samuti)</string>
     <string name="disable_autoplay">Keela auto taasesitamine</string>
     <string name="disable_autoplay_summary">Ei käivata automaatselt taasesitust salvestise valimisel</string>
     <string name="main_speaker">Peakõlar</string>
