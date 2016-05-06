@@ -535,4 +535,7 @@
     <string name="app_description_2">Rakendus sisaldab erinevaid salvestamise meetodeid. Kui sul on õnne, siis rakendus suudab salvestada mõlemaid osapooli Standard API salvestamise meetodiga ilma ruuduta. Kuid võib tekkida vajadus kontrollida kõiki audio sisendeid kohas Standard API Seaded&gt; Salvestamine&gt; Standard API.</string>
     <string name="app_description_3">Kui oled proovinud kõiki Standard API audio sisendeid ja rakendus ei salvesta üldse või salvestab ainult oma häält, siis see tähendab, et tootja on kas ei suutnud rakendada või on blokeeritud kõne salvestamist süsteemi tasandil.</string>
     <string name="app_description_4">Sul peavad olema root õigused proovima muid salvestamise meetodeid. Nende meetodite kasuatamisel on oluline valida õige seade kohas Seaded &gt; Salvestamine. Vali seade, millel on sama kiibistik, kui sinu seade ei ole seal loetletud.</string>
-</resources>
+<string name="estonian_translation">Eesti tõlge</string>
+    <string name="estonian_translation_summary">Arthur Kono</string>
+
+    </resources>
