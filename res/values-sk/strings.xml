@@ -583,4 +583,7 @@
     <string name="auto_encryption_warning">Automatické kódovanie bude zakázané, ak nepodporuje vybraný formát nahrávania</string>
     <string name="enter_password_to_encrypt_recordings">Zadajte heslo pre zakódovanie nahrávok</string>
 
+    <string name="estonian_translation">Estónsky preklad</string>
+    <string name="estonian_translation_summary">Arthur Kono</string>
+
     </resources>
