@@ -583,4 +583,7 @@
     <string name="auto_encryption_warning">Auto szyfrowanie będzie wyłączone ponieważ nie wspiera wybranego formatu nagrania</string>
     <string name="enter_password_to_encrypt_recordings">Wprowadź hasło w celu szyfrowania nagrań</string>
 
+    <string name="estonian_translation">Tłumaczenie na język estoński</string>
+    <string name="estonian_translation_summary">Arthur Kono</string>
+
     </resources>
