@@ -582,4 +582,7 @@
     <string name="auto_encryption_warning">הצפנה אוטומטית תופסק מכיוון שאינה תומכת בפורמט ההקלטה הנבחר</string>
     <string name="enter_password_to_encrypt_recordings">הכנס סיסמה להצפנת ההקלטות</string>
 
+    <string name="estonian_translation">תרגום לאסטונית</string>
+    <string name="estonian_translation_summary">ע\"י Arthur Kono</string>
+
     </resources>
