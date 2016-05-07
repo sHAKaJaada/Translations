@@ -583,4 +583,7 @@
     <string name="auto_encryption_warning">Encriptarea automată va fi dezactivată deoarece nu suportă formatul de înregistrare selectat</string>
     <string name="enter_password_to_encrypt_recordings">Introdu parola pentru a encripta înregistrările</string>
 
+    <string name="estonian_translation">Traducerea în Estonă</string>
+    <string name="estonian_translation_summary">de Arthur Kono</string>
+
     </resources>
