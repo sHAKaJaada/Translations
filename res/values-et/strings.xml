@@ -16,7 +16,7 @@
     <string name="section_by_label">Sildi järgi</string>
     <string name="section_help">Abi</string>
     <string name="section_tasks">Toimingud</string>
-    <string name="section_tasks_hint">Aeganõudvaid salvestiste toiminguid, nagu konvertimine, krüptimine või üleslaadimine pilve kuvatakse siin</string>
+    <string name="section_tasks_hint">Aeganõudvaid salvestiste toiminguid nagu konvertimine, krüptimine või üleslaadimine pilve kuvatakse siin</string>
     <string name="empty_hint">Tühi</string>
 
     <string name="action_search">Otsi</string>
@@ -27,7 +27,7 @@
     <string name="action_add_star">Lisa tähis</string>
     <string name="action_remove_star">Eemalda tähis</string>
     <string name="action_share">Jaga</string>
-    <string name="action_cancel_tasks">Tühista ülesanded</string>
+    <string name="action_cancel_tasks">Tühista toimingud</string>
     <string name="action_select_all">Vali kõik</string>
     <string name="sort_by_date">Kuupäeva järgi</string>
     <string name="sort_by_contact">Kontakti järgi</string>
@@ -37,7 +37,7 @@
 
     <string name="restore_settings">Taasta seaded</string>
 
-    <string name="warning_root_required">Sinu telefon peab olema rooditud. Pikk vajutus sõnumi eemaldamiseks.</string>
+    <string name="warning_root_required">Sinu telefon peab olema rooditud. Pikk vajutus selle teate eemaldamiseks.</string>
     <string name="warning_low_space">Vähe ruumi: %s</string>
 
     <string name="msg_supersu_required">Superkasutaja rakendus võib olla kokkusobimatu. Palun kaaluda SuperSU installimist.</string>
@@ -45,16 +45,16 @@
     <string name="msg_grant_permissions_summary">Rakendus ei tööta kuni pole antud õigusi</string>
 
     <string name="tip_click_avatar">Vajuta avatari kontaktandmete avamiseks.</string>
-    <string name="tip_long_click_avatar">Pikk vajutus avatarile filtreerib selle kasutaja kõnesi.</string>
+    <string name="tip_long_click_avatar">Pikk vajutus avatarile filtreerib selle kasutaja kõnesid.</string>
     <string name="tip_select_item">Pikk vajutus elemendi valimiseks.</string>
     <string name="tip_select_all">Valik Vali kõik ilmub kontekstimenüüs.</string>
-    <string name="tip_audio_output">Pikk vajutus Esita/Paus nupule vahetab heli väljundit.</string>
+    <string name="tip_audio_output">Pikk vajutus Esita/Paus nupule vahetab samuti audio väljundit.</string>
 
     <string name="list_header_today">Täna</string>
     <string name="list_header_yesterday">Eile</string>
     <string name="queued">Ootel</string>
     <string name="no_connection">Ühendus puudub</string>
-    <string name="not_charging">Ei lae</string>
+    <string name="not_charging">Laadimist ei ole</string>
     <string name="add_to_contacts">Lisa kontaktidesse</string>
 
     <string name="menu_add_to_dropbox">Lisa Dropbox\'i</string>
@@ -68,7 +68,7 @@
     <string name="menu_convert_to_amr">Konverdi AMR-ks</string>
     <string name="menu_convert_to_wav">Konverdi WAV-ks</string>
     <string name="menu_get_info">Hangi infot</string>
-    <string name="menu_cancel_task">Tühista ülesanne</string>
+    <string name="menu_cancel_task">Tühista toiming</string>
     <string name="menu_encrypt">Krüpti</string>
     <string name="menu_decrypt">Dekrüpti</string>
 
@@ -96,13 +96,13 @@
     <string name="share_via">Jaga läbi</string>
     <string name="recorded_calls">Salvestatud kõned</string>
 
-    <string name="settings_open_unlocker">Ava lukustus</string>
-    <string name="settings_recording">Salvestis</string>
+    <string name="settings_open_unlocker">Ava Unlocker</string>
+    <string name="settings_recording">Salvestamine</string>
     <string name="settings_folders_and_files">Kaustad ja failid</string>
     <string name="settings_ui_and_appearance">Liides ja välimus</string>
     <string name="settings_security">Turvalisus</string>
     <string name="settings_cloud">Pilv</string>
-    <string name="settings_audio_player">Audiomängija</string>
+    <string name="settings_audio_player">Audiopleier</string>
     <string name="settings_debug">Debug</string>
     <string name="settings_about">Teave</string>
 
@@ -149,8 +149,8 @@
     <string name="action_for_outgoing">Väljuva kõne tegevused</string>
     <string name="action_record_all">Salvesta kõik</string>
     <string name="action_do_not_record">Ära salvesta</string>
-    <string name="action_record_contacts">Salvesta kontakte</string>
-    <string name="action_record_non_contacts">Salvesta mitte-kontakte</string>
+    <string name="action_record_contacts">Salvesta kontaktidelt</string>
+    <string name="action_record_non_contacts">Salvesta mitte-kontaktidelt</string>
     <string name="call_confirm">Kõne kinnitus</string>
     <string name="call_confirm_summary">Kuva kinnitamise dialoogi enne helistamist</string>
     <string name="after_call_actions_dialog">Kõnejärgse toimingute dialoog</string>
@@ -238,16 +238,16 @@
     <string name="dialog_grant_permission_title">Anna luba</string>
     <string name="dialog_grant_permission_message">Vali uues aknas sama kaust loa andmiseks</string>
     <string name="toast_wrong_directory_selected">Vale kaust valitud. Proovi uuesti.</string>
-    <string name="automatic_cleanup">Automaatne puhastus</string>
-    <string name="cleanup_uploaded_only">Puhasta ainult üleslaaditud faile</string>
+    <string name="automatic_cleanup">Automaatne kustutamine</string>
+    <string name="cleanup_uploaded_only">Kustuta ainult üleslaaditud faile</string>
     <string name="cleanup_uploaded_only_summary">Automaatselt kustutakse ainult üleslaaditud faile</string>
-    <string name="max_number_of_files">Failide max arv</string>
+    <string name="max_number_of_files">Maksimaalne failide arv</string>
     <string name="max_number_of_files_message">Sisesta number (0 - piiramata)</string>
-    <string name="max_total_size_of_files">Failide max kogusuurus</string>
+    <string name="max_total_size_of_files">Maksimaalne failide kogumaht</string>
     <string name="max_total_size_of_files_message">Sisesta MB väärtus (0 - piiramata)</string>
-    <string name="max_age_of_recordings">Salvestiste max vanus</string>
+    <string name="max_age_of_recordings">Salvestiste maksimaalne vanus</string>
     <string name="max_age_of_recordings_message">Sisesta päevade väärtus (0 - piiramata)</string>
-    <string name="current_setting">Hetkeseaded: %s</string>
+    <string name="current_setting">Hetkeväärtus: %s</string>
     <string name="settings_filename">Failinimi</string>
     <string name="filename_pattern">Muster</string>
     <string name="time_pattern">Ajamuster</string>
@@ -318,9 +318,9 @@
     <string name="cloud_wifi_only">Ainult Wi-Fi</string>
     <string name="cloud_upload_when_charging">Üleslaadimine ainult laadimisel</string>
     <string name="cloud_auto_upload">Automaatne üleslaadimine</string>
-    <string name="cloud_auto_upload_summary">Üleslaadimine kohe pärast kõne</string>
-    <string name="cloud_upload_starred">Tähitute üleslaadimine</string>
-    <string name="cloud_upload_starred_summary">Üleslaadimine pilve kui salvestis saab tähitud</string>
+    <string name="cloud_auto_upload_summary">Üleslaadimine kohe pärast kõnet</string>
+    <string name="cloud_upload_starred">Tähistatud üleslaadimine</string>
+    <string name="cloud_upload_starred_summary">Tähistatud salvestiste üleslaadimine pilve</string>
     <string name="delete_recording_after_upload">Kustuta salvestis pärast üleslaadimist</string>
     <string name="delete_recording_after_upload_summary">Salvestis kustutakse pärast edukat üleslaadimist</string>
 
@@ -333,7 +333,7 @@
     <string name="notify_encrypting">Krüptimine</string>
     <string name="notify_decrypting">Dekrüptimine</string>
     <string name="notify_waiting_for_calls">Kõnede ootel</string>
-    <string name="notify_tasks_remaining">%d ülesannet jäänud</string>
+    <string name="notify_tasks_remaining">%d toimingut jäänud</string>
 
     <string name="wrong_password">Vale salasõna</string>
     <string name="enter_password">Sisesta salasõna</string>
@@ -361,24 +361,24 @@
     <string name="lock_after_10_minutes">10 min</string>
     <string name="app_admin">Rakenduse admin</string>
     <string name="app_admin_summary">Vajalik, et vältida Kõne salvestaja eemaldamist</string>
-    <string name="app_admin_explanation">Kõne salvestaja ei kasuta seadme administraatori funktsioone, välja arvatud eemaldamise kaitset</string>
+    <string name="app_admin_explanation">Kõne salvestaja ei kasuta peale eemaldamise kaitset seadme administraatori mingeid muid funktsioone</string>
     <string name="auto_unlock">Automaatne lahtilukustamine</string>
     <string name="auto_unlock_summary">Õigesti sisestatud salasõna puhul lahtilukustamine \'OK\' vajutamiseta</string>
     <string name="aes_128bit">128-bit AES (kiireim)</string>
     <string name="aes_192bit">192-bit AES (tasakaalutud)</string>
     <string name="aes_256bit">256-bit AES (tugev)</string>
     <string name="auto_encryption">Automaatne krüptimine</string>
-    <string name="auto_encryption_summary">WAV või AMR salvestiste krüpteerimne pärast kõnet</string>
+    <string name="auto_encryption_summary">WAV või AMR salvestiste krüpteerimine pärast kõnet</string>
     <string name="auto_encryption_warning">Automaatne krüpteerimine keelatakse, sest see ei toeta valitud salvestusformaati</string>
     <string name="enter_password_to_encrypt_recordings">Sisesta salasõna salvestiste krüpteerimiseks</string>
 
     <string name="use_built_in_player">Kasuta sisemist pleierit</string>
     <string name="audio_output">Audio väljund</string>
-    <string name="audio_output_summary">%s (Pikk vajutus Esita/Paus nupule vahetab seda samuti)</string>
-    <string name="disable_autoplay">Keela auto taasesitamine</string>
+    <string name="audio_output_summary">%s (Pikk vajutus Esita/Paus nupule vahetab samuti väljundit.)</string>
+    <string name="disable_autoplay">Keela automaatne taasesitus</string>
     <string name="disable_autoplay_summary">Ei käivata automaatselt taasesitust salvestise valimisel</string>
-    <string name="main_speaker">Peakõlar</string>
-    <string name="phone_speaker">Telefoni kõlar</string>
+    <string name="main_speaker">Telefoni kõlar</string>
+    <string name="phone_speaker">Telefoni kuular</string>
     <string name="use_proximity_sensor">Kasuta läheduse sensorit</string>
     <string name="use_proximity_sensor_summary">Läheduse sensor kustutab ekraani taasesituse ajal</string>
     <string name="switch_audio_output">Audio väljundi vahetamine</string>
@@ -532,8 +532,8 @@
     <string name="app_description_summary">Automaatne telefonikõnede salvestamise rakendus</string>
     <string name="app_description_0">Rakendus on mõeldud telefonikõnede automaatseks salvestamiseks kui see on toetatud riistvara ja kerneli poolt. Kõne salvestus on väga seadmekohane, sest tootjad ei ole sageli süsteemi tasandil rakendanud nõutavat funktsionaalsust nii nagu peaks.</string>
     <string name="app_description_1">Seega, root on kohustuslik paljudel seadmetel kus tootjad ei ole rakendanud nõutud funktsionaalsust. Aga see ei tähenda, et root on päästerõngas mis tahes seadme jaoks, sest kõne salvestus võib olla katki tehtud juba riistvaralisel tasemel. Root aitab sageli, kuid mitte alati.</string>
-    <string name="app_description_2">Rakendus sisaldab erinevaid salvestamise meetodeid. Kui sul on õnne, siis rakendus suudab salvestada mõlemaid osapooli Standard API salvestamise meetodiga ilma ruuduta. Kuid võib tekkida vajadus kontrollida kõiki audio sisendeid kohas Standard API Seaded&gt; Salvestamine&gt; Standard API.</string>
-    <string name="app_description_3">Kui oled proovinud kõiki Standard API audio sisendeid ja rakendus ei salvesta üldse või salvestab ainult oma häält, siis see tähendab, et tootja on kas ei suutnud rakendada või on blokeeritud kõne salvestamist süsteemi tasandil.</string>
+    <string name="app_description_2">Rakendus sisaldab erinevaid salvestamise meetodeid. Kui sul on õnne, siis rakendus suudab salvestada mõlemaid osapooli Standard API salvestamise meetodiga root õigustesta. Kuid võib tekkida vajadus kontrollida kõiki audio sisendeid kohas: Standard API Seaded &gt; Salvestamine &gt; Standard API.</string>
+    <string name="app_description_3">Kui oled proovinud kõiki Standard API audio sisendeid ja rakendus ei salvesta üldse või salvestab ainult sinu häält, siis see tähendab, et tootja kas ei suutnud rakendada või on blokeeritud kõne salvestamist süsteemi tasandil.</string>
     <string name="app_description_4">Sul peavad olema root õigused proovima muid salvestamise meetodeid. Nende meetodite kasuatamisel on oluline valida õige seade kohas Seaded &gt; Salvestamine. Vali seade, millel on sama kiibistik, kui sinu seade ei ole seal loetletud.</string>
 <string name="estonian_translation">Eesti tõlge</string>
     <string name="estonian_translation_summary">Arthur Kono</string>
