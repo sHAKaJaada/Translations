@@ -806,4 +806,7 @@
     <string name="auto_encryption_warning">El auto encriptado se desactivará debido a que el formato de grabación no está soportado</string>
     <string name="enter_password_to_encrypt_recordings">Ingrese la contraseña para las grabaciones encriptadas</string>
 
+    <string name="estonian_translation">Traducción al Estonio</string>
+    <string name="estonian_translation_summary">por Arthur Kono</string>
+
     </resources>
