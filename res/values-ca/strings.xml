@@ -571,4 +571,12 @@
 
     <string name="show_button_to_add_star">Mostrar botó de favorits</string>
     <string name="button_install">Instal·lar</string>
+    <string name="menu_add_to_onedrive">Afegir a OneDrive</string>
+    <string name="not_charging">Sense carregar</string>
+    <string name="cloud_upload_when_charging">Pujar només quan és en càrrega</string>
+    <string name="cleanup_uploaded_only">Netejar només els fitxers pujats</string>
+    <string name="cleanup_uploaded_only_summary">Només els fitxers pujats s\'esborraran automàticament</string>
+    <string name="show_phone_numbers">Mostra els números de telèfon</string>
+    <string name="sign_out_onedrive">Tanca sessió al OneDrive</string>
+    <string name="cloud_provider_onedrive">Microsoft OneDrive</string>
     </resources>
