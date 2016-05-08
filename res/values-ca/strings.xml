@@ -579,4 +579,13 @@
     <string name="show_phone_numbers">Mostra els números de telèfon</string>
     <string name="sign_out_onedrive">Tanca sessió al OneDrive</string>
     <string name="cloud_provider_onedrive">Microsoft OneDrive</string>
+    <string name="notify_uploading_onedrive">Pujant a OneDrive</string>
+    <string name="auto_encryption">Xifrat automàtic</string>
+    <string name="auto_encryption_summary">Xifrar les gravacions WAV o AMR després d\'una trucada</string>
+    <string name="auto_encryption_warning">El xifrat automàtic es deshabilitarà ja que el xifrat del format de gravació triat no està suportat</string>
+    <string name="enter_password_to_encrypt_recordings">Introdueix una contrasenya per xifrar les gravacions</string>
+
+    <string name="estonian_translation">Traducció a l\'Estonià</string>
+    <string name="estonian_translation_summary">per Arthur Kono</string>
+
     </resources>
