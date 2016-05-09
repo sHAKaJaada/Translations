@@ -590,4 +590,7 @@
     <string name="enter_password_to_encrypt_recordings">録音を暗号化するためのパスワードを入力してください</string>
 
     <string name="not_charging">充電されていません</string>
+    <string name="estonian_translation">エストニア語の翻訳</string>
+    <string name="estonian_translation_summary">Arthur Kono</string>
+
     </resources>
