@@ -583,4 +583,7 @@
     <string name="enter_password_to_encrypt_recordings">Zadej heslo k šifrování nahrávek</string>
 
     <string name="not_charging">Nenabíjí se</string>
+    <string name="estonian_translation">Estonština překlad</string>
+    <string name="estonian_translation_summary">Arthur Kono</string>
+
     </resources>
