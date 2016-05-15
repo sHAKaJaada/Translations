@@ -589,4 +589,7 @@
     <string name="auto_encryption_warning">ਔਟੋ ਇੰਕ੍ਰਿਪਟਡ ਬੰਦ ਹੋ ਜਾਵੇਗਾ ਕਯੋ ਕੀ ਰਿਕਾਰਡਿੰਗ ਦੇ ਫਾਰਮੈਟ ਸਹੀ ਨਹੀ ਹੈ</string>
     <string name="enter_password_to_encrypt_recordings">ਰਿਕਾਰਡਿੰਗ ਨੂ ਇੰਕ੍ਰਿਪਟ ਕਰਨ ਲਈ ਪਾਸਵਰਡ ਦਿਓ</string>
 
+    <string name="estonian_translation">ਇਸਤੋਨੀ ਅਨੁਵਾਦ</string>
+    <string name="estonian_translation_summary">ਅਰਥੁਰ ਕੋਨੋ ਦੁਆਰਾ</string>
+
     </resources>
