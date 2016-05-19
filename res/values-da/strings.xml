@@ -577,7 +577,7 @@
     <string name="cleanup_uploaded_only_summary">Kun filer gemt online vil blive slettet automatiskt</string>
     <string name="show_phone_numbers">Vis telefonnumre</string>
     <string name="cloud_upload_when_charging">Send kun filer under opladning</string>
-    <string name="notify_uploading_onedrive">Gemmer på OneDrive</string>
+    <string name="notify_uploading_onedrive">Overfører til OneDrive</string>
     <string name="auto_encryption">Automatisk kryptering</string>
     <string name="auto_encryption_summary">Krypter WAV og AMR optagelser efter opkald</string>
     <string name="auto_encryption_warning">Automatisk kryptering deaktiveres da det valgte optage-format ikke understøttes</string>
