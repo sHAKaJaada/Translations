@@ -586,4 +586,8 @@
     <string name="estonian_translation">Tłumaczenie na język estoński</string>
     <string name="estonian_translation_summary">Arthur Kono</string>
 
+    <string name="menu_add_to_box">Dodaj do Box</string>
+    <string name="sign_out_box">Wyloguj z Box</string>
+    <string name="cloud_provider_box">Box</string>
+    <string name="notify_uploading_box">Wysyłanie do Box</string>
     </resources>
