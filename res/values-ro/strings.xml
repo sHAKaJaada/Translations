@@ -586,4 +586,8 @@
     <string name="estonian_translation">Traducerea în Estonă</string>
     <string name="estonian_translation_summary">de Arthur Kono</string>
 
+    <string name="menu_add_to_box">Adaugă către Box</string>
+    <string name="sign_out_box">Delogare din Box</string>
+    <string name="cloud_provider_box">Box</string>
+    <string name="notify_uploading_box">Urcare către Box</string>
     </resources>
