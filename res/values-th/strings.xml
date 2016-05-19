@@ -582,4 +582,11 @@
     <string name="auto_encryption_warning">การเข้ารหัสอัตโนมัติจะปิดใช้งานเมื่อไม่รองรับรูปแบบการบันทึกที่เลือก</string>
     <string name="enter_password_to_encrypt_recordings">กรอกรหัสผ่านที่ใช้เข้ารหัสไฟล์เสียง</string>
 
+    <string name="menu_add_to_box">เพิ่มไปยังกล่อง</string>
+    <string name="sign_out_box">เลิกใช้งาน Box</string>
+    <string name="cloud_provider_box">Box</string>
+    <string name="notify_uploading_box">อัพโหลดไปยัง Box</string>
+    <string name="estonian_translation">แปลเป็นภาษาเอสโทเนียน</string>
+    <string name="estonian_translation_summary">โดย Arthur Kono</string>
+
     </resources>
