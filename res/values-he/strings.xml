@@ -585,4 +585,8 @@
     <string name="estonian_translation">תרגום לאסטונית</string>
     <string name="estonian_translation_summary">ע\"י Arthur Kono</string>
 
+    <string name="menu_add_to_box">הוסף לקופסה</string>
+    <string name="sign_out_box">התנתק מהקופסה</string>
+    <string name="cloud_provider_box">קופסה</string>
+    <string name="notify_uploading_box">מעלה לקופסה</string>
     </resources>
