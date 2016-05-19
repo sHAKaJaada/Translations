@@ -53,7 +53,7 @@
     <string name="add_to_contacts">Tilføj til kontaktpersoner</string>
 
     <!-- List -> Context menu -->
-    <string name="menu_add_to_dropbox">Føj til Dropbox</string>
+    <string name="menu_add_to_dropbox">Tilføj til Dropbox</string>
     <string name="menu_add_note">Tilføj note</string>
     <string name="menu_edit_note">Rediger note</string>
     <string name="menu_delete">Slet</string>
@@ -586,4 +586,8 @@
     <string name="estonian_translation">Estonisk oversættelse</string>
     <string name="estonian_translation_summary">Af Arthur Kono</string>
 
+    <string name="menu_add_to_box">Tilføj til Box</string>
+    <string name="sign_out_box">Log ud af Box</string>
+    <string name="cloud_provider_box">Box</string>
+    <string name="notify_uploading_box">Overfører til Box</string>
     </resources>
