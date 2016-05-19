@@ -593,4 +593,8 @@
     <string name="estonian_translation">エストニア語の翻訳</string>
     <string name="estonian_translation_summary">Arthur Kono</string>
 
+    <string name="menu_add_to_box">Boxへ追加</string>
+    <string name="sign_out_box">Boxからサインアウト</string>
+    <string name="cloud_provider_box">Box</string>
+    <string name="notify_uploading_box">Boxへアップロード中</string>
     </resources>
