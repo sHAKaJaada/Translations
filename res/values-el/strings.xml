@@ -592,4 +592,8 @@
     <string name="estonian_translation">Εσθονική μετάφραση</string>
     <string name="estonian_translation_summary">από Arthur Kono</string>
 
+    <string name="menu_add_to_box">Προσθήκη στο Box</string>
+    <string name="sign_out_box">Αποσύνδεση από το Box</string>
+    <string name="cloud_provider_box">Bοx</string>
+    <string name="notify_uploading_box">Γίνεται ανέβασμα στο Box</string>
     </resources>
