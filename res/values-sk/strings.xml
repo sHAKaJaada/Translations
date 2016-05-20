@@ -529,7 +529,7 @@
     <string name="menu_add_to_drive">Pridať na Disk Google</string>
     <string name="sign_out_google_drive">Odhlásiť sa z Disku Google</string>
     <string name="sign_in">Prihlásiť sa</string>
-    <string name="notify_uploading_drive">Odovzdáva sa na Disk Google</string>
+    <string name="notify_uploading_drive">Odovzdávanie na Disk Google</string>
     <string name="notify_converting_to_wav">Konvertovanie do WAV</string>
     <string name="tip_audio_output">Dlhým stlačením tlačidla Prehrať/Pauza prepnete výstup zvuku.</string>
 
@@ -577,7 +577,7 @@
     <string name="cleanup_uploaded_only_summary">Iba odovzdané súbory budú automaticky vymazané</string>
     <string name="show_phone_numbers">Zobraziť telefónne čísla</string>
     <string name="cloud_upload_when_charging">Odovzdať iba pri nabíjaní</string>
-    <string name="notify_uploading_onedrive">Odovzdáva sa na OneDrive</string>
+    <string name="notify_uploading_onedrive">Odovzdávanie na OneDrive</string>
     <string name="auto_encryption">Automatické kódovanie</string>
     <string name="auto_encryption_summary">Zakódovať nahrávky WAV alebo AMR po skončení hovoru</string>
     <string name="auto_encryption_warning">Automatické kódovanie bude zakázané, ak nepodporuje vybraný formát nahrávania</string>
@@ -589,5 +589,5 @@
     <string name="menu_add_to_box">Pridať na Box</string>
     <string name="sign_out_box">Odhlásiť sa z Boxu</string>
     <string name="cloud_provider_box">Box</string>
-    <string name="notify_uploading_box">Odovzdáva sa na Box</string>
+    <string name="notify_uploading_box">Odovzdávanie na Box</string>
     </resources>
