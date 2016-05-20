@@ -577,7 +577,7 @@
 
     <string name="menu_add_to_onedrive">Προσθήκη στο OneDrive</string>
     <string name="sign_out_onedrive">Αποσύνδεση από OneDrive</string>
-    <string name="cloud_provider_onedrive">Microsoft OneDrive</string>
+    <string name="cloud_provider_onedrive">Microsoft ΟneDrive</string>
     <string name="not_charging">Δεν φορτίζει</string>
     <string name="cleanup_uploaded_only">Καθαρισμός μόνο των ανεβασμένων αρχείων</string>
     <string name="cleanup_uploaded_only_summary">Μόνο τα ανεβασμένα αρχεία θα αφαιρούνται αυτόματα</string>
