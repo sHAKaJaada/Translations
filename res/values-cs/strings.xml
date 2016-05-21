@@ -576,7 +576,7 @@
     <string name="cleanup_uploaded_only_summary">Pouze uploadnuté soubory budou automaticky odstraněny</string>
     <string name="show_phone_numbers">Zobrazit telefonní čísla</string>
     <string name="cloud_upload_when_charging">Uploadovat pouze při dobíjení</string>
-    <string name="notify_uploading_onedrive">Uploadovat na OneDrive</string>
+    <string name="notify_uploading_onedrive">Nahrávám do OneDrive</string>
     <string name="auto_encryption">Automatické šifrování</string>
     <string name="auto_encryption_summary">Po skončení hovoru šifrovat nahrávky WAV do AMR</string>
     <string name="auto_encryption_warning">Automatické šifrování bude zakázáno pokud nepodporuje zvolený nahrávací formát</string>
