@@ -592,4 +592,8 @@
     <string name="estonian_translation">ਇਸਤੋਨੀ ਅਨੁਵਾਦ</string>
     <string name="estonian_translation_summary">ਅਰਥੁਰ ਕੋਨੋ ਦੁਆਰਾ</string>
 
+    <string name="menu_add_to_box">Box ਵਿੱਚ ਜੋੜੋ</string>
+    <string name="sign_out_box">BOX ਤੋ ਸਾਈਨ ਆਉਟ ਕਰੋ</string>
+    <string name="cloud_provider_box">BOX</string>
+    <string name="notify_uploading_box">BOX ਵਿਚ ਅੱਪਲੋਡ ਹੋ ਰਹੀ ਹੈ</string>
     </resources>
