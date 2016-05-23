@@ -581,4 +581,11 @@
     <string name="app_description_2">Uygulamanın değişik kayıt metodları vardır. Genel olarak \"root\" işlemi gerçekleştirilmesine gerek kalmadan, \"standart API\" metoduyla, uygulama başarılı şekilde çalışmaktadır fakat Ayarlar &gt; Kayıt &gt; Standart API sekmesinde yer alan metodlardan hangisinin sizin cihazınıza uygun olduğunu deneyerek belirlemeniz gerekebilir.</string>
     <string name="app_description_3">Standart API sekmesinde yer alan metodların hepsini denemenize rağmen, uygulama ya hiç kayıt yapmıyor ya da sadece kendi sesinizi kaydediyor ise muhtemelen cihaz üreticiniz kayıt için gerekli sistem gereksinimini ya sağlamamış ya da engellemiş olabilir.</string>
     <string name="app_description_4">Diğer kayıt metodlarını uygulamak için uygulamaya \"root\" yetkisi vermeniz gerekecektir. Bu durumda Ayarlar &gt; Kayıt sekmesi altında yer alan cihazlardan size ait olanı seçmeniz önemlidir. Şayet listede kendinize ait cihaz ismini bulamazsanız sizin cihazınız ile aynı \"chipset\" e sahip olan başka bir cihazı seçmeniz uygun olacaktır.</string>
-</resources>
+<string name="menu_add_to_box">Box\'a ekle</string>
+    <string name="sign_out_box">Box çıkış yap</string>
+    <string name="cloud_provider_box">Box</string>
+    <string name="notify_uploading_box">Box\'a yükleniyor</string>
+    <string name="estonian_translation">Estonca çeviri</string>
+    <string name="estonian_translation_summary">Arthur Kono tarafından</string>
+
+    </resources>
