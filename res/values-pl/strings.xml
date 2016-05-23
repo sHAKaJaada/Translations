@@ -576,7 +576,7 @@
     <string name="cleanup_uploaded_only">Sprzątanie tylko plików wysłanych</string>
     <string name="cleanup_uploaded_only_summary">Tylko pliki wysłane będą automatycznie usunięte</string>
     <string name="show_phone_numbers">Pokaż numer telefonu</string>
-    <string name="cloud_upload_when_charging">wysyłaj tylko podczas ładowania</string>
+    <string name="cloud_upload_when_charging">Wyślij tylko podczas ładowania</string>
     <string name="notify_uploading_onedrive">Wyślij na OneDrive</string>
     <string name="auto_encryption">Auto szyfrowanie</string>
     <string name="auto_encryption_summary">Szyfruj nagrania WAV lub AMR po rozmowie</string>
