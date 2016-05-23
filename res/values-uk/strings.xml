@@ -600,4 +600,11 @@
     <string name="auto_encryption_warning">Автошифрування буде вимкнено, бо воно не підтримує вибраний вами формат</string>
     <string name="enter_password_to_encrypt_recordings">Введіть пароль для шифрування записів</string>
 
+    <string name="menu_add_to_box">Додати до Box</string>
+    <string name="sign_out_box">Вийти з Box</string>
+    <string name="cloud_provider_box">Box</string>
+    <string name="notify_uploading_box">Відвантажити в Box</string>
+    <string name="estonian_translation">Перкладено на естонську</string>
+    <string name="estonian_translation_summary">завдяки Arthur Kono</string>
+
     </resources>
