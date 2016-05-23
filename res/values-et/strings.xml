@@ -538,4 +538,8 @@
 <string name="estonian_translation">Eesti tõlge</string>
     <string name="estonian_translation_summary">Arthur Kono</string>
 
+    <string name="menu_add_to_box">Lisa Box\'i</string>
+    <string name="sign_out_box">Logi Box\'ist välja</string>
+    <string name="cloud_provider_box">Box</string>
+    <string name="notify_uploading_box">Üleslaadimine Box\'i</string>
     </resources>
