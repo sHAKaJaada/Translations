@@ -582,4 +582,8 @@
     <string name="estonian_translation">Пераклад на эстонскі</string>
     <string name="estonian_translation_summary">ад от Arthur Kono</string>
 
+    <string name="menu_add_to_box">Дадаць на Box</string>
+    <string name="sign_out_box">Выйсці з Box</string>
+    <string name="cloud_provider_box">Box</string>
+    <string name="notify_uploading_box">Ідзе загрузка на Box</string>
     </resources>
