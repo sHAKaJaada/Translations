@@ -589,4 +589,8 @@
     <string name="estonian_translation">Estnisk översättning</string>
     <string name="estonian_translation_summary">av Arthur Kono</string>
 
+    <string name="menu_add_to_yandex">Lägg till i Yandex.Disk</string>
+    <string name="sign_out_yandex">Logga ut från Yandex.Disk</string>
+    <string name="cloud_provider_yandex">Yandex.Disk</string>
+    <string name="notify_uploading_yandex">Laddar upp till Yandex.Disk</string>
     </resources>
