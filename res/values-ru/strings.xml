@@ -590,4 +590,8 @@
     <string name="sign_out_box">Выйти из Box</string>
     <string name="cloud_provider_box">Box</string>
     <string name="notify_uploading_box">Идет загрузка на Box</string>
+    <string name="menu_add_to_yandex">Добавить на Яндекс.Диск</string>
+    <string name="sign_out_yandex">Выйти из Яндекс.Диск</string>
+    <string name="cloud_provider_yandex">Яндекс.Диск</string>
+    <string name="notify_uploading_yandex">Идет загрузка на Яндекс.Диск</string>
     </resources>
