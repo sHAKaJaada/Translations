@@ -597,4 +597,8 @@
     <string name="sign_out_box">Boxからサインアウト</string>
     <string name="cloud_provider_box">Box</string>
     <string name="notify_uploading_box">Boxへアップロード中</string>
+    <string name="menu_add_to_yandex">Yandex.Diskへ追加</string>
+    <string name="sign_out_yandex">Yandex.Diskからサインアウト</string>
+    <string name="cloud_provider_yandex">Yandex.Disk</string>
+    <string name="notify_uploading_yandex">Yandex.Diskへアップロード中</string>
     </resources>
