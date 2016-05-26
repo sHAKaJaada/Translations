@@ -589,4 +589,8 @@
     <string name="estonian_translation">แปลเป็นภาษาเอสโทเนียน</string>
     <string name="estonian_translation_summary">โดย Arthur Kono</string>
 
+    <string name="menu_add_to_yandex">เพิ่มไปยัง Yandex.Disk</string>
+    <string name="sign_out_yandex">ลงชื่อออกจาก Yandex.Disk</string>
+    <string name="cloud_provider_yandex">Yandex.Disk</string>
+    <string name="notify_uploading_yandex">อัพโหลดไปยัง Yandex.Disk</string>
     </resources>
