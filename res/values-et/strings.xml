@@ -542,4 +542,8 @@
     <string name="sign_out_box">Logi Box\'ist välja</string>
     <string name="cloud_provider_box">Box</string>
     <string name="notify_uploading_box">Üleslaadimine Box\'i</string>
+    <string name="menu_add_to_yandex">Lisa Yandex.Disk\'i</string>
+    <string name="sign_out_yandex">Logi välja Yandex.Disk\'ist</string>
+    <string name="cloud_provider_yandex">Yandex.Disk</string>
+    <string name="notify_uploading_yandex">Üleslaadimine Yandex.Disk\'i</string>
     </resources>
