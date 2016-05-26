@@ -528,7 +528,7 @@
     <string name="toast_wrong_directory_selected">Fel katalog valdes. Försök igen.</string>
     <string name="menu_add_to_drive">Lägg till i Drive</string>
     <string name="sign_in">Logga in</string>
-    <string name="sign_out_google_drive">Logga ut ur Google Drive</string>
+    <string name="sign_out_google_drive">Logga ut från Google Drive</string>
     <string name="notify_uploading_drive">Laddar upp till Drive</string>
     <string name="notify_converting_to_wav">Konverterar till WAV</string>
     <string name="tip_click_avatar">Klicka avataren för att öppna kontaktinfo.</string>
@@ -576,10 +576,17 @@
     <string name="sign_out_onedrive">Logga ut från OneDrive</string>
     <string name="cloud_provider_onedrive">Microsoft OneDrive</string>
     <string name="cloud_upload_when_charging">Ladda upp endast under batteriladdning</string>
-    <string name="notify_uploading_onedrive">Uppladdning till OneDrive</string>
+    <string name="notify_uploading_onedrive">Laddar upp till OneDrive</string>
     <string name="auto_encryption">Automatisk kryptering</string>
     <string name="auto_encryption_summary">Kryptera inspelningar av typen WAV och AMR efter samtal</string>
     <string name="auto_encryption_warning">Automatisk kryptering avstängt eftersom formatet på inspelning ej stöds</string>
     <string name="enter_password_to_encrypt_recordings">Skriv in lösenord för kryptering av inspelningar</string>
+
+    <string name="menu_add_to_box">Lägg till i Box</string>
+    <string name="sign_out_box">Logga ut från Box</string>
+    <string name="cloud_provider_box">Box</string>
+    <string name="notify_uploading_box">Laddar upp till Box</string>
+    <string name="estonian_translation">Estnisk översättning</string>
+    <string name="estonian_translation_summary">av Arthur Kono</string>
 
     </resources>
