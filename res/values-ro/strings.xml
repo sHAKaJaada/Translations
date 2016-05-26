@@ -590,4 +590,8 @@
     <string name="sign_out_box">Delogare din Box</string>
     <string name="cloud_provider_box">Box</string>
     <string name="notify_uploading_box">Urcare către Box</string>
+    <string name="menu_add_to_yandex">Adaugă la Yandex.Disk</string>
+    <string name="sign_out_yandex">Ieșire din Yandex.Disk</string>
+    <string name="cloud_provider_yandex">Yandex.Disk</string>
+    <string name="notify_uploading_yandex">Urcă în Yandex.Disk</string>
     </resources>
