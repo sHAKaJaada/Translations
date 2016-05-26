@@ -589,4 +589,8 @@
     <string name="sign_out_box">התנתק מהקופסה</string>
     <string name="cloud_provider_box">קופסה</string>
     <string name="notify_uploading_box">מעלה לקופסה</string>
+    <string name="menu_add_to_yandex">הוסף לYandex.Disk</string>
+    <string name="sign_out_yandex">התנתק מYandex.Disk</string>
+    <string name="cloud_provider_yandex">Yandex.Disk</string>
+    <string name="notify_uploading_yandex">מעלה לYandex.Disk</string>
     </resources>
