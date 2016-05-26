@@ -590,4 +590,8 @@
     <string name="sign_out_box">Log ud af Box</string>
     <string name="cloud_provider_box">Box</string>
     <string name="notify_uploading_box">Overfører til Box</string>
+    <string name="menu_add_to_yandex">Tilføj til Yandex.Disk</string>
+    <string name="sign_out_yandex">Log ud af Yandex.Disk</string>
+    <string name="cloud_provider_yandex">Yandex.Disk</string>
+    <string name="notify_uploading_yandex">Overfører til Yandex.Disk</string>
     </resources>
