@@ -590,4 +590,8 @@
     <string name="sign_out_box">Odhlásiť sa z Boxu</string>
     <string name="cloud_provider_box">Box</string>
     <string name="notify_uploading_box">Odovzdávanie na Box</string>
+    <string name="menu_add_to_yandex">Pridať na Yandex.Disk</string>
+    <string name="sign_out_yandex">Odhlásiť sa z Yandex.Disku</string>
+    <string name="cloud_provider_yandex">Yandex.Disk</string>
+    <string name="notify_uploading_yandex">Odovzdávanie na Yandex.Disk</string>
     </resources>
