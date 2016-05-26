@@ -596,4 +596,8 @@
     <string name="sign_out_box">Αποσύνδεση από το Box</string>
     <string name="cloud_provider_box">Bοx</string>
     <string name="notify_uploading_box">Γίνεται ανέβασμα στο Box</string>
+    <string name="menu_add_to_yandex">Προσθήκη στο Yandex.Disk</string>
+    <string name="sign_out_yandex">Αποσύνδεση από το Yandex.Disk</string>
+    <string name="cloud_provider_yandex">Υandex.Disk</string>
+    <string name="notify_uploading_yandex">Ανέβασμα σε Yandex.Disk</string>
     </resources>
