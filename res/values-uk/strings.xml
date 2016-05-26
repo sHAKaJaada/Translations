@@ -607,4 +607,8 @@
     <string name="estonian_translation">Перкладено на естонську</string>
     <string name="estonian_translation_summary">завдяки Arthur Kono</string>
 
+    <string name="menu_add_to_yandex">Додати до Yandex.Disk</string>
+    <string name="sign_out_yandex">Вийти з Yandex.Disk</string>
+    <string name="cloud_provider_yandex">Yandex.Disk</string>
+    <string name="notify_uploading_yandex">Відвантажити Yandex.Disk</string>
     </resources>
