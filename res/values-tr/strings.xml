@@ -588,4 +588,8 @@
     <string name="estonian_translation">Estonca çeviri</string>
     <string name="estonian_translation_summary">Arthur Kono tarafından</string>
 
+    <string name="menu_add_to_yandex">Yandex.Disk\'e ekle</string>
+    <string name="sign_out_yandex">Yandex.Disk çıkış yap</string>
+    <string name="cloud_provider_yandex">Yandex.Disk</string>
+    <string name="notify_uploading_yandex">Yandex.Disk\'e yükleniyor</string>
     </resources>
