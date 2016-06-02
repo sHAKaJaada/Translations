@@ -586,4 +586,15 @@
     <string name="auto_encryption_warning">रिकॉर्डिंग फ़ॉर्मेट के बेमेल होने के चलते स्वतः कूट बद्दता नहीं होगी</string>
     <string name="enter_password_to_encrypt_recordings">रिकॉर्डिंग को कूट बद्द करने हेतु पासवर्ड डालें</string>
 
+    <string name="menu_add_to_box">Box में डालें</string>
+    <string name="menu_add_to_yandex">Yandex.Disk में जोडें</string>
+    <string name="sign_out_box">Box से लोग आउट करें</string>
+    <string name="sign_out_yandex">Yandex.Disk से लोग आउट करें</string>
+    <string name="cloud_provider_box">Box</string>
+    <string name="cloud_provider_yandex">Yandex.Disk</string>
+    <string name="notify_uploading_box">Box में अपलोड करें</string>
+    <string name="notify_uploading_yandex">Yandex.Disk में अपलोड हो रहा है</string>
+    <string name="estonian_translation">Estonian अनुवाद</string>
+    <string name="estonian_translation_summary">Arthur Kono द्वारा</string>
+
     </resources>
