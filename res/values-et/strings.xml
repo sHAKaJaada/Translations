@@ -32,7 +32,7 @@
     <string name="sort_by_date">Kuupäeva järgi</string>
     <string name="sort_by_contact">Kontakti järgi</string>
     <string name="sort_by_file_size">Suuruse järgi</string>
-    <string name="records_size">salvestisi: %1$s, suurus: %2$s</string>
+    <string name="records_size">salvestisi: %1$s, maht: %2$s</string>
     <string name="space_free_of">%1$s vaba %2$s -st</string>
 
     <string name="restore_settings">Taasta seaded</string>
