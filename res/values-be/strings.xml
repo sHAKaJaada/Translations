@@ -586,4 +586,8 @@
     <string name="sign_out_box">Выйсці з Box</string>
     <string name="cloud_provider_box">Box</string>
     <string name="notify_uploading_box">Ідзе загрузка на Box</string>
+    <string name="menu_add_to_yandex">Дадаць на Яндэкс.Дыск</string>
+    <string name="sign_out_yandex">Выйсці з Яндэкс.Дыска</string>
+    <string name="cloud_provider_yandex">Яндэкс.Дыск</string>
+    <string name="notify_uploading_yandex">Ідзе загрузка на Яндэкс.Дыск</string>
     </resources>
