@@ -596,4 +596,8 @@
     <string name="sign_out_box">BOX ਤੋ ਸਾਈਨ ਆਉਟ ਕਰੋ</string>
     <string name="cloud_provider_box">BOX</string>
     <string name="notify_uploading_box">BOX ਵਿਚ ਅੱਪਲੋਡ ਹੋ ਰਹੀ ਹੈ</string>
+    <string name="menu_add_to_yandex">Yandex.Disk ਨਾਲ ਜੋੜ ਦਿਓ</string>
+    <string name="sign_out_yandex">"Yandex.Disk  ਤੋ ਸਾਇਨ ਆਉਟ ਕਰੋ"</string>
+    <string name="cloud_provider_yandex">Yandex.Disk</string>
+    <string name="notify_uploading_yandex">Yandex.Disk ਵਿਚ ਉਪਲੋਡ ਹੋ ਰਿਹਾ ਹੈ</string>
     </resources>
