@@ -598,4 +598,8 @@
     <string name="sign_out_webdav">Выйти из WebDAV</string>
     <string name="cloud_provider_webdav">WebDAV</string>
     <string name="notify_uploading_webdav">Идет загрузка на WebDAV</string>
+    <string name="cloud_server_address">Адрес сервера</string>
+    <string name="cloud_login">Логин</string>
+    <string name="cloud_password">Пароль</string>
+
     </resources>
