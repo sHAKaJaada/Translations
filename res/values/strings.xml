@@ -358,6 +358,9 @@
     <string name="cloud_upload_starred_summary">Upload recording to cloud when you add star to it</string>
     <string name="delete_recording_after_upload">Delete recording after upload</string>
     <string name="delete_recording_after_upload_summary">Recording will be deleted after successful upload</string>
+    <string name="cloud_server_address">Server address</string>
+    <string name="cloud_login">Login</string>
+    <string name="cloud_password">Password</string>
 
     <!-- Notification -->
     <string name="notify_uploading_dropbox">Uploading to Dropbox</string>
