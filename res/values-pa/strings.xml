@@ -604,4 +604,8 @@
     <string name="sign_out_webdav">WebDAV ਵਿਚੋ ਸਾਇਨ ਆਉਟ ਕਰੋ</string>
     <string name="cloud_provider_webdav">WebDAV</string>
     <string name="notify_uploading_webdav">WebDAV ਤੇ ਅੱਪਲੋਡ ਕਰੋ</string>
+    <string name="cloud_server_address">ਸਰਵਰ ਦਾ ਐਡਰੈੱਸ</string>
+    <string name="cloud_login">ਲਾਗਿਨ</string>
+    <string name="cloud_password">ਪਾਸਵਰਡ</string>
+
     </resources>
