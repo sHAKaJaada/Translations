@@ -611,4 +611,12 @@
     <string name="sign_out_yandex">Вийти з Yandex.Disk</string>
     <string name="cloud_provider_yandex">Yandex.Disk</string>
     <string name="notify_uploading_yandex">Відвантажити Yandex.Disk</string>
+    <string name="menu_add_to_webdav">Додати до WebDAV</string>
+    <string name="sign_out_webdav">Вийти з WebDAV</string>
+    <string name="cloud_provider_webdav">WebDAV</string>
+    <string name="cloud_server_address">Адреса сервера</string>
+    <string name="cloud_login">Залогуватися</string>
+    <string name="cloud_password">Пароль</string>
+
+    <string name="notify_uploading_webdav">Відвантажено до WebDAV</string>
     </resources>
