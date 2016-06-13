@@ -594,4 +594,8 @@
     <string name="sign_out_yandex">Выйти из Яндекс.Диска</string>
     <string name="cloud_provider_yandex">Яндекс.Диск</string>
     <string name="notify_uploading_yandex">Идет загрузка на Яндекс.Диск</string>
+    <string name="menu_add_to_webdav">Добавить на WebDAV</string>
+    <string name="sign_out_webdav">Выйти из WebDAV</string>
+    <string name="cloud_provider_webdav">WebDAV</string>
+    <string name="notify_uploading_webdav">Идет загрузка на WebDAV</string>
     </resources>
