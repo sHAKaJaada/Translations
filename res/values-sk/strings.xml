@@ -594,4 +594,12 @@
     <string name="sign_out_yandex">Odhlásiť sa z Yandex.Disku</string>
     <string name="cloud_provider_yandex">Yandex.Disk</string>
     <string name="notify_uploading_yandex">Odovzdávanie na Yandex.Disk</string>
+    <string name="menu_add_to_webdav">Pridať na WebDAV</string>
+    <string name="sign_out_webdav">Odhlásiť sa z WebDAV</string>
+    <string name="cloud_provider_webdav">WebDAV</string>
+    <string name="cloud_server_address">Adresa servera</string>
+    <string name="cloud_login">Prihlásiť sa</string>
+    <string name="cloud_password">Heslo</string>
+
+    <string name="notify_uploading_webdav">Odovzdávanie na WebDAV</string>
     </resources>
