@@ -594,4 +594,12 @@
     <string name="sign_out_yandex">Ieșire din Yandex.Disk</string>
     <string name="cloud_provider_yandex">Yandex.Disk</string>
     <string name="notify_uploading_yandex">Urcă în Yandex.Disk</string>
+    <string name="menu_add_to_webdav">Adaugă în WebDAV</string>
+    <string name="sign_out_webdav">Ieșire din WebDAV</string>
+    <string name="cloud_provider_webdav">WebDAV</string>
+    <string name="cloud_server_address">Adresa serverului</string>
+    <string name="cloud_login">Login</string>
+    <string name="cloud_password">Parola</string>
+
+    <string name="notify_uploading_webdav">Urcă în WebDAV</string>
     </resources>
