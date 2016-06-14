@@ -593,4 +593,12 @@
     <string name="sign_out_yandex">ลงชื่อออกจาก Yandex.Disk</string>
     <string name="cloud_provider_yandex">Yandex.Disk</string>
     <string name="notify_uploading_yandex">อัพโหลดไปยัง Yandex.Disk</string>
+    <string name="menu_add_to_webdav">เพิ่มไปยัง WebDAV</string>
+    <string name="sign_out_webdav">ลงชื่อออกจาก WebDAV</string>
+    <string name="cloud_provider_webdav">WebDAV</string>
+    <string name="cloud_server_address">ที่อยู่เซิฟเวอร์</string>
+    <string name="cloud_login">เข้าใช้งาน</string>
+    <string name="cloud_password">รหัสผ่าน</string>
+
+    <string name="notify_uploading_webdav">อัพโหลดไปยัง WebDAV</string>
     </resources>
