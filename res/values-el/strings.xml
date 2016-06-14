@@ -600,4 +600,12 @@
     <string name="sign_out_yandex">Αποσύνδεση από το Yandex.Disk</string>
     <string name="cloud_provider_yandex">Υandex.Disk</string>
     <string name="notify_uploading_yandex">Ανέβασμα σε Yandex.Disk</string>
+    <string name="menu_add_to_webdav">Προσθήκη σε WebDAV</string>
+    <string name="sign_out_webdav">Αποσύνδεση από WebDAV</string>
+    <string name="cloud_provider_webdav">WebDΑV</string>
+    <string name="cloud_server_address">Διεύθυνση διακομιστή</string>
+    <string name="cloud_login">Σύνδεση</string>
+    <string name="cloud_password">Κωδικός</string>
+
+    <string name="notify_uploading_webdav">Ανεβαίνει σε WebDAV</string>
     </resources>
