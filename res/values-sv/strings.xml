@@ -593,4 +593,12 @@
     <string name="sign_out_yandex">Logga ut från Yandex.Disk</string>
     <string name="cloud_provider_yandex">Yandex.Disk</string>
     <string name="notify_uploading_yandex">Laddar upp till Yandex.Disk</string>
+    <string name="menu_add_to_webdav">Lägg till i WebDAV</string>
+    <string name="sign_out_webdav">Logga ut från WebDAV</string>
+    <string name="cloud_provider_webdav">WebDAV</string>
+    <string name="cloud_server_address">Serveradress</string>
+    <string name="cloud_login">Logga in</string>
+    <string name="cloud_password">Lösenord</string>
+
+    <string name="notify_uploading_webdav">Laddar upp till WebDAV</string>
     </resources>
