@@ -593,4 +593,12 @@
     <string name="sign_out_yandex">התנתק מYandex.Disk</string>
     <string name="cloud_provider_yandex">Yandex.Disk</string>
     <string name="notify_uploading_yandex">מעלה לYandex.Disk</string>
+    <string name="menu_add_to_webdav">הוסף לWebDAV</string>
+    <string name="sign_out_webdav">התנתק מWebDAV</string>
+    <string name="cloud_provider_webdav">WebDAV</string>
+    <string name="cloud_server_address">כתובת השרת</string>
+    <string name="cloud_login">התחבר</string>
+    <string name="cloud_password">סיסמא</string>
+
+    <string name="notify_uploading_webdav">מעלה לWebDAV</string>
     </resources>
