@@ -601,4 +601,12 @@
     <string name="sign_out_yandex">Yandex.Diskからサインアウト</string>
     <string name="cloud_provider_yandex">Yandex.Disk</string>
     <string name="notify_uploading_yandex">Yandex.Diskへアップロード中</string>
+    <string name="menu_add_to_webdav">WebDAVへ追加</string>
+    <string name="sign_out_webdav">WebDAVからサインアウト</string>
+    <string name="cloud_provider_webdav">WebDAV</string>
+    <string name="cloud_server_address">サーバーアドレス</string>
+    <string name="cloud_login">ログイン</string>
+    <string name="cloud_password">パスワード</string>
+
+    <string name="notify_uploading_webdav">WebDAVへアップロード中</string>
     </resources>
