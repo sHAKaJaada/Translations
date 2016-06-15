@@ -590,4 +590,16 @@
     <string name="sign_out_box">Wyloguj z Box</string>
     <string name="cloud_provider_box">Box</string>
     <string name="notify_uploading_box">Wysyłanie do Box</string>
+    <string name="menu_add_to_yandex">Dodaj do Yandex.Disk</string>
+    <string name="menu_add_to_webdav">Dodaj do WebDAV</string>
+    <string name="sign_out_yandex">Wyloguj z Yandex.Disk</string>
+    <string name="sign_out_webdav">Wyloguj z WebDAV</string>
+    <string name="cloud_provider_yandex">Yandex.Disk</string>
+    <string name="cloud_provider_webdav">WebDAV</string>
+    <string name="cloud_server_address">Adres serwera</string>
+    <string name="cloud_login">Login</string>
+    <string name="cloud_password">Hasło</string>
+
+    <string name="notify_uploading_yandex">Wysyłanie do Yandex.Disk</string>
+    <string name="notify_uploading_webdav">Wysyłanie do WebDAV</string>
     </resources>
