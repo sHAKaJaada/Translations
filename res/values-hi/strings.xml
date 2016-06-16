@@ -597,4 +597,12 @@
     <string name="estonian_translation">Estonian अनुवाद</string>
     <string name="estonian_translation_summary">Arthur Kono द्वारा</string>
 
+    <string name="menu_add_to_webdav">WebDAV मैं डालें</string>
+    <string name="sign_out_webdav">WebDAV से लोग आउट करें</string>
+    <string name="cloud_provider_webdav">WebDAV</string>
+    <string name="cloud_server_address">Server का पता</string>
+    <string name="cloud_login">लोग इन</string>
+    <string name="cloud_password">पासवर्ड</string>
+
+    <string name="notify_uploading_webdav">WebDAV में अपलोड हो रहा है</string>
     </resources>
