@@ -733,4 +733,34 @@
     <string name="msg_grant_permissions">Осигурете достъп</string>
     <string name="msg_grant_permissions_summary">Приложението няма да работи, ако не му осигурите достъп</string>
 
+    <string name="not_charging">Не зарежда</string>
+    <string name="menu_add_to_onedrive">Добави в OneDrive</string>
+    <string name="menu_add_to_box">Добави в Box</string>
+    <string name="menu_add_to_yandex">Добави в Яндекс</string>
+    <string name="menu_add_to_webdav">Добави в WebDAV</string>
+    <string name="cleanup_uploaded_only">Изчисти качените файлове</string>
+    <string name="cleanup_uploaded_only_summary">Само качените файлове ще бъдат изтрити</string>
+    <string name="show_phone_numbers">Покажи телефонни номера</string>
+    <string name="sign_out_onedrive">Отписване от OneDrive</string>
+    <string name="sign_out_box">Отписване от Box</string>
+    <string name="sign_out_yandex">Отписване от Яндекс</string>
+    <string name="sign_out_webdav">Отписване от WebDAV</string>
+    <string name="cloud_provider_onedrive">Microsoft OneDrive</string>
+    <string name="cloud_provider_box">Box</string>
+    <string name="cloud_provider_yandex">Яндекс</string>
+    <string name="cloud_provider_webdav">WebDAV</string>
+    <string name="cloud_upload_when_charging">Качване само при зареждане</string>
+    <string name="cloud_server_address">Сървър адрес</string>
+    <string name="cloud_login">Потребител</string>
+    <string name="cloud_password">Парола</string>
+
+    <string name="notify_uploading_onedrive">Качване в OneDrive</string>
+    <string name="notify_uploading_box">Качване в Box</string>
+    <string name="notify_uploading_yandex">Качване в Яндекс</string>
+    <string name="notify_uploading_webdav">Качване в WebDAV</string>
+    <string name="auto_encryption">Автоматично криптиране</string>
+    <string name="auto_encryption_summary">Криптира WAV или AMR записи след разговор</string>
+    <string name="auto_encryption_warning">Автоматичното криптиране не поддържа избраните аудио формати</string>
+    <string name="enter_password_to_encrypt_recordings">Въведете парола за криптиране на записите</string>
+
     </resources>
