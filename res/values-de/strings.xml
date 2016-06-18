@@ -582,4 +582,23 @@
     <string name="auto_encryption_warning">Automatische Verschlüsselung wird deaktiviert, wenn das gewählte Aufzeichnungsformat nicht unterstützt wird</string>
     <string name="enter_password_to_encrypt_recordings">Passwort eingeben um Aufzeichnungen zu verschlüsseln</string>
 
+    <string name="menu_add_to_box">Zu Box hinzufügen</string>
+    <string name="menu_add_to_yandex">Zu Yandex.Disk hinzufügen</string>
+    <string name="menu_add_to_webdav">Zu WebDAV hinzufügen</string>
+    <string name="sign_out_box">Von Box abmelden</string>
+    <string name="sign_out_yandex">Von Yandex.Disk abmelden</string>
+    <string name="sign_out_webdav">Von WebDAV abmelden</string>
+    <string name="cloud_provider_box">Box</string>
+    <string name="cloud_provider_yandex">Yandex.Disk</string>
+    <string name="cloud_provider_webdav">WebDAV</string>
+    <string name="cloud_server_address">Server Adresse</string>
+    <string name="cloud_login">Benutzername</string>
+    <string name="cloud_password">Passwort</string>
+
+    <string name="notify_uploading_box">Hochladen zu Box</string>
+    <string name="notify_uploading_yandex">Hochladen zu Yandex.Disk</string>
+    <string name="notify_uploading_webdav">Hochladen zu WebDAV</string>
+    <string name="estonian_translation">Estländische Übersetzung</string>
+    <string name="estonian_translation_summary">von Arthur Kono</string>
+
     </resources>
