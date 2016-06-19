@@ -193,7 +193,7 @@
     <string name="api_source_voice_communication">مصدر صوت الاتصالات</string>
     <string name="category_wav_settings">خيارات الصوت WAV</string>
     
-    <string name="when_bt_connected">عندما يربط البلوتوث</string>
+    <string name="when_bt_connected">عندما يربط البلوتوث…</string>
     <string name="audio_source_when_bt_connected">مصدر الصوت عند اتصال البلوتوث</string>
 
     <!-- Actions when BT connected -->
@@ -496,7 +496,7 @@
     <string name="georgian_translation">الترجمة الجورجية</string>
     <string name="georgian_translation_summary">لـ الكساندر رازمادز</string>
     <string name="catalan_translation">الترجمة الـكـتـلونـيـة</string>
-    <string name="catalan_translation_summary">لـ سايبداني</string>
+    <string name="catalan_translation_summary">لـ سايبداني و جوردي ميرو</string>
     
     
     
@@ -525,7 +525,7 @@
     <string name="menu_convert_to_wav">تحويل إلى WAV</string>
     <string name="settings_open_unlocker">ذهاب الى فتح القفل</string>
     <string name="license_signature_verification_failed">فشل التحقق من صحة توقيع البرنامج</string>
-    <string name="license_error_message">حدث خطأ #%1$s: %2$s</string>
+    <string name="license_error_message">خطأ #%1$s: %2$s</string>
     <string name="license_unknown_error">خطأ غير معروف</string>
     <string name="license_not_market_managed">لم يتم نشر هذا الإصدار على سوق بلاي حتى الآن</string>
     <string name="license_incorrect_response">استجابة رخصة غير صحيحة من سوق بلاي</string>
@@ -563,4 +563,23 @@
     <string name="add_exception">إضافة استثناء</string>
     <string name="exception_groups">%d مجموعات</string>
     <string name="tip_click_avatar">انقر الرمز لفتح معلومات الاتصال.</string>
+    <string name="msg_supersu_required">قد يكون التطبيق SuperSU غير متوافق. يرجى النظر في تركيب SuperSU.</string>
+    <string name="msg_grant_permissions">يرجى منح ألأذن</string>
+    <string name="msg_grant_permissions_summary">التطبيق لن يعمل إلا إذا منح الأذن</string>
+
+    <string name="tip_long_click_avatar">الضغط على الرمز طويلا سيصفي المكالمات من جهة الاتصال هذه.</string>
+    <string name="tip_select_item">اضغط عنصرا لفترة طويلة لتحديده.</string>
+    <string name="tip_select_all">خيار- اختار الكل وستظهر في قائمة السياق.</string>
+    <string name="tip_audio_output">اضغط مطولا على زر تشغيل / إيقاف مؤقت لتبديل إخراج الصوت.</string>
+
+    <string name="not_charging">لا يتم الشحن</string>
+    <string name="menu_add_to_onedrive">اظافة الى OneDrive</string>
+    <string name="menu_add_to_box">اظافة الى Box</string>
+    <string name="menu_add_to_yandex">اظافة الى Yandex.Disk</string>
+    <string name="menu_add_to_webdav">أظافة الى WebDAV</string>
+    <string name="exception_contact">جهة اتصال</string>
+    <string name="exception_select_contact">اختيار جهة اتصال</string>
+    <string name="exception_phone_number">رقم الخط</string>
+    <string name="exception_action">عمل</string>
+    <string name="exception_groups_not_found">لم يتم العثورعلى المجموعات</string>
     </resources>
