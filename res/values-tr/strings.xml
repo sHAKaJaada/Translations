@@ -592,4 +592,12 @@
     <string name="sign_out_yandex">Yandex.Disk çıkış yap</string>
     <string name="cloud_provider_yandex">Yandex.Disk</string>
     <string name="notify_uploading_yandex">Yandex.Disk\'e yükleniyor</string>
+    <string name="menu_add_to_webdav">WebDAV\'a ekle</string>
+    <string name="sign_out_webdav">WebDAV çıkış yap</string>
+    <string name="cloud_provider_webdav">WebDAV</string>
+    <string name="cloud_server_address">Sunucu adresi</string>
+    <string name="cloud_login">Oturum aç</string>
+    <string name="cloud_password">Parola</string>
+
+    <string name="notify_uploading_webdav">WebDAV\'a yükleniyor</string>
     </resources>
