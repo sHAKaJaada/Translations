@@ -347,7 +347,7 @@
     <string name="require_password_summary">Vyžadovať heslo pre otvorenie aplikácie</string>
     <string name="require_password_summary_no_key">Vyžadovať heslo pre otvorenie aplikácie. Aby to bolo možné, mali by ste najskôr vytvoriť kľúč</string>
     <string name="lock_after">Zamknúť po</string>
-    <string name="lock_after_exit">Ukončiť</string>
+    <string name="lock_after_exit">Ukončení</string>
     <string name="lock_after_1_minute">1 min</string>
     <string name="lock_after_3_minutes">3 min</string>
     <string name="lock_after_5_minutes">5 min</string>
