@@ -513,7 +513,7 @@
     <string name="gujarati_translation_summary">由 Abhishek Sharma 翻譯</string>
     <string name="tamil_translation">坦米爾語</string>
     <string name="tamil_translation_summary">由 Ashish Sharma 翻譯</string>
-    <string name="greek_translation">希臘語翻譯</string>
+    <string name="greek_translation">希臘語</string>
     <string name="greek_translation_summary">由 Lefteris (SomniusX) Eliades 翻譯</string>
 <string name="theme">主題</string>
     <string name="theme_light">亮</string>
@@ -585,5 +585,24 @@
     <string name="auto_encryption_summary">錄製通話後，加密WAV或AMR</string>
     <string name="auto_encryption_warning">自動加密將被禁用，因為它不支援選擇的錄音格式</string>
     <string name="enter_password_to_encrypt_recordings">輸入密碼，加密錄音</string>
+
+    <string name="menu_add_to_box">增加到Box</string>
+    <string name="menu_add_to_yandex">增加到Yandex.Disk</string>
+    <string name="menu_add_to_webdav">增加到WebDAV</string>
+    <string name="sign_out_box">登出Box</string>
+    <string name="sign_out_yandex">登出Yandex.Disk</string>
+    <string name="sign_out_webdav">登出WebDAV</string>
+    <string name="estonian_translation">愛沙尼亞語</string>
+    <string name="estonian_translation_summary">由Arthur Kono翻譯</string>
+
+    <string name="notify_uploading_box">上傳到Box</string>
+    <string name="notify_uploading_yandex">上傳到Yandex.Disk</string>
+    <string name="notify_uploading_webdav">上傳到WebDAV</string>
+    <string name="cloud_provider_box">Box</string>
+    <string name="cloud_provider_yandex">Yandex.Disk</string>
+    <string name="cloud_provider_webdav">WebDAV</string>
+    <string name="cloud_server_address">伺服器地址</string>
+    <string name="cloud_login">登入</string>
+    <string name="cloud_password">密碼</string>
 
     </resources>
