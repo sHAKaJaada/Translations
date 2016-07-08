@@ -588,19 +588,19 @@
 
     <string name="menu_add_to_box">增加到Box</string>
     <string name="menu_add_to_yandex">增加到Yandex.Disk</string>
-    <string name="menu_add_to_webdav">增加到WebDAV</string>
+    <string name="menu_add_to_webdav">增加到網路磁碟</string>
     <string name="sign_out_box">登出Box</string>
     <string name="sign_out_yandex">登出Yandex.Disk</string>
-    <string name="sign_out_webdav">登出WebDAV</string>
+    <string name="sign_out_webdav">登出網路磁碟</string>
     <string name="estonian_translation">愛沙尼亞語</string>
     <string name="estonian_translation_summary">由Arthur Kono翻譯</string>
 
     <string name="notify_uploading_box">上傳到Box</string>
     <string name="notify_uploading_yandex">上傳到Yandex.Disk</string>
-    <string name="notify_uploading_webdav">上傳到WebDAV</string>
-    <string name="cloud_provider_box">Box</string>
+    <string name="notify_uploading_webdav">上傳到網路磁碟</string>
+    <string name="cloud_provider_box">BOX</string>
     <string name="cloud_provider_yandex">Yandex.Disk</string>
-    <string name="cloud_provider_webdav">WebDAV</string>
+    <string name="cloud_provider_webdav">網路磁碟</string>
     <string name="cloud_server_address">伺服器地址</string>
     <string name="cloud_login">登入</string>
     <string name="cloud_password">密碼</string>
