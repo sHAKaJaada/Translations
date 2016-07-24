@@ -361,6 +361,7 @@
     <string name="cloud_server_address">Server address</string>
     <string name="cloud_login">Login</string>
     <string name="cloud_password">Password</string>
+    <string name="cloud_allow_self_signed_cert">Allow self-signed cert</string>
 
     <!-- Notification -->
     <string name="notify_uploading_dropbox">Uploading to Dropbox</string>
@@ -412,8 +413,7 @@
     <string name="aes_192bit">192-bit AES (Balanced)</string>
     <string name="aes_256bit">256-bit AES (Stronger)</string>
     <string name="auto_encryption">Auto encryption</string>
-    <string name="auto_encryption_summary">Encrypt WAV or AMR recordings after a call</string>
-    <string name="auto_encryption_warning">Auto encryption will be disabled as it doesn\'t support selected recording format</string>
+    <string name="auto_encryption_summary">Encrypt recordings after a call</string>
     <string name="enter_password_to_encrypt_recordings">Enter password to encrypt recordings</string>
 
     <!-- Settings -> Audio player -->
