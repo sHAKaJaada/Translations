@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">Call Recorder</string>
+    <string name="app_name">Înregistrare apel</string>
     <string name="terms_of_use">Termeni de Utilizare</string>
     <string name="terms_of_use_message">Utilizand această aplicație, ești de acord cu &lt;a href=http://rec.sh/terms&gt;Termenii de Utilizare&lt;/a&gt; ai aplicației CallRecorder.</string>
 
@@ -579,7 +579,7 @@
     <string name="cloud_upload_when_charging">Upload doar când încarcă</string>
     <string name="notify_uploading_onedrive">Upload în OneDrive</string>
     <string name="auto_encryption">Encriptare automată</string>
-    <string name="auto_encryption_summary">Encriptare înregistrări WAV sau AMR după apel</string>
+    <string name="auto_encryption_summary">Encriptare înregistrări după apel</string>
     <string name="auto_encryption_warning">Encriptarea automată va fi dezactivată deoarece nu suportă formatul de înregistrare selectat</string>
     <string name="enter_password_to_encrypt_recordings">Introdu parola pentru a encripta înregistrările</string>
 
@@ -602,4 +602,6 @@
     <string name="cloud_password">Parola</string>
 
     <string name="notify_uploading_webdav">Urcă în WebDAV</string>
+    <string name="cloud_allow_self_signed_cert">Acceptă certificatele auto-semnate</string>
+
     </resources>
