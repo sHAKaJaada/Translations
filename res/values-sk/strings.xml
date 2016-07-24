@@ -579,7 +579,7 @@
     <string name="cloud_upload_when_charging">Odovzdať iba pri nabíjaní</string>
     <string name="notify_uploading_onedrive">Odovzdávanie na OneDrive</string>
     <string name="auto_encryption">Automatické kódovanie</string>
-    <string name="auto_encryption_summary">Zakódovať nahrávky WAV alebo AMR po skončení hovoru</string>
+    <string name="auto_encryption_summary">Zakódovať nahrávky po skončení hovoru</string>
     <string name="auto_encryption_warning">Automatické kódovanie bude zakázané, ak nepodporuje vybraný formát nahrávania</string>
     <string name="enter_password_to_encrypt_recordings">Zadajte heslo pre zakódovanie nahrávok</string>
 
@@ -602,4 +602,6 @@
     <string name="cloud_password">Heslo</string>
 
     <string name="notify_uploading_webdav">Odovzdávanie na WebDAV</string>
+    <string name="cloud_allow_self_signed_cert">Povoliť certifikát s vlastným podpisom</string>
+
     </resources>
