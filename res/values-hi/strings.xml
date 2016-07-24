@@ -582,7 +582,7 @@
     <string name="cloud_upload_when_charging">केवल चार्जिंग होते वक़्त ही अपलोडिंग हो</string>
     <string name="notify_uploading_onedrive">OneDrive में उपलोडिंग जारी है</string>
     <string name="auto_encryption">स्वतः कूट बद्द (Encryption) की जाए</string>
-    <string name="auto_encryption_summary">WAV व् AMR रिकॉर्डिंग कॉल के पश्चात कूट बद्द की जायें</string>
+    <string name="auto_encryption_summary">कॉल के पश्चात कूट बद्द की जायें</string>
     <string name="auto_encryption_warning">रिकॉर्डिंग फ़ॉर्मेट के बेमेल होने के चलते स्वतः कूट बद्दता नहीं होगी</string>
     <string name="enter_password_to_encrypt_recordings">रिकॉर्डिंग को कूट बद्द करने हेतु पासवर्ड डालें</string>
 
@@ -605,4 +605,6 @@
     <string name="cloud_password">पासवर्ड</string>
 
     <string name="notify_uploading_webdav">WebDAV में अपलोड हो रहा है</string>
+    <string name="cloud_allow_self_signed_cert">"स्वयम्  हस्ताक्षर किए गए सर्टिफिकेट को अधिकृत करें"</string>
+
     </resources>
