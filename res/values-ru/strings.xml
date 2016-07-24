@@ -578,7 +578,7 @@
     <string name="cloud_upload_when_charging">Загружать только на зарядке</string>
     <string name="notify_uploading_onedrive">Идет загрузка на OneDrive</string>
     <string name="auto_encryption">Автоматическое шифрование</string>
-    <string name="auto_encryption_summary">Шифровать WAV или AMR записи после звонка</string>
+    <string name="auto_encryption_summary">Шифровать записи после звонка</string>
     <string name="auto_encryption_warning">Автоматическое шифрование будет отключено, т.к. оно не поддерживает выбранный формат записи</string>
     <string name="enter_password_to_encrypt_recordings">Введите пароль для шифрования записей</string>
 
@@ -601,5 +601,7 @@
     <string name="cloud_server_address">Адрес сервера</string>
     <string name="cloud_login">Логин</string>
     <string name="cloud_password">Пароль</string>
+
+    <string name="cloud_allow_self_signed_cert">Разрешить самоподписанный сертификат</string>
 
     </resources>
