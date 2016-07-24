@@ -596,7 +596,7 @@
     <string name="cloud_upload_when_charging">Вивантажувати лише підчас зарядки</string>
     <string name="notify_uploading_onedrive">Вивантажувати до OneDrive</string>
     <string name="auto_encryption">Автошифрування</string>
-    <string name="auto_encryption_summary">Шифрування WAV чи AMR записів після розмови</string>
+    <string name="auto_encryption_summary">Шифрування записів після розмови</string>
     <string name="auto_encryption_warning">Автошифрування буде вимкнено, бо воно не підтримує вибраний вами формат</string>
     <string name="enter_password_to_encrypt_recordings">Введіть пароль для шифрування записів</string>
 
@@ -619,4 +619,6 @@
     <string name="cloud_password">Пароль</string>
 
     <string name="notify_uploading_webdav">Відвантажено до WebDAV</string>
+    <string name="cloud_allow_self_signed_cert">Дозволити автоматичний сертифікат</string>
+
     </resources>
