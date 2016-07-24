@@ -578,7 +578,7 @@
     <string name="cloud_upload_when_charging">העלה רק בזמן טעינה</string>
     <string name="notify_uploading_onedrive">מעלה לOneDrive</string>
     <string name="auto_encryption">הצפנה אוטומטית</string>
-    <string name="auto_encryption_summary">הצפן קבצי WAV או AMR לאחר שיחה</string>
+    <string name="auto_encryption_summary">הצפן הקלטות לאחר שיחה</string>
     <string name="auto_encryption_warning">הצפנה אוטומטית תופסק מכיוון שאינה תומכת בפורמט ההקלטה הנבחר</string>
     <string name="enter_password_to_encrypt_recordings">הכנס סיסמה להצפנת ההקלטות</string>
 
@@ -601,4 +601,6 @@
     <string name="cloud_password">סיסמא</string>
 
     <string name="notify_uploading_webdav">מעלה לWebDAV</string>
+    <string name="cloud_allow_self_signed_cert">אשר חתימה עצמית</string>
+
     </resources>
