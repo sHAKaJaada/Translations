@@ -759,11 +759,13 @@
     <string name="notify_uploading_yandex">Качване в Яндекс</string>
     <string name="notify_uploading_webdav">Качване в WebDAV</string>
     <string name="auto_encryption">Автоматично криптиране</string>
-    <string name="auto_encryption_summary">Криптира WAV или AMR записи след разговор</string>
+    <string name="auto_encryption_summary">Криптиране на WAV или AMR записи след разговор</string>
     <string name="auto_encryption_warning">Автоматичното криптиране не поддържа избраните аудио формати</string>
     <string name="enter_password_to_encrypt_recordings">Въведете парола за криптиране на записите</string>
 
     <string name="estonian_translation">Естонски превод</string>
     <string name="estonian_translation_summary">Arthur Kono</string>
+
+    <string name="cloud_allow_self_signed_cert">Позволяване на сертификати</string>
 
     </resources>
