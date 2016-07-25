@@ -585,7 +585,7 @@
     <string name="cloud_upload_when_charging">充電中にのみアップロード</string>
     <string name="notify_uploading_onedrive">OneDriveへアップロード中</string>
     <string name="auto_encryption">自動暗号化</string>
-    <string name="auto_encryption_summary">通話後にWAVあるいはAMR録音されたファイルを暗号化</string>
+    <string name="auto_encryption_summary">通話後に録音を暗号化</string>
     <string name="auto_encryption_warning">選択された録音形式がサポートされない場合は自動暗号化昨日は無効化されます</string>
     <string name="enter_password_to_encrypt_recordings">録音を暗号化するためのパスワードを入力してください</string>
 
@@ -609,4 +609,6 @@
     <string name="cloud_password">パスワード</string>
 
     <string name="notify_uploading_webdav">WebDAVへアップロード中</string>
+    <string name="cloud_allow_self_signed_cert">自己署名証明書を許可</string>
+
     </resources>
