@@ -601,4 +601,6 @@
     <string name="estonian_translation">Estländische Übersetzung</string>
     <string name="estonian_translation_summary">von Arthur Kono</string>
 
+    <string name="cloud_allow_self_signed_cert">Selbstsignierte Zertifikate erlauben</string>
+
     </resources>
