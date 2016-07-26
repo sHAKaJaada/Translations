@@ -368,7 +368,7 @@
     <string name="aes_192bit">192-bit AES (tasakaalustatud)</string>
     <string name="aes_256bit">256-bit AES (tugev)</string>
     <string name="auto_encryption">Automaatne krüptimine</string>
-    <string name="auto_encryption_summary">WAV või AMR salvestiste krüptimine pärast kõnet</string>
+    <string name="auto_encryption_summary">Salvestiste krüptimine pärast kõnet</string>
     <string name="auto_encryption_warning">Automaatne krüpteerimine keelatakse, sest see ei toeta valitud salvestusformaati</string>
     <string name="enter_password_to_encrypt_recordings">Sisesta salasõna salvestiste krüpteerimiseks</string>
 
@@ -554,4 +554,6 @@
     <string name="cloud_password">Salasõna</string>
 
     <string name="notify_uploading_webdav">Üleslaadimine WebDAV\'i</string>
+    <string name="cloud_allow_self_signed_cert">Lubada enda võtmega sertifikaati</string>
+
     </resources>
