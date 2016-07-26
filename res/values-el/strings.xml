@@ -585,7 +585,7 @@
     <string name="cloud_upload_when_charging">Ανέβασμα μόνο όταν φορτίζει</string>
     <string name="notify_uploading_onedrive">Ανεβαίνει στο OneDrive</string>
     <string name="auto_encryption">Αυτόματη κρυπτογράφηση</string>
-    <string name="auto_encryption_summary">Να κρυπτογραφούνται οι καταγραφές WAV ή AMR μετά την κλήση</string>
+    <string name="auto_encryption_summary">Να κρυπτογραφούνται οι καταγραφές μετά την κλήση</string>
     <string name="auto_encryption_warning">Η αυτόματη κρυπτογράφηση θα παραμείνει ανενεργή διότι δεν υποστηρίζει τον επιλεγμένο τύπο καταγραφής</string>
     <string name="enter_password_to_encrypt_recordings">Εισάγετε κωδικό για κρυπτογράφηση καταγραφών</string>
 
@@ -608,4 +608,6 @@
     <string name="cloud_password">Κωδικός</string>
 
     <string name="notify_uploading_webdav">Ανεβαίνει σε WebDAV</string>
+    <string name="cloud_allow_self_signed_cert">Να επιτρέπεται αυτο-υπογεγραμμένο πιστοποιητικό</string>
+
     </resources>
