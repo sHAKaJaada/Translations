@@ -579,7 +579,7 @@
     <string name="cloud_upload_when_charging">Wyślij tylko podczas ładowania</string>
     <string name="notify_uploading_onedrive">Wyślij na OneDrive</string>
     <string name="auto_encryption">Auto szyfrowanie</string>
-    <string name="auto_encryption_summary">Szyfruj nagrania WAV lub AMR po rozmowie</string>
+    <string name="auto_encryption_summary">Szyfruj nagrania po rozmowie</string>
     <string name="auto_encryption_warning">Auto szyfrowanie będzie wyłączone ponieważ nie wspiera wybranego formatu nagrania</string>
     <string name="enter_password_to_encrypt_recordings">Wprowadź hasło w celu szyfrowania nagrań</string>
 
@@ -602,4 +602,6 @@
 
     <string name="notify_uploading_yandex">Wysyłanie do Yandex.Disk</string>
     <string name="notify_uploading_webdav">Wysyłanie do WebDAV</string>
+    <string name="cloud_allow_self_signed_cert">Pozwól na samodzielnie podpisany certyfikat</string>
+
     </resources>
