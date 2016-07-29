@@ -602,6 +602,6 @@
 
     <string name="notify_uploading_yandex">Wysyłanie do Yandex.Disk</string>
     <string name="notify_uploading_webdav">Wysyłanie do WebDAV</string>
-    <string name="cloud_allow_self_signed_cert">Pozwól na samodzielnie podpisany certyfikat</string>
+    <string name="cloud_allow_self_signed_cert">Zezwól na automatyczne podpisywanie certyfikatu</string>
 
     </resources>
