@@ -575,7 +575,7 @@
     <string name="cloud_upload_when_charging">Загружаць толькі на зарадцы</string>
     <string name="notify_uploading_onedrive">Ідзе загрузка на OneDrive</string>
     <string name="auto_encryption">Аўтаматычнае шыфраванне</string>
-    <string name="auto_encryption_summary">Шыфраваць WAV ці AMR запісы пасля званка</string>
+    <string name="auto_encryption_summary">Шыфраваць запісы пасля званка</string>
     <string name="auto_encryption_warning">Аўтаматычнае шыфраванне будзе адключана, бо яно не падтрымлівае абраны фармат запісу</string>
     <string name="enter_password_to_encrypt_recordings">Увядзіце пароль для шыфравання запісаў</string>
 
@@ -590,4 +590,13 @@
     <string name="sign_out_yandex">Выйсці з Яндэкс.Дыска</string>
     <string name="cloud_provider_yandex">Яндэкс.Дыск</string>
     <string name="notify_uploading_yandex">Ідзе загрузка на Яндэкс.Дыск</string>
+    <string name="menu_add_to_webdav">Дадаць на WebDAV</string>
+    <string name="sign_out_webdav">Выйсці з WebDAV</string>
+    <string name="cloud_provider_webdav">WebDAV</string>
+    <string name="cloud_server_address">Адрас сервера</string>
+    <string name="cloud_login">Лагін</string>
+    <string name="cloud_password">Пароль</string>
+    <string name="cloud_allow_self_signed_cert">Дазволіць самоподпісанный сертыфікат</string>
+
+    <string name="notify_uploading_webdav">Ідзе загрузка на WebDAV</string>
     </resources>
