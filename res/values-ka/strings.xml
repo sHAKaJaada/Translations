@@ -570,7 +570,7 @@
     <string name="auto_unlock">ავტომატური განბლოკვა</string>
     <string name="auto_unlock_summary">ok კლავიშის გარეშე განბლოკვა,თუ პაროლი სწორადაა შეყვანილი</string>
     <string name="auto_encryption">ავტომატური გაშიფრვა</string>
-    <string name="auto_encryption_summary">გაშიფრა wav ან amr ჩანაწერის</string>
+    <string name="auto_encryption_summary">"გაშიფრა  ჩანაწერის  შემდეგ"</string>
     <string name="auto_encryption_warning">ავტომატური გაშიფრვა გამორთულია,რადგან ის არ ვერ აღიქვამს არჩეულ ფორმატს</string>
     <string name="enter_password_to_encrypt_recordings">შეიყვანეთ პაროლი ჩანაწერის გასაშიფრად</string>
 
@@ -578,4 +578,24 @@
     <string name="button_more_info">მეტი ინფორმაცია</string>
     <string name="button_dismiss">დამალე</string>
     <string name="app_description_summary">პროგრამა ჩასაწერად ტელეფონიდან</string>
+    <string name="menu_add_to_box">დაამატე box ში</string>
+    <string name="menu_add_to_yandex">"დაამატეთ  Yandex.Disk  ში"</string>
+    <string name="menu_add_to_webdav">დაამატეთ WebDAV</string>
+    <string name="sign_out_box">"Box  დან გამოსვლა"</string>
+    <string name="sign_out_yandex">"Yandex.Disk  დან გასვლა"</string>
+    <string name="sign_out_webdav">"WebDAV  დან გასვლა"</string>
+    <string name="cloud_provider_box">Box</string>
+    <string name="cloud_provider_yandex">Yandex.Disk</string>
+    <string name="cloud_provider_webdav">WebDAV</string>
+    <string name="cloud_server_address">სერვერის მისამართი</string>
+    <string name="cloud_login">შესვლა</string>
+    <string name="cloud_password">პაროლი</string>
+    <string name="cloud_allow_self_signed_cert">თვითხელმოწერილი სერტიფიკატის დასტური</string>
+
+    <string name="notify_uploading_box">მიმდინარეობს ატვირთვა</string>
+    <string name="notify_uploading_yandex">"იტვირთება Yandex.Disk  ზე"</string>
+    <string name="notify_uploading_webdav">"იტვირთება  WebDAV  ზე"</string>
+    <string name="estonian_translation">ესტონური თარგმანი</string>
+    <string name="estonian_translation_summary">არტურ კონოს მიერ</string>
+
     </resources>
