@@ -585,7 +585,7 @@
     <string name="cloud_upload_when_charging">"ਸਿਰਫ ਚਾਰਜ ਵੇਲੇ ਸਿਰਫ ਅੱਪਲੋਡ  ਕੀਤਾ ਜਾਵੇਗਾ"</string>
     <string name="notify_uploading_onedrive">OneDrive ਵਿਚ ਉਪ੍ਲੋਡਿੰਗ ਹੋ ਰਹੀ ਹੈ</string>
     <string name="auto_encryption">ਆਟੋਮੈਟਿਕ ਇੰਕ੍ਰਿਪਸ਼ਨ ਹੋ</string>
-    <string name="auto_encryption_summary">"WAV ਅਤੇ AMR ਰਿਕਾਰਡਿੰਗ ਕਾਲ ਤੋ ਬਾਅਦ  ਇੰਕ੍ਰਿਪਟ ਕਰੋ"</string>
+    <string name="auto_encryption_summary">ਕਾਲ ਤੋ ਬਾਅਦ ਰਿਕਾਰਡਿੰਗ ਇੰਕ੍ਰਿਪਟ ਕਰੋ</string>
     <string name="auto_encryption_warning">ਔਟੋ ਇੰਕ੍ਰਿਪਟਡ ਬੰਦ ਹੋ ਜਾਵੇਗਾ ਕਯੋ ਕੀ ਰਿਕਾਰਡਿੰਗ ਦੇ ਫਾਰਮੈਟ ਸਹੀ ਨਹੀ ਹੈ</string>
     <string name="enter_password_to_encrypt_recordings">ਰਿਕਾਰਡਿੰਗ ਨੂ ਇੰਕ੍ਰਿਪਟ ਕਰਨ ਲਈ ਪਾਸਵਰਡ ਦਿਓ</string>
 
@@ -607,5 +607,7 @@
     <string name="cloud_server_address">ਸਰਵਰ ਦਾ ਐਡਰੈੱਸ</string>
     <string name="cloud_login">ਲਾਗਿਨ</string>
     <string name="cloud_password">ਪਾਸਵਰਡ</string>
+
+    <string name="cloud_allow_self_signed_cert">ਸਵੈ ਜਸਤਾਖਸ਼ਰ ਸਰਟੀਫੀਕੇਟ ਨੂੰ ਆਗਿਆ ਦਿਓ</string>
 
     </resources>
