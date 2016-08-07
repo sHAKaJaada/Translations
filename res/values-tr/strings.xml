@@ -283,7 +283,7 @@
     <string name="category_incall_control_button">Çağrı içi kontrol tuşu</string>
     <string name="incall_control_for_outgoing">Giden aramalar için</string>
     <string name="incall_control_for_outgoing_summary">Giden aramalarda çağrı için kontrol tuşunu göster</string>
-    <string name="incall_control_for_incoming">Cevapsız aramalar için</string>
+    <string name="incall_control_for_incoming">Gelen aramalar için</string>
     <string name="incall_control_for_incoming_summary">Gelen aramalarda çağrı içi kontrol tuşunu göster</string>
     <string name="hide_button_while_recording">Kayıt esnasında tuşu gizle</string>
     <string name="hide_button_while_recording_summary">Kayıt başladığında çağrı içi kontrol tuşunu gizle</string>
@@ -572,7 +572,7 @@
     <string name="cloud_upload_when_charging">Sadece şarj olurken gönder</string>
     <string name="notify_uploading_onedrive">OneDrive\'a yükleniyor</string>
     <string name="auto_encryption">Otomatik şifreleme</string>
-    <string name="auto_encryption_summary">Bir aramadan sonra WAV ya da AMR kayıtları şifreler</string>
+    <string name="auto_encryption_summary">Bir aramadan sonra kayıtları şifreler</string>
     <string name="auto_encryption_warning">Otomatik şifreleme seçili kayıt formatı desteklemiyorsa devre dışı kalacaktır</string>
     <string name="enter_password_to_encrypt_recordings">Kayıtları şifrelemek için bir parola girin</string>
 
@@ -600,4 +600,6 @@
     <string name="cloud_password">Parola</string>
 
     <string name="notify_uploading_webdav">WebDAV\'a yükleniyor</string>
+    <string name="cloud_allow_self_signed_cert">Kendi kendine imzalanan sertifikaya izin ver</string>
+
     </resources>
