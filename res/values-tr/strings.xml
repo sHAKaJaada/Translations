@@ -521,7 +521,7 @@
     <string name="msg_grant_permissions_summary">Uygulama siz izinleri vermedikçe çalışmaz</string>
 
     <string name="tip_click_avatar">Kişi bilgilerini açmak için kişi resimine basın.</string>
-    <string name="tip_long_click_avatar">Bu kişinin aramaları filtrelemek için kişi resimine uzun basın.</string>
+    <string name="tip_long_click_avatar">Bu kişinin aramalarını filtrelemek için kişi resimine uzun basın.</string>
     <string name="tip_select_item">Bir görüşme kayıdını seçmek için uzun basın.</string>
     <string name="tip_select_all">İçerik menüsünde Tümünü Seç seçenegi görünecektir.</string>
     <string name="tip_audio_output">Ses çıkışını değiştirmek için Yürüt/Duraklat düğmesine uzun basın.</string>
@@ -534,7 +534,7 @@
     <string name="show_button_to_add_star">Yıldız ekle düğmesini göster</string>
     <string name="category_contacts">Kişiler</string>
     <string name="link_to_contacts">Kişileri birleştir</string>
-    <string name="link_to_contacts_summary">Bir kişinin içinden kayıtları görüntülemek için bir kısayol oluşturur</string>
+    <string name="link_to_contacts_summary">Bir kişi bilgisi içinde kayıtları görüntülemek için bir kısayol oluşturur</string>
     <string name="view_recordings">Kayıtları görüntüle</string>
 
     <string name="sign_in">Giriş yap</string>
