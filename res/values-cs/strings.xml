@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">CallRecorder</string>
+    <string name="app_name">Call Recorder</string>
     <string name="terms_of_use">Podmínky používání</string>
     <string name="terms_of_use_message">Používáním aplikace souhlasíte s &lt;a href=http://rec.sh/terms&gt;podmínkami používání&lt;/a&gt; CallRecorderu.</string>
 
@@ -578,7 +578,7 @@
     <string name="cloud_upload_when_charging">Uploadovat pouze při dobíjení</string>
     <string name="notify_uploading_onedrive">Nahrávám do OneDrive</string>
     <string name="auto_encryption">Automatické šifrování</string>
-    <string name="auto_encryption_summary">Po skončení hovoru šifrovat nahrávky WAV do AMR</string>
+    <string name="auto_encryption_summary">Po skončení hovoru šifrovat nahrávky</string>
     <string name="auto_encryption_warning">Automatické šifrování bude zakázáno pokud nepodporuje zvolený nahrávací formát</string>
     <string name="enter_password_to_encrypt_recordings">Zadej heslo k šifrování nahrávek</string>
 
@@ -602,4 +602,6 @@
     <string name="cloud_password">Heslo</string>
 
     <string name="notify_uploading_webdav">Nahrávám do WebDAV</string>
+    <string name="cloud_allow_self_signed_cert">Povolit podepsaný certifikát</string>
+
     </resources>
