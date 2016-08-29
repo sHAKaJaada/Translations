@@ -593,4 +593,6 @@
     <string name="auto_encryption_warning">La cifratura automatica sarà disabilitata, poiché il formato di registrazione selezionato non è supportato</string>
     <string name="enter_password_to_encrypt_recordings">Inserire la password per la cifratura delle registrazioni</string>
 
+    <string name="menu_add_to_box">Aggiungi a Box</string>
+    <string name="menu_add_to_yandex">Aggiungi a Yandex.Disk</string>
     </resources>
