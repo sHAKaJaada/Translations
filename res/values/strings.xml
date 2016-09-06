@@ -483,7 +483,7 @@
     <string name="toast_recording_is_on">Recording is ON</string>
     <string name="toast_file_deleted">File has been successfully deleted</string>
 
-    <!-- Call confirm dialog -->
+    <!-- Call confirm dialog-->
     <string name="call_confirm_record_this_call">Record this call</string>
     <string name="open_contact">Open contact</string>
     <string name="send_sms">Send SMS</string>
