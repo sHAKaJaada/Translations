@@ -49,6 +49,8 @@
     <string name="msg_supersu_required">Your superuser app may be incompatible. Please consider installing SuperSU.</string>
     <string name="msg_grant_permissions">Please grant permissions</string>
     <string name="msg_grant_permissions_summary">The app won\'t work unless you grant the permissions</string>
+    <string name="msg_nougat_warning_summary">Unfortunately, call recording functionality of non-system apps is limited in Android 7.0 Nougat. So root will be required for 2-way call recording. Take this into account if you plan upgrading your device to Android 7.0 Nougat.</string>
+    <string name="msg_additional_patch_required">Additional patch may be required on your device.</string>
 
     <!-- Tips -->
     <string name="tip_click_avatar">Click avatar to open contact info.</string>
@@ -277,6 +279,8 @@
     <string name="settings_filename">Filename</string>
     <string name="filename_pattern">Pattern</string>
     <string name="time_pattern">Time pattern</string>
+    <string name="rename_all_files">Rename all files</string>
+    <string name="rename_all_files_summary">Rename all files to match pattern</string>
 
     <!-- Description for filename pattern -->
     <string name="pattern_contact_name">contact name</string>
@@ -471,6 +475,7 @@
     <string name="action_mode_selected">%d selected</string>
     <string name="switch_on">On</string>
     <string name="switch_off">Off</string>
+    <string name="long_operation_confirm">This operation can take several minutes. Are you sure you want to proceed?</string>
 
     <!--Toasts-->
     <string name="toast_wait_for_operation_to_complete">Wait for an operation to complete</string>
