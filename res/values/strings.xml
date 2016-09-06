@@ -447,7 +447,7 @@
     <string name="hide_all_notifications">Hide all notifications</string>
     <string name="hide_all_notifications_summary">Use this option at your own risk</string>
 
-    <!-- General -->
+    <!-- General-->
     <string name="contact_unknown">Unknown</string>
     <string name="button_choose">Choose</string>
     <string name="button_ok">OK</string>
