@@ -604,4 +604,12 @@
     <string name="notify_uploading_webdav">Odovzdávanie na WebDAV</string>
     <string name="cloud_allow_self_signed_cert">Povoliť certifikát s vlastným podpisom</string>
 
+    <string name="msg_nougat_warning_summary">Bohužiaľ, funkcia nahrávania hovoru, ne-systémovými aplikáciami je na Androide 7.0 Nougat obmedzená. Takže, pre obojstranné nahrávanie hovorov bude vyžadovaný Root. Prosím, myslite na to skôr, než sa rozhodnete aktualizovať vaše zariadenie na Android 7.0 Nougat.</string>
+    <string name="msg_additional_patch_required">Je možné, že vo vašom zariadení bude požadovaná dodatočná úprava.</string>
+
+    <string name="rename_all_files">Premenovať všetky súbory</string>
+    <string name="rename_all_files_summary">Premenovať všetky súbory, aby zodpovedali vzoru</string>
+
+    <string name="long_operation_confirm">Táto operácia môže trvať niekoľko minút. Ste si istí, že chcete pokračovať?</string>
+
     </resources>
