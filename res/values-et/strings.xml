@@ -241,11 +241,11 @@
     <string name="automatic_cleanup">Automaatne kustutamine</string>
     <string name="cleanup_uploaded_only">Kustuta ainult üleslaaditud faile</string>
     <string name="cleanup_uploaded_only_summary">Automaatselt kustutakse ainult üleslaaditud faile</string>
-    <string name="max_number_of_files">Maksimaalne failide arv</string>
+    <string name="max_number_of_files">Failide maksimaalne arv</string>
     <string name="max_number_of_files_message">Sisesta number (0 - piiranguta)</string>
-    <string name="max_total_size_of_files">Maksimaalne failide kogumaht</string>
+    <string name="max_total_size_of_files">Failide maksimaalne kogumaht</string>
     <string name="max_total_size_of_files_message">Sisesta MB väärtus (0 - piiranguta)</string>
-    <string name="max_age_of_recordings">Salvestiste maksimaalne vanus</string>
+    <string name="max_age_of_recordings">Salvestiste maksimaalne säilitamise aeg</string>
     <string name="max_age_of_recordings_message">Sisesta päevade väärtus (0 - piiranguta)</string>
     <string name="current_setting">Hetkeväärtus: %s</string>
     <string name="settings_filename">Failinimi</string>
