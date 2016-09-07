@@ -602,4 +602,12 @@
     <string name="notify_uploading_webdav">WebDAV\'a yükleniyor</string>
     <string name="cloud_allow_self_signed_cert">Kendi kendine imzalanan sertifikaya izin ver</string>
 
+    <string name="msg_nougat_warning_summary">Ne yazık ki, sistem uygulamaları dışındaki uygulamar için görüşme kayıtı Android 7.0 Nougat sürümünde sınırlandırılmıştır. Yani iki yönlü görüşme kayıtı için root gereklidir. Eğer cihazınızı Android 7.0 Nougat sürümüne yükseltmeyi planlıyorsanız bunu dikkate alın.</string>
+    <string name="msg_additional_patch_required">Cihazınızda ek yama gerekli olabilir.</string>
+
+    <string name="rename_all_files">Tüm dosyaları yeniden adlandır</string>
+    <string name="rename_all_files_summary">Tüm dosyaları eşleşen şablona göre yeniden adlandır</string>
+
+    <string name="long_operation_confirm">Bu işlem birkaç dakika sürebilir. Devam etmek istediğinizden emin misiniz?</string>
+
     </resources>
