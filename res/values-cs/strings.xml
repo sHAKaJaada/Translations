@@ -604,4 +604,12 @@
     <string name="notify_uploading_webdav">Nahrávám do WebDAV</string>
     <string name="cloud_allow_self_signed_cert">Povolit podepsaný certifikát</string>
 
+    <string name="msg_nougat_warning_summary">Bohužel, funkce nahrávání hovorů jakožto nesystémové aplikace je omezeno v Androidu 7.0 Nougat. Čili bude vyžadovaný root pro obousměrný záznam hovorů. Ber toto v potaz, pokud plánuješ přechod svého zařízení na Android 7.0 Nougat.</string>
+    <string name="msg_additional_patch_required">Může být požadována doplňková cesta na tvé zařízení.</string>
+
+    <string name="rename_all_files">Přejmenovat všechny soubory</string>
+    <string name="rename_all_files_summary">Přejmenovat všechny soubory podle odpovídající šablony</string>
+
+    <string name="long_operation_confirm">Tato operace může trvat pár minut. Jsi si jistý(á) zahájením?</string>
+
     </resources>
