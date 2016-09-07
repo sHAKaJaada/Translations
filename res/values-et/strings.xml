@@ -556,4 +556,12 @@
     <string name="notify_uploading_webdav">Üleslaadimine WebDAV\'i</string>
     <string name="cloud_allow_self_signed_cert">Lubada enda võtmega sertifikaati</string>
 
+    <string name="msg_nougat_warning_summary">Kahjuks kõnesalvestusfunktsioon on mittesüsteemsetele rakendustele Android 7.0 Nougat versioonis piiratud. Seetõttu kahesuunalise kõne salvestaimiseks vaja root õigusi. Arvesta seda, kui kavatsed uuendada oma telefoni Android 7.0 Nougat versioonini.</string>
+    <string name="msg_additional_patch_required">Seadme täiendav paikamine võib olla vajalik.</string>
+
+    <string name="rename_all_files">Kõikide failide ümbernimetamine</string>
+    <string name="rename_all_files_summary">Kõikide failide ümbernimetamine vastavalt mustrile</string>
+
+    <string name="long_operation_confirm">See tegevus võib võtta aega mitu minutit. Oled kindel, et soovid jätkata?</string>
+
     </resources>
