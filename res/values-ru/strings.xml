@@ -604,4 +604,12 @@
 
     <string name="cloud_allow_self_signed_cert">Разрешить самоподписанный сертификат</string>
 
+    <string name="msg_nougat_warning_summary">К сожалению, функция записи разговоров ограничена для несистемных приложений в Android 7.0 Nougat. Поэтому root-права будут необходимы для двухсторонней записи разговоров. Имейте это ввиду, если вы планируете обновить телефон до Android 7.0 Nougat.</string>
+    <string name="msg_additional_patch_required">На вашем устройстве может требоваться дополнительный патч.</string>
+
+    <string name="rename_all_files">Переименовать все файлы</string>
+    <string name="rename_all_files_summary">Переименовать все файлы в соответствии с шаблоном</string>
+
+    <string name="long_operation_confirm">Эта операция может занять несколько минут. Вы уверены, что хотите продолжить?</string>
+
     </resources>
