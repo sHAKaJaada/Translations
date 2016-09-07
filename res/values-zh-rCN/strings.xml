@@ -571,4 +571,5 @@
     <string name="menu_add_to_onedrive">上传至 OneDrive</string>
     <string name="sign_out_onedrive">登出 OneDrive</string>
     <string name="cloud_provider_onedrive">微软 OneDrive</string>
+    <string name="not_charging">沒有充电</string>
     </resources>
