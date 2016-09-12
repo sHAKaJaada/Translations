@@ -432,7 +432,7 @@
     <string name="version">Wersja</string>
     <string name="copyright">Prawa autorskie</string>
     <string name="copyright_summary">© %s Alexander Skvortsov (skvalex)</string>
-    <string name="about_many_thanks">Podziękowania</string>
+    <string name="about_many_thanks">Ogromne podziękowania</string>
     <string name="about_many_thanks_summary">Dla Alexey Subbotin (avs234)</string>
 
     <!--About -> Other-->
