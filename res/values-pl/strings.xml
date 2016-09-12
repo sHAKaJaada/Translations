@@ -604,4 +604,12 @@
     <string name="notify_uploading_webdav">Wysyłanie do WebDAV</string>
     <string name="cloud_allow_self_signed_cert">Zezwól na automatyczne podpisywanie certyfikatu</string>
 
+    <string name="msg_nougat_warning_summary">Niestety funkcja nagrywania połączeń na aplikacjach nie zainstalowanych jako systemowe jest ograniczone na Androidzie 7.0 Nugat. Zatem root będzie potrzebny do dwustronnego nagrywania połączeń. Weź to pod uwagę jeżeli planujesz zaktualizować swoje urządzenie do Androida 7.0 Nugat.</string>
+    <string name="msg_additional_patch_required">Dodatkowa łatka może być potrzebna dla twojego urządzenia.</string>
+
+    <string name="rename_all_files">Zmień nazwę wszystkich plików.</string>
+    <string name="rename_all_files_summary">Zmień nazwę wszystkich plików, by zgadzały się ze wzorem.</string>
+
+    <string name="long_operation_confirm">Ta operacja może zająć parę minut. Czy jesteś pewien/pewna, że chcesz rozpocząć?</string>
+
     </resources>
