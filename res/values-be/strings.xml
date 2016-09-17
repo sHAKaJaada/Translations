@@ -599,4 +599,12 @@
     <string name="cloud_allow_self_signed_cert">Дазволіць самоподпісанный сертыфікат</string>
 
     <string name="notify_uploading_webdav">Ідзе загрузка на WebDAV</string>
+    <string name="msg_nougat_warning_summary">Нажаль, функцыя запісу гутарак абмежавана для несістэмных прыкладанняў у Android 7.0 Nougat. Таму root-правы будуць неабходны для двухбаковага запісу гутарак. Майце гэта з прычыны, калі вы плануеце абнавіць тэлефон да Android 7.0 Nougat.</string>
+    <string name="msg_additional_patch_required">На вашай прыладзе можа патрабавацца дадатковы патч.</string>
+
+    <string name="rename_all_files">Пераназваць усе файлы</string>
+    <string name="rename_all_files_summary">Пераназваць усе файлы ў адпаведнасці з шаблонам</string>
+
+    <string name="long_operation_confirm">Гэта аперацыя можа заняць некалькі хвілін. Вы ўпэўнены, што жадаеце працягнуць?</string>
+
     </resources>
