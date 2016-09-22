@@ -589,10 +589,36 @@
     <string name="cloud_upload_when_charging">Carica solo sotto alimentazione</string>
     <string name="notify_uploading_onedrive">Caricamento su OneDrive</string>
     <string name="auto_encryption">Cifratura automatica</string>
-    <string name="auto_encryption_summary">Codifica registrazioni WAV o AMR dopo la chiamata</string>
+    <string name="auto_encryption_summary">Codifica registrazioni dopo la chiamata</string>
     <string name="auto_encryption_warning">La cifratura automatica sarà disabilitata, poiché il formato di registrazione selezionato non è supportato</string>
     <string name="enter_password_to_encrypt_recordings">Inserire la password per la cifratura delle registrazioni</string>
 
     <string name="menu_add_to_box">Aggiungi a Box</string>
     <string name="menu_add_to_yandex">Aggiungi a Yandex.Disk</string>
+    <string name="msg_nougat_warning_summary">Sfortunatamente, la funzionalità di registrazione delle chiamate di applicazioni non di sistema è limitata in Android 7.0 Nougat. Così sarà richiesto il root per la registrazione delle chiamate a 2-vie. Tenete conto di questo se avete intenzione di aggiornare il vostro dispositivo ad Android 7.0 Nougat.</string>
+    <string name="msg_additional_patch_required">Patch aggiuntive potrebbero essere richieste sul dispositivo.</string>
+
+    <string name="menu_add_to_webdav">Aggiungi a WebDAV</string>
+    <string name="rename_all_files">Rinomina tutti i file</string>
+    <string name="rename_all_files_summary">Rinomina tutti i file da abbinare al modello</string>
+
+    <string name="sign_out_box">Esci da Box</string>
+    <string name="sign_out_yandex">Esci da Yandex.Disk</string>
+    <string name="sign_out_webdav">Esci da WebDAV</string>
+    <string name="cloud_provider_box">Box</string>
+    <string name="cloud_provider_yandex">Yandex.Disk</string>
+    <string name="cloud_provider_webdav">WebDAV</string>
+    <string name="cloud_server_address">Indirizzo del server</string>
+    <string name="cloud_login">Accedi</string>
+    <string name="cloud_password">Password</string>
+    <string name="cloud_allow_self_signed_cert">Consenti certificato auto-firmato</string>
+
+    <string name="notify_uploading_box">Caricamento in Box</string>
+    <string name="notify_uploading_yandex">Caricamento in Yandex.Disk</string>
+    <string name="notify_uploading_webdav">Caricamento in WebDAV</string>
+    <string name="long_operation_confirm">Questa operazione può richiedere diversi minuti. Sei sicuro di voler procedere?</string>
+
+    <string name="estonian_translation">Traduzione estone</string>
+    <string name="estonian_translation_summary">by xDonatello</string>
+
     </resources>
