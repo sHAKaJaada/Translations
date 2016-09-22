@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">Call Recorder</string>
     <string name="terms_of_use">Warunki korzystania</string>
-    <string name="terms_of_use_message">Korzystając z aplikacji, zgadzasz się z Call Recorder na &lt;a href=http://rec.sh/terms&gt;Warunki korzystania&lt;/a&gt;.</string>
+    <string name="terms_of_use_message">Korzystając z aplikacji, zgadzasz się na &lt;a href=http://rec.sh/terms&gt;Warunki korzystania&lt;/a&gt; z aplikacji CallRecorder.</string>
 
     <!-- Navigation drawer -->
     <string name="navigation_drawer_open">Otwórz stronę nawigacji</string>
@@ -185,9 +185,9 @@
 
     <!-- Settings -> Recording -> Standard API -->
     <string name="api_audio_source">Źródło dźwięku</string>
-    <string name="api_source_uplink_downlink">Głos rozmowy wychodzący + przychodzący</string>
-    <string name="api_source_downlink">Głos rozmowy przychodzący</string>
-    <string name="api_source_uplink">Głos rozmowy wychodzący</string>
+    <string name="api_source_uplink_downlink">Głos rozmowy wychodzącej + przychodzącej</string>
+    <string name="api_source_downlink">Głos rozmowy przychodzącej</string>
+    <string name="api_source_uplink">Głos rozmowy wychodzącej</string>
     <string name="api_source_microphone">Mikrofon</string>
     <string name="api_source_default">Domyślne</string>
     <string name="api_source_voice_communication">Komunikacja głosowa</string>
@@ -197,7 +197,7 @@
     <string name="audio_source_when_bt_connected">Źródło dźwięku podczas połaczenia BT</string>
 
     <!-- Actions when BT connected -->
-    <string name="when_bt_connected_do_nothing">Nie rób nic</string>
+    <string name="when_bt_connected_do_nothing">Nic nie rób</string>
     <string name="when_bt_connected_switch_source">Przełącz źródło dźwięku</string>
     <string name="when_bt_connected_disable_recording">Wyłącz nagrywanie</string>
 
@@ -362,7 +362,7 @@
     <!-- Settings -> Audio player -->
     <string name="use_built_in_player">Użyj wbudowanego odtwarzacza</string>
     <string name="audio_output">Wyjście dźwięku</string>
-    <string name="audio_output_summary">%s (Naciśnij długo przycisk play/pause w celu przełączenia)</string>
+    <string name="audio_output_summary">%s (Naciśnij długo przycisk graj/pauza w celu przełączenia)</string>
     <string name="main_speaker">Głośnik</string>
     <string name="phone_speaker">Słuchawka</string>
     <string name="use_proximity_sensor">Użyj czujnika zbliżeniowego</string>
@@ -371,15 +371,15 @@
     <string name="switch_audio_output_summary">Automatyczne przełączanie źródła dźwięku, kiedy ekran jest wyłączony/włączony przez czujnik zbliżeniowy</string>
     <string name="android_wav_decoder">Dekoder systemowy android dla WAV</string>
     <string name="android_wav_decoder_summary">Użyj wbudowanych narzędzi androida do odtwarzania WAV</string>
-    <string name="android_amr_decoder">Android dekoder AMR</string>
+    <string name="android_amr_decoder">Dekoder systemu Android dla AMR</string>
     <string name="android_amr_decoder_summary">Użyj wbudowanych odtwarzaczy androida, aby odtwarzać pliki AMR</string>
 
     <!--Settings -> Debug-->
     <string name="root_access">Dostęp do plików systemowych</string>
     <string name="root_access_no">Nie</string>
     <string name="root_access_yes">Tak</string>
-    <string name="dual_sim_phone">Telefon Dual Sim</string>
-    <string name="dual_sim_phone_summary">Pozwól, jeśli aplikacja nie jest w stanie określić połączenia z drugiej karty</string>
+    <string name="dual_sim_phone">Telefon z dwiema kartami SIM</string>
+    <string name="dual_sim_phone_summary">Pozwól, jeśli aplikacja nie jest w stanie określić połączenia z drugiej karty SIM</string>
     <string name="send_logs_to_the_developer">Wyślij logi do autora</string>
 
     <!-- General -->
@@ -535,7 +535,7 @@
     <string name="tip_long_click_avatar">Długie naciśnięcie avatara pokaże połączenia od tego kontaktu.</string>
     <string name="tip_select_item">Naciśnij długo element, aby go wybrać.</string>
     <string name="tip_select_all">Opcja Zaznacz wszystko będzie wyświetlana w menu kontekstowym.</string>
-    <string name="tip_audio_output">Naciśnij długo przycisk Play/Pause w celu przełączenia wyjścia audio.</string>
+    <string name="tip_audio_output">Naciśnij długo przycisk Graj/Pauza w celu przełączenia wyjścia audio.</string>
 
     <string name="category_contacts">Kontakty</string>
     <string name="link_to_contacts">Link do kontaktów</string>
@@ -572,9 +572,9 @@
     <string name="cloud_provider_onedrive">Microsoft OneDrive</string>
     <string name="sign_out_onedrive">Wyloguj z OneDrive</string>
     <string name="menu_add_to_onedrive">Dodaj do OneDrive</string>
-    <string name="not_charging">Brak ładowana</string>
-    <string name="cleanup_uploaded_only">Sprzątanie tylko plików wysłanych</string>
-    <string name="cleanup_uploaded_only_summary">Tylko pliki wysłane będą automatycznie usunięte</string>
+    <string name="not_charging">Brak ładowania</string>
+    <string name="cleanup_uploaded_only">Sprzątanie tylko wysłanych plików</string>
+    <string name="cleanup_uploaded_only_summary">Tylko wysłane pliki będą automatycznie usunięte</string>
     <string name="show_phone_numbers">Pokaż numer telefonu</string>
     <string name="cloud_upload_when_charging">Wyślij tylko podczas ładowania</string>
     <string name="notify_uploading_onedrive">Wyślij na OneDrive</string>
