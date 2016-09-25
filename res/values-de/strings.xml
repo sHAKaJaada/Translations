@@ -603,4 +603,12 @@
 
     <string name="cloud_allow_self_signed_cert">Selbstsignierte Zertifikate erlauben</string>
 
+    <string name="msg_nougat_warning_summary">Telefonaufzeichnung durch nicht-System Anwendungen ist unter Android 7.0 Nougat beschränkt. Somit werden für 2-Weg Aufzeichnungen Root Rechte benötigt. Bitte bedenken Sie dies, falls sie auf Android 7.0 Nougat updaten wollen.</string>
+    <string name="msg_additional_patch_required">Eventuell ist auf Ihrem Gerät ein Patch notwendig.</string>
+
+    <string name="rename_all_files">Alle Dateien umbenennen</string>
+    <string name="rename_all_files_summary">Alle bestehenden Dateien nach diesem Schema umbenennen</string>
+
+    <string name="long_operation_confirm">Diese Aktion könnte mehrere Minuten dauern. Wollen Sie sicher fortsetzen?</string>
+
     </resources>
