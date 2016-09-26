@@ -582,7 +582,7 @@
     <string name="cloud_upload_when_charging">僅在充電時上傳</string>
     <string name="notify_uploading_onedrive">上傳到OneDrive</string>
     <string name="auto_encryption">自動加密</string>
-    <string name="auto_encryption_summary">錄製通話後，加密WAV或AMR</string>
+    <string name="auto_encryption_summary">錄製通話後，加密錄音</string>
     <string name="auto_encryption_warning">自動加密將被禁用，因為它不支援選擇的錄音格式</string>
     <string name="enter_password_to_encrypt_recordings">輸入密碼，加密錄音</string>
 
@@ -604,5 +604,15 @@
     <string name="cloud_server_address">伺服器地址</string>
     <string name="cloud_login">登入</string>
     <string name="cloud_password">密碼</string>
+
+    <string name="msg_nougat_warning_summary">不幸的是，Android中7.0系統中如果不是系統內建程式是有限制的。考慮到這一點，如果您打算將設備升級至Android7.0與使用電話錄音功能，Root是必須的。</string>
+    <string name="msg_additional_patch_required">您的設備上可能需要其他修補。</string>
+
+    <string name="rename_all_files">重新命名所有檔案</string>
+    <string name="rename_all_files_summary">重新命名所有符合的檔案</string>
+
+    <string name="cloud_allow_self_signed_cert">允許自簽名的證書</string>
+
+    <string name="long_operation_confirm">此操作可能需要幾分鐘的時間。您確定要繼續？</string>
 
     </resources>
