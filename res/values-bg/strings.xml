@@ -215,7 +215,7 @@
     <string name="chipset_type_msm8255">Qualcomm MSM8255</string>
     <string name="chipset_type_msm8260">Qualcomm MSM8260</string>
     <string name="dont_use_amr_driver">Не използвай AMR драйвер</string>
-    <string name="dont_use_amr_driver_summary">Конвертирй WAV в AMR в реално време</string>
+    <string name="dont_use_amr_driver_summary">Конвертирай WAV в AMR в реално време</string>
 
     <!-- Settings -> Recording -> Exceptions -->
     
@@ -227,7 +227,7 @@
     
     
     <string name="exception_select_action">Избери действие</string>
-    <string name="exception_action_always_record">Вигани записвай</string>
+    <string name="exception_action_always_record">Винаги записвай</string>
     <string name="exception_action_never_record">Не записвай</string>
     
     
@@ -259,7 +259,7 @@
     <string name="pattern_phone_number">номер</string>
     <string name="pattern_call_time">време на повикване</string>
     
-    <string name="pattern_call_type">тип обаждане (вхдяшо или изходящо)</string>
+    <string name="pattern_call_type">тип обаждане (входящо или изходящо)</string>
     <string name="time_pattern_hours">часове</string>
     <string name="time_pattern_minutes">минути</string>
     <string name="time_pattern_seconds">секунди</string>
@@ -291,7 +291,7 @@
     <string name="show_button_while_ringing_summary">Показва бутон за контрол на разговора преди вдигане</string>
     <string name="vertical_position">Вертикална позиция</string>
     
-    <string name="horizontal_position">Хризонтална позиция</string>
+    <string name="horizontal_position">Хоризонтална позиция</string>
     
     
     <string name="hide_button_before_answer_summary">Не показва бутона за контрол преди да е установена връзка</string>
@@ -447,7 +447,7 @@
     <string name="polish_translation_summary">Robert Gonta</string>
     <string name="french_translation">Френски превод</string>
     <string name="french_translation_summary">Julien Boiteux</string>
-    <string name="brazilian_portuguese_translation">Потругалски превод</string>
+    <string name="brazilian_portuguese_translation">Португалски превод</string>
     <string name="brazilian_portuguese_translation_summary">Luiz Marcelo Serique</string>
     <string name="spanish_translation">Испански превод</string>
     <string name="spanish_translation_summary">Iñigo Garcia и Diego Vilas</string>
@@ -475,7 +475,7 @@
     <string name="serbian_translation_summary">sHAKaJaada™</string>
     <string name="korean_translation">Корейски превод</string>
     <string name="korean_translation_summary">SoHyunSeop и Joon Hee Jo</string>
-    <string name="romanian_translation">Румънски предод</string>
+    <string name="romanian_translation">Румънски превод</string>
     <string name="romanian_translation_summary">Dan P. (sad)</string>
     <string name="ukrainian_translation">Украински превод</string>
     <string name="ukrainian_translation_summary">Gennadi Samoluk</string>
@@ -530,7 +530,7 @@
     <string name="menu_convert_to_mp3">Конвертирaй в MP3</string>
     <string name="menu_convert_to_amr">Конвертирaй в AMR</string>
     <string name="menu_convert_to_wav">Конвертирaй в WAV</string>
-    <string name="menu_cancel_task">Певкрати задачата</string>
+    <string name="menu_cancel_task">Прекрати задачата</string>
     <string name="recording_type">Тип на записа</string>
     <string name="note">Бележка</string>
 
@@ -563,10 +563,10 @@
     <string name="recording_method_msm_settings">Настройки при запис с MSM</string>
     <string name="exceptions_summary">Задаване на специфични действия относно контакти, групи или номера</string>
     <string name="start_recording_on_answer">Запис при отговор</string>
-    <string name="start_recording_on_answer_summary">Записва след като линията е отворена. Приложеието използва заобиколен метод, за да определи кога са вдигнали от другата страна, така че може и да не сработи на някои устройства. Изисква се Root от Android 4.1. В ядрото трябва да се активира Logger.</string>
+    <string name="start_recording_on_answer_summary">Записва след като линията е отворена. Приложението използва заобиколен метод, за да определи кога са вдигнали от другата страна, така че може и да не сработи на някои устройства. Изисква се Root от Android 4.1. В ядрото трябва да се активира Logger.</string>
     <string name="delay_before_start_recording_summary">За изходящи: %1$s, за входящи: %2$s</string>
     <string name="delay_format_sec">%s сек</string>
-    <string name="delay_for_outgoing">За изгодящи</string>
+    <string name="delay_for_outgoing">За изходящи</string>
     <string name="delay_for_incoming">За входящи</string>
     <string name="settings_for_device">Настройки за %s</string>
     <string name="recording_format">Формат на записване</string>
@@ -608,8 +608,8 @@
     <string name="category_incall_control_button">Бутон за контрол по време на разговор</string>
     <string name="incall_control_for_outgoing_summary">Покажи бутона за контрол при изходящо обаждане</string>
     <string name="incall_control_for_incoming_summary">Покажи бутона за контрол при входящо обаждане</string>
-    <string name="hide_button_while_recording">Скрий битона при запис</string>
-    <string name="hide_button_while_recording_summary">Скриване на бутона ако обаждаенто вече се записва</string>
+    <string name="hide_button_while_recording">Скрий бутона при запис</string>
+    <string name="hide_button_while_recording_summary">Скриване на бутона ако обаждането вече се записва</string>
     <string name="vertical_position_summary">%s, вертикално изместване от центъра на екрана</string>
     <string name="horizontal_position_summary">%s, хоризонтално изместване от центъра на екрана</string>
     <string name="hide_button_before_answer">Скрий бутона преди отговор</string>
@@ -640,13 +640,13 @@
     <string name="delete_key_message">След като го изтриете няма да може да възстановите криптираните записи. Искате ли да продължите?</string>
     <string name="require_password_summary_no_key">Изисква се парола за да влезете в приложението. За да го активирате трябва първо да създадете ключ</string>
     <string name="app_admin_summary">Предпазва програмата от деинсталиране</string>
-    <string name="app_admin_explanation">Call Recorder не използва дуги функции от администриране на устройствата освен да се предпази от деинсталиране</string>
+    <string name="app_admin_explanation">Call Recorder не използва други функции от администриране на устройствата освен да се предпази от деинсталиране</string>
     <string name="use_built_in_player">Използване на вградения плеър</string>
     <string name="audio_output_summary">%s (задържането на бутона писни/пауза също ще го смени)</string>
     <string name="disable_autoplay">Отмени автостартирането</string>
     <string name="disable_autoplay_summary">Не стартира възпроизвеждането на записа при натискането му</string>
     <string name="use_proximity_sensor_summary">Гасене на екрана по време на възпроизвеждане от сензора за близост</string>
-    <string name="switch_audio_output_summary">Сменяне на аудио източника при изкл./вкл. на екрата от сензора за близост</string>
+    <string name="switch_audio_output_summary">Сменяне на аудио източника при изкл./вкл. на екрана от сензора за близост</string>
     <string name="send_logs_to_the_developer">Изпращане на логовете до разработчика</string>
     <string name="hide_all_notifications">Скрий всички известия</string>
     <string name="hide_all_notifications_summary">Ползвайте тази опция на собствена отговорност</string>
@@ -679,7 +679,7 @@
     <string name="no_recording_in_progress">Разговорът не се записва</string>
     <string name="about_call_recorder">Относно Call Recorder</string>
     <string name="category_other">Други</string>
-    <string name="open_source_licenses">Софруер с отворен код</string>
+    <string name="open_source_licenses">Софтуер с отворен код</string>
 
     <string name="category_translators">Преводачи</string>
     <string name="armenian_translation">Арменски превод</string>
@@ -697,7 +697,7 @@
     <string name="notify_converting_to_wav">Конвертиране в WAV</string>
     <string name="tip_click_avatar">Натиснете върху аватара, за да отворите контакта.</string>
     <string name="tip_long_click_avatar">Задръжте аватара, за да филтрирате всички обаждания от контакта.</string>
-    <string name="tip_select_item">Задръжте даден ред, за да го селектирате.</string>
+    <string name="tip_select_item">Задръжте даден ред, за да го маркирате.</string>
     <string name="tip_select_all">След това ще се появи опцията \"Избери всички\" в менюто.</string>
     <string name="tip_audio_output">Задръжте върху Пусни/Пауза, за да смените аудио източника.</string>
 
@@ -712,10 +712,10 @@
     <string name="app_description_0">Приложението е създадено с цел автоматично записване от телефонната линия, ако се поддържа от хардуера и ядрото. Записването е функция, която зависи много от устройството, защото производителите често не въвеждат необходимата функционалност на системно ниво, какви би трябвало да правят.</string>
     <string name="app_description_1">Поради тази причина трябва да имате root права на устройствата, на които производителите не са вградили необходимата функционалност. Това не дава гаранция, че ще работи на 100%, защото може да има други забрани на хардуерно ниво, но често помага.</string>
     <string name="app_description_2">Приложението използва различни методи за запис. Ако сте късметлия, ще успеете да запишете разговора от двете страни чрез метода Стандартно API без root достъп. Възможно е да се наложи да проверите всеки аудио източник от настройките на Стандартно API.</string>
-    <string name="app_description_3">Ако сте пробвали всички аудио източници от Стандартно API и няма запис или чувате само собствения си глас, значи че производителят не е вградил необходимата функционалност за това или е блокивал записването на системно ниво.</string>
+    <string name="app_description_3">Ако сте пробвали всички аудио източници от Стандартно API и няма запис или чувате само собствения си глас, значи че производителят не е вградил необходимата функционалност за това или е блокирал записването на системно ниво.</string>
     <string name="app_description_4">Необходимо е да имате root права, за да пробвате другите методи за запис. Важното за тези методи е да изберете в настройките правилното устройство или такова със същия чипсет.</string>
 <string name="delete_recording_after_upload">Изтриване на записите след качване</string>
-    <string name="delete_recording_after_upload_summary">Записите ще бъдат изтрити от у-вото, след успешно им качване в облака</string>
+    <string name="delete_recording_after_upload_summary">Записите ще бъдат изтрити от устройството, след успешно им качване в облака</string>
 
     <string name="auto_unlock">Автоматично отключване</string>
     <string name="auto_unlock_summary">Отключване при правилна парола без натискането на бутона ОК</string>
@@ -726,7 +726,7 @@
     <string name="button_dismiss">Отхвърлям</string>
 
     <string name="app_description_summary">Приложение за автоматичен запис на телефонни разговори</string>
-    <string name="msg_supersu_required">Приложението Ви за суперпотребител може да е несъвместимо. Пробвайте със SuperSu.</string>
+    <string name="msg_supersu_required">Приложението Ви за супер потребител може да е несъвместимо. Пробвайте със SuperSu.</string>
 
     <string name="show_button_to_add_star">Бутон за добавяне към Важни</string>
     <string name="button_install">Инсталиране</string>
