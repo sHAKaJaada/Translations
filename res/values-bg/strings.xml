@@ -768,4 +768,12 @@
 
     <string name="cloud_allow_self_signed_cert">Позволяване на сертификати</string>
 
+    <string name="msg_nougat_warning_summary">За съжаление функцията запис на не системни приложения е ограничена в Android 7.0 Nougat. Така че се изискват root права, за да може да записвате разговорите си. Имайте го в предвид преди да ъпгрейднете устройството си.</string>
+    <string name="msg_additional_patch_required">Вашето устройство може да се нуждае от допълнителна кръпка.</string>
+
+    <string name="rename_all_files">"Преименувай  всички файлове"</string>
+    <string name="rename_all_files_summary">Преименува всички файлове по шаблона по-горе</string>
+
+    <string name="long_operation_confirm">Процедурата може да отнеме няколко минути, искате ли да продължите?</string>
+
     </resources>
