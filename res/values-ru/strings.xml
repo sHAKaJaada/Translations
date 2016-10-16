@@ -612,14 +612,14 @@
 
     <string name="long_operation_confirm">Эта операция может занять несколько минут. Вы уверены, что хотите продолжить?</string>
 
-    <string name="backup_settings">Бэкап настроек</string>
-    <string name="settings_backup">Бэкап</string>
+    <string name="backup_settings">Резервная копия настроек</string>
+    <string name="settings_backup">Резервная копия</string>
     <string name="settings_restore">Восстановить</string>
     <string name="settings_restore_failed">Ошибка восстановления</string>
     <string name="settings_backup_summary">Все настройки будут сохранены в следующий файл:</string>
-    <string name="settings_backup_created">Бэкап создан: %s</string>
+    <string name="settings_backup_created">Резервная копия создана: %s</string>
     <string name="settings_restored">Настройки восстановлены</string>
-    <string name="settings_restored_summary">Чтобы убедиться, что бэкап восстановлен правильно</string>
+    <string name="settings_restored_summary">Чтобы убедиться, что резервная копия восстановлена правильно</string>
     <string name="settings_restored_summary_0">Проверьте ваши исключения в Настройках → Запись.</string>
     <string name="settings_restored_summary_1">В Настройках → Облако вам нужно заново войти.</string>
     <string name="settings_restored_summary_2">Проверьте Настройки → Запись если вы восстановили настройки от другого устройства.</string>
