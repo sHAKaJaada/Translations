@@ -38,9 +38,6 @@
     <string name="records_size">records: %1$s, size: %2$s</string>
     <string name="space_free_of">%1$s free of %2$s</string>
 
-    <!--Import settings -->
-    <string name="restore_settings">Restore settings</string>
-
     <!-- Warnings -->
     <string name="warning_root_required">Your phone must be rooted. Long tap to dismiss this message.</string>
     <string name="warning_low_space">Low space: %s</string>
@@ -113,6 +110,20 @@
     <!-- List -> Share -->
     <string name="share_via">Share via</string>
     <string name="recorded_calls">Recorded calls</string>
+
+    <!--  Settings -> Menu -->
+    <string name="backup_settings">Backup settings</string>
+    <string name="restore_settings">Restore settings</string>
+    <string name="settings_backup">Backup</string>
+    <string name="settings_restore">Restore</string>
+    <string name="settings_restore_failed">Restore failed</string>
+    <string name="settings_backup_summary">All settings will be saved to the following file:</string>
+    <string name="settings_backup_created">Backup created: %s</string>
+    <string name="settings_restored">Settings restored</string>
+    <string name="settings_restored_summary">To make sure backup restored correctly</string>
+    <string name="settings_restored_summary_0">Review your exceptions in Settings → Recording.</string>
+    <string name="settings_restored_summary_1">In Settings → Cloud you need to sign in again.</string>
+    <string name="settings_restored_summary_2">Check Settings → Recording if you\'ve restored settings from a different device.</string>
 
     <!--  Settings -> Headers -->
     <string name="settings_open_unlocker">Open Unlocker</string>
