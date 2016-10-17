@@ -612,4 +612,16 @@
 
     <string name="long_operation_confirm">Táto operácia môže trvať niekoľko minút. Ste si istí, že chcete pokračovať?</string>
 
+    <string name="backup_settings">Zálohovať nastavenia</string>
+    <string name="settings_backup">Zálohovať</string>
+    <string name="settings_restore">Obnoviť</string>
+    <string name="settings_restore_failed">Obnovenie zlyhalo</string>
+    <string name="settings_backup_summary">Všetky nastavenia budú uložené do nasledujúceho súboru:</string>
+    <string name="settings_backup_created">Vytvorená záloha: %s</string>
+    <string name="settings_restored">Nastavenia obnovené</string>
+    <string name="settings_restored_summary">Uistite sa, že záloha bola obnovená správne</string>
+    <string name="settings_restored_summary_0">Skontrolujte vaše výnimky v Nastavenia → Nahrávanie</string>
+    <string name="settings_restored_summary_1">v Nastavenia → Vzdialené úložisko sa musíte opäť prihlásiť</string>
+    <string name="settings_restored_summary_2">Skontrolujte Nastavenia → Nahrávanie ak ste obnovili nastavenia z iného zariadenia</string>
+
     </resources>
