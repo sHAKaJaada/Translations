@@ -564,4 +564,16 @@
 
     <string name="long_operation_confirm">See tegevus võib võtta aega mitu minutit. Oled kindel, et soovid jätkata?</string>
 
+    <string name="backup_settings">Varunduse seaded</string>
+    <string name="settings_backup">Varundus</string>
+    <string name="settings_restore">Taastada</string>
+    <string name="settings_restore_failed">Taastamine ebaõnnestus</string>
+    <string name="settings_backup_summary">Kõik seaded salvestatakse faili:</string>
+    <string name="settings_backup_created">Varundus teostatud: %s</string>
+    <string name="settings_restored">Seaded taastatud</string>
+    <string name="settings_restored_summary">Varunduse korrektsuse veendumiseks</string>
+    <string name="settings_restored_summary_0">Kontrolli erandid asukohas Seaded → Salvestus.</string>
+    <string name="settings_restored_summary_1">Vajalik uuesti sisselogimine asukohas Seaded → Pilv.</string>
+    <string name="settings_restored_summary_2">Kontrolli Seaded → Salvestamine kui toimus taaste teisest seadmest.</string>
+
     </resources>
