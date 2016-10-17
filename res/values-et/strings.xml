@@ -35,7 +35,7 @@
     <string name="records_size">salvestisi: %1$s, maht: %2$s</string>
     <string name="space_free_of">%1$s vaba %2$s -st</string>
 
-    <string name="restore_settings">Taasta seaded</string>
+    <string name="restore_settings">Seadede taastamine</string>
 
     <string name="warning_root_required">Sinu telefon peab olema rooditud. Pikk vajutus selle teate eemaldamiseks.</string>
     <string name="warning_low_space">Vähe ruumi: %s</string>
@@ -564,16 +564,16 @@
 
     <string name="long_operation_confirm">See tegevus võib võtta aega mitu minutit. Oled kindel, et soovid jätkata?</string>
 
-    <string name="backup_settings">Varunduse seaded</string>
+    <string name="backup_settings">Seadete varundus</string>
     <string name="settings_backup">Varundus</string>
     <string name="settings_restore">Taastada</string>
     <string name="settings_restore_failed">Taastamine ebaõnnestus</string>
-    <string name="settings_backup_summary">Kõik seaded salvestatakse faili:</string>
+    <string name="settings_backup_summary">Kõik seaded salvestatakse järgnevasse faili:</string>
     <string name="settings_backup_created">Varundus teostatud: %s</string>
     <string name="settings_restored">Seaded taastatud</string>
     <string name="settings_restored_summary">Varunduse korrektsuse veendumiseks</string>
-    <string name="settings_restored_summary_0">Kontrolli erandid asukohas Seaded → Salvestus.</string>
-    <string name="settings_restored_summary_1">Vajalik uuesti sisselogimine asukohas Seaded → Pilv.</string>
-    <string name="settings_restored_summary_2">Kontrolli Seaded → Salvestamine kui toimus taaste teisest seadmest.</string>
+    <string name="settings_restored_summary_0">Kontrolli oma erandid kohas Seaded → Salvestamine.</string>
+    <string name="settings_restored_summary_1">Kohas Seaded → Pilv peab uuesti sisse logima.</string>
+    <string name="settings_restored_summary_2">Kontrolli Seaded → Salvestamine kui taastasid teise seadme seadeid.</string>
 
     </resources>
