@@ -606,7 +606,7 @@
     <string name="msg_nougat_warning_summary">לצערנו, אפשרות הקלטת השיחות של אפליקציות שאינן שייכות למערכת, מוגבלת באנדרואיד 7.0 נוגט ולכן רוט הכרחי להקלטת שני צידי השיחה. קחו זאת בחשבון אם אתם מתכוונים לשדרג את מכשירכם לאנדרואיד 7.0 נוגט.</string>
     <string name="msg_additional_patch_required">ייתכן צורך בפטצ\' נוסף למכשירך.</string>
 
-    <string name="rename_all_files">שנה את שמות כל הקבצים.</string>
+    <string name="rename_all_files">שנה את שמות כל הקבצים</string>
     <string name="rename_all_files_summary">שנה את שמות כל הקבצים בהתאם לתבנית</string>
 
     <string name="long_operation_confirm">תהליך זה עלול להמשך מספר דקות. האם אתה בטוח שברצונך להמשיך?</string>
