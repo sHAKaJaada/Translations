@@ -611,4 +611,16 @@
 
     <string name="long_operation_confirm">תהליך זה עלול להמשך מספר דקות. האם אתה בטוח שברצונך להמשיך?</string>
 
+    <string name="backup_settings">גבה הגדרות</string>
+    <string name="settings_backup">גיבוי</string>
+    <string name="settings_restore">שחזר</string>
+    <string name="settings_restore_failed">שיחזור נכשל</string>
+    <string name="settings_backup_summary">כל ההגדרות ישמרו לקובץ:</string>
+    <string name="settings_backup_created">גיבוי נוצר: %s</string>
+    <string name="settings_restored">הגדרות שוחזרו</string>
+    <string name="settings_restored_summary">כדי לוודא שהגיבוי שוחזר כראוי</string>
+    <string name="settings_restored_summary_0">בדוק את החריגים שלך בהגדרות \tהקלטות.</string>
+    <string name="settings_restored_summary_1">בהגדרות \tענן אתה צריך להתחבר מחדש.</string>
+    <string name="settings_restored_summary_2">בדוק הגדרות\tהקלטותאם שחזרת את ההגדרות ממכשיר אחר.</string>
+
     </resources>
