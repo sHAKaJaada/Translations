@@ -518,7 +518,7 @@
 <string name="records_size">записи: %1$s, размер: %2$s</string>
     <string name="space_free_of">%1$s свободни от %2$s</string>
 
-    <string name="restore_settings">Настройки по подразбиране</string>
+    <string name="restore_settings">Възстановяване</string>
 
     <string name="list_header_today">Днес</string>
     <string name="list_header_yesterday">Вчера</string>
@@ -775,5 +775,17 @@
     <string name="rename_all_files_summary">Преименува всички файлове по шаблона по-горе</string>
 
     <string name="long_operation_confirm">Процедурата може да отнеме няколко минути, искате ли да продължите?</string>
+
+    <string name="backup_settings">Архивиране</string>
+    <string name="settings_backup">Архивирай</string>
+    <string name="settings_restore">Възстанови</string>
+    <string name="settings_restore_failed">Възстановяването се провали</string>
+    <string name="settings_backup_summary">Настройките ще бъдат запазени във файла:</string>
+    <string name="settings_backup_created">Архив: %s</string>
+    <string name="settings_restored">Настройките са възстановени</string>
+    <string name="settings_restored_summary">За да сте сигурни, че възстановяването е успешно</string>
+    <string name="settings_restored_summary_0">Прегледайте изключенията в Настройки → Записване.</string>
+    <string name="settings_restored_summary_1">Трябва да се впишете отново в Настройки → Облак.</string>
+    <string name="settings_restored_summary_2">Проверете Настройки → Записване, ако сте възстановили от различно устройство.</string>
 
     </resources>
