@@ -612,4 +612,16 @@
 
     <string name="long_operation_confirm">Tato operace může trvat pár minut. Jsi si jistý(á) zahájením?</string>
 
+    <string name="backup_settings">Zálohovat nastavení</string>
+    <string name="settings_backup">Zálohovat</string>
+    <string name="settings_restore">Obnovit</string>
+    <string name="settings_restore_failed">Obnovení selhalo</string>
+    <string name="settings_backup_summary">Všechna nastavení budou uložena do souboru:</string>
+    <string name="settings_backup_created">Vytvořena záloha: %s</string>
+    <string name="settings_restored">Nastavení obnoveno</string>
+    <string name="settings_restored_summary">Ujisti se, zda byla záloha obnovena správně</string>
+    <string name="settings_restored_summary_0">Zkontroluj si změny v Nastavení → Nahrávání.</string>
+    <string name="settings_restored_summary_1">V Nastavení → Cloud je nutné se znovu přihlásit.</string>
+    <string name="settings_restored_summary_2">Zkontroluj Nastavení → Nahrávání pokud jsi obnovil nastavení z jiného zařízení.</string>
+
     </resources>
