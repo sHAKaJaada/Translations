@@ -607,4 +607,16 @@
 
     <string name="long_operation_confirm">Гэта аперацыя можа заняць некалькі хвілін. Вы ўпэўнены, што жадаеце працягнуць?</string>
 
+    <string name="backup_settings">Рэзервовая копія налад</string>
+    <string name="settings_backup">Рэзервовая копія</string>
+    <string name="settings_restore">Аднавіць</string>
+    <string name="settings_restore_failed">Памылка аднаўлення</string>
+    <string name="settings_backup_summary">Усе налады будуць захаваны ў наступны файл:</string>
+    <string name="settings_backup_created">Рэзервовая копія створана: %s</string>
+    <string name="settings_restored">Налады адноўлены</string>
+    <string name="settings_restored_summary">Каб упэўніцца, што рэзервовая копія адноўлена правільна</string>
+    <string name="settings_restored_summary_0">Праверце вашы выключэнні ў Наладах &gt; Запіс.</string>
+    <string name="settings_restored_summary_1">У Наладах &gt; Воблака вам трэба нанова ўвайсці.</string>
+    <string name="settings_restored_summary_2">Праверце Налады &gt; Запіс калі вы аднавілі налады ад іншай прылады.</string>
+
     </resources>
