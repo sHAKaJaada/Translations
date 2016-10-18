@@ -622,6 +622,6 @@
     <string name="settings_restored_summary">Ujisti se, zda byla záloha obnovena správně</string>
     <string name="settings_restored_summary_0">Zkontroluj si změny v Nastavení → Nahrávání.</string>
     <string name="settings_restored_summary_1">V Nastavení → Cloud je nutné se znovu přihlásit.</string>
-    <string name="settings_restored_summary_2">Zkontroluj Nastavení → Nahrávání pokud jsi obnovil nastavení z jiného zařízení.</string>
+    <string name="settings_restored_summary_2">Zkontroluj Nastavení → Nahrávání pokud jsi obnovil(a) nastavení z jiného zařízení.</string>
 
     </resources>
