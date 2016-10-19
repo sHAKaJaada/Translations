@@ -39,7 +39,7 @@
     <string name="space_free_of">%1$s слободно од %2$s</string>
 
     <!--Import settings -->
-    <string name="restore_settings">Поништити подешавања</string>
+    <string name="restore_settings">Обновити подешавања</string>
 
     <!-- Warnings -->
     <string name="warning_root_required">Телефон мора имати root приступ. Притисните овде да сакријете поруку.</string>
@@ -114,7 +114,7 @@
     <string name="license_help">Помоћ</string>
     <string name="license_signature_verification_failed">Грешка приликом провере потписа</string>
     <string name="license_error_message">Грешка #%1$s: %2$s</string>
-    <string name="license_trial">Пробни период истиче %s</string>
+    <string name="license_trial">Пробни период, истиче %s</string>
     <string name="license_unknown_error">Непозната грешка</string>
     <string name="license_not_market_managed">Ова верзија још увек није објављена на Play Store</string>
     <string name="license_incorrect_response">Неисправан Play Store одговор о лиценци</string>
@@ -193,7 +193,7 @@
     <string name="api_source_voice_communication">Гласовна комуникација</string>
     <string name="category_wav_settings">WAV подешавања</string>
     <string name="category_wav_and_mp3_settings">WAV &amp; MP3 подешавања</string>
-    <string name="when_bt_connected">Када је Bluetooth повезан...</string>
+    <string name="when_bt_connected">Када је Bluetooth повезан…</string>
     <string name="audio_source_when_bt_connected">Аудио извор када је BT повезан</string>
 
     <!-- Actions when BT connected -->
@@ -300,7 +300,7 @@
     <string name="long_press_action_hang_up">Одбаци позив и позови број аутоматски</string>
     <string name="category_main_screen">Главни приказ</string>
     <string name="hide_starred_recordings">Сакрити фаворизоване снимке</string>
-    <string name="hide_starred_recordings_summary">Не приказивати фаворизоване снимке</string>
+    <string name="hide_starred_recordings_summary">Не приказивати фаворизоване снимке у менију свих снимака</string>
     <string name="low_space_warning">Упозорење о количини меморијског простора</string>
     <string name="low_space_warning_summary">Упозори када је количина слободне меморија мања од: (унети вредност у MiB)</string>
 
@@ -348,10 +348,10 @@
     <string name="require_password_summary_no_key">Захтев лозинке за приступ апликацији. Потребно је прво креирати кључ</string>
     <string name="lock_after">Закључати после</string>
     <string name="lock_after_exit">Излаза</string>
-    <string name="lock_after_1_minute">1 мин.</string>
-    <string name="lock_after_3_minutes">3 мин.</string>
-    <string name="lock_after_5_minutes">5 мин.</string>
-    <string name="lock_after_10_minutes">10 мин.</string>
+    <string name="lock_after_1_minute">1 мин</string>
+    <string name="lock_after_3_minutes">3 мин</string>
+    <string name="lock_after_5_minutes">5 мин</string>
+    <string name="lock_after_10_minutes">10 мин</string>
     <string name="app_admin">Администратор уређаја</string>
     <string name="app_admin_summary">Неопходно ради заштите од деинсталације</string>
     <string name="app_admin_explanation">Call Recorder не користи друге административне дозволе осим заштите од деинсталације</string>
@@ -425,7 +425,7 @@
     <string name="waiting_for_answer">Чекање одговора</string>
     <string name="recording_in_progress">Снимање у току</string>
     <string name="no_recording_in_progress">Не снима се</string>
-    <string name="an_error_has_occurred">Дошло је до грешке! Позив није снимљен.</string>
+    <string name="an_error_has_occurred">Дошло је до грешке! Позив није снимљен</string>
 
     <!--About-->
     <string name="about_call_recorder">Инфо о Call Recorder апликацији</string>
@@ -448,7 +448,7 @@
     <string name="french_translation">Француски превод</string>
     <string name="french_translation_summary">Julien Boiteux</string>
     <string name="brazilian_portuguese_translation">Португалски (Бразил) превод</string>
-    <string name="brazilian_portuguese_translation_summary">Luiz Marcelo Serique</string>
+    <string name="brazilian_portuguese_translation_summary">Luiz Marcelo Serique и Alexandre Beck</string>
     <string name="spanish_translation">Шпански превод</string>
     <string name="spanish_translation_summary">Iñigo Garcia и Diego Vilas</string>
     <string name="slovak_translation">Словачки превод</string>
@@ -496,7 +496,7 @@
     <string name="georgian_translation">Грузински превод</string>
     <string name="georgian_translation_summary">Sandro Razmadze</string>
     <string name="catalan_translation">Каталонски превод</string>
-    <string name="catalan_translation_summary">cybdani</string>
+    <string name="catalan_translation_summary">cybdani и Jordi Miró</string>
     <string name="hindi_translation">Хинди превод</string>
     <string name="hindi_translation_summary">TheTAMAS Gautam</string>
     <string name="punjabi_translation">Панџаби превод</string>
@@ -566,7 +566,7 @@
 
     <string name="app_description_summary">Апликација за аутоматско снимање телефонских разговора</string>
     <string name="msg_supersu_required">Могуће је да је Ваша Суперкорисничка апликација некомпатибилна. Молим да инсталирате SuperSU.</string>
-    <string name="msg_grant_permissions">Омогућите приступ.</string>
+    <string name="msg_grant_permissions">Омогућите приступ</string>
     <string name="msg_grant_permissions_summary">Апликација неће радити док не омогућите приступ</string>
 
     <string name="not_charging">Није на пуњачу</string>
