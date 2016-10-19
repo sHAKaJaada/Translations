@@ -612,4 +612,16 @@
 
     <string name="long_operation_confirm">Ta operacja może zająć parę minut. Czy jesteś pewien/pewna, że chcesz rozpocząć?</string>
 
+    <string name="backup_settings">Ustawienia kopii zapasowych</string>
+    <string name="settings_backup">Kopia zapasowa</string>
+    <string name="settings_restore">Przywróć</string>
+    <string name="settings_restore_failed">Przywracanie nie powiodło się</string>
+    <string name="settings_backup_summary">Wszystkie ustawienia zostaną zapisane w pliku:</string>
+    <string name="settings_backup_created">Utworzono kopię zapasową: %s</string>
+    <string name="settings_restored">Przywrócono ustawienia</string>
+    <string name="settings_restored_summary">Aby upewnić się, że kopia zapasowa zostanie przywrócona poprawnie</string>
+    <string name="settings_restored_summary_0">Przejrzyj swoje wyjątki w Ustawienia -&gt; Nagrywanie.</string>
+    <string name="settings_restored_summary_1">W Ustawienia → Chmura musisz zalogować się ponownie.</string>
+    <string name="settings_restored_summary_2">Sprawdź Ustawienia → Nagrywanie, jeśli przywrócono ustawienia z innego urządzenia.</string>
+
     </resources>
