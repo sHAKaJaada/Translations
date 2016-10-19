@@ -620,7 +620,7 @@
     <string name="settings_backup_created">Utworzono kopię zapasową: %s</string>
     <string name="settings_restored">Przywrócono ustawienia</string>
     <string name="settings_restored_summary">Aby upewnić się, że kopia zapasowa zostanie przywrócona poprawnie</string>
-    <string name="settings_restored_summary_0">Przejrzyj swoje wyjątki w Ustawienia -&gt; Nagrywanie.</string>
+    <string name="settings_restored_summary_0">Przejrzyj swoje wyjątki w Ustawienia → Nagrywanie.</string>
     <string name="settings_restored_summary_1">W Ustawienia → Chmura musisz zalogować się ponownie.</string>
     <string name="settings_restored_summary_2">Sprawdź Ustawienia → Nagrywanie, jeśli przywrócono ustawienia z innego urządzenia.</string>
 
