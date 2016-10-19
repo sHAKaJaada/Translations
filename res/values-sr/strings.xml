@@ -580,9 +580,49 @@
     <string name="cloud_upload_when_charging">Слање само када је на пуњачу</string>
     <string name="notify_uploading_onedrive">Слање на OneDrive</string>
     <string name="auto_encryption">Аутоматско дешифровање</string>
-    <string name="auto_encryption_summary">Шифровање WAV или AMR снимака после позива</string>
+    <string name="auto_encryption_summary">Шифровање снимака после позива</string>
     <string name="auto_encryption_warning">Аутоматско шифровање ће бити онемогућено услед неподржавања жељеног формата снимка</string>
     <string name="enter_password_to_encrypt_recordings">Унети лозинку за шифровање снимака</string>
 
     <string name="button_install">Инсталација</string>
+    <string name="msg_nougat_warning_summary">"Нажалост, постоје ограничења у снимању позива код несистемских аликација у  Android 7.0 Nougat. За двострано снимање је неопходан рут приступ. Имајте ово на уму уколико планирате надоградњу на Android 7.0 Nougat."</string>
+    <string name="msg_additional_patch_required">Уређај може захтевати додатне преправке система.</string>
+
+    <string name="menu_add_to_box">Додати у Box</string>
+    <string name="menu_add_to_yandex">Додати у Yandex.Disk</string>
+    <string name="menu_add_to_webdav">Додати у WebDAV</string>
+    <string name="backup_settings">Подешавања резервне копије</string>
+    <string name="settings_backup">Резервна копија</string>
+    <string name="settings_restore">Повратак резервне копије</string>
+    <string name="settings_restore_failed">Неуспешни повратак резервне копије</string>
+    <string name="settings_backup_summary">Сва подешавања ће бити сачувана у:</string>
+    <string name="settings_backup_created">Сачувани опоравак: %s</string>
+    <string name="settings_restored">Подешавања су враћена</string>
+    <string name="settings_restored_summary">Ради сигурности да је опоравак исправно одрађен</string>
+    <string name="settings_restored_summary_0">Преконтролисати изузетке у: Подешавања → Снимање.</string>
+    <string name="settings_restored_summary_1">Потребно је да се пријавите поново у Облак.</string>
+    <string name="rename_all_files">Преименовати све датотеке</string>
+    <string name="sign_out_box">Одјава из Box-а</string>
+    <string name="sign_out_yandex">Одјава са Yandex.Disk</string>
+    <string name="sign_out_webdav">Одјава са WebDAV</string>
+    <string name="cloud_provider_box">Box</string>
+    <string name="cloud_provider_yandex">Yandex.Disk</string>
+    <string name="cloud_provider_webdav">WebDAV</string>
+    <string name="cloud_server_address">Адреса сервера</string>
+    <string name="cloud_login">Пријава</string>
+    <string name="cloud_password">Лозинка</string>
+    <string name="cloud_allow_self_signed_cert">Дозволити аутоматско пријављивање</string>
+
+    <string name="notify_uploading_box">"Слање у  Box"</string>
+    <string name="notify_uploading_yandex">Слање на Yandex.Disk</string>
+    <string name="notify_uploading_webdav">Слање на WebDAV</string>
+    <string name="long_operation_confirm">Овај процес може потрајати. Желите ли да наставите?</string>
+
+    <string name="estonian_translation">Естонски превод</string>
+    <string name="estonian_translation_summary">Arthur Kono</string>
+
+    <string name="settings_restored_summary_2">Проверите у Подешавања → Снимање да нисте вратили подешавања од другог уређаја.</string>
+
+    <string name="rename_all_files_summary">Преименовати датотеке тако да одговарају обрасцу</string>
+
     </resources>
